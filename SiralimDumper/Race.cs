@@ -29,6 +29,9 @@ namespace SiralimDumper
         }
 
         private static Dictionary<string, Race>? _Database;
+        /// <summary>
+        /// All the races in the game.
+        /// </summary>
         public static Dictionary<string, Race> Database
         {
             get

@@ -40,6 +40,9 @@ namespace SiralimDumper
         }
 
         private static Dictionary<int, Trait>? _Database;
+        /// <summary>
+        /// All the traits in the game.
+        /// </summary>
         public static Dictionary<int, Trait> Database
         {
             get

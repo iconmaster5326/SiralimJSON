@@ -65,6 +65,9 @@ namespace SiralimDumper
         /// See also <see cref="Race"/>.
         /// </summary>
         public string RaceName;
+        /// <summary>
+        /// How much Speed this creature gains per level.
+        /// </summary>
         public int SpeedGrowth;
 
         public Creature(
