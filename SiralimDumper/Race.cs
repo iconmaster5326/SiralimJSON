@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using YYTKInterop;
 
@@ -66,6 +67,7 @@ namespace SiralimDumper
     Class='{Class}',
     Master={master},
     BossDialogue=['{string.Join("', '", BossDialogue)}'],
+    IconID={IconID},
 )";
         }
 
@@ -168,6 +170,28 @@ namespace SiralimDumper
                     result.Add(Game.Engine.CallScript("gml_Script_scr_BossGetDialog", Name));
                 }
                 return result.Order().ToList();
+            }
+        }
+        /// <summary>
+        /// The sprite ID of the icon associated with this race.
+        /// </summary>
+        public int? IconID
+        {
+            get
+            {
+                Creature? creature = Creatures.FirstOrDefault<Creature?>();
+                if (creature == null)
+                {
+                    return null;
+                }
+                using (var tci = new TempCreatureInstance(creature)) {
+                    string iconString = Game.Engine.CallScript("gml_Script_scr_CritIcon", tci.Instance, true);
+                    var match = Regex.Match(iconString, "^\\[(.*)\\]");
+                    if (!match.Success || match.Groups[1].Value.Length == 0) {
+                        return null;
+                    }
+                    return match.Groups[1].Value.GetGMLAssetID();
+                }
             }
         }
     }

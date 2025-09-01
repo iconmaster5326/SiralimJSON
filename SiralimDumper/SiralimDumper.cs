@@ -39,9 +39,12 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
 
-                //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", 1, 0, 0);
-                //var v = Game.Engine.CallScript("gml_Script_scr_BossGetDialog", "Elf");
-                //Framework.Print($"[SiralimDumper] {v.PrettyPrint().EscapeNonWS()}");
+                //for (int i = 1; i < 2000; i++)
+                //{
+                //    var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_CritIcon", cobj, true);
+                //    Framework.Print($"[SiralimDumper] {v.PrettyPrint().EscapeNonWS()}");
+                //}
 
                 Environment.Exit(0);
             }
