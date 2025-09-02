@@ -59,8 +59,9 @@ namespace SiralimDumper
     )";
             }
             return $@"Race(
-    Creatures=[{string.Join(", ", Creatures.Select(c => c.Name))}],
     Name={Name},
+    Creatures=[{string.Join(", ", Creatures.Select(c => c.Name))}],
+    CardSetID={CardSetID},
     NumCards={NumCards},
     CardsRequiredForBonuses=[{string.Join(", ", CardsRequiredForBonuses)}],
     CardBonusDescriptions=['{string.Join("', '", CardBonusDescriptions)}'],
@@ -82,21 +83,46 @@ namespace SiralimDumper
         public Trait MasterTrait => Trait.Database[MasterTraitID];
 
         /// <summary>
+        /// The ID of the card set this race has, or null if this race does not have cards.
+        /// </summary>
+        public int? CardSetID => Game.Engine.GetGlobalObject()["card_races"].GetArray()
+            .Index()
+            .Where(kv => Name.Equals(kv.Item.GetString()))
+            .Select(kv => kv.Index)
+            .Cast<int?>()
+        .FirstOrDefault();
+
+        /// <summary>
         /// The number of cards in this race's card set.
         /// 0 if this race does not have cards.
         /// </summary>
-        public int NumCards => Game.Engine.CallScript("gml_Script_inv_CardsInSet", Name);
+        public int NumCards
+        {
+            get
+            {
+                int? id = CardSetID;
+
+                if (id == null)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return Game.Engine.GetGlobalObject()["card_count"].GetArray()[id.Value];
+                }
+            }
+        }
 
         /// <summary>
         /// Does this race have a card set?
         /// </summary>
-        public bool HasCards => NumCards != 0;
+        public bool HasCards => CardSetID != null;
 
         /// <summary>
         /// How many card bonuses does this card set have?
-        /// This is currently 3 in all cases.
+        /// This is currently 3 in all cases this race has cards.
         /// </summary>
-        public int NumCardBonuses => 3;
+        public int NumCardBonuses => HasCards ? 3 : 0;
 
         /// <summary>
         /// How many cards does it take to reach a certain card bonus?
@@ -114,7 +140,11 @@ namespace SiralimDumper
                 default: throw new Exception($"Card bonus out of bounds: {i}");
             }
         }
-        public int[] CardsRequiredForBonuses => [CardsRequiredForBonus(1), CardsRequiredForBonus(2), CardsRequiredForBonus(3)];
+
+        /// <summary>
+        /// The number of cards required for all card bonuses this race has.
+        /// </summary>
+        public int[] CardsRequiredForBonuses => HasCards ? [CardsRequiredForBonus(1), CardsRequiredForBonus(2), CardsRequiredForBonus(3)] : [];
 
         /// <summary>
         /// Gets the English text of a card bonus in this race's card set.
@@ -126,7 +156,11 @@ namespace SiralimDumper
         {
             return Game.Engine.CallScript("gml_Script_inv_CardSetBonus", Name, i);
         }
-        public string[] CardBonusDescriptions => [CardBonusDescription(1), CardBonusDescription(2), CardBonusDescription(3)];
+
+        /// <summary>
+        /// The English descriptions of all card bonuses this race has.
+        /// </summary>
+        public string[] CardBonusDescriptions => HasCards ? [CardBonusDescription(1), CardBonusDescription(2), CardBonusDescription(3)] : [];
 
         /// <summary>
         /// The general class of this race.
@@ -184,10 +218,12 @@ namespace SiralimDumper
                 {
                     return null;
                 }
-                using (var tci = new TempCreatureInstance(creature)) {
+                using (var tci = new TempCreatureInstance(creature))
+                {
                     string iconString = Game.Engine.CallScript("gml_Script_scr_CritIcon", tci.Instance, true);
                     var match = Regex.Match(iconString, "^\\[(.*)\\]");
-                    if (!match.Success || match.Groups[1].Value.Length == 0) {
+                    if (!match.Success || match.Groups[1].Value.Length == 0)
+                    {
                         return null;
                     }
                     return match.Groups[1].Value.GetGMLAssetID();
