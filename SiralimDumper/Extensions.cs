@@ -355,6 +355,10 @@ namespace SiralimDumper
                         var refType = as_str.Remove(0, "ref ".Length);
                         var refTypeParsed = refType.Split(" ").ToList();
 
+                        if (refTypeParsed[0].Equals("instance"))
+                        {
+                            return GameInstance.FromInstanceID(int.Parse(refTypeParsed.Last())).PrettyPrint(seenIDs);
+                        }
                         if (refTypeParsed[0].Equals("ds_list"))
                         {
                             as_array = var.GetDSList();
@@ -483,7 +487,7 @@ namespace SiralimDumper
             return sb.ToString();
         }
 
-        public static string PrettyPrint<T>(this GameInstance inst, HashSet<int>? seenIDs = null)
+        public static string PrettyPrint(this GameInstance inst, HashSet<int>? seenIDs = null)
         {
             if (seenIDs == null)
             {
@@ -492,7 +496,7 @@ namespace SiralimDumper
 
             if (seenIDs.Contains(inst.ID))
             {
-                return $"<instance {inst.ID} of object {inst.Name}: (...)>";
+                return $"<instance {inst.ID} of {inst.Name}: (...)>";
             }
             else
             {
@@ -528,6 +532,10 @@ namespace SiralimDumper
                 result[key] = Game.Engine.CallFunction("ds_map_find_value", v, key);
             }
             return result;
+        }
+        public static GameInstance GetRefInstance(this GameVariable v)
+        {
+            return GameInstance.FromInstanceID(int.Parse(v.GetString().Split(" ").Last()));
         }
     }
 }

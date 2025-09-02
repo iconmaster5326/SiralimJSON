@@ -61,6 +61,7 @@ namespace SiralimDumper
     ShortDescription='{ShortDescription}',
     IconID={IconID},
     IconIndex={IconIndex},
+    Item='{ItemSpellProperty.Database[ItemID].Name}',
 )";
         }
 
@@ -96,5 +97,9 @@ namespace SiralimDumper
                 return int.Parse(value);
             }
         }
+        /// <summary>
+        /// Returns the ID of the <see cref="ItemSpellProperty"/> that applies this property.
+        /// </summary>
+        public int ItemID => Game.Engine.CallScript("gml_Script_inv_SpellGemGetMaterialByStat", ID);
     }
 }

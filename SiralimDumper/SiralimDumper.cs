@@ -40,12 +40,17 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 0; i < 30; i++)
+                //for (int i = 0; i < 28; i++)
                 //{
                 //    //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
-                //    var v = Game.Engine.CallScript("gml_Script_inv_SpellReserved", i);
+                //    //var sgobj = Game.Engine.CallScript("gml_Script_inv_CreateSpellGem", 1);
+                //    var v = Game.Engine.CallScript("gml_Script_inv_SpellGemGetMaterialByStat", i);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
+                //    v = Game.Engine.CallScript("gml_Script_inv_CreateDust", v);
+                //    v = Game.Engine.CallScript("gml_Script_inv_ItemGetName", v);
+                //    Framework.Print($"[SiralimDumper]      => {v.PrettyPrint().EscapeNonWS()}");
                 //}
 
                 Environment.Exit(0);
