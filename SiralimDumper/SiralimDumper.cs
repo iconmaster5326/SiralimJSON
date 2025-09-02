@@ -41,6 +41,7 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
 
                 //for (int i = 0; i < 28; i++)
                 //{
