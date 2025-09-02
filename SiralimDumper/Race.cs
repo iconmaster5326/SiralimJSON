@@ -53,7 +53,7 @@ namespace SiralimDumper
     NumCards={NumCards},
     CardsRequiredForBonuses=[{string.Join(", ", CardsRequiredForBonuses)}],
     CardBonusDescriptions=['{string.Join("', '", CardBonusDescriptions)}'],
-    Class='{Class}',
+    Class={Class},
     Master={master},
     BossDialogue=['{string.Join("', '", BossDialogue)}'],
     IconID={IconID},
@@ -154,7 +154,7 @@ namespace SiralimDumper
         /// The general class of this race.
         /// Not all members of this race may belong to this class!
         /// </summary>
-        public string Class => Game.Engine.CallScript("gml_Script_scr_GetClassOfRace", Name);
+        public SiralimClass Class => EnumUtil.ClassFromString(Game.Engine.CallScript("gml_Script_scr_GetClassOfRace", Name));
 
         /// <summary>
         /// Does this race have a Rodian Master?

@@ -8,37 +8,6 @@ using YYTKInterop;
 
 namespace SiralimDumper
 {
-    /// <summary>
-    /// How a spell may select targets. 
-    /// Types 1, 2, and 3 are considered AoE, and subject to the potency reduction.
-    /// </summary>
-    public enum SpellTargetingType
-    {
-        /// <summary>
-        /// One target.
-        /// </summary>
-        ONE,
-        /// <summary>
-        /// All enemies.
-        /// Subject to AoE penalty.
-        /// </summary>
-        ENEMIES,
-        /// <summary>
-        /// All allies.
-        /// Subject to AoE penalty.
-        /// </summary>
-        ALLIES,
-        /// <summary>
-        /// All creatures.
-        /// Subject to AoE penalty.
-        /// </summary>
-        ALL,
-        /// <summary>
-        /// Self, no targets, special targets, etc.
-        /// </summary>
-        OTHER
-    }
-
     public class Spell
     {
         private const int N_COMPAT_ARRAY = 30;
@@ -83,7 +52,7 @@ namespace SiralimDumper
         /// <summary>
         /// The class this spell belongs to.
         /// </summary>
-        public string Class;
+        public SiralimClass Class;
         /// <summary>
         /// The English description of this spell.
         /// </summary>
@@ -123,7 +92,7 @@ namespace SiralimDumper
         /// </summary>
         public HashSet<SpellProperty> PropertyCompatibility;
 
-        public Spell(int id, string @class, string description, int maxCharges, string name, string[] tags, SpellTargetingType targetingType, bool resurrectionEffect, int spriteID, int soundID, IEnumerable<SpellProperty> propertyCompatibility)
+        public Spell(int id, SiralimClass @class, string description, int maxCharges, string name, string[] tags, SpellTargetingType targetingType, bool resurrectionEffect, int spriteID, int soundID, IEnumerable<SpellProperty> propertyCompatibility)
         {
             ID = id;
             Class = @class;
@@ -147,7 +116,7 @@ namespace SiralimDumper
         {
             return new Spell(
                 id: id,
-                @class: gml[0],
+                @class: EnumUtil.ClassFromString(gml[0]),
                 description: gml[1],
                 maxCharges: gml[2],
                 name: gml[3],

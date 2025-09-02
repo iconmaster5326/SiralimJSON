@@ -39,11 +39,11 @@ namespace SiralimDumper
         /// <summary>
         /// The stat that is increased by this personality.
         /// </summary>
-        public StatKind Increases => StatKindUtil.FromString(Regex.Match(Game.Engine.CallScript("gml_Script_scr_PersonalityStatIncrease", ID), "\\[.*\\]\\[.*\\] (.*)\\[.*\\] \\[.*\\]").Groups[1].Value);
+        public Stat Increases => EnumUtil.StatFromString(Regex.Match(Game.Engine.CallScript("gml_Script_scr_PersonalityStatIncrease", ID), "\\[.*\\]\\[.*\\] (.*)\\[.*\\] \\[.*\\]").Groups[1].Value);
         /// <summary>
         /// The stat that is decreased by this personality.
         /// </summary>
-        public StatKind Decreases => StatKindUtil.FromString(Regex.Match(Game.Engine.CallScript("gml_Script_scr_PersonalityStatDecrease", ID), "\\[.*\\]\\[.*\\] (.*)\\[.*\\] \\[.*\\]").Groups[1].Value);
+        public Stat Decreases => EnumUtil.StatFromString(Regex.Match(Game.Engine.CallScript("gml_Script_scr_PersonalityStatDecrease", ID), "\\[.*\\]\\[.*\\] (.*)\\[.*\\] \\[.*\\]").Groups[1].Value);
     }
     public class PersonalityDatabase : Database<int, Personality>
     {

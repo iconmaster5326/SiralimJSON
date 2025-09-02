@@ -116,37 +116,6 @@ namespace SiralimDumper
         protected override ItemSpellProperty? FetchNewEntry(int key) => new ItemSpellProperty(key);
     }
 
-    public enum MaterialKind
-    {
-        STAT,
-        TRICK,
-        TRAIT,
-    }
-
-    public enum StatKind
-    {
-        HP,
-        ATTACK,
-        INTELLIGENCE,
-        DEFENSE,
-        SPEED
-    }
-
-    public static class StatKindUtil
-    {
-        public static readonly IReadOnlyDictionary<string, StatKind> STAT_KIND_STRINGS = new Dictionary<string, StatKind>() {
-            ["Health"] = StatKind.HP,
-            ["Attack"] = StatKind.ATTACK,
-            ["Intelligence"] = StatKind.INTELLIGENCE,
-            ["Defense"] = StatKind.DEFENSE,
-            ["Speed"] = StatKind.SPEED,
-        };
-        public static StatKind FromString(string s)
-        {
-            return STAT_KIND_STRINGS[s];
-        }
-    }
-
     public abstract class ItemMaterial : Item
     {
         protected int SpriteID;
@@ -157,7 +126,7 @@ namespace SiralimDumper
         /// <summary>
         /// The slot this material can go in.
         /// </summary>
-        public abstract MaterialKind MaterialKind { get; }
+        public abstract ArtifactSlot MaterialKind { get; }
         internal override TempInstance TempInstance => new TempItemMaterialInstance(this);
         /// <summary>
         /// The database of all materials.
@@ -178,13 +147,13 @@ namespace SiralimDumper
         {
             var gml = Array[key].GetArray();
             GameVariable kindVar = gml[1];
-            switch ((MaterialKind)kindVar.GetInt32())
+            switch ((ArtifactSlot)kindVar.GetInt32())
             {
-                case MaterialKind.STAT:
+                case ArtifactSlot.STAT:
                     return ItemMaterialStat.FromGML(key, gml);
-                case MaterialKind.TRICK:
+                case ArtifactSlot.TRICK:
                     return ItemMaterialTrick.FromGML(key, gml);
-                case MaterialKind.TRAIT:
+                case ArtifactSlot.TRAIT:
                     return ItemMaterialTrait.FromGML(key, gml);
                 default:
                     throw new Exception($"Invalid material kind {kindVar.PrettyPrint().EscapeNonWS()}!");
@@ -194,29 +163,29 @@ namespace SiralimDumper
 
     public class ItemMaterialStat : ItemMaterial
     {
-        internal static readonly Dictionary<int, StatKind[]> INT_TO_STATS = new Dictionary<int, StatKind[]>
+        internal static readonly Dictionary<int, Stat[]> INT_TO_STATS = new Dictionary<int, Stat[]>
         {
-            [0] = [(StatKind)0],
-            [1] = [(StatKind)1],
-            [2] = [(StatKind)2],
-            [3] = [(StatKind)3],
-            [4] = [(StatKind)4],
-            [54] = [(StatKind)0, (StatKind)1],
-            [55] = [(StatKind)0, (StatKind)2],
-            [56] = [(StatKind)0, (StatKind)3],
-            [57] = [(StatKind)0, (StatKind)4],
-            [58] = [(StatKind)1, (StatKind)2],
-            [59] = [(StatKind)1, (StatKind)3],
-            [60] = [(StatKind)1, (StatKind)4],
-            [61] = [(StatKind)2, (StatKind)3],
-            [62] = [(StatKind)2, (StatKind)4],
-            [63] = [(StatKind)3, (StatKind)4],
+            [0] = [(Stat)0],
+            [1] = [(Stat)1],
+            [2] = [(Stat)2],
+            [3] = [(Stat)3],
+            [4] = [(Stat)4],
+            [54] = [(Stat)0, (Stat)1],
+            [55] = [(Stat)0, (Stat)2],
+            [56] = [(Stat)0, (Stat)3],
+            [57] = [(Stat)0, (Stat)4],
+            [58] = [(Stat)1, (Stat)2],
+            [59] = [(Stat)1, (Stat)3],
+            [60] = [(Stat)1, (Stat)4],
+            [61] = [(Stat)2, (Stat)3],
+            [62] = [(Stat)2, (Stat)4],
+            [63] = [(Stat)3, (Stat)4],
         };
         /// <summary>
         /// What stat(s) this material improves.
         /// </summary>
-        public StatKind[] Stats;
-        public ItemMaterialStat(int id, int spriteID, StatKind[] stats) : base(id, spriteID)
+        public Stat[] Stats;
+        public ItemMaterialStat(int id, int spriteID, Stat[] stats) : base(id, spriteID)
         {
             Stats = stats;
         }
@@ -243,7 +212,7 @@ namespace SiralimDumper
 )";
         }
 
-        public override MaterialKind MaterialKind => MaterialKind.STAT;
+        public override ArtifactSlot MaterialKind => ArtifactSlot.STAT;
         /// <summary>
         /// The database of every stat material item.
         /// </summary>
@@ -254,7 +223,7 @@ namespace SiralimDumper
     {
         public override IEnumerable<int> Keys => Game.Engine.GetGlobalObject()["mat"].GetArray()
             .Index()
-            .Where(kv => !kv.Item.IsNumber() && kv.Item.GetArray()[1].GetInt32() == (int)MaterialKind.STAT)
+            .Where(kv => !kv.Item.IsNumber() && kv.Item.GetArray()[1].GetInt32() == (int)ArtifactSlot.STAT)
         .Select(kv => kv.Index);
 
         protected override ItemMaterialStat? FetchNewEntry(int key)
@@ -290,7 +259,7 @@ namespace SiralimDumper
 )";
         }
 
-        public override MaterialKind MaterialKind => MaterialKind.TRICK;
+        public override ArtifactSlot MaterialKind => ArtifactSlot.TRICK;
 
         /// <summary>
         /// The database of every trick material item.
@@ -302,7 +271,7 @@ namespace SiralimDumper
     {
         public override IEnumerable<int> Keys => Game.Engine.GetGlobalObject()["mat"].GetArray()
             .Index()
-            .Where(kv => !kv.Item.IsNumber() && kv.Item.GetArray()[1].GetInt32() == (int)MaterialKind.TRICK)
+            .Where(kv => !kv.Item.IsNumber() && kv.Item.GetArray()[1].GetInt32() == (int)ArtifactSlot.TRICK)
         .Select(kv => kv.Index);
 
         protected override ItemMaterialTrick? FetchNewEntry(int key)
@@ -344,7 +313,7 @@ namespace SiralimDumper
 )";
         }
 
-        public override MaterialKind MaterialKind => MaterialKind.TRAIT;
+        public override ArtifactSlot MaterialKind => ArtifactSlot.TRAIT;
 
         public override string Description => Trait.Database.ContainsKey(TraitID) ? base.Description : "";
 
@@ -358,7 +327,7 @@ namespace SiralimDumper
     {
         public override IEnumerable<int> Keys => Game.Engine.GetGlobalObject()["mat"].GetArray()
             .Index()
-            .Where(kv => !kv.Item.IsNumber() && kv.Item.GetArray()[1].GetInt32() == (int)MaterialKind.TRAIT)
+            .Where(kv => !kv.Item.IsNumber() && kv.Item.GetArray()[1].GetInt32() == (int)ArtifactSlot.TRAIT)
         .Select(kv => kv.Index);
 
         protected override ItemMaterialTrait? FetchNewEntry(int key)
@@ -411,17 +380,17 @@ namespace SiralimDumper
         /// <summary>
         /// The stat this artifact primarily increases.
         /// </summary>
-        public StatKind Increases
+        public Stat Increases
         {
             get
             {
                 switch (ID)
                 {
-                    case 0: return StatKind.SPEED;
-                    case 1: return StatKind.HP;
-                    case 2: return StatKind.DEFENSE;
-                    case 3: return StatKind.ATTACK;
-                    case 4: return StatKind.INTELLIGENCE;
+                    case 0: return Stat.SPEED;
+                    case 1: return Stat.HEALTH;
+                    case 2: return Stat.DEFENSE;
+                    case 3: return Stat.ATTACK;
+                    case 4: return Stat.INTELLIGENCE;
                     default: throw new Exception($"Unknown artifact ID: {ID}");
                 }
             }

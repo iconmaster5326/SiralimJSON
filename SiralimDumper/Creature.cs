@@ -28,7 +28,7 @@ namespace SiralimDumper
         /// <summary>
         /// This creature's class.
         /// </summary>
-        public string Class;
+        public SiralimClass Class;
         /// <summary>
         /// How much Defense this creature gains per level.
         /// </summary>
@@ -74,7 +74,7 @@ namespace SiralimDumper
             int id,
             int attackGrowth,
             int battleSpriteID,
-            string @class,
+            SiralimClass @class,
             int defenceGrowth,
             int hpGrowth,
             int intelligenceGrowth,
@@ -110,7 +110,7 @@ namespace SiralimDumper
                 id: id,
                 attackGrowth: gml[0].GetInt32(),
                 battleSpriteID: gml[1].GetSpriteID(),
-                @class: gml[2].GetString(),
+                @class: EnumUtil.ClassFromString(gml[2]),
                 defenceGrowth: gml[3].GetInt32(),
                 hpGrowth: gml[4].GetInt32(),
                 intelligenceGrowth: gml[5].GetInt32(),
@@ -128,7 +128,7 @@ namespace SiralimDumper
     ID={ID},
     AttackGrowth={AttackGrowth},
     BattleSpriteID={BattleSpriteID},
-    Class='{Class}',
+    Class={Class},
     DefenceGrowth={DefenseGrowth},
     HPGrowth={HPGrowth},
     IntelligenceGrowth={IntelligenceGrowth},
