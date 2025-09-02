@@ -151,7 +151,7 @@ namespace SiralimDumper
     Booze={Booze},
     Arsenal={Arsenal},
     Ultimate={Ultimate},
-    RandomlyDroppable={RandomlyDroppable},
+    Reserved={Reserved},
 )";
         }
 
@@ -176,9 +176,9 @@ namespace SiralimDumper
         /// </summary>
         public bool Ultimate => Game.Engine.CallScript("gml_Script_inv_SpellIsUltimate", ID);
         /// <summary>
-        /// Is this spell available from the normal random loot pool?
+        /// Is this spell not available from the normal random loot pool?
         /// </summary>
-        public bool RandomlyDroppable => Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID);
+        public bool Reserved => Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID);
     }
 
     public class SpellDatabase : Database<int, Spell>
