@@ -363,6 +363,9 @@ namespace SiralimDumper
 
         internal override TempInstance TempInstance => new TempItemArtifact(this);
 
+        /// <summary>
+        /// The database of all artifacts.
+        /// </summary>
         public static ItemArtifactDatabase Database = [];
 
         public override string ToString()
@@ -373,6 +376,7 @@ namespace SiralimDumper
     Description='{Description.Escape()}',
     IconID={IconID},
     IconIndex={IconIndex},
+    Increases={Increases},
 )";
         }
 
@@ -388,12 +392,31 @@ namespace SiralimDumper
         }
 
         override public int IconIndex => 0;
-    }
 
-    public class ItemArtifactDatabase : Database<int, ItemArtifact>
-    {
-        public override IEnumerable<int> Keys => Enumerable.Range(0, ItemArtifact.N_ARTIFACTS);
+        /// <summary>
+        /// The stat this artifact primarily increases.
+        /// </summary>
+        public StatKind Increases
+        {
+            get
+            {
+                switch (ID)
+                {
+                    case 0: return StatKind.SPEED;
+                    case 1: return StatKind.HP;
+                    case 2: return StatKind.DEFENSE;
+                    case 3: return StatKind.ATTACK;
+                    case 4: return StatKind.INTELLIGENCE;
+                    default: throw new Exception($"Unknown artifact ID: {ID}");
+                }
+            }
+        }
 
-        protected override ItemArtifact? FetchNewEntry(int key) => new ItemArtifact(key);
+        public class ItemArtifactDatabase : Database<int, ItemArtifact>
+        {
+            public override IEnumerable<int> Keys => Enumerable.Range(0, ItemArtifact.N_ARTIFACTS);
+
+            protected override ItemArtifact? FetchNewEntry(int key) => new ItemArtifact(key);
+        }
     }
 }
