@@ -41,10 +41,18 @@ namespace SiralimDumper
     }
 
     /// <summary>
-    /// A temporary instance of a particular Siralim Ultimate spell gem property material.
+    /// A temporary instance of a particular Siralim Ultimate stat/trick/trait material.
     /// </summary>
     internal class TempItemMaterialInstance : TempInstance
     {
         public TempItemMaterialInstance(ItemMaterial item) : base(Game.Engine.CallScript("gml_Script_inv_CreateMaterial", item.ID)) { }
+    }
+
+    /// <summary>
+    /// A temporary instance of a particular Siralim Ultimate artifact.
+    /// </summary>
+    internal class TempItemArtifact : TempInstance
+    {
+        public TempItemArtifact(ItemArtifact item) : base(Game.Engine.CallScript("gml_Script_inv_CreateArtifact", item.ID)) { }
     }
 }

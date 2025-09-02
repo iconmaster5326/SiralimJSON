@@ -351,4 +351,49 @@ namespace SiralimDumper
             return ItemMaterial.Database[key] as ItemMaterialTrait;
         }
     }
+
+    public class ItemArtifact : Item
+    {
+        public const int N_ARTIFACTS = 5;
+
+        public ItemArtifact(int id) : base(id)
+        {
+
+        }
+
+        internal override TempInstance TempInstance => new TempItemArtifact(this);
+
+        public static ItemArtifactDatabase Database = [];
+
+        public override string ToString()
+        {
+            return $@"ItemArtifact(
+    ID={ID},
+    Name='{Name}',
+    Description='{Description.Escape()}',
+    IconID={IconID},
+    IconIndex={IconIndex},
+)";
+        }
+
+        override public int IconID
+        {
+            get
+            {
+                using (var ti = TempInstance)
+                {
+                    return Game.Engine.CallScript("gml_Script_inv_ArtifactIcon", ti.Instance).GetSpriteID();
+                }
+            }
+        }
+
+        override public int IconIndex => 0;
+    }
+
+    public class ItemArtifactDatabase : Database<int, ItemArtifact>
+    {
+        public override IEnumerable<int> Keys => Enumerable.Range(0, ItemArtifact.N_ARTIFACTS);
+
+        protected override ItemArtifact? FetchNewEntry(int key) => new ItemArtifact(key);
+    }
 }
