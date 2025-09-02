@@ -88,22 +88,7 @@ namespace SiralimDumper
         /// <summary>
         /// All the spell property items in the game.
         /// </summary>
-        public static Dictionary<int, ItemSpellProperty> Database
-        {
-            get
-            {
-                if (_Database == null)
-                {
-                    _Database = [];
-                }
-                for (int i = 0; i < N_DUSTS; i++)
-                {
-                    _Database[i] = new ItemSpellProperty(i);
-                }
-                return _Database;
-            }
-        }
-        private static Dictionary<int, ItemSpellProperty>? _Database;
+        public static ItemSpellPropertyDatabase Database = [];
 
         public override string ToString()
         {
@@ -121,5 +106,12 @@ namespace SiralimDumper
         /// What spell properties can we use this material to apply to spell gems?
         /// </summary>
         public IEnumerable<SpellProperty> PropertiesApplicable => SpellProperty.Database.Values.Where(sp => sp.ItemID == ID);
+    }
+
+    public class ItemSpellPropertyDatabase : Database<int, ItemSpellProperty>
+    {
+        public override IEnumerable<int> Keys => Enumerable.Range(0, ItemSpellProperty.N_DUSTS);
+
+        protected override ItemSpellProperty? FetchNewEntry(int key) => new ItemSpellProperty(key);
     }
 }

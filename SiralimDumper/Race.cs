@@ -29,22 +29,10 @@ namespace SiralimDumper
             Name = name;
         }
 
-        private static Dictionary<string, Race>? _Database;
         /// <summary>
         /// All the races in the game.
         /// </summary>
-        public static Dictionary<string, Race> Database
-        {
-            get
-            {
-                if (_Database == null) { InitDatabase(); }
-                return _Database ?? throw new Exception("Database not initialized!");
-            }
-        }
-        private static void InitDatabase()
-        {
-            _Database = Creature.Database.Values.Select(c => c.RaceName).Distinct().Order().Select(r => new KeyValuePair<string, Race>(r, new Race(r))).ToDictionary();
-        }
+        public static RaceDatabase Database = [];
 
         public override string ToString()
         {
@@ -230,5 +218,12 @@ namespace SiralimDumper
                 }
             }
         }
+    }
+
+    public class RaceDatabase : Database<string, Race>
+    {
+        public override IEnumerable<string> Keys => Game.Engine.GetGlobalObject()["races_all"].GetArray().Where(v => !v.IsNumber()).Select(v => v.GetString());
+
+        protected override Race? FetchNewEntry(string key) => new Race(key);
     }
 }

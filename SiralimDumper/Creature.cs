@@ -99,28 +99,12 @@ namespace SiralimDumper
             SpeedGrowth = speedGrowth;
         }
 
-        private static Dictionary<int, Creature>? _Database;
         /// <summary>
         /// All the creatures in the game.
         /// </summary>
-        public static Dictionary<int, Creature> Database
-        {
-            get
-            {
-                if (_Database == null) { InitDatabase(); }
-                return _Database ?? throw new Exception("Database not initialized!");
-            }
-        }
-        private static void InitDatabase()
-        {
-            _Database = Game.Engine.GetGlobalObject()["creature"].GetArray().Select<GameVariable, KeyValuePair<int, Creature>?>((v, i) =>
-            {
-                Framework.Print($"[SiralimDumper]   Parsing creature {i}...");
-                return v.IsNumber() ? null : new KeyValuePair<int, Creature>(i, FromGML(i, v.GetArray()));
-            }).OfType<KeyValuePair<int, Creature>>().ToDictionary();
-        }
+        public static CreatureDatabase Database = [];
 
-        private static Creature FromGML(int id, IReadOnlyList<GameVariable> gml)
+        internal static Creature FromGML(int id, IReadOnlyList<GameVariable> gml)
         {
             return new Creature(
                 id: id,
@@ -215,6 +199,28 @@ namespace SiralimDumper
                 if (RaceName.Equals("Avatar") && !IsGod) return false;
                 return true;
             }
+        }
+    }
+
+    public class CreatureDatabase : Database<int, Creature>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["creature"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override Creature? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return Creature.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+
         }
     }
 }

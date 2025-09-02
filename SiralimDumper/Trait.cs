@@ -39,28 +39,12 @@ namespace SiralimDumper
             Description = description;
         }
 
-        private static Dictionary<int, Trait>? _Database;
         /// <summary>
         /// All the traits in the game.
         /// </summary>
-        public static Dictionary<int, Trait> Database
-        {
-            get
-            {
-                if (_Database == null) { InitDatabase(); }
-                return _Database ?? throw new Exception("Database not initialized!");
-            }
-        }
-        private static void InitDatabase()
-        {
-            _Database = Game.Engine.GetGlobalObject()["passive"].GetArray().Select<GameVariable, KeyValuePair<int, Trait>?>((v, i) =>
-            {
-                Framework.Print($"[SiralimDumper]   Parsing trait {i}...");
-                return v.IsNumber() ? null : new KeyValuePair<int, Trait>(i, FromGML(i, v.GetArray()));
-            }).OfType<KeyValuePair<int, Trait>>().ToDictionary();
-        }
+        public static TraitDatabase Database = [];
 
-        public static Trait FromGML(int id, IReadOnlyList<GameVariable> gml)
+        internal static Trait FromGML(int id, IReadOnlyList<GameVariable> gml)
         {
             return new Trait(
                 id,
@@ -86,5 +70,27 @@ namespace SiralimDumper
         /// The Rodian Master this trait is associated with, if any.
         /// </summary>
         public Race? Race => Race.Database.Values.FirstOrDefault(c => c.HasMaster && c.MasterTraitID == ID);
+    }
+
+    public class TraitDatabase : Database<int, Trait>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["passive"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override Trait? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return Trait.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+
+        }
     }
 }

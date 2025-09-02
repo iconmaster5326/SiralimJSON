@@ -37,22 +37,7 @@ namespace SiralimDumper
         /// <summary>
         /// All the spell properties in the game.
         /// </summary>
-        public static Dictionary<int, SpellProperty> Database
-        {
-            get
-            {
-                if (_Database == null)
-                {
-                    _Database = [];
-                }
-                for (int i = 0; i < N_SPELL_PROPERTIES; i++)
-                {
-                    _Database[i] = new SpellProperty(i);
-                }
-                return _Database;
-            }
-        }
-        private static Dictionary<int, SpellProperty>? _Database;
+        public static SpellPropertyDatabase Database = [];
 
         public override string ToString()
         {
@@ -101,5 +86,12 @@ namespace SiralimDumper
         /// Returns the ID of the <see cref="ItemSpellProperty"/> that applies this property.
         /// </summary>
         public int ItemID => Game.Engine.CallScript("gml_Script_inv_SpellGemGetMaterialByStat", ID);
+    }
+
+    public class SpellPropertyDatabase : Database<int, SpellProperty>
+    {
+        public override IEnumerable<int> Keys => Enumerable.Range(0, SpellProperty.N_SPELL_PROPERTIES);
+
+        protected override SpellProperty? FetchNewEntry(int key) => new SpellProperty(key);
     }
 }

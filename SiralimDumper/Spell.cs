@@ -141,24 +141,9 @@ namespace SiralimDumper
         /// <summary>
         /// All the spells in the game.
         /// </summary>
-        public static Dictionary<int, Spell> Database
-        {
-            get
-            {
-                if (_Database == null)
-                {
-                    _Database = Game.Engine.GetGlobalObject()["spell"].GetArray().Select<GameVariable, KeyValuePair<int, Spell>?>((v, i) =>
-                    {
-                        Framework.Print($"[SiralimDumper]   Parsing spell {i}...");
-                        return v.IsNumber() ? null : new KeyValuePair<int, Spell>(i, FromGML(i, v.GetArray()));
-                    }).OfType<KeyValuePair<int, Spell>>().ToDictionary();
-                }
-                return _Database;
-            }
-        }
-        private static Dictionary<int, Spell>? _Database;
+        public static SpellDatabase Database = [];
 
-        private static Spell FromGML(int id, IReadOnlyList<GameVariable> gml)
+        internal static Spell FromGML(int id, IReadOnlyList<GameVariable> gml)
         {
             return new Spell(
                 id: id,
@@ -225,5 +210,27 @@ namespace SiralimDumper
         /// Is this spell available from the normal random loot pool?
         /// </summary>
         public bool RandomlyDroppable => Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID);
+    }
+
+    public class SpellDatabase : Database<int, Spell>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["spell"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override Spell? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return Spell.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+
+        }
     }
 }
