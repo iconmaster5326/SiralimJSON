@@ -43,12 +43,13 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] artifacts: [{string.Join(", ", ItemArtifact.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] personalities: [{string.Join(", ", Personality.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 0; i < 5; i++)
+                //for (int i = 0; i < 100; i++)
                 //{
                 //    //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
                 //    //var sgobj = Game.Engine.CallScript("gml_Script_inv_CreateSpellGem", 1);
-                //    var v = Game.Engine.CallScript("gml_Script_inv_ArtifactDefaultName", i);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_PersonalityString", i);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
                 //}
 

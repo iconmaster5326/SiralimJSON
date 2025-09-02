@@ -132,6 +132,21 @@ namespace SiralimDumper
         SPEED
     }
 
+    public static class StatKindUtil
+    {
+        public static readonly IReadOnlyDictionary<string, StatKind> STAT_KIND_STRINGS = new Dictionary<string, StatKind>() {
+            ["Health"] = StatKind.HP,
+            ["Attack"] = StatKind.ATTACK,
+            ["Intelligence"] = StatKind.INTELLIGENCE,
+            ["Defense"] = StatKind.DEFENSE,
+            ["Speed"] = StatKind.SPEED,
+        };
+        public static StatKind FromString(string s)
+        {
+            return STAT_KIND_STRINGS[s];
+        }
+    }
+
     public abstract class ItemMaterial : Item
     {
         protected int SpriteID;
