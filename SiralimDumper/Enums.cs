@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SiralimDumper
+﻿namespace SiralimDumper
 {
     /// <summary>
     /// Different kinds of slots that can go into artifacts.

@@ -1,10 +1,5 @@
-﻿using AurieSharpInterop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -329,9 +324,7 @@ namespace SiralimDumper
             double as_dbl;
             bool as_bool;
             GameObject as_obj;
-            GameInstance as_gi;
             IReadOnlyList<GameVariable> as_array;
-            int as_int;
             long as_long;
 
             switch (var.Type.Split(" ")[0])

@@ -1,10 +1,4 @@
-﻿using AurieSharpInterop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {
