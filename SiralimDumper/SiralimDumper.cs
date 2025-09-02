@@ -38,12 +38,14 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 1; i < 2000; i++)
+                //for (int i = 0; i < 30; i++)
                 //{
-                //    var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
-                //    var v = Game.Engine.CallScript("gml_Script_inv_CardsInSet", "Elf");
-                //    Framework.Print($"[SiralimDumper] {v.PrettyPrint().EscapeNonWS()}");
+                //    //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
+                //    var v = Game.Engine.CallScript("gml_Script_inv_SpellReserved", i);
+                //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
                 //}
 
                 Environment.Exit(0);

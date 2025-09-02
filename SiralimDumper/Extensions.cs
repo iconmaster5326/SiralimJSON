@@ -248,7 +248,7 @@ namespace SiralimDumper
             return v.Type.Equals("number") || v.Type.Equals("int64");
         }
 
-        public static int GetSpriteID(this GameVariable v)
+        private static int GetAssetID(this GameVariable v, string assetType)
         {
             if (v.IsNumber())
             {
@@ -260,13 +260,24 @@ namespace SiralimDumper
                 throw new Exception($"Could not get sprite of a variable of type '{v.Type}'!");
             }
 
+            var refPrefix = $"ref {assetType} ";
             var refName = v.GetString();
-            if (!refName.StartsWith("ref sprite "))
+            if (!refName.StartsWith(refPrefix))
             {
                 throw new Exception($"Could not get sprite of a reference of form '{refName}'!");
             }
 
-            return refName.Remove(0, "ref sprite ".Length).GetGMLAssetID();
+            return refName.Remove(0, refPrefix.Length).GetGMLAssetID();
+        }
+
+        public static int GetSpriteID(this GameVariable v)
+        {
+            return v.GetAssetID("sprite");
+        }
+
+        public static int GetSoundID(this GameVariable v)
+        {
+            return v.GetAssetID("sound");
         }
 
         public static int GetGMLAssetID(this string s)
