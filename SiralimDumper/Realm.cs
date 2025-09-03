@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using YYTKInterop;
 
@@ -95,5 +96,86 @@ namespace SiralimDumper
         }
 
         protected override Realm? FetchNewEntry(int key) => new Realm(key);
+    }
+
+    /// <summary>
+    /// A Siralim Ultimate realm property definition.
+    /// At higher realm instabilities, these begin to apply.
+    /// </summary>
+    public class RealmProperty
+    {
+
+        /// <summary>
+        /// The unique ID of this realm property.
+        /// </summary>
+        public int ID;
+
+        public RealmProperty(int id)
+        {
+            ID = id;
+        }
+
+        public static RealmPropertyDatabase Database = [];
+
+        public override string ToString()
+        {
+            return $@"RealmProperty(
+    ID={ID},
+    Name='{Name}',
+    IconID={IconID},
+)";
+        }
+
+        internal static string FullName(int id)
+        {
+            GameVariable arg;
+            switch (id)
+            {
+                case 16:
+                    arg = "Carnage";
+                    break;
+                case 25:
+                case 26:
+                case 38:
+                    arg = 1;
+                    break;
+                default:
+                    arg = "{1}";
+                    break;
+            }
+            return Game.Engine.CallScript("gml_Script_scr_RealmPropertyName", id, arg).GetString().Replace("[carnage] Carnage", "{1}").Replace("[stat_g_savage] Savage", "{1}");
+        }
+
+        /// <summary>
+        /// The English name of this realm property.
+        /// </summary>
+        public string Name => Regex.Match(FullName(ID), "^\\[[^\\]]*\\] (.*)$").Groups[1].Value;
+        /// <summary>
+        /// The ID of the icon sprite for this realm property.
+        /// </summary>
+        public int? IconID => Regex.Match(FullName(ID), "^\\[([^\\]]*)\\] .*$").Groups[1].Value.GetGMLAssetIDOrNull();
+    }
+
+    public class RealmPropertyDatabase : Database<int, RealmProperty>
+    {
+        public override IEnumerable<int> Keys
+        {
+            get
+            {
+                int i = 0;
+                string v = "";
+                do
+                {
+                    i++;
+                    v = RealmProperty.FullName(i);
+                    if (v.Length > 0)
+                    {
+                        yield return i;
+                    }
+                } while (v.Length > 0);
+            }
+        }
+
+        protected override RealmProperty? FetchNewEntry(int key) => new RealmProperty(key);
     }
 }

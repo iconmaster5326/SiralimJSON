@@ -297,6 +297,18 @@ namespace SiralimDumper
             return assetIndex[s].GetInt32();
         }
 
+        public static int? GetGMLAssetIDOrNull(this string s)
+        {
+            GameVariable assetIndex = Game.Engine.GetGlobalObject()["gml_asset_index"];
+
+            if (!assetIndex.Members.ContainsKey(s))
+            {
+                return null;
+            }
+
+            return assetIndex[s].GetInt32();
+        }
+
         private const int MAX_STR_LEN = 1024;
 
         public static string Escape(this string input)
