@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using YYTKInterop;
+
+namespace SiralimDumper
+{
+    /// <summary>
+    /// A Siralim Ultimate false god definition.
+    /// These are bosses you go on bounties to kill, and get anointments from.
+    /// </summary>
+    public class FalseGod
+    {
+        /// <summary>
+        /// The unique ID for this false god.
+        /// </summary>
+        public int ID;
+
+        public FalseGod(int iD)
+        {
+            ID = iD;
+        }
+
+        public static FalseGodDatabase Database = [];
+
+        public override string ToString()
+        {
+            return $@"FalseGod(
+    ID={ID},
+    Name='{Name}',
+    OverworldSpriteID={OverworldSpriteID},
+    Description='{Description.Escape()}',
+    Dialog='{Dialog.Escape()}'
+)";
+        }
+
+        /// <summary>
+        /// The English name of this false god.
+        /// </summary>
+        public string Name => Game.Engine.CallScript("gml_Script_scr_FalseGodName", ID);
+        /// <summary>
+        /// The ID of the sprite this false god uses in the overworld.
+        /// </summary>
+        public int OverworldSpriteID => Game.Engine.CallScript("gml_Script_scr_FalseGodOWSprite", ID).GetSpriteID();
+        /// <summary>
+        /// The English description and lore of this false god.
+        /// </summary>
+        public string Description => Game.Engine.CallScript("gml_Script_scr_FalseGodLore", ID);
+        /// <summary>
+        /// The English text the false god speaks before you fight them.
+        /// </summary>
+        public string Dialog => Game.Engine.CallScript("gml_Script_scr_FalseGodDialog", ID);
+    }
+
+    public class FalseGodDatabase : Database<int, FalseGod>
+    {
+        public override IEnumerable<int> Keys
+        {
+            get
+            {
+                int i = -1;
+                string v = "";
+                do
+                {
+                    i++;
+                    v = Game.Engine.CallScript("gml_Script_scr_FalseGodName", i);
+                    if (v.Length > 0)
+                    {
+                        yield return i;
+                    }
+                } while (v.Length > 0);
+            }
+        }
+
+        protected override FalseGod? FetchNewEntry(int key) => new FalseGod(key);
+    }
+}
