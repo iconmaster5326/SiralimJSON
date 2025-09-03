@@ -77,4 +77,63 @@ namespace SiralimDumper
 
         protected override FalseGod? FetchNewEntry(int key) => new FalseGod(key);
     }
+
+    /// <summary>
+    /// A Siralim Ultimate false god rune definition.
+    /// Collecting runes before fighting false gods powers them up for bonus loot.
+    /// </summary>
+    public class FalseGodRune
+    {
+        /// <summary>
+        /// The unique ID for this rune.
+        /// </summary>
+        public int ID;
+
+        public FalseGodRune(int iD)
+        {
+            ID = iD;
+        }
+
+        public static FalseGodRuneDatabase Database = [];
+
+        public override string ToString()
+        {
+            return $@"FalseGodRune(
+    ID={ID},
+    Description='{Description.Escape()}',
+)";
+        }
+
+        /// <summary>
+        /// The English description of this rune.
+        /// </summary>
+        public string Description => Game.Engine.CallScript("gml_Script_scr_RuneName", ID);
+        /// <summary>
+        /// The ID of the sprite for this rune.
+        /// </summary>
+        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID).GetSpriteID();
+    }
+
+    public class FalseGodRuneDatabase : Database<int, FalseGodRune>
+    {
+        public override IEnumerable<int> Keys
+        {
+            get
+            {
+                int i = -1;
+                string v = "";
+                do
+                {
+                    i++;
+                    v = Game.Engine.CallScript("gml_Script_scr_RuneName", i);
+                    if (v.Length > 0)
+                    {
+                        yield return i;
+                    }
+                } while (i < 50);
+            }
+        }
+
+        protected override FalseGodRune? FetchNewEntry(int key) => new FalseGodRune(key);
+    }
 }
