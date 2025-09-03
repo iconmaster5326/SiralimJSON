@@ -47,13 +47,16 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 0; i < 2000; i++)
+                //for (int i = 0; i < 31; i++)
                 //{
                 //    //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
                 //    //var sgobj = Game.Engine.CallScript("gml_Script_inv_CreateSpellGem", 1);
-                //    var v = Game.Engine.CallScript("gml_Script_scr_WardrobeName", i);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_GodName", i);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
+                //    v = Game.Engine.CallScript("gml_Script_scr_GodBossName", i);
+                //    Framework.Print($"[SiralimDumper]      {v.PrettyPrint().EscapeNonWS()}");
                 //}
 
                 Environment.Exit(0);

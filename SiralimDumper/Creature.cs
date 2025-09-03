@@ -135,6 +135,7 @@ namespace SiralimDumper
     Source='{Source}',
     MenagerieDialog=['{string.Join("', '", MenagerieDialog)}'],
     IsGod={IsGod},
+    UltimateSpellID={UltimateSpellID},
 )";
         }
 
@@ -194,6 +195,10 @@ namespace SiralimDumper
                 return true;
             }
         }
+        /// <summary>
+        /// The ID of this Avatar's ultimate spell, if it's a god; null otherwise.
+        /// </summary>
+        public int? UltimateSpellID => IsGod ? Game.Engine.CallScript("gml_Script_scr_GetUltimateSpellByAvatar", ID) : null;
     }
 
     public class CreatureDatabase : Database<int, Creature>
