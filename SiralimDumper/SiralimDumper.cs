@@ -48,19 +48,63 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 0; i < 31; i++)
+                //for (int i = 0; i < 1; i++)
                 //{
                 //    //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
                 //    //var sgobj = Game.Engine.CallScript("gml_Script_inv_CreateSpellGem", 1);
-                //    var v = Game.Engine.CallScript("gml_Script_scr_GodName", i);
+                //    //var old = new Dictionary<string, string>(Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())));
+                //    Game.Engine.CallScript("gml_Script_scr_SetBiome", i);
+                //    Game.Engine.CallFunction("room_goto", "realm".GetGMLAssetID());
+                //    Game.Engine.CallFunction("instance_create", 0, 0, "obj_Control".GetGMLAssetID());
+                //    var v = Game.Engine.CallScript("scr_GetRaceArrayByRealm");
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
-                //    v = Game.Engine.CallScript("gml_Script_scr_GodBossName", i);
-                //    Framework.Print($"[SiralimDumper]      {v.PrettyPrint().EscapeNonWS()}");
+                //    foreach (var instance in Game.Engine.GetRunningRoom().ActiveInstances)
+                //    {
+                //        Framework.Print($"[SiralimDumper]   {instance.PrettyPrint().EscapeNonWS().Replace("\n", "\n  ")}");
+                //    }
+                //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
                 //}
 
                 Environment.Exit(0);
             }
+            else
+            {
+                // simulate the first E press that activates the loading of global databases
+                Game.Engine.CallFunction("keyboard_key_press", (int)'E');
+                Game.Engine.CallFunction("keyboard_key_release", (int)'E');
+            }
+        }
+
+        public static void CompareObjectMembers(IReadOnlyDictionary<string, string> d1, IReadOnlyDictionary<string, GameVariable> d2)
+        {
+            Framework.Print($"[SiralimDumper] BEGIN DIFF");
+            var onlyInD1 = d1.Where(kv => !kv.Key.StartsWith("gml_") && !d2.ContainsKey(kv.Key)).ToDictionary();
+            var onlyInD2 = d2.Where(kv => !kv.Key.StartsWith("gml_") && !d1.ContainsKey(kv.Key)).ToDictionary();
+            var mutual = d1.Keys.Where(k => !k.StartsWith("gml_") && !onlyInD1.ContainsKey(k)).ToHashSet();
+
+            foreach (var k in mutual)
+            {
+                string d1pp = d1[k];
+                string d2pp = d2[k].PrettyPrint();
+                if (!d1pp.Equals(d2pp))
+                {
+                    Framework.Print($"[SiralimDumper] {k}: was: {d1pp.EscapeNonWS().Truncate()} ; is: {d2pp.EscapeNonWS().Truncate()} ;");
+                }
+            }
+
+            foreach (var k in onlyInD1.Keys)
+            {
+                Framework.Print($"[SiralimDumper] {k}: removed");
+            }
+
+            foreach (var k in onlyInD2.Keys)
+            {
+                Framework.Print($"[SiralimDumper] {k}: added: {d2[k].PrettyPrint().EscapeNonWS().Truncate()} ;");
+            }
+
+            Framework.Print($"[SiralimDumper] END DIFF");
         }
     }
 }

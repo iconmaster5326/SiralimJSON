@@ -280,6 +280,11 @@ namespace SiralimDumper
             return v.GetAssetID("tileset");
         }
 
+        public static GameVariable GetGMLAsset(this string s)
+        {
+            return Game.Engine.CallFunction("asset_get_index", s);
+        }
+
         public static int GetGMLAssetID(this string s)
         {
             GameVariable assetIndex = Game.Engine.GetGlobalObject()["gml_asset_index"];
@@ -306,7 +311,7 @@ namespace SiralimDumper
             return Regex.Replace(input, "[^\\s\\x20-\\x24\\x26-\\x7e]", new MatchEvaluator((x) => $"\\x{((byte)x.Groups[0].Value[0]):x2}"));
         }
 
-        private static string Truncate(string input)
+        public static string Truncate(this string input)
         {
             if (input.Length <= MAX_STR_LEN)
             {
@@ -318,7 +323,9 @@ namespace SiralimDumper
             }
         }
 
-        public static string PrettyPrint(this GameVariable var, HashSet<int>? seenIDs = null)
+        private const int MAX_RECUR = 100;
+
+        public static string PrettyPrint(this GameVariable var, HashSet<int>? seenIDs = null, int recursions = 0)
         {
             if (seenIDs == null)
             {
@@ -341,7 +348,7 @@ namespace SiralimDumper
                 case "struct":
                     if (var.TryGetGameObject(out as_obj))
                     {
-                        return as_obj.PrettyPrint(seenIDs);
+                        return as_obj.PrettyPrint(seenIDs, recursions + 1);
                     }
                     else
                     {
@@ -355,7 +362,14 @@ namespace SiralimDumper
 
                         if (refTypeParsed[0].Equals("instance"))
                         {
-                            return GameInstance.FromInstanceID(int.Parse(refTypeParsed.Last())).PrettyPrint(seenIDs);
+                            try
+                            {
+                                return GameInstance.FromInstanceID(int.Parse(refTypeParsed.Last())).PrettyPrint(seenIDs, recursions + 1);
+                            }
+                            catch (InvalidCastException)
+                            {
+                                return $"<instance {refTypeParsed.Last()}: invalid>";
+                            }
                         }
                         if (refTypeParsed[0].Equals("ds_list"))
                         {
@@ -364,7 +378,7 @@ namespace SiralimDumper
                             int i = 0;
                             foreach (var member in as_array)
                             {
-                                sb.Append($"  {i} : {member.Type} = {member.PrettyPrint(seenIDs).Replace("\n", "\n  ")}\n");
+                                sb.Append($"  {i} : {member.Type} = {member.PrettyPrint(seenIDs, recursions + 1).Replace("\n", "\n  ")}\n");
                                 i++;
                             }
                             sb.Append(">");
@@ -377,7 +391,7 @@ namespace SiralimDumper
                             int i = 0;
                             foreach (var member in as_map)
                             {
-                                sb.Append($"  {member.Key.PrettyPrint(seenIDs).Replace("\n", "\n  ")} : {member.Key.Type} -> {member.Value.PrettyPrint(seenIDs).Replace("\n", "\n  ")} : {member.Value.Type}\n");
+                                sb.Append($"  {member.Key.PrettyPrint(seenIDs, recursions + 1).Replace("\n", "\n  ")} : {member.Key.Type} -> {member.Value.PrettyPrint(seenIDs, recursions + 1).Replace("\n", "\n  ")} : {member.Value.Type}\n");
                                 i++;
                             }
                             sb.Append(">");
@@ -426,7 +440,7 @@ namespace SiralimDumper
                         int i = 0;
                         foreach (var member in as_array)
                         {
-                            sb.Append($"  {i} : {member.Type} = {member.PrettyPrint(seenIDs).Replace("\n", "\n  ")}\n");
+                            sb.Append($"  {i} : {member.Type} = {member.PrettyPrint(seenIDs, recursions + 1).Replace("\n", "\n  ")}\n");
                             i++;
                         }
                         sb.Append(">");
@@ -450,7 +464,7 @@ namespace SiralimDumper
             }
         }
 
-        public static string PrettyPrint(this GameObject obj, HashSet<int>? seenIDs = null)
+        public static string PrettyPrint(this GameObject obj, HashSet<int>? seenIDs = null, int recursions = 0)
         {
             if (seenIDs == null)
             {
@@ -467,7 +481,7 @@ namespace SiralimDumper
                 t = "object";
             }
 
-            if (seenIDs.Contains(obj.GetHashCode()))
+            if (recursions > MAX_RECUR || seenIDs.Contains(obj.GetHashCode()))
             {
                 return $"<{t} {obj.Name}: (...)>";
             }
@@ -479,20 +493,20 @@ namespace SiralimDumper
             StringBuilder sb = new StringBuilder($"<{t} {obj.Name}:\n");
             foreach (var member in obj.Members)
             {
-                sb.Append($"  {Escape(member.Key)} : {member.Value.Type} = {member.Value.PrettyPrint(seenIDs).Replace("\n", "\n  ")}\n");
+                sb.Append($"  {Escape(member.Key)} : {member.Value.Type} = {member.Value.PrettyPrint(seenIDs, recursions + 1).Replace("\n", "\n  ")}\n");
             }
             sb.Append(">");
             return sb.ToString();
         }
 
-        public static string PrettyPrint(this GameInstance inst, HashSet<int>? seenIDs = null)
+        public static string PrettyPrint(this GameInstance inst, HashSet<int>? seenIDs = null, int recursions = 0)
         {
             if (seenIDs == null)
             {
                 seenIDs = new HashSet<int>();
             }
 
-            if (seenIDs.Contains(inst.ID))
+            if (recursions > MAX_RECUR || seenIDs.Contains(inst.ID))
             {
                 return $"<instance {inst.ID} of {inst.Name}: (...)>";
             }
@@ -504,7 +518,7 @@ namespace SiralimDumper
             StringBuilder sb = new StringBuilder($"<instance {inst.ID} of object {inst.Name}:\n");
             foreach (var member in inst.Members)
             {
-                sb.Append($"  {Escape(member.Key)} : {member.Value.Type} = {member.Value.PrettyPrint(seenIDs).Replace("\n", "\n  ")}\n");
+                sb.Append($"  {Escape(member.Key)} : {member.Value.Type} = {member.Value.PrettyPrint(seenIDs, recursions + 1).Replace("\n", "\n  ")}\n");
             }
             sb.Append(">");
             return sb.ToString();

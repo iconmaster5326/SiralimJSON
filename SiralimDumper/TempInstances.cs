@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using AurieSharpInterop;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -49,5 +50,25 @@ namespace SiralimDumper
     internal class TempItemArtifact : TempInstance
     {
         public TempItemArtifact(ItemArtifact item) : base(Game.Engine.CallScript("gml_Script_inv_CreateArtifact", item.ID)) { }
+    }
+
+    /// <summary>
+    /// Temporarily sets the realm to a particular <see cref="Realm"/>, so that we can call methods that require the realm be loaded.
+    /// </summary>
+    internal class TempRealm : IDisposable
+    {
+        private int OldBiome;
+        public TempRealm(Realm realm)
+        {
+            var global = Game.Engine.GetGlobalObject();
+            OldBiome = global["biome"];
+            Game.Engine.CallScript("gml_Script_scr_SetBiome", realm.ID);
+            Framework.Print($"[SiralimDumper] Setting realm to {realm.ID}! old: {OldBiome} new: {global["biome"]}");
+        }
+        public void Dispose()
+        {
+            Framework.Print($"[SiralimDumper] Resetting realm!");
+            Game.Engine.CallScript("gml_Script_scr_SetBiome", OldBiome);
+        }
     }
 }
