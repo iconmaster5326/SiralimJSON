@@ -60,20 +60,17 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
 
-                // TODO: projects
                 // TODO: nether stone statistics
 
-                //using (new TempRealm(Realm.Database[1]))
+                //for (int i = 0; i < 200; i++)
                 //{
-                //    for (int i = 0; i < 100; i++)
-                //    {
-                //        //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
-
-                //        var v = Game.Engine.CallScript("gml_Script_scr_NetherBossDialog", i);
-                //        Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
-                //        //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
-                //    }
+                //    //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
+                //    var v = Game.Engine.CallScript("gml_Script_scr_ProjectItemName", i);
+                //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
+                //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
                 //}
 
                 Environment.Exit(0);
