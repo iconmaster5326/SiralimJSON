@@ -51,8 +51,8 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] specializations: [{string.Join(", ", Specialization.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] perks: [{string.Join(", ", Perk.Database.Values).EscapeNonWS()}]");
 
-                // TODO: perks
                 // TODO: realm properties
                 // TODO: false god runes
                 // TODO: false gods
@@ -61,7 +61,7 @@ namespace SiralimDumper
 
                 //for (int i = 1; i < 10; i++)
                 //{
-                //    var v = Game.Engine.CallScript("gml_Script_scr_SpecializationStartingCreature", i);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_PerkGetPerkList", i);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
                 //}
 

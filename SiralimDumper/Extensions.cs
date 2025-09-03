@@ -549,5 +549,14 @@ namespace SiralimDumper
         {
             return GameInstance.FromInstanceID(int.Parse(v.GetString().Split(" ").Last()));
         }
+        private static Dictionary<string, string>? Translations;
+        public static string SUTranslate(this string s)
+        {
+            if (Translations == null)
+            {
+                Translations = Game.Engine.GetGlobalObject()["dictionary_keys"].GetDSMap().Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value)).ToDictionary();
+            }
+            return Translations.ContainsKey(s) ? Translations[s] : s;
+        }
     }
 }
