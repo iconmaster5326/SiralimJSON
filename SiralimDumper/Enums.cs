@@ -164,6 +164,16 @@ namespace SiralimDumper
         UTILITY_NPC,
     }
 
+    /// <summary>
+    /// The categories of <see cref="Condition"/>.
+    /// </summary>
+    public enum ConditionKind
+    {
+        BUFF,
+        DEBUFF,
+        MINION,
+    }
+
     public static class EnumUtil
     {
         private static readonly IReadOnlyDictionary<string, Stat> STAT_STRINGS = new Dictionary<string, Stat>()

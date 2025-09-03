@@ -49,22 +49,12 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 0; i < 1; i++)
+                //for (int i = 0; i < 100; i++)
                 //{
-                //    //var cobj = Game.Engine.CallScript("gml_Script_scr_Creature", i, 0, 0);
-                //    //var sgobj = Game.Engine.CallScript("gml_Script_inv_CreateSpellGem", 1);
-                //    //var old = new Dictionary<string, string>(Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())));
-                //    Game.Engine.CallScript("gml_Script_scr_SetBiome", i);
-                //    Game.Engine.CallFunction("room_goto", "realm".GetGMLAssetID());
-                //    Game.Engine.CallFunction("instance_create", 0, 0, "obj_Control".GetGMLAssetID());
-                //    var v = Game.Engine.CallScript("scr_GetRaceArrayByRealm");
+                //    var v = Game.Engine.CallScript("gml_Script_bc_GetRandomBuff");
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
-                //    foreach (var instance in Game.Engine.GetRunningRoom().ActiveInstances)
-                //    {
-                //        Framework.Print($"[SiralimDumper]   {instance.PrettyPrint().EscapeNonWS().Replace("\n", "\n  ")}");
-                //    }
-                //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
                 //}
 
                 Environment.Exit(0);
