@@ -28,6 +28,10 @@ namespace SiralimDumper
             {
                 Framework.Print($"[SiralimDumper] found creature array!");
 
+                // set up text engine to preserve special values
+                Game.Engine.GetGlobalObject()["playername"] = "{PLAYERNAME}";
+                Game.Engine.GetGlobalObject()["castlename"] = "{CASTLENAME}";
+
                 //Framework.Print($"[SiralimDumper] global object at creature init: {Game.Engine.GetGlobalObject().PrettyPrint().EscapeNonWS()}");
 
                 Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
@@ -55,17 +59,21 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] realm properties: [{string.Join(", ", RealmProperty.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
 
-                // TODO: nether bosses
                 // TODO: projects
                 // TODO: nether stone statistics
 
-                //for (int i = 0; i < 100; i++)
+                //using (new TempRealm(Realm.Database[1]))
                 //{
-                //    //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
-                //    var v = Game.Engine.CallScript("gml_Script_scr_RuneCount", i);
-                //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
-                //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
+                //    for (int i = 0; i < 100; i++)
+                //    {
+                //        //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
+
+                //        var v = Game.Engine.CallScript("gml_Script_scr_NetherBossDialog", i);
+                //        Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
+                //        //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
+                //    }
                 //}
 
                 Environment.Exit(0);
