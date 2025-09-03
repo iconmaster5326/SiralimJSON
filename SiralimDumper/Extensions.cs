@@ -252,14 +252,14 @@ namespace SiralimDumper
 
             if (!v.Type.Equals("ref"))
             {
-                throw new Exception($"Could not get sprite of a variable of type '{v.Type}'!");
+                throw new Exception($"Could not get asset of a variable of type '{v.Type}'!");
             }
 
             var refPrefix = $"ref {assetType} ";
             var refName = v.GetString();
             if (!refName.StartsWith(refPrefix))
             {
-                throw new Exception($"Could not get sprite of a reference of form '{refName}'!");
+                throw new Exception($"Could not get asset of a reference of form '{refName}'!");
             }
 
             return refName.Remove(0, refPrefix.Length).GetGMLAssetID();
@@ -273,6 +273,11 @@ namespace SiralimDumper
         public static int GetSoundID(this GameVariable v)
         {
             return v.GetAssetID("sound");
+        }
+
+        public static int GetTilesetID(this GameVariable v)
+        {
+            return v.GetAssetID("tileset");
         }
 
         public static int GetGMLAssetID(this string s)

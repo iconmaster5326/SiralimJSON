@@ -7,6 +7,10 @@ using YYTKInterop;
 
 namespace SiralimDumper
 {
+    /// <summary>
+    /// A Siralim Ultimate decoration definition.
+    /// Decorations can be placed in your castle.
+    /// </summary>
     public class Decoration
     {
         /// <summary>
@@ -121,6 +125,364 @@ namespace SiralimDumper
                 return null;
             }
 
+        }
+    }
+
+    /// <summary>
+    /// A Siralim Ultimate wall style definition.
+    /// Your castle's tileset can be changed to fit these styles.
+    /// </summary>
+    public class DecorationWalls
+    {
+        /// <summary>
+        /// The unique ID of this decoration.
+        /// </summary>
+        public int ID;
+        /// <summary>
+        /// The English name of this decoration.
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// The ID of the tileset this decoration uses.
+        /// </summary>
+        public int TilesetID;
+
+        public DecorationWalls(int id, string name, int tilesetID)
+        {
+            ID = id;
+            Name = name;
+            TilesetID = tilesetID;
+        }
+
+        /// <summary>
+        /// All the wall styles in the game.
+        /// </summary>
+        public static DecorationWallsDatabase Database = [];
+
+        internal static DecorationWalls FromGML(int id, IReadOnlyList<GameVariable> gml)
+        {
+            return new DecorationWalls(
+                id: id,
+                name: gml[0].GetString(),
+                tilesetID: gml[1].GetTilesetID()
+            );
+        }
+
+        public override string ToString()
+        {
+            return $@"DecorationWalls(
+    ID={ID},
+    Name='{Name}',
+    TilesetID={TilesetID},
+)";
+        }
+    }
+
+    public class DecorationWallsDatabase : Database<int, DecorationWalls>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["wal"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override DecorationWalls? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return DecorationWalls.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+    }
+
+    /// <summary>
+    /// A Siralim Ultimate floor style definition.
+    /// Your castle's tileset can be changed to fit these styles.
+    /// </summary>
+    public class DecorationFloors
+    {
+        /// <summary>
+        /// The unique ID of this decoration.
+        /// </summary>
+        public int ID;
+        /// <summary>
+        /// The English name of this decoration.
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// The ID of the tileset this decoration uses.
+        /// </summary>
+        public int TilesetID;
+
+        public DecorationFloors(int id, string name, int tilesetID)
+        {
+            ID = id;
+            Name = name;
+            TilesetID = tilesetID;
+        }
+
+        /// <summary>
+        /// All the floor styles in the game.
+        /// </summary>
+        public static DecorationFloorsDatabase Database = [];
+
+        internal static DecorationFloors FromGML(int id, IReadOnlyList<GameVariable> gml)
+        {
+            return new DecorationFloors(
+                id: id,
+                name: gml[0].GetString(),
+                tilesetID: gml[1].GetTilesetID()
+            );
+        }
+
+        public override string ToString()
+        {
+            return $@"DecorationFloors(
+    ID={ID},
+    Name='{Name}',
+    TilesetID={TilesetID},
+)";
+        }
+    }
+
+    public class DecorationFloorsDatabase : Database<int, DecorationFloors>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["flo"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override DecorationFloors? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return DecorationFloors.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+    }
+
+    /// <summary>
+    /// A Siralim Ultimate background definition.
+    /// Your castle's background can be changed to fit these styles.
+    /// </summary>
+    public class DecorationBackground
+    {
+        /// <summary>
+        /// The unique ID of this decoration.
+        /// </summary>
+        public int ID;
+        /// <summary>
+        /// The English name of this decoration.
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// The ID of the sprite this decoration uses.
+        /// </summary>
+        public int SpriteID;
+
+        public DecorationBackground(int id, string name, int spriteID)
+        {
+            ID = id;
+            Name = name;
+            SpriteID = spriteID;
+        }
+
+        /// <summary>
+        /// All the backgrounds in the game.
+        /// </summary>
+        public static DecorationBackgroundDatabase Database = [];
+
+        internal static DecorationBackground FromGML(int id, IReadOnlyList<GameVariable> gml)
+        {
+            return new DecorationBackground(
+                id: id,
+                name: gml[0].GetString(),
+                spriteID: gml[1].GetSpriteID()
+            );
+        }
+
+        public override string ToString()
+        {
+            return $@"DecorationBackground(
+    ID={ID},
+    Name='{Name}',
+    SpriteID={SpriteID},
+)";
+        }
+    }
+
+    public class DecorationBackgroundDatabase : Database<int, DecorationBackground>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["bac"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override DecorationBackground? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return DecorationBackground.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+    }
+
+    /// <summary>
+    /// A Siralim Ultimate weather effect definition.
+    /// Your castle's weather effect can be changed to fit these styles.
+    /// </summary>
+    public class DecorationWeather
+    {
+        /// <summary>
+        /// The unique ID of this decoration.
+        /// </summary>
+        public int ID;
+        /// <summary>
+        /// The English name of this decoration.
+        /// </summary>
+        public string Name;
+
+        public DecorationWeather(int id, string name)
+        {
+            ID = id;
+            Name = name;
+        }
+
+        /// <summary>
+        /// All the weather effects in the game.
+        /// </summary>
+        public static DecorationWeatherDatabase Database = [];
+
+        internal static DecorationWeather FromGML(int id, IReadOnlyList<GameVariable> gml)
+        {
+            return new DecorationWeather(
+                id: id,
+                name: gml[0].GetString()
+            );
+        }
+
+        public override string ToString()
+        {
+            return $@"DecorationWeather(
+    ID={ID},
+    Name='{Name}',
+)";
+        }
+    }
+
+    public class DecorationWeatherDatabase : Database<int, DecorationWeather>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["wea"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override DecorationWeather? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return DecorationWeather.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
+        }
+    }
+
+    /// <summary>
+    /// A Siralim Ultimate music track definition.
+    /// Your castle's music can be changed to play these tracks.
+    /// </summary>
+    public class DecorationMusic
+    {
+        /// <summary>
+        /// The unique ID of this decoration.
+        /// </summary>
+        public int ID;
+        /// <summary>
+        /// The English name of this decoration.
+        /// </summary>
+        public string Name;
+        /// <summary>
+        /// The ID of the sound that plays when the track begins, if any.
+        /// </summary>
+        public int? MusicOpeningID;
+        /// <summary>
+        /// The ID of the sound that consists of the main, looping part of the track.
+        /// </summary>
+        public int MusicLoopID;
+
+        public DecorationMusic(int id, string name, int? musicOpeningID, int musicLoopID)
+        {
+            ID = id;
+            Name = name;
+            MusicOpeningID = musicOpeningID;
+            MusicLoopID = musicLoopID;
+        }
+
+        /// <summary>
+        /// All the weather effects in the game.
+        /// </summary>
+        public static DecorationMusicDatabase Database = [];
+
+        internal static DecorationMusic FromGML(int id, IReadOnlyList<GameVariable> gml)
+        {
+            return new DecorationMusic(
+                id: id,
+                name: gml[0].GetString(),
+                musicOpeningID: (gml[2].IsNumber() && gml[2].GetInt32() == -1) ? null : gml[1].GetSoundID(),
+                musicLoopID: (gml[2].IsNumber() && gml[2].GetInt32() == -1) ? gml[1].GetSoundID() : gml[2].GetSoundID()
+            );
+        }
+
+        public override string ToString()
+        {
+            return $@"DecorationMusic(
+    ID={ID},
+    Name='{Name}',
+    MusicOpeningID={MusicOpeningID},
+    MusicLoopID={MusicLoopID},
+)";
+        }
+    }
+
+    public class DecorationMusicDatabase : Database<int, DecorationMusic>
+    {
+        private IReadOnlyList<GameVariable> Array => Game.Engine.GetGlobalObject()["mus"].GetArray();
+
+        public override IEnumerable<int> Keys => Array.Index().Where(kv => !kv.Item.IsNumber()).Select(kv => kv.Index);
+
+        protected override DecorationMusic? FetchNewEntry(int key)
+        {
+            IReadOnlyList<GameVariable> gml;
+
+            if (Array[key].TryGetArrayView(out gml))
+            {
+                return DecorationMusic.FromGML(key, gml);
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

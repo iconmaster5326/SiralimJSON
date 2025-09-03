@@ -42,6 +42,11 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] skins: [{string.Join(", ", Skin.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] costumes: [{string.Join(", ", Costume.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] decorations: [{string.Join(", ", Decoration.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] walls: [{string.Join(", ", DecorationWalls.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] floors: [{string.Join(", ", DecorationFloors.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
 
                 //for (int i = 0; i < 2000; i++)
                 //{
