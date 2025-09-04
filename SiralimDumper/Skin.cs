@@ -27,9 +27,9 @@ namespace SiralimDumper
         /// </summary>
         public string? RaceName;
         /// <summary>
-        /// The ID of the sprite this skin gives to the creature when in battle.
+        /// The frame of the battle sprite this skin uses.
         /// </summary>
-        public int BattleSpriteID;
+        public int BattleSpriteIndex;
         /// <summary>
         /// The ID of the sprite this skin gives to the creature when in the overworld.
         /// </summary>
@@ -41,7 +41,7 @@ namespace SiralimDumper
             Name = name;
             CreatureID = creatureID;
             RaceName = raceName;
-            BattleSpriteID = battleSpriteID;
+            BattleSpriteIndex = battleSpriteID;
             OverworldSpriteID = overworldSpriteID;
         }
 
@@ -71,8 +71,8 @@ namespace SiralimDumper
     Name={Name},
     Creature={(CreatureID == null ? "null" : Creature.Database[CreatureID.Value].Name)},
     Race={RaceName},
-    BattleSpriteID={BattleSpriteID},
-    OverworldSpriteID={OverworldSpriteID},
+    BattleSpriteIndex={BattleSpriteIndex},
+    OverworldSprite={OverworldSprite.ToString().Replace("\n", "\n  ")},
     Reserved={Reserved},
 )";
         }
@@ -81,6 +81,16 @@ namespace SiralimDumper
         /// Can this skin not appear on wild creatures?
         /// </summary>
         public bool Reserved => Game.Engine.CallScript("gml_Script_inv_SkinReserved", ID);
+
+        /// <summary>
+        /// The sprite this skin gives to the creature when in battle.
+        /// See also <see cref="BattleSpriteIndex"/> for the correct frame.
+        /// </summary>
+        public Sprite BattleSprite => "spr_crits_battle".GetGMLSprite();
+        /// <summary>
+        /// The sprite this skin gives to the creature when in the overworld.
+        /// </summary>
+        public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
     }
 
     public class SkinDatabase : Database<int, Skin>

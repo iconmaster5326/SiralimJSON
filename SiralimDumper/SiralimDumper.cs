@@ -201,8 +201,14 @@ namespace SiralimDumper
                 {
                     for (int i = 1; i <= 5; i++)
                     {
-                        result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndexEx(i*10), $@"item\artifact\{item.Name.EscapeForFilename()}_t{i}.png"));
+                        result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndexEx(i * 10), $@"item\artifact\{item.Name.EscapeForFilename()}_t{i}.png"));
                     }
+                }
+
+                foreach (var item in Skin.Database.Values)
+                {
+                    result.GetAndAppend(item.BattleSprite.Name, new ImageInfo(item.BattleSpriteIndex, $@"skin\{item.Name.EscapeForFilename()}\battle.png"));
+                    result.GetAndAppend(item.OverworldSprite.Name, values: ImagesForOWSprite(item.OverworldSprite, $@"skin\{item.Name.EscapeForFilename()}\overworld"));
                 }
 
                 return result;
