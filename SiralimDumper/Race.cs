@@ -49,7 +49,7 @@ namespace SiralimDumper
     Class={Class},
     Master={master},
     BossDialogue=['{string.Join("', '", BossDialogue)}'],
-    IconID={IconID},
+    Icon={Icon?.ToString()?.Replace("\n", "\n  ")},
 )";
         }
 
@@ -211,6 +211,11 @@ namespace SiralimDumper
                 }
             }
         }
+
+        /// <summary>
+        /// The sprite of the icon associated with this race.
+        /// </summary>
+        public Sprite? Icon => IconID?.GetGMLSprite();
     }
 
     public class RaceDatabase : Database<string, Race>

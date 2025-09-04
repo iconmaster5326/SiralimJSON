@@ -162,11 +162,22 @@ namespace SiralimDumper
             get
             {
                 Dictionary<string, List<ImageInfo>> result = new();
+
                 foreach (var item in Creature.Database.Values)
                 {
                     result.GetAndAppend(item.BattleSprite.Name, new ImageInfo(item.BattleSpriteIndex, $@"creature\{item.Name.EscapeForFilename()}\battle.png"));
                     result.GetAndAppend(item.OverworldSprite.Name, values: ImagesForOWSprite(item.OverworldSprite, $@"creature\{item.Name.EscapeForFilename()}\overworld"));
                 }
+
+                foreach (var item in Race.Database.Values)
+                {
+                    Sprite? icon = item.Icon;
+                    if (icon != null)
+                    {
+                        result.GetAndAppend(icon.Name, new ImageInfo(0, $@"race\{item.Name.EscapeForFilename()}.png"));
+                    }
+                }
+
                 return result;
             }
         }
