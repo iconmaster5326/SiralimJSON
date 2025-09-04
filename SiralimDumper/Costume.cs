@@ -34,7 +34,7 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
     Reserved={Reserved},
-    SpriteID={SpriteID},
+    Sprite={Sprite.ToString().Replace("\n", "\n  ")},
 )";
         }
 
@@ -50,6 +50,10 @@ namespace SiralimDumper
         /// The ID of this costume's sprite.
         /// </summary>
         public int SpriteID => Game.Engine.CallScript("gml_Script_scr_WardrobeSprite", ID).GetSpriteID();
+        /// <summary>
+        /// This costume's sprite.
+        /// </summary>
+        public Sprite Sprite => SpriteID.GetGMLSprite();
     }
 
     public class CostumeDatabase : Database<int, Costume>

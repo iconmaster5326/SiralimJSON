@@ -211,6 +211,11 @@ namespace SiralimDumper
                     result.GetAndAppend(item.OverworldSprite.Name, values: ImagesForOWSprite(item.OverworldSprite, $@"skin\{item.Name.EscapeForFilename()}\overworld"));
                 }
 
+                foreach (var item in Costume.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, values: ImagesForOWSprite(item.Sprite, $@"costume\{item.Name.EscapeForFilename()}\overworld"));
+                }
+
                 return result;
             }
         }
