@@ -260,6 +260,15 @@ namespace SiralimDumper
                     result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"perk\{item.Name.EscapeForFilename()}.png"));
                 }
 
+                foreach (var item in RealmProperty.Database.Values)
+                {
+                    Sprite? icon = item.Icon;
+                    if (icon != null)
+                    {
+                        result.GetAndAppend(icon.Name, new ImageInfo(0, $@"realmprop\{item.ID}.png"));
+                    }
+                }
+
                 return result;
             }
         }

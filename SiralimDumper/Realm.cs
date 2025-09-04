@@ -122,7 +122,7 @@ namespace SiralimDumper
             return $@"RealmProperty(
     ID={ID},
     Name='{Name}',
-    IconID={IconID},
+    Icon={Icon?.ToString()?.Replace("\n", "\n  ")},
 )";
         }
 
@@ -154,6 +154,10 @@ namespace SiralimDumper
         /// The ID of the icon sprite for this realm property.
         /// </summary>
         public int? IconID => Regex.Match(FullName(ID), "^\\[([^\\]]*)\\] .*$").Groups[1].Value.GetGMLAssetIDOrNull();
+        /// <summary>
+        /// The icon sprite for this realm property.
+        /// </summary>
+        public Sprite? Icon => IconID?.GetGMLSprite();
     }
 
     public class RealmPropertyDatabase : Database<int, RealmProperty>
