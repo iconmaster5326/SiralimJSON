@@ -250,6 +250,16 @@ namespace SiralimDumper
                     }
                 }
 
+                foreach (var item in Specialization.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"spec\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in Perk.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"perk\{item.Name.EscapeForFilename()}.png"));
+                }
+
                 return result;
             }
         }

@@ -39,8 +39,8 @@ namespace SiralimDumper
     Name='{Name}',
     Description='{Description}',
     Playstyle='{Playstyle}',
-    IconID={IconID},
-    SpriteID={SpriteID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
+    Sprite={Sprite.ToString().Replace("\n", "\n  ")},
     PrimaryCreatureID={PrimaryCreatureID} ({Creature.Database[PrimaryCreatureID].Name}),
     SecondaryCreatureID={SecondaryCreatureID} ({Creature.Database[SecondaryCreatureID].Name}),
     SpellID={SpellID} ({Spell.Database[SpellID].Name}),
@@ -83,9 +83,17 @@ namespace SiralimDumper
         /// </summary>
         public int IconID => Game.Engine.CallScript("gml_Script_scr_SpecializationIcon", ID).GetSpriteID();
         /// <summary>
+        /// The icon for this specialization.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
+        /// <summary>
         /// The ID of the sprite for the initial costume for this specialization.
         /// </summary>
         public int SpriteID => Game.Engine.CallScript("gml_Script_scr_SpecializationCostume", ID).GetSpriteID();
+        /// <summary>
+        /// The sprite for the initial costume for this specialization.
+        /// </summary>
+        public Sprite Sprite => SpriteID.GetGMLSprite();
         /// <summary>
         /// The ID of the first <see cref="Creature"> this specialization starts the game with.
         /// Also see <see cref="SecondaryCreatureID"/>.
@@ -211,7 +219,7 @@ namespace SiralimDumper
     Description='{Description}',
     MaxRanks={MaxRanks},
     PointsPerRank={PointsPerRank},
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     Specialization={Specialization.Name},
     IsAnointable={IsAnointable},
 )";
@@ -225,6 +233,10 @@ namespace SiralimDumper
         /// Is this perk anointable?
         /// </summary>
         public bool IsAnointable => Game.Engine.CallScript("gml_Script_scr_AnointmentGetSpecialization", ID).GetInt32() >= 1;
+        /// <summary>
+        /// The sprite for this perk's icon.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
     }
 
     public class PerkDatabase : Database<int, Perk>
