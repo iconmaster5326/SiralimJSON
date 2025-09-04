@@ -1,4 +1,5 @@
 ﻿using AurieSharpInterop;
+using System.Reflection.Emit;
 using System.Text.Json;
 using YYTKInterop;
 
@@ -35,34 +36,36 @@ namespace SiralimDumper
 
                 //Framework.Print($"[SiralimDumper] global object at creature init: {Game.Engine.GetGlobalObject().PrettyPrint().EscapeNonWS()}");
 
-                //Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] artifacts: [{string.Join(", ", ItemArtifact.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] personalities: [{string.Join(", ", Personality.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] skins: [{string.Join(", ", Skin.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] costumes: [{string.Join(", ", Costume.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] decorations: [{string.Join(", ", Decoration.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] walls: [{string.Join(", ", DecorationWalls.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] floors: [{string.Join(", ", DecorationFloors.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] specializations: [{string.Join(", ", Specialization.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] perks: [{string.Join(", ", Perk.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] realm properties: [{string.Join(", ", RealmProperty.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
-                //Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] artifacts: [{string.Join(", ", ItemArtifact.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] personalities: [{string.Join(", ", Personality.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] skins: [{string.Join(", ", Skin.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] costumes: [{string.Join(", ", Costume.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] decorations: [{string.Join(", ", Decoration.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] walls: [{string.Join(", ", DecorationWalls.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] floors: [{string.Join(", ", DecorationFloors.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] specializations: [{string.Join(", ", Specialization.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] perks: [{string.Join(", ", Perk.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] realm properties: [{string.Join(", ", RealmProperty.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
+
+                // TODO: relics
 
                 //for (int i = 1; i < 10; i++)
                 //{
@@ -199,10 +202,15 @@ namespace SiralimDumper
 
                 foreach (var item in ItemArtifact.Database.Values)
                 {
-                    for (int i = 1; i <= 5; i++)
+                    for (int i = 0; i <= 5; i++)
                     {
                         result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndexEx(i * 10), $@"item\artifact\{item.Name.EscapeForFilename()}_t{i}.png"));
                     }
+                }
+
+                foreach (var item in Personality.Database.Values)
+                {
+                    result.GetAndAppend("icons", new ImageInfo(item.TomeIconIndex, $@"item\tome\{item.Name.EscapeForFilename()}.png"));
                 }
 
                 foreach (var item in Skin.Database.Values)
@@ -239,6 +247,10 @@ namespace SiralimDumper
                 foreach (var item in God.Database.Values)
                 {
                     result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"god\{item.Name.EscapeForFilename()}.png"));
+                    if (item.EmblemIcon != null)
+                    {
+                        result.GetAndAppend(item.EmblemIcon.Name, new ImageInfo(0, $@"item\emblem\{item.Name.EscapeForFilename()}.png"));
+                    }
                 }
 
                 foreach (var item in Condition.Database.Values)
@@ -290,6 +302,72 @@ namespace SiralimDumper
                 foreach (var item in ProjectItem.Database.Values)
                 {
                     result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"item\project\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                result.GetAndAppend("project_creatureparts", new ImageInfo(0, $@"item\project\CreatureParts.png"));
+                result.GetAndAppend("project_arcanedust", new ImageInfo(0, $@"item\project\ArcaneDust.png"));
+
+                foreach (var clazz in Enum.GetValues<SiralimClass>())
+                {
+                    using (var tsi = new TempSpellInstance(Spell.Database.Values.First(s => s.Class == clazz)))
+                    {
+                        for (int level = 0; level <= 3; level++)
+                        {
+                            tsi.Instance.GetRefInstance()["tier"] = level * 5;
+                            result.GetAndAppend("icons", new ImageInfo(Game.Engine.CallScript("gml_Script_inv_SpellGemIcon", tsi.Instance).GetInt32(), $@"item\spellgem\{EnumUtil.Name(clazz)}_{level}.png"));
+                        }
+                    }
+                }
+
+                foreach (var info in new (string Sprite, string Name)[]{
+                    ("gem_slot", "spellprop"),
+                    ("slot_nether", "nether"),
+                    ("slot_spell", "spell"),
+                    ("slot_stat", "stat"),
+                    ("slot_trait", "trait"),
+                    ("slot_trick", "trick"),
+                })
+                {
+                    result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\slots\{info.Name}.png"));
+                }
+
+                foreach (var info in new (string Sprite, int Index, string Name)[]{
+                    ("resource_brimstone", 0, "brimstone"),
+                    ("resource_crystal", 0, "crystal"),
+                    ("resource_essence", 0, "essence"),
+                    ("resource_granite", 0, "granite"),
+                    ("resource_power", 0, "power"),
+                    ("icons", 2001, "glamor"),
+                    ("icons", 2002, "glory"),
+                    ("icons", 2003, "notoriety"),
+                    ("icons", 2004, "piety"),
+                    ("icons", 2141, "stardust"),
+                })
+                {
+                    result.GetAndAppend(info.Sprite, new ImageInfo(info.Index, $@"item\resource\{info.Name}.png"));
+                }
+
+                foreach (var info in new (int Index, string Name)[]{
+                    (1991, "chaos"),
+                    (1992, "death"),
+                    (1993, "life"),
+                    (1994, "nature"),
+                    (1995, "sorcery"),
+                })
+                {
+                    result.GetAndAppend("icons", new ImageInfo(info.Index, $@"item\card\{info.Name}.png"));
+                }
+
+                foreach (var info in new (int Index, string Name)[]{
+                    (2005, "attack"),
+                    (2006, "defense"),
+                    (2007, "health"),
+                    (2008, "intelligence"),
+                    (2009, "speed"),
+                    (2178, "reset"),
+                })
+                {
+                    result.GetAndAppend("icons", new ImageInfo(info.Index, $@"item\scroll\{info.Name}.png"));
                 }
 
                 return result;

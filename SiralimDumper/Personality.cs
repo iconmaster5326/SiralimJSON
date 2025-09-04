@@ -25,6 +25,7 @@ namespace SiralimDumper
     Name='{Name}',
     Increases={Increases},
     Decreases={Decreases},
+    TomeIconIndex={TomeIconIndex},
 )";
         }
         /// <summary>
@@ -39,6 +40,10 @@ namespace SiralimDumper
         /// The stat that is decreased by this personality.
         /// </summary>
         public Stat Decreases => EnumUtil.StatFromString(Regex.Match(Game.Engine.CallScript("gml_Script_scr_PersonalityStatDecrease", ID), "\\[.*\\]\\[.*\\] (.*)\\[.*\\] \\[.*\\]").Groups[1].Value);
+        /// <summary>
+        /// The index into <tt>icons</tt> for the tome for this personality.
+        /// </summary>
+        public int TomeIconIndex => 2101 + ID;
     }
     public class PersonalityDatabase : Database<int, Personality>
     {

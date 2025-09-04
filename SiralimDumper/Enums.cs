@@ -297,6 +297,22 @@ namespace SiralimDumper
         }
 
         /// <summary>
+        /// The English name of this class
+        /// </summary>
+        public static string Name(this SiralimClass clazz)
+        {
+            switch (clazz)
+            {
+                case SiralimClass.NATURE: return "Nature";
+                case SiralimClass.DEATH: return "Death";
+                case SiralimClass.LIFE: return "Life";
+                case SiralimClass.SORCERY: return "Sorcery";
+                case SiralimClass.CHAOS: return "Chaos";
+                default: throw new Exception($"Unknown class {clazz}!");
+            }
+        }
+
+        /// <summary>
         /// The English name of this decoration category.
         /// </summary>
         public static string Name(this DecorationCategory category) => Game.Engine.CallScript("gml_Script_scr_DecorationCatName", (int)category);

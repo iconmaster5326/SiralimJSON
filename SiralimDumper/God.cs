@@ -35,6 +35,7 @@ namespace SiralimDumper
     RealmID={RealmID},
     Title='{Title}',
     Icon={Icon.ToString().Replace("\n", "\n  ")},
+    EmblemIcon={EmblemIcon?.ToString()?.Replace("\n", "\n  ")},
 )";
         }
 
@@ -80,6 +81,26 @@ namespace SiralimDumper
         /// The icon of this god.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+        /// <summary>
+        /// The ID of the sprite for this god's emblem.
+        /// </summary>
+        public int? EmblemIconID
+        {
+            get
+            {
+                GameVariable v = Game.Engine.CallScript("gml_Script_inv_GetEmblemIconByGod", ID);
+                if (v.Type.Equals("undefined") || v.IsNumber() && v < 0)
+                {
+                    return null;
+                }
+                return v.GetSpriteID();
+            }
+        }
+
+        /// <summary>
+        /// The ID of the sprite for this god's emblem.
+        /// </summary>
+        public Sprite? EmblemIcon => EmblemIconID?.GetGMLSprite();
     }
 
     public class GodDatabase : Database<int, God>

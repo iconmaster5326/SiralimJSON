@@ -29,6 +29,14 @@ namespace SiralimDumper
     }
 
     /// <summary>
+    /// A temporary instance of a particular Siralim Ultimate spell gem.
+    /// </summary>
+    internal class TempSpellInstance : TempInstance
+    {
+        public TempSpellInstance(Spell spell) : base(Game.Engine.CallScript("gml_Script_inv_CreateSpellGem", spell.ID)) { }
+    }
+
+    /// <summary>
     /// A temporary instance of a particular Siralim Ultimate spell gem property material.
     /// </summary>
     internal class TempItemSpellPropertyInstance : TempInstance
