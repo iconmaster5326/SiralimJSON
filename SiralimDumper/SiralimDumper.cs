@@ -269,6 +269,19 @@ namespace SiralimDumper
                     }
                 }
 
+                foreach (var item in FalseGod.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"falsegod\{item.Name.EscapeForFilename()}\icon.png"));
+                    result.GetAndAppend(item.OverworldSprite.Name, new ImageInfo(0, $@"falsegod\{item.Name.EscapeForFilename()}\overworld_0.png"));
+                    result.GetAndAppend(item.OverworldSprite.Name, new ImageInfo(1, $@"falsegod\{item.Name.EscapeForFilename()}\overworld_1.png"));
+                }
+
+                foreach (var item in FalseGodRune.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"rune\{item.ID}.png"));
+                    result.GetAndAppend(item.InactiveSprite.Name, new ImageInfo(0, $@"rune\{item.ID}_inactive.png"));
+                }
+
                 return result;
             }
         }

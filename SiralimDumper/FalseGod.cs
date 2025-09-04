@@ -31,7 +31,8 @@ namespace SiralimDumper
             return $@"FalseGod(
     ID={ID},
     Name='{Name}',
-    OverworldSpriteID={OverworldSpriteID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
+    OverworldSprite={OverworldSprite.ToString().Replace("\n", "\n  ")},
     Description='{Description.Escape()}',
     Dialog='{Dialog.Escape()}'
 )";
@@ -46,6 +47,10 @@ namespace SiralimDumper
         /// </summary>
         public int OverworldSpriteID => Game.Engine.CallScript("gml_Script_scr_FalseGodOWSprite", ID).GetSpriteID();
         /// <summary>
+        /// The sprite this false god uses in the overworld.
+        /// </summary>
+        public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
+        /// <summary>
         /// The English description and lore of this false god.
         /// </summary>
         public string Description => Game.Engine.CallScript("gml_Script_scr_FalseGodLore", ID);
@@ -53,6 +58,29 @@ namespace SiralimDumper
         /// The English text the false god speaks before you fight them.
         /// </summary>
         public string Dialog => Game.Engine.CallScript("gml_Script_scr_FalseGodDialog", ID);
+        /// <summary>
+        /// TODO: Replace this with a script call if possible.
+        /// </summary>
+        private static readonly IReadOnlyDictionary<int, string> ICON_SPRITES = new Dictionary<int, string>() {
+            [0] = "worldboss_althea",
+            [1] = "worldboss_nebodar",
+            [2] = "worldboss_jotinir",
+            [3] = "worldboss_hydranox",
+            [4] = "worldboss_loid",
+            [5] = "worldboss_impington",
+            [6] = "worldboss_ancestor",
+            [7] = "worldboss_caliban",
+            [8] = "worldboss_wurm",
+            [9] = "worldboss_construct",
+        };
+        /// <summary>
+        /// The ID of the icon for this false god.
+        /// </summary>
+        public int IconID => ICON_SPRITES[ID].GetGMLAssetID();
+        /// <summary>
+        /// The icon for this false god.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
     }
 
     public class FalseGodDatabase : Database<int, FalseGod>
@@ -101,6 +129,7 @@ namespace SiralimDumper
             return $@"FalseGodRune(
     ID={ID},
     Description='{Description.Escape()}',
+    Sprite={Sprite.ToString().Replace("\n", "\n  ")}
 )";
         }
 
@@ -111,7 +140,19 @@ namespace SiralimDumper
         /// <summary>
         /// The ID of the sprite for this rune.
         /// </summary>
-        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID).GetSpriteID();
+        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID, false).GetSpriteID();
+        /// <summary>
+        /// The sprite for this rune.
+        /// </summary>
+        public Sprite Sprite => SpriteID.GetGMLSprite();
+        /// <summary>
+        /// The ID of the sprite for this rune when not selected.
+        /// </summary>
+        public int InactiveSpriteID => Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID, true).GetSpriteID();
+        /// <summary>
+        /// The sprite for this rune when not selected.
+        /// </summary>
+        public Sprite InactiveSprite => InactiveSpriteID.GetGMLSprite();
     }
 
     public class FalseGodRuneDatabase : Database<int, FalseGodRune>
