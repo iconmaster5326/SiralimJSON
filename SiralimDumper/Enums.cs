@@ -189,33 +189,33 @@ namespace SiralimDumper
     {
         private static readonly IReadOnlyDictionary<string, Stat> STAT_STRINGS = new Dictionary<string, Stat>()
         {
-            ["Health"] = Stat.HEALTH,
-            ["Attack"] = Stat.ATTACK,
-            ["Intelligence"] = Stat.INTELLIGENCE,
-            ["Defense"] = Stat.DEFENSE,
-            ["Speed"] = Stat.SPEED,
+            ["health"] = Stat.HEALTH,
+            ["attack"] = Stat.ATTACK,
+            ["intelligence"] = Stat.INTELLIGENCE,
+            ["defense"] = Stat.DEFENSE,
+            ["speed"] = Stat.SPEED,
         };
         /// <summary>
         /// Get a stat from the stat's name.
         /// </summary>
         public static Stat StatFromString(string s)
         {
-            return STAT_STRINGS[s];
+            return STAT_STRINGS[s.ToLower()];
         }
         private static readonly IReadOnlyDictionary<string, SiralimClass> CLASS_STRINGS = new Dictionary<string, SiralimClass>()
         {
-            ["Life"] = SiralimClass.LIFE,
-            ["Chaos"] = SiralimClass.CHAOS,
-            ["Sorcery"] = SiralimClass.SORCERY,
-            ["Nature"] = SiralimClass.NATURE,
-            ["Death"] = SiralimClass.DEATH,
+            ["life"] = SiralimClass.LIFE,
+            ["chaos"] = SiralimClass.CHAOS,
+            ["sorcery"] = SiralimClass.SORCERY,
+            ["nature"] = SiralimClass.NATURE,
+            ["death"] = SiralimClass.DEATH,
         };
         /// <summary>
         /// Get a class from the class's name.
         /// </summary>
         public static SiralimClass ClassFromString(string s)
         {
-            return CLASS_STRINGS[s];
+            return CLASS_STRINGS[s.ToLower()];
         }
 
         /// <summary>

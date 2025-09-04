@@ -36,6 +36,7 @@ namespace SiralimDumper
     Title='{Title}',
     Icon={Icon.ToString().Replace("\n", "\n  ")},
     EmblemIcon={EmblemIcon?.ToString()?.Replace("\n", "\n  ")},
+    UltimateSpell={UltimateSpellID} ({UltimateSpell.Name}),
 )";
         }
 
@@ -101,6 +102,18 @@ namespace SiralimDumper
         /// The ID of the sprite for this god's emblem.
         /// </summary>
         public Sprite? EmblemIcon => EmblemIconID?.GetGMLSprite();
+        /// <summary>
+        /// The ID of the <see cref="Spell"/> this god's Avatar can cast.
+        /// </summary>
+        public int UltimateSpellID => Game.Engine.CallScript("gml_Script_scr_GetUltimateSpellByRelic", ID);
+        /// <summary>
+        /// The <see cref="Spell"/> this god's Avatar can cast.
+        /// </summary>
+        public Spell UltimateSpell => Spell.Database[UltimateSpellID];
+        /// <summary>
+        /// The <see cref="Relic"/> associated with this god.
+        /// </summary>
+        public Relic Relic => Relic.Database[ID];
     }
 
     public class GodDatabase : Database<int, God>

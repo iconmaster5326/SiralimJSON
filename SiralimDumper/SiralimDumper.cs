@@ -64,14 +64,13 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] relics: [{string.Join(", ", Relic.Database.Values).EscapeNonWS()}]");
 
-                // TODO: relics
-
-                //for (int i = 1; i < 10; i++)
+                //for (int i = 1; i < 30; i++)
                 //{
                 //    //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
-                //    using var tci = new TempCreatureInstance(Creature.Database[i]);
-                //    var v = Game.Engine.CallScript("gml_Script_scr_CreatureSpriteBattle", tci.Instance);
+                //    //using var tci = new TempCreatureInstance(Creature.Database[i]);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_RelicBonusText", i, 1);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
                 //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
                 //}
@@ -317,6 +316,12 @@ namespace SiralimDumper
                             result.GetAndAppend("icons", new ImageInfo(Game.Engine.CallScript("gml_Script_inv_SpellGemIcon", tsi.Instance).GetInt32(), $@"item\spellgem\{EnumUtil.Name(clazz)}_{level}.png"));
                         }
                     }
+                }
+
+                foreach (var item in Relic.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"relic\{item.Name.EscapeForFilename()}\relic.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"relic\{item.Name.EscapeForFilename()}\icon.png"));
                 }
 
                 foreach (var info in new (string Sprite, string Name)[]{
