@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using AurieSharpInterop;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -52,6 +53,11 @@ namespace SiralimDumper
         /// </summary>
         public virtual int IconID => "icons".GetGMLAssetID();
         /// <summary>
+        /// The sprite of the icon for this item.
+        /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
+        /// <summary>
         /// The frame of the icon sprite to use for this item.
         /// This is a large sprite with many frames; see <see cref="IconID"/> for the sprite to use.
         /// </summary>
@@ -91,7 +97,7 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
     Description='{Description.Escape()}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     PropertiesApplicable=['{string.Join("', '", PropertiesApplicable.Select(sp => sp.ShortDescription))}'],
 )";
@@ -199,7 +205,7 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
     Description='{Description.Escape()}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     MaterialKind={MaterialKind},
     Stats=[{string.Join(", ", Stats)}],
@@ -247,7 +253,7 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
     Description='{Description.Escape()}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     MaterialKind={MaterialKind},
 )";
@@ -300,7 +306,7 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
     Description='{Description.Escape()}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     MaterialKind={MaterialKind},
     Trait='{(Trait.Database.ContainsKey(TraitID) ? Trait.Database[TraitID].Name : TraitID)}',
@@ -352,24 +358,26 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
     Description='{Description.Escape()}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     Increases={Increases},
 )";
         }
 
-        override public int IconID
+        /// <summary>
+        /// Returns the icon index for this artifact, with the given properties.
+        /// </summary>
+        /// <param name="level">The level of the artifact. 1-50.</param>
+        public int IconIndexEx(int level = 1)
         {
-            get
+            using (var ti = TempInstance)
             {
-                using (var ti = TempInstance)
-                {
-                    return Game.Engine.CallScript("gml_Script_inv_ArtifactIcon", ti.Instance).GetSpriteID();
-                }
+                ti.Instance.GetRefInstance()["tier"] = level;
+                return Game.Engine.CallScript("gml_Script_inv_ArtifactIcon", ti.Instance).GetSpriteID();
             }
         }
 
-        override public int IconIndex => 0;
+        override public int IconIndex => IconIndexEx();
 
         /// <summary>
         /// The stat this artifact primarily increases.

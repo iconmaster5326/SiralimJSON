@@ -187,6 +187,24 @@ namespace SiralimDumper
                     }
                 }
 
+                foreach (var item in ItemSpellProperty.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndex, $@"item\spellprop\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in ItemMaterial.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndex, $@"item\material\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in ItemArtifact.Database.Values)
+                {
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndexEx(i*10), $@"item\artifact\{item.Name.EscapeForFilename()}_t{i}.png"));
+                    }
+                }
+
                 return result;
             }
         }
