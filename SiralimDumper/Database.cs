@@ -9,7 +9,7 @@ namespace SiralimDumper
         protected abstract V? FetchNewEntry(K key);
         public abstract IEnumerable<K> Keys { get; }
 
-        private readonly Dictionary<K, V> Cache = [];
+        protected readonly Dictionary<K, V> Cache = [];
 
         private void UpdateCache(K key)
         {

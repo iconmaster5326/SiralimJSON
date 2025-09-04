@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -309,7 +310,27 @@ namespace SiralimDumper
             return assetIndex[s].GetInt32();
         }
 
+        public static Sprite GetSprite(this GameVariable v)
+        {
+            return Sprite.Database[v.GetSpriteID()];
+        }
+
+        public static Sprite GetGMLSprite(this int i)
+        {
+            return Sprite.Database[i];
+        }
+
+        public static Sprite GetGMLSprite(this string s)
+        {
+            return Sprite.Database[s.GetGMLAssetID()];
+        }
+
         private const int MAX_STR_LEN = 1024;
+
+        public static string EscapeForFilename(this string input)
+        {
+            return Regex.Replace(input, "[^A-Za-z01-9]+", "");
+        }
 
         public static string Escape(this string input)
         {
@@ -569,6 +590,24 @@ namespace SiralimDumper
                 Translations = Game.Engine.GetGlobalObject()["dictionary_keys"].GetDSMap().Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value)).ToDictionary();
             }
             return Translations.ContainsKey(s) ? Translations[s] : s;
+        }
+
+        public static void GetAndAppend<K, V>(this IDictionary<K, List<V>> dict, K key, params List<V> values)
+        {
+            List<V> v;
+            if (!dict.ContainsKey(key))
+            {
+                v = [];
+                dict[key] = v;
+            }
+            else
+            {
+                v = dict[key];
+            }
+            foreach (var toAdd in values)
+            {
+                v.Add(toAdd);
+            }
         }
     }
 }

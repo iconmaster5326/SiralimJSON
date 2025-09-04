@@ -1,4 +1,5 @@
 ﻿using AurieSharpInterop;
+using System.Text.Json;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -34,44 +35,45 @@ namespace SiralimDumper
 
                 //Framework.Print($"[SiralimDumper] global object at creature init: {Game.Engine.GetGlobalObject().PrettyPrint().EscapeNonWS()}");
 
-                Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] artifacts: [{string.Join(", ", ItemArtifact.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] personalities: [{string.Join(", ", Personality.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] skins: [{string.Join(", ", Skin.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] costumes: [{string.Join(", ", Costume.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] decorations: [{string.Join(", ", Decoration.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] walls: [{string.Join(", ", DecorationWalls.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] floors: [{string.Join(", ", DecorationFloors.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] specializations: [{string.Join(", ", Specialization.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] perks: [{string.Join(", ", Perk.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] realm properties: [{string.Join(", ", RealmProperty.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
-                Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] artifacts: [{string.Join(", ", ItemArtifact.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] personalities: [{string.Join(", ", Personality.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] skins: [{string.Join(", ", Skin.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] costumes: [{string.Join(", ", Costume.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] decorations: [{string.Join(", ", Decoration.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] walls: [{string.Join(", ", DecorationWalls.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] floors: [{string.Join(", ", DecorationFloors.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] specializations: [{string.Join(", ", Specialization.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] perks: [{string.Join(", ", Perk.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] realm properties: [{string.Join(", ", RealmProperty.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
+                //Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
 
-                // TODO: nether stone statistics
-
-                //for (int i = 0; i < 200; i++)
+                //for (int i = 1; i < 10; i++)
                 //{
                 //    //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
-                //    var v = Game.Engine.CallScript("gml_Script_scr_ProjectItemName", i);
+                //    using var tci = new TempCreatureInstance(Creature.Database[i]);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_CreatureSpriteBattle", tci.Instance);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
                 //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
                 //}
+
+                SaveImageMappingJSON();
 
                 Environment.Exit(0);
             }
@@ -111,6 +113,72 @@ namespace SiralimDumper
             }
 
             Framework.Print($"[SiralimDumper] END DIFF");
+        }
+
+        /// <summary>
+        /// The sprite mapping file to generate.
+        /// Later, a UTMT script is called to extract these images.
+        /// </summary>
+        public const string ImageMappingFile = @"..\SiralimDumperImageMappings.json";
+
+        public class ImageInfo
+        {
+            public int Frame { get; set; }
+            public string Output { get; set; }
+
+            public ImageInfo(int frame, string output)
+            {
+                Frame = frame;
+                Output = output;
+            }
+        }
+
+        private static List<ImageInfo> ImagesForOWSprite(Sprite sprite, string prefix)
+        {
+            if (sprite.Frames < 8)
+            {
+                return [new ImageInfo(0, $@"{prefix}.png")];
+            }
+            else
+            {
+                return [
+                    new ImageInfo(0, $@"{prefix}_s0.png"),
+                    new ImageInfo(1, $@"{prefix}_s1.png"),
+
+                    new ImageInfo(2, $@"{prefix}_n0.png"),
+                    new ImageInfo(3, $@"{prefix}_n1.png"),
+
+                    new ImageInfo(4, $@"{prefix}_e0.png"),
+                    new ImageInfo(5, $@"{prefix}_e1.png"),
+
+                    new ImageInfo(6, $@"{prefix}_w0.png"),
+                    new ImageInfo(7, $@"{prefix}_w1.png"),
+                ];
+            }
+        }
+
+        public static Dictionary<string, List<ImageInfo>> ImageMappingJSON
+        {
+            get
+            {
+                Dictionary<string, List<ImageInfo>> result = new();
+                foreach (var item in Creature.Database.Values)
+                {
+                    result.GetAndAppend(item.BattleSprite.Name, new ImageInfo(item.BattleSpriteIndex, $@"creature\{item.Name.EscapeForFilename()}\battle.png"));
+                    result.GetAndAppend(item.OverworldSprite.Name, values: ImagesForOWSprite(item.OverworldSprite, $@"creature\{item.Name.EscapeForFilename()}\overworld"));
+                }
+                return result;
+            }
+        }
+
+        public static void SaveImageMappingJSON()
+        {
+            File.WriteAllText(ImageMappingFile, JsonSerializer.Serialize(ImageMappingJSON, new JsonSerializerOptions()
+            {
+                IndentSize = 2,
+                IndentCharacter = ' ',
+                WriteIndented = true,
+            }));
         }
     }
 }

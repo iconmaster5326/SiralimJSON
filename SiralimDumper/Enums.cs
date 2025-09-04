@@ -174,6 +174,17 @@ namespace SiralimDumper
         MINION,
     }
 
+    /// <summary>
+    /// The direction something can be facing.
+    /// </summary>
+    public enum Direction
+    {
+        SOUTH,
+        NORTH,
+        EAST,
+        WEST,
+    }
+
     public static class EnumUtil
     {
         private static readonly IReadOnlyDictionary<string, Stat> STAT_STRINGS = new Dictionary<string, Stat>()

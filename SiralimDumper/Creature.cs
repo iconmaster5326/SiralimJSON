@@ -1,4 +1,7 @@
-﻿using YYTKInterop;
+﻿using AurieSharpInterop;
+using System.IO;
+using System.Text.RegularExpressions;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -16,9 +19,9 @@ namespace SiralimDumper
         /// </summary>
         public int AttackGrowth;
         /// <summary>
-        /// The ID of the sprite this creature uses in battle.
+        /// The frame of the battle sprite this creature uses.
         /// </summary>
-        public int BattleSpriteID;
+        public int BattleSpriteIndex;
         /// <summary>
         /// This creature's class.
         /// </summary>
@@ -67,7 +70,7 @@ namespace SiralimDumper
         public Creature(
             int id,
             int attackGrowth,
-            int battleSpriteID,
+            int battleSpriteIndex,
             SiralimClass @class,
             int defenceGrowth,
             int hpGrowth,
@@ -81,7 +84,7 @@ namespace SiralimDumper
         {
             ID = id;
             AttackGrowth = attackGrowth;
-            BattleSpriteID = battleSpriteID;
+            BattleSpriteIndex = battleSpriteIndex;
             Class = @class;
             DefenseGrowth = defenceGrowth;
             HPGrowth = hpGrowth;
@@ -103,7 +106,7 @@ namespace SiralimDumper
             return new Creature(
                 id: id,
                 attackGrowth: gml[0].GetInt32(),
-                battleSpriteID: gml[1].GetSpriteID(),
+                battleSpriteIndex: gml[1].GetSpriteID(),
                 @class: EnumUtil.ClassFromString(gml[2]),
                 defenceGrowth: gml[3].GetInt32(),
                 hpGrowth: gml[4].GetInt32(),
@@ -121,13 +124,13 @@ namespace SiralimDumper
             return $@"Creature(
     ID={ID},
     AttackGrowth={AttackGrowth},
-    BattleSpriteID={BattleSpriteID},
+    BattleSpriteIndex={BattleSpriteIndex},
     Class={Class},
     DefenceGrowth={DefenseGrowth},
     HPGrowth={HPGrowth},
     IntelligenceGrowth={IntelligenceGrowth},
     Name='{Name}',
-    OverworldSpriteID={OverworldSpriteID},
+    OverworldSprite={OverworldSprite.ToString().Replace("\n", "\n  ")},
     Trait={Trait.Name},
     Race='{RaceName}',
     SpeedGrowth={SpeedGrowth},
@@ -194,6 +197,17 @@ namespace SiralimDumper
                 return true;
             }
         }
+
+        /// <summary>
+        /// The sprite this creature uses in battle.
+        /// This is the same sprite for all creatures;
+        /// the frame of the sprite to be used should be <see cref="ID"/>.
+        /// </summary>
+        public Sprite BattleSprite => "spr_crits_battle".GetGMLSprite();
+        /// <summary>
+        /// The sprite this creature uses in the overworld.
+        /// </summary>
+        public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
     }
 
     public class CreatureDatabase : Database<int, Creature>
