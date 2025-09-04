@@ -66,11 +66,11 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] relics: [{string.Join(", ", Relic.Database.Values).EscapeNonWS()}]");
 
-                //for (int i = 1; i < 30; i++)
+                //for (int i = 1; i < 10; i++)
                 //{
                 //    //var old = Game.Engine.GetGlobalObject().Members.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value.PrettyPrint())).ToDictionary();
                 //    //using var tci = new TempCreatureInstance(Creature.Database[i]);
-                //    var v = Game.Engine.CallScript("gml_Script_scr_RelicBonusText", i, 1);
+                //    var v = Game.Engine.CallScript("gml_Script_scr_PersonalityStatIncrease", i);
                 //    Framework.Print($"[SiralimDumper] {i}: {v.PrettyPrint().EscapeNonWS()}");
                 //    //CompareObjectMembers(old, Game.Engine.GetGlobalObject().Members);
                 //}
@@ -373,6 +373,29 @@ namespace SiralimDumper
                 })
                 {
                     result.GetAndAppend("icons", new ImageInfo(info.Index, $@"item\scroll\{info.Name}.png"));
+                }
+
+                foreach (var info in new (int Index, string Name)[]{
+                    (1859, "chaos"),
+                    (1860, "death"),
+                    (1861, "life"),
+                    (1862, "nature"),
+                    (1863, "sorcery"),
+                })
+                {
+                    result.GetAndAppend("icons", new ImageInfo(info.Index, $@"misc\class\{info.Name}.png"));
+                }
+
+                foreach (var info in new (string Sprite, string Name)[]{
+                    ("stat_atk", "attack"),
+                    ("stat_def", "defense"),
+                    ("stat_hlt", "health"),
+                    ("stat_int", "intelligence"),
+                    ("stat_spd", "speed"),
+                    ("stat_mna", "charges"),
+                })
+                {
+                    result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\stat\{info.Name}.png"));
                 }
 
                 return result;
