@@ -37,7 +37,7 @@ namespace SiralimDumper
             return $@"SpellProperty(
     ID={ID},
     ShortDescription='{ShortDescription}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     Item='{ItemSpellProperty.Database[ItemID].Name}',
 )";
@@ -54,6 +54,11 @@ namespace SiralimDumper
         /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
         /// </summary>
         public int IconID => Regex.Match(FullShortDesc, "^\\[([^,]*)").Groups[1].Value.GetGMLAssetID();
+        /// <summary>
+        /// The sprite of the icon for this spell property.
+        /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
         /// <summary>
         /// The frame of the icon sprite to use for this spell property.
         /// This is a large sprite with many frames; see <see cref="IconID"/> for the sprite to use.

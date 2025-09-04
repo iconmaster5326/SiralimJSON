@@ -178,6 +178,15 @@ namespace SiralimDumper
                     }
                 }
 
+                foreach (var item in SpellProperty.Database.Values)
+                {
+                    Sprite? icon = item.Icon;
+                    if (icon != null)
+                    {
+                        result.GetAndAppend(icon.Name, new ImageInfo(item.IconIndex, $@"spellprop\{item.ID}.png"));
+                    }
+                }
+
                 return result;
             }
         }
