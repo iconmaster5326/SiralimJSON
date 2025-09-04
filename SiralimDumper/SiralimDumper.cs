@@ -216,6 +216,26 @@ namespace SiralimDumper
                     result.GetAndAppend(item.Sprite.Name, values: ImagesForOWSprite(item.Sprite, $@"costume\{item.Name.EscapeForFilename()}\overworld"));
                 }
 
+                foreach (var item in Decoration.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"decor\object\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in DecorationWalls.Database.Values)
+                {
+                    result.GetAndAppend(item.Tileset.Name, new ImageInfo(0, $@"decor\wall\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in DecorationFloors.Database.Values)
+                {
+                    result.GetAndAppend(item.Tileset.Name, new ImageInfo(0, $@"decor\floor\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in DecorationBackground.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"decor\bg\{item.Name.EscapeForFilename()}.png"));
+                }
+
                 return result;
             }
         }

@@ -325,6 +325,21 @@ namespace SiralimDumper
             return Sprite.Database[s.GetGMLAssetID()];
         }
 
+        public static Tileset GetTileset(this GameVariable v)
+        {
+            return Tileset.Database[v.GetTilesetID()];
+        }
+
+        public static Tileset GetGMLTileset(this int i)
+        {
+            return Tileset.Database[i];
+        }
+
+        public static Tileset GetGMLTileset(this string s)
+        {
+            return Tileset.Database[s.GetGMLAssetID()];
+        }
+
         private const int MAX_STR_LEN = 1024;
 
         public static string EscapeForFilename(this string input)
@@ -377,7 +392,9 @@ namespace SiralimDumper
                 case "undefined":
                     return "<undefined>";
                 case "method":
-                    return $"<method>";
+                    return "<method>";
+                case "ptr":
+                    return "<ptr>";
                 case "struct":
                     if (var.TryGetGameObject(out as_obj))
                     {

@@ -95,7 +95,7 @@ namespace SiralimDumper
             return $@"Decoration(
     ID={ID},
     Name='{Name}',
-    SpriteID={SpriteID},
+    Sprite={Sprite.ToString().Replace("\n", "\n  ")},
     Hitbox={Hitbox} ({Hitbox.Width()}x{Hitbox.Height()}),
     Visible={Visible},
     MaxCount={MaxCount},
@@ -104,6 +104,11 @@ namespace SiralimDumper
     SoundID={SoundID},
 )";
         }
+
+        /// <summary>
+        /// The sprite this decoration uses.
+        /// </summary>
+        public Sprite Sprite => SpriteID.GetGMLSprite();
     }
 
     public class DecorationDatabase : Database<int, Decoration>
@@ -173,9 +178,14 @@ namespace SiralimDumper
             return $@"DecorationWalls(
     ID={ID},
     Name='{Name}',
-    TilesetID={TilesetID},
+    Tileset={Tileset.ToString().Replace("\n", "\n  ")},
 )";
         }
+
+        /// <summary>
+        /// The tileset this decoration uses.
+        /// </summary>
+        public Tileset Tileset => TilesetID.GetGMLTileset();
     }
 
     public class DecorationWallsDatabase : Database<int, DecorationWalls>
@@ -245,9 +255,14 @@ namespace SiralimDumper
             return $@"DecorationFloors(
     ID={ID},
     Name='{Name}',
-    TilesetID={TilesetID},
+    Tileset={Tileset.ToString().Replace("\n", "\n  ")},
 )";
         }
+
+        /// <summary>
+        /// The tileset this decoration uses.
+        /// </summary>
+        public Tileset Tileset => TilesetID.GetGMLTileset();
     }
 
     public class DecorationFloorsDatabase : Database<int, DecorationFloors>
@@ -317,9 +332,14 @@ namespace SiralimDumper
             return $@"DecorationBackground(
     ID={ID},
     Name='{Name}',
-    SpriteID={SpriteID},
+    Sprite={Sprite.ToString().Replace("\n", "\n  ")},
 )";
         }
+
+        /// <summary>
+        /// The sprite this decoration uses.
+        /// </summary>
+        public Sprite Sprite => SpriteID.GetGMLSprite();
     }
 
     public class DecorationBackgroundDatabase : Database<int, DecorationBackground>

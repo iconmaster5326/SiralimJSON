@@ -23,37 +23,57 @@ foreach (var sprite in Data.Sprites)
     {
         foreach (ImageInfo mapping in mappings[sprite.Name.Content])
         {
-            var outPath = $@"exported\images\{mapping.Output}";
-
             if (mapping.Frame >= sprite.Textures.Count)
             {
-                Console.WriteLine($"FOUND BAD FRAME! {sprite.Name.Content}, frame {mapping.Frame}, to {outPath}");
+                Console.WriteLine($"FOUND BAD FRAME! {sprite.Name.Content}, frame {mapping.Frame}, for {mapping.Output}");
                 continue;
             }
 
-            var page = sprite.Textures[mapping.Frame].Texture;
-            lock (page.TexturePage.TextureData)
+            Dumper.Dump(mapping, sprite.Textures[mapping.Frame].Texture, sprite.Name.Content, sprite.Width, sprite.Height);
+        }
+    }
+}
+
+foreach (var tileset in Data.Backgrounds)
+{
+    if (mappings.ContainsKey(tileset.Name.Content))
+    {
+        foreach (ImageInfo mapping in mappings[tileset.Name.Content])
+        {
+            Dumper.Dump(mapping, tileset.Texture, tileset.Name.Content, tileset.Texture.TargetWidth, tileset.Texture.TargetHeight);
+        }
+    }
+}
+
+public static class Dumper
+{
+    public static Dictionary<string, MagickImage> Cache = new();
+    public static TextureWorker Worker = new();
+    public static void Dump(ImageInfo mapping, UndertaleTexturePageItem page, string name, uint w, uint h)
+    {
+        string outPath = $@"exported\images\{mapping.Output}";
+
+        lock (page.TexturePage.TextureData)
+        {
+            Console.WriteLine($"Writing {name}, frame {mapping.Frame}, to {outPath}");
+
+            var cacheKey = $"{name} {mapping.Frame}";
+            MagickImage inputImage;
+            if (Cache.ContainsKey(cacheKey))
             {
-                Console.WriteLine($"Writing {sprite.Name.Content}, frame {mapping.Frame}, to {outPath}");
-
-                var cacheKey = $"{sprite.Name.Content} {mapping.Frame}";
-                MagickImage inputImage;
-                if (cache.ContainsKey(cacheKey))
-                {
-                    inputImage = cache[cacheKey];
-                }
-                else
-                {
-                    inputImage = worker.GetEmbeddedTexture(page.TexturePage);
-                    cache[cacheKey] = inputImage;
-                }
-
-                MagickImage outputImage = new MagickImage(MagickColors.Transparent, sprite.Width, sprite.Height);
-                outputImage.CopyPixels(inputImage, new MagickGeometry(page.SourceX, page.SourceY, page.SourceWidth, page.SourceHeight), page.TargetX, page.TargetY);
-
-                Directory.CreateDirectory(Path.GetDirectoryName(outPath));
-                outputImage.Write(outPath);
+                inputImage = Cache[cacheKey];
             }
+            else
+            {
+                inputImage = Worker.GetEmbeddedTexture(page.TexturePage);
+                Cache[cacheKey] = inputImage;
+            }
+
+            MagickImage outputImage = new MagickImage(MagickColors.Transparent, w, h);
+            outputImage.CopyPixels(inputImage, new MagickGeometry(page.SourceX, page.SourceY, page.SourceWidth, page.SourceHeight), page.TargetX, page.TargetY);
+
+            Directory.CreateDirectory(Path.GetDirectoryName(outPath));
+            outputImage.Write(outPath);
         }
     }
 }
