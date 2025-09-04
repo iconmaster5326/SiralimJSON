@@ -282,6 +282,16 @@ namespace SiralimDumper
                     result.GetAndAppend(item.InactiveSprite.Name, new ImageInfo(0, $@"rune\{item.ID}_inactive.png"));
                 }
 
+                foreach (var item in Project.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"project\{item.Name.EscapeForFilename()}.png"));
+                }
+
+                foreach (var item in ProjectItem.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"item\project\{item.Name.EscapeForFilename()}.png"));
+                }
+
                 return result;
             }
         }

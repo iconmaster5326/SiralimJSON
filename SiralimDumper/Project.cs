@@ -37,15 +37,15 @@ namespace SiralimDumper
         /// </summary>
         public bool Repeatable;
         /// <summary>
-        /// The index into the icons sprite to use for this project's icon.
+        /// The kind of project this is.
         /// </summary>
-        public int IconIndex;
+        public int ProjectKind;
         /// <summary>
         /// 
         /// </summary>
         public int Unknown17;
 
-        public Project(int id, string name, string description, IEnumerable<KeyValuePair<int, int>> projectItemIDs, int unknown14, bool repeatable, int iconIndex, int unknown17)
+        public Project(int id, string name, string description, IEnumerable<KeyValuePair<int, int>> projectItemIDs, int unknown14, bool repeatable, int projectKind, int unknown17)
         {
             ID = id;
             Name = name;
@@ -53,7 +53,7 @@ namespace SiralimDumper
             ProjectItemIDs = new Dictionary<int, int>(projectItemIDs);
             Unknown14 = unknown14;
             Repeatable = repeatable;
-            IconIndex = iconIndex;
+            ProjectKind = projectKind;
             Unknown17 = unknown17;
         }
 
@@ -73,7 +73,7 @@ namespace SiralimDumper
                 projectItemIDs: ids.Zip(counts).Select(kv => new KeyValuePair<int, int>(kv.First, kv.Second)),
                 unknown14: gml[14].GetInt32(),
                 repeatable: gml[15].GetBoolean(),
-                iconIndex: gml[16].GetInt32(),
+                projectKind: gml[16].GetInt32(),
                 unknown17: gml[17].GetInt32()
             );
         }
@@ -87,11 +87,12 @@ namespace SiralimDumper
     ProjectItems=[{string.Join(" ; ", ProjectItems.Select(kv => $"'{kv.Key.Name}' : {kv.Value}"))}],
     Unknown14={Unknown14},
     Repeatable={Repeatable},
-    Unknown16={IconIndex},
+    ProjectKind={ProjectKind},
     Unknown17={Unknown17},
     GraniteRequired={GraniteRequired},
     PartsRequired={PartsRequired},
     DustRequired={DustRequired},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
 )";
         }
 
@@ -111,6 +112,14 @@ namespace SiralimDumper
         /// The amount of arcane dust you need to finish this project.
         /// </summary>
         public int DustRequired => Game.Engine.CallScript("gml_Script_scr_ProjectRequiredDust", ID);
+        /// <summary>
+        /// The ID of the icon for this project.
+        /// </summary>
+        public int IconID => Game.Engine.CallScript("gml_Script_scr_ProjectIcon", ProjectKind).GetString().Replace("[", "").Replace("]", "").GetGMLAssetID();
+        /// <summary>
+        /// The icon for this project.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
     }
 
     public class ProjectDatabase : Database<int, Project>
@@ -161,7 +170,7 @@ namespace SiralimDumper
             return $@"ProjectItem(
     ID={ID},
     Name='{Name}',
-    SpriteID={SpriteID},
+    Sprite={Sprite.ToString().Replace("\n", "\n  ")},
 )";
         }
 
@@ -173,6 +182,10 @@ namespace SiralimDumper
         /// The ID of the sprite of this item.
         /// </summary>
         public int SpriteID => Game.Engine.CallScript("gml_Script_scr_ProjectItemSprite", ID).GetSpriteID();
+        /// <summary>
+        /// The sprite of this item.
+        /// </summary>
+        public Sprite Sprite => SpriteID.GetGMLSprite();
     }
 
     public class ProjectItemDatabase : Database<int, ProjectItem>
