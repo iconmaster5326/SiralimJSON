@@ -398,6 +398,62 @@ namespace SiralimDumper
                     result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\stat\{info.Name}.png"));
                 }
 
+                foreach (var info in new (string Sprite, string Name)[]{
+                    ("battle_attack", "attack"),
+                    ("battle_cast", "cast"),
+                    ("battle_defend", "defend"),
+                    ("battle_provoke", "provoke"),
+                    ("battle_damageincreased", "statup"),
+                    ("battle_damagedecreased", "statdown"),
+                    ("battle_defending", "defending"),
+                    ("battle_provoking", "provoking"),
+                    ("battle_dead", "dead"),
+                })
+                {
+                    result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\action\{info.Name}.png"));
+                }
+
+                foreach (var info in new (string Sprite, string Name)[]{
+                    ("menu_creatures", "creature"),
+                    ("menu_traits", "trait"),
+                    ("menu_bestiary", "race"),
+                    ("menu_gems", "spell"),
+                    ("codex_gems", "spell_property"),
+                    ("library_spell_gems", "item_spell_property"),
+                    ("menu_materials", "item_material"),
+                    ("codex_artifacts", "item_artifact"),
+                    ("statustext", "personality"),
+                    ("codex_skins", "skin"),
+                    ("cred_costume", "costume"),
+                    ("furn_tableschairs", "decoration"),
+                    ("setwall", "walls"),
+                    ("setfloor", "floors"),
+                    ("changebackground", "background"),
+                    ("icon_castleweather", "weather"),
+                    ("loot_music", "music"),
+                    ("cred_godrealm", "god"),
+                    ("library_realms", "realm"),
+                    ("furn_paintings", "condition"),
+                    ("menu_library_changetitle", "specialization"),
+                    ("codex_anointments", "perk"),
+                    ("codex_realmprops", "realm_property"),
+                    ("codex_worldboss", "false_god"),
+                    ("rune_p", "rune"),
+                    ("codex_nether", "nether_boss"),
+                    ("codex_projects", "project"),
+                    ("project_special", "item_project"),
+                    ("codex_relics", "relic"),
+                    ("menu_allresources", "item_resource"),
+                    ("moreemblems", "item_emblem"),
+                    ("menu_cards", "item_card"),
+                    ("item_netherstone", "item_nether_stone"),
+                    ("menu_items", "item_misc"),
+                    ("accessory_add", "accessory"),
+                })
+                {
+                    result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\category\{info.Name}.png"));
+                }
+
                 return result;
             }
         }
