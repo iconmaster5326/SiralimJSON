@@ -241,6 +241,15 @@ namespace SiralimDumper
                     result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"god\{item.Name.EscapeForFilename()}.png"));
                 }
 
+                foreach (var item in Condition.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"condition\{item.Name.EscapeForFilename()}.png"));
+                    if (item.IconID != item.ResistantIconID)
+                    {
+                        result.GetAndAppend(item.ResistantIcon.Name, new ImageInfo(0, $@"condition\{item.Name.EscapeForFilename()}_resist.png"));
+                    }
+                }
+
                 return result;
             }
         }

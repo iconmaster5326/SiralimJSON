@@ -36,8 +36,8 @@ namespace SiralimDumper
     Name='{Name}',
     Description='{Description}',
     Kind={Kind},
-    IconID={IconID},
-    ResistantIconID={ResistantIconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
+    ResistantIcon={ResistantIcon.ToString().Replace("\n", "\n  ")},
     Reserved={Reserved},
 )";
         }
@@ -89,10 +89,19 @@ namespace SiralimDumper
         /// </summary>
         public int IconID => Game.Engine.CallScript("gml_Script_scr_GetConditionIcon", ID).GetSpriteID();
         /// <summary>
+        /// The icon for this condition.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
+        /// <summary>
         /// The ID of the icon for this condition if the creature resists this condition.
         /// Same as <see cref="IconID"/> otherwise.
         /// </summary>
         public int ResistantIconID => Game.Engine.CallScript("gml_Script_scr_GetResistantConditionIcon", ID).GetSpriteID();
+        /// <summary>
+        /// The icon for this condition if the creature resists this condition.
+        /// Same as <see cref="Icon"/> otherwise.
+        /// </summary>
+        public Sprite ResistantIcon => ResistantIconID.GetGMLSprite();
 
         private static HashSet<int>? _RandomConds;
         private static void CallGetRandom(string type)
