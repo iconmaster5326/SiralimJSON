@@ -15,11 +15,14 @@ namespace SiralimDumper
         /// </summary>
         public int ID;
 
-        public God(int iD)
+        public God(int id)
         {
-            ID = iD;
+            ID = id;
         }
 
+        /// <summary>
+        /// All the gods in the game.
+        /// </summary>
         public static GodDatabase Database = [];
 
         public override string ToString()
@@ -31,7 +34,7 @@ namespace SiralimDumper
     Trait={Trait.Database[TraitID].ToString().Replace("\n", "\n  ")},
     RealmID={RealmID},
     Title='{Title}',
-    IconID={IconID},
+    Icon={Icon.ToString().Replace("\n", "\n  ")},
 )";
         }
 
@@ -73,6 +76,10 @@ namespace SiralimDumper
         /// The ID of the icon of this god.
         /// </summary>
         public int IconID => Regex.Match(Game.Engine.CallScript("gml_Script_scr_GodBossName", ID), "^\\[([^\\]]*)\\]").Groups[1].Value.GetGMLAssetID();
+        /// <summary>
+        /// The icon of this god.
+        /// </summary>
+        public Sprite Icon => IconID.GetGMLSprite();
     }
 
     public class GodDatabase : Database<int, God>

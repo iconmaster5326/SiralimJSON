@@ -236,6 +236,11 @@ namespace SiralimDumper
                     result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"decor\bg\{item.Name.EscapeForFilename()}.png"));
                 }
 
+                foreach (var item in God.Database.Values)
+                {
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"god\{item.Name.EscapeForFilename()}.png"));
+                }
+
                 return result;
             }
         }
