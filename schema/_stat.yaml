@@ -1,0 +1,10 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _stat.yaml
+title: Stat
+description: A Siralim Ultimate stat.
+enum:
+  - health
+  - attack
+  - intelligence
+  - defense
+  - speed

@@ -154,6 +154,28 @@ namespace SiralimDumper
         override public int IconID => SpriteID;
 
         override public int IconIndex => 0;
+
+        /// <summary>
+        /// The file path to the icon.
+        /// </summary>
+        public string IconFilename => $@"item\material\{Name.EscapeForFilename()}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Material AsJSON => new()
+        {
+#nullable disable
+            Description = Description,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Random }],
+            Creator = null,
+            Slot = Enum.Parse<QuickType.Slot>(Enum.GetName(MaterialKind), true),
+            Stats = MaterialKind == ArtifactSlot.STAT ? (this as ItemMaterialStat).Stats.Select(s => Enum.Parse<QuickType.Stat>(Enum.GetName(s), true)).ToArray() : [],
+            Trait = MaterialKind == ArtifactSlot.TRAIT ? (this as ItemMaterialTrait).TraitID : null,
+#nullable enable
+        };
     }
 
     public class ItemMaterialDatabase : Database<int, ItemMaterial>

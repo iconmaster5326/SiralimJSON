@@ -1,0 +1,59 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: material.yaml
+title: Material
+description: |
+  A Siralim Ultimate material item definition.
+  What you think of as "items" are distributed across multiple different classes in-game;
+  these are items that represent what can go into stat, trick, and trait slots.
+type: object
+additionalProperties: false
+required:
+  - id
+  - description
+  - icon
+  - sources
+  - slot
+  - stats
+  - trait
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this item.
+    type: integer
+    minimum: 0
+  description:
+    description: The English description of this item.
+    type: string
+  icon:
+    description: The path to the image for this item's icon.
+    type: string
+  sources:
+    description: Where you can locate this item.
+    type: array
+    items:
+      $ref: _source.yaml
+  slot:
+    description: What slot does this go into?
+    enum: [stat, trick, trait]
+  stats:
+    description: Stats this material enhances, if it's a stat material.
+    type: array
+    items:
+      $ref: _stat.yaml
+  trait:
+    description: The ID of the trait this material gives, if it's a trait material.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  notes:
+    description: Any user-given notes for this item.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this item, if known?
+    oneOf:
+      - type: "null"
+      - type: string
