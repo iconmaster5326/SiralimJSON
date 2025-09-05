@@ -1,0 +1,141 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: creature.yaml
+title: Creature
+description: A Siralim Ultimate creature definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - race
+  - class
+  - trait
+  - statGrowth
+  - battleSprite
+  - overworldSprite
+  - lore
+  - sources
+  - minDepth
+  - menagerieDialog
+  - god
+  - reserved
+  - obtainable
+  - skins
+  - specializations
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this creature.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this creature.
+    type: string
+  race:
+    description: The ID (and English name) of the race of this creature.
+    type: string
+  class:
+    $ref: _class.yaml
+    description: The class of this creature.
+  trait:
+    description: The ID of the trait of this creature.
+    type: integer
+    minimum: 0
+  statGrowth:
+    description: How much of each stat this creature gains each level.
+    type: object
+    additionalProperties: false
+    required: [health, attack, intelligence, defense, speed]
+    properties:
+      health:
+        description: This creature's health growth.
+        type: integer
+        minimum: 0
+      attack:
+        description: This creature's attack growth.
+        type: integer
+        minimum: 0
+      intelligence:
+        description: This creature's intelligence growth.
+        type: integer
+        minimum: 0
+      defense:
+        description: This creature's defense growth.
+        type: integer
+        minimum: 0
+      speed:
+        description: This creature's speed growth.
+        type: integer
+        minimum: 0
+  battleSprite:
+    description: The relative path to the battle sprite of this creature.
+    type: string
+  overworldSprite:
+    description: The relative path(s) to the overworld sprite(s) of this creature.
+    oneOf:
+      - type: string
+        description: The relative path to the overworld sprite of this creature.
+      - $ref: _owsprite.yaml
+        description: The relative paths to the overworld sprites of this creature.
+  lore:
+    description: The English lore of this creature.
+    type: string
+  sources:
+    description: Where you can locate this creature.
+    type: array
+    items:
+      $ref: _source.yaml
+  minDepth:
+    description: The minimum Realm Depth you can encounter this creature, if known.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 1
+  menagerieDialog:
+    description: |
+      The English text of the dialogue that appears when you interact with this creature in the Menagerie.
+      This is always 5 elements long.
+    type: array
+    minItems: 5
+    maxItems: 5
+    items:
+      type: string
+  god:
+    description: If this creature is an Avatar of a god, the ID of said god. Otherwise null.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  reserved:
+    description: Can this creature be found randomly in realms?
+    type: boolean
+  obtainable:
+    description: Is this creature obtainable by the player by any means?
+    type: boolean
+  skins:
+    description: |
+      The IDs of the skins that are made specifically for this creature.
+      This does not include skins for this creature's race in general.
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  specializations:
+    description: |
+      The IDs of any specializations that grant this creature,
+      as either its primary or secondary creature.
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  notes:
+    description: Any user-given notes for this creature.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this creature, if known?
+    oneOf:
+      - type: "null"
+      - type: string

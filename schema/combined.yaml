@@ -1,0 +1,18 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: combined.yaml
+title: Siralim Ultimate Database
+description: A full database of Siralim Ultimate data.
+type: object
+additionalProperties: false
+required:
+  - metadata
+  - creatures
+properties:
+  metadata:
+    $ref: metadata.yaml
+    description: metadata for this file.
+  creatures:
+    description: All creatures in the game.
+    type: array
+    items:
+      $ref: creature.yaml

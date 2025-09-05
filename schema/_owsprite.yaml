@@ -1,0 +1,25 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _owsprite.yaml
+title: Overworld Sprite
+description: A Siralim Ultimate overworld sprite.
+type: object
+additionalProperties: false
+required: [south, north, east, west]
+properties:
+  south:
+    $ref: "#/$defs/2FrameAnimation"
+  north:
+    $ref: "#/$defs/2FrameAnimation"
+  east:
+    $ref: "#/$defs/2FrameAnimation"
+  west:
+    $ref: "#/$defs/2FrameAnimation"
+$defs:
+  2FrameAnimation:
+    description: A 2-frame animation for this facing direction.
+    type: array
+    minItems: 2
+    maxItems: 2
+    items:
+      description: The relative path to the sprite for this frame.
+      type: string

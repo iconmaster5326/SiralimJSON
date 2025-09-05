@@ -1,6 +1,5 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
-using System.Xml.Linq;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -624,6 +623,17 @@ namespace SiralimDumper
             foreach (var toAdd in values)
             {
                 v.Add(toAdd);
+            }
+        }
+
+        /// <summary>
+        /// A bad hack to allow readonly property collection initilization with {}s.
+        /// </summary>
+        public static void Add<T>(this IList<T> list, IEnumerable<T> ts)
+        {
+            foreach (var t in ts)
+            {
+                list.Add(t);
             }
         }
     }

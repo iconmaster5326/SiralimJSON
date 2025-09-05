@@ -1,0 +1,21 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: metadata.yaml
+title: Metadata
+description: Top-level information about the data contained in these files.
+type: object
+additionalProperties: false
+required:
+  - version
+  - gameVersion
+  - schemaVersion
+properties:
+  version:
+    description: The version of SiralimJSON used to make this data.
+    type: string
+  gameVersion:
+    description: The version of Siralim Ultimate the data was produced on.
+    type: string
+  schemaVersion:
+    description: The version of this schema.
+    type: integer
+    enum: [1]

@@ -1,0 +1,166 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _source.yaml
+title: Source
+description: A place where you can find this entity.
+type: object
+additionalProperties: false
+required: [type]
+properties:
+  type:
+    description: The type of source.
+    type: string
+# the following are only for Quicktype to get the picture of this enum, and should Quicktype be fixed, should be removed.
+  realm:
+    type: integer
+  god:
+    type: integer
+  rank:
+    type: integer
+  class:
+    $ref: _class.yaml
+  boss:
+    type: integer
+  times:
+    type: integer
+  project:
+    type: integer
+  desc:
+    type: string
+# end of Quicktype fixups.
+oneOf:
+  - title: Source (Realm)
+    description: This entity comes from a realm.
+    required: [type, realm]
+    properties:
+      type:
+        const: realm
+      realm:
+        description: The ID of a realm.
+        type: integer
+        minimum: 0
+  - title: Source (God Shop)
+    description: This entity comes from a god shop.
+    required: [type, realm, rank]
+    properties:
+      type:
+        const: godshop
+      realm:
+        description: The ID of a realm.
+        type: integer
+        minimum: 0
+      rank:
+        description: The minimum devotion rank this appears in.
+        type: integer
+        minimum: 1
+  - title: Source (Guild Shop)
+    description: This entity comes from a guild shop.
+    required: [type, class, rank]
+    properties:
+      type:
+        const: guild
+      class:
+        $ref: _class.yaml
+        description: The guild this comes from.
+      rank:
+        description: The minimum guild rank this appears in.
+        type: integer
+        minimum: 1
+  - title: Source (Gate of the Gods)
+    description: This entity comes from a Gate of the Gods fight.
+    required: [type, god]
+    properties:
+      type:
+        const: gotg
+      god:
+        description: The ID of the god you must fight to get this.
+        type: integer
+        minimum: 0
+  - title: Source (Nethermancer Ned)
+    description: This entity comes from Nethermancer Ned, after killing a Nether Boss a number of times.
+    required: [type, boss, times]
+    properties:
+      type:
+        const: ned
+      boss:
+        description: The ID of the Nether Boss you must kill.
+        type: integer
+        minimum: 0
+      times:
+        description: The number of times this boss must be killed.
+        type: integer
+        minimum: 1
+  - title: Source (False God)
+    description: This entity comes from a False God fight.
+    required: [type, god]
+    properties:
+      type:
+        const: falsegod
+      god:
+        description: The ID of the False God you must kill.
+        type: integer
+        minimum: 0
+  - title: Source (Arena)
+    description: This entity comes from the Arena shop.
+    required: [type, rank]
+    properties:
+      type:
+        const: arena
+      rank:
+        description: The minimum arena rank this appears in.
+        type: integer
+        minimum: 1
+  - title: Source (Project)
+    description: This entity comes from a project.
+    required: [type, project]
+    properties:
+      type:
+        const: project
+      project:
+        description: The project you must complete.
+        type: integer
+        minimum: 0
+  - title: Source (Random)
+    description: This entity is randomly dropped from any source of loot.
+    required: [type]
+    properties:
+      type:
+        const: random
+  - title: Source (Zantai)
+    description: This entity comes from Zantai fights.
+    required: [type]
+    properties:
+      type:
+        const: zantai
+  - title: Source (Otherworld)
+    description: This entity comes from Otherworld portals.
+    required: [type]
+    properties:
+      type:
+        const: otherworld
+  - title: Source (Netherworld)
+    description: This entity comes from Netherworld portals.
+    required: [type]
+    properties:
+      type:
+        const: netherworld
+  - title: Source (Gambling Dwarves)
+    description: This entity comes from the Gambling Dwarves shop.
+    required: [type]
+    properties:
+      type:
+        const: gambling
+  - title: Source (Everett)
+    description: This entity comes from Everett.
+    required: [type]
+    properties:
+      type:
+        const: everett
+  - title: Source (Special)
+    description: This entity comes from some special source.
+    required: [type, desc]
+    properties:
+      type:
+        const: special
+      desc:
+        description: Where this entity comes from.
+        type: string

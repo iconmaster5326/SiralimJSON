@@ -1,0 +1,10 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _class.yaml
+title: Class
+description: A Siralim Ultimate class.
+enum:
+  - life
+  - death
+  - chaos
+  - sorcery
+  - nature

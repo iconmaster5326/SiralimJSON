@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Design;
-using System.Text.RegularExpressions;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {

@@ -1,0 +1,36 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _note.yaml
+title: Note
+description: A user-given note for this entity.
+type: object
+additionalProperties: false
+required:
+  - note
+  - firstApplicable
+  - lastApplicable
+  - lastVerified
+properties:
+  note:
+    description: The English text of this note.
+    type: string
+  firstApplicable:
+    description: |
+      When is this note first applicable?
+      A Siralim Ultimate version number,
+      or null if it is applicable for all past versions.
+    oneOf:
+      - type: "null"
+      - type: string
+  lastApplicable:
+    description: |
+      When is this note last applicable?
+      A Siralim Ultimate version number,
+      or null if it is currently applicable.
+    oneOf:
+      - type: "null"
+      - type: string
+  lastVerified:
+    description: |
+      When was this note last verified?
+      A Siralim Ultimate version number.
+    type: string

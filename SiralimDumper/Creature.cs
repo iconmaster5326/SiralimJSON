@@ -1,7 +1,4 @@
-﻿using AurieSharpInterop;
-using System.IO;
-using System.Text.RegularExpressions;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -186,6 +183,10 @@ namespace SiralimDumper
             }
         }
         /// <summary>
+        /// The god this Avatar is associated with, if any.
+        /// </summary>
+        public God? God => God.Database.Values.FirstOrDefault(g => g.Name.Equals(Name));
+        /// <summary>
         /// Is this creature obtainable in normal gameplay?
         /// </summary>
         public bool Obtainable
@@ -208,6 +209,77 @@ namespace SiralimDumper
         /// The sprite this creature uses in the overworld.
         /// </summary>
         public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
+
+        public string BattleSpriteFilename => @$"creature\{Name.EscapeForFilename()}\battle.png";
+        public string OverworldSpriteFilenamePrefix => $@"creature\{Name.EscapeForFilename()}\overworld";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Creature AsJSON => new()
+        {
+            Id = ID,
+            Name = Name,
+            Race = RaceName,
+            Class = Enum.Parse<QuickType.Class>(EnumUtil.Name(Class)),
+            Trait = TraitID,
+            StatGrowth = new()
+            {
+                Health = HPGrowth,
+                Attack = AttackGrowth,
+                Intelligence = IntelligenceGrowth,
+                Defense = DefenseGrowth,
+                Speed = SpeedGrowth,
+            },
+            BattleSprite = $@"images\{BattleSpriteFilename}".Replace("\\", "/"),
+            OverworldSprite = OverworldSprite.Frames < 8
+                ? new()
+                {
+                    String = $@"{OverworldSpriteFilenamePrefix}.png".Replace("\\", "/")
+                }
+                : new()
+                {
+                    OverworldSprite = SiralimDumper.OverworldSpriteJSON(OverworldSprite, OverworldSpriteFilenamePrefix)
+                },
+            Lore = Lore,
+            Sources = Source.Split(", ").Select(s =>
+            {
+                God? god = God;
+                if (god != null)
+                {
+                    return new()
+                    {
+                        Type = QuickType.TypeEnum.Gotg,
+                        God = god.ID,
+                    };
+                }
+
+                Realm? realm = Realm.Database.Values.FirstOrDefault(r => r.Name.Equals(s));
+                if (realm != null)
+                {
+                    return new()
+                    {
+                        Type = QuickType.TypeEnum.Realm,
+                        Realm = realm.ID,
+                    };
+                }
+
+                return new QuickType.Source()
+                {
+                    Type = QuickType.TypeEnum.Special,
+                    Desc = s,
+                };
+            }).ToArray(),
+            MinDepth = 1,
+            MenagerieDialog = MenagerieDialog,
+            God = God?.ID,
+            Reserved = !Obtainable,
+            Obtainable = Obtainable,
+            Skins = Skin.Database.Values.Where(s => s.CreatureID == ID).Select(s => (long)s.ID).ToArray(),
+            Specializations = Specialization.Database.Values.Where(s => s.PrimaryCreatureID == ID || s.SecondaryCreatureID == ID).Select(s => (long)s.ID).ToArray(),
+            Notes = [],
+            Creator = "Unknown",
+        };
     }
 
     public class CreatureDatabase : Database<int, Creature>

@@ -1,5 +1,4 @@
-﻿using AurieSharpInterop;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {
