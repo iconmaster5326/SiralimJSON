@@ -1,0 +1,68 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: decoration.yaml
+title: Decoration
+description: A Siralim Ultimate decoration definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - sprite
+  - collision
+  - width
+  - height
+  - visible
+  - maxCount
+  - category
+  - sources
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this decoration.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this decoration.
+    type: string
+  sprite:
+    description: The path to the sprite of this decoration.
+    type: string
+  collision:
+    description: How this decoration collides with the player.
+    enum: [none, noneTall, full, fullTall, menagerie, reliquary]
+  width:
+    description: How wide is this decoration, in tiles?
+    type: integer
+    minimum: 1
+  height:
+    description: How tall is this decoration, in tiles?
+    type: integer
+    minimum: 1
+  visible:
+    description: Does this decoration show up after you exit decoration mode?
+    type: boolean
+  maxCount:
+    description: How many of this decoration can you have? Null if unlimited.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 1
+  category:
+    description: In what category can this decoration be found in the menu?
+    enum: [altar, banner, column, floorTile, light, misc, painting, plant, plush, rug, scroll, statue, tableChair, utilityNPC]
+  sources:
+    description: Where you can locate this decoration.
+    type: array
+    items:
+      $ref: _source.yaml
+  notes:
+    description: Any user-given notes for this decoration.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this decoration, if known?
+    oneOf:
+      - type: "null"
+      - type: string

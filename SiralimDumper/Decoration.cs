@@ -42,7 +42,7 @@ namespace SiralimDumper
         /// <summary>
         /// Can this decoration not appear in standard loot pools?
         /// </summary>
-        public bool Reserved;
+        public bool Reserved; // TODO: as of 2.0 this is now probably meaningless; verify
         /// <summary>
         /// What category this decoration is in. From 0 to 13.
         /// </summary>
@@ -104,6 +104,44 @@ namespace SiralimDumper
         /// The sprite this decoration uses.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        public string SpriteFilename => $@"decor\object\{Name.EscapeForFilename()}.png";
+
+        public static readonly IReadOnlyDictionary<DecorationHitbox, QuickType.Collision> COLLIDE_MAP = new Dictionary<DecorationHitbox, QuickType.Collision>() {
+            [DecorationHitbox.FOUR_BY_THREE] = QuickType.Collision.Full,
+            [DecorationHitbox.THREE_BY_THREE] = QuickType.Collision.Full,
+            [DecorationHitbox.MENAGERIE] = QuickType.Collision.Menagerie,
+            [DecorationHitbox.THREE_BY_TWO] = QuickType.Collision.Full,
+            [DecorationHitbox.NONE_TOP_PASSABLE] = QuickType.Collision.NoneTall,
+            [DecorationHitbox.NONE] = QuickType.Collision.None,
+            [DecorationHitbox.ONE_BY_ONE] = QuickType.Collision.Full,
+            [DecorationHitbox.ONE_BY_TWO] = QuickType.Collision.Full,
+            [DecorationHitbox.ONE_WIDE_TOP_PASSABLE] = QuickType.Collision.FullTall,
+            [DecorationHitbox.RELIQUARY] = QuickType.Collision.Reliquary,
+            [DecorationHitbox.TWO_BY_ONE] = QuickType.Collision.Full,
+            [DecorationHitbox.TWO_BY_TWO] = QuickType.Collision.Full,
+            [DecorationHitbox.TWO_WIDE_TOP_PASSABLE] = QuickType.Collision.FullTall,
+        };
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Decoration AsJSON => new()
+        {
+#nullable disable
+            Category = (QuickType.Category)(int)Category,
+            Collision = COLLIDE_MAP[Hitbox],
+            Creator = null,
+            Height = Hitbox.Height(),
+            Id = ID,
+            MaxCount = MaxCount,
+            Name = Name,
+            Notes = [],
+            Sources = Reserved ? [] : [new() { Type = QuickType.TypeEnum.Everett }],
+            Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
+            Visible = Visible,
+            Width = Hitbox.Width(),
+#nullable enable
+        };
     }
 
     public class DecorationDatabase : Database<int, Decoration>

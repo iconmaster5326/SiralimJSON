@@ -223,7 +223,7 @@ namespace SiralimDumper
 
                 foreach (var item in Decoration.Database.Values)
                 {
-                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"decor\object\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
                 foreach (var item in DecorationWalls.Database.Values)
@@ -527,6 +527,7 @@ namespace SiralimDumper
             Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
             Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
             Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Decorations = Decoration.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()
