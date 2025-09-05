@@ -44,6 +44,22 @@ namespace SiralimDumper
         /// The index into <tt>icons</tt> for the tome for this personality.
         /// </summary>
         public int TomeIconIndex => 2101 + ID;
+
+        public string TomeIconFilename => $@"item\tome\{Name.EscapeForFilename()}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Personality AsJSON => new()
+        {
+#nullable disable
+            TomeIcon = $@"images\{TomeIconFilename}".Replace("\\", "/"),
+            Decreases = Enum.Parse<QuickType.Stat>(Enum.GetName(Decreases), true),
+            Increases = Enum.Parse<QuickType.Stat>(Enum.GetName(Increases), true),
+            Id = ID,
+            Name = Name,
+            Notes = [],
+#nullable enable
+        };
     }
     public class PersonalityDatabase : Database<int, Personality>
     {

@@ -1,0 +1,35 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: personality.yaml
+title: Personality
+description: A Siralim Ultimate personality definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - increases
+  - decreases
+  - tomeIcon
+  - notes
+properties:
+  id:
+    description: The unique ID of this personality.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this personality.
+    type: string
+  increases:
+    $ref: _stat.yaml
+    description: What stat this personality increases.
+  decreases:
+    $ref: _stat.yaml
+    description: What stat this personality decreases.
+  tomeIcon:
+    description: The path to the icon for this personality's tome item.
+    type: string
+  notes:
+    description: Any user-given notes for this personality.
+    type: array
+    items:
+      $ref: _note.yaml

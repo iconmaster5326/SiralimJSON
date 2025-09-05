@@ -14,6 +14,7 @@ required:
   - spellPropertyItems
   - materials
   - artifacts
+  - personalities
 properties:
   metadata:
     $ref: metadata.yaml
@@ -58,3 +59,8 @@ properties:
     type: array
     items:
       $ref: artifact.yaml
+  personalities:
+    description: All personalities in the game.
+    type: array
+    items:
+      $ref: personality.yaml
