@@ -518,6 +518,7 @@ namespace SiralimDumper
             Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
             Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
             Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

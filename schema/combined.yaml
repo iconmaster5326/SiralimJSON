@@ -9,6 +9,7 @@ required:
   - creatures
   - races
   - traits
+  - spells
 properties:
   metadata:
     $ref: metadata.yaml
@@ -28,3 +29,8 @@ properties:
     type: array
     items:
       $ref: trait.yaml
+  spells:
+    description: All spells in the game.
+    type: array
+    items:
+      $ref: spell.yaml

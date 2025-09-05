@@ -19,7 +19,6 @@ required:
   - menagerieDialog
   - god
   - reserved
-  - obtainable
   - givesMana
   - skins
   - specializations
@@ -111,9 +110,6 @@ properties:
         minimum: 0
   reserved:
     description: Can this creature not be found randomly in realms?
-    type: boolean
-  obtainable:
-    description: Is this creature obtainable by the player by any means?
     type: boolean
   givesMana:
     description: Does this creature drop mana when killed?

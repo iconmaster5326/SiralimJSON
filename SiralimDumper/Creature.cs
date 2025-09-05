@@ -269,7 +269,7 @@ namespace SiralimDumper
                     OverworldSprite = SiralimDumper.OverworldSpriteJSON(OverworldSprite, OverworldSpriteFilenamePrefix)
                 },
             Lore = Lore,
-            Sources = Source.Split(", ").Select(s =>
+            Sources = Obtainable ? Source.Split(", ").Select(s =>
             {
                 God? god = God;
                 if (god != null)
@@ -296,12 +296,11 @@ namespace SiralimDumper
                     Type = QuickType.TypeEnum.Special,
                     Desc = s,
                 };
-            }).ToArray(),
+            }).ToArray() : [],
             MinDepth = 1,
             MenagerieDialog = MenagerieDialog,
             God = God?.ID,
             Reserved = Reserved,
-            Obtainable = Obtainable,
             GivesMana = GivesMana,
             Skins = Skin.Database.Values.Where(s => s.CreatureID == ID).Select(s => (long)s.ID).ToArray(),
             Specializations = Specialization.Database.Values.Where(s => s.PrimaryCreatureID == ID || s.SecondaryCreatureID == ID).Select(s => (long)s.ID).ToArray(),

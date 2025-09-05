@@ -1,0 +1,105 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: spell.yaml
+title: Spell
+description: A Siralim Ultimate spell definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - maxCharges
+  - class
+  - tags
+  - targets
+  - resurrects
+  - propertyCompatibility
+  - reserved
+  - obtainable
+  - sources
+  - manuallyCastable
+  - booze
+  - arsenal
+  - god
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this spell.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this spell.
+    type: string
+  description:
+    description: The English description of this spell.
+    type: string
+  maxCharges:
+    description: How many charges this spell's gems can have.
+    type: integer
+    minimum: 1
+  class:
+    $ref: _class.yaml
+    description: The class this spell belongs to.
+  tags:
+    description: The tags this spell has.
+    type: array
+    items:
+      type: string
+      pattern: "^[A-Z\\d_]+$"
+  targets:
+    description: |
+      How does this spell target?
+      Spells with "enemies", "allies", and "all" are subject to the AoE potency penalty.
+    enum: [one, enemies, allies, all, other]
+  resurrects:
+    description: Is this spell considered a resurrection effect?
+    type: boolean
+  propertyCompatibility:
+    description: |
+      What spell gem property IDs can ever be compatible with this spell?
+      This cannot take into account things like class swapping;
+      you'll have to calculate that yourself.
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  reserved:
+    description: Can this spell not appear on random enemies?
+    type: boolean
+  obtainable:
+    description: Can you obtain this spell in the game by normal means?
+    type: boolean
+  sources:
+    description: Where you can locate this spell.
+    type: array
+    items:
+      $ref: _source.yaml
+  manuallyCastable:
+    description: Can you cast this spell manually?
+    type: boolean
+  booze:
+    description: Is this a Booze spell?
+    type: boolean
+  arsenal:
+    description: Is this an Arsenal spell?
+    type: boolean
+  god:
+    description: |
+      If this is an Ultimate spell,
+      then this is the ID of the god this is associated with,
+      else this is null.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  notes:
+    description: Any user-given notes for this spell.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this spell, if known?
+    oneOf:
+      - type: "null"
+      - type: string

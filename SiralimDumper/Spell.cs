@@ -140,19 +140,19 @@ namespace SiralimDumper
     SpriteID={SpriteID},
     SoundID={SoundID},
     PropertyCompatibility=({PropertyCompatibility.Count} items) ['{string.Join("', '", PropertyCompatibility.Select(p => p.ShortDescription))}'],
-    BannedFromRNG={BannedFromRNG},
+    Reserved={Reserved},
     ManuallyCastable={ManuallyCastable},
     Booze={Booze},
     Arsenal={Arsenal},
     Ultimate={Ultimate},
-    Reserved={Reserved},
+    Lootable={Lootable},
 )";
         }
 
         /// <summary>
         /// Is this spell banned from appearing on enemies in random fights?
         /// </summary>
-        public bool BannedFromRNG => Game.Engine.CallScript("gml_Script_inv_SpellBanned", ID);
+        public bool Reserved => Game.Engine.CallScript("gml_Script_inv_SpellBanned", ID) || Ultimate;
         /// <summary>
         /// Can this spell be cast manually?
         /// </summary>
@@ -170,9 +170,38 @@ namespace SiralimDumper
         /// </summary>
         public bool Ultimate => Game.Engine.CallScript("gml_Script_inv_SpellIsUltimate", ID);
         /// <summary>
-        /// Is this spell not available from the normal random loot pool?
+        /// Is this spell available from the normal random loot pool?
         /// </summary>
-        public bool Reserved => Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID);
+        public bool Lootable => !Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID);
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Spell AsJSON => new()
+        {
+#nullable disable
+            Arsenal = Arsenal,
+            Booze = Booze,
+            Class = Enum.Parse<QuickType.Class>(EnumUtil.Name(Class)),
+            Creator = null,
+            Description = Description,
+            God = Ultimate ? God.Database.Values.First(g => g.UltimateSpellID == ID).ID : null,
+            Id = ID,
+            ManuallyCastable = ManuallyCastable,
+            MaxCharges = MaxCharges,
+            Name = Name,
+            Notes = [],
+            Obtainable = !Ultimate,
+            PropertyCompatibility = PropertyCompatibility.Select(p => (long)p.ID).Order().ToArray(),
+            Reserved = Reserved,
+            Resurrects = ResurrectionEffect,
+            Sources = Ultimate ? [] : [new() {
+                Type = QuickType.TypeEnum.Random, // TODO: handle other cases
+            }],
+            Tags = Tags,
+            Targets = Enum.Parse<QuickType.Targets>(Enum.GetName<SpellTargetingType>(TargetingType), true),
+#nullable enable
+        };
     }
 
     public class SpellDatabase : Database<int, Spell>
