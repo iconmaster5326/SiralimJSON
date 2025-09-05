@@ -13,6 +13,7 @@ required:
   - spellProperties
   - spellPropertyItems
   - materials
+  - artifacts
 properties:
   metadata:
     $ref: metadata.yaml
@@ -48,7 +49,12 @@ properties:
     items:
       $ref: spellPropertyItem.yaml
   materials:
-    description: All materials items in the game.
+    description: All material items in the game.
     type: array
     items:
       $ref: material.yaml
+  artifacts:
+    description: All artifact items in the game.
+    type: array
+    items:
+      $ref: artifact.yaml

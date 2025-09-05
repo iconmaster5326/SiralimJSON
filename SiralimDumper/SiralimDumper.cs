@@ -198,9 +198,9 @@ namespace SiralimDumper
 
                 foreach (var item in ItemArtifact.Database.Values)
                 {
-                    for (int i = 0; i <= 5; i++)
+                    for (int i = 0; i < ItemArtifact.N_TIERS; i++)
                     {
-                        result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndexEx(i * 10), $@"item\artifact\{item.Name.EscapeForFilename()}_t{i}.png"));
+                        result.GetAndAppend(item.Icon.Name, new ImageInfo(item.IconIndexEx(i * 10), item.IconFilename(i)));
                     }
                 }
 
@@ -522,6 +522,7 @@ namespace SiralimDumper
             SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
             SpellPropertyItems = ItemSpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
             Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

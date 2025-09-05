@@ -123,6 +123,7 @@ namespace SiralimDumper
             Notes = [],
             Sources = [new() { Type = QuickType.TypeEnum.Random }],
             SpellProperties = PropertiesApplicable.Select(p => (long)p.ID).Order().ToArray(),
+            Name = Name,
 #nullable enable
         };
     }
@@ -174,6 +175,7 @@ namespace SiralimDumper
             Slot = Enum.Parse<QuickType.Slot>(Enum.GetName(MaterialKind), true),
             Stats = MaterialKind == ArtifactSlot.STAT ? (this as ItemMaterialStat).Stats.Select(s => Enum.Parse<QuickType.Stat>(Enum.GetName(s), true)).ToArray() : [],
             Trait = MaterialKind == ArtifactSlot.TRAIT ? (this as ItemMaterialTrait).TraitID : null,
+            Name = Name,
 #nullable enable
         };
     }
@@ -404,6 +406,8 @@ namespace SiralimDumper
 )";
         }
 
+        public override string Description => base.Description.Replace("10", "{1}");
+
         /// <summary>
         /// Returns the icon index for this artifact, with the given properties.
         /// </summary>
@@ -438,11 +442,31 @@ namespace SiralimDumper
             }
         }
 
-        public class ItemArtifactDatabase : Database<int, ItemArtifact>
+        public const int N_TIERS = 6;
+        /// <summary>
+        /// The file path to the icon.
+        /// </summary>
+        public string IconFilename(int tier) => $@"item\artifact\{Name.EscapeForFilename()}_t{tier}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Artifact AsJSON => new()
         {
-            public override IEnumerable<int> Keys => Enumerable.Range(0, ItemArtifact.N_ARTIFACTS);
+#nullable disable
+            Description = Description,
+            Id = ID,
+            Notes = [],
+            Stat = Enum.Parse<QuickType.Stat>(Enum.GetName(Increases), true),
+            Icons = Enumerable.Range(0, N_TIERS).Select(t => $@"images\{IconFilename(t)}".Replace("\\", "/")).ToArray(),
+            Name = Name,
+#nullable enable
+        };
+    }
 
-            protected override ItemArtifact? FetchNewEntry(int key) => new ItemArtifact(key);
-        }
+    public class ItemArtifactDatabase : Database<int, ItemArtifact>
+    {
+        public override IEnumerable<int> Keys => Enumerable.Range(0, ItemArtifact.N_ARTIFACTS);
+
+        protected override ItemArtifact? FetchNewEntry(int key) => new ItemArtifact(key);
     }
 }

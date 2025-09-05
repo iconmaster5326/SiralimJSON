@@ -9,6 +9,7 @@ type: object
 additionalProperties: false
 required:
   - id
+  - name
   - description
   - icon
   - sources
@@ -22,6 +23,9 @@ properties:
     description: The unique ID of this item.
     type: integer
     minimum: 0
+  name:
+    description: The English name of this item.
+    type: string
   description:
     description: The English description of this item.
     type: string

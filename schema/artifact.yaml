@@ -1,19 +1,18 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: spellPropertyItem.yaml
-title: Spell Property Item
+$id: artifact.yaml
+title: Artifact
 description: |
-  A Siralim Ultimate spell property item definition.
+  A Siralim Ultimate artifact item definition.
   What you think of as "items" are distributed across multiple different classes in-game;
-  these are items that represent spell properties.
+  these are items that are equippable by creatures.
 type: object
 additionalProperties: false
 required:
   - id
   - name
   - description
-  - icon
-  - sources
-  - spellProperties
+  - icons
+  - stat
   - notes
 properties:
   id:
@@ -26,20 +25,22 @@ properties:
   description:
     description: The English description of this item.
     type: string
-  icon:
-    description: The path to the image for this item's icon.
-    type: string
-  sources:
-    description: Where you can locate this item.
+  icons:
+    description: |
+      The path to the images for this item's icons.
+      There are 6 tiers of artifacts:
+      One going up a tier every 5 levels until level 25,
+      and then one more after awakwning.
     type: array
+    minLength: 6
+    maxLength: 6
     items:
-      $ref: _source.yaml
-  spellProperties:
-    description: The IDs of the spell properties this item can give to spell gems.
-    type: array
-    items:
-      type: integer
-      minimum: 0
+      type: string
+  stat:
+    $ref: _stat.yaml
+    description: |
+      The stat this artifact grants.
+      Also determines how the spell slots activate.
   notes:
     description: Any user-given notes for this item.
     type: array
