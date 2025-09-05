@@ -173,7 +173,7 @@ namespace SiralimDumper
                     Sprite? icon = item.Icon;
                     if (icon != null)
                     {
-                        result.GetAndAppend(icon.Name, new ImageInfo(0, $@"race\{item.Name.EscapeForFilename()}.png"));
+                        result.GetAndAppend(icon.Name, new ImageInfo(0, item.IconFilename));
                     }
                 }
 
@@ -516,6 +516,7 @@ namespace SiralimDumper
                 SchemaVersion = SCHEMA_VERSION,
             },
             Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

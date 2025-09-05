@@ -306,7 +306,7 @@ namespace SiralimDumper
             Skins = Skin.Database.Values.Where(s => s.CreatureID == ID).Select(s => (long)s.ID).ToArray(),
             Specializations = Specialization.Database.Values.Where(s => s.PrimaryCreatureID == ID || s.SecondaryCreatureID == ID).Select(s => (long)s.ID).ToArray(),
             Notes = [],
-            Creator = "Unknown",
+            Item = ItemMaterialTrait.Database.Values.FirstOrDefault(i => i.TraitID == TraitID)?.ID,
         };
     }
 

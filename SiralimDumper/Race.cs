@@ -231,6 +231,38 @@ namespace SiralimDumper
         /// Can all creatures of this race drop mana?
         /// </summary>
         public bool GivesMana => !Obtainable ? false : !MANALESS_RACES.Contains(Name);
+
+        /// <summary>
+        /// The file path to the icon image.
+        /// </summary>
+        public string IconFilename => $@"race\{Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Race AsJSON => new()
+        {
+#nullable disable
+            BossDialog = BossDialogue.All(d => d.Length == 0) ? [] : BossDialogue.ToArray(),
+            CardBonuses = HasCards ? CardsRequiredForBonuses.Index().Select(kv => new KeyValuePair<string, string>(kv.Item.ToString(), CardBonusDescriptions[kv.Index])).DistinctBy(kv => kv.Key).ToDictionary() : [],
+            Cards = NumCards,
+            Class = Enum.Parse<QuickType.Class>(EnumUtil.Name(Class)),
+            Creator = null,
+            Creatures = Creatures.Select(c => (long)c.ID).ToArray(),
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Master = HasMaster ? new()
+            {
+                Costume = MasterCostumeID,
+                Dialog = MasterDialogue,
+                Item = ItemMaterialTrait.Database.Values.First(i => i.TraitID == MasterTraitID).ID,
+                Name = MasterName,
+                Trait = MasterTraitID,
+            } : null,
+            Name = Name,
+            Notes = [],
+            Skins = Skin.Database.Values.Where(s => Name.Equals(s.RaceName)).Select(s => (long)s.ID).ToArray(),
+#nullable enable
+        };
     }
 
     public class RaceDatabase : Database<string, Race>

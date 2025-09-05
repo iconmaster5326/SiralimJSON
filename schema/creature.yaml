@@ -23,6 +23,7 @@ required:
   - givesMana
   - skins
   - specializations
+  - item
   - notes
   - creator
 properties:
@@ -109,7 +110,7 @@ properties:
       - type: integer
         minimum: 0
   reserved:
-    description: Can this creature be found randomly in realms?
+    description: Can this creature not be found randomly in realms?
     type: boolean
   obtainable:
     description: Is this creature obtainable by the player by any means?
@@ -133,6 +134,12 @@ properties:
     items:
       type: integer
       minimum: 0
+  item:
+    description: The ID of the material item that gives this creature's trait.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
   notes:
     description: Any user-given notes for this creature.
     type: array

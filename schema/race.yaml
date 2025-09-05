@@ -1,0 +1,98 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: race.yaml
+title: Race
+description: A Siralim Ultimate race definition.
+type: object
+additionalProperties: false
+required:
+  - name
+  - class
+  - icon
+  - cards
+  - cardBonuses
+  - bossDialog
+  - master
+  - creatures
+  - skins
+  - notes
+  - creator
+properties:
+  name:
+    description: The unique ID (and English name) of this race.
+    type: string
+  class:
+    $ref: _class.yaml
+    description: The default class of this race. This is not used or displayed in-game, but is set for all races.
+  icon:
+    description: The path to the icon for this race.
+    type: string
+  cards:
+    description: The number of cards this race has in its card set, or 0 if it does not have cards.
+    type: integer
+  cardBonuses:
+    description: A mapping of numbers to English bonuses for having that number of cards.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  bossDialog:
+    description: The possible dialogue that appears when you fight a mini-boss whose leader is of this race in Realms.
+    type: array
+    items:
+      type: string
+  master:
+    description: The Rodian Master for this race, if this race has one.
+    oneOf:
+      - type: "null"
+      - type: object
+        additionalProperties: false
+        required:
+          - name
+          - dialog
+          - trait
+          - item
+          - costume
+        properties:
+          name:
+            description: The English name of this race's Rodian Master.
+            type: string
+          dialog:
+            description: The English dialogue that plays when you talk to this race's Rodian Master.
+            type: string
+          trait:
+            description: The ID of the trait that this race's Rodian Master gives.
+            type: integer
+            minimum: 0
+          item:
+            description: The ID of the material item that this race's Rodian Master gives.
+            type: integer
+            minimum: 0
+          costume:
+            description: The ID of the costume that this race's Rodian Master wears.
+            type: integer
+            minimum: 0
+  creatures:
+    description: The IDs of all creatures of this race.
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  skins:
+    description: |
+      The IDs of all skins that can be applied to any member of this race.
+      This does NOT list skins that can only apply to one member of this race!
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  notes:
+    description: Any user-given notes for this race.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this race, if known?
+    oneOf:
+      - type: "null"
+      - type: string

@@ -7,6 +7,7 @@ additionalProperties: false
 required:
   - metadata
   - creatures
+  - races
 properties:
   metadata:
     $ref: metadata.yaml
@@ -16,3 +17,8 @@ properties:
     type: array
     items:
       $ref: creature.yaml
+  races:
+    description: All races in the game.
+    type: array
+    items:
+      $ref: race.yaml
