@@ -65,6 +65,7 @@ namespace SiralimDumper
                 Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
                 Framework.Print($"[SiralimDumper] relics: [{string.Join(", ", Relic.Database.Values).EscapeNonWS()}]");
+                Framework.Print($"[SiralimDumper] accessories: [{string.Join(", ", Accessory.Database.Values).EscapeNonWS()}]");
 
                 //for (int i = 1; i < 10; i++)
                 //{
@@ -324,6 +325,11 @@ namespace SiralimDumper
                     result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"relic\{item.Name.EscapeForFilename()}\icon.png"));
                 }
 
+                foreach (var item in Accessory.Database.Values)
+                {
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"accessory\{item.Name.EscapeForFilename()}.png"));
+                }
+
                 foreach (var info in new (string Sprite, string Name)[]{
                     ("gem_slot", "spellprop"),
                     ("slot_nether", "nether"),
@@ -347,6 +353,12 @@ namespace SiralimDumper
                     ("icons", 2003, "notoriety"),
                     ("icons", 2004, "piety"),
                     ("icons", 2141, "stardust"),
+                    ("icons", 2143, "gotg_key"),
+                    ("icons", 2165, "gotg_key_fragment"),
+                    ("icons", 1895, "ticket_siropoly"),
+                    ("icons", 1896, "ticket_keno"),
+                    ("icons", 1897, "ticket_scratch"),
+                    ("icons", 1898, "ticket_slots"),
                 })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(info.Index, $@"item\resource\{info.Name}.png"));
@@ -419,7 +431,7 @@ namespace SiralimDumper
                     ("menu_bestiary", "race"),
                     ("menu_gems", "spell"),
                     ("codex_gems", "spell_property"),
-                    ("library_spell_gems", "item_spell_property"),
+                    ("menu_dust", "item_spell_property"),
                     ("menu_materials", "item_material"),
                     ("codex_artifacts", "item_artifact"),
                     ("statustext", "personality"),
@@ -447,8 +459,9 @@ namespace SiralimDumper
                     ("moreemblems", "item_emblem"),
                     ("menu_cards", "item_card"),
                     ("item_netherstone", "item_nether_stone"),
-                    ("menu_items", "item_misc"),
+                    ("menu_fielditems", "item_misc"),
                     ("accessory_add", "accessory"),
+                    ("menu_items", "item"),
                 })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\category\{info.Name}.png"));
