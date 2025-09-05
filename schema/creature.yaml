@@ -20,6 +20,7 @@ required:
   - god
   - reserved
   - obtainable
+  - givesMana
   - skins
   - specializations
   - notes
@@ -112,6 +113,9 @@ properties:
     type: boolean
   obtainable:
     description: Is this creature obtainable by the player by any means?
+    type: boolean
+  givesMana:
+    description: Does this creature drop mana when killed?
     type: boolean
   skins:
     description: |

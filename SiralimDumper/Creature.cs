@@ -186,6 +186,7 @@ namespace SiralimDumper
         /// The god this Avatar is associated with, if any.
         /// </summary>
         public God? God => God.Database.Values.FirstOrDefault(g => g.Name.Equals(Name));
+
         /// <summary>
         /// Is this creature obtainable in normal gameplay?
         /// </summary>
@@ -193,8 +194,34 @@ namespace SiralimDumper
         {
             get
             {
-                if (Race.UNOBTAINABLE_RACES.Contains(RaceName)) return false;
+                if (!Race.Obtainable) return false;
                 if (RaceName.Equals("Avatar") && !IsGod) return false;
+                // TODO: add special cases
+                return true;
+            }
+        }
+        /// <summary>
+        /// Is this creature not spawnable in normal, random enemy packs?
+        /// </summary>
+        public bool Reserved
+        {
+            get
+            {
+                if (Race.Reserved) return true;
+                if (!Obtainable) return true;
+                // TODO: add special cases
+                return false;
+            }
+        }
+        /// <summary>
+        /// Does this creature give mana on defeat?
+        /// </summary>
+        public bool GivesMana
+        {
+            get
+            {
+                if (!Race.GivesMana) return false;
+                // TODO: add special cases
                 return true;
             }
         }
@@ -273,8 +300,9 @@ namespace SiralimDumper
             MinDepth = 1,
             MenagerieDialog = MenagerieDialog,
             God = God?.ID,
-            Reserved = !Obtainable,
+            Reserved = Reserved,
             Obtainable = Obtainable,
+            GivesMana = GivesMana,
             Skins = Skin.Database.Values.Where(s => s.CreatureID == ID).Select(s => (long)s.ID).ToArray(),
             Specializations = Specialization.Database.Values.Where(s => s.PrimaryCreatureID == ID || s.SecondaryCreatureID == ID).Select(s => (long)s.ID).ToArray(),
             Notes = [],

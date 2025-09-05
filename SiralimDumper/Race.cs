@@ -11,6 +11,8 @@ namespace SiralimDumper
     {
         internal static readonly string[] UNOBTAINABLE_RACES = ["False Godspawn", "Relic"];
         internal static readonly string[] MASTERLESS_RACES = ["Avatar", "Purrghast", "Tanukrook", "Mogwai", "Exotic", "Animatus", "Herbling", "False Godspawn", "Guardian", "Relic"];
+        internal static readonly string[] RESERVED_RACES = ["Exotic", "Godspawn", "Avatar"];
+        internal static readonly string[] MANALESS_RACES = ["Dumpling", "Godspawn", "Avatar"];
 
         /// <summary>
         /// The English name of this race.
@@ -216,6 +218,19 @@ namespace SiralimDumper
         /// The sprite of the icon associated with this race.
         /// </summary>
         public Sprite? Icon => IconID?.GetGMLSprite();
+
+        /// <summary>
+        /// Are all creatures of this race obtainable under normal gameplay?
+        /// </summary>
+        public bool Obtainable => !UNOBTAINABLE_RACES.Contains(Name);
+        /// <summary>
+        /// Can all creatures of this race not appear in normal enemy packs spawns?
+        /// </summary>
+        public bool Reserved => RESERVED_RACES.Contains(Name) || !Obtainable;
+        /// <summary>
+        /// Can all creatures of this race drop mana?
+        /// </summary>
+        public bool GivesMana => !Obtainable ? false : !MANALESS_RACES.Contains(Name);
     }
 
     public class RaceDatabase : Database<string, Race>
