@@ -11,8 +11,8 @@ namespace SiralimDumper
     {
         internal static readonly string[] UNOBTAINABLE_RACES = ["False Godspawn", "Relic"];
         internal static readonly string[] MASTERLESS_RACES = ["Avatar", "Purrghast", "Tanukrook", "Mogwai", "Exotic", "Animatus", "Herbling", "False Godspawn", "Guardian", "Relic"];
-        internal static readonly string[] RESERVED_RACES = ["Exotic", "Godspawn", "Avatar"];
-        internal static readonly string[] MANALESS_RACES = ["Dumpling", "Godspawn", "Avatar"];
+        internal static readonly string[] RESERVED_RACES = ["Exotic", "Godspawn", "Avatar", "Animatus", "Herbling", "Guardian"];
+        internal static readonly string[] MANALESS_RACES = ["Dumpling", "Godspawn", "Avatar", "Animatus", "Herbling", "Guardian", "Purrghast", "Tanukrook", "Mogwai"];
 
         /// <summary>
         /// The English name of this race.

@@ -1,4 +1,5 @@
 ﻿using AurieSharpInterop;
+using QuickType;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using YYTKInterop;
@@ -217,7 +218,7 @@ namespace SiralimDumper
 
                 foreach (var item in Costume.Database.Values)
                 {
-                    result.GetAndAppend(item.Sprite.Name, values: ImagesForOWSprite(item.Sprite, $@"costume\{item.Name.EscapeForFilename()}\overworld"));
+                    result.GetAndAppend(item.Sprite.Name, values: ImagesForOWSprite(item.Sprite, item.SpriteFilenamePrefix));
                 }
 
                 foreach (var item in Decoration.Database.Values)
@@ -525,6 +526,7 @@ namespace SiralimDumper
             Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
             Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
             Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using QuickType;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -40,7 +41,7 @@ namespace SiralimDumper
         /// <summary>
         /// Can this costume not drop through the normal loot pool?
         /// </summary>
-        public bool Reserved => Game.Engine.CallScript("gml_Script_scr_WardrobeReserved", ID);
+        public bool Reserved => Game.Engine.CallScript("gml_Script_scr_WardrobeReserved", ID); // TODO: as of 2.0, this function is no longer being maintained
         /// <summary>
         /// The ID of this costume's sprite.
         /// </summary>
@@ -49,6 +50,23 @@ namespace SiralimDumper
         /// This costume's sprite.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        public string SpriteFilenamePrefix => $@"costume\{Name.EscapeForFilename()}\overworld";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Costume AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Sources = Reserved ? [] : [new() { Type = QuickType.TypeEnum.Everett }],
+            Sprite = SiralimDumper.OverworldSpriteJSON(Sprite, SpriteFilenamePrefix),
+#nullable enable
+        };
     }
 
     public class CostumeDatabase : Database<int, Costume>

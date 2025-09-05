@@ -1,0 +1,39 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: costume.yaml
+title: Costume
+description: A Siralim Ultimate costume definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - sprite
+  - sources
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this costume.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this costume.
+    type: string
+  sprite:
+    $ref: _owsprite.yaml
+    description: The paths to the overworld sprites of this costume.
+  sources:
+    description: Where you can locate this costume.
+    type: array
+    items:
+      $ref: _source.yaml
+  notes:
+    description: Any user-given notes for this costume.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this costume, if known?
+    oneOf:
+      - type: "null"
+      - type: string
