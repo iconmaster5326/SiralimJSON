@@ -1,0 +1,61 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: trait.yaml
+title: Trait
+description: A Siralim Ultimate trait definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - creature
+  - race
+  - item
+  - god
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this trait.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this trait.
+    type: string
+  description:
+    description: The English description of this trait.
+    type: string
+  creature:
+    description: The creature this trait is associated with, if any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  race:
+    description: The race of the Rodian Master this trait is associated with, if any.
+    oneOf:
+      - type: "null"
+      - type: string
+        minimum: 0
+  item:
+    description: The trait material item is associated with, if any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  god:
+    description: The god who gains this trait in their Gate of the Gods fight, if any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  notes:
+    description: Any user-given notes for this trait.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this trait, if known?
+    oneOf:
+      - type: "null"
+      - type: string

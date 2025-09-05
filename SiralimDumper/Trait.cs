@@ -64,6 +64,32 @@ namespace SiralimDumper
         /// The Rodian Master this trait is associated with, if any.
         /// </summary>
         public Race? Race => Race.Database.Values.FirstOrDefault(c => c.HasMaster && c.MasterTraitID == ID);
+        /// <summary>
+        /// The item this trait is associated with, if any.
+        /// </summary>
+        public ItemMaterialTrait? Item => ItemMaterialTrait.Database.Values.FirstOrDefault(c => c.TraitID == ID);
+        /// <summary>
+        /// The god this trait is associated with, if any.
+        /// </summary>
+        public God? God => God.Database.Values.FirstOrDefault(c => c.TraitID == ID);
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Trait AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Creature = Creature?.ID,
+            Description = Description,
+            God = God?.ID,
+            Id = ID,
+            Item = Item?.ID,
+            Name = Name,
+            Notes = [],
+            Race = Race?.Name,
+#nullable enable
+        };
     }
 
     public class TraitDatabase : Database<int, Trait>

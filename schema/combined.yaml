@@ -8,6 +8,7 @@ required:
   - metadata
   - creatures
   - races
+  - traits
 properties:
   metadata:
     $ref: metadata.yaml
@@ -22,3 +23,8 @@ properties:
     type: array
     items:
       $ref: race.yaml
+  traits:
+    description: All traits in the game.
+    type: array
+    items:
+      $ref: trait.yaml
