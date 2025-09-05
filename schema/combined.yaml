@@ -11,6 +11,7 @@ required:
   - traits
   - spells
   - spellProperties
+  - spellPropertyItems
 properties:
   metadata:
     $ref: metadata.yaml
@@ -40,3 +41,8 @@ properties:
     type: array
     items:
       $ref: spellProperty.yaml
+  spellPropertyItems:
+    description: All spell property items in the game.
+    type: array
+    items:
+      $ref: spellPropertyItem.yaml

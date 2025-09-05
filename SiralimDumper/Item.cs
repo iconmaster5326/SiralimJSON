@@ -106,6 +106,25 @@ namespace SiralimDumper
         /// What spell properties can we use this material to apply to spell gems?
         /// </summary>
         public IEnumerable<SpellProperty> PropertiesApplicable => SpellProperty.Database.Values.Where(sp => sp.ItemID == ID);
+
+        /// <summary>
+        /// The file path to the icon.
+        /// </summary>
+        public string IconFilename => $@"item\spellprop\{Name.EscapeForFilename()}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.SpellPropertyItem AsJSON => new()
+        {
+#nullable disable
+            Description = Description,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Random }],
+            SpellProperties = PropertiesApplicable.Select(p => (long)p.ID).Order().ToArray(),
+#nullable enable
+        };
     }
 
     public class ItemSpellPropertyDatabase : Database<int, ItemSpellProperty>
