@@ -211,8 +211,8 @@ namespace SiralimDumper
 
                 foreach (var item in Skin.Database.Values)
                 {
-                    result.GetAndAppend(item.BattleSprite.Name, new ImageInfo(item.BattleSpriteIndex, $@"skin\{item.Name.EscapeForFilename()}\battle.png"));
-                    result.GetAndAppend(item.OverworldSprite.Name, values: ImagesForOWSprite(item.OverworldSprite, $@"skin\{item.Name.EscapeForFilename()}\overworld"));
+                    result.GetAndAppend(item.BattleSprite.Name, new ImageInfo(item.BattleSpriteIndex, item.BattleSpriteFilename));
+                    result.GetAndAppend(item.OverworldSprite.Name, values: ImagesForOWSprite(item.OverworldSprite, item.OverworldSpriteFilenamePrefix));
                 }
 
                 foreach (var item in Costume.Database.Values)
@@ -524,6 +524,7 @@ namespace SiralimDumper
             Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
             Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
             Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

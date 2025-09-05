@@ -1,0 +1,59 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: skin.yaml
+title: Skin
+description: A Siralim Ultimate skin definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - creature
+  - race
+  - battleSprite
+  - overworldSprite
+  - reserved
+  - sources
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this skin.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this skin.
+    type: string
+  battleSprite:
+    description: The path to the battle sprite of this skin.
+    type: string
+  overworldSprite:
+    $ref: _owsprite.yaml
+    description: The paths to the overworld sprites of this skin.
+  creature:
+    description: If this skin applies to a single creature, the ID of that creature, otherwise null.
+    oneOf:
+      - type: "null"
+      - type: integer
+  race:
+    description: If this skin applies to an entire race, the ID of that race, otherwise null.
+    oneOf:
+      - type: "null"
+      - type: string
+  reserved:
+    description: Can this skin appear on random enemies?
+    type: boolean
+  sources:
+    description: Where you can locate this skin.
+    type: array
+    items:
+      $ref: _source.yaml
+  notes:
+    description: Any user-given notes for this skin.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this skin, if known?
+    oneOf:
+      - type: "null"
+      - type: string

@@ -91,6 +91,28 @@ namespace SiralimDumper
         /// The sprite this skin gives to the creature when in the overworld.
         /// </summary>
         public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
+
+        public string BattleSpriteFilename => @$"skin\{Name.EscapeForFilename()}\battle.png";
+        public string OverworldSpriteFilenamePrefix => $@"skin\{Name.EscapeForFilename()}\overworld";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Skin AsJSON => new()
+        {
+#nullable disable
+            BattleSprite = $@"images\{BattleSpriteFilename}".Replace("\\", "/"),
+            Creator = null,
+            Creature = CreatureID,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            OverworldSprite = SiralimDumper.OverworldSpriteJSON(OverworldSprite, OverworldSpriteFilenamePrefix),
+            Race = RaceName,
+            Reserved = Reserved,
+            Sources = Reserved ? [] : [new() { Type = QuickType.TypeEnum.Random }],
+#nullable enable
+        };
     }
 
     public class SkinDatabase : Database<int, Skin>
