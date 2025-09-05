@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -84,6 +85,25 @@ namespace SiralimDumper
         /// Returns the ID of the <see cref="ItemSpellProperty"/> that applies this property.
         /// </summary>
         public int ItemID => Game.Engine.CallScript("gml_Script_inv_SpellGemGetMaterialByStat", ID);
+
+        /// <summary>
+        /// The file path to the icon.
+        /// </summary>
+        public string IconFilename => $@"spellprop\{ID}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.SpellProperty AsJSON => new()
+        {
+#nullable disable
+            ShortDescription = ShortDescription,
+            LongDescription = "NYI",
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            Item = ItemID,
+            Notes = [],
+#nullable enable
+        };
     }
 
     public class SpellPropertyDatabase : Database<int, SpellProperty>

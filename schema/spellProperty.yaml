@@ -1,0 +1,38 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: spellProperty.yaml
+title: Spell Property
+description: A Siralim Ultimate spell property definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - shortDescription
+  - longDescription
+  - icon
+  - item
+  - notes
+properties:
+  id:
+    description: The unique ID of this spell property.
+    type: integer
+    minimum: 0
+  shortDescription:
+    description: |
+      The English short description of this spell property.
+      This is often used as its name.
+    type: string
+  longDescription:
+    description: The English long description of this spell property.
+    type: string
+  icon:
+    description: The path to the image for this spell property's icon.
+    type: string
+  item:
+    description: The ID of the spell property item this is associated with.
+    type: integer
+    minimum: 0
+  notes:
+    description: Any user-given notes for this spell property.
+    type: array
+    items:
+      $ref: _note.yaml

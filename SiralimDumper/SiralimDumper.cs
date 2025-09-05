@@ -182,7 +182,7 @@ namespace SiralimDumper
                     Sprite? icon = item.Icon;
                     if (icon != null)
                     {
-                        result.GetAndAppend(icon.Name, new ImageInfo(item.IconIndex, $@"spellprop\{item.ID}.png"));
+                        result.GetAndAppend(icon.Name, new ImageInfo(item.IconIndex, item.IconFilename));
                     }
                 }
 
@@ -519,6 +519,7 @@ namespace SiralimDumper
             Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
             Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
             Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
+            SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()
