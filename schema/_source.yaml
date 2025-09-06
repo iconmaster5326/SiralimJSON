@@ -119,6 +119,12 @@ oneOf:
         description: The project you must complete.
         type: integer
         minimum: 0
+  - title: Source (Starter)
+    description: You begin the game with this entity.
+    required: [type]
+    properties:
+      type:
+        const: starter
   - title: Source (Random)
     description: This entity is randomly dropped from any source of loot.
     required: [type]

@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using QuickType;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -219,6 +220,22 @@ namespace SiralimDumper
         /// The tileset this decoration uses.
         /// </summary>
         public Tileset Tileset => TilesetID.GetGMLTileset();
+
+        public string SpriteFilename => $@"decor\wall\{Name.EscapeForFilename()}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.WallStyle AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
+#nullable enable
+        };
     }
 
     public class DecorationWallsDatabase : Database<int, DecorationWalls>
@@ -296,6 +313,22 @@ namespace SiralimDumper
         /// The tileset this decoration uses.
         /// </summary>
         public Tileset Tileset => TilesetID.GetGMLTileset();
+
+        public string SpriteFilename => $@"decor\floor\{Name.EscapeForFilename()}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.FloorStyle AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
+#nullable enable
+        };
     }
 
     public class DecorationFloorsDatabase : Database<int, DecorationFloors>
@@ -373,6 +406,22 @@ namespace SiralimDumper
         /// The sprite this decoration uses.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        public string SpriteFilename => $@"decor\bg\{Name.EscapeForFilename()}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Background AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
+#nullable enable
+        };
     }
 
     public class DecorationBackgroundDatabase : Database<int, DecorationBackground>
@@ -438,6 +487,20 @@ namespace SiralimDumper
     Name='{Name}',
 )";
         }
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Weather AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Everett }],
+#nullable enable
+        };
     }
 
     public class DecorationWeatherDatabase : Database<int, DecorationWeather>
@@ -516,6 +579,20 @@ namespace SiralimDumper
     MusicLoopID={MusicLoopID},
 )";
         }
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Music AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+#nullable enable
+        };
     }
 
     public class DecorationMusicDatabase : Database<int, DecorationMusic>

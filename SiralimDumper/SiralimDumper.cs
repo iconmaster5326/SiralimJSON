@@ -228,17 +228,17 @@ namespace SiralimDumper
 
                 foreach (var item in DecorationWalls.Database.Values)
                 {
-                    result.GetAndAppend(item.Tileset.Name, new ImageInfo(0, $@"decor\wall\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Tileset.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
                 foreach (var item in DecorationFloors.Database.Values)
                 {
-                    result.GetAndAppend(item.Tileset.Name, new ImageInfo(0, $@"decor\floor\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Tileset.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
                 foreach (var item in DecorationBackground.Database.Values)
                 {
-                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"decor\bg\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
                 foreach (var item in God.Database.Values)
@@ -516,18 +516,23 @@ namespace SiralimDumper
                 Version = VERSION,
                 SchemaVersion = SCHEMA_VERSION,
             },
-            Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
-            SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            SpellPropertyItems = ItemSpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Decorations = Decoration.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //SpellPropertyItems = ItemSpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
+            //Decorations = Decoration.Database.Values.Select(item => item.AsJSON).ToArray(),
+            WallStyles = DecorationWalls.Database.Values.Select(item => item.AsJSON).ToArray(),
+            FloorStyles = DecorationFloors.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Backgrounds = DecorationBackground.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Weather = DecorationWeather.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Music = DecorationMusic.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

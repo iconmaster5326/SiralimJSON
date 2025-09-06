@@ -18,6 +18,11 @@ required:
   - skins
   - costumes
   - decorations
+  - wallStyles
+  - floorStyles
+  - backgrounds
+  - weather
+  - music
 properties:
   metadata:
     $ref: metadata.yaml
@@ -78,7 +83,32 @@ properties:
     items:
       $ref: costume.yaml
   decorations:
-    description: All cosdecorationstumes in the game.
+    description: All decorations in the game.
     type: array
     items:
       $ref: decoration.yaml
+  wallStyles:
+    description: All castle wall styles in the game.
+    type: array
+    items:
+      $ref: wallStyle.yaml
+  floorStyles:
+    description: All castle floor styles in the game.
+    type: array
+    items:
+      $ref: floorStyle.yaml
+  backgrounds:
+    description: All castle backgrounds in the game.
+    type: array
+    items:
+      $ref: background.yaml
+  weather:
+    description: All castle weather in the game.
+    type: array
+    items:
+      $ref: weather.yaml
+  music:
+    description: All castle music tracks in the game.
+    type: array
+    items:
+      $ref: music.yaml
