@@ -1,0 +1,50 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: perk.yaml
+title: Perk
+description: A Siralim Ultimate perk definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - specialization
+  - maxRanks
+  - pointsPerRank
+  - icon
+  - anointable
+  - notes
+properties:
+  id:
+    description: The unique ID of this perk.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this perk.
+    type: string
+  description:
+    description: The English description of this perk.
+    type: string
+  specialization:
+    description: The ID of the specialization this perk is for.
+    type: integer
+    minimum: 0
+  maxRanks:
+    description: The number of ranks you can have in this perk.
+    type: integer
+    minimum: 1
+  pointsPerRank:
+    description: The number of points it takes to gain one rank.
+    type: integer
+    minimum: 0
+  icon:
+    description: The path to the icon for this perk.
+    type: string
+  anointable:
+    description: Can this perk be found as an anointment?
+    type: boolean
+  notes:
+    description: Any user-given notes for this perk.
+    type: array
+    items:
+      $ref: _note.yaml

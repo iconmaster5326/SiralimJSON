@@ -271,12 +271,12 @@ namespace SiralimDumper
 
                 foreach (var item in Specialization.Database.Values)
                 {
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"spec\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, item.IconFilename));
                 }
 
                 foreach (var item in Perk.Database.Values)
                 {
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"perk\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, item.IconFilename));
                 }
 
                 foreach (var item in RealmProperty.Database.Values)
@@ -546,6 +546,8 @@ namespace SiralimDumper
             Gods = God.Database.Values.Select(item => item.AsJSON).ToArray(),
             Realms = Realm.Database.Values.Select(item => item.AsJSON).ToArray(),
             Conditions = Condition.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Specializations = Specialization.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Perks = Perk.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

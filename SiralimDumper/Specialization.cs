@@ -1,4 +1,6 @@
-﻿using YYTKInterop;
+﻿using QuickType;
+using System.Text.RegularExpressions;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -117,6 +119,40 @@ namespace SiralimDumper
         /// The perk you get when you ascend this specialization.
         /// </summary>
         public Perk AscendedPerk => Perk.Database[AscendedPerkID];
+        /// <summary>
+        /// The costume you get at a certain tier, from 1-3.
+        /// </summary>
+        public Costume CostumeAtTier(int tier) => Costume.Database.Values.First(c => c.Name.Equals($"{Name} (Tier {tier})"));
+        /// <summary>
+        /// The costumes you get at all 3 tiers.
+        /// </summary>
+        public Costume[] Costumes => [CostumeAtTier(1), CostumeAtTier(2), CostumeAtTier(3)];
+
+        public string IconFilename => $@"spec\{Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Specialization AsJSON => new()
+        {
+#nullable disable
+            Advanced = false, // TODO
+            AscendedPerk = AscendedPerkID,
+            Costumes = Costumes.Select(c => (long)c.ID).ToArray(),
+            Creator = null,
+            Creatures = [PrimaryCreatureID, SecondaryCreatureID],
+            Decoration = 0, // TODO
+            Description = [Description, Playstyle],
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Perks = Perks.Select(p => (long)p.ID).ToArray(),
+            Project = Project.Database.Values.First(p => p.Name.EndsWith(Name)).ID,
+            Skin = 0, // TODO
+            Spell = SpellID,
+#nullable enable
+        };
     }
 
     public class SpecializationDatabase : Database<int, Specialization>
@@ -230,6 +266,26 @@ namespace SiralimDumper
         /// The sprite for this perk's icon.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
+        public string IconFilename => $@"perk\{Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Perk AsJSON => new()
+        {
+#nullable disable
+            Anointable = IsAnointable,
+            Description = Description,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            MaxRanks = MaxRanks,
+            Name = Name,
+            Notes = [],
+            PointsPerRank = PointsPerRank,
+            Specialization = Specialization.ID,
+#nullable enable
+        };
     }
 
     public class PerkDatabase : Database<int, Perk>

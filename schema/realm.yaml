@@ -11,6 +11,8 @@ required:
   - emblemIcon
   - godShop
   - godBlessings
+  - unlockedAtDepth
+  - project
   - notes
   - creator
 properties:
@@ -53,6 +55,18 @@ properties:
         blessing:
           description: The English text describing this blessing.
           type: string
+  unlockedAtDepth:
+    description: The depth you can enter this realm in the main story, if you can.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 1
+  project:
+    description: The ID of the project to unlock this realm, if there is one.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
   notes:
     description: Any user-given notes for this realm.
     type: array

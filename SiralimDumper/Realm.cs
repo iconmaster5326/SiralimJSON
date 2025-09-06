@@ -117,6 +117,8 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
+            UnlockedAtDepth = null, // TODO
+            Project = Project.Database.Values.FirstOrDefault(p => p.Name.EndsWith(Name))?.ID,
 #nullable enable
         };
     }

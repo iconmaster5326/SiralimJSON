@@ -1,0 +1,95 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: specialization.yaml
+title: Specialization
+description: A Siralim Ultimate specialization definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - icon
+  - costumes
+  - skin
+  - decoration
+  - creatures
+  - spell
+  - perks
+  - ascendedPerk
+  - advanced
+  - project
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this specialization.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this specialization.
+    type: string
+  description:
+    description: The English description of this specialization.
+    type: array
+    minLength: 2
+    maxLength: 2
+    items:
+      type: string
+  icon:
+    description: The path to the icon for this specialization.
+    type: string
+  costumes:
+    description: The IDs of the costumes you unlock at each tier of missions completed.
+    type: array
+    minLength: 3
+    maxLength: 3
+    items:
+      type: integer
+      minimum: 0
+  skin:
+    description: The ID of the skin you unlock upon ascending this specialization.
+    type: integer
+    minimum: 0
+  decoration:
+    description: The ID of the decoration you unlock upon ascending this specialization.
+    type: integer
+    minimum: 0
+  creatures:
+    description: The IDs of the creatures you get if you start the game as this specialization.
+    type: array
+    minLength: 2
+    maxLength: 2
+    items:
+      type: integer
+      minimum: 0
+  spell:
+    description: The ID of the spell you unlock if you start the game as this specialization.
+    type: integer
+    minimum: 0
+  perks:
+    description: The IDs of the (non-ascended) perks you can take as this specialization.
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  ascendedPerk:
+    description: The ID of the perk you can take once you ascend this specialization.
+    type: integer
+    minimum: 0
+  advanced:
+    description: Can you not normally start the game as this specialization?
+    type: boolean
+  project:
+    description: The ID of the project to unlock this specialization, if there is one.
+    type: integer
+    minimum: 0
+  notes:
+    description: Any user-given notes for this specialization.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this specialization, if known?
+    oneOf:
+      - type: "null"
+      - type: string

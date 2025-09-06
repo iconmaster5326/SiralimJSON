@@ -25,6 +25,8 @@ properties:
     type: integer
   project:
     type: integer
+  specialization:
+    type: integer
   desc:
     type: string
 # end of Quicktype fixups.
@@ -118,6 +120,32 @@ oneOf:
         const: project
       project:
         description: The project you must complete.
+        type: integer
+        minimum: 0
+  - title: Source (Ascencion)
+    description: This entity comes from ascending a specialization.
+    required: [type, specialization]
+    properties:
+      type:
+        const: ascencion
+      specialization:
+        description: The specialization you must ascend.
+        type: integer
+        minimum: 0
+  - title: Source (Quests)
+    description: This entity comes from doing a certain number of realm quests with a specialization.
+    required: [type, specialization, times]
+    properties:
+      type:
+        const: quests
+      specialization:
+        description: The specialization you must quest with.
+        type: integer
+        minimum: 0
+      times:
+        description: |
+          The number of times you must complete quests.
+          0 means you get it when you get the specialization.
         type: integer
         minimum: 0
   - title: Source (Starter)

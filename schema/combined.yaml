@@ -26,6 +26,8 @@ required:
   - gods
   - realms
   - conditions
+  - specializations
+  - perks
 properties:
   metadata:
     $ref: metadata.yaml
@@ -130,3 +132,13 @@ properties:
     type: array
     items:
       $ref: condition.yaml
+  specializations:
+    description: All specializations in the game.
+    type: array
+    items:
+      $ref: specialization.yaml
+  perks:
+    description: All perks in the game.
+    type: array
+    items:
+      $ref: perk.yaml
