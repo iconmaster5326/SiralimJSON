@@ -298,8 +298,7 @@ namespace SiralimDumper
 
                 foreach (var item in FalseGodRune.Database.Values)
                 {
-                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"rune\{item.ID}.png"));
-                    result.GetAndAppend(item.InactiveSprite.Name, new ImageInfo(0, $@"rune\{item.ID}_inactive.png"));
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
                 foreach (var item in Project.Database.Values)
@@ -551,6 +550,7 @@ namespace SiralimDumper
             Perks = Perk.Database.Values.Select(item => item.AsJSON).ToArray(),
             RealmProperties = RealmProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
             FalseGods = FalseGod.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Runes = FalseGodRune.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

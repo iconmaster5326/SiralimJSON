@@ -1,0 +1,35 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: rune.yaml
+title: Rune
+description: A Siralim Ultimate false god rune definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - description
+  - sprite
+  - bonus
+  - reserved
+  - notes
+properties:
+  id:
+    description: The unique ID of this rune.
+    type: integer
+    minimum: 0
+  description:
+    description: The English description of this rune.
+    type: string
+  sprite:
+    description: The path to the sprite for this rune.
+    type: string
+  bonus:
+    description: The percentage increase of loot this rune provides, between 0 (+0%) and 1 (+100%).
+    type: number
+  reserved:
+    description: Can this rune not appear normally?
+    type: boolean
+  notes:
+    description: Any user-given notes for this rune.
+    type: array
+    items:
+      $ref: _note.yaml

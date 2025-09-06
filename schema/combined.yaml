@@ -30,6 +30,7 @@ required:
   - perks
   - realmProperties
   - falseGods
+  - runes
 properties:
   metadata:
     $ref: metadata.yaml
@@ -154,3 +155,8 @@ properties:
     type: array
     items:
       $ref: falseGod.yaml
+  runes:
+    description: All false god runes in the game.
+    type: array
+    items:
+      $ref: rune.yaml

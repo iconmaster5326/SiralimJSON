@@ -1,4 +1,6 @@
-﻿using YYTKInterop;
+﻿using QuickType;
+using System.Xml.Linq;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -192,6 +194,22 @@ namespace SiralimDumper
         /// The sprite for this rune when not selected.
         /// </summary>
         public Sprite InactiveSprite => InactiveSpriteID.GetGMLSprite();
+
+        public string SpriteFilename => $@"rune\{ID}.png";
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Rune AsJSON => new()
+        {
+#nullable disable
+            Bonus = 0, // TODO
+            Description = Description,
+            Id = ID,
+            Notes = [],
+            Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
+            Reserved = ID == 7, // TODO: automate this?
+#nullable enable
+        };
     }
 
     public class FalseGodRuneDatabase : Database<int, FalseGodRune>
