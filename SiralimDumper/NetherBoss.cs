@@ -37,6 +37,18 @@ namespace SiralimDumper
         /// The English name of this nether boss.
         /// </summary>
         public string Name => Game.Engine.CallScript("gml_Script_scr_NetherBossName", ID);
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.NetherBoss AsJSON => new()
+        {
+#nullable disable
+            Id = ID,
+            Name = Name,
+            Notes = [],
+#nullable enable
+        };
     }
 
     public class NetherBossDatabase : Database<int, NetherBoss>

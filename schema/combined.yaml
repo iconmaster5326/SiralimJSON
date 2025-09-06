@@ -31,6 +31,7 @@ required:
   - realmProperties
   - falseGods
   - runes
+  - netherBosses
 properties:
   metadata:
     $ref: metadata.yaml
@@ -160,3 +161,8 @@ properties:
     type: array
     items:
       $ref: rune.yaml
+  netherBosses:
+    description: All nether bosses in the game.
+    type: array
+    items:
+      $ref: netherBoss.yaml

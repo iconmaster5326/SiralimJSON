@@ -1,0 +1,23 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: netherBoss.yaml
+title: Nether Boss
+description: A Siralim Ultimate nether boss definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - notes
+properties:
+  id:
+    description: The unique ID of this nether boss.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this nether boss.
+    type: string
+  notes:
+    description: Any user-given notes for this nether boss.
+    type: array
+    items:
+      $ref: _note.yaml

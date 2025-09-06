@@ -551,6 +551,7 @@ namespace SiralimDumper
             RealmProperties = RealmProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
             FalseGods = FalseGod.Database.Values.Select(item => item.AsJSON).ToArray(),
             Runes = FalseGodRune.Database.Values.Select(item => item.AsJSON).ToArray(),
+            NetherBosses = NetherBoss.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()
