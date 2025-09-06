@@ -262,10 +262,10 @@ namespace SiralimDumper
 
                 foreach (var item in Condition.Database.Values)
                 {
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"condition\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, item.IconFilename));
                     if (item.IconID != item.ResistantIconID)
                     {
-                        result.GetAndAppend(item.ResistantIcon.Name, new ImageInfo(0, $@"condition\{item.Name.EscapeForFilename()}_resist.png"));
+                        result.GetAndAppend(item.ResistantIcon.Name, new ImageInfo(0, item.IconResistedFilename));
                     }
                 }
 
@@ -545,6 +545,7 @@ namespace SiralimDumper
             Music = DecorationMusic.Database.Values.Select(item => item.AsJSON).ToArray(),
             Gods = God.Database.Values.Select(item => item.AsJSON).ToArray(),
             Realms = Realm.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Conditions = Condition.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

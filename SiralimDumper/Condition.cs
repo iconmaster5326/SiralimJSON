@@ -132,6 +132,29 @@ namespace SiralimDumper
                 return !_RandomConds.Contains(ID);
             }
         }
+
+        public ItemMaterialTrick? Material => ItemMaterialTrick.Database.Values.FirstOrDefault(i => i.ConditionID == ID);
+
+        public string IconFilename => $@"condition\{Name.EscapeForFilename()}.png";
+        public string IconResistedFilename => $@"condition\{Name.EscapeForFilename()}_resist.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Condition AsJSON => new()
+        {
+#nullable disable
+            Description = Description,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            IconResisted = Icon == ResistantIcon ? null : $@"images\{IconResistedFilename}".Replace("\\", "/"),
+            Id = ID,
+            Material = Material?.ID,
+            Name = Name,
+            Notes = [],
+            Reserved = Reserved,
+            Type = Enum.Parse<QuickType.ConditionType>(Enum.GetName(Kind), true),
+#nullable enable
+        };
     }
 
     public class ConditionDatabase : Database<int, Condition>

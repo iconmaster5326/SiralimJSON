@@ -38,7 +38,7 @@ properties:
       items:
         $ref: _shopitem.yaml
   godBlessings:
-    description: The English bonuses you unlock at each devotion rank. 100 items long.
+    description: The bonuses you unlock at each devotion rank. 100 items long.
     type: array
     minLength: 100
     maxLength: 100

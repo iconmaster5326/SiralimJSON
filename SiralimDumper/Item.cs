@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using AurieSharpInterop;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -176,6 +177,7 @@ namespace SiralimDumper
             Stats = MaterialKind == ArtifactSlot.STAT ? (this as ItemMaterialStat).Stats.Select(s => Enum.Parse<QuickType.Stat>(Enum.GetName(s), true)).ToArray() : [],
             Trait = MaterialKind == ArtifactSlot.TRAIT ? (this as ItemMaterialTrait).TraitID : null,
             Name = Name,
+            Condition = MaterialKind == ArtifactSlot.TRICK ? (this as ItemMaterialTrick).ConditionID : null,
 #nullable enable
         };
     }
@@ -298,6 +300,7 @@ namespace SiralimDumper
     Icon={Icon.ToString().Replace("\n", "\n  ")},
     IconIndex={IconIndex},
     MaterialKind={MaterialKind},
+    Condition={ConditionID} ({Condition?.Name}),
 )";
         }
 
@@ -307,6 +310,22 @@ namespace SiralimDumper
         /// The database of every trick material item.
         /// </summary>
         new public static ItemMaterialTrickDatabase Database = [];
+
+        /// <summary>
+        /// The ID of the condition this material grants, if it's condition-related.
+        /// </summary>
+        public int? ConditionID
+        {
+            get
+            {
+                GameVariable v = Game.Engine.CallScript("gml_Script_scr_TrickSlotToCondition", ID);
+                return (!v.IsNumber() || v.GetInt32() < 0) ? null : v.GetInt32();
+            }
+        }
+        /// <summary>
+        /// The condition this material grants, if it's condition-related.
+        /// </summary>
+        public Condition? Condition => ConditionID == null ? null : Condition.Database[ConditionID.Value];
     }
 
     public class ItemMaterialTrickDatabase : Database<int, ItemMaterialTrick>

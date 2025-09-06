@@ -1,0 +1,55 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: condition.yaml
+title: Condition
+description: A Siralim Ultimate condition (buff, debuff, minion) definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - type
+  - icon
+  - iconResisted
+  - reserved
+  - material
+  - notes
+properties:
+  id:
+    description: The unique ID of this condition.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this condition.
+    type: string
+  description:
+    description: The English description of this condition.
+    type: string
+  type:
+    title: Condition Type
+    description: Is this a buff, a debuff, or a minion?
+    enum: [buff, debuff, minion]
+  icon:
+    description: The path to the icon for this condition.
+    type: string
+  iconResisted:
+    description: |
+      The path to the icon for this condition if the creature resists it.
+      Null if there is no resisting this condition.
+    oneOf:
+      - type: "null"
+      - type: string
+  reserved:
+    description: Can this condition be applied at random?
+    type: boolean
+  material:
+    description: The ID of the trick material that applies this condition, if there are any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  notes:
+    description: Any user-given notes for this condition.
+    type: array
+    items:
+      $ref: _note.yaml
