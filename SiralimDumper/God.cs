@@ -109,6 +109,35 @@ namespace SiralimDumper
         /// The <see cref="Relic"/> associated with this god.
         /// </summary>
         public Relic Relic => Relic.Database[ID];
+
+        public string IconFilename => $@"god\{Name.EscapeForFilename()}.png";
+        public string EmblemIconFilename => $@"item\emblem\{Name.EscapeForFilename()}.png";
+        public string NameForTranslationKeys => ID == 28 ? "ROBO" : Name.EscapeForFilename().ToUpper();
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.God AsJSON => new()
+        {
+#nullable disable
+            Avatar = AvatarID,
+            Creator = null,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Realm = RealmID,
+            RelicBigIcon = $@"images\{Relic.BigIconFilename}".Replace("\\", "/"),
+            RelicSmallIcon = $@"images\{Relic.SmallIconFilename}".Replace("\\", "/"),
+            RelicBonuses = Relic.Bonuses,
+            RelicName = Relic.Name,
+            RelicStat = Enum.Parse<QuickType.Stat>(Enum.GetName(Relic.Stat), true),
+            RelicTitle = Relic.Title,
+            Title = Title,
+            Trait = TraitID,
+            UltimateSpell = UltimateSpellID,
+#nullable enable
+        };
     }
 
     public class GodDatabase : Database<int, God>

@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using System.Text.RegularExpressions;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -28,8 +29,8 @@ namespace SiralimDumper
             return $@"Relic(
     ID={ID},
     Name='{Name}',
-    Sprite={Sprite.ToString().Replace("\n", "\n  ")},
-    Icon={Icon.ToString().Replace("\n", "\n  ")},
+    Sprite={BigIcon.ToString().Replace("\n", "\n  ")},
+    Icon={SmallIcon.ToString().Replace("\n", "\n  ")},
     Bonuses=['{string.Join("', '", Bonuses)}'],
     Stat={Stat},
 )";
@@ -46,7 +47,7 @@ namespace SiralimDumper
         /// <summary>
         /// The sprite for this relic.
         /// </summary>
-        public Sprite Sprite => SpriteID.GetGMLSprite();
+        public Sprite BigIcon => SpriteID.GetGMLSprite();
         /// <summary>
         /// The ID of the icon for this relic.
         /// </summary>
@@ -54,7 +55,7 @@ namespace SiralimDumper
         /// <summary>
         /// The icon for this relic.
         /// </summary>
-        public Sprite Icon => IconID.GetGMLSprite();
+        public Sprite SmallIcon => IconID.GetGMLSprite();
         /// <summary>
         /// The English text of this relic's bonuses. 10 items long.
         /// </summary>
@@ -67,6 +68,13 @@ namespace SiralimDumper
         /// The <see cref="God"/> associated with this relic.
         /// </summary>
         public God God => God.Database[ID];
+        /// <summary>
+        /// The English title given to this relic.
+        /// </summary>
+        public string Title => Regex.Match($"L_RELIC_{God.NameForTranslationKeys}_EXT".SUTranslate(), "^[^,]+, (.+)$").Groups[1].Value;
+
+        public string BigIconFilename => $@"relic\{Name.EscapeForFilename()}\relic.png";
+        public string SmallIconFilename => $@"relic\{Name.EscapeForFilename()}\icon.png";
     }
 
     public class RelicDatabase : Database<int, Relic>

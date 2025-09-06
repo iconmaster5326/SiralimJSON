@@ -243,10 +243,10 @@ namespace SiralimDumper
 
                 foreach (var item in God.Database.Values)
                 {
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"god\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, item.IconFilename));
                     if (item.EmblemIcon != null)
                     {
-                        result.GetAndAppend(item.EmblemIcon.Name, new ImageInfo(0, $@"item\emblem\{item.Name.EscapeForFilename()}.png"));
+                        result.GetAndAppend(item.EmblemIcon.Name, new ImageInfo(0, item.EmblemIconFilename));
                     }
                 }
 
@@ -318,8 +318,8 @@ namespace SiralimDumper
 
                 foreach (var item in Relic.Database.Values)
                 {
-                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"relic\{item.Name.EscapeForFilename()}\relic.png"));
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"relic\{item.Name.EscapeForFilename()}\icon.png"));
+                    result.GetAndAppend(item.BigIcon.Name, new ImageInfo(0, item.BigIconFilename));
+                    result.GetAndAppend(item.SmallIcon.Name, new ImageInfo(0, item.SmallIconFilename));
                 }
 
                 foreach (var item in Accessory.Database.Values)
@@ -516,23 +516,24 @@ namespace SiralimDumper
                 Version = VERSION,
                 SchemaVersion = SCHEMA_VERSION,
             },
-            //Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //SpellPropertyItems = ItemSpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
-            //Decorations = Decoration.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
+            SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
+            SpellPropertyItems = ItemSpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Decorations = Decoration.Database.Values.Select(item => item.AsJSON).ToArray(),
             WallStyles = DecorationWalls.Database.Values.Select(item => item.AsJSON).ToArray(),
             FloorStyles = DecorationFloors.Database.Values.Select(item => item.AsJSON).ToArray(),
             Backgrounds = DecorationBackground.Database.Values.Select(item => item.AsJSON).ToArray(),
             Weather = DecorationWeather.Database.Values.Select(item => item.AsJSON).ToArray(),
             Music = DecorationMusic.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Gods = God.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

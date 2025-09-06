@@ -68,6 +68,11 @@ namespace SiralimDumper
                 }
             }
         }
+
+        /// <summary>
+        /// The emblem icon for this realm.
+        /// </summary>
+        public Sprite EmblemIcon => God.Database[GodID].EmblemIcon ?? throw new Exception("God has realm but no emblem icon!");
     }
 
     public class RealmDatabase : Database<int, Realm>

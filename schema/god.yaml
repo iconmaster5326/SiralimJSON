@@ -1,0 +1,87 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: god.yaml
+title: God
+description: A Siralim Ultimate god definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - avatar
+  - trait
+  - realm
+  - title
+  - icon
+  - ultimateSpell
+  - relicName
+  - relicTitle
+  - relicBigIcon
+  - relicSmallIcon
+  - relicBonuses
+  - relicStat
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this god.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this god.
+    type: string
+  avatar:
+    description: The ID of this god's Avatar.
+    type: integer
+    minimum: 0
+  trait:
+    description: The ID of this god's trait in its Gate of the Gods fight.
+    type: integer
+    minimum: 0
+  realm:
+    description: The ID of this god's Realm, if it has a Realm.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  title:
+    description: This god's title.
+    type: string
+  icon:
+    description: The path to this god's icon.
+    type: string
+  ultimateSpell:
+    description: The ID of this god's Avatar's ultimate spell.
+    type: integer
+    minimum: 0
+  relicName:
+    description: The name of this god's relic.
+    type: string
+  relicTitle:
+    description: The title of this god's relic.
+    type: string
+  relicBigIcon:
+    description: The path to this god's relic's large sprite.
+    type: string
+  relicSmallIcon:
+    description: The path to this god's relic's icon.
+    type: string
+  relicBonuses:
+    description: This god's English relic's bonuses, each gained every 10 levels in that relic, up to 100.
+    type: array
+    minLength: 10
+    maxLength: 10
+    items:
+      type: string
+  relicStat:
+    $ref: _stat.yaml
+    description: The stat that this god's relic increases.
+  notes:
+    description: Any user-given notes for this god.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this god, if known?
+    oneOf:
+      - type: "null"
+      - type: string
