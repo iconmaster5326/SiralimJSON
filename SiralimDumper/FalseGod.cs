@@ -75,6 +75,51 @@ namespace SiralimDumper
         /// The icon for this false god.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+        private static readonly IReadOnlyDictionary<int, string> PART_SPRITE_NAMES = new Dictionary<int, string>()
+        {
+            [0] = "althea_@",
+            [1] = "nebodar_@",
+            [2] = "jotinir_@",
+            [3] = "hydranox_@",
+            [4] = "loid_@",
+            [5] = "impington_@",
+            [6] = "ancestor_@",
+            [7] = "caliban_0@_ow",
+            [8] = "mindwurm_@",
+            [9] = "lostconstruct_@",
+        };
+        /// <summary>
+        /// The creature in the fight, from slot 1-6.
+        /// </summary>
+        public Creature CreatureInSlot(int slot) => Creature.Database.Values.First(c => c.OverworldSprite.Name.Equals(PART_SPRITE_NAMES[ID].Replace("@", slot.ToString())));
+        /// <summary>
+        /// The creatures in the fight, from top to bottom, left to right.
+        /// </summary>
+        public Creature[] Creatures => Enumerable.Range(1, 6).Select(CreatureInSlot).ToArray();
+
+        public string IconFilename => $@"falsegod\{Name.EscapeForFilename()}\icon.png";
+        public string SpriteFilename0 => $@"falsegod\{Name.EscapeForFilename()}\overworld_0.png";
+        public string SpriteFilename1 => $@"falsegod\{Name.EscapeForFilename()}\overworld_1.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.FalseGod AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            Description = Description,
+            Icon = $@"images/{IconFilename}".Replace("\\", "/"),
+            Sprite = [$@"images/{SpriteFilename0}".Replace("\\", "/"), $@"images/{SpriteFilename1}".Replace("\\", "/")],
+            Id = ID,
+            Name = Name,
+            Notes = [],
+            Parts = Creatures.Select(c => (long)c.ID).ToArray(),
+            Anointments = [], // TODO
+            BountyCost = [], // TODO
+            Spells = [], // TODO
+#nullable enable
+        };
     }
 
     public class FalseGodDatabase : Database<int, FalseGod>

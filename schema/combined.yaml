@@ -29,6 +29,7 @@ required:
   - specializations
   - perks
   - realmProperties
+  - falseGods
 properties:
   metadata:
     $ref: metadata.yaml
@@ -148,3 +149,8 @@ properties:
     type: array
     items:
       $ref: realmProperty.yaml
+  falseGods:
+    description: All false gods in the game.
+    type: array
+    items:
+      $ref: falseGod.yaml

@@ -1,0 +1,77 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: falseGod.yaml
+title: False God
+description: A Siralim Ultimate false god definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - parts
+  - icon
+  - sprite
+  - bountyCost
+  - anointments
+  - spells
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this false god.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this false god.
+    type: string
+  description:
+    description: The English description of this false god.
+    type: string
+  parts:
+    description: The IDs of the creatures in this fight.
+    type: array
+    minLength: 6
+    maxLength: 6
+    items:
+      type: integer
+      minimum: 0
+  icon:
+    description: The path to the icon of this false god.
+    type: string
+  sprite:
+    description: The paths to the frames of the overworld sprite of this false god.
+    type: array
+    minLength: 2
+    maxLength: 2
+    items:
+      type: string
+  bountyCost:
+    description: A mapping of material IDs to amounts, for how much going on a bounty costs.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: integer
+      minimum: 1
+  anointments:
+    description: What specializations can this false god drop anointments for?
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  spells:
+    description: What unique spells can this false god drop?
+    type: array
+    items:
+      type: integer
+      minimum: 0
+  notes:
+    description: Any user-given notes for this false god.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this false god, if known?
+    oneOf:
+      - type: "null"
+      - type: string

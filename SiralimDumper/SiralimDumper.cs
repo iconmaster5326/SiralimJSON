@@ -1,4 +1,5 @@
 ﻿using AurieSharpInterop;
+using QuickType;
 using System.Text.Json;
 using YYTKInterop;
 
@@ -290,9 +291,9 @@ namespace SiralimDumper
 
                 foreach (var item in FalseGod.Database.Values)
                 {
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"falsegod\{item.Name.EscapeForFilename()}\icon.png"));
-                    result.GetAndAppend(item.OverworldSprite.Name, new ImageInfo(0, $@"falsegod\{item.Name.EscapeForFilename()}\overworld_0.png"));
-                    result.GetAndAppend(item.OverworldSprite.Name, new ImageInfo(1, $@"falsegod\{item.Name.EscapeForFilename()}\overworld_1.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, item.IconFilename));
+                    result.GetAndAppend(item.OverworldSprite.Name, new ImageInfo(0, item.SpriteFilename0));
+                    result.GetAndAppend(item.OverworldSprite.Name, new ImageInfo(1, item.SpriteFilename1));
                 }
 
                 foreach (var item in FalseGodRune.Database.Values)
@@ -549,6 +550,7 @@ namespace SiralimDumper
             Specializations = Specialization.Database.Values.Select(item => item.AsJSON).ToArray(),
             Perks = Perk.Database.Values.Select(item => item.AsJSON).ToArray(),
             RealmProperties = RealmProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
+            FalseGods = FalseGod.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()
