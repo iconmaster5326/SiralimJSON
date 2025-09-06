@@ -343,7 +343,7 @@ namespace SiralimDumper
 
         public static string EscapeForFilename(this string input)
         {
-            return Regex.Replace(input, "[^A-Za-z01-9]+", "");
+            return Regex.Replace(input, "[^A-Za-z01-9_]+", "");
         }
 
         public static string Escape(this string input)

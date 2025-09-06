@@ -121,7 +121,7 @@ namespace SiralimDumper
             Icon = $@"images\{IconFilename}".Replace("\\", "/"),
             Id = ID,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Random }],
+            Sources = [new() { Type = QuickType.SourceType.Random }],
             SpellProperties = PropertiesApplicable.Select(p => (long)p.ID).Order().ToArray(),
             Name = Name,
 #nullable enable
@@ -170,7 +170,7 @@ namespace SiralimDumper
             Icon = $@"images\{IconFilename}".Replace("\\", "/"),
             Id = ID,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Random }],
+            Sources = [new() { Type = QuickType.SourceType.Random }],
             Creator = null,
             Slot = Enum.Parse<QuickType.Slot>(Enum.GetName(MaterialKind), true),
             Stats = MaterialKind == ArtifactSlot.STAT ? (this as ItemMaterialStat).Stats.Select(s => Enum.Parse<QuickType.Stat>(Enum.GetName(s), true)).ToArray() : [],

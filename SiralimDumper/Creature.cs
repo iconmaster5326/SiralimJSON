@@ -276,7 +276,7 @@ namespace SiralimDumper
                 {
                     return new()
                     {
-                        Type = QuickType.TypeEnum.Gotg,
+                        Type = QuickType.SourceType.Gotg,
                         God = god.ID,
                     };
                 }
@@ -286,14 +286,14 @@ namespace SiralimDumper
                 {
                     return new()
                     {
-                        Type = QuickType.TypeEnum.Realm,
+                        Type = QuickType.SourceType.Realm,
                         Realm = realm.ID,
                     };
                 }
 
                 return new QuickType.Source()
                 {
-                    Type = QuickType.TypeEnum.Special,
+                    Type = QuickType.SourceType.Special,
                     Desc = s,
                 };
             }).ToArray() : [],

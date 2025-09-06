@@ -24,6 +24,7 @@ required:
   - weather
   - music
   - gods
+  - realms
 properties:
   metadata:
     $ref: metadata.yaml
@@ -118,3 +119,8 @@ properties:
     type: array
     items:
       $ref: god.yaml
+  realms:
+    description: All realms in the game.
+    type: array
+    items:
+      $ref: realm.yaml

@@ -1,0 +1,105 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: _shopitem.yaml
+title: Shop Item
+description: A purchasable item in the shop.
+type: object
+additionalProperties: false
+properties:
+  type:
+    title: Shop Item Type
+    description: The type of item on offer.
+    type: string
+  id:
+    description: The ID of the entity being sold.
+    type: integer
+    minimum: 0
+  cost:
+    description: The cost of the item, in whatever resource the shop sells things in.
+    type: integer
+    minimum: 1
+oneOf:
+  - description: A creature being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: creature
+  - description: A skin being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: skin
+  - description: A costume being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: costume
+  - description: A accessory being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: accessory
+  - description: A material being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: material
+  - description: A spellPropertyItem being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: spellPropertyItem
+  - description: A decoration being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: decoration
+  - description: A wall being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: wall
+  - description: A floor being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: floor
+  - description: A background being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: background
+  - description: A weather being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: weather
+  - description: A music being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: music
+  - description: A projectItem being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: projectItem
+  - description: A Gate of the Gods key being sold.
+    required: [type, cost]
+    properties:
+      type:
+        const: gotgKey
+  - description: A small chest being sold.
+    required: [type, cost]
+    properties:
+      type:
+        const: smallChest
+  - description: A medium chest being sold.
+    required: [type, cost]
+    properties:
+      type:
+        const: mediumChest
+  - description: A large chest being sold.
+    required: [type, cost]
+    properties:
+      type:
+        const: largeChest

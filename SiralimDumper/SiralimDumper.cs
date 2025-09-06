@@ -1,7 +1,5 @@
 ﻿using AurieSharpInterop;
-using QuickType;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -36,9 +34,9 @@ namespace SiralimDumper
                 Game.Engine.GetGlobalObject()["castlename"] = "{CASTLENAME}";
 
                 // output JSON
-                // DebugPrintAllEntities();
+                //DebugPrintAllEntities();
                 SaveDatabaseJSON();
-                //SaveImageMappingJSON();
+                SaveImageMappingJSON();
 
                 // exit
                 Environment.Exit(0);
@@ -250,6 +248,18 @@ namespace SiralimDumper
                     }
                 }
 
+                foreach (var item in Realm.Database.Values)
+                {
+                    for (var i = 1; i <= 100; i++)
+                    {
+                        string icon = item.BlessingIcon(i).Name;
+                        if (!result.ContainsKey(icon))
+                        {
+                            result.GetAndAppend(icon, new ImageInfo(0, item.BlessingIconFilename(i)));
+                        }
+                    }
+                }
+
                 foreach (var item in Condition.Database.Values)
                 {
                     result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"condition\{item.Name.EscapeForFilename()}.png"));
@@ -328,138 +338,138 @@ namespace SiralimDumper
                 }
 
                 foreach (var info in new (string Sprite, string Name)[]{
-                    ("gem_slot", "spellprop"),
-                    ("slot_nether", "nether"),
-                    ("slot_spell", "spell"),
-                    ("slot_stat", "stat"),
-                    ("slot_trait", "trait"),
-                    ("slot_trick", "trick"),
-                })
+                        ("gem_slot", "spellprop"),
+                        ("slot_nether", "nether"),
+                        ("slot_spell", "spell"),
+                        ("slot_stat", "stat"),
+                        ("slot_trait", "trait"),
+                        ("slot_trick", "trick"),
+                    })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\slots\{info.Name}.png"));
                 }
 
                 foreach (var info in new (string Sprite, int Index, string Name)[]{
-                    ("resource_brimstone", 0, "brimstone"),
-                    ("resource_crystal", 0, "crystal"),
-                    ("resource_essence", 0, "essence"),
-                    ("resource_granite", 0, "granite"),
-                    ("resource_power", 0, "power"),
-                    ("icons", 2001, "glamor"),
-                    ("icons", 2002, "glory"),
-                    ("icons", 2003, "notoriety"),
-                    ("icons", 2004, "piety"),
-                    ("icons", 2141, "stardust"),
-                    ("icons", 2143, "gotg_key"),
-                    ("icons", 2165, "gotg_key_fragment"),
-                    ("icons", 1895, "ticket_siropoly"),
-                    ("icons", 1896, "ticket_keno"),
-                    ("icons", 1897, "ticket_scratch"),
-                    ("icons", 1898, "ticket_slots"),
-                })
+                        ("resource_brimstone", 0, "brimstone"),
+                        ("resource_crystal", 0, "crystal"),
+                        ("resource_essence", 0, "essence"),
+                        ("resource_granite", 0, "granite"),
+                        ("resource_power", 0, "power"),
+                        ("icons", 2001, "glamor"),
+                        ("icons", 2002, "glory"),
+                        ("icons", 2003, "notoriety"),
+                        ("icons", 2004, "piety"),
+                        ("icons", 2141, "stardust"),
+                        ("icons", 2143, "gotg_key"),
+                        ("icons", 2165, "gotg_key_fragment"),
+                        ("icons", 1895, "ticket_siropoly"),
+                        ("icons", 1896, "ticket_keno"),
+                        ("icons", 1897, "ticket_scratch"),
+                        ("icons", 1898, "ticket_slots"),
+                    })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(info.Index, $@"item\resource\{info.Name}.png"));
                 }
 
                 foreach (var info in new (int Index, string Name)[]{
-                    (1991, "chaos"),
-                    (1992, "death"),
-                    (1993, "life"),
-                    (1994, "nature"),
-                    (1995, "sorcery"),
-                })
+                        (1991, "chaos"),
+                        (1992, "death"),
+                        (1993, "life"),
+                        (1994, "nature"),
+                        (1995, "sorcery"),
+                    })
                 {
                     result.GetAndAppend("icons", new ImageInfo(info.Index, $@"item\card\{info.Name}.png"));
                 }
 
                 foreach (var info in new (int Index, string Name)[]{
-                    (2005, "attack"),
-                    (2006, "defense"),
-                    (2007, "health"),
-                    (2008, "intelligence"),
-                    (2009, "speed"),
-                    (2178, "reset"),
-                })
+                        (2005, "attack"),
+                        (2006, "defense"),
+                        (2007, "health"),
+                        (2008, "intelligence"),
+                        (2009, "speed"),
+                        (2178, "reset"),
+                    })
                 {
                     result.GetAndAppend("icons", new ImageInfo(info.Index, $@"item\scroll\{info.Name}.png"));
                 }
 
                 foreach (var info in new (int Index, string Name)[]{
-                    (1859, "chaos"),
-                    (1860, "death"),
-                    (1861, "life"),
-                    (1862, "nature"),
-                    (1863, "sorcery"),
-                })
+                        (1859, "chaos"),
+                        (1860, "death"),
+                        (1861, "life"),
+                        (1862, "nature"),
+                        (1863, "sorcery"),
+                    })
                 {
                     result.GetAndAppend("icons", new ImageInfo(info.Index, $@"misc\class\{info.Name}.png"));
                 }
 
                 foreach (var info in new (string Sprite, string Name)[]{
-                    ("stat_atk", "attack"),
-                    ("stat_def", "defense"),
-                    ("stat_hlt", "health"),
-                    ("stat_int", "intelligence"),
-                    ("stat_spd", "speed"),
-                    ("stat_mna", "charges"),
-                })
+                        ("stat_atk", "attack"),
+                        ("stat_def", "defense"),
+                        ("stat_hlt", "health"),
+                        ("stat_int", "intelligence"),
+                        ("stat_spd", "speed"),
+                        ("stat_mna", "charges"),
+                    })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\stat\{info.Name}.png"));
                 }
 
                 foreach (var info in new (string Sprite, string Name)[]{
-                    ("battle_attack", "attack"),
-                    ("battle_cast", "cast"),
-                    ("battle_defend", "defend"),
-                    ("battle_provoke", "provoke"),
-                    ("battle_damageincreased", "statup"),
-                    ("battle_damagedecreased", "statdown"),
-                    ("battle_defending", "defending"),
-                    ("battle_provoking", "provoking"),
-                    ("battle_dead", "dead"),
-                })
+                        ("battle_attack", "attack"),
+                        ("battle_cast", "cast"),
+                        ("battle_defend", "defend"),
+                        ("battle_provoke", "provoke"),
+                        ("battle_damageincreased", "statup"),
+                        ("battle_damagedecreased", "statdown"),
+                        ("battle_defending", "defending"),
+                        ("battle_provoking", "provoking"),
+                        ("battle_dead", "dead"),
+                    })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\action\{info.Name}.png"));
                 }
 
                 foreach (var info in new (string Sprite, string Name)[]{
-                    ("menu_creatures", "creature"),
-                    ("menu_traits", "trait"),
-                    ("menu_bestiary", "race"),
-                    ("menu_gems", "spell"),
-                    ("codex_gems", "spell_property"),
-                    ("menu_dust", "item_spell_property"),
-                    ("menu_materials", "item_material"),
-                    ("codex_artifacts", "item_artifact"),
-                    ("statustext", "personality"),
-                    ("codex_skins", "skin"),
-                    ("cred_costume", "costume"),
-                    ("furn_tableschairs", "decoration"),
-                    ("setwall", "walls"),
-                    ("setfloor", "floors"),
-                    ("changebackground", "background"),
-                    ("icon_castleweather", "weather"),
-                    ("loot_music", "music"),
-                    ("cred_godrealm", "god"),
-                    ("library_realms", "realm"),
-                    ("furn_paintings", "condition"),
-                    ("menu_library_changetitle", "specialization"),
-                    ("codex_anointments", "perk"),
-                    ("codex_realmprops", "realm_property"),
-                    ("codex_worldboss", "false_god"),
-                    ("rune_p", "rune"),
-                    ("codex_nether", "nether_boss"),
-                    ("codex_projects", "project"),
-                    ("project_special", "item_project"),
-                    ("codex_relics", "relic"),
-                    ("menu_allresources", "item_resource"),
-                    ("moreemblems", "item_emblem"),
-                    ("menu_cards", "item_card"),
-                    ("item_netherstone", "item_nether_stone"),
-                    ("menu_fielditems", "item_misc"),
-                    ("accessory_add", "accessory"),
-                    ("menu_items", "item"),
-                })
+                        ("menu_creatures", "creature"),
+                        ("menu_traits", "trait"),
+                        ("menu_bestiary", "race"),
+                        ("menu_gems", "spell"),
+                        ("codex_gems", "spell_property"),
+                        ("menu_dust", "item_spell_property"),
+                        ("menu_materials", "item_material"),
+                        ("codex_artifacts", "item_artifact"),
+                        ("statustext", "personality"),
+                        ("codex_skins", "skin"),
+                        ("cred_costume", "costume"),
+                        ("furn_tableschairs", "decoration"),
+                        ("setwall", "walls"),
+                        ("setfloor", "floors"),
+                        ("changebackground", "background"),
+                        ("icon_castleweather", "weather"),
+                        ("loot_music", "music"),
+                        ("cred_godrealm", "god"),
+                        ("library_realms", "realm"),
+                        ("furn_paintings", "condition"),
+                        ("menu_library_changetitle", "specialization"),
+                        ("codex_anointments", "perk"),
+                        ("codex_realmprops", "realm_property"),
+                        ("codex_worldboss", "false_god"),
+                        ("rune_p", "rune"),
+                        ("codex_nether", "nether_boss"),
+                        ("codex_projects", "project"),
+                        ("project_special", "item_project"),
+                        ("codex_relics", "relic"),
+                        ("menu_allresources", "item_resource"),
+                        ("moreemblems", "item_emblem"),
+                        ("menu_cards", "item_card"),
+                        ("item_netherstone", "item_nether_stone"),
+                        ("menu_fielditems", "item_misc"),
+                        ("accessory_add", "accessory"),
+                        ("menu_items", "item"),
+                    })
                 {
                     result.GetAndAppend(info.Sprite, new ImageInfo(0, $@"misc\category\{info.Name}.png"));
                 }
@@ -534,6 +544,7 @@ namespace SiralimDumper
             Weather = DecorationWeather.Database.Values.Select(item => item.AsJSON).ToArray(),
             Music = DecorationMusic.Database.Values.Select(item => item.AsJSON).ToArray(),
             Gods = God.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Realms = Realm.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

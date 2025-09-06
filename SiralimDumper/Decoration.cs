@@ -137,7 +137,7 @@ namespace SiralimDumper
             MaxCount = MaxCount,
             Name = Name,
             Notes = [],
-            Sources = Reserved ? [] : [new() { Type = QuickType.TypeEnum.Everett }],
+            Sources = Reserved ? [] : [new() { Type = QuickType.SourceType.Everett }],
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
             Visible = Visible,
             Width = Hitbox.Width(),
@@ -232,7 +232,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -325,7 +325,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -418,7 +418,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -498,7 +498,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Everett }],
+            Sources = [new() { Type = QuickType.SourceType.Everett }],
 #nullable enable
         };
     }
@@ -590,7 +590,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.TypeEnum.Everett }], // TODO
+            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
 #nullable enable
         };
     }

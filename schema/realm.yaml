@@ -1,0 +1,65 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: realm.yaml
+title: Realm
+description: A Siralim Ultimate realm definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - god
+  - emblemIcon
+  - godShop
+  - godBlessings
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this realm.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this realm.
+    type: string
+  god:
+    description: The ID of the god that presides over this realm.
+    type: integer
+    minimum: 0
+  emblemIcon:
+    description: The path to the icon for this realm's emblems.
+    type: string
+  godShop:
+    description: The rewards purchasable in this god's shop at certain devotion levels.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: array
+      items:
+        $ref: _shopitem.yaml
+  godBlessings:
+    description: The English bonuses you unlock at each devotion rank. 100 items long.
+    type: array
+    minLength: 100
+    maxLength: 100
+    items:
+      type: object
+      additionalProperties: false
+      required: [icon, blessing]
+      properties:
+        icon:
+          description: The path to the icon for this blessing.
+          type: string
+        blessing:
+          description: The English text describing this blessing.
+          type: string
+  notes:
+    description: Any user-given notes for this realm.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this realm, if known?
+    oneOf:
+      - type: "null"
+      - type: string

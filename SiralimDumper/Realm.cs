@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using QuickType;
+using System.Text.RegularExpressions;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -72,7 +73,52 @@ namespace SiralimDumper
         /// <summary>
         /// The emblem icon for this realm.
         /// </summary>
-        public Sprite EmblemIcon => God.Database[GodID].EmblemIcon ?? throw new Exception("God has realm but no emblem icon!");
+        public Sprite EmblemIcon => God.EmblemIcon ?? throw new Exception("God has realm but no emblem icon!");
+
+        /// <summary>
+        /// The god this realm is associated with.
+        /// </summary>
+        public God God => God.Database[GodID];
+
+        /// <summary>
+        /// The English reward text for a certain devotion rank, between 1 and 100.
+        /// </summary>
+        public string Blessing(int rank) => Regex.Match(Game.Engine.CallScript("gml_Script_scr_BlessingName", God.ID, rank), "^\\[[^\\]]*\\] (.*)$").Groups[1].Value;
+        /// <summary>
+        /// The icon for this devotion rank, between 1 and 100, if any.
+        /// </summary>
+        public Sprite BlessingIcon(int rank)
+        {
+            string icon = Regex.Match(Game.Engine.CallScript("gml_Script_scr_BlessingName", God.ID, rank), "^\\[([^\\]]*)\\] .*$").Groups[1].Value;
+            if (icon.Equals("ob_monlith"))
+            {
+                // fixing a typo from Zack!
+                icon = "ot_monolith";
+            }
+            return icon.GetGMLSprite();
+        }
+
+        public string BlessingIconFilename(int rank) => $@"blessing\{BlessingIcon(rank).Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Realm AsJSON => new()
+        {
+#nullable disable
+            Creator = null,
+            EmblemIcon = $@"images\{God.EmblemIconFilename}".Replace("\\", "/"),
+            God = GodID,
+            GodBlessings = Enumerable.Range(1, 100).Select(rank => new QuickType.GodBlessing() {
+                Blessing = Blessing(rank),
+                Icon = $@"images\{BlessingIconFilename(rank)}".Replace("\\", "/"),
+            }).ToArray(),
+            GodShop = [], // TODO
+            Id = ID,
+            Name = Name,
+            Notes = [],
+#nullable enable
+        };
     }
 
     public class RealmDatabase : Database<int, Realm>

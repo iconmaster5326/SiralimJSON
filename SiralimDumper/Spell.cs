@@ -196,7 +196,7 @@ namespace SiralimDumper
             Reserved = Reserved,
             Resurrects = ResurrectionEffect,
             Sources = Ultimate ? [] : [new() {
-                Type = QuickType.TypeEnum.Random, // TODO: handle other cases
+                Type = QuickType.SourceType.Random, // TODO: handle other cases
             }],
             Tags = Tags,
             Targets = Enum.Parse<QuickType.Targets>(Enum.GetName<SpellTargetingType>(TargetingType), true),

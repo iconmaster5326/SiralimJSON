@@ -110,7 +110,7 @@ namespace SiralimDumper
             OverworldSprite = SiralimDumper.OverworldSpriteJSON(OverworldSprite, OverworldSpriteFilenamePrefix),
             Race = RaceName,
             Reserved = Reserved,
-            Sources = Reserved ? [] : [new() { Type = QuickType.TypeEnum.Random }],
+            Sources = Reserved ? [] : [new() { Type = QuickType.SourceType.Random }],
 #nullable enable
         };
     }

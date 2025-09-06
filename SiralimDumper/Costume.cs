@@ -63,7 +63,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = Reserved ? [] : [new() { Type = QuickType.TypeEnum.Everett }],
+            Sources = Reserved ? [] : [new() { Type = QuickType.SourceType.Everett }],
             Sprite = SiralimDumper.OverworldSpriteJSON(Sprite, SpriteFilenamePrefix),
 #nullable enable
         };
