@@ -284,7 +284,7 @@ namespace SiralimDumper
                     Sprite? icon = item.Icon;
                     if (icon != null)
                     {
-                        result.GetAndAppend(icon.Name, new ImageInfo(0, $@"realmprop\{item.ID}.png"));
+                        result.GetAndAppend(icon.Name, new ImageInfo(0, item.IconFilename));
                     }
                 }
 
@@ -548,6 +548,7 @@ namespace SiralimDumper
             Conditions = Condition.Database.Values.Select(item => item.AsJSON).ToArray(),
             Specializations = Specialization.Database.Values.Select(item => item.AsJSON).ToArray(),
             Perks = Perk.Database.Values.Select(item => item.AsJSON).ToArray(),
+            RealmProperties = RealmProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()

@@ -1,0 +1,31 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: realmProperty.yaml
+title: Realm Property
+description: A Siralim Ultimate realm property definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - description
+  - icon
+  - reserved
+  - notes
+properties:
+  id:
+    description: The unique ID of this realm property.
+    type: integer
+    minimum: 0
+  description:
+    description: The English description of this realm property.
+    type: string
+  icon:
+    description: The path to the icon for this realm property.
+    type: string
+  reserved:
+    description: Can this realm property not appear randomly in realms?
+    type: boolean
+  notes:
+    description: Any user-given notes for this realm property.
+    type: array
+    items:
+      $ref: _note.yaml

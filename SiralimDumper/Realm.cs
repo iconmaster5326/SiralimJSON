@@ -206,6 +206,22 @@ namespace SiralimDumper
         /// The icon sprite for this realm property.
         /// </summary>
         public Sprite? Icon => IconID?.GetGMLSprite();
+
+        public string IconFilename => $@"realmprop\{ID}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.RealmProperty AsJSON => new()
+        {
+#nullable disable
+            Description = Name,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Id = ID,
+            Notes = [],
+            Reserved = false, // TODO
+#nullable enable
+        };
     }
 
     public class RealmPropertyDatabase : Database<int, RealmProperty>

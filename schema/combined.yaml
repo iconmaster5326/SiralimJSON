@@ -28,6 +28,7 @@ required:
   - conditions
   - specializations
   - perks
+  - realmProperties
 properties:
   metadata:
     $ref: metadata.yaml
@@ -142,3 +143,8 @@ properties:
     type: array
     items:
       $ref: perk.yaml
+  realmProperties:
+    description: All realm properties in the game.
+    type: array
+    items:
+      $ref: realmProperty.yaml
