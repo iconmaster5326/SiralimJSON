@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CalumnierPartycrasher/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1324,
+  "item": 1820,
+  "lore": "Calumniers and humans have made several agreements that allow them to live in peace. Most of these deals involve resource gathering in the swamps and permission to build roads through their lands without harming their villages or way of life.\\n\\nCalumnier Partycrashers are a newer group and don\u0027t live in the swamps. They\u0027re known for hanging out in shady taverns and starting fights over the smallest things. Still, their fighting skills have made them valuable assets in Rodia\u0027s criminal underworld.",
+  "menagerieDialog": [
+    "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
+    "Your enemies will rue the day they crossed paths with us!",
+    "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
+    "My scales are like armor, forged in the fires of battle!",
+    "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
+  ],
+  "minDepth": 1,
+  "name": "Calumnier Partycrasher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CalumnierPartycrasher/overworld_e0.png",
+      "images/creature/CalumnierPartycrasher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CalumnierPartycrasher/overworld_n0.png",
+      "images/creature/CalumnierPartycrasher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CalumnierPartycrasher/overworld_s0.png",
+      "images/creature/CalumnierPartycrasher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CalumnierPartycrasher/overworld_w0.png",
+      "images/creature/CalumnierPartycrasher/overworld_w1.png"
+    ]
+  },
+  "race": "Calumnier",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 18
+  },
+  "trait": 2173
+}

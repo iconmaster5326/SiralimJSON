@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/AenRiftDancer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 369,
+  "item": 142,
+  "lore": "Rift Dancers are believed to be from another world, having ended up in ours as a result of an abuse of magic. Although they do not need to eat, they are sometimes seen in abandoned temples, enveloping magical items with their bodies.\\n\\nAen Rift Dancers often gather in hills far from the cities during clear nights, and remain under the stars for hours, emitting a soft murmur as if they yearned for their light.",
+  "menagerieDialog": [
+    "(For a Rift Dancer, it\u0027s not very active.)",
+    "(It keeps trying, without any success at all, to get you to dance with it.)",
+    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+  ],
+  "minDepth": 1,
+  "name": "Aen Rift Dancer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AenRiftDancer/overworld_e0.png",
+      "images/creature/AenRiftDancer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AenRiftDancer/overworld_n0.png",
+      "images/creature/AenRiftDancer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AenRiftDancer/overworld_s0.png",
+      "images/creature/AenRiftDancer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AenRiftDancer/overworld_w0.png",
+      "images/creature/AenRiftDancer/overworld_w1.png"
+    ]
+  },
+  "race": "Rift Dancer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 38,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 52
+}

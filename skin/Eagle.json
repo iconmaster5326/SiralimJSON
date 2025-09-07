@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Eagle/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 290,
+  "name": "Eagle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Eagle/overworld_e0.png",
+      "images/skin/Eagle/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Eagle/overworld_n0.png",
+      "images/skin/Eagle/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Eagle/overworld_s0.png",
+      "images/skin/Eagle/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Eagle/overworld_w0.png",
+      "images/skin/Eagle/overworld_w1.png"
+    ]
+  },
+  "race": "Wyvern",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

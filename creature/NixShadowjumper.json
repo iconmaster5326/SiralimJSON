@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NixShadowjumper/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 571,
+  "item": 695,
+  "lore": "Nixes who work as hired killers wear a mask to prevent anyone from recognizing them, but also to indicate their specialty. In their daily life, surface Nixes are treated with a certain forced respect for fear of their abilities.\\n\\nNix Shadowjumpers are especially dangerous, and their services are the most expensive ones to hire. Through their knowledge of magic, they can use the Path of the Damned to appear behind their target, as long as they have one of their personal items.",
+  "menagerieDialog": [
+    "Leave me alone. I must rest before we venture forth into a new Realm.",
+    "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
+    "I hear you\u0027ve got a problem that needs solved.",
+    "My blade is ready. Let\u0027s assassinate some kings.",
+    "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
+  ],
+  "minDepth": 1,
+  "name": "Nix Shadowjumper",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NixShadowjumper/overworld_e0.png",
+      "images/creature/NixShadowjumper/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NixShadowjumper/overworld_n0.png",
+      "images/creature/NixShadowjumper/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NixShadowjumper/overworld_s0.png",
+      "images/creature/NixShadowjumper/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NixShadowjumper/overworld_w0.png",
+      "images/creature/NixShadowjumper/overworld_w1.png"
+    ]
+  },
+  "race": "Nix",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 27,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 633
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/VolatileWolpertinger/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 358,
+  "item": 619,
+  "lore": "A Wolpertinger\u0027s clutch usually consists of ten eggs. However, the chicks are extremely violent even at that stage and they kill each other for the food that their mother brings them. In the end, only one or two reach maturity.\\n\\nThe Volatile Wolpertinger\u0027s hind legs are atrophied, so it spends most of its time in the air or perched on the branches of trees. The experience turns these creatures into expert air hunters, although a wing injury usually means death for them.",
+  "menagerieDialog": [
+    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+  ],
+  "minDepth": 1,
+  "name": "Volatile Wolpertinger",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/VolatileWolpertinger/overworld_e0.png",
+      "images/creature/VolatileWolpertinger/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/VolatileWolpertinger/overworld_n0.png",
+      "images/creature/VolatileWolpertinger/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/VolatileWolpertinger/overworld_s0.png",
+      "images/creature/VolatileWolpertinger/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/VolatileWolpertinger/overworld_w0.png",
+      "images/creature/VolatileWolpertinger/overworld_w1.png"
+    ]
+  },
+  "race": "Wolpertinger",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 534
+}

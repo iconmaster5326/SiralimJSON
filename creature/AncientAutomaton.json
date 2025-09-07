@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AncientAutomaton/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 811,
+  "item": 1054,
+  "lore": "Two years ago, a group of explorers from Neralim found a set of unfinished prototypes in the ruins of Omnia, in the basement of what used to be a research center.\\n\\nThe Ancient Automaton is the most faithful to the original design. Before entering battle, it bangs its shield with its spear. If either of them break, it produces a replacement, which comes out of its mouth in a matter of minutes.",
+  "menagerieDialog": [
+    "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
+    "I am yours. To command.",
+    "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
+    "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
+    "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
+  ],
+  "minDepth": 1,
+  "name": "Ancient Automaton",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AncientAutomaton/overworld_e0.png",
+      "images/creature/AncientAutomaton/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AncientAutomaton/overworld_n0.png",
+      "images/creature/AncientAutomaton/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AncientAutomaton/overworld_s0.png",
+      "images/creature/AncientAutomaton/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AncientAutomaton/overworld_w0.png",
+      "images/creature/AncientAutomaton/overworld_w1.png"
+    ]
+  },
+  "race": "Automaton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 1073
+}

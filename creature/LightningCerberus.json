@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LightningCerberus/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 457,
+  "item": 390,
+  "lore": "When a Lightning Cerberus gets angry, the electricity that runs through its body reaches 200 volts, so it can throw anyone who touches it into the air. This creature does not need to bite; it channels its electrical energy into a sphere capable of burning any creature it touches to a crisp. It is especially dangerous on rainy days, because just touching the water on the ground where it is standing can lead to electrocution.",
+  "menagerieDialog": [
+    "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
+    "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
+    "(All three of its heads are fighting over a giant, meat-covered bone.)",
+    "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
+    "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
+  ],
+  "minDepth": 1,
+  "name": "Lightning Cerberus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LightningCerberus/overworld_e0.png",
+      "images/creature/LightningCerberus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LightningCerberus/overworld_n0.png",
+      "images/creature/LightningCerberus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LightningCerberus/overworld_s0.png",
+      "images/creature/LightningCerberus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LightningCerberus/overworld_w0.png",
+      "images/creature/LightningCerberus/overworld_w1.png"
+    ]
+  },
+  "race": "Cerberus",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 14,
+    "defense": 21,
+    "health": 34,
+    "intelligence": 21,
+    "speed": 16
+  },
+  "trait": 305
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/SandGiant/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 349,
+  "item": 507,
+  "lore": "Giants have a tough, violent and utterly disrespectful personality, as well as a mean face, all in the image and likeness of their one true God.\\n\\nThanks to the composition of its body, the Sand Giant can regenerate any of its limbs in a matter of seconds as long as it is still alive. When Vulcanar saw this huge and \u0022!@#$ING MAJESTIC\u0022 creature, he decided to ignore the advice of the Goddess of Illusion and create something that stood out even more in order to irritate the God of Anger.",
+  "menagerieDialog": [
+    "Humans are weak! Even baby Giants can crush your kind with one hand.",
+    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+  ],
+  "minDepth": 1,
+  "name": "Sand Giant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SandGiant/overworld_e0.png",
+      "images/creature/SandGiant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SandGiant/overworld_n0.png",
+      "images/creature/SandGiant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SandGiant/overworld_s0.png",
+      "images/creature/SandGiant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SandGiant/overworld_w0.png",
+      "images/creature/SandGiant/overworld_w1.png"
+    ]
+  },
+  "race": "Giant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 43,
+    "intelligence": 13,
+    "speed": 13
+  },
+  "trait": 421
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Huanglong/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1265,
+  "item": 1450,
+  "lore": "These creatures often take human forms to observe the daily life that takes place in Rodia and other nations. However, they never interact with anyone or bother to learn any languages. They just enjoy watching people, especially when they are happy. In their dragon form they only interact with other dragons, and often promote peaceful attitudes. Indeed, on many occasions they receive visits from one or more dragons who seek their help to settle their differences. However, a few of them end up following dark paths after witnessing the greed and selfishness of other species.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Huanglong",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Huanglong/overworld_e0.png",
+      "images/creature/Huanglong/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Huanglong/overworld_n0.png",
+      "images/creature/Huanglong/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Huanglong/overworld_s0.png",
+      "images/creature/Huanglong/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Huanglong/overworld_w0.png",
+      "images/creature/Huanglong/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 17,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1758
+}

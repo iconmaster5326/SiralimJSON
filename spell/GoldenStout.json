@@ -1,0 +1,40 @@
+{
+  "arsenal": false,
+  "booze": true,
+  "class": "chaos",
+  "creator": null,
+  "description": "Caster {ACTION_casts} the Spell Gem in its Artifact\u0027s Spell Slot. This spell is a {SPELL_alcohol}.",
+  "god": null,
+  "id": 323,
+  "manuallyCastable": false,
+  "maxCharges": 30,
+  "name": "Golden Stout",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BEER",
+    "BUFF"
+  ],
+  "targets": "other"
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PitWormHarbinger/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 259,
+  "item": 214,
+  "lore": "Pit Worms can eat almost anything, especially if it has a heart beating inside. If they are properly trained and fed from a young age, they are easy to tame and likely to become obedient creatures.\\n\\nThe Pit Worm Harbinger is perhaps the most intelligent of its kind. When it finds prey, it does not attack directly, instead digging around it and modifying the terrain to hinder its movement.",
+  "menagerieDialog": [
+    "(Doesn\u0027t it ever stop drooling? Disgusting.)",
+    "(It never stops wriggling. Frankly, its mannerisms are a bit disconcerting.)",
+    "(One benefit of having this creature around is that you never need to worry about disposing of corpses.)",
+    "(It\u0027s making a disgusting noise with its mouth, not unlike a dog eating oatmeal.)",
+    "(It insists on making disgusting sucking noises with its mouth.)"
+  ],
+  "minDepth": 1,
+  "name": "Pit Worm Harbinger",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PitWormHarbinger/overworld_e0.png",
+      "images/creature/PitWormHarbinger/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PitWormHarbinger/overworld_n0.png",
+      "images/creature/PitWormHarbinger/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PitWormHarbinger/overworld_s0.png",
+      "images/creature/PitWormHarbinger/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PitWormHarbinger/overworld_w0.png",
+      "images/creature/PitWormHarbinger/overworld_w1.png"
+    ]
+  },
+  "race": "Pit Worm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 123
+}

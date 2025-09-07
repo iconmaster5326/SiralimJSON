@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MarionettePrimadonna/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1330,
+  "item": 1826,
+  "lore": "Some believe Marionettes are conscious\u00E2\u20AC\u201Dthere are even folk stories about it\u00E2\u20AC\u201Dbut studies say otherwise.\\n\\nThe Marionette Primadonna is a gifted singer who knows how to command attention at any party. In high society, a celebration isn\u0027t truly proper unless one of these Marionettes is the host.",
+  "menagerieDialog": [
+    "(It hangs limply, awaiting its next command.)",
+    "Pull my strings and watch me dance... a dance of death!",
+    "I may be controlled, but my mind is my own. Let me share my observations with you.",
+    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+  ],
+  "minDepth": 1,
+  "name": "Marionette Primadonna",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MarionettePrimadonna/overworld_e0.png",
+      "images/creature/MarionettePrimadonna/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MarionettePrimadonna/overworld_n0.png",
+      "images/creature/MarionettePrimadonna/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MarionettePrimadonna/overworld_s0.png",
+      "images/creature/MarionettePrimadonna/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MarionettePrimadonna/overworld_w0.png",
+      "images/creature/MarionettePrimadonna/overworld_w1.png"
+    ]
+  },
+  "race": "Marionette",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 18
+  },
+  "trait": 2185
+}

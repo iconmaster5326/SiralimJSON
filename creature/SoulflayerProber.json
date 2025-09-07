@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SoulflayerProber/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 902,
+  "item": 974,
+  "lore": "To save the world from the cataclysm the Itherian Realms would cause, five of the six agents in Dawn and Gloom\u0027s group became Gods and created five realms that, in perfect balance and harmony, prevented these echoes from pouring into reality.\\n\\nSoulflayers are devious creatures who prefer to act in the shadows. Only when this fails do they choose a different plan of action.\\n\\nWhen a Soulflayer Prober touches a wound with its hand, the wound disappears and stops causing pain for an hour, causing many individuals to bleed to death without knowing why.",
+  "menagerieDialog": [
+    "The flora and fauna of your world are remarkably diverse.",
+    "I hunger for more souls. Let us depart at once!",
+    "(Something about this creature seems incredibly familiar.)",
+    "There is a traitor in our midst. His name is Nortah.",
+    "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
+  ],
+  "minDepth": 1,
+  "name": "Soulflayer Prober",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SoulflayerProber/overworld_e0.png",
+      "images/creature/SoulflayerProber/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SoulflayerProber/overworld_n0.png",
+      "images/creature/SoulflayerProber/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SoulflayerProber/overworld_s0.png",
+      "images/creature/SoulflayerProber/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SoulflayerProber/overworld_w0.png",
+      "images/creature/SoulflayerProber/overworld_w1.png"
+    ]
+  },
+  "race": "Soulflayer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 31,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 1162
+}

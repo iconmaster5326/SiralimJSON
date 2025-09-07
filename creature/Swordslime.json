@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Swordslime/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 915,
+  "item": 963,
+  "lore": "Concoctions can assume any form, although most of them have a preference. However, they usually just look like shapeless masses that leave trails of radioactive waste in their path.\\n\\nThe Swordslime is the only Concoction who chooses relatively humanoid forms, if humans and other intelligent bipedal creatures will pardon the expression. It often lies on the floor and pretends to be a fallen warrior with a sword stuck in the chest, but when its victim turns around, the Swordslime stands up, ready to strike them down in a single backstabbing blow. Quite a cowardly creature.",
+  "menagerieDialog": [
+    "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
+    "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
+    "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
+    "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
+    "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
+  ],
+  "minDepth": 1,
+  "name": "Swordslime",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Swordslime/overworld_e0.png",
+      "images/creature/Swordslime/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Swordslime/overworld_n0.png",
+      "images/creature/Swordslime/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Swordslime/overworld_s0.png",
+      "images/creature/Swordslime/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Swordslime/overworld_w0.png",
+      "images/creature/Swordslime/overworld_w1.png"
+    ]
+  },
+  "race": "Concoction",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 19,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 37,
+    "intelligence": 21,
+    "speed": 11
+  },
+  "trait": 1175
+}

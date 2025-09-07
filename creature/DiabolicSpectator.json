@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DiabolicSpectator/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 308,
+  "item": 322,
+  "lore": "The Diabolic Spectator never stops exercising its muscles, even while traveling, as it relies on its own fists to bring down its enemies. When two comrades-in-arms decide to resolve their differences by means of violence, this creature usually tries to mediate between them by puffing its chest and throwing a defiant look. This usually ends with the three of them fighting on the ground, so it\u0027s hard to tell whether its intention is really to stop the conflict or to join it as a show of strength.",
+  "menagerieDialog": [
+    "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
+    "What are we doing here? Let\u0027s get moving!",
+    "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
+    "(It\u0027s busy feeding rotten meat to its pups.)",
+    "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
+  ],
+  "minDepth": 1,
+  "name": "Diabolic Spectator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DiabolicSpectator/overworld_e0.png",
+      "images/creature/DiabolicSpectator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DiabolicSpectator/overworld_n0.png",
+      "images/creature/DiabolicSpectator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DiabolicSpectator/overworld_s0.png",
+      "images/creature/DiabolicSpectator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DiabolicSpectator/overworld_w0.png",
+      "images/creature/DiabolicSpectator/overworld_w1.png"
+    ]
+  },
+  "race": "Diabolic Horde",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 15,
+    "speed": 23
+  },
+  "trait": 238
+}

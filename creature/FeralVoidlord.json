@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FeralVoidlord/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 846,
+  "item": 1019,
+  "lore": "From his palace of stars, a God watched that dance of intrigue with a smile. A short time later, several Gods lost valuable items that they had created. Centuries after that, when the Unification War came to an end, Milner found the Phase Rogue looting the royal crypts of Omnia. After stopping it, she realized there was no body inside Cerys\u0027s grave.\\n\\nFeral Voidlords only attack small villages. When they howl in the middle of the night, a dark aura escapes from their jaws and blackens the sky, absorbing all light from the moon and the stars. In their perfect cloaks of darkness, they move toward their chosen victims, sometimes helpless and unwary, other times aware that they will soon cease to exist.",
+  "menagerieDialog": [
+    "(You\u0027ll probably never get accustomed to being around this creature. Something about its demeanor gives you goosebumps.)",
+    "(You\u0027ll probably never be able to fully trust that this creature won\u0027t stab you in the back when you least expect it.)",
+    "(It can take on any shape it wants, and yet it seems to stubbornly maintain this one at all times.)",
+    "(You should really consider keeping this creature somewhere else. It frightens your citizens with its grim demeanor.)",
+    "(It watches you intently, waiting for your next command.)"
+  ],
+  "minDepth": 1,
+  "name": "Feral Voidlord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FeralVoidlord/overworld_e0.png",
+      "images/creature/FeralVoidlord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FeralVoidlord/overworld_n0.png",
+      "images/creature/FeralVoidlord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FeralVoidlord/overworld_s0.png",
+      "images/creature/FeralVoidlord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FeralVoidlord/overworld_w0.png",
+      "images/creature/FeralVoidlord/overworld_w1.png"
+    ]
+  },
+  "race": "Voidlord",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 1111
+}

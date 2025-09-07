@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/JackalSwarm/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1311,
+  "item": 1687,
+  "lore": "One jackal poses little danger to any fighter, but when they come in a swarm, the threat multiplies. Attacks across wide-open areas like prairies or barren plains can be deadly enough. Yet, the true nightmare is in rugged mountains or canyons, where these animals stalk silently and launch coordinated strikes from above, able to destroy a small group in moments.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Jackal Swarm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/JackalSwarm/overworld_e0.png",
+      "images/creature/JackalSwarm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/JackalSwarm/overworld_n0.png",
+      "images/creature/JackalSwarm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/JackalSwarm/overworld_s0.png",
+      "images/creature/JackalSwarm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/JackalSwarm/overworld_w0.png",
+      "images/creature/JackalSwarm/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 15,
+    "speed": 24
+  },
+  "trait": 2029
+}

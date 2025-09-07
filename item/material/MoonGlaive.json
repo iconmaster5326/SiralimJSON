@@ -1,0 +1,17 @@
+{
+  "condition": null,
+  "creator": null,
+  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRazorsharp:\nAfter this creature {ACTION_attacks}, it deals damage to a random enemy equal to 35% of the attack\u0027s damage, with a 40% chance to deal 100% of the attack\u0027s damage. This effect repeats once for each {RACE_Hunter} fighting on your side.",
+  "icon": "images/item/material/MoonGlaive.png",
+  "id": 521,
+  "name": "Moon Glaive",
+  "notes": [],
+  "slot": "trait",
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "stats": [],
+  "trait": 435
+}

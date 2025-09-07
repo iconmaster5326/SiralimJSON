@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ImpBishop/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 999,
+  "item": 1326,
+  "lore": "Some Imps come to live in towns and cities inhabited by humans and other intelligent species. There, a few find their way through the teachings of Surathli. The most fanatical among them are the Imp Bishops, whose purpose is spreading the word of Light. As expected, their people welcome them with open arms, arms that hold sacks of rotten fruit to throw at high speeds towards their faces.",
+  "menagerieDialog": [
+    "Got any more of them feel-goods?",
+    "We go visit Torun and spit on altar! Go now!",
+    "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
+    "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
+    "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
+  ],
+  "minDepth": 1,
+  "name": "Imp Bishop",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ImpBishop/overworld_e0.png",
+      "images/creature/ImpBishop/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ImpBishop/overworld_n0.png",
+      "images/creature/ImpBishop/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ImpBishop/overworld_s0.png",
+      "images/creature/ImpBishop/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ImpBishop/overworld_w0.png",
+      "images/creature/ImpBishop/overworld_w1.png"
+    ]
+  },
+  "race": "Imp",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Life Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 18,
+    "health": 28,
+    "intelligence": 28,
+    "speed": 18
+  },
+  "trait": 1572
+}

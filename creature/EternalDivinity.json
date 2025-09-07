@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/EternalDivinity/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 693,
+  "item": 803,
+  "lore": "The Eternal Divinity is the only being to whom other Demigods will bow to, even if reluctantly. This is partly because it was the last work of the Gods, the youngest brother as well as the epitome of perfection among its kind. It knows everything that has been and many of the things that will be. Its abilities are beyond mortal ken, and to defeat it is a pipe dream for everyone but a few.",
+  "menagerieDialog": [
+    "I will not waste my breath speaking with the likes of you.",
+    "Unleash me! Let us destroy our foes together as one.",
+    "There is much to be learned from this world. Do not take a single moment for granted.",
+    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+    "I grow restless. Let us take our leave at once."
+  ],
+  "minDepth": 1,
+  "name": "Eternal Divinity",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EternalDivinity/overworld_e0.png",
+      "images/creature/EternalDivinity/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EternalDivinity/overworld_n0.png",
+      "images/creature/EternalDivinity/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EternalDivinity/overworld_s0.png",
+      "images/creature/EternalDivinity/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EternalDivinity/overworld_w0.png",
+      "images/creature/EternalDivinity/overworld_w1.png"
+    ]
+  },
+  "race": "Demigod",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 15,
+    "health": 38,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 830
+}

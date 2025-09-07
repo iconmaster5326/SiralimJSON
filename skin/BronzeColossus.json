@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/BronzeColossus/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 697,
+  "name": "Bronze Colossus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/BronzeColossus/overworld_e0.png",
+      "images/skin/BronzeColossus/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/BronzeColossus/overworld_n0.png",
+      "images/skin/BronzeColossus/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/BronzeColossus/overworld_s0.png",
+      "images/skin/BronzeColossus/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/BronzeColossus/overworld_w0.png",
+      "images/skin/BronzeColossus/overworld_w1.png"
+    ]
+  },
+  "race": "Golem",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

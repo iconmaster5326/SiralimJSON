@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MarionetteMedium/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1329,
+  "item": 1825,
+  "lore": "In Rodia, buying a Marionette without a license from the local kingdom is considered illegal trafficking.\\n\\nPeople mistakenly think the Marionette Medium talks to spirits, but its real skill is piecing together information to sound like it\u0027s giving messages from beyond. Thanks to its intimidating presence, it\u0027s often hired as a bouncer in bars and clubs known for everything from minor scuffles to serious trouble.",
+  "menagerieDialog": [
+    "(It hangs limply, awaiting its next command.)",
+    "Pull my strings and watch me dance... a dance of death!",
+    "I may be controlled, but my mind is my own. Let me share my observations with you.",
+    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+  ],
+  "minDepth": 1,
+  "name": "Marionette Medium",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MarionetteMedium/overworld_e0.png",
+      "images/creature/MarionetteMedium/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MarionetteMedium/overworld_n0.png",
+      "images/creature/MarionetteMedium/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MarionetteMedium/overworld_s0.png",
+      "images/creature/MarionetteMedium/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MarionetteMedium/overworld_w0.png",
+      "images/creature/MarionetteMedium/overworld_w1.png"
+    ]
+  },
+  "race": "Marionette",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 2184
+}

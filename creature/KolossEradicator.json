@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/KolossEradicator/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 895,
+  "item": 981,
+  "lore": "The steel blade of a Koloss is always sharp, regardless of how many times it has seen battle. If a Koloss is blunt, it means the creature has died, either in battle or after its five years of life have come to an end.\\n\\nKoloss Eradicators are bloodthirsty warriors who show no mercy on the battlefield. They take the destruction of their enemies so seriously that they are unable to stop, even when the battle is lost. Interestingly, these creatures are calm and kind when not in battle, preferring to resolve conflicts by talking things out.",
+  "menagerieDialog": [
+    "You go away now. Me sleep soon.",
+    "We go and kill now. Together, right now?",
+    "(It\u0027s busy polishing its weapon for the next battle.)",
+    "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
+    "(You can see the veins through its semi-transparent skin. Interesting.)"
+  ],
+  "minDepth": 1,
+  "name": "Koloss Eradicator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KolossEradicator/overworld_e0.png",
+      "images/creature/KolossEradicator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KolossEradicator/overworld_n0.png",
+      "images/creature/KolossEradicator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KolossEradicator/overworld_s0.png",
+      "images/creature/KolossEradicator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KolossEradicator/overworld_w0.png",
+      "images/creature/KolossEradicator/overworld_w1.png"
+    ]
+  },
+  "race": "Koloss",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 42,
+    "intelligence": 12,
+    "speed": 12
+  },
+  "trait": 1157
+}

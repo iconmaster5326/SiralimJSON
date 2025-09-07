@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/AugmentedOssein/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 871,
+  "item": 998,
+  "lore": "Osseins were created to annihilate any creature in their path. However, Mortem\u0027s will prevents them from attacking the native species of the Titan\u0027s Wound.\\n\\nThe Augmented Ossein was to be a winged creature at first, but Mortem encountered serious difficulties in designing wings that would allow it to take flight. However, its appendages now allow it to hang itself from high ceilings and drop on its unsuspecting victims.",
+  "menagerieDialog": [
+    "(It\u0027s completely still. It must be sleeping.)",
+    "(It makes an oddly-satisfying crunching noise whenever it moves its limbs.)",
+    "HELLOOOOOOOOOOOOOOOO.\\n\\n(You were sure that only Giran talked this way, but apparently, this is just how Osseins communicate.)",
+    "(Its body is so hard and jagged that striking it with your bare fists would most certainly break your bones.)",
+    "(It often looks toward the sky, dumbounded. Perhaps you should try to summon a smarter Ossein next time around.)"
+  ],
+  "minDepth": 1,
+  "name": "Augmented Ossein",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AugmentedOssein/overworld_e0.png",
+      "images/creature/AugmentedOssein/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AugmentedOssein/overworld_n0.png",
+      "images/creature/AugmentedOssein/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AugmentedOssein/overworld_s0.png",
+      "images/creature/AugmentedOssein/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AugmentedOssein/overworld_w0.png",
+      "images/creature/AugmentedOssein/overworld_w1.png"
+    ]
+  },
+  "race": "Ossein",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    34
+  ],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 1138
+}

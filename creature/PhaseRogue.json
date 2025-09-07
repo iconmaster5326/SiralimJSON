@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PhaseRogue/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 649,
+  "item": 846,
+  "lore": "The Queen was running out of time. While the Phase Warriors invaded Omnia with Vanelin\u0027s and Andolin\u0027s forces, she appeared at the gates of Sigmund\u0027s castle and challenged him to single combat. The Queen lost her life but took half of the dark lord\u0027s jaw with her.\\n\\nDuring the siege of Siralim, a renowned criminal helped the royal guard protect the prince. He was the last one standing and managed to escape Sigmund with the child in his arms. But his shoulder had been pierced by a poisoned arrow.",
+  "menagerieDialog": [
+    "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
+    "(It\u0027s dancing and asking you to call it \u0022Dio\u0022. You are now questioning all your life choices.)",
+    "(It tries to impress you by moving random objects through its body.)",
+    "I am yours to command.",
+    "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
+  ],
+  "minDepth": 1,
+  "name": "Phase Rogue",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PhaseRogue/overworld_e0.png",
+      "images/creature/PhaseRogue/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PhaseRogue/overworld_n0.png",
+      "images/creature/PhaseRogue/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PhaseRogue/overworld_s0.png",
+      "images/creature/PhaseRogue/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PhaseRogue/overworld_w0.png",
+      "images/creature/PhaseRogue/overworld_w1.png"
+    ]
+  },
+  "race": "Phase Warrior",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 21,
+    "speed": 16
+  },
+  "trait": 873
+}

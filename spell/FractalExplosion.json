@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Afflicts 3 random enemies with {CONDNAME_DEBUFF_BOMB}.",
+  "god": null,
+  "id": 598,
+  "manuallyCastable": true,
+  "maxCharges": 12,
+  "name": "Fractal Explosion",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DEBUFF"
+  ],
+  "targets": "enemies"
+}

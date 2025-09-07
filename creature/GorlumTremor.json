@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GorlumTremor/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 697,
+  "item": 856,
+  "lore": "When the battle between Misery and the ruler of Siralim came to an end, this creature emerged from the throne room in the ruins of Caedo\u0027s castle, where they had fought their duel. This creature is visible even in the deepest darkness. The earth trembles constantly around it even when it is not moving. If it hits the ground with its hands, it can cause large-scale earthquakes that shake buildings miles away from where it is.",
+  "menagerieDialog": [
+    "(It seems to be infested with all manner of parasites. It\u0027s so care-free that it doesn\u0027t even groom itself!)",
+    "(This creature has propped itself up by its arms and is repeatedly slamming its torso into the ground in an attempt to start an earthquake. Real mature.)",
+    "(Despite its ultra-punchable face, this creature seems to be especially intelligent for a Tremor.)",
+    "(It\u0027s gazing upward at a nest of birds that have apparently decided to call its forehead home.)",
+    "(It\u0027s stomping down with its fists, one at a time. Annoying.)"
+  ],
+  "minDepth": 1,
+  "name": "Gorlum Tremor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GorlumTremor/overworld_e0.png",
+      "images/creature/GorlumTremor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GorlumTremor/overworld_n0.png",
+      "images/creature/GorlumTremor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GorlumTremor/overworld_s0.png",
+      "images/creature/GorlumTremor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GorlumTremor/overworld_w0.png",
+      "images/creature/GorlumTremor/overworld_w1.png"
+    ]
+  },
+  "race": "Tremor",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Anneltha)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 11,
+    "speed": 26
+  },
+  "trait": 883
+}

@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/ForsakenSwampdweller/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 331,
+  "item": 198,
+  "lore": "When the Forsaken and the Ghouls began to hunt the civilians of Omnia, there was a massive flight to the upper levels of the city. To protect the upper echelons, the city guard had a Minotaur Earthshaker destroy the last steps of the famous glass stairs. Hundreds of people lost their lives, and the women who were crushed became Swampdwellers. When they fight in a magic environment, they plant their tentacles on the ground to absorb the energy and strengthen themselves.",
+  "menagerieDialog": [
+    "Give... human... flesh...",
+    "Slurp... muscles... from... body...",
+    "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
+    "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
+    "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
+  ],
+  "minDepth": 1,
+  "name": "Forsaken Swampdweller",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ForsakenSwampdweller/overworld_e0.png",
+      "images/creature/ForsakenSwampdweller/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ForsakenSwampdweller/overworld_n0.png",
+      "images/creature/ForsakenSwampdweller/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ForsakenSwampdweller/overworld_s0.png",
+      "images/creature/ForsakenSwampdweller/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ForsakenSwampdweller/overworld_w0.png",
+      "images/creature/ForsakenSwampdweller/overworld_w1.png"
+    ]
+  },
+  "race": "Forsaken",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Alexandria)",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    16
+  ],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 23,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 108
+}

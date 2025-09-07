@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/OtherworldlyVisitor/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1122,
+  "item": 1642,
+  "lore": "During the years leading up to the Brownie Rebellion, some of them secretly tried to learn magic, although this was never their strong suit. The day this enslaved species took up arms, many performed a dangerous ritual with the purpose of merging into a single and powerful being. As expected, it didn\u0027t work out. A dimensional portal appeared above them and forcibly led them to another world. For centuries they remained in that place lost in time, with countless stars in the black velvet of its eternal night. Recently, two great Rodian Magi encountered these creatures and informed them not only that the Brownies were successful in their rebellion, but also that they were in Eternity\u0027s End, the realm ruled by Vertraag, God of Time. The failed ritual had changed them, and after so many generations they had learned to use a strange power based on the accumulation of gravity under their hoods. The two Magi led these creatures to Rodia, and most of them now live a simple life.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Otherworldly Visitor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OtherworldlyVisitor/overworld_e0.png",
+      "images/creature/OtherworldlyVisitor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OtherworldlyVisitor/overworld_n0.png",
+      "images/creature/OtherworldlyVisitor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OtherworldlyVisitor/overworld_s0.png",
+      "images/creature/OtherworldlyVisitor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OtherworldlyVisitor/overworld_w0.png",
+      "images/creature/OtherworldlyVisitor/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 18,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 1845
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AscendantRevenant/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 777,
+  "item": 1095,
+  "lore": "Ascendant Revenants never use melee weapons in battle. They are great engineers who learned to use gunpowder in a continent far from Rodia, as well as a real pain in the neck for the authorities. Although, luckily, they are few in number, these creatures cause so much damage that those who live to tell the tale always describe it as \u0022unfair.\u0022 Their enemies either explode or are cut down by the Revenant\u0027s companions while trying to tear the devices from their bodies. After the war ends, Rodia\u0027s council will make it a top priority to find a way to reduce the damage these contraptions cause in battle.",
+  "menagerieDialog": [
+    "It\u0027s a common misconception that all Revenants like to fight. I, for one, would prefer to lead a quiet life and dedicate myself to collecting minerals.",
+    "What\u0027s wrong? You look like a fish out of water.\\n\\nHA!",
+    "(Revenants hate when you call them \u0022fish people\u0022. Never make that mistake.)",
+    "I am not a fish. I am NOT. A FISH.\\n\\n(This is the most sensitive fish you\u0027ve ever met.)",
+    "(It smells like dead fish. Probably because that\u0027s exactly what it is.)"
+  ],
+  "minDepth": 1,
+  "name": "Ascendant Revenant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AscendantRevenant/overworld_e0.png",
+      "images/creature/AscendantRevenant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AscendantRevenant/overworld_n0.png",
+      "images/creature/AscendantRevenant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AscendantRevenant/overworld_s0.png",
+      "images/creature/AscendantRevenant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AscendantRevenant/overworld_w0.png",
+      "images/creature/AscendantRevenant/overworld_w1.png"
+    ]
+  },
+  "race": "Revenant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Life Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 25,
+    "health": 43,
+    "intelligence": 18,
+    "speed": 10
+  },
+  "trait": 1028
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/StagCelestial/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 584,
+  "item": 683,
+  "lore": "The activation of ten Nether Orbs at once transformed part of Rodia\u0027s fauna, granting it magical powers.\\n\\nThe Stag Celestial is a good example of this phenomenon: its former predators are now its prey, which has significantly altered its ecosystem. Now, they roam freely around the country, attacking anything even vaguely related to magic.",
+  "menagerieDialog": [
+    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Stag Celestial",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StagCelestial/overworld_e0.png",
+      "images/creature/StagCelestial/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StagCelestial/overworld_n0.png",
+      "images/creature/StagCelestial/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StagCelestial/overworld_s0.png",
+      "images/creature/StagCelestial/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StagCelestial/overworld_w0.png",
+      "images/creature/StagCelestial/overworld_w1.png"
+    ]
+  },
+  "race": "Stag",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 37,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 621
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DenizenGemini/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1465,
+  "item": 1834,
+  "lore": "Two beings forever linked by fate and cursed to never part. One seeks peace, the other thrives on conflict. Legends warn that if they ever move in sync, the tides will defy the moon and the seas will lie calm. Their dance is fierce, exacting, and wildly unpredictable.",
+  "menagerieDialog": [
+    "(It clicks its jaws twice, then stares through you like a dying fish.)",
+    "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
+    "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
+    "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
+    "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it\u00E2\u20AC\u2122s yawning or threatening you.)"
+  ],
+  "minDepth": 1,
+  "name": "Denizen Gemini",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DenizenGemini/overworld_e0.png",
+      "images/creature/DenizenGemini/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DenizenGemini/overworld_n0.png",
+      "images/creature/DenizenGemini/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DenizenGemini/overworld_s0.png",
+      "images/creature/DenizenGemini/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DenizenGemini/overworld_w0.png",
+      "images/creature/DenizenGemini/overworld_w1.png"
+    ]
+  },
+  "race": "Denizen",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 2178
+}

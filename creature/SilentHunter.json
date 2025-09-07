@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SilentHunter/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 662,
+  "item": 830,
+  "lore": "Due to unknown circumstances, some groups of Hunters become evil and travel Rodia while committing misdeeds. At the head of such groups there is always a Silent Hunter, an individual that carries no religious item, which leads scholars of non-human societies to believe they do not profess any faith. They are extremely cruel and bloodthirsty, and often plunder small villages and towns at night, stealing everything they can carry and murdering the inhabitants in cold blood.",
+  "menagerieDialog": [
+    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+    "(It\u0027s busy feeding bits of meat to its wolf.)",
+    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+  ],
+  "minDepth": 1,
+  "name": "Silent Hunter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SilentHunter/overworld_e0.png",
+      "images/creature/SilentHunter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SilentHunter/overworld_n0.png",
+      "images/creature/SilentHunter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SilentHunter/overworld_s0.png",
+      "images/creature/SilentHunter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SilentHunter/overworld_w0.png",
+      "images/creature/SilentHunter/overworld_w1.png"
+    ]
+  },
+  "race": "Hunter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 10,
+    "health": 25,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 857
+}

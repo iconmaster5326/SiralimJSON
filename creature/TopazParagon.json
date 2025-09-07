@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/TopazParagon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 10,
+  "item": 136,
+  "lore": "A Paragon\u0027s weak point is its face, as the rest of its body is made of diamond and extremely difficult to pierce. The pieces of diamond that fall from them transform into sand when they hit the ground.\\n\\nThe Topaz Paragon is a restless, adventurous creature. It is curious about the world, its history and its traditions, and never stays in the same place for long. It is also against the indiscriminate use of magic, and one of them leads an important movement in Ahruna to restrict its use.",
+  "menagerieDialog": [
+    "Your Eminence, please allow me to rest for a bit. It\u0027s been a long day.",
+    "We must constantly re-evaluate our battle strategies to ensure that our foes can never get the best of us.",
+    "Everett is a liar. Don\u0027t say I didn\u0027t warn you.",
+    "Two Paragons make a King Paragon. Two King Paragons make a Gold Paragon. Two Gold Paragons make a Grandpa Paragon.\\n\\nWait, what?",
+    "Something is amiss. I cannot say what is wrong for certain, but I am unable to shake this feeling of dread."
+  ],
+  "minDepth": 1,
+  "name": "Topaz Paragon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TopazParagon/overworld_e0.png",
+      "images/creature/TopazParagon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TopazParagon/overworld_n0.png",
+      "images/creature/TopazParagon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TopazParagon/overworld_s0.png",
+      "images/creature/TopazParagon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TopazParagon/overworld_w0.png",
+      "images/creature/TopazParagon/overworld_w1.png"
+    ]
+  },
+  "race": "Paragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 7,
+    "defense": 24,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 24
+  },
+  "trait": 46
+}

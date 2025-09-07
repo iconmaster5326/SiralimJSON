@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/GromMet/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1108,
+  "item": 1491,
+  "lore": "When criminals started visiting the Amalgam Gardens, T\u0027mere M\u0027rgo decided to create Grom\u0027Met so he could help him give life to the creatures who would defend his realm. He is very talkative and a prankster, and he gets along well with the God of Fusion, although sometimes he can be too much for T\u0027mere, who asks him to shut up. He sometimes goes too far with his pranks as well\u00E2\u20AC\u201Dfor example, he once played dead after fighting a bunch of criminals. T\u0027mere knew perfectly well that he was alive, but did not find it amusing and stopped talking to him for two weeks.",
+  "menagerieDialog": [
+    "(The large jewel on its front glimmers with calm translucence.)",
+    "(The large jewel on its front sparkles radiantly. You can sense its eagerness to fight.)",
+    "(The large jewel on its front oscillates back and forth slowly, much like an eyeball observing its surroundings.)",
+    "(The large jewel on its front is dull. Perhaps it needs to rest before fighting again.)",
+    "(The large jewel on its front rapidly flickers from red to violet. It seems to be agitated about something. Perhaps it is tired of waiting on you.)"
+  ],
+  "minDepth": 1,
+  "name": "Grom\u0027Met",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GromMet/overworld_e0.png",
+      "images/creature/GromMet/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GromMet/overworld_n0.png",
+      "images/creature/GromMet/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GromMet/overworld_s0.png",
+      "images/creature/GromMet/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GromMet/overworld_w0.png",
+      "images/creature/GromMet/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    701,
+    702
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1796
+}

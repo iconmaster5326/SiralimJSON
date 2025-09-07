@@ -1,0 +1,46 @@
+{
+  "bossDialog": [
+    "(A playful, almost child-like giggle sounds around the room as a gelatinous creature rises from the treasure. It approaches, smiling and with open arms... backed by some rather malicious-looking friends!)",
+    "(You hear a sound from above and quickly step out of the way as something slimy lands on the cavern floor with a loud splat. The Slime soon reshapes itself and advances upon you and your creatures!)",
+    "Geehehehehe... you play? Play me! Big fun! Gehehehehehe!"
+  ],
+  "cardBonuses": {
+    "2": "Enemies that are {CONDNAME_DEBUFF_CONFUSED} have a 10% greater chance to {ACTION_attack} their allies.",
+    "5": "Enemies that are {CONDNAME_DEBUFF_CONFUSED} have a 10% greater chance to {ACTION_cast} harmful spells on their allies.",
+    "8": "After an enemy\u0027s {CONDNAME_DEBUFF_CONFUSED} debuff activates, the duration of this debuff increases by 1."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    541,
+    618,
+    638
+  ],
+  "icon": "images/race/Slime.png",
+  "master": {
+    "costume": 390,
+    "dialog": "Slimes are generous little creatures who like to share their boons with their friends. They\u0027re also great at provoking enemies - just look at how punchable their faces are!\\n\\nLet\u0027s have ourselves a duel, shall we?",
+    "item": 1202,
+    "name": "Slippy",
+    "trait": 1493
+  },
+  "name": "Slime",
+  "notes": [],
+  "skins": [
+    40,
+    41,
+    42,
+    213,
+    445,
+    500,
+    544,
+    693
+  ]
+}

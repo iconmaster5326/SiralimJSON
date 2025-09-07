@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WhitestarGemling/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 939,
+  "item": 934,
+  "lore": "After the exodus of the Carbuncles, an entire era would pass until humans found a method to replicate the gems on their foreheads. Gemlings feel a special affinity for Carbuncles and a deep hatred towards humans.\\n\\nWhen the Sapphire Carbuncle appeared in the Temple of Lies, Aurum admired it for a few seconds and decided to create the Whitestar Gemling. Unlike other Gemlings, the Whitestar has a certain self-awareness and is not guided by just instinct alone. Its goal is for Carbuncles to reclaim their place in the world, and its abilities allow it to summon any Carbuncle or Gemling that is less than a mile away.",
+  "menagerieDialog": [
+    "(It glows softly.)",
+    "(It begins to vibrate violently as you draw closer to it.)",
+    "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
+    "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
+    "(It twirls around in circles, giving you a good look at just how polished it is.)"
+  ],
+  "minDepth": 1,
+  "name": "Whitestar Gemling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WhitestarGemling/overworld_e0.png",
+      "images/creature/WhitestarGemling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WhitestarGemling/overworld_n0.png",
+      "images/creature/WhitestarGemling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WhitestarGemling/overworld_s0.png",
+      "images/creature/WhitestarGemling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WhitestarGemling/overworld_w0.png",
+      "images/creature/WhitestarGemling/overworld_w1.png"
+    ]
+  },
+  "race": "Gemling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Aurum)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 11,
+    "defense": 20,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 20
+  },
+  "trait": 1194
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ApisGuardian/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 366,
+  "item": 151,
+  "lore": "When the Watchers invaded Kaito, the Sphinxes tried desperately to defend the empire. Their last attempt to repel the attack involved modifying the Apis so that they could add their strength to the battle.\\n\\nIt is believed that Guardians can perceive the evil intentions of other creatures through their eye of providence. Some kings believed this myth and welcomed those they should not, as their eye only perceives such intentions when they involve immediate violence.",
+  "menagerieDialog": [
+    "(It yawns and turns away from you.)",
+    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+    "(Upon your approach, it licks your hand over and over and over again. True love.)",
+    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+  ],
+  "minDepth": 1,
+  "name": "Apis Guardian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ApisGuardian/overworld_e0.png",
+      "images/creature/ApisGuardian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ApisGuardian/overworld_n0.png",
+      "images/creature/ApisGuardian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ApisGuardian/overworld_s0.png",
+      "images/creature/ApisGuardian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ApisGuardian/overworld_w0.png",
+      "images/creature/ApisGuardian/overworld_w1.png"
+    ]
+  },
+  "race": "Apis",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 26,
+    "intelligence": 11,
+    "speed": 21
+  },
+  "trait": 61
+}

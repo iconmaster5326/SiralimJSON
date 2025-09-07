@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(A loud bellow and the thunder of hooves herald the charge of a very angry Apis; one who seems to have brought its friends to attack you!)",
+    "(The Apis lowers its head and scrapes its hooves on the ground as you approach, as an obvious warning. You\u0027ll have to defeat it to get the treasure.)",
+    "(Your magical senses feel a surge of energy - the only warning you get before one of your creatures pushes you out of the path of a charging Apis!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures with {CONDNAME_BUFF_PROTECT} take 10% less damage.",
+    "5": "Your creatures with {CONDNAME_BUFF_PROTECT} take 10% less damage.",
+    "8": "Your creatures with {CONDNAME_BUFF_PROTECT} have a 5% chance to avoid damage from attacks and spells."
+  },
+  "cards": 8,
+  "class": "life",
+  "creator": null,
+  "creatures": [
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    606,
+    782
+  ],
+  "icon": "images/race/Apis.png",
+  "master": {
+    "costume": 296,
+    "dialog": "Apises are formidable in both offense and defense, making them some of the toughest creatures you\u0027ll find. Let\u0027s have a quick duel so you can experience what I\u0027m talking about first-hand!",
+    "item": 1177,
+    "name": "Hashir",
+    "trait": 1397
+  },
+  "name": "Apis",
+  "notes": [],
+  "skins": [
+    258,
+    315,
+    387,
+    629
+  ]
+}

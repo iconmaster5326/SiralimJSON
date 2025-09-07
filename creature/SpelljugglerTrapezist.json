@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SpelljugglerTrapezist/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1307,
+  "item": 1814,
+  "lore": "The Spelljugglers are a mercenary group that will join any cause as long as the reward is right.\\n\\nThe Spelljuggler Trapezists specialize in trickery, but they reserve these skills for shady organizations. Thanks to their powers, they can unlock hidden potential in their allies\u0027 minds, abilities that would normally stay dormant.",
+  "menagerieDialog": [
+    "(It\u0027s lazily floating a single spell orb above its palm.)",
+    "Watch as I juggle their lives away!",
+    "I know spells that would make your head spin... literally!",
+    "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
+    "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
+  ],
+  "minDepth": 1,
+  "name": "Spelljuggler Trapezist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SpelljugglerTrapezist/overworld_e0.png",
+      "images/creature/SpelljugglerTrapezist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SpelljugglerTrapezist/overworld_n0.png",
+      "images/creature/SpelljugglerTrapezist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SpelljugglerTrapezist/overworld_s0.png",
+      "images/creature/SpelljugglerTrapezist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SpelljugglerTrapezist/overworld_w0.png",
+      "images/creature/SpelljugglerTrapezist/overworld_w1.png"
+    ]
+  },
+  "race": "Spelljuggler",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 2167
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AcediaSin/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 400,
+  "item": 264,
+  "lore": "Thanks to the research that was done at the Refuge of the Magi, Zonte\u0027s team discovered that there are other ways of creating these beings.\\n\\nWhen the Acedia Sin is attacked, the feathers on its hands shine with a faint blue glow, producing an unbearable drowsiness that severely weakens its enemies. Idlers are its preferred target, and if it finds them asleep, it will place its feathers on top of their bodies so that they never wake up again.",
+  "menagerieDialog": [
+    "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
+    "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
+    "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
+    "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
+    "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
+  ],
+  "minDepth": 1,
+  "name": "Acedia Sin",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AcediaSin/overworld_e0.png",
+      "images/creature/AcediaSin/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AcediaSin/overworld_n0.png",
+      "images/creature/AcediaSin/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AcediaSin/overworld_s0.png",
+      "images/creature/AcediaSin/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AcediaSin/overworld_w0.png",
+      "images/creature/AcediaSin/overworld_w1.png"
+    ]
+  },
+  "race": "Sin",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 174
+}

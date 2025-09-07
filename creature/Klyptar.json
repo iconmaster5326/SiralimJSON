@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Klyptar/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1352,
+  "item": 1773,
+  "lore": "Some Robodomi go into energy-saving mode, standing still and silent for hours. But even in this state, they can still share information. This is thanks to the Klyptar, which act as flawless receivers and transmitters between these synthetic beings, no matter how far apart they are.",
+  "menagerieDialog": [
+    "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
+    "Extermination protocols activated. Targets acquired.",
+    "My processors can calculate a million strategies per second. How may I assist you?",
+    "Shields at maximum. No damage can penetrate my defenses.",
+    "System overclocked. Operating at 250% efficiency."
+  ],
+  "minDepth": 1,
+  "name": "Klyptar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Klyptar/overworld_e0.png",
+      "images/creature/Klyptar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Klyptar/overworld_n0.png",
+      "images/creature/Klyptar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Klyptar/overworld_s0.png",
+      "images/creature/Klyptar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Klyptar/overworld_w0.png",
+      "images/creature/Klyptar/overworld_w1.png"
+    ]
+  },
+  "race": "Robodomi",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 2126
+}

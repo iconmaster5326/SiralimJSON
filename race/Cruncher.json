@@ -1,0 +1,38 @@
+{
+  "bossDialog": [
+    "(The Cruncher seems to have found this treasure hoard before you, and is currently making a lavish meal of it! You\u0027ll have to act now if there\u0027s going to be any left to take!)",
+    "(What you thought was a tremendously large gemstone among the treasure suddenly sprouts limbs and a rather grumpy-looking beaked face, and emits a low growl while staring right at you!)",
+    "(You approach the treasure, but notice that there seem to be several bite-shaped chunks missing. You spot a large turtle nearby ambling towards you, magical \u0022crumbs\u0022 around its beak!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures deal 3% more damage to enemies for each Sealed Spell Gem the enemy has.",
+    "4": "Your creatures take 3% less damage for each Sealed Spell Gem the enemy has.",
+    "6": "Doubles the potency of these effects."
+  },
+  "cards": 6,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    940,
+    941,
+    942,
+    943,
+    944,
+    945
+  ],
+  "icon": "images/race/Cruncher.png",
+  "master": {
+    "costume": 316,
+    "dialog": "Crunchers like to eat Spell Gems. That\u0027s bad news for your creatures who rely on casting spells rather than using standard attacks. Think you\u0027ve got what it takes to beat me?",
+    "item": 1282,
+    "name": "Dimos",
+    "trait": 1417
+  },
+  "name": "Cruncher",
+  "notes": [],
+  "skins": [
+    12,
+    217,
+    452
+  ]
+}

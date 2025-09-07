@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HeavenshieldConstruct/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 763,
+  "item": 67,
+  "lore": "A few wealthy citizens have already acquired one or more of these creatures to dispense with the services of butlers, as they require no salary.\\n\\nThe Heavenshield Construct can open its armor and let a creature close to its size inside. In this way, these creatures have managed to save thousands of civilians and wounded soldiers during Siralim\u0027s attacks by moving them to a safe place. Ilberd has not ruled out having different sizes of these Constructs built in the near future.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Heavenshield Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HeavenshieldConstruct/overworld_e0.png",
+      "images/creature/HeavenshieldConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HeavenshieldConstruct/overworld_n0.png",
+      "images/creature/HeavenshieldConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HeavenshieldConstruct/overworld_s0.png",
+      "images/creature/HeavenshieldConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HeavenshieldConstruct/overworld_w0.png",
+      "images/creature/HeavenshieldConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 22,
+    "health": 27,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1010
+}

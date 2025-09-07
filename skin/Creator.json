@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Creator/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 262,
+  "name": "Creator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Creator/overworld_e0.png",
+      "images/skin/Creator/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Creator/overworld_n0.png",
+      "images/skin/Creator/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Creator/overworld_s0.png",
+      "images/skin/Creator/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Creator/overworld_w0.png",
+      "images/skin/Creator/overworld_w1.png"
+    ]
+  },
+  "race": "Demigod",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

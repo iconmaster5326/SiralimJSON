@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(Swirling clouds of gas coalesce around several nearby creatures. In a stumbling and drugged haze, they join the Smog in attacking you!)",
+    "(The Smog immediately begins attempting to flood the room with deadly gas. You weave a protective spell and signal your creatures to attack!)",
+    "(You smell toxins in the air, and quickly drink an antidote you had on hand. The source of the gas, clearly frustrated, appears and attacks!)"
+  ],
+  "cardBonuses": {
+    "3": "Enemies take 15% more damage from {CONDNAME_DEBUFF_POISON}.",
+    "6": "Increases the amount of {STAT_attack} added to the {CONDNAME_DEBUFF_POISON} debuffs your creatures apply by 50%.",
+    "9": "Enemies\u0027 {CONDNAME_DEBUFF_POISON} debuff lasts forever."
+  },
+  "cards": 9,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    704,
+    786,
+    975
+  ],
+  "icon": "images/race/Smog.png",
+  "master": {
+    "costume": 392,
+    "dialog": "There\u0027s no way it\u0027s healthy for me to be around these Smogs all the time, but alas, I am the Master of Smogs and that is my fate. For your sake, I hope your creatures can hold their breaths long enough to make it through this battle!",
+    "item": 1215,
+    "name": "Menos",
+    "trait": 1495
+  },
+  "name": "Smog",
+  "notes": [],
+  "skins": [
+    437,
+    438,
+    776
+  ]
+}

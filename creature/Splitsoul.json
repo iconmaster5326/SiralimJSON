@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Splitsoul/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1309,
+  "item": 1685,
+  "lore": "Many fighters go to war torn between duty and regret\u00E2\u20AC\u201Dwanting to defend their home but sorrowful over the lives they took. Though death claimed them through magic and steel, their spirits linger as lost souls chasing the justice they were denied. Splitsouls are often seen wandering roads traveled by bandits and killers, ever watchful and willing to protect those in peril.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Splitsoul",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Splitsoul/overworld_e0.png",
+      "images/creature/Splitsoul/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Splitsoul/overworld_n0.png",
+      "images/creature/Splitsoul/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Splitsoul/overworld_s0.png",
+      "images/creature/Splitsoul/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Splitsoul/overworld_w0.png",
+      "images/creature/Splitsoul/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 25,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 2027
+}

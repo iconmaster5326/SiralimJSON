@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Increases the duration of enemies\u0027 {CONDNAME_DEBUFF_BURNED} and {CONDNAME_DEBUFF_POISON} debuffs by 3 turns and increases their potency by 50%.",
+  "god": null,
+  "id": 498,
+  "manuallyCastable": true,
+  "maxCharges": 9,
+  "name": "Devastation",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "enemies"
+}

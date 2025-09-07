@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Gemstone/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 699,
+  "name": "Gemstone",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Gemstone/overworld_e0.png",
+      "images/skin/Gemstone/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Gemstone/overworld_n0.png",
+      "images/skin/Gemstone/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Gemstone/overworld_s0.png",
+      "images/skin/Gemstone/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Gemstone/overworld_w0.png",
+      "images/skin/Gemstone/overworld_w1.png"
+    ]
+  },
+  "race": "Golem",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

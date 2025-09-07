@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Clingslime/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1471,
+  "item": 1726,
+  "lore": "This living slime sticks firmly to any surface or creature it touches, wrapping it in a sticky purple layer. Though it can detach at will, its goo continues to drain the victim\u0027s energy slowly. The shells of these creatures shimmer with a rainbow glow, and in some cities, they\u0027ve recently become trendy as lighting fixtures in gambling dens.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Clingslime",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Clingslime/overworld_e0.png",
+      "images/creature/Clingslime/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Clingslime/overworld_n0.png",
+      "images/creature/Clingslime/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Clingslime/overworld_s0.png",
+      "images/creature/Clingslime/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Clingslime/overworld_w0.png",
+      "images/creature/Clingslime/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 18
+  },
+  "trait": 2068
+}

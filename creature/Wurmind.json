@@ -1,0 +1,51 @@
+{
+  "battleSprite": "images/creature/Wurmind/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1362,
+  "item": null,
+  "lore": "The young of the Mindwurm are deceptively powerful, despite their small size. Using their telekinetic powers, they carve tunnels through the earth, saving their sharp fangs for when it\u0027s time to take down their enemies. Before gaining too much mass, they can soar through the air with ease, hunting from both above and below.",
+  "menagerieDialog": [
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+  ],
+  "minDepth": 1,
+  "name": "Wurmind",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Wurmind/overworld_e0.png",
+      "images/creature/Wurmind/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Wurmind/overworld_n0.png",
+      "images/creature/Wurmind/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Wurmind/overworld_s0.png",
+      "images/creature/Wurmind/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Wurmind/overworld_w0.png",
+      "images/creature/Wurmind/overworld_w1.png"
+    ]
+  },
+  "race": "False Godspawn",
+  "reserved": true,
+  "skins": [],
+  "sources": [],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 2098
+}

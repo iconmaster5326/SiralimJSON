@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(A huge ruffle of loose feathers and dust fly into the air as the Harpy tries to create a distraction. Wise to its tricks, your creatures intercept the attack!)",
+    "(Giving you an unnervingly sadistic look, the Harpy ruffles up its feathers and issues a shrill battle cry before diving head first at you!)",
+    "(The Harpy immediately starts shrieking at the top of its lungs as soon as it spots you. Your creatures immediately move forward to shut it up.)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_BLIND} deal 10% less damage.",
+    "5": "Enemies with {CONDNAME_DEBUFF_BLIND} take 10% more damage.",
+    "8": "Enemies\u0027 {CONDNAME_DEBUFF_BLIND} debuff lasts forever."
+  },
+  "cards": 8,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    634,
+    988
+  ],
+  "icon": "images/race/Harpy.png",
+  "master": {
+    "costume": 344,
+    "dialog": "Harpies are nasty little creatures that take great satisfaction in plucking the eyes out of their enemies\u0027 skulls... usually, while their foes are still alive. Got time for a quick duel?",
+    "item": 1248,
+    "name": "Jerky",
+    "trait": 1445
+  },
+  "name": "Harpy",
+  "notes": [],
+  "skins": [
+    29,
+    269,
+    703
+  ]
+}

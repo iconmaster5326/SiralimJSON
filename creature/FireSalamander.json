@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/FireSalamander/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 596,
+  "item": 718,
+  "lore": "The Nether Orbs that helped an old ruler of Siralim attain godhood also granted the Salamanders extraordinary magic abilities.\\n\\nFire Salamanders like to make their nests in the Great Pandemonium. They can walk on lava without harm, so they generally lay their eggs on islets surrounded by this dangerous substance. If a flying creature tries to approach, the Fire Salamander spits fire at it to knock it down, where it dies to the heat of the magma. Vulcanar quickly became an admirer of these creatures.",
+  "menagerieDialog": [
+    "(Your magical items grow warmer in its presence.)",
+    "(It just bit off its own tail. It\u0027ll grow back though, right?)",
+    "(It blinks immediately after you do. Every. Single. Time.)",
+    "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
+    "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
+  ],
+  "minDepth": 1,
+  "name": "Fire Salamander",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FireSalamander/overworld_e0.png",
+      "images/creature/FireSalamander/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FireSalamander/overworld_n0.png",
+      "images/creature/FireSalamander/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FireSalamander/overworld_s0.png",
+      "images/creature/FireSalamander/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FireSalamander/overworld_w0.png",
+      "images/creature/FireSalamander/overworld_w1.png"
+    ]
+  },
+  "race": "Salamander",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 12,
+    "health": 29,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 657
+}

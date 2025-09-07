@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TreatImling/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 752,
+  "item": 75,
+  "lore": "Two hundred years ago, an Imling scientist tried to prove that it is possible to resurrect the dead even after a few minutes have passed. With great care and skill, she reconstructed the body of an Imler and managed to make it move, but she soon understood that her creation was completely mindless. Far from giving up, she decided that her machine, at least, would follow her orders. After establishing a mental link with the core of the system that allowed the Imler to move, she presented it to the public. Her work was poorly received, and she was exiled. The Imlings finally accepted her contribution years later, though she died of old age shortly after that. At present, some scientists of this species specialize in creating these beings and are known as Treat Imlings.",
+  "menagerieDialog": [
+    "(It seems to have scribbled something on the floor. Upon closer insepction, you realize it says, \u0027I\u0027m sleepy, let me rest.\u0027)",
+    "(It draws something on a scroll and hands it to you. It\u0027s a picture of a creature being slammed to death by an Imler. That\u0027s most definitely the first sign of a serial killer in the making.)",
+    "(This particular creature is extremely introverted, which is a rarity for Imlings.)",
+    "(It\u0027s busy drawing a picture on a scroll. Upon further inspection, you realize it\u0027s a lewd picture of Hebron\u0027s mother.)",
+    "(The Imling is holding up its middle finger and waving it in front of your other creatures. Grow up, Imling.)"
+  ],
+  "minDepth": 1,
+  "name": "Treat Imling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TreatImling/overworld_e0.png",
+      "images/creature/TreatImling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TreatImling/overworld_n0.png",
+      "images/creature/TreatImling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TreatImling/overworld_s0.png",
+      "images/creature/TreatImling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TreatImling/overworld_w0.png",
+      "images/creature/TreatImling/overworld_w1.png"
+    ]
+  },
+  "race": "Imling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Sorcery Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 11,
+    "health": 32,
+    "intelligence": 26,
+    "speed": 26
+  },
+  "trait": 999
+}

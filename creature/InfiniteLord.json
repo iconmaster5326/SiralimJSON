@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/InfiniteLord/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 297,
+  "item": 111,
+  "lore": "Despite their divine qualities Demigods need to sleep, which, according to them, is because of the tedium of being surrounded by inferior creatures.\\n\\nThe Infinite Lord likes to boast of its power when a strong rival wishes to face it, then let them think they have defeated it. When their expression of joy reaches its climax, the Infinite Lord gets up, undamaged and pushes its opponent against a wall to watch their smile become a grimace.",
+  "menagerieDialog": [
+    "I will not waste my breath speaking with the likes of you.",
+    "Unleash me! Let us destroy our foes together as one.",
+    "There is much to be learned from this world. Do not take a single moment for granted.",
+    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+    "I grow restless. Let us take our leave at once."
+  ],
+  "minDepth": 1,
+  "name": "Infinite Lord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/InfiniteLord/overworld_e0.png",
+      "images/creature/InfiniteLord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/InfiniteLord/overworld_n0.png",
+      "images/creature/InfiniteLord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/InfiniteLord/overworld_s0.png",
+      "images/creature/InfiniteLord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/InfiniteLord/overworld_w0.png",
+      "images/creature/InfiniteLord/overworld_w1.png"
+    ]
+  },
+  "race": "Demigod",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 20
+}

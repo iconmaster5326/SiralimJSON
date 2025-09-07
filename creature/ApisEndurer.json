@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ApisEndurer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 365,
+  "item": 152,
+  "lore": "At first, the Apis were gentle creatures that would never harm a living being. If they were in danger, their only coping strategy was escaping.\\n\\nAs the Apis Endurer gets hurt, its skin becomes more and more resilient until even the strength of a Giant fails to damage it. For this reason, many warriors raise these creatures from a young age so that they can ride them when they reach maturity.",
+  "menagerieDialog": [
+    "(It yawns and turns away from you.)",
+    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+    "(Upon your approach, it licks your hand over and over and over again. True love.)",
+    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+  ],
+  "minDepth": 1,
+  "name": "Apis Endurer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ApisEndurer/overworld_e0.png",
+      "images/creature/ApisEndurer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ApisEndurer/overworld_n0.png",
+      "images/creature/ApisEndurer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ApisEndurer/overworld_s0.png",
+      "images/creature/ApisEndurer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ApisEndurer/overworld_w0.png",
+      "images/creature/ApisEndurer/overworld_w1.png"
+    ]
+  },
+  "race": "Apis",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 20,
+    "health": 33,
+    "intelligence": 13,
+    "speed": 20
+  },
+  "trait": 62
+}

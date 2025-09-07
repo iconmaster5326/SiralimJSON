@@ -1,0 +1,39 @@
+{
+  "bossDialog": [
+    "(One of the Cerberus\u0027s heads starts barking, and another one seems to start barking back at the other head. You take advantage of its confusion to attack!)",
+    "(The Cerberus growls while chewing on a particularly large bone. It charges at you, no doubt thinking you want to steal its dinner!)",
+    "(The chained beast rises as you approach, howling loudly from all three heads. The noise attracts the owners of the treasure hoard!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures\u0027 {CLASS_Chaos} spells deal 10% more damage.",
+    "4": "Your creatures\u0027 damaging {CLASS_Chaos} spells ignore 10% of their enemies\u0027 {STAT_defense}.",
+    "7": "Your creatures\u0027 {CLASS_Chaos} spells have 10% additional {STAT_charges}."
+  },
+  "cards": 7,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    452,
+    453,
+    454,
+    455,
+    456,
+    457,
+    612
+  ],
+  "icon": "images/race/Cerberus.png",
+  "master": {
+    "costume": 312,
+    "dialog": "Cerberuses... Cerberi? Hmmm.\\n\\nAnyway, my creatures may not be able to cast spells through traditional means, but that doesn\u0027t mean they can\u0027t make use of their Spell Gems for other purposes. Allow me to demonstrate!",
+    "item": 1167,
+    "name": "Yash",
+    "trait": 1413
+  },
+  "name": "Cerberus",
+  "notes": [],
+  "skins": [
+    25,
+    280,
+    646
+  ]
+}

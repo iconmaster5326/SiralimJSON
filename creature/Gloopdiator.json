@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Gloopdiator/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 911,
+  "item": 961,
+  "lore": "Venedon spent hundreds of years trying to bring the Concoctions to life, but given his lack of scientific knowledge, these creatures are quite simple-looking.\\n\\nIt is plain to see that the Gloopdiator knows very well what it is doing. It employs elaborate tactics such as feints in battle, and it learns from its own mistakes. One of its favorite strategies is to trick its opponents with its shield, intentionally leaving an opening so the enemy causes a direct wound to its body. Then, the Gloopdiator strikes its enemy\u0027s head, dropping its mace on their skull.",
+  "menagerieDialog": [
+    "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
+    "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
+    "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
+    "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
+    "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
+  ],
+  "minDepth": 1,
+  "name": "Gloopdiator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Gloopdiator/overworld_e0.png",
+      "images/creature/Gloopdiator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Gloopdiator/overworld_n0.png",
+      "images/creature/Gloopdiator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Gloopdiator/overworld_s0.png",
+      "images/creature/Gloopdiator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Gloopdiator/overworld_w0.png",
+      "images/creature/Gloopdiator/overworld_w1.png"
+    ]
+  },
+  "race": "Concoction",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 19,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 22,
+    "health": 34,
+    "intelligence": 22,
+    "speed": 12
+  },
+  "trait": 1173
+}

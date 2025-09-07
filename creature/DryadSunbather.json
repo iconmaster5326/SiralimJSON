@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DryadSunbather/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 785,
+  "item": 11,
+  "lore": "When Calkins taught the Dryads to carry a sprout of their oaks so they could travel greater distances, there were some that moved away from the forests and jungles in search of the radiant sun. Those that reached the coasts kept their purpose, but the strong heat gradually changed them as generations passed, until they became Dryad Sunbathers. These creatures\u0027 whispers force whoever hears them to obey their commands, although they don\u0027t affect those with a strong will.",
+  "menagerieDialog": [
+    "More and more forests are destroyed each year; your kind should be more careful.",
+    "I will show the world what it means to disrespect nature.",
+    "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
+    "I sometimes miss the forest. Can we return there for a visit one day?",
+    "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
+  ],
+  "minDepth": 1,
+  "name": "Dryad Sunbather",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DryadSunbather/overworld_e0.png",
+      "images/creature/DryadSunbather/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DryadSunbather/overworld_n0.png",
+      "images/creature/DryadSunbather/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DryadSunbather/overworld_s0.png",
+      "images/creature/DryadSunbather/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DryadSunbather/overworld_w0.png",
+      "images/creature/DryadSunbather/overworld_w1.png"
+    ]
+  },
+  "race": "Dryad",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 28,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 1030
+}

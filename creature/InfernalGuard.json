@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/InfernalGuard/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 227,
+  "item": 317,
+  "lore": "Taylor always examined and questioned the criminals before they were sent to the Torture Chamber. If they were skilled in combat, he offered them the option of joining his guard. The ruler used a complex ritual to transform those who accepted, inflicting severe brain damage to turn them into servants with no will of their own; hefty warriors who had lost every vestige of what they once were.",
+  "menagerieDialog": [
+    "Huff...\\n\\n(Why does it look so tired?)",
+    "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
+    "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
+    "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
+    "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
+  ],
+  "minDepth": 1,
+  "name": "Infernal Guard",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/InfernalGuard/overworld_e0.png",
+      "images/creature/InfernalGuard/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/InfernalGuard/overworld_n0.png",
+      "images/creature/InfernalGuard/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/InfernalGuard/overworld_s0.png",
+      "images/creature/InfernalGuard/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/InfernalGuard/overworld_w0.png",
+      "images/creature/InfernalGuard/overworld_w1.png"
+    ]
+  },
+  "race": "Doomguard",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 11,
+    "defense": 26,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 233
+}

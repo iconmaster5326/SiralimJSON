@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Adaxial/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1104,
+  "item": 1484,
+  "lore": "Adaxial is Alexandria\u0027s right hand, in charge of creating Clockworks and ensuring Damarel\u0027s machinery works properly. Alexandria spent forty years designing and building this creature, and he is very proud of the result. Unlike Clockworks, the sound of the gears turning inside Adaxial is imperceptible to human ears. Adaxial is so attuned to the God of Falsity\u0027s realm that it can detect any problems in its machinery in a sixty mile radius.",
+  "menagerieDialog": [
+    "(Its scissors are dull, but it doesn\u0027t seem to care. Perhaps some good old fashioned discipline is in order for this creature.)",
+    "(It\u0027s busy sharpening its scissors, blatantly ignoring your presence.)",
+    "No, I don\u0027t give free haircuts. What a funny joke. I\u0027ve never heard that one before.",
+    "(It\u0027s cutting a piece of parchment into the shape of something phallic.)",
+    "Do you always dawdle mindlessly around the castle, or is today just my unlucky day?"
+  ],
+  "minDepth": 1,
+  "name": "Adaxial",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Adaxial/overworld_e0.png",
+      "images/creature/Adaxial/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Adaxial/overworld_n0.png",
+      "images/creature/Adaxial/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Adaxial/overworld_s0.png",
+      "images/creature/Adaxial/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Adaxial/overworld_w0.png",
+      "images/creature/Adaxial/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    619,
+    620
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1792
+}

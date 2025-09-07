@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "sorcery",
+  "creator": null,
+  "description": "Target is afflicted with {CONDNAME_DEBUFF_BURNED}, and all other enemies are afflicted with either {CONDNAME_DEBUFF_BLIND} or {CONDNAME_DEBUFF_BLIGHT}.",
+  "god": null,
+  "id": 575,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Foxfire",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DEBUFF"
+  ],
+  "targets": "one"
+}

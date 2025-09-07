@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/IncendiarySmog/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 975,
+  "item": 1302,
+  "lore": "This creature continuously expels fire, and can produce flames of up to fifteen feet in length. If surrounded, it spins rapidly and blasts fire at full power to drive its enemies away. It prefers to wander through dry places where vegetation is scarce. Although this is fortunate for Rodia\u0027s forests and crops, Incendiary Smogs attack merchant caravans even when they are at a disadvantage, generally causing substantial losses before being subdued if not detected early.",
+  "menagerieDialog": [
+    "(It\u0027s spinning in place while mumbling its name over and over again.)",
+    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+  ],
+  "minDepth": 1,
+  "name": "Incendiary Smog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/IncendiarySmog/overworld_e0.png",
+      "images/creature/IncendiarySmog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/IncendiarySmog/overworld_n0.png",
+      "images/creature/IncendiarySmog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/IncendiarySmog/overworld_s0.png",
+      "images/creature/IncendiarySmog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/IncendiarySmog/overworld_w0.png",
+      "images/creature/IncendiarySmog/overworld_w1.png"
+    ]
+  },
+  "race": "Smog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Chaos Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 1549
+}

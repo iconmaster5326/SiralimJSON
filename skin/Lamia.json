@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Lamia/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 109,
+  "name": "Lamia",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Lamia/overworld_e0.png",
+      "images/skin/Lamia/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Lamia/overworld_n0.png",
+      "images/skin/Lamia/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Lamia/overworld_s0.png",
+      "images/skin/Lamia/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Lamia/overworld_w0.png",
+      "images/skin/Lamia/overworld_w1.png"
+    ]
+  },
+  "race": "Gorgon",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

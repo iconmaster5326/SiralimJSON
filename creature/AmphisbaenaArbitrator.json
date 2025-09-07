@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/AmphisbaenaArbitrator/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 803,
+  "item": 1062,
+  "lore": "In the heyday of Omnian civilization, the capital\u0027s Institute of Magical Research, under Sigmund\u0027s orders, brought to life extraordinary creatures named Amphisbaena to improve the quality of life of the kingdom\u0027s inhabitants.\\n\\nSome Amphisbaena were born with an innate ability to resolve conflicts. Their greatest purpose is believed to have been to serve the kingdom for diplomatic purposes, but there is no evidence to confirm this theory. Many became psychologists at schools, large companies, unions or in their own offices. However, the best known and most beloved of their community were the Amphisbaena Arbitrators, thanks to their flawless performance and tireless fight for their rights.",
+  "menagerieDialog": [
+    "It is an honor to fight by your side, {PLAYERNAME}.",
+    "After having fought so much, I\u0027ve come to appreciate the art of war.",
+    "We may have two heads, but we think as one. We are a single being, and each of our brains is like a single hemisphere of your own.",
+    "You should consider memorizing a few spells for when you\u0027re in a pinch. What good is a {CURRENTSPEC} if they can\u0027t fight their own battles?",
+    "I dislike fighting, though I must admit that I am quite good at it."
+  ],
+  "minDepth": 1,
+  "name": "Amphisbaena Arbitrator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AmphisbaenaArbitrator/overworld_e0.png",
+      "images/creature/AmphisbaenaArbitrator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AmphisbaenaArbitrator/overworld_n0.png",
+      "images/creature/AmphisbaenaArbitrator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AmphisbaenaArbitrator/overworld_s0.png",
+      "images/creature/AmphisbaenaArbitrator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AmphisbaenaArbitrator/overworld_w0.png",
+      "images/creature/AmphisbaenaArbitrator/overworld_w1.png"
+    ]
+  },
+  "race": "Amphisbaena",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    },
+    {
+      "realm": 13,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1067
+}

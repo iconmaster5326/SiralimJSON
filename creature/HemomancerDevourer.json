@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HemomancerDevourer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 865,
+  "item": 1005,
+  "lore": "Hexilo and River were two great Magi who clashed for more than a decade. When they were recruited by the Auditors, they gave up their old plans and their rivalry to serve a common goal. Over the years, they forged a solid friendship, though not one without derision and sarcasm.\\n\\nThrough the veins of the Hemomancers, executors of Mortem, the Titan\u0027s blood runs... as well as the God\u0027s. The Hemomancer Devourer only feeds on the blood of other creatures, and in doing so it can sift through the memories of the creature from which it has fed.",
+  "menagerieDialog": [
+    "(You can tell by the cool and calculated look on its face that it\u0027s hatching a new, sinister scheme.)",
+    "There\u0027s no time to waste - let\u0027s go.",
+    "(It\u0027s pouring blood back and forth between two vials. Interesting hobby.)",
+    "(It stares at you in silence, refusing to say anything. How stubborn!)",
+    "What am I doing? The same thing I do every night, {PLAYERNAME}. Trying to take over the world!"
+  ],
+  "minDepth": 1,
+  "name": "Hemomancer Devourer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HemomancerDevourer/overworld_e0.png",
+      "images/creature/HemomancerDevourer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HemomancerDevourer/overworld_n0.png",
+      "images/creature/HemomancerDevourer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HemomancerDevourer/overworld_s0.png",
+      "images/creature/HemomancerDevourer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HemomancerDevourer/overworld_w0.png",
+      "images/creature/HemomancerDevourer/overworld_w1.png"
+    ]
+  },
+  "race": "Hemomancer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Mortem)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 14,
+    "health": 34,
+    "intelligence": 14,
+    "speed": 19
+  },
+  "trait": 1133
+}

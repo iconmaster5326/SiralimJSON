@@ -1,0 +1,53 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "nature",
+  "creator": null,
+  "description": "Target recovers a small amount of {STAT_health} and gains {STAT_intelligence}  equal to 100% of the amount healed.",
+  "god": null,
+  "id": 733,
+  "manuallyCastable": true,
+  "maxCharges": 12,
+  "name": "Giggle",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "HEAL",
+    "BOOST"
+  ],
+  "targets": "one"
+}

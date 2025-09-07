@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Aurum/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": 20,
+  "id": 950,
+  "item": null,
+  "lore": "With the passage of ages, the cycle of life inexorably led to the natural deaths of thousands and thousands of Carbuncles. When a Carbuncle dies, its body becomes dust, but the gem on its forehead remains intact, retaining its power for centuries. Most of these gems ended up becoming food for the Crunchers, but many remained hidden. As if it were their fate, one by one they met and merged until, two thousand years later, they became a self-aware being. Aurum is faithfully devoted to order, and he loves feeling like the supreme being of his own world. He is the manifestation of pure magic, and is not affected by legends, hopes or faith. After the ruler of Siralim first met this God, one of their advisors raised the possibility that Vertraag had planned the existence of this deity from the beginning, since his mere presence seems to have a crucial role in the stability of the world.",
+  "menagerieDialog": [
+    "Get on your knees and bow down.",
+    "Your castle could use a bit more gold and jewels in it, don\u0027t you think?",
+    "Make sure you keep your Spell Gems nice and polished. Dull ones aren\u0027t anywhere near as potent as freshly shined ones.",
+    "I will aid you for only as long as our partnership continues to benefit me.",
+    "No one will bow down to you until you assert your power. To be a king or queen requires a ruthless attitude."
+  ],
+  "minDepth": 1,
+  "name": "Aurum",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Aurum/overworld_e0.png",
+      "images/creature/Aurum/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Aurum/overworld_n0.png",
+      "images/creature/Aurum/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Aurum/overworld_s0.png",
+      "images/creature/Aurum/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Aurum/overworld_w0.png",
+      "images/creature/Aurum/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    353,
+    398
+  ],
+  "sources": [
+    {
+      "god": 20,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 19,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 19
+  },
+  "trait": 1236
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/CentaurWrangler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 550,
+  "item": 729,
+  "lore": "Like Duelists, their fighting style is not as rudimentary as that of the Warrior and requires different skills. When a battle begins, Centaur Wranglers quickly identify the most skilled warriors on the other side and disarm them with precise snaps of their whips. They are in charge of keeping the rhythm of the marches with cracks of their whips, to make sure the sleeping Centaurs keep going in the same direction.",
+  "menagerieDialog": [
+    "Free me at once.",
+    "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
+    "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
+    "Let us leave here and conquer new lands together!",
+    "I am under a great deal of stress. A few battles should help me relax."
+  ],
+  "minDepth": 1,
+  "name": "Centaur Wrangler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CentaurWrangler/overworld_e0.png",
+      "images/creature/CentaurWrangler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CentaurWrangler/overworld_n0.png",
+      "images/creature/CentaurWrangler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CentaurWrangler/overworld_s0.png",
+      "images/creature/CentaurWrangler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CentaurWrangler/overworld_w0.png",
+      "images/creature/CentaurWrangler/overworld_w1.png"
+    ]
+  },
+  "race": "Centaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 668
+}

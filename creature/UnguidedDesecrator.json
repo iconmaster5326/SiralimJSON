@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UnguidedDesecrator/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 906,
+  "item": 968,
+  "lore": "From the Unguided\u0027s point of view, entering Sanctum Umbra is a serious transgression that must be punished with death. However, death is not the only sentence these creatures carry out. Sometimes it is enough to simply hang the offender upside down from a tree for three days, or to gently place them on the top of a snowy mountain.\\n\\nThe Unguided Desecrator only inflicts physical punishment, which generally means crushing the limbs of its victims under the weight of its powerful legs.",
+  "menagerieDialog": [
+    "(You can\u0027t help but admire the brilliance of its appearance.)",
+    "(It watches you carefully, obediently waiting for your next command.)",
+    "(This creature emanates an aura of pure evil. You\u0027re fortunate to have such strong control over it, lest it could wreak havoc on your kingdom.)",
+    "I will make my own decisions in battle. You need only sit back and enjoy the show.",
+    "(This creature has an annoying habit of breaking its chair when it\u0027s unhappy. Perhaps a few days of standing will help it change its ways.)"
+  ],
+  "minDepth": 1,
+  "name": "Unguided Desecrator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnguidedDesecrator/overworld_e0.png",
+      "images/creature/UnguidedDesecrator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnguidedDesecrator/overworld_n0.png",
+      "images/creature/UnguidedDesecrator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnguidedDesecrator/overworld_s0.png",
+      "images/creature/UnguidedDesecrator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnguidedDesecrator/overworld_w0.png",
+      "images/creature/UnguidedDesecrator/overworld_w1.png"
+    ]
+  },
+  "race": "Unguided",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Perdition)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 33,
+    "intelligence": 21,
+    "speed": 11
+  },
+  "trait": 1168
+}

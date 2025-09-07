@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DjinnIllusionist/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 68,
+  "item": 440,
+  "lore": "Djinn owners realized too late that these creatures twisted their words as much as possible to grant wishes that caused some damage.\\n\\nWhen a Djinn Illusionist touches a magic item, it steals its energy and stores it for itself. In this way, it can make others see things that are not really there, playing with their emotions and thoughts to manipulate them and make them distrust their friends and colleagues.",
+  "menagerieDialog": [
+    "Make a wish. The only rule is that you can\u0027t wish for more wishes.",
+    "The most powerful weapon is deceit. You\u0027d do well to remember that.",
+    "I don\u0027t trust Everett. I think it\u0027s because his haircut is terrible.",
+    "Make a wish, then blow out the fire on my head.",
+    "Your creatures would be nothing without my support. You\u0027re welcome."
+  ],
+  "minDepth": 1,
+  "name": "Djinn Illusionist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DjinnIllusionist/overworld_e0.png",
+      "images/creature/DjinnIllusionist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DjinnIllusionist/overworld_n0.png",
+      "images/creature/DjinnIllusionist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DjinnIllusionist/overworld_s0.png",
+      "images/creature/DjinnIllusionist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DjinnIllusionist/overworld_w0.png",
+      "images/creature/DjinnIllusionist/overworld_w1.png"
+    ]
+  },
+  "race": "Djinn",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 13,
+    "health": 36,
+    "intelligence": 28,
+    "speed": 18
+  },
+  "trait": 355
+}

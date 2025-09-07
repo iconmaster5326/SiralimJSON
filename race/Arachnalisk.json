@@ -1,0 +1,39 @@
+{
+  "bossDialog": [
+    "(An Arachnalisk descends on a line of silk and quickly skitters at you, claws raised. Your creatures move to intercept it!)",
+    "(Chittering, you hear a snapping noise and look up to see an Arachnalisk cutting some webbed creatures free. As they panic and begin to attack you, it joins the fray!)",
+    "(Your foot snags on something sticky as you approach the treasure hoard. Noticing webs elsewhere in the room, you barely have time to cut yourself free before their weaver pounces!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_SNARED} have a 10% lower chance to break free.",
+    "5": "Enemies with {CONDNAME_DEBUFF_SNARED} deal 20% less damage.",
+    "8": "Enemies with {CONDNAME_DEBUFF_SNARED} have a 10% lower chance to break free."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    617,
+    1000
+  ],
+  "icon": "images/race/Arachnalisk.png",
+  "master": {
+    "costume": 298,
+    "dialog": "Arachnalisks prefer to ensnare their opponents before poisoning them, watching as their foes suffer long and painful deaths.\\n\\nBut anyway, how are you doing today? Care for a duel?",
+    "item": 1189,
+    "name": "Jimeous",
+    "trait": 1399
+  },
+  "name": "Arachnalisk",
+  "notes": [],
+  "skins": [
+    225,
+    227
+  ]
+}

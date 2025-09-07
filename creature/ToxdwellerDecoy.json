@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ToxdwellerDecoy/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 925,
+  "item": 951,
+  "lore": "In Mikhail\u0027s continent, technology evolved at a much faster speed, which resulted in the creation of, among other things, devastating weapons more advanced than anything that could be conceived in the nations where magic was a reality. In the end, one such weapon destroyed all civilization on the other side of the Veil, after Mikhail had joined the Auditors.\\n\\nThe body of the Toxdweller Decoy is covered with a fiber that absorbs the toxic fluids it encounters.",
+  "menagerieDialog": [
+    "(It\u0027s staring thoughtfully at a bomb.)",
+    "(It never blinks. Ever. It\u0027s very creepy.)",
+    "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
+    "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
+    "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
+  ],
+  "minDepth": 1,
+  "name": "Toxdweller Decoy",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ToxdwellerDecoy/overworld_e0.png",
+      "images/creature/ToxdwellerDecoy/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ToxdwellerDecoy/overworld_n0.png",
+      "images/creature/ToxdwellerDecoy/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ToxdwellerDecoy/overworld_s0.png",
+      "images/creature/ToxdwellerDecoy/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ToxdwellerDecoy/overworld_w0.png",
+      "images/creature/ToxdwellerDecoy/overworld_w1.png"
+    ]
+  },
+  "race": "Toxdweller",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Venedon)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 16,
+    "health": 28,
+    "intelligence": 21,
+    "speed": 26
+  },
+  "trait": 1187
+}

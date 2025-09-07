@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WaspidInfiltrator/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 538,
+  "item": 601,
+  "lore": "Contrary to popular belief, most Waspids are not aggressive and only attack in self-defense. In fact, like wasps, they are the natural predators of other creatures that harm agricultural activities.\\n\\nWhen Waspids detect the presence of another hive near their territory, a fierce battle for resources begins. Waspid Infiltrators are extremely fast, and they wait for the bulk of the army to get all the attention before quickly entering the enemy hive and assassinating the queen.",
+  "menagerieDialog": [
+    "(It\u0027s lazing around, buzzing its wings every so often to let your other creatures know it\u0027s still alive.)",
+    "(It buzzes around impatiently as if to wonder what\u0027s taking you so long to finish your business here.)",
+    "(It buzzes around your head which causes you to freeze in place until it gets bored and leaves you alone.)",
+    "(In truth, the Waspid race serves no purpose to the greater good of Rodia. They are an angry, mean, and selfish race that live only for themselves. And to sting people.)",
+    "(It\u0027s rapidly buzzing its wings to try to shake off the dirt and debris it picked up in the last realm you visited.)"
+  ],
+  "minDepth": 1,
+  "name": "Waspid Infiltrator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WaspidInfiltrator/overworld_e0.png",
+      "images/creature/WaspidInfiltrator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WaspidInfiltrator/overworld_n0.png",
+      "images/creature/WaspidInfiltrator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WaspidInfiltrator/overworld_s0.png",
+      "images/creature/WaspidInfiltrator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WaspidInfiltrator/overworld_w0.png",
+      "images/creature/WaspidInfiltrator/overworld_w1.png"
+    ]
+  },
+  "race": "Waspid",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Reclusa)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 26,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 515
+}

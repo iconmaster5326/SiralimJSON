@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Erebyss/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": 1,
+  "id": 729,
+  "item": null,
+  "lore": "Vertraag and Erebyss had lived together in Arcadia for centuries. Faced with the threat of the God of Darkness, Vertraag convinced him to attack Erebyss first, saying she was the weakest. He lied. The armies of Angels and demons devastated Arcadia in a battle that claimed thousands of lives, until Erebyss realized there was only one way to defeat her foe. She let him pierce her skull with his sword, then used her full power to absorb the God\u0027s darkness, which spread through Erebyss and her realm. Vertraag appeared before a different Erebyss. She looked drained. \u0022Why did you not help me?\u0022 she asked. \u0022There can be no light without darkness,\u0022 he replied.",
+  "menagerieDialog": [
+    "Would you care to hear a story? It\u0027s about the time a young child lost her parents to the hands of a murderer.\\n\\nOh, you\u0027ve heard that one already? Sorry.",
+    "We should travel to the Path of the Damned next. How crazy would it be for me to talk to the real Erebyss?",
+    "Happiness is but a fleeting emotion not worth pursuing.",
+    "I hate drama. I\u0027m so above it all.",
+    "I am glad to see that your kingdom is thriving. Right now, {CASTLENAME} is the most prosperous I\u0027ve ever seen it."
+  ],
+  "minDepth": 1,
+  "name": "Erebyss",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Erebyss/overworld_e0.png",
+      "images/creature/Erebyss/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Erebyss/overworld_n0.png",
+      "images/creature/Erebyss/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Erebyss/overworld_s0.png",
+      "images/creature/Erebyss/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Erebyss/overworld_w0.png",
+      "images/creature/Erebyss/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    356,
+    401,
+    419
+  ],
+  "sources": [
+    {
+      "god": 1,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 611
+}

@@ -1,0 +1,43 @@
+{
+  "bossDialog": [
+    "(Reacting to the ambient, magical energy around you, the Watcher charges forward with an angry look in its eye!)",
+    "(You are very well aware of the threat this creature poses from the history classes you had when growing up. Staying on guard, you order your creatures to attack!)",
+    "(You feel like the creature before you is gazing right into your soul. Your creatures barely deflect it in time as it suddenly lunches forward, attempting to bite you!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 15% less damage from attacks from {CLASS_Sorcery} creatures.",
+    "5": "Your creatures take 15% less damage from attacks from {CLASS_Sorcery} creatures.",
+    "8": "Your creatures take 15% less damage from attacks from {CLASS_Sorcery} creatures."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    679,
+    791
+  ],
+  "icon": "images/race/Watcher.png",
+  "master": {
+    "costume": 410,
+    "dialog": "Watchers are intelligent creatures that excel at capitalizing on their opponents\u0027 weaknesses. On top of that, they look really cool. Sorry, but I just don\u0027t see a world where you can defeat me.",
+    "item": 1172,
+    "name": "Seuzan",
+    "trait": 1514
+  },
+  "name": "Watcher",
+  "notes": [],
+  "skins": [
+    44,
+    223,
+    344,
+    798,
+    799,
+    832
+  ]
+}

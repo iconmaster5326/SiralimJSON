@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Genbu/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1263,
+  "item": 1449,
+  "lore": "In the northernmost mountains of Rodia, which border the Bronze Sea, lives a unique creature called Genbu. At first glance, it may look like a snake going through a turtle, but the truth is they are a single body, and in fact, the snake has no consciousness and is controlled entirely by the turtle\u0027s brain. To hunt prey, it hides both of its heads within its shell, making it look like a rock. Depending on the prey, one head or another will emerge, the fastest and weakest creatures being eaten by the snake, and the slowest and strongest ones by the tortoise.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Genbu",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Genbu/overworld_e0.png",
+      "images/creature/Genbu/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Genbu/overworld_n0.png",
+      "images/creature/Genbu/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Genbu/overworld_s0.png",
+      "images/creature/Genbu/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Genbu/overworld_w0.png",
+      "images/creature/Genbu/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1757
+}

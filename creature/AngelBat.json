@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AngelBat/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 998,
+  "item": 1325,
+  "lore": "This creature sleeps at night and goes hunting when the sunlight begins to appear on the horizon. It usually inhabits cold places and migrates when the warm season arrives, if the temperature is not low enough for snow, as they sleep and nest in rocky crags covered with snow to hide from predators, only sticking their heads out.",
+  "menagerieDialog": [
+    "(It gently nuzzles you, which is quite discomforting considering it\u0027s a Bat.)",
+    "(It tries to nip at anyone who gets too close, including you. So moody!)",
+    "(Everett claims this creature can read, which cements your opinion that he is extremely weird.)",
+    "(It moves just a little too fast for your liking. It\u0027s unsettling.)",
+    "(It\u0027s fiddling with a piece of lint it stole from your pocket earlier.)"
+  ],
+  "minDepth": 1,
+  "name": "Angel Bat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AngelBat/overworld_e0.png",
+      "images/creature/AngelBat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AngelBat/overworld_n0.png",
+      "images/creature/AngelBat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AngelBat/overworld_s0.png",
+      "images/creature/AngelBat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AngelBat/overworld_w0.png",
+      "images/creature/AngelBat/overworld_w1.png"
+    ]
+  },
+  "race": "Bat",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Life Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 27,
+    "intelligence": 17,
+    "speed": 27
+  },
+  "trait": 1571
+}

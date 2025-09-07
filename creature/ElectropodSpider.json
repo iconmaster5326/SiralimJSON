@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ElectropodSpider/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1081,
+  "item": 1521,
+  "lore": "Constructs are nothing new on the continent, but the machinery that gives life to all the others is simpler than that of the Electropods, and requires maintenance from time to time.\\n\\nThe sound produced by the legs of the Spider Electropod when it moves easily give away its presence. However, this creature can produce a synthetic silk with which it can hang and attack without being heard.",
+  "menagerieDialog": [
+    "(Something about this creature reminds you of an old toy you used to play with as a child.)",
+    "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
+    "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff\u00E2\u20AC\u00A6",
+    "(This creature has one and only one weakness: being dropped into a tub of water.)",
+    "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
+  ],
+  "minDepth": 1,
+  "name": "Electropod Spider",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ElectropodSpider/overworld_e0.png",
+      "images/creature/ElectropodSpider/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ElectropodSpider/overworld_n0.png",
+      "images/creature/ElectropodSpider/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ElectropodSpider/overworld_s0.png",
+      "images/creature/ElectropodSpider/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ElectropodSpider/overworld_w0.png",
+      "images/creature/ElectropodSpider/overworld_w1.png"
+    ]
+  },
+  "race": "Electropod",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 1829
+}

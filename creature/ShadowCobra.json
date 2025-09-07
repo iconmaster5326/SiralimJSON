@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ShadowCobra/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 840,
+  "item": 1029,
+  "lore": "There once was a smart young man who decided to play with shadows. His project was an ambitious one; his talent, engraved in his blood.\\n\\nLike other animal Shadows, the Shadow Cobra has kept its instincts, but is now much more dangerous due to its large size. That\u0027s why they are a precious asset for adventurers and thugs, as they are easy to train for battle.",
+  "menagerieDialog": [
+    "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
+    "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
+    "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
+    "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
+    "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
+  ],
+  "minDepth": 1,
+  "name": "Shadow Cobra",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ShadowCobra/overworld_e0.png",
+      "images/creature/ShadowCobra/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ShadowCobra/overworld_n0.png",
+      "images/creature/ShadowCobra/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ShadowCobra/overworld_s0.png",
+      "images/creature/ShadowCobra/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ShadowCobra/overworld_w0.png",
+      "images/creature/ShadowCobra/overworld_w1.png"
+    ]
+  },
+  "race": "Shadow",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 12,
+    "health": 27,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 1109
+}

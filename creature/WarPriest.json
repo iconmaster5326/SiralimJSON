@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/WarPriest/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 327,
+  "item": 116,
+  "lore": "Overwhelmed by the conflicts that were taking place all over the world, Lister decided to give life to the Priests. But Gonfurian knew Yseros\u0027s plans. After all, the birth of a God did not go unnoticed. And while Lister used his power liberally to create his first children, the God of War corrupted one of them. The Priest of War tried to thwart the plans of its brothers, spreading discord where the other Priests had spread peace.",
+  "menagerieDialog": [
+    "(It\u0027s doing what it does best - standing still.)",
+    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+  ],
+  "minDepth": 1,
+  "name": "War Priest",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WarPriest/overworld_e0.png",
+      "images/creature/WarPriest/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WarPriest/overworld_n0.png",
+      "images/creature/WarPriest/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WarPriest/overworld_s0.png",
+      "images/creature/WarPriest/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WarPriest/overworld_w0.png",
+      "images/creature/WarPriest/overworld_w1.png"
+    ]
+  },
+  "race": "Priest",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 25
+}

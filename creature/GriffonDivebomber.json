@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/GriffonDivebomber/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 386,
+  "item": 179,
+  "lore": "Although Griffons cannot speak like humans and other creatures, they are very intelligent and form societies of their own.\\n\\nAny heavy object is a weapon for the Griffon Divebombers, and they always carry some with them. They fly above their enemies during battle, taking advantage of any distractions their allies create to drop something on their heads.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers.)",
+    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Griffon Divebomber",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GriffonDivebomber/overworld_e0.png",
+      "images/creature/GriffonDivebomber/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GriffonDivebomber/overworld_n0.png",
+      "images/creature/GriffonDivebomber/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GriffonDivebomber/overworld_s0.png",
+      "images/creature/GriffonDivebomber/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GriffonDivebomber/overworld_w0.png",
+      "images/creature/GriffonDivebomber/overworld_w1.png"
+    ]
+  },
+  "race": "Griffon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 26,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 89
+}

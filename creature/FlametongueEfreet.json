@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/FlametongueEfreet/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 625,
+  "item": 421,
+  "lore": "The Efreets were born from the fire and lava of the Great Pandemonium through the work of Vulcanar and several Magi. Unlike Djinns, these creatures are not ambitious and never betray their owners, although they are quite mischievous.\\n\\nThe Flametongue Efreet\u0027s control over fire is such that it can alter its properties, so that instead of burning a creature it fills it with vigor and energy.",
+  "menagerieDialog": [
+    "Death to the Djinns!",
+    "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
+    "You can catch just about anything on fire if you set your mind to it, really.",
+    "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
+    "Fire solves everything. If you need me to take care of someone for you, just say the word."
+  ],
+  "minDepth": 1,
+  "name": "Flametongue Efreet",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FlametongueEfreet/overworld_e0.png",
+      "images/creature/FlametongueEfreet/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FlametongueEfreet/overworld_n0.png",
+      "images/creature/FlametongueEfreet/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FlametongueEfreet/overworld_s0.png",
+      "images/creature/FlametongueEfreet/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FlametongueEfreet/overworld_w0.png",
+      "images/creature/FlametongueEfreet/overworld_w1.png"
+    ]
+  },
+  "race": "Efreet",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 34,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 336
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/InfiniteEggling/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1142,
+  "item": 1662,
+  "lore": "It all started with an ambitious Avion rider who did not respect the rules, and an unscrupulous Mage who only cared about gold. The result was a creature that never quite hatched from the egg. In fact, the eggshell itself is part of its body, which functions as a carapace of sorts. This creature tries to imitate Avion, but is rejected by them and only interacts with others of its kind.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Infinite Eggling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/InfiniteEggling/overworld_e0.png",
+      "images/creature/InfiniteEggling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/InfiniteEggling/overworld_n0.png",
+      "images/creature/InfiniteEggling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/InfiniteEggling/overworld_s0.png",
+      "images/creature/InfiniteEggling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/InfiniteEggling/overworld_w0.png",
+      "images/creature/InfiniteEggling/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 10,
+    "defense": 18,
+    "health": 30,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 1865
+}

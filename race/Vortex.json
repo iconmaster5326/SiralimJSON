@@ -1,0 +1,42 @@
+{
+  "bossDialog": [
+    "(An almost imperceptible ripple on the air near the treasure hoard rouses your suspicions. You cast a vision spell to make out what it is, but it reacts to the use of magical energy and attacks!)",
+    "(You recognize a whirling Vortex guarding the treasure. As you approach it begins to intensify, growing larger and whirling ever faster - you\u0027ll have to destroy it before it builds up to lethal speed!)",
+    "(Your skin tingles as you hear a loud electrical crackling sound - soon enough a Vortex coalesces itself in front of you and your monsters, ready to do battle!)"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures take 15% less damage from {CLASS_Sorcery} spells.",
+    "6": "Your creatures take 15% less damage from {CLASS_Sorcery} spells.",
+    "9": "Your creatures take 15% less damage from {CLASS_Sorcery} spells."
+  },
+  "cards": 9,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    708,
+    790,
+    1010
+  ],
+  "icon": "images/race/Vortex.png",
+  "master": {
+    "costume": 407,
+    "dialog": "Vortexes... no, Vortices... no... I don\u0027t know. Anyway, these creatures are the ultimate disruptors. Just when you think you\u0027ve got your battle strategy all figured out, my creatures will foil your plans. Perhaps a demonstration is in order - let\u0027s fight!",
+    "item": 1191,
+    "name": "Breeze",
+    "trait": 1511
+  },
+  "name": "Vortex",
+  "notes": [],
+  "skins": [
+    117,
+    345,
+    540,
+    793
+  ]
+}

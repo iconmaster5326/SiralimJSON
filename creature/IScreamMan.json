@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/IScreamMan/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1475,
+  "item": 1730,
+  "lore": "No one knows where he gets his ice cream, but he always has one ready to offer. He smiles like he knows something you don\u0027t, and he probably does. A research team from the Magic University of Neralim studied the spoon he always carries and found it to be an ordinary kitchen utensil. He claims his flavors never repeat... but beware, eating too much can erase your memories.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "I Scream Man",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/IScreamMan/overworld_e0.png",
+      "images/creature/IScreamMan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/IScreamMan/overworld_n0.png",
+      "images/creature/IScreamMan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/IScreamMan/overworld_s0.png",
+      "images/creature/IScreamMan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/IScreamMan/overworld_w0.png",
+      "images/creature/IScreamMan/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 32,
+    "intelligence": 25,
+    "speed": 18
+  },
+  "trait": 2072
+}

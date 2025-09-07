@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/LucanianIlluminator/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1285,
+  "item": 1799,
+  "lore": "Lucanians are known for drinking large quantities of alcohol and can get quite upset if they arrive at a tavern only to find it runs out of stock.\\n\\nThe Lucanian Illuminator can create highly realistic light illusions, and some even work in the entertainment industry in major cities or as nomadic performers traveling from town to town. However, the light they create can become tangible, allowing them to inflict real damage on their enemies.",
+  "menagerieDialog": [
+    "(It\u0027s curled up, smoke gently rising from its nostrils as it rests.)",
+    "My draconic blood burns for battle! Let us hunt!",
+    "The ancient wisdom of dragons flows through my veins. What would you like to learn?",
+    "My scales are forged from the heart of mountains. None shall pass!",
+    "(It\u0027s flexing its wings restlessly, eager to take flight.)"
+  ],
+  "minDepth": 1,
+  "name": "Lucanian Illuminator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LucanianIlluminator/overworld_e0.png",
+      "images/creature/LucanianIlluminator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LucanianIlluminator/overworld_n0.png",
+      "images/creature/LucanianIlluminator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LucanianIlluminator/overworld_s0.png",
+      "images/creature/LucanianIlluminator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LucanianIlluminator/overworld_w0.png",
+      "images/creature/LucanianIlluminator/overworld_w1.png"
+    ]
+  },
+  "race": "Lucanian",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 28,
+    "speed": 14
+  },
+  "trait": 2152
+}

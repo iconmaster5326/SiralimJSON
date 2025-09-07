@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "A random debuff is removed from random allies continuously. After each ally loses a debuff, this spell has a 50% chance to end.",
+  "god": null,
+  "id": 724,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Holy Water",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "allies"
+}

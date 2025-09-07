@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NecroGrimoire/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 448,
+  "item": 491,
+  "lore": "Grimoires can be used by humans and other creatures who can use magic to cast the spells they contain.\\n\\nThere was once a Mage in the Columbia Tower who secretly compiled a series of dangerous curses in one of the Grimoires. That must have attracted the attention of Apollinaire and awoken it from its slumber, as it ripped half of the Necro Grimoire\u0027s pages before leaving the tower.",
+  "menagerieDialog": [
+    "Read any good books lately?",
+    "I shall wreak havoc upon my enemies via a thousand papercuts!",
+    "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
+    "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
+    "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
+  ],
+  "minDepth": 1,
+  "name": "Necro Grimoire",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NecroGrimoire/overworld_e0.png",
+      "images/creature/NecroGrimoire/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NecroGrimoire/overworld_n0.png",
+      "images/creature/NecroGrimoire/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NecroGrimoire/overworld_s0.png",
+      "images/creature/NecroGrimoire/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NecroGrimoire/overworld_w0.png",
+      "images/creature/NecroGrimoire/overworld_w1.png"
+    ]
+  },
+  "race": "Grimoire",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 17,
+    "health": 27,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 405
+}

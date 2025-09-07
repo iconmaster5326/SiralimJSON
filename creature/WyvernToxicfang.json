@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WyvernToxicfang/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 682,
+  "item": 810,
+  "lore": "The Wyvern Toxicfang is such a rare specimen that for a long time it was considered a legend. It rarely moves during the day, and it never attacks prey directly. Instead, it deposits the poison it produces in strategic places in the forest, waiting for a creature to step on it or lick it by mistake. Animals such as badgers or owls are instantly paralyzed and die within a few seconds. The existence of this creature became known after a Flamehook Pilwiz started a great fire in Andolin.",
+  "menagerieDialog": [
+    "(It\u0027s curled up with its head between its wings.)",
+    "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
+    "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
+    "(After it notices you, it unleashes a roar of approval.)",
+    "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
+  ],
+  "minDepth": 1,
+  "name": "Wyvern Toxicfang",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WyvernToxicfang/overworld_e0.png",
+      "images/creature/WyvernToxicfang/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WyvernToxicfang/overworld_n0.png",
+      "images/creature/WyvernToxicfang/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WyvernToxicfang/overworld_s0.png",
+      "images/creature/WyvernToxicfang/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WyvernToxicfang/overworld_w0.png",
+      "images/creature/WyvernToxicfang/overworld_w1.png"
+    ]
+  },
+  "race": "Wyvern",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 837
+}

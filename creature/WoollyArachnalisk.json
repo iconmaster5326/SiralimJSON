@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WoollyArachnalisk/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 515,
+  "item": 607,
+  "lore": "Every few generations, Arachnalisks reach a peak of overpopulation that forces the authorities to take measures to prevent hundreds of these famished creatures from invading towns.\\n\\nWooly Arachnalisks are the quietest of their species, and usually wait for their prey to pass near them before they pounce. They use their hair to create air bubbles under the water of lakes and rivers and stalk their prey.",
+  "menagerieDialog": [
+    "(These creatures are a real plague... but they can be useful in battle.)",
+    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+    "(It hands you a little doll made out of web silk. Ugh.)",
+    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+  ],
+  "minDepth": 1,
+  "name": "Woolly Arachnalisk",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WoollyArachnalisk/overworld_e0.png",
+      "images/creature/WoollyArachnalisk/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WoollyArachnalisk/overworld_n0.png",
+      "images/creature/WoollyArachnalisk/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WoollyArachnalisk/overworld_s0.png",
+      "images/creature/WoollyArachnalisk/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WoollyArachnalisk/overworld_w0.png",
+      "images/creature/WoollyArachnalisk/overworld_w1.png"
+    ]
+  },
+  "race": "Arachnalisk",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 521
+}

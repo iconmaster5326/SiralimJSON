@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MarionetteEvangelist/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1457,
+  "item": 1829,
+  "lore": "Marionette Evangelists are among the oldest of their kind, programmed to deliver sermons with a stirring voice and grand gestures. They can preach for weeks in town squares, churches, funerals, or taverns without ever changing a word. What\u0027s eerie is that nobody recalls who wrote their speeches, and some parts come from texts that are impossible to find.",
+  "menagerieDialog": [
+    "(It hangs limply, awaiting its next command.)",
+    "Pull my strings and watch me dance... a dance of death!",
+    "I may be controlled, but my mind is my own. Let me share my observations with you.",
+    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+  ],
+  "minDepth": 1,
+  "name": "Marionette Evangelist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MarionetteEvangelist/overworld_e0.png",
+      "images/creature/MarionetteEvangelist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MarionetteEvangelist/overworld_n0.png",
+      "images/creature/MarionetteEvangelist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MarionetteEvangelist/overworld_s0.png",
+      "images/creature/MarionetteEvangelist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MarionetteEvangelist/overworld_w0.png",
+      "images/creature/MarionetteEvangelist/overworld_w1.png"
+    ]
+  },
+  "race": "Marionette",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 2188
+}

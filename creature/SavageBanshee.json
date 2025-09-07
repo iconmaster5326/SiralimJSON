@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SavageBanshee/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 249,
+  "item": 784,
+  "lore": "This creature emerged from the pieces of the first God of Darkness\u0027s skull. Unlike other Banshees, it is very aggressive and tries to destroy everything in its path. Its screams can stop the heart of a weak-willed person, and a touch of its hand leads even the happiest people to despair. Aware of the danger this creature posed, Erebyss decided to destroy it. However, it has managed to regenerate over the centuries, and soon the time will come for it to sow chaos in Rodia.",
+  "menagerieDialog": [
+    "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
+    "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
+    "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
+    "Let my cries chill the living.",
+    "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
+  ],
+  "minDepth": 1,
+  "name": "Savage Banshee",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SavageBanshee/overworld_e0.png",
+      "images/creature/SavageBanshee/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SavageBanshee/overworld_n0.png",
+      "images/creature/SavageBanshee/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SavageBanshee/overworld_s0.png",
+      "images/creature/SavageBanshee/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SavageBanshee/overworld_w0.png",
+      "images/creature/SavageBanshee/overworld_w1.png"
+    ]
+  },
+  "race": "Banshee",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Ariamaki)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 14,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 27
+  },
+  "trait": 818
+}

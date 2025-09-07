@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Target {ACTION_attacks} the caster 3 times for 5% normal damage. These attacks cannot be dodged, and always deal at least 1 damage.",
+  "god": null,
+  "id": 161,
+  "manuallyCastable": true,
+  "maxCharges": 20,
+  "name": "Sabotage",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "one"
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LethalSmog/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 194,
+  "item": 337,
+  "lore": "The first council of Rodia approved a project to synthesize a substance that kept away insects and weeds that were a threat to the crops. Naturally, magic was involved in its development.\\n\\nThe smoke that the Lethal Smog emits is only as unpleasant as that of a bonfire, and it is seemingly harmless toward living beings. However, any sick person in its presence will automatically get worse, for in reality, this substance weakens the immune system.",
+  "menagerieDialog": [
+    "(It\u0027s spinning in place while mumbling its name over and over again.)",
+    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+  ],
+  "minDepth": 1,
+  "name": "Lethal Smog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LethalSmog/overworld_e0.png",
+      "images/creature/LethalSmog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LethalSmog/overworld_n0.png",
+      "images/creature/LethalSmog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LethalSmog/overworld_s0.png",
+      "images/creature/LethalSmog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LethalSmog/overworld_w0.png",
+      "images/creature/LethalSmog/overworld_w1.png"
+    ]
+  },
+  "race": "Smog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 16,
+    "health": 28,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 253
+}

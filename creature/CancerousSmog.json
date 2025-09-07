@@ -1,0 +1,62 @@
+{
+  "battleSprite": "images/creature/CancerousSmog/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 195,
+  "item": 338,
+  "lore": "After the Unification War, hundreds of prisoners of war were transferred to a complex located in the periphery of Siralim: the Spark plant.\\n\\nIn the short term, being exposed to the poison of the Cancerous Smog produces beneficial effects for the organism. However, long-term exposure causes tumors to grow in the body, and eventually results in death.",
+  "menagerieDialog": [
+    "(It\u0027s spinning in place while mumbling its name over and over again.)",
+    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+  ],
+  "minDepth": 1,
+  "name": "Cancerous Smog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CancerousSmog/overworld_e0.png",
+      "images/creature/CancerousSmog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CancerousSmog/overworld_n0.png",
+      "images/creature/CancerousSmog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CancerousSmog/overworld_s0.png",
+      "images/creature/CancerousSmog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CancerousSmog/overworld_w0.png",
+      "images/creature/CancerousSmog/overworld_w1.png"
+    ]
+  },
+  "race": "Smog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    31
+  ],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 16,
+    "health": 29,
+    "intelligence": 14,
+    "speed": 19
+  },
+  "trait": 254
+}

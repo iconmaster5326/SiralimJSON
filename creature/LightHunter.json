@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/LightHunter/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 302,
+  "item": 520,
+  "lore": "It has recently been discovered that Hunters possess a complex language comparable to that of humans and other creatures, spoken through high-pitched vocalizations reminiscent of a cat\u0027s meow.\\n\\nWhen a Faith Hunter gains enough favor with Meraxis, its body lights up and the Ankh it uses as a weapon becomes a saber of light. Although it can still die from wounds or disease, it gains eternal youth.",
+  "menagerieDialog": [
+    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+    "(It\u0027s busy feeding bits of meat to its wolf.)",
+    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+  ],
+  "minDepth": 1,
+  "name": "Light Hunter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LightHunter/overworld_e0.png",
+      "images/creature/LightHunter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LightHunter/overworld_n0.png",
+      "images/creature/LightHunter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LightHunter/overworld_s0.png",
+      "images/creature/LightHunter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LightHunter/overworld_w0.png",
+      "images/creature/LightHunter/overworld_w1.png"
+    ]
+  },
+  "race": "Hunter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    13
+  ],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 26,
+    "intelligence": 21,
+    "speed": 26
+  },
+  "trait": 434
+}

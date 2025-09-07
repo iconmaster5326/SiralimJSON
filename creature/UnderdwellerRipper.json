@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UnderdwellerRipper/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1369,
+  "item": 1767,
+  "lore": "No one knows the city\u0027s underground like the Underdwellers. Moving through the darkness is always quicker and safer, and the Underdweller Ripper uses this to stalk victims by their footsteps above. When the target turns into a quiet alley, the ripper emerges, knife ready to end the hunt.",
+  "menagerieDialog": [
+    "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
+    "The surface dwellers will learn to fear the depths!",
+    "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
+    "The pressure of the deep has made me unbreakable!",
+    "(It\u0027s darting about erratically, as if unused to open spaces.)"
+  ],
+  "minDepth": 1,
+  "name": "Underdweller Ripper",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnderdwellerRipper/overworld_e0.png",
+      "images/creature/UnderdwellerRipper/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnderdwellerRipper/overworld_n0.png",
+      "images/creature/UnderdwellerRipper/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnderdwellerRipper/overworld_s0.png",
+      "images/creature/UnderdwellerRipper/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnderdwellerRipper/overworld_w0.png",
+      "images/creature/UnderdwellerRipper/overworld_w1.png"
+    ]
+  },
+  "race": "Underdweller",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 22
+  },
+  "trait": 2120
+}

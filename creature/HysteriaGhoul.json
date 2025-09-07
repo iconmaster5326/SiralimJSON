@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/HysteriaGhoul/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 215,
+  "item": 233,
+  "lore": "When the civilians and soldiers of Omnia lost their lives during the siege, their bodies underwent a brutal transformation. Men and women were affected differently. In the case of men, they became creatures that the victors later called Ghouls.\\n\\nWhen a Hysteria Ghoul finds a target to devour, the irrepressible urge to do so can be transmitted to the warriors around him. Sometimes, even herbivore creatures end up biting off flesh.",
+  "menagerieDialog": [
+    "EAT FLESH!",
+    "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
+    "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
+    "Must... eat... more... footses...",
+    "Want... to eat... more... feet..."
+  ],
+  "minDepth": 1,
+  "name": "Hysteria Ghoul",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HysteriaGhoul/overworld_e0.png",
+      "images/creature/HysteriaGhoul/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HysteriaGhoul/overworld_n0.png",
+      "images/creature/HysteriaGhoul/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HysteriaGhoul/overworld_s0.png",
+      "images/creature/HysteriaGhoul/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HysteriaGhoul/overworld_w0.png",
+      "images/creature/HysteriaGhoul/overworld_w1.png"
+    ]
+  },
+  "race": "Ghoul",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 6,
+    "speed": 26
+  },
+  "trait": 142
+}

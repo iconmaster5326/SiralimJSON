@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WyvernSonicscreecher/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 169,
+  "item": 348,
+  "lore": "This creature usually flies low, moving with great skill through trees and other obstacles in search of small herbivores and other harmless creatures to hunt. Its scream is inaudible to most creatures due to its high frequency. However, it is useful to stun some of its prey. Moreover, the sound it emits has magical qualities and can return some spells to their casters.",
+  "menagerieDialog": [
+    "(It\u0027s curled up with its head between its wings.)",
+    "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
+    "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
+    "(After it notices you, it unleashes a roar of approval.)",
+    "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
+  ],
+  "minDepth": 1,
+  "name": "Wyvern Sonicscreecher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WyvernSonicscreecher/overworld_e0.png",
+      "images/creature/WyvernSonicscreecher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WyvernSonicscreecher/overworld_n0.png",
+      "images/creature/WyvernSonicscreecher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WyvernSonicscreecher/overworld_s0.png",
+      "images/creature/WyvernSonicscreecher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WyvernSonicscreecher/overworld_w0.png",
+      "images/creature/WyvernSonicscreecher/overworld_w1.png"
+    ]
+  },
+  "race": "Wyvern",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 264
+}

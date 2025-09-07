@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SkeletonMortarman/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 321,
+  "item": 227,
+  "lore": "The Skeletons used to be pirates in unknown waters some time ago, but now they have no choice but to wander Rodia, committing all kinds of misdeeds. The spread of this creature\u0027s weapon allows it to hit several enemies at once if they are close to each other. The Skeletons that travel with it often keep an eye on their belongings, as it has been known to steal coins and use them as bullets once it runs out of ammunition.",
+  "menagerieDialog": [
+    "I\u0027m glad we stopped to rest. I need to clean my guns.",
+    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+  ],
+  "minDepth": 1,
+  "name": "Skeleton Mortarman",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SkeletonMortarman/overworld_e0.png",
+      "images/creature/SkeletonMortarman/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SkeletonMortarman/overworld_n0.png",
+      "images/creature/SkeletonMortarman/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SkeletonMortarman/overworld_s0.png",
+      "images/creature/SkeletonMortarman/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SkeletonMortarman/overworld_w0.png",
+      "images/creature/SkeletonMortarman/overworld_w1.png"
+    ]
+  },
+  "race": "Skeleton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Erebyss)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 29,
+    "intelligence": 10,
+    "speed": 25
+  },
+  "trait": 136
+}

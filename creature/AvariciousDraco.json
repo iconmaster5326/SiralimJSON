@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AvariciousDraco/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1162,
+  "item": 1544,
+  "lore": "Everyone knows someone who always boasts about their achievements, exaggerating them as much as possible and even going so far as to make them up entirely. Those people who do not know how to listen to anything other than their own voice and who, in general, do not have any real friends because no one is able to put up with them. In the case of the Avaricious Draco, each and every one of the individuals that make up the species are the spitting image of such a lack of empathy, common sense, and desire to reflect. Conversations between these creatures are always about who is better at doing something, and can drag on for hours, becoming an endless parade of fictional bragging rights. They are the laughingstock of other dracos, who use the name Narcissistic Draco to refer to them. Indeed, that name has begun to stick, although their greed is also well known.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Avaricious Draco",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AvariciousDraco/overworld_e0.png",
+      "images/creature/AvariciousDraco/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AvariciousDraco/overworld_n0.png",
+      "images/creature/AvariciousDraco/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AvariciousDraco/overworld_s0.png",
+      "images/creature/AvariciousDraco/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AvariciousDraco/overworld_w0.png",
+      "images/creature/AvariciousDraco/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 1885
+}

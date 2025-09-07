@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MinotaurBehemoth/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 40,
+  "item": 347,
+  "lore": "Most Minotaurs are native to the Kingdom of Heretics, and their settlements are spread throughout Rodia, which has proved to be a headache for all of the country\u0027s rulers due to their warlike nature, so they are watched closely.\\n\\nThe Behemoth is the commander of the great armies of Minotaurs and does not falter when facing creatures larger than itself. Before entering battle, it bangs its armor with its greataxe to signal to those who accompany it that the battle may begin.",
+  "menagerieDialog": [
+    "I still have my strength, let\u0027s go!",
+    "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
+    "Let none survive. All will perish in our wake!",
+    "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
+    "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
+  ],
+  "minDepth": 1,
+  "name": "Minotaur Behemoth",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MinotaurBehemoth/overworld_e0.png",
+      "images/creature/MinotaurBehemoth/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MinotaurBehemoth/overworld_n0.png",
+      "images/creature/MinotaurBehemoth/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MinotaurBehemoth/overworld_s0.png",
+      "images/creature/MinotaurBehemoth/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MinotaurBehemoth/overworld_w0.png",
+      "images/creature/MinotaurBehemoth/overworld_w1.png"
+    ]
+  },
+  "race": "Minotaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 263
+}

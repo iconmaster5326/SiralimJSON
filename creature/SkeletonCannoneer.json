@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SkeletonCannoneer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 319,
+  "item": 225,
+  "lore": "This small-time outlaw specializes in raiding caravans. It stays hidden behind the bushes and shoots at the wheels to damage them with its powerful weapon. It then lets its teammates do the dirty work, though if it looks like they are at a disadvantage it will attack the enemies, pulverizing limbs and armor with a single shot.",
+  "menagerieDialog": [
+    "I\u0027m glad we stopped to rest. I need to clean my guns.",
+    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+  ],
+  "minDepth": 1,
+  "name": "Skeleton Cannoneer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SkeletonCannoneer/overworld_e0.png",
+      "images/creature/SkeletonCannoneer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SkeletonCannoneer/overworld_n0.png",
+      "images/creature/SkeletonCannoneer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SkeletonCannoneer/overworld_s0.png",
+      "images/creature/SkeletonCannoneer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SkeletonCannoneer/overworld_w0.png",
+      "images/creature/SkeletonCannoneer/overworld_w1.png"
+    ]
+  },
+  "race": "Skeleton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Erebyss)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 27,
+    "defense": 14,
+    "health": 32,
+    "intelligence": 9,
+    "speed": 24
+  },
+  "trait": 134
+}

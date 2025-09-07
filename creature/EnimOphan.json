@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/EnimOphan/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 394,
+  "item": 162,
+  "lore": "Yseros knew that the size and shape of Watchers, as well as their ability to fly, made them especially lethal as spellcasters. The first human biologists who studied Ophans discovered that, despite their intelligence, they do not have the biological support to move or to think. It was three centuries later, when magic became part of the scientific method, that another biologist found that the ring around their body has a magical circuit that emulates the usual structures of other living beings.",
+  "menagerieDialog": [
+    "(It appears to be deep in its own thoughts.)",
+    "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
+    "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
+    "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
+    "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
+  ],
+  "minDepth": 1,
+  "name": "Enim Ophan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EnimOphan/overworld_e0.png",
+      "images/creature/EnimOphan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EnimOphan/overworld_n0.png",
+      "images/creature/EnimOphan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EnimOphan/overworld_s0.png",
+      "images/creature/EnimOphan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EnimOphan/overworld_w0.png",
+      "images/creature/EnimOphan/overworld_w1.png"
+    ]
+  },
+  "race": "Ophan",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 10,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 72
+}

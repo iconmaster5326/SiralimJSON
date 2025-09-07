@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Byakko/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1262,
+  "item": 1446,
+  "lore": "There is a region of Ercath that worships a species of white tiger that lives in the western jungle. These creatures are extremely aggressive and very dangerous, but if trained from a young age they can be obedient, making them exceptional allies. Ercath\u0027s western guard has trained many specimens, and they can be told apart from the wild ones by the blue capes, gold-plated crowns, and rings that adorn their heads and tails.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Byakko",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Byakko/overworld_e0.png",
+      "images/creature/Byakko/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Byakko/overworld_n0.png",
+      "images/creature/Byakko/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Byakko/overworld_s0.png",
+      "images/creature/Byakko/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Byakko/overworld_w0.png",
+      "images/creature/Byakko/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 1754
+}

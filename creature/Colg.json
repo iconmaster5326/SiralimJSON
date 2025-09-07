@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Colg/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 795,
+  "item": 1081,
+  "lore": "This creature, also known as the dreamwalking pup, serves Caliban\u0027s purposes as his loyal companion, according to those who have managed to survive its attack. As Caliban normally cannot manifest in reality, he uses Colg to take down whoever refuses to fulfill his designs. Fortunately, if one succeeds in destroying this creature, Caliban will be unable to enter their dreams from then on.",
+  "menagerieDialog": [
+    "I grow tired of waiting around. Let\u0027s explore a new realm.",
+    "Caliban sure is a crazy kidder, isn\u0027t he? Ha.\\n\\nHaha...",
+    "I\u0027m so much more than just a tiny version of Caliban. Just wait and see!",
+    "We should visit the Otherworld sometime soon. I miss it dearly.",
+    "You can count on one thing: I\u0027ll be more loyal to you than Caliban ever was.\\n\\n(That\u0027s... not exactly hard to do.)"
+  ],
+  "minDepth": 1,
+  "name": "Colg",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Colg/overworld_e0.png",
+      "images/creature/Colg/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Colg/overworld_n0.png",
+      "images/creature/Colg/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Colg/overworld_s0.png",
+      "images/creature/Colg/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Colg/overworld_w0.png",
+      "images/creature/Colg/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    158,
+    479
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 30,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1045
+}

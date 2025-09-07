@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Mimic/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 65,
+  "item": null,
+  "lore": "Scientists have tried to study the Mimic for thousands of years to learn its secrets. This usually results in chewed tables and shelves, broken test tubes and shredded books scattered throughout the room and, with any luck, a mostly unharmed individual. What is more, no Mage has succeeded in extracting this creature\u0027s core, although the legendary Helmholtz stated in his memoirs that he would have been able to discover how to do it, had he had enough time.",
+  "menagerieDialog": [
+    "(It looks like a harmless chest, but you know better.)",
+    "(Honestly, it\u0027s not as clever as it thinks it is. The giant eyes, enormous tongue, and spiked teeth give away its attempts at secrecy.)",
+    "(It has so many teeth that you struggle to count them all. There are at least 12.)",
+    "HWAH HAH HAH HAH HAH! HWAAAAAAAAH! HA HA HA! SURPRIIIIIISE!\\n\\n(The novelty of this creature wore off incredibly fast.)",
+    "(You wonder what sort of consciousness is behind its vibrant gaze.)"
+  ],
+  "minDepth": 1,
+  "name": "Mimic",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Mimic/overworld_e0.png",
+      "images/creature/Mimic/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Mimic/overworld_n0.png",
+      "images/creature/Mimic/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Mimic/overworld_s0.png",
+      "images/creature/Mimic/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Mimic/overworld_w0.png",
+      "images/creature/Mimic/overworld_w1.png"
+    ]
+  },
+  "race": "Mimic",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 23,
+    "health": 30,
+    "intelligence": 23,
+    "speed": 8
+  },
+  "trait": 540
+}

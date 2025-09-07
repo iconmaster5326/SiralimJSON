@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/SpiritVulpes/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 582,
+  "item": 678,
+  "lore": "This creature appeared recently in Rodia and, though it rarely approaches towns and cities, it did not take long before myths and legends sprang up around it. Although it certainly cannot steal human souls with its eyes, it does enjoy chasing unlucky travelers, who flee in terror when they encounter it.",
+  "menagerieDialog": [
+    "(You would have loved to keep one of these creatures as a pet when you were a child.)",
+    "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
+    "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
+    "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
+    "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
+  ],
+  "minDepth": 1,
+  "name": "Spirit Vulpes",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SpiritVulpes/overworld_e0.png",
+      "images/creature/SpiritVulpes/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SpiritVulpes/overworld_n0.png",
+      "images/creature/SpiritVulpes/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SpiritVulpes/overworld_s0.png",
+      "images/creature/SpiritVulpes/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SpiritVulpes/overworld_w0.png",
+      "images/creature/SpiritVulpes/overworld_w1.png"
+    ]
+  },
+  "race": "Vulpes",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 28,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 616
+}

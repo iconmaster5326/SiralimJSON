@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GriffonVeteran/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 992,
+  "item": 1318,
+  "lore": "When a Griffon reaches a certain age, it usually retires to live a calmer life. However, some never tire of battle and continue fighting until their last breath. Most of these Griffons are scarred and have lost limbs, but that does not stop them from taking flight and waging as much war as they did in their youth.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers.)",
+    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Griffon Veteran",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GriffonVeteran/overworld_e0.png",
+      "images/creature/GriffonVeteran/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GriffonVeteran/overworld_n0.png",
+      "images/creature/GriffonVeteran/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GriffonVeteran/overworld_s0.png",
+      "images/creature/GriffonVeteran/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GriffonVeteran/overworld_w0.png",
+      "images/creature/GriffonVeteran/overworld_w1.png"
+    ]
+  },
+  "race": "Griffon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Life Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 27,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1566
+}

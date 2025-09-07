@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Ugat/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 716,
+  "item": 743,
+  "lore": "The Ugat are elementals constructed by Torun\u0027s raw anger. Although they\u0027re not quite so indignant that they talk in all capital letters and spout obscenities at even the most noble of adventurers, their quick temper is out-ranked only by their creator. This makes the Ugat a terrifying foe to behold, especially when encountered in hordes.",
+  "menagerieDialog": [
+    "(This creature is quite the rascal. Keep it well-fed if you don\u0027t want to get on its bad side.)",
+    "What are you looking at, nisbet?",
+    "Your castle stinks, and so do you.",
+    "You\u0027re uglier than a cock, a roach, a roach\u0027s cock, and a cockroach all combined.",
+    "Your creatures are all stupid and ugly. Except for me!"
+  ],
+  "minDepth": 1,
+  "name": "Ugat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Ugat/overworld_e0.png",
+      "images/creature/Ugat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Ugat/overworld_n0.png",
+      "images/creature/Ugat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Ugat/overworld_s0.png",
+      "images/creature/Ugat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Ugat/overworld_w0.png",
+      "images/creature/Ugat/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    156,
+    462,
+    823
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 20,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 20
+  },
+  "trait": 791
+}

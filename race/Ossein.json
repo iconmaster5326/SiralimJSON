@@ -1,0 +1,38 @@
+{
+  "bossDialog": [
+    "(A powerful construct hewn of bones and various magical trinkets has been set to guard this treasure hoard. It\u0027s not going to let you pass without a fight!)",
+    "(Several dry old skeletons that you thought were simply remains of old adventurers all jump to their feet, and assemble together to make a much bigger, stronger looking creature!)",
+    "(You hear clattering and clacking as bones roll together into a pile from all across the room, soon assembling themselves into a powerful-looking shape to battle you with!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies resurrect with 5% less {STAT_health}.",
+    "4": "Enemies resurrect with 5% less {STAT_health}.",
+    "6": "Enemies resurrect with 5% less {STAT_health}."
+  },
+  "cards": 6,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    868,
+    869,
+    870,
+    871,
+    872,
+    873
+  ],
+  "icon": "images/race/Ossein.png",
+  "master": {
+    "costume": 306,
+    "dialog": "You can\u0027t kill an Ossein. Not permanently, anyway. They always manage to find a way to piece themselves back together again and raise hell for everyone once more. Oh, by the way - my entire party is full of the damn things! Let\u0027s fight!",
+    "item": 1226,
+    "name": "Graft",
+    "trait": 1407
+  },
+  "name": "Ossein",
+  "notes": [],
+  "skins": [
+    8,
+    204,
+    494
+  ]
+}

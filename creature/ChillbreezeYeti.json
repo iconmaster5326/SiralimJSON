@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ChillbreezeYeti/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 465,
+  "item": 473,
+  "lore": "Yetis were created by Azural thousands of years ago, but their numbers have been drastically reduced over the ages, especially due to hunting.\\n\\nChillbreeze Yetis dislike eating warm, freshly-caught prey. Before they put it in their mouths, they first place it near a snowstorm to let it cool, and usually they do not eat it until it looks like a block of ice and frost.",
+  "menagerieDialog": [
+    "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
+    "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
+    "(It brings its face close to you and nudges its nose against yours. Ugh.)",
+    "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
+    "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
+  ],
+  "minDepth": 1,
+  "name": "Chillbreeze Yeti",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ChillbreezeYeti/overworld_e0.png",
+      "images/creature/ChillbreezeYeti/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ChillbreezeYeti/overworld_n0.png",
+      "images/creature/ChillbreezeYeti/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ChillbreezeYeti/overworld_s0.png",
+      "images/creature/ChillbreezeYeti/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ChillbreezeYeti/overworld_w0.png",
+      "images/creature/ChillbreezeYeti/overworld_w1.png"
+    ]
+  },
+  "race": "Yeti",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 387
+}

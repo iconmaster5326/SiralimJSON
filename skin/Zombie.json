@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Zombie/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 201,
+  "name": "Zombie",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Zombie/overworld_e0.png",
+      "images/skin/Zombie/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Zombie/overworld_n0.png",
+      "images/skin/Zombie/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Zombie/overworld_s0.png",
+      "images/skin/Zombie/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Zombie/overworld_w0.png",
+      "images/skin/Zombie/overworld_w1.png"
+    ]
+  },
+  "race": "Hemomancer",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/BrambledEgg/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1291,
+  "item": 1793,
+  "lore": "Every good egg knows that hibernation ends long before Easter, a very special time for them. Still, some don\u0027t want to wake up. The real world can be a drag, after all. Big mistake! Wake up, egg\u00E2\u20AC\u201Dyou missed spring, and now plants are growing all over you. It\u0027s not the end of the world though, as long as your shell doesn\u0027t get crushed. A little extra coverage never hurt anyone.",
+  "menagerieDialog": [
+    "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
+    "We may look fragile, but we\u0027ll crack some skulls!",
+    "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
+    "Our shells are tougher than they look. Bring it on!",
+    "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
+  ],
+  "minDepth": 1,
+  "name": "Brambled Egg",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BrambledEgg/overworld_e0.png",
+      "images/creature/BrambledEgg/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BrambledEgg/overworld_n0.png",
+      "images/creature/BrambledEgg/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BrambledEgg/overworld_s0.png",
+      "images/creature/BrambledEgg/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BrambledEgg/overworld_w0.png",
+      "images/creature/BrambledEgg/overworld_w1.png"
+    ]
+  },
+  "race": "Eggxotic",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 28,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 17
+  },
+  "trait": 2146
+}

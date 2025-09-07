@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/CarnageDestructor/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 241,
+  "item": 197,
+  "lore": "The Carnages were born of the pain and darkness that Erebyss always carries in her heart.\\n\\nAny warrior who has fought a Carnage Destructor and lived to tell the tale knows that letting them get close is a terrible idea. These creatures are capable of attacking multiple targets at once by swinging their sharp tails while biting or tearing at another opponent.",
+  "menagerieDialog": [
+    "(Even while it\u0027s not moving, its mere presence is terrifying.)",
+    "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
+    "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
+    "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
+    "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Carnage Destructor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CarnageDestructor/overworld_e0.png",
+      "images/creature/CarnageDestructor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CarnageDestructor/overworld_n0.png",
+      "images/creature/CarnageDestructor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CarnageDestructor/overworld_s0.png",
+      "images/creature/CarnageDestructor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CarnageDestructor/overworld_w0.png",
+      "images/creature/CarnageDestructor/overworld_w1.png"
+    ]
+  },
+  "race": "Carnage",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 8,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 11,
+    "health": 40,
+    "intelligence": 11,
+    "speed": 21
+  },
+  "trait": 107
+}

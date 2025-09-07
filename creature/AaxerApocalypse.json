@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AaxerApocalypse/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 435,
+  "item": 375,
+  "lore": "When Torun gave life to the first Giant, he showed it to Vulcanar, trying to impress him. The God of Fire did not waste any time getting to work on his own creations, completely disregarding Yseros\u0027s advice.\\n\\nThe Aaxer Apocalypse shakes its three heads unpredictably, fooling its enemies into believing a peck is coming, but instead dealing a crushing blow with the shell in the back of its neck.",
+  "menagerieDialog": [
+    "(Is it really sleeping at a time like this?)",
+    "(It\u0027s rearing its heads around in circles. At this rate, it\u0027s going to break something.)",
+    "(You were always terrified of these creatures as a child, and with good reason. Each head sways around unpredictably, and you constantly struggle to understand its intentions.)",
+    "(Its many heads often get into arguments with each other. It must be tough being an Apocalypse.)",
+    "(All of its heads are swaying around in little circles. You should probably have Nortah check it out and make sure it\u0027s not sick.)"
+  ],
+  "minDepth": 1,
+  "name": "Aaxer Apocalypse",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AaxerApocalypse/overworld_e0.png",
+      "images/creature/AaxerApocalypse/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AaxerApocalypse/overworld_n0.png",
+      "images/creature/AaxerApocalypse/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AaxerApocalypse/overworld_s0.png",
+      "images/creature/AaxerApocalypse/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AaxerApocalypse/overworld_w0.png",
+      "images/creature/AaxerApocalypse/overworld_w1.png"
+    ]
+  },
+  "race": "Apocalypse",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 37,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 291
+}

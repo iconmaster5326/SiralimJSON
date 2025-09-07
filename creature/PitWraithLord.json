@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PitWraithLord/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 270,
+  "item": 255,
+  "lore": "Milner read about these mysterious creatures during her time in Neralim as an exchange student and decided to investigate them. Pit Wraiths are timeless creatures that cannot grow old. Moreover, they exist in several eras simultaneously. If a version of them dies at some point in history, the others disappear.\\n\\nWhen the Pit Wraith Lord enters battle, its eyes shine with an unusual red color. Temporal distortions begin to appear around it that send its enemies to the immediate future, allowing it to strike them while they are unprepared. However, it often finds it hard to use the same trick twice on the same opponents.",
+  "menagerieDialog": [
+    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+  ],
+  "minDepth": 1,
+  "name": "Pit Wraith Lord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PitWraithLord/overworld_e0.png",
+      "images/creature/PitWraithLord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PitWraithLord/overworld_n0.png",
+      "images/creature/PitWraithLord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PitWraithLord/overworld_s0.png",
+      "images/creature/PitWraithLord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PitWraithLord/overworld_w0.png",
+      "images/creature/PitWraithLord/overworld_w1.png"
+    ]
+  },
+  "race": "Pit Wraith",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 18,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 12
+  },
+  "trait": 165
+}

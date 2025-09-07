@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CelestialScarapin/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1317,
+  "item": 1693,
+  "lore": "In the lush jungles, many creatures have evolved to blend seamlessly with their surroundings. The Celestial Scarapin, when hungry, hides its body in the foliage, leaving only its tail and wings visible, which resemble flowers. It waits for its prey to approach, then strikes with deadly precision. When attacking, it absorbs some of the damage and transforms it into energy that strengthens its skin.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Celestial Scarapin",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CelestialScarapin/overworld_e0.png",
+      "images/creature/CelestialScarapin/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CelestialScarapin/overworld_n0.png",
+      "images/creature/CelestialScarapin/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CelestialScarapin/overworld_s0.png",
+      "images/creature/CelestialScarapin/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CelestialScarapin/overworld_w0.png",
+      "images/creature/CelestialScarapin/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 25,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 2035
+}

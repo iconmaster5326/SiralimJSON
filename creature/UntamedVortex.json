@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UntamedVortex/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 530,
+  "item": 500,
+  "lore": "Vortices were the first to help the world in the Watcher War, stopping their advance in a series of decisive actions at the cost of thousands of Vortex casualties.\\n\\nWhile Aeolian was designing one of his Vortices, Torun decided to visit him to make sure he was doing his job right. When he saw the Vortices, he frowned and said: \u0022YOUR !@#$ING CREATURES ARE WEAK. LET ME IMPROVE THIS PIECE OF !@#$.\u0022 He then threw a Raving Storm at the incomplete Vortex, which fused with it to form the Untamed Vortex.",
+  "menagerieDialog": [
+    "(It whirls around in circles, emitting a powerful light.)",
+    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+  ],
+  "minDepth": 1,
+  "name": "Untamed Vortex",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UntamedVortex/overworld_e0.png",
+      "images/creature/UntamedVortex/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UntamedVortex/overworld_n0.png",
+      "images/creature/UntamedVortex/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UntamedVortex/overworld_s0.png",
+      "images/creature/UntamedVortex/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UntamedVortex/overworld_w0.png",
+      "images/creature/UntamedVortex/overworld_w1.png"
+    ]
+  },
+  "race": "Vortex",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Aeolian)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 32,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 414
+}

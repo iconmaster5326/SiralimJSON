@@ -1,0 +1,42 @@
+{
+  "bossDialog": [
+    "Stop laughing at my outfit. STOP IT! RRGH! I\u0027LL KILL YOU!",
+    "These claws ain\u0027t for show, buddy. Let me give you a demonstration!",
+    "You got some pretty poor ideas in that head of yours if you\u0027re challenging me. Maybe I should cut it off!"
+  ],
+  "cardBonuses": {
+    "3": "Enemies take 15% more damage from {CONDNAME_DEBUFF_BLEED}.",
+    "6": "Enemies have a 10% chance to take double damage from {CONDNAME_DEBUFF_BLEED}.",
+    "9": "Enemies\u0027 {CONDNAME_DEBUFF_BLEED} debuff lasts forever."
+  },
+  "cards": 9,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    212,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    650,
+    651
+  ],
+  "icon": "images/race/Pilwiz.png",
+  "master": {
+    "costume": 370,
+    "dialog": "Pilwizes are crazy little guys who use their scythes to slice their opponents to shreds, leaving any survivors to bleed out. Pretty cruel when you think about it, really, but here we are.\\n\\nAnyway, let\u0027s fight! I promise to give your creatures a clean death.",
+    "item": 1227,
+    "name": "Slash",
+    "trait": 1472
+  },
+  "name": "Pilwiz",
+  "notes": [],
+  "skins": [
+    53,
+    228,
+    232,
+    750
+  ]
+}

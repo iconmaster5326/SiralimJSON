@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Chatter/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1446,
+  "item": 1735,
+  "lore": "They say this terrifying animated mouth has a bottomless hunger. Some speculate it is because it lacks the organs needed to actually process what it eats. However, it clearly also lacks the organs that would regulate hunger in the first place\u00E2\u20AC\u201Dso most people just assume it doesn\u0027t need to eat at all and is simply a jerk.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Chatter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Chatter/overworld_e0.png",
+      "images/creature/Chatter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Chatter/overworld_n0.png",
+      "images/creature/Chatter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Chatter/overworld_s0.png",
+      "images/creature/Chatter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Chatter/overworld_w0.png",
+      "images/creature/Chatter/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 2077
+}

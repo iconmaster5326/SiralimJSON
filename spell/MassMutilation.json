@@ -1,0 +1,41 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "All creatures {ACTION_attack} themselves for 25% normal damage. This spell can only be {ACTION_cast} once at a time.",
+  "god": null,
+  "id": 627,
+  "manuallyCastable": true,
+  "maxCharges": 3,
+  "name": "Mass Mutilation",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "all"
+}

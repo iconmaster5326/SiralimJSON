@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MirelingSpellscatterer/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1428,
+  "item": 1762,
+  "lore": "Wise among the Mirelings, the Mireling Spellscatterer wears robes made of bark and lichens and carries a staff carved with symbols representing the lunar cycles. It can corrupt enemy spells and return them altered, like a distorted reflection in a murky pond. Notably, it can disrupt magical concealment spells so those using them become fully visible to its kind. In groups, they can turn powerful magical barriers into deadly traps for those trapped inside.",
+  "menagerieDialog": [
+    "(They\u0027re huddled together in a small pool, occasionally blowing bubbles.)",
+    "We may be small, but our fury is mighty! To battle!",
+    "The secrets of the swamp are ours. Care to learn some ancient wisdom?",
+    "Our swamp magic protects us! You\u0027ll never break through!",
+    "(They\u0027re hopping about frantically, croaking war cries.)"
+  ],
+  "minDepth": 1,
+  "name": "Mireling Spellscatterer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MirelingSpellscatterer/overworld_e0.png",
+      "images/creature/MirelingSpellscatterer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MirelingSpellscatterer/overworld_n0.png",
+      "images/creature/MirelingSpellscatterer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MirelingSpellscatterer/overworld_s0.png",
+      "images/creature/MirelingSpellscatterer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MirelingSpellscatterer/overworld_w0.png",
+      "images/creature/MirelingSpellscatterer/overworld_w1.png"
+    ]
+  },
+  "race": "Mireling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 28,
+    "speed": 20
+  },
+  "trait": 2115
+}

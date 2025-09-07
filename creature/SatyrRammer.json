@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SatyrRammer/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 888,
+  "item": 984,
+  "lore": "The Satyrs built passages that connect the strongest trees to the underground world, inhabited by the Inquisitors. To do this, they emptied the interior of these trees and built ladders to allow easy access between the treetops and the underground.\\n\\nThese creatures charge head on regardless of the size or strength of their opponent, taking advantage of their horns. If a Satyr town suffers a massive attack, they jump from the trees and plummet to the ground, sacrificing themselves while taking several Efts with them.",
+  "menagerieDialog": [
+    "(It\u0027s playing a tune on a set of pipes, oblivious to your approach.)",
+    "Care to hear a new song I\u0027ve written? It\u0027s called \u0022The Art of War\u0022.",
+    "(It\u0027s busy shining its hooves with a cloth. Makes sense.)",
+    "(It\u0027s busy tap-dancing. This seems odd at first until you realize you\u0027d do the same thing if you had hooves.)",
+    "(It\u0027s throwing a tantrum and stomping its hooves on the ground. Touchy little thing.)"
+  ],
+  "minDepth": 1,
+  "name": "Satyr Rammer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SatyrRammer/overworld_e0.png",
+      "images/creature/SatyrRammer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SatyrRammer/overworld_n0.png",
+      "images/creature/SatyrRammer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SatyrRammer/overworld_s0.png",
+      "images/creature/SatyrRammer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SatyrRammer/overworld_w0.png",
+      "images/creature/SatyrRammer/overworld_w1.png"
+    ]
+  },
+  "race": "Satyr",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 12,
+    "health": 33,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 1148
+}

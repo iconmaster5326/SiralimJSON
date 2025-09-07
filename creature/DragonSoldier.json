@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DragonSoldier/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 140,
+  "item": 396,
+  "lore": "The Dragon Soldier received its name centuries ago, when King Misery placed the city of Neralim under siege with his army of knights and creatures. The Unification forces could not abandon their positions to help the city, but Milner had an idea. She went to the Unsullied Meadows and spoke with the Dragon Queens, but they did not listen. Distressed, she put her hope in a legend. Her wish made these creatures emerge from the sea and give their lives for the country without asking for payment.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Dragon Soldier",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DragonSoldier/overworld_e0.png",
+      "images/creature/DragonSoldier/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DragonSoldier/overworld_n0.png",
+      "images/creature/DragonSoldier/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DragonSoldier/overworld_s0.png",
+      "images/creature/DragonSoldier/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DragonSoldier/overworld_w0.png",
+      "images/creature/DragonSoldier/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 311
+}

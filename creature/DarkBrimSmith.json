@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DarkBrimSmith/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 285,
+  "item": 427,
+  "lore": "Like the Gorgons, the Smiths had to endure adversity both in their land and in what is now Rodia. Many of them began to wonder whether living with humans was worth the trouble, and they declared the Scarlet Mountains of Vanelin their territory.\\n\\nDark Brim Smiths are those who have renounced the forge and resort to attacking caravans and human settlements, or at least mine for precious ore in the mountain mines.",
+  "menagerieDialog": [
+    "I\u0027m far more skilled in forging weapons than fighting creatures.",
+    "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
+    "Never leave home without ensuring that all your Artifacts are fully upgraded.",
+    "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
+    "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
+  ],
+  "minDepth": 1,
+  "name": "Dark Brim Smith",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DarkBrimSmith/overworld_e0.png",
+      "images/creature/DarkBrimSmith/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DarkBrimSmith/overworld_n0.png",
+      "images/creature/DarkBrimSmith/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DarkBrimSmith/overworld_s0.png",
+      "images/creature/DarkBrimSmith/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DarkBrimSmith/overworld_w0.png",
+      "images/creature/DarkBrimSmith/overworld_w1.png"
+    ]
+  },
+  "race": "Smith",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Azural)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 342
+}

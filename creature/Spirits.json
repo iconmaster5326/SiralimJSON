@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Spirits/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 744,
+  "item": 86,
+  "lore": "Aware of the damage the Blue Bloods could cause to the world, the Auditors decided to exterminate them for the greater good.\\n\\nMany rumors about the properties of the Alementals have appeared in the short time since their creation. Most people believe a touch is enough for them to spread their inebriation, while others think they are an inexhaustible supply of beer. Because of this, there have been attempts to kidnap these creatures, some of which have been successful.\\n\\nSpirits is a calm and quiet creature, but it does not tolerate excesses. When it sees someone getting too drunk, it has no qualms about entering their body until they pass out.",
+  "menagerieDialog": [
+    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+    "(Now here\u0027s a creature who knows how to party!)",
+    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+  ],
+  "minDepth": 1,
+  "name": "Spirits",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Spirits/overworld_e0.png",
+      "images/creature/Spirits/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Spirits/overworld_n0.png",
+      "images/creature/Spirits/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Spirits/overworld_s0.png",
+      "images/creature/Spirits/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Spirits/overworld_w0.png",
+      "images/creature/Spirits/overworld_w1.png"
+    ]
+  },
+  "race": "Alemental",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Gambling Dwarf Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 987
+}

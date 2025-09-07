@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "Your creatures are resurrected with 100% {STAT_health}. Then, this creature is killed.",
+  "god": null,
+  "id": 599,
+  "manuallyCastable": true,
+  "maxCharges": 1,
+  "name": "Desperate Sacrifice",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": true,
+  "resurrects": true,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "RESURRECT"
+  ],
+  "targets": "allies"
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DiabolicIntruder/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 309,
+  "item": 323,
+  "lore": "When this creature travels with other members of the Diabolic Horde, it usually stays apart from the group, studying potential enemies according to the information provided by the Diabolic Henchman. If it has the opportunity, it will draw a battle plan before every fight. It uses its two polearms to distract its enemies and gain a tactical advantage for the squad.",
+  "menagerieDialog": [
+    "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
+    "What are we doing here? Let\u0027s get moving!",
+    "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
+    "(It\u0027s busy feeding rotten meat to its pups.)",
+    "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
+  ],
+  "minDepth": 1,
+  "name": "Diabolic Intruder",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DiabolicIntruder/overworld_e0.png",
+      "images/creature/DiabolicIntruder/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DiabolicIntruder/overworld_n0.png",
+      "images/creature/DiabolicIntruder/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DiabolicIntruder/overworld_s0.png",
+      "images/creature/DiabolicIntruder/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DiabolicIntruder/overworld_w0.png",
+      "images/creature/DiabolicIntruder/overworld_w1.png"
+    ]
+  },
+  "race": "Diabolic Horde",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 239
+}

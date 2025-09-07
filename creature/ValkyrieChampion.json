@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ValkyrieChampion/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 433,
+  "item": 159,
+  "lore": "The city of Omnia had advanced technology that even allowed its inhabitants to sail the skies in large airships. After Sigmund cast his Spectre curse, the Valkyries of various kingdoms began to gather without anyone noticing.\\n\\nValkyrie Champions are fast and reckless warriors who charge through their enemies\u0027 spells, cutting them down with their twin swords. The \u0022Dance of the Valkyries\u0022 ended when the Champions gave their lives to destroy the engines of the enemy ships.",
+  "menagerieDialog": [
+    "(She spends most of her free time relaxing. Is she really a Valkyrie?)",
+    "She\u0027s waving her weapon around and striking various battle poses. She must be eager to fight.",
+    "(It\u0027s completely absorbed in sharpening its weapon and polishing its armor.)",
+    "(She is extremely protective of your other creatures. If only your entire team had such camaraderie...)",
+    "(She\u0027s parading back and forth around the menagerie. You really wish she\u0027d stand still for a moment.)"
+  ],
+  "minDepth": 1,
+  "name": "Valkyrie Champion",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ValkyrieChampion/overworld_e0.png",
+      "images/creature/ValkyrieChampion/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ValkyrieChampion/overworld_n0.png",
+      "images/creature/ValkyrieChampion/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ValkyrieChampion/overworld_s0.png",
+      "images/creature/ValkyrieChampion/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ValkyrieChampion/overworld_w0.png",
+      "images/creature/ValkyrieChampion/overworld_w1.png"
+    ]
+  },
+  "race": "Valkyrie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 23,
+    "health": 27,
+    "intelligence": 8,
+    "speed": 23
+  },
+  "trait": 69
+}

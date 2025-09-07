@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BrownieBrute/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 166,
+  "item": 547,
+  "lore": "Long ago, humans tried to enslave Brownies by taking advantage of their altruistic nature. They made a big mistake. In Rodia, Brownies who have learned to fight wield large hammers of different weights.\\n\\nBrownie Brutes carry the heaviest ones, made of a hard alloy, and need to undergo strict training before they can wield them. Despite their small size, the strength of these creatures is immense, and they can easily handle weapons that weigh up to twice their own weight.",
+  "menagerieDialog": [
+    "Could we slow down a little, buddy?",
+    "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
+    "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
+    "(Both its weapon and its temper are comically oversized for its body.)",
+    "(Its annoying laughter haunts your nightmares.)"
+  ],
+  "minDepth": 1,
+  "name": "Brownie Brute",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BrownieBrute/overworld_e0.png",
+      "images/creature/BrownieBrute/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BrownieBrute/overworld_n0.png",
+      "images/creature/BrownieBrute/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BrownieBrute/overworld_s0.png",
+      "images/creature/BrownieBrute/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BrownieBrute/overworld_w0.png",
+      "images/creature/BrownieBrute/overworld_w1.png"
+    ]
+  },
+  "race": "Brownie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 15,
+    "health": 37,
+    "intelligence": 17,
+    "speed": 20
+  },
+  "trait": 461
+}

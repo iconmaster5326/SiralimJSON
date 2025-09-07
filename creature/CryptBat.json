@@ -1,0 +1,66 @@
+{
+  "battleSprite": "images/creature/CryptBat/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 107,
+  "item": 289,
+  "lore": "Crypt Bats prefer dark, moist places to roost and hunt vermin. They usually swoop down and dig their claws into the body of their prey before taking flight again with it in tow. Although their vision is poor, they can use their bright eyes to sense the body temperature of other creatures.",
+  "menagerieDialog": [
+    "(It gently nuzzles you, which is quite discomforting considering it\u0027s a Bat.)",
+    "(It tries to nip at anyone who gets too close, including you. So moody!)",
+    "(Everett claims this creature can read, which cements your opinion that he is extremely weird.)",
+    "(It moves just a little too fast for your liking. It\u0027s unsettling.)",
+    "(It\u0027s fiddling with a piece of lint it stole from your pocket earlier.)"
+  ],
+  "minDepth": 1,
+  "name": "Crypt Bat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CryptBat/overworld_e0.png",
+      "images/creature/CryptBat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CryptBat/overworld_n0.png",
+      "images/creature/CryptBat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CryptBat/overworld_s0.png",
+      "images/creature/CryptBat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CryptBat/overworld_w0.png",
+      "images/creature/CryptBat/overworld_w1.png"
+    ]
+  },
+  "race": "Bat",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    18
+  ],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 28,
+    "intelligence": 13,
+    "speed": 28
+  },
+  "trait": 205
+}

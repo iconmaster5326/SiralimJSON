@@ -1,0 +1,43 @@
+{
+  "bossDialog": [
+    "(Almost as fast as you can blink, a large Pit Worm bursts from the ground in the middle of the treasure hoard! Looks like you\u0027ll have to deal with it first!)",
+    "(As you approach the treasure hoard, a Pit Worm leaps out of a tunnel in the wall and hisses, quickly followed by several other creatures!)",
+    "(Hearing the sound of rubble from above, you instinctively leap back as a boulder crashes to the ground where you were standing! Angered, the Pit Worm that dislodged it drops down to attack!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures gain 10% more {STAT_defense} from stat-boosting effects.",
+    "5": "Your creatures gain 10% more {STAT_defense} from stat-boosting effects.",
+    "8": "Your creatures gain 10% more {STAT_defense} from stat-boosting effects."
+  },
+  "cards": 8,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    639,
+    981
+  ],
+  "icon": "images/race/PitWorm.png",
+  "master": {
+    "costume": 371,
+    "dialog": "Pit Worms are massive creatures that possess an unbelievable amount of strength. They use their giant bodies to smash their opponents into jelly before eating their corpses whole. Think you can stand up to the might of my Pit Worm army? We shall soon find out!",
+    "item": 1222,
+    "name": "Zinud",
+    "trait": 1473
+  },
+  "name": "Pit Worm",
+  "notes": [],
+  "skins": [
+    33,
+    202,
+    211,
+    277,
+    547,
+    751
+  ]
+}

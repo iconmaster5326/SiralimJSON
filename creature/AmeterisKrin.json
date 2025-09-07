@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AmeterisKrin/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1149,
+  "item": 1531,
+  "lore": "Two professors from the Magic University of Siralim were drinking in the dirtiest tavern in Agalot, a major city in the kingdom near the northern border. After six pints, they came up with a creature capable of detecting the concealment magic that some students use to cheat on exams, without the need for them to be vigilant. After a few shots they decided to get down to business, but the creature they created turned out to be powerful and aggressive. After a fierce battle, both Magi barely managed to escape, and the creature began to reproduce asexually, consuming the magic items it managed to snatch from them. Currently, the government of Rodia offers a reward for hunting these creatures, and the two Magi are suspended indefinitely.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Ameteris Krin",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AmeterisKrin/overworld_e0.png",
+      "images/creature/AmeterisKrin/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AmeterisKrin/overworld_n0.png",
+      "images/creature/AmeterisKrin/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AmeterisKrin/overworld_s0.png",
+      "images/creature/AmeterisKrin/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AmeterisKrin/overworld_w0.png",
+      "images/creature/AmeterisKrin/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 1872
+}

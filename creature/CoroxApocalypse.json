@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CoroxApocalypse/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 692,
+  "item": 376,
+  "lore": "The Corox Apocalypse is a 35-foot long legendary creature, capable of piercing the hardest skin and doing all those things gargantuan monsters with a redundantly terrifying appearance usually do. The clash of titans between it and the Mystical Giant was reducing the city to rubble while the Maluh Ophan and the Watcher Sentinel fought their own battle. Punches, bites and headbutts turned buildings to dust while the Ophan tried to fix the world. Until, finally, the Carnage Devourer appeared.",
+  "menagerieDialog": [
+    "(Is it really sleeping at a time like this?)",
+    "(It\u0027s rearing its heads around in circles. At this rate, it\u0027s going to break something.)",
+    "(You were always terrified of these creatures as a child, and with good reason. Each head sways around unpredictably, and you constantly struggle to understand its intentions.)",
+    "(Its many heads often get into arguments with each other. It must be tough being an Apocalypse.)",
+    "(All of its heads are swaying around in little circles. You should probably have Nortah check it out and make sure it\u0027s not sick.)"
+  ],
+  "minDepth": 1,
+  "name": "Corox Apocalypse",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CoroxApocalypse/overworld_e0.png",
+      "images/creature/CoroxApocalypse/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CoroxApocalypse/overworld_n0.png",
+      "images/creature/CoroxApocalypse/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CoroxApocalypse/overworld_s0.png",
+      "images/creature/CoroxApocalypse/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CoroxApocalypse/overworld_w0.png",
+      "images/creature/CoroxApocalypse/overworld_w1.png"
+    ]
+  },
+  "race": "Apocalypse",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 37,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 833
+}

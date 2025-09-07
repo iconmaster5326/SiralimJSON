@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ForbiddenGrimoire/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 447,
+  "item": 492,
+  "lore": "Although Grimoires can live forever, their structure is vulnerable to events where a great amount of magic is unleashed. This has caused alterations in the spells they contain after events such as the Unification War or the ascension to godhood of an old ruler of Siralim.\\n\\nThe Forbidden Grimoire once contained spells that could instantly kill whoever cast them. That is why only the most skilled Magi can safely look at its pages and read the letters, numbers and runes they contain.",
+  "menagerieDialog": [
+    "Read any good books lately?",
+    "I shall wreak havoc upon my enemies via a thousand papercuts!",
+    "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
+    "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
+    "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
+  ],
+  "minDepth": 1,
+  "name": "Forbidden Grimoire",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ForbiddenGrimoire/overworld_e0.png",
+      "images/creature/ForbiddenGrimoire/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ForbiddenGrimoire/overworld_n0.png",
+      "images/creature/ForbiddenGrimoire/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ForbiddenGrimoire/overworld_s0.png",
+      "images/creature/ForbiddenGrimoire/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ForbiddenGrimoire/overworld_w0.png",
+      "images/creature/ForbiddenGrimoire/overworld_w1.png"
+    ]
+  },
+  "race": "Grimoire",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 10,
+    "defense": 17,
+    "health": 25,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 406
+}

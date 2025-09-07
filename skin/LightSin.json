@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/LightSin/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 300,
+  "name": "Light Sin",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/LightSin/overworld_e0.png",
+      "images/skin/LightSin/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/LightSin/overworld_n0.png",
+      "images/skin/LightSin/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/LightSin/overworld_s0.png",
+      "images/skin/LightSin/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/LightSin/overworld_w0.png",
+      "images/skin/LightSin/overworld_w1.png"
+    ]
+  },
+  "race": "Sin",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

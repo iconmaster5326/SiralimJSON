@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/SparktailStudent/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 835,
+  "item": 1035,
+  "lore": "Sparktails are an intelligent species that reaches maturity once a third of their life cycle has passed. This moment is called the Step, an event that literally changes them for the rest of their lives. Depending on their personality and what they have learned, their entire structure changes to grant them various abilities. Before the Step, their electricity is still weak and invisible, and does not allow them to do anything special, so they are required to live at Blue Emerald for their safety and learning.",
+  "menagerieDialog": [
+    "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
+    "Let me guess: you\u0027re here to make yet another \u0022fish out of water\u0022 joke, aren\u0027t you? I\u0027ve heard them all before.",
+    "(This creature moves surprisingly fast, even on land.)",
+    "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
+    "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
+  ],
+  "minDepth": 1,
+  "name": "Sparktail Student",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SparktailStudent/overworld_e0.png",
+      "images/creature/SparktailStudent/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SparktailStudent/overworld_n0.png",
+      "images/creature/SparktailStudent/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SparktailStudent/overworld_s0.png",
+      "images/creature/SparktailStudent/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SparktailStudent/overworld_w0.png",
+      "images/creature/SparktailStudent/overworld_w1.png"
+    ]
+  },
+  "race": "Sparktail",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    },
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 38,
+    "intelligence": 21,
+    "speed": 16
+  },
+  "trait": 1103
+}

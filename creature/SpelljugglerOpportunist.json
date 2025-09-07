@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SpelljugglerOpportunist/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1306,
+  "item": 1813,
+  "lore": "Many humans join the Spelljuggler order to make a fortune, but others are after the power the altered blood gives them.\\n\\nSpelljuggler Opportunists are experts at reading Rodia\u0027s sociopolitical climate, and they can easily tell which jobs are worth taking and which ones aren\u0027t. This makes them skilled at striking deals, both with other Spelljuggler and mercenaries from outside their order.",
+  "menagerieDialog": [
+    "(It\u0027s lazily floating a single spell orb above its palm.)",
+    "Watch as I juggle their lives away!",
+    "I know spells that would make your head spin... literally!",
+    "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
+    "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
+  ],
+  "minDepth": 1,
+  "name": "Spelljuggler Opportunist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SpelljugglerOpportunist/overworld_e0.png",
+      "images/creature/SpelljugglerOpportunist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SpelljugglerOpportunist/overworld_n0.png",
+      "images/creature/SpelljugglerOpportunist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SpelljugglerOpportunist/overworld_s0.png",
+      "images/creature/SpelljugglerOpportunist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SpelljugglerOpportunist/overworld_w0.png",
+      "images/creature/SpelljugglerOpportunist/overworld_w1.png"
+    ]
+  },
+  "race": "Spelljuggler",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 28,
+    "speed": 20
+  },
+  "trait": 2166
+}

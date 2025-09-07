@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MythicantPryderis/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1271,
+  "item": 1630,
+  "lore": "Mythicants are not aggressive unless they are in danger or unless they have been given orders. They are able to materialize words with negative connotations and use them to harm their enemies.\\n\\nIn the case of Mythicant Pryderis, it is their arrows that become words once they are fired from the bow. There are only six arrows in their quivers, but as soon as one of them hits, it disappears and re-materializes behind it in its original form.",
+  "menagerieDialog": [
+    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+  ],
+  "minDepth": 1,
+  "name": "Mythicant Pryderis",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MythicantPryderis/overworld_e0.png",
+      "images/creature/MythicantPryderis/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MythicantPryderis/overworld_n0.png",
+      "images/creature/MythicantPryderis/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MythicantPryderis/overworld_s0.png",
+      "images/creature/MythicantPryderis/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MythicantPryderis/overworld_w0.png",
+      "images/creature/MythicantPryderis/overworld_w1.png"
+    ]
+  },
+  "race": "Mythicant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1970
+}

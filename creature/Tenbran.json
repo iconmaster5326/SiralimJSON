@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Tenbran/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 801,
+  "item": 1087,
+  "lore": "Perdition created this creature at a time when he sorely missed his beloved sister. Without intending it, Tenbran reflects in its face the state of mind in which the God of Limbo is at that moment. They became very good friends and debated on countless topics over the years. Upon the arrival of his sister Sevalah, she looked at the creature with a raised eyebrow. \u0022I see you have missed me, little brother,\u0022 she said. Perdition smiled and hugged her tightly while Tenbran watched the scene with its face filled with a sorrow not its own.",
+  "menagerieDialog": [
+    "I\u0027m not sad. I\u0027m not.\\n\\nOkay, I\u0027m pretty sad.",
+    "Am I beautiful? I certainly think so.",
+    "Why is your castle so bright, anyway? You don\u0027t even have any light sources in some areas, and yet I can see my way around plain as day.",
+    "Someday, I wish to retire and join a band with the Bards. I\u0027ll call it Tenbran and the Do-Nothings.",
+    "Perhaps Castor can fix me... make me beautiful..."
+  ],
+  "minDepth": 1,
+  "name": "Tenbran",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Tenbran/overworld_e0.png",
+      "images/creature/Tenbran/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Tenbran/overworld_n0.png",
+      "images/creature/Tenbran/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Tenbran/overworld_s0.png",
+      "images/creature/Tenbran/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Tenbran/overworld_w0.png",
+      "images/creature/Tenbran/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    169,
+    465
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 29,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1052
+}

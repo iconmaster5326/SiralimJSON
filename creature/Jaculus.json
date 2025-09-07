@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Jaculus/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1123,
+  "item": 1643,
+  "lore": "Jaculuses are not native to Rodia. They belong to a harsh ecosystem found in the mountains east of Yarthe, the northernmost country on the continent where both nations are. They are small, but fast and fierce. In fact, they hardly ever bite or claw at their prey, instead striking with their whole bodies at high speed to kill them. Currently, some mercenaries and bounty hunters in Rodia keep these creatures as companions, though a permit is required, and releasing them is forbidden, as it could destabilize many of the country\u0027s ecosystems.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Jaculus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Jaculus/overworld_e0.png",
+      "images/creature/Jaculus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Jaculus/overworld_n0.png",
+      "images/creature/Jaculus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Jaculus/overworld_s0.png",
+      "images/creature/Jaculus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Jaculus/overworld_w0.png",
+      "images/creature/Jaculus/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1846
+}

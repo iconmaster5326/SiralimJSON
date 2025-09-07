@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AspenEnt/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1003,
+  "item": 1330,
+  "lore": "The Aspen Ent is always accompanied by the unmistakable sound of the birds nesting in its head. Although it respects the cycle of life, it does not allow predators to feed on its guests. Many animals fear it for this reason, although this creature never goes beyond scaring them.",
+  "menagerieDialog": [
+    "There is nothing quite like the clean air of a Rodian forest.",
+    "I\u0027ll make short work of anyone who dares desecrate nature.",
+    "This castle smells like a wasteland. I would prefer to leave this place at once.",
+    "I feel invigorated in your presence. Thank you for looking after me.",
+    "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
+  ],
+  "minDepth": 1,
+  "name": "Aspen Ent",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AspenEnt/overworld_e0.png",
+      "images/creature/AspenEnt/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AspenEnt/overworld_n0.png",
+      "images/creature/AspenEnt/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AspenEnt/overworld_s0.png",
+      "images/creature/AspenEnt/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AspenEnt/overworld_w0.png",
+      "images/creature/AspenEnt/overworld_w1.png"
+    ]
+  },
+  "race": "Ent",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 43,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 1576
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HanyacTremor/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1005,
+  "item": 1332,
+  "lore": "The forested mountains of Neralim were the scene of vicious battles during the Watcher War, thousands of years before it became a kingdom. When it was all over, some of those mountains seemed to decide it was time to get up and leave.\\n\\nSummers in Neralim can be harsh due to the extreme heat and infrequent rains. When the vegetation starts to suffer, the Hanyac Tremor carries water from the rivers to help the forests of the kingdom.",
+  "menagerieDialog": [
+    "(It seems to be infested with all manner of parasites. It\u0027s so care-free that it doesn\u0027t even groom itself!)",
+    "(This creature has propped itself up by its arms and is repeatedly slamming its torso into the ground in an attempt to start an earthquake. Real mature.)",
+    "(Despite its ultra-punchable face, this creature seems to be especially intelligent for a Tremor.)",
+    "(It\u0027s gazing upward at a nest of birds that have apparently decided to call its forehead home.)",
+    "(It\u0027s stomping down with its fists, one at a time. Annoying.)"
+  ],
+  "minDepth": 1,
+  "name": "Hanyac Tremor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HanyacTremor/overworld_e0.png",
+      "images/creature/HanyacTremor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HanyacTremor/overworld_n0.png",
+      "images/creature/HanyacTremor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HanyacTremor/overworld_s0.png",
+      "images/creature/HanyacTremor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HanyacTremor/overworld_w0.png",
+      "images/creature/HanyacTremor/overworld_w1.png"
+    ]
+  },
+  "race": "Tremor",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 15,
+    "health": 29,
+    "intelligence": 14,
+    "speed": 24
+  },
+  "trait": 1578
+}

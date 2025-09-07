@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/AncestralPhoenix/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 64,
+  "item": 439,
+  "lore": "When they reach a certain age, Phoenixes can decide to burst into flames. They emerge from the ashes as chicks that retain the memories of their previous life.\\n\\nThe Ancestral Phoenix has direct control over the lives of other creatures. For a brief moment, it can transfer its ability to resurrect through any of its spells. Centuries ago, a famous Mage caught one of these creatures in an attempt to resurrect her lover. However, its ability, like many others, only works for the recently deceased.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
+    "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
+    "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
+    "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \u0022revives\u0022, it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
+    "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
+  ],
+  "minDepth": 1,
+  "name": "Ancestral Phoenix",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AncestralPhoenix/overworld_e0.png",
+      "images/creature/AncestralPhoenix/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AncestralPhoenix/overworld_n0.png",
+      "images/creature/AncestralPhoenix/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AncestralPhoenix/overworld_s0.png",
+      "images/creature/AncestralPhoenix/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AncestralPhoenix/overworld_w0.png",
+      "images/creature/AncestralPhoenix/overworld_w1.png"
+    ]
+  },
+  "race": "Phoenix",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 12,
+    "health": 29,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 354
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PsychicVortex/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 534,
+  "item": 496,
+  "lore": "Vortices are not self-aware, but they have a natural instinct to protect the world and to use their power to help their allies.\\n\\nTime moves slower for the Psychic Vortex, which gives it time to read the magical currents that are released before a spell is cast. This allows it to warn its allies through a mental image of what is about to happen, giving them a chance to avoid the spell.",
+  "menagerieDialog": [
+    "(It whirls around in circles, emitting a powerful light.)",
+    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+  ],
+  "minDepth": 1,
+  "name": "Psychic Vortex",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PsychicVortex/overworld_e0.png",
+      "images/creature/PsychicVortex/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PsychicVortex/overworld_n0.png",
+      "images/creature/PsychicVortex/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PsychicVortex/overworld_s0.png",
+      "images/creature/PsychicVortex/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PsychicVortex/overworld_w0.png",
+      "images/creature/PsychicVortex/overworld_w1.png"
+    ]
+  },
+  "race": "Vortex",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Aeolian)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 12,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 27
+  },
+  "trait": 410
+}

@@ -1,0 +1,29 @@
+{
+  "avatar": 727,
+  "creator": null,
+  "icon": "images/god/Aeolian.png",
+  "id": 5,
+  "name": "Aeolian",
+  "notes": [],
+  "realm": 1,
+  "relicBigIcon": "images/relic/Lamora/relic.png",
+  "relicBonuses": [
+    "After this relic or its bearer {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_BLIGHT}.",
+    "After the bearer is {ACTION_attacked}, this relic {ACTION_attacks} the enemy.",
+    "At the start of its bearer\u0027s turn, this relic {ACTION_casts} [icons,1972]Minor Healing on each enemy with {CONDNAME_DEBUFF_BLIGHT}.",
+    "The bearer is immune to {CONDNAME_DEBUFF_BLIGHT}.",
+    "This relic and its bearer deal additional damage to enemies equal to 15% of the damage that enemy has received from {CONDNAME_DEBUFF_BLIGHT}.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_BLIGHT}, it also afflicts them with {CONDNAME_BUFF_MEND}.",
+    "This relic and its bearer give 50% more healing to enemies with {CONDNAME_DEBUFF_BLIGHT}.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_BLIGHT}, it also afflicts them with {CONDNAME_BUFF_LEECH}.",
+    "This relic {ACTION_casts} spells as if it has 30% more {STAT_intelligence} for each enemy with {CONDNAME_DEBUFF_BLIGHT}.",
+    "After the bearer {ACTION_casts} a healing spell on an enemy with {CONDNAME_DEBUFF_BLIGHT}, this relic {ACTION_casts} [icons,1972]Major Healing on the target."
+  ],
+  "relicName": "Lamora",
+  "relicSmallIcon": "images/relic/Lamora/icon.png",
+  "relicStat": "defense",
+  "relicTitle": "Claws of Aeolian",
+  "title": "God of Frost",
+  "trait": 686,
+  "ultimateSpell": 245
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Surathli/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": 0,
+  "id": 726,
+  "item": null,
+  "lore": "The Goddess of Light detests war and its terrible effects. Throughout history she has tried to stop numerous conflicts that threatened the world. At present, she regrets having helped a ruler of Siralim rise against Rodia and the Gods themselves. Surathli understands that it was her greed for Emblems and that of the other Gods that gave this person so much power. When the Gods gathered, Surathli declared that from then on, they would only accept the Emblems that had fallen in their own realms.",
+  "menagerieDialog": [
+    "This world may never know true peace.",
+    "Peace is not as far-fetched as many people would have you believe. Someday, we will enter an everlasting era of harmony.",
+    "Never give in to greed. I have seen countless kings and queens fall to its corruption.",
+    "Blessings to you, child of light. I hope this day finds you well.",
+    "May the light bless you on this wonderful day, young {PLAYERNAME}."
+  ],
+  "minDepth": 1,
+  "name": "Surathli",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Surathli/overworld_e0.png",
+      "images/creature/Surathli/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Surathli/overworld_n0.png",
+      "images/creature/Surathli/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Surathli/overworld_s0.png",
+      "images/creature/Surathli/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Surathli/overworld_w0.png",
+      "images/creature/Surathli/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    364,
+    409,
+    427
+  ],
+  "sources": [
+    {
+      "god": 0,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 598
+}

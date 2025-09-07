@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MouthofHell/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 190,
+  "item": 335,
+  "lore": "It appeared in Rodia shortly after a Mage first managed to meet and defeat the Pandemonium King. She was somehow able to summon this creature after that, and she invited her colleagues to join her for dinner, to experiment on it and boast of her victory. It did not end well for anyone, as the Mouth of Hell decided to explode into a thousand pieces while they were still eating.",
+  "menagerieDialog": [
+    "Oh, I\u0027m so tired...\\n\\n(It breathes out deeply, throwing your hood back and shaking your hair violently. A loose brick almost hits you.)",
+    "WRRRRAAAAAAGHHHH...\\n\\nUgh... Cough. Ahem. Sorry about that. I think a Troll got caught in my teeth.",
+    "The maximum number of decorations that can be placed inside me is 50. If you wish to place additional decorations, please remove some first.",
+    "I\u0027m a castle within a castle. How strange!",
+    "(Its teeth are chattering, which makes far more noise than you would have imagined.)"
+  ],
+  "minDepth": 1,
+  "name": "Mouth of Hell",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MouthofHell/overworld_e0.png",
+      "images/creature/MouthofHell/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MouthofHell/overworld_n0.png",
+      "images/creature/MouthofHell/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MouthofHell/overworld_s0.png",
+      "images/creature/MouthofHell/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MouthofHell/overworld_w0.png",
+      "images/creature/MouthofHell/overworld_w1.png"
+    ]
+  },
+  "race": "Doom Fortress",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Gonfurian)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 23,
+    "health": 43,
+    "intelligence": 18,
+    "speed": 8
+  },
+  "trait": 251
+}

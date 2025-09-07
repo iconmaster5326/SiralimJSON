@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "Target gains a moderate amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each minion it has.",
+  "god": null,
+  "id": 238,
+  "manuallyCastable": true,
+  "maxCharges": 13,
+  "name": "Dark Transformation",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "one"
+}

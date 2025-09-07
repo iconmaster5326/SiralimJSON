@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Colacanth/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1225,
+  "item": 1433,
+  "lore": "Many are the ships that sail the world\u0027s seas, laden with magical items; but as everyone knows, not all ships reach a safe harbor, or rather, any harbor at all. A large number of these items end up littering the ocean floor, polluting the waters around them. The Colacanth is a deep sea fish that suffered terrible mutations when exposed to this phenomenon, altering its molecular structure completely.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Colacanth",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Colacanth/overworld_e0.png",
+      "images/creature/Colacanth/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Colacanth/overworld_n0.png",
+      "images/creature/Colacanth/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Colacanth/overworld_s0.png",
+      "images/creature/Colacanth/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Colacanth/overworld_w0.png",
+      "images/creature/Colacanth/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 28,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 1741
+}

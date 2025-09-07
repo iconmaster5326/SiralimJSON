@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AgorApocalypse/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 436,
+  "item": 373,
+  "lore": "Vulcanar put a lot of effort into making the Apocalypses look imposing and terrifying, hoping the Watchers would flee when they saw them. Although that never happened, their help was invaluable during the war, as they were able to attack several creatures at once and attract attention to themselves, thanks to their size and appearance. They allowed the inhabitants of towns and cities to escape to a safe place.",
+  "menagerieDialog": [
+    "(Is it really sleeping at a time like this?)",
+    "(It\u0027s rearing its heads around in circles. At this rate, it\u0027s going to break something.)",
+    "(You were always terrified of these creatures as a child, and with good reason. Each head sways around unpredictably, and you constantly struggle to understand its intentions.)",
+    "(Its many heads often get into arguments with each other. It must be tough being an Apocalypse.)",
+    "(All of its heads are swaying around in little circles. You should probably have Nortah check it out and make sure it\u0027s not sick.)"
+  ],
+  "minDepth": 1,
+  "name": "Agor Apocalypse",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AgorApocalypse/overworld_e0.png",
+      "images/creature/AgorApocalypse/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AgorApocalypse/overworld_n0.png",
+      "images/creature/AgorApocalypse/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AgorApocalypse/overworld_s0.png",
+      "images/creature/AgorApocalypse/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AgorApocalypse/overworld_w0.png",
+      "images/creature/AgorApocalypse/overworld_w1.png"
+    ]
+  },
+  "race": "Apocalypse",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 40,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 289
+}

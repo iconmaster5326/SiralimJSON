@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Hurricane/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 204,
+  "item": 529,
+  "lore": "Storms can speak, and they do it all the time, shouting vulgarities over the constant sound of thunder they emit. In addition, they usually electrocute food while it is cooking, trying to compete with the fire to see who can make it boil faster.\\n\\nWhen a Hurricane gets angry, it discharges enough electricity to pulverize creatures the size of a horse, although it prefers inanimate targets like the wheels of a carriage, stores of magic items, and, of course, chimneys.",
+  "menagerieDialog": [
+    "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
+    "(Lightning is brimming from its mouth. It must be eager to fight.)",
+    "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
+    "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
+    "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
+  ],
+  "minDepth": 1,
+  "name": "Hurricane",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Hurricane/overworld_e0.png",
+      "images/creature/Hurricane/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Hurricane/overworld_n0.png",
+      "images/creature/Hurricane/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Hurricane/overworld_s0.png",
+      "images/creature/Hurricane/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Hurricane/overworld_w0.png",
+      "images/creature/Hurricane/overworld_w1.png"
+    ]
+  },
+  "race": "Storm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 443
+}

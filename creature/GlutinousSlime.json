@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GlutinousSlime/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 174,
+  "item": 459,
+  "lore": "The Slimes have different abilities depending on the type of magic that generated the waste they came from.\\n\\nThe Glutinous Slime\u0027s body acts as a catalyst for spells. Although absorbing spells can damage its structure, it does not seem to mind, and always intercepts them to channel their energy and share it with its allies, making them more powerful.",
+  "menagerieDialog": [
+    "(It has an extremely punchable expression on its face.)",
+    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+  ],
+  "minDepth": 1,
+  "name": "Glutinous Slime",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GlutinousSlime/overworld_e0.png",
+      "images/creature/GlutinousSlime/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GlutinousSlime/overworld_n0.png",
+      "images/creature/GlutinousSlime/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GlutinousSlime/overworld_s0.png",
+      "images/creature/GlutinousSlime/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GlutinousSlime/overworld_w0.png",
+      "images/creature/GlutinousSlime/overworld_w1.png"
+    ]
+  },
+  "race": "Slime",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 22,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 12
+  },
+  "trait": 373
+}

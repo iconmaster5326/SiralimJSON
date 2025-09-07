@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UnicornConsecrator/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 181,
+  "item": 93,
+  "lore": "Centuries ago, Unicorns were hunted almost to extinction for the great power said to be contained in their horns, which led to the Council of Rodia issuing a statement that denied those facts.\\n\\nThe Consecrator sometimes appears before injured travelers, but it does not help everyone. Using its peculiar telepathy, it is able to find out whether the person in front of it is an evildoer. If that is the case, that person may be trampled before it goes back the way it came.",
+  "menagerieDialog": [
+    "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
+    "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
+    "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
+    "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
+    "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
+  ],
+  "minDepth": 1,
+  "name": "Unicorn Consecrator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnicornConsecrator/overworld_e0.png",
+      "images/creature/UnicornConsecrator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnicornConsecrator/overworld_n0.png",
+      "images/creature/UnicornConsecrator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnicornConsecrator/overworld_s0.png",
+      "images/creature/UnicornConsecrator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnicornConsecrator/overworld_w0.png",
+      "images/creature/UnicornConsecrator/overworld_w1.png"
+    ]
+  },
+  "race": "Unicorn",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 15,
+    "health": 33,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1
+}

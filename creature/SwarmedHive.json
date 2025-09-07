@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SwarmedHive/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1476,
+  "item": 1731,
+  "lore": "It doesn\u0027t move, it doesn\u0027t speak, and it doesn\u0027t seem alive in the usual sense. However, it emits a constant buzzing that changes in intensity depending on how many creatures come near. Inside, a single conscious swarm acts as one mind, able to leave the hive to build new nests or fiercely protect its home. Unlike regular bee hives, these have no queen\u00E2\u20AC\u201Dthey reproduce by cloning themselves once or even twice before they die.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Swarmed Hive",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SwarmedHive/overworld_e0.png",
+      "images/creature/SwarmedHive/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SwarmedHive/overworld_n0.png",
+      "images/creature/SwarmedHive/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SwarmedHive/overworld_s0.png",
+      "images/creature/SwarmedHive/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SwarmedHive/overworld_w0.png",
+      "images/creature/SwarmedHive/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 2073
+}

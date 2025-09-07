@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AddledLeper/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 610,
+  "item": 265,
+  "lore": "There is a rare disease in Rodia that only affects humans. It was first discovered in Taylor\u0027s time. In its early stages, the disease manifests as painful sores on the skin of the limbs.\\n\\nThe Addled Leper can sometimes be seen standing still, with its eyes fixed on something. It could be a book, a meadow, or the full moon. For a few moments, these sights bring back memories to its mind, and they remember who they were.",
+  "menagerieDialog": [
+    "(It looks at you groggily with a half-baked grin on its face.)",
+    "(This creature will always be picked last for the dodgeball team.)",
+    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+  ],
+  "minDepth": 1,
+  "name": "Addled Leper",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AddledLeper/overworld_e0.png",
+      "images/creature/AddledLeper/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AddledLeper/overworld_n0.png",
+      "images/creature/AddledLeper/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AddledLeper/overworld_s0.png",
+      "images/creature/AddledLeper/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AddledLeper/overworld_w0.png",
+      "images/creature/AddledLeper/overworld_w1.png"
+    ]
+  },
+  "race": "Leper",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 175
+}

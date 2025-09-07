@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/KnightEffigy/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1278,
+  "item": 1787,
+  "lore": "Effigies are firm believers in dismantling class systems. While nobility no longer holds much meaning, remnants of feudalism still linger, and the Knight Effigies are determined to put an end to it. These brave warriors are highly sought after, known for their physical toughness and unmatched swordsmanship, able to keep fighting even in the face of serious wounds.",
+  "menagerieDialog": [
+    "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
+    "Feel the pinprick of my needles! Your pain is my pleasure!",
+    "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
+    "Strike me all you want - your pain will be reflected back tenfold!",
+    "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
+  ],
+  "minDepth": 1,
+  "name": "Knight Effigy",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KnightEffigy/overworld_e0.png",
+      "images/creature/KnightEffigy/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KnightEffigy/overworld_n0.png",
+      "images/creature/KnightEffigy/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KnightEffigy/overworld_s0.png",
+      "images/creature/KnightEffigy/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KnightEffigy/overworld_w0.png",
+      "images/creature/KnightEffigy/overworld_w1.png"
+    ]
+  },
+  "race": "Effigy",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 28,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 12
+  },
+  "trait": 2140
+}

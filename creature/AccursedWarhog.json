@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AccursedWarhog/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1235,
+  "item": 1603,
+  "lore": "In the past, the Asura used Warhogs as frontline troops in their countless battles.\\n\\nAn orc Mage came up with the brilliant idea of repurposing Warhog corpses for battle. However, Accursed Warhogs have no interest in fighting, and need to be thoroughly trained by giving them truffles, and only truffles, as a reward.",
+  "menagerieDialog": [
+    "(It\u0027s busy snorting and sniffing at the ground. Not exactly the smartest creature you\u0027ve ever met.)",
+    "(It\u0027s rolling around in a pile of what you hope is mud.)",
+    "(If your kingdom ever falls on hard times, Warhogs may prove useful in warding off the threat of famine.)",
+    "(It\u0027s proudly holding an apple in its mouth. You doubt it understands the irony of its actions.)",
+    "(Its tusks seem a bit dull. Nortah must be slacking off lately.)"
+  ],
+  "minDepth": 1,
+  "name": "Accursed Warhog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AccursedWarhog/overworld_e0.png",
+      "images/creature/AccursedWarhog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AccursedWarhog/overworld_n0.png",
+      "images/creature/AccursedWarhog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AccursedWarhog/overworld_s0.png",
+      "images/creature/AccursedWarhog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AccursedWarhog/overworld_w0.png",
+      "images/creature/AccursedWarhog/overworld_w1.png"
+    ]
+  },
+  "race": "Warhog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Genaros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 16,
+    "health": 38,
+    "intelligence": 8,
+    "speed": 23
+  },
+  "trait": 1946
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DiamondLuckmantria/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1190,
+  "item": 1575,
+  "lore": "Predators in the forests of Hutika know that Luckmantrias are not easy prey, and that trying to hunt them is a complete waste of time. The universe seems to conspire in their favor, preventing them from being eaten is such creative ways as the fortuitous fall of a tree or a sudden indigestion.\\n\\nWinter is the Diamond Luckmantria\u0027s favorite season. The cold is not a problem for it, and it hides between mounds of snow to rest for long periods of time. If anyone were to discover its location, it is very likely that they will slip and fall flat on the ground.",
+  "menagerieDialog": [
+    "(It flaps its wings excitedly, giving you a great view of its beautiful markings.)",
+    "(You can\u0027t help but feel a bit luckier than usual with this creature in your party.)",
+    "(You carefully study the patterns on its wings. From where did such a marvelous creature come from?)",
+    "(It\u0027s greedily lapping up a bowl of sugar water. Nortah always knows the best food to feed your creatures.)",
+    "(The powder on its wings is said to be poisonous, though you\u0027re not willing to test this theory out for yourself.)"
+  ],
+  "minDepth": 1,
+  "name": "Diamond Luckmantria",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DiamondLuckmantria/overworld_e0.png",
+      "images/creature/DiamondLuckmantria/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DiamondLuckmantria/overworld_n0.png",
+      "images/creature/DiamondLuckmantria/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DiamondLuckmantria/overworld_s0.png",
+      "images/creature/DiamondLuckmantria/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DiamondLuckmantria/overworld_w0.png",
+      "images/creature/DiamondLuckmantria/overworld_w1.png"
+    ]
+  },
+  "race": "Luckmantria",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 7,
+    "defense": 17,
+    "health": 27,
+    "intelligence": 27,
+    "speed": 27
+  },
+  "trait": 1913
+}

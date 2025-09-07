@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/TheLost/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 712,
+  "item": 752,
+  "lore": "The Auditors are a group of unknown individuals who have been safeguarding the stability of the world for centuries. Their existence is considered a myth, and rumors suggest that their members have found the key to eternal life. The organization\u0027s network of contacts is broad enough to have executors in every continent, and though they usually are not formal members of the organization, they are also granted the gift of eternal life on rare occasions. When the Auditors decide to recruit an asset, and he or she refuses to appear before them, The Lost takes action. This creature appears during the night to subdue and gag the \u0022interested party\u0022 with its extraordinary strength. The Lost was exiled centuries ago by its own kind, whose only habitat is on an island lost in the depths of the Golden Sea.",
+  "menagerieDialog": [
+    "(This creature gets its name from the fact that it was an unknown species until very recently. You\u0027re fortunate to have one in your possession.)",
+    "(This creature never attempts to communicate with you. Despite the countless battles you\u0027ve shared together, you\u0027re still complete strangers to one another.)",
+    "(It only moves while your back is facing it. Disturbing.)",
+    "(It loves to whip its hair back and forth.)",
+    "(You should really consider renaming this creature to \u0022The Found\u0022 at some point.)"
+  ],
+  "minDepth": 1,
+  "name": "The Lost",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TheLost/overworld_e0.png",
+      "images/creature/TheLost/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TheLost/overworld_n0.png",
+      "images/creature/TheLost/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TheLost/overworld_s0.png",
+      "images/creature/TheLost/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TheLost/overworld_w0.png",
+      "images/creature/TheLost/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    170,
+    464
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 797
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/BadApple/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1448,
+  "item": 1737,
+  "lore": "Everyone knows rotten fruit can be dangerous, but some pieces are deadly, and not just when eaten. Some trees in Rodia, due to past battles or nearby rituals, are infused with magic. When their fruit begins to rot, it absorbs this magic and comes to life. The result is a vicious, mobile creature that will attack anyone unlucky enough to cross its path.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Bad Apple",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BadApple/overworld_e0.png",
+      "images/creature/BadApple/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BadApple/overworld_n0.png",
+      "images/creature/BadApple/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BadApple/overworld_s0.png",
+      "images/creature/BadApple/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BadApple/overworld_w0.png",
+      "images/creature/BadApple/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 2079
+}

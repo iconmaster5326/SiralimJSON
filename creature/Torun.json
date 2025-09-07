@@ -1,0 +1,62 @@
+{
+  "battleSprite": "images/creature/Torun/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": 13,
+  "id": 739,
+  "item": null,
+  "lore": "WHAT THE !@#$ ARE YOU LOOKING AT? WERE YOU EXPECTING SOME KIND OF EPIC STORY IN THESE LINES? ABOUT HOW A HIGHER POWER CARVED ME INTO A ROCK? NO, YOU PIECE OF !@#$. THAT\u0027S BULL!@#$. I AM ETERNAL, AS OLD AS THE !@#$ING UNIVERSE, AND I DON\u0027T LIKE YOUR PIG FACE. COME ON, WHY DON\u0027T YOU GO DO SOMETHING USEFUL INSTEAD OF READING MILES OF TEXT? I DON\u0027T KNOW WHAT THE IDIOTS WHO WROTE THIS WERE THINKING. IT !@#$ES ME OFF THAT HUMANS ARE SO USELESS. ANYWAY. GO !@#$ YOURSELF.",
+  "menagerieDialog": [
+    "YOU COULDN\u0027T !@#$ INTO YOUR OWN HANDS IF THEY WERE SEWN TO YOUR ASS.",
+    "ONE, TWO, BUCKLE MY SHOE. THREE, FOUR, !@#$ YOU, NERD.",
+    "I HOPE A SHARK TRIES TO SUCK YOUR !@#$.",
+    "EAT HEMP AND !@#$ ROPE, !@#$FACE.",
+    "I LOATHE THE DAY YOU FIRST SET YOUR DIRTY PEASANT HANDS UPON MY ALTAR AND DECIDED TO CURSE ME WITH YOUR PRESENCE FOR THE REST OF YOUR SHORT-BUT-NOT-SHORT-ENOUGH LIFE."
+  ],
+  "minDepth": 1,
+  "name": "Torun",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Torun/overworld_e0.png",
+      "images/creature/Torun/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Torun/overworld_n0.png",
+      "images/creature/Torun/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Torun/overworld_s0.png",
+      "images/creature/Torun/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Torun/overworld_w0.png",
+      "images/creature/Torun/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    367,
+    412,
+    423,
+    428,
+    433
+  ],
+  "sources": [
+    {
+      "god": 13,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 19,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 19
+  },
+  "trait": 610
+}

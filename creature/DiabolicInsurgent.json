@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DiabolicInsurgent/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 315,
+  "item": 328,
+  "lore": "This fiendish creature specializes in making a racket before the Diabolic Horde\u0027s incursions, distracting their foes before they have a chance to regroup. If the enemy has a bonfire, it whips it, creating a cloud of ash and smoke to signify the start of the battle. It is also in charge of taming the beasts on which the Diabolic Horde rides, making sure that, despite their violent nature, they only bite their opponents.",
+  "menagerieDialog": [
+    "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
+    "What are we doing here? Let\u0027s get moving!",
+    "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
+    "(It\u0027s busy feeding rotten meat to its pups.)",
+    "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
+  ],
+  "minDepth": 1,
+  "name": "Diabolic Insurgent",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DiabolicInsurgent/overworld_e0.png",
+      "images/creature/DiabolicInsurgent/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DiabolicInsurgent/overworld_n0.png",
+      "images/creature/DiabolicInsurgent/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DiabolicInsurgent/overworld_s0.png",
+      "images/creature/DiabolicInsurgent/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DiabolicInsurgent/overworld_w0.png",
+      "images/creature/DiabolicInsurgent/overworld_w1.png"
+    ]
+  },
+  "race": "Diabolic Horde",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 244
+}

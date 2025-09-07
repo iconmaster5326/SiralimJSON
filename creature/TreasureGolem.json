@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/TreasureGolem/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 199,
+  "item": null,
+  "lore": "This rare specimen is believed to have a manufacturing defect. Self-aware, the Treasure Golem owes its name to the fact that it enjoys collecting bright objects, which is why many Magi actively hunt down these creatures for their loot. At night, it usually looks for a cave in which to light a fire so that it can stare at its belongings in the light of the flames until dawn.",
+  "menagerieDialog": [
+    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+    "(It\u0027s... shadowboxing. Weird.)",
+    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+  ],
+  "minDepth": 1,
+  "name": "Treasure Golem",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TreasureGolem/overworld_e0.png",
+      "images/creature/TreasureGolem/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TreasureGolem/overworld_n0.png",
+      "images/creature/TreasureGolem/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TreasureGolem/overworld_s0.png",
+      "images/creature/TreasureGolem/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TreasureGolem/overworld_w0.png",
+      "images/creature/TreasureGolem/overworld_w1.png"
+    ]
+  },
+  "race": "Golem",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Animal Shelters",
+      "type": "special"
+    },
+    {
+      "desc": "Soup Kitchens",
+      "type": "special"
+    },
+    {
+      "desc": "Nursing Homes",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 539
+}

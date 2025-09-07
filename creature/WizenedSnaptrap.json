@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WizenedSnaptrap/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 829,
+  "item": 1041,
+  "lore": "Like an azure halo under the ceiling of stars, Eferia performs a phantasmagorical dance of whispers and blurred visions of what hundreds of creatures lived through until the day a Snaptrap swallowed them whole. The undisputed protagonists of this dance of life and death are the Wisened Snaptraps, unforgiving hunters who also feed on other Snaptraps. When the sun goes down and night falls, they can sometimes block the sky over the untamed jungle with all the memories that were left inside of them.",
+  "menagerieDialog": [
+    "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
+    "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
+    "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
+    "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
+    "(A few feathers are stuck in its teeth. What could it have eaten?)"
+  ],
+  "minDepth": 1,
+  "name": "Wizened Snaptrap",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WizenedSnaptrap/overworld_e0.png",
+      "images/creature/WizenedSnaptrap/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WizenedSnaptrap/overworld_n0.png",
+      "images/creature/WizenedSnaptrap/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WizenedSnaptrap/overworld_s0.png",
+      "images/creature/WizenedSnaptrap/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WizenedSnaptrap/overworld_w0.png",
+      "images/creature/WizenedSnaptrap/overworld_w1.png"
+    ]
+  },
+  "race": "Snaptrap",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 21,
+    "speed": 11
+  },
+  "trait": 1097
+}

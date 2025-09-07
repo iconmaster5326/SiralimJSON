@@ -1,0 +1,43 @@
+{
+  "bossDialog": [
+    "Have you ever once stopped to consider the damage you\u0027ve done to this world? I will pay it back unto you tenfold!",
+    "I take no pride in this violent action, but it is necessary. You wouldn\u0027t understand.",
+    "This alcove and everything within it is protected. I will not allow you to defile it."
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 15% less damage from attacks from {CLASS_Nature} creatures.",
+    "5": "Your creatures take 15% less damage from attacks from {CLASS_Nature} creatures.",
+    "8": "Your creatures take 15% less damage from attacks from {CLASS_Nature} creatures."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    626,
+    785
+  ],
+  "icon": "images/race/Dryad.png",
+  "master": {
+    "costume": 326,
+    "dialog": "Dryads empower their allies\u0027 buffs to make them even stronger yet. Think your creatures can overcome my Dryads\u0027 magic? We shall see.",
+    "item": 1274,
+    "name": "Ryd",
+    "trait": 1427
+  },
+  "name": "Dryad",
+  "notes": [],
+  "skins": [
+    7,
+    82,
+    83,
+    84,
+    666,
+    667
+  ]
+}

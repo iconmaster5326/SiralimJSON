@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DireWerewolf/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1146,
+  "item": 1666,
+  "lore": "Some of the werewolves who have recently appeared in Undolin act more instinctively, and their appearance clearly differs from the others. For a time it was thought that it was a more powerful transformation, but a well-known scientist and writer proved that these creatures are actually weremen. After an exhaustive investigation, the authorities of Rodia in collaboration with this eminent citizen discovered that a spell was cast on some wolves to turn them into front-line warriors by a crime syndicate that trafficked with creatures like Vulpes.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Dire Werewolf",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DireWerewolf/overworld_e0.png",
+      "images/creature/DireWerewolf/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DireWerewolf/overworld_n0.png",
+      "images/creature/DireWerewolf/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DireWerewolf/overworld_s0.png",
+      "images/creature/DireWerewolf/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DireWerewolf/overworld_w0.png",
+      "images/creature/DireWerewolf/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1869
+}

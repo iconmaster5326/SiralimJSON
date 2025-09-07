@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/ClawingCockatrice/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 819,
+  "item": 1051,
+  "lore": "Of all the Cockatrices that exist today, the Clawing Cockatrice has changed the least compared to its common ancestor. It continues to inhabit temperate forests and mountains where it can hunt relatively effortlessly. Its most notable adaptation is its webbed tail, which allows it to swim and dive at high speeds, making it easier for it to catch river fish, a staple of its current diet.",
+  "menagerieDialog": [
+    "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
+    "(What a ridiculous looking, yet endearing creature.)",
+    "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
+    "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
+    "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
+  ],
+  "minDepth": 1,
+  "name": "Clawing Cockatrice",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ClawingCockatrice/overworld_e0.png",
+      "images/creature/ClawingCockatrice/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ClawingCockatrice/overworld_n0.png",
+      "images/creature/ClawingCockatrice/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ClawingCockatrice/overworld_s0.png",
+      "images/creature/ClawingCockatrice/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ClawingCockatrice/overworld_w0.png",
+      "images/creature/ClawingCockatrice/overworld_w1.png"
+    ]
+  },
+  "race": "Cockatrice",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 18,
+    "health": 36,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1083
+}

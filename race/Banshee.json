@@ -1,0 +1,42 @@
+{
+  "bossDialog": [
+    "Come closer, traveler... Come closer... and DIE!",
+    "This is my domain. Your precious gods can\u0027t save you now.",
+    "Your screaming death shall be music to my ears!"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures\u0027 Spell Gems have 1 additional {STAT_charge}.",
+    "6": "Your creatures\u0027 Spell Gems have 1 additional {STAT_charge}.",
+    "9": "Your creatures\u0027 Spell Gems have 1 additional {STAT_charge}."
+  },
+  "cards": 9,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    658,
+    979
+  ],
+  "icon": "images/race/Banshee.png",
+  "master": {
+    "costume": 302,
+    "dialog": "Banshees have access to empowered versions of different Spell Gems. If you don\u0027t manage to seal their gems early on in battle, you\u0027ll be sorry!\\n\\nWith that said, it\u0027s time to du-du-du-du-du-duel!",
+    "item": 1164,
+    "name": "Shai",
+    "trait": 1403
+  },
+  "name": "Banshee",
+  "notes": [],
+  "skins": [
+    23,
+    197,
+    198,
+    636
+  ]
+}

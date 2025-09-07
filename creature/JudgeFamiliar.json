@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/JudgeFamiliar/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 520,
+  "item": 506,
+  "lore": "Familiars can communicate telepathically with other intelligent creatures, but their topics of conversation are largely restricted to the scientific and commercial fields.\\n\\nAlthough it can stay at a comfortable distance in the air while casting spells, the Judge Familiar does not do anything halfway, so it performs aerial attacks and tries to slice off the heads of its enemies with its scythe.",
+  "menagerieDialog": [
+    "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
+    "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
+    "Did you know that an Eft can live for up to 20 days without water?",
+    "(Its eyes scan its surroundings with innocent curiosity.)",
+    "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
+  ],
+  "minDepth": 1,
+  "name": "Judge Familiar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/JudgeFamiliar/overworld_e0.png",
+      "images/creature/JudgeFamiliar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/JudgeFamiliar/overworld_n0.png",
+      "images/creature/JudgeFamiliar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/JudgeFamiliar/overworld_s0.png",
+      "images/creature/JudgeFamiliar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/JudgeFamiliar/overworld_w0.png",
+      "images/creature/JudgeFamiliar/overworld_w1.png"
+    ]
+  },
+  "race": "Familiar",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Zonte)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 26,
+    "speed": 16
+  },
+  "trait": 420
+}

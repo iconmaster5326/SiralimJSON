@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Alakadan/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 724,
+  "item": 753,
+  "lore": "Alakadan is the eternal companion of Yllor, and both of them have guarded the gates to the Refuge of the Magi side by side since its construction. When the city of Vanelin was besieged in a conflict, they fought together with the Red Hat order against the army of Siralim. The kingdom of Vanelin fell in the end, but Alakadan and Yllor managed to escape and return to Zonte, only to discover that their home had also been taken over by the ruler of Siralim. When Yllor learned of this, Alakadan had to paralyze him with the poison of his sting to prevent him from attacking without first assessing his possibilities. After convincing him that his plan, or lack thereof, was suicide, they agreed to split up to ask for help in liberating the different kingdoms and realms from the tyranny of the invaders.",
+  "menagerieDialog": [
+    "I prefer to spend my time in a much warmer climate. This castle doesn\u0027t hold in the heat very well.",
+    "Arrogance is confidence.",
+    "(It\u0027s breaking apart a piece of cheese with its pincers. You should leave it alone and allow it to eat.)",
+    "Blood is the seal of devotion.",
+    "(While this creature is normally quite talkative, it doesn\u0027t seem to want to be bothered right now. It\u0027s turned away from you, clicking its pincers together methodically.)"
+  ],
+  "minDepth": 1,
+  "name": "Alakadan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Alakadan/overworld_e0.png",
+      "images/creature/Alakadan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Alakadan/overworld_n0.png",
+      "images/creature/Alakadan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Alakadan/overworld_s0.png",
+      "images/creature/Alakadan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Alakadan/overworld_w0.png",
+      "images/creature/Alakadan/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    151,
+    480
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 799
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/EmeraldCarbuncle/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 929,
+  "item": 931,
+  "lore": "Humans hunted Carbuncles to near-total extinction as they waged war against their neighboring towns and cities. The Watcher War began soon after.\\n\\nEmerald Carbuncles are braver and more cunning than the rest of their species. Taking advantage of their cute and delicate appearance, they approach children who are playing away from their parents and attract them by levitating happily around them. When it gets their attention, it leads them into the middle of the forest until a predator finds them and kills them.",
+  "menagerieDialog": [
+    "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
+    "(The jewel on its forehead shines brightly.)",
+    "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
+    "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
+    "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
+  ],
+  "minDepth": 1,
+  "name": "Emerald Carbuncle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EmeraldCarbuncle/overworld_e0.png",
+      "images/creature/EmeraldCarbuncle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EmeraldCarbuncle/overworld_n0.png",
+      "images/creature/EmeraldCarbuncle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EmeraldCarbuncle/overworld_s0.png",
+      "images/creature/EmeraldCarbuncle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EmeraldCarbuncle/overworld_w0.png",
+      "images/creature/EmeraldCarbuncle/overworld_w1.png"
+    ]
+  },
+  "race": "Carbuncle",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 13,
+    "health": 35,
+    "intelligence": 23,
+    "speed": 23
+  },
+  "trait": 1203
+}

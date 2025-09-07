@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Reclusa/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": 27,
+  "id": 1100,
+  "item": null,
+  "lore": "Even though everyone knows that she is really the Goddess of Luck, she prefers the term \u0022Uncertainty\u0022 simply because she thinks it sounds more mysterious and cool. Her realm has been visited since practically the very first moment it was created, and it quickly became famous since, in short, it is a casino. Her games of chance have raised controversy among the different nations of the world, and some recommend their citizens not to try their luck at the games of chance that proliferate there. Of course, there is no shortage of thieves and murderers there, but most criminals follow a code dictated centuries ago by a famous pirate named Rainer that forbids crime in Reclusa\u0027s domain on pain of death.",
+  "menagerieDialog": [
+    "Do not waste time attempting to calm the storm. Calm your mind, and the storm shall pass on its own.",
+    "There is no fear for one whose mind is not occupied by greed.",
+    "If you are unable to appreciate what you already have, you will never be happy.",
+    "Sometimes, doing nothing at all is the most beneficial path one can take.",
+    "The longer we run from our problems, the closer we get to being undone by them."
+  ],
+  "minDepth": 1,
+  "name": "Reclusa",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Reclusa/overworld_e0.png",
+      "images/creature/Reclusa/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Reclusa/overworld_n0.png",
+      "images/creature/Reclusa/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Reclusa/overworld_s0.png",
+      "images/creature/Reclusa/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Reclusa/overworld_w0.png",
+      "images/creature/Reclusa/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    598,
+    603,
+    612
+  ],
+  "sources": [
+    {
+      "god": 27,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1986
+}

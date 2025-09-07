@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/SilverboneConstruct/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 757,
+  "item": 68,
+  "lore": "At present, some Constructs serve as labor for the heavier jobs such as construction or mining. When the war against an old ruler of Siralim came to an end, they became important assets in the reconstruction of the country.\\n\\nWhen a Silverbone Construct meets an enemy, the eyes on its armor\u0027s skulls shine with a ghostly blue flame. An eerie voice then emanates from within, whispering continuously, until it suddenly explodes into a bloodcurdling scream. This feature was added for frightening enemies, but in the end, it mainly served as an alarm during attacks, and to scare civilians so they got to safety more quickly.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Silverbone Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SilverboneConstruct/overworld_e0.png",
+      "images/creature/SilverboneConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SilverboneConstruct/overworld_n0.png",
+      "images/creature/SilverboneConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SilverboneConstruct/overworld_s0.png",
+      "images/creature/SilverboneConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SilverboneConstruct/overworld_w0.png",
+      "images/creature/SilverboneConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    39
+  ],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 22,
+    "health": 37,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1009
+}

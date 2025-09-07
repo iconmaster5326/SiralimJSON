@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Blizzard/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 769,
+  "item": 41,
+  "lore": "These creatures only live in the high mountains where freezing winds blow without pause. However, they travel to snow-covered towns and cities during the winter and slide around the ground, leaving a trail of ice that Brownies and children from many species use as a skating rink. They do not usually cause problems, so adults let their children play with them, but they get restless if they are forced to remain in a warm location, producing hail and cursing while moving around in a frenzy.",
+  "menagerieDialog": [
+    "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
+    "(Lightning is brimming from its mouth. It must be eager to fight.)",
+    "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
+    "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
+    "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
+  ],
+  "minDepth": 1,
+  "name": "Blizzard",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Blizzard/overworld_e0.png",
+      "images/creature/Blizzard/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Blizzard/overworld_n0.png",
+      "images/creature/Blizzard/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Blizzard/overworld_s0.png",
+      "images/creature/Blizzard/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Blizzard/overworld_w0.png",
+      "images/creature/Blizzard/overworld_w1.png"
+    ]
+  },
+  "race": "Storm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 35,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1022
+}

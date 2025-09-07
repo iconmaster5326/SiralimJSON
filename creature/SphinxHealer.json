@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SphinxHealer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 420,
+  "item": 190,
+  "lore": "The people of Kaito venerated the Sphinxes and felt protected in their presence. They usually made offerings to these creatures in the towns and cities of the Empire, especially to Sphinx Healers. The sick and those unable to walk visited the temples where these creatures lived and offered them great gifts. In return, this creature uttered strange words and the orb it carried with it emitted a dim light. The diseases disappeared and the injured could walk again.",
+  "menagerieDialog": [
+    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+    "Let us take our leave and fight for glory!",
+    "Things are not always as they seem. My advice to you is to question everything.",
+    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+  ],
+  "minDepth": 1,
+  "name": "Sphinx Healer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SphinxHealer/overworld_e0.png",
+      "images/creature/SphinxHealer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SphinxHealer/overworld_n0.png",
+      "images/creature/SphinxHealer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SphinxHealer/overworld_s0.png",
+      "images/creature/SphinxHealer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SphinxHealer/overworld_w0.png",
+      "images/creature/SphinxHealer/overworld_w1.png"
+    ]
+  },
+  "race": "Sphinx",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Yseros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 10,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 100
+}

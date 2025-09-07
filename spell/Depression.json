@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "Target is afflicted with a random debuff for each time it has been healed in the current battle.",
+  "god": null,
+  "id": 496,
+  "manuallyCastable": true,
+  "maxCharges": 12,
+  "name": "Depression",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DEBUFF"
+  ],
+  "targets": "one"
+}

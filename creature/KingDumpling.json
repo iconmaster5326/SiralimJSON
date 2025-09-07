@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/KingDumpling/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 968,
+  "item": 1287,
+  "lore": "This is the largest Dumpling by far, an unusual specimen that cannot be found easily. It lives in small palaces that have mysteriously been built in impossible places, such as cold, rugged mountains without any flora or fauna, hidden from view from almost every angle. These buildings are the birthplace of all Dumplings, so they are riddled with these endearing creatures. Some are of the opinion that this story is nothing more than a fairytale, while others desperately search for the King Dumpling\u0027s home so they can capture all possible Dumplings and earn a fortune. If threatened, King Dumpling becomes a formidable foe that all Dumplings obey without question.",
+  "menagerieDialog": [
+    "(It yawns, making a cute, squeaking sound in the process.)",
+    "(How can something so cute exist in a world like this?)",
+    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+    "(It blushes and giggles every time you come near it.)",
+    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+  ],
+  "minDepth": 1,
+  "name": "King Dumpling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KingDumpling/overworld_e0.png",
+      "images/creature/KingDumpling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KingDumpling/overworld_n0.png",
+      "images/creature/KingDumpling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KingDumpling/overworld_s0.png",
+      "images/creature/KingDumpling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KingDumpling/overworld_w0.png",
+      "images/creature/KingDumpling/overworld_w1.png"
+    ]
+  },
+  "race": "Dumpling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nether Realm",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 45,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 1527
+}

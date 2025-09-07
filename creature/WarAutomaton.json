@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/WarAutomaton/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 814,
+  "item": 1060,
+  "lore": "After what happened at Irizen, the Automatons left the town and scattered throughout Rodia. Today they can be seen anywhere, serving adventurers, criminal gangs, or just wandering aimlessly.\\n\\nThe War Automaton is the model most commonly produced by the Rodian government. It consumes less magic than the other Automatons, it is able to sharpen its sword at any time using its mouth, and it has the flag of the kingdom for which it fights drawn on its shield.",
+  "menagerieDialog": [
+    "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
+    "I am yours. To command.",
+    "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
+    "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
+    "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
+  ],
+  "minDepth": 1,
+  "name": "War Automaton",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WarAutomaton/overworld_e0.png",
+      "images/creature/WarAutomaton/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WarAutomaton/overworld_n0.png",
+      "images/creature/WarAutomaton/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WarAutomaton/overworld_s0.png",
+      "images/creature/WarAutomaton/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WarAutomaton/overworld_w0.png",
+      "images/creature/WarAutomaton/overworld_w1.png"
+    ]
+  },
+  "race": "Automaton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    42
+  ],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1079
+}

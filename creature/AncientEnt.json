@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/AncientEnt/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 627,
+  "item": 561,
+  "lore": "Human activity, especially during wars, has caused serious damage to the world\u0027s forests. After the Forest Priests first appeared, some Magi realized that magic could affect nature, and even allow them to use nature in their favor. Thus, the first Nature Magi were born.\\n\\nAncient Ents are usually harmless, but they can be merciless when their forest is threatened, especially by humans, whom they sometimes impale on the branch of a tree as a warning to others.",
+  "menagerieDialog": [
+    "There is nothing quite like the clean air of a Rodian forest.",
+    "I\u0027ll make short work of anyone who dares desecrate nature.",
+    "This castle smells like a wasteland. I would prefer to leave this place at once.",
+    "I feel invigorated in your presence. Thank you for looking after me.",
+    "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
+  ],
+  "minDepth": 1,
+  "name": "Ancient Ent",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AncientEnt/overworld_e0.png",
+      "images/creature/AncientEnt/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AncientEnt/overworld_n0.png",
+      "images/creature/AncientEnt/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AncientEnt/overworld_s0.png",
+      "images/creature/AncientEnt/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AncientEnt/overworld_w0.png",
+      "images/creature/AncientEnt/overworld_w1.png"
+    ]
+  },
+  "race": "Ent",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 22,
+    "health": 37,
+    "intelligence": 22,
+    "speed": 12
+  },
+  "trait": 475
+}

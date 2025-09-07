@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/EternaldewGemling/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 935,
+  "item": 938,
+  "lore": "When Gemlings came to life in the Refuge of the Magi, they turned on their creators and mercilessly annihilated hundreds of them. Nothing could stop them.\\n\\nEternaldew Gemlings have the ability to condense the humidity around them to produce water in large quantities. However, in captivity by humans, they produce another compound by adding an oxygen atom to it.",
+  "menagerieDialog": [
+    "(It glows softly.)",
+    "(It begins to vibrate violently as you draw closer to it.)",
+    "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
+    "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
+    "(It twirls around in circles, giving you a good look at just how polished it is.)"
+  ],
+  "minDepth": 1,
+  "name": "Eternaldew Gemling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EternaldewGemling/overworld_e0.png",
+      "images/creature/EternaldewGemling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EternaldewGemling/overworld_n0.png",
+      "images/creature/EternaldewGemling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EternaldewGemling/overworld_s0.png",
+      "images/creature/EternaldewGemling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EternaldewGemling/overworld_w0.png",
+      "images/creature/EternaldewGemling/overworld_w1.png"
+    ]
+  },
+  "race": "Gemling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Aurum)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 22,
+    "health": 26,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 1198
+}

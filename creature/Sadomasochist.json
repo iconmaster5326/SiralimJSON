@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Sadomasochist/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 691,
+  "item": 482,
+  "lore": "Finding the Torture Chamber was easy for the seven Rodian adventurers, but traversing its corridors turned out to be harder. Together they had to defeat not only Tartarith\u0027s Doomguards, but also the worst criminals in the country who had been sent there.\\n\\nEven in the most difficult battles, the Sadomasochist prefers to cause endless superficial wounds to make its enemies suffer instead of killing them.",
+  "menagerieDialog": [
+    "(It\u0027s casually whittling away at its arm with a knife.)",
+    "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
+    "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
+    "(This creature takes a sickening amount of pleasure in being wounded.)",
+    "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
+  ],
+  "minDepth": 1,
+  "name": "Sadomasochist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Sadomasochist/overworld_e0.png",
+      "images/creature/Sadomasochist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Sadomasochist/overworld_n0.png",
+      "images/creature/Sadomasochist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Sadomasochist/overworld_s0.png",
+      "images/creature/Sadomasochist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Sadomasochist/overworld_w0.png",
+      "images/creature/Sadomasochist/overworld_w1.png"
+    ]
+  },
+  "race": "Masochist",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 8,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 23
+  },
+  "trait": 396
+}

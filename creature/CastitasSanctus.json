@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/CastitasSanctus/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 408,
+  "item": 169,
+  "lore": "After twenty years of research with Ainsworth, Spielrein left the Refuge of the Magi, taking with her eight Nether Orbs with the help of another Mage.\\n\\nThere are many people in this world who let carnal desires control their lives. Deception, theft and extortion are some of the tools employed by such people. When the Castitas Sanctus\u0027s flower comes into contact with these individuals, their libido is permanently replaced by nausea and vomiting.",
+  "menagerieDialog": [
+    "(You\u0027ve always found these sort of creatures unnerving.)",
+    "(It seems vengeful. The next few battles should be quite interesting.)",
+    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+    "(This creature would make an excellent mascot for {CASTLENAME}.)",
+    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+  ],
+  "minDepth": 1,
+  "name": "Castitas Sanctus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CastitasSanctus/overworld_e0.png",
+      "images/creature/CastitasSanctus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CastitasSanctus/overworld_n0.png",
+      "images/creature/CastitasSanctus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CastitasSanctus/overworld_s0.png",
+      "images/creature/CastitasSanctus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CastitasSanctus/overworld_w0.png",
+      "images/creature/CastitasSanctus/overworld_w1.png"
+    ]
+  },
+  "race": "Sanctus",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 79
+}

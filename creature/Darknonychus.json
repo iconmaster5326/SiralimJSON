@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Darknonychus/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1456,
+  "item": 1784,
+  "lore": "Of all the Elementasaurs, the Darknonychus is the most avoided\u00E2\u20AC\u201Deven by its own kind. Its body seems out of sync with space-time, constantly shifting and distorting, making it an extremely dangerous foe when it attacks. Strangely, small wildlife around it either thrives or withers in moments, with no clear pattern.",
+  "menagerieDialog": [
+    "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
+    "RAWR! Time to show these puny creatures what real power looks like!",
+    "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
+    "My hide is infused with primal magic. Nothing can harm me!",
+    "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
+  ],
+  "minDepth": 1,
+  "name": "Darknonychus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Darknonychus/overworld_e0.png",
+      "images/creature/Darknonychus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Darknonychus/overworld_n0.png",
+      "images/creature/Darknonychus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Darknonychus/overworld_s0.png",
+      "images/creature/Darknonychus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Darknonychus/overworld_w0.png",
+      "images/creature/Darknonychus/overworld_w1.png"
+    ]
+  },
+  "race": "Elementasaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 18
+  },
+  "trait": 2137
+}

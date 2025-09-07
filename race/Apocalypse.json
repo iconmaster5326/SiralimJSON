@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(Issuing three simultaneous war cries at once in a deafening tritone, the Apocalypse surges forward to meet you in battle!)",
+    "(The Apocalypse weaves its heads around, blocking your approach to the treasure hoard. It seems to have claimed the treasure for its own!)",
+    "(The huge beast rises up, its bulk and three heads towering over you. You take a moment to admire its sheer power before ordering your creatures to attack!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_SCORN} deal 10% less damage.",
+    "4": "Enemies with {CONDNAME_DEBUFF_SCORN} take 10% more damage.",
+    "7": "Enemies with {CONDNAME_DEBUFF_SCORN} have a 5% chance for their spells to fizzle."
+  },
+  "cards": 7,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    435,
+    436,
+    437,
+    438,
+    439,
+    692,
+    972
+  ],
+  "icon": "images/race/Apocalypse.png",
+  "master": {
+    "costume": 297,
+    "dialog": "Apocalypses grow exponentially more powerful as the battle drags on. If you want to defeat me, you\u0027ll have to do it fast!",
+    "item": 1174,
+    "name": "Gregnan",
+    "trait": 1398
+  },
+  "name": "Apocalypse",
+  "notes": [],
+  "skins": [
+    28,
+    34,
+    284,
+    516
+  ]
+}

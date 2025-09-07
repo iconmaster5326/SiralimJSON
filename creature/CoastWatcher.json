@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/CoastWatcher/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 470,
+  "item": 483,
+  "lore": "Watchers appeared in this world for the first time after the humans started to use magic in their wars.\\n\\nThis creature likes to go unnoticed near statues in temples, waiting for the moment when someone notices its presence to attack. The Coast Watcher\u0027s spells are more powerful when its opponent has little ability to cast them.",
+  "menagerieDialog": [
+    "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
+    "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
+    "(It blinks at you bashfully. It must respect you quite a lot.)",
+    "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
+    "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
+  ],
+  "minDepth": 1,
+  "name": "Coast Watcher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CoastWatcher/overworld_e0.png",
+      "images/creature/CoastWatcher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CoastWatcher/overworld_n0.png",
+      "images/creature/CoastWatcher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CoastWatcher/overworld_s0.png",
+      "images/creature/CoastWatcher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CoastWatcher/overworld_w0.png",
+      "images/creature/CoastWatcher/overworld_w1.png"
+    ]
+  },
+  "race": "Watcher",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 26,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 397
+}

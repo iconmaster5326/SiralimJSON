@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "CUUUUUURSEEE.... YOOOOOUUUUU....",
+    "TOOOMB ROBBERRRR.... GEEEET OOOUUUUUTTT....",
+    "YOOOUU DIIISTUUURB... YOOOUU WIIILL DIIIEEEE..."
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_CURSED} take 10% more damage from this debuff.",
+    "4": "When enemies take damage from {CONDNAME_DEBUFF_CURSED}, there is a 20% chance this damage will be doubled.",
+    "7": "Doubles the potency of these effects."
+  },
+  "cards": 7,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    672
+  ],
+  "icon": "images/race/Mummy.png",
+  "master": {
+    "costume": 363,
+    "dialog": "As clich\u00C3\u00A9 as it sounds, Mummies cripple their enemies with powerful curses. They also talk a lot, but I honestly have no idea what they\u0027re saying since their bandages are always in the way. Mmmph-mmph-mmmmmph, and all that. Anyway, let\u0027s duel!",
+    "item": 1225,
+    "name": "Ixeor",
+    "trait": 1465
+  },
+  "name": "Mummy",
+  "notes": [],
+  "skins": [
+    59,
+    207,
+    378,
+    514
+  ]
+}

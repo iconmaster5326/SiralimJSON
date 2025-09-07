@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/OozingLeech/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 857,
+  "item": 1010,
+  "lore": "When Mortem reached what is now known as the Titan\u0027s Wound, he found the Leeches wandering inside the body of that strange, enormous creature.\\n\\nA single drop of the substance this creature oozes is enough to wilt any kind of plant. Profiteers from Andolin have recently managed to obtain several of these creatures and spread their venom across dozens of acres of forest, destroying them completely.",
+  "menagerieDialog": [
+    "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
+    "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
+    "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
+    "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
+    "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
+  ],
+  "minDepth": 1,
+  "name": "Oozing Leech",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OozingLeech/overworld_e0.png",
+      "images/creature/OozingLeech/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OozingLeech/overworld_n0.png",
+      "images/creature/OozingLeech/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OozingLeech/overworld_s0.png",
+      "images/creature/OozingLeech/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OozingLeech/overworld_w0.png",
+      "images/creature/OozingLeech/overworld_w1.png"
+    ]
+  },
+  "race": "Leech",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 12
+  },
+  "trait": 1125
+}

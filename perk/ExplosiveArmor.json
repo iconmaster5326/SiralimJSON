@@ -1,0 +1,11 @@
+{
+  "anointable": true,
+  "description": "After your creatures {ACTION_defend}, they gain 10% {STAT_defense} and a {CONDNAME_BUFF_BARRIER} that absorbs the same amount of {STAT_defense}. If the creature already has a {CONDNAME_BUFF_BARRIER}, it explodes, dealing damage to enemies equal to 50% of the {CONDNAME_BUFF_BARRIER} strength.\\n\\n{CONDDESC_BUFF_BARRIER}",
+  "icon": "images/perk/ExplosiveArmor.png",
+  "id": 422,
+  "maxRanks": 1,
+  "name": "Explosive Armor",
+  "notes": [],
+  "pointsPerRank": 100,
+  "specialization": 30
+}

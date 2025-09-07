@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(A Waspid the size of a cow with a stinger longer than most swords you\u0027ve seen confronts you. You forgot to prepare any bug spray spells this morning, so you\u0027ll have to deal with this the hard way!)",
+    "(Spotting a large insect hive in the corner, you resolve to sneak up on the treasure quietly. Unfortunately, you step on something that makes a loud noise and soon attract their attention...)",
+    "(You hear buzzing in the air, which soon grows to an unreasonably loud volume. You soon find the source - an immensely large wasp guarding the treasure!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies have 5% less {STAT_speed}.",
+    "4": "Enemies gain 25% less {STAT_speed}.",
+    "7": "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_speed}."
+  },
+  "cards": 7,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    678
+  ],
+  "icon": "images/race/Waspid.png",
+  "master": {
+    "costume": 409,
+    "dialog": "There\u0027s nothing quite as terrifying as being chased by a swarm of Waspids. You\u0027ve been warned. This is going to suck for you.",
+    "item": 1180,
+    "name": "Auran",
+    "trait": 1513
+  },
+  "name": "Waspid",
+  "notes": [],
+  "skins": [
+    101,
+    340,
+    484,
+    528,
+    797
+  ]
+}

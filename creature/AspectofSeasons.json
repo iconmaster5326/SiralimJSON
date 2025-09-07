@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AspectofSeasons/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 106,
+  "item": 518,
+  "lore": "The purpose of this creature is to ensure that the rest of the Aspects do the jobs for which they are regularly created, but its main concern in recent centuries has been to protect them from those who sometimes attack them out of fear or unfounded hate. Unlike the other seasonal Aspects, it uses lethal force against anyone who opposes its mission. Moreover, its powers can bring balance to any and all seasonal adversities.",
+  "menagerieDialog": [
+    "(Its eyes are closed, as if meditating.)",
+    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+    "(It is meditating. Better to leave it alone while it relaxes.)",
+    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+    "(Its fur is a total mess. You should have Nortah comb it soon.)"
+  ],
+  "minDepth": 1,
+  "name": "Aspect of Seasons",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AspectofSeasons/overworld_e0.png",
+      "images/creature/AspectofSeasons/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AspectofSeasons/overworld_n0.png",
+      "images/creature/AspectofSeasons/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AspectofSeasons/overworld_s0.png",
+      "images/creature/AspectofSeasons/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AspectofSeasons/overworld_w0.png",
+      "images/creature/AspectofSeasons/overworld_w1.png"
+    ]
+  },
+  "race": "Aspect",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Meraxis)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 14,
+    "health": 29,
+    "intelligence": 19,
+    "speed": 24
+  },
+  "trait": 432
+}

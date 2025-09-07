@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GoldSpacecat/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1297,
+  "item": 1804,
+  "lore": "Don\u0027t let their polite and friendly nature fool you \u00E2\u20AC\u201D Spacecats are some of the sharpest minds in the world. And when it comes to money, no one does it better than the Gold Spacecat. These financial wizards manage the entire Spacecat economy, offering top-tier advice on spending and investments. In no time at all, they\u0027ve made their mark on the economies of Siralim and beyond.",
+  "menagerieDialog": [
+    "(It\u0027s curled up in a floating ball, purring contentedly.)",
+    "Time to show these earthlings what a real predator looks like!",
+    "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
+    "My space suit is impenetrable! Your puny weapons are no match for me!",
+    "(It\u0027s zooming around in erratic patterns, defying gravity.)"
+  ],
+  "minDepth": 1,
+  "name": "Gold Spacecat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GoldSpacecat/overworld_e0.png",
+      "images/creature/GoldSpacecat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GoldSpacecat/overworld_n0.png",
+      "images/creature/GoldSpacecat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GoldSpacecat/overworld_s0.png",
+      "images/creature/GoldSpacecat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GoldSpacecat/overworld_w0.png",
+      "images/creature/GoldSpacecat/overworld_w1.png"
+    ]
+  },
+  "race": "Spacecat",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 38,
+    "intelligence": 25,
+    "speed": 12
+  },
+  "trait": 2157
+}

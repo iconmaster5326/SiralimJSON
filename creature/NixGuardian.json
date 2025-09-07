@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NixGuardian/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 567,
+  "item": 694,
+  "lore": "In Nix societies, females occupy higher places in the hierarchy. They hold the moral authority and leadership, and always govern through a council of eight women.\\n\\nThe Nix Guardian usually works as a personal bodyguard for great merchants or crime bosses, and also does the dirty work when it is necessary. When two Nixes meet because of this, they fight to the death on an equal footing, with their faces uncovered.",
+  "menagerieDialog": [
+    "Leave me alone. I must rest before we venture forth into a new Realm.",
+    "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
+    "I hear you\u0027ve got a problem that needs solved.",
+    "My blade is ready. Let\u0027s assassinate some kings.",
+    "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
+  ],
+  "minDepth": 1,
+  "name": "Nix Guardian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NixGuardian/overworld_e0.png",
+      "images/creature/NixGuardian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NixGuardian/overworld_n0.png",
+      "images/creature/NixGuardian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NixGuardian/overworld_s0.png",
+      "images/creature/NixGuardian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NixGuardian/overworld_w0.png",
+      "images/creature/NixGuardian/overworld_w1.png"
+    ]
+  },
+  "race": "Nix",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 16,
+    "health": 29,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 632
+}

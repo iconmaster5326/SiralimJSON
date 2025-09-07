@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/CinderDevil/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 157,
+  "item": 297,
+  "lore": "The Cinder Devil likes to hide in dark neighborhoods and look for drunk people who walk aimlessly at night. When it finds one, it stands behind them and follows behind. Suddenly, its sword hits the ground and the blade begins to crack the paving stones. The drunk person turns with a start and sees a figure wrapped in darkness. Before they can think of what to do, the Cinder Devil lights a fire in its right hand, and the slaughter begins.",
+  "menagerieDialog": [
+    "You\u0027re the big boss here, right? You should share some of them resources with me, neh?",
+    "I prefer blades over magic. What\u0027s the fun in casting a spell when there\u0027s no blood to show in the aftermath of your effort?",
+    "The devil\u0027s in the details, neh?\\n\\n(Well, that was random.)",
+    "I have an idea! You should raise your kingdom\u0027s taxes. That way, you can steal from everyone with impunity.",
+    "I absolutely, positively did not steal this bag of coins from anyone."
+  ],
+  "minDepth": 1,
+  "name": "Cinder Devil",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CinderDevil/overworld_e0.png",
+      "images/creature/CinderDevil/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CinderDevil/overworld_n0.png",
+      "images/creature/CinderDevil/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CinderDevil/overworld_s0.png",
+      "images/creature/CinderDevil/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CinderDevil/overworld_w0.png",
+      "images/creature/CinderDevil/overworld_w1.png"
+    ]
+  },
+  "race": "Devil",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 18,
+    "health": 32,
+    "intelligence": 23,
+    "speed": 13
+  },
+  "trait": 213
+}

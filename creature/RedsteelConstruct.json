@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/RedsteelConstruct/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 766,
+  "item": 71,
+  "lore": "When an old ruler of Siralim began the conquest of Rodia, Ilberd advised the King of Nex to propose to the Council of Sovereigns the construction of automatons designed to defend the country. The project was named MK.\\n\\nThe Redsteel Construct can easily detach parts of its body and forge weapons of acceptable quality in a matter of seconds. This allows civilians and soldiers to arm themselves quickly if they have lost their weapon or do not have one. It can restore the missing parts of its body simply by getting close to red-hot steel.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Redsteel Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/RedsteelConstruct/overworld_e0.png",
+      "images/creature/RedsteelConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/RedsteelConstruct/overworld_n0.png",
+      "images/creature/RedsteelConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/RedsteelConstruct/overworld_s0.png",
+      "images/creature/RedsteelConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/RedsteelConstruct/overworld_w0.png",
+      "images/creature/RedsteelConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 27,
+    "defense": 19,
+    "health": 32,
+    "intelligence": 14,
+    "speed": 14
+  },
+  "trait": 1006
+}

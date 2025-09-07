@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Kegstruct/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1479,
+  "item": 1740,
+  "lore": "No one knows if it was built for festive or warlike purposes, but the truth is it fulfills both with deadly efficiency. Its body is made of barrels reinforced with enchanted metal, and inside ferments an explosive substance that changes its effect depending on the situation. Some use it as fuel, others as a ritual drink, and the boldest wield it as a weapon. Whatever the case, it must never be tipped over without reason: it has already destroyed more than one tavern by accident.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Kegstruct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Kegstruct/overworld_e0.png",
+      "images/creature/Kegstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Kegstruct/overworld_n0.png",
+      "images/creature/Kegstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Kegstruct/overworld_s0.png",
+      "images/creature/Kegstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Kegstruct/overworld_w0.png",
+      "images/creature/Kegstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 10
+  },
+  "trait": 2082
+}

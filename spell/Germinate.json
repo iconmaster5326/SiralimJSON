@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "nature",
+  "creator": null,
+  "description": "Target is afflicted with {CONDNAME_DEBUFF_SNARED} and {CONDNAME_DEBUFF_POISON}.",
+  "god": null,
+  "id": 74,
+  "manuallyCastable": true,
+  "maxCharges": 15,
+  "name": "Germinate",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DEBUFF"
+  ],
+  "targets": "one"
+}

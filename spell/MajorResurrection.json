@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "Target is resurrected with a large amount of {STAT_health}.",
+  "god": null,
+  "id": 112,
+  "manuallyCastable": true,
+  "maxCharges": 8,
+  "name": "Major Resurrection",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": true,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "RESURRECT"
+  ],
+  "targets": "one"
+}

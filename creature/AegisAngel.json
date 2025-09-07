@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AegisAngel/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 603,
+  "item": 791,
+  "lore": "This is the ultimate Angel, the last defense against the darkness that almost devoured the world thousands of years ago. However, it was not the only one. Erebyss and Surathli joined forces to create an army of them for the purpose of protecting the light. There were hundreds, but it was not enough. The darkness attacked by surprise, too soon, and no God could help her. Everyone arrived too late, save one, who stayed to watch as his plans were fulfilled.",
+  "menagerieDialog": [
+    "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
+    "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
+    "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
+    "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
+    "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
+  ],
+  "minDepth": 1,
+  "name": "Aegis Angel",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AegisAngel/overworld_e0.png",
+      "images/creature/AegisAngel/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AegisAngel/overworld_n0.png",
+      "images/creature/AegisAngel/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AegisAngel/overworld_s0.png",
+      "images/creature/AegisAngel/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AegisAngel/overworld_w0.png",
+      "images/creature/AegisAngel/overworld_w1.png"
+    ]
+  },
+  "race": "Angel",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Surathli)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 17,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 22
+  },
+  "trait": 811
+}

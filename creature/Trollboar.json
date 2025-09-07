@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Trollboar/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 776,
+  "item": 1097,
+  "lore": "Troll Kings usually die a few years after they reach that position. However, some of them rule until they become too old, at which point they decide to abdicate for their own safety... or rather, they are advised to do so. Without exception, next to these Kings there has always been a Trollboar, a rare specimen of the species who, despite what its appearance may suggest, is much more intelligent than the other Trolls and pulls the King\u0027s strings from the shadows.",
+  "menagerieDialog": [
+    "Human kings are weak. You should let us Trolls lead you instead!",
+    "Let\u0027s go burn some villages down!",
+    "You rely on magic far too much. Brute strength is always the way to go!",
+    "(You\u0027re constantly amazed at just how badly this creature smells.)",
+    "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
+  ],
+  "minDepth": 1,
+  "name": "Trollboar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Trollboar/overworld_e0.png",
+      "images/creature/Trollboar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Trollboar/overworld_n0.png",
+      "images/creature/Trollboar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Trollboar/overworld_s0.png",
+      "images/creature/Trollboar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Trollboar/overworld_w0.png",
+      "images/creature/Trollboar/overworld_w1.png"
+    ]
+  },
+  "race": "Troll",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Chaos Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 23,
+    "health": 38,
+    "intelligence": 8,
+    "speed": 18
+  },
+  "trait": 1027
+}

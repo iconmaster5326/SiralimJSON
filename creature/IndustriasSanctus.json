@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/IndustriasSanctus/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 637,
+  "item": 173,
+  "lore": "Spielrein and Baker executed the Sanctus project inside an abandoned warehouse on the outskirts of Siralim. The seven Nether Orbs flashed and sizzled, and the fourteen items rose in the air.\\n\\nSometimes, the Industrias Sanctus manages to sneak into cities and enters a tavern. This always causes a stampede, because any loafers who are touched by its hammer will work tirelessly until they die of the cold, exhaustion, or sleep deprivation.",
+  "menagerieDialog": [
+    "(You\u0027ve always found these sort of creatures unnerving.)",
+    "(It seems vengeful. The next few battles should be quite interesting.)",
+    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+    "(This creature would make an excellent mascot for {CASTLENAME}.)",
+    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+  ],
+  "minDepth": 1,
+  "name": "Industrias Sanctus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/IndustriasSanctus/overworld_e0.png",
+      "images/creature/IndustriasSanctus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/IndustriasSanctus/overworld_n0.png",
+      "images/creature/IndustriasSanctus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/IndustriasSanctus/overworld_s0.png",
+      "images/creature/IndustriasSanctus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/IndustriasSanctus/overworld_w0.png",
+      "images/creature/IndustriasSanctus/overworld_w1.png"
+    ]
+  },
+  "race": "Sanctus",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 83
+}

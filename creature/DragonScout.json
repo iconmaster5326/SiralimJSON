@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DragonScout/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 145,
+  "item": 395,
+  "lore": "Dragons that want a lair outside the Unsullied Meadows often choose a nest of Arachnalisks to establish it, since these creatures do not care about their treasures and even protect them from intruders.\\n\\nThe Dragon Scout never stays in the same place for long, as it likes to meet other people and cultures, and acquire wisdom about the art of war through its travels. There is not a single human, Elf, or Ent able to surprise one in battle, so it is one of Rodia\u0027s most dangerous opponents.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Dragon Scout",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DragonScout/overworld_e0.png",
+      "images/creature/DragonScout/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DragonScout/overworld_n0.png",
+      "images/creature/DragonScout/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DragonScout/overworld_s0.png",
+      "images/creature/DragonScout/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DragonScout/overworld_w0.png",
+      "images/creature/DragonScout/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 36,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 310
+}

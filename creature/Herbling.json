@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/Herbling/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 970,
+  "item": null,
+  "lore": "This creature\u0027s roots are not entirely visible unless magic is used. They stretch out a great distance beyond what the eye can see, and cling to the creature\u0027s allies. In this way, it receives nourishment when they act, gaining power for a limited time. However, this creature is extremely hard to breed and needs proper care to even survive longer than a few days, so many biologists already consider this species extinct.",
+  "menagerieDialog": [
+    "Can\u0027t we stay here and rest for a while? I need at least eight hours of sleep in order to grow big and strong!",
+    "Let me at \u0027em! I\u0027ll choke them out and devour their flesh!\\n\\n...just as soon as I grow a bit more, that is.",
+    "I find it both odd and frustrating that I turn back into a sapling at the end of every battle.",
+    "(It\u0027s sound asleep, cooing softly. Who would\u0027ve thought that plants could coo?)",
+    "(It closes its eyes and mouth upon your approach in a failed attempt to look like a harmless root vegetable.)"
+  ],
+  "minDepth": 1,
+  "name": "Herbling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Herbling/overworld_e0.png",
+      "images/creature/Herbling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Herbling/overworld_n0.png",
+      "images/creature/Herbling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Herbling/overworld_s0.png",
+      "images/creature/Herbling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Herbling/overworld_w0.png",
+      "images/creature/Herbling/overworld_w1.png"
+    ]
+  },
+  "race": "Herbling",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    22
+  ],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 25,
+    "health": 40,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 1532
+}

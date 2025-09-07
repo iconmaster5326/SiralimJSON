@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/UralosWarchief/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1336,
+  "item": 1698,
+  "lore": "While Uraloses are generally self-sufficient and prefer independence, some have integrated into Rodia\u0027s society over the past few decades. The Uralos Warchiefs are the strategists of their kind, leading their people with a cool, calculating mind to defend their lands. Without them, it is clear that the island they have inhabited since the dawn of time would have been invaded long ago.",
+  "menagerieDialog": [
+    "You\u0027re lucky to have someone like me in your party. I\u0027m much smarter than the average bear.",
+    "It\u0027s not that we get smarter as we grow older; it\u0027s that we run out of stupid things to do after a while.",
+    "What do you say we stop fighting for the day and have ourselves a pic-a-nic instead?",
+    "I hope to find myself a beautiful wife someday to bear my bears.",
+    "(It\u0027s snoring loudly, surrounded by the remnants of what was once a large, bountiful picnic basket.)"
+  ],
+  "minDepth": 1,
+  "name": "Uralos Warchief",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UralosWarchief/overworld_e0.png",
+      "images/creature/UralosWarchief/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UralosWarchief/overworld_n0.png",
+      "images/creature/UralosWarchief/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UralosWarchief/overworld_s0.png",
+      "images/creature/UralosWarchief/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UralosWarchief/overworld_w0.png",
+      "images/creature/UralosWarchief/overworld_w1.png"
+    ]
+  },
+  "race": "Uralos",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 20,
+    "health": 38,
+    "intelligence": 15,
+    "speed": 22
+  },
+  "trait": 2040
+}

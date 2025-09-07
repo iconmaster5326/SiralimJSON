@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DemonicVoidlord/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 848,
+  "item": 1020,
+  "lore": "Dragan and Cerys had a very close friendship that continued even as they both went their separate ways. She is considered the greatest philosopher and politician in history, an intellectual who managed to abolish hereditary monarchy in Omnia, and at the same time laid the groundwork to make her kingdom the most prosperous in the world.\\n\\nThe Devil Voidlord is believed to have taken the form and behaviour of a sadistic, bloodthirsty creature that went extinct thousands of years ago. Its attacks are easily recognized, as these creatures leave no traces of their own involvement while also creating a grotesque scene. They strike, tear, bite, and sever the limbs of their victims, leaving them completely and utterly mutilated.",
+  "menagerieDialog": [
+    "(You\u0027ll probably never get accustomed to being around this creature. Something about its demeanor gives you goosebumps.)",
+    "(You\u0027ll probably never be able to fully trust that this creature won\u0027t stab you in the back when you least expect it.)",
+    "(It can take on any shape it wants, and yet it seems to stubbornly maintain this one at all times.)",
+    "(You should really consider keeping this creature somewhere else. It frightens your citizens with its grim demeanor.)",
+    "(It watches you intently, waiting for your next command.)"
+  ],
+  "minDepth": 1,
+  "name": "Demonic Voidlord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DemonicVoidlord/overworld_e0.png",
+      "images/creature/DemonicVoidlord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DemonicVoidlord/overworld_n0.png",
+      "images/creature/DemonicVoidlord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DemonicVoidlord/overworld_s0.png",
+      "images/creature/DemonicVoidlord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DemonicVoidlord/overworld_w0.png",
+      "images/creature/DemonicVoidlord/overworld_w1.png"
+    ]
+  },
+  "race": "Voidlord",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 26,
+    "health": 33,
+    "intelligence": 13,
+    "speed": 21
+  },
+  "trait": 1112
+}

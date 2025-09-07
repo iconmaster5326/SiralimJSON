@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CentaurKhan/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1001,
+  "item": 1328,
+  "lore": "The Centaur Khan carries the banner of its people. When a battle begins, it sets it up like a spear and charges its enemies, striking powerful blows with the stone-carved skull at the end of it. Sometimes, the wood that supports it ends up breaking, but that does not prevent it from fighting with what is left of the banner, or its fists, kicks, and shield.",
+  "menagerieDialog": [
+    "Free me at once.",
+    "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
+    "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
+    "Let us leave here and conquer new lands together!",
+    "I am under a great deal of stress. A few battles should help me relax."
+  ],
+  "minDepth": 1,
+  "name": "Centaur Khan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CentaurKhan/overworld_e0.png",
+      "images/creature/CentaurKhan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CentaurKhan/overworld_n0.png",
+      "images/creature/CentaurKhan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CentaurKhan/overworld_s0.png",
+      "images/creature/CentaurKhan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CentaurKhan/overworld_w0.png",
+      "images/creature/CentaurKhan/overworld_w1.png"
+    ]
+  },
+  "race": "Centaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 12,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 22
+  },
+  "trait": 1574
+}

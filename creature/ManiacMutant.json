@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/ManiacMutant/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 916,
+  "item": 957,
+  "lore": "Maniacs do not sleep, and although they prefer to attack their own kind, food shortages or boredom have at times made them a threat to society.\\n\\nThe Maniac Mutant is the only one of its species who has a tail and only one eye. They usually have a calmer demeanor, but they are treated with contempt by other Maniacs and incited to violence, so most end up developing the typical restless, aggressive attitude of their kind.",
+  "menagerieDialog": [
+    "(It\u0027s sleeping spread-eagle. Disgusting.)",
+    "(It laughs at a far higher pitch than you would have thought possible. This, in turn, makes you laugh, which makes it laugh even harder. The two of you are stuck in an endless loop of compounding giggles.)",
+    "(It\u0027s not wearing any pants, so there\u0027s that.)",
+    "(Unfortunately, this creature is dancing. You\u0027re almost positive that it\u0027s moving in such a way to cause its rolls to jiggle a little extra.)",
+    "(It\u0027s always threatening to kill itself. Isn\u0027t that what Maniacs are made for, anyway?)"
+  ],
+  "minDepth": 1,
+  "name": "Maniac Mutant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ManiacMutant/overworld_e0.png",
+      "images/creature/ManiacMutant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ManiacMutant/overworld_n0.png",
+      "images/creature/ManiacMutant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ManiacMutant/overworld_s0.png",
+      "images/creature/ManiacMutant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ManiacMutant/overworld_w0.png",
+      "images/creature/ManiacMutant/overworld_w1.png"
+    ]
+  },
+  "race": "Maniac",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 1181
+}

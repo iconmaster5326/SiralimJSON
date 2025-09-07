@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/RunicGrimoire/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 446,
+  "item": 489,
+  "lore": "Grimoires love being read and enjoy being transported along with other books. When they find an individual that is willing to read their pages, these creatures usually stay by their side forever, unless abandoned.\\n\\nWhen Apollinaire left the Columbia Tower, the Hidden Grimoire and the rest of them who decided to stay took the ripped pages from the Necro Grimoire and used them to give life to the Runic Grimoire.",
+  "menagerieDialog": [
+    "Read any good books lately?",
+    "I shall wreak havoc upon my enemies via a thousand papercuts!",
+    "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
+    "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
+    "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
+  ],
+  "minDepth": 1,
+  "name": "Runic Grimoire",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/RunicGrimoire/overworld_e0.png",
+      "images/creature/RunicGrimoire/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/RunicGrimoire/overworld_n0.png",
+      "images/creature/RunicGrimoire/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/RunicGrimoire/overworld_s0.png",
+      "images/creature/RunicGrimoire/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/RunicGrimoire/overworld_w0.png",
+      "images/creature/RunicGrimoire/overworld_w1.png"
+    ]
+  },
+  "race": "Grimoire",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 17,
+    "health": 27,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 403
+}

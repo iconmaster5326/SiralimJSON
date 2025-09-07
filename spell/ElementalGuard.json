@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "nature",
+  "creator": null,
+  "description": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 20% of their {STAT_defense}.",
+  "god": null,
+  "id": 52,
+  "manuallyCastable": true,
+  "maxCharges": 15,
+  "name": "Elemental Guard",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BUFF"
+  ],
+  "targets": "allies"
+}

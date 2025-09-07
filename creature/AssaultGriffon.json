@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/AssaultGriffon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 387,
+  "item": 175,
+  "lore": "Griffons protect the Azure Dream, and there is always a legion of them flying over the clouds in search of intruders. During mating season, their flocks gather in the air and can even block out the sun across a wide area.\\n\\nAlthough their ability to wield weapons cannot be compared to that of a human, Assault Griffons can inflict great damage by charging at their enemies with great speed, passing them by without exposing themselves to a counterattack.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers.)",
+    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Assault Griffon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AssaultGriffon/overworld_e0.png",
+      "images/creature/AssaultGriffon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AssaultGriffon/overworld_n0.png",
+      "images/creature/AssaultGriffon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AssaultGriffon/overworld_s0.png",
+      "images/creature/AssaultGriffon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AssaultGriffon/overworld_w0.png",
+      "images/creature/AssaultGriffon/overworld_w1.png"
+    ]
+  },
+  "race": "Griffon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 85
+}

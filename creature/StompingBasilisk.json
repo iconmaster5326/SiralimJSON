@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/StompingBasilisk/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 595,
+  "item": 717,
+  "lore": "Basilisks are usually between six and seven feet in length, and feed on all kinds of creatures or carrion. These creatures do not take risks when they are alone, and generally avoid attacking creatures their own size.\\n\\nOut of all the Basilisks, there is only one that does not scream in battle. Instead, it makes an inhaling sound that, after a few seconds, ends up absorbing all the magic around it.",
+  "menagerieDialog": [
+    "(It\u0027s crouched down, staring blankly into nothingness.)",
+    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+    "(It bows its head and turns away. It must be shy.)"
+  ],
+  "minDepth": 1,
+  "name": "Stomping Basilisk",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StompingBasilisk/overworld_e0.png",
+      "images/creature/StompingBasilisk/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StompingBasilisk/overworld_n0.png",
+      "images/creature/StompingBasilisk/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StompingBasilisk/overworld_s0.png",
+      "images/creature/StompingBasilisk/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StompingBasilisk/overworld_w0.png",
+      "images/creature/StompingBasilisk/overworld_w1.png"
+    ]
+  },
+  "race": "Basilisk",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Vulcanar)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 656
+}

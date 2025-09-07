@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Alexandria/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": 22,
+  "id": 1095,
+  "item": null,
+  "lore": "Damarel is a realm full of steam-powered machinery that works with pinpoint precision. Alexandria spends most of his time thinking about how to improve it and ensuring it does not fail, but now that his realm has become accessible, his focus is on outsiders. He is generally hostile to visitors, but if any of them help protect his home, he wilk gladly reward their actions. The God of Falsity is extremely literal, unable to understand metaphors or sarcasm. Indeed, talking to him can be very dangerous unless words are measured correctly.",
+  "menagerieDialog": [
+    "Hail, young peasant! A fine day for some rest and relaxation, is it not?",
+    "I\u0027ve always wanted to visit the Bastion of the Void. Let\u0027s go there next!",
+    "(As you look around your menagerie, you realize that Alexandria has been busy cutting everyone\u0027s hair. Even Nortah wasn\u0027t exempt from having his mullet torn to shreds.)",
+    "(He\u0027s busy sharpening his scissors by furiously rubbing them against each other, emitting a horrible screeching sound. Your creatures are visibly cringing from the noise.)",
+    "(He\u0027s sound asleep, softly snipping his scissors open and closed again. Strange.)"
+  ],
+  "minDepth": 1,
+  "name": "Alexandria",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Alexandria/overworld_e0.png",
+      "images/creature/Alexandria/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Alexandria/overworld_n0.png",
+      "images/creature/Alexandria/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Alexandria/overworld_s0.png",
+      "images/creature/Alexandria/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Alexandria/overworld_w0.png",
+      "images/creature/Alexandria/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    593,
+    604,
+    607
+  ],
+  "sources": [
+    {
+      "god": 22,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1984
+}

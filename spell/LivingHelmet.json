@@ -1,0 +1,45 @@
+{
+  "arsenal": true,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "Caster gains a massive amount of Maximum {STAT_health} and {CONDNAME_BUFF_PROTECT}. This spell is an {SPELL_equipment}.",
+  "god": null,
+  "id": 336,
+  "manuallyCastable": true,
+  "maxCharges": 4,
+  "name": "Living Helmet",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BUFF",
+    "ARTIFACT"
+  ],
+  "targets": "other"
+}

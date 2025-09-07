@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Gonfurian/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": false,
+  "god": 14,
+  "id": 731,
+  "item": null,
+  "lore": "The God of War delights in the conflicts that constantly plague the world. He always acknowledges warlike feats, and far from being satisfied with congratulating the great warriors of history, he grants them immortality and the power to fight for eternity as his Chosen. Sometimes, he lets himself be found by certain warriors in hopes of being challenged to a duel. However, until the arrival of the current ruler of Siralim, no one had managed to defeat him.",
+  "menagerieDialog": [
+    "Let\u0027s face each other in single, hand-to-hand combat. What do you say?",
+    "When in doubt, steel is the answer! Now let us go to war!",
+    "In the end, all the kingdoms of Rodia will belong to me.",
+    "You have my axe.",
+    "Perhaps one day we\u0027ll be able to fight each other. I\u0027ve yet to be defeated in combat."
+  ],
+  "minDepth": 1,
+  "name": "Gonfurian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Gonfurian/overworld_e0.png",
+      "images/creature/Gonfurian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Gonfurian/overworld_n0.png",
+      "images/creature/Gonfurian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Gonfurian/overworld_s0.png",
+      "images/creature/Gonfurian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Gonfurian/overworld_w0.png",
+      "images/creature/Gonfurian/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    358,
+    403,
+    425
+  ],
+  "sources": [
+    {
+      "god": 14,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 17,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 602
+}

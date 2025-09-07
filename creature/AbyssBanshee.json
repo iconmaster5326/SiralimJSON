@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AbyssBanshee/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 248,
+  "item": 221,
+  "lore": "Banshees are mysterious creatures that are as old as the world. Their silhouette can sometimes be seen in the dark of night, completely motionless, as if waiting for something.\\n\\nThe Abyss Banshee is feared by all Magi, as its screams consume the magical energy that is necessary to cast spells. Moreover, prolonged exposure to the screams can break magic items, rendering them unusable.",
+  "menagerieDialog": [
+    "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
+    "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
+    "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
+    "Let my cries chill the living.",
+    "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
+  ],
+  "minDepth": 1,
+  "name": "Abyss Banshee",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AbyssBanshee/overworld_e0.png",
+      "images/creature/AbyssBanshee/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AbyssBanshee/overworld_n0.png",
+      "images/creature/AbyssBanshee/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AbyssBanshee/overworld_s0.png",
+      "images/creature/AbyssBanshee/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AbyssBanshee/overworld_w0.png",
+      "images/creature/AbyssBanshee/overworld_w1.png"
+    ]
+  },
+  "race": "Banshee",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Ariamaki)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 16,
+    "health": 30,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 130
+}

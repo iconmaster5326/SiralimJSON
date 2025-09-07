@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "Mages may have created me, but I will never stop delighting in watching them die. Now it is your turn.",
+    "You challenge me? You must have a death wish - I shall gladly grant it!",
+    "Your kind\u0027s ceaseless greed never fails to bring you to ruin."
+  ],
+  "cardBonuses": {
+    "2": "Your creatures\u0027 Spell Gems have 10% more {STAT_charges}.",
+    "5": "Your creatures\u0027 Spell Gems have 1 additional {STAT_charge}.",
+    "8": "Your creatures\u0027 Ultimate Spell Gems have 1 additional {STAT_charge}."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    622,
+    675
+  ],
+  "icon": "images/race/Djinn.png",
+  "master": {
+    "costume": 322,
+    "dialog": "Djinns are powerful spellcasters who capitalize on casting multiple spells in quick succession. If you\u0027re unable to put a stop to them in time, they\u0027ll soon overwhelm your efforts and annihilate your creatures where they stand. Perhaps a demonstration is in order - let\u0027s fight!",
+    "item": 1277,
+    "name": "Connor",
+    "trait": 1423
+  },
+  "name": "Djinn",
+  "notes": [],
+  "skins": [
+    104,
+    105,
+    509,
+    813
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Puffergryph/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1157,
+  "item": 1540,
+  "lore": "This creature is not native to the country of Rodia, but a couple of decades ago it was introduced into one of its ecosystems by accident. River eels are their favorite delicacy and they know very well how to get hold of them, which very quickly has become an environmental problem, as these animals already had natural predators in that environment. The kingdom of Neralim was overwhelmed by this threat and had to ask the council for help four years ago, so today there is a group of hunters who have specialized in killing this species.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Puffergryph",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Puffergryph/overworld_e0.png",
+      "images/creature/Puffergryph/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Puffergryph/overworld_n0.png",
+      "images/creature/Puffergryph/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Puffergryph/overworld_s0.png",
+      "images/creature/Puffergryph/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Puffergryph/overworld_w0.png",
+      "images/creature/Puffergryph/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 25,
+    "health": 40,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 1880
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HelianthusFae/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1214,
+  "item": 1669,
+  "lore": "On one occasion, the ruler of a kingdom north of the Bronze Sea sent hundreds of his subjects there with the order to cut down the Yataka, a mysterious tree that dwells within. Few made it back alive, but they said it gave off a powerful light with every blow of the ax and received no damage.\\n\\nHelianthus Fae are able to stay awake for a whole week without sleeping, which is why they are chosen to stand guard at the Fae Lands.",
+  "menagerieDialog": [
+    "(The Fae are singing in unison, much to the dismay of your other creatures.)",
+    "(The Fae are currently engaged in a rousing game of tag. You can\u0027t really tell who\u0027s winning, of course, since they all look alike.)",
+    "(Each Fae is making a rude gesture at you. One is sticking her tongue out, while another is proudly showing off her middle finger. Are they unaware that you could squash them like bugs?)",
+    "(Upon your approach, one of the Fae pulls another\u0027s wings off. Luckily, these creatures seem to reproduce quickly enough that they\u0027re expendable.)",
+    "(They\u0027re all making obnoxious giggling sounds. You soon realize they\u0027re mocking you.)"
+  ],
+  "minDepth": 1,
+  "name": "Helianthus Fae",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HelianthusFae/overworld_e0.png",
+      "images/creature/HelianthusFae/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HelianthusFae/overworld_n0.png",
+      "images/creature/HelianthusFae/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HelianthusFae/overworld_s0.png",
+      "images/creature/HelianthusFae/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HelianthusFae/overworld_w0.png",
+      "images/creature/HelianthusFae/overworld_w1.png"
+    ]
+  },
+  "race": "Fae",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 10,
+    "health": 26,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 1994
+}

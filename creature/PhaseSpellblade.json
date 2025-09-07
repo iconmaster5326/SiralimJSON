@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PhaseSpellblade/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 206,
+  "item": 452,
+  "lore": "With their army annihilated, the Queen of Siralim had no choice but to cast a dangerous enchantment that would end her own life. The weapons and armor of the fallen rose and joined the forces of Vanelin in the battle that would end the Unification War.\\n\\nPhase Spellblades are skilled warriors in both melee combat and magic. Through specialized training based on the Red Hat order\u0027s, they are able to channel spells through their weapons to hit harder.",
+  "menagerieDialog": [
+    "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
+    "(It\u0027s dancing and asking you to call it \u0022Dio\u0022. You are now questioning all your life choices.)",
+    "(It tries to impress you by moving random objects through its body.)",
+    "I am yours to command.",
+    "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
+  ],
+  "minDepth": 1,
+  "name": "Phase Spellblade",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PhaseSpellblade/overworld_e0.png",
+      "images/creature/PhaseSpellblade/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PhaseSpellblade/overworld_n0.png",
+      "images/creature/PhaseSpellblade/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PhaseSpellblade/overworld_s0.png",
+      "images/creature/PhaseSpellblade/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PhaseSpellblade/overworld_w0.png",
+      "images/creature/PhaseSpellblade/overworld_w1.png"
+    ]
+  },
+  "race": "Phase Warrior",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 15,
+    "health": 37,
+    "intelligence": 22,
+    "speed": 15
+  },
+  "trait": 367
+}

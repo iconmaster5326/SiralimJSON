@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DeceptiveFiend/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 619,
+  "item": 817,
+  "lore": "The Deceptive Fiend was one of Vulcanar\u0027s pets for a long time. Gifted with intelligence, it hated its master for treating it like a common beast. When the God of Fire exiled the Fiends, it hid among them and escaped the Great Pandemonium. It saw that mortals also treated creatures as slaves, and it decided to devote its life to freeing as many beasts as it could from the yoke of their masters, regardless of whether they were trained animals, pets or faithful companions.",
+  "menagerieDialog": [
+    "(Oh, Gods, it\u0027s eating the floor tiles!)",
+    "(This creature is completely out of control, headbutting everything in sight.)",
+    "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
+    "(You wish it would close its mouth at some point, but it never does. Ever.)",
+    "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
+  ],
+  "minDepth": 1,
+  "name": "Deceptive Fiend",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DeceptiveFiend/overworld_e0.png",
+      "images/creature/DeceptiveFiend/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DeceptiveFiend/overworld_n0.png",
+      "images/creature/DeceptiveFiend/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DeceptiveFiend/overworld_s0.png",
+      "images/creature/DeceptiveFiend/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DeceptiveFiend/overworld_w0.png",
+      "images/creature/DeceptiveFiend/overworld_w1.png"
+    ]
+  },
+  "race": "Fiend",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Tartarith)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 27,
+    "defense": 12,
+    "health": 32,
+    "intelligence": 12,
+    "speed": 22
+  },
+  "trait": 844
+}

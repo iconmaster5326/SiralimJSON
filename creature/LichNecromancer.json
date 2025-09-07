@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LichNecromancer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 689,
+  "item": 835,
+  "lore": "Egas the Necromancer was a particularly important person during the Unification War. He convinced the rulers of the small kingdoms in the West to serve his purpose. He was a great Death Mage who, after conducting numerous experiments, found the key to creating life from death. Before his defeat at the hands of the legendary Mage Helmholtz, he used his own spell on himself to remain in this world and kept working to achieve his goal of one day ruling over Rodia.",
+  "menagerieDialog": [
+    "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
+    "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
+    "Knowledge is power, and I have a lot.",
+    "The ancient evil survives.",
+    "We must seek out the Necronomicon. With it, my true power will be realized."
+  ],
+  "minDepth": 1,
+  "name": "Lich Necromancer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LichNecromancer/overworld_e0.png",
+      "images/creature/LichNecromancer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LichNecromancer/overworld_n0.png",
+      "images/creature/LichNecromancer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LichNecromancer/overworld_s0.png",
+      "images/creature/LichNecromancer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LichNecromancer/overworld_w0.png",
+      "images/creature/LichNecromancer/overworld_w1.png"
+    ]
+  },
+  "race": "Lich",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 12,
+    "health": 31,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 862
+}

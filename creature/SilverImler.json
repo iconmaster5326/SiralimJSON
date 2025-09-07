@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SilverImler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 341,
+  "item": 535,
+  "lore": "In their societies, Imlers work as miners and diggers. Along with the Imlings, they establish their settlements in mountainous regions. The bonds between them are strong, forged from a very young age, and it is rare to see an Imler without an Imling partner.\\n\\nThe protuberances in the Silver Imler\u0027s shoulders sell at a high price in the black market. Their Imling partners try to convince them to remove them so that they are no longer a target for poachers.",
+  "menagerieDialog": [
+    "(It unleashes a nasty burp into your face and laughs. Immature.)",
+    "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
+    "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
+    "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
+    "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Silver Imler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SilverImler/overworld_e0.png",
+      "images/creature/SilverImler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SilverImler/overworld_n0.png",
+      "images/creature/SilverImler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SilverImler/overworld_s0.png",
+      "images/creature/SilverImler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SilverImler/overworld_w0.png",
+      "images/creature/SilverImler/overworld_w1.png"
+    ]
+  },
+  "race": "Imler",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 27,
+    "defense": 27,
+    "health": 39,
+    "intelligence": 7,
+    "speed": 7
+  },
+  "trait": 449
+}

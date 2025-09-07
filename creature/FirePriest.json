@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/FirePriest/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 323,
+  "item": 118,
+  "lore": "In the beginning, there were only eleven. They gave shape to the world, and life to the beings that inhabit it. To do so, they sacrificed part of their power.\\n\\nFire Priests were the first of their species to visit the cities. Wherever they went, like most other Priests, they seemed to make humans and creatures aware of the injustices upon which their communities were built. They instantly undermined the authority of many lords and stopped the damage their warriors and Magi might have caused.",
+  "menagerieDialog": [
+    "(It\u0027s doing what it does best - standing still.)",
+    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Fire Priest",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FirePriest/overworld_e0.png",
+      "images/creature/FirePriest/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FirePriest/overworld_n0.png",
+      "images/creature/FirePriest/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FirePriest/overworld_s0.png",
+      "images/creature/FirePriest/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FirePriest/overworld_w0.png",
+      "images/creature/FirePriest/overworld_w1.png"
+    ]
+  },
+  "race": "Priest",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 18,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 27
+}

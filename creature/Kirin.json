@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Kirin/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1266,
+  "item": 1445,
+  "lore": "These dragons can emit a flashing light once a day through their horns that blinds their enemies for several seconds. They often use this ability when they are surrounded, which allows them to flee... most of the time. Some creatures, such as Imps, have learned to close their eyes at the precise moment a Kirin flashes, and have also perfected various strategies to capture them. Everyone, even Imps, knows a Kirin\u0027s horn cannot flash when separated from its body. However, owning one of these horns gives prestige to the Imp clan that has it. Obviously, Kirins do not find this amusing, since even if they are never killed and their horns grow back, they suffer during capture and extraction. For this reason, they have started to destroy Imp houses at night, and shredding the stolen horns with their hoofs as revenge and warning.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Kirin",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Kirin/overworld_e0.png",
+      "images/creature/Kirin/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Kirin/overworld_n0.png",
+      "images/creature/Kirin/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Kirin/overworld_s0.png",
+      "images/creature/Kirin/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Kirin/overworld_w0.png",
+      "images/creature/Kirin/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1753
+}

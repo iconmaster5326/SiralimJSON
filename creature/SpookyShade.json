@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SpookyShade/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 754,
+  "item": 73,
+  "lore": "Spooky Shades are born from the death of spies. Their instincts drive them to hide their identity by masking their appearance, which works as well as can be expected from a Shade. However, since these creatures can briefly put images of anything they\u0027ve seen into the mind of another, many spies that work for sovereigns or crime syndicates continue doing so after death.",
+  "menagerieDialog": [
+    "(It appears calm, but you should never lower your guard around a creature known for its trickery.)",
+    "(You could swear you saw this tricky little guy spying on you while you were in the privvy earlier.)",
+    "(It reaches behind your ear and, with a sly wink, produces a coin.)",
+    "(It disappears from your sight before sneaking up from behind and tickling you. Tee hee, stop that!)",
+    "(It\u0027s methodically approaching each of your creatures and shouting \u0022BOO!\u0022 in their faces. You should probably release this creature from your service.)"
+  ],
+  "minDepth": 1,
+  "name": "Spooky Shade",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SpookyShade/overworld_e0.png",
+      "images/creature/SpookyShade/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SpookyShade/overworld_n0.png",
+      "images/creature/SpookyShade/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SpookyShade/overworld_s0.png",
+      "images/creature/SpookyShade/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SpookyShade/overworld_w0.png",
+      "images/creature/SpookyShade/overworld_w1.png"
+    ]
+  },
+  "race": "Shade",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Death Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 22,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1001
+}

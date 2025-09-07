@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UnicornFirewalker/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 705,
+  "item": 879,
+  "lore": "Born of primeval magic, the Unicorn Firewalker is literally the worst nightmare of any Magi who disregard the arcane principles for their own benefit. When it began to haunt the dreams of one of such Magi, the legendary Helmholtz, he summoned it in Rodia in an attempt to defeat it and escape the nightmares, but instead it began to physically hunt down all of those who corrupt the ancient art of magic... starting with him.",
+  "menagerieDialog": [
+    "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
+    "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
+    "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
+    "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
+    "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
+  ],
+  "minDepth": 1,
+  "name": "Unicorn Firewalker",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnicornFirewalker/overworld_e0.png",
+      "images/creature/UnicornFirewalker/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnicornFirewalker/overworld_n0.png",
+      "images/creature/UnicornFirewalker/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnicornFirewalker/overworld_s0.png",
+      "images/creature/UnicornFirewalker/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnicornFirewalker/overworld_w0.png",
+      "images/creature/UnicornFirewalker/overworld_w1.png"
+    ]
+  },
+  "race": "Unicorn",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 30,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 906
+}

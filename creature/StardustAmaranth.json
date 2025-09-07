@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/StardustAmaranth/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 97,
+  "item": 124,
+  "lore": "Amaranths seem to be exempt from the laws of the universe, as their powers are above them. When they move, it looks like space is moving around them instead.\\n\\nThe Stardust Amaranth emits a constant tinkle and shines with a soft, subdued light that illuminated everything around it. To attack physically, this creature does not have to move or be in direct contact with its enemy. The blow simply happens.",
+  "menagerieDialog": [
+    "(You can\u0027t seem to catch its attention at all...)",
+    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+    "(It seems to be highly observant of its surroundings.)",
+    "(It\u0027s spinning around on its side. Pretty cool, really.)",
+    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+  ],
+  "minDepth": 1,
+  "name": "Stardust Amaranth",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StardustAmaranth/overworld_e0.png",
+      "images/creature/StardustAmaranth/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StardustAmaranth/overworld_n0.png",
+      "images/creature/StardustAmaranth/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StardustAmaranth/overworld_s0.png",
+      "images/creature/StardustAmaranth/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StardustAmaranth/overworld_w0.png",
+      "images/creature/StardustAmaranth/overworld_w1.png"
+    ]
+  },
+  "race": "Amaranth",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 25,
+    "health": 43,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 33
+}

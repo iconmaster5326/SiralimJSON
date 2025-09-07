@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/GoretongueGargoyle/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 230,
+  "item": 308,
+  "lore": "Marette, the dean of the Magic University of Undolim, researched for decades to find a way to give life to inanimate objects. Her project finally succeeded a few years before the Unification War began.\\n\\nThe Magi of Undolim gave the Goretongue Gargoyle its name because of its extraordinary ability. This creature has an exceptional control over magic: as long as there is blood on its tongue, it is able to cast spells indefinitely.",
+  "menagerieDialog": [
+    "Is everything alright, my liege?",
+    "You drool in your sleep.",
+    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+    "(This creature could easily be mistaken for a statue.)"
+  ],
+  "minDepth": 1,
+  "name": "Goretongue Gargoyle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GoretongueGargoyle/overworld_e0.png",
+      "images/creature/GoretongueGargoyle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GoretongueGargoyle/overworld_n0.png",
+      "images/creature/GoretongueGargoyle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GoretongueGargoyle/overworld_s0.png",
+      "images/creature/GoretongueGargoyle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GoretongueGargoyle/overworld_w0.png",
+      "images/creature/GoretongueGargoyle/overworld_w1.png"
+    ]
+  },
+  "race": "Gargoyle",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 22,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 224
+}

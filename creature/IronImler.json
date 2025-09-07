@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/IronImler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 340,
+  "item": 534,
+  "lore": "The physical development of Imlers is extraordinarily fast, and they can reach a maximum height of 10 feet. Their powerful hands allow them to dig and break through rock easily.\\n\\nIron Imlers are the fiercest of their kind, and they are usually in charge of dealing with any matter that requires their 100-pound arms. This, of course, includes the protection of their people, although there is always at least one Imling with them to make sure they do not get overly violent.",
+  "menagerieDialog": [
+    "(It unleashes a nasty burp into your face and laughs. Immature.)",
+    "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
+    "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
+    "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
+    "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Iron Imler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/IronImler/overworld_e0.png",
+      "images/creature/IronImler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/IronImler/overworld_n0.png",
+      "images/creature/IronImler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/IronImler/overworld_s0.png",
+      "images/creature/IronImler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/IronImler/overworld_w0.png",
+      "images/creature/IronImler/overworld_w1.png"
+    ]
+  },
+  "race": "Imler",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 28,
+    "health": 40,
+    "intelligence": 8,
+    "speed": 8
+  },
+  "trait": 448
+}

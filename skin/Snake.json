@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Snake/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 389,
+  "name": "Snake",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Snake/overworld_e0.png",
+      "images/skin/Snake/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Snake/overworld_n0.png",
+      "images/skin/Snake/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Snake/overworld_s0.png",
+      "images/skin/Snake/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Snake/overworld_w0.png",
+      "images/skin/Snake/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

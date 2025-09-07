@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Laglor/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 722,
+  "item": 749,
+  "lore": "Laglor was the result of one of the most ambitious projects that were carried out in the Refuge of the Magi. Zonte\u0027s master, Ainsworth, participated in the research when she was a mere apprentice. It all started with an immensely powerful Nether Orb and the idea of creating a weapon that would allow several Magi to channel huge amounts of magic to cast the same spell together and even mix different ones. However, the calculations were erroneous, as Ainsworth described in her doctoral dissertation on the creation of magical objects using Nether Orbs as catalysts. Instead of creating the perfect weapon, the staff came alive and did not take too well to the Magi casting several spells on it. After disintegrating four members of the research team, Laglor left the tower and began its mysterious pilgrimage around the world.",
+  "menagerieDialog": [
+    "(You struggle to figure out how this creature is even alive. How does it eat? Does it ever sleep?)",
+    "(You often wonder if this creature would serve you better as a weapon than a creature.)",
+    "(The Nether Orb in the center of its body shimmers every so often. It\u0027s beautiful.)",
+    "(Unsurprisingly, it\u0027s completely silent. Were you expecting it to talk with the mouth it doesn\u0027t have?)",
+    "(It\u0027s spinning around on the floor. This creature would be useful in a drinking game.)"
+  ],
+  "minDepth": 1,
+  "name": "Laglor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Laglor/overworld_e0.png",
+      "images/creature/Laglor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Laglor/overworld_n0.png",
+      "images/creature/Laglor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Laglor/overworld_s0.png",
+      "images/creature/Laglor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Laglor/overworld_w0.png",
+      "images/creature/Laglor/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    166,
+    470
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 795
+}

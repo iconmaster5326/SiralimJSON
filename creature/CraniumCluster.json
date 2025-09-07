@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CraniumCluster/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1249,
+  "item": 1439,
+  "lore": "Yerah, a powerful Death Mage from Rodia, traveled to other kingdoms with the purpose of gaining wealth by scaring villagers with her own creations, later getting rid of them with a simple Dispel Magic spell, and thus collecting a reward in gratitude for her supposed heroism. The Cranium Cluster, however, was too powerful for her to control, and she ended up fleeing from it when she could not kill it. The town was massacred, but Yerah did not give up. She perfected her technique and managed to create an army of Cranium Clusters from the corpses of the less powerful, but obedient villagers. She managed to destroy her past creation, and then ceased her activities, but not before sending the surviving Cranium Clusters to the Path of the Damned. She had rendered them harmless, but by coming into contact with the skulls that were there, they gave life to others like them, but more aggressive, dangerous and terrifying.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Cranium Cluster",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CraniumCluster/overworld_e0.png",
+      "images/creature/CraniumCluster/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CraniumCluster/overworld_n0.png",
+      "images/creature/CraniumCluster/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CraniumCluster/overworld_s0.png",
+      "images/creature/CraniumCluster/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CraniumCluster/overworld_w0.png",
+      "images/creature/CraniumCluster/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 27,
+    "health": 43,
+    "intelligence": 17,
+    "speed": 7
+  },
+  "trait": 1747
+}

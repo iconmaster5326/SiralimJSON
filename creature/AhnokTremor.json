@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AhnokTremor/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 506,
+  "item": 597,
+  "lore": "The body of a Tremor is home to numerous creatures, mainly insects. Birds are commonly seen pecking at a Tremor in search of its guests.\\n\\nThe Ahnok Tremor can effortlessly move earth and rock with its mind. In battle, it uses this power to create hands and tentacles that cling to the arms and legs of its enemies and trap them. They often create stone walls in forests and mountains to protect the animals from poachers.",
+  "menagerieDialog": [
+    "(It seems to be infested with all manner of parasites. It\u0027s so care-free that it doesn\u0027t even groom itself!)",
+    "(This creature has propped itself up by its arms and is repeatedly slamming its torso into the ground in an attempt to start an earthquake. Real mature.)",
+    "(Despite its ultra-punchable face, this creature seems to be especially intelligent for a Tremor.)",
+    "(It\u0027s gazing upward at a nest of birds that have apparently decided to call its forehead home.)",
+    "(It\u0027s stomping down with its fists, one at a time. Annoying.)"
+  ],
+  "minDepth": 1,
+  "name": "Ahnok Tremor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AhnokTremor/overworld_e0.png",
+      "images/creature/AhnokTremor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AhnokTremor/overworld_n0.png",
+      "images/creature/AhnokTremor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AhnokTremor/overworld_s0.png",
+      "images/creature/AhnokTremor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AhnokTremor/overworld_w0.png",
+      "images/creature/AhnokTremor/overworld_w1.png"
+    ]
+  },
+  "race": "Tremor",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Anneltha)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 11,
+    "speed": 26
+  },
+  "trait": 511
+}

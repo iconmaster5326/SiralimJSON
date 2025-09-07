@@ -1,0 +1,52 @@
+{
+  "arsenal": true,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "Caster gains a massive amount of {STAT_defense} and {CONDNAME_BUFF_SHELL}. The potency is based on the caster\u0027s {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}.",
+  "god": null,
+  "id": 335,
+  "manuallyCastable": true,
+  "maxCharges": 4,
+  "name": "Living Heavy Shield",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BOOST",
+    "ARTIFACT"
+  ],
+  "targets": "other"
+}

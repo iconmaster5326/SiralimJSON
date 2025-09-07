@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Akara/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1105,
+  "item": 1489,
+  "lore": "This being is fascinated by the creatures that inhabit Rodia and the rest of the world. Chances are, if it meets a stranger, it will want to have a long conversation and bombard them with questions. The life of non-intelligent animals is especially interesting to it and currently it is dedicated to traveling through the different ecosystems outside the Land of Breath and Balance, contemplating the varied and abundant wildlife that proliferates there. Unlike Ariamaki, it does not care about balance and is of the opinion that this God should take a break from his endless crusade.",
+  "menagerieDialog": [
+    "(It\u0027s lounging lazily against the wall. Hopefully, it will evolve or something to make it a bit less useless.)",
+    "(The smoke emanating from its body smells of lavender.)",
+    "(It doesn\u0027t seem to be able to speak. Or perhaps it simply doesn\u0027t want to talk to you.)",
+    "(It\u0027s sleeping soundly while emitting small puffs of smoke into the air.)",
+    "(Upon your approach, it begins to rapidly puff smoke into your face. You cough and hack until you finally decide to turn away and leave it alone.)"
+  ],
+  "minDepth": 1,
+  "name": "Akara",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Akara/overworld_e0.png",
+      "images/creature/Akara/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Akara/overworld_n0.png",
+      "images/creature/Akara/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Akara/overworld_s0.png",
+      "images/creature/Akara/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Akara/overworld_w0.png",
+      "images/creature/Akara/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    621,
+    622
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 16,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 16
+  },
+  "trait": 1793
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HeadlessWight/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 755,
+  "item": 72,
+  "lore": "When nightborne mist shrouds the moon\u0027s palest eye\\nIn colder days with no warmth from the sky\\nTravel not late my friend, and not alone\\nThe horseman walks, to rend your flesh from bone!\\nNo head he needs, nor eyes to see your fear\\nBy wicked laughter you will know he\u0027s near\\nOne axe blow will be the last thing you see\\nBefore he departs, laughing cruelly\u0027\\n- Seasonal folk song by Undolim\u0027s famous songstress Nieve Frost",
+  "menagerieDialog": [
+    "I grow tired of waiting. Let\u0027s seek out a battle!",
+    "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
+    "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
+    "Who else wishes to taste my steel?",
+    "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
+  ],
+  "minDepth": 1,
+  "name": "Headless Wight",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HeadlessWight/overworld_e0.png",
+      "images/creature/HeadlessWight/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HeadlessWight/overworld_n0.png",
+      "images/creature/HeadlessWight/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HeadlessWight/overworld_s0.png",
+      "images/creature/HeadlessWight/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HeadlessWight/overworld_w0.png",
+      "images/creature/HeadlessWight/overworld_w1.png"
+    ]
+  },
+  "race": "Wight",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Death Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1002
+}

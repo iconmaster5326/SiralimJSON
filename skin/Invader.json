@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Invader/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 282,
+  "name": "Invader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Invader/overworld_e0.png",
+      "images/skin/Invader/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Invader/overworld_n0.png",
+      "images/skin/Invader/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Invader/overworld_s0.png",
+      "images/skin/Invader/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Invader/overworld_w0.png",
+      "images/skin/Invader/overworld_w1.png"
+    ]
+  },
+  "race": "Toxdweller",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

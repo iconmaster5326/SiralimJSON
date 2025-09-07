@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ApisDefender/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 364,
+  "item": 149,
+  "lore": "The Apis walked freely through the streets of the cities and towns of Kaito. People fed these creatures regularly, and they were cared for whenever they became ill.\\n\\nWhen the blue protrusion between the horns of an Apis Defender begins to glow softly, the wounds its allies would receive are transferred to this creature. For this reason, the Apis Defender is commonly seen accompanying armies and gangs of raiders, who sometimes abuse its extraordinary ability until it dies.",
+  "menagerieDialog": [
+    "(It yawns and turns away from you.)",
+    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+    "(Upon your approach, it licks your hand over and over and over again. True love.)",
+    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+  ],
+  "minDepth": 1,
+  "name": "Apis Defender",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ApisDefender/overworld_e0.png",
+      "images/creature/ApisDefender/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ApisDefender/overworld_n0.png",
+      "images/creature/ApisDefender/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ApisDefender/overworld_s0.png",
+      "images/creature/ApisDefender/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ApisDefender/overworld_w0.png",
+      "images/creature/ApisDefender/overworld_w1.png"
+    ]
+  },
+  "race": "Apis",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 23,
+    "health": 28,
+    "intelligence": 13,
+    "speed": 23
+  },
+  "trait": 59
+}

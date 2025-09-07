@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NuclearCataclysm/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1421,
+  "item": 1756,
+  "lore": "If a Cataclysm is left in storage too long, it will inevitably burst its container, causing a dangerous explosion.\\n\\nThe explosions of a Nuclear Cataclysm leave behind deadly radiation that can kill anyone who gets too close or stays for too long. Once, a mafia boss in Andolin released one near the mayor\u0027s house in a big city, and although it was contained quickly, the damage was done, and the area had to be decontaminated.",
+  "menagerieDialog": [
+    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+    "I am the storm that ends worlds. Point me at our foes!",
+    "The secrets of the universe flow through me. What would you like to know?",
+    "The elements themselves bend to my will. No force can harm me!",
+    "(It\u0027s swirling violently, barely contained within its form.)"
+  ],
+  "minDepth": 1,
+  "name": "Nuclear Cataclysm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NuclearCataclysm/overworld_e0.png",
+      "images/creature/NuclearCataclysm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NuclearCataclysm/overworld_n0.png",
+      "images/creature/NuclearCataclysm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NuclearCataclysm/overworld_s0.png",
+      "images/creature/NuclearCataclysm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NuclearCataclysm/overworld_w0.png",
+      "images/creature/NuclearCataclysm/overworld_w1.png"
+    ]
+  },
+  "race": "Cataclysm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 15,
+    "health": 38,
+    "intelligence": 28,
+    "speed": 11
+  },
+  "trait": 2109
+}

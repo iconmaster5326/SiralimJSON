@@ -1,0 +1,66 @@
+{
+  "battleSprite": "images/creature/MagmaGolem/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 148,
+  "item": 411,
+  "lore": "Magma Golems are banned from many villages and towns for supposedly starting fires wherever they go. While it is true that their body temperature is extremely high, Magma Golems usually avoid getting close to anything flammable, which leads to the conclusion that many arsonists pin the blame on these creatures when they want to settle a score or collect insurance.",
+  "menagerieDialog": [
+    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+    "(It\u0027s... shadowboxing. Weird.)",
+    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+  ],
+  "minDepth": 1,
+  "name": "Magma Golem",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MagmaGolem/overworld_e0.png",
+      "images/creature/MagmaGolem/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MagmaGolem/overworld_n0.png",
+      "images/creature/MagmaGolem/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MagmaGolem/overworld_s0.png",
+      "images/creature/MagmaGolem/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MagmaGolem/overworld_w0.png",
+      "images/creature/MagmaGolem/overworld_w1.png"
+    ]
+  },
+  "race": "Golem",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    17
+  ],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 326
+}

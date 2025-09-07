@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/StagGuardian/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 585,
+  "item": 684,
+  "lore": "Stag Guardians used to live in closed forests before undergoing their transformation, after which many of them dispersed. They earned their name by keeping threats to their home at bay, from natural disasters to enemy creatures that want to take advantage of the forest\u0027s resources. They have been seen cooperating with Moss Golems and Ents to face especially dangerous threats.",
+  "menagerieDialog": [
+    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Stag Guardian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StagGuardian/overworld_e0.png",
+      "images/creature/StagGuardian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StagGuardian/overworld_n0.png",
+      "images/creature/StagGuardian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StagGuardian/overworld_s0.png",
+      "images/creature/StagGuardian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StagGuardian/overworld_w0.png",
+      "images/creature/StagGuardian/overworld_w1.png"
+    ]
+  },
+  "race": "Stag",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 37,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 622
+}

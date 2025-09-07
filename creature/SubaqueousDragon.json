@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/SubaqueousDragon/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 671,
+  "item": 872,
+  "lore": "This creature is as old as the world and its origin is a mystery. It rules over the sea-dwelling Dragons that never come to the surface, although there is an ancient orb capable of summoning it and its armies if the cause is worthy of its presence. Some historians fear that eventually rulers of Siralim, who often interact with Nether Orbs, will corrupt the one that would summon this terrible creature, and add it to Siralim\u0027s hosts.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Subaqueous Dragon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SubaqueousDragon/overworld_e0.png",
+      "images/creature/SubaqueousDragon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SubaqueousDragon/overworld_n0.png",
+      "images/creature/SubaqueousDragon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SubaqueousDragon/overworld_s0.png",
+      "images/creature/SubaqueousDragon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SubaqueousDragon/overworld_w0.png",
+      "images/creature/SubaqueousDragon/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 899
+}

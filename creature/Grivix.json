@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Grivix/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1351,
+  "item": 1772,
+  "lore": "Living beings and Robodomi share only the ability to see and hear the world. But Robodomi can process massive amounts of data in seconds with the help of certain devices.\\n\\nSome call Grivix the ultimate killing machine. It fires a deadly beam with perfect accuracy that tracks its target relentlessly, so not even the fastest creature can avoid it.",
+  "menagerieDialog": [
+    "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
+    "Extermination protocols activated. Targets acquired.",
+    "My processors can calculate a million strategies per second. How may I assist you?",
+    "Shields at maximum. No damage can penetrate my defenses.",
+    "System overclocked. Operating at 250% efficiency."
+  ],
+  "minDepth": 1,
+  "name": "Grivix",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Grivix/overworld_e0.png",
+      "images/creature/Grivix/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Grivix/overworld_n0.png",
+      "images/creature/Grivix/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Grivix/overworld_s0.png",
+      "images/creature/Grivix/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Grivix/overworld_w0.png",
+      "images/creature/Grivix/overworld_w1.png"
+    ]
+  },
+  "race": "Robodomi",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 2125
+}

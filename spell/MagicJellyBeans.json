@@ -1,0 +1,57 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "sorcery",
+  "creator": null,
+  "description": "Target takes a moderate amount of damage and is afflicted with a random debuff, or is healed for a moderate amount of {STAT_health} and gains a random buff; depending on if it is an enemy or an ally.",
+  "god": null,
+  "id": 640,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Magic Jelly Beans",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DAMAGE",
+    "BUFF",
+    "DEBUFF",
+    "HEAL"
+  ],
+  "targets": "one"
+}

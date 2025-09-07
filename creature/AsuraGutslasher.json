@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AsuraGutslasher/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 459,
+  "item": 378,
+  "lore": "It is obvious that the Asura are physically superior to humans. In addition to their six arms and their incredible strength, they have a strong constitution that allows them to withstand extreme temperatures.\\n\\nThe size of the knives of an Asura Gutslasher exceeds that of human swords. They generally use one of them to distract their enemies until they find an opening. Then, they stab their enemies in the stomach, inflicting wounds from which it is difficult to recover.",
+  "menagerieDialog": [
+    "Thank you for this opportunity. You won\u0027t regret this.",
+    "You lack the controlled anger that is necessary to overcome your enemies.",
+    "There is no room in this kingdom for weakness. With your permission, I would like to test your other creatures and determine their might.",
+    "Show no mercy. Never hesitate before you make a kill, lest your enemies will turn your pity to their advantage.",
+    "We\u0027re wasting time here. Let\u0027s keep moving. There are still plenty of enemies to defeat."
+  ],
+  "minDepth": 1,
+  "name": "Asura Gutslasher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AsuraGutslasher/overworld_e0.png",
+      "images/creature/AsuraGutslasher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AsuraGutslasher/overworld_n0.png",
+      "images/creature/AsuraGutslasher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AsuraGutslasher/overworld_s0.png",
+      "images/creature/AsuraGutslasher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AsuraGutslasher/overworld_w0.png",
+      "images/creature/AsuraGutslasher/overworld_w1.png"
+    ]
+  },
+  "race": "Asura",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 12,
+    "health": 34,
+    "intelligence": 14,
+    "speed": 24
+  },
+  "trait": 294
+}

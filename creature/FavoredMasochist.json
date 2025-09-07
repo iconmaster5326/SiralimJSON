@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FavoredMasochist/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 505,
+  "item": 479,
+  "lore": "The Torture Chamber is an underground complex located in the kingdom of Caedo, several acres in size. Some believe that Tartarith has altered its dimensions to make it even bigger inside.\\n\\nWhen a Masochist is idle, it inflicts superficial wounds on itself to kill time. It is believed that the Favored Masochist was once a young northerner who could channel curses into his own weapon.",
+  "menagerieDialog": [
+    "(It\u0027s casually whittling away at its arm with a knife.)",
+    "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
+    "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
+    "(This creature takes a sickening amount of pleasure in being wounded.)",
+    "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
+  ],
+  "minDepth": 1,
+  "name": "Favored Masochist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FavoredMasochist/overworld_e0.png",
+      "images/creature/FavoredMasochist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FavoredMasochist/overworld_n0.png",
+      "images/creature/FavoredMasochist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FavoredMasochist/overworld_s0.png",
+      "images/creature/FavoredMasochist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FavoredMasochist/overworld_w0.png",
+      "images/creature/FavoredMasochist/overworld_w1.png"
+    ]
+  },
+  "race": "Masochist",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 8,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 23
+  },
+  "trait": 393
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WizardsCompanion/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1174,
+  "item": 1556,
+  "lore": "The inhabitants of Ubi Concordia spend most or all of their time on trivialities, and they often fix their gaze on small rectangles that emit sound and display moving images.\\n\\nWizard\u0027s Companions are usually found in the research centers of the Magic University of Ubi Concordia, the only place where the Auditors allow this research to take place. These creatures help researchers in all kinds of tasks, especially those that could end their lives, and they are also formidable adversaries who will protect them until their last cybernetic breath.",
+  "menagerieDialog": [
+    "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
+    "You and I share a common characteristic: we have no self-awareness.",
+    "What is my purpose?",
+    "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
+    "I do not eat. I do not sleep. I exist only to serve my master."
+  ],
+  "minDepth": 1,
+  "name": "Wizard\u0027s Companion",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WizardsCompanion/overworld_e0.png",
+      "images/creature/WizardsCompanion/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WizardsCompanion/overworld_n0.png",
+      "images/creature/WizardsCompanion/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WizardsCompanion/overworld_s0.png",
+      "images/creature/WizardsCompanion/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WizardsCompanion/overworld_w0.png",
+      "images/creature/WizardsCompanion/overworld_w1.png"
+    ]
+  },
+  "race": "Modron",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 38,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1897
+}

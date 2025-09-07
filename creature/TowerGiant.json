@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/TowerGiant/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 352,
+  "item": 510,
+  "lore": "Adult Giants vary in height between 10 and 25 feet, depending on the subspecies and the individual, although there is one exception.\\n\\nTower Giants are among the largest, with most of them exceeding 20 feet in height. For obvious reasons, their size is their main strength, but it is also their weak point, as their blows are very slow, and they are an easy target for spells.",
+  "menagerieDialog": [
+    "Humans are weak! Even baby Giants can crush your kind with one hand.",
+    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+  ],
+  "minDepth": 1,
+  "name": "Tower Giant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TowerGiant/overworld_e0.png",
+      "images/creature/TowerGiant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TowerGiant/overworld_n0.png",
+      "images/creature/TowerGiant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TowerGiant/overworld_s0.png",
+      "images/creature/TowerGiant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TowerGiant/overworld_w0.png",
+      "images/creature/TowerGiant/overworld_w1.png"
+    ]
+  },
+  "race": "Giant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 43,
+    "intelligence": 12,
+    "speed": 12
+  },
+  "trait": 424
+}

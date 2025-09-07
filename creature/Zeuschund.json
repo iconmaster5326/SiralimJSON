@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Zeuschund/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1355,
+  "item": 1679,
+  "lore": "Zeuschunds are forest dogs from Undolim, trained by humans much like wolves were. They became loyal partners, working hand-in-paw with their human friends on many tasks. Unlike wolves, these dogs have orc-like strength, making them fierce allies in the hunt and on the battlefield. But their true power shows after death\u00E2\u20AC\u201Dif they\u0027ve bonded deeply with their friends, a sudden heartbeat brings them back. Fueled by raw energy, they rise again, unstoppable and capable of crushing foes that seemed unbeatable.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Zeuschund",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Zeuschund/overworld_e0.png",
+      "images/creature/Zeuschund/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Zeuschund/overworld_n0.png",
+      "images/creature/Zeuschund/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Zeuschund/overworld_s0.png",
+      "images/creature/Zeuschund/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Zeuschund/overworld_w0.png",
+      "images/creature/Zeuschund/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 28,
+    "speed": 22
+  },
+  "trait": 2021
+}

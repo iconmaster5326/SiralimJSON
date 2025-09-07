@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/UralosHealer/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1200,
+  "item": 1583,
+  "lore": "The Uraloses are native to an island east of Neralim, called Hutika. This island is rich in resources, and has been the target of attacks by pirates, adventurers, and even the kingdoms of Rodia.\\n\\nOnly Uralos Spellslingers who have undergone strict training since childhood can become Healers. Furthermore, their devotion to Surathli must be unshakable, as must the vow of poverty they will endure for the rest of their lives.",
+  "menagerieDialog": [
+    "You\u0027re lucky to have someone like me in your party. I\u0027m much smarter than the average bear.",
+    "It\u0027s not that we get smarter as we grow older; it\u0027s that we run out of stupid things to do after a while.",
+    "What do you say we stop fighting for the day and have ourselves a pic-a-nic instead?",
+    "I hope to find myself a beautiful wife someday to bear my bears.",
+    "(It\u0027s snoring loudly, surrounded by the remnants of what was once a large, bountiful picnic basket.)"
+  ],
+  "minDepth": 1,
+  "name": "Uralos Healer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UralosHealer/overworld_e0.png",
+      "images/creature/UralosHealer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UralosHealer/overworld_n0.png",
+      "images/creature/UralosHealer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UralosHealer/overworld_s0.png",
+      "images/creature/UralosHealer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UralosHealer/overworld_w0.png",
+      "images/creature/UralosHealer/overworld_w1.png"
+    ]
+  },
+  "race": "Uralos",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1923
+}

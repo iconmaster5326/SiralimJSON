@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/FrostfireEfreet/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 116,
+  "item": 423,
+  "lore": "Zonte had a bad feeling about Vulcanar\u0027s intentions from the beginning. He had dealt with the God before, and he knew it was no coincidence that he had appeared with such an offer immediately after the Djinn uprising. Zonte twisted his words to create the Frostfire Efreet. This creature\u0027s breath can freeze any surface, and its touch can cause ice burns on the skin. Vulcanar had no choice but to reluctantly exile this Efreet from the Great Pandemonium.",
+  "menagerieDialog": [
+    "Death to the Djinns!",
+    "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
+    "You can catch just about anything on fire if you set your mind to it, really.",
+    "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
+    "Fire solves everything. If you need me to take care of someone for you, just say the word."
+  ],
+  "minDepth": 1,
+  "name": "Frostfire Efreet",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FrostfireEfreet/overworld_e0.png",
+      "images/creature/FrostfireEfreet/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FrostfireEfreet/overworld_n0.png",
+      "images/creature/FrostfireEfreet/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FrostfireEfreet/overworld_s0.png",
+      "images/creature/FrostfireEfreet/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FrostfireEfreet/overworld_w0.png",
+      "images/creature/FrostfireEfreet/overworld_w1.png"
+    ]
+  },
+  "race": "Efreet",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 338
+}

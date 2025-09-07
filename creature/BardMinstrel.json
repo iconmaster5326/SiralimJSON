@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BardMinstrel/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 544,
+  "item": 706,
+  "lore": "Bards are the residual energy left behind when the soul of a literary artist or a musician leaves its body for the afterlife. As with Shades, this does not always happen.\\n\\nThe Bard Minstrel\u0027s harp is more an ornament than an instrument, but when this creature runs its fingers through the \u0022strings\u0022, it transmits soft melodies and beautiful words to the minds of the people around it. Anyone nearby will feel the imperative need to declare their love to their romantic interest.",
+  "menagerieDialog": [
+    "(A spell that allows telepathic communication was discovered in the Refuge of the Magi centuries ago after countless experiments were done on these creatures.)",
+    "(This creature has a peculiar habit of stimulating the minds of everyone around it. Right now, it\u0027s projecting some aggressive metal music into your brain.)",
+    "(Despite having no discernable facial features, you always find it easy to read this creature\u0027s mood.)",
+    "(It\u0027s playing a gentle song for your other creatures who are listening with rapt attention.)",
+    "(You can\u0027t help but wonder what it looks like without a robe on.)"
+  ],
+  "minDepth": 1,
+  "name": "Bard Minstrel",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BardMinstrel/overworld_e0.png",
+      "images/creature/BardMinstrel/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BardMinstrel/overworld_n0.png",
+      "images/creature/BardMinstrel/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BardMinstrel/overworld_s0.png",
+      "images/creature/BardMinstrel/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BardMinstrel/overworld_w0.png",
+      "images/creature/BardMinstrel/overworld_w1.png"
+    ]
+  },
+  "race": "Bard",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 12,
+    "health": 42,
+    "intelligence": 27,
+    "speed": 12
+  },
+  "trait": 645
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/LostAmaranth/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 99,
+  "item": 126,
+  "lore": "When an Amaranth dies, it rises beyond the clouds and explodes into a thousand pieces. Not even Sigmund, Helmholtz or the Gods know that Emblems are actually the result of this explosion.\\n\\nUnlike the rest of the Amaranths, the Lost Amaranth does not stop to observe the world. Instead, it travels with groups of humans and other nomadic creatures, protecting them with its very presence.",
+  "menagerieDialog": [
+    "(You can\u0027t seem to catch its attention at all...)",
+    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+    "(It seems to be highly observant of its surroundings.)",
+    "(It\u0027s spinning around on its side. Pretty cool, really.)",
+    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+  ],
+  "minDepth": 1,
+  "name": "Lost Amaranth",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LostAmaranth/overworld_e0.png",
+      "images/creature/LostAmaranth/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LostAmaranth/overworld_n0.png",
+      "images/creature/LostAmaranth/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LostAmaranth/overworld_s0.png",
+      "images/creature/LostAmaranth/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LostAmaranth/overworld_w0.png",
+      "images/creature/LostAmaranth/overworld_w1.png"
+    ]
+  },
+  "race": "Amaranth",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 26,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 35
+}

@@ -1,0 +1,38 @@
+{
+  "bossDialog": [
+    "(There are a LOT of bloodstains in this room. The Eft that is no doubt responsible for them looks up from a carcass it was eating and charges at you, hoping to add you to its pantry!)",
+    "(You hear a low, guttural growl that chills you to the bone - you soon see an Eft climbing down the wall, on its way to attack you and your creatures!)",
+    "(You spot an Eft guarding the treasure and steel your resolve - the level of violence these creatures can inflict is legendary. Get ready for a fight!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures have 1 more base {STAT_speed}.",
+    "4": "Your creatures have 1 more base {STAT_speed}.",
+    "6": "Your creatures have 1 more base {STAT_speed}."
+  },
+  "cards": 6,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    874,
+    875,
+    876,
+    877,
+    878,
+    879
+  ],
+  "icon": "images/race/Eft.png",
+  "master": {
+    "costume": 329,
+    "dialog": "Efts are pack hunters who are great at weakening their enemies before closing in for the kill. You don\u0027t stand a chance against me!",
+    "item": 1270,
+    "name": "Heafy",
+    "trait": 1430
+  },
+  "name": "Eft",
+  "notes": [],
+  "skins": [
+    180,
+    457,
+    458
+  ]
+}

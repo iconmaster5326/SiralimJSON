@@ -1,0 +1,44 @@
+{
+  "bossDialog": [
+    "Aren\u0027t you tired of all this fighting yet? Believe me; you will be one day. And unlike you, I don\u0027t get to stop.",
+    "I\u0027ve fought worse than you. Been killed by worse than you, too. Either way, I\u0027ll have forgotten you within the hour.",
+    "To you, this is a battle for your life. To me, it\u0027s just another day of eternity."
+  ],
+  "cardBonuses": {
+    "3": "You gain 30% more {RES_GRANITE} from battles.",
+    "6": "Increases the base amount of {RES_GRANITE} gained from battles by 15.",
+    "9": "You have a 15% chance to gain double {RES_GRANITE} from battles."
+  },
+  "cards": 9,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    630,
+    755,
+    983
+  ],
+  "icon": "images/race/Wight.png",
+  "master": {
+    "costume": 411,
+    "dialog": "Simply put, Wights refuse to die. I can assure you that you won\u0027t be winning a battle against my immortal army of the dead any time soon. Still not convinced? Then let\u0027s fight!",
+    "item": 1192,
+    "name": "Jawack",
+    "trait": 1515
+  },
+  "name": "Wight",
+  "notes": [],
+  "skins": [
+    45,
+    62,
+    298,
+    520,
+    692,
+    806
+  ]
+}

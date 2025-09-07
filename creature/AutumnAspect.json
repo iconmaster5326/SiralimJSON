@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AutumnAspect/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 104,
+  "item": 514,
+  "lore": "Sometimes, when the dry leaves are carried by the wind, they form a copper-colored whirlwind that rustles violently. When it stops, a noble, surly-looking creature can be seen. Like the other Aspects, they are considered holy creatures by Nature Magi, though every Mage respects them to some extent, as they are known to keep the balance between the seasons. If a region does not wither as it should during the fall, this creature will accelerate the process.",
+  "menagerieDialog": [
+    "(Its eyes are closed, as if meditating.)",
+    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+    "(It is meditating. Better to leave it alone while it relaxes.)",
+    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+    "(Its fur is a total mess. You should have Nortah comb it soon.)"
+  ],
+  "minDepth": 1,
+  "name": "Autumn Aspect",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AutumnAspect/overworld_e0.png",
+      "images/creature/AutumnAspect/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AutumnAspect/overworld_n0.png",
+      "images/creature/AutumnAspect/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AutumnAspect/overworld_s0.png",
+      "images/creature/AutumnAspect/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AutumnAspect/overworld_w0.png",
+      "images/creature/AutumnAspect/overworld_w1.png"
+    ]
+  },
+  "race": "Aspect",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Meraxis)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 14,
+    "health": 29,
+    "intelligence": 19,
+    "speed": 24
+  },
+  "trait": 428
+}

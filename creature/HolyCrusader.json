@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/HolyCrusader/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 383,
+  "item": 185,
+  "lore": "Ever since humans and other intelligent creatures erected temples in honor of Surathli, the Holy Crusaders have protected their gates. These creatures, usually in pairs, remain immobile in front of them for hours, days, or weeks, until something threatens the temple. Outsiders often confuse them with statues or simply do not believe the stories, and eventually end up committing a crime in their eyes.\\n\\nAs soon as a Holy Crusader lifts its mace, it is too late to run away.",
+  "menagerieDialog": [
+    "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
+    "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
+    "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
+    "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
+    "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
+  ],
+  "minDepth": 1,
+  "name": "Holy Crusader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HolyCrusader/overworld_e0.png",
+      "images/creature/HolyCrusader/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HolyCrusader/overworld_n0.png",
+      "images/creature/HolyCrusader/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HolyCrusader/overworld_s0.png",
+      "images/creature/HolyCrusader/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HolyCrusader/overworld_w0.png",
+      "images/creature/HolyCrusader/overworld_w1.png"
+    ]
+  },
+  "race": "Crusader",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 18,
+    "health": 28,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 95
+}

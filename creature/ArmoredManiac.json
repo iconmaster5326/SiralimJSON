@@ -1,0 +1,66 @@
+{
+  "battleSprite": "images/creature/ArmoredManiac/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 920,
+  "item": 952,
+  "lore": "Maniacs are creatures that live in a small peninsula surrounded by an almost impassable desert beyond Ahruna.\\n\\nThe Armored Maniac is nothing more than a Maniac Builder trained to demolish the wooden walls of neighboring tribes. Before going into battle, it wallows in a pool of mud and blood, preferably from its enemies.",
+  "menagerieDialog": [
+    "(It\u0027s sleeping spread-eagle. Disgusting.)",
+    "(It laughs at a far higher pitch than you would have thought possible. This, in turn, makes you laugh, which makes it laugh even harder. The two of you are stuck in an endless loop of compounding giggles.)",
+    "(It\u0027s not wearing any pants, so there\u0027s that.)",
+    "(Unfortunately, this creature is dancing. You\u0027re almost positive that it\u0027s moving in such a way to cause its rolls to jiggle a little extra.)",
+    "(It\u0027s always threatening to kill itself. Isn\u0027t that what Maniacs are made for, anyway?)"
+  ],
+  "minDepth": 1,
+  "name": "Armored Maniac",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ArmoredManiac/overworld_e0.png",
+      "images/creature/ArmoredManiac/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ArmoredManiac/overworld_n0.png",
+      "images/creature/ArmoredManiac/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ArmoredManiac/overworld_s0.png",
+      "images/creature/ArmoredManiac/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ArmoredManiac/overworld_w0.png",
+      "images/creature/ArmoredManiac/overworld_w1.png"
+    ]
+  },
+  "race": "Maniac",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    36
+  ],
+  "statGrowth": {
+    "attack": 14,
+    "defense": 17,
+    "health": 29,
+    "intelligence": 19,
+    "speed": 27
+  },
+  "trait": 1176
+}

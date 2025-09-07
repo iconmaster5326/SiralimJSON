@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Vannyx/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1089,
+  "item": 1525,
+  "lore": "These creatures have long been collaborating with humans and other intelligent creatures. It all started when their ability to predict earth movements was discovered. No more than a decade passed before the Vannyx found themselves in the mines alongside the Rodians, preventing casualties when there was a collapse. In return, they are fed the entrails of all kinds of animals, especially those that are hard to sell on the market. If threatened, they quickly dig a tunnel underground and sneak away at breakneck speed.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Vannyx",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Vannyx/overworld_e0.png",
+      "images/creature/Vannyx/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Vannyx/overworld_n0.png",
+      "images/creature/Vannyx/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Vannyx/overworld_s0.png",
+      "images/creature/Vannyx/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Vannyx/overworld_w0.png",
+      "images/creature/Vannyx/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 1832
+}

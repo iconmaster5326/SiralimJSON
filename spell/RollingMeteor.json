@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Random enemies continuously take damage equal to 20% of this creature\u0027s Current {STAT_health}. After each enemy takes damage, the spell has a 25% chance to end.",
+  "god": null,
+  "id": 555,
+  "manuallyCastable": true,
+  "maxCharges": 6,
+  "name": "Rolling Meteor",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "enemies"
+}

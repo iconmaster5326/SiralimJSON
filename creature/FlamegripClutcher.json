@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FlamegripClutcher/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 55,
+  "item": 361,
+  "lore": "Before the first kingdoms existed, an individual was born who had an exceptional talent for magic. His parents named him Taylor. As a child, he mistreated his toys and experimented with living animals that he caught in the woods, not caring at all about their suffering.\\n\\nThe Flamegrip Clutcher waits until its victims have been immobilized by another Clutcher, then grabs their boots and sets them on fire. The victims watch as their feet are burnt to a crisp, making escape impossible.",
+  "menagerieDialog": [
+    "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
+    "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
+    "(It\u0027s impatiently tapping the floor with its fingertips.)",
+    "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
+    "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
+  ],
+  "minDepth": 1,
+  "name": "Flamegrip Clutcher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FlamegripClutcher/overworld_e0.png",
+      "images/creature/FlamegripClutcher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FlamegripClutcher/overworld_n0.png",
+      "images/creature/FlamegripClutcher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FlamegripClutcher/overworld_s0.png",
+      "images/creature/FlamegripClutcher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FlamegripClutcher/overworld_w0.png",
+      "images/creature/FlamegripClutcher/overworld_w1.png"
+    ]
+  },
+  "race": "Clutcher",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 10,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 277
+}

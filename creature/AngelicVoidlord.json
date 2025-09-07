@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AngelicVoidlord/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 844,
+  "item": 1023,
+  "lore": "A long time ago, there was a woman whose ideas greatly influenced how society would develop. In her youth, she met Dragan, a student of magic who years later would become the most prominent figure in the Refuge of the Magi.\\n\\nThe Angel Voidlord gives off an aura that attracts anyone nearby. Despite its sinister appearance, many people do not take the necessary precautions when approaching it, and the creature takes advantage of this to grab them tightly. Unfortunately, anything that comes in contact with a Voidlord for over ten seconds ceases to exist in an instant, without leaving a single atom behind.",
+  "menagerieDialog": [
+    "(You\u0027ll probably never get accustomed to being around this creature. Something about its demeanor gives you goosebumps.)",
+    "(You\u0027ll probably never be able to fully trust that this creature won\u0027t stab you in the back when you least expect it.)",
+    "(It can take on any shape it wants, and yet it seems to stubbornly maintain this one at all times.)",
+    "(You should really consider keeping this creature somewhere else. It frightens your citizens with its grim demeanor.)",
+    "(It watches you intently, waiting for your next command.)"
+  ],
+  "minDepth": 1,
+  "name": "Angelic Voidlord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AngelicVoidlord/overworld_e0.png",
+      "images/creature/AngelicVoidlord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AngelicVoidlord/overworld_n0.png",
+      "images/creature/AngelicVoidlord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AngelicVoidlord/overworld_s0.png",
+      "images/creature/AngelicVoidlord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AngelicVoidlord/overworld_w0.png",
+      "images/creature/AngelicVoidlord/overworld_w1.png"
+    ]
+  },
+  "race": "Voidlord",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 25,
+    "health": 32,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1115
+}

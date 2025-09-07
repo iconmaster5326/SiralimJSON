@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ImpNecromancer/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 28,
+  "item": 567,
+  "lore": "Imp settlements are mainly found in the Faraway Enclave and the Cutthroat Jungle. Large families of them lived piled up in small cabins, and their main entertainment is inventing disputes with their closest neighbors.\\n\\nIn their culture, those who can make the dead walk are known as Necromancers. The truth is that these creatures could not resurrect even a withered tree. However, they have a wide knowledge about healing herbs that allows them to heal most common diseases.",
+  "menagerieDialog": [
+    "Got any more of them feel-goods?",
+    "We go visit Torun and spit on altar! Go now!",
+    "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
+    "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
+    "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
+  ],
+  "minDepth": 1,
+  "name": "Imp Necromancer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ImpNecromancer/overworld_e0.png",
+      "images/creature/ImpNecromancer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ImpNecromancer/overworld_n0.png",
+      "images/creature/ImpNecromancer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ImpNecromancer/overworld_s0.png",
+      "images/creature/ImpNecromancer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ImpNecromancer/overworld_w0.png",
+      "images/creature/ImpNecromancer/overworld_w1.png"
+    ]
+  },
+  "race": "Imp",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 481
+}

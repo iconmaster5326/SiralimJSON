@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Hunger/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 208,
+  "name": "Hunger",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Hunger/overworld_e0.png",
+      "images/skin/Hunger/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Hunger/overworld_n0.png",
+      "images/skin/Hunger/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Hunger/overworld_s0.png",
+      "images/skin/Hunger/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Hunger/overworld_w0.png",
+      "images/skin/Hunger/overworld_w1.png"
+    ]
+  },
+  "race": "Abomination",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

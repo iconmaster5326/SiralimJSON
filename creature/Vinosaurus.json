@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Vinosaurus/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1345,
+  "item": 1780,
+  "lore": "Elementasaurs live in lands far from the kingdom of Rodia and are highly prized by the dark elites of Siralim and other cities.\\n\\nThe Vinosaur exudes a greenish-black resin to mark its territory and dissolve prey. This resin, once purified, loses its corrosiveness but stays highly poisonous and won\u0027t harm the weapons it permeates. Among poison merchants, its bile is a prized commodity, though many who attempt to collect it fail to come back with enough hands to recount their story.",
+  "menagerieDialog": [
+    "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
+    "RAWR! Time to show these puny creatures what real power looks like!",
+    "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
+    "My hide is infused with primal magic. Nothing can harm me!",
+    "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
+  ],
+  "minDepth": 1,
+  "name": "Vinosaurus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Vinosaurus/overworld_e0.png",
+      "images/creature/Vinosaurus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Vinosaurus/overworld_n0.png",
+      "images/creature/Vinosaurus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Vinosaurus/overworld_s0.png",
+      "images/creature/Vinosaurus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Vinosaurus/overworld_w0.png",
+      "images/creature/Vinosaurus/overworld_w1.png"
+    ]
+  },
+  "race": "Elementasaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 25,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 10
+  },
+  "trait": 2133
+}

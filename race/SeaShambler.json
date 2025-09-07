@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(A barely identifiable, fleshy chunk drops to the ground before you with a sickening, crunchy splat, and quickly pulls itself together and prepares to attack!)",
+    "(The sickening stench of rot and decay fills the room, only increasing as the Shambler, angered by your approach to the treasure hoard, draws near!)",
+    "(What you thought was a particularly large growth of mold in the corner begins to move, rising up and dragging itself towards you while emitting disgusting noises!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies take 20% more damage from {CONDNAME_DEBUFF_BLIGHT}.",
+    "4": "Enemies receive 20% more healing while they\u0027re afflicted with {CONDNAME_DEBUFF_BLIGHT}.",
+    "7": "Enemies with {CONDNAME_DEBUFF_BLIGHT} have a 25% chance to resist buffs."
+  },
+  "cards": 7,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    821,
+    822,
+    823,
+    824,
+    825,
+    946,
+    1274
+  ],
+  "icon": "images/race/SeaShambler.png",
+  "master": {
+    "costume": 382,
+    "dialog": "I hope you weren\u0027t planning to heal your creatures at any point. My Sea Shamblers will slowly whittle your creatures down without giving them a chance to recuperate!",
+    "item": 1200,
+    "name": "Stark",
+    "trait": 1485
+  },
+  "name": "Sea Shambler",
+  "notes": [],
+  "skins": [
+    196,
+    436,
+    769,
+    772,
+    809
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(The Grimoire immediately starts casting a curse as soon as you approach it. Not wanting to be any more cursed than usual, you order your creatures to put a stop to it.)",
+    "There are over 5,000 ways to utterly humiliate you contained within my pages. Are you SURE you want to fight me?",
+    "You\u0027ve learned how to use magic? Cute. I\u0027m the one people learn to use magic FROM. Let me show you how it\u0027s done."
+  ],
+  "cardBonuses": {
+    "2": "Your creatures\u0027 {CONDNAME_BUFF_ARCANE} buffs have a 5% chance to grant the Spell Gem an extra {STAT_charge} when it activates.",
+    "5": "Your creatures\u0027 {CONDNAME_BUFF_ARCANE} buffs have a 10% chance to not be removed after they cast a spell.",
+    "8": "Doubles the chance for these effects to occur."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    635,
+    751
+  ],
+  "icon": "images/race/Grimoire.png",
+  "master": {
+    "costume": 343,
+    "dialog": "Grimoires are great for powering up certain Spell Gems to make them even stronger yet. Care to see what I mean? Let\u0027s duel!",
+    "item": 1254,
+    "name": "Lake",
+    "trait": 1444
+  },
+  "name": "Grimoire",
+  "notes": [],
+  "skins": [
+    107,
+    118,
+    521,
+    677
+  ]
+}

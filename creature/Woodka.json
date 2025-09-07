@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/Woodka/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 750,
+  "item": 81,
+  "lore": "When the wind swings the branches of a Woodka, hundreds of droplets are released from its body, carrying with them the characteristic aroma of ale. Despite being a tree made of beer, this creature is always hungry. However, the food remains floating inside its body after swallowing it, which means it is never digested and can even rot, making the Woodka sick.",
+  "menagerieDialog": [
+    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+    "(Now here\u0027s a creature who knows how to party!)",
+    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+  ],
+  "minDepth": 1,
+  "name": "Woodka",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Woodka/overworld_e0.png",
+      "images/creature/Woodka/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Woodka/overworld_n0.png",
+      "images/creature/Woodka/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Woodka/overworld_s0.png",
+      "images/creature/Woodka/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Woodka/overworld_w0.png",
+      "images/creature/Woodka/overworld_w1.png"
+    ]
+  },
+  "race": "Alemental",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Gambling Dwarf Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    7
+  ],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 20,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 992
+}

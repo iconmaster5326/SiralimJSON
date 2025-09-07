@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/IncandescentVulpes/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 688,
+  "item": 833,
+  "lore": "When an old ruler of Siralim unleashed the power of ten Nether Orbs at once, part of their magic was absorbed by this creature. It walks slowly, delicately moving its two tails, but it has a relentless gaze. Its mere presence can permanently unhinge the weak of spirit, turning them into pyromaniacs who seek in the flames a light similar to its own.",
+  "menagerieDialog": [
+    "(You would have loved to keep one of these creatures as a pet when you were a child.)",
+    "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
+    "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
+    "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
+    "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
+  ],
+  "minDepth": 1,
+  "name": "Incandescent Vulpes",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/IncandescentVulpes/overworld_e0.png",
+      "images/creature/IncandescentVulpes/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/IncandescentVulpes/overworld_n0.png",
+      "images/creature/IncandescentVulpes/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/IncandescentVulpes/overworld_s0.png",
+      "images/creature/IncandescentVulpes/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/IncandescentVulpes/overworld_w0.png",
+      "images/creature/IncandescentVulpes/overworld_w1.png"
+    ]
+  },
+  "race": "Vulpes",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 860
+}

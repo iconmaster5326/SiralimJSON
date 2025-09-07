@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/JewelCruncher/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 944,
+  "item": 945,
+  "lore": "Siralim\u0027s siege of Crux not only caused the Sentinel Watcher to escape, but the Rod of Ruin was also split into two when the mayor of the city refused to reveal its purpose to the ruler of Siralim. Unfortunately, that made the Temple of Lies accessible through other means.\\n\\nBecause the Jewel Cruncher\u0027s shell emits a powerful, continuous, golden light even after death, it has become the target of many warriors since these events took place. However, Rodia\u0027s Council, or what remains of it, is considering the introduction of a high tax on the sale of products made with this material, as it would be unfair to the craftsmen who use magic to produce the same effect.",
+  "menagerieDialog": [
+    "(Upon your approach, it withdraws into its shell. It must be tired.)",
+    "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
+    "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
+    "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
+    "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
+  ],
+  "minDepth": 1,
+  "name": "Jewel Cruncher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/JewelCruncher/overworld_e0.png",
+      "images/creature/JewelCruncher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/JewelCruncher/overworld_n0.png",
+      "images/creature/JewelCruncher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/JewelCruncher/overworld_s0.png",
+      "images/creature/JewelCruncher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/JewelCruncher/overworld_w0.png",
+      "images/creature/JewelCruncher/overworld_w1.png"
+    ]
+  },
+  "race": "Cruncher",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 23,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 8
+  },
+  "trait": 1193
+}

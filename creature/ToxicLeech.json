@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ToxicLeech/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 860,
+  "item": 1008,
+  "lore": "Leeches only need to touch a creature to absorb its blood. This process occurs at an incredible speed, and they are able to drain a human being dry in a matter of minutes.\\n\\nBeing in the presence of the Toxic Leech for too long alters protein synthesis in any living creature, including magical ones, which ends up killing them unless they receive proper treatment in time.",
+  "menagerieDialog": [
+    "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
+    "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
+    "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
+    "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
+    "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
+  ],
+  "minDepth": 1,
+  "name": "Toxic Leech",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ToxicLeech/overworld_e0.png",
+      "images/creature/ToxicLeech/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ToxicLeech/overworld_n0.png",
+      "images/creature/ToxicLeech/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ToxicLeech/overworld_s0.png",
+      "images/creature/ToxicLeech/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ToxicLeech/overworld_w0.png",
+      "images/creature/ToxicLeech/overworld_w1.png"
+    ]
+  },
+  "race": "Leech",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 1127
+}

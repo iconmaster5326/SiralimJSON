@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/StagRoyal/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 588,
+  "item": 686,
+  "lore": "More than two meters high, and with an even longer space between its antlers, the Stag Royal is the largest of its species. In recent times, they have become quite an annoyance for Rodia\u0027s farmers, as they browse freely in their vegetable gardens and, what is worse, they also eat their livestock. Many of these farmers have begun to employ Magi to put an end to this terrible plague.",
+  "menagerieDialog": [
+    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Stag Royal",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StagRoyal/overworld_e0.png",
+      "images/creature/StagRoyal/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StagRoyal/overworld_n0.png",
+      "images/creature/StagRoyal/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StagRoyal/overworld_s0.png",
+      "images/creature/StagRoyal/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StagRoyal/overworld_w0.png",
+      "images/creature/StagRoyal/overworld_w1.png"
+    ]
+  },
+  "race": "Stag",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 34,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 624
+}

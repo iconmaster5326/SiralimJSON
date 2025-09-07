@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/InnocentShambler/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 823,
+  "item": 1044,
+  "lore": "Sea Shamblers are somehow able to reproduce, but they lose their instincts and intelligence with each generation, with the exception of the Juggernaut, who is not undead, and the Lugubrious, due to its special nature.\\n\\nWilliam James dropped anchors on the western coast of Rodia, near the kingdom of Ahruna. Much of his fleet had sunk into the Boreal Ocean, and what remained was severely damaged. Still, there was room enough on their ships for the large numbers of exotic creatures they took with them.\\n\\nThe Innocent Shambler, as the pirate crew named it, was one of the undead creatures they found in the Boreal Ocean. They are meek, but skilled hunters, and although they do not need to feed, they have not lost their instincts. Occasionally, they capture prey and try to devour it, but pieces of chewed meat inevitably trickle out of the holes in their body.",
+  "menagerieDialog": [
+    "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
+    "(Though it smells like dead fish, it is a formidable part of your team.)",
+    "(Not everything in life is beautiful. This creature is proof of that.)",
+    "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
+    "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
+  ],
+  "minDepth": 1,
+  "name": "Innocent Shambler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/InnocentShambler/overworld_e0.png",
+      "images/creature/InnocentShambler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/InnocentShambler/overworld_n0.png",
+      "images/creature/InnocentShambler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/InnocentShambler/overworld_s0.png",
+      "images/creature/InnocentShambler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/InnocentShambler/overworld_w0.png",
+      "images/creature/InnocentShambler/overworld_w1.png"
+    ]
+  },
+  "race": "Sea Shambler",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    },
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 12
+  },
+  "trait": 1088
+}

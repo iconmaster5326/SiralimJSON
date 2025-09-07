@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/HorrorHound/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 292,
+  "item": 235,
+  "lore": "Many lords and mercenaries keep these creatures as pets or companions, but their real strength lies in being with their pack. The authorities recommend fleeing when faced with several of these creatures.\\n\\nThe Horror Hound\u0027s tail ends in a stinger that produces a torrent of fear and sadness when it digs into the flesh of its enemies, weakening their strength and resolve during battle.",
+  "menagerieDialog": [
+    "(It yawns and stretches into a downward dog position.)",
+    "Hiss... hiss!\\n(You do know you\u0027re not a cat, right?)",
+    "(It\u0027s running around in small circles, wiggling its ass for no reason. Yep, it\u0027s a hound all right.)",
+    "(It smells of dog sweat. You should tell Nortah to give it a bath before you leave.)",
+    "(It often scratches itself with one of its hind legs. Nortah should really check it for fleas.)"
+  ],
+  "minDepth": 1,
+  "name": "Horror Hound",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HorrorHound/overworld_e0.png",
+      "images/creature/HorrorHound/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HorrorHound/overworld_n0.png",
+      "images/creature/HorrorHound/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HorrorHound/overworld_s0.png",
+      "images/creature/HorrorHound/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HorrorHound/overworld_w0.png",
+      "images/creature/HorrorHound/overworld_w1.png"
+    ]
+  },
+  "race": "Hound",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 18,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 33,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 144
+}

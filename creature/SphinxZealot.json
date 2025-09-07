@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SphinxZealot/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 423,
+  "item": 188,
+  "lore": "The sovereigns of Kaito ordered their priests and priestesses to go to the towns and cities and closely observe the Sphinxes to learn more about magic. That brought great advances to their spells and rituals that culminated in a horrible curse.\\n\\nA Sphinx Zealot befriended a priest of the Empire and instructed him in the art of magic. It also convinced him that Sphinxes were superior creatures that should rule the world to bring order and prosperity.",
+  "menagerieDialog": [
+    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+    "Let us take our leave and fight for glory!",
+    "Things are not always as they seem. My advice to you is to question everything.",
+    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+  ],
+  "minDepth": 1,
+  "name": "Sphinx Zealot",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SphinxZealot/overworld_e0.png",
+      "images/creature/SphinxZealot/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SphinxZealot/overworld_n0.png",
+      "images/creature/SphinxZealot/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SphinxZealot/overworld_s0.png",
+      "images/creature/SphinxZealot/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SphinxZealot/overworld_w0.png",
+      "images/creature/SphinxZealot/overworld_w1.png"
+    ]
+  },
+  "race": "Sphinx",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Yseros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 12,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 98
+}

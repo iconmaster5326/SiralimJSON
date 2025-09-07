@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SirenPurifier/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 29,
+  "item": 132,
+  "lore": "Siren Purifiers can smell evil miles away, but their senses have atrophied because of the sheer number of stimuli they receive constantly. They are unable to differentiate between true villainy and simple selfish actions without importance. These creatures can summon blue fire in the palm of their hands that makes any creature hit by it fall asleep. This is especially dangerous for ships at night, as the Siren Purifier often targets the helmsperson and causes the entire crew to lose their way.",
+  "menagerieDialog": [
+    "(Singing, as usual.)",
+    "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
+    "(It always seems eager to teach your other creatures new things.)",
+    "Dude... bubbles...",
+    "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Siren Purifier",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SirenPurifier/overworld_e0.png",
+      "images/creature/SirenPurifier/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SirenPurifier/overworld_n0.png",
+      "images/creature/SirenPurifier/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SirenPurifier/overworld_s0.png",
+      "images/creature/SirenPurifier/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SirenPurifier/overworld_w0.png",
+      "images/creature/SirenPurifier/overworld_w1.png"
+    ]
+  },
+  "race": "Siren",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Lister)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 23,
+    "speed": 13
+  },
+  "trait": 42
+}

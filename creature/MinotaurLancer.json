@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MinotaurLancer/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 642,
+  "item": 837,
+  "lore": "As a calf, its Battlemaster told it that it would not get very far because of the bad reputation of its lineage. Now, it has become a legend for being the only Minotaur capable of defeating the powerful Subaqueous Dragon in single combat. The tip of its spear is made out of one of the beast\u0027s fangs and used both as a weapon and as a trophy to boast of its great feat. However, it does not rest in its quest to find another worthy foe in Rodia.",
+  "menagerieDialog": [
+    "I still have my strength, let\u0027s go!",
+    "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
+    "Let none survive. All will perish in our wake!",
+    "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
+    "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
+  ],
+  "minDepth": 1,
+  "name": "Minotaur Lancer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MinotaurLancer/overworld_e0.png",
+      "images/creature/MinotaurLancer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MinotaurLancer/overworld_n0.png",
+      "images/creature/MinotaurLancer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MinotaurLancer/overworld_s0.png",
+      "images/creature/MinotaurLancer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MinotaurLancer/overworld_w0.png",
+      "images/creature/MinotaurLancer/overworld_w1.png"
+    ]
+  },
+  "race": "Minotaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 33,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 864
+}

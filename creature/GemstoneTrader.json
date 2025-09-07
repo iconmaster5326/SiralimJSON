@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GemstoneTrader/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1310,
+  "item": 1686,
+  "lore": "This amphibian\u0027s friendly appearance has fooled countless wrongdoers. In truth, it\u0027s incredibly strong and vengeful. Always carrying a pouch of gemstones, it\u0027s willing to barter for food, gear, or magic. Anyone who tries to scam or push a clearly dishonest trade will face its wrath, ending up beaten and robbed of their belongings.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Gemstone Trader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GemstoneTrader/overworld_e0.png",
+      "images/creature/GemstoneTrader/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GemstoneTrader/overworld_n0.png",
+      "images/creature/GemstoneTrader/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GemstoneTrader/overworld_s0.png",
+      "images/creature/GemstoneTrader/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GemstoneTrader/overworld_w0.png",
+      "images/creature/GemstoneTrader/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 30,
+    "intelligence": 28,
+    "speed": 17
+  },
+  "trait": 2028
+}

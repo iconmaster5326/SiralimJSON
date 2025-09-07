@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CreepingArachnalisk/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 617,
+  "item": 793,
+  "lore": "This Arachnalisk is extremely intelligent, and the only one able to speak. Vertraag had to call in many favors from Yseros so that she would help him create it as a \u0022show of courtesy and respect\u0022, though it is doubtful that he actually managed to deceive her. Shortly after its arrival to the Arachnid Nest, the Arachnalisks divided into opposing factions and fought each other, resulting in the deaths of hundreds of them and forcing Regalis herself to stop them and exile the cunning instigator.",
+  "menagerieDialog": [
+    "(These creatures are a real plague... but they can be useful in battle.)",
+    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+    "(It hands you a little doll made out of web silk. Ugh.)",
+    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+  ],
+  "minDepth": 1,
+  "name": "Creeping Arachnalisk",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CreepingArachnalisk/overworld_e0.png",
+      "images/creature/CreepingArachnalisk/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CreepingArachnalisk/overworld_n0.png",
+      "images/creature/CreepingArachnalisk/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CreepingArachnalisk/overworld_s0.png",
+      "images/creature/CreepingArachnalisk/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CreepingArachnalisk/overworld_w0.png",
+      "images/creature/CreepingArachnalisk/overworld_w1.png"
+    ]
+  },
+  "race": "Arachnalisk",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 814
+}

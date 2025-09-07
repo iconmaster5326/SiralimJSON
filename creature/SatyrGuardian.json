@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SatyrGuardian/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 891,
+  "item": 987,
+  "lore": "Satyrs soon began trading with the other intelligent species of the Blood Grove \u00E2\u20AC\u201D the Inquisitors. They traded fruit, cattle, tools, and knowledge for silk, different cattle and a variety of metals and minerals.\\n\\nTo safeguard the well-being of their people, some Satyrs protect the most vulnerable areas from attack, but Satyr Guardians are never alone. Whether they like it or not, the nature of the Unleashed Satyrs has made collaboration between the two a necessity.",
+  "menagerieDialog": [
+    "(It\u0027s playing a tune on a set of pipes, oblivious to your approach.)",
+    "Care to hear a new song I\u0027ve written? It\u0027s called \u0022The Art of War\u0022.",
+    "(It\u0027s busy shining its hooves with a cloth. Makes sense.)",
+    "(It\u0027s busy tap-dancing. This seems odd at first until you realize you\u0027d do the same thing if you had hooves.)",
+    "(It\u0027s throwing a tantrum and stomping its hooves on the ground. Touchy little thing.)"
+  ],
+  "minDepth": 1,
+  "name": "Satyr Guardian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SatyrGuardian/overworld_e0.png",
+      "images/creature/SatyrGuardian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SatyrGuardian/overworld_n0.png",
+      "images/creature/SatyrGuardian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SatyrGuardian/overworld_s0.png",
+      "images/creature/SatyrGuardian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SatyrGuardian/overworld_w0.png",
+      "images/creature/SatyrGuardian/overworld_w1.png"
+    ]
+  },
+  "race": "Satyr",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 11,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 1151
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/NihilistSeeker/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1079,
+  "item": 1515,
+  "lore": "The moment the Nihilists materialized in this universe, someone smiled in true satisfaction at the End of Eternity.\\n\\nWhen the Nihilist Seeker performs a dance with its staff, it can locate where any creature has vanished due to the powers of a Voidlord within a mile of it, regardless of when it occurred.",
+  "menagerieDialog": [
+    "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
+    "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
+    "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
+    "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
+    "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
+  ],
+  "minDepth": 1,
+  "name": "Nihilist Seeker",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NihilistSeeker/overworld_e0.png",
+      "images/creature/NihilistSeeker/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NihilistSeeker/overworld_n0.png",
+      "images/creature/NihilistSeeker/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NihilistSeeker/overworld_s0.png",
+      "images/creature/NihilistSeeker/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NihilistSeeker/overworld_w0.png",
+      "images/creature/NihilistSeeker/overworld_w1.png"
+    ]
+  },
+  "race": "Nihilist",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 17,
+    "health": 31,
+    "intelligence": 7,
+    "speed": 27
+  },
+  "trait": 1822
+}

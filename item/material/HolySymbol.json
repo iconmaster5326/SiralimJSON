@@ -1,0 +1,17 @@
+{
+  "condition": null,
+  "creator": null,
+  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIgnorance Is Bliss:\nThis creature always has {CONDNAME_DEBUFF_MANIA} and {CONDNAME_BUFF_MEND}. After your creatures take damage from {CONDNAME_DEBUFF_MANIA}, a random enemy takes that damage as well. After your creatures are healed by {CONDNAME_BUFF_MEND}, a random enemy is healed for that amount as well. This trait does not stack.",
+  "icon": "images/item/material/HolySymbol.png",
+  "id": 1783,
+  "name": "Holy Symbol",
+  "notes": [],
+  "slot": "trait",
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "stats": [],
+  "trait": 2136
+}

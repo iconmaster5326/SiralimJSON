@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ParasiticSnaptrap/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 830,
+  "item": 1039,
+  "lore": "When a Snaptrap devours a creature, it stores residual energy of the creature, along with part of its memories, inside it to feed.\\n\\nFrom the time they sprout to the moment of their death, Parasitic Snaptraps have a host, which changes depending on their life cycle. They first sprout inside a small rodent, and within a few weeks they switch to a larger bird or mammal. It does not kill these hosts, although it does shorten their lives significantly. When it reaches maturity, the creature digs its roots into other plants and sucks them dry. On the contrary, even though it does feed on insects that enter its jaws, it will only attack and devour other creatures if it has no other choice.",
+  "menagerieDialog": [
+    "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
+    "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
+    "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
+    "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
+    "(A few feathers are stuck in its teeth. What could it have eaten?)"
+  ],
+  "minDepth": 1,
+  "name": "Parasitic Snaptrap",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ParasiticSnaptrap/overworld_e0.png",
+      "images/creature/ParasiticSnaptrap/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ParasiticSnaptrap/overworld_n0.png",
+      "images/creature/ParasiticSnaptrap/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ParasiticSnaptrap/overworld_s0.png",
+      "images/creature/ParasiticSnaptrap/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ParasiticSnaptrap/overworld_w0.png",
+      "images/creature/ParasiticSnaptrap/overworld_w1.png"
+    ]
+  },
+  "race": "Snaptrap",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 43,
+    "intelligence": 23,
+    "speed": 8
+  },
+  "trait": 1095
+}

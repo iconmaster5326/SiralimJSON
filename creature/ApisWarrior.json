@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ApisWarrior/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 606,
+  "item": 775,
+  "lore": "The Apis were turned into loyal beasts by the Sphinx Usurper, able to face danger. In exchange, they lost their power over the earth and the sun. However, adding the strength of the Apis to the battle against the Watchers was not enough to change the fate of the empire. The Apis Warrior, made by the Usurper to protect it, knew that it was fighting for a lost cause and rebelled to free its people. The Apis turned against the Sphinxes, who could not prevent their escape on the last day of Kaito.",
+  "menagerieDialog": [
+    "(It yawns and turns away from you.)",
+    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+    "(Upon your approach, it licks your hand over and over and over again. True love.)",
+    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+  ],
+  "minDepth": 1,
+  "name": "Apis Warrior",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ApisWarrior/overworld_e0.png",
+      "images/creature/ApisWarrior/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ApisWarrior/overworld_n0.png",
+      "images/creature/ApisWarrior/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ApisWarrior/overworld_s0.png",
+      "images/creature/ApisWarrior/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ApisWarrior/overworld_w0.png",
+      "images/creature/ApisWarrior/overworld_w1.png"
+    ]
+  },
+  "race": "Apis",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 27,
+    "intelligence": 12,
+    "speed": 22
+  },
+  "trait": 802
+}

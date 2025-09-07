@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "sorcery",
+  "creator": null,
+  "description": "Enemies\u0027 Spell Gems they\u0027ve cast in the current battle are Sealed.",
+  "god": null,
+  "id": 290,
+  "manuallyCastable": true,
+  "maxCharges": 10,
+  "name": "Brain Freeze",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "enemies"
+}

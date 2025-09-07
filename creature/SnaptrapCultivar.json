@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SnaptrapCultivar/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 828,
+  "item": 1038,
+  "lore": "Snaptraps lived only on the island of Eferia, but James and his crew brought with them a good number of seeds which they soon used to trade in Rodia, as they usually do.\\n\\nA group of Rodian scientists crossed Snaptrap seeds with other local plants and managed to create a hybrid between a Battrap and various fruit-bearing shrubs. The so-called Snaptrap Cultivar feeds on insects and attacks larger animals when they try to pluck their fruit before it is ripe. Their attacks can be deadly, but once the fruit is ripe it drops on its own and the Cultivar Snaptrap stops responding aggressively if someone tries to get ahold of it.",
+  "menagerieDialog": [
+    "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
+    "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
+    "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
+    "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
+    "(A few feathers are stuck in its teeth. What could it have eaten?)"
+  ],
+  "minDepth": 1,
+  "name": "Snaptrap Cultivar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SnaptrapCultivar/overworld_e0.png",
+      "images/creature/SnaptrapCultivar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SnaptrapCultivar/overworld_n0.png",
+      "images/creature/SnaptrapCultivar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SnaptrapCultivar/overworld_s0.png",
+      "images/creature/SnaptrapCultivar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SnaptrapCultivar/overworld_w0.png",
+      "images/creature/SnaptrapCultivar/overworld_w1.png"
+    ]
+  },
+  "race": "Snaptrap",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 21,
+    "speed": 11
+  },
+  "trait": 1094
+}

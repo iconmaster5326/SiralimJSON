@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ScourgeMummy/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 48,
+  "item": 241,
+  "lore": "The priests and priestesses of Kaito often practiced low-level magic. They knew how to enchant items, perform rituals and even developed a power curse, whose scope they completely ignored.\\n\\nThe Scourge Mummy\u0027s target was not the humans. At least, not directly. When this creature entered a town or a city, it touched the walls of the houses, starting countless fires.",
+  "menagerieDialog": [
+    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+  ],
+  "minDepth": 1,
+  "name": "Scourge Mummy",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ScourgeMummy/overworld_e0.png",
+      "images/creature/ScourgeMummy/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ScourgeMummy/overworld_n0.png",
+      "images/creature/ScourgeMummy/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ScourgeMummy/overworld_s0.png",
+      "images/creature/ScourgeMummy/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ScourgeMummy/overworld_w0.png",
+      "images/creature/ScourgeMummy/overworld_w1.png"
+    ]
+  },
+  "race": "Mummy",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 11
+  },
+  "trait": 151
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ThunderRex/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1342,
+  "item": 1777,
+  "lore": "Though many Elementasaurs went extinct ages ago, some survive to this day, whether naturally or by other means.\\n\\nRather than roar, the Thunder-Rex thunders like a summer storm. Its body stores atmospheric electricity like an organic battery and can unleash it all at once when attacking. Ancient tablets from a human clan depict it as the messenger of angry gods\u00E2\u20AC\u201Dand rightly so: once it locks onto its prey, no rock or wall can stop it.",
+  "menagerieDialog": [
+    "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
+    "RAWR! Time to show these puny creatures what real power looks like!",
+    "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
+    "My hide is infused with primal magic. Nothing can harm me!",
+    "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
+  ],
+  "minDepth": 1,
+  "name": "Thunder-Rex",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ThunderRex/overworld_e0.png",
+      "images/creature/ThunderRex/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ThunderRex/overworld_n0.png",
+      "images/creature/ThunderRex/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ThunderRex/overworld_s0.png",
+      "images/creature/ThunderRex/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ThunderRex/overworld_w0.png",
+      "images/creature/ThunderRex/overworld_w1.png"
+    ]
+  },
+  "race": "Elementasaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 20,
+    "health": 38,
+    "intelligence": 20,
+    "speed": 17
+  },
+  "trait": 2130
+}

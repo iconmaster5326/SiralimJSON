@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/AmphisbaenaProspector/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 807,
+  "item": 1066,
+  "lore": "The protests of the citizens of Omnia against the Amphisbaenas grew, and the Amphisbaenas brought several unions to trial, accusing them of inciting crimes against their species. Sigmund finally took sides, and decreed that continuing the hunt of these creatures would be punished with exile to the Torture Chamber, whatever the crime committed against them.\\n\\nAmphisbaena Prospectors perform a wide variety of physical tasks, but they are best known for mining inside the gigantic Nether Orb on which the capital of Siralim was built, with the aim of extracting the raw material used to make Spell Gems. Due to the power it contains, most creatures eventually become ill, but Amphisbaenas are immune to this influence thanks to their biology.",
+  "menagerieDialog": [
+    "It is an honor to fight by your side, {PLAYERNAME}.",
+    "After having fought so much, I\u0027ve come to appreciate the art of war.",
+    "We may have two heads, but we think as one. We are a single being, and each of our brains is like a single hemisphere of your own.",
+    "You should consider memorizing a few spells for when you\u0027re in a pinch. What good is a {CURRENTSPEC} if they can\u0027t fight their own battles?",
+    "I dislike fighting, though I must admit that I am quite good at it."
+  ],
+  "minDepth": 1,
+  "name": "Amphisbaena Prospector",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AmphisbaenaProspector/overworld_e0.png",
+      "images/creature/AmphisbaenaProspector/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AmphisbaenaProspector/overworld_n0.png",
+      "images/creature/AmphisbaenaProspector/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AmphisbaenaProspector/overworld_s0.png",
+      "images/creature/AmphisbaenaProspector/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AmphisbaenaProspector/overworld_w0.png",
+      "images/creature/AmphisbaenaProspector/overworld_w1.png"
+    ]
+  },
+  "race": "Amphisbaena",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    },
+    {
+      "realm": 13,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 29,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1071
+}

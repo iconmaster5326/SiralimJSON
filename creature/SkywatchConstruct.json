@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SkywatchConstruct/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 758,
+  "item": 66,
+  "lore": "The temple of Surathli in the city of Nex already has several of these creatures, which act as sacristans while giving the Goddess\u0027s house a more ceremonious appearance. Undoubtedly, however, its most significant contribution is guarding the borders of cities and towns, as they are very efficient in the detection and hunting of Harpies. Recently, the ruler of Nex asked the Council of Sovereigns to increase the production of these Constructs specifically for this purpose.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Skywatch Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SkywatchConstruct/overworld_e0.png",
+      "images/creature/SkywatchConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SkywatchConstruct/overworld_n0.png",
+      "images/creature/SkywatchConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SkywatchConstruct/overworld_s0.png",
+      "images/creature/SkywatchConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SkywatchConstruct/overworld_w0.png",
+      "images/creature/SkywatchConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 23,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 1011
+}

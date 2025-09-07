@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/GriffonArcher/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 633,
+  "item": 825,
+  "lore": "Griffons sometimes establish bonds with other intelligent creatures. In the past, there was a Hunter who found a Griffon chick that had been abandoned by its flock due to the black color of its feathers. The Hunter raised the chick and taught it how to use a bow when it grew up. Together they wandered Rodia, facing innumerable dangers until, one day, the adventurer passed away due to old age. The Griffon Archer still flies over the country, fighting injustice single-mindedly.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers.)",
+    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Griffon Archer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GriffonArcher/overworld_e0.png",
+      "images/creature/GriffonArcher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GriffonArcher/overworld_n0.png",
+      "images/creature/GriffonArcher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GriffonArcher/overworld_s0.png",
+      "images/creature/GriffonArcher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GriffonArcher/overworld_w0.png",
+      "images/creature/GriffonArcher/overworld_w1.png"
+    ]
+  },
+  "race": "Griffon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 29,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 852
+}

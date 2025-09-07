@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Nalas/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1109,
+  "item": 1486,
+  "lore": "Fae always travel in groups, except if they are with a Brave. Their coordination is perfect and they can separate to make surprise attacks using bait, or attack from two different flanks to confuse their enemies, not letting them react to the attack properly. Nalas, Shallan\u0027s right hand, is in charge of settling conflicts among the Fae when they cannot solve them on their own.",
+  "menagerieDialog": [
+    "This castle is ever so drab! Have you given any thought to planting a garden of flowers and herbs to liven it up a bit?",
+    "I once got into an argument with a Fae. She chose to insult the look of my wings, so I tore hers off and tossed them in a fire.",
+    "I do not wish to travel with such ugly creatures anymore. I suggest you stop judging a creature by its strength and instead pay closer attention to its appearance.",
+    "Have you ever considered how many hundreds of thousands of innocent creatures\u0027 lives you\u0027ve stolen during your conquest? It\u0027s a sickening thought, to be sure.",
+    "I\u0027ve heard great things about the flowers growing in the Unsullied Meadows. Perhaps we could take a trip there sometime soon?"
+  ],
+  "minDepth": 1,
+  "name": "Nalas",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Nalas/overworld_e0.png",
+      "images/creature/Nalas/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Nalas/overworld_n0.png",
+      "images/creature/Nalas/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Nalas/overworld_s0.png",
+      "images/creature/Nalas/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Nalas/overworld_w0.png",
+      "images/creature/Nalas/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    732,
+    733
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1797
+}

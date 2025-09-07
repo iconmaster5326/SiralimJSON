@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/Helios/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1088,
+  "item": 1524,
+  "lore": "These creatures inhabit multiple lakes and rivers in Rodia, and feed mostly on aquatic plants. However, they are able to survive on the surface, and in times of drought they resort to feeding on shrubs and weeds. Bears and wolves see Helios as potential prey when there is a lack of food, although it is not easy for them to catch one. They are elusive and can feel the vibrations of footsteps around them, so they almost always flee before any of these predators can even approach.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Helios",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Helios/overworld_e0.png",
+      "images/creature/Helios/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Helios/overworld_n0.png",
+      "images/creature/Helios/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Helios/overworld_s0.png",
+      "images/creature/Helios/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Helios/overworld_w0.png",
+      "images/creature/Helios/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [
+    704
+  ],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 18,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1831
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NexusAmaranth/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 98,
+  "item": 125,
+  "lore": "No other creature is as mysterious as the Amaranth. At first, they wandered the world. They were peaceful observers that floated from place to place, moved by curiosity. As time went by, they approached other creatures and shared their secrets.\\n\\nDuring the Unification War, a large number of Nexus Amaranths moved from all over the world to watch the bloody battles. Sigmund took advantage of the peculiarity of these creatures to warn King Misery that he was going to be besieged.",
+  "menagerieDialog": [
+    "(You can\u0027t seem to catch its attention at all...)",
+    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+    "(It seems to be highly observant of its surroundings.)",
+    "(It\u0027s spinning around on its side. Pretty cool, really.)",
+    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+  ],
+  "minDepth": 1,
+  "name": "Nexus Amaranth",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NexusAmaranth/overworld_e0.png",
+      "images/creature/NexusAmaranth/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NexusAmaranth/overworld_n0.png",
+      "images/creature/NexusAmaranth/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NexusAmaranth/overworld_s0.png",
+      "images/creature/NexusAmaranth/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NexusAmaranth/overworld_w0.png",
+      "images/creature/NexusAmaranth/overworld_w1.png"
+    ]
+  },
+  "race": "Amaranth",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 25,
+    "health": 43,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 34
+}

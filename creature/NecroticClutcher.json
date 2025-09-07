@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NecroticClutcher/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 53,
+  "item": 359,
+  "lore": "Taylor seemed to have no emotions, and his tastes were getting worse with age. His parents, who feared him, decided not to scold him, instead abandoning him when he was a teenager and fleeing the city.\\n\\nThe Necrotic Clutcher tears the garments of its victims with its fingernails, then grabs their bare wrists or ankles. The tissue that comes in contact with this creature progressively withers until it becomes a piece of dead flesh.",
+  "menagerieDialog": [
+    "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
+    "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
+    "(It\u0027s impatiently tapping the floor with its fingertips.)",
+    "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
+    "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
+  ],
+  "minDepth": 1,
+  "name": "Necrotic Clutcher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NecroticClutcher/overworld_e0.png",
+      "images/creature/NecroticClutcher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NecroticClutcher/overworld_n0.png",
+      "images/creature/NecroticClutcher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NecroticClutcher/overworld_s0.png",
+      "images/creature/NecroticClutcher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NecroticClutcher/overworld_w0.png",
+      "images/creature/NecroticClutcher/overworld_w1.png"
+    ]
+  },
+  "race": "Clutcher",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 10,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 275
+}

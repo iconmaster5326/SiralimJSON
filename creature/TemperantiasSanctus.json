@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/TemperantiasSanctus/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 410,
+  "item": 171,
+  "lore": "Seven creatures emerged from the steam that came out of the Nether Orbs before they were consumed. For a few moments, Spielrein and Baker admired the solemn creatures, completely satisfied with their work.\\n\\nThe Temperantias Sanctus punishes those who consume more food than necessary by releasing a blue powder that is irresistible to gluttons. The more they eat, the greater their appetite becomes, creating a never-ending spiral that ends in their deaths.",
+  "menagerieDialog": [
+    "(You\u0027ve always found these sort of creatures unnerving.)",
+    "(It seems vengeful. The next few battles should be quite interesting.)",
+    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+    "(This creature would make an excellent mascot for {CASTLENAME}.)",
+    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+  ],
+  "minDepth": 1,
+  "name": "Temperantias Sanctus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TemperantiasSanctus/overworld_e0.png",
+      "images/creature/TemperantiasSanctus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TemperantiasSanctus/overworld_n0.png",
+      "images/creature/TemperantiasSanctus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TemperantiasSanctus/overworld_s0.png",
+      "images/creature/TemperantiasSanctus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TemperantiasSanctus/overworld_w0.png",
+      "images/creature/TemperantiasSanctus/overworld_w1.png"
+    ]
+  },
+  "race": "Sanctus",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 18,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 81
+}

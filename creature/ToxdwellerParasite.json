@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ToxdwellerParasite/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 926,
+  "item": 947,
+  "lore": "Mikhail never learned how to use magic and refused to use Spell Gems. Despite this, he was one of the organization\u0027s greatest assets thanks to his cunning, experience, and the two firearms with which he hardly ever missed a target.\\n\\nThe Toxdweller Parasite feeds on blood and garbage, which makes its stinger a weapon to be reckoned with.",
+  "menagerieDialog": [
+    "(It\u0027s staring thoughtfully at a bomb.)",
+    "(It never blinks. Ever. It\u0027s very creepy.)",
+    "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
+    "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
+    "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
+  ],
+  "minDepth": 1,
+  "name": "Toxdweller Parasite",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ToxdwellerParasite/overworld_e0.png",
+      "images/creature/ToxdwellerParasite/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ToxdwellerParasite/overworld_n0.png",
+      "images/creature/ToxdwellerParasite/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ToxdwellerParasite/overworld_s0.png",
+      "images/creature/ToxdwellerParasite/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ToxdwellerParasite/overworld_w0.png",
+      "images/creature/ToxdwellerParasite/overworld_w1.png"
+    ]
+  },
+  "race": "Toxdweller",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Venedon)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 27,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 1183
+}

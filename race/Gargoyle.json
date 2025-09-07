@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(Someone has set a Gargoyle to guard their treasure. It beats its wings, shaking off a considerable layer of dust as it moves to attack!)",
+    "(What you thought was a statue comes to life as you approach! Looks like the Gargoyle doesn\u0027t want you touching the treasure.)",
+    "(You hear a loud, stony thud as a Gargoyle drops from the ceiling in front of you, ready to protect the treasure hoard.)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 15% less damage from {CLASS_Chaos} spells.",
+    "5": "Your creatures take 15% less damage from {CLASS_Chaos} spells.",
+    "8": "Your creatures take 15% less damage from {CLASS_Chaos} spells."
+  },
+  "cards": 8,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    670,
+    1014
+  ],
+  "icon": "images/race/Gargoyle.png",
+  "master": {
+    "costume": 336,
+    "dialog": "Gargoyles are great at casting spells - especially Chaos spells! Let me show you how they work!",
+    "item": 1262,
+    "name": "Goliath",
+    "trait": 1437
+  },
+  "name": "Gargoyle",
+  "notes": [],
+  "skins": [
+    487,
+    488,
+    687
+  ]
+}

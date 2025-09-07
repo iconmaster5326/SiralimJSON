@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(Beautiful shards of an almost crystal, almost metal substance whirl around the chamber, soon pulling themselves together into a form resembling a suit of armor. It blocks the way to the treasure!)",
+    "(The Phase Warrior silently raises its weapon as you approach it. Looks like it has no intention of allowing you to get the treasure.)",
+    "(What you thought was a particularly ornate shield in the treasure hoard separates into several shards, soon assembling into a vaguely humanoid form. It picks up a weapon and gestures at you to challenge it!)"
+  ],
+  "cardBonuses": {
+    "2": "You gain 5% more resources from resource nodes in realms.",
+    "4": "You gain 5% more resources from resource nodes in realms.",
+    "7": "You gain 5% more resources from resource nodes in realms."
+  },
+  "cards": 7,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    649
+  ],
+  "icon": "images/race/PhaseWarrior.png",
+  "master": {
+    "costume": 368,
+    "dialog": "Phase Warriors are from another dimension - one that exists far into the future. Think your medieval creatures can stand up to my army of Phase Warriors? We\u0027ll soon find out!",
+    "item": 1238,
+    "name": "Ewyn",
+    "trait": 1470
+  },
+  "name": "Phase Warrior",
+  "notes": [],
+  "skins": [
+    119,
+    220,
+    748,
+    828
+  ]
+}

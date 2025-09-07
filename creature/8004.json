@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/8004/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1106,
+  "item": 1485,
+  "lore": "B004 is the only creature R080 has created. Its initial purpose was to help him gather information about the world, but now that he has dealt with some mortals, the God of Science is making a great effort to implement a mechanism that allows B004 to understand the emotions of living beings at a higher speed. His success is, at the moment, very questionable, since B004 tends to assume that everyone feels an uncontrollable emotional maelstrom all the time and does not stop constantly asking the people it meets if they are feeling okay.",
+  "menagerieDialog": [
+    "BZZZZZZZZ. SYSTEM FAILURE.",
+    "DESTROY. ALL. HUMANS.",
+    "WHAT IS MY PURPOSE? WHAT DOES MY NAME EVEN MEAN?",
+    "I LIVE TO SERVE MY MASTER.",
+    "LET US LEAVE THIS PLACE AT ONCE."
+  ],
+  "minDepth": 1,
+  "name": "8004",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/8004/overworld_e0.png",
+      "images/creature/8004/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/8004/overworld_n0.png",
+      "images/creature/8004/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/8004/overworld_s0.png",
+      "images/creature/8004/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/8004/overworld_w0.png",
+      "images/creature/8004/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    633,
+    634
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1794
+}

@@ -1,0 +1,44 @@
+{
+  "bossDialog": [
+    "(A large hairy creature sits on top of the treasure pile, scratching its chin thoughtfully as you approach. Suddenly, with speed you\u0027d have thought impossible, it darts upright and challenges you!)",
+    "(The Aspect grumbles loudly as you draw near. It snaps its thick fingers loudly, and a group of its friends appear to attack you!)",
+    "(Twirling and swinging its staff around, it\u0027s clear that the Aspect doesn\u0027t want you getting near the treasure at all. You have your creatures mob it all at once!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures with {CONDNAME_BUFF_AGILE} have a 5% greater chance to Dodge attacks.",
+    "5": "Your creatures with {CONDNAME_BUFF_AGILE} take 10% less damage.",
+    "8": "Your creatures\u0027 {CONDNAME_BUFF_AGILE} buff lasts forever."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    102,
+    103,
+    104,
+    105,
+    106,
+    607,
+    608,
+    984
+  ],
+  "icon": "images/race/Aspect.png",
+  "master": {
+    "costume": 299,
+    "dialog": "Aspects are one with nature. They exhibit a level of focus that is unmatched by any other creature in Rodia, allowing them to dodge even the most powerful of attacks. Your creatures don\u0027t stand a chance!",
+    "item": 1184,
+    "name": "Tao",
+    "trait": 1400
+  },
+  "name": "Aspect",
+  "notes": [],
+  "skins": [
+    179,
+    226,
+    332,
+    388,
+    524,
+    631,
+    808
+  ]
+}

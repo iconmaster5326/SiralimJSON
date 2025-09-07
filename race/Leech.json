@@ -1,0 +1,37 @@
+{
+  "bossDialog": [
+    "(At first appearing as a lump on the floor, the Leech bolts upright as you approach, waving its heads around and making repulsive sounds. It lumbers towards you and attacks!)",
+    "(The strange creature flops around almost comedically, trying to get to you. It\u0027s a good thing you know how dangerous Leeches are, lest you be caught off guard.)",
+    "(You hear a disgusting slurping noise as the Leech raises up, a now-desiccated corpse falling from one of its mouths. It clearly intends to make you its next meal!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures recover 20% more {STAT_health} from {CONDNAME_BUFF_LEECH}.",
+    "4": "When your creatures recover {STAT_health} from {CONDNAME_BUFF_LEECH}, the amount of healing has a 25% chance to be doubled.",
+    "6": "Your creatures\u0027 {CONDNAME_BUFF_LEECH} buff lasts forever."
+  },
+  "cards": 6,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    856,
+    857,
+    858,
+    859,
+    860,
+    861
+  ],
+  "icon": "images/race/Leech.png",
+  "master": {
+    "costume": 353,
+    "dialog": "Anyone who\u0027s anyone will admit that Leeches are some of the most disgusting creatures on the planet, but I\u0027ll be damned if they don\u0027t make for fantastic combatants on the battlefield. It\u0027s time for my Leeches to suck your creatures dry!",
+    "item": 1247,
+    "name": "Vesh",
+    "trait": 1454
+  },
+  "name": "Leech",
+  "notes": [],
+  "skins": [
+    58,
+    276
+  ]
+}

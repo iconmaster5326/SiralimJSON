@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "Your creatures are resurrected with a moderate amount of {STAT_health} and gain a random buff.",
+  "god": null,
+  "id": 471,
+  "manuallyCastable": true,
+  "maxCharges": 1,
+  "name": "Phoenix Down",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": true,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "RESURRECT",
+    "BUFF"
+  ],
+  "targets": "allies"
+}

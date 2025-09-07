@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ImmortalKing/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 300,
+  "item": 114,
+  "lore": "Up to now, nobody knows if Demigods can live forever. However, it seems like they need to feed on the magic inside of items continuously. It may be necessary to clarify that by \u0022items\u0022 they also mean all other living creatures.\\n\\nThe Immortal King named itself thus when it learned the meaning of those words, though it claims to have coined the terms itself. Trying to make it change its mind is tantamount to suicide.",
+  "menagerieDialog": [
+    "I will not waste my breath speaking with the likes of you.",
+    "Unleash me! Let us destroy our foes together as one.",
+    "There is much to be learned from this world. Do not take a single moment for granted.",
+    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+    "I grow restless. Let us take our leave at once."
+  ],
+  "minDepth": 1,
+  "name": "Immortal King",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ImmortalKing/overworld_e0.png",
+      "images/creature/ImmortalKing/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ImmortalKing/overworld_n0.png",
+      "images/creature/ImmortalKing/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ImmortalKing/overworld_s0.png",
+      "images/creature/ImmortalKing/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ImmortalKing/overworld_w0.png",
+      "images/creature/ImmortalKing/overworld_w1.png"
+    ]
+  },
+  "race": "Demigod",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 38,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 23
+}

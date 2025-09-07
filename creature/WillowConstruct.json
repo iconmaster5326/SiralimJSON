@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WillowConstruct/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 760,
+  "item": 50,
+  "lore": "Several activists for the defense of animals, forests and rivers have demanded that the authorities of Nex use Constructs to help conserve nature and to replant the kingdom with trees, given the massive logging that has taken place due to the current war. The proposal has already reached the throne and has been debated by the council, so now only the approval of the ruler is needed to begin the massive production of Willow Constructs that will later be sent out of the cities to serve this purpose.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Willow Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WillowConstruct/overworld_e0.png",
+      "images/creature/WillowConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WillowConstruct/overworld_n0.png",
+      "images/creature/WillowConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WillowConstruct/overworld_s0.png",
+      "images/creature/WillowConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WillowConstruct/overworld_w0.png",
+      "images/creature/WillowConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 1013
+}

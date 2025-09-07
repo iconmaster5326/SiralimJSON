@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Zantai/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 609,
+  "item": 381,
+  "lore": "When the spring came, the humans of the free towns and cities mounted a counterattack. Thanks to their numerical advantage and superior intelligence, humans regained their hegemony with relative ease.\\n\\nSome Asura are currently trying to rebuild their empire from ashes and dust. Their leader is always known as Lord Zantai, in honor of the first Asura that united several tribes and tried to conquer the lands that were once theirs and raise its people to greatness.",
+  "menagerieDialog": [
+    "Thank you for this opportunity. You won\u0027t regret this.",
+    "You lack the controlled anger that is necessary to overcome your enemies.",
+    "There is no room in this kingdom for weakness. With your permission, I would like to test your other creatures and determine their might.",
+    "Show no mercy. Never hesitate before you make a kill, lest your enemies will turn your pity to their advantage.",
+    "We\u0027re wasting time here. Let\u0027s keep moving. There are still plenty of enemies to defeat."
+  ],
+  "minDepth": 1,
+  "name": "Zantai",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Zantai/overworld_e0.png",
+      "images/creature/Zantai/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Zantai/overworld_n0.png",
+      "images/creature/Zantai/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Zantai/overworld_s0.png",
+      "images/creature/Zantai/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Zantai/overworld_w0.png",
+      "images/creature/Zantai/overworld_w1.png"
+    ]
+  },
+  "race": "Asura",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 10,
+    "health": 32,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 297
+}

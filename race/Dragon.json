@@ -1,0 +1,43 @@
+{
+  "bossDialog": [
+    "(A particularly large pile of gold coins swells in size and pours away to the ground with a cascading clinking sound, as the serpentine form of a Dragon unwinds itself to protect its riches!)",
+    "(Baring its teeth, the Dragon unfurls itself up to full height and lets forth a blast of flame towards you; your creatures quickly grab you and get you out of the way before preparing to attack!)",
+    "(The Dragon coiled around the treasure hoard lets forth a loud, furious roar as you approach - its greed refusing to permit you any share of it at all!)"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures deal 10% more damage to {CLASS_Sorcery} creatures.",
+    "6": "Your creatures deal 10% more damage to {CLASS_Sorcery} creatures.",
+    "9": "Your creatures deal 10% more damage to {CLASS_Sorcery} creatures."
+  },
+  "cards": 9,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    671,
+    778,
+    1007
+  ],
+  "icon": "images/race/Dragon.png",
+  "master": {
+    "costume": 325,
+    "dialog": "Dragons are cunning creatures who punish enemies for taking certain actions. For that reason, it takes a brilliant strategy to overcome them. Do you have what it takes to defeat my Dragons?",
+    "item": 1268,
+    "name": "Niklas",
+    "trait": 1426
+  },
+  "name": "Dragon",
+  "notes": [],
+  "skins": [
+    21,
+    106,
+    389,
+    441,
+    665
+  ]
+}

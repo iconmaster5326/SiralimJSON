@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/DreadSpectre/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 442,
+  "item": 625,
+  "lore": "With his knowledge of time, Sigmund found a way to unleash a curse on Rodia. This curse still exists today, and neither Helmholtz, Milner nor the current ruler of Siralim have found a way to dispel it.\\n\\nWhen a Spectre loses the baby it carries, it heads to the nearest city to kidnap another and transforms into this creature. It is frailer than the rest of its kind, but touching it allows one to feel the newborn\u0027s emotions and causes a permanent state of mental alienation after a few seconds.",
+  "menagerieDialog": [
+    "(Its baby is crying, but it doesn\u0027t seem to care.)",
+    "(You can\u0027t help but wonder whose baby it\u0027s holding. On second thought, you\u0027d rather not know.)",
+    "(Its baby begins to cry. It must not like you very much.)",
+    "(The baby is screaming for its mother.)",
+    "(This is, without a doubt, one of the most disturbing creatures in the world. Personally, you can\u0027t imagine ever settling down to have children yourself.)"
+  ],
+  "minDepth": 1,
+  "name": "Dread Spectre",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DreadSpectre/overworld_e0.png",
+      "images/creature/DreadSpectre/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DreadSpectre/overworld_n0.png",
+      "images/creature/DreadSpectre/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DreadSpectre/overworld_s0.png",
+      "images/creature/DreadSpectre/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DreadSpectre/overworld_w0.png",
+      "images/creature/DreadSpectre/overworld_w1.png"
+    ]
+  },
+  "race": "Spectre",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    9
+  ],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 15,
+    "health": 33,
+    "intelligence": 23,
+    "speed": 15
+  },
+  "trait": 195
+}

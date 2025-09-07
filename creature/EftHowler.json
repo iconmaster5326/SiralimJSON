@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/EftHowler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 874,
+  "item": 1090,
+  "lore": "Despite their violent nature, Efts can be tamed if they are raised from an egg. However, one still needs to be cautious when dealing with these extremely violent creatures, as anyone could become their main course if they have nothing else to put in their mouths.\\n\\nThis creature\u0027s howls are powerful and terrifying, and hearing the sound often means that one is in serious trouble. In exchange for losing the surprise factor, Eft Howlers confuse and scare prey to make them easier to kill.",
+  "menagerieDialog": [
+    "(This one is incredibly quiet before entering battle, its steps are barely heard.)",
+    "(It\u0027s quite a violent creature, but in a controlled sort of way. You can\u0027t help but wish your other creatures have a similar demeanor.)",
+    "(Despite its wild apperance, this creature is extremely loyal to you.)",
+    "(Its eyes are fixed on the horizon, deep in thought.)",
+    "(Its horns are so sharp and powerful that they could pierce through even the strongest of armor.)"
+  ],
+  "minDepth": 1,
+  "name": "Eft Howler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EftHowler/overworld_e0.png",
+      "images/creature/EftHowler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EftHowler/overworld_n0.png",
+      "images/creature/EftHowler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EftHowler/overworld_s0.png",
+      "images/creature/EftHowler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EftHowler/overworld_w0.png",
+      "images/creature/EftHowler/overworld_w1.png"
+    ]
+  },
+  "race": "Eft",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Apocranox)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 29,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1205
+}

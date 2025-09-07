@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SnowLily/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1131,
+  "item": 1651,
+  "lore": "In the past, these creatures were harmless little furballs that preyed on insects. Obviously, these insects would disagree with the previous sentence, but Snow Lilies won the hearts of some species such as humans, especially in the summer, when certain pests would ruin crops and bother people at night. Over time they evolved and some were domesticated, although they were never thought of as warriors to lead into battle. However, the Brownie Rebellion changed their fate. Many of them, loyal to these creatures, supported and fought alongside them tooth and nail, proving from that moment that they should not be taken lightly.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Snow Lily",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SnowLily/overworld_e0.png",
+      "images/creature/SnowLily/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SnowLily/overworld_n0.png",
+      "images/creature/SnowLily/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SnowLily/overworld_s0.png",
+      "images/creature/SnowLily/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SnowLily/overworld_w0.png",
+      "images/creature/SnowLily/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1854
+}

@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "All creatures gain a random buff and a random debuff.",
+  "god": null,
+  "id": 613,
+  "manuallyCastable": true,
+  "maxCharges": 10,
+  "name": "Luck of the Draw",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BUFF",
+    "DEBUFF"
+  ],
+  "targets": "all"
+}

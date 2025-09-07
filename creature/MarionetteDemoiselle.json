@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MarionetteDemoiselle/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1327,
+  "item": 1823,
+  "lore": "Marionettes usually follow set programming, but their owners can take control anytime and command them to do anything.\\n\\nThe Marionette Demoiselle is fearless and rebellious\u00E2\u20AC\u201Da fixture at every just protest, loudly standing up for what\u0027s right. They\u0027ve helped stop evictions, reverse unfair firings, and fight injustice more than once.",
+  "menagerieDialog": [
+    "(It hangs limply, awaiting its next command.)",
+    "Pull my strings and watch me dance... a dance of death!",
+    "I may be controlled, but my mind is my own. Let me share my observations with you.",
+    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+  ],
+  "minDepth": 1,
+  "name": "Marionette Demoiselle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MarionetteDemoiselle/overworld_e0.png",
+      "images/creature/MarionetteDemoiselle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MarionetteDemoiselle/overworld_n0.png",
+      "images/creature/MarionetteDemoiselle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MarionetteDemoiselle/overworld_s0.png",
+      "images/creature/MarionetteDemoiselle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MarionetteDemoiselle/overworld_w0.png",
+      "images/creature/MarionetteDemoiselle/overworld_w1.png"
+    ]
+  },
+  "race": "Marionette",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 2182
+}

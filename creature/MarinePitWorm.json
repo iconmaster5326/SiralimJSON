@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MarinePitWorm/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 981,
+  "item": 1308,
+  "lore": "Marine Pit Worms are deep sea creatures who were brought to the mainland by Revenant raiding parties. In their natural habitat, they feed on all kinds of creatures, including, of course, the Revenants themselves. Their diet on the surface is largely the same, and they act like voracious predators to anything that is not a cat. For unknown reasons, the mere presence of these small felines provokes an intense feeling of dread in Marine Pit Worms, driving them to speed away as quickly as they can.",
+  "menagerieDialog": [
+    "(Doesn\u0027t it ever stop drooling? Disgusting.)",
+    "(It never stops wriggling. Frankly, its mannerisms are a bit disconcerting.)",
+    "(One benefit of having this creature around is that you never need to worry about disposing of corpses.)",
+    "(It\u0027s making a disgusting noise with its mouth, not unlike a dog eating oatmeal.)",
+    "(It insists on making disgusting sucking noises with its mouth.)"
+  ],
+  "minDepth": 1,
+  "name": "Marine Pit Worm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MarinePitWorm/overworld_e0.png",
+      "images/creature/MarinePitWorm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MarinePitWorm/overworld_n0.png",
+      "images/creature/MarinePitWorm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MarinePitWorm/overworld_s0.png",
+      "images/creature/MarinePitWorm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MarinePitWorm/overworld_w0.png",
+      "images/creature/MarinePitWorm/overworld_w1.png"
+    ]
+  },
+  "race": "Pit Worm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Death Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 14,
+    "health": 37,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1555
+}

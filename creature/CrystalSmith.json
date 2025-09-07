@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CrystalSmith/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 280,
+  "item": 426,
+  "lore": "Crystal Smiths, together with Brim Smiths and Hammer Lords, are the only ones of their kind that have managed to successfully integrate in the towns and villages of Rodia. Indeed, in kingdoms such as Vanelin or Undolim, where the cult of Yseros is widespread, they were received with joy and admiration thanks to their appearance. However, some of them live in the Gorgon colonies, where they help their people thrive with their forging skills.",
+  "menagerieDialog": [
+    "I\u0027m far more skilled in forging weapons than fighting creatures.",
+    "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
+    "Never leave home without ensuring that all your Artifacts are fully upgraded.",
+    "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
+    "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
+  ],
+  "minDepth": 1,
+  "name": "Crystal Smith",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CrystalSmith/overworld_e0.png",
+      "images/creature/CrystalSmith/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CrystalSmith/overworld_n0.png",
+      "images/creature/CrystalSmith/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CrystalSmith/overworld_s0.png",
+      "images/creature/CrystalSmith/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CrystalSmith/overworld_w0.png",
+      "images/creature/CrystalSmith/overworld_w1.png"
+    ]
+  },
+  "race": "Smith",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Azural)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 22,
+    "health": 34,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 341
+}

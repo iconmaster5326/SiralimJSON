@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/EmeraldParagon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 7,
+  "item": 134,
+  "lore": "During the Unification War, Lister realized that the fragile peace he had achieved with the help of the Priests had completely shattered. Through the gem he always holds in his hands he gave life to the Paragons to help the righteous.\\n\\nThe Emerald Paragon is aggressive and grumpy, and when it gets angry it hits a wall with its fists and throws objects on the floor. Everything around it seems to be more fragile.",
+  "menagerieDialog": [
+    "Your Eminence, please allow me to rest for a bit. It\u0027s been a long day.",
+    "We must constantly re-evaluate our battle strategies to ensure that our foes can never get the best of us.",
+    "Everett is a liar. Don\u0027t say I didn\u0027t warn you.",
+    "Two Paragons make a King Paragon. Two King Paragons make a Gold Paragon. Two Gold Paragons make a Grandpa Paragon.\\n\\nWait, what?",
+    "Something is amiss. I cannot say what is wrong for certain, but I am unable to shake this feeling of dread."
+  ],
+  "minDepth": 1,
+  "name": "Emerald Paragon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EmeraldParagon/overworld_e0.png",
+      "images/creature/EmeraldParagon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EmeraldParagon/overworld_n0.png",
+      "images/creature/EmeraldParagon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EmeraldParagon/overworld_s0.png",
+      "images/creature/EmeraldParagon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EmeraldParagon/overworld_w0.png",
+      "images/creature/EmeraldParagon/overworld_w1.png"
+    ]
+  },
+  "race": "Paragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 7,
+    "defense": 21,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 27
+  },
+  "trait": 44
+}

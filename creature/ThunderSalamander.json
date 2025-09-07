@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/ThunderSalamander/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 597,
+  "item": 721,
+  "lore": "Most of these creatures inhabit a region of Crux that is usually hit by strong storms, and do not allow anyone to approach their territory. A large group can alter the path of lightning bolts at will and decide where they will hit with incredible accuracy. In addition, the electricity that runs through their body interacts with the magic around them, sometimes allowing them to replicate it effortlessly. The authorities of Rodia strongly recommend keeping a safe distance from these creatures.",
+  "menagerieDialog": [
+    "(Your magical items grow warmer in its presence.)",
+    "(It just bit off its own tail. It\u0027ll grow back though, right?)",
+    "(It blinks immediately after you do. Every. Single. Time.)",
+    "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
+    "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
+  ],
+  "minDepth": 1,
+  "name": "Thunder Salamander",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ThunderSalamander/overworld_e0.png",
+      "images/creature/ThunderSalamander/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ThunderSalamander/overworld_n0.png",
+      "images/creature/ThunderSalamander/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ThunderSalamander/overworld_s0.png",
+      "images/creature/ThunderSalamander/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ThunderSalamander/overworld_w0.png",
+      "images/creature/ThunderSalamander/overworld_w1.png"
+    ]
+  },
+  "race": "Salamander",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 660
+}

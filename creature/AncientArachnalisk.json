@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AncientArachnalisk/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 516,
+  "item": 609,
+  "lore": "The Ancient Arachnalisk owes its name to the fact that it usually lives in ancient temples and cities, forgotten places that have been uninhabited for centuries. It knows every inch of its home and expertly plays with lights and shadows, making its web undetectable for most. It is also able to pinpoint the precise location of its prey and even assess its strength based on the intensity of the pulls.",
+  "menagerieDialog": [
+    "(These creatures are a real plague... but they can be useful in battle.)",
+    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+    "(It hands you a little doll made out of web silk. Ugh.)",
+    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+  ],
+  "minDepth": 1,
+  "name": "Ancient Arachnalisk",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AncientArachnalisk/overworld_e0.png",
+      "images/creature/AncientArachnalisk/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AncientArachnalisk/overworld_n0.png",
+      "images/creature/AncientArachnalisk/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AncientArachnalisk/overworld_s0.png",
+      "images/creature/AncientArachnalisk/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AncientArachnalisk/overworld_w0.png",
+      "images/creature/AncientArachnalisk/overworld_w1.png"
+    ]
+  },
+  "race": "Arachnalisk",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 523
+}

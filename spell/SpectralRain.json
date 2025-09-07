@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "sorcery",
+  "creator": null,
+  "description": "Increases the potency of all creatures\u0027 buffs and debuffs by 50%. This spell does not affect {CONDNAME_DEBUFF_INVERTED}.",
+  "god": null,
+  "id": 578,
+  "manuallyCastable": true,
+  "maxCharges": 10,
+  "name": "Spectral Rain",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "all"
+}

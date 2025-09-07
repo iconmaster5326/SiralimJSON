@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Omelette/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 789,
+  "item": 17,
+  "lore": "It was thousands of years ago when Omelettes first encountered humans. Specifically, they were integrated into the society of Kaito, where they let humans paint them during their rituals of birth and death. When that civilization came to an end, the Omelettes dispersed throughout the world and tried to befriend humans from other places. Many of these Dumplings had to pay a great price before they became more than food for the humans, but they are now considered sacred creatures in Rodia and other regions of the world.",
+  "menagerieDialog": [
+    "(It yawns, making a cute, squeaking sound in the process.)",
+    "(How can something so cute exist in a world like this?)",
+    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+    "(It blushes and giggles every time you come near it.)",
+    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+  ],
+  "minDepth": 1,
+  "name": "Omelette",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Omelette/overworld_e0.png",
+      "images/creature/Omelette/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Omelette/overworld_n0.png",
+      "images/creature/Omelette/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Omelette/overworld_s0.png",
+      "images/creature/Omelette/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Omelette/overworld_w0.png",
+      "images/creature/Omelette/overworld_w1.png"
+    ]
+  },
+  "race": "Dumpling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1040
+}

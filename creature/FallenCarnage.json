@@ -1,0 +1,66 @@
+{
+  "battleSprite": "images/creature/FallenCarnage/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 236,
+  "item": 192,
+  "lore": "From the moment they were created, no other creature has managed to replace the Carnages as the most efficient assassins there are. Crime syndicates and some powerful businessmen often use them to get rid of loose ends or competition.\\n\\nFor a Fallen Carnage, taking lives is as necessary as eating, sleeping or reproducing, to the point of turning against their own allies if one of them steals a kill.",
+  "menagerieDialog": [
+    "(Even while it\u0027s not moving, its mere presence is terrifying.)",
+    "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
+    "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
+    "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
+    "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Fallen Carnage",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FallenCarnage/overworld_e0.png",
+      "images/creature/FallenCarnage/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FallenCarnage/overworld_n0.png",
+      "images/creature/FallenCarnage/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FallenCarnage/overworld_s0.png",
+      "images/creature/FallenCarnage/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FallenCarnage/overworld_w0.png",
+      "images/creature/FallenCarnage/overworld_w1.png"
+    ]
+  },
+  "race": "Carnage",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 8,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    11
+  ],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 6,
+    "health": 43,
+    "intelligence": 13,
+    "speed": 23
+  },
+  "trait": 102
+}

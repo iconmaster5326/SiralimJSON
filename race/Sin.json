@@ -1,0 +1,39 @@
+{
+  "bossDialog": [
+    "(As you prepare to face the Sin guarding the treasure in battle, you make a mental note to check for any curses on the treasure afterwards. Can\u0027t be too careful around Sins.)",
+    "(This Sin, true to its nature, has greedily laid claim to the treasure hoard. With a fleeting thought of irony at your own potential greed, you order your creatures to attack.)",
+    "(You immediately recognize the insidious creature before you from tales your teachers would tell you of Rodia\u0027s most dangerous beasts. You steel yourself for battle and advance.)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures have 1 more base {STAT_intelligence}.",
+    "5": "Your creatures have 1 more base {STAT_intelligence}.",
+    "8": "Your creatures have 1 more base {STAT_intelligence}."
+  },
+  "cards": 8,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    707
+  ],
+  "icon": "images/race/Sin.png",
+  "master": {
+    "costume": 387,
+    "dialog": "Much like their Sanctus counterparts, Sins all bring something different to the battlefield. Frankly, I\u0027m not particularly fond of these creatures, but who would pass up the opportunity to be referred to as the Master of Sins?\\n\\nAnyway, let\u0027s fight!",
+    "item": 1194,
+    "name": "Damien",
+    "trait": 1490
+  },
+  "name": "Sin",
+  "notes": [],
+  "skins": [
+    64,
+    300
+  ]
+}

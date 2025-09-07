@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/SawbackManticore/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 480,
+  "item": 383,
+  "lore": "Manticores were a calamity for humans during the rise of their early civilizations. Today, children are still warned of the dangers that these creatures entail.\\n\\nThe Sawback Manticore shows many openings while it fights, waiting for its opponent to strike before crouching and becoming a deadly trap. It can also roll across the floor like a spiked ball and throw itself on its enemies if they are far enough.",
+  "menagerieDialog": [
+    "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
+    "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
+    "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
+    "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
+    "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
+  ],
+  "minDepth": 1,
+  "name": "Sawback Manticore",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SawbackManticore/overworld_e0.png",
+      "images/creature/SawbackManticore/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SawbackManticore/overworld_n0.png",
+      "images/creature/SawbackManticore/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SawbackManticore/overworld_s0.png",
+      "images/creature/SawbackManticore/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SawbackManticore/overworld_w0.png",
+      "images/creature/SawbackManticore/overworld_w1.png"
+    ]
+  },
+  "race": "Manticore",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 32,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 299
+}

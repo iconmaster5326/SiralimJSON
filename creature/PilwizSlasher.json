@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/PilwizSlasher/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 243,
+  "item": 582,
+  "lore": "Pilwiz communicate with each other through a curious language made up of hisses and croaks, reminiscent of the sounds of snakes and frogs. Maintaining the monopoly of a product is a complex task that requires firm and constant attention.\\n\\nPilwiz Slashers keep a low profile most of the time, but they get moving when they find out that someone plans to cultivate corn. These creatures are bloodthirsty murderers that eliminate the competition in a whirlwind of sharp strikes.",
+  "menagerieDialog": [
+    "(No one works the land quite like the Pilwiz, but this one seems to prefer lazing around.)",
+    "(It\u0027s repeatedly slashing at the air with its scythes.)",
+    "(It\u0027s trimming some flowers, because what else is a creature with scythes for limbs supposed to do in their free time?)",
+    "(Its gaze is lost in the distance, as if yearning to be someplace else.)",
+    "(This creature\u0027s lifelong dream is to become a gardener. Unfortunately for it, you\u0027ve decided to enlist it into a lifetime of warfare.)"
+  ],
+  "minDepth": 1,
+  "name": "Pilwiz Slasher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PilwizSlasher/overworld_e0.png",
+      "images/creature/PilwizSlasher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PilwizSlasher/overworld_n0.png",
+      "images/creature/PilwizSlasher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PilwizSlasher/overworld_s0.png",
+      "images/creature/PilwizSlasher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PilwizSlasher/overworld_w0.png",
+      "images/creature/PilwizSlasher/overworld_w1.png"
+    ]
+  },
+  "race": "Pilwiz",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 12,
+    "health": 30,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 496
+}

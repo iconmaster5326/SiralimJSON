@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "nature",
+  "creator": null,
+  "description": "Enemies have a 50% chance to be afflicted with {CONDNAME_DEBUFF_SNARED} and to be moved a random number of places down the {TIMELINE}.",
+  "god": null,
+  "id": 731,
+  "manuallyCastable": true,
+  "maxCharges": 8,
+  "name": "Quicksand",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DEBUFF",
+    "UTILITY"
+  ],
+  "targets": "enemies"
+}

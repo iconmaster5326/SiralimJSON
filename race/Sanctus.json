@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(Noting the irony that a creature of supposed virtue is covetously protecting a pile of treasure, you order your creatures to take out the Sanctus with extreme prejudice.)",
+    "(The Sanctus begins to approach you silently, raising the items clutched in its claws. Knowing the danger well, you have your creatures immediately attack it without hesitation.)",
+    "(You curse your luck internally as you spot the Sanctus guarding the treasure. Taking no chances, you immediately order your creatures to destroy the awful creature.)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs absorb 15% more damage.",
+    "5": "Your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs absorb 15% more damage.",
+    "8": "After your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs are destroyed, they have a 5% chance to gain {CONDNAME_BUFF_SHELL}."
+  },
+  "cards": 8,
+  "class": "life",
+  "creator": null,
+  "creatures": [
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    637
+  ],
+  "icon": "images/race/Sanctus.png",
+  "master": {
+    "costume": 380,
+    "dialog": "Sanctuses are a mixed bag, really. Each one brings something completely unique to battle, but one thing everyone can agree on is that they\u0027re some of the most useful creatures Rodia has to offer. But don\u0027t take my word for it - I\u0027ll let you judge them yourself!",
+    "item": 1212,
+    "name": "Edo",
+    "trait": 1483
+  },
+  "name": "Sanctus",
+  "notes": [],
+  "skins": [
+    71,
+    318,
+    765
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/LeperDefiler/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 376,
+  "item": 268,
+  "lore": "Although their reasoning is very limited, Lepers are killing machines that can be extremely dangerous if underestimated. Despite their clumsy appearance, they are incredibly fast, and their attacks are hard to predict.\\n\\nThe Leper Defiler\u0027s claws are extremely deadly to humans, as they can pierce armor and transmit the disease. The victim needs to be vaccinated within the first twenty-four hours, or they will transform into a Leper.",
+  "menagerieDialog": [
+    "(It looks at you groggily with a half-baked grin on its face.)",
+    "(This creature will always be picked last for the dodgeball team.)",
+    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+  ],
+  "minDepth": 1,
+  "name": "Leper Defiler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LeperDefiler/overworld_e0.png",
+      "images/creature/LeperDefiler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LeperDefiler/overworld_n0.png",
+      "images/creature/LeperDefiler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LeperDefiler/overworld_s0.png",
+      "images/creature/LeperDefiler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LeperDefiler/overworld_w0.png",
+      "images/creature/LeperDefiler/overworld_w1.png"
+    ]
+  },
+  "race": "Leper",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 18,
+    "health": 37,
+    "intelligence": 17,
+    "speed": 13
+  },
+  "trait": 178
+}

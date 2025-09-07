@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Rock/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 311,
+  "name": "Rock",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Rock/overworld_e0.png",
+      "images/skin/Rock/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Rock/overworld_n0.png",
+      "images/skin/Rock/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Rock/overworld_s0.png",
+      "images/skin/Rock/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Rock/overworld_w0.png",
+      "images/skin/Rock/overworld_w1.png"
+    ]
+  },
+  "race": "Paragon",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

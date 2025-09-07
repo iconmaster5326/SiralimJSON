@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DemonKing/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1127,
+  "item": 1647,
+  "lore": "Demons were heinous creatures devoid of consciousness who served the previous God of Darkness, defeated by Erebyss long ago. Their acts were evil by nature, but the ancient God wanted to give consciousness to some of these creatures to indoctrinate them later. They were the most terrible, except for one, who began to question its actions and its companions\u0027 worldview. One day, it killed them all, convinced that it would be for the best, and decided to go into exile to Eternity\u0027s End. Vertraag not only protected this creature, but taught it to give consciousness to more beings like it. Today, these demons who escaped the doom of Arcadia dwell in a small town hidden within the realm of the God of Time, and most of them live a nice and simple life.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Demon King",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DemonKing/overworld_e0.png",
+      "images/creature/DemonKing/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DemonKing/overworld_n0.png",
+      "images/creature/DemonKing/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DemonKing/overworld_s0.png",
+      "images/creature/DemonKing/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DemonKing/overworld_w0.png",
+      "images/creature/DemonKing/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1850
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Amaranthine/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 101,
+  "item": 128,
+  "lore": "In the beginning, there were eleven. They shaped the world and created everything that exists. Or, at least, that is what they believed. A blinding flash illuminated the velvet of the night. Were the stars falling from the sky?\\n\\nDespite the Amaranthine\u0027s disturbing appearance, it is as peaceful as the other Amaranths, and it spends most of its time simply observing the landscape. If attacked, this creature floats in the air and spins frantically to protect itself.",
+  "menagerieDialog": [
+    "(You can\u0027t seem to catch its attention at all...)",
+    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+    "(It seems to be highly observant of its surroundings.)",
+    "(It\u0027s spinning around on its side. Pretty cool, really.)",
+    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+  ],
+  "minDepth": 1,
+  "name": "Amaranthine",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Amaranthine/overworld_e0.png",
+      "images/creature/Amaranthine/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Amaranthine/overworld_n0.png",
+      "images/creature/Amaranthine/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Amaranthine/overworld_s0.png",
+      "images/creature/Amaranthine/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Amaranthine/overworld_w0.png",
+      "images/creature/Amaranthine/overworld_w1.png"
+    ]
+  },
+  "race": "Amaranth",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 25,
+    "health": 39,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 37
+}

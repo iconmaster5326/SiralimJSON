@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/SorceryShapeshifter/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 44,
+  "item": 614,
+  "lore": "Long ago, the dark lord Sigmund kidnapped several of these creatures to experiment on them and develop a famous project he called \u0022Genesis\u0022. However, his death prevented him from successfully completing it. Dealing with humans awakens ambitious desires in many creatures.\\n\\nThe Sorcery Shapeshifter is a good example of this, almost unrecognizable after having spent some time in human cities, learning the secrets of magic. However, some manage to readjust and become great leaders of their tribe.",
+  "menagerieDialog": [
+    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+    "(It transforms into a cat right before your very eyes.)",
+    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+  ],
+  "minDepth": 1,
+  "name": "Sorcery Shapeshifter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SorceryShapeshifter/overworld_e0.png",
+      "images/creature/SorceryShapeshifter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SorceryShapeshifter/overworld_n0.png",
+      "images/creature/SorceryShapeshifter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SorceryShapeshifter/overworld_s0.png",
+      "images/creature/SorceryShapeshifter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SorceryShapeshifter/overworld_w0.png",
+      "images/creature/SorceryShapeshifter/overworld_w1.png"
+    ]
+  },
+  "race": "Shapeshifter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 528
+}

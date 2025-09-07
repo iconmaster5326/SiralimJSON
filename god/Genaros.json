@@ -1,0 +1,29 @@
+{
+  "avatar": 1098,
+  "creator": null,
+  "icon": "images/god/Genaros.png",
+  "id": 25,
+  "name": "Genaros",
+  "notes": [],
+  "realm": 29,
+  "relicBigIcon": "images/relic/Brambleskin/relic.png",
+  "relicBonuses": [
+    "After the bearer is damaged by an attack or spell, this relic {ACTION_attacks} a random enemy.",
+    "This relic and its bearer deal additional damage with attacks and spells equal to 10% of the damage the bearer has taken in the current battle.",
+    "After the bearer takes damage, it recovers {STAT_health} equal to 50% of the amount of damage taken.",
+    "At the end of the bearer\u0027s turn, it {ACTION_provokes} and gains 10% Current and Maximum {STAT_health}.",
+    "The bearer gains 20% more Maximum {STAT_health} from stat-boosting effects.",
+    "The bearer takes 3% less damage for each time it has been damaged in the current battle.",
+    "After the bearer {ACTION_provokes}, this relic {ACTION_attacks} a random enemy.",
+    "When the bearer {ACTION_attacks} or {ACTION_casts} a spell, the damage has a 35% chance to be based on its Current {STAT_health} instead of {STAT_attack} or {STAT_intelligence}.",
+    "After the bearer takes damage from an attack or spell, a random enemy takes 20% of that damage as well.",
+    "The first time the bearer is killed, it resurrects with 100% {STAT_health} and gains 50% stats (other than {STAT_health})."
+  ],
+  "relicName": "Brambleskin",
+  "relicSmallIcon": "images/relic/Brambleskin/icon.png",
+  "relicStat": "defense",
+  "relicTitle": "Spiked Carapace of Genaros",
+  "title": "God of Strife",
+  "trait": 1978,
+  "ultimateSpell": 653
+}

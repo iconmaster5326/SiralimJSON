@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ExiledSatyr/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 886,
+  "item": 982,
+  "lore": "The constant threat of the Efts forced the Satyrs to establish their colonies high in the treetops. They prefer leafier, higher trees, and a good part of the Blood Grove treetops have been settled by them.\\n\\nSome Satyrs steal from their arachnid neighbors or illegally trade with them. Those and other crimes are sometimes punished with exile, based on their severity and the existence of repeat offenses. In addition, to prevent them from joining another colony and committing more misdeeds, both horns are cut off.",
+  "menagerieDialog": [
+    "(It\u0027s playing a tune on a set of pipes, oblivious to your approach.)",
+    "Care to hear a new song I\u0027ve written? It\u0027s called \u0022The Art of War\u0022.",
+    "(It\u0027s busy shining its hooves with a cloth. Makes sense.)",
+    "(It\u0027s busy tap-dancing. This seems odd at first until you realize you\u0027d do the same thing if you had hooves.)",
+    "(It\u0027s throwing a tantrum and stomping its hooves on the ground. Touchy little thing.)"
+  ],
+  "minDepth": 1,
+  "name": "Exiled Satyr",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ExiledSatyr/overworld_e0.png",
+      "images/creature/ExiledSatyr/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ExiledSatyr/overworld_n0.png",
+      "images/creature/ExiledSatyr/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ExiledSatyr/overworld_s0.png",
+      "images/creature/ExiledSatyr/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ExiledSatyr/overworld_w0.png",
+      "images/creature/ExiledSatyr/overworld_w1.png"
+    ]
+  },
+  "race": "Satyr",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 29,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1146
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SingerbreadMan/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1117,
+  "item": 1638,
+  "lore": "These creatures are not really made of gingerbread. If so, any blow could cause them to crumble and it would be impossible for them to enter battle. They are intelligent and inhabit a forest southeast of Undolim. They are excellent bakers, and there are actually several cooking schools throughout Rodia where these creatures teach. Gingerbread cookies in the shape of men, typical in Rodia, were first baked when a student made some for his Singerbread Man teacher, baking them in its own appearance.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Singerbread Man",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SingerbreadMan/overworld_e0.png",
+      "images/creature/SingerbreadMan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SingerbreadMan/overworld_n0.png",
+      "images/creature/SingerbreadMan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SingerbreadMan/overworld_s0.png",
+      "images/creature/SingerbreadMan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SingerbreadMan/overworld_w0.png",
+      "images/creature/SingerbreadMan/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 38,
+    "intelligence": 13,
+    "speed": 23
+  },
+  "trait": 1841
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/PriestofLight/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 329,
+  "item": 120,
+  "lore": "When the first wars among the children of the Gods had ended, society began to advance, and the first kingdoms were established. The formal study of magic began around this time, and the first buildings exclusively dedicated to magic activities were built.\\n\\nThe Priest of Light is a merciful creature that constantly seeks grief-stricken humans and creatures to alleviate their pain with its mystical presence.",
+  "menagerieDialog": [
+    "(It\u0027s doing what it does best - standing still.)",
+    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+  ],
+  "minDepth": 1,
+  "name": "Priest of Light",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PriestofLight/overworld_e0.png",
+      "images/creature/PriestofLight/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PriestofLight/overworld_n0.png",
+      "images/creature/PriestofLight/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PriestofLight/overworld_s0.png",
+      "images/creature/PriestofLight/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PriestofLight/overworld_w0.png",
+      "images/creature/PriestofLight/overworld_w1.png"
+    ]
+  },
+  "race": "Priest",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 17,
+    "health": 41,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 29
+}

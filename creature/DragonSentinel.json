@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DragonSentinel/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 141,
+  "item": 397,
+  "lore": "The Dragons\u0027 mating season occurs during the summer solstice, when hundreds of them can be seen intertwining in mid-air and looping in a majestic dance of beauty and mystery.\\n\\nDragon Sentinels are the watchmen of the Unsullied Meadows, and are always in contact with Ents, Moss Golems, and other creatures that protect nature, which update them on what is happening in the vast Meadows. Their tracking ability and their acute sense of smell mean not a single infraction escapes their notice.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Dragon Sentinel",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DragonSentinel/overworld_e0.png",
+      "images/creature/DragonSentinel/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DragonSentinel/overworld_n0.png",
+      "images/creature/DragonSentinel/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DragonSentinel/overworld_s0.png",
+      "images/creature/DragonSentinel/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DragonSentinel/overworld_w0.png",
+      "images/creature/DragonSentinel/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 312
+}

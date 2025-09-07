@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Tsuchinoko/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1115,
+  "item": 1636,
+  "lore": "The bite of a Tsuchinoko is not as dangerous as that of other animals in the world, but its effects are quite curious. Rodia\u0027s biologists have not yet reached a conclusion about the creature\u0027s origin, though the most supported theory suggests they could have appeared because of a magic accident in which one or more Alementals had been involved. Anyone bitten by a Tsuchinoko will be inoculated with enough alcohol to get an elephant drunk.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Tsuchinoko",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Tsuchinoko/overworld_e0.png",
+      "images/creature/Tsuchinoko/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Tsuchinoko/overworld_n0.png",
+      "images/creature/Tsuchinoko/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Tsuchinoko/overworld_s0.png",
+      "images/creature/Tsuchinoko/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Tsuchinoko/overworld_w0.png",
+      "images/creature/Tsuchinoko/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 31,
+    "intelligence": 13,
+    "speed": 23
+  },
+  "trait": 1839
+}

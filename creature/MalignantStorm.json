@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MalignantStorm/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 690,
+  "item": 876,
+  "lore": "On a sunny spring day, Helmholtz and Milner were scouring the Unsullied Meadows in search of a Nether Orb. At some point, the Hurricane and the Storm Lord that were their respective companions began to compete, discharging water and electricity in all directions. Their energy eventually condensed, and the Nether Orb they were seeking started a reaction that fused the two Storms into the Malignant. This Storm rains harder, contains more electricity, and curses more frequently than any other.",
+  "menagerieDialog": [
+    "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
+    "(Lightning is brimming from its mouth. It must be eager to fight.)",
+    "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
+    "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
+    "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
+  ],
+  "minDepth": 1,
+  "name": "Malignant Storm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MalignantStorm/overworld_e0.png",
+      "images/creature/MalignantStorm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MalignantStorm/overworld_n0.png",
+      "images/creature/MalignantStorm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MalignantStorm/overworld_s0.png",
+      "images/creature/MalignantStorm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MalignantStorm/overworld_w0.png",
+      "images/creature/MalignantStorm/overworld_w1.png"
+    ]
+  },
+  "race": "Storm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 903
+}

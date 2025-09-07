@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/HumanitasSanctus/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 405,
+  "item": 170,
+  "lore": "Spielrein and Baker shared the same principles, and together they started the Sanctus project. Its purpose was to create a creature that could punish Sins and correct the wicked. For this, they needed the power of the Nether Orbs and the items that the Sins carry in their hands.\\n\\nThe Humanitas Sanctus forces arrogant people to spend the rest of their lives serving their neighbor whenever they can, even if it endangers their own lives.",
+  "menagerieDialog": [
+    "(You\u0027ve always found these sort of creatures unnerving.)",
+    "(It seems vengeful. The next few battles should be quite interesting.)",
+    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+    "(This creature would make an excellent mascot for {CASTLENAME}.)",
+    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+  ],
+  "minDepth": 1,
+  "name": "Humanitas Sanctus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HumanitasSanctus/overworld_e0.png",
+      "images/creature/HumanitasSanctus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HumanitasSanctus/overworld_n0.png",
+      "images/creature/HumanitasSanctus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HumanitasSanctus/overworld_s0.png",
+      "images/creature/HumanitasSanctus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HumanitasSanctus/overworld_w0.png",
+      "images/creature/HumanitasSanctus/overworld_w1.png"
+    ]
+  },
+  "race": "Sanctus",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 80
+}

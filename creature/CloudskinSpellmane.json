@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/CloudskinSpellmane/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1224,
+  "item": 1601,
+  "lore": "A Spellmane\u0027s subspecies does not depend on its parents, but on the ecosystem in which it was gestated.\\n\\nCloudskins were the first Spellmanes, and they can usually be found in the Azure Dream, their place of origin. It is very common for these creatures to hide in the clouds, waiting for prey to get close enough. The humans of old, back before they inhabited the world, developed creative strategies to avoid their attacks and hunt them down with nets and rudimentary spears.",
+  "menagerieDialog": [
+    "(It\u0027s aggressively roaring at your other creatures. Perhaps it\u0027s time for a time-out.)",
+    "(It seems to have conjured a massive, elemental ball for it to play with. It\u0027s busy rolling around on its back, batting at the ball, completely ignorant of your presence.)",
+    "(It\u0027s in a deep slumber with a loud purr emanating from its throat.)",
+    "(This creature\u0027s intelligence is matched only by its speed. You\u0027re glad to have such a formidable creature in your party, but you dread the day you encounter one as a foe in the wild.)",
+    "(This creature boasts unimaginable power. It seems to have mastered the elements even more easily than Rodia\u0027s most astute magi.)"
+  ],
+  "minDepth": 1,
+  "name": "Cloudskin Spellmane",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CloudskinSpellmane/overworld_e0.png",
+      "images/creature/CloudskinSpellmane/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CloudskinSpellmane/overworld_n0.png",
+      "images/creature/CloudskinSpellmane/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CloudskinSpellmane/overworld_s0.png",
+      "images/creature/CloudskinSpellmane/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CloudskinSpellmane/overworld_w0.png",
+      "images/creature/CloudskinSpellmane/overworld_w1.png"
+    ]
+  },
+  "race": "Spellmane",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 15,
+    "health": 38,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 1941
+}

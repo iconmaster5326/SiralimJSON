@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BileAbomination/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 684,
+  "item": 789,
+  "lore": "Tartarith sometimes gets distracted while creating Abominations, and the subjects end up dying or becoming creatures like the Bile Abomination. The digestive system of this creature is a time bomb that never stops creating an extremely corrosive substance in its stomach. Eventually, it exceeds the capacity of its body and escapes through the mouth, seriously damaging anyone it comes into contact with.",
+  "menagerieDialog": [
+    "Uhhh? No talk. No chat.",
+    "(It shoos you away. Begone, pest!)",
+    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+    "Stop. Talking. STOP TALKING!",
+    "Leave. Me. Be. NO CHAT!"
+  ],
+  "minDepth": 1,
+  "name": "Bile Abomination",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BileAbomination/overworld_e0.png",
+      "images/creature/BileAbomination/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BileAbomination/overworld_n0.png",
+      "images/creature/BileAbomination/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BileAbomination/overworld_s0.png",
+      "images/creature/BileAbomination/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BileAbomination/overworld_w0.png",
+      "images/creature/BileAbomination/overworld_w1.png"
+    ]
+  },
+  "race": "Abomination",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 12,
+    "speed": 17
+  },
+  "trait": 809
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DiabolicBhuta/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 621,
+  "item": 805,
+  "lore": "Also known as Supreme Leader by the members of the Diabolic Horde, it is believed to be an emissary of Gonfurian, charged with spreading chaos throughout the land. Only the Diabolic Commanders have seen it, which is why it was thought to be a legend for a long time. However, it seems that he now wants to personally oversee his plans for the Horde, since there have been numerous reported sightings of it recently.",
+  "menagerieDialog": [
+    "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
+    "What are we doing here? Let\u0027s get moving!",
+    "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
+    "(It\u0027s busy feeding rotten meat to its pups.)",
+    "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
+  ],
+  "minDepth": 1,
+  "name": "Diabolic Bhuta",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DiabolicBhuta/overworld_e0.png",
+      "images/creature/DiabolicBhuta/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DiabolicBhuta/overworld_n0.png",
+      "images/creature/DiabolicBhuta/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DiabolicBhuta/overworld_s0.png",
+      "images/creature/DiabolicBhuta/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DiabolicBhuta/overworld_w0.png",
+      "images/creature/DiabolicBhuta/overworld_w1.png"
+    ]
+  },
+  "race": "Diabolic Horde",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 14,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 832
+}

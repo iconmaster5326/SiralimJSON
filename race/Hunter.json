@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(Sitting next to the treasure pile, the robed figure plays a few notes on a flute - soon, a vicious beast larger than the figure appears, growling at you menacingly!)",
+    "(The Hunter immediately lobs a glaive at you the second it catches sight of you. Calling its steed and allies, it mounts up and recalls its glaive before assuming a combat stance!)",
+    "(The rider seems to be pointing at you. Confused for a moment, one of your creatures suddenly shoves you out of the way of a volley of arrows from the dark! Time for a fight!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures gain 10% more {STAT_attack} from stat-boosting effects.",
+    "5": "Your creatures gain 10% more {STAT_attack} from stat-boosting effects.",
+    "8": "Your creatures gain 10% more {STAT_attack} from stat-boosting effects."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    636,
+    662
+  ],
+  "icon": "images/race/Hunter.png",
+  "master": {
+    "costume": 347,
+    "dialog": "Hunters tend to travel with their own kind, capitalizing on their ability to strike multiple foes at once by enchanting each other\u0027s glaives. While Hunters tend to be quite weak from a defensive perspective, they\u0027ll make quick work of your creatures. Let\u0027s duel!",
+    "item": 1244,
+    "name": "Joe",
+    "trait": 1448
+  },
+  "name": "Hunter",
+  "notes": [],
+  "skins": [
+    94,
+    331,
+    719
+  ]
+}

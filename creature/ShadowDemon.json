@@ -1,0 +1,62 @@
+{
+  "battleSprite": "images/creature/ShadowDemon/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 842,
+  "item": 1024,
+  "lore": "The boy\u0027s obsession was such that he would not settle for anything less than complete mastery over the shadows. Over time, he learned to control them, to give them shape, to alter their size.\\n\\nUnlike most normal Gargoyles, Shadow Demons do not care about keeping innocent people safe at night. Instead, they are dedicated exclusively to murder; and they learn fast. Some have already infiltrated the capital of Undolim, pretending to be other Gargoyles\u0027 shadows until the moment an unsuspecting person turns their back.",
+  "menagerieDialog": [
+    "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
+    "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
+    "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
+    "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
+    "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
+  ],
+  "minDepth": 1,
+  "name": "Shadow Demon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ShadowDemon/overworld_e0.png",
+      "images/creature/ShadowDemon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ShadowDemon/overworld_n0.png",
+      "images/creature/ShadowDemon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ShadowDemon/overworld_s0.png",
+      "images/creature/ShadowDemon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ShadowDemon/overworld_w0.png",
+      "images/creature/ShadowDemon/overworld_w1.png"
+    ]
+  },
+  "race": "Shadow",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    24
+  ],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 22,
+    "intelligence": 23,
+    "speed": 23
+  },
+  "trait": 1104
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/BerserkerFiend/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 273,
+  "item": 302,
+  "lore": "The jaws of a Fiend are generally over 3 feet in length. Their bite is deadly to most creatures, and even Apocalypses or Giants are at risk of losing a limb due to their extraordinary strength.\\n\\nUnlike the rest of its kind, the Berserker Fiend does not mind taking unnecessary risks to obtain food. This creature attacks in a straight line with all of its strength, trying to inflict as much damage as possible without worrying about its own injuries.",
+  "menagerieDialog": [
+    "(Oh, Gods, it\u0027s eating the floor tiles!)",
+    "(This creature is completely out of control, headbutting everything in sight.)",
+    "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
+    "(You wish it would close its mouth at some point, but it never does. Ever.)",
+    "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
+  ],
+  "minDepth": 1,
+  "name": "Berserker Fiend",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BerserkerFiend/overworld_e0.png",
+      "images/creature/BerserkerFiend/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BerserkerFiend/overworld_n0.png",
+      "images/creature/BerserkerFiend/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BerserkerFiend/overworld_s0.png",
+      "images/creature/BerserkerFiend/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BerserkerFiend/overworld_w0.png",
+      "images/creature/BerserkerFiend/overworld_w1.png"
+    ]
+  },
+  "race": "Fiend",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Tartarith)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 13,
+    "health": 30,
+    "intelligence": 13,
+    "speed": 23
+  },
+  "trait": 218
+}

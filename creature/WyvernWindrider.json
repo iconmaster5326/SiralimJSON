@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WyvernWindrider/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 170,
+  "item": 349,
+  "lore": "Wyverns are known for their daring. Among them, the Windrider is the most reckless by far. They are brave warriors, though some call them foolish, who face any foe if it looks edible. They rarely come down to the surface, so their diet is made up of all kinds of birds, including Griffons and Sphinxes. They are not aware of the dangers that lurk on the ground, so Wyvern Windriders often make deadly mistakes when choosing \u0022prey\u0022 that is not flying.",
+  "menagerieDialog": [
+    "(It\u0027s curled up with its head between its wings.)",
+    "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
+    "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
+    "(After it notices you, it unleashes a roar of approval.)",
+    "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
+  ],
+  "minDepth": 1,
+  "name": "Wyvern Windrider",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WyvernWindrider/overworld_e0.png",
+      "images/creature/WyvernWindrider/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WyvernWindrider/overworld_n0.png",
+      "images/creature/WyvernWindrider/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WyvernWindrider/overworld_s0.png",
+      "images/creature/WyvernWindrider/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WyvernWindrider/overworld_w0.png",
+      "images/creature/WyvernWindrider/overworld_w1.png"
+    ]
+  },
+  "race": "Wyvern",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 37,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 265
+}

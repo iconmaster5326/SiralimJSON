@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DragonlairArachnalisk/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 513,
+  "item": 605,
+  "lore": "Though Dragonlair Arachnalisks love dark and labyrinthine caves in which to hunt their prey, they have little appreciation for valuables. This is why some Dragons chose them to protect their treasure after the children of Regalis were introduced into Rodia a long time ago. It was undoubtedly their countless encounters with treasure hunters that gave them their name.",
+  "menagerieDialog": [
+    "(These creatures are a real plague... but they can be useful in battle.)",
+    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+    "(It hands you a little doll made out of web silk. Ugh.)",
+    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+  ],
+  "minDepth": 1,
+  "name": "Dragonlair Arachnalisk",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DragonlairArachnalisk/overworld_e0.png",
+      "images/creature/DragonlairArachnalisk/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DragonlairArachnalisk/overworld_n0.png",
+      "images/creature/DragonlairArachnalisk/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DragonlairArachnalisk/overworld_s0.png",
+      "images/creature/DragonlairArachnalisk/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DragonlairArachnalisk/overworld_w0.png",
+      "images/creature/DragonlairArachnalisk/overworld_w1.png"
+    ]
+  },
+  "race": "Arachnalisk",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 519
+}

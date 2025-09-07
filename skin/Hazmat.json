@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Hazmat/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 121,
+  "name": "Hazmat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Hazmat/overworld_e0.png",
+      "images/skin/Hazmat/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Hazmat/overworld_n0.png",
+      "images/skin/Hazmat/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Hazmat/overworld_s0.png",
+      "images/skin/Hazmat/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Hazmat/overworld_w0.png",
+      "images/skin/Hazmat/overworld_w1.png"
+    ]
+  },
+  "race": "Plague Doctor",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

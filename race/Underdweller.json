@@ -1,0 +1,34 @@
+{
+  "bossDialog": [
+    "(A pale, twisted creature emerges from a crack in the floor, its eyes squinting painfully in the light as it hisses and spreads clawed hands protectively over the treasure!)",
+    "(The Underdweller begins to mutter strange words, and the shadows in the room seem to deepen and twist toward you with malicious intent. This creature has brought some of its subterranean magic with it!)",
+    "Surface-crawler not welcome here! These pretties belong to the dark, to the deep, to ME!"
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_FEAR} have a 3% chance to lose their turn.",
+    "4": "Enemies with {CONDNAME_DEBUFF_FEAR} have 10% less {STAT_attack}.",
+    "6": "Enemies with {CONDNAME_DEBUFF_FEAR} have 10% less {STAT_intelligence}."
+  },
+  "cards": 6,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    1366,
+    1367,
+    1368,
+    1369,
+    1370,
+    1371
+  ],
+  "icon": "images/race/Underdweller.png",
+  "master": {
+    "costume": 817,
+    "dialog": "Underdwellers have adapted to life in the darkest corners of the world, developing senses and powers that surface-dwellers can\u0027t comprehend! They bring the shadows with them wherever they go, bending darkness to their will. In the gloom, my Underdwellers see truths that others miss. Prepare to learn fear as only those who dwell below can teach it!",
+    "item": 1857,
+    "name": "Xypher",
+    "trait": 2201
+  },
+  "name": "Underdweller",
+  "notes": [],
+  "skins": []
+}

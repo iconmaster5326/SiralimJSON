@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Animatus/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 955,
+  "item": null,
+  "lore": "Rodia has definitely earned its reputation for being a country riddled with curses. Mausoleums, mage towers, haunted forests, cursed weapons of all kinds... Indeed, Sigmund even saw to it that there was a curse affecting the entire country. Some years ago, the head of the department of Curses and Counter-Curses of the Magic University of Siralim began to thoroughly study Helmholtz\u0027s monograph on the creation of the Golems. After decades of research, he found a way to build a devastating Golem using cursed items and materials, extracted from different curse-laden places in Rodia. Replicating his feat is not an easy task, but a Mage of great knowledge and talent has recently succeeded. The Animatus can absorb and harness the strength of its allies and become much more dangerous... at a price. Any creature affected by this ability feels its own strength being taken away, as if part of their being had been removed. Although the effect is temporary, many creatures who fight alongside the Animatus start feeling disgusted by it, hating it, or even fearing its very presence.",
+  "menagerieDialog": [
+    "Master... I could use some rest. Perhaps we should call it a day and take a nap.",
+    "Master... I have a sudden urge to kill. Mind if we take a stroll through a realm so that I can drain my aggression?",
+    "Master... have you ever wondered about the meaning of life and why we\u0027re here?",
+    "(It cracks its knuckles. You try to explain that\u0027s a bad idea and will lead to all manner of health issues in the future, but it reassures you that the cracking sound is merely negative pressure pulling various gases into the finger joints which has been proven to be a completely harmless process.)",
+    "Master... I can\u0027t help but think that I\u0027m the strongest creature in all of {CASTLENAME}. Don\u0027t you agree?"
+  ],
+  "minDepth": 1,
+  "name": "Animatus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Animatus/overworld_e0.png",
+      "images/creature/Animatus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Animatus/overworld_n0.png",
+      "images/creature/Animatus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Animatus/overworld_s0.png",
+      "images/creature/Animatus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Animatus/overworld_w0.png",
+      "images/creature/Animatus/overworld_w1.png"
+    ]
+  },
+  "race": "Animatus",
+  "reserved": true,
+  "skins": [
+    501
+  ],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    1
+  ],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 25,
+    "health": 40,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 1251
+}

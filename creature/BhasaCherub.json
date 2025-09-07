@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BhasaCherub/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1165,
+  "item": 1552,
+  "lore": "The Cherubs are celestial beings that have long been a source of great consternation to scholars of the arcane and divine. Numerous studies have been attempted upon these creatures, but other than that they contain tremendous amounts of magical energy, solid conclusions have been hard to come by despite centuries of attempted studies.\\n\\nThe Bhasa Cherub always glows with a soft light at all times, but when it considers itself imperiled it is capable of emitting an extreme amount of bright light. The gleam is so bright it has been known to erode and bleach materials in the area, burning the shadows of those surrounding it into the walls and ground.",
+  "menagerieDialog": [
+    "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
+    "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
+    "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
+    "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
+    "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
+  ],
+  "minDepth": 1,
+  "name": "Bhasa Cherub",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BhasaCherub/overworld_e0.png",
+      "images/creature/BhasaCherub/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BhasaCherub/overworld_n0.png",
+      "images/creature/BhasaCherub/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BhasaCherub/overworld_s0.png",
+      "images/creature/BhasaCherub/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BhasaCherub/overworld_w0.png",
+      "images/creature/BhasaCherub/overworld_w1.png"
+    ]
+  },
+  "race": "Cherub",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 11,
+    "health": 41,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 1888
+}

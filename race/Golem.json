@@ -1,0 +1,51 @@
+{
+  "bossDialog": [
+    "(As you approach the treasure hoard, a well-disguised golem unfolds itself and begins to approach you menacingly. Time for a fight!)",
+    "(The Golem bashes its fists together repeatedly as an obvious threat. You\u0027re going to have to defeat it to gain the treasure it guards.)",
+    "(What you thought was a statue suddenly comes to life and stomps the ground powerfully, clearly warning you to approach no further. You\u0027re not giving up on that treasure, though!)"
+  ],
+  "cardBonuses": {
+    "3": "You gain 30% more {RES_ESSENCE} from battles.",
+    "7": "Increases the base amount of {RES_ESSENCE} gained from battles by 15.",
+    "11": "You have a 15% chance to gain double {RES_ESSENCE} from battles."
+  },
+  "cards": 11,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    199,
+    645
+  ],
+  "icon": "images/race/Golem.png",
+  "master": {
+    "costume": 340,
+    "dialog": "Golems have a variety of different uses. Every strong team should include at least one Golem, I say. Allow me to demonstrate their power!",
+    "item": 1264,
+    "name": "Orvus, Best Golemancer",
+    "trait": 1441
+  },
+  "name": "Golem",
+  "notes": [],
+  "skins": [
+    185,
+    254,
+    383,
+    518,
+    696,
+    697,
+    698,
+    699,
+    700,
+    833
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MysticWarhog/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1232,
+  "item": 1607,
+  "lore": "Warhogs are meek creatures who avoid humans, orcs, and other intelligent beings at all costs.\\n\\nThe Mystic Warhog\u0027s supernatural powers are well known to the inhabitants of Rodia, and it is said a Nature Mage granted these powers to them in ancient times. When one of these Warhogs senses the presence of a being who wishes it harm, it rears up and screams wildly.",
+  "menagerieDialog": [
+    "(It\u0027s busy snorting and sniffing at the ground. Not exactly the smartest creature you\u0027ve ever met.)",
+    "(It\u0027s rolling around in a pile of what you hope is mud.)",
+    "(If your kingdom ever falls on hard times, Warhogs may prove useful in warding off the threat of famine.)",
+    "(It\u0027s proudly holding an apple in its mouth. You doubt it understands the irony of its actions.)",
+    "(Its tusks seem a bit dull. Nortah must be slacking off lately.)"
+  ],
+  "minDepth": 1,
+  "name": "Mystic Warhog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MysticWarhog/overworld_e0.png",
+      "images/creature/MysticWarhog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MysticWarhog/overworld_n0.png",
+      "images/creature/MysticWarhog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MysticWarhog/overworld_s0.png",
+      "images/creature/MysticWarhog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MysticWarhog/overworld_w0.png",
+      "images/creature/MysticWarhog/overworld_w1.png"
+    ]
+  },
+  "race": "Warhog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Genaros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 43,
+    "intelligence": 8,
+    "speed": 23
+  },
+  "trait": 1943
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DestroyerFiend/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 276,
+  "item": 306,
+  "lore": "Fiends hate the outdoors, as well as temperate and cold climates, so they are rarely seen near human towns and cities. They prefer to live underground, next to a source of intense heat.\\n\\nThe howl of a Destroyer Fiend turns its packmates into ferocious hunters. It has recently been discovered that this howl also arouses the predator instinct of any creature nearby. This effect can override the learned behavior of beasts raised in captivity, especially when feeding.",
+  "menagerieDialog": [
+    "(Oh, Gods, it\u0027s eating the floor tiles!)",
+    "(This creature is completely out of control, headbutting everything in sight.)",
+    "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
+    "(You wish it would close its mouth at some point, but it never does. Ever.)",
+    "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
+  ],
+  "minDepth": 1,
+  "name": "Destroyer Fiend",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DestroyerFiend/overworld_e0.png",
+      "images/creature/DestroyerFiend/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DestroyerFiend/overworld_n0.png",
+      "images/creature/DestroyerFiend/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DestroyerFiend/overworld_s0.png",
+      "images/creature/DestroyerFiend/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DestroyerFiend/overworld_w0.png",
+      "images/creature/DestroyerFiend/overworld_w1.png"
+    ]
+  },
+  "race": "Fiend",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Tartarith)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 13,
+    "health": 30,
+    "intelligence": 13,
+    "speed": 23
+  },
+  "trait": 222
+}

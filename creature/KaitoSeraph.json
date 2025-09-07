@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/KaitoSeraph/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 996,
+  "item": 1323,
+  "lore": "Kaito was razed to the ground by the Watchers thousands of years before the Seraphs existed. Gonfurian claimed the ruins of that kingdom, and they became part of his realm. When the Unification War came to an end, many Seraphs of the newly founded Rodia had lost their wings and ability to reproduce due to the fall of the kingdoms they served, or rather, those they were forced to serve. However, a group of these homeless Seraphs came to Surathli and asked for mercy. The Goddess pondered for a moment and decided to give them back their ability to spawn new Seraphs, uniting them all into one single lineage. These Seraphs all took different paths, but they always used their new blade to carry out the designs of the forces of good. Some of them began to protect the ruins of Kaito from looters. Given the great cultural value of those ruins, archeologists and historians began calling these creatures \u0022Keepers of Knowledge\u0022, or even \u0022Kaito Seraphs\u0022, as they are commonly known today.",
+  "menagerieDialog": [
+    "Long past are the days when we brandished our swords for a real cause... Have you even tried speaking with your enemy before resorting to violence?",
+    "Trust no one. Even the gods are known for their paper-thin allegiances.",
+    "When a kingdom falls, its Seraph is destroyed as well. Perhaps humans should think twice before blindly heading to war with each other.",
+    "I am proud to serve under the {CASTLENAME} banner. Thank you for having me.",
+    "I find it difficult to trust humans. Do not let me down."
+  ],
+  "minDepth": 1,
+  "name": "Kaito Seraph",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KaitoSeraph/overworld_e0.png",
+      "images/creature/KaitoSeraph/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KaitoSeraph/overworld_n0.png",
+      "images/creature/KaitoSeraph/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KaitoSeraph/overworld_s0.png",
+      "images/creature/KaitoSeraph/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KaitoSeraph/overworld_w0.png",
+      "images/creature/KaitoSeraph/overworld_w1.png"
+    ]
+  },
+  "race": "Seraph",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Life Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1569
+}

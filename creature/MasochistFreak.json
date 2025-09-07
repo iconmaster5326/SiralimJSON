@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MasochistFreak/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 978,
+  "item": 1305,
+  "lore": "This creature is not really a Masochist, but an automaton at the service of the Auditors. If intruders were to sneak into the city of Ubi Concordia, the Masochist Freak would run its attack program to end their lives. This creature\u0027s plasma katars can pierce flesh and bone with ease, but their energy is limited. When the energy is exhausted, it can put its arms into an organic body and absorb its entrails until it is completely empty. Inside the Masochist Freak, a chemical process will take place that transforms these organs into fuel.",
+  "menagerieDialog": [
+    "(It\u0027s casually whittling away at its arm with a knife.)",
+    "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
+    "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
+    "(This creature takes a sickening amount of pleasure in being wounded.)",
+    "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
+  ],
+  "minDepth": 1,
+  "name": "Masochist Freak",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MasochistFreak/overworld_e0.png",
+      "images/creature/MasochistFreak/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MasochistFreak/overworld_n0.png",
+      "images/creature/MasochistFreak/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MasochistFreak/overworld_s0.png",
+      "images/creature/MasochistFreak/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MasochistFreak/overworld_w0.png",
+      "images/creature/MasochistFreak/overworld_w1.png"
+    ]
+  },
+  "race": "Masochist",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Chaos Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 1552
+}

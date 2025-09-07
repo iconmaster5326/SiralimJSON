@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SoulflayerDreamcaster/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 903,
+  "item": 973,
+  "lore": "Vyre and Sevalah, two siblings who promoted the church of Surathli in lands threatened by creatures from the underworld, were recruited by the Auditors after they noticed their great power, and worked for many years alongside four other agents.\\n\\nSoulflayers communicate through telepathy. As its name suggests, the Soulflayer Dreamcaster can alter other creatures\u0027 dreams, generally to influence them so they distrust their family, colleagues or friends.",
+  "menagerieDialog": [
+    "The flora and fauna of your world are remarkably diverse.",
+    "I hunger for more souls. Let us depart at once!",
+    "(Something about this creature seems incredibly familiar.)",
+    "There is a traitor in our midst. His name is Nortah.",
+    "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
+  ],
+  "minDepth": 1,
+  "name": "Soulflayer Dreamcaster",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SoulflayerDreamcaster/overworld_e0.png",
+      "images/creature/SoulflayerDreamcaster/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SoulflayerDreamcaster/overworld_n0.png",
+      "images/creature/SoulflayerDreamcaster/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SoulflayerDreamcaster/overworld_s0.png",
+      "images/creature/SoulflayerDreamcaster/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SoulflayerDreamcaster/overworld_w0.png",
+      "images/creature/SoulflayerDreamcaster/overworld_w1.png"
+    ]
+  },
+  "race": "Soulflayer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1161
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Aeolian/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": 5,
+  "id": 727,
+  "item": null,
+  "lore": "The God of Wind is the most devoted protector of nature. Like many other Gods, he can see what is happening anywhere without being physically present, but Aeolian enjoys traveling and rarely stays in the same place for long. He often flies over the Unsullied Meadows, sometimes in the company of Dragons, with one eye always on the grass and trees that extend into his realm as far as the eye can see.",
+  "menagerieDialog": [
+    "Courage, honor, and strength of heart. These are the three virtues you must cultivate to become a better ruler.\\n\\n(You still want to know what he\u0027s holding.)",
+    "There is no feeling greater than soaring through the skies. It is a shame you humans are confined to land.",
+    "I will protect your kingdom from the skies. You can count on me.",
+    "Torun may have an ugly personality, but his realm is one of beauty.",
+    "The winters in this part of the world are spectacularly harsh. Have you ever considered relocating your kingdom to a warmer climate?"
+  ],
+  "minDepth": 1,
+  "name": "Aeolian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Aeolian/overworld_e0.png",
+      "images/creature/Aeolian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Aeolian/overworld_n0.png",
+      "images/creature/Aeolian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Aeolian/overworld_s0.png",
+      "images/creature/Aeolian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Aeolian/overworld_w0.png",
+      "images/creature/Aeolian/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    351,
+    396,
+    418
+  ],
+  "sources": [
+    {
+      "god": 5,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 603
+}

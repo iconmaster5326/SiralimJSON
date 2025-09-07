@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SpectralFamiliar/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 667,
+  "item": 816,
+  "lore": "She appeared at the top of the Cornell Tower after the events that led to the activation of 10 Nether Orbs at once. Having foreseen the future of Rodia, the Familiars performed an ancient ritual to channel some of the energy released during this event into the skeleton of Washburn, the greatest Familiar who ever lived, as well as into her soul, contained inside a powerful Nether Orb. She is now more powerful than ever, and immortal. Her vote in the Council is worth the same as any other, but her opinion is always decisive.",
+  "menagerieDialog": [
+    "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
+    "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
+    "Did you know that an Eft can live for up to 20 days without water?",
+    "(Its eyes scan its surroundings with innocent curiosity.)",
+    "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
+  ],
+  "minDepth": 1,
+  "name": "Spectral Familiar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SpectralFamiliar/overworld_e0.png",
+      "images/creature/SpectralFamiliar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SpectralFamiliar/overworld_n0.png",
+      "images/creature/SpectralFamiliar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SpectralFamiliar/overworld_s0.png",
+      "images/creature/SpectralFamiliar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SpectralFamiliar/overworld_w0.png",
+      "images/creature/SpectralFamiliar/overworld_w1.png"
+    ]
+  },
+  "race": "Familiar",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Zonte)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 843
+}

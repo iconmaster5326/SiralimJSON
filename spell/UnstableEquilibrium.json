@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "sorcery",
+  "creator": null,
+  "description": "Your creatures\u0027 Current {STAT_health} is set equal to that of the target.",
+  "god": null,
+  "id": 600,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Unstable Equilibrium",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "one"
+}

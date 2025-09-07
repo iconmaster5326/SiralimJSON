@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TopazCarbuncle/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 932,
+  "item": 930,
+  "lore": "Carbuncles can only feed on ambient magic, and they do it through the gem on their foreheads. If it is removed, they starve to death a few days later. Whether it was for fun or part of his plans, Vertraag revealed certain secrets to the Ravens that helped them build a new dimension to save the Carbuncles.\\n\\nTopaz Carbuncles are tame and spend most of the day asleep. In addition, they are the ones that most easily establish links with creatures of other species, so it is very common to find them as pets in non-human towns and cities, especially Crux.",
+  "menagerieDialog": [
+    "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
+    "(The jewel on its forehead shines brightly.)",
+    "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
+    "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
+    "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
+  ],
+  "minDepth": 1,
+  "name": "Topaz Carbuncle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TopazCarbuncle/overworld_e0.png",
+      "images/creature/TopazCarbuncle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TopazCarbuncle/overworld_n0.png",
+      "images/creature/TopazCarbuncle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TopazCarbuncle/overworld_s0.png",
+      "images/creature/TopazCarbuncle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TopazCarbuncle/overworld_w0.png",
+      "images/creature/TopazCarbuncle/overworld_w1.png"
+    ]
+  },
+  "race": "Carbuncle",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 13,
+    "health": 38,
+    "intelligence": 23,
+    "speed": 23
+  },
+  "trait": 1202
+}

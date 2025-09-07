@@ -1,0 +1,52 @@
+{
+  "arsenal": true,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Caster\u0027s class is changed to {CLASS_Chaos}, it gains {CONDNAME_BUFF_TAUNT}, and it gains a moderate amount of {STAT_defense}. The potency is based on the caster\u0027s {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}.",
+  "god": null,
+  "id": 348,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Living Chaos Shield",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BOOST",
+    "ARTIFACT"
+  ],
+  "targets": "other"
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/OccultistSpellbinder/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 139,
+  "item": 408,
+  "lore": "The Nether Orbs were the objects of study that attracted the most attention. It was Zonte who managed to confirm the first hypotheses, which suggested that they could be residual energy left behind from the creation of the world.\\n\\nEveryone who has seen more than one Occultist has thought they were the same creature at first, as their features are always exactly the same. No spell is unknown to the Occultist Spellbinder, but she can only cast them when something makes her angry.",
+  "menagerieDialog": [
+    "(It\u0027s floating comfortably in the air while napping peacefully.)",
+    "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
+    "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
+    "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
+    "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
+  ],
+  "minDepth": 1,
+  "name": "Occultist Spellbinder",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OccultistSpellbinder/overworld_e0.png",
+      "images/creature/OccultistSpellbinder/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OccultistSpellbinder/overworld_n0.png",
+      "images/creature/OccultistSpellbinder/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OccultistSpellbinder/overworld_s0.png",
+      "images/creature/OccultistSpellbinder/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OccultistSpellbinder/overworld_w0.png",
+      "images/creature/OccultistSpellbinder/overworld_w1.png"
+    ]
+  },
+  "race": "Occultist",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 10,
+    "defense": 18,
+    "health": 30,
+    "intelligence": 25,
+    "speed": 23
+  },
+  "trait": 323
+}

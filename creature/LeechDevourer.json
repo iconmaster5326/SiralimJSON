@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LeechDevourer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 859,
+  "item": 1009,
+  "lore": "These creatures are believed to have been created by the Gods in ancient times, when they began to shape the world. They were probably considered a failed experiment, and were therefore banished beyond the realms of the Gods. The Leech Devourer is a clear example of this. It is technically able to swallow any animal whole, although in a very awkward way. If it manages to do it, however, its digestive system collapses and ends up killing the Leech.",
+  "menagerieDialog": [
+    "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
+    "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
+    "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
+    "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
+    "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
+  ],
+  "minDepth": 1,
+  "name": "Leech Devourer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LeechDevourer/overworld_e0.png",
+      "images/creature/LeechDevourer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LeechDevourer/overworld_n0.png",
+      "images/creature/LeechDevourer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LeechDevourer/overworld_s0.png",
+      "images/creature/LeechDevourer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LeechDevourer/overworld_w0.png",
+      "images/creature/LeechDevourer/overworld_w1.png"
+    ]
+  },
+  "race": "Leech",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 1124
+}

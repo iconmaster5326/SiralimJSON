@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MaluhOphan/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 694,
+  "item": 843,
+  "lore": "Although the war seemed lost for the Watchers, nothing could stop the Watcher Sentinel until the Maluh Ophan confronted it. Their battle devastated an entire city, but in the end the Ophan was victorious. The Sentinel begged for mercy with its eyes, but Maluh is a merciless creature, and it prepared a spell to give it the coup de grace. It was then that the Vortex Observer sent its allies to stand between the two, and it let the legendary Ophan know the truth.",
+  "menagerieDialog": [
+    "(It appears to be deep in its own thoughts.)",
+    "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
+    "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
+    "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
+    "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
+  ],
+  "minDepth": 1,
+  "name": "Maluh Ophan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MaluhOphan/overworld_e0.png",
+      "images/creature/MaluhOphan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MaluhOphan/overworld_n0.png",
+      "images/creature/MaluhOphan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MaluhOphan/overworld_s0.png",
+      "images/creature/MaluhOphan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MaluhOphan/overworld_w0.png",
+      "images/creature/MaluhOphan/overworld_w1.png"
+    ]
+  },
+  "race": "Ophan",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 9,
+    "defense": 14,
+    "health": 32,
+    "intelligence": 24,
+    "speed": 24
+  },
+  "trait": 870
+}

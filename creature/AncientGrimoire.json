@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AncientGrimoire/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 450,
+  "item": 494,
+  "lore": "Although the Refuge of the Magi was the most prestigious magic tower in the time of the first kingdoms, there were others in which successful experiments were carried out.\\n\\nWhen the Ancient Grimoire spends a long time on its own, encased between two books on a bookshelf, it starts singing. The melody of its voice attracts the unwary, whose soul is separated from their body the moment they open it due to the power it contains.",
+  "menagerieDialog": [
+    "Read any good books lately?",
+    "I shall wreak havoc upon my enemies via a thousand papercuts!",
+    "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
+    "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
+    "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
+  ],
+  "minDepth": 1,
+  "name": "Ancient Grimoire",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AncientGrimoire/overworld_e0.png",
+      "images/creature/AncientGrimoire/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AncientGrimoire/overworld_n0.png",
+      "images/creature/AncientGrimoire/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AncientGrimoire/overworld_s0.png",
+      "images/creature/AncientGrimoire/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AncientGrimoire/overworld_w0.png",
+      "images/creature/AncientGrimoire/overworld_w1.png"
+    ]
+  },
+  "race": "Grimoire",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 17,
+    "health": 27,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 408
+}

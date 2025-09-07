@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Lagergoyle/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 742,
+  "item": 77,
+  "lore": "When Siralim began its conquest of Rodia, its ruler transformed some people into fearsome creatures to help conquer the country.\\n\\nThe Lagergoyle likes to perch on a tavern\u0027s counter and watch the customers. If it believes they are not drunk enough after some time, it starts moving around the tables and lets them drink from its body. These creatures are banned from most cities for this reason.",
+  "menagerieDialog": [
+    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+    "(Now here\u0027s a creature who knows how to party!)",
+    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+  ],
+  "minDepth": 1,
+  "name": "Lagergoyle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Lagergoyle/overworld_e0.png",
+      "images/creature/Lagergoyle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Lagergoyle/overworld_n0.png",
+      "images/creature/Lagergoyle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Lagergoyle/overworld_s0.png",
+      "images/creature/Lagergoyle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Lagergoyle/overworld_w0.png",
+      "images/creature/Lagergoyle/overworld_w1.png"
+    ]
+  },
+  "race": "Alemental",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Gambling Dwarf Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 996
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DefiantDefiler/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1136,
+  "item": 1656,
+  "lore": "Although it looks like two different creatures, the Defiant Defiler has a single mind. As night falls, a piercing scream escapes from its jaws. The time has come to claim a victim. For hundreds of years it frightened several towns and villages of what would later be known as Rodia, until a forest ranger discovered that it attacks any humanoid form, regardless of whether it is alive. Once eaten, the creature returns to its lair and does not return until the following night. This is why even today the outskirts of many towns in Rodia are littered with scarecrows.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Defiant Defiler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DefiantDefiler/overworld_e0.png",
+      "images/creature/DefiantDefiler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DefiantDefiler/overworld_n0.png",
+      "images/creature/DefiantDefiler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DefiantDefiler/overworld_s0.png",
+      "images/creature/DefiantDefiler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DefiantDefiler/overworld_w0.png",
+      "images/creature/DefiantDefiler/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1859
+}

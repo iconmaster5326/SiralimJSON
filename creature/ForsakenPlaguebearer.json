@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ForsakenPlaguebearer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 646,
+  "item": 818,
+  "lore": "During the siege of Omnia, several magic students were assigned to protect the University. Shortly before the Unification forces achieved victory, the Festering Ghoul entered the University followed by a hundred Ghouls. The students soon realized there was nothing they could do. One locked herself in the biological experimentation room, but the doors gave way and she was killed. Her left arm is now a factory of diseases, although until now she had remained in Omnia and her existence was unknown.",
+  "menagerieDialog": [
+    "Give... human... flesh...",
+    "Slurp... muscles... from... body...",
+    "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
+    "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
+    "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
+  ],
+  "minDepth": 1,
+  "name": "Forsaken Plaguebearer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ForsakenPlaguebearer/overworld_e0.png",
+      "images/creature/ForsakenPlaguebearer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ForsakenPlaguebearer/overworld_n0.png",
+      "images/creature/ForsakenPlaguebearer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ForsakenPlaguebearer/overworld_s0.png",
+      "images/creature/ForsakenPlaguebearer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ForsakenPlaguebearer/overworld_w0.png",
+      "images/creature/ForsakenPlaguebearer/overworld_w1.png"
+    ]
+  },
+  "race": "Forsaken",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Alexandria)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 22,
+    "health": 37,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 845
+}

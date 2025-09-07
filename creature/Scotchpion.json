@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Scotchpion/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 743,
+  "item": 78,
+  "lore": "After ascending to godhood, the ruler of Siralim\u0027s ambition and arrogance were completely unleashed. As punishment for drinking too much, Siralim\u0027s tavernkeeper was transformed into a terrible creature.\\n\\nThe people of Rodia find it hard to describe the personality of Alementals, mainly because they were recently created. The Scotchpion is a dangerous beast that is fortunately never found in the wild. Its aggressive nature drives it to break everything in half, and its stinger can inflict serious injuries and a state of instant inebriation.",
+  "menagerieDialog": [
+    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+    "(Now here\u0027s a creature who knows how to party!)",
+    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+  ],
+  "minDepth": 1,
+  "name": "Scotchpion",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Scotchpion/overworld_e0.png",
+      "images/creature/Scotchpion/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Scotchpion/overworld_n0.png",
+      "images/creature/Scotchpion/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Scotchpion/overworld_s0.png",
+      "images/creature/Scotchpion/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Scotchpion/overworld_w0.png",
+      "images/creature/Scotchpion/overworld_w1.png"
+    ]
+  },
+  "race": "Alemental",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Gambling Dwarf Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 20,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 20
+  },
+  "trait": 995
+}

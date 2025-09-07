@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WaspidSoldier/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 537,
+  "item": 599,
+  "lore": "Waspids communicate mostly through pheromones. However, they play specific roles in battle, and act in such a coordinated manner that they seem to move as one.\\n\\nFascinated by the strategic deployment of the Waspids when confronting their enemies, Gonfurian decided to create the Waspid Soldier. Unlike its sisters, it is of warlike nature and its instincts push it to look for weapons and armor from other creatures to improve its battle skills.",
+  "menagerieDialog": [
+    "(It\u0027s lazing around, buzzing its wings every so often to let your other creatures know it\u0027s still alive.)",
+    "(It buzzes around impatiently as if to wonder what\u0027s taking you so long to finish your business here.)",
+    "(It buzzes around your head which causes you to freeze in place until it gets bored and leaves you alone.)",
+    "(In truth, the Waspid race serves no purpose to the greater good of Rodia. They are an angry, mean, and selfish race that live only for themselves. And to sting people.)",
+    "(It\u0027s rapidly buzzing its wings to try to shake off the dirt and debris it picked up in the last realm you visited.)"
+  ],
+  "minDepth": 1,
+  "name": "Waspid Soldier",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WaspidSoldier/overworld_e0.png",
+      "images/creature/WaspidSoldier/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WaspidSoldier/overworld_n0.png",
+      "images/creature/WaspidSoldier/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WaspidSoldier/overworld_s0.png",
+      "images/creature/WaspidSoldier/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WaspidSoldier/overworld_w0.png",
+      "images/creature/WaspidSoldier/overworld_w1.png"
+    ]
+  },
+  "race": "Waspid",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Reclusa)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 14,
+    "health": 24,
+    "intelligence": 19,
+    "speed": 24
+  },
+  "trait": 513
+}

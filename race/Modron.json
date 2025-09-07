@@ -1,0 +1,37 @@
+{
+  "bossDialog": [
+    "ALLOCATING POWER. INITIATING ATTACK STRATEGY.",
+    "ERROR: INVALID PARAMETER AT COORDINATE 0X:-1Y. ENGAGING DEFAULT BEHAVIOR ROUTINE KillAllIntruders().",
+    "HOSTILE ORGANISM DETECTED. LAUNCHING SLAUGHTER PROTOCOL."
+  ],
+  "cardBonuses": {
+    "2": "You gain 30% more {RES_POWER} from battles.",
+    "4": "Increases the base amount of {RES_POWER} gained from battles by 15.",
+    "6": "You have a 15% chance to gain double {RES_POWER} from battles."
+  },
+  "cards": 6,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    1171,
+    1172,
+    1173,
+    1174,
+    1175,
+    1176
+  ],
+  "icon": "images/race/Modron.png",
+  "master": {
+    "costume": 682,
+    "dialog": "Modrons are defensive creatures that are able to shrug off even the most brutal of ailments. There\u0027s not much to be said for them when it comes to offense, but if you\u0027re looking for a creature to protect your team, you need not look further than the Modron race. Let me show you!",
+    "item": 1503,
+    "name": "Sotvis",
+    "trait": 1811
+  },
+  "name": "Modron",
+  "notes": [],
+  "skins": [
+    725,
+    726
+  ]
+}

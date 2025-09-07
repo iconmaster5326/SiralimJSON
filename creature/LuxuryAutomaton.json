@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/LuxuryAutomaton/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 812,
+  "item": 1058,
+  "lore": "The scientist who sold the Automaton blueprints has already been arrested by the authorities, but the clandestine factories, some of which mass-produced these creatures, were in operation for too long.\\n\\nA rich businessman from Andolin decided he wanted an Automaton that looked like him. When the kingdom\u0027s authorities came to question him, he was accompanied by a Luxury Automaton who had a face similar to his, and the same moustache. The tycoon denied knowing anything about the matter and pointed at the Automaton, saying \u0022I don\u0027t really see the resemblance\u0022, which was not very convincing.",
+  "menagerieDialog": [
+    "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
+    "I am yours. To command.",
+    "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
+    "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
+    "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
+  ],
+  "minDepth": 1,
+  "name": "Luxury Automaton",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LuxuryAutomaton/overworld_e0.png",
+      "images/creature/LuxuryAutomaton/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LuxuryAutomaton/overworld_n0.png",
+      "images/creature/LuxuryAutomaton/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LuxuryAutomaton/overworld_s0.png",
+      "images/creature/LuxuryAutomaton/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LuxuryAutomaton/overworld_w0.png",
+      "images/creature/LuxuryAutomaton/overworld_w1.png"
+    ]
+  },
+  "race": "Automaton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 31,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 1077
+}

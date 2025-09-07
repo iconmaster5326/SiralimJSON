@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DeathShapeshifter/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 42,
+  "item": 612,
+  "lore": "Most Shapeshifters are peaceful and do not feel any misgivings toward strangers who enter their territory. When they reach a certain age, they specialize in a certain class of transformations to optimize the results.\\n\\nSome Shapeshifters act as shamans in their cultures. They talk to their people about life and death, and guide and motivate them in their day-to-day life. When they enter battle, they transform into unnatural creatures that should not be alive.",
+  "menagerieDialog": [
+    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+    "(It transforms into a cat right before your very eyes.)",
+    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+  ],
+  "minDepth": 1,
+  "name": "Death Shapeshifter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DeathShapeshifter/overworld_e0.png",
+      "images/creature/DeathShapeshifter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DeathShapeshifter/overworld_n0.png",
+      "images/creature/DeathShapeshifter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DeathShapeshifter/overworld_s0.png",
+      "images/creature/DeathShapeshifter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DeathShapeshifter/overworld_w0.png",
+      "images/creature/DeathShapeshifter/overworld_w1.png"
+    ]
+  },
+  "race": "Shapeshifter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 526
+}

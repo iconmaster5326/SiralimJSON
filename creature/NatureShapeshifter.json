@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/NatureShapeshifter/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 45,
+  "item": 615,
+  "lore": "Not all Shapeshifters develop their potential. Some dedicate themselves to routine tasks, and only develop their power enough to protect themselves from the inclemencies of the weather.\\n\\nFrom a very young age, Nature Shapeshifters prefer to transform into trees and plants to feel in harmony with nature. When they reach a certain skill with their powers, they fly over the forests, meadows and swamps of Rodia in the form of a bird or an insect.",
+  "menagerieDialog": [
+    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+    "(It transforms into a cat right before your very eyes.)",
+    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+  ],
+  "minDepth": 1,
+  "name": "Nature Shapeshifter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NatureShapeshifter/overworld_e0.png",
+      "images/creature/NatureShapeshifter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NatureShapeshifter/overworld_n0.png",
+      "images/creature/NatureShapeshifter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NatureShapeshifter/overworld_s0.png",
+      "images/creature/NatureShapeshifter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NatureShapeshifter/overworld_w0.png",
+      "images/creature/NatureShapeshifter/overworld_w1.png"
+    ]
+  },
+  "race": "Shapeshifter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 529
+}

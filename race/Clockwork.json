@@ -1,0 +1,38 @@
+{
+  "bossDialog": [
+    "(An unusual machine near the treasure hoard whirls to face you as you approach the treasure, brandishing weapons as it does so. You\u0027ll have to clear it out of the way to get to the treasure!)",
+    "(Gears and cogs levitate from the floor and assemble themselves into a strange form, which begins to approach you menacingly! You do not know what kind of technology or sorcery this is, only that you will not tolerate threats.)",
+    "(You\u0027ve heard an incessant ticking noise ever since you entered the room, and you seem to have found the source - an incomprehensible tangle of gears and other mechanical pieces. Eager to make the ticking stop, you order your creatures to smash it!)"
+  ],
+  "cardBonuses": {
+    "2": "You gain 30% more {RES_GRANITE} from battles.",
+    "4": "Increases the base amount of {RES_GRANITE} gained from battles by 15.",
+    "6": "You have a 15% chance to gain double {RES_GRANITE} from battles."
+  },
+  "cards": 6,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    1177,
+    1178,
+    1179,
+    1180,
+    1181,
+    1182
+  ],
+  "icon": "images/race/Clockwork.png",
+  "master": {
+    "costume": 677,
+    "dialog": "Clockworks may be slow to build their power, but once they do, they\u0027re practically unstoppable. Let me show you how it\u0027s done!",
+    "item": 1498,
+    "name": "Aizur",
+    "trait": 1806
+  },
+  "name": "Clockwork",
+  "notes": [],
+  "skins": [
+    654,
+    682,
+    710
+  ]
+}

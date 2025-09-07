@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "Hrngh. Got work to do. Don\u0027t get in way.",
+    "This room for Ims. You not Im. Get out.",
+    "You not hurt the Imlings. I make sure of that."
+  ],
+  "cardBonuses": {
+    "2": "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_provoking}.",
+    "5": "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_provoking}.",
+    "8": "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_provoking}."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    641,
+    753
+  ],
+  "icon": "images/race/Imler.png",
+  "master": {
+    "costume": 348,
+    "dialog": "Imlers are huge, lumbering creatures that pack a serious punch. Unfortunately, though, they\u0027re not too smart. But that\u0027s what they have their cunning Imling partners for! Imlers and Imlings have a symbiotic relationship with each other, capitalizing on each other\u0027s strengths and shoring up their weaknesses. Let me show you!",
+    "item": 1250,
+    "name": "Rathik",
+    "trait": 1449
+  },
+  "name": "Imler",
+  "notes": [],
+  "skins": [
+    98,
+    231,
+    641
+  ]
+}

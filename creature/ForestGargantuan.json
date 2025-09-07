@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/ForestGargantuan/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 528,
+  "item": 591,
+  "lore": "The size of a Gargantuan is both its greatest advantage and its weak point. On the one hand, their incredible strength allows them to deliver devastating blows. On the other, they are easy targets that can fall apart if their legs are damaged.\\n\\nOn the back of the Forest Gargantuan there is a small ecosystem inhabited mainly by trees, insects and small birds. During battle, it uses the soil and the rocks on the ground to regenerate any damage.",
+  "menagerieDialog": [
+    "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
+    "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
+    "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
+    "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
+    "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
+  ],
+  "minDepth": 1,
+  "name": "Forest Gargantuan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ForestGargantuan/overworld_e0.png",
+      "images/creature/ForestGargantuan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ForestGargantuan/overworld_n0.png",
+      "images/creature/ForestGargantuan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ForestGargantuan/overworld_s0.png",
+      "images/creature/ForestGargantuan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ForestGargantuan/overworld_w0.png",
+      "images/creature/ForestGargantuan/overworld_w1.png"
+    ]
+  },
+  "race": "Gargantuan",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 27,
+    "health": 39,
+    "intelligence": 12,
+    "speed": 7
+  },
+  "trait": 505
+}

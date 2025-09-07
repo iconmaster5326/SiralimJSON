@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MaulerFiend/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 275,
+  "item": 304,
+  "lore": "A Fiend\u0027s diet includes any organic being, including trees if there is a shortage of creatures. As long as they are adequately fed, they can become faithful companions, but if not, their owner will become their meal.\\n\\nMauler Fiends are the easiest of their kind to tame, so many criminal gangs use them as pets. There are illegal fights of these creatures in the suburbs of some cities, in which bets can be placed.",
+  "menagerieDialog": [
+    "(Oh, Gods, it\u0027s eating the floor tiles!)",
+    "(This creature is completely out of control, headbutting everything in sight.)",
+    "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
+    "(You wish it would close its mouth at some point, but it never does. Ever.)",
+    "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
+  ],
+  "minDepth": 1,
+  "name": "Mauler Fiend",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MaulerFiend/overworld_e0.png",
+      "images/creature/MaulerFiend/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MaulerFiend/overworld_n0.png",
+      "images/creature/MaulerFiend/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MaulerFiend/overworld_s0.png",
+      "images/creature/MaulerFiend/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MaulerFiend/overworld_w0.png",
+      "images/creature/MaulerFiend/overworld_w1.png"
+    ]
+  },
+  "race": "Fiend",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Tartarith)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 12,
+    "health": 33,
+    "intelligence": 12,
+    "speed": 22
+  },
+  "trait": 220
+}

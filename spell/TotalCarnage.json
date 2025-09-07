@@ -1,0 +1,33 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Enemies are afflicted with {CONDNAME_DEBUFF_BLEED} and this creature {ACTION_attacks} each enemy. This spell is an {SPELL_ultimate}.",
+  "god": 25,
+  "id": 653,
+  "manuallyCastable": true,
+  "maxCharges": 1,
+  "name": "Total Carnage",
+  "notes": [],
+  "obtainable": false,
+  "propertyCompatibility": [
+    0,
+    3,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [],
+  "tags": [
+    "ULTIMATE"
+  ],
+  "targets": "enemies"
+}

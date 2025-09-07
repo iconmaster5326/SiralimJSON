@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/CelestialOccultist/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 616,
+  "item": 842,
+  "lore": "And the big day finally arrived. Everything was in place to start the process of duplicating the Nether Orbs. Several rooms linked by endless spells, strange liquids bubbling in cauldrons and test tubes, and hundreds of Magi arranged throughout the Refuge, ready to do their part. Ainsworth was at point 0, surrounded by nine Nether Orbs of great power. She grabbed her staff and began the experiment. But something went wrong. Very wrong. The Nether Orbs rose and a powerful magical current vibrated throughout the tower. A tower whose space had been altered. The ritual disfigured her, stole her sanity and turned her disciples into strange copies of herself.",
+  "menagerieDialog": [
+    "(It\u0027s floating comfortably in the air while napping peacefully.)",
+    "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
+    "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
+    "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
+    "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
+  ],
+  "minDepth": 1,
+  "name": "Celestial Occultist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CelestialOccultist/overworld_e0.png",
+      "images/creature/CelestialOccultist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CelestialOccultist/overworld_n0.png",
+      "images/creature/CelestialOccultist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CelestialOccultist/overworld_s0.png",
+      "images/creature/CelestialOccultist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CelestialOccultist/overworld_w0.png",
+      "images/creature/CelestialOccultist/overworld_w1.png"
+    ]
+  },
+  "race": "Occultist",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 13,
+    "health": 33,
+    "intelligence": 28,
+    "speed": 18
+  },
+  "trait": 869
+}

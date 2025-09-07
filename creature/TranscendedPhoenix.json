@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/TranscendedPhoenix/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 673,
+  "item": 847,
+  "lore": "When a Phoenix has been reborn forty-two times, it becomes a Transcended Phoenix. This creature never gets old or sick, but it cannot regenerate, so steel and magic can end its life. Females gain the ability to lay an unlimited number of eggs, although their offspring is always of the father\u0027s subspecies. The number of Phoenixes was considerably reduced in the Unification War. To repopulate the species, Helmholtz and Milner searched for two Transcended Phoenixes, a male and a female.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
+    "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
+    "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
+    "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \u0022revives\u0022, it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
+    "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
+  ],
+  "minDepth": 1,
+  "name": "Transcended Phoenix",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TranscendedPhoenix/overworld_e0.png",
+      "images/creature/TranscendedPhoenix/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TranscendedPhoenix/overworld_n0.png",
+      "images/creature/TranscendedPhoenix/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TranscendedPhoenix/overworld_s0.png",
+      "images/creature/TranscendedPhoenix/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TranscendedPhoenix/overworld_w0.png",
+      "images/creature/TranscendedPhoenix/overworld_w1.png"
+    ]
+  },
+  "race": "Phoenix",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 11,
+    "health": 32,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 874
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GiftMimic/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 772,
+  "item": 39,
+  "lore": "Two hundred years ago, the dean of the Magic University of Neralim received a gift from one of her colleagues for Purple Victory Day. When she opened it, she was greeted by two dreadful rows of fangs and devoured in a single bite before she could react. The next morning her colleague was provisionally appointed as dean; a position she managed to keep for ten years, which at the time was the longest possible term of deanship, established to prevent such practices.",
+  "menagerieDialog": [
+    "(It looks like a harmless chest, but you know better.)",
+    "(Honestly, it\u0027s not as clever as it thinks it is. The giant eyes, enormous tongue, and spiked teeth give away its attempts at secrecy.)",
+    "(It has so many teeth that you struggle to count them all. There are at least 12.)",
+    "HWAH HAH HAH HAH HAH! HWAAAAAAAAH! HA HA HA! SURPRIIIIIISE!\\n\\n(The novelty of this creature wore off incredibly fast.)",
+    "(You wonder what sort of consciousness is behind its vibrant gaze.)"
+  ],
+  "minDepth": 1,
+  "name": "Gift Mimic",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GiftMimic/overworld_e0.png",
+      "images/creature/GiftMimic/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GiftMimic/overworld_n0.png",
+      "images/creature/GiftMimic/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GiftMimic/overworld_s0.png",
+      "images/creature/GiftMimic/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GiftMimic/overworld_w0.png",
+      "images/creature/GiftMimic/overworld_w1.png"
+    ]
+  },
+  "race": "Mimic",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Sorcery Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 24,
+    "health": 30,
+    "intelligence": 24,
+    "speed": 7
+  },
+  "trait": 1024
+}

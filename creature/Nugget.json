@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Nugget/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 969,
+  "item": 1288,
+  "lore": "This creature has often been attributed miraculous properties, for many reasons. Around this creature, trees bloom, crops manage to grow despite the droughts, and grass sprouts where it should not. Finding one is an extraordinary feat, and keeping one close is extremely difficult, as it can easily escape by becoming imperceptible to the senses of living beings.",
+  "menagerieDialog": [
+    "(It yawns, making a cute, squeaking sound in the process.)",
+    "(How can something so cute exist in a world like this?)",
+    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+    "(It blushes and giggles every time you come near it.)",
+    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+  ],
+  "minDepth": 1,
+  "name": "Nugget",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Nugget/overworld_e0.png",
+      "images/creature/Nugget/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Nugget/overworld_n0.png",
+      "images/creature/Nugget/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Nugget/overworld_s0.png",
+      "images/creature/Nugget/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Nugget/overworld_w0.png",
+      "images/creature/Nugget/overworld_w1.png"
+    ]
+  },
+  "race": "Dumpling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 17,
+    "speed": 18
+  },
+  "trait": 1526
+}

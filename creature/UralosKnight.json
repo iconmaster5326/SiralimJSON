@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/UralosKnight/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1196,
+  "item": 1579,
+  "lore": "The Uraloses are widely known throughout Rodia for living in the only place in the country that has never been conquered. This is because the Uraloses themselves have prevented it since time immemorial.\\n\\nWhen Uraloses go to war, their front lines, at least the ones their enemies can perceive, always include a battalion of Uralos Knights. Their loyalty to their people is perhaps too strong, and they have never looked favorably upon those of their kind who deal peacefully with other species.",
+  "menagerieDialog": [
+    "You\u0027re lucky to have someone like me in your party. I\u0027m much smarter than the average bear.",
+    "It\u0027s not that we get smarter as we grow older; it\u0027s that we run out of stupid things to do after a while.",
+    "What do you say we stop fighting for the day and have ourselves a pic-a-nic instead?",
+    "I hope to find myself a beautiful wife someday to bear my bears.",
+    "(It\u0027s snoring loudly, surrounded by the remnants of what was once a large, bountiful picnic basket.)"
+  ],
+  "minDepth": 1,
+  "name": "Uralos Knight",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UralosKnight/overworld_e0.png",
+      "images/creature/UralosKnight/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UralosKnight/overworld_n0.png",
+      "images/creature/UralosKnight/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UralosKnight/overworld_s0.png",
+      "images/creature/UralosKnight/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UralosKnight/overworld_w0.png",
+      "images/creature/UralosKnight/overworld_w1.png"
+    ]
+  },
+  "race": "Uralos",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1919
+}

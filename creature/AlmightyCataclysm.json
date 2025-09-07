@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AlmightyCataclysm/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1420,
+  "item": 1755,
+  "lore": "Though cataclysms are human-sized, they can be stored in containers, as long as they stay sealed.\\n\\nThe Almighty Cataclysm leaves destruction and chaos in its wake. Its explosions make it impossible to travel with safely, which is why it must always be kept sealed away.",
+  "menagerieDialog": [
+    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+    "I am the storm that ends worlds. Point me at our foes!",
+    "The secrets of the universe flow through me. What would you like to know?",
+    "The elements themselves bend to my will. No force can harm me!",
+    "(It\u0027s swirling violently, barely contained within its form.)"
+  ],
+  "minDepth": 1,
+  "name": "Almighty Cataclysm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AlmightyCataclysm/overworld_e0.png",
+      "images/creature/AlmightyCataclysm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AlmightyCataclysm/overworld_n0.png",
+      "images/creature/AlmightyCataclysm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AlmightyCataclysm/overworld_s0.png",
+      "images/creature/AlmightyCataclysm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AlmightyCataclysm/overworld_w0.png",
+      "images/creature/AlmightyCataclysm/overworld_w1.png"
+    ]
+  },
+  "race": "Cataclysm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 25,
+    "health": 40,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 2108
+}

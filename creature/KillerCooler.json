@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/KillerCooler/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 787,
+  "item": 9,
+  "lore": "This creature can withstand extremely low temperatures and constantly generates cold when it opens its jaws. Its breath is not cold enough to freeze a person, but being around one can be unbearable without the right clothes and even lead to hypothermia. However, as this is a Mimic subspecies, that person would likely end up in its stomach (or whatever it has in its place) long before it could die from the cold.",
+  "menagerieDialog": [
+    "(It looks like a harmless chest, but you know better.)",
+    "(Honestly, it\u0027s not as clever as it thinks it is. The giant eyes, enormous tongue, and spiked teeth give away its attempts at secrecy.)",
+    "(It has so many teeth that you struggle to count them all. There are at least 12.)",
+    "HWAH HAH HAH HAH HAH! HWAAAAAAAAH! HA HA HA! SURPRIIIIIISE!\\n\\n(The novelty of this creature wore off incredibly fast.)",
+    "(You wonder what sort of consciousness is behind its vibrant gaze.)"
+  ],
+  "minDepth": 1,
+  "name": "Killer Cooler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KillerCooler/overworld_e0.png",
+      "images/creature/KillerCooler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KillerCooler/overworld_n0.png",
+      "images/creature/KillerCooler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KillerCooler/overworld_s0.png",
+      "images/creature/KillerCooler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KillerCooler/overworld_w0.png",
+      "images/creature/KillerCooler/overworld_w1.png"
+    ]
+  },
+  "race": "Mimic",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Chaos Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 23,
+    "health": 30,
+    "intelligence": 23,
+    "speed": 9
+  },
+  "trait": 1032
+}

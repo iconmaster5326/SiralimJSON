@@ -1,0 +1,37 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "Removes a debuff from your creatures. This spell cannot be cast manually, but has a 35% chance to cast when the caster {ACTION_attacks}.",
+  "god": null,
+  "id": 644,
+  "manuallyCastable": false,
+  "maxCharges": 13,
+  "name": "Hero\u0027s Blessing",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "allies"
+}

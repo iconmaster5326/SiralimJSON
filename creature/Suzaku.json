@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Suzaku/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1264,
+  "item": 1447,
+  "lore": "Suzakus are majestic birds that have flown over the Great Pandemonium since the dawn of civilization. They can withstand extremely high temperatures, even those of lava, and they detest the cold to the point of spitting fire left and right in order to heat up the environment. When one of these creatures thinks it has a parasite, it dives into the magma to immediately end the parasite\u0027s life. Vulcanar often points at these creatures while they are taking a bath to try to convince someone to jump into the molten rock with them.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Suzaku",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Suzaku/overworld_e0.png",
+      "images/creature/Suzaku/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Suzaku/overworld_n0.png",
+      "images/creature/Suzaku/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Suzaku/overworld_s0.png",
+      "images/creature/Suzaku/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Suzaku/overworld_w0.png",
+      "images/creature/Suzaku/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 1755
+}

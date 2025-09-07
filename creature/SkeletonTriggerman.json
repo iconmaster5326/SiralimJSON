@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SkeletonTriggerman/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 318,
+  "item": 224,
+  "lore": "The Skeleton Triggerman is the most swashbuckling of its kind. It likes to sneak into big cities, go into taverns of lesser repute and shoot up the place for fun. Thanks to its reckless behavior, the main weakness of its species was quickly discovered: the only way to defeat them for good is to damage their skulls. It also seems to like drinking whiskey, though it spills on the floor through the cavity of its throat.",
+  "menagerieDialog": [
+    "I\u0027m glad we stopped to rest. I need to clean my guns.",
+    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+  ],
+  "minDepth": 1,
+  "name": "Skeleton Triggerman",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SkeletonTriggerman/overworld_e0.png",
+      "images/creature/SkeletonTriggerman/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SkeletonTriggerman/overworld_n0.png",
+      "images/creature/SkeletonTriggerman/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SkeletonTriggerman/overworld_s0.png",
+      "images/creature/SkeletonTriggerman/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SkeletonTriggerman/overworld_w0.png",
+      "images/creature/SkeletonTriggerman/overworld_w1.png"
+    ]
+  },
+  "race": "Skeleton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Erebyss)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 16,
+    "health": 26,
+    "intelligence": 11,
+    "speed": 26
+  },
+  "trait": 133
+}

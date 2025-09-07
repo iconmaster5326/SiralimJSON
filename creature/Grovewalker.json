@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Grovewalker/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1151,
+  "item": 1533,
+  "lore": "A greedy, unscrupulous businessman from Siralim hired the services of a Death Mage a few months ago to corrupt some creatures who were protecting a forest to the south. The result was the Grovewalker, a fiendish being who wanders without conscience, withering everything it touches, spreading disease wherever it goes. The businessman and the Death Mage were caught and imprisoned, and work is currently under way to eliminate these creatures from the ecosystem, with satisfactory results.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Grovewalker",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Grovewalker/overworld_e0.png",
+      "images/creature/Grovewalker/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Grovewalker/overworld_n0.png",
+      "images/creature/Grovewalker/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Grovewalker/overworld_s0.png",
+      "images/creature/Grovewalker/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Grovewalker/overworld_w0.png",
+      "images/creature/Grovewalker/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1874
+}

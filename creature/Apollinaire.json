@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/Apollinaire/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 695,
+  "item": 857,
+  "lore": "All Rift Dancers hate Magi, but Apollinaire especially so. In ancient times, this creature attacked a tower inhabited by Magi and annihilated them all, leaving a terrifying trail of blood and entrails in its ascent. It has been seen touching other Rift Dancers, making them disappear with a peaceful sigh, as if it allowed them to return to their own world.",
+  "menagerieDialog": [
+    "(For a Rift Dancer, it\u0027s not very active.)",
+    "(It keeps trying, without any success at all, to get you to dance with it.)",
+    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+  ],
+  "minDepth": 1,
+  "name": "Apollinaire",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Apollinaire/overworld_e0.png",
+      "images/creature/Apollinaire/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Apollinaire/overworld_n0.png",
+      "images/creature/Apollinaire/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Apollinaire/overworld_s0.png",
+      "images/creature/Apollinaire/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Apollinaire/overworld_w0.png",
+      "images/creature/Apollinaire/overworld_w1.png"
+    ]
+  },
+  "race": "Rift Dancer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 884
+}

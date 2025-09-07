@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/HemlockEnt/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1,
+  "item": 558,
+  "lore": "Whenever there is a flood or some other natural disaster, Ents act to help animals in danger and prevent the most fragile trees from breaking due to extreme weather.\\n\\nThe Hemlock Ent traps defenseless animals during these events and hides them inside its mouth or among its branches to prevent them from dying or getting injured.",
+  "menagerieDialog": [
+    "There is nothing quite like the clean air of a Rodian forest.",
+    "I\u0027ll make short work of anyone who dares desecrate nature.",
+    "This castle smells like a wasteland. I would prefer to leave this place at once.",
+    "I feel invigorated in your presence. Thank you for looking after me.",
+    "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
+  ],
+  "minDepth": 1,
+  "name": "Hemlock Ent",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HemlockEnt/overworld_e0.png",
+      "images/creature/HemlockEnt/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HemlockEnt/overworld_n0.png",
+      "images/creature/HemlockEnt/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HemlockEnt/overworld_s0.png",
+      "images/creature/HemlockEnt/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HemlockEnt/overworld_w0.png",
+      "images/creature/HemlockEnt/overworld_w1.png"
+    ]
+  },
+  "race": "Ent",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 23,
+    "speed": 13
+  },
+  "trait": 472
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/IronMaiden/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1423,
+  "item": 1703,
+  "lore": "Torture devices have long held a notorious reputation, used across countless generations all over the world. But as times changed, some nations officially outlawed their use\u00E2\u20AC\u201Dat least on paper. This, of course, left behind a massive stockpile of now-obsolete instruments like the Iron Maiden. Rather than destroy them, places like Rodia decided to enchant them and put them to use: fighting on the front lines or patrolling rough neighborhoods to scare criminals into behaving.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Iron Maiden",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/IronMaiden/overworld_e0.png",
+      "images/creature/IronMaiden/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/IronMaiden/overworld_n0.png",
+      "images/creature/IronMaiden/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/IronMaiden/overworld_s0.png",
+      "images/creature/IronMaiden/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/IronMaiden/overworld_w0.png",
+      "images/creature/IronMaiden/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 28,
+    "health": 40,
+    "intelligence": 15,
+    "speed": 12
+  },
+  "trait": 2045
+}

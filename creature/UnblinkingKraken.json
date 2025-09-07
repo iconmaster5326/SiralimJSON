@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/UnblinkingKraken/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1245,
+  "item": 1614,
+  "lore": "Revenants know Krakens will attack small groups of them if they get too hungry, so they set all kinds of ingenious traps for these creatures, as they are a great food source for their species.\\n\\nFor centuries, the Unblinking Kraken was thought to cause thunderstorms on the high seas, since many ships spotted these creatures when they occurred. However, rather than controlling the weather, Unblinking Krakens simply enjoy the sensation of the raindrops falling on their skin.",
+  "menagerieDialog": [
+    "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
+    "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
+    "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
+    "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
+    "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
+  ],
+  "minDepth": 1,
+  "name": "Unblinking Kraken",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnblinkingKraken/overworld_e0.png",
+      "images/creature/UnblinkingKraken/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnblinkingKraken/overworld_n0.png",
+      "images/creature/UnblinkingKraken/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnblinkingKraken/overworld_s0.png",
+      "images/creature/UnblinkingKraken/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnblinkingKraken/overworld_w0.png",
+      "images/creature/UnblinkingKraken/overworld_w1.png"
+    ]
+  },
+  "race": "Kraken",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 12,
+      "type": "realm"
+    },
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 20,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 20
+  },
+  "trait": 1956
+}

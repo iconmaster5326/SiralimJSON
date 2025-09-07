@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SkeletonBuccaneer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 664,
+  "item": 865,
+  "lore": "William James was a famous pirate captain on the other side of the ocean; but after being afflicted with a curse, he left for distant lands with all his fleet, searching for the Mercury Cross, a legendary item able to put an end to it. Now, he and his crew are trying to amass a large enough fortune to rebuild the ships they lost and sail anew. His favorite technique is to use his grappling hook to pull his opponents closer and shoot them, kicking the lifeless body when it is close enough.",
+  "menagerieDialog": [
+    "I\u0027m glad we stopped to rest. I need to clean my guns.",
+    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+  ],
+  "minDepth": 1,
+  "name": "Skeleton Buccaneer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SkeletonBuccaneer/overworld_e0.png",
+      "images/creature/SkeletonBuccaneer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SkeletonBuccaneer/overworld_n0.png",
+      "images/creature/SkeletonBuccaneer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SkeletonBuccaneer/overworld_s0.png",
+      "images/creature/SkeletonBuccaneer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SkeletonBuccaneer/overworld_w0.png",
+      "images/creature/SkeletonBuccaneer/overworld_w1.png"
+    ]
+  },
+  "race": "Skeleton",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Erebyss)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 10,
+    "speed": 25
+  },
+  "trait": 892
+}

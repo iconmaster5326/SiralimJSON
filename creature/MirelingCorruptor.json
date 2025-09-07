@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MirelingCorruptor/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1425,
+  "item": 1759,
+  "lore": "Deep in the rotting swamps where neither light nor sound dare trespass, the Mireling Corruptor grows parasitic fungi from its own flesh. Its empty gaze and perpetual grin stand in stark contrast to the crude skull of hardened sludge it always carries. It taints the earth it walks on, leaving poisonous fungal gardens blooming in its wake. Some say it isn\u0027t a living creature at all, but a spirit that seeks only to keep its habitat undisturbed.",
+  "menagerieDialog": [
+    "(They\u0027re huddled together in a small pool, occasionally blowing bubbles.)",
+    "We may be small, but our fury is mighty! To battle!",
+    "The secrets of the swamp are ours. Care to learn some ancient wisdom?",
+    "Our swamp magic protects us! You\u0027ll never break through!",
+    "(They\u0027re hopping about frantically, croaking war cries.)"
+  ],
+  "minDepth": 1,
+  "name": "Mireling Corruptor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MirelingCorruptor/overworld_e0.png",
+      "images/creature/MirelingCorruptor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MirelingCorruptor/overworld_n0.png",
+      "images/creature/MirelingCorruptor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MirelingCorruptor/overworld_s0.png",
+      "images/creature/MirelingCorruptor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MirelingCorruptor/overworld_w0.png",
+      "images/creature/MirelingCorruptor/overworld_w1.png"
+    ]
+  },
+  "race": "Mireling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 2112
+}

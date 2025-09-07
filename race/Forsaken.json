@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(Smashing its way out of the ground, the Forsaken smiles wickedly at you as other creatures appear to aid it in battle!)",
+    "(The Forsaken starts crawling along the floor backwards at you, its head twisted all the way around to stare at you. You quickly have your creatures intercept!)",
+    "Grrrgghhh... join uuuussss..."
+  ],
+  "cardBonuses": {
+    "2": "Your creatures have 1 more base {STAT_defense}.",
+    "4": "Your creatures have 1 more base {STAT_defense}.",
+    "7": "Your creatures have 1 more base {STAT_defense}."
+  },
+  "cards": 7,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    646
+  ],
+  "icon": "images/race/Forsaken.png",
+  "master": {
+    "costume": 334,
+    "dialog": "Forsaken are unimaginably powerful creatures, but such strength comes at a cost. They\u0027re cursed, you see, and this curse causes their bodies to decompose in the midst of battle. A bit unfortunate, but the tradeoff is well worth it. Let me show you how it\u0027s done!",
+    "item": 1261,
+    "name": "Savine",
+    "trait": 1435
+  },
+  "name": "Forsaken",
+  "notes": [],
+  "skins": [
+    191,
+    305,
+    309,
+    512,
+    683
+  ]
+}

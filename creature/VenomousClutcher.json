@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/VenomousClutcher/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 57,
+  "item": 363,
+  "lore": "Over the years, Taylor developed a special taste for mistreating people and creatures. Sometimes he used magic, other times he experimented on them, and yet other times he simply used sharp or pointed tools to inflict pain.\\n\\nWhen a Clutcher grabs its victims, it always digs its nails deep into their body. Additionally, the Venomous Clutcher uses its stinger to poison the victim, producing a high fever and intense pain in the limbs.",
+  "menagerieDialog": [
+    "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
+    "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
+    "(It\u0027s impatiently tapping the floor with its fingertips.)",
+    "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
+    "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
+  ],
+  "minDepth": 1,
+  "name": "Venomous Clutcher",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/VenomousClutcher/overworld_e0.png",
+      "images/creature/VenomousClutcher/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/VenomousClutcher/overworld_n0.png",
+      "images/creature/VenomousClutcher/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/VenomousClutcher/overworld_s0.png",
+      "images/creature/VenomousClutcher/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/VenomousClutcher/overworld_w0.png",
+      "images/creature/VenomousClutcher/overworld_w1.png"
+    ]
+  },
+  "race": "Clutcher",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 13,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 279
+}

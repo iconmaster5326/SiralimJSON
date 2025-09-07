@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Pandora/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 971,
+  "item": null,
+  "lore": "The energy contained within Mimics is not always stable, and sometimes it reaches a critical point and escapes outwards, turning them into a Pandora. It was named by a prestigious, but very old and almost senile, scientist who witnessed this transformation while studying Mimics. According to him, the evils of the world had attracted the darkness of this creature, and it would trigger the end of days.",
+  "menagerieDialog": [
+    "(It looks like a harmless chest, but you know better.)",
+    "(Honestly, it\u0027s not as clever as it thinks it is. The giant eyes, enormous tongue, and spiked teeth give away its attempts at secrecy.)",
+    "(It has so many teeth that you struggle to count them all. There are at least 12.)",
+    "HWAH HAH HAH HAH HAH! HWAAAAAAAAH! HA HA HA! SURPRIIIIIISE!\\n\\n(The novelty of this creature wore off incredibly fast.)",
+    "(You wonder what sort of consciousness is behind its vibrant gaze.)"
+  ],
+  "minDepth": 1,
+  "name": "Pandora",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Pandora/overworld_e0.png",
+      "images/creature/Pandora/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Pandora/overworld_n0.png",
+      "images/creature/Pandora/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Pandora/overworld_s0.png",
+      "images/creature/Pandora/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Pandora/overworld_w0.png",
+      "images/creature/Pandora/overworld_w1.png"
+    ]
+  },
+  "race": "Mimic",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 1533
+}

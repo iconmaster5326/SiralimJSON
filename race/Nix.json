@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(You recoil back as a thrown knife embeds itself in the ground at your feet. The Nix who threw it quickly descends from the ceiling for another attempt upon your life!)",
+    "My sisters will grant me glory when I bring your severed head back to the underworld!",
+    "We are the true rulers of the world, human filth. Suffer and die!"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 15% less damage from attacks from {CLASS_Death} creatures.",
+    "5": "Your creatures take 15% less damage from attacks from {CLASS_Death} creatures.",
+    "8": "Your creatures take 15% less damage from attacks from {CLASS_Death} creatures."
+  },
+  "cards": 8,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    566,
+    567,
+    568,
+    569,
+    570,
+    571,
+    698,
+    980
+  ],
+  "icon": "images/race/Nix.png",
+  "master": {
+    "costume": 364,
+    "dialog": "Nixes are crafty little devils who excel at devising a strategy ahead of time and executing it with flawless grace in the midst of battle. Let me show you how it\u0027s done!",
+    "item": 1220,
+    "name": "Ferra",
+    "trait": 1466
+  },
+  "name": "Nix",
+  "notes": [],
+  "skins": [
+    552,
+    553,
+    742,
+    743
+  ]
+}

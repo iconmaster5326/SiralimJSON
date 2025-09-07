@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(A Bard sits atop the treasure hoard, and begins to play an incredibly annoying tune with a musical instrument. You order your creatures to take the instrument and do unpleasant things to the Bard with it.)",
+    "(As you approach the treasure, a Bard appears! Despite using an unknown language, it issues forth an insult so reprehensible you immediately have your creatures charge forward to beat the !@#$ out of it!)",
+    "(You suddenly start hearing the sound of jeering crowds and mocking laughter in your head. You soon catch sight of the Bard responsible and tell your creatures to put an end to it!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 5% less damage from attacks.",
+    "5": "Your creatures take 5% less damage from attacks.",
+    "8": "Your creatures take 5% less damage from attacks."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    683,
+    768
+  ],
+  "icon": "images/race/Bard.png",
+  "master": {
+    "costume": 303,
+    "dialog": "Many Bards enable your creatures\u0027 attack damage to come from different stats. Others provide a variety of beneficial effects to your creatures. Let\u0027s have a duel, and then I\u0027ll have one of my Bards treat you to a song afterward!",
+    "item": 1165,
+    "name": "Fitz",
+    "trait": 1404
+  },
+  "name": "Bard",
+  "notes": [],
+  "skins": [
+    102,
+    103,
+    637
+  ]
+}

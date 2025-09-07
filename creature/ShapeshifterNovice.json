@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ShapeshifterNovice/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 661,
+  "item": 862,
+  "lore": "The malleable structure of Shapeshifters allows them to take on the appearance and physiological functioning of other species. These creatures must first learn certain principles about transformation and taxonomy.\\n\\nAn Apprentice has not mastered these principles yet, and its transformations are incomplete or unsuitable, sometimes even spontaneous. Their abilities are affected by the lunar phases, especially by the full moon, which causes involuntary transformations while they sleep.",
+  "menagerieDialog": [
+    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+    "(It transforms into a cat right before your very eyes.)",
+    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+  ],
+  "minDepth": 1,
+  "name": "Shapeshifter Novice",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ShapeshifterNovice/overworld_e0.png",
+      "images/creature/ShapeshifterNovice/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ShapeshifterNovice/overworld_n0.png",
+      "images/creature/ShapeshifterNovice/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ShapeshifterNovice/overworld_s0.png",
+      "images/creature/ShapeshifterNovice/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ShapeshifterNovice/overworld_w0.png",
+      "images/creature/ShapeshifterNovice/overworld_w1.png"
+    ]
+  },
+  "race": "Shapeshifter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 889
+}

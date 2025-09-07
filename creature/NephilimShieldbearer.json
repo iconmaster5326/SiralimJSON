@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/NephilimShieldbearer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1237,
+  "item": 1608,
+  "lore": "All sentient creatures find the Nephilim\u0027s very presence disturbing. Even a sadistic, unscrupulous ruler or the cruelest of criminals are terrified when one of these creatures approaches.\\n\\nWhen a Nephilim Shieldbreaker chooses a target, it does not attack directly, instead seeking out those who matter most to its victim and turning them against each other with a single touch of its shield. In this way, its victim will have to witness in horror as their loved ones try to hurt each other in every possible way.",
+  "menagerieDialog": [
+    "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
+    "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
+    "Let us take our leave at once. There is work to be done.",
+    "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
+    "We\u0027re in good company with you as our leader, {PLAYERNAME}."
+  ],
+  "minDepth": 1,
+  "name": "Nephilim Shieldbearer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NephilimShieldbearer/overworld_e0.png",
+      "images/creature/NephilimShieldbearer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NephilimShieldbearer/overworld_n0.png",
+      "images/creature/NephilimShieldbearer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NephilimShieldbearer/overworld_s0.png",
+      "images/creature/NephilimShieldbearer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NephilimShieldbearer/overworld_w0.png",
+      "images/creature/NephilimShieldbearer/overworld_w1.png"
+    ]
+  },
+  "race": "Nephilim",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1948
+}

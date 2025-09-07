@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Lister/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": 10,
+  "id": 732,
+  "item": null,
+  "lore": "Vertraag often jokes with the Goddess of Illusion that Lister is her masterpiece. The God of Fortune can detect violence at any range. However, when these types of events take place far away from his realm, they have to be very serious for him to notice them at all. Unfortunately, when this happens, his favorite activity is interrupted. There is no doubt that Yseros did an excellent job, as Lister not only yearns for peace, but needs it to sleep peacefully.",
+  "menagerieDialog": [
+    "Oi, wot the bloody Donwald Duck d\u0027ya think you\u0027re doin\u0027, mate?",
+    "Oi\u0027m gettin\u0027 toired of oll this waitin\u0027 abaaht. Let\u0027s get outta here, eh?",
+    "Oi wanna talk about me, oi wanna talk about oi, wanna talk about numbaah one, oh moi me moi.",
+    "Oi\u0027m gettin\u0027 toired ah sittin\u0027 araand. Let\u0027s git a move aahn.",
+    "Oi\u0027m really gettin\u0027 toired o\u0027 oll these people \u0027round \u0027ere. Wot say we take leave, eh?"
+  ],
+  "minDepth": 1,
+  "name": "Lister",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Lister/overworld_e0.png",
+      "images/creature/Lister/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Lister/overworld_n0.png",
+      "images/creature/Lister/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Lister/overworld_s0.png",
+      "images/creature/Lister/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Lister/overworld_w0.png",
+      "images/creature/Lister/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    359,
+    404,
+    420
+  ],
+  "sources": [
+    {
+      "god": 10,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 17,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 17
+  },
+  "trait": 609
+}

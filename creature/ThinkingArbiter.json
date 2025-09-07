@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ThinkingArbiter/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1185,
+  "item": 1568,
+  "lore": "The substance that the Auditors inject into some creatures is harmless in life. However, after death, these creatures\u0027 souls will arrive at Ubi Concordia, where they will enter a body the Auditors prepared for them, and act as Arbiters from that moment on.\\n\\nThinking Arbiters carry out the most subtle tasks. They tend to stroll through big cities, and are often seen both in the good and bad neighborhoods. Their interventions are never too long, but their words can exert an influence capable of unleashing all kinds of events, from a student strike to, perhaps in the future, a coup d\u0027\u00C3\u00A9tat.",
+  "menagerieDialog": [
+    "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
+    "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
+    "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
+    "(This creature moves with the grace and regality of a nobleman.)",
+    "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
+  ],
+  "minDepth": 1,
+  "name": "Thinking Arbiter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ThinkingArbiter/overworld_e0.png",
+      "images/creature/ThinkingArbiter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ThinkingArbiter/overworld_n0.png",
+      "images/creature/ThinkingArbiter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ThinkingArbiter/overworld_s0.png",
+      "images/creature/ThinkingArbiter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ThinkingArbiter/overworld_w0.png",
+      "images/creature/ThinkingArbiter/overworld_w1.png"
+    ]
+  },
+  "race": "Arbiter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 19,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 19
+  },
+  "trait": 1908
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/AndolinSeraph/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 425,
+  "item": 146,
+  "lore": "Seraphs were Surathli\u0027s gift to humanity for having managed to establish kingdoms in which to live in peace and harmony after centuries of endless wars.\\n\\nDespite its majestic appearance, the Andolin Seraph is a joker who likes to make those around it laugh, although it sometimes goes too far with its antics. It likes to play with its enemies, provoking them and then deftly dodging their attacks to make them waste time.",
+  "menagerieDialog": [
+    "Long past are the days when we brandished our swords for a real cause... Have you even tried speaking with your enemy before resorting to violence?",
+    "Trust no one. Even the gods are known for their paper-thin allegiances.",
+    "When a kingdom falls, its Seraph is destroyed as well. Perhaps humans should think twice before blindly heading to war with each other.",
+    "I am proud to serve under the {CASTLENAME} banner. Thank you for having me.",
+    "I find it difficult to trust humans. Do not let me down."
+  ],
+  "minDepth": 1,
+  "name": "Andolin Seraph",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AndolinSeraph/overworld_e0.png",
+      "images/creature/AndolinSeraph/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AndolinSeraph/overworld_n0.png",
+      "images/creature/AndolinSeraph/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AndolinSeraph/overworld_s0.png",
+      "images/creature/AndolinSeraph/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AndolinSeraph/overworld_w0.png",
+      "images/creature/AndolinSeraph/overworld_w1.png"
+    ]
+  },
+  "race": "Seraph",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Muse)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 13
+  },
+  "trait": 56
+}

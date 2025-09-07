@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Spiderlings/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 724,
+  "name": "Spiderlings",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Spiderlings/overworld_e0.png",
+      "images/skin/Spiderlings/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Spiderlings/overworld_n0.png",
+      "images/skin/Spiderlings/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Spiderlings/overworld_s0.png",
+      "images/skin/Spiderlings/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Spiderlings/overworld_w0.png",
+      "images/skin/Spiderlings/overworld_w1.png"
+    ]
+  },
+  "race": "Mite",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

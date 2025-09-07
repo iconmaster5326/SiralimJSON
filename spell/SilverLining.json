@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "Your creatures gain a random buff for each dead ally.",
+  "god": null,
+  "id": 726,
+  "manuallyCastable": true,
+  "maxCharges": 8,
+  "name": "Silver Lining",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "BUFF"
+  ],
+  "targets": "allies"
+}

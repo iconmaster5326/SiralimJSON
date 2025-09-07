@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TormentedBanshee/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 658,
+  "item": 220,
+  "lore": "Banshees are not intelligent beings, they are guided by their instinct. They barely need to eat, and they constantly wander as if they had no purpose. When a catastrophe is about to occur, dozens of Banshees gather around, creating a chorus of spectral voices.\\n\\nThe Tormented Banshee is welcomed in some towns and cities, as it feeds on nightmares, especially those of children.",
+  "menagerieDialog": [
+    "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
+    "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
+    "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
+    "Let my cries chill the living.",
+    "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
+  ],
+  "minDepth": 1,
+  "name": "Tormented Banshee",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TormentedBanshee/overworld_e0.png",
+      "images/creature/TormentedBanshee/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TormentedBanshee/overworld_n0.png",
+      "images/creature/TormentedBanshee/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TormentedBanshee/overworld_s0.png",
+      "images/creature/TormentedBanshee/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TormentedBanshee/overworld_w0.png",
+      "images/creature/TormentedBanshee/overworld_w1.png"
+    ]
+  },
+  "race": "Banshee",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Ariamaki)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 17,
+    "health": 30,
+    "intelligence": 17,
+    "speed": 27
+  },
+  "trait": 129
+}

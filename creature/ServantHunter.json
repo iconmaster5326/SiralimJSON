@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ServantHunter/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 301,
+  "item": 519,
+  "lore": "Sometimes, a group of Hunters is defeated by other creatures or by the ruler of a kingdom on their way to conquer all of Rodia. If one of them survives, it will look for another group of Hunters to join so that it can be among its own and survive. However, when this happens, it becomes the lowest in the hierarchy of the group and must obey every order it receives.",
+  "menagerieDialog": [
+    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+    "(It\u0027s busy feeding bits of meat to its wolf.)",
+    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+  ],
+  "minDepth": 1,
+  "name": "Servant Hunter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ServantHunter/overworld_e0.png",
+      "images/creature/ServantHunter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ServantHunter/overworld_n0.png",
+      "images/creature/ServantHunter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ServantHunter/overworld_s0.png",
+      "images/creature/ServantHunter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ServantHunter/overworld_w0.png",
+      "images/creature/ServantHunter/overworld_w1.png"
+    ]
+  },
+  "race": "Hunter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 26,
+    "intelligence": 21,
+    "speed": 26
+  },
+  "trait": 433
+}

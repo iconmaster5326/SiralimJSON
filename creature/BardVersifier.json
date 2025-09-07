@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BardVersifier/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 547,
+  "item": 711,
+  "lore": "The wealthy people in the great cities generally have a Bard in their mansions, who they keep in the basement until its presence is required.\\n\\nThe poems of the Bard Versifier speak of nature, of the singing of birds, green on green, the wind whispering through the leaves of the trees. Its verses push even the busiest people to abandon their chores and take a day off away from the bustle of the city.",
+  "menagerieDialog": [
+    "(A spell that allows telepathic communication was discovered in the Refuge of the Magi centuries ago after countless experiments were done on these creatures.)",
+    "(This creature has a peculiar habit of stimulating the minds of everyone around it. Right now, it\u0027s projecting some aggressive metal music into your brain.)",
+    "(Despite having no discernable facial features, you always find it easy to read this creature\u0027s mood.)",
+    "(It\u0027s playing a gentle song for your other creatures who are listening with rapt attention.)",
+    "(You can\u0027t help but wonder what it looks like without a robe on.)"
+  ],
+  "minDepth": 1,
+  "name": "Bard Versifier",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BardVersifier/overworld_e0.png",
+      "images/creature/BardVersifier/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BardVersifier/overworld_n0.png",
+      "images/creature/BardVersifier/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BardVersifier/overworld_s0.png",
+      "images/creature/BardVersifier/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BardVersifier/overworld_w0.png",
+      "images/creature/BardVersifier/overworld_w1.png"
+    ]
+  },
+  "race": "Bard",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 13,
+    "health": 40,
+    "intelligence": 28,
+    "speed": 13
+  },
+  "trait": 650
+}

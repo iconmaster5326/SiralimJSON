@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Yseros/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": 9,
+  "id": 737,
+  "item": null,
+  "lore": "The Goddess of Illusion is wise and powerful, always watching over the world. Like some other Gods, she wants humans and creatures to live in harmony. When the world is in danger, Yseros is always the first to notice, and she sometimes mobilizes the rest of the Gods to help protect it. Yseros gathered the Gods to act against the tyranny of an old ruler of Siralim. She suggested Milner as their heroine, but, as usual, Vertraag got his own way and the then ruler of Nex was chosen instead.",
+  "menagerieDialog": [
+    "You have great power and a knack for perseverance. Use these tools wisely.",
+    "There are many great treasures to be unearthed in my realm. Perhaps you should try your luck there soon.",
+    "Like sands through an hourglass, so are the days of our lives.",
+    "Never underestimate your surroundings. You can oftentimes turn the tide of battle by exploiting the environment to your advantage.",
+    "There are many gods in this world that you still haven\u0027t met. Perhaps someday, when the time is right, we will seek them out together."
+  ],
+  "minDepth": 1,
+  "name": "Yseros",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Yseros/overworld_e0.png",
+      "images/creature/Yseros/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Yseros/overworld_n0.png",
+      "images/creature/Yseros/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Yseros/overworld_s0.png",
+      "images/creature/Yseros/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Yseros/overworld_w0.png",
+      "images/creature/Yseros/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    371,
+    416
+  ],
+  "sources": [
+    {
+      "god": 9,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 605
+}

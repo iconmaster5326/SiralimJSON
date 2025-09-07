@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TrickImler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 753,
+  "item": 74,
+  "lore": "It is common knowledge nowadays that resurrecting a dead person becomes impossible after a certain amount of time has passed. Many throughout history have tried to challenge death, however, even in recent times. One of the byproducts of this stubborn obsession to overcome a universal law is the Trick Imler, a lifeless creature animated only by magical impulses that run through an artificial nervous system. They were considered abominations at first, but in time the Imlings accepted them as cheap labor. As these creatures are mindless, they are capable of casting spells even with their bodies destroyed.",
+  "menagerieDialog": [
+    "(It unleashes a nasty burp into your face and laughs. Immature.)",
+    "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
+    "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
+    "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
+    "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Trick Imler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TrickImler/overworld_e0.png",
+      "images/creature/TrickImler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TrickImler/overworld_n0.png",
+      "images/creature/TrickImler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TrickImler/overworld_s0.png",
+      "images/creature/TrickImler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TrickImler/overworld_w0.png",
+      "images/creature/TrickImler/overworld_w1.png"
+    ]
+  },
+  "race": "Imler",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Death Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 28,
+    "health": 37,
+    "intelligence": 8,
+    "speed": 8
+  },
+  "trait": 1000
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/NephilimLord/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1238,
+  "item": 1610,
+  "lore": "Erebyss hid the Nephilim in the deepest recesses of the Path of the Damned for thousands of years, to prevent them from unleashing chaos among mortals. All Nephilim are dangerous, but the Lord seems to go even further. It does not usually target ordinary people, not even those who devote their lives to helping others. The Nephilim Lord prefers its victims to be powerful, influential people. A single wound from its sword will turn them into complete lunatics who will, for example, subtly unleash a plan to plunge their own nations into misery.",
+  "menagerieDialog": [
+    "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
+    "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
+    "Let us take our leave at once. There is work to be done.",
+    "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
+    "We\u0027re in good company with you as our leader, {PLAYERNAME}."
+  ],
+  "minDepth": 1,
+  "name": "Nephilim Lord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NephilimLord/overworld_e0.png",
+      "images/creature/NephilimLord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NephilimLord/overworld_n0.png",
+      "images/creature/NephilimLord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NephilimLord/overworld_s0.png",
+      "images/creature/NephilimLord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NephilimLord/overworld_w0.png",
+      "images/creature/NephilimLord/overworld_w1.png"
+    ]
+  },
+  "race": "Nephilim",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1949
+}

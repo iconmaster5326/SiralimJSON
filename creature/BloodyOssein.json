@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/BloodyOssein/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 870,
+  "item": 995,
+  "lore": "The jaws of an Ossein are merely decorative, as they do not need to feed at all. Early research on these creatures indicates that they are very similar to Golems.\\n\\nThe Titan\u0027s blood is extremely hot, but this does not seem to affect the Osseins, perhaps because they come from the same entity. The Bloody Ossein was imbued with this blood at birth, which always remains in its body thanks to the power of Mortem. This allows the creature to control other Osseins and organize them for joint attacks.",
+  "menagerieDialog": [
+    "(It\u0027s completely still. It must be sleeping.)",
+    "(It makes an oddly-satisfying crunching noise whenever it moves its limbs.)",
+    "HELLOOOOOOOOOOOOOOOO.\\n\\n(You were sure that only Giran talked this way, but apparently, this is just how Osseins communicate.)",
+    "(Its body is so hard and jagged that striking it with your bare fists would most certainly break your bones.)",
+    "(It often looks toward the sky, dumbounded. Perhaps you should try to summon a smarter Ossein next time around.)"
+  ],
+  "minDepth": 1,
+  "name": "Bloody Ossein",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BloodyOssein/overworld_e0.png",
+      "images/creature/BloodyOssein/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BloodyOssein/overworld_n0.png",
+      "images/creature/BloodyOssein/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BloodyOssein/overworld_s0.png",
+      "images/creature/BloodyOssein/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BloodyOssein/overworld_w0.png",
+      "images/creature/BloodyOssein/overworld_w1.png"
+    ]
+  },
+  "race": "Ossein",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1135
+}

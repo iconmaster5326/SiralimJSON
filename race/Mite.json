@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(A huge amount of bugs climb out of holes in the walls and floor and cluster together on one spot, forming the shape of a single much larger bug. They make a horrible noise and attack!)",
+    "(Frowning as you see a rather disgusting corpse near the treasure, you barely keep your lunch down as a huge Mite messily bursts out of it, clearly hungry for more!)",
+    "(You hear loud scuttling, and soon see one of the largest bugs you\u0027ve ever seen hungrily running towards you!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures gain 10% more {STAT_speed} from stat-boosting effects.",
+    "4": "Your creatures gain 10% more {STAT_speed} from stat-boosting effects.",
+    "7": "Your creatures gain 10% more {STAT_speed} from stat-boosting effects."
+  },
+  "cards": 7,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    643
+  ],
+  "icon": "images/race/Mite.png",
+  "master": {
+    "costume": 362,
+    "dialog": "Did you know that Mites are notorious for burrowing into other creatures\u0027 ears while they\u0027re sleeping? Yeah. They even lay eggs in their brains. Pretty cool, right? Anyway, let\u0027s duel!",
+    "item": 1232,
+    "name": "Aliphar",
+    "trait": 1463
+  },
+  "name": "Mite",
+  "notes": [],
+  "skins": [
+    338,
+    339,
+    541,
+    724
+  ]
+}

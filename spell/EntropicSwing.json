@@ -1,0 +1,37 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "All creatures\u0027 end-of-turn effects are activated and the {TIMELINE} is shuffled. This spell cannot be {ACTION_cast} manually, and has a 5% chance to be {ACTION_cast} at the start of each creature\u0027s turn.",
+  "god": null,
+  "id": 671,
+  "manuallyCastable": false,
+  "maxCharges": 2,
+  "name": "Entropic Swing",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "reserved": true,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "all"
+}

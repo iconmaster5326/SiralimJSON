@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/AmethystParagon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 604,
+  "item": 844,
+  "lore": "Helmholtz discovered that the gem in the crown of a Paragon is the focus of its aura, and their body loses all color if it is removed. However, the gem itself has no power unless it is placed on their foreheads. After Helmholtz\u0027s fight with Sigmund, the Amethyst Paragon asked him for its freedom, and he refused. However, when the Unicorn Firewalker caught him by surprise and ended his life, this creature managed to escape before Milner arrived to revive him with her Undolim Seraph.",
+  "menagerieDialog": [
+    "Your Eminence, please allow me to rest for a bit. It\u0027s been a long day.",
+    "We must constantly re-evaluate our battle strategies to ensure that our foes can never get the best of us.",
+    "Everett is a liar. Don\u0027t say I didn\u0027t warn you.",
+    "Two Paragons make a King Paragon. Two King Paragons make a Gold Paragon. Two Gold Paragons make a Grandpa Paragon.\\n\\nWait, what?",
+    "Something is amiss. I cannot say what is wrong for certain, but I am unable to shake this feeling of dread."
+  ],
+  "minDepth": 1,
+  "name": "Amethyst Paragon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AmethystParagon/overworld_e0.png",
+      "images/creature/AmethystParagon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AmethystParagon/overworld_n0.png",
+      "images/creature/AmethystParagon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AmethystParagon/overworld_s0.png",
+      "images/creature/AmethystParagon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AmethystParagon/overworld_w0.png",
+      "images/creature/AmethystParagon/overworld_w1.png"
+    ]
+  },
+  "race": "Paragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 2,
+    "defense": 27,
+    "health": 37,
+    "intelligence": 17,
+    "speed": 27
+  },
+  "trait": 871
+}

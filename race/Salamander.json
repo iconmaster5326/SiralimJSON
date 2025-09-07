@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(A Salamander seems to have made its nest in this abandoned treasure hoard, and it doesn\u0027t look like it wants to share it with you.)",
+    "(You feel your enchanted items heating up and vibrating as you approach. You hope the Salamander hasn\u0027t damaged the treasure hoard it jealously guards.)",
+    "(You narrowly dodge a glob of searing spit as you approach the hissing Salamander. You order your creatures to attack!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures gain 10% more {STAT_intelligence} from stat-boosting effects.",
+    "4": "Your creatures gain 10% more {STAT_intelligence} from stat-boosting effects.",
+    "7": "Your creatures gain 10% more {STAT_intelligence} from stat-boosting effects."
+  },
+  "cards": 7,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    686
+  ],
+  "icon": "images/race/Salamander.png",
+  "master": {
+    "costume": 379,
+    "dialog": "Salamanders are proficient spellslingers who can cast spells multiple times in a row. I hope your creatures can handle the heat! Let\u0027s fight!",
+    "item": 1218,
+    "name": "Jaytir",
+    "trait": 1482
+  },
+  "name": "Salamander",
+  "notes": [],
+  "skins": [
+    273,
+    293,
+    763,
+    764
+  ]
+}

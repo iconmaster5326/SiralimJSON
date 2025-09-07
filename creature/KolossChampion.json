@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/KolossChampion/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 897,
+  "item": 980,
+  "lore": "Kolosses are unique lifeforms, given their nature. The weapon they carry is, in fact, the creature\u0027s real body, forged by Perdition during his early years as a God.\\n\\nDo not expect a conflict to reach a peaceful resolution when a Koloss Champion is involved. According to an adventurer who recently explored Sanctum Umbra, its anger can be measured based on the number of hands it uses to strike. Be especially careful if you see the puppet holding the Champion\u0027s body with both hands.",
+  "menagerieDialog": [
+    "You go away now. Me sleep soon.",
+    "We go and kill now. Together, right now?",
+    "(It\u0027s busy polishing its weapon for the next battle.)",
+    "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
+    "(You can see the veins through its semi-transparent skin. Interesting.)"
+  ],
+  "minDepth": 1,
+  "name": "Koloss Champion",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KolossChampion/overworld_e0.png",
+      "images/creature/KolossChampion/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KolossChampion/overworld_n0.png",
+      "images/creature/KolossChampion/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KolossChampion/overworld_s0.png",
+      "images/creature/KolossChampion/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KolossChampion/overworld_w0.png",
+      "images/creature/KolossChampion/overworld_w1.png"
+    ]
+  },
+  "race": "Koloss",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 42,
+    "intelligence": 12,
+    "speed": 12
+  },
+  "trait": 1156
+}

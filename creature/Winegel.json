@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Winegel/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 749,
+  "item": 85,
+  "lore": "When Furness was defeated, the magic that flowed through his veins prevented his soul from being absorbed by the Nether Orb that Ilberd had handed over to the ruler of Nex. His body returned to normal, but something about him had changed. After settling in the castle of the Nex\u0027s capital, he discovered that he could give life to beer.\\n\\nWinegel moves slowly and solemnly, looking down at the creatures it encounters without realizing that its mere existence is absurd.",
+  "menagerieDialog": [
+    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+    "(Now here\u0027s a creature who knows how to party!)",
+    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+  ],
+  "minDepth": 1,
+  "name": "Winegel",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Winegel/overworld_e0.png",
+      "images/creature/Winegel/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Winegel/overworld_n0.png",
+      "images/creature/Winegel/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Winegel/overworld_s0.png",
+      "images/creature/Winegel/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Winegel/overworld_w0.png",
+      "images/creature/Winegel/overworld_w1.png"
+    ]
+  },
+  "race": "Alemental",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Gambling Dwarf Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 988
+}

@@ -1,0 +1,44 @@
+{
+  "bossDialog": [
+    "(The Ent glares at you harshly before uprooting itself. A number of creatures jump out of its branches and attack alongside it!)",
+    "This is a sacred place. *creeeeeak* You need to leave.",
+    "You should not have come here. *creeeeeak*"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures recover 20% more {STAT_health} from {CONDNAME_BUFF_MEND}.",
+    "6": "Your creatures with {CONDNAME_BUFF_MEND} take 10% less damage.",
+    "9": "Your creatures\u0027 {CONDNAME_BUFF_MEND} buffs last forever."
+  },
+  "cards": 9,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    627,
+    770,
+    1003
+  ],
+  "icon": "images/race/Ent.png",
+  "master": {
+    "costume": 331,
+    "dialog": "Ents possess extraordinary healing properties. I think it has something to do with their bark, but I can\u0027t say for sure.\\n\\nYou\u0027re going to need to focus all your effort on one Ent at a time in order to bring them down before they recover. Let\u0027s fight!",
+    "item": 1271,
+    "name": "Birch",
+    "trait": 1432
+  },
+  "name": "Ent",
+  "notes": [],
+  "skins": [
+    85,
+    86,
+    87,
+    504,
+    538,
+    675
+  ]
+}

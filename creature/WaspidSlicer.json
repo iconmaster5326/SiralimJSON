@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WaspidSlicer/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 539,
+  "item": 600,
+  "lore": "A Waspid queen\u0027s activities are mostly limited to eating, laying eggs and deciding what its progeny will become. It is rarely seen outdoors, and to date, none have attacked a human being or any other type of intelligent creature.\\n\\nThe poison of the Waspid Slicer has magical properties that increase the potency of the poison of its sisters. After they insert their stinger, they flutter with great strength to tear their enemy\u0027s body with it.",
+  "menagerieDialog": [
+    "(It\u0027s lazing around, buzzing its wings every so often to let your other creatures know it\u0027s still alive.)",
+    "(It buzzes around impatiently as if to wonder what\u0027s taking you so long to finish your business here.)",
+    "(It buzzes around your head which causes you to freeze in place until it gets bored and leaves you alone.)",
+    "(In truth, the Waspid race serves no purpose to the greater good of Rodia. They are an angry, mean, and selfish race that live only for themselves. And to sting people.)",
+    "(It\u0027s rapidly buzzing its wings to try to shake off the dirt and debris it picked up in the last realm you visited.)"
+  ],
+  "minDepth": 1,
+  "name": "Waspid Slicer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WaspidSlicer/overworld_e0.png",
+      "images/creature/WaspidSlicer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WaspidSlicer/overworld_n0.png",
+      "images/creature/WaspidSlicer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WaspidSlicer/overworld_s0.png",
+      "images/creature/WaspidSlicer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WaspidSlicer/overworld_w0.png",
+      "images/creature/WaspidSlicer/overworld_w1.png"
+    ]
+  },
+  "race": "Waspid",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Reclusa)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 22,
+    "intelligence": 20,
+    "speed": 25
+  },
+  "trait": 514
+}

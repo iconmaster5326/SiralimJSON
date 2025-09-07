@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ApisProtector/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 368,
+  "item": 150,
+  "lore": "The Apis used to have magic powers that influenced weather and fertility. However, the Sphinx Usurper and its closest associates used the power of the Nether Orbs to permanently alter their powers.\\n\\nThe protrusion between the horns of the Protector is sold at a high price as a good-luck charm, as these creatures are immune to curses. The amulets, however, lack this property.",
+  "menagerieDialog": [
+    "(It yawns and turns away from you.)",
+    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+    "(Upon your approach, it licks your hand over and over and over again. True love.)",
+    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+  ],
+  "minDepth": 1,
+  "name": "Apis Protector",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ApisProtector/overworld_e0.png",
+      "images/creature/ApisProtector/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ApisProtector/overworld_n0.png",
+      "images/creature/ApisProtector/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ApisProtector/overworld_s0.png",
+      "images/creature/ApisProtector/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ApisProtector/overworld_w0.png",
+      "images/creature/ApisProtector/overworld_w1.png"
+    ]
+  },
+  "race": "Apis",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 31,
+    "intelligence": 11,
+    "speed": 21
+  },
+  "trait": 60
+}

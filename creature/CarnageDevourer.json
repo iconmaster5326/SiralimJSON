@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/CarnageDevourer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 614,
+  "item": 796,
+  "lore": "This creature is extremely intelligent, but despite its fierce appearance, it does not have the unquenchable thirst for blood typical of its species. From a ruined temple, the Devourer watched its allies fight each other. It quickly descended and approached them, avoiding energy rays, spells and stomps. It climbed the Mystical Giant\u0027s leg and jumped to its throat, making it howl and stop. The Corox waited cautiously. Then, the Devourer turned to the Observer, who wanted to \u0022tell\u0022 them something.",
+  "menagerieDialog": [
+    "(Even while it\u0027s not moving, its mere presence is terrifying.)",
+    "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
+    "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
+    "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
+    "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Carnage Devourer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CarnageDevourer/overworld_e0.png",
+      "images/creature/CarnageDevourer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CarnageDevourer/overworld_n0.png",
+      "images/creature/CarnageDevourer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CarnageDevourer/overworld_s0.png",
+      "images/creature/CarnageDevourer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CarnageDevourer/overworld_w0.png",
+      "images/creature/CarnageDevourer/overworld_w1.png"
+    ]
+  },
+  "race": "Carnage",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 8,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 12,
+    "health": 40,
+    "intelligence": 12,
+    "speed": 22
+  },
+  "trait": 823
+}

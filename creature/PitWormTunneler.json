@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PitWormTunneler/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 255,
+  "item": 210,
+  "lore": "Most Pit Worms live underground for the majority of their lives, feeding on roots and subterranean creatures. When they feel vibrations coming from the surface, they emerge for a moment to surprise whatever is producing them and eat it... or die trying.\\n\\nThe Pit Worm Tunneler has caused the collapse of many Rodian mines, which has forced the authorities to implement a protocol to deal with the problem, employing their own Tunnelers to monitor the underground perimeter.",
+  "menagerieDialog": [
+    "(Doesn\u0027t it ever stop drooling? Disgusting.)",
+    "(It never stops wriggling. Frankly, its mannerisms are a bit disconcerting.)",
+    "(One benefit of having this creature around is that you never need to worry about disposing of corpses.)",
+    "(It\u0027s making a disgusting noise with its mouth, not unlike a dog eating oatmeal.)",
+    "(It insists on making disgusting sucking noises with its mouth.)"
+  ],
+  "minDepth": 1,
+  "name": "Pit Worm Tunneler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PitWormTunneler/overworld_e0.png",
+      "images/creature/PitWormTunneler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PitWormTunneler/overworld_n0.png",
+      "images/creature/PitWormTunneler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PitWormTunneler/overworld_s0.png",
+      "images/creature/PitWormTunneler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PitWormTunneler/overworld_w0.png",
+      "images/creature/PitWormTunneler/overworld_w1.png"
+    ]
+  },
+  "race": "Pit Worm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 13,
+    "speed": 18
+  },
+  "trait": 119
+}

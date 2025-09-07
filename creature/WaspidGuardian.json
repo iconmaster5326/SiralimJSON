@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WaspidGuardian/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 536,
+  "item": 602,
+  "lore": "Few creatures have earned as much disdain from the people of Rodia as the Waspids. Their sting produces pain and fever, but it is not always deadly.\\n\\nWhenever there is a confrontation between two hives, the Waspid Guardians form a circle around their queen. Their mission is to protect it at all costs from the enemy Infiltrators, as all life in the hive would end without it, and its offspring would become wandering Waspids.",
+  "menagerieDialog": [
+    "(It\u0027s lazing around, buzzing its wings every so often to let your other creatures know it\u0027s still alive.)",
+    "(It buzzes around impatiently as if to wonder what\u0027s taking you so long to finish your business here.)",
+    "(It buzzes around your head which causes you to freeze in place until it gets bored and leaves you alone.)",
+    "(In truth, the Waspid race serves no purpose to the greater good of Rodia. They are an angry, mean, and selfish race that live only for themselves. And to sting people.)",
+    "(It\u0027s rapidly buzzing its wings to try to shake off the dirt and debris it picked up in the last realm you visited.)"
+  ],
+  "minDepth": 1,
+  "name": "Waspid Guardian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WaspidGuardian/overworld_e0.png",
+      "images/creature/WaspidGuardian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WaspidGuardian/overworld_n0.png",
+      "images/creature/WaspidGuardian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WaspidGuardian/overworld_s0.png",
+      "images/creature/WaspidGuardian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WaspidGuardian/overworld_w0.png",
+      "images/creature/WaspidGuardian/overworld_w1.png"
+    ]
+  },
+  "race": "Waspid",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Reclusa)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 16,
+    "health": 23,
+    "intelligence": 18,
+    "speed": 26
+  },
+  "trait": 516
+}

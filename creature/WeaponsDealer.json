@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WeaponsDealer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1482,
+  "item": 1743,
+  "lore": "Weapons Dealers are wandering merchants draped in layers of tattered cloth, with a coat of chainmail beneath it all. They\u0027re always ready to trade any kind of weapon, though the price can shift depending on the buyer\u0027s circumstances. They know the smuggling routes well and offer everything from enchanted daggers to cursed hand cannons. Their eyes gleam when they spot something valuable in your pouch, and their deals aren\u0027t limited to gold or coins\u00E2\u20AC\u201Dsecrets, favors, or tools may serve as payment.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Weapons Dealer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WeaponsDealer/overworld_e0.png",
+      "images/creature/WeaponsDealer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WeaponsDealer/overworld_n0.png",
+      "images/creature/WeaponsDealer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WeaponsDealer/overworld_s0.png",
+      "images/creature/WeaponsDealer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WeaponsDealer/overworld_w0.png",
+      "images/creature/WeaponsDealer/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 18,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 2085
+}

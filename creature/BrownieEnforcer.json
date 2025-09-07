@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BrownieEnforcer/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 165,
+  "item": 546,
+  "lore": "Many humans took the Brownie\u0027s side during their rebellion. However, when everything was over, most of these creatures left the cities, not wanting to have anything to do with humans anymore.\\n\\nSome Brownies work for crime syndicates, offering their services as hired killers for a cheaper fee than the Nixes. Their small size is ideal for entering homes and dealing with their targets without attracting attention, and they are sometimes as efficient as the hired killers par excellence.",
+  "menagerieDialog": [
+    "Could we slow down a little, buddy?",
+    "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
+    "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
+    "(Both its weapon and its temper are comically oversized for its body.)",
+    "(Its annoying laughter haunts your nightmares.)"
+  ],
+  "minDepth": 1,
+  "name": "Brownie Enforcer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BrownieEnforcer/overworld_e0.png",
+      "images/creature/BrownieEnforcer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BrownieEnforcer/overworld_n0.png",
+      "images/creature/BrownieEnforcer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BrownieEnforcer/overworld_s0.png",
+      "images/creature/BrownieEnforcer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BrownieEnforcer/overworld_w0.png",
+      "images/creature/BrownieEnforcer/overworld_w1.png"
+    ]
+  },
+  "race": "Brownie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 460
+}

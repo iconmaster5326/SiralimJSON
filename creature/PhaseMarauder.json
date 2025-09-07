@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PhaseMarauder/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 208,
+  "item": 454,
+  "lore": "Phase Warriors obey the will of the Mage who gave them life, until after a few hours that person heart\u0027s stops. From that point on, they will follow any master.\\n\\nPhase Marauders are the remnants of the mercenaries that Sigmund hired to besiege the city of Siralim at the end of the Unification War. He took the Queen by surprise in this way, as his main army was in Omnia. These creatures are skilled with all weapons, although they prefer melee combat.",
+  "menagerieDialog": [
+    "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
+    "(It\u0027s dancing and asking you to call it \u0022Dio\u0022. You are now questioning all your life choices.)",
+    "(It tries to impress you by moving random objects through its body.)",
+    "I am yours to command.",
+    "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
+  ],
+  "minDepth": 1,
+  "name": "Phase Marauder",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PhaseMarauder/overworld_e0.png",
+      "images/creature/PhaseMarauder/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PhaseMarauder/overworld_n0.png",
+      "images/creature/PhaseMarauder/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PhaseMarauder/overworld_s0.png",
+      "images/creature/PhaseMarauder/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PhaseMarauder/overworld_w0.png",
+      "images/creature/PhaseMarauder/overworld_w1.png"
+    ]
+  },
+  "race": "Phase Warrior",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 17,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 17
+  },
+  "trait": 369
+}

@@ -1,0 +1,44 @@
+{
+  "bossDialog": [
+    "Ah, good! Someone to beat up! I\u0027ve been bored out of my mind all day!",
+    "Another weakling! I\u0027m gonna smash you into paste!",
+    "Stepping into MY territory? You\u0027ve gone and !@#$ed up now!"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures have 5% more Maximum {STAT_health}.",
+    "6": "Your creatures have 5% more Maximum {STAT_health}.",
+    "10": "Your creatures have 5% more Maximum {STAT_health}."
+  },
+  "cards": 10,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    647,
+    774,
+    977
+  ],
+  "icon": "images/race/Giant.png",
+  "master": {
+    "costume": 339,
+    "dialog": "Giants are hearty creatures that can take a serious beating without even batting an eye. Your creatures will probably exhaust themselves long before they can so much as scratch my Giants! Let\u0027s do this!",
+    "item": 1258,
+    "name": "Gorst",
+    "trait": 1440
+  },
+  "name": "Giant",
+  "notes": [],
+  "skins": [
+    100,
+    182,
+    527,
+    691,
+    727
+  ]
+}

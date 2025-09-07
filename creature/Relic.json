@@ -1,0 +1,51 @@
+{
+  "battleSprite": "images/creature/Relic/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 967,
+  "item": null,
+  "lore": "L_LORE_RELIC",
+  "menagerieDialog": [
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+  ],
+  "minDepth": 1,
+  "name": "Relic",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Relic/overworld_e0.png",
+      "images/creature/Relic/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Relic/overworld_n0.png",
+      "images/creature/Relic/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Relic/overworld_s0.png",
+      "images/creature/Relic/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Relic/overworld_w0.png",
+      "images/creature/Relic/overworld_w1.png"
+    ]
+  },
+  "race": "Relic",
+  "reserved": true,
+  "skins": [],
+  "sources": [],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 25,
+    "health": 50,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 1252
+}

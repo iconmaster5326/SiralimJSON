@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Vertraag/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": 12,
+  "id": 738,
+  "item": null,
+  "lore": "No one really knows what his goals are, but the God of Time seems to have been involved in most historical events of great importance. What is he always thinking about? What are his plans? Did he, as Yseros suspects, know that an old ruler of Siralim would betray them? None of these questions can be answered, but it seems like Vertraag\u0027s plans always change the world in some way. The real question is: does Vertraag want the same kind of world as the other Gods? As the mortals? One day, we may find out.",
+  "menagerieDialog": [
+    "We live in dark times, but the worst is yet to come.",
+    "Time is but a man made prison used to control humanity.",
+    "Many ponder the meaning of life, but does it need to have one?",
+    "Life, if well-lived, is plenty long enough.",
+    "Not even I know what lays beyond death."
+  ],
+  "minDepth": 1,
+  "name": "Vertraag",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Vertraag/overworld_e0.png",
+      "images/creature/Vertraag/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Vertraag/overworld_n0.png",
+      "images/creature/Vertraag/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Vertraag/overworld_s0.png",
+      "images/creature/Vertraag/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Vertraag/overworld_w0.png",
+      "images/creature/Vertraag/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    369,
+    414,
+    435
+  ],
+  "sources": [
+    {
+      "god": 12,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 601
+}

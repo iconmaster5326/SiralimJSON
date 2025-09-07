@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MysticalGiant/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 647,
+  "item": 822,
+  "lore": "After creating the Apocalypses, Vulcanar appeared before Torun and showed him one, stating that no Giant could destroy as many Watchers as his \u0022little girl\u0022. That infuriated the God of Anger, who was already furious to begin with, so he challenged Vulcanar to a duel between his final Giant and whatever \u0022PIECE OF !@#$\u0022 the Elemental King wanted. This is how the Mystical Giant was born, a 35-foot Giant with skin as hard as steel and the strength of a seventeen-ton killing machine.",
+  "menagerieDialog": [
+    "Humans are weak! Even baby Giants can crush your kind with one hand.",
+    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+  ],
+  "minDepth": 1,
+  "name": "Mystical Giant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MysticalGiant/overworld_e0.png",
+      "images/creature/MysticalGiant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MysticalGiant/overworld_n0.png",
+      "images/creature/MysticalGiant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MysticalGiant/overworld_s0.png",
+      "images/creature/MysticalGiant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MysticalGiant/overworld_w0.png",
+      "images/creature/MysticalGiant/overworld_w1.png"
+    ]
+  },
+  "race": "Giant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 39,
+    "intelligence": 12,
+    "speed": 12
+  },
+  "trait": 849
+}

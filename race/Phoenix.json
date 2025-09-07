@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(The Phoenix spreads its wings and releases a furious, keening cry, the air warming around you! Its allies soon appear and attack alongside it!)",
+    "(You hear a loud shriek as a huge Phoenix swoops down from a hole in the ceiling and descends upon you!)",
+    "(You notice a few large eggs nestled among the treasure - unfortunately you seem to have noticed them a bit too late, as their Phoenix parent is now rather angry at your intrusion!)"
+  ],
+  "cardBonuses": {
+    "2": "When your creatures are resurrected, they recover 10% more {STAT_health}.",
+    "5": "When your creatures are resurrected, they recover 10% more {STAT_health}.",
+    "8": "Your creatures can now be resurrected a maximum of 15 times per battle."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    673,
+    994
+  ],
+  "icon": "images/race/Phoenix.png",
+  "master": {
+    "costume": 369,
+    "dialog": "Hello there! Care for a duel? I\u0027m warning you, though: Phoenixes can never truly be killed. My party is practically invincible!\\n\\nNot convinced? Then let me show you firsthand the might of my Phoenixes!",
+    "item": 1234,
+    "name": "Dazzess",
+    "trait": 1471
+  },
+  "name": "Phoenix",
+  "notes": [],
+  "skins": [
+    123,
+    343,
+    749
+  ]
+}

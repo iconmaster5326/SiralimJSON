@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MiteInvader/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 220,
+  "item": 568,
+  "lore": "When Regalis created the Mites, Vertraag burst out laughing and asked her if her inspiration for them had been some sort of alien creature, or if her taste was just that bad. Of course, Regalis just took that as a compliment.\\n\\nMite Invaders always travel in groups, leaving a trail of barren land wherever they pass. They are considered a plague in every kingdom of Rodia, and there is always a small bounty for any mercenary group willing to exterminate them.",
+  "menagerieDialog": [
+    "(It\u0027s rolled into a ball, sleeping lazily.)",
+    "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
+    "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
+    "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
+    "(It\u0027s unsuccessfully trying to burrow into the floor.)"
+  ],
+  "minDepth": 1,
+  "name": "Mite Invader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MiteInvader/overworld_e0.png",
+      "images/creature/MiteInvader/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MiteInvader/overworld_n0.png",
+      "images/creature/MiteInvader/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MiteInvader/overworld_s0.png",
+      "images/creature/MiteInvader/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MiteInvader/overworld_w0.png",
+      "images/creature/MiteInvader/overworld_w1.png"
+    ]
+  },
+  "race": "Mite",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 482
+}

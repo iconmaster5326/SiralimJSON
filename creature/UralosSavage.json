@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/UralosSavage/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1198,
+  "item": 1581,
+  "lore": "It was not until Rodia became a country that the Uraloses began to settle in Siralim and the other kingdoms. However, most of them prefer to stay in Hutika, their homeland.\\n\\nWhile Uralos culture has evolved, it is still connected to its roots thanks to the Uralos Savages. They act as spiritual guides and perform rituals during each phase of the lunar cycle, which hundreds of Uraloses attend even today.",
+  "menagerieDialog": [
+    "You\u0027re lucky to have someone like me in your party. I\u0027m much smarter than the average bear.",
+    "It\u0027s not that we get smarter as we grow older; it\u0027s that we run out of stupid things to do after a while.",
+    "What do you say we stop fighting for the day and have ourselves a pic-a-nic instead?",
+    "I hope to find myself a beautiful wife someday to bear my bears.",
+    "(It\u0027s snoring loudly, surrounded by the remnants of what was once a large, bountiful picnic basket.)"
+  ],
+  "minDepth": 1,
+  "name": "Uralos Savage",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UralosSavage/overworld_e0.png",
+      "images/creature/UralosSavage/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UralosSavage/overworld_n0.png",
+      "images/creature/UralosSavage/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UralosSavage/overworld_s0.png",
+      "images/creature/UralosSavage/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UralosSavage/overworld_w0.png",
+      "images/creature/UralosSavage/overworld_w1.png"
+    ]
+  },
+  "race": "Uralos",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1921
+}

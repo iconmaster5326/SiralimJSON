@@ -1,0 +1,39 @@
+{
+  "bossDialog": [
+    "I just found this treasure! It\u0027s MINE! Get outta here!",
+    "I\u0027m not going to let some greedy human bag of snot steal everything I\u0027ve worked for!",
+    "Oh dear, this is supposed to be a secret hideout! I think it\u0027s time for you to leave."
+  ],
+  "cardBonuses": {
+    "2": "When your creatures with {CONDNAME_BUFF_REBIRTH} are resurrected, they recover an additional 15% {STAT_health}.",
+    "4": "Your creatures with {CONDNAME_BUFF_REBIRTH} receive 10% more healing.",
+    "6": "Your creatures\u0027 {CONDNAME_BUFF_REBIRTH} buff lasts forever."
+  },
+  "cards": 6,
+  "class": "life",
+  "creator": null,
+  "creatures": [
+    802,
+    803,
+    804,
+    805,
+    806,
+    807
+  ],
+  "icon": "images/race/Amphisbaena.png",
+  "master": {
+    "costume": 294,
+    "dialog": "Amphisbaenas like to do everything twice. Probably because they have two heads with two independent yet agreeable minds. Here, let me show you!",
+    "item": 1188,
+    "name": "Leftrin",
+    "trait": 1395
+  },
+  "name": "Amphisbaena",
+  "notes": [],
+  "skins": [
+    329,
+    448,
+    625,
+    626
+  ]
+}

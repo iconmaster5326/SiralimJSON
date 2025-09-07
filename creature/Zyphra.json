@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Zyphra/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1354,
+  "item": 1775,
+  "lore": "Sometimes, Robodomi that break down beyond repair can\u0027t be fixed with traditional methods, and their remains could cause serious environmental harm. That\u0027s why abandonment is heavily penalized.\\n\\nZyphra\u0027s core has magical properties that make its battery practically endless as long as it\u0027s in motion. The catch is that it absorbs all the kinetic energy it produces, which keeps it from being able to cause physical harm by touching others.",
+  "menagerieDialog": [
+    "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
+    "Extermination protocols activated. Targets acquired.",
+    "My processors can calculate a million strategies per second. How may I assist you?",
+    "Shields at maximum. No damage can penetrate my defenses.",
+    "System overclocked. Operating at 250% efficiency."
+  ],
+  "minDepth": 1,
+  "name": "Zyphra",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Zyphra/overworld_e0.png",
+      "images/creature/Zyphra/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Zyphra/overworld_n0.png",
+      "images/creature/Zyphra/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Zyphra/overworld_s0.png",
+      "images/creature/Zyphra/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Zyphra/overworld_w0.png",
+      "images/creature/Zyphra/overworld_w1.png"
+    ]
+  },
+  "race": "Robodomi",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 28,
+    "speed": 20
+  },
+  "trait": 2128
+}

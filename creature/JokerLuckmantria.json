@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/JokerLuckmantria/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1194,
+  "item": 1577,
+  "lore": "Luckmantrias flap their wings slowly, but they move much faster than one might imagine, as the wind apparently wants to help them by flowing in their favor at all times.\\n\\nUnlike the rest of its kind, the Joker Luckmantria does not bother camouflaging itself to hide the fact that luck is on its side. This creature flutters freely wherever it pleases, letting itself be seen at all times, and even letting the universe cause earthquakes if necessary to prevent being captured.",
+  "menagerieDialog": [
+    "(It flaps its wings excitedly, giving you a great view of its beautiful markings.)",
+    "(You can\u0027t help but feel a bit luckier than usual with this creature in your party.)",
+    "(You carefully study the patterns on its wings. From where did such a marvelous creature come from?)",
+    "(It\u0027s greedily lapping up a bowl of sugar water. Nortah always knows the best food to feed your creatures.)",
+    "(The powder on its wings is said to be poisonous, though you\u0027re not willing to test this theory out for yourself.)"
+  ],
+  "minDepth": 1,
+  "name": "Joker Luckmantria",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/JokerLuckmantria/overworld_e0.png",
+      "images/creature/JokerLuckmantria/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/JokerLuckmantria/overworld_n0.png",
+      "images/creature/JokerLuckmantria/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/JokerLuckmantria/overworld_s0.png",
+      "images/creature/JokerLuckmantria/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/JokerLuckmantria/overworld_w0.png",
+      "images/creature/JokerLuckmantria/overworld_w1.png"
+    ]
+  },
+  "race": "Luckmantria",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 5,
+    "defense": 18,
+    "health": 25,
+    "intelligence": 28,
+    "speed": 28
+  },
+  "trait": 1917
+}

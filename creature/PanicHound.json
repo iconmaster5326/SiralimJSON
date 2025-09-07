@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/PanicHound/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 290,
+  "item": 236,
+  "lore": "Hounds are extremely agile, and their bite can pierce even iron. Moreover, they are good strategists who divide their roles and know to turn tail and run when they are at a disadvantage.\\n\\nThe Panic Hound fights differently from its packmates, running from side to side without attacking directly. Then, swift as an arrow, it uses its tail to tear at its enemies\u0027 legs so that they lose balance, giving them a huge disadvantage during battle.",
+  "menagerieDialog": [
+    "(It yawns and stretches into a downward dog position.)",
+    "Hiss... hiss!\\n(You do know you\u0027re not a cat, right?)",
+    "(It\u0027s running around in small circles, wiggling its ass for no reason. Yep, it\u0027s a hound all right.)",
+    "(It smells of dog sweat. You should tell Nortah to give it a bath before you leave.)",
+    "(It often scratches itself with one of its hind legs. Nortah should really check it for fleas.)"
+  ],
+  "minDepth": 1,
+  "name": "Panic Hound",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PanicHound/overworld_e0.png",
+      "images/creature/PanicHound/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PanicHound/overworld_n0.png",
+      "images/creature/PanicHound/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PanicHound/overworld_s0.png",
+      "images/creature/PanicHound/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PanicHound/overworld_w0.png",
+      "images/creature/PanicHound/overworld_w1.png"
+    ]
+  },
+  "race": "Hound",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 18,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 12,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 145
+}

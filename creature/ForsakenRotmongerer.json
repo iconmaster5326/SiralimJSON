@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ForsakenRotmongerer/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 332,
+  "item": 199,
+  "lore": "The Magic University of Omnia had the most cutting-edge studies and research techniques in the world. When the Unification War came to an end, the Forsaken and Ghouls infested the facilities, attracted by the smell of magic.\\n\\nThe Rotmongerer\u0027s fungi emit spores that absorb the vital energy of plant organisms and send it to this creature.",
+  "menagerieDialog": [
+    "Give... human... flesh...",
+    "Slurp... muscles... from... body...",
+    "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
+    "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
+    "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
+  ],
+  "minDepth": 1,
+  "name": "Forsaken Rotmongerer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ForsakenRotmongerer/overworld_e0.png",
+      "images/creature/ForsakenRotmongerer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ForsakenRotmongerer/overworld_n0.png",
+      "images/creature/ForsakenRotmongerer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ForsakenRotmongerer/overworld_s0.png",
+      "images/creature/ForsakenRotmongerer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ForsakenRotmongerer/overworld_w0.png",
+      "images/creature/ForsakenRotmongerer/overworld_w1.png"
+    ]
+  },
+  "race": "Forsaken",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Alexandria)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 22,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 556
+}

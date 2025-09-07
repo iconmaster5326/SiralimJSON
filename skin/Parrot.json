@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Parrot/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 343,
+  "name": "Parrot",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Parrot/overworld_e0.png",
+      "images/skin/Parrot/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Parrot/overworld_n0.png",
+      "images/skin/Parrot/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Parrot/overworld_s0.png",
+      "images/skin/Parrot/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Parrot/overworld_w0.png",
+      "images/skin/Parrot/overworld_w1.png"
+    ]
+  },
+  "race": "Phoenix",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

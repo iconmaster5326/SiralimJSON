@@ -1,0 +1,29 @@
+{
+  "avatar": 730,
+  "creator": null,
+  "icon": "images/god/Friden.png",
+  "id": 11,
+  "name": "Friden",
+  "notes": [],
+  "realm": 13,
+  "relicBigIcon": "images/relic/MoonfireSunfury/relic.png",
+  "relicBonuses": [
+    "After the bearer {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_SCORN}.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SCORN}, this relic {ACTION_attacks} it.",
+    "After the bearer {ACTION_casts} a single-target spell on an enemy, it afflicts the target with {CONDNAME_DEBUFF_SILENCE}.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SILENCE}, this relic {ACTION_casts} a random single-target spell on it.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SCORN} and the enemy already has {CONDNAME_DEBUFF_SILENCE}, this relic {ACTION_casts} [icons,1976]Meteor Shower.",
+    "After this relic {ACTION_casts} [icons,1976] Meteor Shower, the bearer gains 10% {STAT_attack} or {STAT_intelligence}; whichever is lowest.",
+    "This relic and its bearer deal 30% more damage to enemies with {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SILENCE} and the enemy already has {CONDNAME_DEBUFF_SCORN}, this relic {ACTION_casts} [icons,1976]Meteor Shower.",
+    "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SILENCE} or {CONDNAME_DEBUFF_SCORN}, the enemy loses one of its buffs.",
+    "At the start of the bearer\u0027s turn, if at least one enemy has {CONDNAME_DEBUFF_SCORN} and one enemy has {CONDNAME_DEBUFF_SILENCE}, this relic {ACTION_casts} [icons,1968]Planets."
+  ],
+  "relicName": "Moonfire \u0026 Sunfury",
+  "relicSmallIcon": "images/relic/MoonfireSunfury/icon.png",
+  "relicStat": "intelligence",
+  "relicTitle": "Gilded Scimitar of Friden",
+  "title": "Goddess of Poison",
+  "trait": 684,
+  "ultimateSpell": 251
+}

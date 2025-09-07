@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Elqor/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 718,
+  "item": 747,
+  "lore": "Though it once served as Zonte\u0027s personal familiar, the all-too-curious god granted Elqor\u0027s request for the freedom to explore the world on its own. The mental bond between Zonte and Elqor still remains, however, and the two often hold trivial conversations and share their discoveries with each other just like the good old days. Some time ago, the Auditors contacted it and it had an audience with one of their members. Due to its incredible potential, it was offered a position as executor, but Elqor politely declined the offer and went back the way it had come.",
+  "menagerieDialog": [
+    "You still have much to learn. We all do. I look forward to expanding my knowledge by your side.",
+    "You must strive to learn something new from each battle you fight. Only then will your kingdom prosper.",
+    "(It\u0027s busy practicing its spells. It would probably be best to leave it alone.)",
+    "Many of your creatures are so mentally inept that they can\u0027t even understand your language. They\u0027re in dire need of tutoring.",
+    "I\u0027d appreciate it if I could have some peace and quiet. Living here amongst your creatures is no way for me to relax and recover from the long journeys we\u0027ve been on."
+  ],
+  "minDepth": 1,
+  "name": "Elqor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Elqor/overworld_e0.png",
+      "images/creature/Elqor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Elqor/overworld_n0.png",
+      "images/creature/Elqor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Elqor/overworld_s0.png",
+      "images/creature/Elqor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Elqor/overworld_w0.png",
+      "images/creature/Elqor/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    162,
+    475
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 793
+}

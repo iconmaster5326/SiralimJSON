@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PontiffofLuck/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1121,
+  "item": 1457,
+  "lore": "This creature was made by a group of students from the Magic University of Neralim during a drunken night, with the purpose of creating the ultimate billiard player. Naturally, several things went wrong and they ended up giving life to a creature obsessed with bar games, but with no special ability to excel in them, who was also a sore loser and kept causing problems. Finally, the students were made to clean the campus grounds for two weeks as punishment, and the creature was released after the dean herself cast a powerful spell on it that fixed its bad personality.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Pontiff of Luck",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PontiffofLuck/overworld_e0.png",
+      "images/creature/PontiffofLuck/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PontiffofLuck/overworld_n0.png",
+      "images/creature/PontiffofLuck/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PontiffofLuck/overworld_s0.png",
+      "images/creature/PontiffofLuck/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PontiffofLuck/overworld_w0.png",
+      "images/creature/PontiffofLuck/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1765
+}

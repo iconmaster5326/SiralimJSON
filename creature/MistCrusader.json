@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/MistCrusader/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 384,
+  "item": 183,
+  "lore": "When several Mist Crusaders gather in a large group, a cloud of steam forms around them that prevents anyone from seeing what is happening inside it. This event has only taken place a few times in history; sometimes to protect the creatures of the forest, other times to bring justice to gangs of marauders that ravaged villages and small towns. Warrior tribes and criminals who perform such activities keep watch at night in case the mysterious mist appears in the distance.",
+  "menagerieDialog": [
+    "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
+    "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
+    "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
+    "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
+    "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
+  ],
+  "minDepth": 1,
+  "name": "Mist Crusader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MistCrusader/overworld_e0.png",
+      "images/creature/MistCrusader/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MistCrusader/overworld_n0.png",
+      "images/creature/MistCrusader/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MistCrusader/overworld_s0.png",
+      "images/creature/MistCrusader/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MistCrusader/overworld_w0.png",
+      "images/creature/MistCrusader/overworld_w1.png"
+    ]
+  },
+  "race": "Crusader",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 12,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 93
+}

@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/DuskCrusader/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 382,
+  "item": 180,
+  "lore": "Crusaders are not self-aware. They are guided by a natural instinct that leads them to carry out their actions.\\n\\nDusk Crusaders are active at night, flying low in search of evildoers. After the Unification War, the council of Rodia entrusted Helmholtz\u0027s team with the \u0022Night Watch\u0022 project. It was a great success, and since then several patrols of Dusk Crusaders fly over the towns and cities of the country at night to safeguard order.",
+  "menagerieDialog": [
+    "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
+    "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
+    "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
+    "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
+    "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
+  ],
+  "minDepth": 1,
+  "name": "Dusk Crusader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DuskCrusader/overworld_e0.png",
+      "images/creature/DuskCrusader/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DuskCrusader/overworld_n0.png",
+      "images/creature/DuskCrusader/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DuskCrusader/overworld_s0.png",
+      "images/creature/DuskCrusader/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DuskCrusader/overworld_w0.png",
+      "images/creature/DuskCrusader/overworld_w1.png"
+    ]
+  },
+  "race": "Crusader",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 14,
+      "type": "realm"
+    },
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 27,
+    "defense": 18,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 12
+  },
+  "trait": 90
+}

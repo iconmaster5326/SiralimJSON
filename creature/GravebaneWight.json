@@ -1,0 +1,62 @@
+{
+  "battleSprite": "images/creature/GravebaneWight/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 489,
+  "item": 281,
+  "lore": "Wights are native to the Kingdom of Heretics, but since King Misery rose up in arms against Siralim, they have spread throughout the country to sow chaos.\\n\\nThe Gravebane Wight earned its name after a skirmish in the Valley of Heroes, located in the deepest part of the Unsullied Meadows, in which it destroyed the mausoleum where the most famous warriors who gave their lives for the unification of Rodia were buried.",
+  "menagerieDialog": [
+    "I grow tired of waiting. Let\u0027s seek out a battle!",
+    "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
+    "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
+    "Who else wishes to taste my steel?",
+    "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
+  ],
+  "minDepth": 1,
+  "name": "Gravebane Wight",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GravebaneWight/overworld_e0.png",
+      "images/creature/GravebaneWight/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GravebaneWight/overworld_n0.png",
+      "images/creature/GravebaneWight/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GravebaneWight/overworld_s0.png",
+      "images/creature/GravebaneWight/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GravebaneWight/overworld_w0.png",
+      "images/creature/GravebaneWight/overworld_w1.png"
+    ]
+  },
+  "race": "Wight",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    16
+  ],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 191
+}

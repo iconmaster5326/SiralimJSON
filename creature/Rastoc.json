@@ -1,0 +1,51 @@
+{
+  "battleSprite": "images/creature/Rastoc/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1365,
+  "item": null,
+  "lore": "A Godspawn of The Ancestor, Rastoc thrives on combat, seeking out opponents who can challenge him. He has delved deeply into Rodian history, especially the war against the Sphinxes, and has fought in countless conflicts\u00E2\u20AC\u201Dthough his true location when not in battle is a mystery. Rastoc has no patience for arrogance or cowardice, and he\u0027s always ready to lend his strength to a righteous cause.",
+  "menagerieDialog": [
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+  ],
+  "minDepth": 1,
+  "name": "Rastoc",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Rastoc/overworld_e0.png",
+      "images/creature/Rastoc/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Rastoc/overworld_n0.png",
+      "images/creature/Rastoc/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Rastoc/overworld_s0.png",
+      "images/creature/Rastoc/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Rastoc/overworld_w0.png",
+      "images/creature/Rastoc/overworld_w1.png"
+    ]
+  },
+  "race": "False Godspawn",
+  "reserved": true,
+  "skins": [],
+  "sources": [],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 2096
+}

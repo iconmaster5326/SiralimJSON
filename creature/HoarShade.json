@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HoarShade/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 496,
+  "item": 287,
+  "lore": "When a Shade is seriously injured, it needs to stay within a surface and recover energy or it will disappear.\\n\\nSeven hundred years ago, a group of mercenaries managed to catch an infamous band of looters. After their execution, nineteen Hoar Shades instantly appeared, about half of the band. They quickly armed themselves with their old sabers and attacked the population. Since that day, executions in Siralim take place far from the capital.",
+  "menagerieDialog": [
+    "(It appears calm, but you should never lower your guard around a creature known for its trickery.)",
+    "(You could swear you saw this tricky little guy spying on you while you were in the privvy earlier.)",
+    "(It reaches behind your ear and, with a sly wink, produces a coin.)",
+    "(It disappears from your sight before sneaking up from behind and tickling you. Tee hee, stop that!)",
+    "(It\u0027s methodically approaching each of your creatures and shouting \u0022BOO!\u0022 in their faces. You should probably release this creature from your service.)"
+  ],
+  "minDepth": 1,
+  "name": "Hoar Shade",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HoarShade/overworld_e0.png",
+      "images/creature/HoarShade/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HoarShade/overworld_n0.png",
+      "images/creature/HoarShade/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HoarShade/overworld_s0.png",
+      "images/creature/HoarShade/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HoarShade/overworld_w0.png",
+      "images/creature/HoarShade/overworld_w1.png"
+    ]
+  },
+  "race": "Shade",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Vertraag)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 17,
+    "health": 26,
+    "intelligence": 16,
+    "speed": 22
+  },
+  "trait": 203
+}

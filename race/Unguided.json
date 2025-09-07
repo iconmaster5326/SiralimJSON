@@ -1,0 +1,37 @@
+{
+  "bossDialog": [
+    "(A truly bizarre looking creature rises from the treasure hoard and points at you menacingly. You\u0027re not just going to sit and take that kind of treatment, are you?)",
+    "(The creature guarding the treasure hoard starts to make utterly bizarre noises you can\u0027t even begin to describe. Its allies soon show up and a fight breaks out!)",
+    "(The Unguided levitates a treasure chest into the air and hurls it at you. You barely duck in time, hoping that there was nothing fragile in that chest as you prepare to attack!)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures have 1 more base {STAT_health}.",
+    "4": "Your creatures have 1 more base {STAT_health}.",
+    "6": "Your creatures have 1 more base {STAT_health}."
+  },
+  "cards": 6,
+  "class": "life",
+  "creator": null,
+  "creatures": [
+    904,
+    905,
+    906,
+    907,
+    908,
+    909
+  ],
+  "icon": "images/race/Unguided.png",
+  "master": {
+    "costume": 403,
+    "dialog": "The Unguided are adaptive creatures who manipulate the elements to their benefit. No matter what you throw at me, my Unguided will be able to handle it. Let me show you how it\u0027s done!",
+    "item": 1190,
+    "name": "Sjunnesson",
+    "trait": 1507
+  },
+  "name": "Unguided",
+  "notes": [],
+  "skins": [
+    52,
+    317
+  ]
+}

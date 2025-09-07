@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NightveilConstruct/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 765,
+  "item": 69,
+  "lore": "The Constructs helped the army of Nex to protect civilians in the streets of the capital and to guard its walls. When the war was about to end, they became available for general purchase in the kingdom.\\n\\nThe Nightveil Construct is equipped with a speech synthesizer that activates in certain conditions. Moreover, it can store voice messages in its memory, which makes it a particularly useful nighttime messenger, due also to its ability to go unnoticed in the dark.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Nightveil Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NightveilConstruct/overworld_e0.png",
+      "images/creature/NightveilConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NightveilConstruct/overworld_n0.png",
+      "images/creature/NightveilConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NightveilConstruct/overworld_s0.png",
+      "images/creature/NightveilConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NightveilConstruct/overworld_w0.png",
+      "images/creature/NightveilConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 16,
+    "health": 38,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 1008
+}

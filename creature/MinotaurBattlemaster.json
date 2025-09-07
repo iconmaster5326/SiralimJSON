@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MinotaurBattlemaster/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 38,
+  "item": 345,
+  "lore": "Minotaur Battlemasters are in charge of training young Minotaurs in the art of war. They are usually the oldest, whose fighting ability has been greatly diminished by age, though younger Minotaurs with a gift for teaching can also become Battlemasters. These creatures can wield almost any weapon and are skilled battle strategists, which makes them perfectly suited for their job.",
+  "menagerieDialog": [
+    "I still have my strength, let\u0027s go!",
+    "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
+    "Let none survive. All will perish in our wake!",
+    "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
+    "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
+  ],
+  "minDepth": 1,
+  "name": "Minotaur Battlemaster",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MinotaurBattlemaster/overworld_e0.png",
+      "images/creature/MinotaurBattlemaster/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MinotaurBattlemaster/overworld_n0.png",
+      "images/creature/MinotaurBattlemaster/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MinotaurBattlemaster/overworld_s0.png",
+      "images/creature/MinotaurBattlemaster/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MinotaurBattlemaster/overworld_w0.png",
+      "images/creature/MinotaurBattlemaster/overworld_w1.png"
+    ]
+  },
+  "race": "Minotaur",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 261
+}

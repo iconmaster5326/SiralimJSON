@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/JingleElf/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 773,
+  "item": 46,
+  "lore": "Most Elves spend their lives among their own, but not all of them prefer life in the forest. Some become mercenaries, bandits or just ordinary citizens in human settlements. Jingle Elves, however, did not decide to abandon their people but were exiled by them. The rest of the Elves consider these creatures abominations, mistakes of nature. Any plants around them, even the largest trees, wither and die as if the Jingle Elves were involuntarily absorbing their energy, and their presence even seems to disrupt the rituals of the Elf Mystics. Despite everything, Jingle Elves overcome adversity and prosper in society outside the Cutthroat Jungle, often acting as minstrels for the great sovereigns of the different kingdoms of the world.",
+  "menagerieDialog": [
+    "The sound of elves singing at night is a spectacle worth witnessing.",
+    "No one shall trespass through our lands without consequences.",
+    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+  ],
+  "minDepth": 1,
+  "name": "Jingle Elf",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/JingleElf/overworld_e0.png",
+      "images/creature/JingleElf/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/JingleElf/overworld_n0.png",
+      "images/creature/JingleElf/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/JingleElf/overworld_s0.png",
+      "images/creature/JingleElf/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/JingleElf/overworld_w0.png",
+      "images/creature/JingleElf/overworld_w1.png"
+    ]
+  },
+  "race": "Elf",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1017
+}

@@ -1,0 +1,43 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "Caster gains 1 stack of {CONDNAME_MINION_WRITHELING}.",
+  "god": null,
+  "id": 422,
+  "manuallyCastable": true,
+  "maxCharges": 10,
+  "name": "Summon Writheling",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "MINION"
+  ],
+  "targets": "other"
+}

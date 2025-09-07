@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/EyeoftheGorgon/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1472,
+  "item": 1727,
+  "lore": "This creature isn\u0027t a Gorgon but the fragment left when one is only partially destroyed. It drifts as a massive magical eye, filled with residual magic, able to petrify weak creatures with its gaze\u00E2\u20AC\u201Deven through reflections or shadows. Its pupil never blinks, and its presence subtly distorts the visual memory of those nearby. Some claim to have fought one but can never clearly explain how the encounter ended.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Eye of the Gorgon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/EyeoftheGorgon/overworld_e0.png",
+      "images/creature/EyeoftheGorgon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/EyeoftheGorgon/overworld_n0.png",
+      "images/creature/EyeoftheGorgon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/EyeoftheGorgon/overworld_s0.png",
+      "images/creature/EyeoftheGorgon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/EyeoftheGorgon/overworld_w0.png",
+      "images/creature/EyeoftheGorgon/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 25,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 10
+  },
+  "trait": 2069
+}

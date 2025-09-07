@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/BattleBeast/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 781,
+  "name": "Battle Beast",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/BattleBeast/overworld_e0.png",
+      "images/skin/BattleBeast/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/BattleBeast/overworld_n0.png",
+      "images/skin/BattleBeast/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/BattleBeast/overworld_s0.png",
+      "images/skin/BattleBeast/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/BattleBeast/overworld_w0.png",
+      "images/skin/BattleBeast/overworld_w1.png"
+    ]
+  },
+  "race": "Spellmane",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

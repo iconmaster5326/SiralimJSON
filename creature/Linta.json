@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Linta/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 799,
+  "item": 1085,
+  "lore": "Linta was Hexilo\u0027s assistant long before he became Mortem. Hexilo and his best friend River gave life to this creature and hid it from everyone. Otherwise, it would have been destroyed, and they would have been expelled, as this type of magic was forbidden without a permit, especially to students. For years, the two friends believed they were hiding their secret well, until a promising new student visited the facilities, shortly before they graduated. The little boy stared at the spot in Hexilo\u0027s bedroom where he had hidden it with an invisibility spell. That could have meant anything, especially in the bedroom of a Magi student, but the little boy felt a strange presence and began to cast a spell of Dispel. Luckily, before he could finish, Hexilo grabbed him by the arm and led him to the common room to taste the blueberry pie his schoolmates had prepared. There, the boy brought up the subject of the bedroom again. \u0022Zonte! Be more respectful of your elders!\u0022 his mother exclaimed. Everyone laughed except that boy. Two months later, Hexilo left the Refuge of Magi, taking Linta with him, and it remained at his side even after he went into the Titan\u0027s Wound.",
+  "menagerieDialog": [
+    "Kill me...",
+    "The quality of food this kingdom serves to its creatures is insulting. Isn\u0027t it time you hired a real chef instead of relying on Everett all the time?",
+    "The pain... too much... end me...",
+    "No no no - it\u0027s LinTa, not LinDa. It\u0027s a T, not a D.",
+    "I enjoy sampling various meats that come from all kinds of different creatures. Rather than releasing your unwanted creatures from the menagerie, perhaps you\u0027ll consider butchering them instead?"
+  ],
+  "minDepth": 1,
+  "name": "Linta",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Linta/overworld_e0.png",
+      "images/creature/Linta/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Linta/overworld_n0.png",
+      "images/creature/Linta/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Linta/overworld_s0.png",
+      "images/creature/Linta/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Linta/overworld_w0.png",
+      "images/creature/Linta/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    167,
+    469
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 14,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 24,
+    "speed": 17
+  },
+  "trait": 1050
+}

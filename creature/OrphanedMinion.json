@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/OrphanedMinion/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1254,
+  "item": 1444,
+  "lore": "Some Mages in the kingdom of Ercath can establish a special bond with a single animal that is called a minion. In this way, they are not only able to channel spells through this link, allowing the minion to cast them, but the minions themselves gain human-like intelligence, as well as the ability to learn magic on their own. Their longevity tends to increase notably, although in the case of turtles, for example, the opposite occurs. On many occasions, the Mage dies before the minion, creating an Orphaned Minion. Some decide to leave Ercath and travel to other places on their own, such as Rodia.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Orphaned Minion",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OrphanedMinion/overworld_e0.png",
+      "images/creature/OrphanedMinion/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OrphanedMinion/overworld_n0.png",
+      "images/creature/OrphanedMinion/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OrphanedMinion/overworld_s0.png",
+      "images/creature/OrphanedMinion/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OrphanedMinion/overworld_w0.png",
+      "images/creature/OrphanedMinion/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1752
+}

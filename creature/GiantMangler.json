@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/GiantMangler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 355,
+  "item": 513,
+  "lore": "Yseros\u0027s advice had been to create small, elusive creatures to face the Watchers, which was more than enough reason for Torun to do the opposite.\\n\\nThe Giant Mangler is the only one of its kind that does not use strictly blunt weapons, though it usually uses the hooks of its club to climb to the roofs, then leap on its enemies.",
+  "menagerieDialog": [
+    "Humans are weak! Even baby Giants can crush your kind with one hand.",
+    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+  ],
+  "minDepth": 1,
+  "name": "Giant Mangler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GiantMangler/overworld_e0.png",
+      "images/creature/GiantMangler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GiantMangler/overworld_n0.png",
+      "images/creature/GiantMangler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GiantMangler/overworld_s0.png",
+      "images/creature/GiantMangler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GiantMangler/overworld_w0.png",
+      "images/creature/GiantMangler/overworld_w1.png"
+    ]
+  },
+  "race": "Giant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 43,
+    "intelligence": 13,
+    "speed": 13
+  },
+  "trait": 427
+}

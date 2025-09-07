@@ -1,0 +1,44 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "nature",
+  "creator": null,
+  "description": "Target is afflicted with {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_SLEEP}, and enemies adjacent to the target are afflicted with a random debuff.",
+  "god": null,
+  "id": 556,
+  "manuallyCastable": true,
+  "maxCharges": 5,
+  "name": "Cherub\u0027s Missile",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "DEBUFF"
+  ],
+  "targets": "one"
+}

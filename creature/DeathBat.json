@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/DeathBat/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 113,
+  "item": 295,
+  "lore": "A long time ago, there was a Mutated Vampire Bat who stood out above the rest in its knowledge of magic. It owned a large mansion and enjoyed performing experiments in the company of other Bats. Needless to say, something went very wrong, and its home blew up in an emerald-green blast, giving birth to this Bat subspecies as a result. Now, Death Bats seek revenge against magic itself.",
+  "menagerieDialog": [
+    "(It gently nuzzles you, which is quite discomforting considering it\u0027s a Bat.)",
+    "(It tries to nip at anyone who gets too close, including you. So moody!)",
+    "(Everett claims this creature can read, which cements your opinion that he is extremely weird.)",
+    "(It moves just a little too fast for your liking. It\u0027s unsettling.)",
+    "(It\u0027s fiddling with a piece of lint it stole from your pocket earlier.)"
+  ],
+  "minDepth": 1,
+  "name": "Death Bat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DeathBat/overworld_e0.png",
+      "images/creature/DeathBat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DeathBat/overworld_n0.png",
+      "images/creature/DeathBat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DeathBat/overworld_s0.png",
+      "images/creature/DeathBat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DeathBat/overworld_w0.png",
+      "images/creature/DeathBat/overworld_w1.png"
+    ]
+  },
+  "race": "Bat",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 12,
+    "health": 27,
+    "intelligence": 27,
+    "speed": 27
+  },
+  "trait": 211
+}

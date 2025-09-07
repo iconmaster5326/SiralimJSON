@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/GoldGolem/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 151,
+  "item": 414,
+  "lore": "This creature was not designed for war, but to protect the belongings of a wealthy merchant who wanted to punish anyone foolish enough to rob him. Any living being who touches this Golem will suffer excruciating pain throughout the body for three days. For the rest of the thief\u0027s life, trying to steal from anyone will cause them to suffer another episode. Nowadays, everyone knows the story and thieves simply ignore such Golems.",
+  "menagerieDialog": [
+    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+    "(It\u0027s... shadowboxing. Weird.)",
+    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+  ],
+  "minDepth": 1,
+  "name": "Gold Golem",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GoldGolem/overworld_e0.png",
+      "images/creature/GoldGolem/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GoldGolem/overworld_n0.png",
+      "images/creature/GoldGolem/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GoldGolem/overworld_s0.png",
+      "images/creature/GoldGolem/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GoldGolem/overworld_w0.png",
+      "images/creature/GoldGolem/overworld_w1.png"
+    ]
+  },
+  "race": "Golem",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 329
+}

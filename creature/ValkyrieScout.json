@@ -1,0 +1,62 @@
+{
+  "battleSprite": "images/creature/ValkyrieScout/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 429,
+  "item": 155,
+  "lore": "A Valkyrie will never attack a defenseless person, and many of them only challenge potential opponents who can give them an interesting battle.\\n\\nThe strategists of the Unification forces sent the Valkyries to attack Omnia on their own by the north, where they knew that Sigmund would send his ships. The Valkyrie Scout is a fast warrior with keen senses, able to find an opening in any battle, and take advantage of it to hit her enemies.",
+  "menagerieDialog": [
+    "(She spends most of her free time relaxing. Is she really a Valkyrie?)",
+    "She\u0027s waving her weapon around and striking various battle poses. She must be eager to fight.",
+    "(It\u0027s completely absorbed in sharpening its weapon and polishing its armor.)",
+    "(She is extremely protective of your other creatures. If only your entire team had such camaraderie...)",
+    "(She\u0027s parading back and forth around the menagerie. You really wish she\u0027d stand still for a moment.)"
+  ],
+  "minDepth": 1,
+  "name": "Valkyrie Scout",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ValkyrieScout/overworld_e0.png",
+      "images/creature/ValkyrieScout/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ValkyrieScout/overworld_n0.png",
+      "images/creature/ValkyrieScout/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ValkyrieScout/overworld_s0.png",
+      "images/creature/ValkyrieScout/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ValkyrieScout/overworld_w0.png",
+      "images/creature/ValkyrieScout/overworld_w1.png"
+    ]
+  },
+  "race": "Valkyrie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    39
+  ],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 21,
+    "health": 29,
+    "intelligence": 9,
+    "speed": 24
+  },
+  "trait": 65
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/KolossFirebrand/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 892,
+  "item": 978,
+  "lore": "When a Koloss\u0027s puppet is hit by a weapon or a spell, its true, steel body is also damaged. However, the puppet is not affected by any damage to the blade, unless, of course, it is completely destroyed.\\n\\nThe fire of the Koloss Firebrand\u0027s puppet is generally not deadly, but it is essential when forging another Koloss. That is why Koloss Firebrands are respected and even revered within their communities, especially during the ceremony in which a new Koloss is finally brought to life.",
+  "menagerieDialog": [
+    "You go away now. Me sleep soon.",
+    "We go and kill now. Together, right now?",
+    "(It\u0027s busy polishing its weapon for the next battle.)",
+    "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
+    "(You can see the veins through its semi-transparent skin. Interesting.)"
+  ],
+  "minDepth": 1,
+  "name": "Koloss Firebrand",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KolossFirebrand/overworld_e0.png",
+      "images/creature/KolossFirebrand/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KolossFirebrand/overworld_n0.png",
+      "images/creature/KolossFirebrand/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KolossFirebrand/overworld_s0.png",
+      "images/creature/KolossFirebrand/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KolossFirebrand/overworld_w0.png",
+      "images/creature/KolossFirebrand/overworld_w1.png"
+    ]
+  },
+  "race": "Koloss",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 23,
+    "health": 40,
+    "intelligence": 13,
+    "speed": 13
+  },
+  "trait": 1154
+}

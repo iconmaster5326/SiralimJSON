@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/QuamarTremor/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 507,
+  "item": 596,
+  "lore": "Tremors protect the creatures that live in the forests, plains and mountains. When they get angry, they can cause small seismic movements by placing their hands on the ground.\\n\\nThe Quamar Tremor can disintegrate stone at will, and there are always rings of sand rotating around it. This creature throws this sand at its enemies\u0027 eyes to blind them temporarily, preventing them from taking any action.",
+  "menagerieDialog": [
+    "(It seems to be infested with all manner of parasites. It\u0027s so care-free that it doesn\u0027t even groom itself!)",
+    "(This creature has propped itself up by its arms and is repeatedly slamming its torso into the ground in an attempt to start an earthquake. Real mature.)",
+    "(Despite its ultra-punchable face, this creature seems to be especially intelligent for a Tremor.)",
+    "(It\u0027s gazing upward at a nest of birds that have apparently decided to call its forehead home.)",
+    "(It\u0027s stomping down with its fists, one at a time. Annoying.)"
+  ],
+  "minDepth": 1,
+  "name": "Quamar Tremor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/QuamarTremor/overworld_e0.png",
+      "images/creature/QuamarTremor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/QuamarTremor/overworld_n0.png",
+      "images/creature/QuamarTremor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/QuamarTremor/overworld_s0.png",
+      "images/creature/QuamarTremor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/QuamarTremor/overworld_w0.png",
+      "images/creature/QuamarTremor/overworld_w1.png"
+    ]
+  },
+  "race": "Tremor",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Anneltha)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 33,
+    "intelligence": 11,
+    "speed": 26
+  },
+  "trait": 510
+}

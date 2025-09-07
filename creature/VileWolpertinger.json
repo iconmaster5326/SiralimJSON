@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/VileWolpertinger/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 357,
+  "item": 618,
+  "lore": "Magic is a mystery to the Wolpertingers, and yet they are not a mystery to magic. These creatures rarely cast spells of their own volition. Instead, magic spontaneously manifests around them when they are in danger.\\n\\nAlthough the Vile Wolpertinger can hunt a great number of animals without much trouble to obtain food, it prefers to look for the places where other creatures hide their young and devour them without mercy.",
+  "menagerieDialog": [
+    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+  ],
+  "minDepth": 1,
+  "name": "Vile Wolpertinger",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/VileWolpertinger/overworld_e0.png",
+      "images/creature/VileWolpertinger/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/VileWolpertinger/overworld_n0.png",
+      "images/creature/VileWolpertinger/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/VileWolpertinger/overworld_s0.png",
+      "images/creature/VileWolpertinger/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/VileWolpertinger/overworld_w0.png",
+      "images/creature/VileWolpertinger/overworld_w1.png"
+    ]
+  },
+  "race": "Wolpertinger",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 30,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 16,
+    "health": 29,
+    "intelligence": 19,
+    "speed": 21
+  },
+  "trait": 535
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Nightmare/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1434,
+  "item": 1708,
+  "lore": "This bed is cursed, ensuring that anyone who lies on it will be plagued by terrifying nightmares. At first glance, it might seem like a normal bed, able to disguise its true form. But if someone falls asleep on it, they\u0027ll be trapped in a nightmare that brings their deepest fears to life, and they\u0027ll never wake up on their own.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Nightmare",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Nightmare/overworld_e0.png",
+      "images/creature/Nightmare/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Nightmare/overworld_n0.png",
+      "images/creature/Nightmare/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Nightmare/overworld_s0.png",
+      "images/creature/Nightmare/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Nightmare/overworld_w0.png",
+      "images/creature/Nightmare/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 2050
+}

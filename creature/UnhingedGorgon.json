@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/UnhingedGorgon/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 487,
+  "item": 466,
+  "lore": "Unhinged Gorgons, like most intelligent beings, sometimes experience a continuous flow of emotions, going from happiness to sadness in a moment without a specific reason. However, due to a quirk that sometimes manifests in the Gorgon and Smith species, these creatures can instill this emotional disturbance on terrified victims just by looking at them, inflicting horrifying suffering on them.",
+  "menagerieDialog": [
+    "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
+    "(Her snakes violently hiss upon your approach. Stupid snakes.)",
+    "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
+    "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
+    "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
+  ],
+  "minDepth": 1,
+  "name": "Unhinged Gorgon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnhingedGorgon/overworld_e0.png",
+      "images/creature/UnhingedGorgon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnhingedGorgon/overworld_n0.png",
+      "images/creature/UnhingedGorgon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnhingedGorgon/overworld_s0.png",
+      "images/creature/UnhingedGorgon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnhingedGorgon/overworld_w0.png",
+      "images/creature/UnhingedGorgon/overworld_w1.png"
+    ]
+  },
+  "race": "Gorgon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    },
+    {
+      "realm": 10,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 27,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 380
+}

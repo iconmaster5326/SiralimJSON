@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/BesiegedBeast/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1282,
+  "item": 1681,
+  "lore": "Among the many creatures who coexist and trade across Siralim, Andolin, and other kingdoms, the Besieged Beasts stand out as especially intriguing. They emerge during battles\u00E2\u20AC\u201Dparticularly city sieges\u00E2\u20AC\u201Dto barter, taking advantage of the people\u0027s desperate needs. They accept all kinds of gold and jewels in return for ammunition, food, and healing supplies. Some regard them as lifesavers, but those who\u0027ve tried to attack quickly saw them vanish, losing a trade that could have saved their lives. Historians tell that once, these beasts endured a terrible siege by a wicked witch, only to be rescued at the last moment by an army of humans and other beings.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Besieged Beast",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BesiegedBeast/overworld_e0.png",
+      "images/creature/BesiegedBeast/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BesiegedBeast/overworld_n0.png",
+      "images/creature/BesiegedBeast/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BesiegedBeast/overworld_s0.png",
+      "images/creature/BesiegedBeast/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BesiegedBeast/overworld_w0.png",
+      "images/creature/BesiegedBeast/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [
+    815
+  ],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 28,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 14
+  },
+  "trait": 2023
+}

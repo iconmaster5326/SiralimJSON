@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DraconicStrix/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1458,
+  "item": 1675,
+  "lore": "Draconic Strixes are nocturnal birds of prey that have absorbed the essence of Dragons through feeding on their corpses over generations. Their scales are harder than tempered steel, and their gaze terrifies even ghosts. They don\u0027t speak but communicate through shrieks that cause visions in those who hear them. They only attack when absolutely sure they won\u0027t get hurt.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Draconic Strix",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DraconicStrix/overworld_e0.png",
+      "images/creature/DraconicStrix/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DraconicStrix/overworld_n0.png",
+      "images/creature/DraconicStrix/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DraconicStrix/overworld_s0.png",
+      "images/creature/DraconicStrix/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DraconicStrix/overworld_w0.png",
+      "images/creature/DraconicStrix/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 2017
+}

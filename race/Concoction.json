@@ -1,0 +1,38 @@
+{
+  "bossDialog": [
+    "(A large, sticky glob drops from the ceiling, splatting onto the floor and taking a menacing shape in front of you, before lurching forward!)",
+    "(Several creatures jump out of the bubbling goop covering the room and close in to attack, as does the goop itself!)",
+    "(You hear a sloshing noise and barely have time to realize what\u0027s going on before your creatures pull you out of the way of a Concoction rising from the ground beneath you!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_DISARMED} have a 10% lower chance to Dodge.",
+    "4": "Enemies with {CONDNAME_DEBUFF_DISARMED} have a 15% lower chance to deal critical damage.",
+    "6": "Enemies with {CONDNAME_DEBUFF_DISARMED} take 5% more damage."
+  },
+  "cards": 6,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    910,
+    911,
+    912,
+    913,
+    914,
+    915
+  ],
+  "icon": "images/race/Concoction.png",
+  "master": {
+    "costume": 315,
+    "dialog": "I hope your creatures don\u0027t rely too much on their Artifacts, because my Concoctions are going to turn them into dust! Let\u0027s fight!",
+    "item": 1280,
+    "name": "Milmind",
+    "trait": 1416
+  },
+  "name": "Concoction",
+  "notes": [],
+  "skins": [
+    27,
+    292,
+    658
+  ]
+}

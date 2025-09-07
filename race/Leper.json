@@ -1,0 +1,39 @@
+{
+  "bossDialog": [
+    "(Knowing how dangerously diseased these creatures are, you make sure to stay well back as you give your creatures the order to attack.)",
+    "(The Leper comes barreling at you with surprising speed considering its awkward bulk and gait. Your creatures circle around you, ready to protect your life!)",
+    "(You almost gag as you approach the treasure hoard, the smell of rancid pus hanging thick in the air. You hope this will be a quick fight so you can get out of here.)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies deal 15% less damage from their {CONDNAME_DEBUFF_WEAK} debuffs.",
+    "5": "Enemies with {CONDNAME_DEBUFF_WEAK} have a 50% lower chance to deal critical damage.",
+    "8": "Enemies\u0027 {CONDNAME_DEBUFF_WEAK} debuffs last forever."
+  },
+  "cards": 8,
+  "class": "death",
+  "creator": null,
+  "creatures": [
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    610,
+    632
+  ],
+  "icon": "images/race/Leper.png",
+  "master": {
+    "costume": 354,
+    "dialog": "Lepers are cute little guys who just need a hug. The problem is, establishing physical contact with them tends to lead to all sorts of terrible diseases. Want to see? No? Well, too bad!",
+    "item": 1253,
+    "name": "Big Ed",
+    "trait": 1455
+  },
+  "name": "Leper",
+  "notes": [],
+  "skins": [
+    56,
+    203
+  ]
+}

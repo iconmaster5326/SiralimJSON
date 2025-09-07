@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MarionetteCharlatan/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1326,
+  "item": 1822,
+  "lore": "Marionettes aren\u0027t alive and don\u0027t have any awareness.\\n\\nThe Marionette Charlatan usually stays silent, but when faced with a pile of goods, it shouts out wild claims about their magical powers, trying to catch the attention of everyone nearby. Whether it\u0027s a simple rock or dog excrement, it\u0027ll try to pass it off as a miracle cure or a sacred talisman.",
+  "menagerieDialog": [
+    "(It hangs limply, awaiting its next command.)",
+    "Pull my strings and watch me dance... a dance of death!",
+    "I may be controlled, but my mind is my own. Let me share my observations with you.",
+    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+  ],
+  "minDepth": 1,
+  "name": "Marionette Charlatan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MarionetteCharlatan/overworld_e0.png",
+      "images/creature/MarionetteCharlatan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MarionetteCharlatan/overworld_n0.png",
+      "images/creature/MarionetteCharlatan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MarionetteCharlatan/overworld_s0.png",
+      "images/creature/MarionetteCharlatan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MarionetteCharlatan/overworld_w0.png",
+      "images/creature/MarionetteCharlatan/overworld_w1.png"
+    ]
+  },
+  "race": "Marionette",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 20,
+    "speed": 18
+  },
+  "trait": 2181
+}

@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Kapre/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 798,
+  "item": 1084,
+  "lore": "Kapre was a male Nix who managed to survive the genocide that took place over nine hundred years ago on another continent. Although the Elves were never kind to visitors, some sheltered refugees in their forests until the war came to an end. Kapre was never a great warrior, but he was a good friend of Elinar even after he became Morning Star. When he learned that Elinar was going to leave this world forever, he accompanied him without thinking twice. Apocranox, already a God, gave his friend the gift of eternal life, and from that moment they lived together in the Blood Grove. Kapre has learned to fight over the years, as he wanted to help the Satyrs and Inquisitors in their eternal war against the Efts.",
+  "menagerieDialog": [
+    "Got a light?",
+    "(In an attempt to show you just how tough it is, it smothers a burning cigar into its stomach.)",
+    "I could use a nice dinner of steak and potatoes. Maybe wash it down with a few bottles of wine. What do you say?",
+    "That\u0027s enough fighting for now, eh? Let\u0027s have an ale or six.",
+    "(It thoughtfully digs a long finger deep into its nose before producing a prize.)\\n\\nHungry?"
+  ],
+  "minDepth": 1,
+  "name": "Kapre",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Kapre/overworld_e0.png",
+      "images/creature/Kapre/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Kapre/overworld_n0.png",
+      "images/creature/Kapre/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Kapre/overworld_s0.png",
+      "images/creature/Kapre/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Kapre/overworld_w0.png",
+      "images/creature/Kapre/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    165,
+    471
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 14,
+    "health": 30,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1047
+}

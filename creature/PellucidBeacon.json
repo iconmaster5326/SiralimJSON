@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/PellucidBeacon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1259,
+  "item": 1624,
+  "lore": "Beacons do not interfere with the fauna and flora of the forest they inhabit. However, visitors must be extremely careful, as Beacons have been known to mercilessly attack together when they witnessed the slightest interference.\\n\\nThe Pellucid Beacon\u0027s colors flash with great intensity when it enters combat. It uses this ability to make the direction of its movement more difficult to predict, as well as to intimidate its enemies.",
+  "menagerieDialog": [
+    "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
+    "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
+    "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
+    "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
+    "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
+  ],
+  "minDepth": 1,
+  "name": "Pellucid Beacon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PellucidBeacon/overworld_e0.png",
+      "images/creature/PellucidBeacon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PellucidBeacon/overworld_n0.png",
+      "images/creature/PellucidBeacon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PellucidBeacon/overworld_s0.png",
+      "images/creature/PellucidBeacon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PellucidBeacon/overworld_w0.png",
+      "images/creature/PellucidBeacon/overworld_w1.png"
+    ]
+  },
+  "race": "Beacon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1964
+}

@@ -1,0 +1,46 @@
+{
+  "bossDialog": [
+    "(Hymns and songs you do not recognize ring around the room, but abruptly stop as you approach the treasure hoard. The Priest guarding it summons its allies to attack you!)",
+    "(Struck by an unusual calm, you quickly realize the Priest is weaving magic to simply lull you into surrendering without a fight. Not today.)",
+    "(The Priest raises its staff into the air and begins to emit an increasingly bright light, attempting to conceal itself. You counter the spell and order your creatures to attack!)"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures have 10% more {STAT_speed} while they\u0027re {ACTION_defending}.",
+    "6": "Your creatures have 10% more {STAT_speed} while they\u0027re {ACTION_defending}.",
+    "9": "Your creatures have 10% more {STAT_speed} while they\u0027re {ACTION_defending}."
+  },
+  "cards": 9,
+  "class": "life",
+  "creator": null,
+  "creatures": [
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    620
+  ],
+  "icon": "images/race/Priest.png",
+  "master": {
+    "costume": 374,
+    "dialog": "I believe that every group should have at least a few Priests, as they\u0027re one of the most well-rounded creatures in all of Rodia. They have the unique ability to empower your other creatures at breakneck speeds, causing them to snowball until they become unstoppable. Let me show you what I mean!",
+    "item": 1228,
+    "name": "Father Daddson",
+    "trait": 1476
+  },
+  "name": "Priest",
+  "notes": [],
+  "skins": [
+    326,
+    327,
+    328,
+    379,
+    529,
+    542,
+    753,
+    784
+  ]
+}

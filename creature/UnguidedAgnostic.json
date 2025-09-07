@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UnguidedAgnostic/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 907,
+  "item": 965,
+  "lore": "At the dawn of existence, Erebyss and Surathli tried to create a ruthless creature that would deal with the growing darkness. Angels were the final result, but not their first attempt.\\n\\nIf an Unguided Agnostic manages to immobilize its opponent, it can transport them to another plane. For some reason, their victims usually end up in the Great Pandemonium, near or inside a pit of lava. When the Goddesses demanded an explanation, Vulcanar only shrugged with a mocking smile.",
+  "menagerieDialog": [
+    "(You can\u0027t help but admire the brilliance of its appearance.)",
+    "(It watches you carefully, obediently waiting for your next command.)",
+    "(This creature emanates an aura of pure evil. You\u0027re fortunate to have such strong control over it, lest it could wreak havoc on your kingdom.)",
+    "I will make my own decisions in battle. You need only sit back and enjoy the show.",
+    "(This creature has an annoying habit of breaking its chair when it\u0027s unhappy. Perhaps a few days of standing will help it change its ways.)"
+  ],
+  "minDepth": 1,
+  "name": "Unguided Agnostic",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnguidedAgnostic/overworld_e0.png",
+      "images/creature/UnguidedAgnostic/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnguidedAgnostic/overworld_n0.png",
+      "images/creature/UnguidedAgnostic/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnguidedAgnostic/overworld_s0.png",
+      "images/creature/UnguidedAgnostic/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnguidedAgnostic/overworld_w0.png",
+      "images/creature/UnguidedAgnostic/overworld_w1.png"
+    ]
+  },
+  "race": "Unguided",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Perdition)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 21,
+    "health": 34,
+    "intelligence": 21,
+    "speed": 11
+  },
+  "trait": 1165
+}

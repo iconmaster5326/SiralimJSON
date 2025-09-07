@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/HellBeast/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 270,
+  "name": "Hell Beast",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/HellBeast/overworld_e0.png",
+      "images/skin/HellBeast/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/HellBeast/overworld_n0.png",
+      "images/skin/HellBeast/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/HellBeast/overworld_s0.png",
+      "images/skin/HellBeast/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/HellBeast/overworld_w0.png",
+      "images/skin/HellBeast/overworld_w1.png"
+    ]
+  },
+  "race": "Fiend",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

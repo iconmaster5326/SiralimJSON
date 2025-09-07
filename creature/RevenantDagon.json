@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/RevenantDagon/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 657,
+  "item": 785,
+  "lore": "Although the Revenants have always been at war with each other, there is a sacred code that applies to all of them, and a council that punishes the infidels. When a group of Revenants decided to live in peace in Ahruna with humans and other creatures of the surface, Dagon emerged from the depths to punish them. With a simple glance of this creature, their bodies began to experience drastic changes. They grew legs, their scales became skin, and they were completely transformed into humans.",
+  "menagerieDialog": [
+    "It\u0027s a common misconception that all Revenants like to fight. I, for one, would prefer to lead a quiet life and dedicate myself to collecting minerals.",
+    "What\u0027s wrong? You look like a fish out of water.\\n\\nHA!",
+    "(Revenants hate when you call them \u0022fish people\u0022. Never make that mistake.)",
+    "I am not a fish. I am NOT. A FISH.\\n\\n(This is the most sensitive fish you\u0027ve ever met.)",
+    "(It smells like dead fish. Probably because that\u0027s exactly what it is.)"
+  ],
+  "minDepth": 1,
+  "name": "Revenant Dagon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/RevenantDagon/overworld_e0.png",
+      "images/creature/RevenantDagon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/RevenantDagon/overworld_n0.png",
+      "images/creature/RevenantDagon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/RevenantDagon/overworld_s0.png",
+      "images/creature/RevenantDagon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/RevenantDagon/overworld_w0.png",
+      "images/creature/RevenantDagon/overworld_w1.png"
+    ]
+  },
+  "race": "Revenant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Friden)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 26,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 11
+  },
+  "trait": 819
+}

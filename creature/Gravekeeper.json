@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Gravekeeper/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1116,
+  "item": 1637,
+  "lore": "Although most undead feed on living creatures, necromancy has taken many turns throughout its development. A Death Mage who fought alongside King Misery carried out a project to create zombies capable of feeding on dead creatures as well. Thus, when the living put up too much resistance, Gravekeepers had only to dig out a grave to satisfy their hunger.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Gravekeeper",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Gravekeeper/overworld_e0.png",
+      "images/creature/Gravekeeper/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Gravekeeper/overworld_n0.png",
+      "images/creature/Gravekeeper/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Gravekeeper/overworld_s0.png",
+      "images/creature/Gravekeeper/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Gravekeeper/overworld_w0.png",
+      "images/creature/Gravekeeper/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 18,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 18
+  },
+  "trait": 1840
+}

@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "Ahh, another sssstatue for my collection. Do get into a nice pose, would you?",
+    "Come and see, sisterssss! Another blundering fool to devour!",
+    "We haven\u0027t forgotten how your kind has treated ussss. We won\u0027t submit to your cruelty ever again."
+  ],
+  "cardBonuses": {
+    "2": "Enemies with {CONDNAME_DEBUFF_STONE} take 10% more damage from attacks and spells.",
+    "4": "Enemies with {CONDNAME_DEBUFF_STONE} take 10% more damage from non-attack and non-spell damage.",
+    "7": "Enemies with {CONDNAME_DEBUFF_STONE} receive 25% less stat gains."
+  },
+  "cards": 7,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    631
+  ],
+  "icon": "images/race/Gorgon.png",
+  "master": {
+    "costume": 341,
+    "dialog": "Gorgons turn their enemies to stone. Yep, it\u0027s that simple. Good luck beating that!\\n\\nLet\u0027s fight!",
+    "item": 1259,
+    "name": "Zola",
+    "trait": 1442
+  },
+  "name": "Gorgon",
+  "notes": [],
+  "skins": [
+    109,
+    110,
+    111,
+    112,
+    113
+  ]
+}

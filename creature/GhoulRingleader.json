@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GhoulRingleader/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 989,
+  "item": 1315,
+  "lore": "This creature\u0027s left hand allows it to absorb water from any organism, although the process is not instantaneous. Some crime syndicates use this creature as a form of torture, having it dry out their enemies limb from limb. To the delight of many, a spell was developed centuries ago that can reverse the damage done by this terrifying ability.",
+  "menagerieDialog": [
+    "EAT FLESH!",
+    "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
+    "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
+    "Must... eat... more... footses...",
+    "Want... to eat... more... feet..."
+  ],
+  "minDepth": 1,
+  "name": "Ghoul Ringleader",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GhoulRingleader/overworld_e0.png",
+      "images/creature/GhoulRingleader/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GhoulRingleader/overworld_n0.png",
+      "images/creature/GhoulRingleader/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GhoulRingleader/overworld_s0.png",
+      "images/creature/GhoulRingleader/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GhoulRingleader/overworld_w0.png",
+      "images/creature/GhoulRingleader/overworld_w1.png"
+    ]
+  },
+  "race": "Ghoul",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Death Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 18,
+    "health": 32,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1563
+}

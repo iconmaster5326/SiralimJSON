@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/ImpRitualist/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 27,
+  "item": 566,
+  "lore": "The Imps of the Cutthroat Jungle worship pagan gods that they themselves invented. Torun hates these practices, but his strings of expletives cannot prevent them from gathering at night to dance around their idols.\\n\\nWith a spasmodic dance, the Imp Ritualist moves among its companions, waving its spear while making a tremendous effort not to spill the flammable liquid that it carries in its other hand. This grotesque display surprisingly seems to establish a mystical connection among its allies.",
+  "menagerieDialog": [
+    "Got any more of them feel-goods?",
+    "We go visit Torun and spit on altar! Go now!",
+    "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
+    "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
+    "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
+  ],
+  "minDepth": 1,
+  "name": "Imp Ritualist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ImpRitualist/overworld_e0.png",
+      "images/creature/ImpRitualist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ImpRitualist/overworld_n0.png",
+      "images/creature/ImpRitualist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ImpRitualist/overworld_s0.png",
+      "images/creature/ImpRitualist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ImpRitualist/overworld_w0.png",
+      "images/creature/ImpRitualist/overworld_w1.png"
+    ]
+  },
+  "race": "Imp",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 480
+}

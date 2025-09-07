@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SphinxOrdainer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 422,
+  "item": 189,
+  "lore": "In the towns and cities of the Empire, the people of Kaito began to erect temples in which to worship Sphinxes. This was apparently suggested by the Sphinxes themselves. According to Queen-Pharaoh Hatesh, they rather built a house in which to serve them food and grant their wishes. Most of these requests were made by the Sphinx Ordainer, who, with carefully chosen words, obtained what it wanted from humans without them suspecting that they were being manipulated.",
+  "menagerieDialog": [
+    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+    "Let us take our leave and fight for glory!",
+    "Things are not always as they seem. My advice to you is to question everything.",
+    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+  ],
+  "minDepth": 1,
+  "name": "Sphinx Ordainer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SphinxOrdainer/overworld_e0.png",
+      "images/creature/SphinxOrdainer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SphinxOrdainer/overworld_n0.png",
+      "images/creature/SphinxOrdainer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SphinxOrdainer/overworld_s0.png",
+      "images/creature/SphinxOrdainer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SphinxOrdainer/overworld_w0.png",
+      "images/creature/SphinxOrdainer/overworld_w1.png"
+    ]
+  },
+  "race": "Sphinx",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Yseros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 99
+}

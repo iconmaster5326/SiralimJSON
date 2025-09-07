@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/AsuraBonebreaker/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 458,
+  "item": 1099,
+  "lore": "The Asura conquered a large number of human settlements in what would later be known as Rodia. Fearful of being next, the inhabitants of the surrounding towns and cities began to organize themselves.\\n\\nAsura Bonebreakers are spiritual leaders who constantly remind their people of the meaning of their existence. They are loyal to Gonfurian, who grants them the power to help their allies in battle.",
+  "menagerieDialog": [
+    "Thank you for this opportunity. You won\u0027t regret this.",
+    "You lack the controlled anger that is necessary to overcome your enemies.",
+    "There is no room in this kingdom for weakness. With your permission, I would like to test your other creatures and determine their might.",
+    "Show no mercy. Never hesitate before you make a kill, lest your enemies will turn your pity to their advantage.",
+    "We\u0027re wasting time here. Let\u0027s keep moving. There are still plenty of enemies to defeat."
+  ],
+  "minDepth": 1,
+  "name": "Asura Bonebreaker",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AsuraBonebreaker/overworld_e0.png",
+      "images/creature/AsuraBonebreaker/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AsuraBonebreaker/overworld_n0.png",
+      "images/creature/AsuraBonebreaker/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AsuraBonebreaker/overworld_s0.png",
+      "images/creature/AsuraBonebreaker/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AsuraBonebreaker/overworld_w0.png",
+      "images/creature/AsuraBonebreaker/overworld_w1.png"
+    ]
+  },
+  "race": "Asura",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    5
+  ],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 10,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 292
+}

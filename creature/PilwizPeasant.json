@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/PilwizPeasant/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 212,
+  "item": 580,
+  "lore": "When a Pilwiz reaches 7 years of age, the blades of its feet and hands begin to develop. At 10 they are considered independent adults, and their blades reach their maximum size.\\n\\nPilwiz Peasants are the most numerous of their species, and the ones in charge of cultivating the fields. Many thieves underestimate their strength for this reason, but they are as dangerous as any other Pilwiz, especially in single combat, and they protect the fruit of their efforts with their own lives.",
+  "menagerieDialog": [
+    "(No one works the land quite like the Pilwiz, but this one seems to prefer lazing around.)",
+    "(It\u0027s repeatedly slashing at the air with its scythes.)",
+    "(It\u0027s trimming some flowers, because what else is a creature with scythes for limbs supposed to do in their free time?)",
+    "(Its gaze is lost in the distance, as if yearning to be someplace else.)",
+    "(This creature\u0027s lifelong dream is to become a gardener. Unfortunately for it, you\u0027ve decided to enlist it into a lifetime of warfare.)"
+  ],
+  "minDepth": 1,
+  "name": "Pilwiz Peasant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PilwizPeasant/overworld_e0.png",
+      "images/creature/PilwizPeasant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PilwizPeasant/overworld_n0.png",
+      "images/creature/PilwizPeasant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PilwizPeasant/overworld_s0.png",
+      "images/creature/PilwizPeasant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PilwizPeasant/overworld_w0.png",
+      "images/creature/PilwizPeasant/overworld_w1.png"
+    ]
+  },
+  "race": "Pilwiz",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 13,
+    "health": 27,
+    "intelligence": 23,
+    "speed": 23
+  },
+  "trait": 494
+}

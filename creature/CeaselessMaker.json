@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/CeaselessMaker/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 296,
+  "item": 110,
+  "lore": "Like the other Demigods, it was born at the dawn of existence as an experiment of the Gods, but it remained asleep until the lesser creatures learned to use magic. The Ceaseless Maker is able to manipulate the memories of others to carry out its desires without having to be directly involved. To pass time, it writes plays and then implants the roles of the characters in the minds of its subjects.",
+  "menagerieDialog": [
+    "I will not waste my breath speaking with the likes of you.",
+    "Unleash me! Let us destroy our foes together as one.",
+    "There is much to be learned from this world. Do not take a single moment for granted.",
+    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+    "I grow restless. Let us take our leave at once."
+  ],
+  "minDepth": 1,
+  "name": "Ceaseless Maker",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CeaselessMaker/overworld_e0.png",
+      "images/creature/CeaselessMaker/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CeaselessMaker/overworld_n0.png",
+      "images/creature/CeaselessMaker/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CeaselessMaker/overworld_s0.png",
+      "images/creature/CeaselessMaker/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CeaselessMaker/overworld_w0.png",
+      "images/creature/CeaselessMaker/overworld_w1.png"
+    ]
+  },
+  "race": "Demigod",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 17,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 19
+}

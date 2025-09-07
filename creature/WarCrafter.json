@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WarCrafter/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 677,
+  "item": 868,
+  "lore": "During the Siege of Caedo, King Misery announced that one citizen would be killed every minute unless Undolim withdrew its forces. Taking advantage of the fact that most of the knights were on the walls, a very angry Crystal Smith headbutted one and stole his weapon. A riot had begun. The Smiths quickly ascended the castle with him at the helm, until they reached the throne room. There, the Smith fought in single combat against King Misery and ended his life, which earned him Gonfurian\u0027s favor.",
+  "menagerieDialog": [
+    "I\u0027m far more skilled in forging weapons than fighting creatures.",
+    "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
+    "Never leave home without ensuring that all your Artifacts are fully upgraded.",
+    "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
+    "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
+  ],
+  "minDepth": 1,
+  "name": "War Crafter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WarCrafter/overworld_e0.png",
+      "images/creature/WarCrafter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WarCrafter/overworld_n0.png",
+      "images/creature/WarCrafter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WarCrafter/overworld_s0.png",
+      "images/creature/WarCrafter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WarCrafter/overworld_w0.png",
+      "images/creature/WarCrafter/overworld_w1.png"
+    ]
+  },
+  "race": "Smith",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Azural)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 895
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CreepMummy/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 49,
+  "item": 242,
+  "lore": "Magic was discovered during the rise of the first civilizations in the Kaito Empire, far from the green meadows and cold mountains. Tradition dictated that the kings and queens of that place had to undergo a ritual related to the afterlife.\\n\\nA sticky liquid drips constantly from the Creep Mummy\u0027s bandages. To kill humans, this creature placed its hand on their faces to prevent them from breathing or opening their eyelids.",
+  "menagerieDialog": [
+    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+  ],
+  "minDepth": 1,
+  "name": "Creep Mummy",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CreepMummy/overworld_e0.png",
+      "images/creature/CreepMummy/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CreepMummy/overworld_n0.png",
+      "images/creature/CreepMummy/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CreepMummy/overworld_s0.png",
+      "images/creature/CreepMummy/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CreepMummy/overworld_w0.png",
+      "images/creature/CreepMummy/overworld_w1.png"
+    ]
+  },
+  "race": "Mummy",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 16,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 11
+  },
+  "trait": 152
+}

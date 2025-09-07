@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DragonRevenant/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 143,
+  "item": 399,
+  "lore": "Many poachers look for Dragon eggs due to their attractiveness and the high price at which they are sold, so many Dragons have decided to leave the Unsullied Meadows and establish their lair in more remote places.\\n\\nThe Dragon Revenant is the most elusive of its kind, as it lives on its own and never communicates with anyone unless it needs something. Its knowledge of magic is comparable to that of the most versed Magi, since it collects sorcery books and Spell Gems with which it practices daily.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Dragon Revenant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DragonRevenant/overworld_e0.png",
+      "images/creature/DragonRevenant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DragonRevenant/overworld_n0.png",
+      "images/creature/DragonRevenant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DragonRevenant/overworld_s0.png",
+      "images/creature/DragonRevenant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DragonRevenant/overworld_w0.png",
+      "images/creature/DragonRevenant/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 14,
+    "health": 35,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 314
+}

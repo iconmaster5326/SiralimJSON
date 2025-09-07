@@ -1,0 +1,54 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "Target takes a moderate amount of damage if it is an enemy, or is healed for a moderate amount of {STAT_health} if it is an ally.",
+  "god": null,
+  "id": 387,
+  "manuallyCastable": true,
+  "maxCharges": 15,
+  "name": "Cosmic Ripple",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "HEAL",
+    "DAMAGE"
+  ],
+  "targets": "one"
+}

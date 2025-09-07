@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FuriousFrank/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1449,
+  "item": 1738,
+  "lore": "This hot dog with a serious attitude made his debut in the underground fighting rings of Neralim. \u0022You wanna bite me, you jerk? You feel like taking a nibble?\u0022 he often taunts his opponents. \u0022AHHHHH, I\u0027LL SHOVE SPICE UP YOUR...\u0022 Well, let\u0027s just leave that to your imagination, but the truth is, his punches pack a serious sting\u00E2\u20AC\u201Dliterally.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Furious Frank",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FuriousFrank/overworld_e0.png",
+      "images/creature/FuriousFrank/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FuriousFrank/overworld_n0.png",
+      "images/creature/FuriousFrank/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FuriousFrank/overworld_s0.png",
+      "images/creature/FuriousFrank/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FuriousFrank/overworld_w0.png",
+      "images/creature/FuriousFrank/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 15
+  },
+  "trait": 2080
+}

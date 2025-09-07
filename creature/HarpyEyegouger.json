@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/HarpyEyegouger/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 17,
+  "item": 368,
+  "lore": "Harpies are intelligent creatures that since the dawn of human civilization have brought disaster wherever their wings have taken them.\\n\\nAs its name indicates, the Harpy Eyegouger loves extracting the eyes of its victims and is an expert at it. When its work is finished, it shows its trophies to anyone nearby and eats them without mercy.",
+  "menagerieDialog": [
+    "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
+    "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
+    "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
+    "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
+    "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
+  ],
+  "minDepth": 1,
+  "name": "Harpy Eyegouger",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HarpyEyegouger/overworld_e0.png",
+      "images/creature/HarpyEyegouger/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HarpyEyegouger/overworld_n0.png",
+      "images/creature/HarpyEyegouger/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HarpyEyegouger/overworld_s0.png",
+      "images/creature/HarpyEyegouger/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HarpyEyegouger/overworld_w0.png",
+      "images/creature/HarpyEyegouger/overworld_w1.png"
+    ]
+  },
+  "race": "Harpy",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 15,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 284
+}

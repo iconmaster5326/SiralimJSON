@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "I require these supplies for my works. You bring suffering upon the world by seizing them from me.",
+    "There is a great imbalance within you. Let me help you.\\n\\n(The Plague Doctor pulls out a terrifying looking medical tool. Nuts to that! Attack!)",
+    "You have brought illness and corruption into my sanctuary. Begone."
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 25% less damage from {CONDNAME_DEBUFF_POISON}.",
+    "5": "Your creatures take 25% less damage from {CONDNAME_DEBUFF_BURNED}.",
+    "8": "Your creatures take 25% less damage from {CONDNAME_DEBUFF_BLEED}."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    699,
+    987
+  ],
+  "icon": "images/race/PlagueDoctor.png",
+  "master": {
+    "costume": 373,
+    "dialog": "Plague Doctors are not only the coolest-looking creatures in Rodia, they\u0027re some of the most powerful as well! I\u0027m a firm believer that actions speak louder than words, so let me show you their power firsthand!",
+    "item": 1235,
+    "name": "Doctor Negative",
+    "trait": 1475
+  },
+  "name": "Plague Doctor",
+  "notes": [],
+  "skins": [
+    120,
+    121,
+    752,
+    810
+  ]
+}

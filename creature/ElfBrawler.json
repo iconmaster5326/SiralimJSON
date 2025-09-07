@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ElfBrawler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1002,
+  "item": 1329,
+  "lore": "Elf Monks are not the only ones who make the decision to fight without weapons. Some Elves learn to use their entire bodies as weapons and become Elf Brawlers. Every few months they organize a traditional tournament in which only these Elves fight in single combat to win the Belt of Purple Leaves. Of course, there is no betting on these matches, as the practice is banned in Elf lands.",
+  "menagerieDialog": [
+    "The sound of elves singing at night is a spectacle worth witnessing.",
+    "No one shall trespass through our lands without consequences.",
+    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+  ],
+  "minDepth": 1,
+  "name": "Elf Brawler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ElfBrawler/overworld_e0.png",
+      "images/creature/ElfBrawler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ElfBrawler/overworld_n0.png",
+      "images/creature/ElfBrawler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ElfBrawler/overworld_s0.png",
+      "images/creature/ElfBrawler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ElfBrawler/overworld_w0.png",
+      "images/creature/ElfBrawler/overworld_w1.png"
+    ]
+  },
+  "race": "Elf",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Nature Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 19,
+    "health": 27,
+    "intelligence": 9,
+    "speed": 24
+  },
+  "trait": 1575
+}

@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LichBloodletter/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 124,
+  "item": 207,
+  "lore": "The Lich Bloodletter can use the blood of its enemies to cast powerful spells. It often kills the weakest enemies first, taking advantage of the fact that they are usually sent to the front lines, then uses their blood to store powerful spells in its scepter to decimate the strongest enemies. If it gets bored, it sometimes hunts stray animals or people, cutting them until they bleed to death.",
+  "menagerieDialog": [
+    "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
+    "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
+    "Knowledge is power, and I have a lot.",
+    "The ancient evil survives.",
+    "We must seek out the Necronomicon. With it, my true power will be realized."
+  ],
+  "minDepth": 1,
+  "name": "Lich Bloodletter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LichBloodletter/overworld_e0.png",
+      "images/creature/LichBloodletter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LichBloodletter/overworld_n0.png",
+      "images/creature/LichBloodletter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LichBloodletter/overworld_s0.png",
+      "images/creature/LichBloodletter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LichBloodletter/overworld_w0.png",
+      "images/creature/LichBloodletter/overworld_w1.png"
+    ]
+  },
+  "race": "Lich",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 12,
+    "health": 31,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 116
+}

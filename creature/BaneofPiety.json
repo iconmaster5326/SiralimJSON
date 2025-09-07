@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/BaneofPiety/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1480,
+  "item": 1741,
+  "lore": "This creature worships no God, yet it can cast their unique spells as if chosen by all. Bound to multiple sacred relics, it accesses divine powers that should be exclusive to Gods. Its very existence puzzles clerics and enrages devotees, proving that divine grace can be replicated without faith... or perhaps even turned against it.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Bane of Piety",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BaneofPiety/overworld_e0.png",
+      "images/creature/BaneofPiety/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BaneofPiety/overworld_n0.png",
+      "images/creature/BaneofPiety/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BaneofPiety/overworld_s0.png",
+      "images/creature/BaneofPiety/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BaneofPiety/overworld_w0.png",
+      "images/creature/BaneofPiety/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 20
+  },
+  "trait": 2083
+}

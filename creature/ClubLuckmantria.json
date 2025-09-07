@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ClubLuckmantria/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1189,
+  "item": 1574,
+  "lore": "Luckmantrias have fascinated the Uraloses since the beginning of their civilization, and there are all kinds of rites and traditions linked to these creatures in their culture.\\n\\nTreetops and tall grass are this creature\u0027s favorites. On one occasion, a Rodian had a sudden cramp and fell to the ground in pain. Those who were traveling with him stopped to help him, while a nearby Club Luckmantria opened its eyes to find a horse\u0027s leg in front of it.",
+  "menagerieDialog": [
+    "(It flaps its wings excitedly, giving you a great view of its beautiful markings.)",
+    "(You can\u0027t help but feel a bit luckier than usual with this creature in your party.)",
+    "(You carefully study the patterns on its wings. From where did such a marvelous creature come from?)",
+    "(It\u0027s greedily lapping up a bowl of sugar water. Nortah always knows the best food to feed your creatures.)",
+    "(The powder on its wings is said to be poisonous, though you\u0027re not willing to test this theory out for yourself.)"
+  ],
+  "minDepth": 1,
+  "name": "Club Luckmantria",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ClubLuckmantria/overworld_e0.png",
+      "images/creature/ClubLuckmantria/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ClubLuckmantria/overworld_n0.png",
+      "images/creature/ClubLuckmantria/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ClubLuckmantria/overworld_s0.png",
+      "images/creature/ClubLuckmantria/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ClubLuckmantria/overworld_w0.png",
+      "images/creature/ClubLuckmantria/overworld_w1.png"
+    ]
+  },
+  "race": "Luckmantria",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 4,
+    "defense": 17,
+    "health": 24,
+    "intelligence": 27,
+    "speed": 27
+  },
+  "trait": 1912
+}

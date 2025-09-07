@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NoxSinon/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1150,
+  "item": 1532,
+  "lore": "In the forests of Yarthe lives an intelligent species, fully integrated into its ecosystem. Even as children, they interact with all the creatures who live there, establishing bonds through play, and caring for them when needed. When they reach adulthood, they are able to summon them wherever they go, and they will fight with them regardless of the danger involved in doing so.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Nox Sinon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NoxSinon/overworld_e0.png",
+      "images/creature/NoxSinon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NoxSinon/overworld_n0.png",
+      "images/creature/NoxSinon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NoxSinon/overworld_s0.png",
+      "images/creature/NoxSinon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NoxSinon/overworld_w0.png",
+      "images/creature/NoxSinon/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1873
+}

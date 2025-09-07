@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/SlurpingBat/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 665,
+  "item": 787,
+  "lore": "The Slurping Bat used to be just a bogeyman to scare children into good behavior. Now it is a whirlwind of hate and violence towards authority, because one those children became a powerful Mage who, after years of research, succeeded in giving shape to this nightmare to get revenge on her abusive parents.",
+  "menagerieDialog": [
+    "(It gently nuzzles you, which is quite discomforting considering it\u0027s a Bat.)",
+    "(It tries to nip at anyone who gets too close, including you. So moody!)",
+    "(Everett claims this creature can read, which cements your opinion that he is extremely weird.)",
+    "(It moves just a little too fast for your liking. It\u0027s unsettling.)",
+    "(It\u0027s fiddling with a piece of lint it stole from your pocket earlier.)"
+  ],
+  "minDepth": 1,
+  "name": "Slurping Bat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SlurpingBat/overworld_e0.png",
+      "images/creature/SlurpingBat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SlurpingBat/overworld_n0.png",
+      "images/creature/SlurpingBat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SlurpingBat/overworld_s0.png",
+      "images/creature/SlurpingBat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SlurpingBat/overworld_w0.png",
+      "images/creature/SlurpingBat/overworld_w1.png"
+    ]
+  },
+  "race": "Bat",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 13,
+    "health": 23,
+    "intelligence": 13,
+    "speed": 28
+  },
+  "trait": 821
+}

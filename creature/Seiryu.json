@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Seiryu/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1261,
+  "item": 1448,
+  "lore": "These sea dragons are well aware of the greed of humans and other intelligent species. Over the years, they spread a legend that says each of these dragons has an orb capable of granting infinite wishes. Obviously, anyone with common sense would not believe such nonsense, but a surprising number of individuals were stupid enough to lead hundreds of expeditions from all over the continent in search of these orbs. The Seiryu leave insultingly obvious clues that make their prey overconfident, leading them to believe they are endowed with sublime intelligence. When a ship reaches the place where the orb is supposed to be, a Seiryu causes a whirlwind by twisting and turning under the ship until it sinks. Its goal is not treasure or revenge\u00E2\u20AC\u201Dthe creature is simply having fun.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Seiryu",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Seiryu/overworld_e0.png",
+      "images/creature/Seiryu/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Seiryu/overworld_n0.png",
+      "images/creature/Seiryu/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Seiryu/overworld_s0.png",
+      "images/creature/Seiryu/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Seiryu/overworld_w0.png",
+      "images/creature/Seiryu/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 15,
+    "health": 37,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 1756
+}

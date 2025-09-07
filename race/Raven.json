@@ -1,0 +1,43 @@
+{
+  "bossDialog": [
+    "(The Raven yells out something in a language you don\u0027t understand. Suddenly, the Raven\u0027s allies magically appear by its side, ready to fight you!)",
+    "You think you know so much, but you are just a tiny fledgling to a world like this. Let me show you your place!",
+    "You\u0027re supposed to be a mage? Don\u0027t make me laugh. Let me show you how a REAL magic user fights!"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures have 5% more {STAT_intelligence}.",
+    "5": "Your creatures have 5% more {STAT_intelligence}.",
+    "8": "Your creatures have 5% more {STAT_intelligence}."
+  },
+  "cards": 8,
+  "class": "sorcery",
+  "creator": null,
+  "creatures": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    656,
+    1008
+  ],
+  "icon": "images/race/Raven.png",
+  "master": {
+    "costume": 375,
+    "dialog": "Any party that heavily relies on spellcasters should consider adding a few Ravens to the mix. These well-rounded sorcerers will make your spells even more powerful, allowing you to lay waste to your enemies. Let\u0027s have a duel so I can show you!",
+    "item": 1223,
+    "name": "Dyvys",
+    "trait": 1478
+  },
+  "name": "Raven",
+  "notes": [],
+  "skins": [
+    122,
+    215,
+    543,
+    754,
+    755,
+    756
+  ]
+}

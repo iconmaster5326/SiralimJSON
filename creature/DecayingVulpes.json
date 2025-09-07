@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DecayingVulpes/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 579,
+  "item": 677,
+  "lore": "The energy unleashed by the activation of ten Nether Orbs at once had some consequences for Rodia\u0027s animal kingdom.\\n\\nThis black-furred, bright-eyed fox left its deep forest habitat to feed on the corpses of magical beasts. Its appearance may inspire mistrust, but it is actually a harmless creature, as long as it is not hungry.",
+  "menagerieDialog": [
+    "(You would have loved to keep one of these creatures as a pet when you were a child.)",
+    "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
+    "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
+    "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
+    "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
+  ],
+  "minDepth": 1,
+  "name": "Decaying Vulpes",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DecayingVulpes/overworld_e0.png",
+      "images/creature/DecayingVulpes/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DecayingVulpes/overworld_n0.png",
+      "images/creature/DecayingVulpes/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DecayingVulpes/overworld_s0.png",
+      "images/creature/DecayingVulpes/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DecayingVulpes/overworld_w0.png",
+      "images/creature/DecayingVulpes/overworld_w1.png"
+    ]
+  },
+  "race": "Vulpes",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 22
+  },
+  "trait": 615
+}

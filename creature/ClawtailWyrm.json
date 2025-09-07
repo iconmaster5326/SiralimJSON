@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ClawtailWyrm/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1153,
+  "item": 1535,
+  "lore": "In a very distant land lives a species of hominid dragons, who established their reign there at the dawn of the world\u0027s history. They are powerful warriors, but of simple ambitions, and have managed to repel attacks by armies of other countries with resounding success, although given the extreme weather conditions of their domains, they have never suffered a proper siege. However, their strength resides in the creatures they host, tails that move independently, but cooperatively. When a Clawtail Wyrm reaches adulthood, a ritual is performed in which it is bound to one of these parasites for the rest of its life.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Clawtail Wyrm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ClawtailWyrm/overworld_e0.png",
+      "images/creature/ClawtailWyrm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ClawtailWyrm/overworld_n0.png",
+      "images/creature/ClawtailWyrm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ClawtailWyrm/overworld_s0.png",
+      "images/creature/ClawtailWyrm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ClawtailWyrm/overworld_w0.png",
+      "images/creature/ClawtailWyrm/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 13,
+    "health": 33,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 1876
+}

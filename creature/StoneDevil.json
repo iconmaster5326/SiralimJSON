@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/StoneDevil/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 158,
+  "item": 296,
+  "lore": "The Stone Devil usually roams around the periphery of the woods, looking for innocent campers who just want to relax in nature. It will appear to be a good-natured satyr and tell anyone it finds that it knows of a beautiful place near the forest entrance where they could go spend the afternoon. Once it guides them there, it will wait until they make a \u0022mistake\u0022. A broken branch, a flower stepped on by accident. Any excuse will do to bludgeon them to death with its heavy mace.",
+  "menagerieDialog": [
+    "You\u0027re the big boss here, right? You should share some of them resources with me, neh?",
+    "I prefer blades over magic. What\u0027s the fun in casting a spell when there\u0027s no blood to show in the aftermath of your effort?",
+    "The devil\u0027s in the details, neh?\\n\\n(Well, that was random.)",
+    "I have an idea! You should raise your kingdom\u0027s taxes. That way, you can steal from everyone with impunity.",
+    "I absolutely, positively did not steal this bag of coins from anyone."
+  ],
+  "minDepth": 1,
+  "name": "Stone Devil",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StoneDevil/overworld_e0.png",
+      "images/creature/StoneDevil/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StoneDevil/overworld_n0.png",
+      "images/creature/StoneDevil/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StoneDevil/overworld_s0.png",
+      "images/creature/StoneDevil/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StoneDevil/overworld_w0.png",
+      "images/creature/StoneDevil/overworld_w1.png"
+    ]
+  },
+  "race": "Devil",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 28,
+    "intelligence": 23,
+    "speed": 13
+  },
+  "trait": 212
+}

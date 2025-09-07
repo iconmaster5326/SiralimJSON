@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/HeartLuckmantria/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1191,
+  "item": 1576,
+  "lore": "After the Uraloses began to trade with Rodia, Luckmantrias began to spread on the forests of Neralim and other places. However, their expansion is very limited, due to the very specific conditions their eggs need to hatch.\\n\\nHeart Luckmantrias are usually found near flowers, and are constantly accompanied by pollinating insects. If something threatens the Luckmantria, these insects will go on the attack, especially those with stingers.",
+  "menagerieDialog": [
+    "(It flaps its wings excitedly, giving you a great view of its beautiful markings.)",
+    "(You can\u0027t help but feel a bit luckier than usual with this creature in your party.)",
+    "(You carefully study the patterns on its wings. From where did such a marvelous creature come from?)",
+    "(It\u0027s greedily lapping up a bowl of sugar water. Nortah always knows the best food to feed your creatures.)",
+    "(The powder on its wings is said to be poisonous, though you\u0027re not willing to test this theory out for yourself.)"
+  ],
+  "minDepth": 1,
+  "name": "Heart Luckmantria",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HeartLuckmantria/overworld_e0.png",
+      "images/creature/HeartLuckmantria/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HeartLuckmantria/overworld_n0.png",
+      "images/creature/HeartLuckmantria/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HeartLuckmantria/overworld_s0.png",
+      "images/creature/HeartLuckmantria/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HeartLuckmantria/overworld_w0.png",
+      "images/creature/HeartLuckmantria/overworld_w1.png"
+    ]
+  },
+  "race": "Luckmantria",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 28,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 6,
+    "defense": 16,
+    "health": 26,
+    "intelligence": 26,
+    "speed": 26
+  },
+  "trait": 1914
+}

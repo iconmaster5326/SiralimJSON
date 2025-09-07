@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TreewallConstruct/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 759,
+  "item": 65,
+  "lore": "An important agricultural company run by a human woman started to use Treewall Constructs as a labor force. After dismissing hundreds of workers and agitating the competition, especially the Pilwiz, social unrest began to grow right during the recent war. In the absence of the then ruler of Nex, who was in Siralim to defeat the tyrant who threatened to conquer Rodia, Ilberd had no choice but to make drastic decisions during these events. Specifically, he decreed that the number of Constructs on each company\u0027s workforce can never exceed 3%.",
+  "menagerieDialog": [
+    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+    "(Nothing breeds subservience quite like being programmed by humans.)",
+    "(You can sense the raw power and lust for battle emmanating from this creature.)",
+    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+  ],
+  "minDepth": 1,
+  "name": "Treewall Construct",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TreewallConstruct/overworld_e0.png",
+      "images/creature/TreewallConstruct/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TreewallConstruct/overworld_n0.png",
+      "images/creature/TreewallConstruct/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TreewallConstruct/overworld_s0.png",
+      "images/creature/TreewallConstruct/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TreewallConstruct/overworld_w0.png",
+      "images/creature/TreewallConstruct/overworld_w1.png"
+    ]
+  },
+  "race": "Construct",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 1012
+}

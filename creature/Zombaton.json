@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Zombaton/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1128,
+  "item": 1648,
+  "lore": "Zombatons are symbiotic bacteria that, after finding a corpse, take the shape they are usually seen in. They travel in groups and are friendly, but because of their appearance they are feared and hated by many. Even so, they are very popular among monster breeders, since they can reproduce by splitting in two as they grow or by introducing bacteria into carrion to form another Zombaton. Due to the persecution they are subjected to, they are almost extinct, although they are not aggressive. They like to collect cloth and metal to protect themselves, they eat anything, and they dance around people they like with a goofy smile.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Zombaton",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Zombaton/overworld_e0.png",
+      "images/creature/Zombaton/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Zombaton/overworld_n0.png",
+      "images/creature/Zombaton/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Zombaton/overworld_s0.png",
+      "images/creature/Zombaton/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Zombaton/overworld_w0.png",
+      "images/creature/Zombaton/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1851
+}

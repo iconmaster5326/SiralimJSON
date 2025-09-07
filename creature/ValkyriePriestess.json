@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ValkyriePriestess/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 997,
+  "item": 1324,
+  "lore": "The mace of a Valkyrie Priestess glows with powerful light as it strikes her enemies. It can also create luminous spheres, useful in dark caves or in the dead of night. During the final battle of the Unification War, they used this ability to confuse Sigmund\u0027s troops and get their attention.",
+  "menagerieDialog": [
+    "(She spends most of her free time relaxing. Is she really a Valkyrie?)",
+    "She\u0027s waving her weapon around and striking various battle poses. She must be eager to fight.",
+    "(It\u0027s completely absorbed in sharpening its weapon and polishing its armor.)",
+    "(She is extremely protective of your other creatures. If only your entire team had such camaraderie...)",
+    "(She\u0027s parading back and forth around the menagerie. You really wish she\u0027d stand still for a moment.)"
+  ],
+  "minDepth": 1,
+  "name": "Valkyrie Priestess",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ValkyriePriestess/overworld_e0.png",
+      "images/creature/ValkyriePriestess/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ValkyriePriestess/overworld_n0.png",
+      "images/creature/ValkyriePriestess/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ValkyriePriestess/overworld_s0.png",
+      "images/creature/ValkyriePriestess/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ValkyriePriestess/overworld_w0.png",
+      "images/creature/ValkyriePriestess/overworld_w1.png"
+    ]
+  },
+  "race": "Valkyrie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Life Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 16
+  },
+  "trait": 1570
+}

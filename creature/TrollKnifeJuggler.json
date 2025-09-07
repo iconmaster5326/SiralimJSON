@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TrollKnifeJuggler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 75,
+  "item": 577,
+  "lore": "Trolls are sometimes the center of attention in the cities, which is somehow justified because of their history. Of course, there are some exceptions and some Trolls make an honest living, like the Knife Jugglers that perform fantastic shows on the streets. They still need to let off some steam, however, so they get a little extra money by robbing travelers outside the walls.",
+  "menagerieDialog": [
+    "Human kings are weak. You should let us Trolls lead you instead!",
+    "Let\u0027s go burn some villages down!",
+    "You rely on magic far too much. Brute strength is always the way to go!",
+    "(You\u0027re constantly amazed at just how badly this creature smells.)",
+    "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
+  ],
+  "minDepth": 1,
+  "name": "Troll Knife Juggler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TrollKnifeJuggler/overworld_e0.png",
+      "images/creature/TrollKnifeJuggler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TrollKnifeJuggler/overworld_n0.png",
+      "images/creature/TrollKnifeJuggler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TrollKnifeJuggler/overworld_s0.png",
+      "images/creature/TrollKnifeJuggler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TrollKnifeJuggler/overworld_w0.png",
+      "images/creature/TrollKnifeJuggler/overworld_w1.png"
+    ]
+  },
+  "race": "Troll",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Torun)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 23,
+    "health": 38,
+    "intelligence": 8,
+    "speed": 18
+  },
+  "trait": 491
+}

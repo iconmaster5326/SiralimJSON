@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TacoHell/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1159,
+  "item": 1667,
+  "lore": "A lost traveler stumbled upon Vulcanar some time ago by pure chance. Indeed, it can be said that there is often a lost traveler who bumps into Vulcanar \u0027by pure chance\u0027, or not, depending on whether you ask the God of Fire or anyone with common sense. These individuals have varied fates, generally a gruesome death or the fortune to avoid it. The case of the Taco Hell started with a very hungry individual, and ended with the question \u0022A taco big enough to eat you?\u0022 that the God of Fire asked, receiving a \u0022yes\u0022 for an answer.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Taco Hell",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TacoHell/overworld_e0.png",
+      "images/creature/TacoHell/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TacoHell/overworld_n0.png",
+      "images/creature/TacoHell/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TacoHell/overworld_s0.png",
+      "images/creature/TacoHell/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TacoHell/overworld_w0.png",
+      "images/creature/TacoHell/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1882
+}

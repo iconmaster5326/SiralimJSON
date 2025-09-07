@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/FrostPhoenix/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 61,
+  "item": 436,
+  "lore": "Phoenixes are majestic, elusive creatures that rarely interact with other beings.\\n\\nIt is said that in the past, a Royal Phoenix fell seriously ill and landed on the Frostbite Caverns. Azural approached full of curiosity and watched as the creature burst into flames and was consumed. The young God knelt and carefully put his hand in its ashes. He felt the touch of two tiny legs and a gentle peck. Surprised, he pushed the ashes away and looked at the Frost Phoenix chick he had accidentally created.",
+  "menagerieDialog": [
+    "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
+    "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
+    "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
+    "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \u0022revives\u0022, it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
+    "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
+  ],
+  "minDepth": 1,
+  "name": "Frost Phoenix",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FrostPhoenix/overworld_e0.png",
+      "images/creature/FrostPhoenix/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FrostPhoenix/overworld_n0.png",
+      "images/creature/FrostPhoenix/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FrostPhoenix/overworld_s0.png",
+      "images/creature/FrostPhoenix/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FrostPhoenix/overworld_w0.png",
+      "images/creature/FrostPhoenix/overworld_w1.png"
+    ]
+  },
+  "race": "Phoenix",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 31,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 351
+}

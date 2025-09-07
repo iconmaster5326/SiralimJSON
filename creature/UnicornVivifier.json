@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/UnicornVivifier/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 180,
+  "item": 92,
+  "lore": "Although they cannot speak, Unicorns are able to communicate by evoking small sensations and images in the minds of others.\\n\\nMany Magi have studied the power of the Vivifier, trying to figure out the secrets of resurrection without much success. Indeed, even its ability to give life to the dead is quite limited, as it does not work on those whose body has been completely destroyed, or those who have been dead for a few minutes.",
+  "menagerieDialog": [
+    "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
+    "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
+    "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
+    "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
+    "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
+  ],
+  "minDepth": 1,
+  "name": "Unicorn Vivifier",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnicornVivifier/overworld_e0.png",
+      "images/creature/UnicornVivifier/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnicornVivifier/overworld_n0.png",
+      "images/creature/UnicornVivifier/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnicornVivifier/overworld_s0.png",
+      "images/creature/UnicornVivifier/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnicornVivifier/overworld_w0.png",
+      "images/creature/UnicornVivifier/overworld_w1.png"
+    ]
+  },
+  "race": "Unicorn",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    }
+  ],
+  "specializations": [
+    10
+  ],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 17,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 22
+  },
+  "trait": 1253
+}

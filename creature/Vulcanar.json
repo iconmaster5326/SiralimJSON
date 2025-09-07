@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Vulcanar/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": false,
+  "god": 4,
+  "id": 736,
+  "item": null,
+  "lore": "The God of Fire is the biggest prankster of the Gods. Torun hates his attitude, and they have developed a certain rivalry over the years, though Vulcanar has never taken it too seriously. When Vulcanar created the Pandemonium Tokens, he included the possibility of summoning Torun just to annoy him. Throughout history, many creatures have tried to overthrow the Elemental King. However, they never succeed, and its inhabitants now understand that he is the one and only ruler of the underworld.",
+  "menagerieDialog": [
+    "(Vulcanar attempts to give you a fist bump, which you promptly ignore.)",
+    "(Vulcanar flexes his magma-formed muscles. No one seems to be particularly impressed.)",
+    "No one stands a chance against the two of us, trust me!",
+    "What do you say we get out of here and do something exciting for a change? Let\u0027s kill some things!",
+    "I hate to sound impatient, but don\u0027t we have somewhere to go? I can only sit around for so long before I get bored, you know."
+  ],
+  "minDepth": 1,
+  "name": "Vulcanar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Vulcanar/overworld_e0.png",
+      "images/creature/Vulcanar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Vulcanar/overworld_n0.png",
+      "images/creature/Vulcanar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Vulcanar/overworld_s0.png",
+      "images/creature/Vulcanar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Vulcanar/overworld_w0.png",
+      "images/creature/Vulcanar/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    370,
+    415
+  ],
+  "sources": [
+    {
+      "god": 4,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 612
+}

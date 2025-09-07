@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ExplosiveCataclysm/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1419,
+  "item": 1754,
+  "lore": "Many nations, including Siralim, have harsh laws against creating Cataclysms.\\n\\nThe destruction caused by the Explosive Cataclysm is similar to its counterparts\u00E2\u20AC\u201Deverything nearby explodes. Extreme caution is advised.",
+  "menagerieDialog": [
+    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+    "I am the storm that ends worlds. Point me at our foes!",
+    "The secrets of the universe flow through me. What would you like to know?",
+    "The elements themselves bend to my will. No force can harm me!",
+    "(It\u0027s swirling violently, barely contained within its form.)"
+  ],
+  "minDepth": 1,
+  "name": "Explosive Cataclysm",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ExplosiveCataclysm/overworld_e0.png",
+      "images/creature/ExplosiveCataclysm/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ExplosiveCataclysm/overworld_n0.png",
+      "images/creature/ExplosiveCataclysm/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ExplosiveCataclysm/overworld_s0.png",
+      "images/creature/ExplosiveCataclysm/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ExplosiveCataclysm/overworld_w0.png",
+      "images/creature/ExplosiveCataclysm/overworld_w1.png"
+    ]
+  },
+  "race": "Cataclysm",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 28,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 22
+  },
+  "trait": 2107
+}

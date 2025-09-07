@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/AerumRiftDancer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 370,
+  "item": 143,
+  "lore": "Some people believe the existence of Rift Dancers is linked to the Gods\u0027 role in the creation of this world, but the legendary Mage Milner, originally from Vanelin, disproved this claim by finding a correlation between the number of Rift Dancer appearances and the bloodiest battles in the Unification War.\\n\\nAerum Rift Dancers appear mostly in high mountains, looking for strong air currents with which to travel from one peak to another, perhaps yearning for some peculiarity of their place of origin.",
+  "menagerieDialog": [
+    "(For a Rift Dancer, it\u0027s not very active.)",
+    "(It keeps trying, without any success at all, to get you to dance with it.)",
+    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+  ],
+  "minDepth": 1,
+  "name": "Aerum Rift Dancer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AerumRiftDancer/overworld_e0.png",
+      "images/creature/AerumRiftDancer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AerumRiftDancer/overworld_n0.png",
+      "images/creature/AerumRiftDancer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AerumRiftDancer/overworld_s0.png",
+      "images/creature/AerumRiftDancer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AerumRiftDancer/overworld_w0.png",
+      "images/creature/AerumRiftDancer/overworld_w1.png"
+    ]
+  },
+  "race": "Rift Dancer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 15,
+    "health": 35,
+    "intelligence": 15,
+    "speed": 25
+  },
+  "trait": 53
+}

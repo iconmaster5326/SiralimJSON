@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/OlNog/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1308,
+  "item": 1684,
+  "lore": "Goblins from Litepo Island remained cut off from the world for millennia. Legend says they came after a slave ship sank, but it\u0027s uncertain whether they were the only ones who survived. Since there were no big animals around, they learned to hunt by hurling stones and sticks at small creatures like rodents, fish, and birds to get meat. Eventually, they created a weapon that was not only highly accurate and lethal but also returned to the thrower\u0027s hand by itself.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Ol\u0027 Nog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OlNog/overworld_e0.png",
+      "images/creature/OlNog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OlNog/overworld_n0.png",
+      "images/creature/OlNog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OlNog/overworld_s0.png",
+      "images/creature/OlNog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OlNog/overworld_w0.png",
+      "images/creature/OlNog/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 24,
+    "defense": 18,
+    "health": 34,
+    "intelligence": 18,
+    "speed": 16
+  },
+  "trait": 2026
+}

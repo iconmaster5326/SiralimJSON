@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/AtlasBeacon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1255,
+  "item": 1620,
+  "lore": "The Beacons are fairies that protect a forest located in between four mountains to the north of Siralim, making it difficult to access.\\n\\nThe wings of the Atlas Beacon are always engulfed in flames. However, the fire this creature produces does not affect the fauna and flora of its habitat at all. When it attacks, it spins on itself, turning into a deadly whirlwind of fire.",
+  "menagerieDialog": [
+    "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
+    "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
+    "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
+    "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
+    "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
+  ],
+  "minDepth": 1,
+  "name": "Atlas Beacon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AtlasBeacon/overworld_e0.png",
+      "images/creature/AtlasBeacon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AtlasBeacon/overworld_n0.png",
+      "images/creature/AtlasBeacon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AtlasBeacon/overworld_s0.png",
+      "images/creature/AtlasBeacon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AtlasBeacon/overworld_w0.png",
+      "images/creature/AtlasBeacon/overworld_w1.png"
+    ]
+  },
+  "race": "Beacon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 18,
+    "health": 36,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1960
+}

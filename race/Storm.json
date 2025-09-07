@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(You feel your hair stand on end and hear the hum and crackle of electricity in the air as the Storm approaches! Get ready for a fight!)",
+    "Odd. Most humans usually run from me. You wanna fight? *KRA-BOOM*",
+    "Oh look, more future charcoal! *RUMBLE*"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 15% less damage from {CLASS_Nature} spells.",
+    "5": "Your creatures take 15% less damage from {CLASS_Nature} spells.",
+    "8": "Your creatures take 15% less damage from {CLASS_Nature} spells."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    690,
+    769
+  ],
+  "icon": "images/race/Storm.png",
+  "master": {
+    "costume": 399,
+    "dialog": "Storms are at their strongest when they\u0027re completely healthy. Admittedly, they lose a lot of their power early on in battle, but luckily for me, my Storms will finish off your creatures before that happens!",
+    "item": 1217,
+    "name": "Stromblad",
+    "trait": 1502
+  },
+  "name": "Storm",
+  "notes": [],
+  "skins": [
+    336,
+    337,
+    720
+  ]
+}

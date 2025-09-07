@@ -1,0 +1,51 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "chaos",
+  "creator": null,
+  "description": "Your creatures gain a large amount of {STAT_attack} and their classes become {CLASS_Chaos} until the end of battle.",
+  "god": null,
+  "id": 127,
+  "manuallyCastable": true,
+  "maxCharges": 4,
+  "name": "Morph: Chaos",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY",
+    "BOOST"
+  ],
+  "targets": "allies"
+}

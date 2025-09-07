@@ -1,0 +1,62 @@
+{
+  "battleSprite": "images/creature/Tanukrook/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 792,
+  "item": 1061,
+  "lore": "There are stories in the towns around the forests of Undolim about a creature that feeds on naughty children. Long ago, a rebellious little girl decided to put an end to that old wives\u0027 tale by entering the forest with her friends. At nightfall, she led them down a path among the trees, waited for them to get lost and hid herself. She would end the stories, yes, but why not give them a good scare first? Her friends, frightened, began to call her in increasingly loud voices. When they were just about to panic, the girl dropped from a tree and roared as if she were a ferocious beast. Her friends turned around, but their reaction was not what she expected. They looked pale and were paralyzed by fear, looking in the girl\u0027s direction but not at her. Her heart sank as she slowly turned around and met the ghostly eyes of the Tanukrook.",
+  "menagerieDialog": [
+    "(It seems to dislike being around other creatures...)",
+    "(Its jaws are wide open, as if it were roaring, but there\u0027s no sound. Or perhaps it\u0027s at a frequency you can\u0027t hear.)",
+    "(This creature\u0027s keen sense of smell could be vital in warning you of potential danger.)",
+    "(It\u0027s sniffing the air enthusiastically. Perhaps Everett is cooking yet another one of his admittedly mediocre meals.)",
+    "(It\u0027s stomping at the ground nervously.)"
+  ],
+  "minDepth": 1,
+  "name": "Tanukrook",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Tanukrook/overworld_e0.png",
+      "images/creature/Tanukrook/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Tanukrook/overworld_n0.png",
+      "images/creature/Tanukrook/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Tanukrook/overworld_s0.png",
+      "images/creature/Tanukrook/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Tanukrook/overworld_w0.png",
+      "images/creature/Tanukrook/overworld_w1.png"
+    ]
+  },
+  "race": "Tanukrook",
+  "reserved": false,
+  "skins": [
+    561,
+    562,
+    563,
+    564,
+    565
+  ],
+  "sources": [
+    {
+      "desc": "Nether Realm",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 19,
+    "health": 31,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 1044
+}

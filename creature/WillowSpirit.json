@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/WillowSpirit/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 264,
+  "item": 103,
+  "lore": "The Willow Spirits appeared in the meadows and forests after the humans brought their magic to them. They appeared before Nature Magi were recognized as a specialized branch. They are the protectors of the forest, who watch over the lives of all the beings that inhabit it. However, they cannot tell apart the threats to the forest from its protectors, so they simply heal the warrior with more wounds.",
+  "menagerieDialog": [
+    "(Something about this creature\u0027s presence is particularly comforting.)",
+    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+  ],
+  "minDepth": 1,
+  "name": "Willow Spirit",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WillowSpirit/overworld_e0.png",
+      "images/creature/WillowSpirit/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WillowSpirit/overworld_n0.png",
+      "images/creature/WillowSpirit/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WillowSpirit/overworld_s0.png",
+      "images/creature/WillowSpirit/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WillowSpirit/overworld_w0.png",
+      "images/creature/WillowSpirit/overworld_w1.png"
+    ]
+  },
+  "race": "Spirit",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 18,
+    "health": 37,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 12
+}

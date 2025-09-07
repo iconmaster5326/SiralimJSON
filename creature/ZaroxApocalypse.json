@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ZaroxApocalypse/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 439,
+  "item": 372,
+  "lore": "Apocalypses lack the senses of sight, hearing and taste. Instead, they can clearly detect any souls within a mile of them. They can also detect obstacles through the vibrations their own steps produce and their impeccable sense of touch.",
+  "menagerieDialog": [
+    "(Is it really sleeping at a time like this?)",
+    "(It\u0027s rearing its heads around in circles. At this rate, it\u0027s going to break something.)",
+    "(You were always terrified of these creatures as a child, and with good reason. Each head sways around unpredictably, and you constantly struggle to understand its intentions.)",
+    "(Its many heads often get into arguments with each other. It must be tough being an Apocalypse.)",
+    "(All of its heads are swaying around in little circles. You should probably have Nortah check it out and make sure it\u0027s not sick.)"
+  ],
+  "minDepth": 1,
+  "name": "Zarox Apocalypse",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ZaroxApocalypse/overworld_e0.png",
+      "images/creature/ZaroxApocalypse/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ZaroxApocalypse/overworld_n0.png",
+      "images/creature/ZaroxApocalypse/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ZaroxApocalypse/overworld_s0.png",
+      "images/creature/ZaroxApocalypse/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ZaroxApocalypse/overworld_w0.png",
+      "images/creature/ZaroxApocalypse/overworld_w1.png"
+    ]
+  },
+  "race": "Apocalypse",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 37,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 288
+}

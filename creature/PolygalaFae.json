@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PolygalaFae/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1216,
+  "item": 1671,
+  "lore": "Inside Yataka lie the Fae Lands, a dimension inhabited by fairies and other magical creatures. It\u0027s obviously much bigger on the inside than it is on the outside, and nothing has come in or out in all of history so far\\n\\nAlthough their wings are blue, the trace left behind by the Polygala Fae is purple. These creatures can jump so high that they don\u0027t need to fly to move at high speeds, especially if there is enough vegetation. For this reason, they also find it easier to attack their enemies without being detected, since they do not leave a trail behind them, and the sound of their wings flapping cannot be heard.",
+  "menagerieDialog": [
+    "(The Fae are singing in unison, much to the dismay of your other creatures.)",
+    "(The Fae are currently engaged in a rousing game of tag. You can\u0027t really tell who\u0027s winning, of course, since they all look alike.)",
+    "(Each Fae is making a rude gesture at you. One is sticking her tongue out, while another is proudly showing off her middle finger. Are they unaware that you could squash them like bugs?)",
+    "(Upon your approach, one of the Fae pulls another\u0027s wings off. Luckily, these creatures seem to reproduce quickly enough that they\u0027re expendable.)",
+    "(They\u0027re all making obnoxious giggling sounds. You soon realize they\u0027re mocking you.)"
+  ],
+  "minDepth": 1,
+  "name": "Polygala Fae",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PolygalaFae/overworld_e0.png",
+      "images/creature/PolygalaFae/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PolygalaFae/overworld_n0.png",
+      "images/creature/PolygalaFae/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PolygalaFae/overworld_s0.png",
+      "images/creature/PolygalaFae/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PolygalaFae/overworld_w0.png",
+      "images/creature/PolygalaFae/overworld_w1.png"
+    ]
+  },
+  "race": "Fae",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 13,
+    "health": 21,
+    "intelligence": 21,
+    "speed": 23
+  },
+  "trait": 1996
+}

@@ -1,0 +1,58 @@
+{
+  "battleSprite": "images/creature/Nguruvilu/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1137,
+  "item": 1657,
+  "lore": "Lake Kalazan makes up a large part of the kingdom of Andolin. There begins the life cycle of the creatures called Nguruvilu. When they reach maturity, most of them descend the Sevinor River and travel to other regions. They hide under the water, motionless, waiting for prey to pass over them \u00E2\u20AC\u201D unless they detect magic. The presence of a Mage or a magical beast pushes them to the surface, as their scent is irresistible to them.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Nguruvilu",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Nguruvilu/overworld_e0.png",
+      "images/creature/Nguruvilu/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Nguruvilu/overworld_n0.png",
+      "images/creature/Nguruvilu/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Nguruvilu/overworld_s0.png",
+      "images/creature/Nguruvilu/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Nguruvilu/overworld_w0.png",
+      "images/creature/Nguruvilu/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    27
+  ],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 1860
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/NixCreeper/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 566,
+  "item": 696,
+  "lore": "The Nixes are an intelligent species that lives in underground cities. At present, they are not at war with any other.\\n\\nSome Nixes are known to leave no trace after a murder. In the surface lands they are called Nix Creepers. They can sneak into well-protected mansions, bypassing any security in the gardens and corridors without being discovered. The next morning, everything will remain intact except for their target, which will have become a corpse.",
+  "menagerieDialog": [
+    "Leave me alone. I must rest before we venture forth into a new Realm.",
+    "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
+    "I hear you\u0027ve got a problem that needs solved.",
+    "My blade is ready. Let\u0027s assassinate some kings.",
+    "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
+  ],
+  "minDepth": 1,
+  "name": "Nix Creeper",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/NixCreeper/overworld_e0.png",
+      "images/creature/NixCreeper/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/NixCreeper/overworld_n0.png",
+      "images/creature/NixCreeper/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/NixCreeper/overworld_s0.png",
+      "images/creature/NixCreeper/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/NixCreeper/overworld_w0.png",
+      "images/creature/NixCreeper/overworld_w1.png"
+    ]
+  },
+  "race": "Nix",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 15,
+    "health": 28,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 634
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/CursedEffigy/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1276,
+  "item": 1785,
+  "lore": "Effigies have the advantage of never needing to eat or rest, making them stand out from other creatures. On top of that, they\u0027re immune to every virus and bacteria known to exist. But their weakness lies in fungal parasites. If not caught quickly, an Effigy can lose its identity overnight, becoming a hollow shell with no emotions, memories, or will of its own.",
+  "menagerieDialog": [
+    "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
+    "Feel the pinprick of my needles! Your pain is my pleasure!",
+    "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
+    "Strike me all you want - your pain will be reflected back tenfold!",
+    "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
+  ],
+  "minDepth": 1,
+  "name": "Cursed Effigy",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CursedEffigy/overworld_e0.png",
+      "images/creature/CursedEffigy/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CursedEffigy/overworld_n0.png",
+      "images/creature/CursedEffigy/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CursedEffigy/overworld_s0.png",
+      "images/creature/CursedEffigy/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CursedEffigy/overworld_w0.png",
+      "images/creature/CursedEffigy/overworld_w1.png"
+    ]
+  },
+  "race": "Effigy",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 2138
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SoulflayerDepriver/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 899,
+  "item": 971,
+  "lore": "When Gloom managed to enter the realms of her five friends, she found a way to let them communicate with each other, greatly easing the loneliness that had invaded their hearts.\\n\\nSoulflayer councils are made up of their wisest members, and generally have several Overlords. If the issue at hand is complex and requires extra attention, the Soulflayer Deprivers delay the need for these creatures to sleep so they can solve it as soon as possible. Before a battle, Soulflayer Deprivers infiltrate the enemy\u0027s ranks and prevent them from falling asleep so they are drowsy and exhausted when they go to battle.",
+  "menagerieDialog": [
+    "The flora and fauna of your world are remarkably diverse.",
+    "I hunger for more souls. Let us depart at once!",
+    "(Something about this creature seems incredibly familiar.)",
+    "There is a traitor in our midst. His name is Nortah.",
+    "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
+  ],
+  "minDepth": 1,
+  "name": "Soulflayer Depriver",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SoulflayerDepriver/overworld_e0.png",
+      "images/creature/SoulflayerDepriver/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SoulflayerDepriver/overworld_n0.png",
+      "images/creature/SoulflayerDepriver/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SoulflayerDepriver/overworld_s0.png",
+      "images/creature/SoulflayerDepriver/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SoulflayerDepriver/overworld_w0.png",
+      "images/creature/SoulflayerDepriver/overworld_w1.png"
+    ]
+  },
+  "race": "Soulflayer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 18,
+    "health": 30,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 1159
+}

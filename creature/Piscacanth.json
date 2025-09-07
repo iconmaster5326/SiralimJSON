@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Piscacanth/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1129,
+  "item": 1649,
+  "lore": "The only freshwater-dwelling Piscacanth is the one classified as number 18. They are fast and stealthy, capable of tunneling into the bed of the great Zayte, a huge lake far from Rodia. They can hibernate for long periods of time without feeding. Three months before Sapphire Drake egg-laying season, they hide under the bedrock of this huge lake and emerge when the eggs hatch to devour the young, becoming the main predators of these creatures.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Piscacanth",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Piscacanth/overworld_e0.png",
+      "images/creature/Piscacanth/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Piscacanth/overworld_n0.png",
+      "images/creature/Piscacanth/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Piscacanth/overworld_s0.png",
+      "images/creature/Piscacanth/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Piscacanth/overworld_w0.png",
+      "images/creature/Piscacanth/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1852
+}

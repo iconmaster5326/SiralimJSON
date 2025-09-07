@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/PulseBat/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 108,
+  "item": 290,
+  "lore": "Their main means of orientation are the electromagnetic waves they emit automatically at all times. They prefer to hunt at night, when most animals are asleep, stealthily approaching them to suck their blood. According to biologist Sprung Helthar, they are extremely aggressive during the mating season, as their mating ritual consists of biting and clawing at each other to demonstrate their strength, and they only procreate when they find an equally strong partner.",
+  "menagerieDialog": [
+    "(It gently nuzzles you, which is quite discomforting considering it\u0027s a Bat.)",
+    "(It tries to nip at anyone who gets too close, including you. So moody!)",
+    "(Everett claims this creature can read, which cements your opinion that he is extremely weird.)",
+    "(It moves just a little too fast for your liking. It\u0027s unsettling.)",
+    "(It\u0027s fiddling with a piece of lint it stole from your pocket earlier.)"
+  ],
+  "minDepth": 1,
+  "name": "Pulse Bat",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PulseBat/overworld_e0.png",
+      "images/creature/PulseBat/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PulseBat/overworld_n0.png",
+      "images/creature/PulseBat/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PulseBat/overworld_s0.png",
+      "images/creature/PulseBat/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PulseBat/overworld_w0.png",
+      "images/creature/PulseBat/overworld_w1.png"
+    ]
+  },
+  "race": "Bat",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 6,
+      "type": "realm"
+    },
+    {
+      "realm": 10,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 13,
+    "health": 27,
+    "intelligence": 12,
+    "speed": 28
+  },
+  "trait": 206
+}

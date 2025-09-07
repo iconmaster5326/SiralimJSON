@@ -1,0 +1,29 @@
+{
+  "avatar": 738,
+  "creator": null,
+  "icon": "images/god/Vertraag.png",
+  "id": 12,
+  "name": "Vertraag",
+  "notes": [],
+  "realm": 14,
+  "relicBigIcon": "images/relic/Blazefury/relic.png",
+  "relicBonuses": [
+    "After the bearer {ACTION_attacks} or {ACTION_casts} a single-target spell on an enemy, this relic {ACTION_attacks} that enemy.",
+    "After this relic {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_BURNED}.",
+    "The bearer is healed instead of taking damage from {CONDNAME_DEBUFF_BURNED}.",
+    "At the start of battle, this relic afflicts its bearer with {CONDNAME_DEBUFF_BURNED}.",
+    "After the bearer takes damage from an attack or spell, the enemy takes damage equal to 1 turn of the bearer\u0027s {CONDNAME_DEBUFF_BURNED} debuff.",
+    "The bearer deals 10% additional damage for each enemy afflicted with {CONDNAME_DEBUFF_BURNED}.",
+    "After the bearer deals damage to an enemy with an attack or spell, the enemy takes additional damage equal to 1 turn of the bearer\u0027s {CONDNAME_DEBUFF_BURNED} debuff.",
+    "After the bearer is killed, it deals damage to enemies equal to 5 turns of its {CONDNAME_DEBUFF_BURNED} debuff.",
+    "This relic and its bearer deal additional damage to enemies equal to 10% of the damage they\u0027ve taken from {CONDNAME_DEBUFF_BURNED} in the current battle.",
+    "After the bearer is killed, it is resurrected with 20% {STAT_health} if it is afflicted with {CONDNAME_DEBUFF_BURNED}. This effect can activate a maximum of 3 times per battle."
+  ],
+  "relicName": "Blazefury",
+  "relicSmallIcon": "images/relic/Blazefury/icon.png",
+  "relicStat": "intelligence",
+  "relicTitle": "Mystic Orbs of Vertraag",
+  "title": "God of Time",
+  "trait": 683,
+  "ultimateSpell": 216
+}

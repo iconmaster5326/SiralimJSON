@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/BloodfangGargoyle/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 233,
+  "item": 311,
+  "lore": "In the beginning, Gargoyles were just sculptures that adorned temples in the big cities and served to drain their roofs. Nowadays, they are guardians of the night that keep the citizens safe from evil creatures.\\n\\nBloodfang Gargoyles can change colors to look like ordinary sculptures. As the inhabitants of Rodia have learned that not all carvings are what they seem, many warriors have begun to destroy them preemptively, causing a great damage to the country\u0027s cultural heritage.",
+  "menagerieDialog": [
+    "Is everything alright, my liege?",
+    "You drool in your sleep.",
+    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+    "(This creature could easily be mistaken for a statue.)"
+  ],
+  "minDepth": 1,
+  "name": "Bloodfang Gargoyle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BloodfangGargoyle/overworld_e0.png",
+      "images/creature/BloodfangGargoyle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BloodfangGargoyle/overworld_n0.png",
+      "images/creature/BloodfangGargoyle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BloodfangGargoyle/overworld_s0.png",
+      "images/creature/BloodfangGargoyle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BloodfangGargoyle/overworld_w0.png",
+      "images/creature/BloodfangGargoyle/overworld_w1.png"
+    ]
+  },
+  "race": "Gargoyle",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 22,
+      "type": "realm"
+    },
+    {
+      "realm": 26,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 22,
+    "health": 33,
+    "intelligence": 23,
+    "speed": 17
+  },
+  "trait": 227
+}

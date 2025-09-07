@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SoulflayerDrone/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 900,
+  "item": 972,
+  "lore": "Vyre, skilled with the blade, worked for the Auditors under the name of Dawn, while Sevalah, a scholar of magic and a powerful sorceress, was known among its members as Gloom.\\n\\nRodia\u0027s authorities consider the arrival of the Soulflayers a great threat, due to their thirst for power which generally creates discord among the other species.\\n\\nDuring a raid, the Soulflayer Drone flies over its target, casting spells left and right in order to prevent the defender from noticing the true threat.",
+  "menagerieDialog": [
+    "The flora and fauna of your world are remarkably diverse.",
+    "I hunger for more souls. Let us depart at once!",
+    "(Something about this creature seems incredibly familiar.)",
+    "There is a traitor in our midst. His name is Nortah.",
+    "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
+  ],
+  "minDepth": 1,
+  "name": "Soulflayer Drone",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SoulflayerDrone/overworld_e0.png",
+      "images/creature/SoulflayerDrone/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SoulflayerDrone/overworld_n0.png",
+      "images/creature/SoulflayerDrone/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SoulflayerDrone/overworld_s0.png",
+      "images/creature/SoulflayerDrone/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SoulflayerDrone/overworld_w0.png",
+      "images/creature/SoulflayerDrone/overworld_w1.png"
+    ]
+  },
+  "race": "Soulflayer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 30,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 1160
+}

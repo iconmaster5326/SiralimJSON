@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/PipeOrgan/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 103,
+  "name": "Pipe Organ",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/PipeOrgan/overworld_e0.png",
+      "images/skin/PipeOrgan/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/PipeOrgan/overworld_n0.png",
+      "images/skin/PipeOrgan/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/PipeOrgan/overworld_s0.png",
+      "images/skin/PipeOrgan/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/PipeOrgan/overworld_w0.png",
+      "images/skin/PipeOrgan/overworld_w1.png"
+    ]
+  },
+  "race": "Bard",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

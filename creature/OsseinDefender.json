@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/OsseinDefender/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 873,
+  "item": 999,
+  "lore": "Even though the body of an Ossein is made entirely of bone, they possess extraordinary toughness due to the nature of the creature from whom they emerged. This is more noticeable in the case of the Ossein Defenders, since they often choose to block their enemies\u0027 blows. No matter how many spells, arrows and blades strike its shield, it is never damaged at the end of a fight.",
+  "menagerieDialog": [
+    "(It\u0027s completely still. It must be sleeping.)",
+    "(It makes an oddly-satisfying crunching noise whenever it moves its limbs.)",
+    "HELLOOOOOOOOOOOOOOOO.\\n\\n(You were sure that only Giran talked this way, but apparently, this is just how Osseins communicate.)",
+    "(Its body is so hard and jagged that striking it with your bare fists would most certainly break your bones.)",
+    "(It often looks toward the sky, dumbounded. Perhaps you should try to summon a smarter Ossein next time around.)"
+  ],
+  "minDepth": 1,
+  "name": "Ossein Defender",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OsseinDefender/overworld_e0.png",
+      "images/creature/OsseinDefender/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OsseinDefender/overworld_n0.png",
+      "images/creature/OsseinDefender/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OsseinDefender/overworld_s0.png",
+      "images/creature/OsseinDefender/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OsseinDefender/overworld_w0.png",
+      "images/creature/OsseinDefender/overworld_w1.png"
+    ]
+  },
+  "race": "Ossein",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 14,
+    "defense": 17,
+    "health": 39,
+    "intelligence": 17,
+    "speed": 22
+  },
+  "trait": 1139
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Mathemagician/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1143,
+  "item": 1663,
+  "lore": "The development of magic includes the study of complicated mathematical equations, in addition to knowledge of physics and astrology. However, some species such as goblins are able to simplify the magic-learning process by focusing only on mathematics at the cost of outputting clearly inferior power. However, the speed with which they are able to start casting spells is much higher, specifically 5 times faster than most humans.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Mathemagician",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Mathemagician/overworld_e0.png",
+      "images/creature/Mathemagician/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Mathemagician/overworld_n0.png",
+      "images/creature/Mathemagician/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Mathemagician/overworld_s0.png",
+      "images/creature/Mathemagician/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Mathemagician/overworld_w0.png",
+      "images/creature/Mathemagician/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 12,
+    "defense": 12,
+    "health": 32,
+    "intelligence": 27,
+    "speed": 22
+  },
+  "trait": 1866
+}

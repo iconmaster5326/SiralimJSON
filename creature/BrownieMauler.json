@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BrownieMauler/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 162,
+  "item": 543,
+  "lore": "Brownies took their freedom by force, triggering a series of social changes in human civilizations that ended with abolition of slavery in what would later be known as Rodia.\\n\\nBrownie Maulers are the most reckless in battle. Trained from a young age, they handle the hammer with ease, spinning on themselves to hit several enemies at the same time. Many of them come from families that were affected by kidnapping and exploitation, and they have a deep resentment toward humans.",
+  "menagerieDialog": [
+    "Could we slow down a little, buddy?",
+    "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
+    "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
+    "(Both its weapon and its temper are comically oversized for its body.)",
+    "(Its annoying laughter haunts your nightmares.)"
+  ],
+  "minDepth": 1,
+  "name": "Brownie Mauler",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BrownieMauler/overworld_e0.png",
+      "images/creature/BrownieMauler/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BrownieMauler/overworld_n0.png",
+      "images/creature/BrownieMauler/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BrownieMauler/overworld_s0.png",
+      "images/creature/BrownieMauler/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BrownieMauler/overworld_w0.png",
+      "images/creature/BrownieMauler/overworld_w1.png"
+    ]
+  },
+  "race": "Brownie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 33,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 457
+}

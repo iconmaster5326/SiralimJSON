@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DestructionBanshee/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 254,
+  "item": 219,
+  "lore": "Before Erebyss became the Goddess of Darkness, another entity held that position. His purpose was to return the universe to its original state, but he failed. Banshees are not aggressive by nature, but they can be very dangerous when they feel threatened.\\n\\nWhen a Destruction Banshee screams, its hands become fireballs that it uses to defend itself. Ents are always very careful around them, as making one angry could mean the end of a forest.",
+  "menagerieDialog": [
+    "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
+    "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
+    "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
+    "Let my cries chill the living.",
+    "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
+  ],
+  "minDepth": 1,
+  "name": "Destruction Banshee",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DestructionBanshee/overworld_e0.png",
+      "images/creature/DestructionBanshee/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DestructionBanshee/overworld_n0.png",
+      "images/creature/DestructionBanshee/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DestructionBanshee/overworld_s0.png",
+      "images/creature/DestructionBanshee/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DestructionBanshee/overworld_w0.png",
+      "images/creature/DestructionBanshee/overworld_w1.png"
+    ]
+  },
+  "race": "Banshee",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Ariamaki)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 128
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ParanormalSlime/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 177,
+  "item": 462,
+  "lore": "Zonte convinced his teacher Ainsworth not to give the order to exterminate the Slimes, as they were relatively harmless.\\n\\nAt night, the Paranormal Slime slides inside a bedroom and gets close to a bed. There, it lights a candle and makes some noise. When the victims awake, they watch in horror as this creature waves its hands and tongue. Finally, the Paranormal Slime lets out a laugh and stumbles out of the house.",
+  "menagerieDialog": [
+    "(It has an extremely punchable expression on its face.)",
+    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+  ],
+  "minDepth": 1,
+  "name": "Paranormal Slime",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ParanormalSlime/overworld_e0.png",
+      "images/creature/ParanormalSlime/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ParanormalSlime/overworld_n0.png",
+      "images/creature/ParanormalSlime/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ParanormalSlime/overworld_s0.png",
+      "images/creature/ParanormalSlime/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ParanormalSlime/overworld_w0.png",
+      "images/creature/ParanormalSlime/overworld_w1.png"
+    ]
+  },
+  "race": "Slime",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 21,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 12
+  },
+  "trait": 376
+}

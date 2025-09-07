@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SubversiveVoidlord/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 849,
+  "item": 1021,
+  "lore": "Given Dragan\u0027s impeccable track record, it was a shock that Laglor, his last project, failed miserably. However, yet more enigmatic was what occurred afterwards, when he disappeared from the tower, and apparently from the whole world.\\n\\nThere is a limit to how many creatures a Voidlord can erase daily. This number is usually three, though it is believed to depend on the victim\u0027s size.\\n\\nThe Subversive Voidlord can compress its body to appear much smaller. It waits until it is surrounded, and when it is satisfied with the number of attackers, it unfolds its tentacles, rising like a terrifying monster. The less experienced fighters watch helplessly as the whirlwind of limbs oscillates in an unpredictable and frightful way, unable to defend themselves as a tentacle pierces their bodies.",
+  "menagerieDialog": [
+    "(You\u0027ll probably never get accustomed to being around this creature. Something about its demeanor gives you goosebumps.)",
+    "(You\u0027ll probably never be able to fully trust that this creature won\u0027t stab you in the back when you least expect it.)",
+    "(It can take on any shape it wants, and yet it seems to stubbornly maintain this one at all times.)",
+    "(You should really consider keeping this creature somewhere else. It frightens your citizens with its grim demeanor.)",
+    "(It watches you intently, waiting for your next command.)"
+  ],
+  "minDepth": 1,
+  "name": "Subversive Voidlord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SubversiveVoidlord/overworld_e0.png",
+      "images/creature/SubversiveVoidlord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SubversiveVoidlord/overworld_n0.png",
+      "images/creature/SubversiveVoidlord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SubversiveVoidlord/overworld_s0.png",
+      "images/creature/SubversiveVoidlord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SubversiveVoidlord/overworld_w0.png",
+      "images/creature/SubversiveVoidlord/overworld_w1.png"
+    ]
+  },
+  "race": "Voidlord",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 8,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 1113
+}

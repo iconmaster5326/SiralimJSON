@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Kavnak/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1141,
+  "item": 1661,
+  "lore": "Akimo Forest is riddled with curses due to a bloody battle that occurred there during the Unification War. To contain the magic in that place, Milner and other Magi performed a complex ritual that sealed all these curses within the trees. At night, the shape of a face appears on the trunks, then emerges from the bark to wander around, floating through the thick vegetation. They are not aggressive creatures, and they do not need to feed, but they will respond with full force to any attack.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "Kavnak",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Kavnak/overworld_e0.png",
+      "images/creature/Kavnak/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Kavnak/overworld_n0.png",
+      "images/creature/Kavnak/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Kavnak/overworld_s0.png",
+      "images/creature/Kavnak/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Kavnak/overworld_w0.png",
+      "images/creature/Kavnak/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 11,
+    "defense": 15,
+    "health": 31,
+    "intelligence": 26,
+    "speed": 20
+  },
+  "trait": 1864
+}

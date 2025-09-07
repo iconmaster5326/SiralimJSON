@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/CarverSadist/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 81,
+  "item": 356,
+  "lore": "This little fiend enjoys murdering creatures weaker than itself, especially if they are helpless. Sometimes it travels with a group so that it can face more powerful enemies, brandishing its two knives without concern for its teammates\u0027 safety. Do not expect an apology when the inevitable happens.",
+  "menagerieDialog": [
+    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+    "Come on, come on, come on! We\u0027ve killed very little today."
+  ],
+  "minDepth": 1,
+  "name": "Carver Sadist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/CarverSadist/overworld_e0.png",
+      "images/creature/CarverSadist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/CarverSadist/overworld_n0.png",
+      "images/creature/CarverSadist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/CarverSadist/overworld_s0.png",
+      "images/creature/CarverSadist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/CarverSadist/overworld_w0.png",
+      "images/creature/CarverSadist/overworld_w1.png"
+    ]
+  },
+  "race": "Carver",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 272
+}

@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Possessed/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 709,
+  "name": "Possessed",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Possessed/overworld_e0.png",
+      "images/skin/Possessed/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Possessed/overworld_n0.png",
+      "images/skin/Possessed/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Possessed/overworld_s0.png",
+      "images/skin/Possessed/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Possessed/overworld_w0.png",
+      "images/skin/Possessed/overworld_w1.png"
+    ]
+  },
+  "race": "Imp",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

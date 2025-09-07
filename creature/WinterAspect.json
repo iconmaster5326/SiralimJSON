@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/WinterAspect/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 105,
+  "item": 517,
+  "lore": "When the first snowflakes cover the land in white, this creature emerges from the snow with the help of its cane. Many people believe it causes blizzards and ruins the crops, so it is vehemently persecuted by villagers. In reality, its presence helps mitigate the intensity of these events. When attacked by humans, it tries to defend itself by making them slip without causing serious injuries.",
+  "menagerieDialog": [
+    "(Its eyes are closed, as if meditating.)",
+    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+    "(It is meditating. Better to leave it alone while it relaxes.)",
+    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+    "(Its fur is a total mess. You should have Nortah comb it soon.)"
+  ],
+  "minDepth": 1,
+  "name": "Winter Aspect",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/WinterAspect/overworld_e0.png",
+      "images/creature/WinterAspect/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/WinterAspect/overworld_n0.png",
+      "images/creature/WinterAspect/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/WinterAspect/overworld_s0.png",
+      "images/creature/WinterAspect/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/WinterAspect/overworld_w0.png",
+      "images/creature/WinterAspect/overworld_w1.png"
+    ]
+  },
+  "race": "Aspect",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Meraxis)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 14,
+    "health": 27,
+    "intelligence": 19,
+    "speed": 24
+  },
+  "trait": 431
+}

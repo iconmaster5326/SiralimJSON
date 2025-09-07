@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/MysticalFamiliar/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 521,
+  "item": 502,
+  "lore": "Created to assist Magi in their tasks, it wasn\u0027t long before they realized they had no real reason to devote their lives to serving their masters, and they rebelled, taking advantage of chaos during the Unification War. This is why they have little love for Magi.\\n\\nThe Mystical Familiar has an innate preference for quiet forests and creates its home inside thick tree trunks.",
+  "menagerieDialog": [
+    "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
+    "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
+    "Did you know that an Eft can live for up to 20 days without water?",
+    "(Its eyes scan its surroundings with innocent curiosity.)",
+    "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
+  ],
+  "minDepth": 1,
+  "name": "Mystical Familiar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MysticalFamiliar/overworld_e0.png",
+      "images/creature/MysticalFamiliar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MysticalFamiliar/overworld_n0.png",
+      "images/creature/MysticalFamiliar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MysticalFamiliar/overworld_s0.png",
+      "images/creature/MysticalFamiliar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MysticalFamiliar/overworld_w0.png",
+      "images/creature/MysticalFamiliar/overworld_w1.png"
+    ]
+  },
+  "race": "Familiar",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Zonte)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 26,
+    "speed": 16
+  },
+  "trait": 416
+}

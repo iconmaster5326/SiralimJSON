@@ -1,0 +1,38 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "life",
+  "creator": null,
+  "description": "Caster gains a random trait. This spell cannot be cast manually, but has a 50% chance to cast when the caster {ACTION_defends} or {ACTION_provokes}.",
+  "god": null,
+  "id": 249,
+  "manuallyCastable": false,
+  "maxCharges": 20,
+  "name": "Ascension",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    4,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "other"
+}

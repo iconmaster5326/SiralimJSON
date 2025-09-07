@@ -1,0 +1,29 @@
+{
+  "avatar": 739,
+  "creator": null,
+  "icon": "images/god/Torun.png",
+  "id": 13,
+  "name": "Torun",
+  "notes": [],
+  "realm": 15,
+  "relicBigIcon": "images/relic/Starwrath/relic.png",
+  "relicBonuses": [
+    "After the bearer {ACTION_defends}, this relic afflicts a random enemy with {CONDNAME_DEBUFF_CONFUSED}.",
+    "While the bearer is {ACTION_defending}, it cannot lose stats.",
+    "When an enemy with {CONDNAME_DEBUFF_CONFUSED} would gain stats, it has a 50% chance to lose stats instead.",
+    "At the end of the bearer\u0027s turn, this relic {ACTION_attacks} a random enemy with {CONDNAME_DEBUFF_CONFUSED}.",
+    "Enemies\u0027 {CONDNAME_DEBUFF_CONFUSED} debuffs have an independent 20% chance to activate.",
+    "While the bearer is {ACTION_defending}, enemies\u0027 {CONDNAME_DEBUFF_CONFUSED} debuffs have a 50% greater chance to activate.",
+    "When an enemy with {CONDNAME_DEBUFF_CONFUSED} would be healed, it has a 50% chance to take damage instead.",
+    "After this relic {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_CONFUSED}, the enemy {ACTION_attacks} itself.",
+    "While the bearer is {ACTION_defending}, it has a 10% chance to avoid damage.",
+    "Enemies have a 10% chance to {ACTION_attack} and {ACTION_cast} spells as if they have {CONDNAME_DEBUFF_CONFUSED} even if they don\u0027t have this debuff."
+  ],
+  "relicName": "Starwrath",
+  "relicSmallIcon": "images/relic/Starwrath/icon.png",
+  "relicStat": "defense",
+  "relicTitle": "SPARE BOOT OF TORUN",
+  "title": "God of the Sea",
+  "trait": 688,
+  "ultimateSpell": 299
+}

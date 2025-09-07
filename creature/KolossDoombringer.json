@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/KolossDoombringer/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 894,
+  "item": 979,
+  "lore": "Kolosses can forge other intelligent weapons out of certain materials found in Sanctum Umbra. However, this is a slow and complex process, so not all Kolosses can give life to others.\\n\\nThe Koloss Doombringer is the only one of its species that really needs an eye to see. This happens when an error is made during the forging or the conception of a new Koloss, and a permanent full projection is forced on the creature to prevent the flourishing consciousness from being destroyed.",
+  "menagerieDialog": [
+    "You go away now. Me sleep soon.",
+    "We go and kill now. Together, right now?",
+    "(It\u0027s busy polishing its weapon for the next battle.)",
+    "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
+    "(You can see the veins through its semi-transparent skin. Interesting.)"
+  ],
+  "minDepth": 1,
+  "name": "Koloss Doombringer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/KolossDoombringer/overworld_e0.png",
+      "images/creature/KolossDoombringer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/KolossDoombringer/overworld_n0.png",
+      "images/creature/KolossDoombringer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/KolossDoombringer/overworld_s0.png",
+      "images/creature/KolossDoombringer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/KolossDoombringer/overworld_w0.png",
+      "images/creature/KolossDoombringer/overworld_w1.png"
+    ]
+  },
+  "race": "Koloss",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 43,
+    "intelligence": 12,
+    "speed": 12
+  },
+  "trait": 1155
+}

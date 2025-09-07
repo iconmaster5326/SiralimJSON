@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(A quiet chittering soon turns into several shrieks, as a particularly large Bat on the ceiling summons its friends to attack you!)",
+    "(A very large Bat drops down from the ceiling and covers the treasure hoard with its wings, hissing loudly. Looks like it\u0027s a fight!)",
+    "(You barely duck in time as the sound of leathery wings heralds a bat swooping down upon you. Your creatures immediately retaliate!)"
+  ],
+  "cardBonuses": {
+    "3": "Your creatures have 5% more {STAT_attack}.",
+    "6": "Your creatures have 5% more {STAT_attack}.",
+    "9": "Your creatures have 5% more {STAT_attack}."
+  },
+  "cards": 9,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    665,
+    998
+  ],
+  "icon": "images/race/Bat.png",
+  "master": {
+    "costume": 305,
+    "dialog": "Bats might not seem very dangerous on their own, but get enough of them together and you\u0027ll be in for a nasty surprise! Let\u0027s have a quick duel so I can show you!",
+    "item": 1169,
+    "name": "Batley",
+    "trait": 1406
+  },
+  "name": "Bat",
+  "notes": [],
+  "skins": [
+    265,
+    281,
+    639
+  ]
+}

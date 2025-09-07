@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Thylacine/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 611,
+  "item": null,
+  "lore": "This extraordinary creature was seen for the first time in the Refuge of the Magi. Its creator approached it and knelt to admire his success from up close. The Thylacine playfully put its paws on the Mage\u0027s chest, but instead they pierced him completely. By the time Zonte and Ainsworth reached the basement, there were no survivors. Only the Thylacine remained. Even for such skilled Magi, it was difficult to expel this creature from the tower.",
+  "menagerieDialog": [
+    "(It yawns and stretches into a downward dog position.)",
+    "Hiss... hiss!\\n(You do know you\u0027re not a cat, right?)",
+    "(It\u0027s running around in small circles, wiggling its ass for no reason. Yep, it\u0027s a hound all right.)",
+    "(It smells of dog sweat. You should tell Nortah to give it a bath before you leave.)",
+    "(It often scratches itself with one of its hind legs. Nortah should really check it for fleas.)"
+  ],
+  "minDepth": 1,
+  "name": "Thylacine",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Thylacine/overworld_e0.png",
+      "images/creature/Thylacine/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Thylacine/overworld_n0.png",
+      "images/creature/Thylacine/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Thylacine/overworld_s0.png",
+      "images/creature/Thylacine/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Thylacine/overworld_w0.png",
+      "images/creature/Thylacine/overworld_w1.png"
+    ]
+  },
+  "race": "Hound",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 149
+}

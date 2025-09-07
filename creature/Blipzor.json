@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Blipzor/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1350,
+  "item": 1771,
+  "lore": "Robodomi can learn from their experiences as they operate. It\u0027s helped them write books, compose music, and even come up with battle strategies.\\n\\nBlipzor was one of the first Robodomi prototypes ever made. At first, they exploded if they got even a little damaged because their energy core was so unstable. Over time, they became obsolete, but some engineering students made adjustments that helped stabilize the core to a degree.",
+  "menagerieDialog": [
+    "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
+    "Extermination protocols activated. Targets acquired.",
+    "My processors can calculate a million strategies per second. How may I assist you?",
+    "Shields at maximum. No damage can penetrate my defenses.",
+    "System overclocked. Operating at 250% efficiency."
+  ],
+  "minDepth": 1,
+  "name": "Blipzor",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Blipzor/overworld_e0.png",
+      "images/creature/Blipzor/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Blipzor/overworld_n0.png",
+      "images/creature/Blipzor/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Blipzor/overworld_s0.png",
+      "images/creature/Blipzor/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Blipzor/overworld_w0.png",
+      "images/creature/Blipzor/overworld_w1.png"
+    ]
+  },
+  "race": "Robodomi",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 26,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 28,
+    "health": 40,
+    "intelligence": 15,
+    "speed": 12
+  },
+  "trait": 2124
+}

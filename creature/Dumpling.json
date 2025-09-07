@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Dumpling/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 362,
+  "item": 610,
+  "lore": "Dumplings are extremely rare and peaceful creatures whose existence was doubted for a very long time. Great power can be obtained by eating them, and some believe that consuming their flesh can even grant extraordinary abilities such as immortality or telekinesis. They are very sociable and enjoy the company of other creatures, but their delicious appearance and the legends surrounding them often turn them into prey... if one can catch them before they flee.",
+  "menagerieDialog": [
+    "(It yawns, making a cute, squeaking sound in the process.)",
+    "(How can something so cute exist in a world like this?)",
+    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+    "(It blushes and giggles every time you come near it.)",
+    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+  ],
+  "minDepth": 1,
+  "name": "Dumpling",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Dumpling/overworld_e0.png",
+      "images/creature/Dumpling/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Dumpling/overworld_n0.png",
+      "images/creature/Dumpling/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Dumpling/overworld_s0.png",
+      "images/creature/Dumpling/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Dumpling/overworld_w0.png",
+      "images/creature/Dumpling/overworld_w1.png"
+    ]
+  },
+  "race": "Dumpling",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 43,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 524
+}

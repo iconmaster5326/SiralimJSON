@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Azural/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": 6,
+  "id": 728,
+  "item": null,
+  "lore": "Blizzards and frosts inspire fear and respect throughout the world. In the dawn of civilization, humans began to worship a God who did not exist. They implored him to placate the snowstorms and the cold, but their words were not heard. However, after the Watcher War, magic was unleashed for the first time on a scale that had never been seen before. And so, Azural opened his eyes on top of a frozen mountain. He never helps with the cold, but he enjoys watching travelers face its adversities.",
+  "menagerieDialog": [
+    "No, I\u0027m fine, really...\\n\\n(He\u0027s melting. You\u0027d think a god wouldn\u0027t run into problems like that, but here we are.)",
+    "Do you want to build a snowman? Come on, let\u0027s go and play!\\n\\nAhem, err - yes, what I meant to say was that I am eager to take leave and explore new realms.",
+    "(You can\u0027t look at Azural without remembering the time you got your tongue stuck to his altar.)",
+    "Great ambitions are never realized in the comfort of one\u0027s own castle.",
+    "Very few creatures can survive a single blow from my Wintermaul."
+  ],
+  "minDepth": 1,
+  "name": "Azural",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Azural/overworld_e0.png",
+      "images/creature/Azural/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Azural/overworld_n0.png",
+      "images/creature/Azural/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Azural/overworld_s0.png",
+      "images/creature/Azural/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Azural/overworld_w0.png",
+      "images/creature/Azural/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    354,
+    399,
+    430
+  ],
+  "sources": [
+    {
+      "god": 6,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 42,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 606
+}

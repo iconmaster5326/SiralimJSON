@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/MalignantSpirit/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 640,
+  "item": 877,
+  "lore": "When Tartarith became a God after his son\u0027s torture, he returned the pain he had caused him three times over. When Taylor exhaled his last breath, the Malignant Spirit emerged from his mouth and escaped the Torture Chamber. Since then, it restlessly travels the world in search of humans and other creatures. Its very presence is terrifying, and it only gets worse once it approaches. It can enter people\u0027s thoughts and bring out their fears and worries, not letting them disappear from their minds.",
+  "menagerieDialog": [
+    "(Something about this creature\u0027s presence is particularly comforting.)",
+    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+  ],
+  "minDepth": 1,
+  "name": "Malignant Spirit",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/MalignantSpirit/overworld_e0.png",
+      "images/creature/MalignantSpirit/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/MalignantSpirit/overworld_n0.png",
+      "images/creature/MalignantSpirit/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/MalignantSpirit/overworld_s0.png",
+      "images/creature/MalignantSpirit/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/MalignantSpirit/overworld_w0.png",
+      "images/creature/MalignantSpirit/overworld_w1.png"
+    ]
+  },
+  "race": "Spirit",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 18,
+    "health": 33,
+    "intelligence": 23,
+    "speed": 18
+  },
+  "trait": 904
+}

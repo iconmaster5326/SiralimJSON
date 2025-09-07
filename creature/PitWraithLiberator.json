@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PitWraithLiberator/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 269,
+  "item": 254,
+  "lore": "In order to create the Pit Wraiths, Vertraag did not spend a single drop of his power. Instead, he created gravitational waves in his dimension, which caused the Pit Wraiths to appear one by one in Eternity\u0027s End.\\n\\nThe Pit Wraith Liberator produces a temporal wave with its wings that slows down its enemies\u0027 movements. However, it is not very accurate, and it usually misses if the target is moving around the battlefield.",
+  "menagerieDialog": [
+    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+  ],
+  "minDepth": 1,
+  "name": "Pit Wraith Liberator",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PitWraithLiberator/overworld_e0.png",
+      "images/creature/PitWraithLiberator/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PitWraithLiberator/overworld_n0.png",
+      "images/creature/PitWraithLiberator/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PitWraithLiberator/overworld_s0.png",
+      "images/creature/PitWraithLiberator/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PitWraithLiberator/overworld_w0.png",
+      "images/creature/PitWraithLiberator/overworld_w1.png"
+    ]
+  },
+  "race": "Pit Wraith",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 13,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 15,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 12
+  },
+  "trait": 164
+}

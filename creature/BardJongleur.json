@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BardJongleur/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 543,
+  "item": 708,
+  "lore": "Bards are mute creatures, but they can activate the synapses of the brain of the people around them to transmit their music.\\n\\nIn the festivals of some villages, a Bard Jongleur is released to tell stories to the people. Although some Jongleurs have a great talent for music, the truth is that the joy and fun that comes from listening to them are also the fruit of their power.",
+  "menagerieDialog": [
+    "(A spell that allows telepathic communication was discovered in the Refuge of the Magi centuries ago after countless experiments were done on these creatures.)",
+    "(This creature has a peculiar habit of stimulating the minds of everyone around it. Right now, it\u0027s projecting some aggressive metal music into your brain.)",
+    "(Despite having no discernable facial features, you always find it easy to read this creature\u0027s mood.)",
+    "(It\u0027s playing a gentle song for your other creatures who are listening with rapt attention.)",
+    "(You can\u0027t help but wonder what it looks like without a robe on.)"
+  ],
+  "minDepth": 1,
+  "name": "Bard Jongleur",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BardJongleur/overworld_e0.png",
+      "images/creature/BardJongleur/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BardJongleur/overworld_n0.png",
+      "images/creature/BardJongleur/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BardJongleur/overworld_s0.png",
+      "images/creature/BardJongleur/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BardJongleur/overworld_w0.png",
+      "images/creature/BardJongleur/overworld_w1.png"
+    ]
+  },
+  "race": "Bard",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 12,
+    "health": 39,
+    "intelligence": 27,
+    "speed": 12
+  },
+  "trait": 647
+}

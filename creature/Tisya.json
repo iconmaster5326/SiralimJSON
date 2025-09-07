@@ -1,0 +1,59 @@
+{
+  "battleSprite": "images/creature/Tisya/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 713,
+  "item": 751,
+  "lore": "Many mistake Tisya for a Goddess, although in truth she is closely linked to them. Surathli and Erebyss created her shortly after the world\u0027s first cities were established, so that mortals could have an absolutely impartial and objective opinion to settle their conflicts. Her word is indisputable in every kingdom, but with the passage of centuries she began to ask for increasingly higher prices for her services, until, at present, hearing her verdict is a privilege very few can afford.",
+  "menagerieDialog": [
+    "(She\u0027s sound asleep. Perhaps you should give your creatures a bit more rest from now on.)",
+    "I would like to partake in a battle at the arena. Care to indulge my wishes?",
+    "Someday, perhaps I will show you my castle.\\n\\nYou could use some inspiration for your decorations, after all...",
+    "Dilly dally, shilly shally. Let\u0027s go!\\n\\n(Who the !@#$ says that?)",
+    "I\u0027d prefer to be left alone for now. I feel troubled, but I do not know the cause."
+  ],
+  "minDepth": 1,
+  "name": "Tisya",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Tisya/overworld_e0.png",
+      "images/creature/Tisya/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Tisya/overworld_n0.png",
+      "images/creature/Tisya/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Tisya/overworld_s0.png",
+      "images/creature/Tisya/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Tisya/overworld_w0.png",
+      "images/creature/Tisya/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    171,
+    463
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 19,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 798
+}

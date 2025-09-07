@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/HumilitasSanctus/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 406,
+  "item": 167,
+  "lore": "Together, Spielrein and Baker traveled the different kingdoms, guided by rumors about where Sins had manifested. Thanks to their skill as Magi, they managed to defeat the seven deadly Sins, and they gathered the fourteen items they needed.\\n\\nIt is uncommon to hear bleating in the large cities of Rodia. That is why panic ensues whenever the sound is heard. If a Humilitas Sanctus enters a city with two sheep on its hands, it never leaves it without having three.",
+  "menagerieDialog": [
+    "(You\u0027ve always found these sort of creatures unnerving.)",
+    "(It seems vengeful. The next few battles should be quite interesting.)",
+    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+    "(This creature would make an excellent mascot for {CASTLENAME}.)",
+    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+  ],
+  "minDepth": 1,
+  "name": "Humilitas Sanctus",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HumilitasSanctus/overworld_e0.png",
+      "images/creature/HumilitasSanctus/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HumilitasSanctus/overworld_n0.png",
+      "images/creature/HumilitasSanctus/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HumilitasSanctus/overworld_s0.png",
+      "images/creature/HumilitasSanctus/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HumilitasSanctus/overworld_w0.png",
+      "images/creature/HumilitasSanctus/overworld_w1.png"
+    ]
+  },
+  "race": "Sanctus",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 42,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 77
+}

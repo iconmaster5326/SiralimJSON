@@ -1,0 +1,46 @@
+{
+  "bossDialog": [
+    "Hee hoo hee hoo hay ha hoo? Hee hee hoo! HEE HO!\\n\\n...nah, just kidding. Still gonna kill you though.",
+    "Uuughh... too many feel-goods... AAH! A GIANT PINK DRAGON! ATTACK!! ATTACK!!!",
+    "You better get the hee hoo outta here before I hoo hay ha ho your hoo haa right off!"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures\u0027 {CLASS_Nature} spells deal 10% more damage.",
+    "5": "Your creatures\u0027 damaging {CLASS_Nature} spells ignore 10% of their enemies\u0027 {STAT_defense}.",
+    "8": "Your creatures\u0027 {CLASS_Nature} spells have 10% additional {STAT_charges}."
+  },
+  "cards": 8,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    709,
+    999
+  ],
+  "icon": "images/race/Imp.png",
+  "master": {
+    "costume": 350,
+    "dialog": "Imps are all about casting spells that belong to the Nature class. The more of these spells, they cast, the stronger they become. Imps are especially fond of a spell called Shellburst - erm, Shellbust. This spell can tear through even the heartiest of foes. Let me show you the power of Imps!",
+    "item": 1251,
+    "name": "Doctor Feelgood",
+    "trait": 1451
+  },
+  "name": "Imp",
+  "notes": [],
+  "skins": [
+    9,
+    10,
+    90,
+    91,
+    92,
+    515,
+    707,
+    708,
+    709
+  ]
+}

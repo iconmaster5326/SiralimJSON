@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Pumking/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 154,
+  "item": 418,
+  "lore": "Despite its threatening appearance, the Pumking does not enjoy fighting, and prefers to play practical jokes on the people around it. If, despite that, a Mage is determined to make this creature part of their team, having a considerable amount of sweets in their pantry is usually enough to keep its eccentricities at bay. Otherwise, they may wake up the next morning to find all their clothes replaced with bags of manure.",
+  "menagerieDialog": [
+    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+    "(It\u0027s... shadowboxing. Weird.)",
+    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+  ],
+  "minDepth": 1,
+  "name": "Pumking",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Pumking/overworld_e0.png",
+      "images/creature/Pumking/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Pumking/overworld_n0.png",
+      "images/creature/Pumking/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Pumking/overworld_s0.png",
+      "images/creature/Pumking/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Pumking/overworld_w0.png",
+      "images/creature/Pumking/overworld_w1.png"
+    ]
+  },
+  "race": "Golem",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Chaos Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 40,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 333
+}

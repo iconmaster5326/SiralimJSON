@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/Sludgechemist/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 914,
+  "item": 962,
+  "lore": "Venedon originally thought that Concoctions had no conscience. However, he discovered some time later that many of them grouped together and changed shape in front of each other, as if trying to communicate.\\n\\nThe Sludgechemist always carries a flask into which it pours part of its own substance. It is somehow able to change the nature of that piece of itself, producing different effects. To date, they are known to be able to make liquid soap, raspberry jelly and a hot sauce unsuited to beginners.",
+  "menagerieDialog": [
+    "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
+    "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
+    "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
+    "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
+    "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
+  ],
+  "minDepth": 1,
+  "name": "Sludgechemist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Sludgechemist/overworld_e0.png",
+      "images/creature/Sludgechemist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Sludgechemist/overworld_n0.png",
+      "images/creature/Sludgechemist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Sludgechemist/overworld_s0.png",
+      "images/creature/Sludgechemist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Sludgechemist/overworld_w0.png",
+      "images/creature/Sludgechemist/overworld_w1.png"
+    ]
+  },
+  "race": "Concoction",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 19,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 35,
+    "intelligence": 20,
+    "speed": 10
+  },
+  "trait": 1174
+}

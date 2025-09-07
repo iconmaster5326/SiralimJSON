@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SteelheartGargoyle/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1014,
+  "item": 1341,
+  "lore": "This creature is not really a Gargoyle, but an automaton that responds to the Auditors\u0027 orders. The barrier that protects the city of Ubi Concordia also hides it from view and magical scrying, although an extremely powerful Mage could bypass all these protections. If an intruder were to enter the city, the Steelheart Gargoyle would take flight and plummet on its target, spinning like a whirlwind to rip them apart with the edge of its pointed wings.",
+  "menagerieDialog": [
+    "Is everything alright, my liege?",
+    "You drool in your sleep.",
+    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+    "(This creature could easily be mistaken for a statue.)"
+  ],
+  "minDepth": 1,
+  "name": "Steelheart Gargoyle",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SteelheartGargoyle/overworld_e0.png",
+      "images/creature/SteelheartGargoyle/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SteelheartGargoyle/overworld_n0.png",
+      "images/creature/SteelheartGargoyle/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SteelheartGargoyle/overworld_s0.png",
+      "images/creature/SteelheartGargoyle/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SteelheartGargoyle/overworld_w0.png",
+      "images/creature/SteelheartGargoyle/overworld_w1.png"
+    ]
+  },
+  "race": "Gargoyle",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Sorcery Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 10,
+    "defense": 10,
+    "health": 39,
+    "intelligence": 25,
+    "speed": 25
+  },
+  "trait": 1587
+}

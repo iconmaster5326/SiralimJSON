@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SnowstingYeti/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 468,
+  "item": 475,
+  "lore": "When the rest of the Yetis freeze an enemy, this creature utters a guttural roar and charges with all its might in that direction. The spikes on its shoulders can pierce and break ice no matter how thick it is, causing serious injuries that, in the best of cases, leave the enemy unable to keep fighting. This is a useful skill when foraging, as there are many creatures trapped in the ice of the Frostbite Caverns that the Snowsting Yeti can easily extract.",
+  "menagerieDialog": [
+    "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
+    "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
+    "(It brings its face close to you and nudges its nose against yours. Ugh.)",
+    "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
+    "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
+  ],
+  "minDepth": 1,
+  "name": "Snowsting Yeti",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SnowstingYeti/overworld_e0.png",
+      "images/creature/SnowstingYeti/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SnowstingYeti/overworld_n0.png",
+      "images/creature/SnowstingYeti/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SnowstingYeti/overworld_s0.png",
+      "images/creature/SnowstingYeti/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SnowstingYeti/overworld_w0.png",
+      "images/creature/SnowstingYeti/overworld_w1.png"
+    ]
+  },
+  "race": "Yeti",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 16
+  },
+  "trait": 389
+}

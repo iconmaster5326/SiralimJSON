@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LichPriest/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 120,
+  "item": 204,
+  "lore": "It is said that the Lich Order is as old as Death Magic, although this is nothing more than hearsay. Its hordes of Priests can block the roads and attack cities alongside their superiors if nothing stops them. The touch of their hands can heat up armor until it burns the wearer, and they regenerate from any blow that does not destroy their skull, as if their bones were magnetized.",
+  "menagerieDialog": [
+    "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
+    "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
+    "Knowledge is power, and I have a lot.",
+    "The ancient evil survives.",
+    "We must seek out the Necronomicon. With it, my true power will be realized."
+  ],
+  "minDepth": 1,
+  "name": "Lich Priest",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LichPriest/overworld_e0.png",
+      "images/creature/LichPriest/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LichPriest/overworld_n0.png",
+      "images/creature/LichPriest/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LichPriest/overworld_s0.png",
+      "images/creature/LichPriest/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LichPriest/overworld_w0.png",
+      "images/creature/LichPriest/overworld_w1.png"
+    ]
+  },
+  "race": "Lich",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 4,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 13,
+    "defense": 13,
+    "health": 27,
+    "intelligence": 28,
+    "speed": 23
+  },
+  "trait": 113
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SoulflayerOverlord/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 901,
+  "item": 975,
+  "lore": "Gloom was the only agent in her group who did not ascend into godhood, but she challenged the Gods at their own game and managed to find a way to access the realms of her friends without needing to break the Rod of Ruin.\\n\\nSoulflayer Overlords are the leaders of their society, but their power is not absolute, and their decisions are not indisputable. In their councils, their words are heard and respected more than those of any other member, but the final decision must always be made unanimously.",
+  "menagerieDialog": [
+    "The flora and fauna of your world are remarkably diverse.",
+    "I hunger for more souls. Let us depart at once!",
+    "(Something about this creature seems incredibly familiar.)",
+    "There is a traitor in our midst. His name is Nortah.",
+    "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
+  ],
+  "minDepth": 1,
+  "name": "Soulflayer Overlord",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SoulflayerOverlord/overworld_e0.png",
+      "images/creature/SoulflayerOverlord/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SoulflayerOverlord/overworld_n0.png",
+      "images/creature/SoulflayerOverlord/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SoulflayerOverlord/overworld_s0.png",
+      "images/creature/SoulflayerOverlord/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SoulflayerOverlord/overworld_w0.png",
+      "images/creature/SoulflayerOverlord/overworld_w1.png"
+    ]
+  },
+  "race": "Soulflayer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 20,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 17,
+    "health": 32,
+    "intelligence": 22,
+    "speed": 17
+  },
+  "trait": 1163
+}

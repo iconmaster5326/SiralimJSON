@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DireWarhog/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1236,
+  "item": 1606,
+  "lore": "Even today, when a group of Asura goes on the attack, they usually take a few Warhogs with them.\\n\\nThe Dire Warhog is at its most dangerous when it charges, as orcs often equip blades on their tusks that can easily pierce through armor. These creatures move in their sleep much more often than any other Warhog, at times even getting up and unceremoniously ramming everything around them.",
+  "menagerieDialog": [
+    "(It\u0027s busy snorting and sniffing at the ground. Not exactly the smartest creature you\u0027ve ever met.)",
+    "(It\u0027s rolling around in a pile of what you hope is mud.)",
+    "(If your kingdom ever falls on hard times, Warhogs may prove useful in warding off the threat of famine.)",
+    "(It\u0027s proudly holding an apple in its mouth. You doubt it understands the irony of its actions.)",
+    "(Its tusks seem a bit dull. Nortah must be slacking off lately.)"
+  ],
+  "minDepth": 1,
+  "name": "Dire Warhog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DireWarhog/overworld_e0.png",
+      "images/creature/DireWarhog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DireWarhog/overworld_n0.png",
+      "images/creature/DireWarhog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DireWarhog/overworld_s0.png",
+      "images/creature/DireWarhog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DireWarhog/overworld_w0.png",
+      "images/creature/DireWarhog/overworld_w1.png"
+    ]
+  },
+  "race": "Warhog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Genaros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 16,
+    "health": 38,
+    "intelligence": 8,
+    "speed": 23
+  },
+  "trait": 1947
+}

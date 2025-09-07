@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/TheBearon/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1135,
+  "item": 1655,
+  "lore": "There is a forest near the northern edge of the Bronze Sea where a most unusual species of bears lives. They are intelligent, although they do not communicate with words but with gestures and grunts. Most live in cozy wooden houses and wear monocles and hats. When a house is left uninhabited for a while, they reuse its wood to build again. Although they never leave the forest in which they live, they have several clearings to which they go twice a week to trade goods with outsiders and other Bearons.",
+  "menagerieDialog": [
+    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+    "I am bound to serve you, but know that it is not by choice.",
+    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+    "Give me freedom, or give me death!"
+  ],
+  "minDepth": 1,
+  "name": "The Bearon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TheBearon/overworld_e0.png",
+      "images/creature/TheBearon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TheBearon/overworld_n0.png",
+      "images/creature/TheBearon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TheBearon/overworld_s0.png",
+      "images/creature/TheBearon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TheBearon/overworld_w0.png",
+      "images/creature/TheBearon/overworld_w1.png"
+    ]
+  },
+  "race": "Exotic",
+  "reserved": true,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Otherworld Portals",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 21,
+    "health": 41,
+    "intelligence": 6,
+    "speed": 21
+  },
+  "trait": 1858
+}

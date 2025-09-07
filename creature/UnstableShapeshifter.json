@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/UnstableShapeshifter/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1009,
+  "item": 1336,
+  "lore": "Some Shapeshifters have a genetic mutation that prevents them from maintaining a specific shape for long. They are also unable to fully control what they transform into and fail many times, becoming a palm tree, for example, rather than a fir. In addition, when they change shape, the result is always disastrous and unpleasant to look at. In Shapeshifter societies, these peculiarities are not considered strange or a defect. However, they know very well that their transformations scare other species, so they are often in charge of driving bad-intentioned visitors away.",
+  "menagerieDialog": [
+    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+    "(It transforms into a cat right before your very eyes.)",
+    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+  ],
+  "minDepth": 1,
+  "name": "Unstable Shapeshifter",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/UnstableShapeshifter/overworld_e0.png",
+      "images/creature/UnstableShapeshifter/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/UnstableShapeshifter/overworld_n0.png",
+      "images/creature/UnstableShapeshifter/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/UnstableShapeshifter/overworld_s0.png",
+      "images/creature/UnstableShapeshifter/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/UnstableShapeshifter/overworld_w0.png",
+      "images/creature/UnstableShapeshifter/overworld_w1.png"
+    ]
+  },
+  "race": "Shapeshifter",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Sorcery Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 36,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 1582
+}

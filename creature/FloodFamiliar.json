@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FloodFamiliar/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 519,
+  "item": 504,
+  "lore": "Familiars are often hired by small towns and villages to scare away Mutated Pulse Bats that try to take advantage of the darkness of the night to steal food from people.\\n\\nThe Flood Familiar can swim and dive in the water, from where it can also obtain food. In battle, it creates high-density water spheres that it can direct at will to hit its opponents in unprotected areas.",
+  "menagerieDialog": [
+    "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
+    "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
+    "Did you know that an Eft can live for up to 20 days without water?",
+    "(Its eyes scan its surroundings with innocent curiosity.)",
+    "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
+  ],
+  "minDepth": 1,
+  "name": "Flood Familiar",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FloodFamiliar/overworld_e0.png",
+      "images/creature/FloodFamiliar/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FloodFamiliar/overworld_n0.png",
+      "images/creature/FloodFamiliar/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FloodFamiliar/overworld_s0.png",
+      "images/creature/FloodFamiliar/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FloodFamiliar/overworld_w0.png",
+      "images/creature/FloodFamiliar/overworld_w1.png"
+    ]
+  },
+  "race": "Familiar",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Zonte)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 26,
+    "speed": 16
+  },
+  "trait": 418
+}

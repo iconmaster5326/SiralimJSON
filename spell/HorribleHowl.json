@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "nature",
+  "creator": null,
+  "description": "Your creatures with {CONDNAME_MINION_DIREWOLF} gain 3 stacks of this minion.",
+  "god": null,
+  "id": 625,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Horrible Howl",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "MINION"
+  ],
+  "targets": "allies"
+}

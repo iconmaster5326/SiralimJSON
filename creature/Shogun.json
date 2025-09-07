@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Shogun/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 168,
+  "item": 549,
+  "lore": "Not all humans tried to enslave Brownies at the same time in all regions of the world, but it happened everywhere due to the ambitious nature of the former. Unfortunately, the Brownie rebellion did not prosper in some parts of the world. Shoguns come from such countries, places far beyond the seas where only the strongest can be free. However, many have grown tired of living as fugitives and have migrated to other regions in search of a new life.",
+  "menagerieDialog": [
+    "Could we slow down a little, buddy?",
+    "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
+    "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
+    "(Both its weapon and its temper are comically oversized for its body.)",
+    "(Its annoying laughter haunts your nightmares.)"
+  ],
+  "minDepth": 1,
+  "name": "Shogun",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Shogun/overworld_e0.png",
+      "images/creature/Shogun/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Shogun/overworld_n0.png",
+      "images/creature/Shogun/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Shogun/overworld_s0.png",
+      "images/creature/Shogun/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Shogun/overworld_w0.png",
+      "images/creature/Shogun/overworld_w1.png"
+    ]
+  },
+  "race": "Brownie",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 7,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 463
+}

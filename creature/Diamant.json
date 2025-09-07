@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Diamant/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 797,
+  "item": 1083,
+  "lore": "This creature is Aurum\u0027s right hand, although it does not play a significant role in the decisions made by the God of Vanity. Its role is to ensure everything is in order in the Temple of Lies, but now, with the realm invaded by countless threats, it is overwhelmed and remains motionless, as its decision-making system is very limited. Fed up with its obvious incompetence, Aurum has ordered it to just remain still. However, when faced with intruders, it must solemnly communicate that, at any moment, death will be applied to them for desecrating the land of the supreme God Aurum.",
+  "menagerieDialog": [
+    "EXTERMINATE. ALL. HUMANS.\\n\\nI MEAN CREATURES.",
+    "Enemy sighted. Preparing to eradicate.\\n\\nJoking.",
+    "...what happens if I run out of charges?",
+    "If I\u0027m made out of Spell Gems, what happens when I run out of charges?",
+    "I often wonder why you never pick up any of the hundreds of powerful Spell Gems laying around in the Temple of Lies.\\n\\n(That\u0027s a good point.)"
+  ],
+  "minDepth": 1,
+  "name": "Diamant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Diamant/overworld_e0.png",
+      "images/creature/Diamant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Diamant/overworld_n0.png",
+      "images/creature/Diamant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Diamant/overworld_s0.png",
+      "images/creature/Diamant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Diamant/overworld_w0.png",
+      "images/creature/Diamant/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    160,
+    459,
+    477
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 20,
+    "health": 22,
+    "intelligence": 25,
+    "speed": 15
+  },
+  "trait": 1048
+}

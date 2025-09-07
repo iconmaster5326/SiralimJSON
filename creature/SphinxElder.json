@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/SphinxElder/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 419,
+  "item": 191,
+  "lore": "At first, the number of Sphinxes in the Empire was very small. However, with the passage of generations, they began to arrive from other parts of the world, producing fear and doubt in the sovereigns of Kaito.\\n\\nWhen a Sphinx reaches one hundred years of age, it stops exposing itself in battle. Instead it gives advice to its allies with its great wisdom and experience and waits in the air for the opportunity to cast a powerful spell.",
+  "menagerieDialog": [
+    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+    "Let us take our leave and fight for glory!",
+    "Things are not always as they seem. My advice to you is to question everything.",
+    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+  ],
+  "minDepth": 1,
+  "name": "Sphinx Elder",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/SphinxElder/overworld_e0.png",
+      "images/creature/SphinxElder/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/SphinxElder/overworld_n0.png",
+      "images/creature/SphinxElder/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/SphinxElder/overworld_s0.png",
+      "images/creature/SphinxElder/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/SphinxElder/overworld_w0.png",
+      "images/creature/SphinxElder/overworld_w1.png"
+    ]
+  },
+  "race": "Sphinx",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Yseros)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 34,
+    "intelligence": 21,
+    "speed": 21
+  },
+  "trait": 101
+}

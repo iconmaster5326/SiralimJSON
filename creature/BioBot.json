@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/BioBot/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1172,
+  "item": 1554,
+  "lore": "Ubi Concordia, the hidden city from which the Auditors operate, is a utopia where everyone can live in peace and harmony.\\n\\nOne of the most controversial scientific projects in Ubi Concordia aimed to extend a creature\u0027s lifespan through technology and magic. The result was disastrous, given the agony that living in a cold metal body meant for the subject, so it was abandoned until a terrorist group managed to get their hands on the files. Today, Bio Bots are pawns who obey orders without question, on the promise that they will be given back their old bodies if they do everything they are told.",
+  "menagerieDialog": [
+    "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
+    "You and I share a common characteristic: we have no self-awareness.",
+    "What is my purpose?",
+    "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
+    "I do not eat. I do not sleep. I exist only to serve my master."
+  ],
+  "minDepth": 1,
+  "name": "Bio Bot",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BioBot/overworld_e0.png",
+      "images/creature/BioBot/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BioBot/overworld_n0.png",
+      "images/creature/BioBot/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BioBot/overworld_s0.png",
+      "images/creature/BioBot/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BioBot/overworld_w0.png",
+      "images/creature/BioBot/overworld_w1.png"
+    ]
+  },
+  "race": "Modron",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 15,
+    "defense": 20,
+    "health": 38,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1895
+}

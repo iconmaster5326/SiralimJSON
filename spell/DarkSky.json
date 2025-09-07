@@ -1,0 +1,42 @@
+{
+  "arsenal": false,
+  "booze": false,
+  "class": "death",
+  "creator": null,
+  "description": "A random buff is removed from random enemies continuously. After each enemy loses a buff, this spell has a 50% chance to end.",
+  "god": null,
+  "id": 725,
+  "manuallyCastable": true,
+  "maxCharges": 7,
+  "name": "Dark Sky",
+  "notes": [],
+  "obtainable": true,
+  "propertyCompatibility": [
+    0,
+    3,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    27
+  ],
+  "reserved": false,
+  "resurrects": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ],
+  "tags": [
+    "UTILITY"
+  ],
+  "targets": "enemies"
+}

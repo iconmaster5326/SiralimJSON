@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FestivalSmog/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 786,
+  "item": 10,
+  "lore": "The Festival Smog is a creature originally designed for festive purposes. It was developed in an illegal laboratory and it usually fetches a high price in the black market. The Mage who directed the project was expelled from the Magic University of Siralim years ago for performing illegal tests on intelligent subjects, and she was locked in a regular prison with anti-magic protection. However, she managed to escape thanks to her contacts and started a new life. The authorities are currently trying to track down her fraudulent activities without much success.",
+  "menagerieDialog": [
+    "(It\u0027s spinning in place while mumbling its name over and over again.)",
+    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+  ],
+  "minDepth": 1,
+  "name": "Festival Smog",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FestivalSmog/overworld_e0.png",
+      "images/creature/FestivalSmog/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FestivalSmog/overworld_n0.png",
+      "images/creature/FestivalSmog/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FestivalSmog/overworld_s0.png",
+      "images/creature/FestivalSmog/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FestivalSmog/overworld_w0.png",
+      "images/creature/FestivalSmog/overworld_w1.png"
+    ]
+  },
+  "race": "Smog",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Sorcery Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 26,
+    "defense": 11,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 1031
+}

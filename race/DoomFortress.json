@@ -1,0 +1,43 @@
+{
+  "bossDialog": [
+    "(You are briefly caught off guard as part of the wall in the room forms a face, and then detaches and flies right at you!)",
+    "I CAN\u0027T BELIEVE I WAS LEFT BEHIND IN THIS TINY ROOM. I\u0027M SO FRUSTRATED! I\u0027LL THINK I\u0027LL TAKE IT OUT ON YOU!",
+    "PASS WORD.\\n\\n(It must expect a password to grant access to the treasure. Not having a clue what the password is, you just decide to murder it instead.)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 10% less damage while they\u0027re {ACTION_provoking}.",
+    "4": "Your creatures take 10% less damage while they\u0027re {ACTION_provoking}.",
+    "7": "Your creatures take 10% less damage while they\u0027re {ACTION_provoking}."
+  },
+  "cards": 7,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    624,
+    725
+  ],
+  "icon": "images/race/DoomFortress.png",
+  "master": {
+    "costume": 323,
+    "dialog": "Thanks to their massive size, Doom Fortresses make great tanks, capable of drawing aggression away from weaker creatures so they can continue fighting uninterrupted. Let\u0027s see if you can get past my defenses!",
+    "item": 1267,
+    "name": "Malleville",
+    "trait": 1424
+  },
+  "name": "Doom Fortress",
+  "notes": [],
+  "skins": [
+    286,
+    294,
+    385,
+    653,
+    664
+  ]
+}

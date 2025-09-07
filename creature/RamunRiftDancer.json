@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/RamunRiftDancer/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 373,
+  "item": 139,
+  "lore": "Rift Dancers are intangible unless someone tries to touch them with either positive or negative intentions.\\n\\nThe members of the Ramun subspecies are in constant pilgrimage, following the wildest storms as if they were constantly seeking the gleam of the lightning and the sound of the thunder. Some sailors claim to have seen them on their voyages, acting as guides to let them know which routes were dangerous to follow.",
+  "menagerieDialog": [
+    "(For a Rift Dancer, it\u0027s not very active.)",
+    "(It keeps trying, without any success at all, to get you to dance with it.)",
+    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+  ],
+  "minDepth": 1,
+  "name": "Ramun Rift Dancer",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/RamunRiftDancer/overworld_e0.png",
+      "images/creature/RamunRiftDancer/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/RamunRiftDancer/overworld_n0.png",
+      "images/creature/RamunRiftDancer/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/RamunRiftDancer/overworld_s0.png",
+      "images/creature/RamunRiftDancer/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/RamunRiftDancer/overworld_w0.png",
+      "images/creature/RamunRiftDancer/overworld_w1.png"
+    ]
+  },
+  "race": "Rift Dancer",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 11,
+      "type": "realm"
+    },
+    {
+      "realm": 20,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 36,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 49
+}

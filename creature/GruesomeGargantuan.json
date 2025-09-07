@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/GruesomeGargantuan/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 660,
+  "item": 590,
+  "lore": "Precious minerals are a Gargantuan\u0027s favorite food, although they usually eat all kinds of ordinary rocks. These creatures will fight for any cause if promised a nice helping of quartz. The Watcher War ravaged many human towns and cities, but also some settlements of other intelligent creatures that lived in the mountains. Torun did not take this into account and the result was the Gruesome Gargantuan. Magic acts unpredictably around it, and manifests spontaneously to damage its enemies.",
+  "menagerieDialog": [
+    "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
+    "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
+    "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
+    "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
+    "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
+  ],
+  "minDepth": 1,
+  "name": "Gruesome Gargantuan",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GruesomeGargantuan/overworld_e0.png",
+      "images/creature/GruesomeGargantuan/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GruesomeGargantuan/overworld_n0.png",
+      "images/creature/GruesomeGargantuan/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GruesomeGargantuan/overworld_s0.png",
+      "images/creature/GruesomeGargantuan/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GruesomeGargantuan/overworld_w0.png",
+      "images/creature/GruesomeGargantuan/overworld_w1.png"
+    ]
+  },
+  "race": "Gargantuan",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 0,
+      "type": "realm"
+    },
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 27,
+    "health": 42,
+    "intelligence": 12,
+    "speed": 7
+  },
+  "trait": 504
+}

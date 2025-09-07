@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/FortuneDragon/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 778,
+  "item": 1096,
+  "lore": "This creature\u0027s name is cruelly ironic. When the claws of a Fortune Dragon pierce an enemy\u0027s flesh, they transmit an infectious disease that is lethal if left untreated for twenty-four hours. Dragon Queens usually have them attack any outsiders who break the laws of the Unsullied Meadows, leaving them alive. This is meant to serve as a warning due to the extreme pain the victims suffer during the course of the disease.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Fortune Dragon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/FortuneDragon/overworld_e0.png",
+      "images/creature/FortuneDragon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/FortuneDragon/overworld_n0.png",
+      "images/creature/FortuneDragon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/FortuneDragon/overworld_s0.png",
+      "images/creature/FortuneDragon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/FortuneDragon/overworld_w0.png",
+      "images/creature/FortuneDragon/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Sorcery Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 21,
+    "defense": 11,
+    "health": 36,
+    "intelligence": 21,
+    "speed": 16
+  },
+  "trait": 1029
+}

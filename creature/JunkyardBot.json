@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/JunkyardBot/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1171,
+  "item": 1553,
+  "lore": "Ubi Concordia is very different from other cities, as its technology is extremely advanced.\\n\\nThere are hidden places where robot fights take place. Specifically, fights between Junkyard Bots. They were initially at the service of the Auditors, robots conceived for the construction and maintenance of Ubi Concordia, but due to their simple AI, more and more are hacked each day for use in illegal fights, as escorts, or as thugs.",
+  "menagerieDialog": [
+    "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
+    "You and I share a common characteristic: we have no self-awareness.",
+    "What is my purpose?",
+    "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
+    "I do not eat. I do not sleep. I exist only to serve my master."
+  ],
+  "minDepth": 1,
+  "name": "Junkyard Bot",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/JunkyardBot/overworld_e0.png",
+      "images/creature/JunkyardBot/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/JunkyardBot/overworld_n0.png",
+      "images/creature/JunkyardBot/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/JunkyardBot/overworld_s0.png",
+      "images/creature/JunkyardBot/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/JunkyardBot/overworld_w0.png",
+      "images/creature/JunkyardBot/overworld_w1.png"
+    ]
+  },
+  "race": "Modron",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 25,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 20,
+    "health": 41,
+    "intelligence": 16,
+    "speed": 20
+  },
+  "trait": 1894
+}

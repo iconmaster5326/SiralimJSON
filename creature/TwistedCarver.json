@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/TwistedCarver/battle.png",
+  "class": "chaos",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 79,
+  "item": 354,
+  "lore": "Unlike other Carvers, this creature feels no need to target a large number of victims in a short time. Instead, it enjoys focusing on a single individual, trying to keep them alive to inflict the maximum possible suffering. For this reason, they are commonly employed as interrogators or executioners in some regions of Rodia, or hired by people who want to settle a score.",
+  "menagerieDialog": [
+    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+    "Come on, come on, come on! We\u0027ve killed very little today."
+  ],
+  "minDepth": 1,
+  "name": "Twisted Carver",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/TwistedCarver/overworld_e0.png",
+      "images/creature/TwistedCarver/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/TwistedCarver/overworld_n0.png",
+      "images/creature/TwistedCarver/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/TwistedCarver/overworld_s0.png",
+      "images/creature/TwistedCarver/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/TwistedCarver/overworld_w0.png",
+      "images/creature/TwistedCarver/overworld_w1.png"
+    ]
+  },
+  "race": "Carver",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    },
+    {
+      "realm": 19,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 20,
+    "defense": 15,
+    "health": 30,
+    "intelligence": 20,
+    "speed": 20
+  },
+  "trait": 270
+}

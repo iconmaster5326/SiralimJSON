@@ -1,0 +1,63 @@
+{
+  "battleSprite": "images/creature/AjaBirku/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 721,
+  "item": 744,
+  "lore": "Aja Birku, otherwise known by Rodian scholars as The Puzzle Box, is one of the few creatures that still perplexes even the most devoted of artificers. According to legend, Aja Birku is the key to visiting parallel dimensions, as it mysteriously appeared during the Watcher War. Seven centuries ago, Helmholtz, a prestigious Mage, succeeded in extracting its core, a crystalline stone he called the Crystal Eye. However, before he could uncover its secrets, the city of Nex was besieged by Omnia\u0027s forces. The attack failed, but what was their real goal? That night, the Crystal Eye was lost forever.",
+  "menagerieDialog": [
+    "(An aura of beautiful mystery envelopes this creature.)",
+    "(It\u0027s rolling around on the ground like an animated die.)",
+    "(This creature is particularly coveted by the magi in Nex. Surely there must be more to it than meets the eye.)",
+    "(It\u0027s making all kinds of high-tech beeping sounds. Maybe it\u0027s about to explode, killing everyone and everything you\u0027ve ever known and loved.)",
+    "(The various engravings on its body glow softly.)"
+  ],
+  "minDepth": 1,
+  "name": "Aja Birku",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/AjaBirku/overworld_e0.png",
+      "images/creature/AjaBirku/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/AjaBirku/overworld_n0.png",
+      "images/creature/AjaBirku/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/AjaBirku/overworld_s0.png",
+      "images/creature/AjaBirku/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/AjaBirku/overworld_w0.png",
+      "images/creature/AjaBirku/overworld_w1.png"
+    ]
+  },
+  "race": "Godspawn",
+  "reserved": true,
+  "skins": [
+    152,
+    481,
+    486,
+    531
+  ],
+  "sources": [
+    {
+      "desc": "Project",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    21
+  ],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 20,
+    "health": 32,
+    "intelligence": 17,
+    "speed": 17
+  },
+  "trait": 792
+}

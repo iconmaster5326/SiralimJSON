@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/OmnipotentDeity/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 299,
+  "item": 113,
+  "lore": "Demigods have innate powers that mortals can only dream of, and though many of them are the same throughout the subspecies, most Demigods choose one in particular to specialize in.\\n\\nThe Omnipotent Deity is very possessive of its belongings, especially of those who fulfill its desires without question. If one of its subjects is attacked or even fails a mission, it will personally ensure that someone pays the consequences.",
+  "menagerieDialog": [
+    "I will not waste my breath speaking with the likes of you.",
+    "Unleash me! Let us destroy our foes together as one.",
+    "There is much to be learned from this world. Do not take a single moment for granted.",
+    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+    "I grow restless. Let us take our leave at once."
+  ],
+  "minDepth": 1,
+  "name": "Omnipotent Deity",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/OmnipotentDeity/overworld_e0.png",
+      "images/creature/OmnipotentDeity/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/OmnipotentDeity/overworld_n0.png",
+      "images/creature/OmnipotentDeity/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/OmnipotentDeity/overworld_s0.png",
+      "images/creature/OmnipotentDeity/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/OmnipotentDeity/overworld_w0.png",
+      "images/creature/OmnipotentDeity/overworld_w1.png"
+    ]
+  },
+  "race": "Demigod",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 3,
+      "type": "realm"
+    },
+    {
+      "realm": 31,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 12,
+    "health": 38,
+    "intelligence": 23,
+    "speed": 12
+  },
+  "trait": 22
+}

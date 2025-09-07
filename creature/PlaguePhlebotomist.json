@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/PlaguePhlebotomist/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 987,
+  "item": 1313,
+  "lore": "When these Plague Doctors find a badly injured person in risk of bleeding out, they perform a blood transfusion. Indeed, humans and other intelligent species learned this technique from them, as well as the fact that not all blood types are compatible. If a Plague Phlebotomist\u0027s patient was injured unjustly by another creature, it will sneak into their room while they are sleeping and draw all the blood they can without ending the creature\u0027s life.",
+  "menagerieDialog": [
+    "Bend over, grab your ankles, and cough!",
+    "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
+    "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
+    "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
+    "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
+  ],
+  "minDepth": 1,
+  "name": "Plague Phlebotomist",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/PlaguePhlebotomist/overworld_e0.png",
+      "images/creature/PlaguePhlebotomist/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/PlaguePhlebotomist/overworld_n0.png",
+      "images/creature/PlaguePhlebotomist/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/PlaguePhlebotomist/overworld_s0.png",
+      "images/creature/PlaguePhlebotomist/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/PlaguePhlebotomist/overworld_w0.png",
+      "images/creature/PlaguePhlebotomist/overworld_w1.png"
+    ]
+  },
+  "race": "Plague Doctor",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "Death Guild Shop",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 25,
+    "defense": 15,
+    "health": 29,
+    "intelligence": 20,
+    "speed": 15
+  },
+  "trait": 1561
+}

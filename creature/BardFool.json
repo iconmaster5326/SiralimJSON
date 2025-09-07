@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BardFool/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 683,
+  "item": 859,
+  "lore": "Fools (as a trade) are common in the courts of monarchs. Bard Fools, however, are quite rare. There was once a jester in Gangrel of great wit and daring. His sharp and cunning tongue was unparalleled in court, but he became seriously ill and was on the verge of death. The queen did not want to lose him, and had some Magi find a way to save his life. And they did so, in their own way. This creature makes people laugh like nobody else, but it also brings out their flaws and their darkest secrets.",
+  "menagerieDialog": [
+    "(A spell that allows telepathic communication was discovered in the Refuge of the Magi centuries ago after countless experiments were done on these creatures.)",
+    "(This creature has a peculiar habit of stimulating the minds of everyone around it. Right now, it\u0027s projecting some aggressive metal music into your brain.)",
+    "(Despite having no discernable facial features, you always find it easy to read this creature\u0027s mood.)",
+    "(It\u0027s playing a gentle song for your other creatures who are listening with rapt attention.)",
+    "(You can\u0027t help but wonder what it looks like without a robe on.)"
+  ],
+  "minDepth": 1,
+  "name": "Bard Fool",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BardFool/overworld_e0.png",
+      "images/creature/BardFool/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BardFool/overworld_n0.png",
+      "images/creature/BardFool/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BardFool/overworld_s0.png",
+      "images/creature/BardFool/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BardFool/overworld_w0.png",
+      "images/creature/BardFool/overworld_w1.png"
+    ]
+  },
+  "race": "Bard",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 1,
+      "type": "realm"
+    },
+    {
+      "realm": 18,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 12,
+    "health": 42,
+    "intelligence": 27,
+    "speed": 12
+  },
+  "trait": 886
+}

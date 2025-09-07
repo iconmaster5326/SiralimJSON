@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/GraveLeper/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 632,
+  "item": 87,
+  "lore": "Centuries ago, the Death Magi of the Magic University of Nex developed a complex ritual that modified the structure of a Leper. The result is a creature that can literally absorb corpses through its skin. It can slightly increase its power in this way, provided the corpses are fresh. After a while, the skeletons of the absorbed creatures emerge from its body and fall off.",
+  "menagerieDialog": [
+    "(It looks at you groggily with a half-baked grin on its face.)",
+    "(This creature will always be picked last for the dodgeball team.)",
+    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+  ],
+  "minDepth": 1,
+  "name": "Grave Leper",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/GraveLeper/overworld_e0.png",
+      "images/creature/GraveLeper/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/GraveLeper/overworld_n0.png",
+      "images/creature/GraveLeper/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/GraveLeper/overworld_s0.png",
+      "images/creature/GraveLeper/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/GraveLeper/overworld_w0.png",
+      "images/creature/GraveLeper/overworld_w1.png"
+    ]
+  },
+  "race": "Leper",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 2,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 23,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 13
+  },
+  "trait": 753
+}

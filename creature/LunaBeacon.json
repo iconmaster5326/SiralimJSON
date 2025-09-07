@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/LunaBeacon/battle.png",
+  "class": "life",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1256,
+  "item": 1621,
+  "lore": "Beacons reside in a forest where an intelligent species, now extinct, used to live thousands of years ago. The trees are covered in paintings of vivid colors, and even today they have not been deciphered.\\n\\nOn the battlefield, the Luna Beacon\u0027s flight becomes an unpredictable whirlwind full of feints and sharp turns. It always uses the lower part of its body to strike, which is hard as iron.",
+  "menagerieDialog": [
+    "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
+    "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
+    "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
+    "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
+    "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
+  ],
+  "minDepth": 1,
+  "name": "Luna Beacon",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/LunaBeacon/overworld_e0.png",
+      "images/creature/LunaBeacon/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/LunaBeacon/overworld_n0.png",
+      "images/creature/LunaBeacon/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/LunaBeacon/overworld_s0.png",
+      "images/creature/LunaBeacon/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/LunaBeacon/overworld_w0.png",
+      "images/creature/LunaBeacon/overworld_w1.png"
+    ]
+  },
+  "race": "Beacon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 5,
+      "type": "realm"
+    },
+    {
+      "realm": 27,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 18,
+    "health": 38,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1961
+}

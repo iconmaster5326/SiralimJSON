@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/StyxBanshee/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 253,
+  "item": 218,
+  "lore": "The Path of the Damned was once known as Arcadia, a sunny green paradise ruled by the Goddess of Peace. The Banshees, who emerged from remains of the previous God of Darkness, were the first to populate the realm after it was invaded by darkness and death.\\n\\nAlthough they cannot speak or think like intelligent beings, Banshees can establish bonds with other creatures. The screams of a Styx Banshee interfere with their enemies\u0027 spellcasting.",
+  "menagerieDialog": [
+    "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
+    "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
+    "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
+    "Let my cries chill the living.",
+    "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
+  ],
+  "minDepth": 1,
+  "name": "Styx Banshee",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StyxBanshee/overworld_e0.png",
+      "images/creature/StyxBanshee/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StyxBanshee/overworld_n0.png",
+      "images/creature/StyxBanshee/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StyxBanshee/overworld_s0.png",
+      "images/creature/StyxBanshee/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StyxBanshee/overworld_w0.png",
+      "images/creature/StyxBanshee/overworld_w1.png"
+    ]
+  },
+  "race": "Banshee",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (Ariamaki)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 16,
+    "health": 31,
+    "intelligence": 16,
+    "speed": 26
+  },
+  "trait": 127
+}

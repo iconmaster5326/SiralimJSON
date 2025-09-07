@@ -1,0 +1,38 @@
+{
+  "bossDialog": [
+    "(A mass of vines and roots suddenly shifts with a rustling sound, soon revealing an immense plantlike jaw - one that clearly intends to make you its next meal!)",
+    "(What you thought was a normal plant suddenly tries to bite you as you pass by it! That\u0027ll teach you to not pay attention to completely innocuous looking plants.)",
+    "(You hear the shaking of leaves as a large Snaptrap hefts itself into a coiled position, ready to strike at you! You\u0027re not getting the treasure without dealing with it first!)"
+  ],
+  "cardBonuses": {
+    "2": "Enemies have a 1% chance to start battles at the bottom of the {TIMELINE}.",
+    "4": "Enemies have a 1% chance to start battles at the bottom of the {TIMELINE}.",
+    "6": "Enemies have a 1% chance to start battles at the bottom of the {TIMELINE}."
+  },
+  "cards": 6,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    827,
+    828,
+    829,
+    830,
+    831,
+    832
+  ],
+  "icon": "images/race/Snaptrap.png",
+  "master": {
+    "costume": 393,
+    "dialog": "My Snaptraps are about to ruin your day! Your creatures won\u0027t be making a move anytime soon, I can assure you of that!",
+    "item": 1206,
+    "name": "Torne",
+    "trait": 1496
+  },
+  "name": "Snaptrap",
+  "notes": [],
+  "skins": [
+    454,
+    777,
+    778
+  ]
+}

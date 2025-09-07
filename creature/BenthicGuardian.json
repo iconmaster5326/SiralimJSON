@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/BenthicGuardian/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": null,
+  "id": 1451,
+  "item": 1718,
+  "lore": "The Ferino River\u00E2\u20AC\u201Dthe longest in Rodia\u00E2\u20AC\u201Dstarts in the northern kingdom of Vanelin, crosses Siralim\u0027s western border, and flows through the kingdom of Undolim before emptying into the great Crimson Ocean. Along its entire length live the Benthic Guardians, creatures strictly controlled by Rodia\u0027s laws. They fiercely protect the waters, destroying anyone who dares pollute them. The problem? These guardians see anything unusual in the river as \u0022waste,\u0022 making crossing their territory as dangerous as facing a bear\u0027s den.",
+  "menagerieDialog": [
+    "(It\u0027s nestled comfortably in its shell, seemingly at peace.)",
+    "(It\u0027s furiously snapping its shell open and closed, ready for battle.)",
+    "Did you know that my kind can live for over 500 years? I\u0027ve got stories that would make your head spin!",
+    "My shell is impenetrable. Bring on your worst, I say!",
+    "I\u0027m not just a clam, I\u0027m a clam with ambition! Let\u0027s go already!"
+  ],
+  "minDepth": 1,
+  "name": "Benthic Guardian",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/BenthicGuardian/overworld_e0.png",
+      "images/creature/BenthicGuardian/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/BenthicGuardian/overworld_n0.png",
+      "images/creature/BenthicGuardian/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/BenthicGuardian/overworld_s0.png",
+      "images/creature/BenthicGuardian/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/BenthicGuardian/overworld_w0.png",
+      "images/creature/BenthicGuardian/overworld_w1.png"
+    ]
+  },
+  "race": "Guardian",
+  "reserved": true,
+  "skins": [
+    830
+  ],
+  "sources": [
+    {
+      "desc": "???",
+      "type": "special"
+    }
+  ],
+  "specializations": [
+    41
+  ],
+  "statGrowth": {
+    "attack": 10,
+    "defense": 30,
+    "health": 40,
+    "intelligence": 20,
+    "speed": 10
+  },
+  "trait": 2060
+}

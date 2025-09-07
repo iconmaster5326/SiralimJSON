@@ -1,0 +1,33 @@
+{
+  "battleSprite": "images/skin/Mushroom/battle.png",
+  "creator": null,
+  "creature": null,
+  "id": 81,
+  "name": "Mushroom",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/skin/Mushroom/overworld_e0.png",
+      "images/skin/Mushroom/overworld_e1.png"
+    ],
+    "north": [
+      "images/skin/Mushroom/overworld_n0.png",
+      "images/skin/Mushroom/overworld_n1.png"
+    ],
+    "south": [
+      "images/skin/Mushroom/overworld_s0.png",
+      "images/skin/Mushroom/overworld_s1.png"
+    ],
+    "west": [
+      "images/skin/Mushroom/overworld_w0.png",
+      "images/skin/Mushroom/overworld_w1.png"
+    ]
+  },
+  "race": "Gargantuan",
+  "reserved": false,
+  "sources": [
+    {
+      "type": "random"
+    }
+  ]
+}

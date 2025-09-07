@@ -1,0 +1,44 @@
+{
+  "bossDialog": [
+    "(Pulling out two vicious looking daggers and clanging them against each other repeatedly, the Elf successfully communicates what it wants to do to you pretty clearly.)",
+    "(The Elf invokes what you can only assume from the tone are several elven epithets in your direction, before drawing a rather wicked-looking weapon!)",
+    "I did not give you permission to come bungling into my territory, you unwashed ape. You will pay in blood."
+  ],
+  "cardBonuses": {
+    "3": "You gain 30% more {RES_CRYSTAL} from battles.",
+    "6": "Increases the base amount of {RES_CRYSTAL} gained from battles by 15.",
+    "9": "You have a 15% chance to gain double {RES_CRYSTAL} from battles."
+  },
+  "cards": 9,
+  "class": "nature",
+  "creator": null,
+  "creatures": [
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    687,
+    773,
+    1002
+  ],
+  "icon": "images/race/Elf.png",
+  "master": {
+    "costume": 330,
+    "dialog": "Elves are great at foiling their foes\u0027 strategies. Right when you think you\u0027ve got it all figured out, my Elves will come in and ruin your day. Let\u0027s fight!",
+    "item": 1275,
+    "name": "Jesper",
+    "trait": 1431
+  },
+  "name": "Elf",
+  "notes": [],
+  "skins": [
+    88,
+    89,
+    230,
+    537,
+    671,
+    672
+  ]
+}

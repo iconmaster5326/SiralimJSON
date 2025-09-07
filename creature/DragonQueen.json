@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/DragonQueen/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 144,
+  "item": 400,
+  "lore": "Dragons were the work of Aeolian, long before humans built their cities and established their kingdoms. They dedicate a great part of their lives to gathering piles of gold and jewels that they use as a bed.\\n\\nNot all Dragons live in groups, but those who do are always governed by a Dragon Queen. In critical situations, the Queen is able to assess the situation in a matter of seconds and figure out the enemy\u0027s strategy to turn it against them.",
+  "menagerieDialog": [
+    "I\u0027ll guard your treasure for you while you\u0027re away.",
+    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+  ],
+  "minDepth": 1,
+  "name": "Dragon Queen",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DragonQueen/overworld_e0.png",
+      "images/creature/DragonQueen/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DragonQueen/overworld_n0.png",
+      "images/creature/DragonQueen/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DragonQueen/overworld_s0.png",
+      "images/creature/DragonQueen/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DragonQueen/overworld_w0.png",
+      "images/creature/DragonQueen/overworld_w1.png"
+    ]
+  },
+  "race": "Dragon",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 9,
+      "type": "realm"
+    },
+    {
+      "realm": 32,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 17,
+    "health": 34,
+    "intelligence": 19,
+    "speed": 19
+  },
+  "trait": 315
+}

@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DuskOssein/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 868,
+  "item": 994,
+  "lore": "Mortem carved these terrifying creatures out of the bone of the Titan, and to give them life he used his own hair, putting it inside each of their jaws. Their bodies seem to be impervious to damage, but they collapse like any other creature after receiving enough hits. The Dusk Ossein, in fact, constantly behaves as if it had been defeated. It camouflages itself in the ground, and it can be mistaken for a bunch of rocks which color varies depending on where it is. This fact is also used as proof by those who believe the Ossein have a certain degree of consciousness.",
+  "menagerieDialog": [
+    "(It\u0027s completely still. It must be sleeping.)",
+    "(It makes an oddly-satisfying crunching noise whenever it moves its limbs.)",
+    "HELLOOOOOOOOOOOOOOOO.\\n\\n(You were sure that only Giran talked this way, but apparently, this is just how Osseins communicate.)",
+    "(Its body is so hard and jagged that striking it with your bare fists would most certainly break your bones.)",
+    "(It often looks toward the sky, dumbounded. Perhaps you should try to summon a smarter Ossein next time around.)"
+  ],
+  "minDepth": 1,
+  "name": "Dusk Ossein",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DuskOssein/overworld_e0.png",
+      "images/creature/DuskOssein/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DuskOssein/overworld_n0.png",
+      "images/creature/DuskOssein/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DuskOssein/overworld_s0.png",
+      "images/creature/DuskOssein/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DuskOssein/overworld_w0.png",
+      "images/creature/DuskOssein/overworld_w1.png"
+    ]
+  },
+  "race": "Ossein",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 15,
+    "health": 42,
+    "intelligence": 15,
+    "speed": 20
+  },
+  "trait": 1134
+}

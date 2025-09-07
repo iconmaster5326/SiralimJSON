@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/Regalis/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": false,
+  "god": 8,
+  "id": 734,
+  "item": null,
+  "lore": "Since the beginning of time, the Goddess of Poison, also known as the Spider Queen, has maintained a certain rivalry with Vertraag that no mortal would describe as friendly. On one occasion, Regalis presented the God of Time with a huge statue of himself, but the inside was hollow and contained millions of spider eggs. When someone is caught in the webs of the Arachnid Nest, Regalis considers them her property, and she keeps certain individuals she likes as her slaves.",
+  "menagerieDialog": [
+    "Oh, you\u0027ve finally come to take me out to dinner, have you?\\n\\nNo? Okay, then...",
+    "My loins ache for companionship. Perhaps you have a creature in mind that would be a good match for me?\\n\\n(Ugh.)",
+    "You\u0027re so smart, {PLAYERNAME}.\\n\\nOh, I\u0027m a sapiosexual, by the way...",
+    "I wish to produce new offspring soon...",
+    "I prefer the solitude of the Arachnid Nest to the hustle and bustle of {CASTLENAME}."
+  ],
+  "minDepth": 1,
+  "name": "Regalis",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/Regalis/overworld_e0.png",
+      "images/creature/Regalis/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/Regalis/overworld_n0.png",
+      "images/creature/Regalis/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/Regalis/overworld_s0.png",
+      "images/creature/Regalis/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/Regalis/overworld_w0.png",
+      "images/creature/Regalis/overworld_w1.png"
+    ]
+  },
+  "race": "Avatar",
+  "reserved": true,
+  "skins": [
+    363,
+    408,
+    421
+  ],
+  "sources": [
+    {
+      "god": 8,
+      "type": "gotg"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 17,
+    "defense": 20,
+    "health": 37,
+    "intelligence": 17,
+    "speed": 20
+  },
+  "trait": 608
+}

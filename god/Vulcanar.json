@@ -1,0 +1,29 @@
+{
+  "avatar": 736,
+  "creator": null,
+  "icon": "images/god/Vulcanar.png",
+  "id": 4,
+  "name": "Vulcanar",
+  "notes": [],
+  "realm": 6,
+  "relicBigIcon": "images/relic/Rosenthorne/relic.png",
+  "relicBonuses": [
+    "After the bearer {ACTION_attacks} or is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_BLIND}.",
+    "The bearer takes 30% less damage from enemies with {CONDNAME_DEBUFF_BLIND}.",
+    "At the start of its bearer\u0027s turn, this relic {ACTION_attacks} enemies with {CONDNAME_DEBUFF_BLIND}. These attacks deal 15% less damage for each enemy it {ACTION_attacks} with this effect.",
+    "After the bearer {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_BLIND}, it afflicts the target with a random debuff.",
+    "The bearer\u0027s stat-reducing effects are 50% more potent when used on {CONDNAME_DEBUFF_BLIND} enemies.",
+    "The bearer is immune to {CONDNAME_DEBUFF_BLIND}.",
+    "This relic and its bearer deal 35% more damage to {CONDNAME_DEBUFF_BLIND} enemies.",
+    "{CONDNAME_DEBUFF_BLIND} enemies\u0027 spells that are {ACTION_cast} on the bearer are 50% less potent.",
+    "The bearer can {ACTION_cast} single-target spells on {CONDNAME_DEBUFF_BLIND} creatures without consuming any {STAT_charges}.",
+    "After this relic {ACTION_attacks}, it has a 20% chance to {ACTION_cast} [icons,1984]Murder of Crows for each enemy with {CONDNAME_DEBUFF_BLIND}."
+  ],
+  "relicName": "Rosenthorne",
+  "relicSmallIcon": "images/relic/Rosenthorne/icon.png",
+  "relicStat": "attack",
+  "relicTitle": "Flaming Soul of Vulcanar",
+  "title": "God of Bliss",
+  "trait": 679,
+  "ultimateSpell": 237
+}

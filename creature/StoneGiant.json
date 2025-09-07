@@ -1,0 +1,60 @@
+{
+  "battleSprite": "images/creature/StoneGiant/battle.png",
+  "class": "nature",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 350,
+  "item": 508,
+  "lore": "Its rocky body is a double-edged sword, as, unlike the Sand Giant, it is unable to regenerate. However, its destructive power is equivalent to a modern siege weapon, though the Stone Giant is a siege weapon in and of itself. They craft the stone clubs they carry with their own hands, by punching the mountain walls where the hardest minerals can be found.",
+  "menagerieDialog": [
+    "Humans are weak! Even baby Giants can crush your kind with one hand.",
+    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+  ],
+  "minDepth": 1,
+  "name": "Stone Giant",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/StoneGiant/overworld_e0.png",
+      "images/creature/StoneGiant/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/StoneGiant/overworld_n0.png",
+      "images/creature/StoneGiant/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/StoneGiant/overworld_s0.png",
+      "images/creature/StoneGiant/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/StoneGiant/overworld_w0.png",
+      "images/creature/StoneGiant/overworld_w1.png"
+    ]
+  },
+  "race": "Giant",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    },
+    {
+      "realm": 24,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 22,
+    "defense": 22,
+    "health": 42,
+    "intelligence": 12,
+    "speed": 12
+  },
+  "trait": 422
+}

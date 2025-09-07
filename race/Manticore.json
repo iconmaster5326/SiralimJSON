@@ -1,0 +1,41 @@
+{
+  "bossDialog": [
+    "(Pacing back and forth, the Manticore whips its stinger tail around and shakes its mane in an attempt at intimidation. Unfazed, you begin the assault.)",
+    "(The Manticore was already alert when you entered, having smelled a human. You wonder what kind of evil could create such a beast as you order your creatures to kill it.)",
+    "(Your blood runs cold as the Manticore meets your gaze and bares its fangs. It\u0027s a good thing your creatures are here to protect you.)"
+  ],
+  "cardBonuses": {
+    "2": "Your creatures take 15% less damage from attacks from {CLASS_Chaos} creatures.",
+    "5": "Your creatures take 15% less damage from attacks from {CLASS_Chaos} creatures.",
+    "8": "Your creatures take 15% less damage from attacks from {CLASS_Chaos} creatures."
+  },
+  "cards": 8,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    700,
+    974
+  ],
+  "icon": "images/race/Manticore.png",
+  "master": {
+    "costume": 357,
+    "dialog": "Manticores excel at turning a good defense into a brilliant offense. They\u0027re a sturdy race that can take some hits while also packing a serious punch, making them all-around great combatants. Let me show you in a duel!",
+    "item": 1231,
+    "name": "Reyson",
+    "trait": 1458
+  },
+  "name": "Manticore",
+  "notes": [],
+  "skins": [
+    268,
+    283,
+    391,
+    718
+  ]
+}

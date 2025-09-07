@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/ScourgeOssein/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 872,
+  "item": 997,
+  "lore": "There is some debate about the possibility of certain creatures, such as Golems and Osseins, being sentient. The latter species also shows behaviors that contradict its supposed automaton nature. This is more pronounced in the Scourge Ossein now that a few specimens have begun to live in more diverse environments that look nothing like the Titan\u0027s Wound. This breed prefers to live in forests and reefs full of life, which it never attacks under any circumstances, even when it is sometimes bitten or clawed at. However, anyone who threatens these ecosystems will meet a premature and bloody end.",
+  "menagerieDialog": [
+    "(It\u0027s completely still. It must be sleeping.)",
+    "(It makes an oddly-satisfying crunching noise whenever it moves its limbs.)",
+    "HELLOOOOOOOOOOOOOOOO.\\n\\n(You were sure that only Giran talked this way, but apparently, this is just how Osseins communicate.)",
+    "(Its body is so hard and jagged that striking it with your bare fists would most certainly break your bones.)",
+    "(It often looks toward the sky, dumbounded. Perhaps you should try to summon a smarter Ossein next time around.)"
+  ],
+  "minDepth": 1,
+  "name": "Scourge Ossein",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/ScourgeOssein/overworld_e0.png",
+      "images/creature/ScourgeOssein/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/ScourgeOssein/overworld_n0.png",
+      "images/creature/ScourgeOssein/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/ScourgeOssein/overworld_s0.png",
+      "images/creature/ScourgeOssein/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/ScourgeOssein/overworld_w0.png",
+      "images/creature/ScourgeOssein/overworld_w1.png"
+    ]
+  },
+  "race": "Ossein",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 17,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 18,
+    "defense": 13,
+    "health": 43,
+    "intelligence": 18,
+    "speed": 18
+  },
+  "trait": 1137
+}

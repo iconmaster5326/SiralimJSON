@@ -1,0 +1,64 @@
+{
+  "battleSprite": "images/creature/HellHound/battle.png",
+  "class": "death",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 293,
+  "item": 238,
+  "lore": "At first, the Hounds were domestic creatures, but unfortunately, there are always those who choose to abandon their faithful friends. Luckily, Hounds are perfect hunters with great adaptability that always find a place in any ecosystem.\\n\\nAlthough the Hell Hound\u0027s fiery breath is a powerful weapon, what makes it really dangerous are its magical abilities to strengthen the pack through a mystical union.",
+  "menagerieDialog": [
+    "(It yawns and stretches into a downward dog position.)",
+    "Hiss... hiss!\\n(You do know you\u0027re not a cat, right?)",
+    "(It\u0027s running around in small circles, wiggling its ass for no reason. Yep, it\u0027s a hound all right.)",
+    "(It smells of dog sweat. You should tell Nortah to give it a bath before you leave.)",
+    "(It often scratches itself with one of its hind legs. Nortah should really check it for fleas.)"
+  ],
+  "minDepth": 1,
+  "name": "Hell Hound",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/HellHound/overworld_e0.png",
+      "images/creature/HellHound/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/HellHound/overworld_n0.png",
+      "images/creature/HellHound/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/HellHound/overworld_s0.png",
+      "images/creature/HellHound/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/HellHound/overworld_w0.png",
+      "images/creature/HellHound/overworld_w1.png"
+    ]
+  },
+  "race": "Hound",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "realm": 18,
+      "type": "realm"
+    },
+    {
+      "realm": 22,
+      "type": "realm"
+    },
+    {
+      "realm": 29,
+      "type": "realm"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 19,
+    "defense": 16,
+    "health": 29,
+    "intelligence": 19,
+    "speed": 21
+  },
+  "trait": 147
+}

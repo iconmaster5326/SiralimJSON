@@ -1,0 +1,56 @@
+{
+  "battleSprite": "images/creature/DracoChimera/battle.png",
+  "class": "sorcery",
+  "creator": null,
+  "givesMana": true,
+  "god": null,
+  "id": 1202,
+  "item": 1584,
+  "lore": "Chimeras have little need for food, but they have been created in such a way that the meat of the species that commonly try to harm T\u0027mere\u0027s creations is especially appetizing to them.\\n\\nDraco Chimeras are generally in charge of military strategy. All three heads think fast and can agree on a plan with astonishing speed and no need for words. Additionally, since they can fly over the battlefield, they can use their six eyes to observe many places at once, allowing them to adjust their battle plans with a broader perspective.",
+  "menagerieDialog": [
+    "(Such a horrifying yet fascinating creature... you don\u0027t want to look, but you can\u0027t seem to tear your gaze away from it.)",
+    "(This creature is clearly the product of a sick and twisted mind.)",
+    "(This creature inspires you to think about what would happen if Torun fused himself with a Dumpling.)",
+    "(Despite its horrifying appearance, this creature\u0027s steadfast loyalty to you and your kingdom is unquestionable.)",
+    "Kill... me..."
+  ],
+  "minDepth": 1,
+  "name": "Draco Chimera",
+  "notes": [],
+  "overworldSprite": {
+    "east": [
+      "images/creature/DracoChimera/overworld_e0.png",
+      "images/creature/DracoChimera/overworld_e1.png"
+    ],
+    "north": [
+      "images/creature/DracoChimera/overworld_n0.png",
+      "images/creature/DracoChimera/overworld_n1.png"
+    ],
+    "south": [
+      "images/creature/DracoChimera/overworld_s0.png",
+      "images/creature/DracoChimera/overworld_s1.png"
+    ],
+    "west": [
+      "images/creature/DracoChimera/overworld_w0.png",
+      "images/creature/DracoChimera/overworld_w1.png"
+    ]
+  },
+  "race": "Chimera",
+  "reserved": false,
+  "skins": [],
+  "sources": [
+    {
+      "desc": "God Shop (T\u0027mere M\u0027rgo)",
+      "type": "special"
+    }
+  ],
+  "specializations": [],
+  "statGrowth": {
+    "attack": 16,
+    "defense": 21,
+    "health": 33,
+    "intelligence": 16,
+    "speed": 21
+  },
+  "trait": 1925
+}

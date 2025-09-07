@@ -1,0 +1,40 @@
+{
+  "bossDialog": [
+    "(Issuing an obnoxiously loud bellow and filling the room with the smell of its stale breath, the Fiend charges forward the second it sees you!)",
+    "(The Fiend whips around to look at you, various objects falling out of its mouth. You have your monsters attack, hoping the beast hasn\u0027t eaten too much of the treasure...)",
+    "(You seem to have caught the Fiend in the middle of trying to swallow an entire treasure chest in one bite. You duck as it spits it at you at high velocity. Get ready for a fight!)"
+  ],
+  "cardBonuses": {
+    "2": "Increases the amount of damage your creatures deal while they\u0027re {CONDNAME_BUFF_BERSERK} by 15%.",
+    "4": "Your creatures with {CONDNAME_BUFF_BERSERK} have a 10% chance to attack an additional time.",
+    "7": "Your creatures with {CONDNAME_BUFF_BERSERK} have a 15% greater chance to deal critical damage."
+  },
+  "cards": 7,
+  "class": "chaos",
+  "creator": null,
+  "creatures": [
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    619
+  ],
+  "icon": "images/race/Fiend.png",
+  "master": {
+    "costume": 333,
+    "dialog": "Fiends have some serious anger issues, and that\u0027s just fine with me. They\u0027re almost always looking for someone or something to take out their aggression on, making them ideal combatants. My Fiends will rip your creatures to shreds. Let\u0027s fight!",
+    "item": 1255,
+    "name": "Arner",
+    "trait": 1434
+  },
+  "name": "Fiend",
+  "notes": [],
+  "skins": [
+    24,
+    270,
+    661,
+    681
+  ]
+}
