@@ -34,6 +34,7 @@ required:
   - netherBosses
   - projects
   - projectItems
+  - accessories
 properties:
   metadata:
     $ref: metadata.yaml
@@ -178,3 +179,8 @@ properties:
     type: array
     items:
       $ref: projectItem.yaml
+  accessories:
+    description: All accessories in the game.
+    type: array
+    items:
+      $ref: accessory.yaml

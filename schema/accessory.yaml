@@ -1,0 +1,39 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: accessory.yaml
+title: Accessory
+description: A Siralim Ultimate accessory definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - sprite
+  - sources
+  - notes
+  - creator
+properties:
+  id:
+    description: The unique ID of this accessory.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this accessory.
+    type: string
+  sprite:
+    description: The path to the sprite of this accessory.
+    type: string
+  sources:
+    description: Where you can locate this accessory.
+    type: array
+    items:
+      $ref: _source.yaml
+  notes:
+    description: Any user-given notes for this accessory.
+    type: array
+    items:
+      $ref: _note.yaml
+  creator:
+    description: Who backed/created this accessory, if known?
+    oneOf:
+      - type: "null"
+      - type: string

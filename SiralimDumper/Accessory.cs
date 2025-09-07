@@ -57,6 +57,23 @@ namespace SiralimDumper
         /// The sprite for this accessory.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        public string SpriteFilename => $@"accessory\{Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Accessory AsJSON => new()
+        {
+#nullable disable
+            Id = ID,
+            Name = Name,
+            Creator = null,
+            Sources = [new() { Type = QuickType.SourceType.Everett }],
+            Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
+            Notes = [],
+#nullable enable
+        };
     }
 
     public class AccessoryDatabase : Database<int, Accessory>

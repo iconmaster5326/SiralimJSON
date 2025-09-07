@@ -334,7 +334,7 @@ namespace SiralimDumper
 
                 foreach (var item in Accessory.Database.Values)
                 {
-                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, $@"accessory\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
                 foreach (var info in new (string Sprite, string Name)[]{
@@ -554,6 +554,7 @@ namespace SiralimDumper
             NetherBosses = NetherBoss.Database.Values.Select(item => item.AsJSON).ToArray(),
             Projects = Project.Database.Values.Select(item => item.AsJSON).ToArray(),
             ProjectItems = ProjectItem.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Accessories = Accessory.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()
