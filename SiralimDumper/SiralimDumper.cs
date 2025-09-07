@@ -644,7 +644,7 @@ $@"{{
     ""netherBosses"": {NetherBoss.Database.IndividualIndex(@"netherboss", (item) => new(item.ID, item.Name))},
     ""projects"": {Project.Database.IndividualIndex(@"project", (item) => new(item.ID, item.Name))},
     ""projectItems"": {ProjectItem.Database.IndividualIndex(@"item\project", (item) => new(item.ID, item.Name))},
-    ""accessories"": {Accessory.Database.IndividualIndex(@"accessory", (item) => new(item.ID, item.Name))},
+    ""accessories"": {Accessory.Database.IndividualIndex(@"accessory", (item) => new(item.ID, item.Name))}
 }}");
 
             Creature.Database.WriteIndividualFile(@"creature", item => (item.Name, item.AsJSON));
