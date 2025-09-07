@@ -34,14 +34,19 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         /// <summary>
         /// The English name of this realm.
         /// </summary>
-        public string Name => Game.Engine.CallScript("gml_Script_scr_BiomeName", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallScript("gml_Script_scr_BiomeName", ID));
+
+        private int? _GodID;
         /// <summary>
         /// The ID of the <see cref="God"/> that this realm belongs to.
         /// </summary>
-        public int GodID => Game.Engine.CallScript("gml_Script_scr_BiomeGod", ID);
+        public int GodID => _GodID ?? (_GodID = Game.Engine.CallScript("gml_Script_scr_BiomeGod", ID)).Value;
+
+        private int? _ChestSpriteID;
         /// <summary>
         /// The sprite ID for a chest in this realm.
         /// </summary>
@@ -49,12 +54,16 @@ namespace SiralimDumper
         {
             get
             {
-                using (new TempRealm(this))
-                {
-                    return Game.Engine.GetGlobalObject()["spritechest"].GetSpriteID();
-                }
+                if (_ChestSpriteID == null)
+                    using (new TempRealm(this))
+                    {
+                        _ChestSpriteID = Game.Engine.GetGlobalObject()["spritechest"].GetSpriteID();
+                    }
+                return _ChestSpriteID.Value;
             }
         }
+
+        private int? _DefaultBreakableSpriteID;
         /// <summary>
         /// The sprite ID for a default breakable in this realm.
         /// </summary>
@@ -62,10 +71,12 @@ namespace SiralimDumper
         {
             get
             {
-                using (new TempRealm(this))
-                {
-                    return Game.Engine.GetGlobalObject()["breakable1"].GetSpriteID();
-                }
+                if (_DefaultBreakableSpriteID == null)
+                    using (new TempRealm(this))
+                    {
+                        _DefaultBreakableSpriteID = Game.Engine.GetGlobalObject()["breakable1"].GetSpriteID();
+                    }
+                return _DefaultBreakableSpriteID.Value;
             }
         }
 
@@ -79,16 +90,20 @@ namespace SiralimDumper
         /// </summary>
         public God God => God.Database[GodID];
 
+        private Dictionary<int, string> _Blessings = [];
+        private string FullBlessing(int rank) => _Blessings.GetValueOrDefault(rank) ?? (_Blessings[rank] = Game.Engine.CallScript("gml_Script_scr_BlessingName", God.ID, rank));
+
         /// <summary>
         /// The English reward text for a certain devotion rank, between 1 and 100.
         /// </summary>
-        public string Blessing(int rank) => Regex.Match(Game.Engine.CallScript("gml_Script_scr_BlessingName", God.ID, rank), "^\\[[^\\]]*\\] (.*)$").Groups[1].Value;
+        public string Blessing(int rank) => Regex.Match(FullBlessing(rank), "^\\[[^\\]]*\\] (.*)$").Groups[1].Value;
+
         /// <summary>
         /// The icon for this devotion rank, between 1 and 100, if any.
         /// </summary>
         public Sprite BlessingIcon(int rank)
         {
-            string icon = Regex.Match(Game.Engine.CallScript("gml_Script_scr_BlessingName", God.ID, rank), "^\\[([^\\]]*)\\] .*$").Groups[1].Value;
+            string icon = Regex.Match(FullBlessing(rank), "^\\[([^\\]]*)\\] .*$").Groups[1].Value;
             if (icon.Equals("ob_monlith"))
             {
                 // fixing a typo from Zack!
@@ -108,7 +123,8 @@ namespace SiralimDumper
             Creator = null,
             EmblemIcon = $@"images\{God.EmblemIconFilename}".Replace("\\", "/"),
             God = GodID,
-            GodBlessings = Enumerable.Range(1, 100).Select(rank => new QuickType.GodBlessing() {
+            GodBlessings = Enumerable.Range(1, 100).Select(rank => new QuickType.GodBlessing()
+            {
                 Blessing = Blessing(rank),
                 Icon = $@"images\{BlessingIconFilename(rank)}".Replace("\\", "/"),
             }).ToArray(),
@@ -173,34 +189,41 @@ namespace SiralimDumper
 )";
         }
 
+        private static Dictionary<int, string> _FullName = [];
         internal static string FullName(int id)
         {
-            GameVariable arg;
-            switch (id)
+            if (!_FullName.ContainsKey(id))
             {
-                case 16:
-                    arg = "Carnage";
-                    break;
-                case 25:
-                case 26:
-                case 38:
-                    arg = 1;
-                    break;
-                default:
-                    arg = "{1}";
-                    break;
+                GameVariable arg;
+                switch (id)
+                {
+                    case 16:
+                        arg = "Carnage";
+                        break;
+                    case 25:
+                    case 26:
+                    case 38:
+                        arg = 1;
+                        break;
+                    default:
+                        arg = "{1}";
+                        break;
+                }
+                _FullName[id] = Game.Engine.CallScript("gml_Script_scr_RealmPropertyName", id, arg).GetString().Replace("[carnage] Carnage", "{1}").Replace("[stat_g_savage] Savage", "{1}");
             }
-            return Game.Engine.CallScript("gml_Script_scr_RealmPropertyName", id, arg).GetString().Replace("[carnage] Carnage", "{1}").Replace("[stat_g_savage] Savage", "{1}");
+            return _FullName[id];
         }
 
         /// <summary>
         /// The English name of this realm property.
         /// </summary>
         public string Name => Regex.Match(FullName(ID), "^\\[[^\\]]*\\] (.*)$").Groups[1].Value;
+
         /// <summary>
         /// The ID of the icon sprite for this realm property.
         /// </summary>
         public int? IconID => Regex.Match(FullName(ID), "^\\[([^\\]]*)\\] .*$").Groups[1].Value.GetGMLAssetIDOrNull();
+
         /// <summary>
         /// The icon sprite for this realm property.
         /// </summary>

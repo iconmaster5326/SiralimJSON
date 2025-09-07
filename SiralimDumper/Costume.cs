@@ -33,18 +33,24 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         /// <summary>
         /// The English name of this costume.
         /// </summary>
-        public string Name => Game.Engine.CallScript("gml_Script_scr_WardrobeName", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallScript("gml_Script_scr_WardrobeName", ID));
+
+        private bool? _Reserved;
         /// <summary>
         /// Can this costume not drop through the normal loot pool?
         /// </summary>
-        public bool Reserved => Game.Engine.CallScript("gml_Script_scr_WardrobeReserved", ID); // TODO: as of 2.0, this function is no longer being maintained
+        public bool Reserved => _Reserved ?? (_Reserved = Game.Engine.CallScript("gml_Script_scr_WardrobeReserved", ID)).Value; // TODO: as of 2.0, this function is no longer being maintained
+
+        private int? _SpriteID;
         /// <summary>
         /// The ID of this costume's sprite.
         /// </summary>
-        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_WardrobeSprite", ID).GetSpriteID();
+        public int SpriteID => _SpriteID ?? (_SpriteID = Game.Engine.CallScript("gml_Script_scr_WardrobeSprite", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// This costume's sprite.
         /// </summary>

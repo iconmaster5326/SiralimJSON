@@ -35,25 +35,26 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         /// <summary>
         /// The English name of this god.
         /// </summary>
-        public string Name => Game.Engine.CallScript("gml_Script_scr_GodName", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallScript("gml_Script_scr_GodName", ID));
+
+        private int? _AvatarID;
         /// <summary>
         /// The ID of this god's <see cref="Creature"/> avatar.
         /// </summary>
-        public int AvatarID
-        {
-            get
-            {
-                var name = Name;
-                return Creature.Database.Values.First(c => c.Name.Equals(name)).ID;
-            }
-        }
+        public int AvatarID => _AvatarID ?? (_AvatarID = Creature.Database.Values.First(c => c.Name.Equals(Name)).ID).Value;
+
+        public int? _TraitID;
         /// <summary>
         /// The ID of the <see cref="Trait"/> this god possesses in its Gate of the Gods fight.
         /// </summary>
-        public int TraitID => Game.Engine.CallScript("gml_Script_scr_GodBossTrait", ID);
+        public int TraitID => _TraitID ?? (_TraitID = Game.Engine.CallScript("gml_Script_scr_GodBossTrait", ID)).Value;
+
+        private bool _SetRealmID;
+        private int? _RealmID;
         /// <summary>
         /// The ID of the <see cref="Realm"/> of this god, if any.
         /// </summary>
@@ -61,22 +62,38 @@ namespace SiralimDumper
         {
             get
             {
-                int biome = Game.Engine.CallScript("gml_Script_scr_GodBiome", ID);
-                return biome <= 0 ? null : biome;
+                if (!_SetRealmID)
+                {
+                    _SetRealmID = true;
+                    int biome = Game.Engine.CallScript("gml_Script_scr_GodBiome", ID);
+                    _RealmID = biome <= 0 ? null : biome;
+                }
+                return _RealmID;
             }
         }
+
+        private string? _FullName;
+        private string FullName => _FullName ?? (_FullName = Game.Engine.CallScript("gml_Script_scr_GodBossName", ID));
+
+        private string? _Title;
         /// <summary>
         /// The English title of this god.
         /// </summary>
-        public string Title => Regex.Match(Game.Engine.CallScript("gml_Script_scr_GodBossName", ID), "^\\[[^\\]]*\\] [^,]*, (.*)$").Groups[1].Value;
+        public string Title => _Title ?? (_Title = Regex.Match(FullName, "^\\[[^\\]]*\\] [^,]*, (.*)$").Groups[1].Value);
+
+        private int? _IconID;
         /// <summary>
         /// The ID of the icon of this god.
         /// </summary>
-        public int IconID => Regex.Match(Game.Engine.CallScript("gml_Script_scr_GodBossName", ID), "^\\[([^\\]]*)\\]").Groups[1].Value.GetGMLAssetID();
+        public int IconID => _IconID ?? (_IconID = Regex.Match(FullName, "^\\[([^\\]]*)\\]").Groups[1].Value.GetGMLAssetID()).Value;
+
         /// <summary>
         /// The icon of this god.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
+        public bool _SetEmblemIconID;
+        public int? _EmblemIconID;
         /// <summary>
         /// The ID of the sprite for this god's emblem.
         /// </summary>
@@ -84,12 +101,19 @@ namespace SiralimDumper
         {
             get
             {
-                GameVariable v = Game.Engine.CallScript("gml_Script_inv_GetEmblemIconByGod", ID);
-                if (v.Type.Equals("undefined") || v.IsNumber() && v < 0)
+                if (!_SetEmblemIconID)
                 {
-                    return null;
+                    _SetEmblemIconID = true;
+                    GameVariable v = Game.Engine.CallScript("gml_Script_inv_GetEmblemIconByGod", ID);
+                    if (v.Type.Equals("undefined") || v.IsNumber() && v < 0)
+                    {
+                        _EmblemIconID = null;
+                    } else
+                    {
+                        _EmblemIconID = v.GetSpriteID();
+                    }
                 }
-                return v.GetSpriteID();
+                return _EmblemIconID;
             }
         }
 
@@ -97,14 +121,18 @@ namespace SiralimDumper
         /// The ID of the sprite for this god's emblem.
         /// </summary>
         public Sprite? EmblemIcon => EmblemIconID?.GetGMLSprite();
+
+        public int? _UltimateSpellID;
         /// <summary>
         /// The ID of the <see cref="Spell"/> this god's Avatar can cast.
         /// </summary>
-        public int UltimateSpellID => Game.Engine.CallScript("gml_Script_scr_GetUltimateSpellByRelic", ID);
+        public int UltimateSpellID => _UltimateSpellID ?? (_UltimateSpellID = Game.Engine.CallScript("gml_Script_scr_GetUltimateSpellByRelic", ID)).Value;
+
         /// <summary>
         /// The <see cref="Spell"/> this god's Avatar can cast.
         /// </summary>
         public Spell UltimateSpell => Spell.Database[UltimateSpellID];
+
         /// <summary>
         /// The <see cref="Relic"/> associated with this god.
         /// </summary>

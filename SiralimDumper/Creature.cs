@@ -147,15 +147,19 @@ namespace SiralimDumper
         /// </summary>
         public Trait Trait => Trait.Database[TraitID];
 
+        private string? _Lore;
         /// <summary>
         /// This creature's English lore.
         /// </summary>
-        public string Lore => Game.Engine.CallScript("gml_Script_scr_CreatureLore", ID);
+        public string Lore => _Lore ?? (_Lore = Game.Engine.CallScript("gml_Script_scr_CreatureLore", ID));
+
+        private string? _Source;
         /// <summary>
         /// A general description of where to find the creature.
         /// May lie.
         /// </summary>
-        public string Source => Game.Engine.CallScript("gml_Script_scr_CreatureSource", ID);
+        public string Source => _Source ?? (_Source = Game.Engine.CallScript("gml_Script_scr_CreatureSource", ID));
+
         private string MenagerieDialogForStat(string stat)
         {
             using (var tci = new TempCreatureInstance(this))
@@ -163,11 +167,15 @@ namespace SiralimDumper
                 return Game.Engine.CallScript($"gml_Script_scr_PersonalityDialog{stat}", tci.Instance);
             }
         }
+
+        private string[]? _MenagerieDialog;
         /// <summary>
         /// Possible dialogue when spoken to in the menagerie.
         /// Most races all have the same dialog, but some (Avatars, Godspawn) have dialog for each individual member.
         /// </summary>
-        public string[] MenagerieDialog => [MenagerieDialogForStat("Health"), MenagerieDialogForStat("Attack"), MenagerieDialogForStat("Intelligence"), MenagerieDialogForStat("Defense"), MenagerieDialogForStat("Speed")];
+        public string[] MenagerieDialog => _MenagerieDialog ?? (_MenagerieDialog = [MenagerieDialogForStat("Health"), MenagerieDialogForStat("Attack"), MenagerieDialogForStat("Intelligence"), MenagerieDialogForStat("Defense"), MenagerieDialogForStat("Speed")]);
+
+        private bool? _IsGod;
         /// <summary>
         /// Is this Avatar a god?
         /// Any other Avatars are False God parts.
@@ -176,16 +184,34 @@ namespace SiralimDumper
         {
             get
             {
-                using (var tci = new TempCreatureInstance(this))
+                if (_IsGod == null)
                 {
-                    return Game.Engine.CallScript("gml_Script_scr_CreatureIsGod", tci.Instance);
+                    using (var tci = new TempCreatureInstance(this))
+                    {
+                        _IsGod = Game.Engine.CallScript("gml_Script_scr_CreatureIsGod", tci.Instance);
+                    }
                 }
+                return _IsGod.Value;
             }
         }
+
+        private bool _GodSet = false;
+        private God? _God;
         /// <summary>
         /// The god this Avatar is associated with, if any.
         /// </summary>
-        public God? God => God.Database.Values.FirstOrDefault(g => g.Name.Equals(Name));
+        public God? God
+        {
+            get
+            {
+                if (!_GodSet)
+                {
+                    _GodSet = true;
+                    _God = God.Database.Values.FirstOrDefault(g => g.Name.Equals(Name));
+                }
+                return _God;
+            }
+        }
 
         /// <summary>
         /// Is this creature obtainable in normal gameplay?
@@ -200,6 +226,7 @@ namespace SiralimDumper
                 return true;
             }
         }
+
         /// <summary>
         /// Is this creature not spawnable in normal, random enemy packs?
         /// </summary>
@@ -213,6 +240,7 @@ namespace SiralimDumper
                 return false;
             }
         }
+
         /// <summary>
         /// Does this creature give mana on defeat?
         /// </summary>
@@ -226,12 +254,14 @@ namespace SiralimDumper
             }
         }
 
+        private static Sprite? _BattleSprite;
         /// <summary>
         /// The sprite this creature uses in battle.
         /// This is the same sprite for all creatures;
         /// the frame of the sprite to be used should be <see cref="ID"/>.
         /// </summary>
-        public Sprite BattleSprite => "spr_crits_battle".GetGMLSprite();
+        public Sprite BattleSprite => _BattleSprite ?? (_BattleSprite = "spr_crits_battle".GetGMLSprite());
+
         /// <summary>
         /// The sprite this creature uses in the overworld.
         /// </summary>

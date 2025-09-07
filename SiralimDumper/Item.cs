@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using System.Xml.Linq;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -20,6 +21,7 @@ namespace SiralimDumper
 
         internal abstract TempInstance TempInstance { get; }
 
+        protected string? _Name;
         /// <summary>
         /// The English name of this item.
         /// </summary>
@@ -27,12 +29,18 @@ namespace SiralimDumper
         {
             get
             {
-                using (var ti = TempInstance)
+                if (_Name == null)
                 {
-                    return Game.Engine.CallScript("gml_Script_inv_ItemGetName", ti.Instance);
+                    using (var ti = TempInstance)
+                    {
+                        _Name = Game.Engine.CallScript("gml_Script_inv_ItemGetName", ti.Instance);
+                    }
                 }
+                return _Name;
             }
         }
+
+        protected string? _Description;
         /// <summary>
         /// A English description of this item.
         /// </summary>
@@ -40,22 +48,31 @@ namespace SiralimDumper
         {
             get
             {
-                using (var ti = TempInstance)
+                if (_Description == null)
                 {
-                    return Game.Engine.CallScript("gml_Script_inv_ItemGetDescription", ti.Instance);
+                    using (var ti = TempInstance)
+                    {
+                        _Description = Game.Engine.CallScript("gml_Script_inv_ItemGetDescription", ti.Instance);
+                    }
                 }
+                return _Description;
             }
         }
+
+        protected int? _IconID;
         /// <summary>
         /// The sprite ID of the icon for this item.
         /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
         /// </summary>
-        public virtual int IconID => "icons".GetGMLAssetID();
+        public virtual int IconID => _IconID ?? (_IconID = "icons".GetGMLAssetID()).Value;
+
         /// <summary>
         /// The sprite of the icon for this item.
         /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
+        protected int? _IconIndex;
         /// <summary>
         /// The frame of the icon sprite to use for this item.
         /// This is a large sprite with many frames; see <see cref="IconID"/> for the sprite to use.
@@ -64,10 +81,14 @@ namespace SiralimDumper
         {
             get
             {
-                using (var ti = TempInstance)
+                if (_IconIndex == null)
                 {
-                    return Game.Engine.CallScript("gml_Script_inv_ItemIconIndex", ti.Instance);
+                    using (var ti = TempInstance)
+                    {
+                        _IconIndex = Game.Engine.CallScript("gml_Script_inv_ItemIconIndex", ti.Instance);
+                    }
                 }
+                return _IconIndex.Value;
             }
         }
     }
@@ -107,10 +128,8 @@ namespace SiralimDumper
         /// </summary>
         public IEnumerable<SpellProperty> PropertiesApplicable => SpellProperty.Database.Values.Where(sp => sp.ItemID == ID);
 
-        /// <summary>
-        /// The file path to the icon.
-        /// </summary>
         public string IconFilename => $@"item\spellprop\{Name.EscapeForFilename()}.png";
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -142,11 +161,14 @@ namespace SiralimDumper
         {
             SpriteID = spriteID;
         }
+
         /// <summary>
         /// The slot this material can go in.
         /// </summary>
         public abstract ArtifactSlot MaterialKind { get; }
+
         internal override TempInstance TempInstance => new TempItemMaterialInstance(this);
+
         /// <summary>
         /// The database of all materials.
         /// </summary>
@@ -160,6 +182,7 @@ namespace SiralimDumper
         /// The file path to the icon.
         /// </summary>
         public string IconFilename => $@"item\material\{Name.EscapeForFilename()}.png";
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -310,6 +333,8 @@ namespace SiralimDumper
         /// </summary>
         new public static ItemMaterialTrickDatabase Database = [];
 
+        private bool _SetCondID = false;
+        private int? _CondID;
         /// <summary>
         /// The ID of the condition this material grants, if it's condition-related.
         /// </summary>
@@ -317,10 +342,16 @@ namespace SiralimDumper
         {
             get
             {
-                GameVariable v = Game.Engine.CallScript("gml_Script_scr_TrickSlotToCondition", ID);
-                return (!v.IsNumber() || v.GetInt32() < 0) ? null : v.GetInt32();
+                if (!_SetCondID)
+                {
+                    _SetCondID = true;
+                    GameVariable v = Game.Engine.CallScript("gml_Script_scr_TrickSlotToCondition", ID);
+                    _CondID = (!v.IsNumber() || v.GetInt32() < 0) ? null : v.GetInt32();
+                }
+                return _CondID;
             }
         }
+
         /// <summary>
         /// The condition this material grants, if it's condition-related.
         /// </summary>
@@ -439,7 +470,7 @@ namespace SiralimDumper
             }
         }
 
-        override public int IconIndex => IconIndexEx();
+        override public int IconIndex => _IconIndex ?? (_IconIndex = IconIndexEx()).Value;
 
         /// <summary>
         /// The stat this artifact primarily increases.

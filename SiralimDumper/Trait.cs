@@ -60,14 +60,17 @@ namespace SiralimDumper
         /// The creature this trait is associated with, if any.
         /// </summary>
         public Creature? Creature => Creature.Database.Values.FirstOrDefault(c => c.TraitID == ID);
+
         /// <summary>
         /// The Rodian Master this trait is associated with, if any.
         /// </summary>
         public Race? Race => Race.Database.Values.FirstOrDefault(c => c.HasMaster && c.MasterTraitID == ID);
+
         /// <summary>
         /// The item this trait is associated with, if any.
         /// </summary>
         public ItemMaterialTrait? Item => ItemMaterialTrait.Database.Values.FirstOrDefault(c => c.TraitID == ID);
+
         /// <summary>
         /// The god this trait is associated with, if any.
         /// </summary>

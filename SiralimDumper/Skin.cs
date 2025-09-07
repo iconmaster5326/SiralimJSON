@@ -77,16 +77,19 @@ namespace SiralimDumper
 )";
         }
 
+        private bool? _Reserved;
         /// <summary>
         /// Can this skin not appear on wild creatures?
         /// </summary>
-        public bool Reserved => Game.Engine.CallScript("gml_Script_inv_SkinReserved", ID);
+        public bool Reserved => _Reserved ?? (_Reserved = Game.Engine.CallScript("gml_Script_inv_SkinReserved", ID)).Value;
 
+        private static Sprite? _BattleSprite;
         /// <summary>
         /// The sprite this skin gives to the creature when in battle.
         /// See also <see cref="BattleSpriteIndex"/> for the correct frame.
         /// </summary>
-        public Sprite BattleSprite => "spr_crits_battle".GetGMLSprite();
+        public Sprite BattleSprite => _BattleSprite ?? (_BattleSprite = "spr_crits_battle".GetGMLSprite());
+
         /// <summary>
         /// The sprite this skin gives to the creature when in the overworld.
         /// </summary>

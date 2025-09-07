@@ -43,22 +43,26 @@ namespace SiralimDumper
 )";
         }
 
-        private string FullShortDesc => Game.Engine.CallScript("gml_Script_inv_SpellGemPropertyString", ID);
+        private string? _FullShortDesc;
+        private string FullShortDesc => _FullShortDesc ?? (_FullShortDesc = Game.Engine.CallScript("gml_Script_inv_SpellGemPropertyString", ID));
 
         /// <summary>
         /// The English short description of this spell property.
         /// </summary>
         public string ShortDescription => Regex.Replace(FullShortDesc, "^\\[[^\\]]*\\] ", "");
+
         /// <summary>
         /// The sprite ID of the icon for this spell property.
         /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
         /// </summary>
         public int IconID => Regex.Match(FullShortDesc, "^\\[([^,]*)").Groups[1].Value.GetGMLAssetID();
+
         /// <summary>
         /// The sprite of the icon for this spell property.
         /// This is a large sprite with many frames; see <see cref="IconIndex"/> for the index to use.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
         /// <summary>
         /// The frame of the icon sprite to use for this spell property.
         /// This is a large sprite with many frames; see <see cref="IconID"/> for the sprite to use.
@@ -80,15 +84,18 @@ namespace SiralimDumper
                 return int.Parse(value);
             }
         }
+
+        private int? _ItemID;
         /// <summary>
         /// Returns the ID of the <see cref="ItemSpellProperty"/> that applies this property.
         /// </summary>
-        public int ItemID => Game.Engine.CallScript("gml_Script_inv_SpellGemGetMaterialByStat", ID);
+        public int ItemID => _ItemID ?? (_ItemID = Game.Engine.CallScript("gml_Script_inv_SpellGemGetMaterialByStat", ID)).Value;
 
         /// <summary>
         /// The file path to the icon.
         /// </summary>
         public string IconFilename => $@"spellprop\{ID}.png";
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>

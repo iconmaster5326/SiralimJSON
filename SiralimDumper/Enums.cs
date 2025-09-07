@@ -327,9 +327,10 @@ namespace SiralimDumper
             }
         }
 
+        private static Dictionary<DecorationCategory, string> _CachedDecoCatNames = [];
         /// <summary>
         /// The English name of this decoration category.
         /// </summary>
-        public static string Name(this DecorationCategory category) => Game.Engine.CallScript("gml_Script_scr_DecorationCatName", (int)category);
+        public static string Name(this DecorationCategory category) => _CachedDecoCatNames.GetValueOrDefault(category) ?? (_CachedDecoCatNames[category] = Game.Engine.CallScript("gml_Script_scr_DecorationCatName", (int)category));
     }
 }

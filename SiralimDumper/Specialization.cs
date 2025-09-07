@@ -42,6 +42,7 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         private static readonly IReadOnlyDictionary<string, string> MANUAL_NAME_FIXUPS = new Dictionary<string, string> {
             ["L_WITCHDOCTOR"] = "L_WITCH_DOCTOR",
             ["L_HELLKNIGHT"] = "L_HELL_KNIGHT",
@@ -55,76 +56,104 @@ namespace SiralimDumper
         {
             get
             {
-                string result = Game.Engine.CallScript("gml_Script_scr_SpecializationName", ID);
-                if (MANUAL_NAME_FIXUPS.ContainsKey(result))
+                if (_Name == null)
                 {
-                    result = MANUAL_NAME_FIXUPS[result].SUTranslate();
+                    _Name = Game.Engine.CallScript("gml_Script_scr_SpecializationName", ID);
+                    if (MANUAL_NAME_FIXUPS.ContainsKey(_Name))
+                    {
+                        _Name = MANUAL_NAME_FIXUPS[_Name].SUTranslate();
+                    }
                 }
-                return result;
+                return _Name;
             }
         }
+
+        private string? _Description;
         /// <summary>
         /// The first part of the English description of this specialization.
         /// </summary>
-        public string Description => Game.Engine.CallScript("gml_Script_scr_SpecializationDesc", ID);
+        public string Description => _Description ?? (_Description = Game.Engine.CallScript("gml_Script_scr_SpecializationDesc", ID));
+
+        private string? _Playstyle;
         /// <summary>
         /// The second part of the English description of this specialization.
         /// </summary>
-        public string Playstyle => Game.Engine.CallScript("gml_Script_scr_SpecializationPlaystyle", ID);
+        public string Playstyle => _Playstyle ?? (_Playstyle = Game.Engine.CallScript("gml_Script_scr_SpecializationPlaystyle", ID));
+
+        private int? _IconID;
         /// <summary>
         /// The ID of the icon for this specialization.
         /// </summary>
-        public int IconID => Game.Engine.CallScript("gml_Script_scr_SpecializationIcon", ID).GetSpriteID();
+        public int IconID => _IconID ?? (_IconID = Game.Engine.CallScript("gml_Script_scr_SpecializationIcon", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// The icon for this specialization.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
+        private int? _SpriteID;
         /// <summary>
         /// The ID of the sprite for the initial costume for this specialization.
         /// </summary>
-        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_SpecializationCostume", ID).GetSpriteID();
+        public int SpriteID => _SpriteID ?? (_SpriteID = Game.Engine.CallScript("gml_Script_scr_SpecializationCostume", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// The sprite for the initial costume for this specialization.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        private int? _PrimaryCreatureID;
         /// <summary>
         /// The ID of the first <see cref="Creature"> this specialization starts the game with.
         /// Also see <see cref="SecondaryCreatureID"/>.
         /// </summary>
-        public int PrimaryCreatureID => Game.Engine.CallScript("gml_Script_scr_SpecializationStartingCreature", ID);
+        public int PrimaryCreatureID => _PrimaryCreatureID ?? (_PrimaryCreatureID = Game.Engine.CallScript("gml_Script_scr_SpecializationStartingCreature", ID)).Value;
+
+        private int? _SecondaryCreatureID;
         /// <summary>
         /// The ID of the second <see cref="Creature"> this specialization starts the game with.
         /// Also see <see cref="PrimaryCreatureID"/>.
         /// </summary>
-        public int SecondaryCreatureID => Game.Engine.CallScript("gml_Script_scr_SpecializationSecondaryCreature", ID);
+        public int SecondaryCreatureID => _SecondaryCreatureID ?? (_SecondaryCreatureID = Game.Engine.CallScript("gml_Script_scr_SpecializationSecondaryCreature", ID)).Value;
+
+        private int? _SpellID;
         /// <summary>
         /// The ID of the <see cref="Spell"> this specialization starts the game with.
         /// </summary>
-        public int SpellID => Game.Engine.CallScript("gml_Script_scr_SpecializationSpell", ID);
+        public int SpellID => _SpellID ?? (_SpellID = Game.Engine.CallScript("gml_Script_scr_SpecializationSpell", ID)).Value;
+
+        private int[]? _PerkIDs;
         /// <summary>
         /// The IDs of the perks this specialization can access.
         /// </summary>
-        public int[] PerkIDs => Game.Engine.CallScript("gml_Script_scr_PerkGetPerkList", ID).GetArray().Skip(1).Select(x => x.GetInt32()).ToArray();
+        public int[] PerkIDs => _PerkIDs ?? (_PerkIDs = Game.Engine.CallScript("gml_Script_scr_PerkGetPerkList", ID).GetArray().Skip(1).Select(x => x.GetInt32()).ToArray());
+
         /// <summary>
         /// The perks this specialization can access.
         /// </summary>
         public Perk[] Perks => PerkIDs.Select(x => Perk.Database[x]).ToArray();
+
+        private int? _AscendedPerkID;
         /// <summary>
         /// The ID of the perk you get when you ascend this specialization.
         /// </summary>
-        public int AscendedPerkID => Game.Engine.CallScript("gml_Script_scr_AscensionPerk", ID);
+        public int AscendedPerkID => _AscendedPerkID ?? (_AscendedPerkID = Game.Engine.CallScript("gml_Script_scr_AscensionPerk", ID)).Value;
+
         /// <summary>
         /// The perk you get when you ascend this specialization.
         /// </summary>
         public Perk AscendedPerk => Perk.Database[AscendedPerkID];
+
         /// <summary>
         /// The costume you get at a certain tier, from 1-3.
         /// </summary>
         public Costume? CostumeAtTier(int tier) => Costume.Database.Values.FirstOrDefault(c => c.Name.Equals($"{Name} (Tier {tier})"));
+
+        private Costume[] _Costumes;
         /// <summary>
         /// The costumes you get at all 3 tiers.
         /// </summary>
-        public Costume[] Costumes => Enumerable.Range(1, 3).Select(i => CostumeAtTier(i)).OfType<Costume>().ToArray();
+        public Costume[] Costumes => _Costumes ?? (_Costumes = Enumerable.Range(1, 3).Select(i => CostumeAtTier(i)).OfType<Costume>().ToArray());
 
         public string IconFilename => $@"spec\{Name.EscapeForFilename()}.png";
 
@@ -256,10 +285,13 @@ namespace SiralimDumper
         /// The <see cref="Specialization"/> this perk belongs to.
         /// </summary>
         public Specialization Specialization => Specialization.Database.Values.First(s => s.AscendedPerkID == ID || s.PerkIDs.Contains(ID));
+
+        private bool? _IsAnointable;
         /// <summary>
         /// Is this perk anointable?
         /// </summary>
-        public bool IsAnointable => Game.Engine.CallScript("gml_Script_scr_AnointmentGetSpecialization", ID).GetInt32() >= 1;
+        public bool IsAnointable => _IsAnointable ?? (_IsAnointable = Game.Engine.CallScript("gml_Script_scr_AnointmentGetSpecialization", ID).GetInt32() >= 1).Value;
+
         /// <summary>
         /// The sprite for this perk's icon.
         /// </summary>

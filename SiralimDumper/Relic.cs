@@ -36,42 +36,56 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         /// <summary>
         /// The English name of this relic.
         /// </summary>
-        public string Name => Game.Engine.CallScript("gml_Script_scr_RelicName", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallScript("gml_Script_scr_RelicName", ID));
+
+        private int? _SpriteID;
         /// <summary>
         /// The ID of the sprite for this relic.
         /// </summary>
-        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_RelicBigIcon", ID).GetSpriteID();
+        public int SpriteID => _SpriteID ?? (_SpriteID = Game.Engine.CallScript("gml_Script_scr_RelicBigIcon", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// The sprite for this relic.
         /// </summary>
         public Sprite BigIcon => SpriteID.GetGMLSprite();
+
+        private int? _IconID;
         /// <summary>
         /// The ID of the icon for this relic.
         /// </summary>
-        public int IconID => Game.Engine.CallScript("gml_Script_scr_RelicMenuIcon", ID).GetSpriteID();
+        public int IconID => _IconID ?? (_IconID = Game.Engine.CallScript("gml_Script_scr_RelicMenuIcon", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// The icon for this relic.
         /// </summary>
         public Sprite SmallIcon => IconID.GetGMLSprite();
+
+        private string[]? _Bonuses;
         /// <summary>
         /// The English text of this relic's bonuses. 10 items long.
         /// </summary>
-        public string[] Bonuses => Enumerable.Range(1, 10).Select(i => Game.Engine.CallScript("gml_Script_scr_RelicBonusText", ID, i).GetString()).ToArray();
+        public string[] Bonuses => _Bonuses ?? (_Bonuses = Enumerable.Range(1, 10).Select(i => Game.Engine.CallScript("gml_Script_scr_RelicBonusText", ID, i).GetString()).ToArray());
+
+        private Stat? _Stat;
         /// <summary>
         /// The stat this relic increases.
         /// </summary>
-        public Stat Stat => EnumUtil.StatFromString(Game.Engine.CallScript("gml_Script_scr_RelicStat", ID));
+        public Stat Stat => _Stat ?? (_Stat = EnumUtil.StatFromString(Game.Engine.CallScript("gml_Script_scr_RelicStat", ID))).Value;
+
         /// <summary>
         /// The <see cref="God"/> associated with this relic.
         /// </summary>
         public God God => God.Database[ID];
+
+        private string? _Title;
         /// <summary>
         /// The English title given to this relic.
         /// </summary>
-        public string Title => Regex.Match($"L_RELIC_{God.NameForTranslationKeys}_EXT".SUTranslate(), "^[^,]+, (.+)$").Groups[1].Value;
+        public string Title => _Title ?? (_Title = Regex.Match($"L_RELIC_{God.NameForTranslationKeys}_EXT".SUTranslate(), "^[^,]+, (.+)$").Groups[1].Value);
 
         public string BigIconFilename => $@"relic\{Name.EscapeForFilename()}\relic.png";
         public string SmallIconFilename => $@"relic\{Name.EscapeForFilename()}\icon.png";

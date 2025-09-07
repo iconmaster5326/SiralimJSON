@@ -27,10 +27,12 @@ namespace SiralimDumper
         /// </summary>
         public static TilesetDatabase Database = [];
 
+        private string? _Name;
         /// <summary>
         /// The name of this tileset.
         /// </summary>
-        public string Name => Game.Engine.CallFunction("tileset_get_name", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallFunction("tileset_get_name", ID));
+
         /// <summary>
         /// The texture of this tileset.
         /// </summary>

@@ -12,12 +12,10 @@ namespace SiralimDumper
         /// The unique ID of this project.
         /// </summary>
         public int ID;
-
         /// <summary>
         /// The English name of this project.
         /// </summary>
         public string Name;
-
         /// <summary>
         /// The English description of this project.
         /// </summary>
@@ -98,22 +96,31 @@ namespace SiralimDumper
         /// The <see cref="ProjectItem"/>s you need to complete this project.
         /// </summary>
         public IReadOnlyDictionary<ProjectItem, int> ProjectItems => ProjectItemIDs.Select(kv => new KeyValuePair<ProjectItem, int>(ProjectItem.Database[kv.Key], kv.Value)).ToDictionary();
+
+        private int? _GraniteRequired;
         /// <summary>
         /// The amount of granite you need to start this project.
         /// </summary>
-        public int GraniteRequired => Game.Engine.CallScript("gml_Script_scr_ProjectRequiredResources", ID);
+        public int GraniteRequired => _GraniteRequired ?? (_GraniteRequired = Game.Engine.CallScript("gml_Script_scr_ProjectRequiredResources", ID)).Value;
+
+        private int? _PartsRequired;
         /// <summary>
         /// The amount of monster parts you need to finish this project.
         /// </summary>
-        public int PartsRequired => Game.Engine.CallScript("gml_Script_scr_ProjectRequiredParts", ID);
+        public int PartsRequired => _PartsRequired ?? (_PartsRequired = Game.Engine.CallScript("gml_Script_scr_ProjectRequiredParts", ID)).Value;
+
+        private int? _DustRequired;
         /// <summary>
         /// The amount of arcane dust you need to finish this project.
         /// </summary>
-        public int DustRequired => Game.Engine.CallScript("gml_Script_scr_ProjectRequiredDust", ID);
+        public int DustRequired => _DustRequired ?? (_DustRequired = Game.Engine.CallScript("gml_Script_scr_ProjectRequiredDust", ID)).Value;
+
+        private int? _IconID;
         /// <summary>
         /// The ID of the icon for this project.
         /// </summary>
-        public int IconID => Game.Engine.CallScript("gml_Script_scr_ProjectIcon", (int)ProjectKind).GetString().Replace("[", "").Replace("]", "").GetGMLAssetID();
+        public int IconID => _IconID ?? (_IconID = Game.Engine.CallScript("gml_Script_scr_ProjectIcon", (int)ProjectKind).GetString().Replace("[", "").Replace("]", "").GetGMLAssetID()).Value;
+
         /// <summary>
         /// The icon for this project.
         /// </summary>
@@ -197,14 +204,18 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         /// <summary>
         /// The English name of this item.
         /// </summary>
-        public string Name => Game.Engine.CallScript("gml_Script_scr_ProjectItemName", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallScript("gml_Script_scr_ProjectItemName", ID));
+
+        private int? _SpriteID;
         /// <summary>
         /// The ID of the sprite of this item.
         /// </summary>
-        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_ProjectItemSprite", ID).GetSpriteID();
+        public int SpriteID => _SpriteID ?? (_SpriteID = Game.Engine.CallScript("gml_Script_scr_ProjectItemSprite", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// The sprite of this item.
         /// </summary>

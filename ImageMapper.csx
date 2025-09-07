@@ -76,9 +76,9 @@ public static class Dumper
 
             Directory.CreateDirectory(Path.GetDirectoryName(outPath));
             outputImage.Write(outPath);
-            Directory.CreateDirectory(Path.GetDirectoryName(outPath1));
-            outputImage.Write(outPath2);
             Directory.CreateDirectory(Path.GetDirectoryName(outPath2));
+            outputImage.Write(outPath2);
+            Directory.CreateDirectory(Path.GetDirectoryName(outPath3));
             outputImage.Write(outPath3);
         }
     }

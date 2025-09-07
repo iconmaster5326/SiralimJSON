@@ -65,16 +65,30 @@ namespace SiralimDumper
         /// </summary>
         public Trait MasterTrait => Trait.Database[MasterTraitID];
 
+        private bool _SetCardSetID;
+        private int? _CardSetID;
         /// <summary>
         /// The ID of the card set this race has, or null if this race does not have cards.
         /// </summary>
-        public int? CardSetID => Game.Engine.GetGlobalObject()["card_races"].GetArray()
-            .Index()
-            .Where(kv => Name.Equals(kv.Item.GetString()))
-            .Select(kv => kv.Index)
-            .Cast<int?>()
-        .FirstOrDefault();
+        public int? CardSetID
+        {
+            get
+            {
+                if (!_SetCardSetID)
+                {
+                    _SetCardSetID = true;
+                    _CardSetID = Game.Engine.GetGlobalObject()["card_races"].GetArray()
+                        .Index()
+                        .Where(kv => Name.Equals(kv.Item.GetString()))
+                        .Select(kv => kv.Index)
+                        .Cast<int?>()
+                    .FirstOrDefault();
+                }
+                return _CardSetID;
+            }
+        }
 
+        private int? _NumCards;
         /// <summary>
         /// The number of cards in this race's card set.
         /// 0 if this race does not have cards.
@@ -83,16 +97,20 @@ namespace SiralimDumper
         {
             get
             {
-                int? id = CardSetID;
+                if (_NumCards == null)
+                {
+                    int? id = CardSetID;
 
-                if (id == null)
-                {
-                    return 0;
+                    if (id == null)
+                    {
+                        _NumCards = 0;
+                    }
+                    else
+                    {
+                        _NumCards = Game.Engine.GetGlobalObject()["card_count"].GetArray()[id.Value];
+                    }
                 }
-                else
-                {
-                    return Game.Engine.GetGlobalObject()["card_count"].GetArray()[id.Value];
-                }
+                return _NumCards.Value;
             }
         }
 
@@ -140,55 +158,74 @@ namespace SiralimDumper
             return Game.Engine.CallScript("gml_Script_inv_CardSetBonus", Name, i);
         }
 
+        private string[]? _CardBonusDescriptions;
         /// <summary>
         /// The English descriptions of all card bonuses this race has.
         /// </summary>
-        public string[] CardBonusDescriptions => HasCards ? [CardBonusDescription(1), CardBonusDescription(2), CardBonusDescription(3)] : [];
+        public string[] CardBonusDescriptions => _CardBonusDescriptions ?? (_CardBonusDescriptions = HasCards ? [CardBonusDescription(1), CardBonusDescription(2), CardBonusDescription(3)] : []);
 
+        public SiralimClass? _Class;
         /// <summary>
         /// The general class of this race.
         /// Not all members of this race may belong to this class!
         /// </summary>
-        public SiralimClass Class => EnumUtil.ClassFromString(Game.Engine.CallScript("gml_Script_scr_GetClassOfRace", Name));
+        public SiralimClass Class => _Class ?? (_Class = EnumUtil.ClassFromString(Game.Engine.CallScript("gml_Script_scr_GetClassOfRace", Name))).Value;
 
         /// <summary>
         /// Does this race have a Rodian Master?
         /// </summary>
         public bool HasMaster => !MASTERLESS_RACES.Contains(Name);
+
+        private int? _MasterTraitID;
         /// <summary>
         /// The ID of the <see cref="Trait"/> that this race's Rodian Master gives you.
         /// </summary>
-        public int MasterTraitID => Game.Engine.CallScript("gml_Script_scr_MasterTrait", Name);
+        public int MasterTraitID => _MasterTraitID ?? (_MasterTraitID = Game.Engine.CallScript("gml_Script_scr_MasterTrait", Name)).Value;
+
+        private string? _MasterName;
         /// <summary>
         /// The English name of this race's Rodian Master.
         /// </summary>
-        public string MasterName => Game.Engine.CallScript("gml_Script_scr_MasterName", Name);
+        public string MasterName => _MasterName ?? (_MasterName = Game.Engine.CallScript("gml_Script_scr_MasterName", Name));
+
+        private string? _MasterDialogue;
         /// <summary>
         /// What this race's Rodian Master says to you before you fight them.
         /// </summary>
-        public string MasterDialogue => Game.Engine.CallScript("gml_Script_scr_MasterDialog", Name);
+        public string MasterDialogue => _MasterDialogue ?? (_MasterDialogue = Game.Engine.CallScript("gml_Script_scr_MasterDialog", Name));
+
+        private int? _MasterCostumeID;
         /// <summary>
         /// The ID of the costume of this race's Rodian Master.
         /// </summary>
-        public int MasterCostumeID => Game.Engine.CallScript("gml_Script_scr_MasterCostumeID", Name);
+        public int MasterCostumeID => _MasterCostumeID ?? (_MasterCostumeID = Game.Engine.CallScript("gml_Script_scr_MasterCostumeID", Name)).Value;
+
         private const int MAX_RANDOM_TRIES = 100;
+        private string[]? _BossDialogue;
         /// <summary>
         /// The possible lines of dialogue that may appear when you face creatures of this race in mini-boss rooms.
         /// This has a probabalistic chance to fail to return all possible results.
         /// Increase <see cref="MAX_RANDOM_TRIES"/> if this happens to you.
         /// </summary>
-        public List<string> BossDialogue
+        public string[] BossDialogue
         {
             get
             {
-                HashSet<string> result = new HashSet<string>();
-                for (int i = 0; i < MAX_RANDOM_TRIES; i++)
+                if (_BossDialogue == null)
                 {
-                    result.Add(Game.Engine.CallScript("gml_Script_scr_BossGetDialog", Name));
+                    HashSet<string> result = new HashSet<string>();
+                    for (int i = 0; i < MAX_RANDOM_TRIES; i++)
+                    {
+                        result.Add(Game.Engine.CallScript("gml_Script_scr_BossGetDialog", Name));
+                    }
+                    _BossDialogue = result.Order().ToArray();
                 }
-                return result.Order().ToList();
+                return _BossDialogue;
             }
         }
+
+        private bool _SetIconID;
+        private int? _IconID;
         /// <summary>
         /// The sprite ID of the icon associated with this race.
         /// </summary>
@@ -196,21 +233,31 @@ namespace SiralimDumper
         {
             get
             {
-                Creature? creature = Creatures.FirstOrDefault<Creature?>();
-                if (creature == null)
+                if (!_SetIconID)
                 {
-                    return null;
-                }
-                using (var tci = new TempCreatureInstance(creature))
-                {
-                    string iconString = Game.Engine.CallScript("gml_Script_scr_CritIcon", tci.Instance, true);
-                    var match = Regex.Match(iconString, "^\\[(.*)\\]");
-                    if (!match.Success || match.Groups[1].Value.Length == 0)
+                    Creature? creature = Creatures.FirstOrDefault<Creature?>();
+                    if (creature == null)
                     {
-                        return null;
+                        _IconID = null;
                     }
-                    return match.Groups[1].Value.GetGMLAssetID();
+                    else
+                    {
+                        using (var tci = new TempCreatureInstance(creature))
+                        {
+                            string iconString = Game.Engine.CallScript("gml_Script_scr_CritIcon", tci.Instance, true);
+                            var match = Regex.Match(iconString, "^\\[(.*)\\]");
+                            if (!match.Success || match.Groups[1].Value.Length == 0)
+                            {
+                                _IconID = null;
+                            }
+                            else
+                            {
+                                _IconID = match.Groups[1].Value.GetGMLAssetID();
+                            }
+                        }
+                    }
                 }
+                return _IconID;
             }
         }
 
@@ -223,10 +270,12 @@ namespace SiralimDumper
         /// Are all creatures of this race obtainable under normal gameplay?
         /// </summary>
         public bool Obtainable => !UNOBTAINABLE_RACES.Contains(Name);
+
         /// <summary>
         /// Can all creatures of this race not appear in normal enemy packs spawns?
         /// </summary>
         public bool Reserved => RESERVED_RACES.Contains(Name) || !Obtainable;
+
         /// <summary>
         /// Can all creatures of this race drop mana?
         /// </summary>

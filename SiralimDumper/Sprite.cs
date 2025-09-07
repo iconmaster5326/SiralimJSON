@@ -27,34 +27,43 @@ namespace SiralimDumper
         /// </summary>
         public static SpriteDatabase Database = [];
 
+        private string? _Name;
         /// <summary>
         /// The name of this sprite.
         /// </summary>
-        public string Name => Game.Engine.CallFunction("sprite_get_name", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallFunction("sprite_get_name", ID));
+
+        private int? _Frames;
         /// <summary>
         /// How many frames does this sprite have?
         /// </summary>
-        public int Frames => Game.Engine.CallFunction("sprite_get_number", ID);
+        public int Frames => _Frames ?? (_Frames = Game.Engine.CallFunction("sprite_get_number", ID)).Value;
+
         /// <summary>
         /// How fast does this sprite animate?
         /// </summary>
         public double AnimationSpeed => Game.Engine.CallFunction("sprite_get_speed", ID);
+
         /// <summary>
         /// Is this sprite animated?
         /// </summary>
         public bool Animated => Frames > 1 && AnimationSpeed != 0;
+
         /// <summary>
         /// The X size of this sprite.
         /// </summary>
         public int Width => Game.Engine.CallFunction("sprite_get_width", ID);
+
         /// <summary>
         /// The Y size of this sprite.
         /// </summary>
         public int Height => Game.Engine.CallFunction("sprite_get_height", ID);
+
         /// <summary>
         /// The X offset of the sprite's origin.
         /// </summary>
         public int OriginX => Game.Engine.CallFunction("sprite_get_xoffset", ID);
+
         /// <summary>
         /// The Y offset of the sprite's origin.
         /// </summary>

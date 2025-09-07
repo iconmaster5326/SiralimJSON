@@ -149,30 +149,41 @@ namespace SiralimDumper
 )";
         }
 
+        private bool? _Reserved;
         /// <summary>
         /// Is this spell banned from appearing on enemies in random fights?
         /// </summary>
-        public bool Reserved => Game.Engine.CallScript("gml_Script_inv_SpellBanned", ID) || Ultimate;
+        public bool Reserved => _Reserved ?? (_Reserved = Game.Engine.CallScript("gml_Script_inv_SpellBanned", ID) || Ultimate).Value;
+
+        private bool? _ManuallyCastable;
         /// <summary>
         /// Can this spell be cast manually?
         /// </summary>
-        public bool ManuallyCastable => Game.Engine.CallScript("gml_Script_inv_SpellCanBeCastManually", ID);
+        public bool ManuallyCastable => _ManuallyCastable ?? (_ManuallyCastable = Game.Engine.CallScript("gml_Script_inv_SpellCanBeCastManually", ID)).Value;
+
+        private bool? _Booze;
         /// <summary>
         /// Is this a booze spell?
         /// </summary>
-        public bool Booze => Game.Engine.CallScript("gml_Script_inv_SpellIsBooze", ID);
+        public bool Booze => _Booze ?? (_Booze = Game.Engine.CallScript("gml_Script_inv_SpellIsBooze", ID)).Value;
+
+        private bool? _Arsenal;
         /// <summary>
         /// Is this an arsenal spell?
         /// </summary>
-        public bool Arsenal => Game.Engine.CallScript("gml_Script_inv_SpellIsEquipment", ID);
+        public bool Arsenal => _Arsenal ?? (_Arsenal = Game.Engine.CallScript("gml_Script_inv_SpellIsEquipment", ID)).Value;
+
+        private bool? _Ultimate;
         /// <summary>
         /// Is this an ultimate spell?
         /// </summary>
-        public bool Ultimate => Game.Engine.CallScript("gml_Script_inv_SpellIsUltimate", ID);
+        public bool Ultimate => _Ultimate ?? (_Ultimate = Game.Engine.CallScript("gml_Script_inv_SpellIsUltimate", ID)).Value;
+
+        private bool? _Lootable;
         /// <summary>
         /// Is this spell available from the normal random loot pool?
         /// </summary>
-        public bool Lootable => !Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID);
+        public bool Lootable => _Lootable ?? (_Lootable = !Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID)).Value;
 
         /// <summary>
         /// Convert this to an exportable entity.

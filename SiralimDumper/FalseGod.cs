@@ -32,26 +32,36 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Name;
         /// <summary>
         /// The English name of this false god.
         /// </summary>
-        public string Name => Game.Engine.CallScript("gml_Script_scr_FalseGodName", ID);
+        public string Name => _Name ?? (_Name = Game.Engine.CallScript("gml_Script_scr_FalseGodName", ID));
+
+        private int? _OverworldSpriteID;
         /// <summary>
         /// The ID of the sprite this false god uses in the overworld.
         /// </summary>
-        public int OverworldSpriteID => Game.Engine.CallScript("gml_Script_scr_FalseGodOWSprite", ID).GetSpriteID();
+        public int OverworldSpriteID => _OverworldSpriteID ?? (_OverworldSpriteID = Game.Engine.CallScript("gml_Script_scr_FalseGodOWSprite", ID).GetSpriteID()).Value;
+
         /// <summary>
         /// The sprite this false god uses in the overworld.
         /// </summary>
         public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
+
+        private string? _Description;
         /// <summary>
         /// The English description and lore of this false god.
         /// </summary>
-        public string Description => Game.Engine.CallScript("gml_Script_scr_FalseGodLore", ID);
+        public string Description => _Description ?? (_Description = Game.Engine.CallScript("gml_Script_scr_FalseGodLore", ID));
+
+        private string? _Dialog;
         /// <summary>
         /// The English text the false god speaks before you fight them.
         /// </summary>
-        public string Dialog => Game.Engine.CallScript("gml_Script_scr_FalseGodDialog", ID);
+        public string Dialog => _Dialog ?? (_Dialog = Game.Engine.CallScript("gml_Script_scr_FalseGodDialog", ID));
+
+        private int? _IconID;
         /// <summary>
         /// TODO: Replace this with a script call if possible.
         /// </summary>
@@ -70,11 +80,16 @@ namespace SiralimDumper
         /// <summary>
         /// The ID of the icon for this false god.
         /// </summary>
-        public int IconID => ICON_SPRITES[ID].GetGMLAssetID();
+        public int IconID => _IconID ?? (_IconID = ICON_SPRITES[ID].GetGMLAssetID()).Value;
+
         /// <summary>
         /// The icon for this false god.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
+        /// <summary>
+        /// TODO: Replace this with a script call if possible.
+        /// </summary>
         private static readonly IReadOnlyDictionary<int, string> PART_SPRITE_NAMES = new Dictionary<int, string>()
         {
             [0] = "althea_@",
@@ -92,10 +107,11 @@ namespace SiralimDumper
         /// The creature in the fight, from slot 1-6.
         /// </summary>
         public Creature CreatureInSlot(int slot) => Creature.Database.Values.First(c => c.OverworldSprite.Name.Equals(PART_SPRITE_NAMES[ID].Replace("@", slot.ToString())));
+        private Creature[]? _Creatures;
         /// <summary>
         /// The creatures in the fight, from top to bottom, left to right.
         /// </summary>
-        public Creature[] Creatures => Enumerable.Range(1, 6).Select(CreatureInSlot).ToArray();
+        public Creature[] Creatures => _Creatures ?? (_Creatures = Enumerable.Range(1, 6).Select(CreatureInSlot).ToArray());
 
         public string IconFilename => $@"falsegod\{Name.EscapeForFilename()}\icon.png";
         public string SpriteFilename0 => $@"falsegod\{Name.EscapeForFilename()}\overworld_0.png";
@@ -172,28 +188,36 @@ namespace SiralimDumper
 )";
         }
 
+        private string? _Description;
         /// <summary>
         /// The English description of this rune.
         /// </summary>
-        public string Description => Game.Engine.CallScript("gml_Script_scr_RuneName", ID);
+        public string Description => _Description ?? (_Description = Game.Engine.CallScript("gml_Script_scr_RuneName", ID));
+
+        private int? _SpriteID;
         /// <summary>
         /// The ID of the sprite for this rune.
         /// </summary>
-        public int SpriteID => Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID, false).GetSpriteID();
+        public int SpriteID => _SpriteID ?? (_SpriteID = Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID, false).GetSpriteID()).Value;
+
         /// <summary>
         /// The sprite for this rune.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        private int? _InactiveSpriteID;
         /// <summary>
         /// The ID of the sprite for this rune when not selected.
         /// </summary>
-        public int InactiveSpriteID => Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID, true).GetSpriteID();
+        public int InactiveSpriteID => _InactiveSpriteID ?? (_InactiveSpriteID = Game.Engine.CallScript("gml_Script_scr_RuneSprite", ID, true).GetSpriteID()).Value;
+
         /// <summary>
         /// The sprite for this rune when not selected.
         /// </summary>
         public Sprite InactiveSprite => InactiveSpriteID.GetGMLSprite();
 
         public string SpriteFilename => $@"rune\{ID}.png";
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
