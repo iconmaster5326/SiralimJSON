@@ -28,7 +28,7 @@ Then install Aurie and AurieSharp (PREVIEW VERSIONS!) into `SiralimUltimateModde
 ## Running the Dumper
 
 ```bash
-cp SiralimDumper/obj/x64/Debug/net9.0/SiralimDumper.dll <your Siralim Ultimate directory>/mods/Managed/SiralimDumper.dll
+cp SiralimDumper/obj/x64/Debug/net9.0/SiralimDumper.dll SiralimUltimateModded/mods/Managed/SiralimDumper.dll
 cd SiralimUltimateModded
 ./SiralimUltimate.exe
 cd ..
