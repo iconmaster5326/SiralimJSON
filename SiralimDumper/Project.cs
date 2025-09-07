@@ -209,6 +209,23 @@ namespace SiralimDumper
         /// The sprite of this item.
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
+
+        public string SpriteFilename => $@"item\project\{Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.ProjectItem AsJSON => new()
+        {
+#nullable disable
+            Id = ID,
+            Name = Name,
+            Icon = $@"images\{SpriteFilename}".Replace("\\", "/"),
+            Projects = Project.Database.Values.Where(p => p.ProjectItemIDs.ContainsKey(ID)).Select(p => (long)p.ID).ToArray(),
+            Sources = [new() { Type = QuickType.SourceType.Random }], // TODO
+            Notes = [],
+#nullable enable
+        };
     }
 
     public class ProjectItemDatabase : Database<int, ProjectItem>

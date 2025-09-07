@@ -32,6 +32,8 @@ required:
   - falseGods
   - runes
   - netherBosses
+  - projects
+  - projectItems
 properties:
   metadata:
     $ref: metadata.yaml
@@ -171,3 +173,8 @@ properties:
     type: array
     items:
       $ref: project.yaml
+  projectItems:
+    description: All project items in the game.
+    type: array
+    items:
+      $ref: projectItem.yaml
