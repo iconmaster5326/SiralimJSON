@@ -1,0 +1,89 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: project.yaml
+title: Project
+description: A Siralim Ultimate project definition.
+type: object
+additionalProperties: false
+required:
+  - id
+  - name
+  - description
+  - icon
+  - type
+  - items
+  - repeatable
+  - graniteCost
+  - arcaneDustCost
+  - monsterPartCost
+  - unlockedCreature
+  - unlockedSpecialization
+  - unlockedRealm
+  - notes
+properties:
+  id:
+    description: The unique ID of this project.
+    type: integer
+    minimum: 0
+  name:
+    description: The English name of this project.
+    type: string
+  description:
+    description: The English description of this project.
+    type: string
+  icon:
+    description: The path to the icon for this project.
+    type: string
+  type:
+    title: Project Type
+    description: What type of project this is.
+    enum: [construction, mission, special]
+  items:
+    description: |
+      What project items you need. A mapping of item ID to quantity.
+      This does NOT include any arcane dust or monster part costs;
+      those are special and separate from project items.
+    type: object
+    maxProperties: 6
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: integer
+      minimum: 1
+  repeatable:
+    description: Is this project repeatable?
+    type: boolean
+  graniteCost:
+    description: The cost in granite to start this project.
+    type: integer
+    minimum: 0
+  arcaneDustCost:
+    description: The cost in arcane dust to finish this project.
+    type: integer
+    minimum: 0
+  monsterPartCost:
+    description: The cost in monster parts to finish this project.
+    type: integer
+    minimum: 0
+  unlockedCreature:
+    description: The creature this project gives you mana for, if any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  unlockedSpecialization:
+    description: The specialization this project unlocks, if any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  unlockedRealm:
+    description: The realm this project unlocks, if any.
+    oneOf:
+      - type: "null"
+      - type: integer
+        minimum: 0
+  notes:
+    description: Any user-given notes for this project.
+    type: array
+    items:
+      $ref: _note.yaml

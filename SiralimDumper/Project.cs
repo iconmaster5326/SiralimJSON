@@ -37,13 +37,13 @@ namespace SiralimDumper
         /// <summary>
         /// The kind of project this is.
         /// </summary>
-        public int ProjectKind;
+        public ProjectKind ProjectKind;
         /// <summary>
         /// 
         /// </summary>
         public int Unknown17;
 
-        public Project(int id, string name, string description, IEnumerable<KeyValuePair<int, int>> projectItemIDs, int unknown14, bool repeatable, int projectKind, int unknown17)
+        public Project(int id, string name, string description, IEnumerable<KeyValuePair<int, int>> projectItemIDs, int unknown14, bool repeatable, ProjectKind projectKind, int unknown17)
         {
             ID = id;
             Name = name;
@@ -71,7 +71,7 @@ namespace SiralimDumper
                 projectItemIDs: ids.Zip(counts).Select(kv => new KeyValuePair<int, int>(kv.First, kv.Second)),
                 unknown14: gml[14].GetInt32(),
                 repeatable: gml[15].GetBoolean(),
-                projectKind: gml[16].GetInt32(),
+                projectKind: (ProjectKind)gml[16].GetInt32(),
                 unknown17: gml[17].GetInt32()
             );
         }
@@ -113,11 +113,36 @@ namespace SiralimDumper
         /// <summary>
         /// The ID of the icon for this project.
         /// </summary>
-        public int IconID => Game.Engine.CallScript("gml_Script_scr_ProjectIcon", ProjectKind).GetString().Replace("[", "").Replace("]", "").GetGMLAssetID();
+        public int IconID => Game.Engine.CallScript("gml_Script_scr_ProjectIcon", (int)ProjectKind).GetString().Replace("[", "").Replace("]", "").GetGMLAssetID();
         /// <summary>
         /// The icon for this project.
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
+
+        public string IconFilename => $@"project\{Name.EscapeForFilename()}.png";
+
+        /// <summary>
+        /// Convert this to an exportable entity.
+        /// </summary>
+        public QuickType.Project AsJSON => new()
+        {
+#nullable disable
+            Id = ID,
+            Name = Name,
+            ArcaneDustCost = DustRequired,
+            Description = Description,
+            GraniteCost = GraniteRequired,
+            Icon = $@"images\{IconFilename}".Replace("\\", "/"),
+            Items = ProjectItems.Select(kv => new KeyValuePair<string, long>(kv.Key.ID.ToString(), kv.Value)).ToDictionary(),
+            MonsterPartCost = PartsRequired,
+            Repeatable = Repeatable,
+            Type = ProjectKind == ProjectKind.CONSTRUCTION ? QuickType.ProjectType.Construction : (ProjectKind == ProjectKind.SPECIAL ? QuickType.ProjectType.Special : QuickType.ProjectType.Mission),
+            UnlockedCreature = Creature.Database.Values.FirstOrDefault(c => Name.EndsWith(c.Name))?.ID,
+            UnlockedRealm = Realm.Database.Values.FirstOrDefault(c => Name.EndsWith(c.Name))?.ID,
+            UnlockedSpecialization = Specialization.Database.Values.FirstOrDefault(c => Name.EndsWith(c.Name))?.ID,
+            Notes = [],
+#nullable enable
+        };
     }
 
     public class ProjectDatabase : Database<int, Project>

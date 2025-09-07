@@ -166,3 +166,8 @@ properties:
     type: array
     items:
       $ref: netherBoss.yaml
+  projects:
+    description: All projects in the game.
+    type: array
+    items:
+      $ref: project.yaml

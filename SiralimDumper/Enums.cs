@@ -185,6 +185,21 @@ namespace SiralimDumper
         WEST,
     }
 
+    public enum ProjectKind
+    {
+        CONSTRUCTION,
+        RAID,
+        FORAGE,
+        EXPERIMENT,
+        HUNT,
+        PILGRAMAGE,
+        TRAINING,
+        ASSASSINATION = 9,
+        SPECIAL,
+        KEYFORGE,
+        NETHER_SYNTHESIS,
+    }
+
     public static class EnumUtil
     {
         private static readonly IReadOnlyDictionary<string, Stat> STAT_STRINGS = new Dictionary<string, Stat>()

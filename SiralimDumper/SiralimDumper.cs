@@ -303,7 +303,7 @@ namespace SiralimDumper
 
                 foreach (var item in Project.Database.Values)
                 {
-                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, $@"project\{item.Name.EscapeForFilename()}.png"));
+                    result.GetAndAppend(item.Icon.Name, new ImageInfo(0, item.IconFilename));
                 }
 
                 foreach (var item in ProjectItem.Database.Values)
@@ -552,6 +552,7 @@ namespace SiralimDumper
             FalseGods = FalseGod.Database.Values.Select(item => item.AsJSON).ToArray(),
             Runes = FalseGodRune.Database.Values.Select(item => item.AsJSON).ToArray(),
             NetherBosses = NetherBoss.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Projects = Project.Database.Values.Select(item => item.AsJSON).ToArray(),
         };
 
         public static void SaveDatabaseJSON()
