@@ -1,5 +1,4 @@
-﻿using QuickType;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using YYTKInterop;
 
 namespace SiralimDumper

@@ -51,7 +51,9 @@ public static class Dumper
     public static TextureWorker Worker = new();
     public static void Dump(ImageInfo mapping, UndertaleTexturePageItem page, string name, uint w, uint h)
     {
-        string outPath = $@"exported\images\{mapping.Output}";
+        string outPath = $@"exported\combined\images\{mapping.Output}";
+        string outPath2 = $@"exported\aggregate\images\{mapping.Output}";
+        string outPath3 = $@"exported\individual\images\{mapping.Output}";
 
         lock (page.TexturePage.TextureData)
         {
@@ -74,6 +76,10 @@ public static class Dumper
 
             Directory.CreateDirectory(Path.GetDirectoryName(outPath));
             outputImage.Write(outPath);
+            Directory.CreateDirectory(Path.GetDirectoryName(outPath1));
+            outputImage.Write(outPath2);
+            Directory.CreateDirectory(Path.GetDirectoryName(outPath2));
+            outputImage.Write(outPath3);
         }
     }
 }

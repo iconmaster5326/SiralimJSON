@@ -1,6 +1,4 @@
-﻿using QuickType;
-using System.Text.RegularExpressions;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -122,11 +120,11 @@ namespace SiralimDumper
         /// <summary>
         /// The costume you get at a certain tier, from 1-3.
         /// </summary>
-        public Costume CostumeAtTier(int tier) => Costume.Database.Values.First(c => c.Name.Equals($"{Name} (Tier {tier})"));
+        public Costume? CostumeAtTier(int tier) => Costume.Database.Values.FirstOrDefault(c => c.Name.Equals($"{Name} (Tier {tier})"));
         /// <summary>
         /// The costumes you get at all 3 tiers.
         /// </summary>
-        public Costume[] Costumes => [CostumeAtTier(1), CostumeAtTier(2), CostumeAtTier(3)];
+        public Costume[] Costumes => Enumerable.Range(1, 3).Select(i => CostumeAtTier(i)).OfType<Costume>().ToArray();
 
         public string IconFilename => $@"spec\{Name.EscapeForFilename()}.png";
 

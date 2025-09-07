@@ -1,0 +1,242 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: individual.yaml
+title: Siralim Ultimate Database (Individualized)
+description: A full database of Siralim Ultimate data. Split out into multiple files.
+type: object
+additionalProperties: false
+required:
+  - metadata
+  - creatures
+  - races
+  - traits
+  - spells
+  - spellProperties
+  - spellPropertyItems
+  - materials
+  - artifacts
+  - personalities
+  - skins
+  - costumes
+  - decorations
+  - wallStyles
+  - floorStyles
+  - backgrounds
+  - weather
+  - music
+  - gods
+  - realms
+  - conditions
+  - specializations
+  - perks
+  - realmProperties
+  - falseGods
+  - runes
+  - netherBosses
+  - projects
+  - projectItems
+  - accessories
+properties:
+  metadata:
+    $ref: metadata.yaml
+    description: metadata for this file.
+  creatures:
+    description: All creatures in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  races:
+    description: All races in the game.
+    type: object
+    additionalProperties:
+      type: string
+  traits:
+    description: All traits in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  spells:
+    description: All spells in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  spellProperties:
+    description: All spell properties in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  spellPropertyItems:
+    description: All spell property items in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  materials:
+    description: All material items in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  artifacts:
+    description: All artifact items in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  personalities:
+    description: All personalities in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  skins:
+    description: All skins in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  costumes:
+    description: All costumes in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  decorations:
+    description: All decorations in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  wallStyles:
+    description: All castle wall styles in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  floorStyles:
+    description: All castle floor styles in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  backgrounds:
+    description: All castle backgrounds in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  weather:
+    description: All castle weather in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  music:
+    description: All castle music tracks in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  gods:
+    description: All gods in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  realms:
+    description: All realms in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  conditions:
+    description: All conditions in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  specializations:
+    description: All specializations in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  perks:
+    description: All perks in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  realmProperties:
+    description: All realm properties in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  falseGods:
+    description: All false gods in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  runes:
+    description: All false god runes in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  netherBosses:
+    description: All nether bosses in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  projects:
+    description: All projects in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  projectItems:
+    description: All project items in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string
+  accessories:
+    description: All accessories in the game.
+    type: object
+    propertyNames:
+      pattern: "^\\d+$"
+    additionalProperties:
+      type: string

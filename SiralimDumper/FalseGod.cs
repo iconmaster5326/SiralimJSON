@@ -1,6 +1,4 @@
-﻿using QuickType;
-using System.Xml.Linq;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {

@@ -1,5 +1,4 @@
-﻿using QuickType;
-using YYTKInterop;
+﻿using YYTKInterop;
 
 namespace SiralimDumper
 {
