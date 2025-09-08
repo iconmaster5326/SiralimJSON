@@ -21,9 +21,7 @@ There are JSON Schema files under [schema](schema) for you to use for your own p
 
 ## Contributing Manual Fixups to SiralimJSON
 
-Some data cannot be accurately scraped, and this data needs manually fixed up. If you'd like to fix data, or add useful notes to anything, you can make a merge request with changes to our manual fixups.
-
-TODO!
+Some data cannot be accurately scraped, and this data needs manually fixed up. If you'd like to fix data, or add useful notes to anything, you can make a merge request with changes to our manual fixups. See the [fixups](fixups) directory for more information.
 
 ## Contributing Code to SiralimJSON
 
@@ -57,6 +55,12 @@ cp SiralimDumper/obj/x64/Debug/net9.0/SiralimDumper.dll SiralimUltimateModded/mo
 cd SiralimUltimateModded
 ./SiralimUltimate.exe
 cd ..
+```
+
+### Running Fixups
+
+```bash
+./patchWithFixups.ps1
 ```
 
 ### Running the Image Mapper

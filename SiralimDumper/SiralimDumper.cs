@@ -553,7 +553,7 @@ namespace SiralimDumper
 
         private static readonly JsonSerializerOptions JSONSettings = new()
         {
-            IndentSize = 2,
+            IndentSize = 4,
             IndentCharacter = ' ',
             WriteIndented = true,
             Converters = {
@@ -685,7 +685,7 @@ $@"{{
             string filename = $@"{AggregateDir}\{dbName}.json";
             Framework.Print($"[SiralimDumper] writing aggregate of {typeof(V).Name.Escape()} to {filename.Escape()}...");
             EnsureFileDirExists(filename);
-            File.WriteAllText(filename, JsonSerializer.Serialize(db.Values.Select(getter.Invoke).ToArray(), JSONSettings));
+            File.WriteAllText(filename, JsonSerializer.Serialize(db.Values.Select(getter.Invoke).ToList(), JSONSettings));
         }
         public static void SaveAggregateDatabaseJSON()
         {
