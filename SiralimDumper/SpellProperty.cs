@@ -1,9 +1,10 @@
 ﻿using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using YYTKInterop;
 
 namespace SiralimDumper
 {
-    public class SpellProperty
+    public class SpellProperty : ISiralimEntity
     {
         /// <summary>
         /// How many spell properties there are in the game.
@@ -94,12 +95,12 @@ namespace SiralimDumper
         /// <summary>
         /// The file path to the icon.
         /// </summary>
-        public string IconFilename => $@"spellprop\{ID}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.SPELL_PROPS.Path}\{ID}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.SpellProperty AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.SpellProperty()
         {
 #nullable disable
             ShortDescription = ShortDescription,
@@ -110,6 +111,8 @@ namespace SiralimDumper
             Notes = [],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => ID.ToString();
     }
 
     public class SpellPropertyDatabase : Database<int, SpellProperty>
@@ -117,5 +120,14 @@ namespace SiralimDumper
         public override IEnumerable<int> Keys => Enumerable.Range(0, SpellProperty.N_SPELL_PROPERTIES);
 
         protected override SpellProperty? FetchNewEntry(int key) => new SpellProperty(key);
+    }
+
+    public class SpellPropsInfo : SiralimEntityInfo<int, SpellProperty>
+    {
+        public override Database<int, SpellProperty> Database => SpellProperty.Database;
+
+        public override string Path => @"spellprop";
+
+        public override string FieldName => "spellProperties";
     }
 }

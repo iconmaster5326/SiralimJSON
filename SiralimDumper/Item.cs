@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// <summary>
     /// A generic Siralim Ultimate item.
     /// </summary>
-    public abstract class Item
+    public abstract class Item : ISiralimEntity
     {
         /// <summary>
         /// The ID of this item.
@@ -91,6 +91,10 @@ namespace SiralimDumper
                 return _IconIndex.Value;
             }
         }
+        protected abstract object AsJSON { get; }
+        object ISiralimEntity.AsJSON => AsJSON;
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     /// <summary>
@@ -128,12 +132,12 @@ namespace SiralimDumper
         /// </summary>
         public IEnumerable<SpellProperty> PropertiesApplicable => SpellProperty.Database.Values.Where(sp => sp.ItemID == ID);
 
-        public string IconFilename => $@"item\spellprop\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.SPELLPROP_ITEMS.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.SpellPropertyItem AsJSON => new()
+        protected override QuickType.SpellPropertyItem AsJSON => new()
         {
 #nullable disable
             Description = Description,
@@ -152,6 +156,15 @@ namespace SiralimDumper
         public override IEnumerable<int> Keys => Enumerable.Range(0, ItemSpellProperty.N_DUSTS);
 
         protected override ItemSpellProperty? FetchNewEntry(int key) => new ItemSpellProperty(key);
+    }
+
+    public class SpellPropItemsInfo : SiralimEntityInfo<int, ItemSpellProperty>
+    {
+        public override Database<int, ItemSpellProperty> Database => ItemSpellProperty.Database;
+
+        public override string Path => @"item\spellprop";
+
+        public override string FieldName => "spellPropertyItems";
     }
 
     public abstract class ItemMaterial : Item
@@ -181,12 +194,12 @@ namespace SiralimDumper
         /// <summary>
         /// The file path to the icon.
         /// </summary>
-        public string IconFilename => $@"item\material\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.MATERIALS.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Material AsJSON => new()
+        protected override QuickType.Material AsJSON => new()
         {
 #nullable disable
             Description = Description,
@@ -225,6 +238,15 @@ namespace SiralimDumper
                     throw new Exception($"Invalid material kind {kindVar.PrettyPrint().EscapeNonWS()}!");
             }
         }
+    }
+
+    public class MaterialsInfo : SiralimEntityInfo<int, ItemMaterial>
+    {
+        public override Database<int, ItemMaterial> Database => ItemMaterial.Database;
+
+        public override string Path => @"item\material";
+
+        public override string FieldName => "materials";
     }
 
     public class ItemMaterialStat : ItemMaterial
@@ -495,11 +517,11 @@ namespace SiralimDumper
         /// <summary>
         /// The file path to the icon.
         /// </summary>
-        public string IconFilename(int tier) => $@"item\artifact\{Name.EscapeForFilename()}_t{tier}.png";
+        public string IconFilename(int tier) => $@"{SiralimEntityInfo.ARTIFACTS.Path}\{Name.EscapeForFilename()}_t{tier}.png";
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Artifact AsJSON => new()
+        protected override QuickType.Artifact AsJSON => new()
         {
 #nullable disable
             Description = Description,
@@ -517,5 +539,14 @@ namespace SiralimDumper
         public override IEnumerable<int> Keys => Enumerable.Range(0, ItemArtifact.N_ARTIFACTS);
 
         protected override ItemArtifact? FetchNewEntry(int key) => new ItemArtifact(key);
+    }
+
+    public class ArtifactsInfo : SiralimEntityInfo<int, ItemArtifact>
+    {
+        public override Database<int, ItemArtifact> Database => ItemArtifact.Database;
+
+        public override string Path => @"item\artifact";
+
+        public override string FieldName => "artifacts";
     }
 }

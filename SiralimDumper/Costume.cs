@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate costume definition.
     /// A costume is a skin you can apply to NPCs and to yourself, in the overworld only.
     /// </summary>
-    public class Costume
+    public class Costume : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this costume.
@@ -56,12 +56,12 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
 
-        public string SpriteFilenamePrefix => $@"costume\{Name.EscapeForFilename()}\overworld";
+        public string SpriteFilenamePrefix => $@"{SiralimEntityInfo.COSTUMES.Path}\{Name.EscapeForFilename()}\overworld";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Costume AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Costume()
         {
 #nullable disable
             Creator = null,
@@ -72,6 +72,8 @@ namespace SiralimDumper
             Sprite = SiralimDumper.OverworldSpriteJSON(Sprite, SpriteFilenamePrefix),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class CostumeDatabase : Database<int, Costume>
@@ -95,5 +97,14 @@ namespace SiralimDumper
         }
 
         protected override Costume? FetchNewEntry(int key) => new Costume(key);
+    }
+
+    public class CostumesInfo : SiralimEntityInfo<int, Costume>
+    {
+        public override Database<int, Costume> Database => Costume.Database;
+
+        public override string Path => @"costume";
+
+        public override string FieldName => "costumes";
     }
 }

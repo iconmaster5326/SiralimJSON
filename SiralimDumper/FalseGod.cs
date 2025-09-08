@@ -1,4 +1,5 @@
-﻿using YYTKInterop;
+﻿using System.Xml.Linq;
+using YYTKInterop;
 
 namespace SiralimDumper
 {
@@ -6,7 +7,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate false god definition.
     /// These are bosses you go on bounties to kill, and get anointments from.
     /// </summary>
-    public class FalseGod
+    public class FalseGod : ISiralimEntity
     {
         /// <summary>
         /// The unique ID for this false god.
@@ -113,14 +114,14 @@ namespace SiralimDumper
         /// </summary>
         public Creature[] Creatures => _Creatures ?? (_Creatures = Enumerable.Range(1, 6).Select(CreatureInSlot).ToArray());
 
-        public string IconFilename => $@"falsegod\{Name.EscapeForFilename()}\icon.png";
-        public string SpriteFilename0 => $@"falsegod\{Name.EscapeForFilename()}\overworld_0.png";
-        public string SpriteFilename1 => $@"falsegod\{Name.EscapeForFilename()}\overworld_1.png";
+        public string IconFilename => $@"{SiralimEntityInfo.FALSE_GODS.Path}\{Name.EscapeForFilename()}\icon.png";
+        public string SpriteFilename0 => $@"{SiralimEntityInfo.FALSE_GODS.Path}\{Name.EscapeForFilename()}\overworld_0.png";
+        public string SpriteFilename1 => $@"{SiralimEntityInfo.FALSE_GODS.Path}\{Name.EscapeForFilename()}\overworld_1.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.FalseGod AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.FalseGod()
         {
 #nullable disable
             Creator = null,
@@ -136,6 +137,8 @@ namespace SiralimDumper
             Spells = [], // TODO
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class FalseGodDatabase : Database<int, FalseGod>
@@ -161,11 +164,20 @@ namespace SiralimDumper
         protected override FalseGod? FetchNewEntry(int key) => new FalseGod(key);
     }
 
+    public class FalseGodsInfo : SiralimEntityInfo<int, FalseGod>
+    {
+        public override Database<int, FalseGod> Database => FalseGod.Database;
+
+        public override string Path => @"falsegod";
+
+        public override string FieldName => "falseGods";
+    }
+
     /// <summary>
     /// A Siralim Ultimate false god rune definition.
     /// Collecting runes before fighting false gods powers them up for bonus loot.
     /// </summary>
-    public class FalseGodRune
+    public class FalseGodRune : ISiralimEntity
     {
         /// <summary>
         /// The unique ID for this rune.
@@ -221,7 +233,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Rune AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Rune()
         {
 #nullable disable
             Bonus = 0, // TODO
@@ -232,6 +244,8 @@ namespace SiralimDumper
             Reserved = ID == 7, // TODO: automate this?
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => ID.ToString();
     }
 
     public class FalseGodRuneDatabase : Database<int, FalseGodRune>
@@ -255,5 +269,14 @@ namespace SiralimDumper
         }
 
         protected override FalseGodRune? FetchNewEntry(int key) => new FalseGodRune(key);
+    }
+
+    public class RunesInfo : SiralimEntityInfo<int, FalseGodRune>
+    {
+        public override Database<int, FalseGodRune> Database => FalseGodRune.Database;
+
+        public override string Path => @"rune";
+
+        public override string FieldName => "runes";
     }
 }

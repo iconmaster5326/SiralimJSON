@@ -7,7 +7,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate realm definition.
     /// A realm is a place you go to in the game.
     /// </summary>
-    public class Realm
+    public class Realm : ISiralimEntity
     {
         public const int HIGHEST_REALM_ID = 40;
 
@@ -117,7 +117,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Realm AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Realm()
         {
 #nullable disable
             Creator = null,
@@ -136,6 +136,8 @@ namespace SiralimDumper
             Project = Project.Database.Values.FirstOrDefault(p => p.Name.EndsWith(Name))?.ID,
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class RealmDatabase : Database<int, Realm>
@@ -161,11 +163,20 @@ namespace SiralimDumper
         protected override Realm? FetchNewEntry(int key) => new Realm(key);
     }
 
+    public class RealmsInfo : SiralimEntityInfo<int, Realm>
+    {
+        public override Database<int, Realm> Database => Realm.Database;
+
+        public override string Path => @"realm";
+
+        public override string FieldName => "realms";
+    }
+
     /// <summary>
     /// A Siralim Ultimate realm property definition.
     /// At higher realm instabilities, these begin to apply.
     /// </summary>
-    public class RealmProperty
+    public class RealmProperty : ISiralimEntity
     {
 
         /// <summary>
@@ -229,12 +240,12 @@ namespace SiralimDumper
         /// </summary>
         public Sprite? Icon => IconID?.GetGMLSprite();
 
-        public string IconFilename => $@"realmprop\{ID}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.REALM_PROPS.Path}\{ID}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.RealmProperty AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.RealmProperty()
         {
 #nullable disable
             Description = Name,
@@ -244,6 +255,8 @@ namespace SiralimDumper
             Reserved = false, // TODO
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => ID.ToString();
     }
 
     public class RealmPropertyDatabase : Database<int, RealmProperty>
@@ -267,5 +280,14 @@ namespace SiralimDumper
         }
 
         protected override RealmProperty? FetchNewEntry(int key) => new RealmProperty(key);
+    }
+
+    public class RealmPropsInfo : SiralimEntityInfo<int, RealmProperty>
+    {
+        public override Database<int, RealmProperty> Database => RealmProperty.Database;
+
+        public override string Path => @"realmprop";
+
+        public override string FieldName => "realmProperties";
     }
 }

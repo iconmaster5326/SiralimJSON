@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate project definition.
     /// Projects are things you can embark on to unlock new features or farm for resources.
     /// </summary>
-    public class Project
+    public class Project : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this project.
@@ -126,12 +126,12 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
 
-        public string IconFilename => $@"project\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.PROJECTS.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Project AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Project()
         {
 #nullable disable
             Id = ID,
@@ -150,6 +150,8 @@ namespace SiralimDumper
             Notes = [],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class ProjectDatabase : Database<int, Project>
@@ -174,12 +176,21 @@ namespace SiralimDumper
         }
     }
 
+    public class ProjectsInfo : SiralimEntityInfo<int, Project>
+    {
+        public override Database<int, Project> Database => Project.Database;
+
+        public override string Path => @"project";
+
+        public override string FieldName => "projects";
+    }
+
     /// <summary>
     /// A Siralim Ultimate project item definition.
     /// Project items are NOT <see cref="Item"/>s internally.
     /// They're just a number attached to a project!
     /// </summary>
-    public class ProjectItem
+    public class ProjectItem : ISiralimEntity
     {
         public const int N_ITEMS = 180;
 
@@ -221,12 +232,12 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
 
-        public string SpriteFilename => $@"item\project\{Name.EscapeForFilename()}.png";
+        public string SpriteFilename => $@"{SiralimEntityInfo.PROJECT_ITEMS.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.ProjectItem AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.ProjectItem()
         {
 #nullable disable
             Id = ID,
@@ -237,6 +248,8 @@ namespace SiralimDumper
             Notes = [],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class ProjectItemDatabase : Database<int, ProjectItem>
@@ -244,5 +257,14 @@ namespace SiralimDumper
         public override IEnumerable<int> Keys => Enumerable.Range(0, ProjectItem.N_ITEMS);
 
         protected override ProjectItem? FetchNewEntry(int key) => new ProjectItem(key);
+    }
+
+    public class ProjectItemsInfo : SiralimEntityInfo<int, ProjectItem>
+    {
+        public override Database<int, ProjectItem> Database => ProjectItem.Database;
+
+        public override string Path => @"item\project";
+
+        public override string FieldName => "projectItems";
     }
 }

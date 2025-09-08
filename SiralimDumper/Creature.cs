@@ -5,7 +5,7 @@ namespace SiralimDumper
     /// <summary>
     /// A Siralim Ultimate creature definition.
     /// </summary>
-    public class Creature
+    public class Creature : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this creature.
@@ -267,13 +267,10 @@ namespace SiralimDumper
         /// </summary>
         public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
 
-        public string BattleSpriteFilename => @$"creature\{Name.EscapeForFilename()}\battle.png";
-        public string OverworldSpriteFilenamePrefix => $@"creature\{Name.EscapeForFilename()}\overworld";
+        public string BattleSpriteFilename => @$"{SiralimEntityInfo.CREATURES.Path}\{Name.EscapeForFilename()}\battle.png";
+        public string OverworldSpriteFilenamePrefix => $@"{SiralimEntityInfo.CREATURES.Path}\{Name.EscapeForFilename()}\overworld";
 
-        /// <summary>
-        /// Convert this to an exportable entity.
-        /// </summary>
-        public QuickType.Creature AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Creature()
         {
             Id = ID,
             Name = Name,
@@ -337,6 +334,8 @@ namespace SiralimDumper
             Notes = [],
             Item = ItemMaterialTrait.Database.Values.FirstOrDefault(i => i.TraitID == TraitID)?.ID,
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class CreatureDatabase : Database<int, Creature>
@@ -359,5 +358,14 @@ namespace SiralimDumper
             }
 
         }
+    }
+
+    public class CreaturesInfo : SiralimEntityInfo<int, Creature>
+    {
+        public override string Path => @"creature";
+
+        public override string FieldName => "creatures";
+
+        public override Database<int, Creature> Database => Creature.Database;
     }
 }

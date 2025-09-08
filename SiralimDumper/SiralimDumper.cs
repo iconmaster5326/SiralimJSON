@@ -1,7 +1,8 @@
 ﻿using AurieSharpInterop;
-using QuickType;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text.Json;
+using System.Xml.Linq;
 using YYTKInterop;
 
 namespace SiralimDumper
@@ -36,7 +37,6 @@ namespace SiralimDumper
                 Game.Engine.GetGlobalObject()["castlename"] = "{CASTLENAME}";
 
                 // output JSON
-                //DebugPrintAllEntities();
                 SaveCombinedDatabaseJSON();
                 SaveIndividualDatabaseJSON();
                 SaveAggregateDatabaseJSON();
@@ -51,40 +51,6 @@ namespace SiralimDumper
                 Game.Engine.CallFunction("keyboard_key_press", (int)'E');
                 Game.Engine.CallFunction("keyboard_key_release", (int)'E');
             }
-        }
-
-        public static void DebugPrintAllEntities()
-        {
-            Framework.Print($"[SiralimDumper] creatures: [{string.Join(", ", Creature.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] traits: [{string.Join(", ", Trait.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] races: [{string.Join(", ", Race.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] spells: [{string.Join(", ", Spell.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] spell properties: [{string.Join(", ", SpellProperty.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] spell property items: [{string.Join(", ", ItemSpellProperty.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] material items: [{string.Join(", ", ItemMaterial.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] artifacts: [{string.Join(", ", ItemArtifact.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] personalities: [{string.Join(", ", Personality.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] skins: [{string.Join(", ", Skin.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] costumes: [{string.Join(", ", Costume.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] decorations: [{string.Join(", ", Decoration.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] walls: [{string.Join(", ", DecorationWalls.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] floors: [{string.Join(", ", DecorationFloors.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] backgrounds: [{string.Join(", ", DecorationBackground.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] weather: [{string.Join(", ", DecorationWeather.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] music: [{string.Join(", ", DecorationMusic.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] gods: [{string.Join(", ", God.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] realms: [{string.Join(", ", Realm.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] conditions: [{string.Join(", ", Condition.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] specializations: [{string.Join(", ", Specialization.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] perks: [{string.Join(", ", Perk.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] realm properties: [{string.Join(", ", RealmProperty.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] false gods: [{string.Join(", ", FalseGod.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] false god runes: [{string.Join(", ", FalseGodRune.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] nether bosses: [{string.Join(", ", NetherBoss.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] projects: [{string.Join(", ", Project.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] project items: [{string.Join(", ", ProjectItem.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] relics: [{string.Join(", ", Relic.Database.Values).EscapeNonWS()}]");
-            Framework.Print($"[SiralimDumper] accessories: [{string.Join(", ", Accessory.Database.Values).EscapeNonWS()}]");
         }
 
         public static void CompareObjectMembers(IReadOnlyDictionary<string, string> d1, IReadOnlyDictionary<string, GameVariable> d2)
@@ -308,8 +274,8 @@ namespace SiralimDumper
                     result.GetAndAppend(item.Sprite.Name, new ImageInfo(0, item.SpriteFilename));
                 }
 
-                result.GetAndAppend("project_creatureparts", new ImageInfo(0, $@"item\project\CreatureParts.png"));
-                result.GetAndAppend("project_arcanedust", new ImageInfo(0, $@"item\project\ArcaneDust.png"));
+                result.GetAndAppend("project_creatureparts", new ImageInfo(0, $@"{SiralimEntityInfo.PROJECT_ITEMS.Path}\CreatureParts.png"));
+                result.GetAndAppend("project_arcanedust", new ImageInfo(0, $@"{SiralimEntityInfo.PROJECT_ITEMS.Path}\ArcaneDust.png"));
 
                 foreach (var clazz in Enum.GetValues<SiralimClass>())
                 {
@@ -520,35 +486,35 @@ namespace SiralimDumper
         public static QuickType.SiralimUltimateDatabase CompleteDatabaseJSON => new()
         {
             Metadata = MetadataJSON,
-            Creatures = Creature.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Races = Race.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Traits = Trait.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Spells = Spell.Database.Values.Select(item => item.AsJSON).ToArray(),
-            SpellProperties = SpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            SpellPropertyItems = ItemSpellProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Materials = ItemMaterial.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Artifacts = ItemArtifact.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Personalities = Personality.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Skins = Skin.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Costumes = Costume.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Decorations = Decoration.Database.Values.Select(item => item.AsJSON).ToArray(),
-            WallStyles = DecorationWalls.Database.Values.Select(item => item.AsJSON).ToArray(),
-            FloorStyles = DecorationFloors.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Backgrounds = DecorationBackground.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Weather = DecorationWeather.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Music = DecorationMusic.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Gods = God.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Realms = Realm.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Conditions = Condition.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Specializations = Specialization.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Perks = Perk.Database.Values.Select(item => item.AsJSON).ToArray(),
-            RealmProperties = RealmProperty.Database.Values.Select(item => item.AsJSON).ToArray(),
-            FalseGods = FalseGod.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Runes = FalseGodRune.Database.Values.Select(item => item.AsJSON).ToArray(),
-            NetherBosses = NetherBoss.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Projects = Project.Database.Values.Select(item => item.AsJSON).ToArray(),
-            ProjectItems = ProjectItem.Database.Values.Select(item => item.AsJSON).ToArray(),
-            Accessories = Accessory.Database.Values.Select(item => item.AsJSON).ToArray(),
+            Accessories = SiralimEntityInfo.ACCESSORIES.AllAsJSON<QuickType.Accessory>(),
+            Artifacts = SiralimEntityInfo.ARTIFACTS.AllAsJSON<QuickType.Artifact>(),
+            Backgrounds = SiralimEntityInfo.BGS.AllAsJSON<QuickType.Background>(),
+            Conditions = SiralimEntityInfo.CONDITIONS.AllAsJSON<QuickType.Condition>(),
+            Costumes = SiralimEntityInfo.COSTUMES.AllAsJSON<QuickType.Costume>(),
+            Creatures = SiralimEntityInfo.CREATURES.AllAsJSON<QuickType.Creature>(),
+            Decorations = SiralimEntityInfo.DECOR.AllAsJSON<QuickType.Decoration>(),
+            FalseGods = SiralimEntityInfo.FALSE_GODS.AllAsJSON<QuickType.FalseGod>(),
+            FloorStyles = SiralimEntityInfo.FLOORS.AllAsJSON<QuickType.FloorStyle>(),
+            Gods = SiralimEntityInfo.GODS.AllAsJSON<QuickType.God>(),
+            Materials = SiralimEntityInfo.MATERIALS.AllAsJSON<QuickType.Material>(),
+            Music = SiralimEntityInfo.MUSIC.AllAsJSON<QuickType.Music>(),
+            NetherBosses = SiralimEntityInfo.NETHER_BOSSES.AllAsJSON<QuickType.NetherBoss>(),
+            Perks = SiralimEntityInfo.PERKS.AllAsJSON<QuickType.Perk>(),
+            Personalities = SiralimEntityInfo.PERSONALITIES.AllAsJSON<QuickType.Personality>(),
+            ProjectItems = SiralimEntityInfo.PROJECT_ITEMS.AllAsJSON<QuickType.ProjectItem>(),
+            Projects = SiralimEntityInfo.PROJECTS.AllAsJSON<QuickType.Project>(),
+            Races = SiralimEntityInfo.RACES.AllAsJSON<QuickType.Race>(),
+            RealmProperties = SiralimEntityInfo.REALM_PROPS.AllAsJSON<QuickType.RealmProperty>(),
+            Realms = SiralimEntityInfo.REALMS.AllAsJSON<QuickType.Realm>(),
+            Runes = SiralimEntityInfo.RUNES.AllAsJSON<QuickType.Rune>(),
+            Skins = SiralimEntityInfo.SKINS.AllAsJSON<QuickType.Skin>(),
+            Specializations = SiralimEntityInfo.SPECS.AllAsJSON<QuickType.Specialization>(),
+            SpellProperties = SiralimEntityInfo.SPELLPROP_ITEMS.AllAsJSON<QuickType.SpellProperty>(),
+            SpellPropertyItems = SiralimEntityInfo.SPELL_PROPS.AllAsJSON<QuickType.SpellPropertyItem>(),
+            Spells = SiralimEntityInfo.SPELLS.AllAsJSON<QuickType.Spell>(),
+            Traits = SiralimEntityInfo.TRAITS.AllAsJSON<QuickType.Trait>(),
+            WallStyles = SiralimEntityInfo.WALLS.AllAsJSON<QuickType.WallStyle>(),
+            Weather = SiralimEntityInfo.WEATHER.AllAsJSON <QuickType.Weather>(),
         };
 
         private static readonly JsonSerializerOptions JSONSettings = new()
@@ -579,114 +545,35 @@ namespace SiralimDumper
         }
 
         private const string IndividualsDir = $@"..\exported\individual";
-        private delegate KeyValuePair<object, string> IndividualFilenameGetter<V>(V v);
-        private static string IndividualFilename(string pathFragment, string name)
-        {
-            return @$"{pathFragment}\{name.EscapeForFilename()}.json";
-        }
-        private static string IndividualIndex<K, V>(this Database<K, V> db, string pathFragment, IndividualFilenameGetter<V> getter) where K : notnull where V : notnull
-        {
-            return JsonSerializer.Serialize(db.Values.Select(item =>
-            {
-                var got = getter.Invoke(item);
-                return new KeyValuePair<string, string>($"{got.Key}", IndividualFilename(pathFragment, got.Value).Replace("\\", "/"));
-            }).ToDictionary(), JSONSettings);
-        }
-        private delegate (string Name, object JSON) IndividualJSONGetter<V>(V item);
-        private static void WriteIndividualFile<K, V>(this Database<K, V> db, string pathFragment, IndividualJSONGetter<V> getter) where K : notnull where V : notnull
-        {
-            foreach (var item in db.Values)
-            {
-                var got = getter.Invoke(item);
-                string filename = $@"{IndividualsDir}\{IndividualFilename(pathFragment, got.Name)}";
-                Framework.Print($"[SiralimDumper] writing individual {typeof(V).Name.Escape()} '{got.Name.Escape()}' to {filename.Escape()}...");
-                EnsureFileDirExists(filename);
-                File.WriteAllText(filename, JsonSerializer.Serialize(got.JSON, JSONSettings));
-            }
-        }
-
         public static void SaveIndividualDatabaseJSON()
         {
             // Quicktype sucks, and can't handle $refs correctly, so we have to do this ourselves
             Framework.Print("[SiralimDumper] writing individual database JSON...");
 
             const string DBFilename = $@"{IndividualsDir}\individual.json";
+            var result = new Dictionary<string, object>() {
+                ["metadata"] = JsonSerializer.Serialize(MetadataJSON, JSONSettings)
+            };
 
+            foreach (var category in SiralimEntityInfo.ALL)
+            {
+                result[category.FieldName] = category.Keys.Select(k => new KeyValuePair<string, object>($"{k}", category.IndividualFilePath(category.GetEntity(k)))).ToDictionary();
+                foreach (var k in category.Keys)
+                {
+                    var v = category.GetEntity(k);
+                    string filename = $@"{IndividualsDir}\{category.IndividualFilePath(v)}";
+                    Framework.Print($"[SiralimDumper] writing individual {category.Path} '{v.Name}' to {filename}...");
+                    File.WriteAllText(filename, JsonSerializer.Serialize(v.AsJSON, JSONSettings));
+                }
+            }
+
+            Framework.Print("[SiralimDumper] writing individual database index JSON...");
             EnsureFileDirExists(DBFilename);
-            File.WriteAllText(DBFilename,
-$@"{{
-    ""metadata"": {JsonSerializer.Serialize(MetadataJSON, JSONSettings)},
-    ""creatures"": {Creature.Database.IndividualIndex(@"creature", (item) => new(item.ID, item.Name))},
-    ""races"": {Race.Database.IndividualIndex(@"race", (item) => new(item.Name, item.Name))},
-    ""traits"": {Trait.Database.IndividualIndex(@"trait", (item) => new(item.ID, item.Name))},
-    ""spells"": {Spell.Database.IndividualIndex(@"spell", (item) => new(item.ID, item.Name))},
-    ""spellProperties"": {SpellProperty.Database.IndividualIndex(@"spellprop", (item) => new(item.ID, item.ID.ToString()))},
-    ""spellPropertyItems"": {ItemSpellProperty.Database.IndividualIndex(@"item\spellprop", (item) => new(item.ID, item.Name))},
-    ""materials"": {ItemMaterial.Database.IndividualIndex(@"item\material", (item) => new(item.ID, item.Name))},
-    ""artifacts"": {ItemArtifact.Database.IndividualIndex(@"item\artifact", (item) => new(item.ID, item.Name))},
-    ""personalities"": {Personality.Database.IndividualIndex(@"personality", (item) => new(item.ID, item.Name))},
-    ""skins"": {Skin.Database.IndividualIndex(@"skin", (item) => new(item.ID, item.Name))},
-    ""costumes"": {Costume.Database.IndividualIndex(@"costume", (item) => new(item.ID, item.Name))},
-    ""decorations"": {Decoration.Database.IndividualIndex(@"decor", (item) => new(item.ID, item.Name))},
-    ""wallStyles"": {DecorationWalls.Database.IndividualIndex(@"wall", (item) => new(item.ID, item.Name))},
-    ""floorStyles"": {DecorationFloors.Database.IndividualIndex(@"floor", (item) => new(item.ID, item.Name))},
-    ""backgrounds"": {DecorationBackground.Database.IndividualIndex(@"bg", (item) => new(item.ID, item.Name))},
-    ""weather"": {DecorationWeather.Database.IndividualIndex(@"weather", (item) => new(item.ID, item.Name))},
-    ""music"": {DecorationMusic.Database.IndividualIndex(@"music", (item) => new(item.ID, item.Name))},
-    ""gods"": {God.Database.IndividualIndex(@"god", (item) => new(item.ID, item.Name))},
-    ""realms"": {Realm.Database.IndividualIndex(@"realm", (item) => new(item.ID, item.Name))},
-    ""conditions"": {Condition.Database.IndividualIndex(@"condition", (item) => new(item.ID, item.Name))},
-    ""specializations"": {Specialization.Database.IndividualIndex(@"spec", (item) => new(item.ID, item.Name))},
-    ""perks"": {Perk.Database.IndividualIndex(@"perk", (item) => new(item.ID, item.Name))},
-    ""realmProperties"": {RealmProperty.Database.IndividualIndex(@"realmprop", (item) => new(item.ID, item.ID.ToString()))},
-    ""falseGods"": {FalseGod.Database.IndividualIndex(@"falsegod", (item) => new(item.ID, item.Name))},
-    ""runes"": {FalseGodRune.Database.IndividualIndex(@"rune", (item) => new(item.ID, item.ID.ToString()))},
-    ""netherBosses"": {NetherBoss.Database.IndividualIndex(@"netherboss", (item) => new(item.ID, item.Name))},
-    ""projects"": {Project.Database.IndividualIndex(@"project", (item) => new(item.ID, item.Name))},
-    ""projectItems"": {ProjectItem.Database.IndividualIndex(@"item\project", (item) => new(item.ID, item.Name))},
-    ""accessories"": {Accessory.Database.IndividualIndex(@"accessory", (item) => new(item.ID, item.Name))}
-}}");
-
-            Creature.Database.WriteIndividualFile(@"creature", item => (item.Name, item.AsJSON));
-            Race.Database.WriteIndividualFile(@"race", item => (item.Name, item.AsJSON));
-            Trait.Database.WriteIndividualFile(@"trait", item => (item.Name, item.AsJSON));
-            Spell.Database.WriteIndividualFile(@"spell", item => (item.Name, item.AsJSON));
-            SpellProperty.Database.WriteIndividualFile(@"spellprop", item => (item.ID.ToString(), item.AsJSON));
-            ItemSpellProperty.Database.WriteIndividualFile(@"item\spellprop", item => (item.Name, item.AsJSON));
-            ItemMaterial.Database.WriteIndividualFile(@"item\material", item => (item.Name, item.AsJSON));
-            ItemArtifact.Database.WriteIndividualFile(@"item\artifact", item => (item.Name, item.AsJSON));
-            Personality.Database.WriteIndividualFile(@"personality", item => (item.Name, item.AsJSON));
-            Skin.Database.WriteIndividualFile(@"skin", item => (item.Name, item.AsJSON));
-            Costume.Database.WriteIndividualFile(@"costume", item => (item.Name, item.AsJSON));
-            Decoration.Database.WriteIndividualFile(@"decor", item => (item.Name, item.AsJSON));
-            DecorationWalls.Database.WriteIndividualFile(@"wall", item => (item.Name, item.AsJSON));
-            DecorationFloors.Database.WriteIndividualFile(@"floor", item => (item.Name, item.AsJSON));
-            DecorationBackground.Database.WriteIndividualFile(@"bg", item => (item.Name, item.AsJSON));
-            DecorationWeather.Database.WriteIndividualFile(@"weather", item => (item.Name, item.AsJSON));
-            DecorationMusic.Database.WriteIndividualFile(@"music", item => (item.Name, item.AsJSON));
-            God.Database.WriteIndividualFile(@"god", item => (item.Name, item.AsJSON));
-            Realm.Database.WriteIndividualFile(@"realm", item => (item.Name, item.AsJSON));
-            Condition.Database.WriteIndividualFile(@"condition", item => (item.Name, item.AsJSON));
-            Specialization.Database.WriteIndividualFile(@"spec", item => (item.Name, item.AsJSON));
-            Perk.Database.WriteIndividualFile(@"perk", item => (item.Name, item.AsJSON));
-            RealmProperty.Database.WriteIndividualFile(@"realmprop", item => (item.ID.ToString(), item.AsJSON));
-            FalseGod.Database.WriteIndividualFile(@"falsegod", item => (item.Name, item.AsJSON));
-            FalseGodRune.Database.WriteIndividualFile(@"rune", item => (item.ID.ToString(), item.AsJSON));
-            NetherBoss.Database.WriteIndividualFile(@"netherboss", item => (item.Name, item.AsJSON));
-            Project.Database.WriteIndividualFile(@"project", item => (item.Name, item.AsJSON));
-            ProjectItem.Database.WriteIndividualFile(@"item\project", item => (item.Name, item.AsJSON));
-            Accessory.Database.WriteIndividualFile(@"accessory", item => (item.Name, item.AsJSON));
+            File.WriteAllText(DBFilename, JsonSerializer.Serialize(result, JSONSettings));
         }
 
         private delegate object AggregateJSONGetter<V>(V item);
         private const string AggregateDir = @"..\exported\aggregate";
-        private static void WriteAggregateFile<K, V>(this Database<K, V> db, string dbName, AggregateJSONGetter<V> getter) where K : notnull where V : notnull
-        {
-            string filename = $@"{AggregateDir}\{dbName}.json";
-            Framework.Print($"[SiralimDumper] writing aggregate of {typeof(V).Name.Escape()} to {filename.Escape()}...");
-            EnsureFileDirExists(filename);
-            File.WriteAllText(filename, JsonSerializer.Serialize(db.Values.Select(getter.Invoke).ToList(), JSONSettings));
-        }
         public static void SaveAggregateDatabaseJSON()
         {
             // Quicktype sucks, and can't handle $refs correctly, so we have to do this ourselves
@@ -696,35 +583,13 @@ $@"{{
             EnsureFileDirExists(DBFilename);
             File.WriteAllText(DBFilename, JsonSerializer.Serialize(MetadataJSON, JSONSettings));
 
-            Creature.Database.WriteAggregateFile("creatures", (item) => item.AsJSON);
-            Race.Database.WriteAggregateFile("races", (item) => item.AsJSON);
-            Trait.Database.WriteAggregateFile("traits", (item) => item.AsJSON);
-            Spell.Database.WriteAggregateFile("spells", (item) => item.AsJSON);
-            SpellProperty.Database.WriteAggregateFile("spellProperties", (item) => item.AsJSON);
-            ItemSpellProperty.Database.WriteAggregateFile("spellPropertyItems", (item) => item.AsJSON);
-            ItemMaterial.Database.WriteAggregateFile("materials", (item) => item.AsJSON);
-            ItemArtifact.Database.WriteAggregateFile("artifacts", (item) => item.AsJSON);
-            Personality.Database.WriteAggregateFile("personalities", (item) => item.AsJSON);
-            Skin.Database.WriteAggregateFile("skins", (item) => item.AsJSON);
-            Costume.Database.WriteAggregateFile("costumes", (item) => item.AsJSON);
-            Decoration.Database.WriteAggregateFile("decorations", (item) => item.AsJSON);
-            DecorationWalls.Database.WriteAggregateFile("wallStyles", (item) => item.AsJSON);
-            DecorationFloors.Database.WriteAggregateFile("floorStyles", (item) => item.AsJSON);
-            DecorationBackground.Database.WriteAggregateFile("backgrounds", (item) => item.AsJSON);
-            DecorationWeather.Database.WriteAggregateFile("weather", (item) => item.AsJSON);
-            DecorationMusic.Database.WriteAggregateFile("music", (item) => item.AsJSON);
-            God.Database.WriteAggregateFile("gods", (item) => item.AsJSON);
-            Realm.Database.WriteAggregateFile("realms", (item) => item.AsJSON);
-            Condition.Database.WriteAggregateFile("conditions", (item) => item.AsJSON);
-            Specialization.Database.WriteAggregateFile("specializations", (item) => item.AsJSON);
-            Perk.Database.WriteAggregateFile("perks", (item) => item.AsJSON);
-            RealmProperty.Database.WriteAggregateFile("realmProperties", (item) => item.AsJSON);
-            FalseGod.Database.WriteAggregateFile("falseGods", (item) => item.AsJSON);
-            FalseGodRune.Database.WriteAggregateFile("runes", (item) => item.AsJSON);
-            NetherBoss.Database.WriteAggregateFile("netherBosses", (item) => item.AsJSON);
-            Project.Database.WriteAggregateFile("projects", (item) => item.AsJSON);
-            ProjectItem.Database.WriteAggregateFile("projectItems", (item) => item.AsJSON);
-            Accessory.Database.WriteAggregateFile("accessories", (item) => item.AsJSON);
+            foreach (var category in SiralimEntityInfo.ALL)
+            {
+                string filename = $@"{AggregateDir}\{category.FieldName}.json";
+                Framework.Print($"[SiralimDumper] writing aggregate of {category.FieldName} to {filename.Escape()}...");
+                EnsureFileDirExists(filename);
+                File.WriteAllText(filename, JsonSerializer.Serialize(category.AllAsJSON<object>().ToList(), JSONSettings));
+            }
         }
     }
 }

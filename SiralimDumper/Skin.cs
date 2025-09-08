@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate skin definition.
     /// Skins are a special sprite some creatures can wear, once you unlock them.
     /// </summary>
-    public class Skin
+    public class Skin : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this skin.
@@ -95,13 +95,13 @@ namespace SiralimDumper
         /// </summary>
         public Sprite OverworldSprite => OverworldSpriteID.GetGMLSprite();
 
-        public string BattleSpriteFilename => @$"skin\{Name.EscapeForFilename()}\battle.png";
-        public string OverworldSpriteFilenamePrefix => $@"skin\{Name.EscapeForFilename()}\overworld";
+        public string BattleSpriteFilename => @$"{SiralimEntityInfo.SKINS.Path}\{Name.EscapeForFilename()}\battle.png";
+        public string OverworldSpriteFilenamePrefix => $@"{SiralimEntityInfo.SKINS.Path}\{Name.EscapeForFilename()}\overworld";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Skin AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Skin()
         {
 #nullable disable
             BattleSprite = $@"images\{BattleSpriteFilename}".Replace("\\", "/"),
@@ -116,6 +116,8 @@ namespace SiralimDumper
             Sources = Reserved ? [] : [new() { Type = QuickType.SourceType.Random }],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class SkinDatabase : Database<int, Skin>
@@ -138,5 +140,14 @@ namespace SiralimDumper
             }
 
         }
+    }
+
+    public class SkinsInfo : SiralimEntityInfo<int, Skin>
+    {
+        public override Database<int, Skin> Database => Skin.Database;
+
+        public override string Path => @"skin";
+
+        public override string FieldName => "skins";
     }
 }

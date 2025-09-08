@@ -7,7 +7,7 @@ namespace SiralimDumper
     /// <summary>
     /// A Siralim Ultimate race definition.
     /// </summary>
-    public class Race
+    public class Race : ISiralimEntity
     {
         internal static readonly string[] UNOBTAINABLE_RACES = ["False Godspawn", "Relic"];
         internal static readonly string[] MASTERLESS_RACES = ["Avatar", "Purrghast", "Tanukrook", "Mogwai", "Exotic", "Animatus", "Herbling", "False Godspawn", "Guardian", "Relic"];
@@ -235,6 +235,7 @@ namespace SiralimDumper
             {
                 if (!_SetIconID)
                 {
+                    _SetIconID = true;
                     Creature? creature = Creatures.FirstOrDefault<Creature?>();
                     if (creature == null)
                     {
@@ -284,12 +285,12 @@ namespace SiralimDumper
         /// <summary>
         /// The file path to the icon image.
         /// </summary>
-        public string IconFilename => $@"race\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.RACES.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Race AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Race()
         {
 #nullable disable
             BossDialog = BossDialogue.All(d => d.Length == 0) ? [] : BossDialogue.ToArray(),
@@ -312,6 +313,8 @@ namespace SiralimDumper
             Skins = Skin.Database.Values.Where(s => Name.Equals(s.RaceName)).Select(s => (long)s.ID).ToArray(),
 #nullable enable
         };
+        object ISiralimEntity.Key => Name;
+        string ISiralimEntity.Name => Name;
     }
 
     public class RaceDatabase : Database<string, Race>
@@ -319,5 +322,14 @@ namespace SiralimDumper
         public override IEnumerable<string> Keys => Game.Engine.GetGlobalObject()["races_all"].GetArray().Where(v => !v.IsNumber()).Select(v => v.GetString());
 
         protected override Race? FetchNewEntry(string key) => new Race(key);
+    }
+
+    public class RacesInfo : SiralimEntityInfo<string, Race>
+    {
+        public override Database<string, Race> Database => Race.Database;
+
+        public override string Path => @"race";
+
+        public override string FieldName => "races";
     }
 }

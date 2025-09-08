@@ -3,7 +3,7 @@ using YYTKInterop;
 
 namespace SiralimDumper
 {
-    public class Personality
+    public class Personality : ISiralimEntity
     {
         public const int N_PERSONALITIES = 20;
         /// <summary>
@@ -57,7 +57,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Personality AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Personality()
         {
 #nullable disable
             TomeIcon = $@"images\{TomeIconFilename}".Replace("\\", "/"),
@@ -68,11 +68,23 @@ namespace SiralimDumper
             Notes = [],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
+
     public class PersonalityDatabase : Database<int, Personality>
     {
         public override IEnumerable<int> Keys => Enumerable.Range(0, Personality.N_PERSONALITIES);
 
         protected override Personality? FetchNewEntry(int key) => new Personality(key);
+    }
+
+    public class PersonalitiesInfo : SiralimEntityInfo<int, Personality>
+    {
+        public override Database<int, Personality> Database => Personality.Database;
+
+        public override string Path => @"personality";
+
+        public override string FieldName => "personalities";
     }
 }

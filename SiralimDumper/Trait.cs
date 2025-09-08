@@ -5,7 +5,7 @@ namespace SiralimDumper
     /// <summary>
     /// A Siralim Ultimate trait definition.
     /// </summary>
-    public class Trait
+    public class Trait : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this trait.
@@ -79,7 +79,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Trait AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Trait()
         {
 #nullable disable
             Creator = null,
@@ -93,6 +93,8 @@ namespace SiralimDumper
             Race = Race?.Name,
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class TraitDatabase : Database<int, Trait>
@@ -115,5 +117,14 @@ namespace SiralimDumper
             }
 
         }
+    }
+
+    public class TraitsInfo : SiralimEntityInfo<int, Trait>
+    {
+        public override Database<int, Trait> Database => Trait.Database;
+
+        public override string Path => @"trait";
+
+        public override string FieldName => "traits";
     }
 }

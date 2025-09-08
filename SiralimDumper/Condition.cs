@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate condition definition.
     /// These are buffs, debuffs, and minions.
     /// </summary>
-    public class Condition
+    public class Condition : ISiralimEntity
     {
         public const int HIGHEST_COND_ID = 99;
 
@@ -165,13 +165,13 @@ namespace SiralimDumper
             }
         }
 
-        public string IconFilename => $@"condition\{Name.EscapeForFilename()}.png";
-        public string IconResistedFilename => $@"condition\{Name.EscapeForFilename()}_resist.png";
+        public string IconFilename => $@"{SiralimEntityInfo.CONDITIONS.Path}\{Name.EscapeForFilename()}.png";
+        public string IconResistedFilename => $@"{SiralimEntityInfo.CONDITIONS.Path}\{Name.EscapeForFilename()}_resist.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Condition AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Condition()
         {
 #nullable disable
             Description = Description,
@@ -185,6 +185,8 @@ namespace SiralimDumper
             Type = Enum.Parse<QuickType.ConditionType>(Enum.GetName(Kind), true),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class ConditionDatabase : Database<int, Condition>
@@ -208,5 +210,14 @@ namespace SiralimDumper
         }
 
         protected override Condition? FetchNewEntry(int key) => new Condition(key);
+    }
+
+    public class ConditionsInfo : SiralimEntityInfo<int, Condition>
+    {
+        public override Database<int, Condition> Database => Condition.Database;
+
+        public override string Path => @"condition";
+
+        public override string FieldName => "conditions";
     }
 }

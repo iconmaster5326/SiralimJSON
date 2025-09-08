@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate specialization definition.
     /// These are "classes" the player can be. Has perks.
     /// </summary>
-    public class Specialization
+    public class Specialization : ISiralimEntity
     {
         public const int HIGHEST_COND_ID = 99;
 
@@ -149,18 +149,18 @@ namespace SiralimDumper
         /// </summary>
         public Costume? CostumeAtTier(int tier) => Costume.Database.Values.FirstOrDefault(c => c.Name.Equals($"{Name} (Tier {tier})"));
 
-        private Costume[] _Costumes;
+        private Costume[]? _Costumes;
         /// <summary>
         /// The costumes you get at all 3 tiers.
         /// </summary>
         public Costume[] Costumes => _Costumes ?? (_Costumes = Enumerable.Range(1, 3).Select(i => CostumeAtTier(i)).OfType<Costume>().ToArray());
 
-        public string IconFilename => $@"spec\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.SPECS.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Specialization AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Specialization()
         {
 #nullable disable
             Advanced = false, // TODO
@@ -180,6 +180,8 @@ namespace SiralimDumper
             Spell = SpellID,
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class SpecializationDatabase : Database<int, Specialization>
@@ -205,10 +207,19 @@ namespace SiralimDumper
         protected override Specialization? FetchNewEntry(int key) => new Specialization(key);
     }
 
+    public class SpecialzationsInfo : SiralimEntityInfo<int, Specialization>
+    {
+        public override Database<int, Specialization> Database => Specialization.Database;
+
+        public override string Path => @"spec";
+
+        public override string FieldName => "specializations";
+    }
+
     /// <summary>
     /// A Siralim Ultimate perk definition.
     /// </summary>
-    public class Perk
+    public class Perk : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this perk.
@@ -297,12 +308,12 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Icon => IconID.GetGMLSprite();
 
-        public string IconFilename => $@"perk\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.PERKS.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Perk AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Perk()
         {
 #nullable disable
             Anointable = IsAnointable,
@@ -316,6 +327,8 @@ namespace SiralimDumper
             Specialization = Specialization.ID,
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class PerkDatabase : Database<int, Perk>
@@ -338,5 +351,14 @@ namespace SiralimDumper
             }
 
         }
+    }
+
+    public class PerksInfo : SiralimEntityInfo<int, Perk>
+    {
+        public override Database<int, Perk> Database => Perk.Database;
+
+        public override string Path => @"perk";
+
+        public override string FieldName => "perks";
     }
 }

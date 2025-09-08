@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate decoration definition.
     /// Decorations can be placed in your castle.
     /// </summary>
-    public class Decoration
+    public class Decoration : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this decoration.
@@ -105,7 +105,7 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
 
-        public string SpriteFilename => $@"decor\object\{Name.EscapeForFilename()}.png";
+        public string SpriteFilename => $@"{SiralimEntityInfo.DECOR.Path}\{Name.EscapeForFilename()}.png";
 
         public static readonly IReadOnlyDictionary<DecorationHitbox, QuickType.Collision> COLLIDE_MAP = new Dictionary<DecorationHitbox, QuickType.Collision>() {
             [DecorationHitbox.FOUR_BY_THREE] = QuickType.Collision.Full,
@@ -125,7 +125,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Decoration AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Decoration()
         {
 #nullable disable
             Category = (QuickType.Category)(int)Category,
@@ -142,6 +142,8 @@ namespace SiralimDumper
             Width = Hitbox.Width(),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class DecorationDatabase : Database<int, Decoration>
@@ -166,11 +168,20 @@ namespace SiralimDumper
         }
     }
 
+    public class DecorationsInfo : SiralimEntityInfo<int, Decoration>
+    {
+        public override Database<int, Decoration> Database => Decoration.Database;
+
+        public override string Path => @"decor\object";
+
+        public override string FieldName => "decorations";
+    }
+
     /// <summary>
     /// A Siralim Ultimate wall style definition.
     /// Your castle's tileset can be changed to fit these styles.
     /// </summary>
-    public class DecorationWalls
+    public class DecorationWalls : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this decoration.
@@ -220,11 +231,11 @@ namespace SiralimDumper
         /// </summary>
         public Tileset Tileset => TilesetID.GetGMLTileset();
 
-        public string SpriteFilename => $@"decor\wall\{Name.EscapeForFilename()}.png";
+        public string SpriteFilename => $@"{SiralimEntityInfo.WALLS.Path}\{Name.EscapeForFilename()}.png";
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.WallStyle AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.WallStyle()
         {
 #nullable disable
             Creator = null,
@@ -235,6 +246,8 @@ namespace SiralimDumper
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class DecorationWallsDatabase : Database<int, DecorationWalls>
@@ -259,11 +272,20 @@ namespace SiralimDumper
         }
     }
 
+    public class WallsInfo : SiralimEntityInfo<int, DecorationWalls>
+    {
+        public override Database<int, DecorationWalls> Database => DecorationWalls.Database;
+
+        public override string Path => @"wall";
+
+        public override string FieldName => "wallStyles";
+    }
+
     /// <summary>
     /// A Siralim Ultimate floor style definition.
     /// Your castle's tileset can be changed to fit these styles.
     /// </summary>
-    public class DecorationFloors
+    public class DecorationFloors : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this decoration.
@@ -313,11 +335,11 @@ namespace SiralimDumper
         /// </summary>
         public Tileset Tileset => TilesetID.GetGMLTileset();
 
-        public string SpriteFilename => $@"decor\floor\{Name.EscapeForFilename()}.png";
+        public string SpriteFilename => $@"{SiralimEntityInfo.FLOORS.Path}\{Name.EscapeForFilename()}.png";
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.FloorStyle AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.FloorStyle()
         {
 #nullable disable
             Creator = null,
@@ -328,6 +350,8 @@ namespace SiralimDumper
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class DecorationFloorsDatabase : Database<int, DecorationFloors>
@@ -352,11 +376,20 @@ namespace SiralimDumper
         }
     }
 
+    public class FloorsInfo : SiralimEntityInfo<int, DecorationFloors>
+    {
+        public override Database<int, DecorationFloors> Database => DecorationFloors.Database;
+
+        public override string Path => @"floor";
+
+        public override string FieldName => "floorStyles";
+    }
+
     /// <summary>
     /// A Siralim Ultimate background definition.
     /// Your castle's background can be changed to fit these styles.
     /// </summary>
-    public class DecorationBackground
+    public class DecorationBackground : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this decoration.
@@ -406,11 +439,11 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
 
-        public string SpriteFilename => $@"decor\bg\{Name.EscapeForFilename()}.png";
+        public string SpriteFilename => $@"{SiralimEntityInfo.BGS.Path}\{Name.EscapeForFilename()}.png";
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Background AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Background()
         {
 #nullable disable
             Creator = null,
@@ -421,6 +454,8 @@ namespace SiralimDumper
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class DecorationBackgroundDatabase : Database<int, DecorationBackground>
@@ -445,11 +480,20 @@ namespace SiralimDumper
         }
     }
 
+    public class BackgroundsInfo : SiralimEntityInfo<int, DecorationBackground>
+    {
+        public override Database<int, DecorationBackground> Database => DecorationBackground.Database;
+
+        public override string Path => @"bg";
+
+        public override string FieldName => "backgrounds";
+    }
+
     /// <summary>
     /// A Siralim Ultimate weather effect definition.
     /// Your castle's weather effect can be changed to fit these styles.
     /// </summary>
-    public class DecorationWeather
+    public class DecorationWeather : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this decoration.
@@ -490,7 +534,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Weather AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Weather()
         {
 #nullable disable
             Creator = null,
@@ -500,6 +544,8 @@ namespace SiralimDumper
             Sources = [new() { Type = QuickType.SourceType.Everett }],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class DecorationWeatherDatabase : Database<int, DecorationWeather>
@@ -523,11 +569,20 @@ namespace SiralimDumper
         }
     }
 
+    public class WeatherInfo : SiralimEntityInfo<int, DecorationWeather>
+    {
+        public override Database<int, DecorationWeather> Database => DecorationWeather.Database;
+
+        public override string Path => @"weather";
+
+        public override string FieldName => "weather";
+    }
+
     /// <summary>
     /// A Siralim Ultimate music track definition.
     /// Your castle's music can be changed to play these tracks.
     /// </summary>
-    public class DecorationMusic
+    public class DecorationMusic : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this decoration.
@@ -582,7 +637,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Music AsJSON => new()
+       object ISiralimEntity.AsJSON => new QuickType.Music()
         {
 #nullable disable
             Creator = null,
@@ -592,6 +647,8 @@ namespace SiralimDumper
             Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class DecorationMusicDatabase : Database<int, DecorationMusic>
@@ -613,5 +670,14 @@ namespace SiralimDumper
                 return null;
             }
         }
+    }
+
+    public class MusicInfo : SiralimEntityInfo<int, DecorationMusic>
+    {
+        public override Database<int, DecorationMusic> Database => DecorationMusic.Database;
+
+        public override string Path => @"music";
+
+        public override string FieldName => "music";
     }
 }

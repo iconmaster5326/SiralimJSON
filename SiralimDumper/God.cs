@@ -3,7 +3,7 @@ using YYTKInterop;
 
 namespace SiralimDumper
 {
-    public class God
+    public class God : ISiralimEntity
     {
         /// <summary>
         /// The unique ID for this god.
@@ -138,14 +138,14 @@ namespace SiralimDumper
         /// </summary>
         public Relic Relic => Relic.Database[ID];
 
-        public string IconFilename => $@"god\{Name.EscapeForFilename()}.png";
+        public string IconFilename => $@"{SiralimEntityInfo.GODS.Path}\{Name.EscapeForFilename()}.png";
         public string EmblemIconFilename => $@"item\emblem\{Name.EscapeForFilename()}.png";
         public string NameForTranslationKeys => ID == 28 ? "ROBO" : Name.EscapeForFilename().ToUpper();
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.God AsJSON => new()
+       object ISiralimEntity.AsJSON => new QuickType.God()
         {
 #nullable disable
             Avatar = AvatarID,
@@ -166,6 +166,8 @@ namespace SiralimDumper
             UltimateSpell = UltimateSpellID,
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class GodDatabase : Database<int, God>
@@ -189,5 +191,14 @@ namespace SiralimDumper
         }
 
         protected override God? FetchNewEntry(int key) => new God(key);
+    }
+
+    public class GodsInfo : SiralimEntityInfo<int, God>
+    {
+        public override Database<int, God> Database => God.Database;
+
+        public override string Path => @"god";
+
+        public override string FieldName => "gods";
     }
 }

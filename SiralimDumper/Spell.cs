@@ -2,7 +2,7 @@
 
 namespace SiralimDumper
 {
-    public class Spell
+    public class Spell : ISiralimEntity
     {
         private const int N_COMPAT_ARRAY = 30;
         private static readonly IReadOnlyDictionary<int, int> COMPAT_INDEX_TO_PROPERTY_ID = new Dictionary<int, int>
@@ -188,7 +188,7 @@ namespace SiralimDumper
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Spell AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Spell()
         {
 #nullable disable
             Arsenal = Arsenal,
@@ -213,6 +213,8 @@ namespace SiralimDumper
             Targets = Enum.Parse<QuickType.Targets>(Enum.GetName<SpellTargetingType>(TargetingType), true),
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class SpellDatabase : Database<int, Spell>
@@ -235,5 +237,14 @@ namespace SiralimDumper
             }
 
         }
+    }
+
+    public class SpellsInfo : SiralimEntityInfo<int, Spell>
+    {
+        public override Database<int, Spell> Database => Spell.Database;
+
+        public override string Path => @"spell";
+
+        public override string FieldName => "spells";
     }
 }

@@ -6,7 +6,7 @@ namespace SiralimDumper
     /// A Siralim Ultimate accessory definition.
     /// Accessories can go onto your creatures to change how they look.
     /// </summary>
-    public class Accessory
+    public class Accessory : ISiralimEntity
     {
         /// <summary>
         /// The unique ID of this accessory.
@@ -58,12 +58,12 @@ namespace SiralimDumper
         /// </summary>
         public Sprite Sprite => SpriteID.GetGMLSprite();
 
-        public string SpriteFilename => $@"accessory\{Name.EscapeForFilename()}.png";
+        public string SpriteFilename => $@"{SiralimEntityInfo.ACCESSORIES.Path}\{Name.EscapeForFilename()}.png";
 
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-        public QuickType.Accessory AsJSON => new()
+        object ISiralimEntity.AsJSON => new QuickType.Accessory()
         {
 #nullable disable
             Id = ID,
@@ -74,6 +74,8 @@ namespace SiralimDumper
             Notes = [],
 #nullable enable
         };
+        object ISiralimEntity.Key => ID;
+        string ISiralimEntity.Name => Name;
     }
 
     public class AccessoryDatabase : Database<int, Accessory>
@@ -96,5 +98,14 @@ namespace SiralimDumper
             }
 
         }
+    }
+
+    public class AccessoriesInfo : SiralimEntityInfo<int, Accessory>
+    {
+        public override Database<int, Accessory> Database => Accessory.Database;
+
+        public override string Path => @"accessory";
+
+        public override string FieldName => "accessories";
     }
 }
