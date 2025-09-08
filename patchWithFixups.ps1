@@ -69,7 +69,7 @@ function Merge-Individuals {
 }
 
 Merge-Individuals "creature" "creature" "creatures"
-Merge-Individuals "race" "race" "races"
+Merge-Individuals "race" "race" "races" -IdField "name"
 Merge-Individuals "trait" "trait" "traits"
 Merge-Individuals "spell" "spell" "spells"
 Merge-Individuals "spellprop" "spell property" "spellProperties"
