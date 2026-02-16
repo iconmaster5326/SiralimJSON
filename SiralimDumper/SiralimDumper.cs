@@ -509,8 +509,8 @@ namespace SiralimDumper
             Runes = SiralimEntityInfo.RUNES.AllAsJSON<QuickType.Rune>(),
             Skins = SiralimEntityInfo.SKINS.AllAsJSON<QuickType.Skin>(),
             Specializations = SiralimEntityInfo.SPECS.AllAsJSON<QuickType.Specialization>(),
-            SpellProperties = SiralimEntityInfo.SPELLPROP_ITEMS.AllAsJSON<QuickType.SpellProperty>(),
-            SpellPropertyItems = SiralimEntityInfo.SPELL_PROPS.AllAsJSON<QuickType.SpellPropertyItem>(),
+            SpellProperties = SiralimEntityInfo.SPELL_PROPS.AllAsJSON<QuickType.SpellProperty>(),
+            SpellPropertyItems = SiralimEntityInfo.SPELLPROP_ITEMS.AllAsJSON<QuickType.SpellPropertyItem>(),
             Spells = SiralimEntityInfo.SPELLS.AllAsJSON<QuickType.Spell>(),
             Traits = SiralimEntityInfo.TRAITS.AllAsJSON<QuickType.Trait>(),
             WallStyles = SiralimEntityInfo.WALLS.AllAsJSON<QuickType.WallStyle>(),
@@ -563,6 +563,7 @@ namespace SiralimDumper
                     var v = category.GetEntity(k);
                     string filename = $@"{IndividualsDir}\{category.IndividualFilePath(v)}";
                     Framework.Print($"[SiralimDumper] writing individual {category.Path} '{v.Name}' to {filename}...");
+                    EnsureFileDirExists(filename);
                     File.WriteAllText(filename, JsonSerializer.Serialize(v.AsJSON, JSONSettings));
                 }
             }

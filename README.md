@@ -46,7 +46,30 @@ cp <your Siralim Ultimate directory> SiralimUltimateModded/ -r
 rm SiralimUltimateModded/*steam*.dll
 ```
 
-Then install Aurie and AurieSharp (PREVIEW VERSIONS!) into `SiralimUltimateModded`.
+Then install Aurie and AurieSharp (PREVIEW VERSIONS!) into `SiralimUltimateModded`. The layout should look like:
+
+```
+SiralimUltimateModded/
+    ...
+    mods/
+        Aurie/
+            AurieSharpCore.dll
+            AurieSharpInterop.dll
+            AurieSharpInterop.runtimeconfig.json
+            YYToolkit.dll
+        Managed/
+            AurieSharpManaged.dll
+        Native/
+            AurieCore.dll
+            Ijwhost.dll
+            nethost.dll
+```
+
+A command to use the patcher:
+
+```bash
+AuriePatcher.exe SiralimUltimate.exe mods/Native/AurieCore.dll install
+```
 
 ### Running the Dumper
 
