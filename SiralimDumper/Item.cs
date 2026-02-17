@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -95,6 +96,8 @@ namespace SiralimDumper
         object ISiralimEntity.AsJSON => AsJSON;
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public abstract void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings);
     }
 
     /// <summary>
@@ -125,6 +128,11 @@ namespace SiralimDumper
     IconIndex={IconIndex},
     PropertiesApplicable=['{string.Join("', '", PropertiesApplicable.Select(sp => sp.ShortDescription))}'],
 )";
+        }
+
+        public override void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(IconIndex, IconFilename));
         }
 
         /// <summary>
@@ -215,6 +223,11 @@ namespace SiralimDumper
             Condition = MaterialKind == ArtifactSlot.TRICK ? (this as ItemMaterialTrick).ConditionID : null,
 #nullable enable
         };
+
+        public override void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(IconIndex, IconFilename));
+        }
     }
 
     public class ItemMaterialDatabase : Database<int, ItemMaterial>
@@ -518,6 +531,15 @@ namespace SiralimDumper
         /// The file path to the icon.
         /// </summary>
         public string IconFilename(int tier) => $@"{SiralimEntityInfo.ARTIFACTS.Path}\{Name.EscapeForFilename()}_t{tier}.png";
+
+        public override void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            for (int i = 0; i < N_TIERS; i++)
+            {
+                mappings.GetAndAppend(Icon.Name, new ImageInfo(IconIndexEx(i * 10), IconFilename(i)));
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>

@@ -1,6 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -42,6 +43,15 @@ namespace SiralimDumper
     IconIndex={IconIndex},
     Item='{ItemSpellProperty.Database[ItemID].Name}',
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            Sprite? icon = Icon;
+            if (icon != null)
+            {
+                mappings.GetAndAppend(icon.Name, new ImageInfo(IconIndex, IconFilename));
+            }
         }
 
         private string? _FullShortDesc;

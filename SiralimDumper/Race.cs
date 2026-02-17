@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using System.Text.RegularExpressions;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -156,6 +157,15 @@ namespace SiralimDumper
         public string CardBonusDescription(int i)
         {
             return Game.Engine.CallScript("gml_Script_inv_CardSetBonus", Name, i);
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            Sprite? icon = Icon;
+            if (icon != null)
+            {
+                mappings.GetAndAppend(icon.Name, new ImageInfo(0, IconFilename));
+            }
         }
 
         private string[]? _CardBonusDescriptions;

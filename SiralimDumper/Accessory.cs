@@ -1,4 +1,5 @@
 ﻿using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -51,6 +52,11 @@ namespace SiralimDumper
     Name='{Name}',
     Sprite='{Sprite.ToString().Replace("\n", "\n  ")}',
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Sprite.Name, new ImageInfo(0, SpriteFilename));
         }
 
         /// <summary>

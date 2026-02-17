@@ -1,4 +1,5 @@
 ﻿using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -137,6 +138,16 @@ namespace SiralimDumper
                 }
             }
         }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(0, IconFilename));
+            if (IconID != ResistantIconID)
+            {
+                mappings.GetAndAppend(ResistantIcon.Name, new ImageInfo(0, IconResistedFilename));
+            }
+        }
+
         /// <summary>
         /// Is this condition forbidden from being inflicted at random?
         /// </summary>

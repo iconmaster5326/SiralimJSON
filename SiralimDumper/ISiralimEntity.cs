@@ -1,4 +1,6 @@
-﻿namespace SiralimDumper
+﻿using static SiralimDumper.SiralimDumper;
+
+namespace SiralimDumper
 {
     public interface ISiralimEntity
     {
@@ -18,6 +20,11 @@
         /// or else a short identifiable string representing it.
         /// </summary>
         public string Name { get; }
+        /// <summary>
+        /// Generate any needed sprite mappings for an entity.
+        /// </summary>
+        /// <param name="mappings">A map of sprite names to sprite information for you to mutate.</param>
+        public abstract void MapImages(Dictionary<string, List<ImageInfo>> mappings);
     }
 
     public abstract class SiralimEntityInfo

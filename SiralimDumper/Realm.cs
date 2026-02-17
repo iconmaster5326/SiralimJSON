@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -114,6 +115,18 @@ namespace SiralimDumper
 
         public string BlessingIconFilename(int rank) => $@"blessing\{BlessingIcon(rank).Name.EscapeForFilename()}.png";
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            for (var i = 1; i <= 100; i++)
+            {
+                string icon = BlessingIcon(i).Name;
+                if (!mappings.ContainsKey(icon))
+                {
+                    mappings.GetAndAppend(icon, new ImageInfo(0, BlessingIconFilename(i)));
+                }
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -223,6 +236,15 @@ namespace SiralimDumper
                 _FullName[id] = Game.Engine.CallScript("gml_Script_scr_RealmPropertyName", id, arg).GetString().Replace("[carnage] Carnage", "{1}").Replace("[stat_g_savage] Savage", "{1}");
             }
             return _FullName[id];
+        }
+
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            Sprite? icon = Icon;
+            if (icon != null)
+            {
+                mappings.GetAndAppend(icon.Name, new ImageInfo(0, IconFilename));
+            }
         }
 
         /// <summary>

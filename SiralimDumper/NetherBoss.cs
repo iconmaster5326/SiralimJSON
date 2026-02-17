@@ -33,6 +33,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            // no images to map!
+        }
+
         private string? _Name;
         /// <summary>
         /// The English name of this nether boss.

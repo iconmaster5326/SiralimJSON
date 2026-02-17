@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -27,6 +28,11 @@ namespace SiralimDumper
     Decreases={Decreases},
     TomeIconIndex={TomeIconIndex},
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend("icons", new ImageInfo(TomeIconIndex, TomeIconFilename));
         }
 
         private string? _Name;

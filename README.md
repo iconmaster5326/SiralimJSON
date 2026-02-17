@@ -80,17 +80,17 @@ cd SiralimUltimateModded
 cd ..
 ```
 
-### Running Fixups
+The raw dumped data will be under `dumped`.
+
+### Generating the Full Database
 
 ```bash
 ./patchWithFixups.ps1
-```
-
-### Running the Image Mapper
-
-```bash
+./dumpedToExported.ps1
 UndertaleModCli load SiralimUltimateModded/data.win -s ImageMapper.csx
 ```
+
+The database will be under `exported`.
 
 ### Uploading to GitHub
 

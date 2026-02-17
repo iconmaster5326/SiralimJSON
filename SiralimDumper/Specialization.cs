@@ -1,4 +1,5 @@
 ﻿using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -149,6 +150,11 @@ namespace SiralimDumper
         /// </summary>
         public Costume? CostumeAtTier(int tier) => Costume.Database.Values.FirstOrDefault(c => c.Name.Equals($"{Name} (Tier {tier})"));
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(0, IconFilename));
+        }
+
         private Costume[]? _Costumes;
         /// <summary>
         /// The costumes you get at all 3 tiers.
@@ -291,7 +297,12 @@ namespace SiralimDumper
     IsAnointable={IsAnointable},
 )";
         }
-        
+
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(0, IconFilename));
+        }
+
         /// <summary>
         /// The <see cref="Specialization"/> this perk belongs to.
         /// </summary>

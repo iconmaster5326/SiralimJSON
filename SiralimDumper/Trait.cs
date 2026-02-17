@@ -56,6 +56,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            // no images to map!
+        }
+
         /// <summary>
         /// The creature this trait is associated with, if any.
         /// </summary>

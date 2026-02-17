@@ -33,6 +33,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Sprite.Name, values: SiralimDumper.ImagesForOWSprite(Sprite, SpriteFilenamePrefix));
+        }
+
         private string? _Name;
         /// <summary>
         /// The English name of this costume.

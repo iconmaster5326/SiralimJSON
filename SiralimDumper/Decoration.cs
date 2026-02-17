@@ -1,4 +1,5 @@
 ﻿using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -100,6 +101,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Sprite.Name, new ImageInfo(0, SpriteFilename));
+        }
+
         /// <summary>
         /// The sprite this decoration uses.
         /// </summary>
@@ -172,7 +178,7 @@ namespace SiralimDumper
     {
         public override Database<int, Decoration> Database => Decoration.Database;
 
-        public override string Path => @"decor\object";
+        public override string Path => @"decoration";
 
         public override string FieldName => "decorations";
     }
@@ -224,6 +230,11 @@ namespace SiralimDumper
     Name='{Name}',
     Tileset={Tileset.ToString().Replace("\n", "\n  ")},
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Tileset.Name, new ImageInfo(0, SpriteFilename));
         }
 
         /// <summary>
@@ -330,6 +341,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Tileset.Name, new ImageInfo(0, SpriteFilename));
+        }
+
         /// <summary>
         /// The tileset this decoration uses.
         /// </summary>
@@ -434,6 +450,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Sprite.Name, new ImageInfo(0, SpriteFilename));
+        }
+
         /// <summary>
         /// The sprite this decoration uses.
         /// </summary>
@@ -529,6 +550,11 @@ namespace SiralimDumper
     ID={ID},
     Name='{Name}',
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            // no images to map!
         }
 
         /// <summary>
@@ -634,10 +660,15 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            // no images to map!
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
-       object ISiralimEntity.AsJSON => new QuickType.Music()
+        object ISiralimEntity.AsJSON => new QuickType.Music()
         {
 #nullable disable
             Creator = null,

@@ -1,4 +1,5 @@
 ﻿using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -75,6 +76,12 @@ namespace SiralimDumper
     OverworldSprite={OverworldSprite.ToString().Replace("\n", "\n  ")},
     Reserved={Reserved},
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(BattleSprite.Name, new ImageInfo(BattleSpriteIndex, BattleSpriteFilename));
+            mappings.GetAndAppend(OverworldSprite.Name, values: ImagesForOWSprite(OverworldSprite, OverworldSpriteFilenamePrefix));
         }
 
         private bool? _Reserved;

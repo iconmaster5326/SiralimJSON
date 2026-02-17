@@ -1,8 +1,4 @@
-param(
-    [Parameter(Mandatory=$True, Position=0, ValueFromPipeline=$false)]
-    [System.String]
-    $version
-)
+$version = (Get-Content dumped\metadata.json | ConvertFrom-Json).version
 
 if (-not (Test-Path -Path exported\combined\.git\)) {
     mkdir temp\
@@ -58,8 +54,8 @@ git commit -m "$version"
 git push --set-upstream origin individual
 Set-Location ..\..
 
-Compress-Archive -Path exported\combined\* -DestinationPath combined.zip
-Compress-Archive -Path exported\aggregate\* -DestinationPath aggregate.zip
-Compress-Archive -Path exported\individual\* -DestinationPath individual.zip
+Compress-Archive -Path exported\combined\* -DestinationPath combined.zip -Force
+Compress-Archive -Path exported\aggregate\* -DestinationPath aggregate.zip -Force
+Compress-Archive -Path exported\individual\* -DestinationPath individual.zip -Force
 
 Write-Output "All done! Make a new GitHub release and upload the three ZIP files."

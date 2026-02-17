@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -33,6 +34,19 @@ namespace SiralimDumper
     EmblemIcon={EmblemIcon?.ToString()?.Replace("\n", "\n  ")},
     UltimateSpell={UltimateSpellID} ({UltimateSpell.Name}),
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(0, IconFilename));
+            if (EmblemIcon != null)
+            {
+                mappings.GetAndAppend(EmblemIcon.Name, new ImageInfo(0, EmblemIconFilename));
+            }
+
+            var relic = Relic;
+            mappings.GetAndAppend(relic.BigIcon.Name, new ImageInfo(0, relic.BigIconFilename));
+            mappings.GetAndAppend(relic.SmallIcon.Name, new ImageInfo(0, relic.SmallIconFilename));
         }
 
         private string? _Name;

@@ -1,4 +1,5 @@
 ﻿using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -166,6 +167,12 @@ namespace SiralimDumper
             {
                 return Game.Engine.CallScript($"gml_Script_scr_PersonalityDialog{stat}", tci.Instance);
             }
+        }
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(BattleSprite.Name, new ImageInfo(BattleSpriteIndex, BattleSpriteFilename));
+            mappings.GetAndAppend(OverworldSprite.Name, values: ImagesForOWSprite(OverworldSprite, OverworldSpriteFilenamePrefix));
         }
 
         private string[]? _MenagerieDialog;

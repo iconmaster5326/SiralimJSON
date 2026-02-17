@@ -149,6 +149,11 @@ namespace SiralimDumper
 )";
         }
 
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            // no images to map!
+        }
+
         private bool? _Reserved;
         /// <summary>
         /// Is this spell banned from appearing on enemies in random fights?

@@ -13,7 +13,7 @@ using UndertaleModLib.Util;
 
 EnsureDataLoaded();
 
-var mappings = JsonSerializer.Deserialize<Dictionary<string, List<ImageInfo>>>(File.ReadAllText(@"SiralimDumperImageMappings.json"));
+var mappings = JsonSerializer.Deserialize<Dictionary<string, List<ImageInfo>>>(File.ReadAllText(@"dumped\imageMappings.json"));
 var cache = new Dictionary<string, MagickImage>();
 var worker = new TextureWorker();
 
@@ -44,6 +44,8 @@ foreach (var tileset in Data.Backgrounds)
         }
     }
 }
+
+File.Delete(@"dumped\imageMappings.json");
 
 public static class Dumper
 {

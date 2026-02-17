@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 using YYTKInterop;
+using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
 {
@@ -108,6 +109,14 @@ namespace SiralimDumper
         /// The creature in the fight, from slot 1-6.
         /// </summary>
         public Creature CreatureInSlot(int slot) => Creature.Database.Values.First(c => c.OverworldSprite.Name.Equals(PART_SPRITE_NAMES[ID].Replace("@", slot.ToString())));
+
+        public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Icon.Name, new ImageInfo(0, IconFilename));
+            mappings.GetAndAppend(OverworldSprite.Name, new ImageInfo(0, SpriteFilename0));
+            mappings.GetAndAppend(OverworldSprite.Name, new ImageInfo(1, SpriteFilename1));
+        }
+
         private Creature[]? _Creatures;
         /// <summary>
         /// The creatures in the fight, from top to bottom, left to right.
@@ -198,6 +207,11 @@ namespace SiralimDumper
     Description='{Description.Escape()}',
     Sprite={Sprite.ToString().Replace("\n", "\n  ")}
 )";
+        }
+
+        public void MapImages(Dictionary<string, List<ImageInfo>> mappings)
+        {
+            mappings.GetAndAppend(Sprite.Name, new ImageInfo(0, SpriteFilename));
         }
 
         private string? _Description;
