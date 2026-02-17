@@ -1,2392 +1,2718 @@
 [
-  {
-    "arcaneDustCost": 100,
-    "description": "Allows you to upgrade your Artifacts even further.",
-    "graniteCost": 1000,
-    "icon": "images/project/BlacksmithRank2.png",
-    "id": 0,
-    "items": {
-      "52": 30,
-      "53": 1
-    },
-    "monsterPartCost": 500,
-    "name": "Blacksmith (Rank 2)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 300,
-    "description": "Allows you to upgrade your Artifacts even further.",
-    "graniteCost": 3000,
-    "icon": "images/project/BlacksmithRank3.png",
-    "id": 1,
-    "items": {
-      "64": 50,
-      "65": 1
-    },
-    "monsterPartCost": 1500,
-    "name": "Blacksmith (Rank 3)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to upgrade your Artifacts even further.",
-    "graniteCost": 5000,
-    "icon": "images/project/BlacksmithRank4.png",
-    "id": 2,
-    "items": {
-      "58": 100,
-      "57": 1,
-      "66": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Blacksmith (Rank 4)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "Allows you to upgrade your Artifacts even further.",
-    "graniteCost": 10000,
-    "icon": "images/project/BlacksmithRank5.png",
-    "id": 3,
-    "items": {
-      "63": 1,
-      "97": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Blacksmith (Rank 5)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 300,
-    "description": "Allows you to upgrade your Spell Gems even further.",
-    "graniteCost": 3000,
-    "icon": "images/project/EnchanterRank2.png",
-    "id": 4,
-    "items": {
-      "48": 10,
-      "59": 1
-    },
-    "monsterPartCost": 1500,
-    "name": "Enchanter (Rank 2)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to upgrade your Spell Gems even further.",
-    "graniteCost": 5000,
-    "icon": "images/project/EnchanterRank3.png",
-    "id": 5,
-    "items": {
-      "48": 25,
-      "77": 1,
-      "76": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Enchanter (Rank 3)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1500,
-    "description": "Unlocks the Tavern Brawl decoration, allowing you to fight against other players\u0027 creatures to win exclusive prizes.",
-    "graniteCost": 15000,
-    "icon": "images/project/TavernBrawls.png",
-    "id": 6,
-    "items": {
-      "46": 100,
-      "45": 10
-    },
-    "monsterPartCost": 7500,
-    "name": "Tavern Brawls",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Refinery decoration, allowing you to salvage your unwanted Artifacts and Spell Gems, as well as convert your resources into different ones.",
-    "graniteCost": 5000,
-    "icon": "images/project/Refinery.png",
-    "id": 7,
-    "items": {
-      "68": 30,
-      "49": 30,
-      "81": 10,
-      "67": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Refinery",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks four different NPCs that you can place in your castle. Each one offers their own mini-games that reward you with valuable prizes. Also allows you to encounter Riddle Dwarves in realms.",
-    "graniteCost": 5000,
-    "icon": "images/project/GamblingDwarves.png",
-    "id": 8,
-    "items": {
-      "55": 10,
-      "70": 10,
-      "60": 4,
-      "75": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Gambling Dwarves",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Arena decoration, which allows you to draft a team of creatures to fight against enemies and earn exclusive prizes.",
-    "graniteCost": 5000,
-    "icon": "images/project/Arena.png",
-    "id": 9,
-    "items": {
-      "47": 15,
-      "78": 15,
-      "80": 15
-    },
-    "monsterPartCost": 2500,
-    "name": "Arena",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Goblet of Trials decoration, which rewards you for completing Realm Quests under certain conditions.",
-    "graniteCost": 5000,
-    "icon": "images/project/GobletofTrials.png",
-    "id": 10,
-    "items": {
-      "50": 1,
-      "62": 5,
-      "61": 10
-    },
-    "monsterPartCost": 2500,
-    "name": "Goblet of Trials",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "Unlocks the Gate of the Gods decoration, which allows you to fight against the gods themselves!",
-    "graniteCost": 10000,
-    "icon": "images/project/GateoftheGods.png",
-    "id": 11,
-    "items": {
-      "73": 20
-    },
-    "monsterPartCost": 5000,
-    "name": "Gate of the Gods",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 5000,
-    "description": "Unlocks the Will of the Gods decoration, which instructs you to use certain traits each real-world week in exchange for valuable rewards.",
-    "graniteCost": 50000,
-    "icon": "images/project/WilloftheGods.png",
-    "id": 12,
-    "items": {
-      "74": 25
-    },
-    "monsterPartCost": 25000,
-    "name": "Will of the Gods",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 300,
-    "description": "Unlocks the Reliquary decoration, allowing you to partake in Prophecies. Prophecies are infinitely-repeatable quests that grant exclusive rewards. Also allows you to unlock and upgrade Relics of the Gods.",
-    "graniteCost": 3000,
-    "icon": "images/project/Reliquary.png",
-    "id": 13,
-    "items": {
-      "137": 1,
-      "138": 50
-    },
-    "monsterPartCost": 1500,
-    "name": "Reliquary",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to find Divination Candles in realms. Divination Candles allow you to spawn your choice of creatures to fight against.",
-    "graniteCost": 5000,
-    "icon": "images/project/DivinationCandle.png",
-    "id": 14,
-    "items": {
-      "82": 3,
-      "83": 3,
-      "85": 3,
-      "86": 3,
-      "84": 10,
-      "87": 20
-    },
-    "monsterPartCost": 2500,
-    "name": "Divination Candle",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 300,
-    "description": "Increases the number of Projects you can take on simultaneously by 1.",
-    "graniteCost": 3000,
-    "icon": "images/project/IncreasedMaximumProjects.png",
-    "id": 15,
-    "items": {
-      "69": 3
-    },
-    "monsterPartCost": 1500,
-    "name": "Increased Maximum Projects",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Increases the number of Projects you can take on simultaneously by 1.",
-    "graniteCost": 5000,
-    "icon": "images/project/IncreasedMaximumProjects.png",
-    "id": 16,
-    "items": {
-      "69": 5
-    },
-    "monsterPartCost": 2500,
-    "name": "Increased Maximum Projects",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "Increases the number of Projects you can take on simultaneously by 1.",
-    "graniteCost": 10000,
-    "icon": "images/project/IncreasedMaximumProjects.png",
-    "id": 17,
-    "items": {
-      "69": 10
-    },
-    "monsterPartCost": 5000,
-    "name": "Increased Maximum Projects",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1500,
-    "description": "Increases the number of Projects you can take on simultaneously by 1.",
-    "graniteCost": 15000,
-    "icon": "images/project/IncreasedMaximumProjects.png",
-    "id": 18,
-    "items": {
-      "69": 25
-    },
-    "monsterPartCost": 7500,
-    "name": "Increased Maximum Projects",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Raid Missions. These are repeatable Projects that reward you with treasure.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionRaid.png",
-    "id": 19,
-    "items": {
-      "105": 20
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Raid",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Forage Missions. These are repeatable Projects that reward you with Artifact crafting materials.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionForage.png",
-    "id": 20,
-    "items": {
-      "98": 5,
-      "99": 5,
-      "100": 5,
-      "101": 5
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Forage",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Experiment Missions. These are repeatable Projects that reward you with Spell Gem crafting materials.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionExperiment.png",
-    "id": 21,
-    "items": {
-      "88": 5,
-      "89": 5,
-      "90": 5,
-      "91": 5
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Experiment",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Hunt Missions. These are repeatable Projects that reward you with Knowledge about the creature of your choice.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionHunt.png",
-    "id": 22,
-    "items": {
-      "92": 5,
-      "93": 5,
-      "94": 5,
-      "95": 5,
-      "96": 5
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Hunt",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Pilgrimage Missions. These are repeatable Projects that reward you with Favor with the god of your choice.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionPilgrimage.png",
-    "id": 23,
-    "items": {
-      "104": 20
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Pilgrimage",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Training Missions. These are repeatable Projects that reward you with Scrolls that can be used to boost your creatures\u0027 base stats.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionTraining.png",
-    "id": 24,
-    "items": {
-      "47": 15,
-      "78": 15,
-      "80": 15
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Training",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Assassination Missions. These are repeatable Projects that reward you with Trait Materials from the creature of your choice. You can only assassinate creatures that you have Rank S knowledge about.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionAssassination.png",
-    "id": 25,
-    "items": {
-      "106": 15,
-      "107": 15,
-      "108": 15,
-      "109": 15,
-      "110": 15
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Assassination",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 300,
-    "description": "Greatly increases the size of your castle.",
-    "graniteCost": 3000,
-    "icon": "images/project/CastleExpansion.png",
-    "id": 26,
-    "items": {
-      "102": 50,
-      "111": 50,
-      "103": 25,
-      "84": 15
-    },
-    "monsterPartCost": 1500,
-    "name": "Castle Expansion",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 3000,
-    "description": "Unlocks the Arcane Vault decoration, which allows you to upgrade your Talisman.",
-    "graniteCost": 30000,
-    "icon": "images/project/ArcaneVault.png",
-    "id": 27,
-    "items": {
-      "44": 1
-    },
-    "monsterPartCost": 15000,
-    "name": "Arcane Vault",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will receive treasure.",
-    "graniteCost": 10000,
-    "icon": "images/project/Raid.png",
-    "id": 28,
-    "items": {
-      "105": 5
-    },
-    "monsterPartCost": 5000,
-    "name": "Raid",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will receive Artifact crafting materials.",
-    "graniteCost": 10000,
-    "icon": "images/project/Forage.png",
-    "id": 29,
-    "items": {
-      "98": 3,
-      "99": 3,
-      "100": 3,
-      "101": 3
-    },
-    "monsterPartCost": 5000,
-    "name": "Forage",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will receive Spell Gem crafting materials.",
-    "graniteCost": 10000,
-    "icon": "images/project/Experiment.png",
-    "id": 30,
-    "items": {
-      "88": 3,
-      "89": 3,
-      "90": 3,
-      "91": 3
-    },
-    "monsterPartCost": 5000,
-    "name": "Experiment",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will receive Knowledge about the creature of your choice. You can only hunt creatures that you have Rank D knowledge about, or higher.",
-    "graniteCost": 10000,
-    "icon": "images/project/Hunt.png",
-    "id": 31,
-    "items": {
-      "92": 3,
-      "93": 3,
-      "94": 3,
-      "95": 3,
-      "96": 3
-    },
-    "monsterPartCost": 5000,
-    "name": "Hunt",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will receive Favor with the god of your choice.",
-    "graniteCost": 10000,
-    "icon": "images/project/Pilgrimage.png",
-    "id": 32,
-    "items": {
-      "104": 10
-    },
-    "monsterPartCost": 5000,
-    "name": "Pilgrimage",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will receive 3 Scrolls that can be used to boost your creatures\u0027 stats.",
-    "graniteCost": 40000,
-    "icon": "images/project/Training.png",
-    "id": 33,
-    "items": {
-      "47": 7,
-      "78": 7,
-      "80": 7
-    },
-    "monsterPartCost": 5000,
-    "name": "Training",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1500,
-    "description": "After completing this Project, you will receive the Trait material of your choice. You can only assassinate creatures that you have Rank S knowledge about.",
-    "graniteCost": 40000,
-    "icon": "images/project/Assassination.png",
-    "id": 34,
-    "items": {
-      "106": 5,
-      "107": 5,
-      "108": 5,
-      "109": 5,
-      "110": 5
-    },
-    "monsterPartCost": 7500,
-    "name": "Assassination",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Reaver\u0022.\\n\\nPerseverance, an iron will, and a touch of insanity are the perfect recipe for victory. Reavers live and die by this mantra, instilling their creatures with a cold and calculated anger that allows them to grow more powerful during battle while their foes tire out.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationReaver.png",
-    "id": 35,
-    "items": {
-      "115": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Reaver",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 11
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Hell Knight\u0022.\\n\\nCareful planning and uptight caution are nothing but a cause to doubt oneself. Hell Knights realize this fact, and instead opt to send their creatures charging headlong into battle, relying on brute strength and reckless attacks to ensure a swift victory.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationHellKnight.png",
-    "id": 36,
-    "items": {
-      "113": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Hell Knight",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 5
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Trickster\u0022.\\n\\nLuck is not merely a matter of chance, but instead a force that can be manipulated to a clever man\u0027s will. Tricksters capitalize on this fact, enabling their creatures to re-roll the proverbial dice whenever fate doesn\u0027t turn out quite the way they hoped.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationTrickster.png",
-    "id": 37,
-    "items": {
-      "116": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Trickster",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 14
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Animator\u0022.\\n\\nThere\u0027s a fine line between genius and insanity, and it\u0027s difficult to say on what side of that line Animators reside. These fanatical magi spend their days perfecting their Animatus creations: unique creatures that grow more powerful as their master\u0027s dark experiments unveil new opportunities.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationAnimator.png",
-    "id": 38,
-    "items": {
-      "117": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Animator",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 1
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Defiler\u0022.\\n\\nThe difference between good and evil is often a matter of perspective, but the morality of a Defiler is simple enough for anyone to decide. These dark magi take sadistic pleasure in afflicting their adversaries with crippling diseases, reducing them to weakened husks that no longer have the capacity to defend themselves.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationDefiler.png",
-    "id": 39,
-    "items": {
-      "120": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Defiler",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 9
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Necromancer\u0022.\\n\\nNecromancers prefer to overwhelm their foes by summoning minions to aid their creatures in battle. Enemies are often so perplexed by the number of undead monstrosities charging at them from across the battlefield that they\u0027re dead long before they realize what even happened.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationNecromancer.png",
-    "id": 40,
-    "items": {
-      "121": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Necromancer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 8
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Cleric\u0022.\\n\\nThe best offense, as some say, is a good defense. Clerics protect their creatures with powerful healing abilities and steadfast barriers, ensuring that not even the most tenacious of foes can overcome them.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationCleric.png",
-    "id": 41,
-    "items": {
-      "122": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Cleric",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 2
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Inquisitor\u0022.\\n\\nBurn the witch, judge the heretic, and slay the non-believer. Inquisitors make use of healing effects just as much for offense as they do for defense. They enact justice on behalf of the gods, and no one will be spared from holy rapture.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationInquisitor.png",
-    "id": 42,
-    "items": {
-      "124": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Inquisitor",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 6
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Paladin\u0022.\\n\\nEye for an eye, tooth for a tooth. Paladins are patient combatants who prefer to allow their enemies to strike first, and then return the favor tenfold with holy fury.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationPaladin.png",
-    "id": 43,
-    "items": {
-      "125": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Paladin",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 10
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Druid\u0022.\\n\\nMany people foolishly mistake a Druid\u0027s introversion for weakness. These magi believe that quality always trumps quantity on the battlefield. Contrary to tradition, they are often seen with fewer than six creatures at their disposal, but the havoc their limited numbers wreak when augmented by Druidic magic is a sight to behold.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationDruid.png",
-    "id": 44,
-    "items": {
-      "127": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Druid",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 15
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Monk\u0022.\\n\\nA strong defense is unnecessary when your foe is unable to strike you in the first place. Monks grant their creatures unmatched agility, enabling them to dodge incoming attacks and spells, and respond with devastating counter-attacks.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationMonk.png",
-    "id": 45,
-    "items": {
-      "129": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Monk",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 7
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Tribalist\u0022.\\n\\nStrength in numbers. Tribalists prefer to use creatures that belong to the same race or class, and take full advantage of the synergy and camaraderie they offer each other.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationTribalist.png",
-    "id": 46,
-    "items": {
-      "130": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Tribalist",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 13
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Cabalist\u0022.\\n\\nCabalists can conjure Spell Gems out of thin air to be used by their creatures at any given moment. These magi prefer to employ high-risk, high-reward battle strategies to ensure their victory.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationCabalist.png",
-    "id": 47,
-    "items": {
-      "133": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Cabalist",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 3
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Evoker\u0022.\\n\\nEvokers are the ultimate spellcasters. They excel at casting enhanced versions of spells multiple times in a row to overwhelm their enemies before they can act.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationEvoker.png",
-    "id": 48,
-    "items": {
-      "134": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Evoker",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 4
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Sorcerer\u0022.\\n\\nSorcerers are masters of controlling the battlefield. Why worry about offense or defense when your enemies can\u0027t move to begin with?",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationSorcerer.png",
-    "id": 49,
-    "items": {
-      "135": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Sorcerer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 12
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Aja Birku. In order to complete this Project, you must purchase an item from Azural, God of Frost.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnAjaBirku.png",
-    "id": 50,
-    "items": {
-      "22": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Aja Birku",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 721,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Alakadan. In order to complete this Project, you must purchase an item from Regalis, Goddess of Poison.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnAlakadan.png",
-    "id": 51,
-    "items": {
-      "23": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Alakadan",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 724,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Colg.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnColg.png",
-    "id": 52,
-    "items": {
-      "24": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Colg",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 795,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Darksulker. In order to complete this Project, you must purchase an item from Tenebris, God of Shadow.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnDarksulker.png",
-    "id": 53,
-    "items": {
-      "25": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Darksulker",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 796,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Diamant. In order to complete this Project, you must purchase an item from Aurum, God of Vanity.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnDiamant.png",
-    "id": 54,
-    "items": {
-      "26": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Diamant",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 797,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Dikya. In order to complete this Project, you must purchase an item from Lister, God of Fortune.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnDikya.png",
-    "id": 55,
-    "items": {
-      "27": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Dikya",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 719,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Elqor. In order to complete this Project, you must purchase an item from Zonte, God of Wisdom.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnElqor.png",
-    "id": 56,
-    "items": {
-      "28": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Elqor",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 718,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Emlai. In order to complete this Project, you must purchase an item from Surathli, Goddess of Light.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnEmlai.png",
-    "id": 57,
-    "items": {
-      "29": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Emlai",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 723,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Iconus. In order to complete this Project, you must purchase an item from Gonfurian, God of War.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnIconus.png",
-    "id": 58,
-    "items": {
-      "30": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Iconus",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 710,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Kalasag. In order to complete this Project, you must purchase an item from Aeolian, God of Wind.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnKalasag.png",
-    "id": 59,
-    "items": {
-      "31": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Kalasag",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 720,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Kapre. In order to complete this Project, you must purchase an item from Apocranox, God of the Hunt.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnKapre.png",
-    "id": 60,
-    "items": {
-      "32": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Kapre",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 798,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Laglor. In order to complete this Project, you must purchase an item from Yseros, Goddess of Illusion.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnLaglor.png",
-    "id": 61,
-    "items": {
-      "33": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Laglor",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 722,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Linta. In order to complete this Project, you must purchase an item from Mortem, God of Blood.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnLinta.png",
-    "id": 62,
-    "items": {
-      "34": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Linta",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 799,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Mumu. In order to complete this Project, you must purchase an item from Friden, God of the Sea.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnMumu.png",
-    "id": 63,
-    "items": {
-      "35": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Mumu",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 715,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Noxpit. In order to complete this Project, you must purchase an item from Venedon, God of Discord.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnNoxpit.png",
-    "id": 64,
-    "items": {
-      "36": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Noxpit",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 800,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Ottum. In order to complete this Project, you must purchase an item from Vulcanar, God of Fire.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnOttum.png",
-    "id": 65,
-    "items": {
-      "37": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Ottum",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 711,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Tenbran. In order to complete this Project, you must purchase an item from Perdition, God of Extinction.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnTenbran.png",
-    "id": 66,
-    "items": {
-      "38": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Tenbran",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 801,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon The Lost. In order to complete this Project, you must purchase an item from Tartarith, God of Punishment.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnTheLost.png",
-    "id": 67,
-    "items": {
-      "39": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: The Lost",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 712,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Tisya. In order to complete this Project, you must purchase an item from Erebyss, Goddess of Darkness.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnTisya.png",
-    "id": 68,
-    "items": {
-      "40": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Tisya",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 713,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Ugat. In order to complete this Project, you must purchase an item from Torun, God of Anger.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnUgat.png",
-    "id": 69,
-    "items": {
-      "41": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Ugat",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 716,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Walken. In order to complete this Project, you must purchase an item from Vertraag, God of Time.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnWalken.png",
-    "id": 70,
-    "items": {
-      "42": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Walken",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 714,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Yllor. In order to complete this Project, you must purchase an item from Meraxis, God of Bliss.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnYllor.png",
-    "id": 71,
-    "items": {
-      "43": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Yllor",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 717,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks an NPC that you can place in your castle. The Court Jester sells wardrobe costumes that allow you to change the appearance of your character.",
-    "graniteCost": 5000,
-    "icon": "images/project/CourtJester.png",
-    "id": 72,
-    "items": {
-      "139": 30,
-      "140": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Court Jester",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will receive a key that can be used at the Gate of the Gods.",
-    "graniteCost": 25000,
-    "icon": "images/project/Keyforge.png",
-    "id": 73,
-    "items": {
-      "141": 10
-    },
-    "monsterPartCost": 2500,
-    "name": "Keyforge",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Bloodmage\u0022.\\n\\nThe Bloodmage is a deranged spellcaster who is willing to do anything to overcome his foes - even at the cost of his own creatures\u0027 lives. This menacing spellcaster is adept at manipulating the lifeforce of allies and foes alike in his endless pursuit for power.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationBloodmage.png",
-    "id": 74,
-    "items": {
-      "118": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Bloodmage",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 16
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Pyromancer\u0022.\\n\\nPyromancers quite literally thrive on watching the world burn. These maniacal magi ignite both friend and foe alike with a brilliant conflagration, causing their enemies to suffer gruesome deaths while empowering their allies with the power of flame.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationPyromancer.png",
-    "id": 75,
-    "items": {
-      "114": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Pyromancer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 17
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Doombringer\u0022.\\n\\nThe Doombringer draws magic from the Bastion of the Void to fuel his creatures with vast amounts of power. Doombringers specialize in allowing their creatures to perform actions multiple times in a row.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationDoombringer.png",
-    "id": 76,
-    "items": {
-      "112": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Doombringer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 24
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Fanatic\u0022.\\n\\nFanatics devote their lives to serving the gods. From dusk until dawn, these magi toil away at a neverending list of demands to better serve each of the 30 gods of Rodia. Such devotion is not without purpose, however, for the Fanatic is able to call on the gods\u0027 power to serve him in his time of need.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationFanatic.png",
-    "id": 77,
-    "items": {
-      "123": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Fanatic",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 21
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Warden\u0022.\\n\\nWardens are wholly attuned to the needs of their creatures. These powerful magi empower their creatures with various boons to give them an edge over their opponents in battle.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationWarden.png",
-    "id": 78,
-    "items": {
-      "131": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Warden",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 25
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Spellweaver\u0022.\\n\\nChaos, Death, Life, Nature, and Sorcery: the five components that gave birth to the land of Rodia. Spellweavers can call upon these elements to imbue their creatures with powerful inscriptions to decimate their foes in battle.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationSpellweaver.png",
-    "id": 79,
-    "items": {
-      "136": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Spellweaver",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 23
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Grovetender\u0022.\\n\\nGrovetenders take great pride in their Herbling companions, strongly preferring to focus the bulk of their efforts on this prized creature over all the others. This peculiar mage knows just the right techniques to bring out her Herbling\u0027s full potential as it transforms rapidly in combat to wreak havoc on its foes.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationGrovetender.png",
-    "id": 80,
-    "items": {
-      "128": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Grovetender",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 22
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Purgatorian\u0022.\\n\\nPurgatorians blur the line between life and death. These mystical spellcasters are able to call upon the spirits of their slain creatures to continue fighting in the afterlife.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationPurgatorian.png",
-    "id": 81,
-    "items": {
-      "126": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Purgatorian",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 20
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Astrologer\u0022.\\n\\nAstrologers are calculating magi who specialize in creating a sound strategy before each battle. Oftentimes, their plans are so well-constructed that their creatures are able to take combat into their own hands without any further input from their master.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationAstrologer.png",
-    "id": 82,
-    "items": {
-      "132": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Astrologer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 18
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Rune Knight\u0022.\\n\\nRune Knights call upon their runic powers - Cor, Dun, Lua, Nax, and Sah - to bolster their creatures\u0027 strength and grant them powerful spells that are unavailable anywhere else.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationRuneKnight.png",
-    "id": 83,
-    "items": {
-      "119": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Rune Knight",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 19
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Chaos Guild decoration, allowing you to take on Bounties and fight False Gods.",
-    "graniteCost": 5000,
-    "icon": "images/project/ChaosGuild.png",
-    "id": 84,
-    "items": {
-      "142": 10,
-      "143": 30
-    },
-    "monsterPartCost": 2500,
-    "name": "Chaos Guild",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Death Guild decoration, allowing you to take on Bounties and fight False Gods.",
-    "graniteCost": 5000,
-    "icon": "images/project/DeathGuild.png",
-    "id": 85,
-    "items": {
-      "144": 10,
-      "145": 30
-    },
-    "monsterPartCost": 2500,
-    "name": "Death Guild",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Life Guild decoration, allowing you to take on Bounties and fight False Gods.",
-    "graniteCost": 5000,
-    "icon": "images/project/LifeGuild.png",
-    "id": 86,
-    "items": {
-      "146": 10,
-      "147": 30
-    },
-    "monsterPartCost": 2500,
-    "name": "Life Guild",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Nature Guild decoration, allowing you to take on Bounties and fight False Gods.",
-    "graniteCost": 5000,
-    "icon": "images/project/NatureGuild.png",
-    "id": 87,
-    "items": {
-      "148": 10,
-      "149": 30
-    },
-    "monsterPartCost": 2500,
-    "name": "Nature Guild",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Unlocks the Sorcery Guild decoration, allowing you to take on Bounties and fight False Gods.",
-    "graniteCost": 5000,
-    "icon": "images/project/SorceryGuild.png",
-    "id": 88,
-    "items": {
-      "150": 10,
-      "151": 30
-    },
-    "monsterPartCost": 2500,
-    "name": "Sorcery Guild",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Royal\u0022.\\n\\nAuthority is passed down through generations, but true power must be earned. A master of all professions, the Royal possesses the unique ability to combine the powers of other specializations at will.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationRoyal.png",
-    "id": 89,
-    "items": {
-      "152": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Royal",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 27
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Dreamshade\u0022.\\n\\nDreamshades blur the line between dreams and reality. This mystical magi is adept at redirecting his foes\u0027 efforts for his own benefit.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationDreamshade.png",
-    "id": 90,
-    "items": {
-      "156": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Dreamshade",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 26
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Witch Doctor\u0022.\\n\\nWitch Doctors are spiritual warriors who cast deadly hexes and curses on their enemies, forcing them to fight against each other.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationWitchDoctor.png",
-    "id": 91,
-    "items": {
-      "155": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Witch Doctor",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 29
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Windrunner\u0022.\\n\\nWindrunners are vigilant sentinels who imbue their creatures with unmatched speed and vigor, allowing them to move so quickly that their opponents can\u0027t ever catch them.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationWindrunner.png",
-    "id": 92,
-    "items": {
-      "154": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Windrunner",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 28
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Siegemaster\u0022.\\n\\nThe Siegemaster is a stalwart protector who amplifies the defenses of his creatures to keep them strong in battle.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationSiegemaster.png",
-    "id": 93,
-    "items": {
-      "153": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Siegemaster",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 30
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you\u0027ll be able to fulfill the Goblet of Trials\u0027 requirements with 2 specializations instead of 1.",
-    "graniteCost": 5000,
-    "icon": "images/project/GobletofTrialsTier2.png",
-    "id": 94,
-    "items": {
-      "61": 10
-    },
-    "monsterPartCost": 2500,
-    "name": "Goblet of Trials (Tier 2)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you\u0027ll be able to fulfill the Goblet of Trials\u0027 requirements with 3 specializations instead of 2.",
-    "graniteCost": 10000,
-    "icon": "images/project/GobletofTrialsTier3.png",
-    "id": 95,
-    "items": {
-      "61": 15
-    },
-    "monsterPartCost": 5000,
-    "name": "Goblet of Trials (Tier 3)",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Nalas. In order to complete this Project, you must purchase an item from Shallan, Goddess of Prophecy.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnNalas.png",
-    "id": 96,
-    "items": {
-      "157": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Nalas",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1109,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon 8004. In order to complete this Project, you must purchase an item from 4080, God of Science.",
-    "graniteCost": 10000,
-    "icon": "images/project/Godspawn8004.png",
-    "id": 97,
-    "items": {
-      "158": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: 8004",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1106,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Saurel. In order to complete this Project, you must purchase an item from Reclusa, Goddess of Uncertainty.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnSaurel.png",
-    "id": 98,
-    "items": {
-      "159": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Saurel",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1111,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Adaxial. In order to complete this Project, you must purchase an item from Alexandria, God of Falsity.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnAdaxial.png",
-    "id": 99,
-    "items": {
-      "160": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Adaxial",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1104,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Akara. In order to complete this Project, you must purchase an item from Ariamaki, God of Balance.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnAkara.png",
-    "id": 100,
-    "items": {
-      "161": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Akara",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1105,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Emus. In order to complete this Project, you must purchase an item from Muse, Goddess of Creation.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnEmus.png",
-    "id": 101,
-    "items": {
-      "162": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Emus",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1107,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Grom\u0027Met. In order to complete this Project, you must purchase an item from T\u0027mere M\u0027rgo, God of Fusion.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnGromMet.png",
-    "id": 102,
-    "items": {
-      "163": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Grom\u0027Met",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1108,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Rengas. In order to complete this Project, you must purchase an item from Genaros, God of Strife.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnRengas.png",
-    "id": 103,
-    "items": {
-      "164": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Rengas",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1110,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 1000,
-    "description": "After completing this Project, you will gain enough Mana to summon Thana. In order to complete this Project, you must purchase an item from Anneltha, Goddess of Earth.",
-    "graniteCost": 10000,
-    "icon": "images/project/GodspawnThana.png",
-    "id": 104,
-    "items": {
-      "165": 1
-    },
-    "monsterPartCost": 5000,
-    "name": "Godspawn: Thana",
-    "notes": [],
-    "repeatable": true,
-    "type": "special",
-    "unlockedCreature": 1112,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Forbidden Depths.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmForbiddenDepths.png",
-    "id": 105,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Forbidden Depths",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 24,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Forgotten Lab.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmForgottenLab.png",
-    "id": 106,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Forgotten Lab",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 25,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Damarel.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmDamarel.png",
-    "id": 107,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Damarel",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 26,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Land of Breath \u0026 Balance.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmLandofBreathBalance.png",
-    "id": 108,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Land of Breath \u0026 Balance",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 27,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Gambler\u0027s Hive.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmGamblersHive.png",
-    "id": 109,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Gambler\u0027s Hive",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 28,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Overgrown Temple.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmOvergrownTemple.png",
-    "id": 110,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Overgrown Temple",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 29,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Amalgam Gardens.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmAmalgamGardens.png",
-    "id": 111,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Amalgam Gardens",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 30,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Astral Gallery.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmAstralGallery.png",
-    "id": 112,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Astral Gallery",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 31,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you will be able to travel to a new Realm called Fae Lands.",
-    "graniteCost": 5000,
-    "icon": "images/project/RealmFaeLands.png",
-    "id": 113,
-    "items": {
-      "166": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Realm: Fae Lands",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": 32,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Gladiator\u0022. In order to complete this Project, you must purchase an item from the Arena Shop.\\n\\nThe Gladiator is a master of the arena, sporting tremendous proficiency with all manner of weapons. No sword, no axe, no bow is too difficult for this master of armaments to wield.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationGladiator.png",
-    "id": 114,
-    "items": {
-      "170": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Gladiator",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 39
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Brewmaster\u0022. In order to complete this Project, you must purchase an item from one of the Gambling Dwarves.\\n\\nThe Brewmaster believes that no problem can\u0027t be solved with a full mug of beer... or six. This unexpected hero generously distributes all manner of ales and cocktails to friend and foe alike - but all should be wary when the time comes to pay the bill.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationBrewmaster.png",
-    "id": 115,
-    "items": {
-      "169": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Brewmaster",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 40
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Demonologist\u0022.\\n\\nThe Demonologist is a wicked summoner who conjures terrible demons from the depths of hell to aid his creatures in battle. This chaotic sorcerer uses Greater Demons to do his bidding while sacrificing Lesser Demons to empower his own creatures.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationDemonologist.png",
-    "id": 116,
-    "items": {
-      "174": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Demonologist",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 35
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Engineer\u0022.\\n\\nThe Engineer\u0027s sole purpose in life is to build a bigger and better explosive than last time. This bombastic bombardier belays bombs to its opponent\u0027s backs, blasting them back to the bilgewater from whence they were born.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationEngineer.png",
-    "id": 117,
-    "items": {
-      "175": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Engineer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 36
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Toxicologist\u0022.\\n\\nToxicologists spend their days tarrying away at all manner of potions and elixirs that might serve their use in battle. These mad scientists care little for the well-being of their own creatures, equipping them with venomous toxins that grant them enhanced combat prowess at the cost of their own lives.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationToxicologist.png",
-    "id": 118,
-    "items": {
-      "173": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Toxicologist",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 31
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Mime\u0022.\\n\\nWhile the Mime\u0027s own combat prowess leaves much to be desired, it excels at copying its opponent\u0027s actions, turning its enemies\u0027 strategy against them to assure victory.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationMime.png",
-    "id": 119,
-    "items": {
-      "171": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Mime",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 32
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Shadowbringer\u0022.\\n\\nThe presence of a Shadowbringer spells doom for all who cross its path. This ethereal being bends the light into darkness, sapping its foes\u0027 will to live from their hearts.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationShadowbringer.png",
-    "id": 120,
-    "items": {
-      "172": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Shadowbringer",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 33
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Graveborn\u0022.\\n\\nThe Graveborn is a once-powerful warlock who was killed for his heresy and has since risen from the dead to wreak havoc on the living. This undead spellcaster is capable of bringing his creatures back from the dead with far greater power than before.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationGraveborn.png",
-    "id": 121,
-    "items": {
-      "176": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Graveborn",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 34
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Pariah\u0022. This is a Challenge Specialization and will make the game more difficult while you are playing it.\\n\\nThe Pariah is a social outcast who prefers to spend her days in solitude. Though her friends are few, she is resourceful enough to maintain her independence with some success.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationPariah.png",
-    "id": 122,
-    "items": {
-      "167": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Pariah",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 37
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Deprived\u0022. This is a Challenge Specialization and will make the game more difficult while you are playing it.\\n\\nThe Deprived was born with nothing and will die with nothing. Cursed with the intelligence of a sponge and the physique of a sickly child, the Deprived must make do with what little fate has left him with.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationDeprived.png",
-    "id": 123,
-    "items": {
-      "168": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Deprived",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 38
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "Allows you to take on Nether Synthesis Missions. These are repeatable Projects that reward you with a random Nether Stone.",
-    "graniteCost": 5000,
-    "icon": "images/project/UnlockMissionNetherSynthesis.png",
-    "id": 124,
-    "items": {
-      "92": 5,
-      "93": 5,
-      "94": 5,
-      "95": 5,
-      "96": 5
-    },
-    "monsterPartCost": 2500,
-    "name": "Unlock Mission: Nether Synthesis",
-    "notes": [],
-    "repeatable": false,
-    "type": "construction",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 2500,
-    "description": "After completing this Project, you will receive a random Nether Stone.",
-    "graniteCost": 30000,
-    "icon": "images/project/NetherSynthesis.png",
-    "id": 125,
-    "items": {},
-    "monsterPartCost": 12500,
-    "name": "Nether Synthesis",
-    "notes": [],
-    "repeatable": true,
-    "type": "mission",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": null
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Mesmerist\u0022.\\n\\nA blade can cut the body, but the mind is far more fragile. The Mesmerist specializes in warping reality itself, putting her enemies to sleep, blinding them, and turning their own senses against them until they no longer know who - or what - they\u00E2\u20AC\u2122re fighting.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationMesmerist.png",
-    "id": 126,
-    "items": {
-      "178": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Mesmerist",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 42
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Mermaid\u0022.\\n\\nSome creatures are blessed with protectors that guard them from harm no matter the cost. The Mermaid relies on her Benthic Guardian to shield her other creatures from danger, ensuring that her allies can fight without fear while her guardian bears the brunt of the enemy\u00E2\u20AC\u2122s fury.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationMermaid.png",
-    "id": 127,
-    "items": {
-      "177": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Mermaid",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 41
-  },
-  {
-    "arcaneDustCost": 500,
-    "description": "After completing this Project, you can change your specialization to \u0022Antiquarian\u0022.\\n\\nRelics of the past hold secrets lost to time, and the Antiquarian is determined to uncover them all. This eccentric magi studies the ancient artifacts left behind by the gods themselves, empowering her creatures with forgotten blessings that even the gods have long since forsaken.",
-    "graniteCost": 5000,
-    "icon": "images/project/SpecializationAntiquarian.png",
-    "id": 128,
-    "items": {
-      "179": 1
-    },
-    "monsterPartCost": 2500,
-    "name": "Specialization: Antiquarian",
-    "notes": [],
-    "repeatable": false,
-    "type": "special",
-    "unlockedCreature": null,
-    "unlockedRealm": null,
-    "unlockedSpecialization": 43
-  }
+    {
+        "arcaneDustCost":  100,
+        "description":  "Allows you to upgrade your Artifacts even further.",
+        "graniteCost":  1000,
+        "icon":  "images/project/BlacksmithRank2.png",
+        "id":  0,
+        "items":  {
+                      "52":  30,
+                      "53":  1
+                  },
+        "monsterPartCost":  500,
+        "name":  "Blacksmith (Rank 2)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  300,
+        "description":  "Allows you to upgrade your Artifacts even further.",
+        "graniteCost":  3000,
+        "icon":  "images/project/BlacksmithRank3.png",
+        "id":  1,
+        "items":  {
+                      "64":  50,
+                      "65":  1
+                  },
+        "monsterPartCost":  1500,
+        "name":  "Blacksmith (Rank 3)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to upgrade your Artifacts even further.",
+        "graniteCost":  5000,
+        "icon":  "images/project/BlacksmithRank4.png",
+        "id":  2,
+        "items":  {
+                      "58":  100,
+                      "57":  1,
+                      "66":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Blacksmith (Rank 4)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "Allows you to upgrade your Artifacts even further.",
+        "graniteCost":  10000,
+        "icon":  "images/project/BlacksmithRank5.png",
+        "id":  3,
+        "items":  {
+                      "63":  1,
+                      "97":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Blacksmith (Rank 5)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  300,
+        "description":  "Allows you to upgrade your Spell Gems even further.",
+        "graniteCost":  3000,
+        "icon":  "images/project/EnchanterRank2.png",
+        "id":  4,
+        "items":  {
+                      "48":  10,
+                      "59":  1
+                  },
+        "monsterPartCost":  1500,
+        "name":  "Enchanter (Rank 2)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to upgrade your Spell Gems even further.",
+        "graniteCost":  5000,
+        "icon":  "images/project/EnchanterRank3.png",
+        "id":  5,
+        "items":  {
+                      "48":  25,
+                      "77":  1,
+                      "76":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Enchanter (Rank 3)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1500,
+        "description":  "Unlocks the Tavern Brawl decoration, allowing you to fight against other players\u0027 creatures to win exclusive prizes.",
+        "graniteCost":  15000,
+        "icon":  "images/project/TavernBrawls.png",
+        "id":  6,
+        "items":  {
+                      "46":  100,
+                      "45":  10
+                  },
+        "monsterPartCost":  7500,
+        "name":  "Tavern Brawls",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Refinery decoration, allowing you to salvage your unwanted Artifacts and Spell Gems, as well as convert your resources into different ones.",
+        "graniteCost":  5000,
+        "icon":  "images/project/Refinery.png",
+        "id":  7,
+        "items":  {
+                      "68":  30,
+                      "49":  30,
+                      "81":  10,
+                      "67":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Refinery",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks four different NPCs that you can place in your castle. Each one offers their own mini-games that reward you with valuable prizes. Also allows you to encounter Riddle Dwarves in realms.",
+        "graniteCost":  5000,
+        "icon":  "images/project/GamblingDwarves.png",
+        "id":  8,
+        "items":  {
+                      "55":  10,
+                      "70":  10,
+                      "60":  4,
+                      "75":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Gambling Dwarves",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Arena decoration, which allows you to draft a team of creatures to fight against enemies and earn exclusive prizes.",
+        "graniteCost":  5000,
+        "icon":  "images/project/Arena.png",
+        "id":  9,
+        "items":  {
+                      "47":  15,
+                      "78":  15,
+                      "80":  15
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Arena",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Goblet of Trials decoration, which rewards you for completing Realm Quests under certain conditions.",
+        "graniteCost":  5000,
+        "icon":  "images/project/GobletofTrials.png",
+        "id":  10,
+        "items":  {
+                      "50":  1,
+                      "62":  5,
+                      "61":  10
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Goblet of Trials",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "Unlocks the Gate of the Gods decoration, which allows you to fight against the gods themselves!",
+        "graniteCost":  10000,
+        "icon":  "images/project/GateoftheGods.png",
+        "id":  11,
+        "items":  {
+                      "73":  20
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Gate of the Gods",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  5000,
+        "description":  "Unlocks the Will of the Gods decoration, which instructs you to use certain traits each real-world week in exchange for valuable rewards.",
+        "graniteCost":  50000,
+        "icon":  "images/project/WilloftheGods.png",
+        "id":  12,
+        "items":  {
+                      "74":  25
+                  },
+        "monsterPartCost":  25000,
+        "name":  "Will of the Gods",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  300,
+        "description":  "Unlocks the Reliquary decoration, allowing you to partake in Prophecies. Prophecies are infinitely-repeatable quests that grant exclusive rewards. Also allows you to unlock and upgrade Relics of the Gods.",
+        "graniteCost":  3000,
+        "icon":  "images/project/Reliquary.png",
+        "id":  13,
+        "items":  {
+                      "137":  1,
+                      "138":  50
+                  },
+        "monsterPartCost":  1500,
+        "name":  "Reliquary",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to find Divination Candles in realms. Divination Candles allow you to spawn your choice of creatures to fight against.",
+        "graniteCost":  5000,
+        "icon":  "images/project/DivinationCandle.png",
+        "id":  14,
+        "items":  {
+                      "82":  3,
+                      "83":  3,
+                      "85":  3,
+                      "86":  3,
+                      "84":  10,
+                      "87":  20
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Divination Candle",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1500,
+        "description":  "Increases the number of Projects you can take on simultaneously by 1.",
+        "graniteCost":  15000,
+        "icon":  "images/project/IncreasedMaximumProjects.png",
+        "id":  18,
+        "items":  {
+                      "69":  25
+                  },
+        "monsterPartCost":  7500,
+        "name":  "Increased Maximum Projects",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Raid Missions. These are repeatable Projects that reward you with treasure.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionRaid.png",
+        "id":  19,
+        "items":  {
+                      "105":  20
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Raid",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Forage Missions. These are repeatable Projects that reward you with Artifact crafting materials.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionForage.png",
+        "id":  20,
+        "items":  {
+                      "98":  5,
+                      "99":  5,
+                      "100":  5,
+                      "101":  5
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Forage",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Experiment Missions. These are repeatable Projects that reward you with Spell Gem crafting materials.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionExperiment.png",
+        "id":  21,
+        "items":  {
+                      "88":  5,
+                      "89":  5,
+                      "90":  5,
+                      "91":  5
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Experiment",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Hunt Missions. These are repeatable Projects that reward you with Knowledge about the creature of your choice.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionHunt.png",
+        "id":  22,
+        "items":  {
+                      "92":  5,
+                      "93":  5,
+                      "94":  5,
+                      "95":  5,
+                      "96":  5
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Hunt",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Pilgrimage Missions. These are repeatable Projects that reward you with Favor with the god of your choice.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionPilgrimage.png",
+        "id":  23,
+        "items":  {
+                      "104":  20
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Pilgrimage",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Training Missions. These are repeatable Projects that reward you with Scrolls that can be used to boost your creatures\u0027 base stats.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionTraining.png",
+        "id":  24,
+        "items":  {
+                      "47":  15,
+                      "78":  15,
+                      "80":  15
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Training",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Assassination Missions. These are repeatable Projects that reward you with Trait Materials from the creature of your choice. You can only assassinate creatures that you have Rank S knowledge about.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionAssassination.png",
+        "id":  25,
+        "items":  {
+                      "106":  15,
+                      "107":  15,
+                      "108":  15,
+                      "109":  15,
+                      "110":  15
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Assassination",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  300,
+        "description":  "Greatly increases the size of your castle.",
+        "graniteCost":  3000,
+        "icon":  "images/project/CastleExpansion.png",
+        "id":  26,
+        "items":  {
+                      "102":  50,
+                      "111":  50,
+                      "103":  25,
+                      "84":  15
+                  },
+        "monsterPartCost":  1500,
+        "name":  "Castle Expansion",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  3000,
+        "description":  "Unlocks the Arcane Vault decoration, which allows you to upgrade your Talisman.",
+        "graniteCost":  30000,
+        "icon":  "images/project/ArcaneVault.png",
+        "id":  27,
+        "items":  {
+                      "44":  1
+                  },
+        "monsterPartCost":  15000,
+        "name":  "Arcane Vault",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will receive treasure.",
+        "graniteCost":  10000,
+        "icon":  "images/project/Raid.png",
+        "id":  28,
+        "items":  {
+                      "105":  5
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Raid",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will receive Artifact crafting materials.",
+        "graniteCost":  10000,
+        "icon":  "images/project/Forage.png",
+        "id":  29,
+        "items":  {
+                      "98":  3,
+                      "99":  3,
+                      "100":  3,
+                      "101":  3
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Forage",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will receive Spell Gem crafting materials.",
+        "graniteCost":  10000,
+        "icon":  "images/project/Experiment.png",
+        "id":  30,
+        "items":  {
+                      "88":  3,
+                      "89":  3,
+                      "90":  3,
+                      "91":  3
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Experiment",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will receive Knowledge about the creature of your choice. You can only hunt creatures that you have Rank D knowledge about, or higher.",
+        "graniteCost":  10000,
+        "icon":  "images/project/Hunt.png",
+        "id":  31,
+        "items":  {
+                      "92":  3,
+                      "93":  3,
+                      "94":  3,
+                      "95":  3,
+                      "96":  3
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Hunt",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will receive Favor with the god of your choice.",
+        "graniteCost":  10000,
+        "icon":  "images/project/Pilgrimage.png",
+        "id":  32,
+        "items":  {
+                      "104":  10
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Pilgrimage",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will receive 3 Scrolls that can be used to boost your creatures\u0027 stats.",
+        "graniteCost":  40000,
+        "icon":  "images/project/Training.png",
+        "id":  33,
+        "items":  {
+                      "47":  7,
+                      "78":  7,
+                      "80":  7
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Training",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1500,
+        "description":  "After completing this Project, you will receive the Trait material of your choice. You can only assassinate creatures that you have Rank S knowledge about.",
+        "graniteCost":  40000,
+        "icon":  "images/project/Assassination.png",
+        "id":  34,
+        "items":  {
+                      "106":  5,
+                      "107":  5,
+                      "108":  5,
+                      "109":  5,
+                      "110":  5
+                  },
+        "monsterPartCost":  7500,
+        "name":  "Assassination",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Reaver\".\\n\\nPerseverance, an iron will, and a touch of insanity are the perfect recipe for victory. Reavers live and die by this mantra, instilling their creatures with a cold and calculated anger that allows them to grow more powerful during battle while their foes tire out.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationReaver.png",
+        "id":  35,
+        "items":  {
+                      "115":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Reaver",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  11,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Hell Knight\".\\n\\nCareful planning and uptight caution are nothing but a cause to doubt oneself. Hell Knights realize this fact, and instead opt to send their creatures charging headlong into battle, relying on brute strength and reckless attacks to ensure a swift victory.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationHellKnight.png",
+        "id":  36,
+        "items":  {
+                      "113":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Hell Knight",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  5,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Trickster\".\\n\\nLuck is not merely a matter of chance, but instead a force that can be manipulated to a clever man\u0027s will. Tricksters capitalize on this fact, enabling their creatures to re-roll the proverbial dice whenever fate doesn\u0027t turn out quite the way they hoped.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationTrickster.png",
+        "id":  37,
+        "items":  {
+                      "116":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Trickster",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  14,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Animator\".\\n\\nThere\u0027s a fine line between genius and insanity, and it\u0027s difficult to say on what side of that line Animators reside. These fanatical magi spend their days perfecting their Animatus creations: unique creatures that grow more powerful as their master\u0027s dark experiments unveil new opportunities.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationAnimator.png",
+        "id":  38,
+        "items":  {
+                      "117":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Animator",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  1,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Defiler\".\\n\\nThe difference between good and evil is often a matter of perspective, but the morality of a Defiler is simple enough for anyone to decide. These dark magi take sadistic pleasure in afflicting their adversaries with crippling diseases, reducing them to weakened husks that no longer have the capacity to defend themselves.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationDefiler.png",
+        "id":  39,
+        "items":  {
+                      "120":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Defiler",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  9,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Necromancer\".\\n\\nNecromancers prefer to overwhelm their foes by summoning minions to aid their creatures in battle. Enemies are often so perplexed by the number of undead monstrosities charging at them from across the battlefield that they\u0027re dead long before they realize what even happened.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationNecromancer.png",
+        "id":  40,
+        "items":  {
+                      "121":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Necromancer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  8,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Cleric\".\\n\\nThe best offense, as some say, is a good defense. Clerics protect their creatures with powerful healing abilities and steadfast barriers, ensuring that not even the most tenacious of foes can overcome them.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationCleric.png",
+        "id":  41,
+        "items":  {
+                      "122":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Cleric",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  2,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Inquisitor\".\\n\\nBurn the witch, judge the heretic, and slay the non-believer. Inquisitors make use of healing effects just as much for offense as they do for defense. They enact justice on behalf of the gods, and no one will be spared from holy rapture.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationInquisitor.png",
+        "id":  42,
+        "items":  {
+                      "124":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Inquisitor",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  6,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Paladin\".\\n\\nEye for an eye, tooth for a tooth. Paladins are patient combatants who prefer to allow their enemies to strike first, and then return the favor tenfold with holy fury.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationPaladin.png",
+        "id":  43,
+        "items":  {
+                      "125":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Paladin",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  10,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Druid\".\\n\\nMany people foolishly mistake a Druid\u0027s introversion for weakness. These magi believe that quality always trumps quantity on the battlefield. Contrary to tradition, they are often seen with fewer than six creatures at their disposal, but the havoc their limited numbers wreak when augmented by Druidic magic is a sight to behold.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationDruid.png",
+        "id":  44,
+        "items":  {
+                      "127":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Druid",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  15,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Monk\".\\n\\nA strong defense is unnecessary when your foe is unable to strike you in the first place. Monks grant their creatures unmatched agility, enabling them to dodge incoming attacks and spells, and respond with devastating counter-attacks.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationMonk.png",
+        "id":  45,
+        "items":  {
+                      "129":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Monk",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  7,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Tribalist\".\\n\\nStrength in numbers. Tribalists prefer to use creatures that belong to the same race or class, and take full advantage of the synergy and camaraderie they offer each other.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationTribalist.png",
+        "id":  46,
+        "items":  {
+                      "130":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Tribalist",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  13,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Cabalist\".\\n\\nCabalists can conjure Spell Gems out of thin air to be used by their creatures at any given moment. These magi prefer to employ high-risk, high-reward battle strategies to ensure their victory.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationCabalist.png",
+        "id":  47,
+        "items":  {
+                      "133":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Cabalist",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  3,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Evoker\".\\n\\nEvokers are the ultimate spellcasters. They excel at casting enhanced versions of spells multiple times in a row to overwhelm their enemies before they can act.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationEvoker.png",
+        "id":  48,
+        "items":  {
+                      "134":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Evoker",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  4,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Sorcerer\".\\n\\nSorcerers are masters of controlling the battlefield. Why worry about offense or defense when your enemies can\u0027t move to begin with?",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationSorcerer.png",
+        "id":  49,
+        "items":  {
+                      "135":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Sorcerer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  12,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Aja Birku. In order to complete this Project, you must purchase an item from Azural, God of Frost.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnAjaBirku.png",
+        "id":  50,
+        "items":  {
+                      "22":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Aja Birku",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  721,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Alakadan. In order to complete this Project, you must purchase an item from Regalis, Goddess of Poison.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnAlakadan.png",
+        "id":  51,
+        "items":  {
+                      "23":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Alakadan",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  724,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Colg.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnColg.png",
+        "id":  52,
+        "items":  {
+                      "24":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Colg",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  795,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Darksulker. In order to complete this Project, you must purchase an item from Tenebris, God of Shadow.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnDarksulker.png",
+        "id":  53,
+        "items":  {
+                      "25":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Darksulker",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  796,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Diamant. In order to complete this Project, you must purchase an item from Aurum, God of Vanity.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnDiamant.png",
+        "id":  54,
+        "items":  {
+                      "26":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Diamant",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  797,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Dikya. In order to complete this Project, you must purchase an item from Lister, God of Fortune.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnDikya.png",
+        "id":  55,
+        "items":  {
+                      "27":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Dikya",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  719,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Elqor. In order to complete this Project, you must purchase an item from Zonte, God of Wisdom.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnElqor.png",
+        "id":  56,
+        "items":  {
+                      "28":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Elqor",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  718,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Emlai. In order to complete this Project, you must purchase an item from Surathli, Goddess of Light.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnEmlai.png",
+        "id":  57,
+        "items":  {
+                      "29":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Emlai",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  723,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Iconus. In order to complete this Project, you must purchase an item from Gonfurian, God of War.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnIconus.png",
+        "id":  58,
+        "items":  {
+                      "30":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Iconus",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  710,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Kalasag. In order to complete this Project, you must purchase an item from Aeolian, God of Wind.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnKalasag.png",
+        "id":  59,
+        "items":  {
+                      "31":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Kalasag",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  720,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Kapre. In order to complete this Project, you must purchase an item from Apocranox, God of the Hunt.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnKapre.png",
+        "id":  60,
+        "items":  {
+                      "32":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Kapre",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  798,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Laglor. In order to complete this Project, you must purchase an item from Yseros, Goddess of Illusion.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnLaglor.png",
+        "id":  61,
+        "items":  {
+                      "33":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Laglor",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  722,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Linta. In order to complete this Project, you must purchase an item from Mortem, God of Blood.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnLinta.png",
+        "id":  62,
+        "items":  {
+                      "34":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Linta",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  799,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Mumu. In order to complete this Project, you must purchase an item from Friden, God of the Sea.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnMumu.png",
+        "id":  63,
+        "items":  {
+                      "35":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Mumu",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  715,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Noxpit. In order to complete this Project, you must purchase an item from Venedon, God of Discord.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnNoxpit.png",
+        "id":  64,
+        "items":  {
+                      "36":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Noxpit",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  800,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Ottum. In order to complete this Project, you must purchase an item from Vulcanar, God of Fire.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnOttum.png",
+        "id":  65,
+        "items":  {
+                      "37":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Ottum",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  711,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Tenbran. In order to complete this Project, you must purchase an item from Perdition, God of Extinction.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnTenbran.png",
+        "id":  66,
+        "items":  {
+                      "38":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Tenbran",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  801,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon The Lost. In order to complete this Project, you must purchase an item from Tartarith, God of Punishment.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnTheLost.png",
+        "id":  67,
+        "items":  {
+                      "39":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: The Lost",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  712,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Tisya. In order to complete this Project, you must purchase an item from Erebyss, Goddess of Darkness.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnTisya.png",
+        "id":  68,
+        "items":  {
+                      "40":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Tisya",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  713,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Ugat. In order to complete this Project, you must purchase an item from Torun, God of Anger.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnUgat.png",
+        "id":  69,
+        "items":  {
+                      "41":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Ugat",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  716,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Walken. In order to complete this Project, you must purchase an item from Vertraag, God of Time.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnWalken.png",
+        "id":  70,
+        "items":  {
+                      "42":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Walken",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  714,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Yllor. In order to complete this Project, you must purchase an item from Meraxis, God of Bliss.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnYllor.png",
+        "id":  71,
+        "items":  {
+                      "43":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Yllor",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  717,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks an NPC that you can place in your castle. The Court Jester sells wardrobe costumes that allow you to change the appearance of your character.",
+        "graniteCost":  5000,
+        "icon":  "images/project/CourtJester.png",
+        "id":  72,
+        "items":  {
+                      "139":  30,
+                      "140":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Court Jester",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will receive a key that can be used at the Gate of the Gods.",
+        "graniteCost":  25000,
+        "icon":  "images/project/Keyforge.png",
+        "id":  73,
+        "items":  {
+                      "141":  10
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Keyforge",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Bloodmage\".\\n\\nThe Bloodmage is a deranged spellcaster who is willing to do anything to overcome his foes - even at the cost of his own creatures\u0027 lives. This menacing spellcaster is adept at manipulating the lifeforce of allies and foes alike in his endless pursuit for power.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationBloodmage.png",
+        "id":  74,
+        "items":  {
+                      "118":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Bloodmage",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  16,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Pyromancer\".\\n\\nPyromancers quite literally thrive on watching the world burn. These maniacal magi ignite both friend and foe alike with a brilliant conflagration, causing their enemies to suffer gruesome deaths while empowering their allies with the power of flame.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationPyromancer.png",
+        "id":  75,
+        "items":  {
+                      "114":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Pyromancer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  17,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Doombringer\".\\n\\nThe Doombringer draws magic from the Bastion of the Void to fuel his creatures with vast amounts of power. Doombringers specialize in allowing their creatures to perform actions multiple times in a row.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationDoombringer.png",
+        "id":  76,
+        "items":  {
+                      "112":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Doombringer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  24,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Fanatic\".\\n\\nFanatics devote their lives to serving the gods. From dusk until dawn, these magi toil away at a neverending list of demands to better serve each of the 30 gods of Rodia. Such devotion is not without purpose, however, for the Fanatic is able to call on the gods\u0027 power to serve him in his time of need.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationFanatic.png",
+        "id":  77,
+        "items":  {
+                      "123":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Fanatic",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  21,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Warden\".\\n\\nWardens are wholly attuned to the needs of their creatures. These powerful magi empower their creatures with various boons to give them an edge over their opponents in battle.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationWarden.png",
+        "id":  78,
+        "items":  {
+                      "131":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Warden",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  25,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Spellweaver\".\\n\\nChaos, Death, Life, Nature, and Sorcery: the five components that gave birth to the land of Rodia. Spellweavers can call upon these elements to imbue their creatures with powerful inscriptions to decimate their foes in battle.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationSpellweaver.png",
+        "id":  79,
+        "items":  {
+                      "136":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Spellweaver",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  23,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Grovetender\".\\n\\nGrovetenders take great pride in their Herbling companions, strongly preferring to focus the bulk of their efforts on this prized creature over all the others. This peculiar mage knows just the right techniques to bring out her Herbling\u0027s full potential as it transforms rapidly in combat to wreak havoc on its foes.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationGrovetender.png",
+        "id":  80,
+        "items":  {
+                      "128":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Grovetender",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  22,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Purgatorian\".\\n\\nPurgatorians blur the line between life and death. These mystical spellcasters are able to call upon the spirits of their slain creatures to continue fighting in the afterlife.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationPurgatorian.png",
+        "id":  81,
+        "items":  {
+                      "126":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Purgatorian",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  20,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Astrologer\".\\n\\nAstrologers are calculating magi who specialize in creating a sound strategy before each battle. Oftentimes, their plans are so well-constructed that their creatures are able to take combat into their own hands without any further input from their master.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationAstrologer.png",
+        "id":  82,
+        "items":  {
+                      "132":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Astrologer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  18,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Rune Knight\".\\n\\nRune Knights call upon their runic powers - Cor, Dun, Lua, Nax, and Sah - to bolster their creatures\u0027 strength and grant them powerful spells that are unavailable anywhere else.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationRuneKnight.png",
+        "id":  83,
+        "items":  {
+                      "119":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Rune Knight",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  19,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Chaos Guild decoration, allowing you to take on Bounties and fight False Gods.",
+        "graniteCost":  5000,
+        "icon":  "images/project/ChaosGuild.png",
+        "id":  84,
+        "items":  {
+                      "142":  10,
+                      "143":  30
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Chaos Guild",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Death Guild decoration, allowing you to take on Bounties and fight False Gods.",
+        "graniteCost":  5000,
+        "icon":  "images/project/DeathGuild.png",
+        "id":  85,
+        "items":  {
+                      "144":  10,
+                      "145":  30
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Death Guild",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Life Guild decoration, allowing you to take on Bounties and fight False Gods.",
+        "graniteCost":  5000,
+        "icon":  "images/project/LifeGuild.png",
+        "id":  86,
+        "items":  {
+                      "146":  10,
+                      "147":  30
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Life Guild",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Nature Guild decoration, allowing you to take on Bounties and fight False Gods.",
+        "graniteCost":  5000,
+        "icon":  "images/project/NatureGuild.png",
+        "id":  87,
+        "items":  {
+                      "148":  10,
+                      "149":  30
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Nature Guild",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Unlocks the Sorcery Guild decoration, allowing you to take on Bounties and fight False Gods.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SorceryGuild.png",
+        "id":  88,
+        "items":  {
+                      "150":  10,
+                      "151":  30
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Sorcery Guild",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Royal\".\\n\\nAuthority is passed down through generations, but true power must be earned. A master of all professions, the Royal possesses the unique ability to combine the powers of other specializations at will.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationRoyal.png",
+        "id":  89,
+        "items":  {
+                      "152":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Royal",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  27,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Dreamshade\".\\n\\nDreamshades blur the line between dreams and reality. This mystical magi is adept at redirecting his foes\u0027 efforts for his own benefit.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationDreamshade.png",
+        "id":  90,
+        "items":  {
+                      "156":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Dreamshade",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  26,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Witch Doctor\".\\n\\nWitch Doctors are spiritual warriors who cast deadly hexes and curses on their enemies, forcing them to fight against each other.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationWitchDoctor.png",
+        "id":  91,
+        "items":  {
+                      "155":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Witch Doctor",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  29,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Windrunner\".\\n\\nWindrunners are vigilant sentinels who imbue their creatures with unmatched speed and vigor, allowing them to move so quickly that their opponents can\u0027t ever catch them.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationWindrunner.png",
+        "id":  92,
+        "items":  {
+                      "154":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Windrunner",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  28,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Siegemaster\".\\n\\nThe Siegemaster is a stalwart protector who amplifies the defenses of his creatures to keep them strong in battle.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationSiegemaster.png",
+        "id":  93,
+        "items":  {
+                      "153":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Siegemaster",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  30,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you\u0027ll be able to fulfill the Goblet of Trials\u0027 requirements with 2 specializations instead of 1.",
+        "graniteCost":  5000,
+        "icon":  "images/project/GobletofTrialsTier2.png",
+        "id":  94,
+        "items":  {
+                      "61":  10
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Goblet of Trials (Tier 2)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you\u0027ll be able to fulfill the Goblet of Trials\u0027 requirements with 3 specializations instead of 2.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GobletofTrialsTier3.png",
+        "id":  95,
+        "items":  {
+                      "61":  15
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Goblet of Trials (Tier 3)",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Nalas. In order to complete this Project, you must purchase an item from Shallan, Goddess of Prophecy.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnNalas.png",
+        "id":  96,
+        "items":  {
+                      "157":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Nalas",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1109,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon 8004. In order to complete this Project, you must purchase an item from 4080, God of Science.",
+        "graniteCost":  10000,
+        "icon":  "images/project/Godspawn8004.png",
+        "id":  97,
+        "items":  {
+                      "158":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: 8004",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1106,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Saurel. In order to complete this Project, you must purchase an item from Reclusa, Goddess of Uncertainty.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnSaurel.png",
+        "id":  98,
+        "items":  {
+                      "159":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Saurel",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1111,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Adaxial. In order to complete this Project, you must purchase an item from Alexandria, God of Falsity.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnAdaxial.png",
+        "id":  99,
+        "items":  {
+                      "160":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Adaxial",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1104,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Akara. In order to complete this Project, you must purchase an item from Ariamaki, God of Balance.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnAkara.png",
+        "id":  100,
+        "items":  {
+                      "161":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Akara",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1105,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Emus. In order to complete this Project, you must purchase an item from Muse, Goddess of Creation.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnEmus.png",
+        "id":  101,
+        "items":  {
+                      "162":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Emus",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1107,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Grom\u0027Met. In order to complete this Project, you must purchase an item from T\u0027mere M\u0027rgo, God of Fusion.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnGromMet.png",
+        "id":  102,
+        "items":  {
+                      "163":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Grom\u0027Met",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1108,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Rengas. In order to complete this Project, you must purchase an item from Genaros, God of Strife.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnRengas.png",
+        "id":  103,
+        "items":  {
+                      "164":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Rengas",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1110,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  1000,
+        "description":  "After completing this Project, you will gain enough Mana to summon Thana. In order to complete this Project, you must purchase an item from Anneltha, Goddess of Earth.",
+        "graniteCost":  10000,
+        "icon":  "images/project/GodspawnThana.png",
+        "id":  104,
+        "items":  {
+                      "165":  1
+                  },
+        "monsterPartCost":  5000,
+        "name":  "Godspawn: Thana",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "special",
+        "unlockedCreature":  1112,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Forbidden Depths.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmForbiddenDepths.png",
+        "id":  105,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Forbidden Depths",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  24,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Forgotten Lab.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmForgottenLab.png",
+        "id":  106,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Forgotten Lab",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  25,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Damarel.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmDamarel.png",
+        "id":  107,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Damarel",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  26,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Land of Breath \u0026 Balance.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmLandofBreathBalance.png",
+        "id":  108,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Land of Breath \u0026 Balance",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  27,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Gambler\u0027s Hive.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmGamblersHive.png",
+        "id":  109,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Gambler\u0027s Hive",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  28,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Overgrown Temple.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmOvergrownTemple.png",
+        "id":  110,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Overgrown Temple",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  29,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Amalgam Gardens.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmAmalgamGardens.png",
+        "id":  111,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Amalgam Gardens",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  30,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Astral Gallery.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmAstralGallery.png",
+        "id":  112,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Astral Gallery",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  31,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you will be able to travel to a new Realm called Fae Lands.",
+        "graniteCost":  5000,
+        "icon":  "images/project/RealmFaeLands.png",
+        "id":  113,
+        "items":  {
+                      "166":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Realm: Fae Lands",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  32,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Gladiator\". In order to complete this Project, you must purchase an item from the Arena Shop.\\n\\nThe Gladiator is a master of the arena, sporting tremendous proficiency with all manner of weapons. No sword, no axe, no bow is too difficult for this master of armaments to wield.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationGladiator.png",
+        "id":  114,
+        "items":  {
+                      "170":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Gladiator",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  39,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Brewmaster\". In order to complete this Project, you must purchase an item from one of the Gambling Dwarves.\\n\\nThe Brewmaster believes that no problem can\u0027t be solved with a full mug of beer... or six. This unexpected hero generously distributes all manner of ales and cocktails to friend and foe alike - but all should be wary when the time comes to pay the bill.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationBrewmaster.png",
+        "id":  115,
+        "items":  {
+                      "169":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Brewmaster",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  40,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Demonologist\".\\n\\nThe Demonologist is a wicked summoner who conjures terrible demons from the depths of hell to aid his creatures in battle. This chaotic sorcerer uses Greater Demons to do his bidding while sacrificing Lesser Demons to empower his own creatures.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationDemonologist.png",
+        "id":  116,
+        "items":  {
+                      "174":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Demonologist",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  35,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Engineer\".\\n\\nThe Engineer\u0027s sole purpose in life is to build a bigger and better explosive than last time. This bombastic bombardier belays bombs to its opponent\u0027s backs, blasting them back to the bilgewater from whence they were born.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationEngineer.png",
+        "id":  117,
+        "items":  {
+                      "175":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Engineer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  36,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Toxicologist\".\\n\\nToxicologists spend their days tarrying away at all manner of potions and elixirs that might serve their use in battle. These mad scientists care little for the well-being of their own creatures, equipping them with venomous toxins that grant them enhanced combat prowess at the cost of their own lives.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationToxicologist.png",
+        "id":  118,
+        "items":  {
+                      "173":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Toxicologist",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  31,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Mime\".\\n\\nWhile the Mime\u0027s own combat prowess leaves much to be desired, it excels at copying its opponent\u0027s actions, turning its enemies\u0027 strategy against them to assure victory.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationMime.png",
+        "id":  119,
+        "items":  {
+                      "171":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Mime",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  32,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Shadowbringer\".\\n\\nThe presence of a Shadowbringer spells doom for all who cross its path. This ethereal being bends the light into darkness, sapping its foes\u0027 will to live from their hearts.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationShadowbringer.png",
+        "id":  120,
+        "items":  {
+                      "172":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Shadowbringer",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  33,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Graveborn\".\\n\\nThe Graveborn is a once-powerful warlock who was killed for his heresy and has since risen from the dead to wreak havoc on the living. This undead spellcaster is capable of bringing his creatures back from the dead with far greater power than before.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationGraveborn.png",
+        "id":  121,
+        "items":  {
+                      "176":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Graveborn",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  34,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Pariah\". This is a Challenge Specialization and will make the game more difficult while you are playing it.\\n\\nThe Pariah is a social outcast who prefers to spend her days in solitude. Though her friends are few, she is resourceful enough to maintain her independence with some success.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationPariah.png",
+        "id":  122,
+        "items":  {
+                      "167":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Pariah",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  37,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Deprived\". This is a Challenge Specialization and will make the game more difficult while you are playing it.\\n\\nThe Deprived was born with nothing and will die with nothing. Cursed with the intelligence of a sponge and the physique of a sickly child, the Deprived must make do with what little fate has left him with.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationDeprived.png",
+        "id":  123,
+        "items":  {
+                      "168":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Deprived",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  38,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "Allows you to take on Nether Synthesis Missions. These are repeatable Projects that reward you with a random Nether Stone.",
+        "graniteCost":  5000,
+        "icon":  "images/project/UnlockMissionNetherSynthesis.png",
+        "id":  124,
+        "items":  {
+                      "92":  5,
+                      "93":  5,
+                      "94":  5,
+                      "95":  5,
+                      "96":  5
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Unlock Mission: Nether Synthesis",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "construction",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  2500,
+        "description":  "After completing this Project, you will receive a random Nether Stone.",
+        "graniteCost":  30000,
+        "icon":  "images/project/NetherSynthesis.png",
+        "id":  125,
+        "items":  {
+
+                  },
+        "monsterPartCost":  12500,
+        "name":  "Nether Synthesis",
+        "notes":  [
+
+                  ],
+        "repeatable":  true,
+        "type":  "mission",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  null,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Mesmerist\".\\n\\nA blade can cut the body, but the mind is far more fragile. The Mesmerist specializes in warping reality itself, putting her enemies to sleep, blinding them, and turning their own senses against them until they no longer know who - or what - they’re fighting.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationMesmerist.png",
+        "id":  126,
+        "items":  {
+                      "178":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Mesmerist",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  42,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Mermaid\".\\n\\nSome creatures are blessed with protectors that guard them from harm no matter the cost. The Mermaid relies on her Benthic Guardian to shield her other creatures from danger, ensuring that her allies can fight without fear while her guardian bears the brunt of the enemy’s fury.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationMermaid.png",
+        "id":  127,
+        "items":  {
+                      "177":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Mermaid",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  41,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    },
+    {
+        "arcaneDustCost":  500,
+        "description":  "After completing this Project, you can change your specialization to \"Antiquarian\".\\n\\nRelics of the past hold secrets lost to time, and the Antiquarian is determined to uncover them all. This eccentric magi studies the ancient artifacts left behind by the gods themselves, empowering her creatures with forgotten blessings that even the gods have long since forsaken.",
+        "graniteCost":  5000,
+        "icon":  "images/project/SpecializationAntiquarian.png",
+        "id":  128,
+        "items":  {
+                      "179":  1
+                  },
+        "monsterPartCost":  2500,
+        "name":  "Specialization: Antiquarian",
+        "notes":  [
+
+                  ],
+        "repeatable":  false,
+        "type":  "special",
+        "unlockedCreature":  null,
+        "unlockedRealm":  null,
+        "unlockedSpecialization":  43,
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
+    }
 ]

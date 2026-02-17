@@ -1,728 +1,926 @@
 [
-  {
-    "description": "Creatures with {CONDNAME_BUFF_PROTECT} take 50% less damage.",
-    "icon": "images/condition/Protected.png",
-    "iconResisted": null,
-    "id": 0,
-    "material": 27,
-    "name": "Protected",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_SAVAGE} creatures have an additional, independent chance to deal critical damage with attacks.",
-    "icon": "images/condition/Savage.png",
-    "iconResisted": null,
-    "id": 1,
-    "material": null,
-    "name": "Savage",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_SPLASH} deal 50% of their damage to enemies adjacent to the target they {ACTION_attack}.",
-    "icon": "images/condition/Splashing.png",
-    "iconResisted": null,
-    "id": 2,
-    "material": 28,
-    "name": "Splashing",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_WARD} cannot lose stats.",
-    "icon": "images/condition/Warded.png",
-    "iconResisted": null,
-    "id": 3,
-    "material": 20,
-    "name": "Warded",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_AGILE} have an additional, independent chance to dodge attacks.",
-    "icon": "images/condition/Agile.png",
-    "iconResisted": null,
-    "id": 4,
-    "material": 25,
-    "name": "Agile",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "When an {CONDNAME_BUFF_ARCANE} creature {ACTION_casts} a spell, the spell does not consume any {STAT_charges}. Then, this buff is removed.",
-    "icon": "images/condition/Arcane.png",
-    "iconResisted": null,
-    "id": 5,
-    "material": 30,
-    "name": "Arcane",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_BARRIER} absorbs a certain amount of damage. After the maximum amount of damage is dealt, the buff is removed. {CONDNAME_BUFF_BARRIER} strength cannot exceed 200% of a creature\u0027s highest stat when this buff is applied.",
-    "icon": "images/condition/Barrier.png",
-    "iconResisted": null,
-    "id": 6,
-    "material": 29,
-    "name": "Barrier",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_PROFICIENT} creatures gain 30% more benefits from their Artifact\u0027s Stat Slots.",
-    "icon": "images/condition/Proficient.png",
-    "iconResisted": null,
-    "id": 7,
-    "material": 33,
-    "name": "Proficient",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_DEFENSIVE} automatically {ACTION_defend} at the end of their turn.",
-    "icon": "images/condition/Defensive.png",
-    "iconResisted": null,
-    "id": 8,
-    "material": 32,
-    "name": "Defensive",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_TAUNT} automatically {ACTION_provoke} at the end of their turn.",
-    "icon": "images/condition/Taunting.png",
-    "iconResisted": null,
-    "id": 9,
-    "material": 26,
-    "name": "Taunting",
-    "notes": [],
-    "reserved": true,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_LEECH} recover {STAT_health} equal to 25% of the damage they deal.",
-    "icon": "images/condition/Leeching.png",
-    "iconResisted": null,
-    "id": 10,
-    "material": 24,
-    "name": "Leeching",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_MEND} recover 30% {STAT_health} at the start of their turn.",
-    "icon": "images/condition/Mending.png",
-    "iconResisted": null,
-    "id": 11,
-    "material": 23,
-    "name": "Mending",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_INVISIBLE} creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action.",
-    "icon": "images/condition/Invisible.png",
-    "iconResisted": null,
-    "id": 12,
-    "material": 22,
-    "name": "Invisible",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_SHELL} negates the next incoming attack or spell.",
-    "icon": "images/condition/Shelled.png",
-    "iconResisted": null,
-    "id": 13,
-    "material": 21,
-    "name": "Shelled",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_BERSERK} creatures deal 50% more damage.",
-    "icon": "images/condition/Berserk.png",
-    "iconResisted": null,
-    "id": 14,
-    "material": null,
-    "name": "Berserk",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_BUFF_REPELLING} creatures have a 50% chance to ignore damage from spells.",
-    "icon": "images/condition/Repelling.png",
-    "iconResisted": null,
-    "id": 15,
-    "material": 31,
-    "name": "Repelling",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_BLIGHT} cannot be healed and take damage from healing effects equal to 50% of the effect.",
-    "icon": "images/condition/Blighted.png",
-    "iconResisted": null,
-    "id": 16,
-    "material": null,
-    "name": "Blighted",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_BLIND} creatures cannot choose their targets when {ACTION_attacking} or {ACTION_casting} single-target spells.",
-    "icon": "images/condition/Blind.png",
-    "iconResisted": null,
-    "id": 17,
-    "material": 36,
-    "name": "Blind",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_BURNED} take damage based on the inflictor\u0027s {STAT_intelligence} each turn.",
-    "icon": "images/condition/Burning.png",
-    "iconResisted": null,
-    "id": 18,
-    "material": 37,
-    "name": "Burning",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_CONFUSED} creatures have a 50% chance to {ACTION_attack} or {ACTION_cast} harmful spells on their allies.",
-    "icon": "images/condition/Confused.png",
-    "iconResisted": null,
-    "id": 19,
-    "material": null,
-    "name": "Confused",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "When creatures with {CONDNAME_DEBUFF_CURSED} deal damage with attacks or spells, they take damage equal to 100% of their target\u0027s {STAT_attack}.",
-    "icon": "images/condition/Cursed.png",
-    "iconResisted": null,
-    "id": 20,
-    "material": 34,
-    "name": "Cursed",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_FROZEN} creatures are unable to act until they thaw, and have a 25% chance to thaw at the start of their turn. This chance doubles after each of their turns.",
-    "icon": "images/condition/Frozen.png",
-    "iconResisted": "images/condition/Frozen_resist.png",
-    "id": 21,
-    "material": null,
-    "name": "Frozen",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_POISON} take damage based on the inflictor\u0027s {STAT_attack} each turn.",
-    "icon": "images/condition/Poisoned.png",
-    "iconResisted": null,
-    "id": 22,
-    "material": null,
-    "name": "Poisoned",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_SCORN} cannot attack. Overwrites {CONDNAME_DEBUFF_SILENCE}.",
-    "icon": "images/condition/Scorned.png",
-    "iconResisted": "images/condition/Scorned_resist.png",
-    "id": 23,
-    "material": null,
-    "name": "Scorned",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_SILENCE} cannot cast spells. Overwrites {CONDNAME_DEBUFF_SCORN}.",
-    "icon": "images/condition/Silenced.png",
-    "iconResisted": "images/condition/Silenced_resist.png",
-    "id": 24,
-    "material": null,
-    "name": "Silenced",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_SLEEP} cannot act until they either take damage or this debuff wears off.",
-    "icon": "images/condition/Sleeping.png",
-    "iconResisted": "images/condition/Sleeping_resist.png",
-    "id": 25,
-    "material": null,
-    "name": "Sleeping",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_SNARED} are stuck at the bottom of the {TIMELINE} until they break free. They have a 10% chance to break free at the start of each creature\u0027s turn.",
-    "icon": "images/condition/Snared.png",
-    "iconResisted": "images/condition/Snared_resist.png",
-    "id": 26,
-    "material": null,
-    "name": "Snared",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_STONE} cannot dodge or deal critical damage.",
-    "icon": "images/condition/Stone.png",
-    "iconResisted": "images/condition/Stone_resist.png",
-    "id": 27,
-    "material": null,
-    "name": "Stone",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_VULNERABLE} creatures take 50% more damage.",
-    "icon": "images/condition/Vulnerable.png",
-    "iconResisted": null,
-    "id": 28,
-    "material": 35,
-    "name": "Vulnerable",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_WEAK} creatures deal 50% less damage.",
-    "icon": "images/condition/Weak.png",
-    "iconResisted": null,
-    "id": 29,
-    "material": null,
-    "name": "Weak",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "At the start of a creature\u0027s turn, its {CONDNAME_DEBUFF_BOMB} detonates, dealing damage to the creature equal to 80% of the afflictor\u0027s {STAT_speed}. Then, this debuff is removed.",
-    "icon": "images/condition/Bomb.png",
-    "iconResisted": null,
-    "id": 30,
-    "material": null,
-    "name": "Bomb",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_DISARMED} creatures lose the benefits from their equipped Artifact, other than {STAT_health}.",
-    "icon": "images/condition/Disarmed.png",
-    "iconResisted": null,
-    "id": 31,
-    "material": null,
-    "name": "Disarmed",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_FEAR} creatures cannot gain stats.",
-    "icon": "images/condition/Feared.png",
-    "iconResisted": null,
-    "id": 32,
-    "material": 51,
-    "name": "Feared",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_BLEED} take damage equal to 30% of their Current {STAT_health} at the start of each turn.",
-    "icon": "images/condition/Bleeding.png",
-    "iconResisted": "images/condition/Bleeding_resist.png",
-    "id": 33,
-    "material": null,
-    "name": "Bleeding",
-    "notes": [],
-    "reserved": false,
-    "type": "debuff"
-  },
-  {
-    "description": "When the {CONDNAME_MINION_ANIMATEDWEAPON}\u0027s master {ACTION_attacks}, it deals additional damage equal to the highest total stat from all of its Artifact\u0027s Stat Slots.",
-    "icon": "images/condition/AnimatedWeapon.png",
-    "iconResisted": null,
-    "id": 35,
-    "material": null,
-    "name": "Animated Weapon",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After {CONDNAME_MINION_CONQUEST}\u0027s master manually {ACTION_casts} a spell, it grants all your creatures a random buff.",
-    "icon": "images/condition/Conquest.png",
-    "iconResisted": null,
-    "id": 36,
-    "material": null,
-    "name": "Conquest",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "At the start of {CONDNAME_MINION_DEATH}\u0027s master\u0027s turn, it has a chance to kill the enemy with the lowest {STAT_health}. The chance is increased based on how low the enemy\u0027s {STAT_health} is.",
-    "icon": "images/condition/Death.png",
-    "iconResisted": null,
-    "id": 37,
-    "material": null,
-    "name": "Death",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After {CONDNAME_MINION_FAMINE}\u0027s master {ACTION_attacks}, it decreases the target\u0027s Maximum {STAT_health} by an amount equal to 30% of the damage dealt.",
-    "icon": "images/condition/Famine.png",
-    "iconResisted": null,
-    "id": 38,
-    "material": null,
-    "name": "Famine",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After {CONDNAME_MINION_WAR}\u0027s master is damaged, it deals damage to the enemy equal to 50% of the damage taken.",
-    "icon": "images/condition/War.png",
-    "iconResisted": null,
-    "id": 39,
-    "material": null,
-    "name": "War",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After the {CONDNAME_MINION_GUARDIANOFSURATHLI}\u0027s master is killed, it is resurrected with 100% {STAT_health} and receives a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Health. Then, this minion disappears.",
-    "icon": "images/condition/GuardianofSurathli.png",
-    "iconResisted": null,
-    "id": 40,
-    "material": null,
-    "name": "Guardian of Surathli",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "This {CONDNAME_MINION_ILLUSION}\u0027s master\u0027s post-action effects (on-attack, on-cast, and so on) activate 2 additional times.",
-    "icon": "images/condition/Illusion.png",
-    "iconResisted": null,
-    "id": 41,
-    "material": null,
-    "name": "Illusion",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "L_CDESC_MINION_INNERDEMONS",
-    "icon": "images/condition/InnerDemons.png",
-    "iconResisted": null,
-    "id": 42,
-    "material": null,
-    "name": "Inner Demons",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "{CONDNAME_MINION_LITTLETORUN} SHOOTS LASERS AND !@#$.",
-    "icon": "images/condition/TorunJunior.png",
-    "iconResisted": null,
-    "id": 43,
-    "material": null,
-    "name": "Torun Junior",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "This minion\u0027s master has 5% more stats for each {CONDNAME_MINION_UNSTABLEHORROR} it has. After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it deals damage to all enemies equal to 10% of its master\u0027s highest stat for each stack of {CONDNAME_MINION_UNSTABLEHORROR} it has. Maximum of 9 stacks.",
-    "icon": "images/condition/UnstableHorror.png",
-    "iconResisted": null,
-    "id": 44,
-    "material": null,
-    "name": "Unstable Horror",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After this minion\u0027s master takes damage from an enemy, each of its {CONDNAME_MINION_SPIDERLING} explode, dealing damage to the enemy equal to 50% of the master\u0027s Current {STAT_health}. Maximum of 9 stacks.",
-    "icon": "images/condition/Spiderlings.png",
-    "iconResisted": null,
-    "id": 45,
-    "material": null,
-    "name": "Spiderlings",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After this minion\u0027s master takes damage from an attack or spell, each {CONDNAME_MINION_WRITHELING} afflicts a random enemy with a random debuff. Maximum of 5 stacks.",
-    "icon": "images/condition/Writhelings.png",
-    "iconResisted": null,
-    "id": 46,
-    "material": null,
-    "name": "Writhelings",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "At the start of this minion\u0027s master\u0027s turn, each {CONDNAME_MINION_ZOMBIE} deals damage to a random enemy equal to 50% of its {STAT_attack}. Maximum of 9 stacks.",
-    "icon": "images/condition/Zombies.png",
-    "iconResisted": null,
-    "id": 47,
-    "material": null,
-    "name": "Zombies",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After this minion\u0027s master attacks, each {CONDNAME_MINION_DIREWOLF} deals damage to the target equal to 30% of its {STAT_speed}. Maximum of 5 stacks.",
-    "icon": "images/condition/DireWolves.png",
-    "iconResisted": null,
-    "id": 48,
-    "material": null,
-    "name": "Dire Wolves",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "The {CONDNAME_MINION_DOPPELGANGER}\u0027s master has a 25% chance to take an extra turn.",
-    "icon": "images/condition/Doppelganger.png",
-    "iconResisted": null,
-    "id": 49,
-    "material": null,
-    "name": "Doppelganger",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "After the {CONDNAME_MINION_ANIMATEDGEM}\u0027s master manually {ACTION_casts} a spell, this minion {ACTION_casts} one of its master\u0027s Spell Gems as well, chosen randomly.",
-    "icon": "images/condition/AnimatedGem.png",
-    "iconResisted": null,
-    "id": 50,
-    "material": null,
-    "name": "Animated Gem",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_IMMUNITY} can\u0027t be afflicted with debuffs.",
-    "icon": "images/condition/Immune.png",
-    "iconResisted": null,
-    "id": 51,
-    "material": 52,
-    "name": "Immune",
-    "notes": [],
-    "reserved": true,
-    "type": "buff"
-  },
-  {
-    "description": "Creatures with {CONDNAME_BUFF_REBIRTH} are resurrected with 50% {STAT_health} when they die.",
-    "icon": "images/condition/Rebirth.png",
-    "iconResisted": null,
-    "id": 52,
-    "material": null,
-    "name": "Rebirth",
-    "notes": [],
-    "reserved": false,
-    "type": "buff"
-  },
-  {
-    "description": "{CONDNAME_DEBUFF_INVERTED} creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency.",
-    "icon": "images/condition/Inverted.png",
-    "iconResisted": null,
-    "id": 53,
-    "material": null,
-    "name": "Inverted",
-    "notes": [],
-    "reserved": true,
-    "type": "debuff"
-  },
-  {
-    "description": "After the {CONDNAME_MINION_AMALGAMATION}\u0027s master deals damage with an attack or spell, this minion deals damage to a random enemy equal to 5% of its master\u0027s highest stat multiplied by the number of minions it has.",
-    "icon": "images/condition/Amalgamation.png",
-    "iconResisted": null,
-    "id": 54,
-    "material": null,
-    "name": "Amalgamation",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "At the end of this minion\u0027s master\u0027s turn, each {CONDNAME_MINION_MICROBOT} deals damage to a random enemy equal to 50% of its {STAT_intelligence}. Maximum of 9 stacks.",
-    "icon": "images/condition/Microbots.png",
-    "iconResisted": null,
-    "id": 55,
-    "material": null,
-    "name": "Microbots",
-    "notes": [],
-    "reserved": false,
-    "type": "minion"
-  },
-  {
-    "description": "When {CONDNAME_MINION_MAMMON}\u0027s master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon.",
-    "icon": "images/condition/Mammon.png",
-    "iconResisted": null,
-    "id": 56,
-    "material": null,
-    "name": "Mammon",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "When {CONDNAME_MINION_LEVIATHAN}\u0027s master kills an enemy, it gains 5 stacks of each Lesser Demon. This minion is a Greater Demon.",
-    "icon": "images/condition/Leviathan.png",
-    "iconResisted": null,
-    "id": 57,
-    "material": null,
-    "name": "Leviathan",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "When {CONDNAME_MINION_BEELZEBUB}\u0027s master kills an enemy, it gains a random Greater Demon. This minion is a Greater Demon.",
-    "icon": "images/condition/Beelzebub.png",
-    "iconResisted": null,
-    "id": 58,
-    "material": null,
-    "name": "Beelzebub",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "When {CONDNAME_MINION_BELPHEGOR}\u0027s master {ACTION_casts} a single-target spell, it targets all the creatures fighting on the target\u0027s side. This minion is a Greater Demon.",
-    "icon": "images/condition/Belphegor.png",
-    "iconResisted": null,
-    "id": 59,
-    "material": null,
-    "name": "Belphegor",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "When {CONDNAME_MINION_ASMODEUS}\u0027 master {ACTION_attacks}, it always deals critical damage, cannot be dodged, and damages all other enemies for 50% less damage. This minion is a Greater Demon.",
-    "icon": "images/condition/Asmodeus.png",
-    "iconResisted": null,
-    "id": 60,
-    "material": null,
-    "name": "Asmodeus",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "At the end of {CONDNAME_MINION_SATANACHIA}\u0027s master\u0027s turn, it {ACTION_casts} the last 3 spells creatures {ACTION_cast} in the current battle. This minion is a Greater Demon.",
-    "icon": "images/condition/Satanachia.png",
-    "iconResisted": null,
-    "id": 61,
-    "material": null,
-    "name": "Satanachia",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "At the start of {CONDNAME_MINION_LUCIFER}\u0027s master\u0027s turn, it {ACTION_attacks} random enemies 3 times. This minion is a Greater Demon.",
-    "icon": "images/condition/Lucifer.png",
-    "iconResisted": null,
-    "id": 62,
-    "material": null,
-    "name": "Lucifer",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "When this minion\u0027s master {ACTION_attacks}, it sacrifices each {CONDNAME_MINION_BRIMFIEND} to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
-    "icon": "images/condition/BrimFiends.png",
-    "iconResisted": null,
-    "id": 63,
-    "material": null,
-    "name": "Brim Fiends",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "When this minion\u0027s master {ACTION_casts} a spell, it sacrifices each {CONDNAME_MINION_FIREIMP} to increase its potency by 30% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
-    "icon": "images/condition/FireImps.png",
-    "iconResisted": null,
-    "id": 64,
-    "material": null,
-    "name": "Fire Imps",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it sacrifices each {CONDNAME_MINION_CHAOSSATYR} to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
-    "icon": "images/condition/ChaosSatyrs.png",
-    "iconResisted": null,
-    "id": 65,
-    "material": null,
-    "name": "Chaos Satyrs",
-    "notes": [],
-    "reserved": true,
-    "type": "minion"
-  },
-  {
-    "description": "Creatures with {CONDNAME_DEBUFF_MANIA} take damage at the end of their turn equal to 3% of the {STAT_health} all creatures had recovered when this debuff was applied.",
-    "icon": "images/condition/Mania.png",
-    "iconResisted": null,
-    "id": 66,
-    "material": null,
-    "name": "Mania",
-    "notes": [],
-    "reserved": true,
-    "type": "debuff"
-  }
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_PROTECT} take 50% less damage.",
+        "icon":  "images/condition/Protected.png",
+        "iconResisted":  null,
+        "id":  0,
+        "material":  27,
+        "name":  "Protected",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_SAVAGE} creatures have an additional, independent chance to deal critical damage with attacks.",
+        "icon":  "images/condition/Savage.png",
+        "iconResisted":  null,
+        "id":  1,
+        "material":  null,
+        "name":  "Savage",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_SPLASH} deal 50% of their damage to enemies adjacent to the target they {ACTION_attack}.",
+        "icon":  "images/condition/Splashing.png",
+        "iconResisted":  null,
+        "id":  2,
+        "material":  28,
+        "name":  "Splashing",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_WARD} cannot lose stats.",
+        "icon":  "images/condition/Warded.png",
+        "iconResisted":  null,
+        "id":  3,
+        "material":  20,
+        "name":  "Warded",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_AGILE} have an additional, independent chance to dodge attacks.",
+        "icon":  "images/condition/Agile.png",
+        "iconResisted":  null,
+        "id":  4,
+        "material":  25,
+        "name":  "Agile",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When an {CONDNAME_BUFF_ARCANE} creature {ACTION_casts} a spell, the spell does not consume any {STAT_charges}. Then, this buff is removed.",
+        "icon":  "images/condition/Arcane.png",
+        "iconResisted":  null,
+        "id":  5,
+        "material":  30,
+        "name":  "Arcane",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_BARRIER} absorbs a certain amount of damage. After the maximum amount of damage is dealt, the buff is removed. {CONDNAME_BUFF_BARRIER} strength cannot exceed 200% of a creature\u0027s highest stat when this buff is applied.",
+        "icon":  "images/condition/Barrier.png",
+        "iconResisted":  null,
+        "id":  6,
+        "material":  29,
+        "name":  "Barrier",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_PROFICIENT} creatures gain 30% more benefits from their Artifact\u0027s Stat Slots.",
+        "icon":  "images/condition/Proficient.png",
+        "iconResisted":  null,
+        "id":  7,
+        "material":  33,
+        "name":  "Proficient",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_DEFENSIVE} automatically {ACTION_defend} at the end of their turn.",
+        "icon":  "images/condition/Defensive.png",
+        "iconResisted":  null,
+        "id":  8,
+        "material":  32,
+        "name":  "Defensive",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_TAUNT} automatically {ACTION_provoke} at the end of their turn.",
+        "icon":  "images/condition/Taunting.png",
+        "iconResisted":  null,
+        "id":  9,
+        "material":  26,
+        "name":  "Taunting",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_LEECH} recover {STAT_health} equal to 25% of the damage they deal.",
+        "icon":  "images/condition/Leeching.png",
+        "iconResisted":  null,
+        "id":  10,
+        "material":  24,
+        "name":  "Leeching",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_MEND} recover 30% {STAT_health} at the start of their turn.",
+        "icon":  "images/condition/Mending.png",
+        "iconResisted":  null,
+        "id":  11,
+        "material":  23,
+        "name":  "Mending",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_INVISIBLE} creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action.",
+        "icon":  "images/condition/Invisible.png",
+        "iconResisted":  null,
+        "id":  12,
+        "material":  22,
+        "name":  "Invisible",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_SHELL} negates the next incoming attack or spell.",
+        "icon":  "images/condition/Shelled.png",
+        "iconResisted":  null,
+        "id":  13,
+        "material":  21,
+        "name":  "Shelled",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_BERSERK} creatures deal 50% more damage.",
+        "icon":  "images/condition/Berserk.png",
+        "iconResisted":  null,
+        "id":  14,
+        "material":  null,
+        "name":  "Berserk",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_BUFF_REPELLING} creatures have a 50% chance to ignore damage from spells.",
+        "icon":  "images/condition/Repelling.png",
+        "iconResisted":  null,
+        "id":  15,
+        "material":  31,
+        "name":  "Repelling",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_BLIGHT} cannot be healed and take damage from healing effects equal to 50% of the effect.",
+        "icon":  "images/condition/Blighted.png",
+        "iconResisted":  null,
+        "id":  16,
+        "material":  null,
+        "name":  "Blighted",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_BLIND} creatures cannot choose their targets when {ACTION_attacking} or {ACTION_casting} single-target spells.",
+        "icon":  "images/condition/Blind.png",
+        "iconResisted":  null,
+        "id":  17,
+        "material":  36,
+        "name":  "Blind",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_BURNED} take damage based on the inflictor\u0027s {STAT_intelligence} each turn.",
+        "icon":  "images/condition/Burning.png",
+        "iconResisted":  null,
+        "id":  18,
+        "material":  37,
+        "name":  "Burning",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_CONFUSED} creatures have a 50% chance to {ACTION_attack} or {ACTION_cast} harmful spells on their allies.",
+        "icon":  "images/condition/Confused.png",
+        "iconResisted":  null,
+        "id":  19,
+        "material":  null,
+        "name":  "Confused",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When creatures with {CONDNAME_DEBUFF_CURSED} deal damage with attacks or spells, they take damage equal to 100% of their target\u0027s {STAT_attack}.",
+        "icon":  "images/condition/Cursed.png",
+        "iconResisted":  null,
+        "id":  20,
+        "material":  34,
+        "name":  "Cursed",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_FROZEN} creatures are unable to act until they thaw, and have a 25% chance to thaw at the start of their turn. This chance doubles after each of their turns.",
+        "icon":  "images/condition/Frozen.png",
+        "iconResisted":  "images/condition/Frozen_resist.png",
+        "id":  21,
+        "material":  null,
+        "name":  "Frozen",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_POISON} take damage based on the inflictor\u0027s {STAT_attack} each turn.",
+        "icon":  "images/condition/Poisoned.png",
+        "iconResisted":  null,
+        "id":  22,
+        "material":  null,
+        "name":  "Poisoned",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_SCORN} cannot attack. Overwrites {CONDNAME_DEBUFF_SILENCE}.",
+        "icon":  "images/condition/Scorned.png",
+        "iconResisted":  "images/condition/Scorned_resist.png",
+        "id":  23,
+        "material":  null,
+        "name":  "Scorned",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_SILENCE} cannot cast spells. Overwrites {CONDNAME_DEBUFF_SCORN}.",
+        "icon":  "images/condition/Silenced.png",
+        "iconResisted":  "images/condition/Silenced_resist.png",
+        "id":  24,
+        "material":  null,
+        "name":  "Silenced",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_SLEEP} cannot act until they either take damage or this debuff wears off.",
+        "icon":  "images/condition/Sleeping.png",
+        "iconResisted":  "images/condition/Sleeping_resist.png",
+        "id":  25,
+        "material":  null,
+        "name":  "Sleeping",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_SNARED} are stuck at the bottom of the Timeline until they break free. They have a 10% chance to break free at the start of each creature\u0027s turn.",
+        "icon":  "images/condition/Snared.png",
+        "iconResisted":  "images/condition/Snared_resist.png",
+        "id":  26,
+        "material":  null,
+        "name":  "Snared",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_STONE} cannot dodge or deal critical damage.",
+        "icon":  "images/condition/Stone.png",
+        "iconResisted":  "images/condition/Stone_resist.png",
+        "id":  27,
+        "material":  null,
+        "name":  "Stone",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_VULNERABLE} creatures take 50% more damage.",
+        "icon":  "images/condition/Vulnerable.png",
+        "iconResisted":  null,
+        "id":  28,
+        "material":  35,
+        "name":  "Vulnerable",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_WEAK} creatures deal 50% less damage.",
+        "icon":  "images/condition/Weak.png",
+        "iconResisted":  null,
+        "id":  29,
+        "material":  null,
+        "name":  "Weak",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "At the start of a creature\u0027s turn, its {CONDNAME_DEBUFF_BOMB} detonates, dealing damage to the creature equal to 80% of the afflictor\u0027s {STAT_speed}. Then, this debuff is removed.",
+        "icon":  "images/condition/Bomb.png",
+        "iconResisted":  null,
+        "id":  30,
+        "material":  null,
+        "name":  "Bomb",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_DISARMED} creatures lose the benefits from their equipped Artifact, other than {STAT_health}.",
+        "icon":  "images/condition/Disarmed.png",
+        "iconResisted":  null,
+        "id":  31,
+        "material":  null,
+        "name":  "Disarmed",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_FEAR} creatures cannot gain stats.",
+        "icon":  "images/condition/Feared.png",
+        "iconResisted":  null,
+        "id":  32,
+        "material":  51,
+        "name":  "Feared",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_BLEED} take damage equal to 30% of their Current {STAT_health} at the start of each turn.",
+        "icon":  "images/condition/Bleeding.png",
+        "iconResisted":  "images/condition/Bleeding_resist.png",
+        "id":  33,
+        "material":  null,
+        "name":  "Bleeding",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When the {CONDNAME_MINION_ANIMATEDWEAPON}\u0027s master {ACTION_attacks}, it deals additional damage equal to the highest total stat from all of its Artifact\u0027s Stat Slots.",
+        "icon":  "images/condition/AnimatedWeapon.png",
+        "iconResisted":  null,
+        "id":  35,
+        "material":  null,
+        "name":  "Animated Weapon",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After {CONDNAME_MINION_CONQUEST}\u0027s master manually {ACTION_casts} a spell, it grants all your creatures a random buff.",
+        "icon":  "images/condition/Conquest.png",
+        "iconResisted":  null,
+        "id":  36,
+        "material":  null,
+        "name":  "Conquest",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "At the start of {CONDNAME_MINION_DEATH}\u0027s master\u0027s turn, it has a chance to kill the enemy with the lowest {STAT_health}. The chance is increased based on how low the enemy\u0027s {STAT_health} is.",
+        "icon":  "images/condition/Death.png",
+        "iconResisted":  null,
+        "id":  37,
+        "material":  null,
+        "name":  "Death",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After {CONDNAME_MINION_FAMINE}\u0027s master {ACTION_attacks}, it decreases the target\u0027s Maximum {STAT_health} by an amount equal to 30% of the damage dealt.",
+        "icon":  "images/condition/Famine.png",
+        "iconResisted":  null,
+        "id":  38,
+        "material":  null,
+        "name":  "Famine",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After {CONDNAME_MINION_WAR}\u0027s master is damaged, it deals damage to the enemy equal to 50% of the damage taken.",
+        "icon":  "images/condition/War.png",
+        "iconResisted":  null,
+        "id":  39,
+        "material":  null,
+        "name":  "War",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After the {CONDNAME_MINION_GUARDIANOFSURATHLI}\u0027s master is killed, it is resurrected with 100% {STAT_health} and receives a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Health. Then, this minion disappears.",
+        "icon":  "images/condition/GuardianofSurathli.png",
+        "iconResisted":  null,
+        "id":  40,
+        "material":  null,
+        "name":  "Guardian of Surathli",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "This {CONDNAME_MINION_ILLUSION}\u0027s master\u0027s post-action effects (on-attack, on-cast, and so on) activate 2 additional times.",
+        "icon":  "images/condition/Illusion.png",
+        "iconResisted":  null,
+        "id":  41,
+        "material":  null,
+        "name":  "Illusion",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "L_CDESC_MINION_INNERDEMONS",
+        "icon":  "images/condition/InnerDemons.png",
+        "iconResisted":  null,
+        "id":  42,
+        "material":  null,
+        "name":  "Inner Demons",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_MINION_LITTLETORUN} SHOOTS LASERS AND !@#$.",
+        "icon":  "images/condition/TorunJunior.png",
+        "iconResisted":  null,
+        "id":  43,
+        "material":  null,
+        "name":  "Torun Junior",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "This minion\u0027s master has 5% more stats for each {CONDNAME_MINION_UNSTABLEHORROR} it has. After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it deals damage to all enemies equal to 10% of its master\u0027s highest stat for each stack of {CONDNAME_MINION_UNSTABLEHORROR} it has. Maximum of 9 stacks.",
+        "icon":  "images/condition/UnstableHorror.png",
+        "iconResisted":  null,
+        "id":  44,
+        "material":  null,
+        "name":  "Unstable Horror",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After this minion\u0027s master takes damage from an enemy, each of its {CONDNAME_MINION_SPIDERLING} explode, dealing damage to the enemy equal to 50% of the master\u0027s Current {STAT_health}. Maximum of 9 stacks.",
+        "icon":  "images/condition/Spiderlings.png",
+        "iconResisted":  null,
+        "id":  45,
+        "material":  null,
+        "name":  "Spiderlings",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After this minion\u0027s master takes damage from an attack or spell, each {CONDNAME_MINION_WRITHELING} afflicts a random enemy with a random debuff. Maximum of 5 stacks.",
+        "icon":  "images/condition/Writhelings.png",
+        "iconResisted":  null,
+        "id":  46,
+        "material":  null,
+        "name":  "Writhelings",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "At the start of this minion\u0027s master\u0027s turn, each {CONDNAME_MINION_ZOMBIE} deals damage to a random enemy equal to 50% of its {STAT_attack}. Maximum of 9 stacks.",
+        "icon":  "images/condition/Zombies.png",
+        "iconResisted":  null,
+        "id":  47,
+        "material":  null,
+        "name":  "Zombies",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After this minion\u0027s master attacks, each {CONDNAME_MINION_DIREWOLF} deals damage to the target equal to 30% of its {STAT_speed}. Maximum of 5 stacks.",
+        "icon":  "images/condition/DireWolves.png",
+        "iconResisted":  null,
+        "id":  48,
+        "material":  null,
+        "name":  "Dire Wolves",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "The {CONDNAME_MINION_DOPPELGANGER}\u0027s master has a 25% chance to take an extra turn.",
+        "icon":  "images/condition/Doppelganger.png",
+        "iconResisted":  null,
+        "id":  49,
+        "material":  null,
+        "name":  "Doppelganger",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After the {CONDNAME_MINION_ANIMATEDGEM}\u0027s master manually {ACTION_casts} a spell, this minion {ACTION_casts} one of its master\u0027s Spell Gems as well, chosen randomly.",
+        "icon":  "images/condition/AnimatedGem.png",
+        "iconResisted":  null,
+        "id":  50,
+        "material":  null,
+        "name":  "Animated Gem",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_IMMUNITY} can\u0027t be afflicted with debuffs.",
+        "icon":  "images/condition/Immune.png",
+        "iconResisted":  null,
+        "id":  51,
+        "material":  52,
+        "name":  "Immune",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_BUFF_REBIRTH} are resurrected with 50% {STAT_health} when they die.",
+        "icon":  "images/condition/Rebirth.png",
+        "iconResisted":  null,
+        "id":  52,
+        "material":  null,
+        "name":  "Rebirth",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "buff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "{CONDNAME_DEBUFF_INVERTED} creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency.",
+        "icon":  "images/condition/Inverted.png",
+        "iconResisted":  null,
+        "id":  53,
+        "material":  null,
+        "name":  "Inverted",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After the {CONDNAME_MINION_AMALGAMATION}\u0027s master deals damage with an attack or spell, this minion deals damage to a random enemy equal to 5% of its master\u0027s highest stat multiplied by the number of minions it has.",
+        "icon":  "images/condition/Amalgamation.png",
+        "iconResisted":  null,
+        "id":  54,
+        "material":  null,
+        "name":  "Amalgamation",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "At the end of this minion\u0027s master\u0027s turn, each {CONDNAME_MINION_MICROBOT} deals damage to a random enemy equal to 50% of its {STAT_intelligence}. Maximum of 9 stacks.",
+        "icon":  "images/condition/Microbots.png",
+        "iconResisted":  null,
+        "id":  55,
+        "material":  null,
+        "name":  "Microbots",
+        "notes":  [
+
+                  ],
+        "reserved":  false,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When {CONDNAME_MINION_MAMMON}\u0027s master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon.",
+        "icon":  "images/condition/Mammon.png",
+        "iconResisted":  null,
+        "id":  56,
+        "material":  null,
+        "name":  "Mammon",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When {CONDNAME_MINION_LEVIATHAN}\u0027s master kills an enemy, it gains 5 stacks of each Lesser Demon. This minion is a Greater Demon.",
+        "icon":  "images/condition/Leviathan.png",
+        "iconResisted":  null,
+        "id":  57,
+        "material":  null,
+        "name":  "Leviathan",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When {CONDNAME_MINION_BEELZEBUB}\u0027s master kills an enemy, it gains a random Greater Demon. This minion is a Greater Demon.",
+        "icon":  "images/condition/Beelzebub.png",
+        "iconResisted":  null,
+        "id":  58,
+        "material":  null,
+        "name":  "Beelzebub",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When {CONDNAME_MINION_BELPHEGOR}\u0027s master {ACTION_casts} a single-target spell, it targets all the creatures fighting on the target\u0027s side. This minion is a Greater Demon.",
+        "icon":  "images/condition/Belphegor.png",
+        "iconResisted":  null,
+        "id":  59,
+        "material":  null,
+        "name":  "Belphegor",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When {CONDNAME_MINION_ASMODEUS}\u0027 master {ACTION_attacks}, it always deals critical damage, cannot be dodged, and damages all other enemies for 50% less damage. This minion is a Greater Demon.",
+        "icon":  "images/condition/Asmodeus.png",
+        "iconResisted":  null,
+        "id":  60,
+        "material":  null,
+        "name":  "Asmodeus",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "At the end of {CONDNAME_MINION_SATANACHIA}\u0027s master\u0027s turn, it {ACTION_casts} the last 3 spells creatures {ACTION_cast} in the current battle. This minion is a Greater Demon.",
+        "icon":  "images/condition/Satanachia.png",
+        "iconResisted":  null,
+        "id":  61,
+        "material":  null,
+        "name":  "Satanachia",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "At the start of {CONDNAME_MINION_LUCIFER}\u0027s master\u0027s turn, it {ACTION_attacks} random enemies 3 times. This minion is a Greater Demon.",
+        "icon":  "images/condition/Lucifer.png",
+        "iconResisted":  null,
+        "id":  62,
+        "material":  null,
+        "name":  "Lucifer",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When this minion\u0027s master {ACTION_attacks}, it sacrifices each {CONDNAME_MINION_BRIMFIEND} to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+        "icon":  "images/condition/BrimFiends.png",
+        "iconResisted":  null,
+        "id":  63,
+        "material":  null,
+        "name":  "Brim Fiends",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "When this minion\u0027s master {ACTION_casts} a spell, it sacrifices each {CONDNAME_MINION_FIREIMP} to increase its potency by 30% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+        "icon":  "images/condition/FireImps.png",
+        "iconResisted":  null,
+        "id":  64,
+        "material":  null,
+        "name":  "Fire Imps",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it sacrifices each {CONDNAME_MINION_CHAOSSATYR} to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+        "icon":  "images/condition/ChaosSatyrs.png",
+        "iconResisted":  null,
+        "id":  65,
+        "material":  null,
+        "name":  "Chaos Satyrs",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "minion",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    },
+    {
+        "description":  "Creatures with {CONDNAME_DEBUFF_MANIA} take damage at the end of their turn equal to 3% of the {STAT_health} all creatures had recovered when this debuff was applied.",
+        "icon":  "images/condition/Mania.png",
+        "iconResisted":  null,
+        "id":  66,
+        "material":  null,
+        "name":  "Mania",
+        "notes":  [
+
+                  ],
+        "reserved":  true,
+        "type":  "debuff",
+        "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
+    }
 ]
