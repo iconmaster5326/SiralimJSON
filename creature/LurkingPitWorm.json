@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/LurkingPitWorm/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 639,
-  "item": 850,
-  "lore": "When the Lurking Pit Worm chooses a victim, it does not stop until it is devoured. Unlike the rest of its kind, this creature attacks even the most populated cities. It may choose a traveler on the road, a woodcutter in the forest, a fisherman in the river. It follows the vibrations of their steps to their home. Then, in the darkness of the night, when all movements have stopped, the Lurking Pit Worm slowly emerges from the ground in its prey\u0027s bedroom and swallows them whole.",
-  "menagerieDialog": [
-    "(Doesn\u0027t it ever stop drooling? Disgusting.)",
-    "(It never stops wriggling. Frankly, its mannerisms are a bit disconcerting.)",
-    "(One benefit of having this creature around is that you never need to worry about disposing of corpses.)",
-    "(It\u0027s making a disgusting noise with its mouth, not unlike a dog eating oatmeal.)",
-    "(It insists on making disgusting sucking noises with its mouth.)"
-  ],
-  "minDepth": 1,
-  "name": "Lurking Pit Worm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LurkingPitWorm/overworld_e0.png",
-      "images/creature/LurkingPitWorm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LurkingPitWorm/overworld_n0.png",
-      "images/creature/LurkingPitWorm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LurkingPitWorm/overworld_s0.png",
-      "images/creature/LurkingPitWorm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LurkingPitWorm/overworld_w0.png",
-      "images/creature/LurkingPitWorm/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Worm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 39,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 877
+    "battleSprite":  "images/creature/LurkingPitWorm/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  639,
+    "item":  850,
+    "lore":  "When the Lurking Pit Worm chooses a victim, it does not stop until it is devoured. Unlike the rest of its kind, this creature attacks even the most populated cities. It may choose a traveler on the road, a woodcutter in the forest, a fisherman in the river. It follows the vibrations of their steps to their home. Then, in the darkness of the night, when all movements have stopped, the Lurking Pit Worm slowly emerges from the ground in its prey\u0027s bedroom and swallows them whole.",
+    "menagerieDialog":  [
+                            "(Doesn\u0027t it ever stop drooling? Disgusting.)",
+                            "(It never stops wriggling. Frankly, its mannerisms are a bit disconcerting.)",
+                            "(One benefit of having this creature around is that you never need to worry about disposing of corpses.)",
+                            "(It\u0027s making a disgusting noise with its mouth, not unlike a dog eating oatmeal.)",
+                            "(It insists on making disgusting sucking noises with its mouth.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Lurking Pit Worm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LurkingPitWorm/overworld_e0.png",
+                                         "images/creature/LurkingPitWorm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LurkingPitWorm/overworld_n0.png",
+                                          "images/creature/LurkingPitWorm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LurkingPitWorm/overworld_s0.png",
+                                          "images/creature/LurkingPitWorm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LurkingPitWorm/overworld_w0.png",
+                                         "images/creature/LurkingPitWorm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Worm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  39,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  877,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

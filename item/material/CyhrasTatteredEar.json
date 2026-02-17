@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCyhra\u0027s Adamance:\nYour creatures deal 50% more damage for each time they\u0027ve been resurrected in the current battle. This trait does not stack.",
-  "icon": "images/item/material/CyhrasTatteredEar.png",
-  "id": 645,
-  "name": "Cyhra\u0027s Tattered Ear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 956
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCyhra\u0027s Adamance:\nYour creatures deal 50% more damage for each time they\u0027ve been resurrected in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/CyhrasTatteredEar.png",
+    "id":  645,
+    "name":  "Cyhra\u0027s Tattered Ear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  956,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

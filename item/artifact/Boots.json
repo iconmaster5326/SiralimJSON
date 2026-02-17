@@ -1,15 +1,18 @@
 {
-  "description": "[slot_stat] {1}% Speed\n",
-  "icons": [
-    "images/item/artifact/Boots_t0.png",
-    "images/item/artifact/Boots_t1.png",
-    "images/item/artifact/Boots_t2.png",
-    "images/item/artifact/Boots_t3.png",
-    "images/item/artifact/Boots_t4.png",
-    "images/item/artifact/Boots_t5.png"
-  ],
-  "id": 0,
-  "name": "Boots",
-  "notes": [],
-  "stat": "speed"
+    "description":  "[slot_stat] {1}% Speed\n",
+    "icons":  [
+                  "images/item/artifact/Boots_t0.png",
+                  "images/item/artifact/Boots_t1.png",
+                  "images/item/artifact/Boots_t2.png",
+                  "images/item/artifact/Boots_t3.png",
+                  "images/item/artifact/Boots_t4.png",
+                  "images/item/artifact/Boots_t5.png"
+              ],
+    "id":  0,
+    "name":  "Boots",
+    "notes":  [
+
+              ],
+    "stat":  "speed",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/artifactItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeize:\nAfter an enemy dodges, this creature afflicts it with {CONDNAME_DEBUFF_STONE} and {CONDNAME_DEBUFF_SNARED}.",
-  "icon": "images/item/material/VitalFinger.png",
-  "id": 360,
-  "name": "Vital Finger",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 276
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeize:\nAfter an enemy dodges, this creature afflicts it with {CONDNAME_DEBUFF_STONE} and {CONDNAME_DEBUFF_SNARED}.",
+    "icon":  "images/item/material/VitalFinger.png",
+    "id":  360,
+    "name":  "Vital Finger",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  276,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCyhra\u0027s Resilience:\nYour creatures take 15% less damage for each dead ally. This trait does not stack.",
-  "icon": "images/item/material/CyhrasBrokenWhiskers.png",
-  "id": 918,
-  "name": "Cyhra\u0027s Broken Whiskers",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 954
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCyhra\u0027s Resilience:\nYour creatures take 15% less damage for each dead ally. This trait does not stack.",
+    "icon":  "images/item/material/CyhrasBrokenWhiskers.png",
+    "id":  918,
+    "name":  "Cyhra\u0027s Broken Whiskers",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  954,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

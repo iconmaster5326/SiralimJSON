@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WarClockwork/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1182,
-  "item": 1562,
-  "lore": "The Magic University of Vanelin recently developed a project with a group of engineers from Kiaces that finally allowed access to Damarel. They quickly realized that the Clockworks weren\u0027t exactly happy to see creatures from outside.\\n\\nIf anyone could have seen Damarel a year before, they might have thought both War and Battle Clockworks were mere ornaments... or warriors waiting for battle to begin. With the arrival of outsiders, War Clockworks have begun to move and can be found throughout the realm of the God of Falsity, ensuring that nothing interferes with the activities of other Clockworks.",
-  "menagerieDialog": [
-    "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
-    "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
-    "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
-    "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
-    "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
-  ],
-  "minDepth": 1,
-  "name": "War Clockwork",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WarClockwork/overworld_e0.png",
-      "images/creature/WarClockwork/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WarClockwork/overworld_n0.png",
-      "images/creature/WarClockwork/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WarClockwork/overworld_s0.png",
-      "images/creature/WarClockwork/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WarClockwork/overworld_w0.png",
-      "images/creature/WarClockwork/overworld_w1.png"
-    ]
-  },
-  "race": "Clockwork",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 18,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 18
-  },
-  "trait": 1905
+    "battleSprite":  "images/creature/WarClockwork/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1182,
+    "item":  1562,
+    "lore":  "The Magic University of Vanelin recently developed a project with a group of engineers from Kiaces that finally allowed access to Damarel. They quickly realized that the Clockworks weren\u0027t exactly happy to see creatures from outside.\\n\\nIf anyone could have seen Damarel a year before, they might have thought both War and Battle Clockworks were mere ornaments... or warriors waiting for battle to begin. With the arrival of outsiders, War Clockworks have begun to move and can be found throughout the realm of the God of Falsity, ensuring that nothing interferes with the activities of other Clockworks.",
+    "menagerieDialog":  [
+                            "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
+                            "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
+                            "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
+                            "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
+                            "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "War Clockwork",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WarClockwork/overworld_e0.png",
+                                         "images/creature/WarClockwork/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WarClockwork/overworld_n0.png",
+                                          "images/creature/WarClockwork/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WarClockwork/overworld_s0.png",
+                                          "images/creature/WarClockwork/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WarClockwork/overworld_w0.png",
+                                         "images/creature/WarClockwork/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clockwork",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  18,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  18
+                   },
+    "trait":  1905,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/SingularTenbran/battle.png",
-  "creator": null,
-  "creature": 801,
-  "id": 169,
-  "name": "Singular Tenbran",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SingularTenbran/overworld_e0.png",
-      "images/skin/SingularTenbran/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SingularTenbran/overworld_n0.png",
-      "images/skin/SingularTenbran/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SingularTenbran/overworld_s0.png",
-      "images/skin/SingularTenbran/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SingularTenbran/overworld_w0.png",
-      "images/skin/SingularTenbran/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/SingularTenbran/battle.png",
+    "creator":  null,
+    "creature":  801,
+    "id":  169,
+    "name":  "Singular Tenbran",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SingularTenbran/overworld_e0.png",
+                                         "images/skin/SingularTenbran/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SingularTenbran/overworld_n0.png",
+                                          "images/skin/SingularTenbran/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SingularTenbran/overworld_s0.png",
+                                          "images/skin/SingularTenbran/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SingularTenbran/overworld_w0.png",
+                                         "images/skin/SingularTenbran/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

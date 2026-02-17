@@ -1,38 +1,41 @@
 {
-  "bossDialog": [
-    "I shall not be your adjudicator this day, traveler; your trials yet continue. Even so, I shall test your worthiness.",
-    "Ruler of {CASTLENAME}, the charges leveled against you are most grave. I pronounce you guilty, and hereby sentence you to death!",
-    "You are untested. I challenge you - trial by combat. Prove the worth of your existence."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have a 3% chance to ignore incoming debuffs.",
-    "4": "Your creatures have a 3% chance to ignore incoming debuffs.",
-    "6": "Your creatures have a 3% chance to ignore incoming debuffs."
-  },
-  "cards": 6,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    1183,
-    1184,
-    1185,
-    1186,
-    1187,
-    1188
-  ],
-  "icon": "images/race/Arbiter.png",
-  "master": {
-    "costume": 673,
-    "dialog": "Arbiters emit powerful auras that strengthen their allies in battle. If you wish to stand a chance against me, you\u0027ll need to pick off my Arbiters one at a time. Let\u0027s fight!",
-    "item": 1494,
-    "name": "Clovis",
-    "trait": 1802
-  },
-  "name": "Arbiter",
-  "notes": [],
-  "skins": [
-    630,
-    716,
-    788
-  ]
+    "bossDialog":  [
+                       "I shall not be your adjudicator this day, traveler; your trials yet continue. Even so, I shall test your worthiness.",
+                       "Ruler of {CASTLENAME}, the charges leveled against you are most grave. I pronounce you guilty, and hereby sentence you to death!",
+                       "You are untested. I challenge you - trial by combat. Prove the worth of your existence."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have a 3% chance to ignore incoming debuffs.",
+                        "4":  "Your creatures have a 3% chance to ignore incoming debuffs.",
+                        "6":  "Your creatures have a 3% chance to ignore incoming debuffs."
+                    },
+    "cards":  6,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      1183,
+                      1184,
+                      1185,
+                      1186,
+                      1187,
+                      1188
+                  ],
+    "icon":  "images/race/Arbiter.png",
+    "master":  {
+                   "costume":  673,
+                   "dialog":  "Arbiters emit powerful auras that strengthen their allies in battle. If you wish to stand a chance against me, you\u0027ll need to pick off my Arbiters one at a time. Let\u0027s fight!",
+                   "item":  1494,
+                   "name":  "Clovis",
+                   "trait":  1802
+               },
+    "name":  "Arbiter",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  630,
+                  716,
+                  788
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThrillful Trills:\nThis creature can equip Spell Gems from any class. At the start of your creatures\u0027 turns, they are healed for 5% of their Maximum {STAT_health} for each Sealed Spell Gem each of your creatures have. This trait does not stack.",
-  "icon": "images/item/material/GoldHelmet.png",
-  "id": 1804,
-  "name": "Gold Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2157
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThrillful Trills:\nThis creature can equip Spell Gems from any class. At the start of your creatures\u0027 turns, they are healed for 5% of their Maximum {STAT_health} for each Sealed Spell Gem each of your creatures have. This trait does not stack.",
+    "icon":  "images/item/material/GoldHelmet.png",
+    "id":  1804,
+    "name":  "Gold Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2157,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

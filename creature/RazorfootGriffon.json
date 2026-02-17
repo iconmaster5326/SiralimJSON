@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/RazorfootGriffon/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 390,
-  "item": 176,
-  "lore": "As their average lifespan exceeds 150 years, Griffons are usually involved in hundreds of battles throughout their lives. In the final stage of their life cycle, the claws of many Griffons are heavily deteriorated because of these battles. Some of these Griffons add sharp blades to their claws, obtained from defeated enemies, so that they can keep being active members of their flock.",
-  "menagerieDialog": [
-    "(It\u0027s preening its feathers.)",
-    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
-    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
-    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
-    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Razorfoot Griffon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RazorfootGriffon/overworld_e0.png",
-      "images/creature/RazorfootGriffon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RazorfootGriffon/overworld_n0.png",
-      "images/creature/RazorfootGriffon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RazorfootGriffon/overworld_s0.png",
-      "images/creature/RazorfootGriffon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RazorfootGriffon/overworld_w0.png",
-      "images/creature/RazorfootGriffon/overworld_w1.png"
-    ]
-  },
-  "race": "Griffon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 28,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 86
+    "battleSprite":  "images/creature/RazorfootGriffon/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  390,
+    "item":  176,
+    "lore":  "As their average lifespan exceeds 150 years, Griffons are usually involved in hundreds of battles throughout their lives. In the final stage of their life cycle, the claws of many Griffons are heavily deteriorated because of these battles. Some of these Griffons add sharp blades to their claws, obtained from defeated enemies, so that they can keep being active members of their flock.",
+    "menagerieDialog":  [
+                            "(It\u0027s preening its feathers.)",
+                            "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+                            "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+                            "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+                            "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Razorfoot Griffon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RazorfootGriffon/overworld_e0.png",
+                                         "images/creature/RazorfootGriffon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RazorfootGriffon/overworld_n0.png",
+                                          "images/creature/RazorfootGriffon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RazorfootGriffon/overworld_s0.png",
+                                          "images/creature/RazorfootGriffon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RazorfootGriffon/overworld_w0.png",
+                                         "images/creature/RazorfootGriffon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Griffon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  28,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  86,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

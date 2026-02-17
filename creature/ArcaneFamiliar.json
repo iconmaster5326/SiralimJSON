@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ArcaneFamiliar/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 518,
-  "item": 505,
-  "lore": "Familiars love reading and studying magic, which is why it is rare to find one that does not carry a book. They are expert Bat hunters, using their knowledge about the emission and reception of ultrasounds to lead them to a trap.\\n\\nIf another creature chooses the Arcane Familiar as prey, it will defend itself by hitting its enemy on the legs with its cane without causing unnecessary damage.",
-  "menagerieDialog": [
-    "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
-    "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
-    "Did you know that an Eft can live for up to 20 days without water?",
-    "(Its eyes scan its surroundings with innocent curiosity.)",
-    "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
-  ],
-  "minDepth": 1,
-  "name": "Arcane Familiar",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ArcaneFamiliar/overworld_e0.png",
-      "images/creature/ArcaneFamiliar/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ArcaneFamiliar/overworld_n0.png",
-      "images/creature/ArcaneFamiliar/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ArcaneFamiliar/overworld_s0.png",
-      "images/creature/ArcaneFamiliar/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ArcaneFamiliar/overworld_w0.png",
-      "images/creature/ArcaneFamiliar/overworld_w1.png"
-    ]
-  },
-  "race": "Familiar",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Zonte)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 26,
-    "speed": 16
-  },
-  "trait": 419
+    "battleSprite":  "images/creature/ArcaneFamiliar/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  518,
+    "item":  505,
+    "lore":  "Familiars love reading and studying magic, which is why it is rare to find one that does not carry a book. They are expert Bat hunters, using their knowledge about the emission and reception of ultrasounds to lead them to a trap.\\n\\nIf another creature chooses the Arcane Familiar as prey, it will defend itself by hitting its enemy on the legs with its cane without causing unnecessary damage.",
+    "menagerieDialog":  [
+                            "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
+                            "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
+                            "Did you know that an Eft can live for up to 20 days without water?",
+                            "(Its eyes scan its surroundings with innocent curiosity.)",
+                            "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Arcane Familiar",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ArcaneFamiliar/overworld_e0.png",
+                                         "images/creature/ArcaneFamiliar/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ArcaneFamiliar/overworld_n0.png",
+                                          "images/creature/ArcaneFamiliar/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ArcaneFamiliar/overworld_s0.png",
+                                          "images/creature/ArcaneFamiliar/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ArcaneFamiliar/overworld_w0.png",
+                                         "images/creature/ArcaneFamiliar/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Familiar",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Zonte)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  26,
+                       "speed":  16
+                   },
+    "trait":  419,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

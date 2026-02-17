@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nSleep On Damage:\nCreature has a chance to afflict enemies with {CONDNAME_DEBUFF_SLEEP} when it deals damage to them with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
-  "icon": "images/item/material/CurioofSlumbering.png",
-  "id": 55,
-  "name": "Curio of Slumbering",
-  "notes": [],
-  "slot": "trick",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": null
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nSleep On Damage:\nCreature has a chance to afflict enemies with {CONDNAME_DEBUFF_SLEEP} when it deals damage to them with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/CurioofSlumbering.png",
+    "id":  55,
+    "name":  "Curio of Slumbering",
+    "notes":  [
+
+              ],
+    "slot":  "trick",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

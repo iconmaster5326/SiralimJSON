@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/LeperPlaguespreader/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 377,
-  "item": 270,
-  "lore": "Centuries after the disease first appeared, a scientist from Caedo discovered that it spread through the blood and wounds of Lepers, but one hundred years would still have to pass before a vaccine was developed.\\n\\nThe Leper Plaguespreader gives off a nauseating odor that weakens anyone not used to it. Moreover, it is a vector of a large number of diseases, so the many kingdoms of Rodia offer small bounties for both Plaguespreaders and Blightbringers.",
-  "menagerieDialog": [
-    "(It looks at you groggily with a half-baked grin on its face.)",
-    "(This creature will always be picked last for the dodgeball team.)",
-    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
-    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
-    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
-  ],
-  "minDepth": 1,
-  "name": "Leper Plaguespreader",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LeperPlaguespreader/overworld_e0.png",
-      "images/creature/LeperPlaguespreader/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LeperPlaguespreader/overworld_n0.png",
-      "images/creature/LeperPlaguespreader/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LeperPlaguespreader/overworld_s0.png",
-      "images/creature/LeperPlaguespreader/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LeperPlaguespreader/overworld_w0.png",
-      "images/creature/LeperPlaguespreader/overworld_w1.png"
-    ]
-  },
-  "race": "Leper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 15,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 180
+    "battleSprite":  "images/creature/LeperPlaguespreader/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  377,
+    "item":  270,
+    "lore":  "Centuries after the disease first appeared, a scientist from Caedo discovered that it spread through the blood and wounds of Lepers, but one hundred years would still have to pass before a vaccine was developed.\\n\\nThe Leper Plaguespreader gives off a nauseating odor that weakens anyone not used to it. Moreover, it is a vector of a large number of diseases, so the many kingdoms of Rodia offer small bounties for both Plaguespreaders and Blightbringers.",
+    "menagerieDialog":  [
+                            "(It looks at you groggily with a half-baked grin on its face.)",
+                            "(This creature will always be picked last for the dodgeball team.)",
+                            "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+                            "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+                            "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Leper Plaguespreader",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LeperPlaguespreader/overworld_e0.png",
+                                         "images/creature/LeperPlaguespreader/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LeperPlaguespreader/overworld_n0.png",
+                                          "images/creature/LeperPlaguespreader/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LeperPlaguespreader/overworld_s0.png",
+                                          "images/creature/LeperPlaguespreader/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LeperPlaguespreader/overworld_w0.png",
+                                         "images/creature/LeperPlaguespreader/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  15,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  180,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

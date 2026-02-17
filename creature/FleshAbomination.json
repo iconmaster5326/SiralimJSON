@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/FleshAbomination/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 562,
-  "item": 690,
-  "lore": "Abominations are weak-willed creatures who can be easily manipulated. Their two heads communicate by babbling, usually at the same time, and they can understand what other people are telling them. As most Abominations used to be humans, they are easy prey for Ghouls and Forsaken in the wild.\\n\\nFlesh Abominations often join small bands of criminals or big crime syndicates that accept them in exchange for protection.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Flesh Abomination",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FleshAbomination/overworld_e0.png",
-      "images/creature/FleshAbomination/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FleshAbomination/overworld_n0.png",
-      "images/creature/FleshAbomination/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FleshAbomination/overworld_s0.png",
-      "images/creature/FleshAbomination/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FleshAbomination/overworld_w0.png",
-      "images/creature/FleshAbomination/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 36,
-    "intelligence": 13,
-    "speed": 18
-  },
-  "trait": 805
+    "battleSprite":  "images/creature/FleshAbomination/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  562,
+    "item":  690,
+    "lore":  "Abominations are weak-willed creatures who can be easily manipulated. Their two heads communicate by babbling, usually at the same time, and they can understand what other people are telling them. As most Abominations used to be humans, they are easy prey for Ghouls and Forsaken in the wild.\\n\\nFlesh Abominations often join small bands of criminals or big crime syndicates that accept them in exchange for protection.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Flesh Abomination",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FleshAbomination/overworld_e0.png",
+                                         "images/creature/FleshAbomination/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FleshAbomination/overworld_n0.png",
+                                          "images/creature/FleshAbomination/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FleshAbomination/overworld_s0.png",
+                                          "images/creature/FleshAbomination/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FleshAbomination/overworld_w0.png",
+                                         "images/creature/FleshAbomination/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  36,
+                       "intelligence":  13,
+                       "speed":  18
+                   },
+    "trait":  805,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

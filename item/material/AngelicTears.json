@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAt Peace:\nAfter your creatures are resurrected, they gain a {CONDNAME_BUFF_BARRIER} equal to 100% of the amount of {STAT_health} they resurrected with. This trait does not stack.",
-  "icon": "images/item/material/AngelicTears.png",
-  "id": 1400,
-  "name": "Angelic Tears",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1707
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAt Peace:\nAfter your creatures are resurrected, they gain a {CONDNAME_BUFF_BARRIER} equal to 100% of the amount of {STAT_health} they resurrected with. This trait does not stack.",
+    "icon":  "images/item/material/AngelicTears.png",
+    "id":  1400,
+    "name":  "Angelic Tears",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1707,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

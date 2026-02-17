@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/KrakenShipbreaker/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1244,
-  "item": 1615,
-  "lore": "The ocean is teeming with sea creatures that Krakens can feed on, which is why a Rodian scientist theorized centuries ago that Krakens only attacked Rodian ships for fun. However, in reality, only Kraken Shipbreakers do this, and not for fun, but because large ships scare away the prey on which they feed. Today, ships are equipped with a state-of-the-art magical device that mitigates the vibrations produced when sailing, so these Krakens are no longer a problem on high sea routes.",
-  "menagerieDialog": [
-    "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
-    "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
-    "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
-    "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
-    "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
-  ],
-  "minDepth": 1,
-  "name": "Kraken Shipbreaker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/KrakenShipbreaker/overworld_e0.png",
-      "images/creature/KrakenShipbreaker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/KrakenShipbreaker/overworld_n0.png",
-      "images/creature/KrakenShipbreaker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/KrakenShipbreaker/overworld_s0.png",
-      "images/creature/KrakenShipbreaker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/KrakenShipbreaker/overworld_w0.png",
-      "images/creature/KrakenShipbreaker/overworld_w1.png"
-    ]
-  },
-  "race": "Kraken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 31,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1955
+    "battleSprite":  "images/creature/KrakenShipbreaker/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1244,
+    "item":  1615,
+    "lore":  "The ocean is teeming with sea creatures that Krakens can feed on, which is why a Rodian scientist theorized centuries ago that Krakens only attacked Rodian ships for fun. However, in reality, only Kraken Shipbreakers do this, and not for fun, but because large ships scare away the prey on which they feed. Today, ships are equipped with a state-of-the-art magical device that mitigates the vibrations produced when sailing, so these Krakens are no longer a problem on high sea routes.",
+    "menagerieDialog":  [
+                            "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
+                            "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
+                            "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
+                            "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
+                            "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Kraken Shipbreaker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/KrakenShipbreaker/overworld_e0.png",
+                                         "images/creature/KrakenShipbreaker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/KrakenShipbreaker/overworld_n0.png",
+                                          "images/creature/KrakenShipbreaker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/KrakenShipbreaker/overworld_s0.png",
+                                          "images/creature/KrakenShipbreaker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/KrakenShipbreaker/overworld_w0.png",
+                                         "images/creature/KrakenShipbreaker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Kraken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  31,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1955,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

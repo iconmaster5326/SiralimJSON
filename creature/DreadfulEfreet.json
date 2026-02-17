@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DreadfulEfreet/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 118,
-  "item": 813,
-  "lore": "Vulcanar had never intended to help Zonte and the other Magi take back their tower. However, shortly after emerging from the lava of the Great Pandemonium, the Dreadful Efreet ordered the Obsidians to open a portal to the Refuge of the Magi, and they obeyed. The assault was so quick and effective that the Magi who accompanied them were more concerned with putting out fires than with attacking. Finally, the Dreadful Efreet forced the Djinn Ghula to leave the tower with the rest of the Djinns.",
-  "menagerieDialog": [
-    "Death to the Djinns!",
-    "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
-    "You can catch just about anything on fire if you set your mind to it, really.",
-    "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
-    "Fire solves everything. If you need me to take care of someone for you, just say the word."
-  ],
-  "minDepth": 1,
-  "name": "Dreadful Efreet",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DreadfulEfreet/overworld_e0.png",
-      "images/creature/DreadfulEfreet/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DreadfulEfreet/overworld_n0.png",
-      "images/creature/DreadfulEfreet/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DreadfulEfreet/overworld_s0.png",
-      "images/creature/DreadfulEfreet/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DreadfulEfreet/overworld_w0.png",
-      "images/creature/DreadfulEfreet/overworld_w1.png"
-    ]
-  },
-  "race": "Efreet",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 840
+    "battleSprite":  "images/creature/DreadfulEfreet/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  118,
+    "item":  813,
+    "lore":  "Vulcanar had never intended to help Zonte and the other Magi take back their tower. However, shortly after emerging from the lava of the Great Pandemonium, the Dreadful Efreet ordered the Obsidians to open a portal to the Refuge of the Magi, and they obeyed. The assault was so quick and effective that the Magi who accompanied them were more concerned with putting out fires than with attacking. Finally, the Dreadful Efreet forced the Djinn Ghula to leave the tower with the rest of the Djinns.",
+    "menagerieDialog":  [
+                            "Death to the Djinns!",
+                            "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
+                            "You can catch just about anything on fire if you set your mind to it, really.",
+                            "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
+                            "Fire solves everything. If you need me to take care of someone for you, just say the word."
+                        ],
+    "minDepth":  1,
+    "name":  "Dreadful Efreet",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DreadfulEfreet/overworld_e0.png",
+                                         "images/creature/DreadfulEfreet/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DreadfulEfreet/overworld_n0.png",
+                                          "images/creature/DreadfulEfreet/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DreadfulEfreet/overworld_s0.png",
+                                          "images/creature/DreadfulEfreet/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DreadfulEfreet/overworld_w0.png",
+                                         "images/creature/DreadfulEfreet/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Efreet",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  840,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

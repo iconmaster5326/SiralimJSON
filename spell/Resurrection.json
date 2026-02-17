@@ -1,43 +1,46 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Target is resurrected with a moderate amount of {STAT_health}.",
-  "god": null,
-  "id": 159,
-  "manuallyCastable": true,
-  "maxCharges": 12,
-  "name": "Resurrection",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": true,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "RESURRECT"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Target is resurrected with a moderate amount of {STAT_health}.",
+    "god":  null,
+    "id":  159,
+    "manuallyCastable":  true,
+    "maxCharges":  12,
+    "name":  "Resurrection",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  true,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "RESURRECT"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

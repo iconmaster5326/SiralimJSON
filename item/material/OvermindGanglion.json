@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Squelch:\nAfter this creature {ACTION_attacks}, it reduces the target\u0027s Maximum {STAT_health} to its Current {STAT_health}.",
-  "icon": "images/item/material/OvermindGanglion.png",
-  "id": 256,
-  "name": "Overmind Ganglion",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 166
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Squelch:\nAfter this creature {ACTION_attacks}, it reduces the target\u0027s Maximum {STAT_health} to its Current {STAT_health}.",
+    "icon":  "images/item/material/OvermindGanglion.png",
+    "id":  256,
+    "name":  "Overmind Ganglion",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  166,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

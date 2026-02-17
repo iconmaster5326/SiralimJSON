@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures dodge, they have a \u003C4\u003E% chance to afflict the enemy with {CONDNAME_DEBUFF_DISARMED}.\\n\\n{CONDDESC_DEBUFF_DISARMED}",
-  "icon": "images/perk/Feint.png",
-  "id": 36,
-  "maxRanks": 25,
-  "name": "Feint",
-  "notes": [],
-  "pointsPerRank": 4,
-  "specialization": 14
+    "anointable":  true,
+    "description":  "After your creatures dodge, they have a \u003c4\u003e% chance to afflict the enemy with {CONDNAME_DEBUFF_DISARMED}.\\n\\n{CONDDESC_DEBUFF_DISARMED}",
+    "icon":  "images/perk/Feint.png",
+    "id":  36,
+    "maxRanks":  25,
+    "name":  "Feint",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  4,
+    "specialization":  14,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

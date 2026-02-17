@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CelestialIdol/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 298,
-  "item": 112,
-  "lore": "Demigods are eccentric and whimsical, do not usually have much patience and do not tolerate insolent behavior. The Celestial Idol likes to be constantly worshipped, but it cannot stand the bustle of the city. It usually settles down in a small town or a village and forces people to build a statue to which they must pray daily, usually under the threat of raining fire from the sky if anyone does not comply with its demands.",
-  "menagerieDialog": [
-    "I will not waste my breath speaking with the likes of you.",
-    "Unleash me! Let us destroy our foes together as one.",
-    "There is much to be learned from this world. Do not take a single moment for granted.",
-    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
-    "I grow restless. Let us take our leave at once."
-  ],
-  "minDepth": 1,
-  "name": "Celestial Idol",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CelestialIdol/overworld_e0.png",
-      "images/creature/CelestialIdol/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CelestialIdol/overworld_n0.png",
-      "images/creature/CelestialIdol/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CelestialIdol/overworld_s0.png",
-      "images/creature/CelestialIdol/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CelestialIdol/overworld_w0.png",
-      "images/creature/CelestialIdol/overworld_w1.png"
-    ]
-  },
-  "race": "Demigod",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 15,
-    "health": 38,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 21
+    "battleSprite":  "images/creature/CelestialIdol/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  298,
+    "item":  112,
+    "lore":  "Demigods are eccentric and whimsical, do not usually have much patience and do not tolerate insolent behavior. The Celestial Idol likes to be constantly worshipped, but it cannot stand the bustle of the city. It usually settles down in a small town or a village and forces people to build a statue to which they must pray daily, usually under the threat of raining fire from the sky if anyone does not comply with its demands.",
+    "menagerieDialog":  [
+                            "I will not waste my breath speaking with the likes of you.",
+                            "Unleash me! Let us destroy our foes together as one.",
+                            "There is much to be learned from this world. Do not take a single moment for granted.",
+                            "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+                            "I grow restless. Let us take our leave at once."
+                        ],
+    "minDepth":  1,
+    "name":  "Celestial Idol",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CelestialIdol/overworld_e0.png",
+                                         "images/creature/CelestialIdol/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CelestialIdol/overworld_n0.png",
+                                          "images/creature/CelestialIdol/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CelestialIdol/overworld_s0.png",
+                                          "images/creature/CelestialIdol/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CelestialIdol/overworld_w0.png",
+                                         "images/creature/CelestialIdol/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Demigod",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  15,
+                       "health":  38,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  21,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGoad:\nYour creatures adjacent to this creature {ACTION_attack} 2 additional times.",
-  "icon": "images/item/material/DuelistRapier.png",
-  "id": 880,
-  "name": "Duelist Rapier",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 907
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGoad:\nYour creatures adjacent to this creature {ACTION_attack} 2 additional times.",
+    "icon":  "images/item/material/DuelistRapier.png",
+    "id":  880,
+    "name":  "Duelist Rapier",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  907,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

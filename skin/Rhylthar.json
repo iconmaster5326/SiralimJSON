@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Rhylthar/battle.png",
-  "creator": null,
-  "creature": 720,
-  "id": 472,
-  "name": "Rhylthar",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Rhylthar/overworld_e0.png",
-      "images/skin/Rhylthar/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Rhylthar/overworld_n0.png",
-      "images/skin/Rhylthar/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Rhylthar/overworld_s0.png",
-      "images/skin/Rhylthar/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Rhylthar/overworld_w0.png",
-      "images/skin/Rhylthar/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Rhylthar/battle.png",
+    "creator":  null,
+    "creature":  720,
+    "id":  472,
+    "name":  "Rhylthar",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Rhylthar/overworld_e0.png",
+                                         "images/skin/Rhylthar/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Rhylthar/overworld_n0.png",
+                                          "images/skin/Rhylthar/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Rhylthar/overworld_s0.png",
+                                          "images/skin/Rhylthar/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Rhylthar/overworld_w0.png",
+                                         "images/skin/Rhylthar/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

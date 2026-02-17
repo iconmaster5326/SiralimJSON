@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpirit Eater:\nAfter this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_CURSED} and decreases their {STAT_speed} by 15%.",
-  "icon": "images/item/material/BalefulTusk.png",
-  "id": 1603,
-  "name": "Baleful Tusk",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1946
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpirit Eater:\nAfter this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_CURSED} and decreases their {STAT_speed} by 15%.",
+    "icon":  "images/item/material/BalefulTusk.png",
+    "id":  1603,
+    "name":  "Baleful Tusk",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1946,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/JollyOldGiant/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 774,
-  "item": 47,
-  "lore": "It was a winter morning when the Watcher Sentinel finally bit the dust thousands of years ago. The bloody war had ended, and that day became part of the world\u0027s history, to be celebrated every year. The Gods had gathered in the battlefield, and Vulcanar raised his finger to the sky and fired a spell to create a colorful lightshow that thrilled the survivors. Torun, enraged, decided to create a Giant that would travel to towns and cities delivering gifts on that day \u0022without expecting anything in return\u0022, because, although mortals were insignificant creatures, he wouldn\u0027t let them favor his archrival over him.",
-  "menagerieDialog": [
-    "Humans are weak! Even baby Giants can crush your kind with one hand.",
-    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
-    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
-    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
-    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
-  ],
-  "minDepth": 1,
-  "name": "Jolly Old Giant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/JollyOldGiant/overworld_e0.png",
-      "images/creature/JollyOldGiant/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/JollyOldGiant/overworld_n0.png",
-      "images/creature/JollyOldGiant/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/JollyOldGiant/overworld_s0.png",
-      "images/creature/JollyOldGiant/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/JollyOldGiant/overworld_w0.png",
-      "images/creature/JollyOldGiant/overworld_w1.png"
-    ]
-  },
-  "race": "Giant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Nature Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 22,
-    "health": 39,
-    "intelligence": 12,
-    "speed": 12
-  },
-  "trait": 1016
+    "battleSprite":  "images/creature/JollyOldGiant/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  774,
+    "item":  47,
+    "lore":  "It was a winter morning when the Watcher Sentinel finally bit the dust thousands of years ago. The bloody war had ended, and that day became part of the world\u0027s history, to be celebrated every year. The Gods had gathered in the battlefield, and Vulcanar raised his finger to the sky and fired a spell to create a colorful lightshow that thrilled the survivors. Torun, enraged, decided to create a Giant that would travel to towns and cities delivering gifts on that day \"without expecting anything in return\", because, although mortals were insignificant creatures, he wouldn\u0027t let them favor his archrival over him.",
+    "menagerieDialog":  [
+                            "Humans are weak! Even baby Giants can crush your kind with one hand.",
+                            "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+                            "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+                            "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+                            "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Jolly Old Giant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/JollyOldGiant/overworld_e0.png",
+                                         "images/creature/JollyOldGiant/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/JollyOldGiant/overworld_n0.png",
+                                          "images/creature/JollyOldGiant/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/JollyOldGiant/overworld_s0.png",
+                                          "images/creature/JollyOldGiant/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/JollyOldGiant/overworld_w0.png",
+                                         "images/creature/JollyOldGiant/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Giant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nature Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  22,
+                       "health":  39,
+                       "intelligence":  12,
+                       "speed":  12
+                   },
+    "trait":  1016,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/WatchfulInquisitor/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 882,
-  "item": 991,
-  "lore": "After Zonte\u0027s ascension to godhood, the Itherian situation became a real threat to the world, so the Auditors chose six agents to solve this problem. Their codenames were Dawn, Twilight, Midnight, Morning Star, Eve, and Gloom. Elinar was Morning Star before he was known as Apocranox.\\n\\nThanks to the Watchful Inquisitor\u0027s ability to fly, Inquisitors can easily weave their webs both in their underground passages and the aboveground forests. Satyrs often pay them to protect their homes from Efts.",
-  "menagerieDialog": [
-    "Turn down the lights in here. I prefer to rest in total darkness.",
-    "Our army is unstoppable. Together, we will one day rule all of Rodia.",
-    "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
-    "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
-    "Leave me be. I do not wish to be bothered right now."
-  ],
-  "minDepth": 1,
-  "name": "Watchful Inquisitor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WatchfulInquisitor/overworld_e0.png",
-      "images/creature/WatchfulInquisitor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WatchfulInquisitor/overworld_n0.png",
-      "images/creature/WatchfulInquisitor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WatchfulInquisitor/overworld_s0.png",
-      "images/creature/WatchfulInquisitor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WatchfulInquisitor/overworld_w0.png",
-      "images/creature/WatchfulInquisitor/overworld_w1.png"
-    ]
-  },
-  "race": "Inquisitor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1143
+    "battleSprite":  "images/creature/WatchfulInquisitor/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  882,
+    "item":  991,
+    "lore":  "After Zonte\u0027s ascension to godhood, the Itherian situation became a real threat to the world, so the Auditors chose six agents to solve this problem. Their codenames were Dawn, Twilight, Midnight, Morning Star, Eve, and Gloom. Elinar was Morning Star before he was known as Apocranox.\\n\\nThanks to the Watchful Inquisitor\u0027s ability to fly, Inquisitors can easily weave their webs both in their underground passages and the aboveground forests. Satyrs often pay them to protect their homes from Efts.",
+    "menagerieDialog":  [
+                            "Turn down the lights in here. I prefer to rest in total darkness.",
+                            "Our army is unstoppable. Together, we will one day rule all of Rodia.",
+                            "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
+                            "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
+                            "Leave me be. I do not wish to be bothered right now."
+                        ],
+    "minDepth":  1,
+    "name":  "Watchful Inquisitor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WatchfulInquisitor/overworld_e0.png",
+                                         "images/creature/WatchfulInquisitor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WatchfulInquisitor/overworld_n0.png",
+                                          "images/creature/WatchfulInquisitor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WatchfulInquisitor/overworld_s0.png",
+                                          "images/creature/WatchfulInquisitor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WatchfulInquisitor/overworld_w0.png",
+                                         "images/creature/WatchfulInquisitor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Inquisitor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1143,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

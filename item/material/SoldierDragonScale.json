@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMenacing Dragon Fangs:\nAfter an enemy dodges an attack, this creature deals damage to all enemies equal to 35% of its {STAT_intelligence}. This trait does not stack.",
-  "icon": "images/item/material/SoldierDragonScale.png",
-  "id": 396,
-  "name": "Soldier Dragon Scale",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 311
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMenacing Dragon Fangs:\nAfter an enemy dodges an attack, this creature deals damage to all enemies equal to 35% of its {STAT_intelligence}. This trait does not stack.",
+    "icon":  "images/item/material/SoldierDragonScale.png",
+    "id":  396,
+    "name":  "Soldier Dragon Scale",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  311,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

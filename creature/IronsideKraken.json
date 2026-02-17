@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/IronsideKraken/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1246,
-  "item": 1618,
-  "lore": "Thousands of years ago, Krakens were the greatest danger in the deep, relegating the Revenants to living in ocean caves and crevices to survive their constant attacks. Over time, the Revenants\u0027 weapons and techniques allowed them turn things around, so now Krakens only see them as emergency food, not to be taken lightly.\\n\\nThe Ironside Kraken\u0027s shell is so hard that the Revenants stopped using metals and minerals for their weapons and armor after they learned how to deal with these creatures. Some of their buildings are also made out of these shells.",
-  "menagerieDialog": [
-    "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
-    "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
-    "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
-    "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
-    "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
-  ],
-  "minDepth": 1,
-  "name": "Ironside Kraken",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/IronsideKraken/overworld_e0.png",
-      "images/creature/IronsideKraken/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/IronsideKraken/overworld_n0.png",
-      "images/creature/IronsideKraken/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/IronsideKraken/overworld_s0.png",
-      "images/creature/IronsideKraken/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/IronsideKraken/overworld_w0.png",
-      "images/creature/IronsideKraken/overworld_w1.png"
-    ]
-  },
-  "race": "Kraken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 17,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1957
+    "battleSprite":  "images/creature/IronsideKraken/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1246,
+    "item":  1618,
+    "lore":  "Thousands of years ago, Krakens were the greatest danger in the deep, relegating the Revenants to living in ocean caves and crevices to survive their constant attacks. Over time, the Revenants\u0027 weapons and techniques allowed them turn things around, so now Krakens only see them as emergency food, not to be taken lightly.\\n\\nThe Ironside Kraken\u0027s shell is so hard that the Revenants stopped using metals and minerals for their weapons and armor after they learned how to deal with these creatures. Some of their buildings are also made out of these shells.",
+    "menagerieDialog":  [
+                            "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
+                            "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
+                            "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
+                            "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
+                            "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ironside Kraken",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/IronsideKraken/overworld_e0.png",
+                                         "images/creature/IronsideKraken/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/IronsideKraken/overworld_n0.png",
+                                          "images/creature/IronsideKraken/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/IronsideKraken/overworld_s0.png",
+                                          "images/creature/IronsideKraken/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/IronsideKraken/overworld_w0.png",
+                                         "images/creature/IronsideKraken/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Kraken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  17,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1957,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

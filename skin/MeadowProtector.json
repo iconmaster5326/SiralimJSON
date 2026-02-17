@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/MeadowProtector/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 703,
-  "name": "Meadow Protector",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/MeadowProtector/overworld_e0.png",
-      "images/skin/MeadowProtector/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/MeadowProtector/overworld_n0.png",
-      "images/skin/MeadowProtector/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/MeadowProtector/overworld_s0.png",
-      "images/skin/MeadowProtector/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/MeadowProtector/overworld_w0.png",
-      "images/skin/MeadowProtector/overworld_w1.png"
-    ]
-  },
-  "race": "Harpy",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/MeadowProtector/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  703,
+    "name":  "Meadow Protector",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/MeadowProtector/overworld_e0.png",
+                                         "images/skin/MeadowProtector/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/MeadowProtector/overworld_n0.png",
+                                          "images/skin/MeadowProtector/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/MeadowProtector/overworld_s0.png",
+                                          "images/skin/MeadowProtector/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/MeadowProtector/overworld_w0.png",
+                                         "images/skin/MeadowProtector/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Harpy",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

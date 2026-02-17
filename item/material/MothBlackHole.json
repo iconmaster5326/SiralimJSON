@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCowardice:\nEnemies with {CONDNAME_DEBUFF_FEAR} deal 60% less damage with attacks. This trait does not stack.",
-  "icon": "images/item/material/MothBlackHole.png",
-  "id": 1028,
-  "name": "Moth Black Hole",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1108
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCowardice:\nEnemies with {CONDNAME_DEBUFF_FEAR} deal 60% less damage with attacks. This trait does not stack.",
+    "icon":  "images/item/material/MothBlackHole.png",
+    "id":  1028,
+    "name":  "Moth Black Hole",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1108,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

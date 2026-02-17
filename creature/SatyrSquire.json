@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SatyrSquire/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 890,
-  "item": 986,
-  "lore": "Satyrs originally came from the kingdom of Vanelin, fruit of the union of the barbarian tribes and the great northern cities of what would later be known as Rodia. Because of this, their worship of the Gods is somewhat contradictory, given that they routinely worship Gonfurian as well as Aeolian and Surathli, two deities who do not share the God of War\u0027s taste for blood. However, some Satyrs such as Rammers and the Unleashed prefer the teachings of Gonfurian.\\n\\nSatyr Squires guard the backs of their most fearless Satyr allies, especially the Unleashed. Furthermore, they frequently patrol the suspension bridges and wooden walkways that link their treetop homes to ensure no Efts have climbed up to unleash chaos.",
-  "menagerieDialog": [
-    "(It\u0027s playing a tune on a set of pipes, oblivious to your approach.)",
-    "Care to hear a new song I\u0027ve written? It\u0027s called \u0022The Art of War\u0022.",
-    "(It\u0027s busy shining its hooves with a cloth. Makes sense.)",
-    "(It\u0027s busy tap-dancing. This seems odd at first until you realize you\u0027d do the same thing if you had hooves.)",
-    "(It\u0027s throwing a tantrum and stomping its hooves on the ground. Touchy little thing.)"
-  ],
-  "minDepth": 1,
-  "name": "Satyr Squire",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SatyrSquire/overworld_e0.png",
-      "images/creature/SatyrSquire/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SatyrSquire/overworld_n0.png",
-      "images/creature/SatyrSquire/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SatyrSquire/overworld_s0.png",
-      "images/creature/SatyrSquire/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SatyrSquire/overworld_w0.png",
-      "images/creature/SatyrSquire/overworld_w1.png"
-    ]
-  },
-  "race": "Satyr",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 11,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 1150
+    "battleSprite":  "images/creature/SatyrSquire/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  890,
+    "item":  986,
+    "lore":  "Satyrs originally came from the kingdom of Vanelin, fruit of the union of the barbarian tribes and the great northern cities of what would later be known as Rodia. Because of this, their worship of the Gods is somewhat contradictory, given that they routinely worship Gonfurian as well as Aeolian and Surathli, two deities who do not share the God of War\u0027s taste for blood. However, some Satyrs such as Rammers and the Unleashed prefer the teachings of Gonfurian.\\n\\nSatyr Squires guard the backs of their most fearless Satyr allies, especially the Unleashed. Furthermore, they frequently patrol the suspension bridges and wooden walkways that link their treetop homes to ensure no Efts have climbed up to unleash chaos.",
+    "menagerieDialog":  [
+                            "(It\u0027s playing a tune on a set of pipes, oblivious to your approach.)",
+                            "Care to hear a new song I\u0027ve written? It\u0027s called \"The Art of War\".",
+                            "(It\u0027s busy shining its hooves with a cloth. Makes sense.)",
+                            "(It\u0027s busy tap-dancing. This seems odd at first until you realize you\u0027d do the same thing if you had hooves.)",
+                            "(It\u0027s throwing a tantrum and stomping its hooves on the ground. Touchy little thing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Satyr Squire",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SatyrSquire/overworld_e0.png",
+                                         "images/creature/SatyrSquire/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SatyrSquire/overworld_n0.png",
+                                          "images/creature/SatyrSquire/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SatyrSquire/overworld_s0.png",
+                                          "images/creature/SatyrSquire/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SatyrSquire/overworld_w0.png",
+                                         "images/creature/SatyrSquire/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Satyr",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  11,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  1150,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

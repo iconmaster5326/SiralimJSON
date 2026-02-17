@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "My weapons are honed well for dealing with the likes of you, intruder.",
-    "What the hell is your problem? Can\u0027t you humans leave our kind in peace?",
-    "You touch my treasure, you die. You wouldn\u0027t even know what to do with it anyway."
-  ],
-  "cardBonuses": {
-    "3": "Your Artifacts\u0027 Stat Slots are 5% more powerful.",
-    "6": "Your Artifacts\u0027 Trick Slots have a 10% greater chance to activate.",
-    "10": "Your Artifacts\u0027 Spell Slots have a 10% greater chance to activate."
-  },
-  "cards": 10,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    279,
-    280,
-    281,
-    282,
-    283,
-    284,
-    285,
-    286,
-    287,
-    677
-  ],
-  "icon": "images/race/Smith.png",
-  "master": {
-    "costume": 391,
-    "dialog": "With the help of their Artifacts, Smiths are great at bolstering their allies\u0027 strength. Care for a duel? I\u0027ve been standing in one place for several days now, waiting for someone like you to come along and put me out of my misery.",
-    "item": 1195,
-    "name": "Olof",
-    "trait": 1494
-  },
-  "name": "Smith",
-  "notes": [],
-  "skins": [
-    187,
-    442,
-    443
-  ]
+    "bossDialog":  [
+                       "My weapons are honed well for dealing with the likes of you, intruder.",
+                       "What the hell is your problem? Can\u0027t you humans leave our kind in peace?",
+                       "You touch my treasure, you die. You wouldn\u0027t even know what to do with it anyway."
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your Artifacts\u0027 Stat Slots are 5% more powerful.",
+                        "6":  "Your Artifacts\u0027 Trick Slots have a 10% greater chance to activate.",
+                        "10":  "Your Artifacts\u0027 Spell Slots have a 10% greater chance to activate."
+                    },
+    "cards":  10,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      279,
+                      280,
+                      281,
+                      282,
+                      283,
+                      284,
+                      285,
+                      286,
+                      287,
+                      677
+                  ],
+    "icon":  "images/race/Smith.png",
+    "master":  {
+                   "costume":  391,
+                   "dialog":  "With the help of their Artifacts, Smiths are great at bolstering their allies\u0027 strength. Care for a duel? I\u0027ve been standing in one place for several days now, waiting for someone like you to come along and put me out of my misery.",
+                   "item":  1195,
+                   "name":  "Olof",
+                   "trait":  1494
+               },
+    "name":  "Smith",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  187,
+                  442,
+                  443
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

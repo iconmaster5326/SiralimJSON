@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nChaotic Mind:\nWhen this creature {ACTION_casts} a spell, the spell\u0027s potency is 100% to 200% of its normal amount.",
-  "icon": "images/item/material/ArithmeticiansTextbook.png",
-  "id": 1663,
-  "name": "Arithmetician\u0027s Textbook",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1866
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nChaotic Mind:\nWhen this creature {ACTION_casts} a spell, the spell\u0027s potency is 100% to 200% of its normal amount.",
+    "icon":  "images/item/material/ArithmeticiansTextbook.png",
+    "id":  1663,
+    "name":  "Arithmetician\u0027s Textbook",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1866,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

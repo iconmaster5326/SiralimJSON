@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nStar Prayer:\nYour creatures\u0027 \u0022Chance to Attack\u0022 Spell Gem properties have double the chance to activate. This trait does not stack.",
-  "icon": "images/item/material/IdolAntler.png",
-  "id": 685,
-  "name": "Idol Antler",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 623
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nStar Prayer:\nYour creatures\u0027 \"Chance to Attack\" Spell Gem properties have double the chance to activate. This trait does not stack.",
+    "icon":  "images/item/material/IdolAntler.png",
+    "id":  685,
+    "name":  "Idol Antler",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  623,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

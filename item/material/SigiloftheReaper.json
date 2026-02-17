@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Reapers:\nYour {RACE_Reaper}s\u0027 traits now activate at 50% {STAT_health}.",
-  "icon": "images/item/material/SigiloftheReaper.png",
-  "id": 1240,
-  "name": "Sigil of the Reaper",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1479
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Reapers:\nYour {RACE_Reaper}s\u0027 traits now activate at 50% {STAT_health}.",
+    "icon":  "images/item/material/SigiloftheReaper.png",
+    "id":  1240,
+    "name":  "Sigil of the Reaper",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1479,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

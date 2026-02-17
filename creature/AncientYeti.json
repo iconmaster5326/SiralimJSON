@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AncientYeti/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 605,
-  "item": 889,
-  "lore": "There is a legend in Sithicus about a gigantic Yeti that appeases the most violent snowstorms, though some believe it is just a Winter Aspect, and that the furious gales of snow are actually a product of the Ancient Yeti\u0027s will. While it is true that it can channel the cold of the frozen mountains, its only concern nowadays is to eliminate the ruler of Siralim to prevent its home from being destroyed. As a precaution, it has decided to kill any Mage who crosses its path.",
-  "menagerieDialog": [
-    "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
-    "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
-    "(It brings its face close to you and nudges its nose against yours. Ugh.)",
-    "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
-    "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
-  ],
-  "minDepth": 1,
-  "name": "Ancient Yeti",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AncientYeti/overworld_e0.png",
-      "images/creature/AncientYeti/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AncientYeti/overworld_n0.png",
-      "images/creature/AncientYeti/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AncientYeti/overworld_s0.png",
-      "images/creature/AncientYeti/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AncientYeti/overworld_w0.png",
-      "images/creature/AncientYeti/overworld_w1.png"
-    ]
-  },
-  "race": "Yeti",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 915
+    "battleSprite":  "images/creature/AncientYeti/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  605,
+    "item":  889,
+    "lore":  "There is a legend in Sithicus about a gigantic Yeti that appeases the most violent snowstorms, though some believe it is just a Winter Aspect, and that the furious gales of snow are actually a product of the Ancient Yeti\u0027s will. While it is true that it can channel the cold of the frozen mountains, its only concern nowadays is to eliminate the ruler of Siralim to prevent its home from being destroyed. As a precaution, it has decided to kill any Mage who crosses its path.",
+    "menagerieDialog":  [
+                            "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
+                            "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
+                            "(It brings its face close to you and nudges its nose against yours. Ugh.)",
+                            "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
+                            "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ancient Yeti",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AncientYeti/overworld_e0.png",
+                                         "images/creature/AncientYeti/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AncientYeti/overworld_n0.png",
+                                          "images/creature/AncientYeti/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AncientYeti/overworld_s0.png",
+                                          "images/creature/AncientYeti/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AncientYeti/overworld_w0.png",
+                                         "images/creature/AncientYeti/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Yeti",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  915,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

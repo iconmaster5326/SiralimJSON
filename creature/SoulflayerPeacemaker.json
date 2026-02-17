@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SoulflayerPeacemaker/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 898,
-  "item": 970,
-  "lore": "These five new realms were anchored to the Temple of Lies both so they could be in balance and to avoid being discovered. This is why these five realms also became accessible after the Rod of Ruin was broken.\\n\\nAll Soulflayers are experts in manipulation, but Soulflayer Peacemakers specialize in conflict resolution. They generally calm their own kind\u0027s tempers when an argument puts their interests in jeopardy, but they also use their abilities to gain the trust of other species.",
-  "menagerieDialog": [
-    "The flora and fauna of your world are remarkably diverse.",
-    "I hunger for more souls. Let us depart at once!",
-    "(Something about this creature seems incredibly familiar.)",
-    "There is a traitor in our midst. His name is Nortah.",
-    "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
-  ],
-  "minDepth": 1,
-  "name": "Soulflayer Peacemaker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SoulflayerPeacemaker/overworld_e0.png",
-      "images/creature/SoulflayerPeacemaker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SoulflayerPeacemaker/overworld_n0.png",
-      "images/creature/SoulflayerPeacemaker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SoulflayerPeacemaker/overworld_s0.png",
-      "images/creature/SoulflayerPeacemaker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SoulflayerPeacemaker/overworld_w0.png",
-      "images/creature/SoulflayerPeacemaker/overworld_w1.png"
-    ]
-  },
-  "race": "Soulflayer",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 17
-  },
-  "trait": 1158
+    "battleSprite":  "images/creature/SoulflayerPeacemaker/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  898,
+    "item":  970,
+    "lore":  "These five new realms were anchored to the Temple of Lies both so they could be in balance and to avoid being discovered. This is why these five realms also became accessible after the Rod of Ruin was broken.\\n\\nAll Soulflayers are experts in manipulation, but Soulflayer Peacemakers specialize in conflict resolution. They generally calm their own kind\u0027s tempers when an argument puts their interests in jeopardy, but they also use their abilities to gain the trust of other species.",
+    "menagerieDialog":  [
+                            "The flora and fauna of your world are remarkably diverse.",
+                            "I hunger for more souls. Let us depart at once!",
+                            "(Something about this creature seems incredibly familiar.)",
+                            "There is a traitor in our midst. His name is Nortah.",
+                            "I shall take control of Everett\u0027s mind and force him to make grilled cheese sandwiches for all of us. It will be delightful."
+                        ],
+    "minDepth":  1,
+    "name":  "Soulflayer Peacemaker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SoulflayerPeacemaker/overworld_e0.png",
+                                         "images/creature/SoulflayerPeacemaker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SoulflayerPeacemaker/overworld_n0.png",
+                                          "images/creature/SoulflayerPeacemaker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SoulflayerPeacemaker/overworld_s0.png",
+                                          "images/creature/SoulflayerPeacemaker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SoulflayerPeacemaker/overworld_w0.png",
+                                         "images/creature/SoulflayerPeacemaker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Soulflayer",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  17
+                   },
+    "trait":  1158,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Nihilists:\nIf all the creatures in your party are {RACE_Nihilist}s, they are resistant to debuffs and are immune to {CONDNAME_DEBUFF_SCORN}.",
-  "icon": "images/item/material/SigiloftheNihilist.png",
-  "id": 1505,
-  "name": "Sigil of the Nihilist",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1813
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Nihilists:\nIf all the creatures in your party are {RACE_Nihilist}s, they are resistant to debuffs and are immune to {CONDNAME_DEBUFF_SCORN}.",
+    "icon":  "images/item/material/SigiloftheNihilist.png",
+    "id":  1505,
+    "name":  "Sigil of the Nihilist",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1813,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

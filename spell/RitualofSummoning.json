@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "death",
-  "creator": null,
-  "description": "Caster is killed, and your creatures\u0027 minions gain 3 stacks.",
-  "god": null,
-  "id": 611,
-  "manuallyCastable": true,
-  "maxCharges": 10,
-  "name": "Ritual of Summoning",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "MINION"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "death",
+    "creator":  null,
+    "description":  "Caster is killed, and your creatures\u0027 minions gain 3 stacks.",
+    "god":  null,
+    "id":  611,
+    "manuallyCastable":  true,
+    "maxCharges":  10,
+    "name":  "Ritual of Summoning",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "MINION"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

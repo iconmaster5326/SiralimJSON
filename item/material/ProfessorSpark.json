@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeeth:\nThis creature deals additional damage equal to 20% of the damage it has taken in the current battle.",
-  "icon": "images/item/material/ProfessorSpark.png",
-  "id": 1033,
-  "name": "Professor Spark",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1101
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeeth:\nThis creature deals additional damage equal to 20% of the damage it has taken in the current battle.",
+    "icon":  "images/item/material/ProfessorSpark.png",
+    "id":  1033,
+    "name":  "Professor Spark",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1101,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

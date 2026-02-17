@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your Herbling {ACTION_attacks}, it {ACTION_casts} [icons,1976]Shellbust on the target.\n\nShellbust: Target loses a moderate amount of {STAT_defense} and takes damage equal to 150% of the amount reduced.",
-  "icon": "images/perk/OffenseMechanism.png",
-  "id": 338,
-  "maxRanks": 1,
-  "name": "Offense Mechanism",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 22
+    "anointable":  true,
+    "description":  "After your Herbling {ACTION_attacks}, it {ACTION_casts} [icons,1976]Shellbust on the target.\n\nShellbust: Target loses a moderate amount of {STAT_defense} and takes damage equal to 150% of the amount reduced.",
+    "icon":  "images/perk/OffenseMechanism.png",
+    "id":  338,
+    "maxRanks":  1,
+    "name":  "Offense Mechanism",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  22,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

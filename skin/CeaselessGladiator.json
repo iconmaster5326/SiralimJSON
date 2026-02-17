@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/CeaselessGladiator/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 33,
-  "name": "Ceaseless Gladiator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/CeaselessGladiator/overworld_e0.png",
-      "images/skin/CeaselessGladiator/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/CeaselessGladiator/overworld_n0.png",
-      "images/skin/CeaselessGladiator/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/CeaselessGladiator/overworld_s0.png",
-      "images/skin/CeaselessGladiator/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/CeaselessGladiator/overworld_w0.png",
-      "images/skin/CeaselessGladiator/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Worm",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/CeaselessGladiator/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  33,
+    "name":  "Ceaseless Gladiator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/CeaselessGladiator/overworld_e0.png",
+                                         "images/skin/CeaselessGladiator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/CeaselessGladiator/overworld_n0.png",
+                                          "images/skin/CeaselessGladiator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/CeaselessGladiator/overworld_s0.png",
+                                          "images/skin/CeaselessGladiator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/CeaselessGladiator/overworld_w0.png",
+                                         "images/skin/CeaselessGladiator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Worm",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

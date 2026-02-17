@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "chaos",
-  "creator": null,
-  "description": "Shuffles the {TIMELINE}.",
-  "god": null,
-  "id": 140,
-  "manuallyCastable": true,
-  "maxCharges": 12,
-  "name": "Pandemonium",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "all"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Shuffles the {TIMELINE}.",
+    "god":  null,
+    "id":  140,
+    "manuallyCastable":  true,
+    "maxCharges":  12,
+    "name":  "Pandemonium",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "all",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

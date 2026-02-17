@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ExperimentalClockwork/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1177,
-  "item": 1560,
-  "lore": "The nation of Kiaces is located in the northern part of the continent, a long way from Rodia. There, steam technology has developed considerably, and its inhabitants depend on it to a great extent.\\n\\nThe Experimental Clockwork was the last of its kind to be built by Alexandria, and its sole purpose is to gather all kinds of information about the outside. However, believing this creature is harmless can be a fatal mistake. Anyone who interrupts its activities will automatically become a target to be eliminated, unless the threat is clearly greater than its own strength, in which case it will try to escape.",
-  "menagerieDialog": [
-    "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
-    "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
-    "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
-    "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
-    "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
-  ],
-  "minDepth": 1,
-  "name": "Experimental Clockwork",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ExperimentalClockwork/overworld_e0.png",
-      "images/creature/ExperimentalClockwork/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ExperimentalClockwork/overworld_n0.png",
-      "images/creature/ExperimentalClockwork/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ExperimentalClockwork/overworld_s0.png",
-      "images/creature/ExperimentalClockwork/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ExperimentalClockwork/overworld_w0.png",
-      "images/creature/ExperimentalClockwork/overworld_w1.png"
-    ]
-  },
-  "race": "Clockwork",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1900
+    "battleSprite":  "images/creature/ExperimentalClockwork/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1177,
+    "item":  1560,
+    "lore":  "The nation of Kiaces is located in the northern part of the continent, a long way from Rodia. There, steam technology has developed considerably, and its inhabitants depend on it to a great extent.\\n\\nThe Experimental Clockwork was the last of its kind to be built by Alexandria, and its sole purpose is to gather all kinds of information about the outside. However, believing this creature is harmless can be a fatal mistake. Anyone who interrupts its activities will automatically become a target to be eliminated, unless the threat is clearly greater than its own strength, in which case it will try to escape.",
+    "menagerieDialog":  [
+                            "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
+                            "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
+                            "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
+                            "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
+                            "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Experimental Clockwork",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ExperimentalClockwork/overworld_e0.png",
+                                         "images/creature/ExperimentalClockwork/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ExperimentalClockwork/overworld_n0.png",
+                                          "images/creature/ExperimentalClockwork/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ExperimentalClockwork/overworld_s0.png",
+                                          "images/creature/ExperimentalClockwork/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ExperimentalClockwork/overworld_w0.png",
+                                         "images/creature/ExperimentalClockwork/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clockwork",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1900,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

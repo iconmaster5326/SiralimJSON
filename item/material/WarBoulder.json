@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReforged:\nAfter your creatures are resurrected, they gain 50% Maximum {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/WarBoulder.png",
-  "id": 1304,
-  "name": "War Boulder",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1551
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReforged:\nAfter your creatures are resurrected, they gain 50% Maximum {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/WarBoulder.png",
+    "id":  1304,
+    "name":  "War Boulder",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1551,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

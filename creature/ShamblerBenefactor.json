@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShamblerBenefactor/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1274,
-  "item": 1674,
-  "lore": "James\u0027s pirates once went underwater to visit small Revenant settlements. In one of their temples, they found engravings of creatures none of them had ever seen before. According to Revenant culture, it was an intelligent species who inhabited the Boreal Ocean and went extinct thousands of years ago. Their knowledge of magic rivaled that of the Ravens, and they tried to rule over the depths until, one day, they suddenly stopped attacking the Revenants.\\n\\nThe Shambler Benefactor is all that is left of that species, and it has lost all vestige of its former intelligence. James\u0027s pirates jokingly decided to name it Benefactor, as they never would have become undead had it not been for its curse.",
-  "menagerieDialog": [
-    "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
-    "(Though it smells like dead fish, it is a formidable part of your team.)",
-    "(Not everything in life is beautiful. This creature is proof of that.)",
-    "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
-    "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
-  ],
-  "minDepth": 1,
-  "name": "Shambler Benefactor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShamblerBenefactor/overworld_e0.png",
-      "images/creature/ShamblerBenefactor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShamblerBenefactor/overworld_n0.png",
-      "images/creature/ShamblerBenefactor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShamblerBenefactor/overworld_s0.png",
-      "images/creature/ShamblerBenefactor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShamblerBenefactor/overworld_w0.png",
-      "images/creature/ShamblerBenefactor/overworld_w1.png"
-    ]
-  },
-  "race": "Sea Shambler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 18,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 14
-  },
-  "trait": 2000
+    "battleSprite":  "images/creature/ShamblerBenefactor/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1274,
+    "item":  1674,
+    "lore":  "James\u0027s pirates once went underwater to visit small Revenant settlements. In one of their temples, they found engravings of creatures none of them had ever seen before. According to Revenant culture, it was an intelligent species who inhabited the Boreal Ocean and went extinct thousands of years ago. Their knowledge of magic rivaled that of the Ravens, and they tried to rule over the depths until, one day, they suddenly stopped attacking the Revenants.\\n\\nThe Shambler Benefactor is all that is left of that species, and it has lost all vestige of its former intelligence. James\u0027s pirates jokingly decided to name it Benefactor, as they never would have become undead had it not been for its curse.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
+                            "(Though it smells like dead fish, it is a formidable part of your team.)",
+                            "(Not everything in life is beautiful. This creature is proof of that.)",
+                            "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
+                            "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shambler Benefactor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShamblerBenefactor/overworld_e0.png",
+                                         "images/creature/ShamblerBenefactor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShamblerBenefactor/overworld_n0.png",
+                                          "images/creature/ShamblerBenefactor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShamblerBenefactor/overworld_s0.png",
+                                          "images/creature/ShamblerBenefactor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShamblerBenefactor/overworld_w0.png",
+                                         "images/creature/ShamblerBenefactor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sea Shambler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  18,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  14
+                   },
+    "trait":  2000,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

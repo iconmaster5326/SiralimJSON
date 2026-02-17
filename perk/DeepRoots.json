@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "If your Herbling is the first creature in your party, it {ACTION_provokes} at the end of its turn. If your Herbling is the sixth creature in your party, it {ACTION_defends} at the end of its turn.",
-  "icon": "images/perk/DeepRoots.png",
-  "id": 337,
-  "maxRanks": 1,
-  "name": "Deep Roots",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 22
+    "anointable":  true,
+    "description":  "If your Herbling is the first creature in your party, it {ACTION_provokes} at the end of its turn. If your Herbling is the sixth creature in your party, it {ACTION_defends} at the end of its turn.",
+    "icon":  "images/perk/DeepRoots.png",
+    "id":  337,
+    "maxRanks":  1,
+    "name":  "Deep Roots",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  22,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

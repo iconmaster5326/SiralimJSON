@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Gargoyles:\nAfter your {RACE_Gargoyle}s {ACTION_cast} a {CLASS_Chaos} spell, your {RACE_Gargoyle}s gain 20% {ACTION_attack}. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheGargoyle.png",
-  "id": 1262,
-  "name": "Sigil of the Gargoyle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1437
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Gargoyles:\nAfter your {RACE_Gargoyle}s {ACTION_cast} a {CLASS_Chaos} spell, your {RACE_Gargoyle}s gain 20% {ACTION_attack}. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheGargoyle.png",
+    "id":  1262,
+    "name":  "Sigil of the Gargoyle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1437,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

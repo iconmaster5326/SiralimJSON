@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Meraxis/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": 2,
-  "id": 733,
-  "item": null,
-  "lore": "Meraxis\u0027s realm is an inhospitable place full of secrets that only the bravest adventurers dare to enter. However, the God of Bliss is peaceful and good-natured, and has a good relationship with the other Gods. Or, at least, as good as it can be with the likes of Torun and Tartarith. His innocence and carelessness have led him to remain on the sidelines during most of the conflicts that have endangered the world. However, he decided to take sides with the other Gods against the threat of an old ruler of Siralim.",
-  "menagerieDialog": [
-    "Peace be upon you, little one!",
-    "Peace and love, little {PLAYERNAME}.",
-    "My army of Aspects will keep a close eye on your kingdom and keep out any unwanted intruders.",
-    "Peace be with you, little one!",
-    "There\u0027s much more to life than fighting. Remember to practice balance in all things."
-  ],
-  "minDepth": 1,
-  "name": "Meraxis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Meraxis/overworld_e0.png",
-      "images/creature/Meraxis/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Meraxis/overworld_n0.png",
-      "images/creature/Meraxis/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Meraxis/overworld_s0.png",
-      "images/creature/Meraxis/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Meraxis/overworld_w0.png",
-      "images/creature/Meraxis/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    360,
-    405,
-    431
-  ],
-  "sources": [
-    {
-      "god": 2,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 19,
-    "health": 36,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 599
+    "battleSprite":  "images/creature/Meraxis/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  2,
+    "id":  733,
+    "item":  null,
+    "lore":  "Meraxis\u0027s realm is an inhospitable place full of secrets that only the bravest adventurers dare to enter. However, the God of Bliss is peaceful and good-natured, and has a good relationship with the other Gods. Or, at least, as good as it can be with the likes of Torun and Tartarith. His innocence and carelessness have led him to remain on the sidelines during most of the conflicts that have endangered the world. However, he decided to take sides with the other Gods against the threat of an old ruler of Siralim.",
+    "menagerieDialog":  [
+                            "Peace be upon you, little one!",
+                            "Peace and love, little {PLAYERNAME}.",
+                            "My army of Aspects will keep a close eye on your kingdom and keep out any unwanted intruders.",
+                            "Peace be with you, little one!",
+                            "There\u0027s much more to life than fighting. Remember to practice balance in all things."
+                        ],
+    "minDepth":  1,
+    "name":  "Meraxis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Meraxis/overworld_e0.png",
+                                         "images/creature/Meraxis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Meraxis/overworld_n0.png",
+                                          "images/creature/Meraxis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Meraxis/overworld_s0.png",
+                                          "images/creature/Meraxis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Meraxis/overworld_w0.png",
+                                         "images/creature/Meraxis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  360,
+                  405,
+                  431
+              ],
+    "sources":  [
+                    {
+                        "god":  2,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  19,
+                       "health":  36,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  599,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

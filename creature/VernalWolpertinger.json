@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/VernalWolpertinger/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 780,
-  "item": 15,
-  "lore": "When two Wolpertingers of different subspecies mate, half of the litter resembles the mother and the other half resembles the father. The Vernal Wolpertinger is the only one of its kind that carries its litter while hunting. On its own it has no magical power whatsoever, but when the whole family is together its skin emits a powerful multi-colored glow and becomes as tough as heavy armor.",
-  "menagerieDialog": [
-    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
-    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
-    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
-    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
-    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
-  ],
-  "minDepth": 1,
-  "name": "Vernal Wolpertinger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VernalWolpertinger/overworld_e0.png",
-      "images/creature/VernalWolpertinger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VernalWolpertinger/overworld_n0.png",
-      "images/creature/VernalWolpertinger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VernalWolpertinger/overworld_s0.png",
-      "images/creature/VernalWolpertinger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VernalWolpertinger/overworld_w0.png",
-      "images/creature/VernalWolpertinger/overworld_w1.png"
-    ]
-  },
-  "race": "Wolpertinger",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Nature Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 15,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 20
-  },
-  "trait": 1042
+    "battleSprite":  "images/creature/VernalWolpertinger/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  780,
+    "item":  15,
+    "lore":  "When two Wolpertingers of different subspecies mate, half of the litter resembles the mother and the other half resembles the father. The Vernal Wolpertinger is the only one of its kind that carries its litter while hunting. On its own it has no magical power whatsoever, but when the whole family is together its skin emits a powerful multi-colored glow and becomes as tough as heavy armor.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+                            "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+                            "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+                            "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+                            "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vernal Wolpertinger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VernalWolpertinger/overworld_e0.png",
+                                         "images/creature/VernalWolpertinger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VernalWolpertinger/overworld_n0.png",
+                                          "images/creature/VernalWolpertinger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VernalWolpertinger/overworld_s0.png",
+                                          "images/creature/VernalWolpertinger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VernalWolpertinger/overworld_w0.png",
+                                         "images/creature/VernalWolpertinger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wolpertinger",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nature Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  15,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  20
+                   },
+    "trait":  1042,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

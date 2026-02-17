@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ForsakenSpinewhipper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 336,
-  "item": 203,
-  "lore": "The physical strength of the Forsaken is immense. With their pincers, they can stop the fist of a Giant and cut off its hand.\\n\\nAt the beginning of a fight, the Spinewhipper uses her tentacles to stimulate her own spine with electric currents, increasing her speed considerably. She then uses her spine to hit her enemies in the face or grab them by the arms so that they cannot use their weapons.",
-  "menagerieDialog": [
-    "Give... human... flesh...",
-    "Slurp... muscles... from... body...",
-    "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
-    "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
-    "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
-  ],
-  "minDepth": 1,
-  "name": "Forsaken Spinewhipper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ForsakenSpinewhipper/overworld_e0.png",
-      "images/creature/ForsakenSpinewhipper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ForsakenSpinewhipper/overworld_n0.png",
-      "images/creature/ForsakenSpinewhipper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ForsakenSpinewhipper/overworld_s0.png",
-      "images/creature/ForsakenSpinewhipper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ForsakenSpinewhipper/overworld_w0.png",
-      "images/creature/ForsakenSpinewhipper/overworld_w1.png"
-    ]
-  },
-  "race": "Forsaken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Alexandria)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 20,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 15
-  },
-  "trait": 112
+    "battleSprite":  "images/creature/ForsakenSpinewhipper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  336,
+    "item":  203,
+    "lore":  "The physical strength of the Forsaken is immense. With their pincers, they can stop the fist of a Giant and cut off its hand.\\n\\nAt the beginning of a fight, the Spinewhipper uses her tentacles to stimulate her own spine with electric currents, increasing her speed considerably. She then uses her spine to hit her enemies in the face or grab them by the arms so that they cannot use their weapons.",
+    "menagerieDialog":  [
+                            "Give... human... flesh...",
+                            "Slurp... muscles... from... body...",
+                            "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
+                            "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
+                            "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
+                        ],
+    "minDepth":  1,
+    "name":  "Forsaken Spinewhipper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ForsakenSpinewhipper/overworld_e0.png",
+                                         "images/creature/ForsakenSpinewhipper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ForsakenSpinewhipper/overworld_n0.png",
+                                          "images/creature/ForsakenSpinewhipper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ForsakenSpinewhipper/overworld_s0.png",
+                                          "images/creature/ForsakenSpinewhipper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ForsakenSpinewhipper/overworld_w0.png",
+                                         "images/creature/ForsakenSpinewhipper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Forsaken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Alexandria)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  20,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  15
+                   },
+    "trait":  112,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

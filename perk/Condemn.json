@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, enemy {CLASS_Death} creatures are afflicted with {CONDNAME_DEBUFF_VULNERABLE} and lose 30% {STAT_defense}.\\n\\n{CONDDESC_DEBUFF_VULNERABLE}",
-  "icon": "images/perk/Condemn.png",
-  "id": 91,
-  "maxRanks": 1,
-  "name": "Condemn",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 6
+    "anointable":  true,
+    "description":  "At the start of battle, enemy {CLASS_Death} creatures are afflicted with {CONDNAME_DEBUFF_VULNERABLE} and lose 30% {STAT_defense}.\\n\\n{CONDDESC_DEBUFF_VULNERABLE}",
+    "icon":  "images/perk/Condemn.png",
+    "id":  91,
+    "maxRanks":  1,
+    "name":  "Condemn",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After an enemy attacks, they have a \u003C4\u003E% chance to be afflicted with {CONDNAME_DEBUFF_SCORN}.\\n\\n{CONDDESC_DEBUFF_SCORN}",
-  "icon": "images/perk/Contrition.png",
-  "id": 82,
-  "maxRanks": 25,
-  "name": "Contrition",
-  "notes": [],
-  "pointsPerRank": 4,
-  "specialization": 6
+    "anointable":  true,
+    "description":  "After an enemy attacks, they have a \u003c4\u003e% chance to be afflicted with {CONDNAME_DEBUFF_SCORN}.\\n\\n{CONDDESC_DEBUFF_SCORN}",
+    "icon":  "images/perk/Contrition.png",
+    "id":  82,
+    "maxRanks":  25,
+    "name":  "Contrition",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  4,
+    "specialization":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

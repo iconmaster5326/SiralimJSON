@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSquare Nothing:\nAfter this creature {ACTION_attacks}, it deals 60% of the damage dealt to each enemy that has at least one of the same debuffs as its target.",
-  "icon": "images/item/material/ChaserTuft.png",
-  "id": 724,
-  "name": "Chaser Tuft",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 663
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSquare Nothing:\nAfter this creature {ACTION_attacks}, it deals 60% of the damage dealt to each enemy that has at least one of the same debuffs as its target.",
+    "icon":  "images/item/material/ChaserTuft.png",
+    "id":  724,
+    "name":  "Chaser Tuft",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  663,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

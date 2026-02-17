@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreen Tether:\nAfter an adjacent ally heals a creature, this creature is healed for the same amount and gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of the amount healed. This trait does not work with creatures that also have this trait.",
-  "icon": "images/item/material/GreenShackle.png",
-  "id": 1591,
-  "name": "Green Shackle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1931
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreen Tether:\nAfter an adjacent ally heals a creature, this creature is healed for the same amount and gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of the amount healed. This trait does not work with creatures that also have this trait.",
+    "icon":  "images/item/material/GreenShackle.png",
+    "id":  1591,
+    "name":  "Green Shackle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1931,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

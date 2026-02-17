@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLab Assistant:\nYour creatures\u0027 Spell Gems that have the same name as this creature\u0027s Spell Gems deal 75% more damage. This trait does not stack.",
-  "icon": "images/item/material/AlchemicalCatalyst.png",
-  "id": 1537,
-  "name": "Alchemical Catalyst",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1878
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLab Assistant:\nYour creatures\u0027 Spell Gems that have the same name as this creature\u0027s Spell Gems deal 75% more damage. This trait does not stack.",
+    "icon":  "images/item/material/AlchemicalCatalyst.png",
+    "id":  1537,
+    "name":  "Alchemical Catalyst",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1878,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

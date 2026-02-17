@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElfHuntsman/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 558,
-  "item": 700,
-  "lore": "Elves feed on leaves, roots and fruit, never harming other creatures in the process. Therefore, an Elf Huntsman does not hunt animals, but intruders, or as they call them: \u0022Utter fools\u0022 or \u0022Insolent creatures who think they don\u0027t need an invitation to enter our domains and sully them with their disrespectful customs\u0022. Elf Huntsmen are the fastest and most skilled. They jump among the branches and hide in the leafy trees to remain undetected before they fall on their enemies and end their lives.",
-  "menagerieDialog": [
-    "The sound of elves singing at night is a spectacle worth witnessing.",
-    "No one shall trespass through our lands without consequences.",
-    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
-    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
-    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
-  ],
-  "minDepth": 1,
-  "name": "Elf Huntsman",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElfHuntsman/overworld_e0.png",
-      "images/creature/ElfHuntsman/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElfHuntsman/overworld_n0.png",
-      "images/creature/ElfHuntsman/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElfHuntsman/overworld_s0.png",
-      "images/creature/ElfHuntsman/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElfHuntsman/overworld_w0.png",
-      "images/creature/ElfHuntsman/overworld_w1.png"
-    ]
-  },
-  "race": "Elf",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Regalis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 639
+    "battleSprite":  "images/creature/ElfHuntsman/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  558,
+    "item":  700,
+    "lore":  "Elves feed on leaves, roots and fruit, never harming other creatures in the process. Therefore, an Elf Huntsman does not hunt animals, but intruders, or as they call them: \"Utter fools\" or \"Insolent creatures who think they don\u0027t need an invitation to enter our domains and sully them with their disrespectful customs\". Elf Huntsmen are the fastest and most skilled. They jump among the branches and hide in the leafy trees to remain undetected before they fall on their enemies and end their lives.",
+    "menagerieDialog":  [
+                            "The sound of elves singing at night is a spectacle worth witnessing.",
+                            "No one shall trespass through our lands without consequences.",
+                            "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+                            "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+                            "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elf Huntsman",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElfHuntsman/overworld_e0.png",
+                                         "images/creature/ElfHuntsman/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElfHuntsman/overworld_n0.png",
+                                          "images/creature/ElfHuntsman/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElfHuntsman/overworld_s0.png",
+                                          "images/creature/ElfHuntsman/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElfHuntsman/overworld_w0.png",
+                                         "images/creature/ElfHuntsman/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elf",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Regalis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  639,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

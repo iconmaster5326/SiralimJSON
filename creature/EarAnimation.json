@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EarAnimation/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1208,
-  "item": 1591,
-  "lore": "When an Animation is brought to life, it will obey any command from its creator, no matter what it is.\\n\\nEven the quietest footsteps can be perceived by the Ear Animation, which is why many necromancers use these creatures to watch their lairs. If they are forced to strike physically, they will frantically spin and quickly get out of the way to avoid receiving a counterattack.",
-  "menagerieDialog": [
-    "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
-    "(Where did this body part come from, anyway?)",
-    "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
-    "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
-    "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
-  ],
-  "minDepth": 1,
-  "name": "Ear Animation",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EarAnimation/overworld_e0.png",
-      "images/creature/EarAnimation/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EarAnimation/overworld_n0.png",
-      "images/creature/EarAnimation/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EarAnimation/overworld_s0.png",
-      "images/creature/EarAnimation/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EarAnimation/overworld_w0.png",
-      "images/creature/EarAnimation/overworld_w1.png"
-    ]
-  },
-  "race": "Animation",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 39,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1931
+    "battleSprite":  "images/creature/EarAnimation/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1208,
+    "item":  1591,
+    "lore":  "When an Animation is brought to life, it will obey any command from its creator, no matter what it is.\\n\\nEven the quietest footsteps can be perceived by the Ear Animation, which is why many necromancers use these creatures to watch their lairs. If they are forced to strike physically, they will frantically spin and quickly get out of the way to avoid receiving a counterattack.",
+    "menagerieDialog":  [
+                            "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
+                            "(Where did this body part come from, anyway?)",
+                            "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
+                            "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
+                            "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ear Animation",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EarAnimation/overworld_e0.png",
+                                         "images/creature/EarAnimation/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EarAnimation/overworld_n0.png",
+                                          "images/creature/EarAnimation/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EarAnimation/overworld_s0.png",
+                                          "images/creature/EarAnimation/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EarAnimation/overworld_w0.png",
+                                         "images/creature/EarAnimation/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Animation",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  39,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1931,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

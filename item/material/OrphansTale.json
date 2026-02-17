@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOf Hearts Unbowed:\nYour creatures have a 50% chance to resist being forcibly lowered on the {TIMELINE}. This trait does not stack.",
-  "icon": "images/item/material/OrphansTale.png",
-  "id": 1630,
-  "name": "Orphan\u0027s Tale",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1970
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOf Hearts Unbowed:\nYour creatures have a 50% chance to resist being forcibly lowered on the {TIMELINE}. This trait does not stack.",
+    "icon":  "images/item/material/OrphansTale.png",
+    "id":  1630,
+    "name":  "Orphan\u0027s Tale",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1970,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Bashcloak/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1092,
-  "item": 1528,
-  "lore": "Dark, humid places are these creatures\u0027 favorites. They share nests with bats and never feed on them, since they get rid of mosquitoes and other insects that could transmit diseases to them. In return, they continually give off a mist that makes it more difficult for these winged mammals to be preyed upon. When faced with threats, they take flight as high as possible and plummet on their would-be hunters to finish them off.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Bashcloak",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Bashcloak/overworld_e0.png",
-      "images/creature/Bashcloak/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Bashcloak/overworld_n0.png",
-      "images/creature/Bashcloak/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Bashcloak/overworld_s0.png",
-      "images/creature/Bashcloak/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Bashcloak/overworld_w0.png",
-      "images/creature/Bashcloak/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1835
+    "battleSprite":  "images/creature/Bashcloak/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1092,
+    "item":  1528,
+    "lore":  "Dark, humid places are these creatures\u0027 favorites. They share nests with bats and never feed on them, since they get rid of mosquitoes and other insects that could transmit diseases to them. In return, they continually give off a mist that makes it more difficult for these winged mammals to be preyed upon. When faced with threats, they take flight as high as possible and plummet on their would-be hunters to finish them off.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Bashcloak",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Bashcloak/overworld_e0.png",
+                                         "images/creature/Bashcloak/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Bashcloak/overworld_n0.png",
+                                          "images/creature/Bashcloak/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Bashcloak/overworld_s0.png",
+                                          "images/creature/Bashcloak/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Bashcloak/overworld_w0.png",
+                                         "images/creature/Bashcloak/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1835,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

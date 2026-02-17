@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWhiplash:\nAfter this creature {ACTION_attacks}, it also deals damage to 2 other enemies equal to 40% of its {STAT_attack}.",
-  "icon": "images/item/material/ConquerorTail.png",
-  "id": 385,
-  "name": "Conqueror Tail",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 301
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWhiplash:\nAfter this creature {ACTION_attacks}, it also deals damage to 2 other enemies equal to 40% of its {STAT_attack}.",
+    "icon":  "images/item/material/ConquerorTail.png",
+    "id":  385,
+    "name":  "Conqueror Tail",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  301,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

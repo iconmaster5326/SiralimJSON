@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/GorgonTrickster/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 631,
-  "item": 824,
-  "lore": "When the genocide forced the Gorgons to abandon their home, the Trickster earned Gonfurian\u0027s favor for devising a plan to deceive the human generals and escape their lands. The only hope for her kind was to take over the naval fleet, guarded by a fearsome garrison of warriors. She connected her essence to her sisters\u0027 and created the illusion of a meteor shower to make them flee in disarray. The plan worked, but her boldness cost her her sight. Now she is the undisputed leader of her people.",
-  "menagerieDialog": [
-    "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
-    "(Her snakes violently hiss upon your approach. Stupid snakes.)",
-    "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
-    "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
-    "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
-  ],
-  "minDepth": 1,
-  "name": "Gorgon Trickster",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GorgonTrickster/overworld_e0.png",
-      "images/creature/GorgonTrickster/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GorgonTrickster/overworld_n0.png",
-      "images/creature/GorgonTrickster/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GorgonTrickster/overworld_s0.png",
-      "images/creature/GorgonTrickster/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GorgonTrickster/overworld_w0.png",
-      "images/creature/GorgonTrickster/overworld_w1.png"
-    ]
-  },
-  "race": "Gorgon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 10,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 851
+    "battleSprite":  "images/creature/GorgonTrickster/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  631,
+    "item":  824,
+    "lore":  "When the genocide forced the Gorgons to abandon their home, the Trickster earned Gonfurian\u0027s favor for devising a plan to deceive the human generals and escape their lands. The only hope for her kind was to take over the naval fleet, guarded by a fearsome garrison of warriors. She connected her essence to her sisters\u0027 and created the illusion of a meteor shower to make them flee in disarray. The plan worked, but her boldness cost her her sight. Now she is the undisputed leader of her people.",
+    "menagerieDialog":  [
+                            "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
+                            "(Her snakes violently hiss upon your approach. Stupid snakes.)",
+                            "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
+                            "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
+                            "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Gorgon Trickster",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GorgonTrickster/overworld_e0.png",
+                                         "images/creature/GorgonTrickster/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GorgonTrickster/overworld_n0.png",
+                                          "images/creature/GorgonTrickster/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GorgonTrickster/overworld_s0.png",
+                                          "images/creature/GorgonTrickster/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GorgonTrickster/overworld_w0.png",
+                                         "images/creature/GorgonTrickster/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gorgon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  851,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

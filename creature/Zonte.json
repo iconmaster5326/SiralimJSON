@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Zonte/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": 3,
-  "id": 740,
-  "item": null,
-  "lore": "From outside, Zonte saw the Refuge of the Magi trapped in columns of blue fire that rose beyond the sky. He soon understood what had happened. The tower was collapsing, and only he could stop the process. Inside, he saw the other Magi, his friends and colleagues, turned into eerie copies of his master. He hurried to point 0 and found her completely disfigured and catatonic. He had to remove the nine Nether Orbs to save the tower, and each one would consume seven years of his life. Looking like an old man but still feeling young, he teleported to Siralim, built on top of a gigantic Nether Orb, to become a God and stop the impending disaster. But he had miscalculated, for he needed a tenth Orb. It was then that Vertraag suddenly appeared and handed it to him.",
-  "menagerieDialog": [
-    "Remain ever-vigilant, {PLAYERNAME}. You never know who will stab you in the back later on.",
-    "You must practice moderation in all things. That is the key to a fulfilling life.",
-    "We must not dwell on past mistakes. All we can do is look forward to the future.",
-    "You must strive to be a lifelong learner. Otherwise, what is the purpose of being alive?",
-    "Legends speak of a Spell Gem called Colorwave that draws immense power from each of the five elements."
-  ],
-  "minDepth": 1,
-  "name": "Zonte",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Zonte/overworld_e0.png",
-      "images/creature/Zonte/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Zonte/overworld_n0.png",
-      "images/creature/Zonte/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Zonte/overworld_s0.png",
-      "images/creature/Zonte/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Zonte/overworld_w0.png",
-      "images/creature/Zonte/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    372,
-    417,
-    429
-  ],
-  "sources": [
-    {
-      "god": 3,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 607
+    "battleSprite":  "images/creature/Zonte/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  3,
+    "id":  740,
+    "item":  null,
+    "lore":  "From outside, Zonte saw the Refuge of the Magi trapped in columns of blue fire that rose beyond the sky. He soon understood what had happened. The tower was collapsing, and only he could stop the process. Inside, he saw the other Magi, his friends and colleagues, turned into eerie copies of his master. He hurried to point 0 and found her completely disfigured and catatonic. He had to remove the nine Nether Orbs to save the tower, and each one would consume seven years of his life. Looking like an old man but still feeling young, he teleported to Siralim, built on top of a gigantic Nether Orb, to become a God and stop the impending disaster. But he had miscalculated, for he needed a tenth Orb. It was then that Vertraag suddenly appeared and handed it to him.",
+    "menagerieDialog":  [
+                            "Remain ever-vigilant, {PLAYERNAME}. You never know who will stab you in the back later on.",
+                            "You must practice moderation in all things. That is the key to a fulfilling life.",
+                            "We must not dwell on past mistakes. All we can do is look forward to the future.",
+                            "You must strive to be a lifelong learner. Otherwise, what is the purpose of being alive?",
+                            "Legends speak of a Spell Gem called Colorwave that draws immense power from each of the five elements."
+                        ],
+    "minDepth":  1,
+    "name":  "Zonte",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Zonte/overworld_e0.png",
+                                         "images/creature/Zonte/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Zonte/overworld_n0.png",
+                                          "images/creature/Zonte/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Zonte/overworld_s0.png",
+                                          "images/creature/Zonte/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Zonte/overworld_w0.png",
+                                         "images/creature/Zonte/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  372,
+                  417,
+                  429
+              ],
+    "sources":  [
+                    {
+                        "god":  3,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  607,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

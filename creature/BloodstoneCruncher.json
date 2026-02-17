@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BloodstoneCruncher/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 940,
-  "item": 944,
-  "lore": "When the Ravens created the Temple of Lies with Vertraag\u0027s help, no creature except the Carbuncles inhabited its cold walls. But life, somehow, found a way.\\n\\nThe Bloodstone Cruncher\u0027s fangs are extraordinarily sharp and hard, capable of piercing even stone. As their name suggests, their diet is strictly based on the blood of other creatures, but they obtain more nutrients by eating a magic item, or even better, a magical creature.",
-  "menagerieDialog": [
-    "(Upon your approach, it withdraws into its shell. It must be tired.)",
-    "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
-    "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
-    "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
-    "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
-  ],
-  "minDepth": 1,
-  "name": "Bloodstone Cruncher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BloodstoneCruncher/overworld_e0.png",
-      "images/creature/BloodstoneCruncher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BloodstoneCruncher/overworld_n0.png",
-      "images/creature/BloodstoneCruncher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BloodstoneCruncher/overworld_s0.png",
-      "images/creature/BloodstoneCruncher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BloodstoneCruncher/overworld_w0.png",
-      "images/creature/BloodstoneCruncher/overworld_w1.png"
-    ]
-  },
-  "race": "Cruncher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 8
-  },
-  "trait": 1192
+    "battleSprite":  "images/creature/BloodstoneCruncher/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  940,
+    "item":  944,
+    "lore":  "When the Ravens created the Temple of Lies with Vertraag\u0027s help, no creature except the Carbuncles inhabited its cold walls. But life, somehow, found a way.\\n\\nThe Bloodstone Cruncher\u0027s fangs are extraordinarily sharp and hard, capable of piercing even stone. As their name suggests, their diet is strictly based on the blood of other creatures, but they obtain more nutrients by eating a magic item, or even better, a magical creature.",
+    "menagerieDialog":  [
+                            "(Upon your approach, it withdraws into its shell. It must be tired.)",
+                            "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
+                            "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
+                            "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
+                            "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bloodstone Cruncher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BloodstoneCruncher/overworld_e0.png",
+                                         "images/creature/BloodstoneCruncher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BloodstoneCruncher/overworld_n0.png",
+                                          "images/creature/BloodstoneCruncher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BloodstoneCruncher/overworld_s0.png",
+                                          "images/creature/BloodstoneCruncher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BloodstoneCruncher/overworld_w0.png",
+                                         "images/creature/BloodstoneCruncher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cruncher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  8
+                   },
+    "trait":  1192,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

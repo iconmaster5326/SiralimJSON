@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/JungleShade/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 67,
-  "name": "Jungle Shade",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/JungleShade/overworld_e0.png",
-      "images/skin/JungleShade/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/JungleShade/overworld_n0.png",
-      "images/skin/JungleShade/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/JungleShade/overworld_s0.png",
-      "images/skin/JungleShade/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/JungleShade/overworld_w0.png",
-      "images/skin/JungleShade/overworld_w1.png"
-    ]
-  },
-  "race": "Shade",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/JungleShade/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  67,
+    "name":  "Jungle Shade",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/JungleShade/overworld_e0.png",
+                                         "images/skin/JungleShade/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/JungleShade/overworld_n0.png",
+                                          "images/skin/JungleShade/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/JungleShade/overworld_s0.png",
+                                          "images/skin/JungleShade/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/JungleShade/overworld_w0.png",
+                                         "images/skin/JungleShade/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shade",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

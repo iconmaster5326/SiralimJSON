@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMass Entanglement:\nAfter this creature {ACTION_defends}, each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_SNARED}.",
-  "icon": "images/item/material/MossCog.png",
-  "id": 413,
-  "name": "Moss Cog",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 328
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMass Entanglement:\nAfter this creature {ACTION_defends}, each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_SNARED}.",
+    "icon":  "images/item/material/MossCog.png",
+    "id":  413,
+    "name":  "Moss Cog",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  328,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

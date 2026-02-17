@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLingering Frost:\nAfter an enemy\u0027s {CONDNAME_DEBUFF_FROZEN} debuff expires, this creature afflicts it with {CONDNAME_DEBUFF_SNARED}.",
-  "icon": "images/item/material/IcemaneSnowball.png",
-  "id": 472,
-  "name": "Icemane Snowball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 386
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLingering Frost:\nAfter an enemy\u0027s {CONDNAME_DEBUFF_FROZEN} debuff expires, this creature afflicts it with {CONDNAME_DEBUFF_SNARED}.",
+    "icon":  "images/item/material/IcemaneSnowball.png",
+    "id":  472,
+    "name":  "Icemane Snowball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  386,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

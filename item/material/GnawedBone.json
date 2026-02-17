@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFeast and Famine:\nEnemies that die with {CONDNAME_DEBUFF_FEAR} cannot be resurrected.",
-  "icon": "images/item/material/GnawedBone.png",
-  "id": 1764,
-  "name": "Gnawed Bone",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2117
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFeast and Famine:\nEnemies that die with {CONDNAME_DEBUFF_FEAR} cannot be resurrected.",
+    "icon":  "images/item/material/GnawedBone.png",
+    "id":  1764,
+    "name":  "Gnawed Bone",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2117,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

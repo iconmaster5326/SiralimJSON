@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Alacrity:\nAt the start of battle, this creature loses 30% {STAT_speed}, then its {STAT_attack} and {STAT_intelligence} are set equal to its {STAT_speed}.",
-  "icon": "images/item/material/PandemoniumSkull.png",
-  "id": 897,
-  "name": "Pandemonium Skull",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 776
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Alacrity:\nAt the start of battle, this creature loses 30% {STAT_speed}, then its {STAT_attack} and {STAT_intelligence} are set equal to its {STAT_speed}.",
+    "icon":  "images/item/material/PandemoniumSkull.png",
+    "id":  897,
+    "name":  "Pandemonium Skull",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  776,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

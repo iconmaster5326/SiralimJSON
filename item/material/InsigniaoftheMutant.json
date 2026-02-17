@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSouls of the Damned:\nAfter this creature kills a creature, it gains its innate trait and 20% of its {STAT_attack} and {STAT_defense}.",
-  "icon": "images/item/material/InsigniaoftheMutant.png",
-  "id": 1683,
-  "name": "Insignia of the Mutant",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2025
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSouls of the Damned:\nAfter this creature kills a creature, it gains its innate trait and 20% of its {STAT_attack} and {STAT_defense}.",
+    "icon":  "images/item/material/InsigniaoftheMutant.png",
+    "id":  1683,
+    "name":  "Insignia of the Mutant",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2025,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

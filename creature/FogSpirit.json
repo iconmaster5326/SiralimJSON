@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/FogSpirit/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 629,
-  "item": 874,
-  "lore": "There are many legends surrounding the world\u0027s oceans. They speak of curses, great treasures and unexplored lands. The story of the Fog Spirit goes back to that of William James, a famous pirate who sailed the waters for decades and discovered impossible places. His last journey took him to an island that floated above the northern sea, where he found a magnificent treasure. A cursed treasure. The Fog Spirit appeared when this happened, and it has traveled the world since, breaking minor curses.",
-  "menagerieDialog": [
-    "(Something about this creature\u0027s presence is particularly comforting.)",
-    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
-    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
-    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
-    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Fog Spirit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FogSpirit/overworld_e0.png",
-      "images/creature/FogSpirit/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FogSpirit/overworld_n0.png",
-      "images/creature/FogSpirit/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FogSpirit/overworld_s0.png",
-      "images/creature/FogSpirit/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FogSpirit/overworld_w0.png",
-      "images/creature/FogSpirit/overworld_w1.png"
-    ]
-  },
-  "race": "Spirit",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 901
+    "battleSprite":  "images/creature/FogSpirit/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  629,
+    "item":  874,
+    "lore":  "There are many legends surrounding the world\u0027s oceans. They speak of curses, great treasures and unexplored lands. The story of the Fog Spirit goes back to that of William James, a famous pirate who sailed the waters for decades and discovered impossible places. His last journey took him to an island that floated above the northern sea, where he found a magnificent treasure. A cursed treasure. The Fog Spirit appeared when this happened, and it has traveled the world since, breaking minor curses.",
+    "menagerieDialog":  [
+                            "(Something about this creature\u0027s presence is particularly comforting.)",
+                            "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+                            "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+                            "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+                            "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Fog Spirit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FogSpirit/overworld_e0.png",
+                                         "images/creature/FogSpirit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FogSpirit/overworld_n0.png",
+                                          "images/creature/FogSpirit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FogSpirit/overworld_s0.png",
+                                          "images/creature/FogSpirit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FogSpirit/overworld_w0.png",
+                                         "images/creature/FogSpirit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spirit",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  901,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

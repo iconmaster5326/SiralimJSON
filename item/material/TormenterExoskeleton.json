@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeadly Instincts:\nAfter this creature kills an enemy, it deals damage to all other enemies equal to 75% of this creature\u0027s Current {STAT_health}.",
-  "icon": "images/item/material/TormenterExoskeleton.png",
-  "id": 194,
-  "name": "Tormenter Exoskeleton",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 104
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeadly Instincts:\nAfter this creature kills an enemy, it deals damage to all other enemies equal to 75% of this creature\u0027s Current {STAT_health}.",
+    "icon":  "images/item/material/TormenterExoskeleton.png",
+    "id":  194,
+    "name":  "Tormenter Exoskeleton",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  104,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Greybeard/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1158,
-  "item": 1541,
-  "lore": "These dogs are the guardians of an order of Magi from the kingdom of Ercath. Their cloaks and staves are their hallmarks, and they have been infused with magic in such a way that they have acquired certain peculiarities. They are capable of finding any member of the order as long as they are within a ten miles radius, and they perceive the presence of intruders within their headquarters from the moment they set foot inside it. At that moment, the pack goes on the attack while barking to alarm the members of the order.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Greybeard",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Greybeard/overworld_e0.png",
-      "images/creature/Greybeard/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Greybeard/overworld_n0.png",
-      "images/creature/Greybeard/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Greybeard/overworld_s0.png",
-      "images/creature/Greybeard/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Greybeard/overworld_w0.png",
-      "images/creature/Greybeard/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 39,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1881
+    "battleSprite":  "images/creature/Greybeard/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1158,
+    "item":  1541,
+    "lore":  "These dogs are the guardians of an order of Magi from the kingdom of Ercath. Their cloaks and staves are their hallmarks, and they have been infused with magic in such a way that they have acquired certain peculiarities. They are capable of finding any member of the order as long as they are within a ten miles radius, and they perceive the presence of intruders within their headquarters from the moment they set foot inside it. At that moment, the pack goes on the attack while barking to alarm the members of the order.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Greybeard",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Greybeard/overworld_e0.png",
+                                         "images/creature/Greybeard/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Greybeard/overworld_n0.png",
+                                          "images/creature/Greybeard/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Greybeard/overworld_s0.png",
+                                          "images/creature/Greybeard/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Greybeard/overworld_w0.png",
+                                         "images/creature/Greybeard/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  39,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1881,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

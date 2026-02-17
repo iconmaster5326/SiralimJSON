@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, they have a 20% chance to {ACTION_cast} [icons,1984]Virus.",
-  "icon": "images/perk/DispersingPlague.png",
-  "id": 495,
-  "maxRanks": 1,
-  "name": "Dispersing Plague",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, they have a 20% chance to {ACTION_cast} [icons,1984]Virus.",
+    "icon":  "images/perk/DispersingPlague.png",
+    "id":  495,
+    "maxRanks":  1,
+    "name":  "Dispersing Plague",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPotency:\nYour creatures\u0027 spells that increase or decrease stats are 25% more effective for each {RACE_Familiar} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/PalacePinion.png",
-  "id": 503,
-  "name": "Palace Pinion",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 417
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPotency:\nYour creatures\u0027 spells that increase or decrease stats are 25% more effective for each {RACE_Familiar} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/PalacePinion.png",
+    "id":  503,
+    "name":  "Palace Pinion",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  417,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

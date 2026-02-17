@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNature\u0027s Blessing:\nYour creatures always have {CONDNAME_BUFF_MEND} and take 15% less damage. This trait does not stack.",
-  "icon": "images/item/material/EbonyBranch.png",
-  "id": 556,
-  "name": "Ebony Branch",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 470
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNature\u0027s Blessing:\nYour creatures always have {CONDNAME_BUFF_MEND} and take 15% less damage. This trait does not stack.",
+    "icon":  "images/item/material/EbonyBranch.png",
+    "id":  556,
+    "name":  "Ebony Branch",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  470,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

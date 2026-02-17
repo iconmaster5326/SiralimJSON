@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Salamanders:\nIf all the creatures in your party are {RACE_Salamander}s, their spells are 60% more potent. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheSalamander.png",
-  "id": 1218,
-  "name": "Sigil of the Salamander",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1482
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Salamanders:\nIf all the creatures in your party are {RACE_Salamander}s, their spells are 60% more potent. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheSalamander.png",
+    "id":  1218,
+    "name":  "Sigil of the Salamander",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1482,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

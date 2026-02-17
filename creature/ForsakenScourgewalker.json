@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ForsakenScourgewalker/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 335,
-  "item": 202,
-  "lore": "The Forsaken are insatiable creatures that feed mainly on human flesh. Like Ghouls, they have lost their minds and identities and have become tireless killers that only steel and magic can stop.\\n\\nThe last battle of the Unification War caused serious damage to the city of Omnia. It was soon on fire, and the women who died by the flames became Scourgewalkers. When they find people, they turn the fire of their own body into spells to end their lives.",
-  "menagerieDialog": [
-    "Give... human... flesh...",
-    "Slurp... muscles... from... body...",
-    "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
-    "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
-    "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
-  ],
-  "minDepth": 1,
-  "name": "Forsaken Scourgewalker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ForsakenScourgewalker/overworld_e0.png",
-      "images/creature/ForsakenScourgewalker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ForsakenScourgewalker/overworld_n0.png",
-      "images/creature/ForsakenScourgewalker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ForsakenScourgewalker/overworld_s0.png",
-      "images/creature/ForsakenScourgewalker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ForsakenScourgewalker/overworld_w0.png",
-      "images/creature/ForsakenScourgewalker/overworld_w1.png"
-    ]
-  },
-  "race": "Forsaken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Alexandria)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 22,
-    "health": 32,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 111
+    "battleSprite":  "images/creature/ForsakenScourgewalker/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  335,
+    "item":  202,
+    "lore":  "The Forsaken are insatiable creatures that feed mainly on human flesh. Like Ghouls, they have lost their minds and identities and have become tireless killers that only steel and magic can stop.\\n\\nThe last battle of the Unification War caused serious damage to the city of Omnia. It was soon on fire, and the women who died by the flames became Scourgewalkers. When they find people, they turn the fire of their own body into spells to end their lives.",
+    "menagerieDialog":  [
+                            "Give... human... flesh...",
+                            "Slurp... muscles... from... body...",
+                            "(It\u0027s sitting down, staring straight ahead with drool dripping down its cheek. You really picked a winner with this one.)",
+                            "(If you look closely enough, you can still see some glimmer of beauty in this creature before it was grossly transformed into... whatever it is now.)",
+                            "Leave no one alive. A single mercy could be your kingdom\u0027s undoing."
+                        ],
+    "minDepth":  1,
+    "name":  "Forsaken Scourgewalker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ForsakenScourgewalker/overworld_e0.png",
+                                         "images/creature/ForsakenScourgewalker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ForsakenScourgewalker/overworld_n0.png",
+                                          "images/creature/ForsakenScourgewalker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ForsakenScourgewalker/overworld_s0.png",
+                                          "images/creature/ForsakenScourgewalker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ForsakenScourgewalker/overworld_w0.png",
+                                         "images/creature/ForsakenScourgewalker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Forsaken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Alexandria)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  22,
+                       "health":  32,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  111,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

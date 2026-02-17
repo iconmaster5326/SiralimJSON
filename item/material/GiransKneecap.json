@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGiran\u0027s Unity:\nThis creature has additional stats equal to 10% of your other creatures\u0027 stats. This trait does not work with creatures that also have this trait.",
-  "icon": "images/item/material/GiransKneecap.png",
-  "id": 1119,
-  "name": "Giran\u0027s Kneecap",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1264
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGiran\u0027s Unity:\nThis creature has additional stats equal to 10% of your other creatures\u0027 stats. This trait does not work with creatures that also have this trait.",
+    "icon":  "images/item/material/GiransKneecap.png",
+    "id":  1119,
+    "name":  "Giran\u0027s Kneecap",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1264,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

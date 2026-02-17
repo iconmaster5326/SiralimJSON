@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTumble:\nYour creatures\u0027 Spell Gems with the \u0022Cascading\u0022 property now consume 3 {STAT_charges} when cast, and are 50% more potent. This trait does not stack.",
-  "icon": "images/item/material/EternaldewShard.png",
-  "id": 938,
-  "name": "Eternaldew Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1198
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTumble:\nYour creatures\u0027 Spell Gems with the \"Cascading\" property now consume 3 {STAT_charges} when cast, and are 50% more potent. This trait does not stack.",
+    "icon":  "images/item/material/EternaldewShard.png",
+    "id":  938,
+    "name":  "Eternaldew Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1198,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

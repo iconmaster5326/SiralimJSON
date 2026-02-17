@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFlay:\nThis creature\u0027s attacks deal 75% more damage and afflict {CONDNAME_DEBUFF_BLEED}.",
-  "icon": "images/item/material/PeasantSickle.png",
-  "id": 580,
-  "name": "Peasant Sickle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 494
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFlay:\nThis creature\u0027s attacks deal 75% more damage and afflict {CONDNAME_DEBUFF_BLEED}.",
+    "icon":  "images/item/material/PeasantSickle.png",
+    "id":  580,
+    "name":  "Peasant Sickle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  494,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

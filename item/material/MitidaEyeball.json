@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCenter of the Universe:\nAt the start of battle, your creatures share copies of their permanent {CLASS_Life} Spell Gems (maximum of 5) with each other. This trait does not stack.",
-  "icon": "images/item/material/MitidaEyeball.png",
-  "id": 166,
-  "name": "Mitida Eyeball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 76
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCenter of the Universe:\nAt the start of battle, your creatures share copies of their permanent {CLASS_Life} Spell Gems (maximum of 5) with each other. This trait does not stack.",
+    "icon":  "images/item/material/MitidaEyeball.png",
+    "id":  166,
+    "name":  "Mitida Eyeball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  76,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_DEBUFF_SLEEP} cannot act until they either take damage or this debuff wears off.",
-  "icon": "images/condition/Sleeping.png",
-  "iconResisted": "images/condition/Sleeping_resist.png",
-  "id": 25,
-  "material": null,
-  "name": "Sleeping",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "Creatures with {CONDNAME_DEBUFF_SLEEP} cannot act until they either take damage or this debuff wears off.",
+    "icon":  "images/condition/Sleeping.png",
+    "iconResisted":  "images/condition/Sleeping_resist.png",
+    "id":  25,
+    "material":  null,
+    "name":  "Sleeping",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

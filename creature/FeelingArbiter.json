@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FeelingArbiter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1184,
-  "item": 1567,
-  "lore": "The world is full of intelligent creatures, and some stand out from the rest in one or more respects. Many attract the attention of the Auditors but, because of their behavior or their way of thinking, they are not considered suitable to carry out their designs.\\n\\nUnlike Moving Arbiters, Feeling Arbiters do not resolve conflicts by force. When they intervene in an argument between two people, they sometimes decide to cast a silencing spell on one of them if that person is not listening to what the other one says.",
-  "menagerieDialog": [
-    "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
-    "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
-    "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
-    "(This creature moves with the grace and regality of a nobleman.)",
-    "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
-  ],
-  "minDepth": 1,
-  "name": "Feeling Arbiter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FeelingArbiter/overworld_e0.png",
-      "images/creature/FeelingArbiter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FeelingArbiter/overworld_n0.png",
-      "images/creature/FeelingArbiter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FeelingArbiter/overworld_s0.png",
-      "images/creature/FeelingArbiter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FeelingArbiter/overworld_w0.png",
-      "images/creature/FeelingArbiter/overworld_w1.png"
-    ]
-  },
-  "race": "Arbiter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1907
+    "battleSprite":  "images/creature/FeelingArbiter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1184,
+    "item":  1567,
+    "lore":  "The world is full of intelligent creatures, and some stand out from the rest in one or more respects. Many attract the attention of the Auditors but, because of their behavior or their way of thinking, they are not considered suitable to carry out their designs.\\n\\nUnlike Moving Arbiters, Feeling Arbiters do not resolve conflicts by force. When they intervene in an argument between two people, they sometimes decide to cast a silencing spell on one of them if that person is not listening to what the other one says.",
+    "menagerieDialog":  [
+                            "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
+                            "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
+                            "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
+                            "(This creature moves with the grace and regality of a nobleman.)",
+                            "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Feeling Arbiter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FeelingArbiter/overworld_e0.png",
+                                         "images/creature/FeelingArbiter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FeelingArbiter/overworld_n0.png",
+                                          "images/creature/FeelingArbiter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FeelingArbiter/overworld_s0.png",
+                                          "images/creature/FeelingArbiter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FeelingArbiter/overworld_w0.png",
+                                         "images/creature/FeelingArbiter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arbiter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1907,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

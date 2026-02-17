@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/GraniteGolem/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 146,
-  "item": 410,
-  "lore": "Granite Golems hate Magi and everything related to them. Even though they are quite loyal to their masters, it can be dangerous for a Mage to own one, as their instincts can provoke the occasional outburst that usually results in property damage. On the other hand, whenever a magical accident causes damage to a town, this creature always appears to help rebuild it.",
-  "menagerieDialog": [
-    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
-    "(It\u0027s... shadowboxing. Weird.)",
-    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
-    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
-    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Granite Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GraniteGolem/overworld_e0.png",
-      "images/creature/GraniteGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GraniteGolem/overworld_n0.png",
-      "images/creature/GraniteGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GraniteGolem/overworld_s0.png",
-      "images/creature/GraniteGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GraniteGolem/overworld_w0.png",
-      "images/creature/GraniteGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 39,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 325
+    "battleSprite":  "images/creature/GraniteGolem/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  146,
+    "item":  410,
+    "lore":  "Granite Golems hate Magi and everything related to them. Even though they are quite loyal to their masters, it can be dangerous for a Mage to own one, as their instincts can provoke the occasional outburst that usually results in property damage. On the other hand, whenever a magical accident causes damage to a town, this creature always appears to help rebuild it.",
+    "menagerieDialog":  [
+                            "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+                            "(It\u0027s... shadowboxing. Weird.)",
+                            "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+                            "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+                            "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Granite Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GraniteGolem/overworld_e0.png",
+                                         "images/creature/GraniteGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GraniteGolem/overworld_n0.png",
+                                          "images/creature/GraniteGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GraniteGolem/overworld_s0.png",
+                                          "images/creature/GraniteGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GraniteGolem/overworld_w0.png",
+                                         "images/creature/GraniteGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  39,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  325,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

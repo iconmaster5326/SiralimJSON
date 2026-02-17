@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Forge/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 297,
-  "name": "Forge",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Forge/overworld_e0.png",
-      "images/skin/Forge/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Forge/overworld_n0.png",
-      "images/skin/Forge/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Forge/overworld_s0.png",
-      "images/skin/Forge/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Forge/overworld_w0.png",
-      "images/skin/Forge/overworld_w1.png"
-    ]
-  },
-  "race": "Doomguard",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Forge/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  297,
+    "name":  "Forge",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Forge/overworld_e0.png",
+                                         "images/skin/Forge/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Forge/overworld_n0.png",
+                                          "images/skin/Forge/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Forge/overworld_s0.png",
+                                          "images/skin/Forge/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Forge/overworld_w0.png",
+                                         "images/skin/Forge/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doomguard",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

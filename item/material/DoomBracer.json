@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDevil\u0027s Deceit:\nThis creature deals 200% more damage to {CLASS_Chaos} creatures and takes 65% less damage from them.",
-  "icon": "images/item/material/DoomBracer.png",
-  "id": 300,
-  "name": "Doom Bracer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 216
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDevil\u0027s Deceit:\nThis creature deals 200% more damage to {CLASS_Chaos} creatures and takes 65% less damage from them.",
+    "icon":  "images/item/material/DoomBracer.png",
+    "id":  300,
+    "name":  "Doom Bracer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  216,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

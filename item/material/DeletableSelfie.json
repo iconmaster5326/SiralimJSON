@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFishing for Compliments:\nAfter one of your creatures {ACTION_cast} a single-target healing spell on an enemy with {CONDNAME_DEBUFF_MANIA}, that enemy {ACTION_casts} that spell on your creature as well. This trait does not stack.",
-  "icon": "images/item/material/DeletableSelfie.png",
-  "id": 1834,
-  "name": "Deletable Selfie",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2178
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFishing for Compliments:\nAfter one of your creatures {ACTION_cast} a single-target healing spell on an enemy with {CONDNAME_DEBUFF_MANIA}, that enemy {ACTION_casts} that spell on your creature as well. This trait does not stack.",
+    "icon":  "images/item/material/DeletableSelfie.png",
+    "id":  1834,
+    "name":  "Deletable Selfie",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2178,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAutonomous Network:\nAfter your {RACE_Clockwork} creatures\u0027 innate traits activate, your other creatures gain 20% of these stats as well. This trait does not stack.",
-  "icon": "images/item/material/NeuralHiveNetworkImplant.png",
-  "id": 1562,
-  "name": "Neural Hive Network Implant",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1905
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAutonomous Network:\nAfter your {RACE_Clockwork} creatures\u0027 innate traits activate, your other creatures gain 20% of these stats as well. This trait does not stack.",
+    "icon":  "images/item/material/NeuralHiveNetworkImplant.png",
+    "id":  1562,
+    "name":  "Neural Hive Network Implant",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1905,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

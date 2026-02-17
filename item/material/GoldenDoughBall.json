@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreed Is Good:\nYour {RACE_Dumpling}s deal 7% more damage for each turn all your {RACE_Dumpling}s have taken in the current battle. This trait does not stack.",
-  "icon": "images/item/material/GoldenDoughBall.png",
-  "id": 1288,
-  "name": "Golden Dough Ball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1526
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreed Is Good:\nYour {RACE_Dumpling}s deal 7% more damage for each turn all your {RACE_Dumpling}s have taken in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/GoldenDoughBall.png",
+    "id":  1288,
+    "name":  "Golden Dough Ball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1526,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

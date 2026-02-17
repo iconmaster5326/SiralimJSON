@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After one of your creatures removes a buff from an enemy, the enemy takes damage equal to 50% of the creature\u0027s {STAT_intelligence}. This effect can only happen once per creature each turn.",
-  "icon": "images/perk/Anagnorisis.png",
-  "id": 619,
-  "maxRanks": 1,
-  "name": "Anagnorisis",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 42
+    "anointable":  true,
+    "description":  "After one of your creatures removes a buff from an enemy, the enemy takes damage equal to 50% of the creature\u0027s {STAT_intelligence}. This effect can only happen once per creature each turn.",
+    "icon":  "images/perk/Anagnorisis.png",
+    "id":  619,
+    "maxRanks":  1,
+    "name":  "Anagnorisis",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  42,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

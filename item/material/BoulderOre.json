@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNext Generation:\nAfter this creature dies, it grants 30% of its {STAT_attack}, {STAT_intelligence}, {STAT_defense}, {STAT_speed}, and its innate trait to your {RACE_Imling}s.",
-  "icon": "images/item/material/BoulderOre.png",
-  "id": 533,
-  "name": "Boulder Ore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 447
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNext Generation:\nAfter this creature dies, it grants 30% of its {STAT_attack}, {STAT_intelligence}, {STAT_defense}, {STAT_speed}, and its innate trait to your {RACE_Imling}s.",
+    "icon":  "images/item/material/BoulderOre.png",
+    "id":  533,
+    "name":  "Boulder Ore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  447,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

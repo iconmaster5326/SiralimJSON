@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTo Move On Is To Grow:\nThis creature\u0027s attacks deal 100% more damage if it {ACTION_cast} a spell last turn. This creature\u0027s spells deal 100% more damage if it {ACTION_attacked} last turn.",
-  "icon": "images/item/material/ParticleofTenbran.png",
-  "id": 1087,
-  "name": "Particle of Tenbran",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1052
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTo Move On Is To Grow:\nThis creature\u0027s attacks deal 100% more damage if it {ACTION_cast} a spell last turn. This creature\u0027s spells deal 100% more damage if it {ACTION_attacked} last turn.",
+    "icon":  "images/item/material/ParticleofTenbran.png",
+    "id":  1087,
+    "name":  "Particle of Tenbran",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1052,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

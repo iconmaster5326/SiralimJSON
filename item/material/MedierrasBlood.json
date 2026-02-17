@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMedierra\u0027s Struggle:\nYour creatures take 1 extra turn if they\u0027re below 50% {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/MedierrasBlood.png",
-  "id": 915,
-  "name": "Medierra\u0027s Blood",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 951
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMedierra\u0027s Struggle:\nYour creatures take 1 extra turn if they\u0027re below 50% {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/MedierrasBlood.png",
+    "id":  915,
+    "name":  "Medierra\u0027s Blood",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  951,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

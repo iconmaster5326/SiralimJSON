@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDerision:\nThis creature always has {CONDNAME_BUFF_TAUNT}, and it takes 50% less damage while it is {ACTION_provoking}.",
-  "icon": "images/item/material/StrongholdBrick.png",
-  "id": 330,
-  "name": "Stronghold Brick",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 246
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDerision:\nThis creature always has {CONDNAME_BUFF_TAUNT}, and it takes 50% less damage while it is {ACTION_provoking}.",
+    "icon":  "images/item/material/StrongholdBrick.png",
+    "id":  330,
+    "name":  "Stronghold Brick",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  246,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

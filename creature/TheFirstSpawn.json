@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TheFirstSpawn/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1114,
-  "item": 1635,
-  "lore": "There are many species of lizards in the world, however, all of them come from a single one that existed even before the Gods shaped the continents and oceans. It is fast and elusive, able to blend into any environment. Although the rest of its species evolved to become less dangerous when they adapted to their environment, some of them remained in their original form due to the extreme conditions that occur on the island of Bieiros, the only place in the world in which the First Spawns can be found in the wild.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "The First Spawn",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TheFirstSpawn/overworld_e0.png",
-      "images/creature/TheFirstSpawn/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TheFirstSpawn/overworld_n0.png",
-      "images/creature/TheFirstSpawn/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TheFirstSpawn/overworld_s0.png",
-      "images/creature/TheFirstSpawn/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TheFirstSpawn/overworld_w0.png",
-      "images/creature/TheFirstSpawn/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 31,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1838
+    "battleSprite":  "images/creature/TheFirstSpawn/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1114,
+    "item":  1635,
+    "lore":  "There are many species of lizards in the world, however, all of them come from a single one that existed even before the Gods shaped the continents and oceans. It is fast and elusive, able to blend into any environment. Although the rest of its species evolved to become less dangerous when they adapted to their environment, some of them remained in their original form due to the extreme conditions that occur on the island of Bieiros, the only place in the world in which the First Spawns can be found in the wild.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "The First Spawn",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TheFirstSpawn/overworld_e0.png",
+                                         "images/creature/TheFirstSpawn/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TheFirstSpawn/overworld_n0.png",
+                                          "images/creature/TheFirstSpawn/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TheFirstSpawn/overworld_s0.png",
+                                          "images/creature/TheFirstSpawn/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TheFirstSpawn/overworld_w0.png",
+                                         "images/creature/TheFirstSpawn/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  31,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1838,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

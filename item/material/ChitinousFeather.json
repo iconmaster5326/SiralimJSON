@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAtmospheric Interference:\nAfter this creature damages an enemy, it gains 50% of that damage as a {CONDNAME_BUFF_BARRIER}.",
-  "icon": "images/item/material/ChitinousFeather.png",
-  "id": 1693,
-  "name": "Chitinous Feather",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2035
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAtmospheric Interference:\nAfter this creature damages an enemy, it gains 50% of that damage as a {CONDNAME_BUFF_BARRIER}.",
+    "icon":  "images/item/material/ChitinousFeather.png",
+    "id":  1693,
+    "name":  "Chitinous Feather",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2035,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

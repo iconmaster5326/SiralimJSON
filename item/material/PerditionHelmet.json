@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGuardian:\nThis creature intercepts attacks on its adjacent allies and takes 50% less damage.",
-  "icon": "images/item/material/PerditionHelmet.png",
-  "id": 318,
-  "name": "Perdition Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 234
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGuardian:\nThis creature intercepts attacks on its adjacent allies and takes 50% less damage.",
+    "icon":  "images/item/material/PerditionHelmet.png",
+    "id":  318,
+    "name":  "Perdition Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  234,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

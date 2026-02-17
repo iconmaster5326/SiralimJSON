@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Walken/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 714,
-  "item": 755,
-  "lore": "Walken was King Taylor\u0027s personal executioner thousands of years ago. Shortly before the violent end to his reign, Walken became seriously ill and was on the verge of death. However, Taylor appreciated his work and decided that he would not allow a mere illness to rob him of his services: not even death could be an excuse to quit his job. When Taylor\u0027s father, Tartarith, became a God and murdered him, Walken was released and began to roam the world with no purpose... until the Auditors recruited him as the executor of their plans. Specifically, those that include the words \u0022tie loose ends\u0022 and always end with a head rolling on the ground.",
-  "menagerieDialog": [
-    "(He\u0027s holding his scythe tightly, as if he were a child protecting his doll from make-believe monsters.)",
-    "(This creature has the ugliest feet you\u0027ve ever had the displeasure to lay eyes on.)",
-    "(Its scythe makes a whooshing sound when cutting through the air.)",
-    "(He tries to make a show of hefting his scythe onto his shoulders, but ends up leaving a bloody gash in his arm instead.)",
-    "(The edge of its scythe seems to absorb the blood of its foes. Perhaps this is how it feeds.)"
-  ],
-  "minDepth": 1,
-  "name": "Walken",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Walken/overworld_e0.png",
-      "images/creature/Walken/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Walken/overworld_n0.png",
-      "images/creature/Walken/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Walken/overworld_s0.png",
-      "images/creature/Walken/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Walken/overworld_w0.png",
-      "images/creature/Walken/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    172,
-    461
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 34,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 800
+    "battleSprite":  "images/creature/Walken/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  714,
+    "item":  755,
+    "lore":  "Walken was King Taylor\u0027s personal executioner thousands of years ago. Shortly before the violent end to his reign, Walken became seriously ill and was on the verge of death. However, Taylor appreciated his work and decided that he would not allow a mere illness to rob him of his services: not even death could be an excuse to quit his job. When Taylor\u0027s father, Tartarith, became a God and murdered him, Walken was released and began to roam the world with no purpose... until the Auditors recruited him as the executor of their plans. Specifically, those that include the words \"tie loose ends\" and always end with a head rolling on the ground.",
+    "menagerieDialog":  [
+                            "(He\u0027s holding his scythe tightly, as if he were a child protecting his doll from make-believe monsters.)",
+                            "(This creature has the ugliest feet you\u0027ve ever had the displeasure to lay eyes on.)",
+                            "(Its scythe makes a whooshing sound when cutting through the air.)",
+                            "(He tries to make a show of hefting his scythe onto his shoulders, but ends up leaving a bloody gash in his arm instead.)",
+                            "(The edge of its scythe seems to absorb the blood of its foes. Perhaps this is how it feeds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Walken",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Walken/overworld_e0.png",
+                                         "images/creature/Walken/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Walken/overworld_n0.png",
+                                          "images/creature/Walken/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Walken/overworld_s0.png",
+                                          "images/creature/Walken/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Walken/overworld_w0.png",
+                                         "images/creature/Walken/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  172,
+                  461
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  34,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  800,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

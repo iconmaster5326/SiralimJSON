@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OnePunchSnowman/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1339,
-  "item": 1701,
-  "lore": "When the storms rage on the winter solstice, these malevolent spirits rise from the earth to consume anything alive. While they rest in the ground, waiting for the snow to form their bodies, some focus all their power into one arm, making it capable of delivering a single, devastating punch that can destroy anything in its path.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "One-Punch Snowman",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OnePunchSnowman/overworld_e0.png",
-      "images/creature/OnePunchSnowman/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OnePunchSnowman/overworld_n0.png",
-      "images/creature/OnePunchSnowman/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OnePunchSnowman/overworld_s0.png",
-      "images/creature/OnePunchSnowman/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OnePunchSnowman/overworld_w0.png",
-      "images/creature/OnePunchSnowman/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 30,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 10
-  },
-  "trait": 2043
+    "battleSprite":  "images/creature/OnePunchSnowman/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1339,
+    "item":  1701,
+    "lore":  "When the storms rage on the winter solstice, these malevolent spirits rise from the earth to consume anything alive. While they rest in the ground, waiting for the snow to form their bodies, some focus all their power into one arm, making it capable of delivering a single, devastating punch that can destroy anything in its path.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "One-Punch Snowman",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OnePunchSnowman/overworld_e0.png",
+                                         "images/creature/OnePunchSnowman/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OnePunchSnowman/overworld_n0.png",
+                                          "images/creature/OnePunchSnowman/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OnePunchSnowman/overworld_s0.png",
+                                          "images/creature/OnePunchSnowman/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OnePunchSnowman/overworld_w0.png",
+                                         "images/creature/OnePunchSnowman/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  30,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  10
+                   },
+    "trait":  2043,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

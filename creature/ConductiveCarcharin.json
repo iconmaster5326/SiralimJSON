@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ConductiveCarcharin/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1144,
-  "item": 1664,
-  "lore": "The world\u0027s oceans are littered with magic items due to the shipwrecks that have been happening since boats were invented. Many of them affected a multitude of creatures, including sharks. Conductive Carcharins can summon thunderstorms when many of them are gathered, so they can destroy even a whale, or any ship that seeks to capture one of these creatures to sell its valuable skin.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Conductive Carcharin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ConductiveCarcharin/overworld_e0.png",
-      "images/creature/ConductiveCarcharin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ConductiveCarcharin/overworld_n0.png",
-      "images/creature/ConductiveCarcharin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ConductiveCarcharin/overworld_s0.png",
-      "images/creature/ConductiveCarcharin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ConductiveCarcharin/overworld_w0.png",
-      "images/creature/ConductiveCarcharin/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 1867
+    "battleSprite":  "images/creature/ConductiveCarcharin/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1144,
+    "item":  1664,
+    "lore":  "The world\u0027s oceans are littered with magic items due to the shipwrecks that have been happening since boats were invented. Many of them affected a multitude of creatures, including sharks. Conductive Carcharins can summon thunderstorms when many of them are gathered, so they can destroy even a whale, or any ship that seeks to capture one of these creatures to sell its valuable skin.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Conductive Carcharin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ConductiveCarcharin/overworld_e0.png",
+                                         "images/creature/ConductiveCarcharin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ConductiveCarcharin/overworld_n0.png",
+                                          "images/creature/ConductiveCarcharin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ConductiveCarcharin/overworld_s0.png",
+                                          "images/creature/ConductiveCarcharin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ConductiveCarcharin/overworld_w0.png",
+                                         "images/creature/ConductiveCarcharin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  1867,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

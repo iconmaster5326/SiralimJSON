@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCauterize the Wound:\nThis creature is healed instead of damaged by {CONDNAME_DEBUFF_BLEED} and {CONDNAME_DEBUFF_BURNED}, but at 50% effectiveness.",
-  "icon": "images/item/material/LavaBubble.png",
-  "id": 1435,
-  "name": "Lava Bubble",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1743
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCauterize the Wound:\nThis creature is healed instead of damaged by {CONDNAME_DEBUFF_BLEED} and {CONDNAME_DEBUFF_BURNED}, but at 50% effectiveness.",
+    "icon":  "images/item/material/LavaBubble.png",
+    "id":  1435,
+    "name":  "Lava Bubble",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1743,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CrashingBasilisk/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 593,
-  "item": 716,
-  "lore": "There are numerous myths about Basilisks. They are said to cause death with a single glance, to have control over snakes, and even to be born from a chicken egg hatched by a toad. Although none of those things are true, their real powers make them dangerous creatures.\\n\\nThe Crashing Basilisk can use its voice to randomly activate any magic items around it. With enough practice, it can hone its ability to avoid any detrimental effects.",
-  "menagerieDialog": [
-    "(It\u0027s crouched down, staring blankly into nothingness.)",
-    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
-    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
-    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
-    "(It bows its head and turns away. It must be shy.)"
-  ],
-  "minDepth": 1,
-  "name": "Crashing Basilisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CrashingBasilisk/overworld_e0.png",
-      "images/creature/CrashingBasilisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CrashingBasilisk/overworld_n0.png",
-      "images/creature/CrashingBasilisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CrashingBasilisk/overworld_s0.png",
-      "images/creature/CrashingBasilisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CrashingBasilisk/overworld_w0.png",
-      "images/creature/CrashingBasilisk/overworld_w1.png"
-    ]
-  },
-  "race": "Basilisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vulcanar)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 655
+    "battleSprite":  "images/creature/CrashingBasilisk/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  593,
+    "item":  716,
+    "lore":  "There are numerous myths about Basilisks. They are said to cause death with a single glance, to have control over snakes, and even to be born from a chicken egg hatched by a toad. Although none of those things are true, their real powers make them dangerous creatures.\\n\\nThe Crashing Basilisk can use its voice to randomly activate any magic items around it. With enough practice, it can hone its ability to avoid any detrimental effects.",
+    "menagerieDialog":  [
+                            "(It\u0027s crouched down, staring blankly into nothingness.)",
+                            "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+                            "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+                            "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+                            "(It bows its head and turns away. It must be shy.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Crashing Basilisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CrashingBasilisk/overworld_e0.png",
+                                         "images/creature/CrashingBasilisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CrashingBasilisk/overworld_n0.png",
+                                          "images/creature/CrashingBasilisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CrashingBasilisk/overworld_s0.png",
+                                          "images/creature/CrashingBasilisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CrashingBasilisk/overworld_w0.png",
+                                         "images/creature/CrashingBasilisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Basilisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vulcanar)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  655,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

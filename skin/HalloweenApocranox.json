@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenApocranox/battle.png",
-  "creator": null,
-  "creature": 951,
-  "id": 397,
-  "name": "Halloween Apocranox",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenApocranox/overworld_e0.png",
-      "images/skin/HalloweenApocranox/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenApocranox/overworld_n0.png",
-      "images/skin/HalloweenApocranox/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenApocranox/overworld_s0.png",
-      "images/skin/HalloweenApocranox/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenApocranox/overworld_w0.png",
-      "images/skin/HalloweenApocranox/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenApocranox/battle.png",
+    "creator":  null,
+    "creature":  951,
+    "id":  397,
+    "name":  "Halloween Apocranox",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenApocranox/overworld_e0.png",
+                                         "images/skin/HalloweenApocranox/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenApocranox/overworld_n0.png",
+                                          "images/skin/HalloweenApocranox/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenApocranox/overworld_s0.png",
+                                          "images/skin/HalloweenApocranox/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenApocranox/overworld_w0.png",
+                                         "images/skin/HalloweenApocranox/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

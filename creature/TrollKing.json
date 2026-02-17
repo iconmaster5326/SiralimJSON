@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TrollKing/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 77,
-  "item": 579,
-  "lore": "Everyone who has studied Troll culture agrees that if there was only one king to rule them all, its life expectancy could probably be measured in hours. They are the strongest individuals in their tribe, and they boast about it by fighting bare-handed as tradition dictates. The skeleton they carry is used to intimidate their opponents, and lets other Trolls know who that mean-looking guy in front of them is.",
-  "menagerieDialog": [
-    "Human kings are weak. You should let us Trolls lead you instead!",
-    "Let\u0027s go burn some villages down!",
-    "You rely on magic far too much. Brute strength is always the way to go!",
-    "(You\u0027re constantly amazed at just how badly this creature smells.)",
-    "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
-  ],
-  "minDepth": 1,
-  "name": "Troll King",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TrollKing/overworld_e0.png",
-      "images/creature/TrollKing/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TrollKing/overworld_n0.png",
-      "images/creature/TrollKing/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TrollKing/overworld_s0.png",
-      "images/creature/TrollKing/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TrollKing/overworld_w0.png",
-      "images/creature/TrollKing/overworld_w1.png"
-    ]
-  },
-  "race": "Troll",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Torun)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 38,
-    "intelligence": 8,
-    "speed": 18
-  },
-  "trait": 493
+    "battleSprite":  "images/creature/TrollKing/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  77,
+    "item":  579,
+    "lore":  "Everyone who has studied Troll culture agrees that if there was only one king to rule them all, its life expectancy could probably be measured in hours. They are the strongest individuals in their tribe, and they boast about it by fighting bare-handed as tradition dictates. The skeleton they carry is used to intimidate their opponents, and lets other Trolls know who that mean-looking guy in front of them is.",
+    "menagerieDialog":  [
+                            "Human kings are weak. You should let us Trolls lead you instead!",
+                            "Let\u0027s go burn some villages down!",
+                            "You rely on magic far too much. Brute strength is always the way to go!",
+                            "(You\u0027re constantly amazed at just how badly this creature smells.)",
+                            "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Troll King",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TrollKing/overworld_e0.png",
+                                         "images/creature/TrollKing/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TrollKing/overworld_n0.png",
+                                          "images/creature/TrollKing/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TrollKing/overworld_s0.png",
+                                          "images/creature/TrollKing/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TrollKing/overworld_w0.png",
+                                         "images/creature/TrollKing/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Troll",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Torun)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  38,
+                       "intelligence":  8,
+                       "speed":  18
+                   },
+    "trait":  493,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

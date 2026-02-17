@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Amphisbaenas:\nIf all the creatures in your party are {RACE_Amphisbaena}s, their innate traits\u0027 respective effects activate 1 additional time. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheAmphisbaena.png",
-  "id": 1188,
-  "name": "Sigil of the Amphisbaena",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1395
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Amphisbaenas:\nIf all the creatures in your party are {RACE_Amphisbaena}s, their innate traits\u0027 respective effects activate 1 additional time. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheAmphisbaena.png",
+    "id":  1188,
+    "name":  "Sigil of the Amphisbaena",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1395,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

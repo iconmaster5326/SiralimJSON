@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/SunclawGargoyle/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 234,
-  "item": 312,
-  "lore": "Gargoyles are not self-aware. They are simply guided by certain instructions that are determined during the process of their creation. However, the people of Undolim have always just considered them to be reserved creatures.\\n\\nDuring the day, Sunclaw Gargoyles fly high for hours to absorb solar energy. In this way, they generate an aura of light that allows their allies to navigate even the deepest darkness.",
-  "menagerieDialog": [
-    "Is everything alright, my liege?",
-    "You drool in your sleep.",
-    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
-    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
-    "(This creature could easily be mistaken for a statue.)"
-  ],
-  "minDepth": 1,
-  "name": "Sunclaw Gargoyle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SunclawGargoyle/overworld_e0.png",
-      "images/creature/SunclawGargoyle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SunclawGargoyle/overworld_n0.png",
-      "images/creature/SunclawGargoyle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SunclawGargoyle/overworld_s0.png",
-      "images/creature/SunclawGargoyle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SunclawGargoyle/overworld_w0.png",
-      "images/creature/SunclawGargoyle/overworld_w1.png"
-    ]
-  },
-  "race": "Gargoyle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 10,
-    "defense": 23,
-    "health": 30,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 228
+    "battleSprite":  "images/creature/SunclawGargoyle/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  234,
+    "item":  312,
+    "lore":  "Gargoyles are not self-aware. They are simply guided by certain instructions that are determined during the process of their creation. However, the people of Undolim have always just considered them to be reserved creatures.\\n\\nDuring the day, Sunclaw Gargoyles fly high for hours to absorb solar energy. In this way, they generate an aura of light that allows their allies to navigate even the deepest darkness.",
+    "menagerieDialog":  [
+                            "Is everything alright, my liege?",
+                            "You drool in your sleep.",
+                            "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+                            "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+                            "(This creature could easily be mistaken for a statue.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Sunclaw Gargoyle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SunclawGargoyle/overworld_e0.png",
+                                         "images/creature/SunclawGargoyle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SunclawGargoyle/overworld_n0.png",
+                                          "images/creature/SunclawGargoyle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SunclawGargoyle/overworld_s0.png",
+                                          "images/creature/SunclawGargoyle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SunclawGargoyle/overworld_w0.png",
+                                         "images/creature/SunclawGargoyle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargoyle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  10,
+                       "defense":  23,
+                       "health":  30,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  228,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

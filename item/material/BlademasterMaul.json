@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOverkill:\nAfter this creature {ACTION_attacks}, and the damage exceeds 35% of the target\u0027s Maximum {STAT_health}, enemies take 70% of this damage as well.",
-  "icon": "images/item/material/BlademasterMaul.png",
-  "id": 548,
-  "name": "Blademaster Maul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 462
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOverkill:\nAfter this creature {ACTION_attacks}, and the damage exceeds 35% of the target\u0027s Maximum {STAT_health}, enemies take 70% of this damage as well.",
+    "icon":  "images/item/material/BlademasterMaul.png",
+    "id":  548,
+    "name":  "Blademaster Maul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  462,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

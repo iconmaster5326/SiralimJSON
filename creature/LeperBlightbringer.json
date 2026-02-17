@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/LeperBlightbringer/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 375,
-  "item": 269,
-  "lore": "A Leper is less than a vestige of the person it once was. Its memories are blurred dreams, and its thinking is slow and dull. Apparently, Taylor created them by mistake while trying to figure out how to transform a person into a Doomguard.\\n\\nThe Leper Blightbringer is a magnet for diseases, due to its weakened immune system. It is extremely contagious to anyone around it, though prolonged exposure to the creature produces defenses against its diseases.",
-  "menagerieDialog": [
-    "(It looks at you groggily with a half-baked grin on its face.)",
-    "(This creature will always be picked last for the dodgeball team.)",
-    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
-    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
-    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
-  ],
-  "minDepth": 1,
-  "name": "Leper Blightbringer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LeperBlightbringer/overworld_e0.png",
-      "images/creature/LeperBlightbringer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LeperBlightbringer/overworld_n0.png",
-      "images/creature/LeperBlightbringer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LeperBlightbringer/overworld_s0.png",
-      "images/creature/LeperBlightbringer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LeperBlightbringer/overworld_w0.png",
-      "images/creature/LeperBlightbringer/overworld_w1.png"
-    ]
-  },
-  "race": "Leper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    33
-  ],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 179
+    "battleSprite":  "images/creature/LeperBlightbringer/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  375,
+    "item":  269,
+    "lore":  "A Leper is less than a vestige of the person it once was. Its memories are blurred dreams, and its thinking is slow and dull. Apparently, Taylor created them by mistake while trying to figure out how to transform a person into a Doomguard.\\n\\nThe Leper Blightbringer is a magnet for diseases, due to its weakened immune system. It is extremely contagious to anyone around it, though prolonged exposure to the creature produces defenses against its diseases.",
+    "menagerieDialog":  [
+                            "(It looks at you groggily with a half-baked grin on its face.)",
+                            "(This creature will always be picked last for the dodgeball team.)",
+                            "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+                            "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+                            "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Leper Blightbringer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LeperBlightbringer/overworld_e0.png",
+                                         "images/creature/LeperBlightbringer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LeperBlightbringer/overworld_n0.png",
+                                          "images/creature/LeperBlightbringer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LeperBlightbringer/overworld_s0.png",
+                                          "images/creature/LeperBlightbringer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LeperBlightbringer/overworld_w0.png",
+                                         "images/creature/LeperBlightbringer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            33
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  179,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

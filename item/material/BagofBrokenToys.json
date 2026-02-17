@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHo Ho Oh, !@#$:\nCreatures cannot gain stats until after their first turn.",
-  "icon": "images/item/material/BagofBrokenToys.png",
-  "id": 47,
-  "name": "Bag of Broken Toys",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1016
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHo Ho Oh, !@#$:\nCreatures cannot gain stats until after their first turn.",
+    "icon":  "images/item/material/BagofBrokenToys.png",
+    "id":  47,
+    "name":  "Bag of Broken Toys",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1016,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

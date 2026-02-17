@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/MagmaConstruct/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 764,
-  "item": 70,
-  "lore": "The MK project was inevitably delayed by the overwhelming victories of Siralim\u0027s army and its advance through the country. Its architects had to move from kingdom to kingdom to continue the project until they finally ended up in Nex.\\n\\nThe Magma Construct\u0027s body always has a very high temperature, so it can quickly heat a whole room. This is why the Council of Rodia is planning to set up large buildings like temples or factories with several of these creatures, so people can take refuge during the harshest winter nights.",
-  "menagerieDialog": [
-    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
-    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
-    "(Nothing breeds subservience quite like being programmed by humans.)",
-    "(You can sense the raw power and lust for battle emmanating from this creature.)",
-    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Magma Construct",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MagmaConstruct/overworld_e0.png",
-      "images/creature/MagmaConstruct/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MagmaConstruct/overworld_n0.png",
-      "images/creature/MagmaConstruct/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MagmaConstruct/overworld_s0.png",
-      "images/creature/MagmaConstruct/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MagmaConstruct/overworld_w0.png",
-      "images/creature/MagmaConstruct/overworld_w1.png"
-    ]
-  },
-  "race": "Construct",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    43
-  ],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 20,
-    "health": 33,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 1007
+    "battleSprite":  "images/creature/MagmaConstruct/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  764,
+    "item":  70,
+    "lore":  "The MK project was inevitably delayed by the overwhelming victories of Siralim\u0027s army and its advance through the country. Its architects had to move from kingdom to kingdom to continue the project until they finally ended up in Nex.\\n\\nThe Magma Construct\u0027s body always has a very high temperature, so it can quickly heat a whole room. This is why the Council of Rodia is planning to set up large buildings like temples or factories with several of these creatures, so people can take refuge during the harshest winter nights.",
+    "menagerieDialog":  [
+                            "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+                            "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+                            "(Nothing breeds subservience quite like being programmed by humans.)",
+                            "(You can sense the raw power and lust for battle emmanating from this creature.)",
+                            "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Magma Construct",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MagmaConstruct/overworld_e0.png",
+                                         "images/creature/MagmaConstruct/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MagmaConstruct/overworld_n0.png",
+                                          "images/creature/MagmaConstruct/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MagmaConstruct/overworld_s0.png",
+                                          "images/creature/MagmaConstruct/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MagmaConstruct/overworld_w0.png",
+                                         "images/creature/MagmaConstruct/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Construct",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            43
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  20,
+                       "health":  33,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  1007,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

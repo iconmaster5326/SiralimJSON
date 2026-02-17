@@ -1,34 +1,39 @@
 {
-  "bossDialog": [
-    "(A massive dragon-like creature descends from a hidden perch, wings outstretched as it lands atop the treasure pile with surprising grace for its size!)",
-    "(The Lucanian\u0027s scales begin to glow with an inner heat as it inhales deeply, preparing to unleash its fiery breath upon you and your creatures!)",
-    "You seek to steal from a descendant of dragons? Your arrogance will be your undoing, human!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}.",
-    "4": "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}.",
-    "6": "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}."
-  },
-  "cards": 6,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    1283,
-    1284,
-    1285,
-    1286,
-    1287,
-    1288
-  ],
-  "icon": "images/race/Lucanian.png",
-  "master": {
-    "costume": 806,
-    "dialog": "Lucanians carry the ancient wisdom and power of dragons in their veins! Their scales can withstand the fiercest attacks, and their draconic breath can reduce opponents to cinders in seconds. I\u0027ve spent years earning the respect of these noble creatures, and now their flames burn for my glory. Prepare to feel the heat of my Lucanian legion!",
-    "item": 1856,
-    "name": "Myxus",
-    "trait": 2194
-  },
-  "name": "Lucanian",
-  "notes": [],
-  "skins": []
+    "bossDialog":  [
+                       "(A massive dragon-like creature descends from a hidden perch, wings outstretched as it lands atop the treasure pile with surprising grace for its size!)",
+                       "(The Lucanian\u0027s scales begin to glow with an inner heat as it inhales deeply, preparing to unleash its fiery breath upon you and your creatures!)",
+                       "You seek to steal from a descendant of dragons? Your arrogance will be your undoing, human!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}.",
+                        "4":  "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}.",
+                        "6":  "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}."
+                    },
+    "cards":  6,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      1283,
+                      1284,
+                      1285,
+                      1286,
+                      1287,
+                      1288
+                  ],
+    "icon":  "images/race/Lucanian.png",
+    "master":  {
+                   "costume":  806,
+                   "dialog":  "Lucanians carry the ancient wisdom and power of dragons in their veins! Their scales can withstand the fiercest attacks, and their draconic breath can reduce opponents to cinders in seconds. I\u0027ve spent years earning the respect of these noble creatures, and now their flames burn for my glory. Prepare to feel the heat of my Lucanian legion!",
+                   "item":  1856,
+                   "name":  "Myxus",
+                   "trait":  2194
+               },
+    "name":  "Lucanian",
+    "notes":  [
+
+              ],
+    "skins":  [
+
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

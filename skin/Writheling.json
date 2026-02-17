@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Writheling/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 202,
-  "name": "Writheling",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Writheling/overworld_e0.png",
-      "images/skin/Writheling/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Writheling/overworld_n0.png",
-      "images/skin/Writheling/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Writheling/overworld_s0.png",
-      "images/skin/Writheling/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Writheling/overworld_w0.png",
-      "images/skin/Writheling/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Worm",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Writheling/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  202,
+    "name":  "Writheling",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Writheling/overworld_e0.png",
+                                         "images/skin/Writheling/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Writheling/overworld_n0.png",
+                                          "images/skin/Writheling/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Writheling/overworld_s0.png",
+                                          "images/skin/Writheling/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Writheling/overworld_w0.png",
+                                         "images/skin/Writheling/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Worm",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSwell:\nAfter this creature {ACTION_attacks}, it afflicts the target with a random debuff for each debuff the target already has.",
-  "icon": "images/item/material/ParalyzerGoo.png",
-  "id": 839,
-  "name": "Paralyzer Goo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 866
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSwell:\nAfter this creature {ACTION_attacks}, it afflicts the target with a random debuff for each debuff the target already has.",
+    "icon":  "images/item/material/ParalyzerGoo.png",
+    "id":  839,
+    "name":  "Paralyzer Goo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  866,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

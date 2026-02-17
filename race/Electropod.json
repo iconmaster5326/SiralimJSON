@@ -1,37 +1,40 @@
 {
-  "bossDialog": [
-    "(An unusual mechanical creature in the shape of an insect skitters forward maliciously. You consider it a shame to destroy such a beautifully crafted construct, but your survival cannot be compromised.)",
-    "(Hearing a suspicious click, you barely have time to react as an arc of energy streams forth, scorching the ground where you stood. The creature that fired it soon appears to attack you more directly!)",
-    "(Your ears begin to ring as a strange, translucent insect approaches you emitting a high pitched whine. Something about it unnerves you so much, you immediately order your creatures to step on it!)"
-  ],
-  "cardBonuses": {
-    "2": "You gain 30% more {RES_ESSENCE} from battles.",
-    "4": "Increases the base amount of {RES_ESSENCE} gained from battles by 15.",
-    "6": "You have a 15% chance to gain double {RES_ESSENCE} from battles."
-  },
-  "cards": 6,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    1081,
-    1082,
-    1083,
-    1084,
-    1085,
-    1086
-  ],
-  "icon": "images/race/Electropod.png",
-  "master": {
-    "costume": 678,
-    "dialog": "Electropods are all about speed, speed, and more speed!\\n\\nVroom vroom, mother!@#$er.",
-    "item": 1499,
-    "name": "Gren",
-    "trait": 1807
-  },
-  "name": "Electropod",
-  "notes": [],
-  "skins": [
-    669,
-    670
-  ]
+    "bossDialog":  [
+                       "(An unusual mechanical creature in the shape of an insect skitters forward maliciously. You consider it a shame to destroy such a beautifully crafted construct, but your survival cannot be compromised.)",
+                       "(Hearing a suspicious click, you barely have time to react as an arc of energy streams forth, scorching the ground where you stood. The creature that fired it soon appears to attack you more directly!)",
+                       "(Your ears begin to ring as a strange, translucent insect approaches you emitting a high pitched whine. Something about it unnerves you so much, you immediately order your creatures to step on it!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "You gain 30% more {RES_ESSENCE} from battles.",
+                        "4":  "Increases the base amount of {RES_ESSENCE} gained from battles by 15.",
+                        "6":  "You have a 15% chance to gain double {RES_ESSENCE} from battles."
+                    },
+    "cards":  6,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      1081,
+                      1082,
+                      1083,
+                      1084,
+                      1085,
+                      1086
+                  ],
+    "icon":  "images/race/Electropod.png",
+    "master":  {
+                   "costume":  678,
+                   "dialog":  "Electropods are all about speed, speed, and more speed!\\n\\nVroom vroom, mother!@#$er.",
+                   "item":  1499,
+                   "name":  "Gren",
+                   "trait":  1807
+               },
+    "name":  "Electropod",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  669,
+                  670
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

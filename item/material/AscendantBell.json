@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCoerced Coexistence:\nAfter an enemy {ACTION_attacks}, this creature afflicts it with {CONDNAME_DEBUFF_SCORN}. After an enemy {ACTION_casts}, this creature afflicts it with {CONDNAME_DEBUFF_SILENCE}.",
-  "icon": "images/item/material/AscendantBell.png",
-  "id": 133,
-  "name": "Ascendant Bell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 43
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCoerced Coexistence:\nAfter an enemy {ACTION_attacks}, this creature afflicts it with {CONDNAME_DEBUFF_SCORN}. After an enemy {ACTION_casts}, this creature afflicts it with {CONDNAME_DEBUFF_SILENCE}.",
+    "icon":  "images/item/material/AscendantBell.png",
+    "id":  133,
+    "name":  "Ascendant Bell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  43,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

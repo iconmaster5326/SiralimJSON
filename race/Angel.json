@@ -1,44 +1,47 @@
 {
-  "bossDialog": [
-    "(Divine flames swirl around the room and soon coalesce into the form of a regal six-winged figure. Surging with energy, it charges right at you!)",
-    "From on high, your ordained punishment comes. Be still and you may yet die with your dignity intact.",
-    "No further, human. Your travels end here."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 10% more damage to {CLASS_Life} creatures.",
-    "5": "Your creatures deal 10% more damage to {CLASS_Life} creatures.",
-    "8": "Your creatures deal 10% more damage to {CLASS_Life} creatures."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    126,
-    127,
-    128,
-    129,
-    130,
-    131,
-    603,
-    990
-  ],
-  "icon": "images/race/Angel.png",
-  "master": {
-    "costume": 295,
-    "dialog": "Many people scoff at Angels, believing they\u0027re too basic to be useful in battle. I\u0027ll show everyone just how wrong they are. Let\u0027s start with you!",
-    "item": 1183,
-    "name": "Engelin",
-    "trait": 1396
-  },
-  "name": "Angel",
-  "notes": [],
-  "skins": [
-    192,
-    193,
-    260,
-    316,
-    447,
-    483,
-    807
-  ]
+    "bossDialog":  [
+                       "(Divine flames swirl around the room and soon coalesce into the form of a regal six-winged figure. Surging with energy, it charges right at you!)",
+                       "From on high, your ordained punishment comes. Be still and you may yet die with your dignity intact.",
+                       "No further, human. Your travels end here."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 10% more damage to {CLASS_Life} creatures.",
+                        "5":  "Your creatures deal 10% more damage to {CLASS_Life} creatures.",
+                        "8":  "Your creatures deal 10% more damage to {CLASS_Life} creatures."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      126,
+                      127,
+                      128,
+                      129,
+                      130,
+                      131,
+                      603,
+                      990
+                  ],
+    "icon":  "images/race/Angel.png",
+    "master":  {
+                   "costume":  295,
+                   "dialog":  "Many people scoff at Angels, believing they\u0027re too basic to be useful in battle. I\u0027ll show everyone just how wrong they are. Let\u0027s start with you!",
+                   "item":  1183,
+                   "name":  "Engelin",
+                   "trait":  1396
+               },
+    "name":  "Angel",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  192,
+                  193,
+                  260,
+                  316,
+                  447,
+                  483,
+                  807
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

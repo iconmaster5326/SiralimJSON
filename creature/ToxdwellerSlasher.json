@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/ToxdwellerSlasher/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 922,
-  "item": 946,
-  "lore": "Eve and the other five agents of his group developed a strong friendship over the decades they worked together. When they became Gods and created their own realms, they were isolated from the rest of the world, without even being able to observe what was happening outside their realms.\\n\\nThe Toxdweller Slasher secretes a toxin that causes hallucinations within five minutes of coming into contact with blood. This substance is gaining popularity as a recreational drug in some of Rodia\u0027s neighboring nations.",
-  "menagerieDialog": [
-    "(It\u0027s staring thoughtfully at a bomb.)",
-    "(It never blinks. Ever. It\u0027s very creepy.)",
-    "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
-    "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
-    "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
-  ],
-  "minDepth": 1,
-  "name": "Toxdweller Slasher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ToxdwellerSlasher/overworld_e0.png",
-      "images/creature/ToxdwellerSlasher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ToxdwellerSlasher/overworld_n0.png",
-      "images/creature/ToxdwellerSlasher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ToxdwellerSlasher/overworld_s0.png",
-      "images/creature/ToxdwellerSlasher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ToxdwellerSlasher/overworld_w0.png",
-      "images/creature/ToxdwellerSlasher/overworld_w1.png"
-    ]
-  },
-  "race": "Toxdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Venedon)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    36
-  ],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 1182
+    "battleSprite":  "images/creature/ToxdwellerSlasher/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  922,
+    "item":  946,
+    "lore":  "Eve and the other five agents of his group developed a strong friendship over the decades they worked together. When they became Gods and created their own realms, they were isolated from the rest of the world, without even being able to observe what was happening outside their realms.\\n\\nThe Toxdweller Slasher secretes a toxin that causes hallucinations within five minutes of coming into contact with blood. This substance is gaining popularity as a recreational drug in some of Rodia\u0027s neighboring nations.",
+    "menagerieDialog":  [
+                            "(It\u0027s staring thoughtfully at a bomb.)",
+                            "(It never blinks. Ever. It\u0027s very creepy.)",
+                            "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
+                            "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
+                            "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Toxdweller Slasher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ToxdwellerSlasher/overworld_e0.png",
+                                         "images/creature/ToxdwellerSlasher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ToxdwellerSlasher/overworld_n0.png",
+                                          "images/creature/ToxdwellerSlasher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ToxdwellerSlasher/overworld_s0.png",
+                                          "images/creature/ToxdwellerSlasher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ToxdwellerSlasher/overworld_w0.png",
+                                         "images/creature/ToxdwellerSlasher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Toxdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Venedon)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            36
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  1182,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

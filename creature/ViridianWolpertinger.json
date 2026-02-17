@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ViridianWolpertinger/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 360,
-  "item": 621,
-  "lore": "Wolpertingers only use their claws and fangs when they hunt. However, during their mating rituals, both females and males use their horns to fight their counterparts and choose the most appropriate partner.\\n\\nViridian Wolpertingers are the most patient of their kind. They are discreet, and that makes them the most dangerous. They use their color to camouflage themselves in the meadow without being detected, simply waiting until prey approaches to go for the throat.",
-  "menagerieDialog": [
-    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
-    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
-    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
-    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
-    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
-  ],
-  "minDepth": 1,
-  "name": "Viridian Wolpertinger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ViridianWolpertinger/overworld_e0.png",
-      "images/creature/ViridianWolpertinger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ViridianWolpertinger/overworld_n0.png",
-      "images/creature/ViridianWolpertinger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ViridianWolpertinger/overworld_s0.png",
-      "images/creature/ViridianWolpertinger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ViridianWolpertinger/overworld_w0.png",
-      "images/creature/ViridianWolpertinger/overworld_w1.png"
-    ]
-  },
-  "race": "Wolpertinger",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 27,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 533
+    "battleSprite":  "images/creature/ViridianWolpertinger/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  360,
+    "item":  621,
+    "lore":  "Wolpertingers only use their claws and fangs when they hunt. However, during their mating rituals, both females and males use their horns to fight their counterparts and choose the most appropriate partner.\\n\\nViridian Wolpertingers are the most patient of their kind. They are discreet, and that makes them the most dangerous. They use their color to camouflage themselves in the meadow without being detected, simply waiting until prey approaches to go for the throat.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+                            "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+                            "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+                            "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+                            "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Viridian Wolpertinger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ViridianWolpertinger/overworld_e0.png",
+                                         "images/creature/ViridianWolpertinger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ViridianWolpertinger/overworld_n0.png",
+                                          "images/creature/ViridianWolpertinger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ViridianWolpertinger/overworld_s0.png",
+                                          "images/creature/ViridianWolpertinger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ViridianWolpertinger/overworld_w0.png",
+                                         "images/creature/ViridianWolpertinger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wolpertinger",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  27,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  533,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

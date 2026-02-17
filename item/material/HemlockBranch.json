@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNutrient Blood:\nYour creatures recover 15% {STAT_health} at the start of their turn. If they have {CONDNAME_BUFF_MEND}, they recover 50% {STAT_health} instead. This trait does not stack.",
-  "icon": "images/item/material/HemlockBranch.png",
-  "id": 558,
-  "name": "Hemlock Branch",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 472
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNutrient Blood:\nYour creatures recover 15% {STAT_health} at the start of their turn. If they have {CONDNAME_BUFF_MEND}, they recover 50% {STAT_health} instead. This trait does not stack.",
+    "icon":  "images/item/material/HemlockBranch.png",
+    "id":  558,
+    "name":  "Hemlock Branch",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  472,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

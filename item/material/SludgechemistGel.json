@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReticence:\nEnemies gain 35% less benefit from their Artifacts\u0027 Stat Slots (other than {STAT_health}). This trait does not stack.",
-  "icon": "images/item/material/SludgechemistGel.png",
-  "id": 962,
-  "name": "Sludgechemist Gel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1174
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReticence:\nEnemies gain 35% less benefit from their Artifacts\u0027 Stat Slots (other than {STAT_health}). This trait does not stack.",
+    "icon":  "images/item/material/SludgechemistGel.png",
+    "id":  962,
+    "name":  "Sludgechemist Gel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1174,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

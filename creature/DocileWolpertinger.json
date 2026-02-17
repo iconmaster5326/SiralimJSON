@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DocileWolpertinger/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 623,
-  "item": 886,
-  "lore": "Lister once came across a Wolpertinger clutch. Having witnessed the violence of the chicks, he decided to intervene by completely altering the nature of these creatures. Docile Wolpertingers sleep most of the time, and they are peaceful and completely harmless... unless they are bothered. When one feels that it is in danger, its murderous instincts awaken, filling it with rage and making it even more dangerous than the rest of its kind.",
-  "menagerieDialog": [
-    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
-    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
-    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
-    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
-    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
-  ],
-  "minDepth": 1,
-  "name": "Docile Wolpertinger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DocileWolpertinger/overworld_e0.png",
-      "images/creature/DocileWolpertinger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DocileWolpertinger/overworld_n0.png",
-      "images/creature/DocileWolpertinger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DocileWolpertinger/overworld_s0.png",
-      "images/creature/DocileWolpertinger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DocileWolpertinger/overworld_w0.png",
-      "images/creature/DocileWolpertinger/overworld_w1.png"
-    ]
-  },
-  "race": "Wolpertinger",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 913
+    "battleSprite":  "images/creature/DocileWolpertinger/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  623,
+    "item":  886,
+    "lore":  "Lister once came across a Wolpertinger clutch. Having witnessed the violence of the chicks, he decided to intervene by completely altering the nature of these creatures. Docile Wolpertingers sleep most of the time, and they are peaceful and completely harmless... unless they are bothered. When one feels that it is in danger, its murderous instincts awaken, filling it with rage and making it even more dangerous than the rest of its kind.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+                            "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+                            "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+                            "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+                            "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Docile Wolpertinger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DocileWolpertinger/overworld_e0.png",
+                                         "images/creature/DocileWolpertinger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DocileWolpertinger/overworld_n0.png",
+                                          "images/creature/DocileWolpertinger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DocileWolpertinger/overworld_s0.png",
+                                          "images/creature/DocileWolpertinger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DocileWolpertinger/overworld_w0.png",
+                                         "images/creature/DocileWolpertinger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wolpertinger",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  913,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

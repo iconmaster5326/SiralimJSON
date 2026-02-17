@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAutonomous Defense:\nAt the start of this creature\u0027s turn, it gains 30% {STAT_defense} plus 20% of the total amount of {STAT_defense} it has received in the current battle.",
-  "icon": "images/item/material/NeuralDefenseImplant.png",
-  "id": 1561,
-  "name": "Neural Defense Implant",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1903
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAutonomous Defense:\nAt the start of this creature\u0027s turn, it gains 30% {STAT_defense} plus 20% of the total amount of {STAT_defense} it has received in the current battle.",
+    "icon":  "images/item/material/NeuralDefenseImplant.png",
+    "id":  1561,
+    "name":  "Neural Defense Implant",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1903,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

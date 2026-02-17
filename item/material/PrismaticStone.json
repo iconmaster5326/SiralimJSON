@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRainbow Palate:\nThis creature has 25% more stats (other than {STAT_health}) for each different class of creature fighting on your side.",
-  "icon": "images/item/material/PrismaticStone.png",
-  "id": 1480,
-  "name": "Prismatic Stone",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1788
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRainbow Palate:\nThis creature has 25% more stats (other than {STAT_health}) for each different class of creature fighting on your side.",
+    "icon":  "images/item/material/PrismaticStone.png",
+    "id":  1480,
+    "name":  "Prismatic Stone",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1788,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

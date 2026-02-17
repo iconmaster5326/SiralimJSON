@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AbyssalWisp/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 851,
-  "item": 1012,
-  "lore": "Staring intently at a Wisp allows one to see the moment of their own death for a few seconds. Whether they are truly fate or just the most likely future, these visions can be deadly on their own, often provoking heart attacks.\\n\\nThe Abyssal Wisp usually dwells in dark marine environments. Its eyes not only allow it to see in the dark, but they can also move freely within its body, allowing it a full range of vision.",
-  "menagerieDialog": [
-    "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
-    "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
-    "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
-    "(This creature constantly cycles between a cacophony of crying and laughter.)",
-    "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
-  ],
-  "minDepth": 1,
-  "name": "Abyssal Wisp",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AbyssalWisp/overworld_e0.png",
-      "images/creature/AbyssalWisp/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AbyssalWisp/overworld_n0.png",
-      "images/creature/AbyssalWisp/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AbyssalWisp/overworld_s0.png",
-      "images/creature/AbyssalWisp/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AbyssalWisp/overworld_w0.png",
-      "images/creature/AbyssalWisp/overworld_w1.png"
-    ]
-  },
-  "race": "Wisp",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 1116
+    "battleSprite":  "images/creature/AbyssalWisp/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  851,
+    "item":  1012,
+    "lore":  "Staring intently at a Wisp allows one to see the moment of their own death for a few seconds. Whether they are truly fate or just the most likely future, these visions can be deadly on their own, often provoking heart attacks.\\n\\nThe Abyssal Wisp usually dwells in dark marine environments. Its eyes not only allow it to see in the dark, but they can also move freely within its body, allowing it a full range of vision.",
+    "menagerieDialog":  [
+                            "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
+                            "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
+                            "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
+                            "(This creature constantly cycles between a cacophony of crying and laughter.)",
+                            "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Abyssal Wisp",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AbyssalWisp/overworld_e0.png",
+                                         "images/creature/AbyssalWisp/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AbyssalWisp/overworld_n0.png",
+                                          "images/creature/AbyssalWisp/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AbyssalWisp/overworld_s0.png",
+                                          "images/creature/AbyssalWisp/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AbyssalWisp/overworld_w0.png",
+                                         "images/creature/AbyssalWisp/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wisp",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  1116,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

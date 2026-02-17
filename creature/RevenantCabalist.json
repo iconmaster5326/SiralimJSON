@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RevenantCabalist/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 412,
-  "item": 272,
-  "lore": "Revenants live in warrior tribes in the depths of the oceans. A thousand years ago they developed the necessary magic to live on the surface, and many abandoned their home to earn a living as mercenaries.\\n\\nRevenant Kings are often surrounded by a group of loyal protectors called Cabalists. They identify and dismantle conspiracies that threaten the King, generally through violence. In addition, they are skilled magic users who can sacrifice their own vitality to cast multiple spells at once.",
-  "menagerieDialog": [
-    "It\u0027s a common misconception that all Revenants like to fight. I, for one, would prefer to lead a quiet life and dedicate myself to collecting minerals.",
-    "What\u0027s wrong? You look like a fish out of water.\\n\\nHA!",
-    "(Revenants hate when you call them \u0022fish people\u0022. Never make that mistake.)",
-    "I am not a fish. I am NOT. A FISH.\\n\\n(This is the most sensitive fish you\u0027ve ever met.)",
-    "(It smells like dead fish. Probably because that\u0027s exactly what it is.)"
-  ],
-  "minDepth": 1,
-  "name": "Revenant Cabalist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RevenantCabalist/overworld_e0.png",
-      "images/creature/RevenantCabalist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RevenantCabalist/overworld_n0.png",
-      "images/creature/RevenantCabalist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RevenantCabalist/overworld_s0.png",
-      "images/creature/RevenantCabalist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RevenantCabalist/overworld_w0.png",
-      "images/creature/RevenantCabalist/overworld_w1.png"
-    ]
-  },
-  "race": "Revenant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Friden)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 24,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 182
+    "battleSprite":  "images/creature/RevenantCabalist/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  412,
+    "item":  272,
+    "lore":  "Revenants live in warrior tribes in the depths of the oceans. A thousand years ago they developed the necessary magic to live on the surface, and many abandoned their home to earn a living as mercenaries.\\n\\nRevenant Kings are often surrounded by a group of loyal protectors called Cabalists. They identify and dismantle conspiracies that threaten the King, generally through violence. In addition, they are skilled magic users who can sacrifice their own vitality to cast multiple spells at once.",
+    "menagerieDialog":  [
+                            "It\u0027s a common misconception that all Revenants like to fight. I, for one, would prefer to lead a quiet life and dedicate myself to collecting minerals.",
+                            "What\u0027s wrong? You look like a fish out of water.\\n\\nHA!",
+                            "(Revenants hate when you call them \"fish people\". Never make that mistake.)",
+                            "I am not a fish. I am NOT. A FISH.\\n\\n(This is the most sensitive fish you\u0027ve ever met.)",
+                            "(It smells like dead fish. Probably because that\u0027s exactly what it is.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Revenant Cabalist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RevenantCabalist/overworld_e0.png",
+                                         "images/creature/RevenantCabalist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RevenantCabalist/overworld_n0.png",
+                                          "images/creature/RevenantCabalist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RevenantCabalist/overworld_s0.png",
+                                          "images/creature/RevenantCabalist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RevenantCabalist/overworld_w0.png",
+                                         "images/creature/RevenantCabalist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Revenant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Friden)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  24,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  182,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

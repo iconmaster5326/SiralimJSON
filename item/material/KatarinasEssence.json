@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKatarina\u0027s Guidance:\nAt the start of battle, your creature that is highest on the {TIMELINE} gains 5 random buffs. This trait does not stack.",
-  "icon": "images/item/material/KatarinasEssence.png",
-  "id": 914,
-  "name": "Katarina\u0027s Essence",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 950
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKatarina\u0027s Guidance:\nAt the start of battle, your creature that is highest on the {TIMELINE} gains 5 random buffs. This trait does not stack.",
+    "icon":  "images/item/material/KatarinasEssence.png",
+    "id":  914,
+    "name":  "Katarina\u0027s Essence",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  950,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

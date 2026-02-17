@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/HarpyScreamer/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 18,
-  "item": 366,
-  "lore": "Harpy nests have always been a target for humans and other intelligent creatures. The guards who are stationed day and night on town walls and guard posts always keep a watchful eye for the arrival of these creatures.\\n\\nThe Harpy Screamer constantly emits a shuddering shriek. Anyone who hears it up close risks losing their mind for a few seconds. For this reason, Harpy hunters can be recognized by the earplugs that always hang around their necks.",
-  "menagerieDialog": [
-    "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
-    "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
-    "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
-    "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
-    "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
-  ],
-  "minDepth": 1,
-  "name": "Harpy Screamer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HarpyScreamer/overworld_e0.png",
-      "images/creature/HarpyScreamer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HarpyScreamer/overworld_n0.png",
-      "images/creature/HarpyScreamer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HarpyScreamer/overworld_s0.png",
-      "images/creature/HarpyScreamer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HarpyScreamer/overworld_w0.png",
-      "images/creature/HarpyScreamer/overworld_w1.png"
-    ]
-  },
-  "race": "Harpy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 282
+    "battleSprite":  "images/creature/HarpyScreamer/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  18,
+    "item":  366,
+    "lore":  "Harpy nests have always been a target for humans and other intelligent creatures. The guards who are stationed day and night on town walls and guard posts always keep a watchful eye for the arrival of these creatures.\\n\\nThe Harpy Screamer constantly emits a shuddering shriek. Anyone who hears it up close risks losing their mind for a few seconds. For this reason, Harpy hunters can be recognized by the earplugs that always hang around their necks.",
+    "menagerieDialog":  [
+                            "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
+                            "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
+                            "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
+                            "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
+                            "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Harpy Screamer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HarpyScreamer/overworld_e0.png",
+                                         "images/creature/HarpyScreamer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HarpyScreamer/overworld_n0.png",
+                                          "images/creature/HarpyScreamer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HarpyScreamer/overworld_s0.png",
+                                          "images/creature/HarpyScreamer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HarpyScreamer/overworld_w0.png",
+                                         "images/creature/HarpyScreamer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Harpy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  282,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

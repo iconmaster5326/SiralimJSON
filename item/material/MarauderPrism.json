@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAgility Aura:\nYour creatures have a 40% greater chance to dodge attacks. This trait does not stack.",
-  "icon": "images/item/material/MarauderPrism.png",
-  "id": 454,
-  "name": "Marauder Prism",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 369
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAgility Aura:\nYour creatures have a 40% greater chance to dodge attacks. This trait does not stack.",
+    "icon":  "images/item/material/MarauderPrism.png",
+    "id":  454,
+    "name":  "Marauder Prism",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  369,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UnicornStormbringer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 182,
-  "item": 94,
-  "lore": "The Unicorn Stormbringer owes its name to the fact that it was once believed to attract bad weather. When it rains, it trots merrily and rolls on the ground next to its kind, enjoying the touch of the damp grass caressing its coat. During a war, some Stormbringers go to the cities and protect civilians from the spells that fly everywhere through the streets.",
-  "menagerieDialog": [
-    "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
-    "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
-    "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
-    "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
-    "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
-  ],
-  "minDepth": 1,
-  "name": "Unicorn Stormbringer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UnicornStormbringer/overworld_e0.png",
-      "images/creature/UnicornStormbringer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UnicornStormbringer/overworld_n0.png",
-      "images/creature/UnicornStormbringer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UnicornStormbringer/overworld_s0.png",
-      "images/creature/UnicornStormbringer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UnicornStormbringer/overworld_w0.png",
-      "images/creature/UnicornStormbringer/overworld_w1.png"
-    ]
-  },
-  "race": "Unicorn",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 30,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 2
+    "battleSprite":  "images/creature/UnicornStormbringer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  182,
+    "item":  94,
+    "lore":  "The Unicorn Stormbringer owes its name to the fact that it was once believed to attract bad weather. When it rains, it trots merrily and rolls on the ground next to its kind, enjoying the touch of the damp grass caressing its coat. During a war, some Stormbringers go to the cities and protect civilians from the spells that fly everywhere through the streets.",
+    "menagerieDialog":  [
+                            "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
+                            "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
+                            "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
+                            "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
+                            "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Unicorn Stormbringer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UnicornStormbringer/overworld_e0.png",
+                                         "images/creature/UnicornStormbringer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UnicornStormbringer/overworld_n0.png",
+                                          "images/creature/UnicornStormbringer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UnicornStormbringer/overworld_s0.png",
+                                          "images/creature/UnicornStormbringer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UnicornStormbringer/overworld_w0.png",
+                                         "images/creature/UnicornStormbringer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Unicorn",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  30,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  2,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

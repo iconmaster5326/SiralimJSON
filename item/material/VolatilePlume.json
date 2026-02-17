@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBuffet:\nAfter your creatures are resurrected, enemies take damage equal to 50% of this creature\u0027s {STAT_speed}.",
-  "icon": "images/item/material/VolatilePlume.png",
-  "id": 434,
-  "name": "Volatile Plume",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 349
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBuffet:\nAfter your creatures are resurrected, enemies take damage equal to 50% of this creature\u0027s {STAT_speed}.",
+    "icon":  "images/item/material/VolatilePlume.png",
+    "id":  434,
+    "name":  "Volatile Plume",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  349,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

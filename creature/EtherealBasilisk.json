@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EtherealBasilisk/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 590,
-  "item": 714,
-  "lore": "At present, it is known that the powers of the Basilisks work through their voice. If their scream is interrupted before it takes effect, they must start from the beginning.\\n\\nDue to the ghostly appearance of the Ethereal Basilisk, it was thought for a long time to be a soul, trapped in this world. The truth is that it is as organic as the rest of its kind. Its scales, like the rest of its body, are extremely sensitive to magic, and acquire this color at birth after being exposed to it.",
-  "menagerieDialog": [
-    "(It\u0027s crouched down, staring blankly into nothingness.)",
-    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
-    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
-    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
-    "(It bows its head and turns away. It must be shy.)"
-  ],
-  "minDepth": 1,
-  "name": "Ethereal Basilisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EtherealBasilisk/overworld_e0.png",
-      "images/creature/EtherealBasilisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EtherealBasilisk/overworld_n0.png",
-      "images/creature/EtherealBasilisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EtherealBasilisk/overworld_s0.png",
-      "images/creature/EtherealBasilisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EtherealBasilisk/overworld_w0.png",
-      "images/creature/EtherealBasilisk/overworld_w1.png"
-    ]
-  },
-  "race": "Basilisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vulcanar)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 34,
-    "intelligence": 19,
-    "speed": 14
-  },
-  "trait": 653
+    "battleSprite":  "images/creature/EtherealBasilisk/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  590,
+    "item":  714,
+    "lore":  "At present, it is known that the powers of the Basilisks work through their voice. If their scream is interrupted before it takes effect, they must start from the beginning.\\n\\nDue to the ghostly appearance of the Ethereal Basilisk, it was thought for a long time to be a soul, trapped in this world. The truth is that it is as organic as the rest of its kind. Its scales, like the rest of its body, are extremely sensitive to magic, and acquire this color at birth after being exposed to it.",
+    "menagerieDialog":  [
+                            "(It\u0027s crouched down, staring blankly into nothingness.)",
+                            "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+                            "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+                            "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+                            "(It bows its head and turns away. It must be shy.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ethereal Basilisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EtherealBasilisk/overworld_e0.png",
+                                         "images/creature/EtherealBasilisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EtherealBasilisk/overworld_n0.png",
+                                          "images/creature/EtherealBasilisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EtherealBasilisk/overworld_s0.png",
+                                          "images/creature/EtherealBasilisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EtherealBasilisk/overworld_w0.png",
+                                         "images/creature/EtherealBasilisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Basilisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vulcanar)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  34,
+                       "intelligence":  19,
+                       "speed":  14
+                   },
+    "trait":  653,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

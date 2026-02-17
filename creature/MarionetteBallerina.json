@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MarionetteBallerina/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1325,
-  "item": 1821,
-  "lore": "Marionettes are finely carved wooden figures brought to life by a strong spell\u00E2\u20AC\u201Dthey have no will of their own.\\n\\nMarionette Ballerinas constantly perform traditional folk dances from all over Rodia unless told to do something else. Even when carrying out simple tasks, if not told otherwise, they\u0027ll do it while dancing.",
-  "menagerieDialog": [
-    "(It hangs limply, awaiting its next command.)",
-    "Pull my strings and watch me dance... a dance of death!",
-    "I may be controlled, but my mind is my own. Let me share my observations with you.",
-    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
-    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
-  ],
-  "minDepth": 1,
-  "name": "Marionette Ballerina",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MarionetteBallerina/overworld_e0.png",
-      "images/creature/MarionetteBallerina/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MarionetteBallerina/overworld_n0.png",
-      "images/creature/MarionetteBallerina/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MarionetteBallerina/overworld_s0.png",
-      "images/creature/MarionetteBallerina/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MarionetteBallerina/overworld_w0.png",
-      "images/creature/MarionetteBallerina/overworld_w1.png"
-    ]
-  },
-  "race": "Marionette",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 2180
+    "battleSprite":  "images/creature/MarionetteBallerina/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1325,
+    "item":  1821,
+    "lore":  "Marionettes are finely carved wooden figures brought to life by a strong spell—they have no will of their own.\\n\\nMarionette Ballerinas constantly perform traditional folk dances from all over Rodia unless told to do something else. Even when carrying out simple tasks, if not told otherwise, they\u0027ll do it while dancing.",
+    "menagerieDialog":  [
+                            "(It hangs limply, awaiting its next command.)",
+                            "Pull my strings and watch me dance... a dance of death!",
+                            "I may be controlled, but my mind is my own. Let me share my observations with you.",
+                            "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+                            "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Marionette Ballerina",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MarionetteBallerina/overworld_e0.png",
+                                         "images/creature/MarionetteBallerina/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MarionetteBallerina/overworld_n0.png",
+                                          "images/creature/MarionetteBallerina/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MarionetteBallerina/overworld_s0.png",
+                                          "images/creature/MarionetteBallerina/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MarionetteBallerina/overworld_w0.png",
+                                         "images/creature/MarionetteBallerina/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Marionette",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  2180,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

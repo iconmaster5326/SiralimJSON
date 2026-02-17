@@ -1,15 +1,18 @@
 {
-  "description": "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nMagnetic: the spell\u0027s potency is increased by 15% for each creature in your party with that same spell equipped.",
-  "icon": "images/item/spellprop/Beryl.png",
-  "id": 4,
-  "name": "Beryl",
-  "notes": [],
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "spellProperties": [
-    18
-  ]
+    "description":  "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nMagnetic: the spell\u0027s potency is increased by 15% for each creature in your party with that same spell equipped.",
+    "icon":  "images/item/spellprop/Beryl.png",
+    "id":  4,
+    "name":  "Beryl",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "spellProperties":  [
+                            18
+                        ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spellPropertyItem.yaml"
 }

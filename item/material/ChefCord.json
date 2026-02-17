@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMulticast:\nYour creatures {ACTION_cast} spells 1 additional time, but their spells are 30% less potent. This trait does not stack.",
-  "icon": "images/item/material/ChefCord.png",
-  "id": 1063,
-  "name": "Chef Cord",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1068
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMulticast:\nYour creatures {ACTION_cast} spells 1 additional time, but their spells are 30% less potent. This trait does not stack.",
+    "icon":  "images/item/material/ChefCord.png",
+    "id":  1063,
+    "name":  "Chef Cord",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1068,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

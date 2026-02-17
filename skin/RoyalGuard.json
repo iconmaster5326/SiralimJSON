@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/RoyalGuard/battle.png",
-  "creator": null,
-  "creature": 797,
-  "id": 459,
-  "name": "Royal Guard",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/RoyalGuard/overworld_e0.png",
-      "images/skin/RoyalGuard/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/RoyalGuard/overworld_n0.png",
-      "images/skin/RoyalGuard/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/RoyalGuard/overworld_s0.png",
-      "images/skin/RoyalGuard/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/RoyalGuard/overworld_w0.png",
-      "images/skin/RoyalGuard/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/RoyalGuard/battle.png",
+    "creator":  null,
+    "creature":  797,
+    "id":  459,
+    "name":  "Royal Guard",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/RoyalGuard/overworld_e0.png",
+                                         "images/skin/RoyalGuard/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/RoyalGuard/overworld_n0.png",
+                                          "images/skin/RoyalGuard/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/RoyalGuard/overworld_s0.png",
+                                          "images/skin/RoyalGuard/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/RoyalGuard/overworld_w0.png",
+                                         "images/skin/RoyalGuard/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

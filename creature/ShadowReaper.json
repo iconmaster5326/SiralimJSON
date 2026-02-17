@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ShadowReaper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 14,
-  "item": 249,
-  "lore": "Reapers are intelligent beings who know all kinds of languages. However, they consider the concerns of mortals trivial and rarely communicate with them.\\n\\nIt is believed that the Shadow Reapers are the purest of their species. When their scythes take a life before its time had come, they generate a space-time distortion that accelerates the aging process of any creatures around them. During his investigations, Zonte designed a spell to reverse this effect.",
-  "menagerieDialog": [
-    "Oh, hello there! Would you like to know the exact date of your death?",
-    "While I can\u0027t hold your hand, I will have your back.",
-    "(This creature always seems to be focused on something you can\u0027t see.)",
-    "Don\u0027t fear the reaper.\\n\\n(Sigh. How clich\u00C3\u00A9.)",
-    "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Shadow Reaper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShadowReaper/overworld_e0.png",
-      "images/creature/ShadowReaper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShadowReaper/overworld_n0.png",
-      "images/creature/ShadowReaper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShadowReaper/overworld_s0.png",
-      "images/creature/ShadowReaper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShadowReaper/overworld_w0.png",
-      "images/creature/ShadowReaper/overworld_w1.png"
-    ]
-  },
-  "race": "Reaper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tenebris)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 12,
-    "health": 26,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 159
+    "battleSprite":  "images/creature/ShadowReaper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  14,
+    "item":  249,
+    "lore":  "Reapers are intelligent beings who know all kinds of languages. However, they consider the concerns of mortals trivial and rarely communicate with them.\\n\\nIt is believed that the Shadow Reapers are the purest of their species. When their scythes take a life before its time had come, they generate a space-time distortion that accelerates the aging process of any creatures around them. During his investigations, Zonte designed a spell to reverse this effect.",
+    "menagerieDialog":  [
+                            "Oh, hello there! Would you like to know the exact date of your death?",
+                            "While I can\u0027t hold your hand, I will have your back.",
+                            "(This creature always seems to be focused on something you can\u0027t see.)",
+                            "Don\u0027t fear the reaper.\\n\\n(Sigh. How cliché.)",
+                            "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shadow Reaper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShadowReaper/overworld_e0.png",
+                                         "images/creature/ShadowReaper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShadowReaper/overworld_n0.png",
+                                          "images/creature/ShadowReaper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShadowReaper/overworld_s0.png",
+                                          "images/creature/ShadowReaper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShadowReaper/overworld_w0.png",
+                                         "images/creature/ShadowReaper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Reaper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tenebris)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  12,
+                       "health":  26,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  159,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

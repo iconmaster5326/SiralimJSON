@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nQuantum Flux:\nAfter your creatures take damage from an enemy, their class is changed to the enemy\u0027s class weakness. This trait does not stack.",
-  "icon": "images/item/material/MercifulStardust.png",
-  "id": 969,
-  "name": "Merciful Stardust",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1169
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nQuantum Flux:\nAfter your creatures take damage from an enemy, their class is changed to the enemy\u0027s class weakness. This trait does not stack.",
+    "icon":  "images/item/material/MercifulStardust.png",
+    "id":  969,
+    "name":  "Merciful Stardust",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1169,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

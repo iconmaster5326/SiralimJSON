@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, enemy {CLASS_Nature} creatures are afflicted with {CONDNAME_DEBUFF_FEAR} and lose 30% {STAT_speed}.\\n\\n{CONDDESC_DEBUFF_FEAR}",
-  "icon": "images/perk/Rebuke.png",
-  "id": 90,
-  "maxRanks": 1,
-  "name": "Rebuke",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 6
+    "anointable":  true,
+    "description":  "At the start of battle, enemy {CLASS_Nature} creatures are afflicted with {CONDNAME_DEBUFF_FEAR} and lose 30% {STAT_speed}.\\n\\n{CONDDESC_DEBUFF_FEAR}",
+    "icon":  "images/perk/Rebuke.png",
+    "id":  90,
+    "maxRanks":  1,
+    "name":  "Rebuke",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

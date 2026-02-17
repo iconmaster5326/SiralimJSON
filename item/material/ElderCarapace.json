@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNo Prayers:\nWhen this creature {ACTION_attacks}, it deals 15% more damage for each Sealed Spell Gem the target has.",
-  "icon": "images/item/material/ElderCarapace.png",
-  "id": 942,
-  "name": "Elder Carapace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1190
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNo Prayers:\nWhen this creature {ACTION_attacks}, it deals 15% more damage for each Sealed Spell Gem the target has.",
+    "icon":  "images/item/material/ElderCarapace.png",
+    "id":  942,
+    "name":  "Elder Carapace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1190,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

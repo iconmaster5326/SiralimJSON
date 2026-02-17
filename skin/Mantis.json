@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Mantis/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 227,
-  "name": "Mantis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Mantis/overworld_e0.png",
-      "images/skin/Mantis/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Mantis/overworld_n0.png",
-      "images/skin/Mantis/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Mantis/overworld_s0.png",
-      "images/skin/Mantis/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Mantis/overworld_w0.png",
-      "images/skin/Mantis/overworld_w1.png"
-    ]
-  },
-  "race": "Arachnalisk",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Mantis/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  227,
+    "name":  "Mantis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Mantis/overworld_e0.png",
+                                         "images/skin/Mantis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Mantis/overworld_n0.png",
+                                          "images/skin/Mantis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Mantis/overworld_s0.png",
+                                          "images/skin/Mantis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Mantis/overworld_w0.png",
+                                         "images/skin/Mantis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arachnalisk",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

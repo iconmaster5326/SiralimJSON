@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "A soul as weak and dainty as yours is hardly a morsel to one such as I.",
-    "Another naive little human, here to steal my treasure. Choke on your own greed, you insipid fool.",
-    "Your curiosity has finally led you to your grave. Be thankful you won\u0027t have long to regret it!"
-  ],
-  "cardBonuses": {
-    "2": "You have a 5% chance to gain double resources from breakable objects.",
-    "4": "You have a 5% chance to gain double resources from breakable objects.",
-    "6": "You have a 5% chance to gain double resources from breakable objects."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    898,
-    899,
-    900,
-    901,
-    902,
-    903
-  ],
-  "icon": "images/race/Soulflayer.png",
-  "master": {
-    "costume": 360,
-    "dialog": "Soulflayers are able to take direct control of their allies and cause them to tap into their unrealized potential. These creatures are skilled tacticians that know their way around the battlefield. Care to fight me?",
-    "item": 1203,
-    "name": "Echtrois",
-    "trait": 1461
-  },
-  "name": "Soulflayer",
-  "notes": [],
-  "skins": [
-    6,
-    218,
-    450,
-    522
-  ]
+    "bossDialog":  [
+                       "A soul as weak and dainty as yours is hardly a morsel to one such as I.",
+                       "Another naive little human, here to steal my treasure. Choke on your own greed, you insipid fool.",
+                       "Your curiosity has finally led you to your grave. Be thankful you won\u0027t have long to regret it!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "You have a 5% chance to gain double resources from breakable objects.",
+                        "4":  "You have a 5% chance to gain double resources from breakable objects.",
+                        "6":  "You have a 5% chance to gain double resources from breakable objects."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      898,
+                      899,
+                      900,
+                      901,
+                      902,
+                      903
+                  ],
+    "icon":  "images/race/Soulflayer.png",
+    "master":  {
+                   "costume":  360,
+                   "dialog":  "Soulflayers are able to take direct control of their allies and cause them to tap into their unrealized potential. These creatures are skilled tacticians that know their way around the battlefield. Care to fight me?",
+                   "item":  1203,
+                   "name":  "Echtrois",
+                   "trait":  1461
+               },
+    "name":  "Soulflayer",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  6,
+                  218,
+                  450,
+                  522
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

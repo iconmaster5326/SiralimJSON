@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Denizens:\nIf all the creatures in your party are {RACE_Denizen}s, enemies take 50% more damage from {CONDNAME_DEBUFF_MANIA}. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheDenizen.png",
-  "id": 1861,
-  "name": "Sigil of the Denizen",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2202
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Denizens:\nIf all the creatures in your party are {RACE_Denizen}s, enemies take 50% more damage from {CONDNAME_DEBUFF_MANIA}. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheDenizen.png",
+    "id":  1861,
+    "name":  "Sigil of the Denizen",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2202,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

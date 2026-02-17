@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBy My Hand:\nWhen your creatures damage enemies with {CONDNAME_BUFF_SHELL}, all subsequent effects such as on-attack or on-cast effects are no longer prevented.",
-  "icon": "images/item/material/CelestineEnergy.png",
-  "id": 1549,
-  "name": "Celestine Energy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1892
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBy My Hand:\nWhen your creatures damage enemies with {CONDNAME_BUFF_SHELL}, all subsequent effects such as on-attack or on-cast effects are no longer prevented.",
+    "icon":  "images/item/material/CelestineEnergy.png",
+    "id":  1549,
+    "name":  "Celestine Energy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1892,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

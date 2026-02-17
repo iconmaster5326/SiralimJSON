@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPhlebotomize:\nAfter this creature {ACTION_defends}, it removes its debuffs and heals your creatures for 50% {STAT_health} for each debuff removed.",
-  "icon": "images/item/material/SanguineStake.png",
-  "id": 480,
-  "name": "Sanguine Stake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 394
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPhlebotomize:\nAfter this creature {ACTION_defends}, it removes its debuffs and heals your creatures for 50% {STAT_health} for each debuff removed.",
+    "icon":  "images/item/material/SanguineStake.png",
+    "id":  480,
+    "name":  "Sanguine Stake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  394,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

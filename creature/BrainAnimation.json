@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BrainAnimation/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1207,
-  "item": 1593,
-  "lore": "Animations are the failed result of the necromantic practices of inexperienced Magi.\\n\\nThe Brain Animation never attacks directly, instead using its powers to break down the cells in their opponents\u0027 bodies. If it is about to take damage, it uses the same powers to harden its body and withstand blows that would normally destroy it completely.",
-  "menagerieDialog": [
-    "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
-    "(Where did this body part come from, anyway?)",
-    "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
-    "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
-    "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
-  ],
-  "minDepth": 1,
-  "name": "Brain Animation",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BrainAnimation/overworld_e0.png",
-      "images/creature/BrainAnimation/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BrainAnimation/overworld_n0.png",
-      "images/creature/BrainAnimation/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BrainAnimation/overworld_s0.png",
-      "images/creature/BrainAnimation/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BrainAnimation/overworld_w0.png",
-      "images/creature/BrainAnimation/overworld_w1.png"
-    ]
-  },
-  "race": "Animation",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1930
+    "battleSprite":  "images/creature/BrainAnimation/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1207,
+    "item":  1593,
+    "lore":  "Animations are the failed result of the necromantic practices of inexperienced Magi.\\n\\nThe Brain Animation never attacks directly, instead using its powers to break down the cells in their opponents\u0027 bodies. If it is about to take damage, it uses the same powers to harden its body and withstand blows that would normally destroy it completely.",
+    "menagerieDialog":  [
+                            "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
+                            "(Where did this body part come from, anyway?)",
+                            "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
+                            "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
+                            "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Brain Animation",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BrainAnimation/overworld_e0.png",
+                                         "images/creature/BrainAnimation/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BrainAnimation/overworld_n0.png",
+                                          "images/creature/BrainAnimation/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BrainAnimation/overworld_s0.png",
+                                          "images/creature/BrainAnimation/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BrainAnimation/overworld_w0.png",
+                                         "images/creature/BrainAnimation/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Animation",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1930,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

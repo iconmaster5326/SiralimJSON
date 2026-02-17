@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/GimpMummy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 47,
-  "item": 240,
-  "lore": "During the funeral of a sovereign of Kaito, a sacred conclave was held in which all priests and priestesses participated. Through words and a strange dance, the dust rose from the ground and flew around them.\\n\\nThe Gimp Mummies led the attack on the capital of Kaito. The royal guard was terrified to realize that, after being hit by these creatures, the wounds they inflicted with their weapons were reflected in their own bodies.",
-  "menagerieDialog": [
-    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
-    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
-    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
-    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
-    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
-  ],
-  "minDepth": 1,
-  "name": "Gimp Mummy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GimpMummy/overworld_e0.png",
-      "images/creature/GimpMummy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GimpMummy/overworld_n0.png",
-      "images/creature/GimpMummy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GimpMummy/overworld_s0.png",
-      "images/creature/GimpMummy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GimpMummy/overworld_w0.png",
-      "images/creature/GimpMummy/overworld_w1.png"
-    ]
-  },
-  "race": "Mummy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    29
-  ],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 16,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 11
-  },
-  "trait": 150
+    "battleSprite":  "images/creature/GimpMummy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  47,
+    "item":  240,
+    "lore":  "During the funeral of a sovereign of Kaito, a sacred conclave was held in which all priests and priestesses participated. Through words and a strange dance, the dust rose from the ground and flew around them.\\n\\nThe Gimp Mummies led the attack on the capital of Kaito. The royal guard was terrified to realize that, after being hit by these creatures, the wounds they inflicted with their weapons were reflected in their own bodies.",
+    "menagerieDialog":  [
+                            "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+                            "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+                            "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+                            "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+                            "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Gimp Mummy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GimpMummy/overworld_e0.png",
+                                         "images/creature/GimpMummy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GimpMummy/overworld_n0.png",
+                                          "images/creature/GimpMummy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GimpMummy/overworld_s0.png",
+                                          "images/creature/GimpMummy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GimpMummy/overworld_w0.png",
+                                         "images/creature/GimpMummy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mummy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            29
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  16,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  11
+                   },
+    "trait":  150,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

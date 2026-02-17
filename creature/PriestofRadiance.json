@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/PriestofRadiance/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 330,
-  "item": 121,
-  "lore": "More than anything, Lister longed for world peace so that he could sleep without worries. But from his kingdom, located between the ocean and the Barrens, he watched as the children of the Gods murdered each other.\\n\\nWhen the Priest of Radiance visited the human cities, it found powerful individuals full of selfish desires that led innocents to their deaths on a whim. This creature entered the castles of the great lords and diminished their insatiable appetites.",
-  "menagerieDialog": [
-    "(It\u0027s doing what it does best - standing still.)",
-    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
-    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
-    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
-    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Priest of Radiance",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PriestofRadiance/overworld_e0.png",
-      "images/creature/PriestofRadiance/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PriestofRadiance/overworld_n0.png",
-      "images/creature/PriestofRadiance/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PriestofRadiance/overworld_s0.png",
-      "images/creature/PriestofRadiance/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PriestofRadiance/overworld_w0.png",
-      "images/creature/PriestofRadiance/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 30
+    "battleSprite":  "images/creature/PriestofRadiance/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  330,
+    "item":  121,
+    "lore":  "More than anything, Lister longed for world peace so that he could sleep without worries. But from his kingdom, located between the ocean and the Barrens, he watched as the children of the Gods murdered each other.\\n\\nWhen the Priest of Radiance visited the human cities, it found powerful individuals full of selfish desires that led innocents to their deaths on a whim. This creature entered the castles of the great lords and diminished their insatiable appetites.",
+    "menagerieDialog":  [
+                            "(It\u0027s doing what it does best - standing still.)",
+                            "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+                            "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+                            "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+                            "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Priest of Radiance",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PriestofRadiance/overworld_e0.png",
+                                         "images/creature/PriestofRadiance/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PriestofRadiance/overworld_n0.png",
+                                          "images/creature/PriestofRadiance/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PriestofRadiance/overworld_s0.png",
+                                          "images/creature/PriestofRadiance/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PriestofRadiance/overworld_w0.png",
+                                         "images/creature/PriestofRadiance/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  30,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

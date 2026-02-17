@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_attack}, they summon {CONDNAME_MINION_FAMINE}.\\n\\n{CONDDESC_MINION_FAMINE}",
-  "icon": "images/perk/FaminesThirst.png",
-  "id": 226,
-  "maxRanks": 1,
-  "name": "Famine\u0027s Thirst",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 8
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_attack}, they summon {CONDNAME_MINION_FAMINE}.\\n\\n{CONDDESC_MINION_FAMINE}",
+    "icon":  "images/perk/FaminesThirst.png",
+    "id":  226,
+    "maxRanks":  1,
+    "name":  "Famine\u0027s Thirst",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  8,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

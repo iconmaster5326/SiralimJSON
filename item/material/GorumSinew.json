@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nQuahn Harbinger:\nYour creatures have a 25% chance to prevent debuffs for each turn they\u0027ve taken in the current battle. This trait does not stack.",
-  "icon": "images/item/material/GorumSinew.png",
-  "id": 374,
-  "name": "Gorum Sinew",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 290
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nQuahn Harbinger:\nYour creatures have a 25% chance to prevent debuffs for each turn they\u0027ve taken in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/GorumSinew.png",
+    "id":  374,
+    "name":  "Gorum Sinew",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  290,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

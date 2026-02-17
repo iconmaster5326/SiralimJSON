@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures have \u003C1\u003E% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each creature that belongs to the same race fighting on your side.",
-  "icon": "images/perk/Hybridization.png",
-  "id": 158,
-  "maxRanks": 5,
-  "name": "Hybridization",
-  "notes": [],
-  "pointsPerRank": 20,
-  "specialization": 13
+    "anointable":  true,
+    "description":  "Your creatures have \u003c1\u003e% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each creature that belongs to the same race fighting on your side.",
+    "icon":  "images/perk/Hybridization.png",
+    "id":  158,
+    "maxRanks":  5,
+    "name":  "Hybridization",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  20,
+    "specialization":  13,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

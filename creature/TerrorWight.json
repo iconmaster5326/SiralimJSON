@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/TerrorWight/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 488,
-  "item": 280,
-  "lore": "The passage of years and its new body have not taken its skill with the sword. In fact, its undeath has allowed it to develop some skills. It uses its cunning tongue to deceive creatures less intelligent than it by promising fame and riches. When it dies, it plunges its blade into their lifeless bodies to absorb their soul for the purpose of gaining more power.",
-  "menagerieDialog": [
-    "I grow tired of waiting. Let\u0027s seek out a battle!",
-    "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
-    "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
-    "Who else wishes to taste my steel?",
-    "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
-  ],
-  "minDepth": 1,
-  "name": "Terror Wight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TerrorWight/overworld_e0.png",
-      "images/creature/TerrorWight/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TerrorWight/overworld_n0.png",
-      "images/creature/TerrorWight/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TerrorWight/overworld_s0.png",
-      "images/creature/TerrorWight/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TerrorWight/overworld_w0.png",
-      "images/creature/TerrorWight/overworld_w1.png"
-    ]
-  },
-  "race": "Wight",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 190
+    "battleSprite":  "images/creature/TerrorWight/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  488,
+    "item":  280,
+    "lore":  "The passage of years and its new body have not taken its skill with the sword. In fact, its undeath has allowed it to develop some skills. It uses its cunning tongue to deceive creatures less intelligent than it by promising fame and riches. When it dies, it plunges its blade into their lifeless bodies to absorb their soul for the purpose of gaining more power.",
+    "menagerieDialog":  [
+                            "I grow tired of waiting. Let\u0027s seek out a battle!",
+                            "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
+                            "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
+                            "Who else wishes to taste my steel?",
+                            "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Terror Wight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TerrorWight/overworld_e0.png",
+                                         "images/creature/TerrorWight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TerrorWight/overworld_n0.png",
+                                          "images/creature/TerrorWight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TerrorWight/overworld_s0.png",
+                                          "images/creature/TerrorWight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TerrorWight/overworld_w0.png",
+                                         "images/creature/TerrorWight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wight",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  190,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/WindSalamander/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 599,
-  "item": 723,
-  "lore": "Wind Salamanders can rise in the air and travel great distances without touching the ground. These creatures did not appear with the rest of the Salamanders. They were born from the eggs of other breeds of Salamander due to a mutation. A group of Salamanders that includes one of these creatures is twice as dangerous, as they can greatly boost the abilities of their kind. A few months ago, a team from the University of Natural Science in Vanelin discovered that Wind Salamanders are sterile.",
-  "menagerieDialog": [
-    "(Your magical items grow warmer in its presence.)",
-    "(It just bit off its own tail. It\u0027ll grow back though, right?)",
-    "(It blinks immediately after you do. Every. Single. Time.)",
-    "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
-    "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
-  ],
-  "minDepth": 1,
-  "name": "Wind Salamander",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WindSalamander/overworld_e0.png",
-      "images/creature/WindSalamander/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WindSalamander/overworld_n0.png",
-      "images/creature/WindSalamander/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WindSalamander/overworld_s0.png",
-      "images/creature/WindSalamander/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WindSalamander/overworld_w0.png",
-      "images/creature/WindSalamander/overworld_w1.png"
-    ]
-  },
-  "race": "Salamander",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 662
+    "battleSprite":  "images/creature/WindSalamander/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  599,
+    "item":  723,
+    "lore":  "Wind Salamanders can rise in the air and travel great distances without touching the ground. These creatures did not appear with the rest of the Salamanders. They were born from the eggs of other breeds of Salamander due to a mutation. A group of Salamanders that includes one of these creatures is twice as dangerous, as they can greatly boost the abilities of their kind. A few months ago, a team from the University of Natural Science in Vanelin discovered that Wind Salamanders are sterile.",
+    "menagerieDialog":  [
+                            "(Your magical items grow warmer in its presence.)",
+                            "(It just bit off its own tail. It\u0027ll grow back though, right?)",
+                            "(It blinks immediately after you do. Every. Single. Time.)",
+                            "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
+                            "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Wind Salamander",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WindSalamander/overworld_e0.png",
+                                         "images/creature/WindSalamander/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WindSalamander/overworld_n0.png",
+                                          "images/creature/WindSalamander/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WindSalamander/overworld_s0.png",
+                                          "images/creature/WindSalamander/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WindSalamander/overworld_w0.png",
+                                         "images/creature/WindSalamander/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Salamander",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  662,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/SingularGromMet/battle.png",
-  "creator": null,
-  "creature": 1108,
-  "id": 702,
-  "name": "Singular Grom\u0027Met",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SingularGromMet/overworld_e0.png",
-      "images/skin/SingularGromMet/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SingularGromMet/overworld_n0.png",
-      "images/skin/SingularGromMet/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SingularGromMet/overworld_s0.png",
-      "images/skin/SingularGromMet/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SingularGromMet/overworld_w0.png",
-      "images/skin/SingularGromMet/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/SingularGromMet/battle.png",
+    "creator":  null,
+    "creature":  1108,
+    "id":  702,
+    "name":  "Singular Grom\u0027Met",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SingularGromMet/overworld_e0.png",
+                                         "images/skin/SingularGromMet/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SingularGromMet/overworld_n0.png",
+                                          "images/skin/SingularGromMet/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SingularGromMet/overworld_s0.png",
+                                          "images/skin/SingularGromMet/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SingularGromMet/overworld_w0.png",
+                                         "images/skin/SingularGromMet/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

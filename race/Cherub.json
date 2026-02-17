@@ -1,44 +1,47 @@
 {
-  "bossDialog": [
-    "(A tiny embryo floats in the air, wreathed in a potent field of magical energy. Suppressing your guilt at having to use force on something so young, you prepare to attack!)",
-    "(As soon as it notices your presence, the Cherub begins to radiate massive amounts of power. It needs to be stopped before it gets too intense and brings the whole room down upon you!)",
-    "(Knowing well how dangerous these unassuming creatures can be, you order your creatures to be extremely cautious in dealing with it while you stand back with an escape spell at the ready.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures take 0.5% less damage from attacks for each buff they have.",
-    "4": "Your creatures take 0.5% less damage from spells for each buff they have.",
-    "6": "Your creatures take 0.5% less indirect damage for each buff they have."
-  },
-  "cards": 6,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    1165,
-    1166,
-    1167,
-    1168,
-    1169,
-    1170
-  ],
-  "icon": "images/race/Cherub.png",
-  "master": {
-    "costume": 675,
-    "dialog": "Cherubs are defensive creatures who utilize powerful barriers to keep them safe from harm. Push their limits too much, however, and you\u0027ll be on the receiving end of unimaginable offensive power as well. Allow me to demonstrate!",
-    "item": 1496,
-    "name": "Claas",
-    "trait": 1804
-  },
-  "name": "Cherub",
-  "notes": [],
-  "skins": [
-    566,
-    567,
-    568,
-    569,
-    570,
-    571,
-    647,
-    648,
-    649
-  ]
+    "bossDialog":  [
+                       "(A tiny embryo floats in the air, wreathed in a potent field of magical energy. Suppressing your guilt at having to use force on something so young, you prepare to attack!)",
+                       "(As soon as it notices your presence, the Cherub begins to radiate massive amounts of power. It needs to be stopped before it gets too intense and brings the whole room down upon you!)",
+                       "(Knowing well how dangerous these unassuming creatures can be, you order your creatures to be extremely cautious in dealing with it while you stand back with an escape spell at the ready.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures take 0.5% less damage from attacks for each buff they have.",
+                        "4":  "Your creatures take 0.5% less damage from spells for each buff they have.",
+                        "6":  "Your creatures take 0.5% less indirect damage for each buff they have."
+                    },
+    "cards":  6,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      1165,
+                      1166,
+                      1167,
+                      1168,
+                      1169,
+                      1170
+                  ],
+    "icon":  "images/race/Cherub.png",
+    "master":  {
+                   "costume":  675,
+                   "dialog":  "Cherubs are defensive creatures who utilize powerful barriers to keep them safe from harm. Push their limits too much, however, and you\u0027ll be on the receiving end of unimaginable offensive power as well. Allow me to demonstrate!",
+                   "item":  1496,
+                   "name":  "Claas",
+                   "trait":  1804
+               },
+    "name":  "Cherub",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  566,
+                  567,
+                  568,
+                  569,
+                  570,
+                  571,
+                  647,
+                  648,
+                  649
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

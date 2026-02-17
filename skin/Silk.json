@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Silk/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 762,
-  "name": "Silk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Silk/overworld_e0.png",
-      "images/skin/Silk/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Silk/overworld_n0.png",
-      "images/skin/Silk/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Silk/overworld_s0.png",
-      "images/skin/Silk/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Silk/overworld_w0.png",
-      "images/skin/Silk/overworld_w1.png"
-    ]
-  },
-  "race": "Beacon",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Silk/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  762,
+    "name":  "Silk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Silk/overworld_e0.png",
+                                         "images/skin/Silk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Silk/overworld_n0.png",
+                                          "images/skin/Silk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Silk/overworld_s0.png",
+                                          "images/skin/Silk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Silk/overworld_w0.png",
+                                         "images/skin/Silk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Beacon",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

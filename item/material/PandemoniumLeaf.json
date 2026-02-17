@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Death:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} [icons,1980] Extinguish on the enemy.",
-  "icon": "images/item/material/PandemoniumLeaf.png",
-  "id": 891,
-  "name": "Pandemonium Leaf",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 770
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Death:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} [icons,1980] Extinguish on the enemy.",
+    "icon":  "images/item/material/PandemoniumLeaf.png",
+    "id":  891,
+    "name":  "Pandemonium Leaf",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  770,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

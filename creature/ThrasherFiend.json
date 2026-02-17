@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ThrasherFiend/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 274,
-  "item": 303,
-  "lore": "Their terrifying, demon-like appearance, their tirelessness, and their voracious hunger have given the Fiends a bad reputation. However, if they are trained from a young age and fed pieces of meat instead of living creatures, they will never devour their masters or other beings even if they are starving.\\n\\nThe wings of the Thrasher Fiend do not allow it to fly, but when it charges against an enemy or prey, it can flutter around for a few seconds, making it easier for it to take additional bites.",
-  "menagerieDialog": [
-    "(Oh, Gods, it\u0027s eating the floor tiles!)",
-    "(This creature is completely out of control, headbutting everything in sight.)",
-    "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
-    "(You wish it would close its mouth at some point, but it never does. Ever.)",
-    "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
-  ],
-  "minDepth": 1,
-  "name": "Thrasher Fiend",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ThrasherFiend/overworld_e0.png",
-      "images/creature/ThrasherFiend/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ThrasherFiend/overworld_n0.png",
-      "images/creature/ThrasherFiend/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ThrasherFiend/overworld_s0.png",
-      "images/creature/ThrasherFiend/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ThrasherFiend/overworld_w0.png",
-      "images/creature/ThrasherFiend/overworld_w1.png"
-    ]
-  },
-  "race": "Fiend",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tartarith)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 12,
-    "health": 29,
-    "intelligence": 12,
-    "speed": 22
-  },
-  "trait": 219
+    "battleSprite":  "images/creature/ThrasherFiend/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  274,
+    "item":  303,
+    "lore":  "Their terrifying, demon-like appearance, their tirelessness, and their voracious hunger have given the Fiends a bad reputation. However, if they are trained from a young age and fed pieces of meat instead of living creatures, they will never devour their masters or other beings even if they are starving.\\n\\nThe wings of the Thrasher Fiend do not allow it to fly, but when it charges against an enemy or prey, it can flutter around for a few seconds, making it easier for it to take additional bites.",
+    "menagerieDialog":  [
+                            "(Oh, Gods, it\u0027s eating the floor tiles!)",
+                            "(This creature is completely out of control, headbutting everything in sight.)",
+                            "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
+                            "(You wish it would close its mouth at some point, but it never does. Ever.)",
+                            "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Thrasher Fiend",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ThrasherFiend/overworld_e0.png",
+                                         "images/creature/ThrasherFiend/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ThrasherFiend/overworld_n0.png",
+                                          "images/creature/ThrasherFiend/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ThrasherFiend/overworld_s0.png",
+                                          "images/creature/ThrasherFiend/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ThrasherFiend/overworld_w0.png",
+                                         "images/creature/ThrasherFiend/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Fiend",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tartarith)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  12,
+                       "health":  29,
+                       "intelligence":  12,
+                       "speed":  22
+                   },
+    "trait":  219,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

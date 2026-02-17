@@ -1,38 +1,41 @@
 {
-  "bossDialog": [
-    "Big, ugly giant! You can\u0027t catch me! Nya nya nya-\\n\\n(You grab one of the fairies out of the air and eat it to show you\u0027re not going to be taunted. Horrified, the rest of the fairies attack!)",
-    "Heehee! Look, friends, a new plaything for us! A silly looking one, too!",
-    "Hey! Listen! I\u0027ll give you some useful advice; get out of my treasure room before I rip your skin off!"
-  ],
-  "cardBonuses": {
-    "2": "You gain 30% more {RES_CRYSTAL} from battles.",
-    "4": "Increases the base amount of {RES_CRYSTAL} gained from battles by 15.",
-    "6": "You have a 15% chance to gain double {RES_CRYSTAL} from battles."
-  },
-  "cards": 6,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    1213,
-    1214,
-    1215,
-    1216,
-    1217,
-    1218
-  ],
-  "icon": "images/race/Fae.png",
-  "master": {
-    "costume": 679,
-    "dialog": "Fae may be small in appearance, but get enough of them together and you\u0027ll be in for quite a nasty surprise! Sure, their personalities leave much to be desired, but there\u0027s no creatures I\u0027d rather have on my side than a pack of Fae. Allow me to introduce you to mine!",
-    "item": 1500,
-    "name": "Sylphe",
-    "trait": 1808
-  },
-  "name": "Fae",
-  "notes": [],
-  "skins": [
-    678,
-    679,
-    680
-  ]
+    "bossDialog":  [
+                       "Big, ugly giant! You can\u0027t catch me! Nya nya nya-\\n\\n(You grab one of the fairies out of the air and eat it to show you\u0027re not going to be taunted. Horrified, the rest of the fairies attack!)",
+                       "Heehee! Look, friends, a new plaything for us! A silly looking one, too!",
+                       "Hey! Listen! I\u0027ll give you some useful advice; get out of my treasure room before I rip your skin off!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "You gain 30% more {RES_CRYSTAL} from battles.",
+                        "4":  "Increases the base amount of {RES_CRYSTAL} gained from battles by 15.",
+                        "6":  "You have a 15% chance to gain double {RES_CRYSTAL} from battles."
+                    },
+    "cards":  6,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      1213,
+                      1214,
+                      1215,
+                      1216,
+                      1217,
+                      1218
+                  ],
+    "icon":  "images/race/Fae.png",
+    "master":  {
+                   "costume":  679,
+                   "dialog":  "Fae may be small in appearance, but get enough of them together and you\u0027ll be in for quite a nasty surprise! Sure, their personalities leave much to be desired, but there\u0027s no creatures I\u0027d rather have on my side than a pack of Fae. Allow me to introduce you to mine!",
+                   "item":  1500,
+                   "name":  "Sylphe",
+                   "trait":  1808
+               },
+    "name":  "Fae",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  678,
+                  679,
+                  680
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

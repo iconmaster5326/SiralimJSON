@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFinal Act of Mercy:\nAt the start of this creature\u0027s turn, it kills all enemies that are below 25% {STAT_health}.",
-  "icon": "images/item/material/ClaymoreofMercy.png",
-  "id": 671,
-  "name": "Claymore of Mercy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 582
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFinal Act of Mercy:\nAt the start of this creature\u0027s turn, it kills all enemies that are below 25% {STAT_health}.",
+    "icon":  "images/item/material/ClaymoreofMercy.png",
+    "id":  671,
+    "name":  "Claymore of Mercy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  582,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

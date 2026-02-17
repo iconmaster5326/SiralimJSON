@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCAWW!:\nWhen an enemy {ACTION_attacks} one of your creatures, its target is chosen at random from your other creatures.",
-  "icon": "images/item/material/PillagerCrest.png",
-  "id": 367,
-  "name": "Pillager Crest",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 283
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCAWW!:\nWhen an enemy {ACTION_attacks} one of your creatures, its target is chosen at random from your other creatures.",
+    "icon":  "images/item/material/PillagerCrest.png",
+    "id":  367,
+    "name":  "Pillager Crest",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  283,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

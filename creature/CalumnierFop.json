@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CalumnierFop/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1319,
-  "item": 1815,
-  "lore": "In the Yselhof swamp, the Calumniers built their biggest city\u00E2\u20AC\u201Dso vast it can be seen from miles away when viewed from a high vantage point.\\n\\nCalumnier Fops are expert swordswomen. Recently, many have joined the famous Red Hat faction in Andolin\u0027s army after learning magic. One of them, Shavella, rose through the ranks to become a general thanks to her sharp mind and fighting skill.",
-  "menagerieDialog": [
-    "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
-    "Your enemies will rue the day they crossed paths with us!",
-    "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
-    "My scales are like armor, forged in the fires of battle!",
-    "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
-  ],
-  "minDepth": 1,
-  "name": "Calumnier Fop",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CalumnierFop/overworld_e0.png",
-      "images/creature/CalumnierFop/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CalumnierFop/overworld_n0.png",
-      "images/creature/CalumnierFop/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CalumnierFop/overworld_s0.png",
-      "images/creature/CalumnierFop/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CalumnierFop/overworld_w0.png",
-      "images/creature/CalumnierFop/overworld_w1.png"
-    ]
-  },
-  "race": "Calumnier",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2168
+    "battleSprite":  "images/creature/CalumnierFop/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1319,
+    "item":  1815,
+    "lore":  "In the Yselhof swamp, the Calumniers built their biggest city—so vast it can be seen from miles away when viewed from a high vantage point.\\n\\nCalumnier Fops are expert swordswomen. Recently, many have joined the famous Red Hat faction in Andolin\u0027s army after learning magic. One of them, Shavella, rose through the ranks to become a general thanks to her sharp mind and fighting skill.",
+    "menagerieDialog":  [
+                            "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
+                            "Your enemies will rue the day they crossed paths with us!",
+                            "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
+                            "My scales are like armor, forged in the fires of battle!",
+                            "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Calumnier Fop",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CalumnierFop/overworld_e0.png",
+                                         "images/creature/CalumnierFop/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CalumnierFop/overworld_n0.png",
+                                          "images/creature/CalumnierFop/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CalumnierFop/overworld_s0.png",
+                                          "images/creature/CalumnierFop/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CalumnierFop/overworld_w0.png",
+                                         "images/creature/CalumnierFop/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Calumnier",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2168,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

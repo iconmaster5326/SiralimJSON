@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LeechDigger/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 858,
-  "item": 1011,
-  "lore": "The colossal creature whom Mortem named Titan was floating in an interdimensional space near the edge of reality. To reach it, he was aided by Perdition\u0027s older sister, a member of the Auditors with extensive knowledge of magic and the structure of the universe.\\n\\nThe Leech Digger uses its powerful hands to hide underground, waiting for an animal to pass over it. If it chooses the wrong place, instead of surfacing to choose a better one, it just stands still until it starves to death.",
-  "menagerieDialog": [
-    "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
-    "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
-    "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
-    "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
-    "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
-  ],
-  "minDepth": 1,
-  "name": "Leech Digger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LeechDigger/overworld_e0.png",
-      "images/creature/LeechDigger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LeechDigger/overworld_n0.png",
-      "images/creature/LeechDigger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LeechDigger/overworld_s0.png",
-      "images/creature/LeechDigger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LeechDigger/overworld_w0.png",
-      "images/creature/LeechDigger/overworld_w1.png"
-    ]
-  },
-  "race": "Leech",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 17,
-    "health": 43,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 1126
+    "battleSprite":  "images/creature/LeechDigger/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  858,
+    "item":  1011,
+    "lore":  "The colossal creature whom Mortem named Titan was floating in an interdimensional space near the edge of reality. To reach it, he was aided by Perdition\u0027s older sister, a member of the Auditors with extensive knowledge of magic and the structure of the universe.\\n\\nThe Leech Digger uses its powerful hands to hide underground, waiting for an animal to pass over it. If it chooses the wrong place, instead of surfacing to choose a better one, it just stands still until it starves to death.",
+    "menagerieDialog":  [
+                            "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
+                            "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
+                            "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
+                            "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
+                            "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Leech Digger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LeechDigger/overworld_e0.png",
+                                         "images/creature/LeechDigger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LeechDigger/overworld_n0.png",
+                                          "images/creature/LeechDigger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LeechDigger/overworld_s0.png",
+                                          "images/creature/LeechDigger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LeechDigger/overworld_w0.png",
+                                         "images/creature/LeechDigger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leech",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  17,
+                       "health":  43,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  1126,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SuccubusSpirit/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 263,
-  "item": 105,
-  "lore": "In the past, there was a group who worshipped Sins, different from the Sin cult. They performed songs and dances, magical rites that turned into lustful practices. One day, at the height of their ecstasy, the Succubus Spirit appeared. They watched the result of their worship with admiration and made it their new god. With time, the songs and dances stopped, and the ceremonies lost their true essence. Little by little, they abandoned their lives and became shadows of what they once were.",
-  "menagerieDialog": [
-    "(Something about this creature\u0027s presence is particularly comforting.)",
-    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
-    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
-    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
-    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Succubus Spirit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SuccubusSpirit/overworld_e0.png",
-      "images/creature/SuccubusSpirit/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SuccubusSpirit/overworld_n0.png",
-      "images/creature/SuccubusSpirit/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SuccubusSpirit/overworld_s0.png",
-      "images/creature/SuccubusSpirit/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SuccubusSpirit/overworld_w0.png",
-      "images/creature/SuccubusSpirit/overworld_w1.png"
-    ]
-  },
-  "race": "Spirit",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 22,
-    "speed": 18
-  },
-  "trait": 14
+    "battleSprite":  "images/creature/SuccubusSpirit/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  263,
+    "item":  105,
+    "lore":  "In the past, there was a group who worshipped Sins, different from the Sin cult. They performed songs and dances, magical rites that turned into lustful practices. One day, at the height of their ecstasy, the Succubus Spirit appeared. They watched the result of their worship with admiration and made it their new god. With time, the songs and dances stopped, and the ceremonies lost their true essence. Little by little, they abandoned their lives and became shadows of what they once were.",
+    "menagerieDialog":  [
+                            "(Something about this creature\u0027s presence is particularly comforting.)",
+                            "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+                            "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+                            "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+                            "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Succubus Spirit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SuccubusSpirit/overworld_e0.png",
+                                         "images/creature/SuccubusSpirit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SuccubusSpirit/overworld_n0.png",
+                                          "images/creature/SuccubusSpirit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SuccubusSpirit/overworld_s0.png",
+                                          "images/creature/SuccubusSpirit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SuccubusSpirit/overworld_w0.png",
+                                         "images/creature/SuccubusSpirit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spirit",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  22,
+                       "speed":  18
+                   },
+    "trait":  14,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

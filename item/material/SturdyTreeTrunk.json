@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefer Pain:\nWhen this creature takes damage, 90% of the damage is delayed until the start of its next turn.",
-  "icon": "images/item/material/SturdyTreeTrunk.png",
-  "id": 587,
-  "name": "Sturdy Tree Trunk",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 501
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefer Pain:\nWhen this creature takes damage, 90% of the damage is delayed until the start of its next turn.",
+    "icon":  "images/item/material/SturdyTreeTrunk.png",
+    "id":  587,
+    "name":  "Sturdy Tree Trunk",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  501,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

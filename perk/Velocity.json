@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures\u0027 attacks and spells deal \u003C3\u003E% of their damage using {STAT_speed} instead of {STAT_attack} or {STAT_intelligence}.",
-  "icon": "images/perk/Velocity.png",
-  "id": 440,
-  "maxRanks": 10,
-  "name": "Velocity",
-  "notes": [],
-  "pointsPerRank": 10,
-  "specialization": 28
+    "anointable":  true,
+    "description":  "Your creatures\u0027 attacks and spells deal \u003c3\u003e% of their damage using {STAT_speed} instead of {STAT_attack} or {STAT_intelligence}.",
+    "icon":  "images/perk/Velocity.png",
+    "id":  440,
+    "maxRanks":  10,
+    "name":  "Velocity",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  10,
+    "specialization":  28,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

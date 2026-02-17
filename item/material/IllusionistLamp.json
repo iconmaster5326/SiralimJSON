@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAlleviation:\nThis creature deals 10% more damage with spells for each {STAT_charge} the Spell Gem is missing.",
-  "icon": "images/item/material/IllusionistLamp.png",
-  "id": 440,
-  "name": "Illusionist Lamp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 355
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAlleviation:\nThis creature deals 10% more damage with spells for each {STAT_charge} the Spell Gem is missing.",
+    "icon":  "images/item/material/IllusionistLamp.png",
+    "id":  440,
+    "name":  "Illusionist Lamp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  355,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

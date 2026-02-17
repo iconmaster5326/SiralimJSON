@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/SorceryForm/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 177,
-  "name": "Sorcery Form",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SorceryForm/overworld_e0.png",
-      "images/skin/SorceryForm/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SorceryForm/overworld_n0.png",
-      "images/skin/SorceryForm/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SorceryForm/overworld_s0.png",
-      "images/skin/SorceryForm/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SorceryForm/overworld_w0.png",
-      "images/skin/SorceryForm/overworld_w1.png"
-    ]
-  },
-  "race": "Shapeshifter",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/SorceryForm/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  177,
+    "name":  "Sorcery Form",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SorceryForm/overworld_e0.png",
+                                         "images/skin/SorceryForm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SorceryForm/overworld_n0.png",
+                                          "images/skin/SorceryForm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SorceryForm/overworld_s0.png",
+                                          "images/skin/SorceryForm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SorceryForm/overworld_w0.png",
+                                         "images/skin/SorceryForm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shapeshifter",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

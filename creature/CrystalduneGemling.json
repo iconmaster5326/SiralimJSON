@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/CrystalduneGemling/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 934,
-  "item": 939,
-  "lore": "Modern Spell Gems that do not come from the forehead of a Carbuncle were developed in the Refuge of the Magi. However, every success comes after numerous failures, and Gemlings were one of them.\\n\\nThere are many solitary Gemlings, but none of them are Crystaldunes. They usually choose a mate of any species and spend their lives close to them, often orbiting continuously around them.",
-  "menagerieDialog": [
-    "(It glows softly.)",
-    "(It begins to vibrate violently as you draw closer to it.)",
-    "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
-    "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
-    "(It twirls around in circles, giving you a good look at just how polished it is.)"
-  ],
-  "minDepth": 1,
-  "name": "Crystaldune Gemling",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CrystalduneGemling/overworld_e0.png",
-      "images/creature/CrystalduneGemling/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CrystalduneGemling/overworld_n0.png",
-      "images/creature/CrystalduneGemling/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CrystalduneGemling/overworld_s0.png",
-      "images/creature/CrystalduneGemling/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CrystalduneGemling/overworld_w0.png",
-      "images/creature/CrystalduneGemling/overworld_w1.png"
-    ]
-  },
-  "race": "Gemling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Aurum)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    23
-  ],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 21,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1199
+    "battleSprite":  "images/creature/CrystalduneGemling/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  934,
+    "item":  939,
+    "lore":  "Modern Spell Gems that do not come from the forehead of a Carbuncle were developed in the Refuge of the Magi. However, every success comes after numerous failures, and Gemlings were one of them.\\n\\nThere are many solitary Gemlings, but none of them are Crystaldunes. They usually choose a mate of any species and spend their lives close to them, often orbiting continuously around them.",
+    "menagerieDialog":  [
+                            "(It glows softly.)",
+                            "(It begins to vibrate violently as you draw closer to it.)",
+                            "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
+                            "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
+                            "(It twirls around in circles, giving you a good look at just how polished it is.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Crystaldune Gemling",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CrystalduneGemling/overworld_e0.png",
+                                         "images/creature/CrystalduneGemling/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CrystalduneGemling/overworld_n0.png",
+                                          "images/creature/CrystalduneGemling/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CrystalduneGemling/overworld_s0.png",
+                                          "images/creature/CrystalduneGemling/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CrystalduneGemling/overworld_w0.png",
+                                         "images/creature/CrystalduneGemling/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gemling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Aurum)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            23
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  21,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1199,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

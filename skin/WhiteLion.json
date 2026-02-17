@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/WhiteLion/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 268,
-  "name": "White Lion",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/WhiteLion/overworld_e0.png",
-      "images/skin/WhiteLion/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/WhiteLion/overworld_n0.png",
-      "images/skin/WhiteLion/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/WhiteLion/overworld_s0.png",
-      "images/skin/WhiteLion/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/WhiteLion/overworld_w0.png",
-      "images/skin/WhiteLion/overworld_w1.png"
-    ]
-  },
-  "race": "Manticore",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/WhiteLion/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  268,
+    "name":  "White Lion",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/WhiteLion/overworld_e0.png",
+                                         "images/skin/WhiteLion/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/WhiteLion/overworld_n0.png",
+                                          "images/skin/WhiteLion/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/WhiteLion/overworld_s0.png",
+                                          "images/skin/WhiteLion/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/WhiteLion/overworld_w0.png",
+                                         "images/skin/WhiteLion/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Manticore",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

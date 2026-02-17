@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RedstoneImler/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 338,
-  "item": 532,
-  "lore": "Some cities employ Imlers to load and unload heavy equipment or as construction workers. Some others treat them as slaves for the same purposes.\\n\\nNo Imler digs as fast as the Redstone Imler. Indeed, unless the ground is too solid, they can use their extraordinary strength to dig a hole in a few seconds, emerging somewhere else and catching their enemies by surprise.",
-  "menagerieDialog": [
-    "(It unleashes a nasty burp into your face and laughs. Immature.)",
-    "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
-    "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
-    "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
-    "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Redstone Imler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RedstoneImler/overworld_e0.png",
-      "images/creature/RedstoneImler/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RedstoneImler/overworld_n0.png",
-      "images/creature/RedstoneImler/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RedstoneImler/overworld_s0.png",
-      "images/creature/RedstoneImler/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RedstoneImler/overworld_w0.png",
-      "images/creature/RedstoneImler/overworld_w1.png"
-    ]
-  },
-  "race": "Imler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 28,
-    "defense": 28,
-    "health": 40,
-    "intelligence": 8,
-    "speed": 8
-  },
-  "trait": 446
+    "battleSprite":  "images/creature/RedstoneImler/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  338,
+    "item":  532,
+    "lore":  "Some cities employ Imlers to load and unload heavy equipment or as construction workers. Some others treat them as slaves for the same purposes.\\n\\nNo Imler digs as fast as the Redstone Imler. Indeed, unless the ground is too solid, they can use their extraordinary strength to dig a hole in a few seconds, emerging somewhere else and catching their enemies by surprise.",
+    "menagerieDialog":  [
+                            "(It unleashes a nasty burp into your face and laughs. Immature.)",
+                            "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
+                            "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
+                            "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
+                            "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Redstone Imler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RedstoneImler/overworld_e0.png",
+                                         "images/creature/RedstoneImler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RedstoneImler/overworld_n0.png",
+                                          "images/creature/RedstoneImler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RedstoneImler/overworld_s0.png",
+                                          "images/creature/RedstoneImler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RedstoneImler/overworld_w0.png",
+                                         "images/creature/RedstoneImler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  28,
+                       "defense":  28,
+                       "health":  40,
+                       "intelligence":  8,
+                       "speed":  8
+                   },
+    "trait":  446,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNo Sudden Movement:\nIf this creature does not take damage from attacks or spells between each of its turns, it afflicts enemies with {CONDNAME_DEBUFF_SNARED} and decreases their {STAT_speed} by 30%.",
-  "icon": "images/item/material/RoaringHusk.png",
-  "id": 712,
-  "name": "Roaring Husk",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 651
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNo Sudden Movement:\nIf this creature does not take damage from attacks or spells between each of its turns, it afflicts enemies with {CONDNAME_DEBUFF_SNARED} and decreases their {STAT_speed} by 30%.",
+    "icon":  "images/item/material/RoaringHusk.png",
+    "id":  712,
+    "name":  "Roaring Husk",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  651,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

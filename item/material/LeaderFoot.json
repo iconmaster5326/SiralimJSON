@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDetonation:\nAfter this creature {ACTION_provokes}, your other {RACE_Maniac}s are killed, and deal damage to all enemies equal to 25% of your affected creatures\u0027 Maximum {STAT_health}.",
-  "icon": "images/item/material/LeaderFoot.png",
-  "id": 953,
-  "name": "Leader Foot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1177
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDetonation:\nAfter this creature {ACTION_provokes}, your other {RACE_Maniac}s are killed, and deal damage to all enemies equal to 25% of your affected creatures\u0027 Maximum {STAT_health}.",
+    "icon":  "images/item/material/LeaderFoot.png",
+    "id":  953,
+    "name":  "Leader Foot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1177,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

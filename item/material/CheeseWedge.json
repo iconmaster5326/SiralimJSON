@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCut the Cheese:\nWhen a creature takes damage from an attack or spell, it takes additional damage equal to 20% of the difference between its lowest and highest stats, or 10% in boss battles. This trait does not stack.",
-  "icon": "images/item/material/CheeseWedge.png",
-  "id": 1716,
-  "name": "Cheese Wedge",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2058
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCut the Cheese:\nWhen a creature takes damage from an attack or spell, it takes additional damage equal to 20% of the difference between its lowest and highest stats, or 10% in boss battles. This trait does not stack.",
+    "icon":  "images/item/material/CheeseWedge.png",
+    "id":  1716,
+    "name":  "Cheese Wedge",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2058,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

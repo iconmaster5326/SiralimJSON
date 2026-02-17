@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Chameleon/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 293,
-  "name": "Chameleon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Chameleon/overworld_e0.png",
-      "images/skin/Chameleon/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Chameleon/overworld_n0.png",
-      "images/skin/Chameleon/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Chameleon/overworld_s0.png",
-      "images/skin/Chameleon/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Chameleon/overworld_w0.png",
-      "images/skin/Chameleon/overworld_w1.png"
-    ]
-  },
-  "race": "Salamander",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Chameleon/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  293,
+    "name":  "Chameleon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Chameleon/overworld_e0.png",
+                                         "images/skin/Chameleon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Chameleon/overworld_n0.png",
+                                          "images/skin/Chameleon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Chameleon/overworld_s0.png",
+                                          "images/skin/Chameleon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Chameleon/overworld_w0.png",
+                                         "images/skin/Chameleon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Salamander",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

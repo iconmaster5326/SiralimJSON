@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FrostyFreezy/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1439,
-  "item": 1713,
-  "lore": "It\u0027s easy to assume that Frosty Freezy is a creature of snow and ice, but in reality, it can often be found lounging on a beach, enjoying a cold treat. Its body naturally emits an intense cold, and not only does it thrive in the heat, but it actually enjoys it. However, if it gets exposed to too much cold, it starts to hallucinate and eventually freezes solid until someone comes to its aid.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Frosty Freezy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FrostyFreezy/overworld_e0.png",
-      "images/creature/FrostyFreezy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FrostyFreezy/overworld_n0.png",
-      "images/creature/FrostyFreezy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FrostyFreezy/overworld_s0.png",
-      "images/creature/FrostyFreezy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FrostyFreezy/overworld_w0.png",
-      "images/creature/FrostyFreezy/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 32,
-    "intelligence": 25,
-    "speed": 18
-  },
-  "trait": 2055
+    "battleSprite":  "images/creature/FrostyFreezy/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1439,
+    "item":  1713,
+    "lore":  "It\u0027s easy to assume that Frosty Freezy is a creature of snow and ice, but in reality, it can often be found lounging on a beach, enjoying a cold treat. Its body naturally emits an intense cold, and not only does it thrive in the heat, but it actually enjoys it. However, if it gets exposed to too much cold, it starts to hallucinate and eventually freezes solid until someone comes to its aid.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Frosty Freezy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FrostyFreezy/overworld_e0.png",
+                                         "images/creature/FrostyFreezy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FrostyFreezy/overworld_n0.png",
+                                          "images/creature/FrostyFreezy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FrostyFreezy/overworld_s0.png",
+                                          "images/creature/FrostyFreezy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FrostyFreezy/overworld_w0.png",
+                                         "images/creature/FrostyFreezy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  32,
+                       "intelligence":  25,
+                       "speed":  18
+                   },
+    "trait":  2055,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

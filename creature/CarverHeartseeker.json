@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/CarverHeartseeker/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 82,
-  "item": 357,
-  "lore": "This creature prefers to travel in groups, keeping a low profile until one of its teammates gets careless. After all, it doesn\u0027t care about anything other than the heart beating inside, the only way to calm its cravings for blood... even if just for a brief moment.",
-  "menagerieDialog": [
-    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
-    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
-    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
-    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
-    "Come on, come on, come on! We\u0027ve killed very little today."
-  ],
-  "minDepth": 1,
-  "name": "Carver Heartseeker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CarverHeartseeker/overworld_e0.png",
-      "images/creature/CarverHeartseeker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CarverHeartseeker/overworld_n0.png",
-      "images/creature/CarverHeartseeker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CarverHeartseeker/overworld_s0.png",
-      "images/creature/CarverHeartseeker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CarverHeartseeker/overworld_w0.png",
-      "images/creature/CarverHeartseeker/overworld_w1.png"
-    ]
-  },
-  "race": "Carver",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 273
+    "battleSprite":  "images/creature/CarverHeartseeker/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  82,
+    "item":  357,
+    "lore":  "This creature prefers to travel in groups, keeping a low profile until one of its teammates gets careless. After all, it doesn\u0027t care about anything other than the heart beating inside, the only way to calm its cravings for blood... even if just for a brief moment.",
+    "menagerieDialog":  [
+                            "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+                            "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+                            "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+                            "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+                            "Come on, come on, come on! We\u0027ve killed very little today."
+                        ],
+    "minDepth":  1,
+    "name":  "Carver Heartseeker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CarverHeartseeker/overworld_e0.png",
+                                         "images/creature/CarverHeartseeker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CarverHeartseeker/overworld_n0.png",
+                                          "images/creature/CarverHeartseeker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CarverHeartseeker/overworld_s0.png",
+                                          "images/creature/CarverHeartseeker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CarverHeartseeker/overworld_w0.png",
+                                         "images/creature/CarverHeartseeker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carver",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  273,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

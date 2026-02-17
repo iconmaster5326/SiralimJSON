@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/ChaosGuard/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 224,
-  "item": 314,
-  "lore": "After the Unification War, Rodia\u0027s council tackled the problem of the Torture Chamber, resolving that only the cruelest criminals would be abandoned in the facilities, regardless of where the crime took place, as long as it was inside the territory of one of the unified kingdoms.\\n\\nWhen a Chaos Doomguard finds victims, it slowly gives chase, guiding them through the corridors until they reach a dead end where there is only a well. The creature then raises its shield and pushes them inside.",
-  "menagerieDialog": [
-    "Huff...\\n\\n(Why does it look so tired?)",
-    "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
-    "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
-    "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
-    "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
-  ],
-  "minDepth": 1,
-  "name": "Chaos Guard",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ChaosGuard/overworld_e0.png",
-      "images/creature/ChaosGuard/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ChaosGuard/overworld_n0.png",
-      "images/creature/ChaosGuard/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ChaosGuard/overworld_s0.png",
-      "images/creature/ChaosGuard/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ChaosGuard/overworld_w0.png",
-      "images/creature/ChaosGuard/overworld_w1.png"
-    ]
-  },
-  "race": "Doomguard",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    30
-  ],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 27,
-    "health": 39,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 230
+    "battleSprite":  "images/creature/ChaosGuard/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  224,
+    "item":  314,
+    "lore":  "After the Unification War, Rodia\u0027s council tackled the problem of the Torture Chamber, resolving that only the cruelest criminals would be abandoned in the facilities, regardless of where the crime took place, as long as it was inside the territory of one of the unified kingdoms.\\n\\nWhen a Chaos Doomguard finds victims, it slowly gives chase, guiding them through the corridors until they reach a dead end where there is only a well. The creature then raises its shield and pushes them inside.",
+    "menagerieDialog":  [
+                            "Huff...\\n\\n(Why does it look so tired?)",
+                            "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
+                            "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
+                            "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
+                            "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Chaos Guard",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ChaosGuard/overworld_e0.png",
+                                         "images/creature/ChaosGuard/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ChaosGuard/overworld_n0.png",
+                                          "images/creature/ChaosGuard/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ChaosGuard/overworld_s0.png",
+                                          "images/creature/ChaosGuard/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ChaosGuard/overworld_w0.png",
+                                         "images/creature/ChaosGuard/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doomguard",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            30
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  27,
+                       "health":  39,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  230,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

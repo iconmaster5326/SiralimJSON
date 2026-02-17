@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSemi-Bluff:\nWhile this creature is {ACTION_defending}, its {STAT_intelligence} is swapped with its {STAT_defense}. This creature takes 30% less damage while it is {ACTION_defending}.",
-  "icon": "images/item/material/TornCardDiamond.png",
-  "id": 1575,
-  "name": "Torn Card (Diamond)",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1913
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSemi-Bluff:\nWhile this creature is {ACTION_defending}, its {STAT_intelligence} is swapped with its {STAT_defense}. This creature takes 30% less damage while it is {ACTION_defending}.",
+    "icon":  "images/item/material/TornCardDiamond.png",
+    "id":  1575,
+    "name":  "Torn Card (Diamond)",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1913,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ToxdwellerMutant/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 924,
-  "item": 950,
-  "lore": "After the civilization on the other side of the Veil destroyed itself with its own weapons, the Auditors did not allow it to recover for fear that they would find a way to reach other continents and raze the rest of the planet. Mikhail was one of the agents tasked with ensuring this civilization did not resurface, and also eliminating all vestiges of their knowledge about nuclear energy.\\n\\nThe Toxdweller Mutant does not really have three eyes or four arms, it just seems so if one is close enough. According to recent research, inhaling the vapors it releases causes hallucinations.",
-  "menagerieDialog": [
-    "(It\u0027s staring thoughtfully at a bomb.)",
-    "(It never blinks. Ever. It\u0027s very creepy.)",
-    "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
-    "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
-    "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
-  ],
-  "minDepth": 1,
-  "name": "Toxdweller Mutant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ToxdwellerMutant/overworld_e0.png",
-      "images/creature/ToxdwellerMutant/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ToxdwellerMutant/overworld_n0.png",
-      "images/creature/ToxdwellerMutant/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ToxdwellerMutant/overworld_s0.png",
-      "images/creature/ToxdwellerMutant/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ToxdwellerMutant/overworld_w0.png",
-      "images/creature/ToxdwellerMutant/overworld_w1.png"
-    ]
-  },
-  "race": "Toxdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Venedon)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 16,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 24
-  },
-  "trait": 1186
+    "battleSprite":  "images/creature/ToxdwellerMutant/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  924,
+    "item":  950,
+    "lore":  "After the civilization on the other side of the Veil destroyed itself with its own weapons, the Auditors did not allow it to recover for fear that they would find a way to reach other continents and raze the rest of the planet. Mikhail was one of the agents tasked with ensuring this civilization did not resurface, and also eliminating all vestiges of their knowledge about nuclear energy.\\n\\nThe Toxdweller Mutant does not really have three eyes or four arms, it just seems so if one is close enough. According to recent research, inhaling the vapors it releases causes hallucinations.",
+    "menagerieDialog":  [
+                            "(It\u0027s staring thoughtfully at a bomb.)",
+                            "(It never blinks. Ever. It\u0027s very creepy.)",
+                            "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
+                            "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
+                            "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Toxdweller Mutant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ToxdwellerMutant/overworld_e0.png",
+                                         "images/creature/ToxdwellerMutant/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ToxdwellerMutant/overworld_n0.png",
+                                          "images/creature/ToxdwellerMutant/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ToxdwellerMutant/overworld_s0.png",
+                                          "images/creature/ToxdwellerMutant/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ToxdwellerMutant/overworld_w0.png",
+                                         "images/creature/ToxdwellerMutant/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Toxdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Venedon)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  16,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  24
+                   },
+    "trait":  1186,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

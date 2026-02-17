@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/GatewayShade/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 497,
-  "item": 286,
-  "lore": "It is rare to see a Shade near towns or cities, since they are greatly disturbed by the presence of souls, except those that were tainted by their previous selves.\\n\\nGateway Shades come from creatures that used magic at some point of their lives. When they feel threatened, they create a small spatial distortion to teleport behind their enemies and attack them by surprise.",
-  "menagerieDialog": [
-    "(It appears calm, but you should never lower your guard around a creature known for its trickery.)",
-    "(You could swear you saw this tricky little guy spying on you while you were in the privvy earlier.)",
-    "(It reaches behind your ear and, with a sly wink, produces a coin.)",
-    "(It disappears from your sight before sneaking up from behind and tickling you. Tee hee, stop that!)",
-    "(It\u0027s methodically approaching each of your creatures and shouting \u0022BOO!\u0022 in their faces. You should probably release this creature from your service.)"
-  ],
-  "minDepth": 1,
-  "name": "Gateway Shade",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GatewayShade/overworld_e0.png",
-      "images/creature/GatewayShade/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GatewayShade/overworld_n0.png",
-      "images/creature/GatewayShade/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GatewayShade/overworld_s0.png",
-      "images/creature/GatewayShade/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GatewayShade/overworld_w0.png",
-      "images/creature/GatewayShade/overworld_w1.png"
-    ]
-  },
-  "race": "Shade",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vertraag)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 23,
-    "intelligence": 18,
-    "speed": 23
-  },
-  "trait": 202
+    "battleSprite":  "images/creature/GatewayShade/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  497,
+    "item":  286,
+    "lore":  "It is rare to see a Shade near towns or cities, since they are greatly disturbed by the presence of souls, except those that were tainted by their previous selves.\\n\\nGateway Shades come from creatures that used magic at some point of their lives. When they feel threatened, they create a small spatial distortion to teleport behind their enemies and attack them by surprise.",
+    "menagerieDialog":  [
+                            "(It appears calm, but you should never lower your guard around a creature known for its trickery.)",
+                            "(You could swear you saw this tricky little guy spying on you while you were in the privvy earlier.)",
+                            "(It reaches behind your ear and, with a sly wink, produces a coin.)",
+                            "(It disappears from your sight before sneaking up from behind and tickling you. Tee hee, stop that!)",
+                            "(It\u0027s methodically approaching each of your creatures and shouting \"BOO!\" in their faces. You should probably release this creature from your service.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Gateway Shade",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GatewayShade/overworld_e0.png",
+                                         "images/creature/GatewayShade/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GatewayShade/overworld_n0.png",
+                                          "images/creature/GatewayShade/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GatewayShade/overworld_s0.png",
+                                          "images/creature/GatewayShade/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GatewayShade/overworld_w0.png",
+                                         "images/creature/GatewayShade/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shade",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vertraag)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  23,
+                       "intelligence":  18,
+                       "speed":  23
+                   },
+    "trait":  202,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

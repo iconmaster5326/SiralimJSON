@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Porpoiseful/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 554,
-  "name": "Porpoiseful",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Porpoiseful/overworld_e0.png",
-      "images/skin/Porpoiseful/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Porpoiseful/overworld_n0.png",
-      "images/skin/Porpoiseful/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Porpoiseful/overworld_s0.png",
-      "images/skin/Porpoiseful/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Porpoiseful/overworld_w0.png",
-      "images/skin/Porpoiseful/overworld_w1.png"
-    ]
-  },
-  "race": "Revenant",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Porpoiseful/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  554,
+    "name":  "Porpoiseful",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Porpoiseful/overworld_e0.png",
+                                         "images/skin/Porpoiseful/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Porpoiseful/overworld_n0.png",
+                                          "images/skin/Porpoiseful/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Porpoiseful/overworld_s0.png",
+                                          "images/skin/Porpoiseful/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Porpoiseful/overworld_w0.png",
+                                         "images/skin/Porpoiseful/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Revenant",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

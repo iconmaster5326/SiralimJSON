@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CaritasSanctus/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 407,
-  "item": 168,
-  "lore": "When the Sin cult was established, one of its youngest members rejected its ideals and joined the Refuge of the Magi. There, Spielrein learned the secrets of magic from Zonte\u0027s teacher.\\n\\nThose who can never have enough wealth are targets for the Caritas Sanctus. The hearts on its hands beat seven times, then the misers are overwhelmed by the need to give away all of their possessions and live the rest of their life in squalor.",
-  "menagerieDialog": [
-    "(You\u0027ve always found these sort of creatures unnerving.)",
-    "(It seems vengeful. The next few battles should be quite interesting.)",
-    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
-    "(This creature would make an excellent mascot for {CASTLENAME}.)",
-    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
-  ],
-  "minDepth": 1,
-  "name": "Caritas Sanctus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CaritasSanctus/overworld_e0.png",
-      "images/creature/CaritasSanctus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CaritasSanctus/overworld_n0.png",
-      "images/creature/CaritasSanctus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CaritasSanctus/overworld_s0.png",
-      "images/creature/CaritasSanctus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CaritasSanctus/overworld_w0.png",
-      "images/creature/CaritasSanctus/overworld_w1.png"
-    ]
-  },
-  "race": "Sanctus",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 18,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 78
+    "battleSprite":  "images/creature/CaritasSanctus/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  407,
+    "item":  168,
+    "lore":  "When the Sin cult was established, one of its youngest members rejected its ideals and joined the Refuge of the Magi. There, Spielrein learned the secrets of magic from Zonte\u0027s teacher.\\n\\nThose who can never have enough wealth are targets for the Caritas Sanctus. The hearts on its hands beat seven times, then the misers are overwhelmed by the need to give away all of their possessions and live the rest of their life in squalor.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always found these sort of creatures unnerving.)",
+                            "(It seems vengeful. The next few battles should be quite interesting.)",
+                            "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+                            "(This creature would make an excellent mascot for {CASTLENAME}.)",
+                            "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Caritas Sanctus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CaritasSanctus/overworld_e0.png",
+                                         "images/creature/CaritasSanctus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CaritasSanctus/overworld_n0.png",
+                                          "images/creature/CaritasSanctus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CaritasSanctus/overworld_s0.png",
+                                          "images/creature/CaritasSanctus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CaritasSanctus/overworld_w0.png",
+                                         "images/creature/CaritasSanctus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sanctus",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  18,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  78,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

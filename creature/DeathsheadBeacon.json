@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DeathsheadBeacon/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1258,
-  "item": 1623,
-  "lore": "Two Nature Magi gave life to the Beacons centuries ago through a complex ritual designed by Zonte himself, before he became a God.\\n\\nThe Death\u0027s Head Beacon\u0027s terrifying appearance earned it its name, though it is not any more dangerous than other creatures of its kind. The flames its body produces work exactly like the Atlas\u0027s flames, so only outsiders who wander into the forests they inhabit have to worry about them.",
-  "menagerieDialog": [
-    "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
-    "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
-    "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
-    "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
-    "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
-  ],
-  "minDepth": 1,
-  "name": "Deathshead Beacon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DeathsheadBeacon/overworld_e0.png",
-      "images/creature/DeathsheadBeacon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DeathsheadBeacon/overworld_n0.png",
-      "images/creature/DeathsheadBeacon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DeathsheadBeacon/overworld_s0.png",
-      "images/creature/DeathsheadBeacon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DeathsheadBeacon/overworld_w0.png",
-      "images/creature/DeathsheadBeacon/overworld_w1.png"
-    ]
-  },
-  "race": "Beacon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 32,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1963
+    "battleSprite":  "images/creature/DeathsheadBeacon/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1258,
+    "item":  1623,
+    "lore":  "Two Nature Magi gave life to the Beacons centuries ago through a complex ritual designed by Zonte himself, before he became a God.\\n\\nThe Death\u0027s Head Beacon\u0027s terrifying appearance earned it its name, though it is not any more dangerous than other creatures of its kind. The flames its body produces work exactly like the Atlas\u0027s flames, so only outsiders who wander into the forests they inhabit have to worry about them.",
+    "menagerieDialog":  [
+                            "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
+                            "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
+                            "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
+                            "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
+                            "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Deathshead Beacon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DeathsheadBeacon/overworld_e0.png",
+                                         "images/creature/DeathsheadBeacon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DeathsheadBeacon/overworld_n0.png",
+                                          "images/creature/DeathsheadBeacon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DeathsheadBeacon/overworld_s0.png",
+                                          "images/creature/DeathsheadBeacon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DeathsheadBeacon/overworld_w0.png",
+                                         "images/creature/DeathsheadBeacon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Beacon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  32,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1963,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

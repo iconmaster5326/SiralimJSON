@@ -1,46 +1,49 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "A random enemy recovers a large amount of {STAT_health}. This spell cannot be cast manually, but has a 100% chance to be cast after its owner is forcibly moved to the bottom of the {TIMELINE}.",
-  "god": null,
-  "id": 732,
-  "manuallyCastable": false,
-  "maxCharges": 15,
-  "name": "Party in the Back",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    2,
-    3,
-    4,
-    5,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "HEAL"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "A random enemy recovers a large amount of {STAT_health}. This spell cannot be cast manually, but has a 100% chance to be cast after its owner is forcibly moved to the bottom of the {TIMELINE}.",
+    "god":  null,
+    "id":  732,
+    "manuallyCastable":  false,
+    "maxCharges":  15,
+    "name":  "Party in the Back",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  2,
+                                  3,
+                                  4,
+                                  5,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "HEAL"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

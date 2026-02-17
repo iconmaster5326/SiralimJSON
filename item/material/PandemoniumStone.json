@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Wrath:\nAfter this creature manually {ACTION_casts} a spell, it has a 50% chance to continue to {ACTION_cast} that spell repeatedly. These additional spells are considered to be manually cast as well.",
-  "icon": "images/item/material/PandemoniumStone.png",
-  "id": 893,
-  "name": "Pandemonium Stone",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 772
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Wrath:\nAfter this creature manually {ACTION_casts} a spell, it has a 50% chance to continue to {ACTION_cast} that spell repeatedly. These additional spells are considered to be manually cast as well.",
+    "icon":  "images/item/material/PandemoniumStone.png",
+    "id":  893,
+    "name":  "Pandemonium Stone",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  772,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

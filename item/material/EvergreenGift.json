@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfested With Ants:\nAt the start of this creature\u0027s turn, it deals damage to random enemies equal to 30% of its lowest stat. This effect happens 3 times.",
-  "icon": "images/item/material/EvergreenGift.png",
-  "id": 40,
-  "name": "Evergreen Gift",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1023
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfested With Ants:\nAt the start of this creature\u0027s turn, it deals damage to random enemies equal to 30% of its lowest stat. This effect happens 3 times.",
+    "icon":  "images/item/material/EvergreenGift.png",
+    "id":  40,
+    "name":  "Evergreen Gift",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1023,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

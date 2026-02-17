@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nColor Shift:\nAt the start of battle, this creature\u0027s class is randomized and it gains a copy of your other creatures\u0027 innate traits and Artifact traits that match that class.",
-  "icon": "images/item/material/SharpScales.png",
-  "id": 1720,
-  "name": "Sharp Scales",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2062
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nColor Shift:\nAt the start of battle, this creature\u0027s class is randomized and it gains a copy of your other creatures\u0027 innate traits and Artifact traits that match that class.",
+    "icon":  "images/item/material/SharpScales.png",
+    "id":  1720,
+    "name":  "Sharp Scales",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2062,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

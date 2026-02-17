@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOne-Hit Wonder:\nWhen your creatures {ACTION_attack}, their additional attacks are consolidated into the original attack with 100% more damage. This trait does not stack.",
-  "icon": "images/item/material/CircusTicket.png",
-  "id": 1701,
-  "name": "Circus Ticket",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2043
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOne-Hit Wonder:\nWhen your creatures {ACTION_attack}, their additional attacks are consolidated into the original attack with 100% more damage. This trait does not stack.",
+    "icon":  "images/item/material/CircusTicket.png",
+    "id":  1701,
+    "name":  "Circus Ticket",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2043,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,29 +1,32 @@
 {
-  "creator": null,
-  "id": 526,
-  "name": "Blood Shroud",
-  "notes": [],
-  "sources": [
-    {
-      "type": "everett"
-    }
-  ],
-  "sprite": {
-    "east": [
-      "images/costume/BloodShroud/overworld_e0.png",
-      "images/costume/BloodShroud/overworld_e1.png"
-    ],
-    "north": [
-      "images/costume/BloodShroud/overworld_n0.png",
-      "images/costume/BloodShroud/overworld_n1.png"
-    ],
-    "south": [
-      "images/costume/BloodShroud/overworld_s0.png",
-      "images/costume/BloodShroud/overworld_s1.png"
-    ],
-    "west": [
-      "images/costume/BloodShroud/overworld_w0.png",
-      "images/costume/BloodShroud/overworld_w1.png"
-    ]
-  }
+    "creator":  null,
+    "id":  526,
+    "name":  "Blood Shroud",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "everett"
+                    }
+                ],
+    "sprite":  {
+                   "east":  [
+                                "images/costume/BloodShroud/overworld_e0.png",
+                                "images/costume/BloodShroud/overworld_e1.png"
+                            ],
+                   "north":  [
+                                 "images/costume/BloodShroud/overworld_n0.png",
+                                 "images/costume/BloodShroud/overworld_n1.png"
+                             ],
+                   "south":  [
+                                 "images/costume/BloodShroud/overworld_s0.png",
+                                 "images/costume/BloodShroud/overworld_s1.png"
+                             ],
+                   "west":  [
+                                "images/costume/BloodShroud/overworld_w0.png",
+                                "images/costume/BloodShroud/overworld_w1.png"
+                            ]
+               },
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/costume.yaml"
 }

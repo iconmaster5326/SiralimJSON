@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/InquisitorEgglayer/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 880,
-  "item": 989,
-  "lore": "As time went by, the echoes multiplied and their connection to the real universe increased, allowing some creatures to visit them. After several thousand years, Dragan understood that the rifts the Amaranths had closed were slowly reopening, causing the Itherian Realms to proliferate.\\n\\nNot all Inquisitors can lay eggs, and those who can are called Egglayers. These creatures only lay eggs once a year, and their gestation period is as long as that of humans or satyrs, so protecting them from Eft attacks is the highest priority for the other Inquisitors.",
-  "menagerieDialog": [
-    "Turn down the lights in here. I prefer to rest in total darkness.",
-    "Our army is unstoppable. Together, we will one day rule all of Rodia.",
-    "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
-    "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
-    "Leave me be. I do not wish to be bothered right now."
-  ],
-  "minDepth": 1,
-  "name": "Inquisitor Egglayer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/InquisitorEgglayer/overworld_e0.png",
-      "images/creature/InquisitorEgglayer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/InquisitorEgglayer/overworld_n0.png",
-      "images/creature/InquisitorEgglayer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/InquisitorEgglayer/overworld_s0.png",
-      "images/creature/InquisitorEgglayer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/InquisitorEgglayer/overworld_w0.png",
-      "images/creature/InquisitorEgglayer/overworld_w1.png"
-    ]
-  },
-  "race": "Inquisitor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1141
+    "battleSprite":  "images/creature/InquisitorEgglayer/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  880,
+    "item":  989,
+    "lore":  "As time went by, the echoes multiplied and their connection to the real universe increased, allowing some creatures to visit them. After several thousand years, Dragan understood that the rifts the Amaranths had closed were slowly reopening, causing the Itherian Realms to proliferate.\\n\\nNot all Inquisitors can lay eggs, and those who can are called Egglayers. These creatures only lay eggs once a year, and their gestation period is as long as that of humans or satyrs, so protecting them from Eft attacks is the highest priority for the other Inquisitors.",
+    "menagerieDialog":  [
+                            "Turn down the lights in here. I prefer to rest in total darkness.",
+                            "Our army is unstoppable. Together, we will one day rule all of Rodia.",
+                            "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
+                            "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
+                            "Leave me be. I do not wish to be bothered right now."
+                        ],
+    "minDepth":  1,
+    "name":  "Inquisitor Egglayer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/InquisitorEgglayer/overworld_e0.png",
+                                         "images/creature/InquisitorEgglayer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/InquisitorEgglayer/overworld_n0.png",
+                                          "images/creature/InquisitorEgglayer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/InquisitorEgglayer/overworld_s0.png",
+                                          "images/creature/InquisitorEgglayer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/InquisitorEgglayer/overworld_w0.png",
+                                         "images/creature/InquisitorEgglayer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Inquisitor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1141,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

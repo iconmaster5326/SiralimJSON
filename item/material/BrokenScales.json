@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIn All Things:\nAt the start of this creature\u0027s turn, it gains stats equal to 20% of its highest stat.",
-  "icon": "images/item/material/BrokenScales.png",
-  "id": 1428,
-  "name": "Broken Scales",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1736
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIn All Things:\nAt the start of this creature\u0027s turn, it gains stats equal to 20% of its highest stat.",
+    "icon":  "images/item/material/BrokenScales.png",
+    "id":  1428,
+    "name":  "Broken Scales",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1736,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

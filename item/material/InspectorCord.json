@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUnbidden Miracle:\nAfter your creatures are healed, they are healed an additional time, but they receive 50% less healing from all sources. This trait does not stack.",
-  "icon": "images/item/material/InspectorCord.png",
-  "id": 1065,
-  "name": "Inspector Cord",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1070
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUnbidden Miracle:\nAfter your creatures are healed, they are healed an additional time, but they receive 50% less healing from all sources. This trait does not stack.",
+    "icon":  "images/item/material/InspectorCord.png",
+    "id":  1065,
+    "name":  "Inspector Cord",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1070,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

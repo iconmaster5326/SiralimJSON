@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/SkeletonSniper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 317,
-  "item": 223,
-  "lore": "These individuals arrived in Rodia not long ago, in a large fleet of ships that was stranded on the coast after a heavy storm. They come from a very distant and completely unknown land, and their body is devoid of flesh and organs due to a curse they received on an island full of ancient treasures. They usually attack from a distance with technology that does not exist in this country, and though the shots of the Skeleton Sniper are not exactly deadly, they do have a long range.",
-  "menagerieDialog": [
-    "I\u0027m glad we stopped to rest. I need to clean my guns.",
-    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
-    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
-    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
-    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
-  ],
-  "minDepth": 1,
-  "name": "Skeleton Sniper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SkeletonSniper/overworld_e0.png",
-      "images/creature/SkeletonSniper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SkeletonSniper/overworld_n0.png",
-      "images/creature/SkeletonSniper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SkeletonSniper/overworld_s0.png",
-      "images/creature/SkeletonSniper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SkeletonSniper/overworld_w0.png",
-      "images/creature/SkeletonSniper/overworld_w1.png"
-    ]
-  },
-  "race": "Skeleton",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Erebyss)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    37
-  ],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 13,
-    "health": 31,
-    "intelligence": 11,
-    "speed": 26
-  },
-  "trait": 132
+    "battleSprite":  "images/creature/SkeletonSniper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  317,
+    "item":  223,
+    "lore":  "These individuals arrived in Rodia not long ago, in a large fleet of ships that was stranded on the coast after a heavy storm. They come from a very distant and completely unknown land, and their body is devoid of flesh and organs due to a curse they received on an island full of ancient treasures. They usually attack from a distance with technology that does not exist in this country, and though the shots of the Skeleton Sniper are not exactly deadly, they do have a long range.",
+    "menagerieDialog":  [
+                            "I\u0027m glad we stopped to rest. I need to clean my guns.",
+                            "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+                            "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+                            "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+                            "(It\u0027s shouting \"YEE-HAW\" while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Skeleton Sniper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SkeletonSniper/overworld_e0.png",
+                                         "images/creature/SkeletonSniper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SkeletonSniper/overworld_n0.png",
+                                          "images/creature/SkeletonSniper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SkeletonSniper/overworld_s0.png",
+                                          "images/creature/SkeletonSniper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SkeletonSniper/overworld_w0.png",
+                                         "images/creature/SkeletonSniper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Skeleton",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Erebyss)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            37
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  13,
+                       "health":  31,
+                       "intelligence":  11,
+                       "speed":  26
+                   },
+    "trait":  132,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

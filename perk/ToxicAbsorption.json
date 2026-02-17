@@ -1,11 +1,14 @@
 {
-  "anointable": false,
-  "description": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, they gain stats (other than {STAT_health}) equal to 50% of the damage received.",
-  "icon": "images/perk/ToxicAbsorption.png",
-  "id": 496,
-  "maxRanks": 1,
-  "name": "Toxic Absorption",
-  "notes": [],
-  "pointsPerRank": 1,
-  "specialization": 31
+    "anointable":  false,
+    "description":  "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, they gain stats (other than {STAT_health}) equal to 50% of the damage received.",
+    "icon":  "images/perk/ToxicAbsorption.png",
+    "id":  496,
+    "maxRanks":  1,
+    "name":  "Toxic Absorption",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  1,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ApisCharger/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 363,
-  "item": 153,
-  "lore": "The Apis lived in the kingdom of Kaito since its establishment thousands of years ago. They were considered heralds of the sun and fertility, but there were never any temples in their honor. Today, they are loyal creatures willing to give their own lives to protect their allies. The Apis Charger is not skilled in magic, but it wears traditional armor with which it rams its enemies, dealing devastating damage at the cost of receiving injuries from the recoil.",
-  "menagerieDialog": [
-    "(It yawns and turns away from you.)",
-    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
-    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
-    "(Upon your approach, it licks your hand over and over and over again. True love.)",
-    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
-  ],
-  "minDepth": 1,
-  "name": "Apis Charger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ApisCharger/overworld_e0.png",
-      "images/creature/ApisCharger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ApisCharger/overworld_n0.png",
-      "images/creature/ApisCharger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ApisCharger/overworld_s0.png",
-      "images/creature/ApisCharger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ApisCharger/overworld_w0.png",
-      "images/creature/ApisCharger/overworld_w1.png"
-    ]
-  },
-  "race": "Apis",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 31,
-    "intelligence": 11,
-    "speed": 21
-  },
-  "trait": 63
+    "battleSprite":  "images/creature/ApisCharger/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  363,
+    "item":  153,
+    "lore":  "The Apis lived in the kingdom of Kaito since its establishment thousands of years ago. They were considered heralds of the sun and fertility, but there were never any temples in their honor. Today, they are loyal creatures willing to give their own lives to protect their allies. The Apis Charger is not skilled in magic, but it wears traditional armor with which it rams its enemies, dealing devastating damage at the cost of receiving injuries from the recoil.",
+    "menagerieDialog":  [
+                            "(It yawns and turns away from you.)",
+                            "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+                            "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+                            "(Upon your approach, it licks your hand over and over and over again. True love.)",
+                            "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Apis Charger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ApisCharger/overworld_e0.png",
+                                         "images/creature/ApisCharger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ApisCharger/overworld_n0.png",
+                                          "images/creature/ApisCharger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ApisCharger/overworld_s0.png",
+                                          "images/creature/ApisCharger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ApisCharger/overworld_w0.png",
+                                         "images/creature/ApisCharger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Apis",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  31,
+                       "intelligence":  11,
+                       "speed":  21
+                   },
+    "trait":  63,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

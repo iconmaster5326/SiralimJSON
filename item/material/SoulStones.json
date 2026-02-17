@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBonding:\nAfter your creatures are killed, they have a 7% chance to be resurrected with 50% {STAT_health} for each creature that belongs to the same class fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SoulStones.png",
-  "id": 1465,
-  "name": "Soul Stones",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1773
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBonding:\nAfter your creatures are killed, they have a 7% chance to be resurrected with 50% {STAT_health} for each creature that belongs to a different class on your side. This trait does not stack.",
+    "icon":  "images/item/material/SoulStones.png",
+    "id":  1465,
+    "name":  "Soul Stones",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1773,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

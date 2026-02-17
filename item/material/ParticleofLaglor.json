@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNostalgia:\nAt the start of your creatures\u0027 turns, they {ACTION_cast} a random spell that belongs to their class. This trait does not stack.",
-  "icon": "images/item/material/ParticleofLaglor.png",
-  "id": 749,
-  "name": "Particle of Laglor",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 795
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNostalgia:\nAt the start of your creatures\u0027 turns, they {ACTION_cast} a random spell that belongs to their class. This trait does not stack.",
+    "icon":  "images/item/material/ParticleofLaglor.png",
+    "id":  749,
+    "name":  "Particle of Laglor",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  795,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

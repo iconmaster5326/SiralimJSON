@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nElusiveness:\nYour creatures that have taken at least 3 turns are resistant to debuffs.",
-  "icon": "images/item/material/MarineAcid.png",
-  "id": 1308,
-  "name": "Marine Acid",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1555
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nElusiveness:\nYour creatures that have taken at least 3 turns are resistant to debuffs.",
+    "icon":  "images/item/material/MarineAcid.png",
+    "id":  1308,
+    "name":  "Marine Acid",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1555,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

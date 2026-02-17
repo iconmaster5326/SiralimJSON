@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpontaneous Entropy:\nAt the end of this creature\u0027s turn, its [temporary] Ethereal Spell Gems are replaced with different ones. This creature\u0027s [temporary] Ethereal Spell Gems are 50% more potent.",
-  "icon": "images/item/material/EssenceofEntropy.png",
-  "id": 1381,
-  "name": "Essence of Entropy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1688
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpontaneous Entropy:\nAt the end of this creature\u0027s turn, its [temporary] Ethereal Spell Gems are replaced with different ones. This creature\u0027s [temporary] Ethereal Spell Gems are 50% more potent.",
+    "icon":  "images/item/material/EssenceofEntropy.png",
+    "id":  1381,
+    "name":  "Essence of Entropy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1688,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

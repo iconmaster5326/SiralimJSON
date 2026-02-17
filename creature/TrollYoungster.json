@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TrollYoungster/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 674,
-  "item": 873,
-  "lore": "Its harmless name has a certain irony. Although it is true that the Youngster is not very old, it is the most dangerous warrior of the mountain tribes. It became famous thanks to a series of rumors. As they say, it has assaulted caravans on its own, defeated a Thylacine and even confronted an Immortal King. On the other hand, nobody has really seen the Youngster, so it is not known whether it is just an unfounded legend or if there actually is a young and powerful Troll capable of such feats.",
-  "menagerieDialog": [
-    "Human kings are weak. You should let us Trolls lead you instead!",
-    "Let\u0027s go burn some villages down!",
-    "You rely on magic far too much. Brute strength is always the way to go!",
-    "(You\u0027re constantly amazed at just how badly this creature smells.)",
-    "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
-  ],
-  "minDepth": 1,
-  "name": "Troll Youngster",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TrollYoungster/overworld_e0.png",
-      "images/creature/TrollYoungster/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TrollYoungster/overworld_n0.png",
-      "images/creature/TrollYoungster/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TrollYoungster/overworld_s0.png",
-      "images/creature/TrollYoungster/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TrollYoungster/overworld_w0.png",
-      "images/creature/TrollYoungster/overworld_w1.png"
-    ]
-  },
-  "race": "Troll",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Torun)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 35,
-    "intelligence": 8,
-    "speed": 18
-  },
-  "trait": 900
+    "battleSprite":  "images/creature/TrollYoungster/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  674,
+    "item":  873,
+    "lore":  "Its harmless name has a certain irony. Although it is true that the Youngster is not very old, it is the most dangerous warrior of the mountain tribes. It became famous thanks to a series of rumors. As they say, it has assaulted caravans on its own, defeated a Thylacine and even confronted an Immortal King. On the other hand, nobody has really seen the Youngster, so it is not known whether it is just an unfounded legend or if there actually is a young and powerful Troll capable of such feats.",
+    "menagerieDialog":  [
+                            "Human kings are weak. You should let us Trolls lead you instead!",
+                            "Let\u0027s go burn some villages down!",
+                            "You rely on magic far too much. Brute strength is always the way to go!",
+                            "(You\u0027re constantly amazed at just how badly this creature smells.)",
+                            "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Troll Youngster",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TrollYoungster/overworld_e0.png",
+                                         "images/creature/TrollYoungster/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TrollYoungster/overworld_n0.png",
+                                          "images/creature/TrollYoungster/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TrollYoungster/overworld_s0.png",
+                                          "images/creature/TrollYoungster/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TrollYoungster/overworld_w0.png",
+                                         "images/creature/TrollYoungster/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Troll",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Torun)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  35,
+                       "intelligence":  8,
+                       "speed":  18
+                   },
+    "trait":  900,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PhaseExecutioner/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 210,
-  "item": 456,
-  "lore": "The core of a Phase Warrior is the enchanted stone that makes it a remnant, always floating over its head. The first stones to be used as a core for these creatures were part of the castle of Siralim, when it was damaged during a siege.\\n\\nPhase Executioners are the remnants of reckless warriors who exposed themselves in battle to unleash devastating attacks that captured the attention of their enemies, allowing Magi to use their power freely.",
-  "menagerieDialog": [
-    "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
-    "(It\u0027s dancing and asking you to call it \u0022Dio\u0022. You are now questioning all your life choices.)",
-    "(It tries to impress you by moving random objects through its body.)",
-    "I am yours to command.",
-    "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
-  ],
-  "minDepth": 1,
-  "name": "Phase Executioner",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PhaseExecutioner/overworld_e0.png",
-      "images/creature/PhaseExecutioner/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PhaseExecutioner/overworld_n0.png",
-      "images/creature/PhaseExecutioner/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PhaseExecutioner/overworld_s0.png",
-      "images/creature/PhaseExecutioner/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PhaseExecutioner/overworld_w0.png",
-      "images/creature/PhaseExecutioner/overworld_w1.png"
-    ]
-  },
-  "race": "Phase Warrior",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 371
+    "battleSprite":  "images/creature/PhaseExecutioner/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  210,
+    "item":  456,
+    "lore":  "The core of a Phase Warrior is the enchanted stone that makes it a remnant, always floating over its head. The first stones to be used as a core for these creatures were part of the castle of Siralim, when it was damaged during a siege.\\n\\nPhase Executioners are the remnants of reckless warriors who exposed themselves in battle to unleash devastating attacks that captured the attention of their enemies, allowing Magi to use their power freely.",
+    "menagerieDialog":  [
+                            "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
+                            "(It\u0027s dancing and asking you to call it \"Dio\". You are now questioning all your life choices.)",
+                            "(It tries to impress you by moving random objects through its body.)",
+                            "I am yours to command.",
+                            "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Phase Executioner",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PhaseExecutioner/overworld_e0.png",
+                                         "images/creature/PhaseExecutioner/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PhaseExecutioner/overworld_n0.png",
+                                          "images/creature/PhaseExecutioner/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PhaseExecutioner/overworld_s0.png",
+                                          "images/creature/PhaseExecutioner/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PhaseExecutioner/overworld_w0.png",
+                                         "images/creature/PhaseExecutioner/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Phase Warrior",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  371,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

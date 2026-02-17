@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Rainbow/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 711,
-  "name": "Rainbow",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Rainbow/overworld_e0.png",
-      "images/skin/Rainbow/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Rainbow/overworld_n0.png",
-      "images/skin/Rainbow/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Rainbow/overworld_s0.png",
-      "images/skin/Rainbow/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Rainbow/overworld_w0.png",
-      "images/skin/Rainbow/overworld_w1.png"
-    ]
-  },
-  "race": "Luckmantria",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Rainbow/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  711,
+    "name":  "Rainbow",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Rainbow/overworld_e0.png",
+                                         "images/skin/Rainbow/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Rainbow/overworld_n0.png",
+                                          "images/skin/Rainbow/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Rainbow/overworld_s0.png",
+                                          "images/skin/Rainbow/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Rainbow/overworld_w0.png",
+                                         "images/skin/Rainbow/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Luckmantria",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

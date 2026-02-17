@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/AbyssalKraken/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1248,
-  "item": 1616,
-  "lore": "Krakens are grotesque, ruthless creatures who avoid approaching dry land at all costs. Most of them live in the depths and do not poke their heads out of the water very often, while the Abyssal Kraken never does. Other Krakens consider it an absolute sovereign, and only under its command are they able to carry out joint attacks. Although in ancient times their strategies overwhelmed the Revenants, nowadays the Abyssal Kraken\u0027s main task is help as many Krakens as possible to survive when one of their nests is discovered.",
-  "menagerieDialog": [
-    "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
-    "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
-    "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
-    "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
-    "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
-  ],
-  "minDepth": 1,
-  "name": "Abyssal Kraken",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AbyssalKraken/overworld_e0.png",
-      "images/creature/AbyssalKraken/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AbyssalKraken/overworld_n0.png",
-      "images/creature/AbyssalKraken/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AbyssalKraken/overworld_s0.png",
-      "images/creature/AbyssalKraken/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AbyssalKraken/overworld_w0.png",
-      "images/creature/AbyssalKraken/overworld_w1.png"
-    ]
-  },
-  "race": "Kraken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 32,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1959
+    "battleSprite":  "images/creature/AbyssalKraken/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1248,
+    "item":  1616,
+    "lore":  "Krakens are grotesque, ruthless creatures who avoid approaching dry land at all costs. Most of them live in the depths and do not poke their heads out of the water very often, while the Abyssal Kraken never does. Other Krakens consider it an absolute sovereign, and only under its command are they able to carry out joint attacks. Although in ancient times their strategies overwhelmed the Revenants, nowadays the Abyssal Kraken\u0027s main task is help as many Krakens as possible to survive when one of their nests is discovered.",
+    "menagerieDialog":  [
+                            "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
+                            "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
+                            "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
+                            "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
+                            "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Abyssal Kraken",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AbyssalKraken/overworld_e0.png",
+                                         "images/creature/AbyssalKraken/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AbyssalKraken/overworld_n0.png",
+                                          "images/creature/AbyssalKraken/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AbyssalKraken/overworld_s0.png",
+                                          "images/creature/AbyssalKraken/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AbyssalKraken/overworld_w0.png",
+                                         "images/creature/AbyssalKraken/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Kraken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  32,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1959,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

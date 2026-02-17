@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "(Screeching loudly, the Wolpertinger hurls itself at you in a violent, frothing rage! It\u0027s astounding these things don\u0027t die of pure rage. Nothing should be THAT angry.)",
-    "(The Wolpertinger gets so mad at the sight of you it starts thrashing around and drooling all over itself. What an utter mess of a creature. You\u0027ll have to deal with it if you want the treasure!)",
-    "(You spot a cute bunny! Except then you spot the antlers, wings, and enraged twitching glare, and soon think twice about petting it. You order your creatures to \u0022pet\u0022 it instead.)"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures have a 5% chance to {ACTION_attack} an additional time.",
-    "6": "Your creatures have a 5% chance to {ACTION_cast} spells an additional time.",
-    "9": "Doubles the chance for these effects to occur."
-  },
-  "cards": 9,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    356,
-    357,
-    358,
-    359,
-    360,
-    361,
-    623,
-    780,
-    1006
-  ],
-  "icon": "images/race/Wolpertinger.png",
-  "master": {
-    "costume": 413,
-    "dialog": "Wolpertingers have access to powerful Scourge magic that will wipe your creatures off the face of this planet. Prepare yourself!",
-    "item": 1181,
-    "name": "Nimet",
-    "trait": 1517
-  },
-  "name": "Wolpertinger",
-  "notes": [],
-  "skins": [
-    188,
-    334,
-    335,
-    394
-  ]
+    "bossDialog":  [
+                       "(Screeching loudly, the Wolpertinger hurls itself at you in a violent, frothing rage! It\u0027s astounding these things don\u0027t die of pure rage. Nothing should be THAT angry.)",
+                       "(The Wolpertinger gets so mad at the sight of you it starts thrashing around and drooling all over itself. What an utter mess of a creature. You\u0027ll have to deal with it if you want the treasure!)",
+                       "(You spot a cute bunny! Except then you spot the antlers, wings, and enraged twitching glare, and soon think twice about petting it. You order your creatures to \"pet\" it instead.)"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures have a 5% chance to {ACTION_attack} an additional time.",
+                        "6":  "Your creatures have a 5% chance to {ACTION_cast} spells an additional time.",
+                        "9":  "Doubles the chance for these effects to occur."
+                    },
+    "cards":  9,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      356,
+                      357,
+                      358,
+                      359,
+                      360,
+                      361,
+                      623,
+                      780,
+                      1006
+                  ],
+    "icon":  "images/race/Wolpertinger.png",
+    "master":  {
+                   "costume":  413,
+                   "dialog":  "Wolpertingers have access to powerful Scourge magic that will wipe your creatures off the face of this planet. Prepare yourself!",
+                   "item":  1181,
+                   "name":  "Nimet",
+                   "trait":  1517
+               },
+    "name":  "Wolpertinger",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  188,
+                  334,
+                  335,
+                  394
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

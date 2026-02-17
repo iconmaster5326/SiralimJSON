@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnomaly:\nThe damage this creature deals with attacks and spells is based on its {STAT_defense} rather than its {STAT_attack} or {STAT_intelligence}. This creature deals 50% less damage.",
-  "icon": "images/item/material/CeaselessCrown.png",
-  "id": 110,
-  "name": "Ceaseless Crown",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 19
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnomaly:\nThe damage this creature deals with attacks and spells is based on its {STAT_defense} rather than its {STAT_attack} or {STAT_intelligence}. This creature deals 50% less damage.",
+    "icon":  "images/item/material/CeaselessCrown.png",
+    "id":  110,
+    "name":  "Ceaseless Crown",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  19,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

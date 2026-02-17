@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of your Herbling\u0027s turn, it {ACTION_casts} [icons,1976]Cruelty of the Wild. This spell has 20% more potency for each of your Herbling\u0027s Tiers.\n\nCruelty of the Wild: Enemies are afflicted with {CONDNAME_DEBUFF_BLIGHT}. If they are already afflicted with this debuff, they instead recover a moderate amount of {STAT_health}.",
-  "icon": "images/perk/AngryOrchard.png",
-  "id": 331,
-  "maxRanks": 1,
-  "name": "Angry Orchard",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 22
+    "anointable":  true,
+    "description":  "At the start of your Herbling\u0027s turn, it {ACTION_casts} [icons,1976]Cruelty of the Wild. This spell has 20% more potency for each of your Herbling\u0027s Tiers.\n\nCruelty of the Wild: Enemies are afflicted with {CONDNAME_DEBUFF_BLIGHT}. If they are already afflicted with this debuff, they instead recover a moderate amount of {STAT_health}.",
+    "icon":  "images/perk/AngryOrchard.png",
+    "id":  331,
+    "maxRanks":  1,
+    "name":  "Angry Orchard",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  22,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

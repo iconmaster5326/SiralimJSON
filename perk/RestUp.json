@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_defend}, their Spell Gems gain 1 {STAT_charge}.",
-  "icon": "images/perk/RestUp.png",
-  "id": 432,
-  "maxRanks": 1,
-  "name": "Rest Up",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 30
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_defend}, their Spell Gems gain 1 {STAT_charge}.",
+    "icon":  "images/perk/RestUp.png",
+    "id":  432,
+    "maxRanks":  1,
+    "name":  "Rest Up",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  30,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

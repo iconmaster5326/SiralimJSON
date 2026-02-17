@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures take 5% less damage for each time an enemy has {ACTION_cast} a spell in the current battle.",
-  "icon": "images/perk/StationaryWalk.png",
-  "id": 502,
-  "maxRanks": 1,
-  "name": "Stationary Walk",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 32
+    "anointable":  true,
+    "description":  "Your creatures take 5% less damage for each time an enemy has {ACTION_cast} a spell in the current battle.",
+    "icon":  "images/perk/StationaryWalk.png",
+    "id":  502,
+    "maxRanks":  1,
+    "name":  "Stationary Walk",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  32,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

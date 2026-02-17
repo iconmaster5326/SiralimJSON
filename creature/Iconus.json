@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Iconus/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 710,
-  "item": 748,
-  "lore": "Iconus is a magical creature created by the Auditors, whose sole purpose in life is to carry out their plans. The inside of its body mainly consists of gears and metal tubes, through which flows a liquid brimming with magic that must be replaced every so often. Its skills in battle make it a precise and practically infallible killing machine, capable of adapting to all kinds of situations as long as it does not act alone. That is why, when the Auditors entrust it with a mission, it is always accompanied by five other creatures, usually war-trained Carnages and Fiends.",
-  "menagerieDialog": [
-    "(If you listen closely, you can hear the gears grinding away inside its body.)",
-    "(Its eye is slightly indented toward the top, just barely giving you the sensation that it\u0027s in an irritable mood.)",
-    "(Its sword appears to be almost as sentient as the creature who wields it.)",
-    "(If you could be any superhero in the world, you\u0027d be an Iconus. Yeah, definitely.)",
-    "(Its eye never closes. Doesn\u0027t it get dry after a while?)"
-  ],
-  "minDepth": 1,
-  "name": "Iconus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Iconus/overworld_e0.png",
-      "images/creature/Iconus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Iconus/overworld_n0.png",
-      "images/creature/Iconus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Iconus/overworld_s0.png",
-      "images/creature/Iconus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Iconus/overworld_w0.png",
-      "images/creature/Iconus/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    163,
-    473
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 794
+    "battleSprite":  "images/creature/Iconus/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  710,
+    "item":  748,
+    "lore":  "Iconus is a magical creature created by the Auditors, whose sole purpose in life is to carry out their plans. The inside of its body mainly consists of gears and metal tubes, through which flows a liquid brimming with magic that must be replaced every so often. Its skills in battle make it a precise and practically infallible killing machine, capable of adapting to all kinds of situations as long as it does not act alone. That is why, when the Auditors entrust it with a mission, it is always accompanied by five other creatures, usually war-trained Carnages and Fiends.",
+    "menagerieDialog":  [
+                            "(If you listen closely, you can hear the gears grinding away inside its body.)",
+                            "(Its eye is slightly indented toward the top, just barely giving you the sensation that it\u0027s in an irritable mood.)",
+                            "(Its sword appears to be almost as sentient as the creature who wields it.)",
+                            "(If you could be any superhero in the world, you\u0027d be an Iconus. Yeah, definitely.)",
+                            "(Its eye never closes. Doesn\u0027t it get dry after a while?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Iconus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Iconus/overworld_e0.png",
+                                         "images/creature/Iconus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Iconus/overworld_n0.png",
+                                          "images/creature/Iconus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Iconus/overworld_s0.png",
+                                          "images/creature/Iconus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Iconus/overworld_w0.png",
+                                         "images/creature/Iconus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  163,
+                  473
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  794,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

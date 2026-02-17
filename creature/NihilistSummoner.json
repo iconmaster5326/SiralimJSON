@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NihilistSummoner/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1080,
-  "item": 1516,
-  "lore": "Only a few are aware that the Nihilists are the materialization of the very will of the universe fighting to survive. Many intelligent creatures find their appearance disturbing, yet animals are completely unaware of their presence.\\n\\nThe Nihilist Summoner\u0027s power is probably the most extraordinary. When a Nihilist Seeker points out where someone has disappeared at the hands of a Voidlord, this creature places its hand on its book and begins to chant. In a matter of minutes, every creature within a mile that had been erased from existence will reappear as if nothing had happened.",
-  "menagerieDialog": [
-    "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
-    "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
-    "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
-    "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
-    "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
-  ],
-  "minDepth": 1,
-  "name": "Nihilist Summoner",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NihilistSummoner/overworld_e0.png",
-      "images/creature/NihilistSummoner/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NihilistSummoner/overworld_n0.png",
-      "images/creature/NihilistSummoner/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NihilistSummoner/overworld_s0.png",
-      "images/creature/NihilistSummoner/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NihilistSummoner/overworld_w0.png",
-      "images/creature/NihilistSummoner/overworld_w1.png"
-    ]
-  },
-  "race": "Nihilist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 16,
-    "health": 38,
-    "intelligence": 6,
-    "speed": 26
-  },
-  "trait": 1823
+    "battleSprite":  "images/creature/NihilistSummoner/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1080,
+    "item":  1516,
+    "lore":  "Only a few are aware that the Nihilists are the materialization of the very will of the universe fighting to survive. Many intelligent creatures find their appearance disturbing, yet animals are completely unaware of their presence.\\n\\nThe Nihilist Summoner\u0027s power is probably the most extraordinary. When a Nihilist Seeker points out where someone has disappeared at the hands of a Voidlord, this creature places its hand on its book and begins to chant. In a matter of minutes, every creature within a mile that had been erased from existence will reappear as if nothing had happened.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
+                            "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
+                            "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
+                            "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
+                            "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nihilist Summoner",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NihilistSummoner/overworld_e0.png",
+                                         "images/creature/NihilistSummoner/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NihilistSummoner/overworld_n0.png",
+                                          "images/creature/NihilistSummoner/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NihilistSummoner/overworld_s0.png",
+                                          "images/creature/NihilistSummoner/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NihilistSummoner/overworld_w0.png",
+                                         "images/creature/NihilistSummoner/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nihilist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  16,
+                       "health":  38,
+                       "intelligence":  6,
+                       "speed":  26
+                   },
+    "trait":  1823,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/InquisitorWeaver/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 883,
-  "item": 992,
-  "lore": "All Inquisitors can weave webs, but Inquisitor Weavers are adept at using their craft to create three-dimensional traps. Their webs are also extremely resilient, enough to even catch Efts. Entering an Inquisitor nest in the Blood Grove before dinnertime is enough to prove this fact, as some of these terrible creatures always fall into the Weavers\u0027 traps.",
-  "menagerieDialog": [
-    "Turn down the lights in here. I prefer to rest in total darkness.",
-    "Our army is unstoppable. Together, we will one day rule all of Rodia.",
-    "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
-    "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
-    "Leave me be. I do not wish to be bothered right now."
-  ],
-  "minDepth": 1,
-  "name": "Inquisitor Weaver",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/InquisitorWeaver/overworld_e0.png",
-      "images/creature/InquisitorWeaver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/InquisitorWeaver/overworld_n0.png",
-      "images/creature/InquisitorWeaver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/InquisitorWeaver/overworld_s0.png",
-      "images/creature/InquisitorWeaver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/InquisitorWeaver/overworld_w0.png",
-      "images/creature/InquisitorWeaver/overworld_w1.png"
-    ]
-  },
-  "race": "Inquisitor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 22,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 1144
+    "battleSprite":  "images/creature/InquisitorWeaver/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  883,
+    "item":  992,
+    "lore":  "All Inquisitors can weave webs, but Inquisitor Weavers are adept at using their craft to create three-dimensional traps. Their webs are also extremely resilient, enough to even catch Efts. Entering an Inquisitor nest in the Blood Grove before dinnertime is enough to prove this fact, as some of these terrible creatures always fall into the Weavers\u0027 traps.",
+    "menagerieDialog":  [
+                            "Turn down the lights in here. I prefer to rest in total darkness.",
+                            "Our army is unstoppable. Together, we will one day rule all of Rodia.",
+                            "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
+                            "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
+                            "Leave me be. I do not wish to be bothered right now."
+                        ],
+    "minDepth":  1,
+    "name":  "Inquisitor Weaver",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/InquisitorWeaver/overworld_e0.png",
+                                         "images/creature/InquisitorWeaver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/InquisitorWeaver/overworld_n0.png",
+                                          "images/creature/InquisitorWeaver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/InquisitorWeaver/overworld_s0.png",
+                                          "images/creature/InquisitorWeaver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/InquisitorWeaver/overworld_w0.png",
+                                         "images/creature/InquisitorWeaver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Inquisitor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  22,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  1144,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

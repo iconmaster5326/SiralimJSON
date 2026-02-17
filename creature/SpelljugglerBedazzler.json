@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpelljugglerBedazzler/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1304,
-  "item": 1811,
-  "lore": "The Spelljugglers were once hunted by the authorities, but their leader\u00E2\u20AC\u201Dwho knows the law inside out\u00E2\u20AC\u201Dmanaged to prove that they weren\u0027t a criminal organization.\\n\\nSpelljuggler Bedazzlers have a special ability; they can instantly sense the power of magical objects without needing to touch them. They can also influence these objects, changing their nature, but only if another Spelljuggler is the one wielding them.",
-  "menagerieDialog": [
-    "(It\u0027s lazily floating a single spell orb above its palm.)",
-    "Watch as I juggle their lives away!",
-    "I know spells that would make your head spin... literally!",
-    "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
-    "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
-  ],
-  "minDepth": 1,
-  "name": "Spelljuggler Bedazzler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpelljugglerBedazzler/overworld_e0.png",
-      "images/creature/SpelljugglerBedazzler/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpelljugglerBedazzler/overworld_n0.png",
-      "images/creature/SpelljugglerBedazzler/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpelljugglerBedazzler/overworld_s0.png",
-      "images/creature/SpelljugglerBedazzler/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpelljugglerBedazzler/overworld_w0.png",
-      "images/creature/SpelljugglerBedazzler/overworld_w1.png"
-    ]
-  },
-  "race": "Spelljuggler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 28,
-    "speed": 22
-  },
-  "trait": 2164
+    "battleSprite":  "images/creature/SpelljugglerBedazzler/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1304,
+    "item":  1811,
+    "lore":  "The Spelljugglers were once hunted by the authorities, but their leader—who knows the law inside out—managed to prove that they weren\u0027t a criminal organization.\\n\\nSpelljuggler Bedazzlers have a special ability; they can instantly sense the power of magical objects without needing to touch them. They can also influence these objects, changing their nature, but only if another Spelljuggler is the one wielding them.",
+    "menagerieDialog":  [
+                            "(It\u0027s lazily floating a single spell orb above its palm.)",
+                            "Watch as I juggle their lives away!",
+                            "I know spells that would make your head spin... literally!",
+                            "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
+                            "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spelljuggler Bedazzler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpelljugglerBedazzler/overworld_e0.png",
+                                         "images/creature/SpelljugglerBedazzler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpelljugglerBedazzler/overworld_n0.png",
+                                          "images/creature/SpelljugglerBedazzler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpelljugglerBedazzler/overworld_s0.png",
+                                          "images/creature/SpelljugglerBedazzler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpelljugglerBedazzler/overworld_w0.png",
+                                         "images/creature/SpelljugglerBedazzler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spelljuggler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  28,
+                       "speed":  22
+                   },
+    "trait":  2164,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

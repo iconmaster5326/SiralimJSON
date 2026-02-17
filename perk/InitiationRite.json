@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When an enemy {ACTION_attacks} one of its allies, its highest stat is used to determine the damage dealt.",
-  "icon": "images/perk/InitiationRite.png",
-  "id": 409,
-  "maxRanks": 1,
-  "name": "Initiation Rite",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 29
+    "anointable":  true,
+    "description":  "When an enemy {ACTION_attacks} one of its allies, its highest stat is used to determine the damage dealt.",
+    "icon":  "images/perk/InitiationRite.png",
+    "id":  409,
+    "maxRanks":  1,
+    "name":  "Initiation Rite",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  29,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

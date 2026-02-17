@@ -1,48 +1,51 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "chaos",
-  "creator": null,
-  "description": "Enemies take a moderate amount of damage and have a 10% chance to be afflicted with {CONDNAME_DEBUFF_SILENCE}, {CONDNAME_DEBUFF_BURNED}, and {CONDNAME_DEBUFF_FEAR}. This spell cannot be cast manually, but has a 30% chance to cast at the start of the caster\u0027s turn.",
-  "god": null,
-  "id": 649,
-  "manuallyCastable": false,
-  "maxCharges": 5,
-  "name": "Blitz Howl",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    1,
-    3,
-    5,
-    7,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "DAMAGE",
-    "DEBUFF"
-  ],
-  "targets": "enemies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Enemies take a moderate amount of damage and have a 10% chance to be afflicted with {CONDNAME_DEBUFF_SILENCE}, {CONDNAME_DEBUFF_BURNED}, and {CONDNAME_DEBUFF_FEAR}. This spell cannot be cast manually, but has a 30% chance to cast at the start of the caster\u0027s turn.",
+    "god":  null,
+    "id":  649,
+    "manuallyCastable":  false,
+    "maxCharges":  5,
+    "name":  "Blitz Howl",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  1,
+                                  3,
+                                  5,
+                                  7,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "DAMAGE",
+                 "DEBUFF"
+             ],
+    "targets":  "enemies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

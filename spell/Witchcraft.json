@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Enemies with {CONDNAME_DEBUFF_CURSED} {ACTION_cast} one of their single-target damage spells on a random creature.",
-  "god": null,
-  "id": 668,
-  "manuallyCastable": true,
-  "maxCharges": 7,
-  "name": "Witchcraft",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "enemies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Enemies with {CONDNAME_DEBUFF_CURSED} {ACTION_cast} one of their single-target damage spells on a random creature.",
+    "god":  null,
+    "id":  668,
+    "manuallyCastable":  true,
+    "maxCharges":  7,
+    "name":  "Witchcraft",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "enemies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

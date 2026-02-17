@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HiddenGrimoire/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 635,
-  "item": 826,
-  "lore": "During the Apollinaire incident in the Columbia Tower, a famous Mage started an experiment to save his own life. He succeeded in transferring his soul to a book, though it took some time for him to accept his new life. For several centuries he continued his studies in the tower, until the unexpected arrival of the Familiars. Accustomed to his new life, the Hidden Grimoire welcomed Washburn and her kind. He still lives with the Familiars in this tower, which they renamed Cornell in his honor.",
-  "menagerieDialog": [
-    "Read any good books lately?",
-    "I shall wreak havoc upon my enemies via a thousand papercuts!",
-    "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
-    "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
-    "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
-  ],
-  "minDepth": 1,
-  "name": "Hidden Grimoire",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HiddenGrimoire/overworld_e0.png",
-      "images/creature/HiddenGrimoire/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HiddenGrimoire/overworld_n0.png",
-      "images/creature/HiddenGrimoire/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HiddenGrimoire/overworld_s0.png",
-      "images/creature/HiddenGrimoire/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HiddenGrimoire/overworld_w0.png",
-      "images/creature/HiddenGrimoire/overworld_w1.png"
-    ]
-  },
-  "race": "Grimoire",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 17,
-    "health": 27,
-    "intelligence": 27,
-    "speed": 22
-  },
-  "trait": 853
+    "battleSprite":  "images/creature/HiddenGrimoire/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  635,
+    "item":  826,
+    "lore":  "During the Apollinaire incident in the Columbia Tower, a famous Mage started an experiment to save his own life. He succeeded in transferring his soul to a book, though it took some time for him to accept his new life. For several centuries he continued his studies in the tower, until the unexpected arrival of the Familiars. Accustomed to his new life, the Hidden Grimoire welcomed Washburn and her kind. He still lives with the Familiars in this tower, which they renamed Cornell in his honor.",
+    "menagerieDialog":  [
+                            "Read any good books lately?",
+                            "I shall wreak havoc upon my enemies via a thousand papercuts!",
+                            "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
+                            "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
+                            "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Hidden Grimoire",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HiddenGrimoire/overworld_e0.png",
+                                         "images/creature/HiddenGrimoire/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HiddenGrimoire/overworld_n0.png",
+                                          "images/creature/HiddenGrimoire/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HiddenGrimoire/overworld_s0.png",
+                                          "images/creature/HiddenGrimoire/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HiddenGrimoire/overworld_w0.png",
+                                         "images/creature/HiddenGrimoire/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Grimoire",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  17,
+                       "health":  27,
+                       "intelligence":  27,
+                       "speed":  22
+                   },
+    "trait":  853,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

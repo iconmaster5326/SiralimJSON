@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/WarGolem/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 155,
-  "item": 415,
-  "lore": "The War Golem is a creature that instinctively craves battle. When it walks for a long time without encountering an opponent, it simply attacks the trees or stones that it finds along the way. Many have made the mistake of underestimating its speed: despite its size and appearance, it is actually quite agile.",
-  "menagerieDialog": [
-    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
-    "(It\u0027s... shadowboxing. Weird.)",
-    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
-    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
-    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "War Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WarGolem/overworld_e0.png",
-      "images/creature/WarGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WarGolem/overworld_n0.png",
-      "images/creature/WarGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WarGolem/overworld_s0.png",
-      "images/creature/WarGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WarGolem/overworld_w0.png",
-      "images/creature/WarGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 40,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 330
+    "battleSprite":  "images/creature/WarGolem/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  155,
+    "item":  415,
+    "lore":  "The War Golem is a creature that instinctively craves battle. When it walks for a long time without encountering an opponent, it simply attacks the trees or stones that it finds along the way. Many have made the mistake of underestimating its speed: despite its size and appearance, it is actually quite agile.",
+    "menagerieDialog":  [
+                            "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+                            "(It\u0027s... shadowboxing. Weird.)",
+                            "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+                            "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+                            "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "War Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WarGolem/overworld_e0.png",
+                                         "images/creature/WarGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WarGolem/overworld_n0.png",
+                                          "images/creature/WarGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WarGolem/overworld_s0.png",
+                                          "images/creature/WarGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WarGolem/overworld_w0.png",
+                                         "images/creature/WarGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  40,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  330,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Crusaders:\nYour {RACE_Crusader}s start battles with {CONDNAME_BUFF_SHELL}.",
-  "icon": "images/item/material/SigiloftheCrusader.png",
-  "id": 1158,
-  "name": "Sigil of the Crusader",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1419
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Crusaders:\nYour {RACE_Crusader}s start battles with {CONDNAME_BUFF_SHELL}.",
+    "icon":  "images/item/material/SigiloftheCrusader.png",
+    "id":  1158,
+    "name":  "Sigil of the Crusader",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1419,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

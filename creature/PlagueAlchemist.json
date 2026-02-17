@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PlagueAlchemist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 572,
-  "item": 732,
-  "lore": "Plague Doctors have a strange fondness for traveling the world, curing any sick creature they find.\\n\\nWhen a Plague Alchemist finds a wounded person, it does not merely heal their wounds. With a whisper, it asks the patient whether they were caused by another. With just a description, this creature finds the perpetrator and waits for them to become distracted. Then it pours the contents of its test tube into a glass. When drunk, the strange liquid causes the same injuries on the aggressor\u0027s body.",
-  "menagerieDialog": [
-    "Bend over, grab your ankles, and cough!",
-    "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
-    "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
-    "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
-    "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
-  ],
-  "minDepth": 1,
-  "name": "Plague Alchemist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PlagueAlchemist/overworld_e0.png",
-      "images/creature/PlagueAlchemist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PlagueAlchemist/overworld_n0.png",
-      "images/creature/PlagueAlchemist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PlagueAlchemist/overworld_s0.png",
-      "images/creature/PlagueAlchemist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PlagueAlchemist/overworld_w0.png",
-      "images/creature/PlagueAlchemist/overworld_w1.png"
-    ]
-  },
-  "race": "Plague Doctor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (4080)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 671
+    "battleSprite":  "images/creature/PlagueAlchemist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  572,
+    "item":  732,
+    "lore":  "Plague Doctors have a strange fondness for traveling the world, curing any sick creature they find.\\n\\nWhen a Plague Alchemist finds a wounded person, it does not merely heal their wounds. With a whisper, it asks the patient whether they were caused by another. With just a description, this creature finds the perpetrator and waits for them to become distracted. Then it pours the contents of its test tube into a glass. When drunk, the strange liquid causes the same injuries on the aggressor\u0027s body.",
+    "menagerieDialog":  [
+                            "Bend over, grab your ankles, and cough!",
+                            "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
+                            "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
+                            "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
+                            "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Plague Alchemist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PlagueAlchemist/overworld_e0.png",
+                                         "images/creature/PlagueAlchemist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PlagueAlchemist/overworld_n0.png",
+                                          "images/creature/PlagueAlchemist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PlagueAlchemist/overworld_s0.png",
+                                          "images/creature/PlagueAlchemist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PlagueAlchemist/overworld_w0.png",
+                                         "images/creature/PlagueAlchemist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Plague Doctor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (4080)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  671,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

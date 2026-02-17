@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Tenebris/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": 15,
-  "id": 952,
-  "item": null,
-  "lore": "River was a powerful Magi who studied in the Refuge of the Magi. There, he formed a great friendship with another student named Hexilo. After a few years, his friend began to develop an affinity for the dark arts, and later, when River left the Refuge of the Magi, he began to hear stories of a necromancer who terrorized a kingdom near Siralim, beyond the lands that would be known as Rodia a few centuries later. Convinced it was his old friend, River traveled to that kingdom and found that he was right. For several years they fought each other until both of them joined the Auditors. Together with four other agents they formed the Enclave of Six, and River led the group. The six Magi carried out many missions throughout the world. Following the incident in the Refuge of the Magi, River transformed into Tenebris. He soon found that using divine power was not much different from using magic, something that neither Apocranox nor Venedon had done up to that very moment. Using each other\u0027s power he helped them create their own realms. He later created the Bastion of the Void together with Mortem, and, after saying goodbye to his friends, he left this world.",
-  "menagerieDialog": [
-    "We are all better off now that the Nether Orbs have been destroyed. Though you made many mistakes during your journey, this outcome is the best we could possibly hope for.",
-    "My realm is a place constructed of pure shadow.",
-    "I\u0027ll be the first to admit that I\u0027m the edgiest of all the gods. I am not ashamed. It has to be someone, after all.",
-    "Rodia is a land filled with war. Will you be the one to put an end to it all?",
-    "I feel like a fish out of water here in this castle. I prefer the confines of the shadows of my realm."
-  ],
-  "minDepth": 1,
-  "name": "Tenebris",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Tenebris/overworld_e0.png",
-      "images/creature/Tenebris/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Tenebris/overworld_n0.png",
-      "images/creature/Tenebris/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Tenebris/overworld_s0.png",
-      "images/creature/Tenebris/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Tenebris/overworld_w0.png",
-      "images/creature/Tenebris/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    366,
-    411
-  ],
-  "sources": [
-    {
-      "god": 15,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1239
+    "battleSprite":  "images/creature/Tenebris/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  15,
+    "id":  952,
+    "item":  null,
+    "lore":  "River was a powerful Magi who studied in the Refuge of the Magi. There, he formed a great friendship with another student named Hexilo. After a few years, his friend began to develop an affinity for the dark arts, and later, when River left the Refuge of the Magi, he began to hear stories of a necromancer who terrorized a kingdom near Siralim, beyond the lands that would be known as Rodia a few centuries later. Convinced it was his old friend, River traveled to that kingdom and found that he was right. For several years they fought each other until both of them joined the Auditors. Together with four other agents they formed the Enclave of Six, and River led the group. The six Magi carried out many missions throughout the world. Following the incident in the Refuge of the Magi, River transformed into Tenebris. He soon found that using divine power was not much different from using magic, something that neither Apocranox nor Venedon had done up to that very moment. Using each other\u0027s power he helped them create their own realms. He later created the Bastion of the Void together with Mortem, and, after saying goodbye to his friends, he left this world.",
+    "menagerieDialog":  [
+                            "We are all better off now that the Nether Orbs have been destroyed. Though you made many mistakes during your journey, this outcome is the best we could possibly hope for.",
+                            "My realm is a place constructed of pure shadow.",
+                            "I\u0027ll be the first to admit that I\u0027m the edgiest of all the gods. I am not ashamed. It has to be someone, after all.",
+                            "Rodia is a land filled with war. Will you be the one to put an end to it all?",
+                            "I feel like a fish out of water here in this castle. I prefer the confines of the shadows of my realm."
+                        ],
+    "minDepth":  1,
+    "name":  "Tenebris",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Tenebris/overworld_e0.png",
+                                         "images/creature/Tenebris/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Tenebris/overworld_n0.png",
+                                          "images/creature/Tenebris/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Tenebris/overworld_s0.png",
+                                          "images/creature/Tenebris/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Tenebris/overworld_w0.png",
+                                         "images/creature/Tenebris/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  366,
+                  411
+              ],
+    "sources":  [
+                    {
+                        "god":  15,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1239,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

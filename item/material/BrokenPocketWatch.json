@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTardy to the Party:\nAt the start of battle, if your creature\u0027s top-most Spell Gem is [icons,1976]Party in the Back, they {ACTION_cast} [icons,1976]Chrysalis on themselves. This trait does not stack.",
-  "icon": "images/item/material/BrokenPocketWatch.png",
-  "id": 1835,
-  "name": "Broken Pocket Watch",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2179
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTardy to the Party:\nAt the start of battle, if your creature\u0027s top-most Spell Gem is [icons,1976]Party in the Back, they {ACTION_cast} [icons,1976]Chrysalis on themselves. This trait does not stack.",
+    "icon":  "images/item/material/BrokenPocketWatch.png",
+    "id":  1835,
+    "name":  "Broken Pocket Watch",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2179,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nStrength In Numbers:\nYour creatures\u0027 traits, spells, and other effects that are affected by the number of creatures that belong to a certain class act as if they have 2 more of those creatures fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/CarrionComb.png",
-  "id": 1049,
-  "name": "Carrion Comb",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1081
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nStrength In Numbers:\nYour creatures\u0027 traits, spells, and other effects that are affected by the number of creatures that belong to a certain class act as if they have 2 more of those creatures fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/CarrionComb.png",
+    "id":  1049,
+    "name":  "Carrion Comb",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1081,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

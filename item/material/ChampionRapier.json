@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRefraction:\nAfter an enemy targets one of your creatures with a single-target spell, this creature {ACTION_casts} the same spell on the enemy.",
-  "icon": "images/item/material/ChampionRapier.png",
-  "id": 159,
-  "name": "Champion Rapier",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 69
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRefraction:\nAfter an enemy targets one of your creatures with a single-target spell, this creature {ACTION_casts} the same spell on the enemy.",
+    "icon":  "images/item/material/ChampionRapier.png",
+    "id":  159,
+    "name":  "Champion Rapier",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  69,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/PatientiasSanctus/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 411,
-  "item": 172,
-  "lore": "Sanctuses are considered a divine punishment by the people of Rodia; terrifying beings that inspire a much greater fear than Sins or even Banshees.\\n\\nWithout a doubt, the worst punishment of all is inflicted by the Patientias Sanctus. Those who are unable to control their anger turn into hybrid trees that take root, condemned to remain motionless for hundreds of years without losing their cognitive functions or their impulses.",
-  "menagerieDialog": [
-    "(You\u0027ve always found these sort of creatures unnerving.)",
-    "(It seems vengeful. The next few battles should be quite interesting.)",
-    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
-    "(This creature would make an excellent mascot for {CASTLENAME}.)",
-    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
-  ],
-  "minDepth": 1,
-  "name": "Patientias Sanctus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PatientiasSanctus/overworld_e0.png",
-      "images/creature/PatientiasSanctus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PatientiasSanctus/overworld_n0.png",
-      "images/creature/PatientiasSanctus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PatientiasSanctus/overworld_s0.png",
-      "images/creature/PatientiasSanctus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PatientiasSanctus/overworld_w0.png",
-      "images/creature/PatientiasSanctus/overworld_w1.png"
-    ]
-  },
-  "race": "Sanctus",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 82
+    "battleSprite":  "images/creature/PatientiasSanctus/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  411,
+    "item":  172,
+    "lore":  "Sanctuses are considered a divine punishment by the people of Rodia; terrifying beings that inspire a much greater fear than Sins or even Banshees.\\n\\nWithout a doubt, the worst punishment of all is inflicted by the Patientias Sanctus. Those who are unable to control their anger turn into hybrid trees that take root, condemned to remain motionless for hundreds of years without losing their cognitive functions or their impulses.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always found these sort of creatures unnerving.)",
+                            "(It seems vengeful. The next few battles should be quite interesting.)",
+                            "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+                            "(This creature would make an excellent mascot for {CASTLENAME}.)",
+                            "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Patientias Sanctus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PatientiasSanctus/overworld_e0.png",
+                                         "images/creature/PatientiasSanctus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PatientiasSanctus/overworld_n0.png",
+                                          "images/creature/PatientiasSanctus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PatientiasSanctus/overworld_s0.png",
+                                          "images/creature/PatientiasSanctus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PatientiasSanctus/overworld_w0.png",
+                                         "images/creature/PatientiasSanctus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sanctus",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  82,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(As the Doomguard approaches, weapons raised, it emits a pained and exhausted groan. You darkly wonder if you\u0027re doing it a favor by killing it.)",
-    "(Despite having been perfectly still the whole time, the Doomguard moves to block your approach to the treasure hoard. You\u0027ll have to fight for it!)",
-    "(The Doomguard bangs on its shield several times as soon as it catches sight of you, summoning its comrades to attack alongside it.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures with {CONDNAME_BUFF_TAUNT} take 15% less damage.",
-    "4": "Your creatures with {CONDNAME_BUFF_TAUNT} have 15% more {STAT_speed}.",
-    "7": "Your creatures with {CONDNAME_BUFF_TAUNT} have a 15% chance for effects that occur after they {ACTION_provoke} to occur an additional time."
-  },
-  "cards": 7,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    224,
-    225,
-    226,
-    227,
-    228,
-    229,
-    659
-  ],
-  "icon": "images/race/Doomguard.png",
-  "master": {
-    "costume": 324,
-    "dialog": "Doomguards are protective creatures who greatly reduce the damage their allies take. Let\u0027s see if you can pierce through my defenses!",
-    "item": 1273,
-    "name": "Thesauram",
-    "trait": 1425
-  },
-  "name": "Doomguard",
-  "notes": [],
-  "skins": [
-    285,
-    296,
-    297,
-    507
-  ]
+    "bossDialog":  [
+                       "(As the Doomguard approaches, weapons raised, it emits a pained and exhausted groan. You darkly wonder if you\u0027re doing it a favor by killing it.)",
+                       "(Despite having been perfectly still the whole time, the Doomguard moves to block your approach to the treasure hoard. You\u0027ll have to fight for it!)",
+                       "(The Doomguard bangs on its shield several times as soon as it catches sight of you, summoning its comrades to attack alongside it.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures with {CONDNAME_BUFF_TAUNT} take 15% less damage.",
+                        "4":  "Your creatures with {CONDNAME_BUFF_TAUNT} have 15% more {STAT_speed}.",
+                        "7":  "Your creatures with {CONDNAME_BUFF_TAUNT} have a 15% chance for effects that occur after they {ACTION_provoke} to occur an additional time."
+                    },
+    "cards":  7,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      224,
+                      225,
+                      226,
+                      227,
+                      228,
+                      229,
+                      659
+                  ],
+    "icon":  "images/race/Doomguard.png",
+    "master":  {
+                   "costume":  324,
+                   "dialog":  "Doomguards are protective creatures who greatly reduce the damage their allies take. Let\u0027s see if you can pierce through my defenses!",
+                   "item":  1273,
+                   "name":  "Thesauram",
+                   "trait":  1425
+               },
+    "name":  "Doomguard",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  285,
+                  296,
+                  297,
+                  507
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

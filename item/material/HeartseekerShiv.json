@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBetrayal:\nAfter one of your creatures is damaged and their {STAT_health} falls below 40%, this creature kills it and gains 100% of its {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}.",
-  "icon": "images/item/material/HeartseekerShiv.png",
-  "id": 357,
-  "name": "Heartseeker Shiv",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 273
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBetrayal:\nAfter one of your creatures is damaged and their {STAT_health} falls below 40%, this creature kills it and gains 100% of its {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}.",
+    "icon":  "images/item/material/HeartseekerShiv.png",
+    "id":  357,
+    "name":  "Heartseeker Shiv",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  273,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

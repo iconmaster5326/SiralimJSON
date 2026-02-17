@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOtherworld:\nEnemies take 20% more indirect damage. This trait does not stack.",
-  "icon": "images/item/material/ChaosSweat.png",
-  "id": 1303,
-  "name": "Chaos Sweat",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1550
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOtherworld:\nEnemies take 20% more indirect damage. This trait does not stack.",
+    "icon":  "images/item/material/ChaosSweat.png",
+    "id":  1303,
+    "name":  "Chaos Sweat",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1550,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

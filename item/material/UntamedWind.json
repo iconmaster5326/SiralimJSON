@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nExpansion:\nAfter this creature takes damage, it gains {STAT_attack} equal to 50% of the damage it took.",
-  "icon": "images/item/material/UntamedWind.png",
-  "id": 500,
-  "name": "Untamed Wind",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 414
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nExpansion:\nAfter this creature takes damage, it gains {STAT_attack} equal to 50% of the damage it took.",
+    "icon":  "images/item/material/UntamedWind.png",
+    "id":  500,
+    "name":  "Untamed Wind",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  414,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

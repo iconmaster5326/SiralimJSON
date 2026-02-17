@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPerishing Salvo:\nAfter this creature dies, it deals damage to enemies equal to 15% of its {STAT_intelligence} multiplied by the {STAT_attack} increases granted by its Artifact\u0027s Stat Slots.",
-  "icon": "images/item/material/FadingGarnet.png",
-  "id": 1397,
-  "name": "Fading Garnet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1704
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPerishing Salvo:\nAfter this creature dies, it deals damage to enemies equal to 15% of its {STAT_intelligence} multiplied by the {STAT_attack} increases granted by its Artifact\u0027s Stat Slots.",
+    "icon":  "images/item/material/FadingGarnet.png",
+    "id":  1397,
+    "name":  "Fading Garnet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1704,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MaliceHarpy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 988,
-  "item": 1314,
-  "lore": "The Malice Harpy is a master of camouflage and concealment, and the one who most often manages to sneak into towns and cities. Its tricks never seem to end, from playing with the night shadows to sneaking in undetected, or even hiding under carriages or among the merchandise, or wearing a hooded robe to walk through the main gates during the day taking advantage of the crowd. For this and other reasons, guards often check the caravans who want to enter, and look carefully at the face of anyone who tries to conceal their identity.",
-  "menagerieDialog": [
-    "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
-    "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
-    "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
-    "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
-    "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
-  ],
-  "minDepth": 1,
-  "name": "Malice Harpy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MaliceHarpy/overworld_e0.png",
-      "images/creature/MaliceHarpy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MaliceHarpy/overworld_n0.png",
-      "images/creature/MaliceHarpy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MaliceHarpy/overworld_s0.png",
-      "images/creature/MaliceHarpy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MaliceHarpy/overworld_w0.png",
-      "images/creature/MaliceHarpy/overworld_w1.png"
-    ]
-  },
-  "race": "Harpy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Death Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1562
+    "battleSprite":  "images/creature/MaliceHarpy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  988,
+    "item":  1314,
+    "lore":  "The Malice Harpy is a master of camouflage and concealment, and the one who most often manages to sneak into towns and cities. Its tricks never seem to end, from playing with the night shadows to sneaking in undetected, or even hiding under carriages or among the merchandise, or wearing a hooded robe to walk through the main gates during the day taking advantage of the crowd. For this and other reasons, guards often check the caravans who want to enter, and look carefully at the face of anyone who tries to conceal their identity.",
+    "menagerieDialog":  [
+                            "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
+                            "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
+                            "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
+                            "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
+                            "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Malice Harpy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MaliceHarpy/overworld_e0.png",
+                                         "images/creature/MaliceHarpy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MaliceHarpy/overworld_n0.png",
+                                          "images/creature/MaliceHarpy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MaliceHarpy/overworld_s0.png",
+                                          "images/creature/MaliceHarpy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MaliceHarpy/overworld_w0.png",
+                                         "images/creature/MaliceHarpy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Harpy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Death Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1562,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

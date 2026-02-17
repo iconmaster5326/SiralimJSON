@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MindReaver/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1152,
-  "item": 1534,
-  "lore": "Mind reavers are not very different from rhinos. Indeed, they used to be rhinos, but a Nature Mage who sadly watched as they were hunted indiscriminately decided to give them a weapon with which to defend themselves. These creatures coexist with their non-magical siblings, constantly roaming their territories for the sole purpose of protecting them. If a hunter manages to land a hit on this creature, even if it is a deadly one, they will lose the will to hunt these mammals for the rest of their life.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Mind Reaver",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MindReaver/overworld_e0.png",
-      "images/creature/MindReaver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MindReaver/overworld_n0.png",
-      "images/creature/MindReaver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MindReaver/overworld_s0.png",
-      "images/creature/MindReaver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MindReaver/overworld_w0.png",
-      "images/creature/MindReaver/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 13,
-    "health": 30,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 1875
+    "battleSprite":  "images/creature/MindReaver/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1152,
+    "item":  1534,
+    "lore":  "Mind reavers are not very different from rhinos. Indeed, they used to be rhinos, but a Nature Mage who sadly watched as they were hunted indiscriminately decided to give them a weapon with which to defend themselves. These creatures coexist with their non-magical siblings, constantly roaming their territories for the sole purpose of protecting them. If a hunter manages to land a hit on this creature, even if it is a deadly one, they will lose the will to hunt these mammals for the rest of their life.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Mind Reaver",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MindReaver/overworld_e0.png",
+                                         "images/creature/MindReaver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MindReaver/overworld_n0.png",
+                                          "images/creature/MindReaver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MindReaver/overworld_s0.png",
+                                          "images/creature/MindReaver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MindReaver/overworld_w0.png",
+                                         "images/creature/MindReaver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  13,
+                       "health":  30,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  1875,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

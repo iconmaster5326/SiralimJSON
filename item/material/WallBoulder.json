@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHostile Vitality:\nWhen this creature {ACTION_attacks}, it deals additional damage equal to 35% of its Current {STAT_health}.",
-  "icon": "images/item/material/WallBoulder.png",
-  "id": 509,
-  "name": "Wall Boulder",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 423
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHostile Vitality:\nWhen this creature {ACTION_attacks}, it deals additional damage equal to 35% of its Current {STAT_health}.",
+    "icon":  "images/item/material/WallBoulder.png",
+    "id":  509,
+    "name":  "Wall Boulder",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  423,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

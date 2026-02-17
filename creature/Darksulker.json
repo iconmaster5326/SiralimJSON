@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Darksulker/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 796,
-  "item": 1082,
-  "lore": "The day to say goodbye had come. Mikhail, Elinar, Vyre, Hexilo, and River ceased to be what they once were. Their last mission for the Auditors was carried out: to save not only the world, but the entire universe from an inexorable end. Their five new realms were ready, and the only thing that remained was saying goodbye. Everyone except Mortem and Tenebris set out on their journeys. \u0022River,\u0022 said the god of Blood. \u0022It\u0027s Tenebris now, speak properly,\u0022 he replied. \u0022You weren\u0027t always so compliant with the rules.\u0022 Tenebris smiled at his response. \u0022You took Linta, you heathen.\u0022 \u0022I know, so I want to give you something.\u0022 The Darksulker appeared next to Tenebris. Mortem knew Tenebris was raising an eyebrow under his cloak of darkness, even though he couldn\u0027t see it. \u0022Come on, don\u0027t look at me like that. It\u0027s very smart, I\u0027ve told it about you and it agreed. I\u0027m sure you\u0027ll be great friends.\u0022 The Gods embraced each other, so tightly that the earth itself trembled. \u0022Goodbye, Mortem.\u0022 \u0022I\u0027ll miss you, Tenebris.\u0022",
-  "menagerieDialog": [
-    "It\u0027s too warm in here. I hate being in enclosed spaces.",
-    "What kind of kingdom doesn\u0027t have a tavern? I wish I had been summoned by anyone else...",
-    "Do you enjoy playing chess? Perhaps we could play a game or two someday.",
-    "Why doesn\u0027t this castle have a door?",
-    "It\u0027s important to build a strong relationship with each of the gods. Without their help, {CASTLENAME} will never realize its true potential. Yes, that includes Torun."
-  ],
-  "minDepth": 1,
-  "name": "Darksulker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Darksulker/overworld_e0.png",
-      "images/creature/Darksulker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Darksulker/overworld_n0.png",
-      "images/creature/Darksulker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Darksulker/overworld_s0.png",
-      "images/creature/Darksulker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Darksulker/overworld_w0.png",
-      "images/creature/Darksulker/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    159,
-    478
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1046
+    "battleSprite":  "images/creature/Darksulker/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  796,
+    "item":  1082,
+    "lore":  "The day to say goodbye had come. Mikhail, Elinar, Vyre, Hexilo, and River ceased to be what they once were. Their last mission for the Auditors was carried out: to save not only the world, but the entire universe from an inexorable end. Their five new realms were ready, and the only thing that remained was saying goodbye. Everyone except Mortem and Tenebris set out on their journeys. \"River,\" said the god of Blood. \"It\u0027s Tenebris now, speak properly,\" he replied. \"You weren\u0027t always so compliant with the rules.\" Tenebris smiled at his response. \"You took Linta, you heathen.\" \"I know, so I want to give you something.\" The Darksulker appeared next to Tenebris. Mortem knew Tenebris was raising an eyebrow under his cloak of darkness, even though he couldn\u0027t see it. \"Come on, don\u0027t look at me like that. It\u0027s very smart, I\u0027ve told it about you and it agreed. I\u0027m sure you\u0027ll be great friends.\" The Gods embraced each other, so tightly that the earth itself trembled. \"Goodbye, Mortem.\" \"I\u0027ll miss you, Tenebris.\"",
+    "menagerieDialog":  [
+                            "It\u0027s too warm in here. I hate being in enclosed spaces.",
+                            "What kind of kingdom doesn\u0027t have a tavern? I wish I had been summoned by anyone else...",
+                            "Do you enjoy playing chess? Perhaps we could play a game or two someday.",
+                            "Why doesn\u0027t this castle have a door?",
+                            "It\u0027s important to build a strong relationship with each of the gods. Without their help, {CASTLENAME} will never realize its true potential. Yes, that includes Torun."
+                        ],
+    "minDepth":  1,
+    "name":  "Darksulker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Darksulker/overworld_e0.png",
+                                         "images/creature/Darksulker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Darksulker/overworld_n0.png",
+                                          "images/creature/Darksulker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Darksulker/overworld_s0.png",
+                                          "images/creature/Darksulker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Darksulker/overworld_w0.png",
+                                         "images/creature/Darksulker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  159,
+                  478
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1046,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

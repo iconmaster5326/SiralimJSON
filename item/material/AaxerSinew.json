@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUrh Harbinger:\nYour creatures have 15% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each turn they\u0027ve taken in the current battle. This trait does not stack.",
-  "icon": "images/item/material/AaxerSinew.png",
-  "id": 375,
-  "name": "Aaxer Sinew",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 291
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUrh Harbinger:\nYour creatures have 15% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each turn they\u0027ve taken in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/AaxerSinew.png",
+    "id":  375,
+    "name":  "Aaxer Sinew",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  291,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

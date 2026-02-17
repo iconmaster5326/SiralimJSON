@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nExalted Detriment:\nYour creatures deal additional damage with attacks equal to 30% of their {STAT_defense}. This trait does not stack.",
-  "icon": "images/item/material/StardustSplinters.png",
-  "id": 124,
-  "name": "Stardust Splinters",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 33
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nExalted Detriment:\nYour creatures deal additional damage with attacks equal to 30% of their {STAT_defense}. This trait does not stack.",
+    "icon":  "images/item/material/StardustSplinters.png",
+    "id":  124,
+    "name":  "Stardust Splinters",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  33,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

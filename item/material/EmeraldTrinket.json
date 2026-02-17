@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParamount:\nAfter this creature takes damage, it has a 2% chance to {ACTION_cast} one of its spells for each spell that has been {ACTION_cast} by all creatures in the current battle. This trait can only activate once per turn.",
-  "icon": "images/item/material/EmeraldTrinket.png",
-  "id": 931,
-  "name": "Emerald Trinket",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1203
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParamount:\nAfter this creature takes damage, it has a 2% chance to {ACTION_cast} one of its spells for each spell that has been {ACTION_cast} by all creatures in the current battle. This trait can only activate once per turn.",
+    "icon":  "images/item/material/EmeraldTrinket.png",
+    "id":  931,
+    "name":  "Emerald Trinket",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1203,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

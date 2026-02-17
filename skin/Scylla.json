@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Scylla/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 34,
-  "name": "Scylla",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Scylla/overworld_e0.png",
-      "images/skin/Scylla/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Scylla/overworld_n0.png",
-      "images/skin/Scylla/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Scylla/overworld_s0.png",
-      "images/skin/Scylla/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Scylla/overworld_w0.png",
-      "images/skin/Scylla/overworld_w1.png"
-    ]
-  },
-  "race": "Apocalypse",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Scylla/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  34,
+    "name":  "Scylla",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Scylla/overworld_e0.png",
+                                         "images/skin/Scylla/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Scylla/overworld_n0.png",
+                                          "images/skin/Scylla/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Scylla/overworld_s0.png",
+                                          "images/skin/Scylla/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Scylla/overworld_w0.png",
+                                         "images/skin/Scylla/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Apocalypse",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

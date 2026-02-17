@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMind Prison:\nAfter this creature {ACTION_provokes}, it Seals 3 of a random enemy\u0027s Spell Gems.",
-  "icon": "images/item/material/CitadelBrick.png",
-  "id": 808,
-  "name": "Citadel Brick",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 835
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMind Prison:\nAfter this creature {ACTION_provokes}, it Seals 3 of a random enemy\u0027s Spell Gems.",
+    "icon":  "images/item/material/CitadelBrick.png",
+    "id":  808,
+    "name":  "Citadel Brick",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  835,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,46 +1,49 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "life",
-  "creator": null,
-  "description": "Your creatures recover a large amount of {STAT_health}. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 312,
-  "manuallyCastable": false,
-  "maxCharges": 8,
-  "name": "Sensual Cider",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    2,
-    3,
-    5,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "HEAL"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Your creatures recover a large amount of {STAT_health}. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  312,
+    "manuallyCastable":  false,
+    "maxCharges":  8,
+    "name":  "Sensual Cider",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  2,
+                                  3,
+                                  5,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "HEAL"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

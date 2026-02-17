@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHemophilia:\nEnemies\u0027 {CONDNAME_DEBUFF_BLEED} debuffs last forever and deal 35% more damage. This trait does not stack.",
-  "icon": "images/item/material/BloodyRags.png",
-  "id": 1394,
-  "name": "Bloody Rags",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1701
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHemophilia:\nEnemies\u0027 {CONDNAME_DEBUFF_BLEED} debuffs last forever and deal 35% more damage. This trait does not stack.",
+    "icon":  "images/item/material/BloodyRags.png",
+    "id":  1394,
+    "name":  "Bloody Rags",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1701,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

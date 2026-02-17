@@ -1,44 +1,47 @@
 {
-  "bossDialog": [
-    "I\u0027M GONNA STAB YA! I\u0027M GONNA STAB YA! I\u0027M GONNA STAB YA!",
-    "Ooh, fresh meat, and I just got done sharpening my best knives! It\u0027s my lucky day!",
-    "You don\u0027t look like much. Whatever, I\u0027ll just chop you up and feed you to the hounds. Hold still!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 10% more damage to {CLASS_Chaos} creatures.",
-    "5": "Your creatures deal 10% more damage to {CLASS_Chaos} creatures.",
-    "8": "Your creatures deal 10% more damage to {CLASS_Chaos} creatures."
-  },
-  "cards": 8,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    78,
-    79,
-    80,
-    81,
-    82,
-    83,
-    615,
-    973
-  ],
-  "icon": "images/race/Carver.png",
-  "master": {
-    "costume": 310,
-    "dialog": "Carvers are all about the stab-stab-stab. They don\u0027t care much about who they hurt, either - even their own friends are prone to lose some blood every now and again. Anyway, let\u0027s have ourselves a duel, shall we?",
-    "item": 1161,
-    "name": "Dice",
-    "trait": 1411
-  },
-  "name": "Carver",
-  "notes": [],
-  "skins": [
-    395,
-    530,
-    555,
-    556,
-    585,
-    643,
-    644
-  ]
+    "bossDialog":  [
+                       "I\u0027M GONNA STAB YA! I\u0027M GONNA STAB YA! I\u0027M GONNA STAB YA!",
+                       "Ooh, fresh meat, and I just got done sharpening my best knives! It\u0027s my lucky day!",
+                       "You don\u0027t look like much. Whatever, I\u0027ll just chop you up and feed you to the hounds. Hold still!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 10% more damage to {CLASS_Chaos} creatures.",
+                        "5":  "Your creatures deal 10% more damage to {CLASS_Chaos} creatures.",
+                        "8":  "Your creatures deal 10% more damage to {CLASS_Chaos} creatures."
+                    },
+    "cards":  8,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      78,
+                      79,
+                      80,
+                      81,
+                      82,
+                      83,
+                      615,
+                      973
+                  ],
+    "icon":  "images/race/Carver.png",
+    "master":  {
+                   "costume":  310,
+                   "dialog":  "Carvers are all about the stab-stab-stab. They don\u0027t care much about who they hurt, either - even their own friends are prone to lose some blood every now and again. Anyway, let\u0027s have ourselves a duel, shall we?",
+                   "item":  1161,
+                   "name":  "Dice",
+                   "trait":  1411
+               },
+    "name":  "Carver",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  395,
+                  530,
+                  555,
+                  556,
+                  585,
+                  643,
+                  644
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

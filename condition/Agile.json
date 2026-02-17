@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_AGILE} have an additional, independent chance to dodge attacks.",
-  "icon": "images/condition/Agile.png",
-  "iconResisted": null,
-  "id": 4,
-  "material": 25,
-  "name": "Agile",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_AGILE} have an additional, independent chance to dodge attacks.",
+    "icon":  "images/condition/Agile.png",
+    "iconResisted":  null,
+    "id":  4,
+    "material":  25,
+    "name":  "Agile",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures\u0027 {CONDNAME_BUFF_SAVAGE} buff now causes them to have a 100% chance to deal critical damage.\\n\\n{CONDDESC_BUFF_SAVAGE}",
-  "icon": "images/perk/RecklessAbandon.png",
-  "id": 47,
-  "maxRanks": 1,
-  "name": "Reckless Abandon",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 5
+    "anointable":  true,
+    "description":  "Your creatures\u0027 {CONDNAME_BUFF_SAVAGE} buff now causes them to have a 100% chance to deal critical damage.\\n\\n{CONDDESC_BUFF_SAVAGE}",
+    "icon":  "images/perk/RecklessAbandon.png",
+    "id":  47,
+    "maxRanks":  1,
+    "name":  "Reckless Abandon",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  5,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

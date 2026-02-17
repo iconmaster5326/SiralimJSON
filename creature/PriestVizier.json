@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/PriestVizier/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 620,
-  "item": 122,
-  "lore": "Out of the eleven that existed in the beginning, only two of them retained most of their power. As a mere gesture, Yseros contributed to the creation of the world by creating the Barrens.\\n\\nWhen the War Priests arrived, they began to undo the work of the other Priests. This annoyed Lister, who created the Priest Vizier to persecute these disdainful creatures and destroy them or at least drive them out of the cities. After they finished their work, most of them moved to Ahruna to serve their lord.",
-  "menagerieDialog": [
-    "(It\u0027s doing what it does best - standing still.)",
-    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
-    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
-    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
-    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Priest Vizier",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PriestVizier/overworld_e0.png",
-      "images/creature/PriestVizier/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PriestVizier/overworld_n0.png",
-      "images/creature/PriestVizier/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PriestVizier/overworld_s0.png",
-      "images/creature/PriestVizier/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PriestVizier/overworld_w0.png",
-      "images/creature/PriestVizier/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    25
-  ],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 15,
-    "health": 43,
-    "intelligence": 18,
-    "speed": 15
-  },
-  "trait": 31
+    "battleSprite":  "images/creature/PriestVizier/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  620,
+    "item":  122,
+    "lore":  "Out of the eleven that existed in the beginning, only two of them retained most of their power. As a mere gesture, Yseros contributed to the creation of the world by creating the Barrens.\\n\\nWhen the War Priests arrived, they began to undo the work of the other Priests. This annoyed Lister, who created the Priest Vizier to persecute these disdainful creatures and destroy them or at least drive them out of the cities. After they finished their work, most of them moved to Ahruna to serve their lord.",
+    "menagerieDialog":  [
+                            "(It\u0027s doing what it does best - standing still.)",
+                            "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+                            "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+                            "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+                            "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Priest Vizier",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PriestVizier/overworld_e0.png",
+                                         "images/creature/PriestVizier/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PriestVizier/overworld_n0.png",
+                                          "images/creature/PriestVizier/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PriestVizier/overworld_s0.png",
+                                          "images/creature/PriestVizier/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PriestVizier/overworld_w0.png",
+                                         "images/creature/PriestVizier/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            25
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  15,
+                       "health":  43,
+                       "intelligence":  18,
+                       "speed":  15
+                   },
+    "trait":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

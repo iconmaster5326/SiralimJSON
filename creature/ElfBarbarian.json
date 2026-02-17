@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElfBarbarian/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 557,
-  "item": 701,
-  "lore": "The Elves inhabit the dark forests in the southern regions of the Rodian Cutthroat Jungle, and they are not exactly kind to visitors. The Centaurs tried to conquer their home thousands of years ago, and there has been little love between the two races since then.\\n\\nWhen an Elf Barbarian finds someone lurking around its territory, it will charge towards them with a battle cry, then jump while raising its weapons to deliver a powerful blow.",
-  "menagerieDialog": [
-    "The sound of elves singing at night is a spectacle worth witnessing.",
-    "No one shall trespass through our lands without consequences.",
-    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
-    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
-    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
-  ],
-  "minDepth": 1,
-  "name": "Elf Barbarian",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElfBarbarian/overworld_e0.png",
-      "images/creature/ElfBarbarian/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElfBarbarian/overworld_n0.png",
-      "images/creature/ElfBarbarian/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElfBarbarian/overworld_s0.png",
-      "images/creature/ElfBarbarian/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElfBarbarian/overworld_w0.png",
-      "images/creature/ElfBarbarian/overworld_w1.png"
-    ]
-  },
-  "race": "Elf",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Regalis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 640
+    "battleSprite":  "images/creature/ElfBarbarian/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  557,
+    "item":  701,
+    "lore":  "The Elves inhabit the dark forests in the southern regions of the Rodian Cutthroat Jungle, and they are not exactly kind to visitors. The Centaurs tried to conquer their home thousands of years ago, and there has been little love between the two races since then.\\n\\nWhen an Elf Barbarian finds someone lurking around its territory, it will charge towards them with a battle cry, then jump while raising its weapons to deliver a powerful blow.",
+    "menagerieDialog":  [
+                            "The sound of elves singing at night is a spectacle worth witnessing.",
+                            "No one shall trespass through our lands without consequences.",
+                            "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+                            "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+                            "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elf Barbarian",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElfBarbarian/overworld_e0.png",
+                                         "images/creature/ElfBarbarian/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElfBarbarian/overworld_n0.png",
+                                          "images/creature/ElfBarbarian/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElfBarbarian/overworld_s0.png",
+                                          "images/creature/ElfBarbarian/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElfBarbarian/overworld_w0.png",
+                                         "images/creature/ElfBarbarian/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elf",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Regalis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  640,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TorturedLeper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 379,
-  "item": 267,
-  "lore": "Lepers are extremely loyal to their masters, though they are banned from every town and city of Rodia. Their diet does not change after the transformation, and they greatly appreciate a good stew.\\n\\nSome crime syndicates punish traitors with a long torture and infecting them with this disease. From that moment on, they serve their cause as slaves.",
-  "menagerieDialog": [
-    "(It looks at you groggily with a half-baked grin on its face.)",
-    "(This creature will always be picked last for the dodgeball team.)",
-    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
-    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
-    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
-  ],
-  "minDepth": 1,
-  "name": "Tortured Leper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TorturedLeper/overworld_e0.png",
-      "images/creature/TorturedLeper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TorturedLeper/overworld_n0.png",
-      "images/creature/TorturedLeper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TorturedLeper/overworld_s0.png",
-      "images/creature/TorturedLeper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TorturedLeper/overworld_w0.png",
-      "images/creature/TorturedLeper/overworld_w1.png"
-    ]
-  },
-  "race": "Leper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 15,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 177
+    "battleSprite":  "images/creature/TorturedLeper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  379,
+    "item":  267,
+    "lore":  "Lepers are extremely loyal to their masters, though they are banned from every town and city of Rodia. Their diet does not change after the transformation, and they greatly appreciate a good stew.\\n\\nSome crime syndicates punish traitors with a long torture and infecting them with this disease. From that moment on, they serve their cause as slaves.",
+    "menagerieDialog":  [
+                            "(It looks at you groggily with a half-baked grin on its face.)",
+                            "(This creature will always be picked last for the dodgeball team.)",
+                            "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+                            "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+                            "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Tortured Leper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TorturedLeper/overworld_e0.png",
+                                         "images/creature/TorturedLeper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TorturedLeper/overworld_n0.png",
+                                          "images/creature/TorturedLeper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TorturedLeper/overworld_s0.png",
+                                          "images/creature/TorturedLeper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TorturedLeper/overworld_w0.png",
+                                         "images/creature/TorturedLeper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  15,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  177,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

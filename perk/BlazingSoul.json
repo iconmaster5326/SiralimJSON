@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When your creatures afflict enemies with {CONDNAME_DEBUFF_BURNED}, their {STAT_attack} is used to determine the potency of this debuff if it is higher than their {STAT_intelligence}.\\n\\n{CONDDESC_DEBUFF_BURNED}",
-  "icon": "images/perk/BlazingSoul.png",
-  "id": 55,
-  "maxRanks": 1,
-  "name": "Blazing Soul",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 5
+    "anointable":  true,
+    "description":  "When your creatures afflict enemies with {CONDNAME_DEBUFF_BURNED}, their {STAT_attack} is used to determine the potency of this debuff if it is higher than their {STAT_intelligence}.\\n\\n{CONDDESC_DEBUFF_BURNED}",
+    "icon":  "images/perk/BlazingSoul.png",
+    "id":  55,
+    "maxRanks":  1,
+    "name":  "Blazing Soul",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  5,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

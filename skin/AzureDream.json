@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/AzureDream/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 245,
-  "name": "Azure Dream",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/AzureDream/overworld_e0.png",
-      "images/skin/AzureDream/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/AzureDream/overworld_n0.png",
-      "images/skin/AzureDream/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/AzureDream/overworld_s0.png",
-      "images/skin/AzureDream/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/AzureDream/overworld_w0.png",
-      "images/skin/AzureDream/overworld_w1.png"
-    ]
-  },
-  "race": "Mimic",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/AzureDream/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  245,
+    "name":  "Azure Dream",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/AzureDream/overworld_e0.png",
+                                         "images/skin/AzureDream/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/AzureDream/overworld_n0.png",
+                                          "images/skin/AzureDream/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/AzureDream/overworld_s0.png",
+                                          "images/skin/AzureDream/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/AzureDream/overworld_w0.png",
+                                         "images/skin/AzureDream/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mimic",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

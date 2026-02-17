@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HunterScout/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 636,
-  "item": 829,
-  "lore": "Hunter groups seem to move without any concrete goals. However, on rare occasions they travel Rodia with the purpose of fighting injustice. Such groups are always led by a Hunter who, instead of a shuriken, wields a bow and arrows made of the metal of its old throwing weapon. Some scholars of non-human societies have determined that it symbolizes their decision to abandon their old life. Others say that it is a custom handed down from generation to generation.",
-  "menagerieDialog": [
-    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
-    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
-    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
-    "(It\u0027s busy feeding bits of meat to its wolf.)",
-    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
-  ],
-  "minDepth": 1,
-  "name": "Hunter Scout",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HunterScout/overworld_e0.png",
-      "images/creature/HunterScout/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HunterScout/overworld_n0.png",
-      "images/creature/HunterScout/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HunterScout/overworld_s0.png",
-      "images/creature/HunterScout/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HunterScout/overworld_w0.png",
-      "images/creature/HunterScout/overworld_w1.png"
-    ]
-  },
-  "race": "Hunter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 27,
-    "intelligence": 21,
-    "speed": 26
-  },
-  "trait": 856
+    "battleSprite":  "images/creature/HunterScout/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  636,
+    "item":  829,
+    "lore":  "Hunter groups seem to move without any concrete goals. However, on rare occasions they travel Rodia with the purpose of fighting injustice. Such groups are always led by a Hunter who, instead of a shuriken, wields a bow and arrows made of the metal of its old throwing weapon. Some scholars of non-human societies have determined that it symbolizes their decision to abandon their old life. Others say that it is a custom handed down from generation to generation.",
+    "menagerieDialog":  [
+                            "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+                            "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+                            "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+                            "(It\u0027s busy feeding bits of meat to its wolf.)",
+                            "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Hunter Scout",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HunterScout/overworld_e0.png",
+                                         "images/creature/HunterScout/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HunterScout/overworld_n0.png",
+                                          "images/creature/HunterScout/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HunterScout/overworld_s0.png",
+                                          "images/creature/HunterScout/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HunterScout/overworld_w0.png",
+                                         "images/creature/HunterScout/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hunter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  27,
+                       "intelligence":  21,
+                       "speed":  26
+                   },
+    "trait":  856,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

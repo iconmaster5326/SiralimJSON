@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Sculpt/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1450,
-  "item": 1739,
-  "lore": "This creature was born straight from the nightmares of a noble\u0027s son who had an intense fear of clowns. The sorcerer behind its creation had a questionable reputation, but at least he achieved his goal... if you only consider what he was trying to do. The creature wasted no time in screaming and attacking the sorcerer, who disappeared without a trace. Now, the family who hired him is nowhere to be found.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Sculpt",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Sculpt/overworld_e0.png",
-      "images/creature/Sculpt/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Sculpt/overworld_n0.png",
-      "images/creature/Sculpt/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Sculpt/overworld_s0.png",
-      "images/creature/Sculpt/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Sculpt/overworld_w0.png",
-      "images/creature/Sculpt/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 32,
-    "intelligence": 25,
-    "speed": 13
-  },
-  "trait": 2081
+    "battleSprite":  "images/creature/Sculpt/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1450,
+    "item":  1739,
+    "lore":  "This creature was born straight from the nightmares of a noble\u0027s son who had an intense fear of clowns. The sorcerer behind its creation had a questionable reputation, but at least he achieved his goal... if you only consider what he was trying to do. The creature wasted no time in screaming and attacking the sorcerer, who disappeared without a trace. Now, the family who hired him is nowhere to be found.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Sculpt",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Sculpt/overworld_e0.png",
+                                         "images/creature/Sculpt/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Sculpt/overworld_n0.png",
+                                          "images/creature/Sculpt/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Sculpt/overworld_s0.png",
+                                          "images/creature/Sculpt/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Sculpt/overworld_w0.png",
+                                         "images/creature/Sculpt/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  32,
+                       "intelligence":  25,
+                       "speed":  13
+                   },
+    "trait":  2081,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

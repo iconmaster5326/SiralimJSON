@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDamage Control:\nWhile this creature is above 90% {STAT_health}, your creatures take 65% less damage. This trait does not stack.",
-  "icon": "images/item/material/LordCloud.png",
-  "id": 530,
-  "name": "Lord Cloud",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 444
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDamage Control:\nWhile this creature is above 90% {STAT_health}, your creatures take 65% less damage. This trait does not stack.",
+    "icon":  "images/item/material/LordCloud.png",
+    "id":  530,
+    "name":  "Lord Cloud",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  444,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

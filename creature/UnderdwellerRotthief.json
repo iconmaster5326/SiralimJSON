@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UnderdwellerRotthief/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1366,
-  "item": 1764,
-  "lore": "Life for Underdwellers once centered on hunting and gathering. Today, information is their most prized possession, and they\u0027ve earned a reputation as the most discreet traders of secrets.\\n\\nUnderdweller Rot-Thieves don\u0027t just kill silently\u00E2\u20AC\u201Dthey can brand their victims with a mark that makes resurrection impossible.",
-  "menagerieDialog": [
-    "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
-    "The surface dwellers will learn to fear the depths!",
-    "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
-    "The pressure of the deep has made me unbreakable!",
-    "(It\u0027s darting about erratically, as if unused to open spaces.)"
-  ],
-  "minDepth": 1,
-  "name": "Underdweller Rot-thief",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UnderdwellerRotthief/overworld_e0.png",
-      "images/creature/UnderdwellerRotthief/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UnderdwellerRotthief/overworld_n0.png",
-      "images/creature/UnderdwellerRotthief/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UnderdwellerRotthief/overworld_s0.png",
-      "images/creature/UnderdwellerRotthief/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UnderdwellerRotthief/overworld_w0.png",
-      "images/creature/UnderdwellerRotthief/overworld_w1.png"
-    ]
-  },
-  "race": "Underdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 15
-  },
-  "trait": 2117
+    "battleSprite":  "images/creature/UnderdwellerRotthief/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1366,
+    "item":  1764,
+    "lore":  "Life for Underdwellers once centered on hunting and gathering. Today, information is their most prized possession, and they\u0027ve earned a reputation as the most discreet traders of secrets.\\n\\nUnderdweller Rot-Thieves don\u0027t just kill silently—they can brand their victims with a mark that makes resurrection impossible.",
+    "menagerieDialog":  [
+                            "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
+                            "The surface dwellers will learn to fear the depths!",
+                            "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
+                            "The pressure of the deep has made me unbreakable!",
+                            "(It\u0027s darting about erratically, as if unused to open spaces.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Underdweller Rot-thief",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UnderdwellerRotthief/overworld_e0.png",
+                                         "images/creature/UnderdwellerRotthief/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UnderdwellerRotthief/overworld_n0.png",
+                                          "images/creature/UnderdwellerRotthief/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UnderdwellerRotthief/overworld_s0.png",
+                                          "images/creature/UnderdwellerRotthief/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UnderdwellerRotthief/overworld_w0.png",
+                                         "images/creature/UnderdwellerRotthief/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Underdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  15
+                   },
+    "trait":  2117,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

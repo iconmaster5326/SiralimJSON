@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AbandonedHomunculus/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1154,
-  "item": 1537,
-  "lore": "The magic tower of Gerabos specialized in creating chimeras long before Rodia was consolidated as a country. The number of failed experiments was such that, with the passage of time, it earned the disapproval of the kingdom of Neralim, where it had been erected. The Queen ended up ordering its closure, but many of the failed experiments were released in protest and continued to exist in the vast land that makes up her domain. Many of them died within a few days, others were exterminated over time due to the problems they caused, but the Abandoned Homunculus managed to survive, as not only is it a meek creature, it is also inedible for any other creature, and does not need to feed to survive.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Abandoned Homunculus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AbandonedHomunculus/overworld_e0.png",
-      "images/creature/AbandonedHomunculus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AbandonedHomunculus/overworld_n0.png",
-      "images/creature/AbandonedHomunculus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AbandonedHomunculus/overworld_s0.png",
-      "images/creature/AbandonedHomunculus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AbandonedHomunculus/overworld_w0.png",
-      "images/creature/AbandonedHomunculus/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 16,
-    "health": 38,
-    "intelligence": 23,
-    "speed": 16
-  },
-  "trait": 1878
+    "battleSprite":  "images/creature/AbandonedHomunculus/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1154,
+    "item":  1537,
+    "lore":  "The magic tower of Gerabos specialized in creating chimeras long before Rodia was consolidated as a country. The number of failed experiments was such that, with the passage of time, it earned the disapproval of the kingdom of Neralim, where it had been erected. The Queen ended up ordering its closure, but many of the failed experiments were released in protest and continued to exist in the vast land that makes up her domain. Many of them died within a few days, others were exterminated over time due to the problems they caused, but the Abandoned Homunculus managed to survive, as not only is it a meek creature, it is also inedible for any other creature, and does not need to feed to survive.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Abandoned Homunculus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AbandonedHomunculus/overworld_e0.png",
+                                         "images/creature/AbandonedHomunculus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AbandonedHomunculus/overworld_n0.png",
+                                          "images/creature/AbandonedHomunculus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AbandonedHomunculus/overworld_s0.png",
+                                          "images/creature/AbandonedHomunculus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AbandonedHomunculus/overworld_w0.png",
+                                         "images/creature/AbandonedHomunculus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  16,
+                       "health":  38,
+                       "intelligence":  23,
+                       "speed":  16
+                   },
+    "trait":  1878,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

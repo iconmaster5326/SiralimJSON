@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenTorun/battle.png",
-  "creator": null,
-  "creature": 739,
-  "id": 412,
-  "name": "Halloween Torun",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenTorun/overworld_e0.png",
-      "images/skin/HalloweenTorun/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenTorun/overworld_n0.png",
-      "images/skin/HalloweenTorun/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenTorun/overworld_s0.png",
-      "images/skin/HalloweenTorun/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenTorun/overworld_w0.png",
-      "images/skin/HalloweenTorun/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenTorun/battle.png",
+    "creator":  null,
+    "creature":  739,
+    "id":  412,
+    "name":  "Halloween Torun",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenTorun/overworld_e0.png",
+                                         "images/skin/HalloweenTorun/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenTorun/overworld_n0.png",
+                                          "images/skin/HalloweenTorun/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenTorun/overworld_s0.png",
+                                          "images/skin/HalloweenTorun/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenTorun/overworld_w0.png",
+                                         "images/skin/HalloweenTorun/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

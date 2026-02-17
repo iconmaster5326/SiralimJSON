@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Imps:\nAt the start of battle, your {RACE_Imp}s gain [icons,1976]Shellbust. Your {RACE_Imp}s\u0027 [icons,1976]Shellbust now targets all enemies. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheImp.png",
-  "id": 1251,
-  "name": "Sigil of the Imp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1451
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Imps:\nAt the start of battle, your {RACE_Imp}s gain [icons,1976]Shellbust. Your {RACE_Imp}s\u0027 [icons,1976]Shellbust now targets all enemies. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheImp.png",
+    "id":  1251,
+    "name":  "Sigil of the Imp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1451,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

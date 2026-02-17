@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAndrick\u0027s Folly:\nWhen your creatures gain a minion, the minion has 1 additional stack. This trait does not stack.",
-  "icon": "images/item/material/AndricksMoldingTome.png",
-  "id": 669,
-  "name": "Andrick\u0027s Molding Tome",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 580
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAndrick\u0027s Folly:\nWhen your creatures gain a minion, the minion has 1 additional stack. This trait does not stack.",
+    "icon":  "images/item/material/AndricksMoldingTome.png",
+    "id":  669,
+    "name":  "Andrick\u0027s Molding Tome",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  580,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/RitualAbomination/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 560,
-  "item": 692,
-  "lore": "The movements of an Abomination\u0027s body are controlled by the main head. However, the task of casting spells falls to the secondary head, and sometimes they find it hard to agree on what to do during battle.\\n\\nFree Ritual Abominations often gather in the Unsullied Meadows to gaze at the stars in silence. During that time, they have access to each other\u0027s minds and share their thoughts of peace and serenity.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Ritual Abomination",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RitualAbomination/overworld_e0.png",
-      "images/creature/RitualAbomination/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RitualAbomination/overworld_n0.png",
-      "images/creature/RitualAbomination/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RitualAbomination/overworld_s0.png",
-      "images/creature/RitualAbomination/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RitualAbomination/overworld_w0.png",
-      "images/creature/RitualAbomination/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 17
-  },
-  "trait": 807
+    "battleSprite":  "images/creature/RitualAbomination/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  560,
+    "item":  692,
+    "lore":  "The movements of an Abomination\u0027s body are controlled by the main head. However, the task of casting spells falls to the secondary head, and sometimes they find it hard to agree on what to do during battle.\\n\\nFree Ritual Abominations often gather in the Unsullied Meadows to gaze at the stars in silence. During that time, they have access to each other\u0027s minds and share their thoughts of peace and serenity.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Ritual Abomination",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RitualAbomination/overworld_e0.png",
+                                         "images/creature/RitualAbomination/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RitualAbomination/overworld_n0.png",
+                                          "images/creature/RitualAbomination/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RitualAbomination/overworld_s0.png",
+                                          "images/creature/RitualAbomination/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RitualAbomination/overworld_w0.png",
+                                         "images/creature/RitualAbomination/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  17
+                   },
+    "trait":  807,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

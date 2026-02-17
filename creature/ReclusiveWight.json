@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ReclusiveWight/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 490,
-  "item": 278,
-  "lore": "Reclusive Wights are an exception among their kind, who do not seek revenge for lost wars, but redemption. They travel the plains day and night, and though their appearance does not make it easy for them to make friends, some have managed to settle in some villages thanks to their good deeds. However, although many of them prefer to earn an honest living taking care of livestock or helping with the harvest, some still retain their warrior spirit and would not refuse having a great adventure.",
-  "menagerieDialog": [
-    "I grow tired of waiting. Let\u0027s seek out a battle!",
-    "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
-    "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
-    "Who else wishes to taste my steel?",
-    "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
-  ],
-  "minDepth": 1,
-  "name": "Reclusive Wight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ReclusiveWight/overworld_e0.png",
-      "images/creature/ReclusiveWight/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ReclusiveWight/overworld_n0.png",
-      "images/creature/ReclusiveWight/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ReclusiveWight/overworld_s0.png",
-      "images/creature/ReclusiveWight/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ReclusiveWight/overworld_w0.png",
-      "images/creature/ReclusiveWight/overworld_w1.png"
-    ]
-  },
-  "race": "Wight",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 14,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 188
+    "battleSprite":  "images/creature/ReclusiveWight/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  490,
+    "item":  278,
+    "lore":  "Reclusive Wights are an exception among their kind, who do not seek revenge for lost wars, but redemption. They travel the plains day and night, and though their appearance does not make it easy for them to make friends, some have managed to settle in some villages thanks to their good deeds. However, although many of them prefer to earn an honest living taking care of livestock or helping with the harvest, some still retain their warrior spirit and would not refuse having a great adventure.",
+    "menagerieDialog":  [
+                            "I grow tired of waiting. Let\u0027s seek out a battle!",
+                            "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
+                            "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
+                            "Who else wishes to taste my steel?",
+                            "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Reclusive Wight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ReclusiveWight/overworld_e0.png",
+                                         "images/creature/ReclusiveWight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ReclusiveWight/overworld_n0.png",
+                                          "images/creature/ReclusiveWight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ReclusiveWight/overworld_s0.png",
+                                          "images/creature/ReclusiveWight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ReclusiveWight/overworld_w0.png",
+                                         "images/creature/ReclusiveWight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wight",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  14,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  188,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

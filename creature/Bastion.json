@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/Bastion/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 191,
-  "item": 334,
-  "lore": "The Bastion was created by accident two hundred years ago by a group of Magi when they tried to fortify the walls of a Rodian castle with spells. The lord was impressed at first and wanted to add it to his guard, until he discovered that the creature seemed intent on sheltering and protecting people. The Magi were immediately expelled from his lands, but they took good note of what happened and made sure that accident would not be forgotten.",
-  "menagerieDialog": [
-    "Oh, I\u0027m so tired...\\n\\n(It breathes out deeply, throwing your hood back and shaking your hair violently. A loose brick almost hits you.)",
-    "WRRRRAAAAAAGHHHH...\\n\\nUgh... Cough. Ahem. Sorry about that. I think a Troll got caught in my teeth.",
-    "The maximum number of decorations that can be placed inside me is 50. If you wish to place additional decorations, please remove some first.",
-    "I\u0027m a castle within a castle. How strange!",
-    "(Its teeth are chattering, which makes far more noise than you would have imagined.)"
-  ],
-  "minDepth": 1,
-  "name": "Bastion",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Bastion/overworld_e0.png",
-      "images/creature/Bastion/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Bastion/overworld_n0.png",
-      "images/creature/Bastion/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Bastion/overworld_s0.png",
-      "images/creature/Bastion/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Bastion/overworld_w0.png",
-      "images/creature/Bastion/overworld_w1.png"
-    ]
-  },
-  "race": "Doom Fortress",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Gonfurian)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    30
-  ],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 27,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 7
-  },
-  "trait": 250
+    "battleSprite":  "images/creature/Bastion/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  191,
+    "item":  334,
+    "lore":  "The Bastion was created by accident two hundred years ago by a group of Magi when they tried to fortify the walls of a Rodian castle with spells. The lord was impressed at first and wanted to add it to his guard, until he discovered that the creature seemed intent on sheltering and protecting people. The Magi were immediately expelled from his lands, but they took good note of what happened and made sure that accident would not be forgotten.",
+    "menagerieDialog":  [
+                            "Oh, I\u0027m so tired...\\n\\n(It breathes out deeply, throwing your hood back and shaking your hair violently. A loose brick almost hits you.)",
+                            "WRRRRAAAAAAGHHHH...\\n\\nUgh... Cough. Ahem. Sorry about that. I think a Troll got caught in my teeth.",
+                            "The maximum number of decorations that can be placed inside me is 50. If you wish to place additional decorations, please remove some first.",
+                            "I\u0027m a castle within a castle. How strange!",
+                            "(Its teeth are chattering, which makes far more noise than you would have imagined.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bastion",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Bastion/overworld_e0.png",
+                                         "images/creature/Bastion/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Bastion/overworld_n0.png",
+                                          "images/creature/Bastion/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Bastion/overworld_s0.png",
+                                          "images/creature/Bastion/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Bastion/overworld_w0.png",
+                                         "images/creature/Bastion/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doom Fortress",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Gonfurian)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            30
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  27,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  7
+                   },
+    "trait":  250,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

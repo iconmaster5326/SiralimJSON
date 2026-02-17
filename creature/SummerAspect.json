@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/SummerAspect/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 103,
-  "item": 515,
-  "lore": "When the summer sun warms the rivers and lakes of Rodia, a hand, covered in algae, emerges from the water and falls heavily on the shore to help the Summer Aspect rise to the surface. People already used to this event tend to ignore the creatures, but children usually flee in terror when they see them while their parents laugh in the background. They are known to summon a breeze that relieves the heat of the most suffocating summer days.",
-  "menagerieDialog": [
-    "(Its eyes are closed, as if meditating.)",
-    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
-    "(It is meditating. Better to leave it alone while it relaxes.)",
-    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
-    "(Its fur is a total mess. You should have Nortah comb it soon.)"
-  ],
-  "minDepth": 1,
-  "name": "Summer Aspect",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SummerAspect/overworld_e0.png",
-      "images/creature/SummerAspect/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SummerAspect/overworld_n0.png",
-      "images/creature/SummerAspect/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SummerAspect/overworld_s0.png",
-      "images/creature/SummerAspect/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SummerAspect/overworld_w0.png",
-      "images/creature/SummerAspect/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Meraxis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    7
-  ],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 14,
-    "health": 26,
-    "intelligence": 19,
-    "speed": 24
-  },
-  "trait": 429
+    "battleSprite":  "images/creature/SummerAspect/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  103,
+    "item":  515,
+    "lore":  "When the summer sun warms the rivers and lakes of Rodia, a hand, covered in algae, emerges from the water and falls heavily on the shore to help the Summer Aspect rise to the surface. People already used to this event tend to ignore the creatures, but children usually flee in terror when they see them while their parents laugh in the background. They are known to summon a breeze that relieves the heat of the most suffocating summer days.",
+    "menagerieDialog":  [
+                            "(Its eyes are closed, as if meditating.)",
+                            "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+                            "(It is meditating. Better to leave it alone while it relaxes.)",
+                            "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+                            "(Its fur is a total mess. You should have Nortah comb it soon.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Summer Aspect",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SummerAspect/overworld_e0.png",
+                                         "images/creature/SummerAspect/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SummerAspect/overworld_n0.png",
+                                          "images/creature/SummerAspect/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SummerAspect/overworld_s0.png",
+                                          "images/creature/SummerAspect/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SummerAspect/overworld_w0.png",
+                                         "images/creature/SummerAspect/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Meraxis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            7
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  14,
+                       "health":  26,
+                       "intelligence":  19,
+                       "speed":  24
+                   },
+    "trait":  429,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PlanetaryAmaranth/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 96,
-  "item": 123,
-  "lore": "The Amaranths guided the first humans in the use of magic. However, as they witnessed their selfishness and ambition, they stopped associating with them. On one occasion, Helmholtz made a deep incision to a living Amaranth and found that it was completely empty inside.\\n\\nRegardless of the force with which a Planetary Amaranth is hit, it is never knocked back. They are commonly seen after a bloody battle, observing those who tend to the wounded.",
-  "menagerieDialog": [
-    "(You can\u0027t seem to catch its attention at all...)",
-    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
-    "(It seems to be highly observant of its surroundings.)",
-    "(It\u0027s spinning around on its side. Pretty cool, really.)",
-    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
-  ],
-  "minDepth": 1,
-  "name": "Planetary Amaranth",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PlanetaryAmaranth/overworld_e0.png",
-      "images/creature/PlanetaryAmaranth/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PlanetaryAmaranth/overworld_n0.png",
-      "images/creature/PlanetaryAmaranth/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PlanetaryAmaranth/overworld_s0.png",
-      "images/creature/PlanetaryAmaranth/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PlanetaryAmaranth/overworld_w0.png",
-      "images/creature/PlanetaryAmaranth/overworld_w1.png"
-    ]
-  },
-  "race": "Amaranth",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 40,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 32
+    "battleSprite":  "images/creature/PlanetaryAmaranth/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  96,
+    "item":  123,
+    "lore":  "The Amaranths guided the first humans in the use of magic. However, as they witnessed their selfishness and ambition, they stopped associating with them. On one occasion, Helmholtz made a deep incision to a living Amaranth and found that it was completely empty inside.\\n\\nRegardless of the force with which a Planetary Amaranth is hit, it is never knocked back. They are commonly seen after a bloody battle, observing those who tend to the wounded.",
+    "menagerieDialog":  [
+                            "(You can\u0027t seem to catch its attention at all...)",
+                            "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+                            "(It seems to be highly observant of its surroundings.)",
+                            "(It\u0027s spinning around on its side. Pretty cool, really.)",
+                            "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Planetary Amaranth",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PlanetaryAmaranth/overworld_e0.png",
+                                         "images/creature/PlanetaryAmaranth/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PlanetaryAmaranth/overworld_n0.png",
+                                          "images/creature/PlanetaryAmaranth/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PlanetaryAmaranth/overworld_s0.png",
+                                          "images/creature/PlanetaryAmaranth/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PlanetaryAmaranth/overworld_w0.png",
+                                         "images/creature/PlanetaryAmaranth/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Amaranth",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  40,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  32,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

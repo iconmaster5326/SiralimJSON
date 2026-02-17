@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/BloodGrove/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 250,
-  "name": "Blood Grove",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/BloodGrove/overworld_e0.png",
-      "images/skin/BloodGrove/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/BloodGrove/overworld_n0.png",
-      "images/skin/BloodGrove/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/BloodGrove/overworld_s0.png",
-      "images/skin/BloodGrove/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/BloodGrove/overworld_w0.png",
-      "images/skin/BloodGrove/overworld_w1.png"
-    ]
-  },
-  "race": "Mimic",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/BloodGrove/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  250,
+    "name":  "Blood Grove",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/BloodGrove/overworld_e0.png",
+                                         "images/skin/BloodGrove/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/BloodGrove/overworld_n0.png",
+                                          "images/skin/BloodGrove/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/BloodGrove/overworld_s0.png",
+                                          "images/skin/BloodGrove/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/BloodGrove/overworld_w0.png",
+                                         "images/skin/BloodGrove/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mimic",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

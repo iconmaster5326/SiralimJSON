@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "While you have at least 1 stack of each Infusion, your creatures can {ACTION_cast} Colorwave. After your creatures {ACTION_cast} Colorwave, you lose 1 of each Infusion.",
-  "icon": "images/perk/UltimateManifestation.png",
-  "id": 345,
-  "maxRanks": 1,
-  "name": "Ultimate Manifestation",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 23
+    "anointable":  true,
+    "description":  "While you have at least 1 stack of each Infusion, your creatures can {ACTION_cast} Colorwave. After your creatures {ACTION_cast} Colorwave, you lose 1 of each Infusion.",
+    "icon":  "images/perk/UltimateManifestation.png",
+    "id":  345,
+    "maxRanks":  1,
+    "name":  "Ultimate Manifestation",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  23,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

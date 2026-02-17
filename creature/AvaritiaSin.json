@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AvaritiaSin/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 401,
-  "item": 259,
-  "lore": "Few are the creatures that came into being without the hand of man or God. The Sins are among such exceptional cases, and their existence is linked to the evil actions of the children of the Gods.\\n\\nMany kings, queens and wealthy merchants have or had an Avaritia Sin at their side. Sooner or later, their power falls by its own weight, their riches become insignificant, and their life loses all meaning.",
-  "menagerieDialog": [
-    "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
-    "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
-    "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
-    "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
-    "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
-  ],
-  "minDepth": 1,
-  "name": "Avaritia Sin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AvaritiaSin/overworld_e0.png",
-      "images/creature/AvaritiaSin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AvaritiaSin/overworld_n0.png",
-      "images/creature/AvaritiaSin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AvaritiaSin/overworld_s0.png",
-      "images/creature/AvaritiaSin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AvaritiaSin/overworld_w0.png",
-      "images/creature/AvaritiaSin/overworld_w1.png"
-    ]
-  },
-  "race": "Sin",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 15,
-    "health": 43,
-    "intelligence": 18,
-    "speed": 15
-  },
-  "trait": 169
+    "battleSprite":  "images/creature/AvaritiaSin/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  401,
+    "item":  259,
+    "lore":  "Few are the creatures that came into being without the hand of man or God. The Sins are among such exceptional cases, and their existence is linked to the evil actions of the children of the Gods.\\n\\nMany kings, queens and wealthy merchants have or had an Avaritia Sin at their side. Sooner or later, their power falls by its own weight, their riches become insignificant, and their life loses all meaning.",
+    "menagerieDialog":  [
+                            "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
+                            "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
+                            "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
+                            "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
+                            "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Avaritia Sin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AvaritiaSin/overworld_e0.png",
+                                         "images/creature/AvaritiaSin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AvaritiaSin/overworld_n0.png",
+                                          "images/creature/AvaritiaSin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AvaritiaSin/overworld_s0.png",
+                                          "images/creature/AvaritiaSin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AvaritiaSin/overworld_w0.png",
+                                         "images/creature/AvaritiaSin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sin",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  15,
+                       "health":  43,
+                       "intelligence":  18,
+                       "speed":  15
+                   },
+    "trait":  169,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

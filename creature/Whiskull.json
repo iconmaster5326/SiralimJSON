@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/Whiskull/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 748,
-  "item": 84,
-  "lore": "That phenomenon was called Blue Blood, and the people in whom it manifested were able to develop magical powers at an extraordinary speed. It often goes unnoticed, as most people do not practice magic, but the consequences can be disastrous when that power falls into the wrong hands.\\n\\nDespite its terrifying appearance, Whiskull is a playful creature that has fun standing behind drunk people in the taverns to scare them when they turn around.",
-  "menagerieDialog": [
-    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
-    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
-    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
-    "(Now here\u0027s a creature who knows how to party!)",
-    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
-  ],
-  "minDepth": 1,
-  "name": "Whiskull",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Whiskull/overworld_e0.png",
-      "images/creature/Whiskull/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Whiskull/overworld_n0.png",
-      "images/creature/Whiskull/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Whiskull/overworld_s0.png",
-      "images/creature/Whiskull/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Whiskull/overworld_w0.png",
-      "images/creature/Whiskull/overworld_w1.png"
-    ]
-  },
-  "race": "Alemental",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Gambling Dwarf Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    40
-  ],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 31,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 989
+    "battleSprite":  "images/creature/Whiskull/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  748,
+    "item":  84,
+    "lore":  "That phenomenon was called Blue Blood, and the people in whom it manifested were able to develop magical powers at an extraordinary speed. It often goes unnoticed, as most people do not practice magic, but the consequences can be disastrous when that power falls into the wrong hands.\\n\\nDespite its terrifying appearance, Whiskull is a playful creature that has fun standing behind drunk people in the taverns to scare them when they turn around.",
+    "menagerieDialog":  [
+                            "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+                            "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+                            "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+                            "(Now here\u0027s a creature who knows how to party!)",
+                            "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Whiskull",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Whiskull/overworld_e0.png",
+                                         "images/creature/Whiskull/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Whiskull/overworld_n0.png",
+                                          "images/creature/Whiskull/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Whiskull/overworld_s0.png",
+                                          "images/creature/Whiskull/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Whiskull/overworld_w0.png",
+                                         "images/creature/Whiskull/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Alemental",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Gambling Dwarf Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            40
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  31,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  989,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

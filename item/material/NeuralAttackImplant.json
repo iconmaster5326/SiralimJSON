@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAutonomous Attack:\nAt the start of this creature\u0027s turn, it gains 30% {STAT_attack} plus 20% of the total amount of {STAT_attack} it has received in the current battle.",
-  "icon": "images/item/material/NeuralAttackImplant.png",
-  "id": 1560,
-  "name": "Neural Attack Implant",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1900
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAutonomous Attack:\nAt the start of this creature\u0027s turn, it gains 30% {STAT_attack} plus 20% of the total amount of {STAT_attack} it has received in the current battle.",
+    "icon":  "images/item/material/NeuralAttackImplant.png",
+    "id":  1560,
+    "name":  "Neural Attack Implant",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1900,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

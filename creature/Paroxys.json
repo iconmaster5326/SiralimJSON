@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Paroxys/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1119,
-  "item": 1640,
-  "lore": "This is one of the first creatures the Gods created at the beginning of time. As happened with others, when the Gods did not obtain the expected result, they abandoned the creatures in a pocket dimension. Recent events have allowed Paroxys and other creatures to leave this place. They are very dangerous, as they feed on the recent memories of any creature, including those of their own species. However, to do so they have to grab their prey with both hands for one minute.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Paroxys",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Paroxys/overworld_e0.png",
-      "images/creature/Paroxys/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Paroxys/overworld_n0.png",
-      "images/creature/Paroxys/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Paroxys/overworld_s0.png",
-      "images/creature/Paroxys/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Paroxys/overworld_w0.png",
-      "images/creature/Paroxys/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 13,
-    "health": 33,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 1843
+    "battleSprite":  "images/creature/Paroxys/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1119,
+    "item":  1640,
+    "lore":  "This is one of the first creatures the Gods created at the beginning of time. As happened with others, when the Gods did not obtain the expected result, they abandoned the creatures in a pocket dimension. Recent events have allowed Paroxys and other creatures to leave this place. They are very dangerous, as they feed on the recent memories of any creature, including those of their own species. However, to do so they have to grab their prey with both hands for one minute.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Paroxys",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Paroxys/overworld_e0.png",
+                                         "images/creature/Paroxys/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Paroxys/overworld_n0.png",
+                                          "images/creature/Paroxys/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Paroxys/overworld_s0.png",
+                                          "images/creature/Paroxys/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Paroxys/overworld_w0.png",
+                                         "images/creature/Paroxys/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  13,
+                       "health":  33,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  1843,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

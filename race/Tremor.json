@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "(The ground itself shakes beneath your feet - just as you start to think it\u0027s an earthquake, a strange creature made of the ground itself pulls itself out of the floor and attacks!)",
-    "(The Tremor begins stomping its feet rhythmically and screaming at ear-ruining volume. You resolve to quickly kill it before you end up going deaf!)",
-    "(You notice the room looks rather strangely arranged - right as you knock over a pile of stones. A nearby Tremor takes incredible offense to your accidental vandalism, and comes charging at you!)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies have 5% less {STAT_intelligence}.",
-    "4": "Enemies gain 25% less {STAT_intelligence}.",
-    "7": "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_intelligence}."
-  },
-  "cards": 7,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    506,
-    507,
-    508,
-    509,
-    510,
-    697,
-    1005
-  ],
-  "icon": "images/race/Tremor.png",
-  "master": {
-    "costume": 401,
-    "dialog": "If you\u0027re ever struggling to defeat your enemies, you should consider adding a Tremor or two to your party. These massive creatures are great at interrupting their enemies, preventing them from taking action. Allow me to demonstrate!",
-    "item": 1205,
-    "name": "Delice",
-    "trait": 1505
-  },
-  "name": "Tremor",
-  "notes": [],
-  "skins": [
-    96,
-    229,
-    789
-  ]
+    "bossDialog":  [
+                       "(The ground itself shakes beneath your feet - just as you start to think it\u0027s an earthquake, a strange creature made of the ground itself pulls itself out of the floor and attacks!)",
+                       "(The Tremor begins stomping its feet rhythmically and screaming at ear-ruining volume. You resolve to quickly kill it before you end up going deaf!)",
+                       "(You notice the room looks rather strangely arranged - right as you knock over a pile of stones. A nearby Tremor takes incredible offense to your accidental vandalism, and comes charging at you!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies have 5% less {STAT_intelligence}.",
+                        "4":  "Enemies gain 25% less {STAT_intelligence}.",
+                        "7":  "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_intelligence}."
+                    },
+    "cards":  7,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      506,
+                      507,
+                      508,
+                      509,
+                      510,
+                      697,
+                      1005
+                  ],
+    "icon":  "images/race/Tremor.png",
+    "master":  {
+                   "costume":  401,
+                   "dialog":  "If you\u0027re ever struggling to defeat your enemies, you should consider adding a Tremor or two to your party. These massive creatures are great at interrupting their enemies, preventing them from taking action. Allow me to demonstrate!",
+                   "item":  1205,
+                   "name":  "Delice",
+                   "trait":  1505
+               },
+    "name":  "Tremor",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  96,
+                  229,
+                  789
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

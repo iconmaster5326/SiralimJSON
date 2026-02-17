@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BlackSpacecat/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1298,
-  "item": 1805,
-  "lore": "Humans, in particular, feel a strong affinity for Spacecats, who never miss a chance to charm them with their wide array of feline antics.\\n\\nHundreds of years ago, Black Spacecats were the ones who ruled over all species on their home planet, including their own kind. Thanks to genetic engineering, they could blend into the night and see clearly through it. Today, all of that is but a dark chapter in their history, though it\u0027s worth noting that all Spacecats now share this high-definition night vision.",
-  "menagerieDialog": [
-    "(It\u0027s curled up in a floating ball, purring contentedly.)",
-    "Time to show these earthlings what a real predator looks like!",
-    "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
-    "My space suit is impenetrable! Your puny weapons are no match for me!",
-    "(It\u0027s zooming around in erratic patterns, defying gravity.)"
-  ],
-  "minDepth": 1,
-  "name": "Black Spacecat",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BlackSpacecat/overworld_e0.png",
-      "images/creature/BlackSpacecat/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BlackSpacecat/overworld_n0.png",
-      "images/creature/BlackSpacecat/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BlackSpacecat/overworld_s0.png",
-      "images/creature/BlackSpacecat/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BlackSpacecat/overworld_w0.png",
-      "images/creature/BlackSpacecat/overworld_w1.png"
-    ]
-  },
-  "race": "Spacecat",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 28,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 12
-  },
-  "trait": 2158
+    "battleSprite":  "images/creature/BlackSpacecat/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1298,
+    "item":  1805,
+    "lore":  "Humans, in particular, feel a strong affinity for Spacecats, who never miss a chance to charm them with their wide array of feline antics.\\n\\nHundreds of years ago, Black Spacecats were the ones who ruled over all species on their home planet, including their own kind. Thanks to genetic engineering, they could blend into the night and see clearly through it. Today, all of that is but a dark chapter in their history, though it\u0027s worth noting that all Spacecats now share this high-definition night vision.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up in a floating ball, purring contentedly.)",
+                            "Time to show these earthlings what a real predator looks like!",
+                            "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
+                            "My space suit is impenetrable! Your puny weapons are no match for me!",
+                            "(It\u0027s zooming around in erratic patterns, defying gravity.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Black Spacecat",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BlackSpacecat/overworld_e0.png",
+                                         "images/creature/BlackSpacecat/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BlackSpacecat/overworld_n0.png",
+                                          "images/creature/BlackSpacecat/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BlackSpacecat/overworld_s0.png",
+                                          "images/creature/BlackSpacecat/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BlackSpacecat/overworld_w0.png",
+                                         "images/creature/BlackSpacecat/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spacecat",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  28,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  12
+                   },
+    "trait":  2158,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After a creature takes damage from {CONDNAME_DEBUFF_POISON}, the potency of all enemies\u0027 {CONDNAME_DEBUFF_POISON} debuffs is increased by \u003C5\u003E%.",
-  "icon": "images/perk/Teratogen.png",
-  "id": 488,
-  "maxRanks": 5,
-  "name": "Teratogen",
-  "notes": [],
-  "pointsPerRank": 20,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "After a creature takes damage from {CONDNAME_DEBUFF_POISON}, the potency of all enemies\u0027 {CONDNAME_DEBUFF_POISON} debuffs is increased by \u003c5\u003e%.",
+    "icon":  "images/perk/Teratogen.png",
+    "id":  488,
+    "maxRanks":  5,
+    "name":  "Teratogen",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  20,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

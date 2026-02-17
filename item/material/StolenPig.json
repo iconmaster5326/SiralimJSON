@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeethe:\nThis creature deals 15% more damage for each time it has taken damage in the current battle.",
-  "icon": "images/item/material/StolenPig.png",
-  "id": 1358,
-  "name": "Stolen Pig",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1665
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeethe:\nThis creature deals 15% more damage for each time it has taken damage in the current battle.",
+    "icon":  "images/item/material/StolenPig.png",
+    "id":  1358,
+    "name":  "Stolen Pig",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1665,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

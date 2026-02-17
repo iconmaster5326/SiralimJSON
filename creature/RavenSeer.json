@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RavenSeer/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1008,
-  "item": 1335,
-  "lore": "Raven Seers are seasoned psychics, capable of conjuring up images in other creatures\u0027 minds and reading their thoughts. Many of them take advantage of their powers to offer what they call clairvoyance services in exchange for a lot of money. Rodia\u0027s authorities pursue these activities, as they are considered fraud, but not anyone can stop these creatures. Generally, one or two veteran Magi with extensive knowledge of mentalism accompany the guard in charge of arresting a Raven Seer who is committing this crime.",
-  "menagerieDialog": [
-    "I\u0027d be more useful in a laboratory. Perhaps you should allow me to stay back home with Castor?",
-    "Careful research and preparation are the precursors to victory.",
-    "Make sure all your Spell Gems are fully charged before we leave. To be attacked with dull gems is to be caught with one\u0027s pants down around one\u0027s ankles.",
-    "Legends speak of a hidden relic that does not belong to any of the gods. I wonder if there\u0027s any substance to this rumor.",
-    "I can\u0027t help but feel a deep sense of foreboding. Perhaps I need to take some time away from this adventure."
-  ],
-  "minDepth": 1,
-  "name": "Raven Seer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RavenSeer/overworld_e0.png",
-      "images/creature/RavenSeer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RavenSeer/overworld_n0.png",
-      "images/creature/RavenSeer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RavenSeer/overworld_s0.png",
-      "images/creature/RavenSeer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RavenSeer/overworld_w0.png",
-      "images/creature/RavenSeer/overworld_w1.png"
-    ]
-  },
-  "race": "Raven",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Sorcery Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 7,
-    "defense": 13,
-    "health": 37,
-    "intelligence": 27,
-    "speed": 23
-  },
-  "trait": 1581
+    "battleSprite":  "images/creature/RavenSeer/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1008,
+    "item":  1335,
+    "lore":  "Raven Seers are seasoned psychics, capable of conjuring up images in other creatures\u0027 minds and reading their thoughts. Many of them take advantage of their powers to offer what they call clairvoyance services in exchange for a lot of money. Rodia\u0027s authorities pursue these activities, as they are considered fraud, but not anyone can stop these creatures. Generally, one or two veteran Magi with extensive knowledge of mentalism accompany the guard in charge of arresting a Raven Seer who is committing this crime.",
+    "menagerieDialog":  [
+                            "I\u0027d be more useful in a laboratory. Perhaps you should allow me to stay back home with Castor?",
+                            "Careful research and preparation are the precursors to victory.",
+                            "Make sure all your Spell Gems are fully charged before we leave. To be attacked with dull gems is to be caught with one\u0027s pants down around one\u0027s ankles.",
+                            "Legends speak of a hidden relic that does not belong to any of the gods. I wonder if there\u0027s any substance to this rumor.",
+                            "I can\u0027t help but feel a deep sense of foreboding. Perhaps I need to take some time away from this adventure."
+                        ],
+    "minDepth":  1,
+    "name":  "Raven Seer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RavenSeer/overworld_e0.png",
+                                         "images/creature/RavenSeer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RavenSeer/overworld_n0.png",
+                                          "images/creature/RavenSeer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RavenSeer/overworld_s0.png",
+                                          "images/creature/RavenSeer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RavenSeer/overworld_w0.png",
+                                         "images/creature/RavenSeer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Raven",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Sorcery Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  7,
+                       "defense":  13,
+                       "health":  37,
+                       "intelligence":  27,
+                       "speed":  23
+                   },
+    "trait":  1581,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

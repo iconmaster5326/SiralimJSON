@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/SingularHelios/battle.png",
-  "creator": null,
-  "creature": 1088,
-  "id": 704,
-  "name": "Singular Helios",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SingularHelios/overworld_e0.png",
-      "images/skin/SingularHelios/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SingularHelios/overworld_n0.png",
-      "images/skin/SingularHelios/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SingularHelios/overworld_s0.png",
-      "images/skin/SingularHelios/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SingularHelios/overworld_w0.png",
-      "images/skin/SingularHelios/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/SingularHelios/battle.png",
+    "creator":  null,
+    "creature":  1088,
+    "id":  704,
+    "name":  "Singular Helios",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SingularHelios/overworld_e0.png",
+                                         "images/skin/SingularHelios/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SingularHelios/overworld_n0.png",
+                                          "images/skin/SingularHelios/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SingularHelios/overworld_s0.png",
+                                          "images/skin/SingularHelios/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SingularHelios/overworld_w0.png",
+                                         "images/skin/SingularHelios/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMindful Awareness:\nAfter your creatures are {ACTION_attacked}, 35% of their {STAT_intelligence} is added to their {STAT_defense} when determining the damage taken. This trait does not stack.",
-  "icon": "images/item/material/GuardianClaw.png",
-  "id": 854,
-  "name": "Guardian Claw",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 881
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMindful Awareness:\nAfter your creatures are {ACTION_attacked}, 35% of their {STAT_intelligence} is added to their {STAT_defense} when determining the damage taken. This trait does not stack.",
+    "icon":  "images/item/material/GuardianClaw.png",
+    "id":  854,
+    "name":  "Guardian Claw",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  881,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

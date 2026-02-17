@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HunterofLegend/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 730,
-  "name": "Hunter of Legend",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HunterofLegend/overworld_e0.png",
-      "images/skin/HunterofLegend/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HunterofLegend/overworld_n0.png",
-      "images/skin/HunterofLegend/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HunterofLegend/overworld_s0.png",
-      "images/skin/HunterofLegend/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HunterofLegend/overworld_w0.png",
-      "images/skin/HunterofLegend/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HunterofLegend/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  730,
+    "name":  "Hunter of Legend",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HunterofLegend/overworld_e0.png",
+                                         "images/skin/HunterofLegend/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HunterofLegend/overworld_n0.png",
+                                          "images/skin/HunterofLegend/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HunterofLegend/overworld_s0.png",
+                                          "images/skin/HunterofLegend/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HunterofLegend/overworld_w0.png",
+                                         "images/skin/HunterofLegend/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

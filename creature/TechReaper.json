@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TechReaper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 982,
-  "item": 1309,
-  "lore": "This creature is not really a Reaper, but an automaton created to eliminate anyone who enters the city of Ubi Concordia without the Auditors\u0027 permission. It handles its scythe formidably, and it does not need to hold it at all to strike with it. Trying to snatch its weapon away is a mistake, as the scythe can deliver a powerful electric shock if it is being held by anyone other than its owner.",
-  "menagerieDialog": [
-    "Oh, hello there! Would you like to know the exact date of your death?",
-    "While I can\u0027t hold your hand, I will have your back.",
-    "(This creature always seems to be focused on something you can\u0027t see.)",
-    "Don\u0027t fear the reaper.\\n\\n(Sigh. How clich\u00C3\u00A9.)",
-    "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Tech Reaper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TechReaper/overworld_e0.png",
-      "images/creature/TechReaper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TechReaper/overworld_n0.png",
-      "images/creature/TechReaper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TechReaper/overworld_s0.png",
-      "images/creature/TechReaper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TechReaper/overworld_w0.png",
-      "images/creature/TechReaper/overworld_w1.png"
-    ]
-  },
-  "race": "Reaper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Death Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 17,
-    "health": 30,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 1556
+    "battleSprite":  "images/creature/TechReaper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  982,
+    "item":  1309,
+    "lore":  "This creature is not really a Reaper, but an automaton created to eliminate anyone who enters the city of Ubi Concordia without the Auditors\u0027 permission. It handles its scythe formidably, and it does not need to hold it at all to strike with it. Trying to snatch its weapon away is a mistake, as the scythe can deliver a powerful electric shock if it is being held by anyone other than its owner.",
+    "menagerieDialog":  [
+                            "Oh, hello there! Would you like to know the exact date of your death?",
+                            "While I can\u0027t hold your hand, I will have your back.",
+                            "(This creature always seems to be focused on something you can\u0027t see.)",
+                            "Don\u0027t fear the reaper.\\n\\n(Sigh. How cliché.)",
+                            "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Tech Reaper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TechReaper/overworld_e0.png",
+                                         "images/creature/TechReaper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TechReaper/overworld_n0.png",
+                                          "images/creature/TechReaper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TechReaper/overworld_s0.png",
+                                          "images/creature/TechReaper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TechReaper/overworld_w0.png",
+                                         "images/creature/TechReaper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Reaper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Death Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  17,
+                       "health":  30,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  1556,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BileSlime/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 176,
-  "item": 461,
-  "lore": "The Slimes suddenly appeared in the Refuge of the Magi, years after the Magi began their experiments.\\n\\nThe Bile Slime has many eyes, but none of them are functional. It has a sixth sense that allows it to occasionally predict its enemies\u0027 movements and act accordingly.",
-  "menagerieDialog": [
-    "(It has an extremely punchable expression on its face.)",
-    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
-    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
-    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
-    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
-  ],
-  "minDepth": 1,
-  "name": "Bile Slime",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BileSlime/overworld_e0.png",
-      "images/creature/BileSlime/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BileSlime/overworld_n0.png",
-      "images/creature/BileSlime/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BileSlime/overworld_s0.png",
-      "images/creature/BileSlime/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BileSlime/overworld_w0.png",
-      "images/creature/BileSlime/overworld_w1.png"
-    ]
-  },
-  "race": "Slime",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 43,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 375
+    "battleSprite":  "images/creature/BileSlime/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  176,
+    "item":  461,
+    "lore":  "The Slimes suddenly appeared in the Refuge of the Magi, years after the Magi began their experiments.\\n\\nThe Bile Slime has many eyes, but none of them are functional. It has a sixth sense that allows it to occasionally predict its enemies\u0027 movements and act accordingly.",
+    "menagerieDialog":  [
+                            "(It has an extremely punchable expression on its face.)",
+                            "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+                            "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+                            "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+                            "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bile Slime",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BileSlime/overworld_e0.png",
+                                         "images/creature/BileSlime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BileSlime/overworld_n0.png",
+                                          "images/creature/BileSlime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BileSlime/overworld_s0.png",
+                                          "images/creature/BileSlime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BileSlime/overworld_w0.png",
+                                         "images/creature/BileSlime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Slime",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  43,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  375,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

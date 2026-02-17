@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/ViciousWolpertinger/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 356,
-  "item": 617,
-  "lore": "The origin of Wolpertingers can be traced back to a spectacular accident which involved eight Nature Magi, several endangered birds and a series of complex spells.\\n\\nThe Vicious Wolpertinger attacks anyone who carries a magic item. Indeed, mountain wildlife experts know that these creatures eagerly devour artifacts, and that it is preferable to throw away a sword or a shield as a last resort, rather than lose one\u0027s life.",
-  "menagerieDialog": [
-    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
-    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
-    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
-    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
-    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
-  ],
-  "minDepth": 1,
-  "name": "Vicious Wolpertinger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ViciousWolpertinger/overworld_e0.png",
-      "images/creature/ViciousWolpertinger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ViciousWolpertinger/overworld_n0.png",
-      "images/creature/ViciousWolpertinger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ViciousWolpertinger/overworld_s0.png",
-      "images/creature/ViciousWolpertinger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ViciousWolpertinger/overworld_w0.png",
-      "images/creature/ViciousWolpertinger/overworld_w1.png"
-    ]
-  },
-  "race": "Wolpertinger",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    32
-  ],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 13,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 531
+    "battleSprite":  "images/creature/ViciousWolpertinger/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  356,
+    "item":  617,
+    "lore":  "The origin of Wolpertingers can be traced back to a spectacular accident which involved eight Nature Magi, several endangered birds and a series of complex spells.\\n\\nThe Vicious Wolpertinger attacks anyone who carries a magic item. Indeed, mountain wildlife experts know that these creatures eagerly devour artifacts, and that it is preferable to throw away a sword or a shield as a last resort, rather than lose one\u0027s life.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+                            "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+                            "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+                            "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+                            "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vicious Wolpertinger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ViciousWolpertinger/overworld_e0.png",
+                                         "images/creature/ViciousWolpertinger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ViciousWolpertinger/overworld_n0.png",
+                                          "images/creature/ViciousWolpertinger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ViciousWolpertinger/overworld_s0.png",
+                                          "images/creature/ViciousWolpertinger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ViciousWolpertinger/overworld_w0.png",
+                                         "images/creature/ViciousWolpertinger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wolpertinger",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            32
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  13,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  531,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

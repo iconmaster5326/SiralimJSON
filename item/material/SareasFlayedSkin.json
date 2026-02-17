@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSarea\u0027s Plot:\nYour creatures deal 15% more damage for each time they\u0027ve been damaged by attacks or spells in the current battle. This trait does not stack.",
-  "icon": "images/item/material/SareasFlayedSkin.png",
-  "id": 911,
-  "name": "Sarea\u0027s Flayed Skin",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 947
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSarea\u0027s Plot:\nYour creatures deal 15% more damage for each time they\u0027ve been damaged by attacks or spells in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/SareasFlayedSkin.png",
+    "id":  911,
+    "name":  "Sarea\u0027s Flayed Skin",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  947,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

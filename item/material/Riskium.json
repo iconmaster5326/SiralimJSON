@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGambler\u0027s Game:\nAt the start of each creature\u0027s turn, it has a 50% chance to gain a random buff. Otherwise, it gains a random trait. This trait does not stack.",
-  "icon": "images/item/material/Riskium.png",
-  "id": 1452,
-  "name": "Riskium",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1760
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGambler\u0027s Game:\nAt the start of each creature\u0027s turn, it has a 50% chance to gain a random buff. Otherwise, it gains a random trait. This trait does not stack.",
+    "icon":  "images/item/material/Riskium.png",
+    "id":  1452,
+    "name":  "Riskium",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1760,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

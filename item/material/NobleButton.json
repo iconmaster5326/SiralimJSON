@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMalediction:\nThis creature\u0027s spells are 25% more potent for each of {CONDNAME_DEBUFF_CURSED}, {CONDNAME_DEBUFF_BURNED}, {CONDNAME_DEBUFF_POISON}, and {CONDNAME_DEBUFF_BLEED} it has.",
-  "icon": "images/item/material/NobleButton.png",
-  "id": 1789,
-  "name": "Noble Button",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2142
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMalediction:\nThis creature\u0027s spells are 25% more potent for each of {CONDNAME_DEBUFF_CURSED}, {CONDNAME_DEBUFF_BURNED}, {CONDNAME_DEBUFF_POISON}, and {CONDNAME_DEBUFF_BLEED} it has.",
+    "icon":  "images/item/material/NobleButton.png",
+    "id":  1789,
+    "name":  "Noble Button",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2142,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

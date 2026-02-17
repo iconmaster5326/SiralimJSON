@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNoetherian\u0027s Objection:\nAfter an enemy\u0027s {CONDNAME_BUFF_BARRIER} is destroyed, it takes damage equal to 100% of the {CONDNAME_BUFF_BARRIER}\u0027s original potency. This trait does not stack.",
-  "icon": "images/item/material/NoetheriansLeftHand.png",
-  "id": 774,
-  "name": "Noetherian\u0027s Left Hand",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 969
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNoetherian\u0027s Objection:\nAfter an enemy\u0027s {CONDNAME_BUFF_BARRIER} is destroyed, it takes damage equal to 100% of the {CONDNAME_BUFF_BARRIER}\u0027s original potency. This trait does not stack.",
+    "icon":  "images/item/material/NoetheriansLeftHand.png",
+    "id":  774,
+    "name":  "Noetherian\u0027s Left Hand",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  969,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

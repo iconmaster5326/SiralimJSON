@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/VolcanicGargantuan/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1004,
-  "item": 1331,
-  "lore": "The Volcanic Gargantuan is one the world\u0027s greatest potential natural disasters, for obvious reasons. When Torun took the liberty of giving life to several volcanoes, Surathli and Azural gave him a good scolding. Vertraag also went to the Cutthroat Jungle, if only to enjoy the show. After a long discussion, Torun reluctantly made it so that these creatures would only be able to eject very hot rocks, which is still highly dangerous. Luckily, the creatures can only be found in volcanic areas.",
-  "menagerieDialog": [
-    "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
-    "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
-    "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
-    "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
-    "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
-  ],
-  "minDepth": 1,
-  "name": "Volcanic Gargantuan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VolcanicGargantuan/overworld_e0.png",
-      "images/creature/VolcanicGargantuan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VolcanicGargantuan/overworld_n0.png",
-      "images/creature/VolcanicGargantuan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VolcanicGargantuan/overworld_s0.png",
-      "images/creature/VolcanicGargantuan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VolcanicGargantuan/overworld_w0.png",
-      "images/creature/VolcanicGargantuan/overworld_w1.png"
-    ]
-  },
-  "race": "Gargantuan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Nature Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 7,
-    "defense": 28,
-    "health": 42,
-    "intelligence": 27,
-    "speed": 8
-  },
-  "trait": 1577
+    "battleSprite":  "images/creature/VolcanicGargantuan/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1004,
+    "item":  1331,
+    "lore":  "The Volcanic Gargantuan is one the world\u0027s greatest potential natural disasters, for obvious reasons. When Torun took the liberty of giving life to several volcanoes, Surathli and Azural gave him a good scolding. Vertraag also went to the Cutthroat Jungle, if only to enjoy the show. After a long discussion, Torun reluctantly made it so that these creatures would only be able to eject very hot rocks, which is still highly dangerous. Luckily, the creatures can only be found in volcanic areas.",
+    "menagerieDialog":  [
+                            "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
+                            "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
+                            "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
+                            "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
+                            "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Volcanic Gargantuan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VolcanicGargantuan/overworld_e0.png",
+                                         "images/creature/VolcanicGargantuan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VolcanicGargantuan/overworld_n0.png",
+                                          "images/creature/VolcanicGargantuan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VolcanicGargantuan/overworld_s0.png",
+                                          "images/creature/VolcanicGargantuan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VolcanicGargantuan/overworld_w0.png",
+                                         "images/creature/VolcanicGargantuan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargantuan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nature Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  7,
+                       "defense":  28,
+                       "health":  42,
+                       "intelligence":  27,
+                       "speed":  8
+                   },
+    "trait":  1577,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

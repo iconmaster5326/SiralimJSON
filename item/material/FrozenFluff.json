@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDreams of Ice:\nAfter your creatures are healed, they gain 25% {STAT_defense}. This trait does not stack.",
-  "icon": "images/item/material/FrozenFluff.png",
-  "id": 104,
-  "name": "Frozen Fluff",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 13
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDreams of Ice:\nAfter your creatures are healed, they gain 25% {STAT_defense}. This trait does not stack.",
+    "icon":  "images/item/material/FrozenFluff.png",
+    "id":  104,
+    "name":  "Frozen Fluff",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  13,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

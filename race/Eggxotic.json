@@ -1,34 +1,39 @@
 {
-  "bossDialog": [
-    "(One particularly large egg suddenly hatches, releasing not a creature but a cloud of hallucinogenic spores! Your creatures shake their heads, trying to clear their senses as the Eggxotic attack!)",
-    "(The Eggxotic cluster rolls and bounces erratically across the treasure pile, making it hard to predict where they\u0027ll strike from next. Their shells are tougher than they look!)",
-    "(What appeared to be decorative eggs among the treasure suddenly crack open, revealing a cluster of strange, chirping creatures who immediately form a defensive circle around the hoard!)"
-  ],
-  "cardBonuses": {
-    "2": "You have a 1% chance to receive treasure after battle.",
-    "4": "You have a 2% chance to receive treasure after battle.",
-    "6": "You have a 3% chance to receive treasure after battle."
-  },
-  "cards": 6,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    1289,
-    1290,
-    1291,
-    1292,
-    1293,
-    1294
-  ],
-  "icon": "images/race/Eggxotic.png",
-  "master": {
-    "costume": 807,
-    "dialog": "Don\u0027t let their fragile appearance fool you - Eggxotics are full of surprises! Those shells are tougher than they look, and what hatches from inside can be... unpredictable. My Eggxotics work together in perfect harmony, rolling and bouncing in formations that will leave your creatures dizzy and confused. Ready to crack under the pressure?",
-    "item": 1855,
-    "name": "Yolkina",
-    "trait": 2193
-  },
-  "name": "Eggxotic",
-  "notes": [],
-  "skins": []
+    "bossDialog":  [
+                       "(One particularly large egg suddenly hatches, releasing not a creature but a cloud of hallucinogenic spores! Your creatures shake their heads, trying to clear their senses as the Eggxotic attack!)",
+                       "(The Eggxotic cluster rolls and bounces erratically across the treasure pile, making it hard to predict where they\u0027ll strike from next. Their shells are tougher than they look!)",
+                       "(What appeared to be decorative eggs among the treasure suddenly crack open, revealing a cluster of strange, chirping creatures who immediately form a defensive circle around the hoard!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "You have a 1% chance to receive treasure after battle.",
+                        "4":  "You have a 2% chance to receive treasure after battle.",
+                        "6":  "You have a 3% chance to receive treasure after battle."
+                    },
+    "cards":  6,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      1289,
+                      1290,
+                      1291,
+                      1292,
+                      1293,
+                      1294
+                  ],
+    "icon":  "images/race/Eggxotic.png",
+    "master":  {
+                   "costume":  807,
+                   "dialog":  "Don\u0027t let their fragile appearance fool you - Eggxotics are full of surprises! Those shells are tougher than they look, and what hatches from inside can be... unpredictable. My Eggxotics work together in perfect harmony, rolling and bouncing in formations that will leave your creatures dizzy and confused. Ready to crack under the pressure?",
+                   "item":  1855,
+                   "name":  "Yolkina",
+                   "trait":  2193
+               },
+    "name":  "Eggxotic",
+    "notes":  [
+
+              ],
+    "skins":  [
+
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

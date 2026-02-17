@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLeap of Faith:\nThis creature\u0027s {ACTION_attacks} deal additional damage equal to 50% of all the healing the target has received in the current battle.",
-  "icon": "images/item/material/PluggedEar.png",
-  "id": 636,
-  "name": "Plugged Ear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 965
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLeap of Faith:\nThis creature\u0027s {ACTION_attacks} deal additional damage equal to 50% of all the healing the target has received in the current battle.",
+    "icon":  "images/item/material/PluggedEar.png",
+    "id":  636,
+    "name":  "Plugged Ear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  965,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

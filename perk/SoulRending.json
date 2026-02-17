@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When your creatures are killed, they have a 5% chance (up to 50%) to be resurrected with 50% {STAT_health} for each time their on-heal, on-death, and on-resurrect effects activated in the current battle.",
-  "icon": "images/perk/SoulRending.png",
-  "id": 365,
-  "maxRanks": 1,
-  "name": "Soul Rending",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 24
+    "anointable":  true,
+    "description":  "When your creatures are killed, they have a 5% chance (up to 50%) to be resurrected with 50% {STAT_health} for each time their on-heal, on-death, and on-resurrect effects activated in the current battle.",
+    "icon":  "images/perk/SoulRending.png",
+    "id":  365,
+    "maxRanks":  1,
+    "name":  "Soul Rending",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  24,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

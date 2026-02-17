@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/FollowerofLister/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 774,
-  "name": "Follower of Lister",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/FollowerofLister/overworld_e0.png",
-      "images/skin/FollowerofLister/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/FollowerofLister/overworld_n0.png",
-      "images/skin/FollowerofLister/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/FollowerofLister/overworld_s0.png",
-      "images/skin/FollowerofLister/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/FollowerofLister/overworld_w0.png",
-      "images/skin/FollowerofLister/overworld_w1.png"
-    ]
-  },
-  "race": "Siren",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/FollowerofLister/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  774,
+    "name":  "Follower of Lister",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/FollowerofLister/overworld_e0.png",
+                                         "images/skin/FollowerofLister/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/FollowerofLister/overworld_n0.png",
+                                          "images/skin/FollowerofLister/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/FollowerofLister/overworld_s0.png",
+                                          "images/skin/FollowerofLister/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/FollowerofLister/overworld_w0.png",
+                                         "images/skin/FollowerofLister/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Siren",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

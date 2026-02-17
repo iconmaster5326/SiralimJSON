@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/BlackKnight/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 115,
-  "name": "Black Knight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/BlackKnight/overworld_e0.png",
-      "images/skin/BlackKnight/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/BlackKnight/overworld_n0.png",
-      "images/skin/BlackKnight/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/BlackKnight/overworld_s0.png",
-      "images/skin/BlackKnight/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/BlackKnight/overworld_w0.png",
-      "images/skin/BlackKnight/overworld_w1.png"
-    ]
-  },
-  "race": "Koloss",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/BlackKnight/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  115,
+    "name":  "Black Knight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/BlackKnight/overworld_e0.png",
+                                         "images/skin/BlackKnight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/BlackKnight/overworld_n0.png",
+                                          "images/skin/BlackKnight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/BlackKnight/overworld_s0.png",
+                                          "images/skin/BlackKnight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/BlackKnight/overworld_w0.png",
+                                         "images/skin/BlackKnight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Koloss",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

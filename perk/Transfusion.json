@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After one of your creatures takes damage and is not killed, one of your other creatures gains Maximum {STAT_health} equal to 25% of the damage taken.",
-  "icon": "images/perk/Transfusion.png",
-  "id": 242,
-  "maxRanks": 1,
-  "name": "Transfusion",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 16
+    "anointable":  true,
+    "description":  "After one of your creatures takes damage and is not killed, one of your other creatures gains Maximum {STAT_health} equal to 25% of the damage taken.",
+    "icon":  "images/perk/Transfusion.png",
+    "id":  242,
+    "maxRanks":  1,
+    "name":  "Transfusion",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  16,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Kolosses:\nYour {RACE_Koloss}es start battles with 20% more Current and Maximum {STAT_health} for each {RACE_Koloss} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheKoloss.png",
-  "id": 1252,
-  "name": "Sigil of the Koloss",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1453
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Kolosses:\nYour {RACE_Koloss}es start battles with 20% more Current and Maximum {STAT_health} for each {RACE_Koloss} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheKoloss.png",
+    "id":  1252,
+    "name":  "Sigil of the Koloss",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1453,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/VegetableDumpling/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 602,
-  "item": 812,
-  "lore": "The meat of a Dumpling is delicious, no matter how it is cooked. Only the wealthiest can afford to eat them, and few mercenaries have the skill required to catch them. In addition, they have a sixth sense that warns them of any danger, so traps are often a better option than direct confrontation. The Vegetable Dumpling is even harder to find, and it may even be the rarest creature in the world. Whoever catches one should know that their expertise as a warrior and adventurer is unparalleled.",
-  "menagerieDialog": [
-    "(It yawns, making a cute, squeaking sound in the process.)",
-    "(How can something so cute exist in a world like this?)",
-    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
-    "(It blushes and giggles every time you come near it.)",
-    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
-  ],
-  "minDepth": 1,
-  "name": "Vegetable Dumpling",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VegetableDumpling/overworld_e0.png",
-      "images/creature/VegetableDumpling/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VegetableDumpling/overworld_n0.png",
-      "images/creature/VegetableDumpling/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VegetableDumpling/overworld_s0.png",
-      "images/creature/VegetableDumpling/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VegetableDumpling/overworld_w0.png",
-      "images/creature/VegetableDumpling/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 16,
-    "health": 43,
-    "intelligence": 18,
-    "speed": 16
-  },
-  "trait": 839
+    "battleSprite":  "images/creature/VegetableDumpling/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  602,
+    "item":  812,
+    "lore":  "The meat of a Dumpling is delicious, no matter how it is cooked. Only the wealthiest can afford to eat them, and few mercenaries have the skill required to catch them. In addition, they have a sixth sense that warns them of any danger, so traps are often a better option than direct confrontation. The Vegetable Dumpling is even harder to find, and it may even be the rarest creature in the world. Whoever catches one should know that their expertise as a warrior and adventurer is unparalleled.",
+    "menagerieDialog":  [
+                            "(It yawns, making a cute, squeaking sound in the process.)",
+                            "(How can something so cute exist in a world like this?)",
+                            "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+                            "(It blushes and giggles every time you come near it.)",
+                            "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vegetable Dumpling",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VegetableDumpling/overworld_e0.png",
+                                         "images/creature/VegetableDumpling/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VegetableDumpling/overworld_n0.png",
+                                          "images/creature/VegetableDumpling/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VegetableDumpling/overworld_s0.png",
+                                          "images/creature/VegetableDumpling/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VegetableDumpling/overworld_w0.png",
+                                         "images/creature/VegetableDumpling/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  16,
+                       "health":  43,
+                       "intelligence":  18,
+                       "speed":  16
+                   },
+    "trait":  839,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

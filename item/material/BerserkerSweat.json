@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMisanthropy:\nAt the end of this creature\u0027s turn, it {ACTION_attacks} 2 random enemies.",
-  "icon": "images/item/material/BerserkerSweat.png",
-  "id": 576,
-  "name": "Berserker Sweat",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 490
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMisanthropy:\nAt the end of this creature\u0027s turn, it {ACTION_attacks} 2 random enemies.",
+    "icon":  "images/item/material/BerserkerSweat.png",
+    "id":  576,
+    "name":  "Berserker Sweat",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  490,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

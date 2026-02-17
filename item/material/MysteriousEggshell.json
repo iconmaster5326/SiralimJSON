@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoup-ffleyed:\nThis creature always has {CONDNAME_BUFF_PROFICIENT}. After an enemy {ACTION_attacks} your {RACE_Eggxotic} creatures, they are afflicted with {CONDNAME_DEBUFF_CONFUSED}.",
-  "icon": "images/item/material/MysteriousEggshell.png",
-  "id": 1794,
-  "name": "Mysterious Eggshell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2147
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoup-ffleyed:\nThis creature always has {CONDNAME_BUFF_PROFICIENT}. After an enemy {ACTION_attacks} your {RACE_Eggxotic} creatures, they are afflicted with {CONDNAME_DEBUFF_CONFUSED}.",
+    "icon":  "images/item/material/MysteriousEggshell.png",
+    "id":  1794,
+    "name":  "Mysterious Eggshell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2147,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

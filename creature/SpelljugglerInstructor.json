@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpelljugglerInstructor/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1303,
-  "item": 1810,
-  "lore": "Spelljugglers are humans who\u0027ve undergone a voluntary transfusion of altered blood, changing them forever.\\n\\nThe Spelljuggler Instructors guide the newcomers through this risky process, making sure they understand everything and succeed in their transformation. These instructors are the closest to their leader and are probably the only ones who truly know their leader\u0027s identity.",
-  "menagerieDialog": [
-    "(It\u0027s lazily floating a single spell orb above its palm.)",
-    "Watch as I juggle their lives away!",
-    "I know spells that would make your head spin... literally!",
-    "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
-    "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
-  ],
-  "minDepth": 1,
-  "name": "Spelljuggler Instructor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpelljugglerInstructor/overworld_e0.png",
-      "images/creature/SpelljugglerInstructor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpelljugglerInstructor/overworld_n0.png",
-      "images/creature/SpelljugglerInstructor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpelljugglerInstructor/overworld_s0.png",
-      "images/creature/SpelljugglerInstructor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpelljugglerInstructor/overworld_w0.png",
-      "images/creature/SpelljugglerInstructor/overworld_w1.png"
-    ]
-  },
-  "race": "Spelljuggler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 15
-  },
-  "trait": 2163
+    "battleSprite":  "images/creature/SpelljugglerInstructor/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1303,
+    "item":  1810,
+    "lore":  "Spelljugglers are humans who\u0027ve undergone a voluntary transfusion of altered blood, changing them forever.\\n\\nThe Spelljuggler Instructors guide the newcomers through this risky process, making sure they understand everything and succeed in their transformation. These instructors are the closest to their leader and are probably the only ones who truly know their leader\u0027s identity.",
+    "menagerieDialog":  [
+                            "(It\u0027s lazily floating a single spell orb above its palm.)",
+                            "Watch as I juggle their lives away!",
+                            "I know spells that would make your head spin... literally!",
+                            "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
+                            "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spelljuggler Instructor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpelljugglerInstructor/overworld_e0.png",
+                                         "images/creature/SpelljugglerInstructor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpelljugglerInstructor/overworld_n0.png",
+                                          "images/creature/SpelljugglerInstructor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpelljugglerInstructor/overworld_s0.png",
+                                          "images/creature/SpelljugglerInstructor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpelljugglerInstructor/overworld_w0.png",
+                                         "images/creature/SpelljugglerInstructor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spelljuggler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  15
+                   },
+    "trait":  2163,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

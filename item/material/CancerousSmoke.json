@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPoison Inoculation:\nYour creatures start battle with {CONDNAME_DEBUFF_POISON}. Your creatures recover {STAT_health} from {CONDNAME_DEBUFF_POISON} instead of taking damage from it.",
-  "icon": "images/item/material/CancerousSmoke.png",
-  "id": 338,
-  "name": "Cancerous Smoke",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 254
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPoison Inoculation:\nYour creatures start battle with {CONDNAME_DEBUFF_POISON}. Your creatures recover {STAT_health} from {CONDNAME_DEBUFF_POISON} instead of taking damage from it.",
+    "icon":  "images/item/material/CancerousSmoke.png",
+    "id":  338,
+    "name":  "Cancerous Smoke",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  254,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

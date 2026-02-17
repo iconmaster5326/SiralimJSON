@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DjinnEvoker/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 69,
-  "item": 441,
-  "lore": "To make sure the Djinns were obedient, their creators developed a mechanism in the form of an oil lamp that could contain them and force them to obey orders.\\n\\nThe Djinn Evoker presents itself as a kind and understanding creature who likes to listen to people\u0027s problems. It acts as a confidant, but the longer an individual remains in its presence, the more their negative emotions build up.",
-  "menagerieDialog": [
-    "Make a wish. The only rule is that you can\u0027t wish for more wishes.",
-    "The most powerful weapon is deceit. You\u0027d do well to remember that.",
-    "I don\u0027t trust Everett. I think it\u0027s because his haircut is terrible.",
-    "Make a wish, then blow out the fire on my head.",
-    "Your creatures would be nothing without my support. You\u0027re welcome."
-  ],
-  "minDepth": 1,
-  "name": "Djinn Evoker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DjinnEvoker/overworld_e0.png",
-      "images/creature/DjinnEvoker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DjinnEvoker/overworld_n0.png",
-      "images/creature/DjinnEvoker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DjinnEvoker/overworld_s0.png",
-      "images/creature/DjinnEvoker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DjinnEvoker/overworld_w0.png",
-      "images/creature/DjinnEvoker/overworld_w1.png"
-    ]
-  },
-  "race": "Djinn",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 11,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 35,
-    "intelligence": 28,
-    "speed": 18
-  },
-  "trait": 356
+    "battleSprite":  "images/creature/DjinnEvoker/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  69,
+    "item":  441,
+    "lore":  "To make sure the Djinns were obedient, their creators developed a mechanism in the form of an oil lamp that could contain them and force them to obey orders.\\n\\nThe Djinn Evoker presents itself as a kind and understanding creature who likes to listen to people\u0027s problems. It acts as a confidant, but the longer an individual remains in its presence, the more their negative emotions build up.",
+    "menagerieDialog":  [
+                            "Make a wish. The only rule is that you can\u0027t wish for more wishes.",
+                            "The most powerful weapon is deceit. You\u0027d do well to remember that.",
+                            "I don\u0027t trust Everett. I think it\u0027s because his haircut is terrible.",
+                            "Make a wish, then blow out the fire on my head.",
+                            "Your creatures would be nothing without my support. You\u0027re welcome."
+                        ],
+    "minDepth":  1,
+    "name":  "Djinn Evoker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DjinnEvoker/overworld_e0.png",
+                                         "images/creature/DjinnEvoker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DjinnEvoker/overworld_n0.png",
+                                          "images/creature/DjinnEvoker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DjinnEvoker/overworld_s0.png",
+                                          "images/creature/DjinnEvoker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DjinnEvoker/overworld_w0.png",
+                                         "images/creature/DjinnEvoker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Djinn",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  35,
+                       "intelligence":  28,
+                       "speed":  18
+                   },
+    "trait":  356,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

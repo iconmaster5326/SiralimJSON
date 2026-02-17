@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nProficient On Damage:\nCreature has a chance to gain {CONDNAME_BUFF_PROFICIENT} when it deals damage with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
-  "icon": "images/item/material/SlateofProficiency.png",
-  "id": 923,
-  "name": "Slate of Proficiency",
-  "notes": [],
-  "slot": "trick",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": null
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nProficient On Damage:\nCreature has a chance to gain {CONDNAME_BUFF_PROFICIENT} when it deals damage with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/SlateofProficiency.png",
+    "id":  923,
+    "name":  "Slate of Proficiency",
+    "notes":  [
+
+              ],
+    "slot":  "trick",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

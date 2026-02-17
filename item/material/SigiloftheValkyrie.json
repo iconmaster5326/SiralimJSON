@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Valkyries:\nAt the end of your {RACE_Valkyrie}s\u0027 turns, they {ACTION_defend}. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheValkyrie.png",
-  "id": 1179,
-  "name": "Sigil of the Valkyrie",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1509
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Valkyries:\nAt the end of your {RACE_Valkyrie}s\u0027 turns, they {ACTION_defend}. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheValkyrie.png",
+    "id":  1179,
+    "name":  "Sigil of the Valkyrie",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1509,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

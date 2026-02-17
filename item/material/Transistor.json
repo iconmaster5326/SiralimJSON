@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpin Cycle:\nAt the start of this creature\u0027s turn, it deals damage to a random enemy equal to 75% of its {STAT_speed}.",
-  "icon": "images/item/material/Transistor.png",
-  "id": 1520,
-  "name": "Transistor",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1828
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpin Cycle:\nAt the start of this creature\u0027s turn, it deals damage to a random enemy equal to 75% of its {STAT_speed}.",
+    "icon":  "images/item/material/Transistor.png",
+    "id":  1520,
+    "name":  "Transistor",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1828,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

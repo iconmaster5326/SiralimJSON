@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVengeful Rebound:\nYour creatures take 75% less damage until the start of their first turn. This trait does not stack.",
-  "icon": "images/item/material/GlassEye.png",
-  "id": 1417,
-  "name": "Glass Eye",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1724
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVengeful Rebound:\nYour creatures take 75% less damage until the start of their first turn. This trait does not stack.",
+    "icon":  "images/item/material/GlassEye.png",
+    "id":  1417,
+    "name":  "Glass Eye",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1724,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

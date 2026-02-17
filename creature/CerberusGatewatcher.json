@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CerberusGatewatcher/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 455,
-  "item": 393,
-  "lore": "Out of their three heads, only the middle one is sentient. \u0022After all, if all three had to agree on where to move, at the end of the day they would only have managed to pee themselves.\u0022 This is a quote by Dr. Fechner, a physiologist who studied Cerberus brains for twenty-five years and discovered that the side heads can only perform two actions: stare at whatever comes close and bite it relentlessly.\\n\\nCerberus Gatewatchers, as their name implies, guard the entrance to the Great Pandemonium.",
-  "menagerieDialog": [
-    "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
-    "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
-    "(All three of its heads are fighting over a giant, meat-covered bone.)",
-    "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
-    "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
-  ],
-  "minDepth": 1,
-  "name": "Cerberus Gatewatcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CerberusGatewatcher/overworld_e0.png",
-      "images/creature/CerberusGatewatcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CerberusGatewatcher/overworld_n0.png",
-      "images/creature/CerberusGatewatcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CerberusGatewatcher/overworld_s0.png",
-      "images/creature/CerberusGatewatcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CerberusGatewatcher/overworld_w0.png",
-      "images/creature/CerberusGatewatcher/overworld_w1.png"
-    ]
-  },
-  "race": "Cerberus",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 308
+    "battleSprite":  "images/creature/CerberusGatewatcher/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  455,
+    "item":  393,
+    "lore":  "Out of their three heads, only the middle one is sentient. \"After all, if all three had to agree on where to move, at the end of the day they would only have managed to pee themselves.\" This is a quote by Dr. Fechner, a physiologist who studied Cerberus brains for twenty-five years and discovered that the side heads can only perform two actions: stare at whatever comes close and bite it relentlessly.\\n\\nCerberus Gatewatchers, as their name implies, guard the entrance to the Great Pandemonium.",
+    "menagerieDialog":  [
+                            "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
+                            "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
+                            "(All three of its heads are fighting over a giant, meat-covered bone.)",
+                            "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
+                            "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Cerberus Gatewatcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CerberusGatewatcher/overworld_e0.png",
+                                         "images/creature/CerberusGatewatcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CerberusGatewatcher/overworld_n0.png",
+                                          "images/creature/CerberusGatewatcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CerberusGatewatcher/overworld_s0.png",
+                                          "images/creature/CerberusGatewatcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CerberusGatewatcher/overworld_w0.png",
+                                         "images/creature/CerberusGatewatcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cerberus",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  308,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

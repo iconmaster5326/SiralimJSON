@@ -1,39 +1,44 @@
 {
-  "bossDialog": [
-    "(The air crackles with energy as a swirling vortex of elemental chaos forms before you, growing larger as it absorbs the ambient magic from the treasure hoard!)",
-    "(The Cataclysm manifests fully, the room darkening as it draws in all light and warmth. Even your bravest creatures hesitate before this embodiment of pure destruction!)",
-    "I am the end of all things, mortal. Your quest ends here, as will your pitiful existence!"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}.",
-    "7": "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}.",
-    "11": "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}."
-  },
-  "cards": 11,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    1372,
-    1373,
-    1374,
-    1375,
-    1376,
-    1377,
-    1418,
-    1419,
-    1420,
-    1421,
-    1422
-  ],
-  "icon": "images/race/Cataclysm.png",
-  "master": {
-    "costume": 818,
-    "dialog": "Cataclysms are living embodiments of elemental destruction. They harness forces that could end worlds, containing them within their swirling forms. As a Master of Cataclysms, I\u0027ve learned to channel their chaotic energies. The secrets of the universe flow through them - and through me! Care to witness the storm that ends worlds?",
-    "item": 1853,
-    "name": "Veydris",
-    "trait": 2191
-  },
-  "name": "Cataclysm",
-  "notes": [],
-  "skins": []
+    "bossDialog":  [
+                       "(The air crackles with energy as a swirling vortex of elemental chaos forms before you, growing larger as it absorbs the ambient magic from the treasure hoard!)",
+                       "(The Cataclysm manifests fully, the room darkening as it draws in all light and warmth. Even your bravest creatures hesitate before this embodiment of pure destruction!)",
+                       "I am the end of all things, mortal. Your quest ends here, as will your pitiful existence!"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}.",
+                        "7":  "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}.",
+                        "11":  "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}."
+                    },
+    "cards":  11,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      1372,
+                      1373,
+                      1374,
+                      1375,
+                      1376,
+                      1377,
+                      1418,
+                      1419,
+                      1420,
+                      1421,
+                      1422
+                  ],
+    "icon":  "images/race/Cataclysm.png",
+    "master":  {
+                   "costume":  818,
+                   "dialog":  "Cataclysms are living embodiments of elemental destruction. They harness forces that could end worlds, containing them within their swirling forms. As a Master of Cataclysms, I\u0027ve learned to channel their chaotic energies. The secrets of the universe flow through them - and through me! Care to witness the storm that ends worlds?",
+                   "item":  1853,
+                   "name":  "Veydris",
+                   "trait":  2191
+               },
+    "name":  "Cataclysm",
+    "notes":  [
+
+              ],
+    "skins":  [
+
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

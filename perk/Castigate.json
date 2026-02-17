@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, enemy {CLASS_Chaos} creatures are afflicted with {CONDNAME_DEBUFF_SCORN} and lose 30% {STAT_attack}.\\n\\n{CONDDESC_DEBUFF_SCORN}",
-  "icon": "images/perk/Castigate.png",
-  "id": 89,
-  "maxRanks": 1,
-  "name": "Castigate",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 6
+    "anointable":  true,
+    "description":  "At the start of battle, enemy {CLASS_Chaos} creatures are afflicted with {CONDNAME_DEBUFF_SCORN} and lose 30% {STAT_attack}.\\n\\n{CONDDESC_DEBUFF_SCORN}",
+    "icon":  "images/perk/Castigate.png",
+    "id":  89,
+    "maxRanks":  1,
+    "name":  "Castigate",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

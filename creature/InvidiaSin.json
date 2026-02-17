@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/InvidiaSin/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 403,
-  "item": 261,
-  "lore": "When a Sin appears, it does not usually remain in its place of origin for long. Instead, it wanders through towns and villages looking for people to corrupt.\\n\\nSometimes, the Invidia Sin strategically leaves one of its golden mirrors on top of a barrel or on the sill of a window. If an unwary person touches this item, both they and their property become the object of desire of everyone they cross paths with.",
-  "menagerieDialog": [
-    "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
-    "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
-    "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
-    "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
-    "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
-  ],
-  "minDepth": 1,
-  "name": "Invidia Sin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/InvidiaSin/overworld_e0.png",
-      "images/creature/InvidiaSin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/InvidiaSin/overworld_n0.png",
-      "images/creature/InvidiaSin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/InvidiaSin/overworld_s0.png",
-      "images/creature/InvidiaSin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/InvidiaSin/overworld_w0.png",
-      "images/creature/InvidiaSin/overworld_w1.png"
-    ]
-  },
-  "race": "Sin",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 171
+    "battleSprite":  "images/creature/InvidiaSin/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  403,
+    "item":  261,
+    "lore":  "When a Sin appears, it does not usually remain in its place of origin for long. Instead, it wanders through towns and villages looking for people to corrupt.\\n\\nSometimes, the Invidia Sin strategically leaves one of its golden mirrors on top of a barrel or on the sill of a window. If an unwary person touches this item, both they and their property become the object of desire of everyone they cross paths with.",
+    "menagerieDialog":  [
+                            "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
+                            "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
+                            "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
+                            "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
+                            "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Invidia Sin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/InvidiaSin/overworld_e0.png",
+                                         "images/creature/InvidiaSin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/InvidiaSin/overworld_n0.png",
+                                          "images/creature/InvidiaSin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/InvidiaSin/overworld_s0.png",
+                                          "images/creature/InvidiaSin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/InvidiaSin/overworld_w0.png",
+                                         "images/creature/InvidiaSin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sin",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  171,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

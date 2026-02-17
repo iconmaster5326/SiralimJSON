@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Saurel/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1111,
-  "item": 1488,
-  "lore": "These creatures are the only ones Reclusa has given life to, and they are found throughout the Gambler\u0027s Hive. Their main job is to work as dealers, and they will not hesitate to punish anyone who cheats, sparks altercations or shows violent discontent. They are quiet and extremely serious, and rarely communicate for anything other than the games they run. In their spare time, they read and discuss various topics with other Saurel. Many of them have written books and poems, some of them famous in nations like Rodia or Kiaces, to the point of being among the best sellers.",
-  "menagerieDialog": [
-    "(She\u0027s sitting in a generic meditative system, humming softly. You wonder to yourself if the humming part is actually necessary.)",
-    "(She\u0027s throwing punches into the air, most likely in preparation for her next battle. That\u0027s the spirit!)",
-    "Be sure to listen more than you speak. You\u0027d be surprised how much you can learn from others.",
-    "Slow down. Take some time to relax and live in the moment.",
-    "More often than not, your first instinct will lead you to the correct decision. There\u0027s no need to waste time dwelling on your choices. Trust your intuition."
-  ],
-  "minDepth": 1,
-  "name": "Saurel",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Saurel/overworld_e0.png",
-      "images/creature/Saurel/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Saurel/overworld_n0.png",
-      "images/creature/Saurel/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Saurel/overworld_s0.png",
-      "images/creature/Saurel/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Saurel/overworld_w0.png",
-      "images/creature/Saurel/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    767,
-    768
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 40,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1799
+    "battleSprite":  "images/creature/Saurel/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1111,
+    "item":  1488,
+    "lore":  "These creatures are the only ones Reclusa has given life to, and they are found throughout the Gambler\u0027s Hive. Their main job is to work as dealers, and they will not hesitate to punish anyone who cheats, sparks altercations or shows violent discontent. They are quiet and extremely serious, and rarely communicate for anything other than the games they run. In their spare time, they read and discuss various topics with other Saurel. Many of them have written books and poems, some of them famous in nations like Rodia or Kiaces, to the point of being among the best sellers.",
+    "menagerieDialog":  [
+                            "(She\u0027s sitting in a generic meditative system, humming softly. You wonder to yourself if the humming part is actually necessary.)",
+                            "(She\u0027s throwing punches into the air, most likely in preparation for her next battle. That\u0027s the spirit!)",
+                            "Be sure to listen more than you speak. You\u0027d be surprised how much you can learn from others.",
+                            "Slow down. Take some time to relax and live in the moment.",
+                            "More often than not, your first instinct will lead you to the correct decision. There\u0027s no need to waste time dwelling on your choices. Trust your intuition."
+                        ],
+    "minDepth":  1,
+    "name":  "Saurel",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Saurel/overworld_e0.png",
+                                         "images/creature/Saurel/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Saurel/overworld_n0.png",
+                                          "images/creature/Saurel/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Saurel/overworld_s0.png",
+                                          "images/creature/Saurel/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Saurel/overworld_w0.png",
+                                         "images/creature/Saurel/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  767,
+                  768
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  40,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1799,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

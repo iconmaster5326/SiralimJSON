@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/TimelessMaster/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 295,
-  "item": 109,
-  "lore": "When a Demigod remains motionless, its servants have no way of knowing whether it is resting or simply ignoring them.\\n\\nThe Timeless Master is extremely cruel and enjoys situations in which someone asks to trade their life for that of a loved one. After accepting the sacrifice, it will order its servants to inflict a wound that will make them bleed to death. However, before this happens, it will exchange that person\u0027s life force for that of the one that was to be saved, laughing maliciously.",
-  "menagerieDialog": [
-    "I will not waste my breath speaking with the likes of you.",
-    "Unleash me! Let us destroy our foes together as one.",
-    "There is much to be learned from this world. Do not take a single moment for granted.",
-    "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
-    "I grow restless. Let us take our leave at once."
-  ],
-  "minDepth": 1,
-  "name": "Timeless Master",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TimelessMaster/overworld_e0.png",
-      "images/creature/TimelessMaster/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TimelessMaster/overworld_n0.png",
-      "images/creature/TimelessMaster/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TimelessMaster/overworld_s0.png",
-      "images/creature/TimelessMaster/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TimelessMaster/overworld_w0.png",
-      "images/creature/TimelessMaster/overworld_w1.png"
-    ]
-  },
-  "race": "Demigod",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 18
+    "battleSprite":  "images/creature/TimelessMaster/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  295,
+    "item":  109,
+    "lore":  "When a Demigod remains motionless, its servants have no way of knowing whether it is resting or simply ignoring them.\\n\\nThe Timeless Master is extremely cruel and enjoys situations in which someone asks to trade their life for that of a loved one. After accepting the sacrifice, it will order its servants to inflict a wound that will make them bleed to death. However, before this happens, it will exchange that person\u0027s life force for that of the one that was to be saved, laughing maliciously.",
+    "menagerieDialog":  [
+                            "I will not waste my breath speaking with the likes of you.",
+                            "Unleash me! Let us destroy our foes together as one.",
+                            "There is much to be learned from this world. Do not take a single moment for granted.",
+                            "(You feel fortunate to have power over such a mighty creature. With a Demigod by your side, you just might rule the world someday.)",
+                            "I grow restless. Let us take our leave at once."
+                        ],
+    "minDepth":  1,
+    "name":  "Timeless Master",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TimelessMaster/overworld_e0.png",
+                                         "images/creature/TimelessMaster/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TimelessMaster/overworld_n0.png",
+                                          "images/creature/TimelessMaster/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TimelessMaster/overworld_s0.png",
+                                          "images/creature/TimelessMaster/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TimelessMaster/overworld_w0.png",
+                                         "images/creature/TimelessMaster/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Demigod",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  18,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

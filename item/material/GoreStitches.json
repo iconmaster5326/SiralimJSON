@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nManipulate Fear:\nEnemy creatures with {CONDNAME_DEBUFF_WEAK} have 50% less {STAT_attack} and cannot deal critical damage. This trait does not stack.",
-  "icon": "images/item/material/GoreStitches.png",
-  "id": 779,
-  "name": "Gore Stitches",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 806
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nManipulate Fear:\nEnemy creatures with {CONDNAME_DEBUFF_WEAK} have 50% less {STAT_attack} and cannot deal critical damage. This trait does not stack.",
+    "icon":  "images/item/material/GoreStitches.png",
+    "id":  779,
+    "name":  "Gore Stitches",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  806,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

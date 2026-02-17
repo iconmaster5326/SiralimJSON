@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FeralCarver/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 973,
-  "item": 1300,
-  "lore": "This devilish pest enjoys torturing its victims with its own hands, generally ripping them open to eat their guts while they are still alive. It considers the bloodstains on its body lucky charms and never cleans them up, even if it is its own blood. That is why the scent of a Feral Carver is so characteristic, to the point of serving as a warning to many adventurers when they are near one of their lairs.",
-  "menagerieDialog": [
-    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
-    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
-    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
-    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
-    "Come on, come on, come on! We\u0027ve killed very little today."
-  ],
-  "minDepth": 1,
-  "name": "Feral Carver",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FeralCarver/overworld_e0.png",
-      "images/creature/FeralCarver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FeralCarver/overworld_n0.png",
-      "images/creature/FeralCarver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FeralCarver/overworld_s0.png",
-      "images/creature/FeralCarver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FeralCarver/overworld_w0.png",
-      "images/creature/FeralCarver/overworld_w1.png"
-    ]
-  },
-  "race": "Carver",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Chaos Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 27,
-    "intelligence": 13,
-    "speed": 18
-  },
-  "trait": 1547
+    "battleSprite":  "images/creature/FeralCarver/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  973,
+    "item":  1300,
+    "lore":  "This devilish pest enjoys torturing its victims with its own hands, generally ripping them open to eat their guts while they are still alive. It considers the bloodstains on its body lucky charms and never cleans them up, even if it is its own blood. That is why the scent of a Feral Carver is so characteristic, to the point of serving as a warning to many adventurers when they are near one of their lairs.",
+    "menagerieDialog":  [
+                            "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+                            "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+                            "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+                            "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+                            "Come on, come on, come on! We\u0027ve killed very little today."
+                        ],
+    "minDepth":  1,
+    "name":  "Feral Carver",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FeralCarver/overworld_e0.png",
+                                         "images/creature/FeralCarver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FeralCarver/overworld_n0.png",
+                                          "images/creature/FeralCarver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FeralCarver/overworld_s0.png",
+                                          "images/creature/FeralCarver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FeralCarver/overworld_w0.png",
+                                         "images/creature/FeralCarver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carver",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Chaos Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  27,
+                       "intelligence":  13,
+                       "speed":  18
+                   },
+    "trait":  1547,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

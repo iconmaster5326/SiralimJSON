@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PitGuard/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 226,
-  "item": 316,
-  "lore": "Rumors of Taylor\u0027s cruel eccentricities spread throughout the neighboring territories after the construction of the Torture Chamber. When they reached his mother\u0027s ears, she went into a deep depression and ended up taking her own life. Heartbroken and tortured by guilt, Taylor\u0027s father set out on a journey to solve the problem.\\n\\nDoomguards possess endurance and vitality that few creatures can match. Some, like the Pit Guard, can share this energy with their allies to protect them.",
-  "menagerieDialog": [
-    "Huff...\\n\\n(Why does it look so tired?)",
-    "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
-    "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
-    "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
-    "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
-  ],
-  "minDepth": 1,
-  "name": "Pit Guard",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PitGuard/overworld_e0.png",
-      "images/creature/PitGuard/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PitGuard/overworld_n0.png",
-      "images/creature/PitGuard/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PitGuard/overworld_s0.png",
-      "images/creature/PitGuard/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PitGuard/overworld_w0.png",
-      "images/creature/PitGuard/overworld_w1.png"
-    ]
-  },
-  "race": "Doomguard",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 26,
-    "health": 42,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 232
+    "battleSprite":  "images/creature/PitGuard/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  226,
+    "item":  316,
+    "lore":  "Rumors of Taylor\u0027s cruel eccentricities spread throughout the neighboring territories after the construction of the Torture Chamber. When they reached his mother\u0027s ears, she went into a deep depression and ended up taking her own life. Heartbroken and tortured by guilt, Taylor\u0027s father set out on a journey to solve the problem.\\n\\nDoomguards possess endurance and vitality that few creatures can match. Some, like the Pit Guard, can share this energy with their allies to protect them.",
+    "menagerieDialog":  [
+                            "Huff...\\n\\n(Why does it look so tired?)",
+                            "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
+                            "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
+                            "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
+                            "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pit Guard",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PitGuard/overworld_e0.png",
+                                         "images/creature/PitGuard/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PitGuard/overworld_n0.png",
+                                          "images/creature/PitGuard/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PitGuard/overworld_s0.png",
+                                          "images/creature/PitGuard/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PitGuard/overworld_w0.png",
+                                         "images/creature/PitGuard/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doomguard",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  26,
+                       "health":  42,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  232,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

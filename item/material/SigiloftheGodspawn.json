@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Godspawn:\nIf all the creatures in your party belong to the {RACE_Godspawn} race, at the start of battle, your {RACE_Godspawn} creatures gain their respective {RACE_Avatar}\u0027s trait.",
-  "icon": "images/item/material/SigiloftheGodspawn.png",
-  "id": 1559,
-  "name": "Sigil of the Godspawn",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1991
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Godspawn:\nIf all the creatures in your party belong to the {RACE_Godspawn} race, at the start of battle, your {RACE_Godspawn} creatures gain their respective {RACE_Avatar}\u0027s trait.",
+    "icon":  "images/item/material/SigiloftheGodspawn.png",
+    "id":  1559,
+    "name":  "Sigil of the Godspawn",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1991,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, one of your other creatures is healed for the same amount.",
-  "icon": "images/perk/Prognosis.png",
-  "id": 482,
-  "maxRanks": 1,
-  "name": "Prognosis",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, one of your other creatures is healed for the same amount.",
+    "icon":  "images/perk/Prognosis.png",
+    "id":  482,
+    "maxRanks":  1,
+    "name":  "Prognosis",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

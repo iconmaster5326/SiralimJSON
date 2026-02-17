@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CanopyArachnalisk/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 512,
-  "item": 608,
-  "lore": "The Canopy Arachnalisk is the most aggressive of its species, and it even tries to ambush prey bigger than itself. Its web is not intricate and usually consists of a single thread that goes around several trees on ground level and low branches. This creature restlessly waits at the top waiting for a pull, at which time it will fall on whatever touched the thread without stopping to assess its chances.",
-  "menagerieDialog": [
-    "(These creatures are a real plague... but they can be useful in battle.)",
-    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
-    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
-    "(It hands you a little doll made out of web silk. Ugh.)",
-    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
-  ],
-  "minDepth": 1,
-  "name": "Canopy Arachnalisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CanopyArachnalisk/overworld_e0.png",
-      "images/creature/CanopyArachnalisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CanopyArachnalisk/overworld_n0.png",
-      "images/creature/CanopyArachnalisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CanopyArachnalisk/overworld_s0.png",
-      "images/creature/CanopyArachnalisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CanopyArachnalisk/overworld_w0.png",
-      "images/creature/CanopyArachnalisk/overworld_w1.png"
-    ]
-  },
-  "race": "Arachnalisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 13,
-    "health": 22,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 522
+    "battleSprite":  "images/creature/CanopyArachnalisk/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  512,
+    "item":  608,
+    "lore":  "The Canopy Arachnalisk is the most aggressive of its species, and it even tries to ambush prey bigger than itself. Its web is not intricate and usually consists of a single thread that goes around several trees on ground level and low branches. This creature restlessly waits at the top waiting for a pull, at which time it will fall on whatever touched the thread without stopping to assess its chances.",
+    "menagerieDialog":  [
+                            "(These creatures are a real plague... but they can be useful in battle.)",
+                            "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+                            "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+                            "(It hands you a little doll made out of web silk. Ugh.)",
+                            "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Canopy Arachnalisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CanopyArachnalisk/overworld_e0.png",
+                                         "images/creature/CanopyArachnalisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CanopyArachnalisk/overworld_n0.png",
+                                          "images/creature/CanopyArachnalisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CanopyArachnalisk/overworld_s0.png",
+                                          "images/creature/CanopyArachnalisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CanopyArachnalisk/overworld_w0.png",
+                                         "images/creature/CanopyArachnalisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arachnalisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  13,
+                       "health":  22,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  522,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

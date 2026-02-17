@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSign of Sagittarius:\nYour creatures\u0027 Spell Gems with the \u0027Generous\u0027 property have 50% more {STAT_charges}. This trait does not stack.",
-  "icon": "images/item/material/TopazofSagittarius.png",
-  "id": 1076,
-  "name": "Topaz of Sagittarius",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1061
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSign of Sagittarius:\nYour creatures\u0027 Spell Gems with the \u0027Generous\u0027 property have 50% more {STAT_charges}. This trait does not stack.",
+    "icon":  "images/item/material/TopazofSagittarius.png",
+    "id":  1076,
+    "name":  "Topaz of Sagittarius",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1061,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

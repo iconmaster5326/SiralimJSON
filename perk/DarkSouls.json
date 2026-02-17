@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_attack}, they {ACTION_cast} [icons,1972]Minor Healing, [icons,1972]Healing, or [icons,1972]Major Healing on the target.",
-  "icon": "images/perk/DarkSouls.png",
-  "id": 521,
-  "maxRanks": 1,
-  "name": "Dark Souls",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 33
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_attack}, they {ACTION_cast} [icons,1972]Minor Healing, [icons,1972]Healing, or [icons,1972]Major Healing on the target.",
+    "icon":  "images/perk/DarkSouls.png",
+    "id":  521,
+    "maxRanks":  1,
+    "name":  "Dark Souls",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  33,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

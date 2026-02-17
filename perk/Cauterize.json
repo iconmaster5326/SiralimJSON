@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures are damaged or healed by {CONDNAME_DEBUFF_BURNED}, they gain {CONDNAME_BUFF_SHELL}. Your creatures\u0027 {CONDNAME_BUFF_SHELL} ignores the {CONDNAME_DEBUFF_BURNED} debuff.\\n\\n{CONDDESC_BUFF_SHELL}",
-  "icon": "images/perk/Cauterize.png",
-  "id": 250,
-  "maxRanks": 1,
-  "name": "Cauterize",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 17
+    "anointable":  true,
+    "description":  "After your creatures are damaged or healed by {CONDNAME_DEBUFF_BURNED}, they gain {CONDNAME_BUFF_SHELL}. Your creatures\u0027 {CONDNAME_BUFF_SHELL} ignores the {CONDNAME_DEBUFF_BURNED} debuff.\\n\\n{CONDDESC_BUFF_SHELL}",
+    "icon":  "images/perk/Cauterize.png",
+    "id":  250,
+    "maxRanks":  1,
+    "name":  "Cauterize",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  17,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

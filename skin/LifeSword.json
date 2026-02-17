@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/LifeSword/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 126,
-  "name": "Life Sword",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/LifeSword/overworld_e0.png",
-      "images/skin/LifeSword/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/LifeSword/overworld_n0.png",
-      "images/skin/LifeSword/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/LifeSword/overworld_s0.png",
-      "images/skin/LifeSword/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/LifeSword/overworld_w0.png",
-      "images/skin/LifeSword/overworld_w1.png"
-    ]
-  },
-  "race": "Construct",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/LifeSword/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  126,
+    "name":  "Life Sword",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/LifeSword/overworld_e0.png",
+                                         "images/skin/LifeSword/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/LifeSword/overworld_n0.png",
+                                          "images/skin/LifeSword/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/LifeSword/overworld_s0.png",
+                                          "images/skin/LifeSword/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/LifeSword/overworld_w0.png",
+                                         "images/skin/LifeSword/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Construct",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

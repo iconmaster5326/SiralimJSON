@@ -1,43 +1,48 @@
 {
-  "bossDialog": [],
-  "cardBonuses": {
-    "3": "You gain 5% more Glory from the Arena.",
-    "6": "You gain 5% more Glory from the Arena.",
-    "10": "You gain 5% more Glory from the Arena."
-  },
-  "cards": 10,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    757,
-    758,
-    759,
-    760,
-    761,
-    762,
-    763,
-    764,
-    765,
-    766
-  ],
-  "icon": "images/race/Construct.png",
-  "master": {
-    "costume": 317,
-    "dialog": "Constructs utilize powerful Arsenal Spells to destroy their foes. Let\u0027s see if you can handle them!",
-    "item": 1281,
-    "name": "Monos",
-    "trait": 1418
-  },
-  "name": "Construct",
-  "notes": [],
-  "skins": [
-    124,
-    125,
-    126,
-    127,
-    128,
-    659,
-    805,
-    831
-  ]
+    "bossDialog":  [
+
+                   ],
+    "cardBonuses":  {
+                        "3":  "You gain 5% more Glory from the Arena.",
+                        "6":  "You gain 5% more Glory from the Arena.",
+                        "10":  "You gain 5% more Glory from the Arena."
+                    },
+    "cards":  10,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      757,
+                      758,
+                      759,
+                      760,
+                      761,
+                      762,
+                      763,
+                      764,
+                      765,
+                      766
+                  ],
+    "icon":  "images/race/Construct.png",
+    "master":  {
+                   "costume":  317,
+                   "dialog":  "Constructs utilize powerful Arsenal Spells to destroy their foes. Let\u0027s see if you can handle them!",
+                   "item":  1281,
+                   "name":  "Monos",
+                   "trait":  1418
+               },
+    "name":  "Construct",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  124,
+                  125,
+                  126,
+                  127,
+                  128,
+                  659,
+                  805,
+                  831
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

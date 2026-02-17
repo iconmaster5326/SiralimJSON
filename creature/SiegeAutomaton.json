@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SiegeAutomaton/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 813,
-  "item": 1059,
-  "lore": "A pitched battle between two mafias devastated Irizen, a town in Andolin. By the time the authorities arrived in what was left of it, they found only the criminals\u0027 bodies and hundreds of civilian casualties.\\n\\nA group of Skeletons managed to get ahold of the Automaton blueprints and built Siege Automatons to assist them in their skirmishes. Their shots can go through walls even at long distances if they are charged for a minute before firing. In addition, they can release highly pressurized air that allows them to jump very high if they aim their cannons at the ground.",
-  "menagerieDialog": [
-    "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
-    "I am yours. To command.",
-    "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
-    "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
-    "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
-  ],
-  "minDepth": 1,
-  "name": "Siege Automaton",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SiegeAutomaton/overworld_e0.png",
-      "images/creature/SiegeAutomaton/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SiegeAutomaton/overworld_n0.png",
-      "images/creature/SiegeAutomaton/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SiegeAutomaton/overworld_s0.png",
-      "images/creature/SiegeAutomaton/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SiegeAutomaton/overworld_w0.png",
-      "images/creature/SiegeAutomaton/overworld_w1.png"
-    ]
-  },
-  "race": "Automaton",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 34,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1078
+    "battleSprite":  "images/creature/SiegeAutomaton/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  813,
+    "item":  1059,
+    "lore":  "A pitched battle between two mafias devastated Irizen, a town in Andolin. By the time the authorities arrived in what was left of it, they found only the criminals\u0027 bodies and hundreds of civilian casualties.\\n\\nA group of Skeletons managed to get ahold of the Automaton blueprints and built Siege Automatons to assist them in their skirmishes. Their shots can go through walls even at long distances if they are charged for a minute before firing. In addition, they can release highly pressurized air that allows them to jump very high if they aim their cannons at the ground.",
+    "menagerieDialog":  [
+                            "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
+                            "I am yours. To command.",
+                            "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
+                            "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
+                            "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Siege Automaton",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SiegeAutomaton/overworld_e0.png",
+                                         "images/creature/SiegeAutomaton/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SiegeAutomaton/overworld_n0.png",
+                                          "images/creature/SiegeAutomaton/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SiegeAutomaton/overworld_s0.png",
+                                          "images/creature/SiegeAutomaton/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SiegeAutomaton/overworld_w0.png",
+                                         "images/creature/SiegeAutomaton/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Automaton",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  34,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1078,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

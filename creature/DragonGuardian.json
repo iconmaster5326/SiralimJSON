@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DragonGuardian/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 142,
-  "item": 398,
-  "lore": "The main reason why the Unsullied Meadows remain unsullied are the Dragons. Together with other creatures, they prevent everyone from destroying or permanently settling in that beautiful place.\\n\\nDragon Guardians protect the clutches and are the least merciful to intruders. They know all the tricks after all the years they have been doing their job. Sometimes they let the poachers believe they are safe, only to ram them with the steely scales of their foreheads when they lower their guard.",
-  "menagerieDialog": [
-    "I\u0027ll guard your treasure for you while you\u0027re away.",
-    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
-    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
-    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
-    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
-  ],
-  "minDepth": 1,
-  "name": "Dragon Guardian",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DragonGuardian/overworld_e0.png",
-      "images/creature/DragonGuardian/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DragonGuardian/overworld_n0.png",
-      "images/creature/DragonGuardian/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DragonGuardian/overworld_s0.png",
-      "images/creature/DragonGuardian/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DragonGuardian/overworld_w0.png",
-      "images/creature/DragonGuardian/overworld_w1.png"
-    ]
-  },
-  "race": "Dragon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 313
+    "battleSprite":  "images/creature/DragonGuardian/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  142,
+    "item":  398,
+    "lore":  "The main reason why the Unsullied Meadows remain unsullied are the Dragons. Together with other creatures, they prevent everyone from destroying or permanently settling in that beautiful place.\\n\\nDragon Guardians protect the clutches and are the least merciful to intruders. They know all the tricks after all the years they have been doing their job. Sometimes they let the poachers believe they are safe, only to ram them with the steely scales of their foreheads when they lower their guard.",
+    "menagerieDialog":  [
+                            "I\u0027ll guard your treasure for you while you\u0027re away.",
+                            "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+                            "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+                            "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+                            "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dragon Guardian",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DragonGuardian/overworld_e0.png",
+                                         "images/creature/DragonGuardian/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DragonGuardian/overworld_n0.png",
+                                          "images/creature/DragonGuardian/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DragonGuardian/overworld_s0.png",
+                                          "images/creature/DragonGuardian/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DragonGuardian/overworld_w0.png",
+                                         "images/creature/DragonGuardian/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dragon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  313,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

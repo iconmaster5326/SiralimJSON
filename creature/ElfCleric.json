@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElfCleric/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 554,
-  "item": 702,
-  "lore": "Elves are devoted protectors of nature that try to spread their ideas and customs to the rest of Rodia, by any means necessary.\\n\\nClerics are usually the spokespersons of their message, though if they are not treated with respect, as is usually the case, they let their maces do the talking instead. In battle, they prefer being on the front lines and try to make the enemies lower their guard so that another Elf can take advantage and attack them by surprise.",
-  "menagerieDialog": [
-    "The sound of elves singing at night is a spectacle worth witnessing.",
-    "No one shall trespass through our lands without consequences.",
-    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
-    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
-    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
-  ],
-  "minDepth": 1,
-  "name": "Elf Cleric",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElfCleric/overworld_e0.png",
-      "images/creature/ElfCleric/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElfCleric/overworld_n0.png",
-      "images/creature/ElfCleric/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElfCleric/overworld_s0.png",
-      "images/creature/ElfCleric/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElfCleric/overworld_w0.png",
-      "images/creature/ElfCleric/overworld_w1.png"
-    ]
-  },
-  "race": "Elf",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Regalis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 641
+    "battleSprite":  "images/creature/ElfCleric/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  554,
+    "item":  702,
+    "lore":  "Elves are devoted protectors of nature that try to spread their ideas and customs to the rest of Rodia, by any means necessary.\\n\\nClerics are usually the spokespersons of their message, though if they are not treated with respect, as is usually the case, they let their maces do the talking instead. In battle, they prefer being on the front lines and try to make the enemies lower their guard so that another Elf can take advantage and attack them by surprise.",
+    "menagerieDialog":  [
+                            "The sound of elves singing at night is a spectacle worth witnessing.",
+                            "No one shall trespass through our lands without consequences.",
+                            "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+                            "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+                            "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elf Cleric",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElfCleric/overworld_e0.png",
+                                         "images/creature/ElfCleric/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElfCleric/overworld_n0.png",
+                                          "images/creature/ElfCleric/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElfCleric/overworld_s0.png",
+                                          "images/creature/ElfCleric/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElfCleric/overworld_w0.png",
+                                         "images/creature/ElfCleric/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elf",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Regalis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  641,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

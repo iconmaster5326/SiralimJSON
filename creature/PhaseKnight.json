@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PhaseKnight/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 207,
-  "item": 453,
-  "lore": "No matter how damaged its armor is, a Phase Warrior will keep moving until its core is destroyed.\\n\\nThe first Phase Knights belonged to the royal guard of Siralim, who sacrificed themselves so that the young prince could escape from Sigmund. They are honorable creatures that protect the innocent at the cost of taking damage. In addition, their shield can absorb the effects of many spells.",
-  "menagerieDialog": [
-    "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
-    "(It\u0027s dancing and asking you to call it \u0022Dio\u0022. You are now questioning all your life choices.)",
-    "(It tries to impress you by moving random objects through its body.)",
-    "I am yours to command.",
-    "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
-  ],
-  "minDepth": 1,
-  "name": "Phase Knight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PhaseKnight/overworld_e0.png",
-      "images/creature/PhaseKnight/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PhaseKnight/overworld_n0.png",
-      "images/creature/PhaseKnight/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PhaseKnight/overworld_s0.png",
-      "images/creature/PhaseKnight/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PhaseKnight/overworld_w0.png",
-      "images/creature/PhaseKnight/overworld_w1.png"
-    ]
-  },
-  "race": "Phase Warrior",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 368
+    "battleSprite":  "images/creature/PhaseKnight/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  207,
+    "item":  453,
+    "lore":  "No matter how damaged its armor is, a Phase Warrior will keep moving until its core is destroyed.\\n\\nThe first Phase Knights belonged to the royal guard of Siralim, who sacrificed themselves so that the young prince could escape from Sigmund. They are honorable creatures that protect the innocent at the cost of taking damage. In addition, their shield can absorb the effects of many spells.",
+    "menagerieDialog":  [
+                            "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
+                            "(It\u0027s dancing and asking you to call it \"Dio\". You are now questioning all your life choices.)",
+                            "(It tries to impress you by moving random objects through its body.)",
+                            "I am yours to command.",
+                            "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Phase Knight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PhaseKnight/overworld_e0.png",
+                                         "images/creature/PhaseKnight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PhaseKnight/overworld_n0.png",
+                                          "images/creature/PhaseKnight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PhaseKnight/overworld_s0.png",
+                                          "images/creature/PhaseKnight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PhaseKnight/overworld_w0.png",
+                                         "images/creature/PhaseKnight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Phase Warrior",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  368,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

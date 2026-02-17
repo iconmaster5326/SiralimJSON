@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "(Hefting its weapon and approaching slowly with its guard raised, the Crusader signals its intent to protect the treasure by force!)",
-    "(Suddenly charging in out of nowhere, the Crusader almost takes your head off with its weapon, but you thankfully duck its swing in time! Your creatures move to protect you!)",
-    "(The Crusader guarding the treasure, despite staying as still as a stone the whole time you were in the room, suddenly slams its weapon into the ground as you approach!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 {CONDNAME_BUFF_SHELL} buffs have a 10% chance to persist after taking damage.",
-    "5": "Your creatures with {CONDNAME_BUFF_SHELL} have a 5% chance to avoid damage.",
-    "8": "Doubles the chance for these effects to occur."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    380,
-    381,
-    382,
-    383,
-    384,
-    385,
-    644,
-    1012
-  ],
-  "icon": "images/race/Crusader.png",
-  "master": {
-    "costume": 318,
-    "dialog": "Crusaders are defensive melee attackers that can pack a serious punch while also taking a beating themselves. Here, let me show you just how tough they are!",
-    "item": 1158,
-    "name": "Orlik",
-    "trait": 1419
-  },
-  "name": "Crusader",
-  "notes": [],
-  "skins": [
-    74,
-    263,
-    506,
-    660,
-    818
-  ]
+    "bossDialog":  [
+                       "(Hefting its weapon and approaching slowly with its guard raised, the Crusader signals its intent to protect the treasure by force!)",
+                       "(Suddenly charging in out of nowhere, the Crusader almost takes your head off with its weapon, but you thankfully duck its swing in time! Your creatures move to protect you!)",
+                       "(The Crusader guarding the treasure, despite staying as still as a stone the whole time you were in the room, suddenly slams its weapon into the ground as you approach!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 {CONDNAME_BUFF_SHELL} buffs have a 10% chance to persist after taking damage.",
+                        "5":  "Your creatures with {CONDNAME_BUFF_SHELL} have a 5% chance to avoid damage.",
+                        "8":  "Doubles the chance for these effects to occur."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      380,
+                      381,
+                      382,
+                      383,
+                      384,
+                      385,
+                      644,
+                      1012
+                  ],
+    "icon":  "images/race/Crusader.png",
+    "master":  {
+                   "costume":  318,
+                   "dialog":  "Crusaders are defensive melee attackers that can pack a serious punch while also taking a beating themselves. Here, let me show you just how tough they are!",
+                   "item":  1158,
+                   "name":  "Orlik",
+                   "trait":  1419
+               },
+    "name":  "Crusader",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  74,
+                  263,
+                  506,
+                  660,
+                  818
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

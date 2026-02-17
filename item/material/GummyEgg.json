@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCamaraderie:\nAfter this creature {ACTION_defends}, it gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Maximum {STAT_health}. If this creature already has a {CONDNAME_BUFF_BARRIER}, it gives it to a random ally instead.",
-  "icon": "images/item/material/GummyEgg.png",
-  "id": 15,
-  "name": "Gummy Egg",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1042
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCamaraderie:\nAfter this creature {ACTION_defends}, it gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Maximum {STAT_health}. If this creature already has a {CONDNAME_BUFF_BARRIER}, it gives it to a random ally instead.",
+    "icon":  "images/item/material/GummyEgg.png",
+    "id":  15,
+    "name":  "Gummy Egg",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1042,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

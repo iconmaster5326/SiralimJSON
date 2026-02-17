@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EvilSpirit/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 985,
-  "item": 1311,
-  "lore": "This creature owes its name to its sinister appearance that has scared many travelers. However, people who live near caves or very dense forests where sunlight barely shines through the canopy know there is no reason to be afraid of them. In such places, it is common to have heard stories in which someone who was missing returns several days later thanks to an Evil Spirit\u0027s help.",
-  "menagerieDialog": [
-    "(Something about this creature\u0027s presence is particularly comforting.)",
-    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
-    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
-    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
-    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Evil Spirit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EvilSpirit/overworld_e0.png",
-      "images/creature/EvilSpirit/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EvilSpirit/overworld_n0.png",
-      "images/creature/EvilSpirit/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EvilSpirit/overworld_s0.png",
-      "images/creature/EvilSpirit/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EvilSpirit/overworld_w0.png",
-      "images/creature/EvilSpirit/overworld_w1.png"
-    ]
-  },
-  "race": "Spirit",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Death Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1559
+    "battleSprite":  "images/creature/EvilSpirit/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  985,
+    "item":  1311,
+    "lore":  "This creature owes its name to its sinister appearance that has scared many travelers. However, people who live near caves or very dense forests where sunlight barely shines through the canopy know there is no reason to be afraid of them. In such places, it is common to have heard stories in which someone who was missing returns several days later thanks to an Evil Spirit\u0027s help.",
+    "menagerieDialog":  [
+                            "(Something about this creature\u0027s presence is particularly comforting.)",
+                            "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+                            "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+                            "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+                            "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Evil Spirit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EvilSpirit/overworld_e0.png",
+                                         "images/creature/EvilSpirit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EvilSpirit/overworld_n0.png",
+                                          "images/creature/EvilSpirit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EvilSpirit/overworld_s0.png",
+                                          "images/creature/EvilSpirit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EvilSpirit/overworld_w0.png",
+                                         "images/creature/EvilSpirit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spirit",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Death Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1559,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

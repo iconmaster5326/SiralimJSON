@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMass Resurrection:\nAfter your creatures that belong to your most common race are resurrected, the others have a 30% chance to be resurrected with 50% {STAT_health} as well. This trait does not stack.",
-  "icon": "images/item/material/QueenBrain.png",
-  "id": 975,
-  "name": "Queen Brain",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1163
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMass Resurrection:\nAfter your creatures that belong to your most common race are resurrected, the others have a 30% chance to be resurrected with 50% {STAT_health} as well. This trait does not stack.",
+    "icon":  "images/item/material/QueenBrain.png",
+    "id":  975,
+    "name":  "Queen Brain",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1163,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

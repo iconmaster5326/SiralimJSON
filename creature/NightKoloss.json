@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NightKoloss/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 893,
-  "item": 976,
-  "lore": "In the middle of battle, Kolosses can add extra tissue to their puppets to make them harder to take down. It is currently believed that this ability could have medical uses.\\n\\nNight Kolosses, named so by a human adventurer, are good leaders, but they stand out most of all for their ability to understand the emotions of their peers. Most of them use this advantage to improve their quality of life, but some others, more ambitious and devious, prefer to manipulate them in order to gain power.",
-  "menagerieDialog": [
-    "You go away now. Me sleep soon.",
-    "We go and kill now. Together, right now?",
-    "(It\u0027s busy polishing its weapon for the next battle.)",
-    "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
-    "(You can see the veins through its semi-transparent skin. Interesting.)"
-  ],
-  "minDepth": 1,
-  "name": "Night Koloss",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NightKoloss/overworld_e0.png",
-      "images/creature/NightKoloss/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NightKoloss/overworld_n0.png",
-      "images/creature/NightKoloss/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NightKoloss/overworld_s0.png",
-      "images/creature/NightKoloss/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NightKoloss/overworld_w0.png",
-      "images/creature/NightKoloss/overworld_w1.png"
-    ]
-  },
-  "race": "Koloss",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 36,
-    "intelligence": 13,
-    "speed": 13
-  },
-  "trait": 1152
+    "battleSprite":  "images/creature/NightKoloss/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  893,
+    "item":  976,
+    "lore":  "In the middle of battle, Kolosses can add extra tissue to their puppets to make them harder to take down. It is currently believed that this ability could have medical uses.\\n\\nNight Kolosses, named so by a human adventurer, are good leaders, but they stand out most of all for their ability to understand the emotions of their peers. Most of them use this advantage to improve their quality of life, but some others, more ambitious and devious, prefer to manipulate them in order to gain power.",
+    "menagerieDialog":  [
+                            "You go away now. Me sleep soon.",
+                            "We go and kill now. Together, right now?",
+                            "(It\u0027s busy polishing its weapon for the next battle.)",
+                            "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
+                            "(You can see the veins through its semi-transparent skin. Interesting.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Night Koloss",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NightKoloss/overworld_e0.png",
+                                         "images/creature/NightKoloss/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NightKoloss/overworld_n0.png",
+                                          "images/creature/NightKoloss/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NightKoloss/overworld_s0.png",
+                                          "images/creature/NightKoloss/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NightKoloss/overworld_w0.png",
+                                         "images/creature/NightKoloss/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Koloss",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  36,
+                       "intelligence":  13,
+                       "speed":  13
+                   },
+    "trait":  1152,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

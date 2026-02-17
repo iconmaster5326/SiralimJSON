@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSomething To Complain About:\nEnemies deal 10% less damage for each Sealed Spell Gem they have. This trait does not stack.",
-  "icon": "images/item/material/PossessedCarapace.png",
-  "id": 943,
-  "name": "Possessed Carapace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1191
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSomething To Complain About:\nEnemies deal 10% less damage for each Sealed Spell Gem they have. This trait does not stack.",
+    "icon":  "images/item/material/PossessedCarapace.png",
+    "id":  943,
+    "name":  "Possessed Carapace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1191,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

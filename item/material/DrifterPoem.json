@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLife And Other Illusions:\nEffects that activate when creatures {ACTION_attack} are ignored.",
-  "icon": "images/item/material/DrifterPoem.png",
-  "id": 814,
-  "name": "Drifter Poem",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 841
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLife And Other Illusions:\nEffects that activate when creatures {ACTION_attack} are ignored.",
+    "icon":  "images/item/material/DrifterPoem.png",
+    "id":  814,
+    "name":  "Drifter Poem",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  841,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

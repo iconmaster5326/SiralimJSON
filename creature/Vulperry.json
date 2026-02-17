@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Vulperry/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 747,
-  "item": 82,
-  "lore": "Even if it belonged to a Blue Blood, a soul corrupted from within could still be absorbed by a Black Nether Orb.\\n\\nVulperries are usually affectionate and often jump up and down trying to climb on top of their owner, who for this reason always ends up smelling of beer. When a Vulperry gets angry, it arches its back and begins to bubble frantically.",
-  "menagerieDialog": [
-    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
-    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
-    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
-    "(Now here\u0027s a creature who knows how to party!)",
-    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
-  ],
-  "minDepth": 1,
-  "name": "Vulperry",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Vulperry/overworld_e0.png",
-      "images/creature/Vulperry/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Vulperry/overworld_n0.png",
-      "images/creature/Vulperry/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Vulperry/overworld_s0.png",
-      "images/creature/Vulperry/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Vulperry/overworld_w0.png",
-      "images/creature/Vulperry/overworld_w1.png"
-    ]
-  },
-  "race": "Alemental",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Gambling Dwarf Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 991
+    "battleSprite":  "images/creature/Vulperry/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  747,
+    "item":  82,
+    "lore":  "Even if it belonged to a Blue Blood, a soul corrupted from within could still be absorbed by a Black Nether Orb.\\n\\nVulperries are usually affectionate and often jump up and down trying to climb on top of their owner, who for this reason always ends up smelling of beer. When a Vulperry gets angry, it arches its back and begins to bubble frantically.",
+    "menagerieDialog":  [
+                            "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+                            "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+                            "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+                            "(Now here\u0027s a creature who knows how to party!)",
+                            "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vulperry",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Vulperry/overworld_e0.png",
+                                         "images/creature/Vulperry/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Vulperry/overworld_n0.png",
+                                          "images/creature/Vulperry/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Vulperry/overworld_s0.png",
+                                          "images/creature/Vulperry/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Vulperry/overworld_w0.png",
+                                         "images/creature/Vulperry/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Alemental",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Gambling Dwarf Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  991,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BloodSlime/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 179,
-  "item": 464,
-  "lore": "When the Slimes began to spread through the Refuge of the Magi, Zonte decided to investigate the cause.\\n\\nBlood Slimes leave behind a trail that often scares both humans and creatures. Interestingly, these Slimes can\u0027t stand the sight of blood, and sometimes flee in terror of their own trail when they turn around.",
-  "menagerieDialog": [
-    "(It has an extremely punchable expression on its face.)",
-    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
-    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
-    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
-    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
-  ],
-  "minDepth": 1,
-  "name": "Blood Slime",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BloodSlime/overworld_e0.png",
-      "images/creature/BloodSlime/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BloodSlime/overworld_n0.png",
-      "images/creature/BloodSlime/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BloodSlime/overworld_s0.png",
-      "images/creature/BloodSlime/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BloodSlime/overworld_w0.png",
-      "images/creature/BloodSlime/overworld_w1.png"
-    ]
-  },
-  "race": "Slime",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 23,
-    "health": 41,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 378
+    "battleSprite":  "images/creature/BloodSlime/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  179,
+    "item":  464,
+    "lore":  "When the Slimes began to spread through the Refuge of the Magi, Zonte decided to investigate the cause.\\n\\nBlood Slimes leave behind a trail that often scares both humans and creatures. Interestingly, these Slimes can\u0027t stand the sight of blood, and sometimes flee in terror of their own trail when they turn around.",
+    "menagerieDialog":  [
+                            "(It has an extremely punchable expression on its face.)",
+                            "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+                            "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+                            "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+                            "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Blood Slime",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BloodSlime/overworld_e0.png",
+                                         "images/creature/BloodSlime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BloodSlime/overworld_n0.png",
+                                          "images/creature/BloodSlime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BloodSlime/overworld_s0.png",
+                                          "images/creature/BloodSlime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BloodSlime/overworld_w0.png",
+                                         "images/creature/BloodSlime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Slime",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  23,
+                       "health":  41,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  378,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

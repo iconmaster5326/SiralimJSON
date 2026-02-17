@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Kaleidotoad/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1429,
-  "item": 1763,
-  "lore": "Whether mutation or god, the Kaleidotoad is a chromatic rarity\u00E2\u20AC\u201Dan unstable genetic mix born from some ancient arcane experiment by the Mireling Spellscatterers. Its colors shift with its mood, and its hypnotic gaze can unsettle even the steadiest soul. Some follow it like a prophet, while others hunt it out of superstition. The former often end up slaves to its whims, and the latter usually meet the same fate.",
-  "menagerieDialog": [
-    "(They\u0027re huddled together in a small pool, occasionally blowing bubbles.)",
-    "We may be small, but our fury is mighty! To battle!",
-    "The secrets of the swamp are ours. Care to learn some ancient wisdom?",
-    "Our swamp magic protects us! You\u0027ll never break through!",
-    "(They\u0027re hopping about frantically, croaking war cries.)"
-  ],
-  "minDepth": 1,
-  "name": "Kaleido-toad",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Kaleidotoad/overworld_e0.png",
-      "images/creature/Kaleidotoad/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Kaleidotoad/overworld_n0.png",
-      "images/creature/Kaleidotoad/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Kaleidotoad/overworld_s0.png",
-      "images/creature/Kaleidotoad/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Kaleidotoad/overworld_w0.png",
-      "images/creature/Kaleidotoad/overworld_w1.png"
-    ]
-  },
-  "race": "Mireling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 14
-  },
-  "trait": 2116
+    "battleSprite":  "images/creature/Kaleidotoad/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1429,
+    "item":  1763,
+    "lore":  "Whether mutation or god, the Kaleidotoad is a chromatic rarity—an unstable genetic mix born from some ancient arcane experiment by the Mireling Spellscatterers. Its colors shift with its mood, and its hypnotic gaze can unsettle even the steadiest soul. Some follow it like a prophet, while others hunt it out of superstition. The former often end up slaves to its whims, and the latter usually meet the same fate.",
+    "menagerieDialog":  [
+                            "(They\u0027re huddled together in a small pool, occasionally blowing bubbles.)",
+                            "We may be small, but our fury is mighty! To battle!",
+                            "The secrets of the swamp are ours. Care to learn some ancient wisdom?",
+                            "Our swamp magic protects us! You\u0027ll never break through!",
+                            "(They\u0027re hopping about frantically, croaking war cries.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Kaleido-toad",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Kaleidotoad/overworld_e0.png",
+                                         "images/creature/Kaleidotoad/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Kaleidotoad/overworld_n0.png",
+                                          "images/creature/Kaleidotoad/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Kaleidotoad/overworld_s0.png",
+                                          "images/creature/Kaleidotoad/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Kaleidotoad/overworld_w0.png",
+                                         "images/creature/Kaleidotoad/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mireling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  14
+                   },
+    "trait":  2116,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Tellur/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 21,
-  "name": "Tellur",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Tellur/overworld_e0.png",
-      "images/skin/Tellur/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Tellur/overworld_n0.png",
-      "images/skin/Tellur/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Tellur/overworld_s0.png",
-      "images/skin/Tellur/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Tellur/overworld_w0.png",
-      "images/skin/Tellur/overworld_w1.png"
-    ]
-  },
-  "race": "Dragon",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Tellur/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  21,
+    "name":  "Tellur",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Tellur/overworld_e0.png",
+                                         "images/skin/Tellur/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Tellur/overworld_n0.png",
+                                          "images/skin/Tellur/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Tellur/overworld_s0.png",
+                                          "images/skin/Tellur/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Tellur/overworld_w0.png",
+                                         "images/skin/Tellur/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dragon",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

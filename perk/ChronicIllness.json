@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures take damage from {CONDNAME_DEBUFF_POISON} \u003C1\u003E  additional time(s).",
-  "icon": "images/perk/ChronicIllness.png",
-  "id": 483,
-  "maxRanks": 2,
-  "name": "Chronic Illness",
-  "notes": [],
-  "pointsPerRank": 50,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "Your creatures take damage from {CONDNAME_DEBUFF_POISON} \u003c1\u003e  additional time(s).",
+    "icon":  "images/perk/ChronicIllness.png",
+    "id":  483,
+    "maxRanks":  2,
+    "name":  "Chronic Illness",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  50,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

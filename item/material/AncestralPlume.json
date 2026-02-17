@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLifebinder:\nAfter your creatures kill an ally, your creatures are resurrected with 50% {STAT_health}.",
-  "icon": "images/item/material/AncestralPlume.png",
-  "id": 439,
-  "name": "Ancestral Plume",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 354
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLifebinder:\nAfter your creatures kill an ally, your creatures are resurrected with 50% {STAT_health}.",
+    "icon":  "images/item/material/AncestralPlume.png",
+    "id":  439,
+    "name":  "Ancestral Plume",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  354,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

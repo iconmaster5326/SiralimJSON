@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PitWraithRedeemer/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 267,
-  "item": 252,
-  "lore": "Before joining the Red Hat order, Milner graduated as Mage from the Magic University of Vanelin thanks to a famous study about Pit Wraiths. She discovered that these creatures feed on unconsolidated temporal energy. That is, the residual energy left behind by decisions that, when taken, prevented actions with great consequences.\\n\\nThe claws of a Pit Wraith Redeemer age its enemies considerably for thirty seconds. A festival attraction in Andolin promises to show the \u0022future\u0022 for a couple of coins. The sign reads: \u0022Touch the hand of the beast and look in the mirror!\u0022",
-  "menagerieDialog": [
-    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
-    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
-    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
-    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
-    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
-  ],
-  "minDepth": 1,
-  "name": "Pit Wraith Redeemer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PitWraithRedeemer/overworld_e0.png",
-      "images/creature/PitWraithRedeemer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PitWraithRedeemer/overworld_n0.png",
-      "images/creature/PitWraithRedeemer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PitWraithRedeemer/overworld_s0.png",
-      "images/creature/PitWraithRedeemer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PitWraithRedeemer/overworld_w0.png",
-      "images/creature/PitWraithRedeemer/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Wraith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 12
-  },
-  "trait": 162
+    "battleSprite":  "images/creature/PitWraithRedeemer/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  267,
+    "item":  252,
+    "lore":  "Before joining the Red Hat order, Milner graduated as Mage from the Magic University of Vanelin thanks to a famous study about Pit Wraiths. She discovered that these creatures feed on unconsolidated temporal energy. That is, the residual energy left behind by decisions that, when taken, prevented actions with great consequences.\\n\\nThe claws of a Pit Wraith Redeemer age its enemies considerably for thirty seconds. A festival attraction in Andolin promises to show the \"future\" for a couple of coins. The sign reads: \"Touch the hand of the beast and look in the mirror!\"",
+    "menagerieDialog":  [
+                            "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+                            "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+                            "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+                            "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+                            "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pit Wraith Redeemer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PitWraithRedeemer/overworld_e0.png",
+                                         "images/creature/PitWraithRedeemer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PitWraithRedeemer/overworld_n0.png",
+                                          "images/creature/PitWraithRedeemer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PitWraithRedeemer/overworld_s0.png",
+                                          "images/creature/PitWraithRedeemer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PitWraithRedeemer/overworld_w0.png",
+                                         "images/creature/PitWraithRedeemer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Wraith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  12
+                   },
+    "trait":  162,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

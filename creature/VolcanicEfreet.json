@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/VolcanicEfreet/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 115,
-  "item": 420,
-  "lore": "Efreets are able to speak, but their vocabulary is not very extensive, limited to short sentences that often include pyromaniac threats and manifestations of their contempt towards Djinns.\\n\\nTracking a Volcanic Efreet is very easy, due to the lava that constantly drips from its body. Naturally, Magi who have these creatures under their command should take preventive measures so that their home is not reduced to a pile of ash and molten rock.",
-  "menagerieDialog": [
-    "Death to the Djinns!",
-    "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
-    "You can catch just about anything on fire if you set your mind to it, really.",
-    "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
-    "Fire solves everything. If you need me to take care of someone for you, just say the word."
-  ],
-  "minDepth": 1,
-  "name": "Volcanic Efreet",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VolcanicEfreet/overworld_e0.png",
-      "images/creature/VolcanicEfreet/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VolcanicEfreet/overworld_n0.png",
-      "images/creature/VolcanicEfreet/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VolcanicEfreet/overworld_s0.png",
-      "images/creature/VolcanicEfreet/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VolcanicEfreet/overworld_w0.png",
-      "images/creature/VolcanicEfreet/overworld_w1.png"
-    ]
-  },
-  "race": "Efreet",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    17
-  ],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 17,
-    "health": 34,
-    "intelligence": 19,
-    "speed": 22
-  },
-  "trait": 335
+    "battleSprite":  "images/creature/VolcanicEfreet/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  115,
+    "item":  420,
+    "lore":  "Efreets are able to speak, but their vocabulary is not very extensive, limited to short sentences that often include pyromaniac threats and manifestations of their contempt towards Djinns.\\n\\nTracking a Volcanic Efreet is very easy, due to the lava that constantly drips from its body. Naturally, Magi who have these creatures under their command should take preventive measures so that their home is not reduced to a pile of ash and molten rock.",
+    "menagerieDialog":  [
+                            "Death to the Djinns!",
+                            "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
+                            "You can catch just about anything on fire if you set your mind to it, really.",
+                            "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
+                            "Fire solves everything. If you need me to take care of someone for you, just say the word."
+                        ],
+    "minDepth":  1,
+    "name":  "Volcanic Efreet",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VolcanicEfreet/overworld_e0.png",
+                                         "images/creature/VolcanicEfreet/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VolcanicEfreet/overworld_n0.png",
+                                          "images/creature/VolcanicEfreet/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VolcanicEfreet/overworld_s0.png",
+                                          "images/creature/VolcanicEfreet/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VolcanicEfreet/overworld_w0.png",
+                                         "images/creature/VolcanicEfreet/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Efreet",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            17
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  17,
+                       "health":  34,
+                       "intelligence":  19,
+                       "speed":  22
+                   },
+    "trait":  335,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/4080/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": 28,
-  "id": 1101,
-  "item": null,
-  "lore": "The existence of this God and the Forgotten Laboratory are linked to the technology developed at Ubi Concordia. In fact, he is the youngest God in existence, and still knows practically nothing about Rodia or the world in general. He is able to understand human emotions even if he does not feel them, but it is difficult for him, so he often asks if he has made a mistake when it comes to evaluating them. He is not hostile to outsiders, but he does not understand why they seem to enjoy killing each other, as he does not see the point of risking something so fleeting and fragile in that way for a few coins.",
-  "menagerieDialog": [
-    "I NO LONGER WISH TO BE IN YOUR PARTY. PLEASE DEPOSIT ME IN THE MENAGERIE.",
-    "I WOULD LIKE TO ATTACK SOMETHING. LET US BE ON OUR WAY.",
-    "MY KNOWLEDGE AND WISDOM KNOW NO BOUNDS. ON THE OTHER HAND, YOUR LIMITATIONS WERE REALIZED LONG AGO.",
-    "THIS CASTLE IS UGLY. I WOULD LIKE TO VOLUNTEER TO DECORATE IT IN YOUR STEAD.",
-    "YOUR CREATURES ARE LAZY. I WILL DISCIPLINE THEM IF YOU WISH."
-  ],
-  "minDepth": 1,
-  "name": "4080",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/4080/overworld_e0.png",
-      "images/creature/4080/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/4080/overworld_n0.png",
-      "images/creature/4080/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/4080/overworld_s0.png",
-      "images/creature/4080/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/4080/overworld_w0.png",
-      "images/creature/4080/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    591,
-    613,
-    616
-  ],
-  "sources": [
-    {
-      "god": 28,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1983
+    "battleSprite":  "images/creature/4080/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  28,
+    "id":  1101,
+    "item":  null,
+    "lore":  "The existence of this God and the Forgotten Laboratory are linked to the technology developed at Ubi Concordia. In fact, he is the youngest God in existence, and still knows practically nothing about Rodia or the world in general. He is able to understand human emotions even if he does not feel them, but it is difficult for him, so he often asks if he has made a mistake when it comes to evaluating them. He is not hostile to outsiders, but he does not understand why they seem to enjoy killing each other, as he does not see the point of risking something so fleeting and fragile in that way for a few coins.",
+    "menagerieDialog":  [
+                            "I NO LONGER WISH TO BE IN YOUR PARTY. PLEASE DEPOSIT ME IN THE MENAGERIE.",
+                            "I WOULD LIKE TO ATTACK SOMETHING. LET US BE ON OUR WAY.",
+                            "MY KNOWLEDGE AND WISDOM KNOW NO BOUNDS. ON THE OTHER HAND, YOUR LIMITATIONS WERE REALIZED LONG AGO.",
+                            "THIS CASTLE IS UGLY. I WOULD LIKE TO VOLUNTEER TO DECORATE IT IN YOUR STEAD.",
+                            "YOUR CREATURES ARE LAZY. I WILL DISCIPLINE THEM IF YOU WISH."
+                        ],
+    "minDepth":  1,
+    "name":  "4080",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/4080/overworld_e0.png",
+                                         "images/creature/4080/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/4080/overworld_n0.png",
+                                          "images/creature/4080/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/4080/overworld_s0.png",
+                                          "images/creature/4080/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/4080/overworld_w0.png",
+                                         "images/creature/4080/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  591,
+                  613,
+                  616
+              ],
+    "sources":  [
+                    {
+                        "god":  28,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1983,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

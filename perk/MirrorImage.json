@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures have a \u003C1\u003E% chance to {ACTION_cast} spells an additional time. This effect can occur repeatedly until it fails.",
-  "icon": "images/perk/MirrorImage.png",
-  "id": 200,
-  "maxRanks": 25,
-  "name": "Mirror Image",
-  "notes": [],
-  "pointsPerRank": 4,
-  "specialization": 4
+    "anointable":  true,
+    "description":  "Your creatures have a \u003c1\u003e% chance to {ACTION_cast} spells an additional time. This effect can occur repeatedly until it fails.",
+    "icon":  "images/perk/MirrorImage.png",
+    "id":  200,
+    "maxRanks":  25,
+    "name":  "Mirror Image",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  4,
+    "specialization":  4,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

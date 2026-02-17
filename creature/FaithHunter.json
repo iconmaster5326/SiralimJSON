@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FaithHunter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 304,
-  "item": 522,
-  "lore": "Hunters are nomadic creatures that travel around the world on the backs of great wolves. The bond between the rider and its mount is established from a young age, and they generally do not separate until one of them dies. All of them follow the ideals of Meraxis, which are not too clear to most humans and other intelligent species, and the God of Bliss grants them special powers in exchange, like the Faith Hunter\u0027s ability to bring its allies back to life.",
-  "menagerieDialog": [
-    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
-    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
-    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
-    "(It\u0027s busy feeding bits of meat to its wolf.)",
-    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
-  ],
-  "minDepth": 1,
-  "name": "Faith Hunter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FaithHunter/overworld_e0.png",
-      "images/creature/FaithHunter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FaithHunter/overworld_n0.png",
-      "images/creature/FaithHunter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FaithHunter/overworld_s0.png",
-      "images/creature/FaithHunter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FaithHunter/overworld_w0.png",
-      "images/creature/FaithHunter/overworld_w1.png"
-    ]
-  },
-  "race": "Hunter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 13,
-    "health": 21,
-    "intelligence": 23,
-    "speed": 28
-  },
-  "trait": 436
+    "battleSprite":  "images/creature/FaithHunter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  304,
+    "item":  522,
+    "lore":  "Hunters are nomadic creatures that travel around the world on the backs of great wolves. The bond between the rider and its mount is established from a young age, and they generally do not separate until one of them dies. All of them follow the ideals of Meraxis, which are not too clear to most humans and other intelligent species, and the God of Bliss grants them special powers in exchange, like the Faith Hunter\u0027s ability to bring its allies back to life.",
+    "menagerieDialog":  [
+                            "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+                            "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+                            "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+                            "(It\u0027s busy feeding bits of meat to its wolf.)",
+                            "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Faith Hunter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FaithHunter/overworld_e0.png",
+                                         "images/creature/FaithHunter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FaithHunter/overworld_n0.png",
+                                          "images/creature/FaithHunter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FaithHunter/overworld_s0.png",
+                                          "images/creature/FaithHunter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FaithHunter/overworld_w0.png",
+                                         "images/creature/FaithHunter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hunter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  13,
+                       "health":  21,
+                       "intelligence":  23,
+                       "speed":  28
+                   },
+    "trait":  436,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

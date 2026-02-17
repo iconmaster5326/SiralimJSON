@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures manually {ACTION_cast} a {SPELL_alcohol}, they have a 50% chance to {ACTION_cast} a random spell. Otherwise, they {ACTION_attack} a random enemy.",
-  "icon": "images/perk/Chaser.png",
-  "id": 605,
-  "maxRanks": 1,
-  "name": "Chaser",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 40
+    "anointable":  true,
+    "description":  "After your creatures manually {ACTION_cast} a {SPELL_alcohol}, they have a 50% chance to {ACTION_cast} a random spell. Otherwise, they {ACTION_attack} a random enemy.",
+    "icon":  "images/perk/Chaser.png",
+    "id":  605,
+    "maxRanks":  1,
+    "name":  "Chaser",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  40,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfinite Struggle:\nAfter this creature {ACTION_attacks}, it has a 25% chance to continue {ACTION_attacking} the target for each debuff it has.",
-  "icon": "images/item/material/RunnerTuft.png",
-  "id": 727,
-  "name": "Runner Tuft",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 666
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfinite Struggle:\nAfter this creature {ACTION_attacks}, it has a 25% chance to continue {ACTION_attacking} the target for each debuff it has.",
+    "icon":  "images/item/material/RunnerTuft.png",
+    "id":  727,
+    "name":  "Runner Tuft",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  666,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

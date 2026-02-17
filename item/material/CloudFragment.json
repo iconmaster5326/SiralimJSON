@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCloudy Constitution:\nThis creature always has {CONDNAME_DEBUFF_VULNERABLE}. Your creatures with {CONDNAME_DEBUFF_VULNERABLE} gain 50% more stats from all sources. This trait does not stack.",
-  "icon": "images/item/material/CloudFragment.png",
-  "id": 1782,
-  "name": "Cloud Fragment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2135
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCloudy Constitution:\nThis creature always has {CONDNAME_DEBUFF_VULNERABLE}. Your creatures with {CONDNAME_DEBUFF_VULNERABLE} gain 50% more stats from all sources. This trait does not stack.",
+    "icon":  "images/item/material/CloudFragment.png",
+    "id":  1782,
+    "name":  "Cloud Fragment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2135,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

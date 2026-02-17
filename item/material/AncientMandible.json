@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConsume:\nWhen this creature {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_SNARED}, it deals 150% more damage, recovers {STAT_health} equal to 100% of the damage dealt, and removes this debuff.",
-  "icon": "images/item/material/AncientMandible.png",
-  "id": 609,
-  "name": "Ancient Mandible",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 523
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConsume:\nWhen this creature {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_SNARED}, it deals 150% more damage, recovers {STAT_health} equal to 100% of the damage dealt, and removes this debuff.",
+    "icon":  "images/item/material/AncientMandible.png",
+    "id":  609,
+    "name":  "Ancient Mandible",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  523,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

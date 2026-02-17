@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Mania:\nAfter this creature {ACTION_defends} or {ACTION_provokes}, it {ACTION_casts} [icons,1968] Chaos Rift.",
-  "icon": "images/item/material/PandemoniumIchor.png",
-  "id": 895,
-  "name": "Pandemonium Ichor",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 774
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPandemonium Mania:\nAfter this creature {ACTION_defends} or {ACTION_provokes}, it {ACTION_casts} [icons,1968] Chaos Rift.",
+    "icon":  "images/item/material/PandemoniumIchor.png",
+    "id":  895,
+    "name":  "Pandemonium Ichor",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  774,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

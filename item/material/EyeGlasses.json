@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDouble Vision:\nAfter this creature {ACTION_attacks}, it has a 40% chance to {ACTION_cast} its top-most Spell Gem.",
-  "icon": "images/item/material/EyeGlasses.png",
-  "id": 1633,
-  "name": "Eye Glasses",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1733
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDouble Vision:\nAfter this creature {ACTION_attacks}, it has a 40% chance to {ACTION_cast} its top-most Spell Gem.",
+    "icon":  "images/item/material/EyeGlasses.png",
+    "id":  1633,
+    "name":  "Eye Glasses",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1733,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

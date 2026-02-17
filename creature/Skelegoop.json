@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Skelegoop/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1164,
-  "item": 1546,
-  "lore": "Fifteen hundred years ago, there was a war between two kingdoms\u00E2\u20AC\u201Dthe humans and other creatures of Ercath against the Solomons of Pherior, a species of hominid rhinoceros that only inhabited that land. This species believed all kingdoms had to abide by their laws, and they never surrendered, even when not a single warrior was left alive. A necromancer Solomon who had studied magic in Siralim managed to revive some of his own kind by creating the Skelegoop. They say the purple, goo-looking glow surrounding its body is the will of the Solomon to enforce their laws. At present, this species has advanced, and it seems like it is no longer interested in imposing its laws, although they remain very strict in their own kingdom, so Ercath, Rodia, and other nations are paying attention to their movements just in case.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Skelegoop",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Skelegoop/overworld_e0.png",
-      "images/creature/Skelegoop/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Skelegoop/overworld_n0.png",
-      "images/creature/Skelegoop/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Skelegoop/overworld_s0.png",
-      "images/creature/Skelegoop/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Skelegoop/overworld_w0.png",
-      "images/creature/Skelegoop/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 1887
+    "battleSprite":  "images/creature/Skelegoop/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1164,
+    "item":  1546,
+    "lore":  "Fifteen hundred years ago, there was a war between two kingdoms—the humans and other creatures of Ercath against the Solomons of Pherior, a species of hominid rhinoceros that only inhabited that land. This species believed all kingdoms had to abide by their laws, and they never surrendered, even when not a single warrior was left alive. A necromancer Solomon who had studied magic in Siralim managed to revive some of his own kind by creating the Skelegoop. They say the purple, goo-looking glow surrounding its body is the will of the Solomon to enforce their laws. At present, this species has advanced, and it seems like it is no longer interested in imposing its laws, although they remain very strict in their own kingdom, so Ercath, Rodia, and other nations are paying attention to their movements just in case.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Skelegoop",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Skelegoop/overworld_e0.png",
+                                         "images/creature/Skelegoop/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Skelegoop/overworld_n0.png",
+                                          "images/creature/Skelegoop/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Skelegoop/overworld_s0.png",
+                                          "images/creature/Skelegoop/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Skelegoop/overworld_w0.png",
+                                         "images/creature/Skelegoop/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  1887,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

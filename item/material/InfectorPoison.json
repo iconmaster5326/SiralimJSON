@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImminent Danger:\nAfter your creatures attack an enemy with {CONDNAME_DEBUFF_BOMB}, the potency of the {CONDNAME_DEBUFF_BOMB} increases by 20%. This trait does not stack.",
-  "icon": "images/item/material/InfectorPoison.png",
-  "id": 948,
-  "name": "Infector Poison",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1184
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImminent Danger:\nAfter your creatures attack an enemy with {CONDNAME_DEBUFF_BOMB}, the potency of the {CONDNAME_DEBUFF_BOMB} increases by 20%. This trait does not stack.",
+    "icon":  "images/item/material/InfectorPoison.png",
+    "id":  948,
+    "name":  "Infector Poison",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1184,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

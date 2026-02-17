@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInky Escape:\nAs long as this creature hasn\u0027t gained or lost {STAT_speed}, it has 200% more {STAT_speed} and has {CONDNAME_BUFF_AGILE}.",
-  "icon": "images/item/material/GrossSucker.png",
-  "id": 1617,
-  "name": "Gross Sucker",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1954
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInky Escape:\nAs long as this creature hasn\u0027t gained or lost {STAT_speed}, it has 200% more {STAT_speed} and has {CONDNAME_BUFF_AGILE}.",
+    "icon":  "images/item/material/GrossSucker.png",
+    "id":  1617,
+    "name":  "Gross Sucker",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1954,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

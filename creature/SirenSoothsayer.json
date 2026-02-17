@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SirenSoothsayer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 31,
-  "item": 629,
-  "lore": "No mortal knows for certain how the Siren Soothsayers came to be. Some believe they were born from the laughter of Lister. Others, that they were created by Tartarith to torment humans. When the gem on their forehead begins to glow, every creature around them receives visions of horrible events, and an unquestionable certainty that they will come to pass in the future. However, this only happens in battle. Some testimonies state that the glow produces hopeful images in other situations.",
-  "menagerieDialog": [
-    "(Singing, as usual.)",
-    "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
-    "(It always seems eager to teach your other creatures new things.)",
-    "Dude... bubbles...",
-    "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Siren Soothsayer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SirenSoothsayer/overworld_e0.png",
-      "images/creature/SirenSoothsayer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SirenSoothsayer/overworld_n0.png",
-      "images/creature/SirenSoothsayer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SirenSoothsayer/overworld_s0.png",
-      "images/creature/SirenSoothsayer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SirenSoothsayer/overworld_w0.png",
-      "images/creature/SirenSoothsayer/overworld_w1.png"
-    ]
-  },
-  "race": "Siren",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Lister)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 41
+    "battleSprite":  "images/creature/SirenSoothsayer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  31,
+    "item":  629,
+    "lore":  "No mortal knows for certain how the Siren Soothsayers came to be. Some believe they were born from the laughter of Lister. Others, that they were created by Tartarith to torment humans. When the gem on their forehead begins to glow, every creature around them receives visions of horrible events, and an unquestionable certainty that they will come to pass in the future. However, this only happens in battle. Some testimonies state that the glow produces hopeful images in other situations.",
+    "menagerieDialog":  [
+                            "(Singing, as usual.)",
+                            "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
+                            "(It always seems eager to teach your other creatures new things.)",
+                            "Dude... bubbles...",
+                            "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Siren Soothsayer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SirenSoothsayer/overworld_e0.png",
+                                         "images/creature/SirenSoothsayer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SirenSoothsayer/overworld_n0.png",
+                                          "images/creature/SirenSoothsayer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SirenSoothsayer/overworld_s0.png",
+                                          "images/creature/SirenSoothsayer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SirenSoothsayer/overworld_w0.png",
+                                         "images/creature/SirenSoothsayer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Siren",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Lister)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  41,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

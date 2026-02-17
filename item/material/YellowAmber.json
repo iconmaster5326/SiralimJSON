@@ -1,19 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_stat] Stat Slot with this item to gain this property:\\n\\nHealth\\n\\nYou need 5 of these materials to use them for Socketing.",
-  "icon": "images/item/material/YellowAmber.png",
-  "id": 4,
-  "name": "Yellow Amber",
-  "notes": [],
-  "slot": "stat",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [
-    "health"
-  ],
-  "trait": null
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_stat] Stat Slot with this item to gain this property:\\n\\nHealth\\n\\nYou need 5 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/YellowAmber.png",
+    "id":  4,
+    "name":  "Yellow Amber",
+    "notes":  [
+
+              ],
+    "slot":  "stat",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+                  "health"
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

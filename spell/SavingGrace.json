@@ -1,38 +1,41 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Caster\u0027s debuffs are removed and it gains {CONDNAME_BUFF_SHELL}. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage that exceeds 25% of its Maximum {STAT_health}.",
-  "god": null,
-  "id": 612,
-  "manuallyCastable": false,
-  "maxCharges": 15,
-  "name": "Saving Grace",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Caster\u0027s debuffs are removed and it gains {CONDNAME_BUFF_SHELL}. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage that exceeds 25% of its Maximum {STAT_health}.",
+    "god":  null,
+    "id":  612,
+    "manuallyCastable":  false,
+    "maxCharges":  15,
+    "name":  "Saving Grace",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

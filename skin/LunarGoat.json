@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/LunarGoat/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 392,
-  "name": "Lunar Goat",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/LunarGoat/overworld_e0.png",
-      "images/skin/LunarGoat/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/LunarGoat/overworld_n0.png",
-      "images/skin/LunarGoat/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/LunarGoat/overworld_s0.png",
-      "images/skin/LunarGoat/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/LunarGoat/overworld_w0.png",
-      "images/skin/LunarGoat/overworld_w1.png"
-    ]
-  },
-  "race": "Satyr",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/LunarGoat/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  392,
+    "name":  "Lunar Goat",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/LunarGoat/overworld_e0.png",
+                                         "images/skin/LunarGoat/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/LunarGoat/overworld_n0.png",
+                                          "images/skin/LunarGoat/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/LunarGoat/overworld_s0.png",
+                                          "images/skin/LunarGoat/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/LunarGoat/overworld_w0.png",
+                                         "images/skin/LunarGoat/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Satyr",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

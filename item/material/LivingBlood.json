@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHearts and Minds:\nAt the start of this creature\u0027s turn, it gives 20% of its stats (other than {STAT_health}) to your other creatures.",
-  "icon": "images/item/material/LivingBlood.png",
-  "id": 1641,
-  "name": "Living Blood",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1844
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHearts and Minds:\nAt the start of this creature\u0027s turn, it gives 20% of its stats (other than {STAT_health}) to your other creatures.",
+    "icon":  "images/item/material/LivingBlood.png",
+    "id":  1641,
+    "name":  "Living Blood",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1844,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

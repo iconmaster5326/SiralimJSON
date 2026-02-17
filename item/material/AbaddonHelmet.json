@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHell\u0027s Protection:\nYour creatures take 1% less damage for every 1% of {STAT_health} they\u0027re missing. Maximum of 50% damage reduction. This trait does not stack.",
-  "icon": "images/item/material/AbaddonHelmet.png",
-  "id": 319,
-  "name": "Abaddon Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 235
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHell\u0027s Protection:\nYour creatures take 1% less damage for every 1% of {STAT_health} they\u0027re missing. Maximum of 50% damage reduction. This trait does not stack.",
+    "icon":  "images/item/material/AbaddonHelmet.png",
+    "id":  319,
+    "name":  "Abaddon Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  235,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

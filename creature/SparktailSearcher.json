@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SparktailSearcher/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 836,
-  "item": 1034,
-  "lore": "The Great Lake of Blue Emerald is slightly smaller than the whole country of Rodia. Sparktails have built an entire underwater civilization at the bottom of the lake, with towns and cities spread across the bed.\\n\\nSparktail Searchers are extraordinary miners, as they can see in the dark without any tools, but mostly because of their tails. They can use their tails to drill holes in walls quickly and accurately, and also to discern the purity of nearby minerals.",
-  "menagerieDialog": [
-    "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
-    "Let me guess: you\u0027re here to make yet another \u0022fish out of water\u0022 joke, aren\u0027t you? I\u0027ve heard them all before.",
-    "(This creature moves surprisingly fast, even on land.)",
-    "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
-    "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
-  ],
-  "minDepth": 1,
-  "name": "Sparktail Searcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SparktailSearcher/overworld_e0.png",
-      "images/creature/SparktailSearcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SparktailSearcher/overworld_n0.png",
-      "images/creature/SparktailSearcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SparktailSearcher/overworld_s0.png",
-      "images/creature/SparktailSearcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SparktailSearcher/overworld_w0.png",
-      "images/creature/SparktailSearcher/overworld_w1.png"
-    ]
-  },
-  "race": "Sparktail",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 16,
-    "health": 39,
-    "intelligence": 19,
-    "speed": 16
-  },
-  "trait": 1102
+    "battleSprite":  "images/creature/SparktailSearcher/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  836,
+    "item":  1034,
+    "lore":  "The Great Lake of Blue Emerald is slightly smaller than the whole country of Rodia. Sparktails have built an entire underwater civilization at the bottom of the lake, with towns and cities spread across the bed.\\n\\nSparktail Searchers are extraordinary miners, as they can see in the dark without any tools, but mostly because of their tails. They can use their tails to drill holes in walls quickly and accurately, and also to discern the purity of nearby minerals.",
+    "menagerieDialog":  [
+                            "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
+                            "Let me guess: you\u0027re here to make yet another \"fish out of water\" joke, aren\u0027t you? I\u0027ve heard them all before.",
+                            "(This creature moves surprisingly fast, even on land.)",
+                            "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
+                            "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
+                        ],
+    "minDepth":  1,
+    "name":  "Sparktail Searcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SparktailSearcher/overworld_e0.png",
+                                         "images/creature/SparktailSearcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SparktailSearcher/overworld_n0.png",
+                                          "images/creature/SparktailSearcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SparktailSearcher/overworld_s0.png",
+                                          "images/creature/SparktailSearcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SparktailSearcher/overworld_w0.png",
+                                         "images/creature/SparktailSearcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sparktail",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  16,
+                       "health":  39,
+                       "intelligence":  19,
+                       "speed":  16
+                   },
+    "trait":  1102,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEuphoria:\nAt the start of this creature\u0027s turn, it reduces the enemies\u0027 {STAT_intelligence} by 15% of this creature\u0027s {STAT_intelligence}.",
-  "icon": "images/item/material/CursedGear.png",
-  "id": 1056,
-  "name": "Cursed Gear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1075
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEuphoria:\nAt the start of this creature\u0027s turn, it reduces the enemies\u0027 {STAT_intelligence} by 15% of this creature\u0027s {STAT_intelligence}.",
+    "icon":  "images/item/material/CursedGear.png",
+    "id":  1056,
+    "name":  "Cursed Gear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1075,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

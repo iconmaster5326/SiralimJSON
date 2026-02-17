@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPowerful Draw:\nThis creature can only equip Arrow spells, but they can be from any class. This creature\u0027s single-target Arrow spells deal additional damage equal to 50% of its {STAT_attack}. This creature\u0027s [icons,1976]Splitting Arrow and [icons,1976]Fragmenting Arrow spells deal 100% more damage.",
-  "icon": "images/item/material/CompositeLongbow.png",
-  "id": 1682,
-  "name": "Composite Longbow",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2024
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPowerful Draw:\nThis creature can only equip Arrow spells, but they can be from any class. This creature\u0027s single-target Arrow spells deal additional damage equal to 50% of its {STAT_attack}. This creature\u0027s [icons,1976]Splitting Arrow and [icons,1976]Fragmenting Arrow spells deal 100% more damage.",
+    "icon":  "images/item/material/CompositeLongbow.png",
+    "id":  1682,
+    "name":  "Composite Longbow",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2024,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

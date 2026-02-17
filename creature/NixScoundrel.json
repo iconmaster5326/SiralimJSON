@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/NixScoundrel/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 570,
-  "item": 699,
-  "lore": "Some Nixes are integrated into human society. Many work as hired killers due to their renowned agility, stealth, and skill with knives.\\n\\nWhen someone hires the services of a Nix Scoundrel, it is very clear that the target is going to suffer before dying. These creatures are bloodthirsty murderers who are experts in torture, and experts in leaving gruesome crime scenes. They usually also murder the target\u0027s family in front of their eyes.",
-  "menagerieDialog": [
-    "Leave me alone. I must rest before we venture forth into a new Realm.",
-    "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
-    "I hear you\u0027ve got a problem that needs solved.",
-    "My blade is ready. Let\u0027s assassinate some kings.",
-    "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
-  ],
-  "minDepth": 1,
-  "name": "Nix Scoundrel",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NixScoundrel/overworld_e0.png",
-      "images/creature/NixScoundrel/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NixScoundrel/overworld_n0.png",
-      "images/creature/NixScoundrel/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NixScoundrel/overworld_s0.png",
-      "images/creature/NixScoundrel/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NixScoundrel/overworld_w0.png",
-      "images/creature/NixScoundrel/overworld_w1.png"
-    ]
-  },
-  "race": "Nix",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    14
-  ],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 638
+    "battleSprite":  "images/creature/NixScoundrel/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  570,
+    "item":  699,
+    "lore":  "Some Nixes are integrated into human society. Many work as hired killers due to their renowned agility, stealth, and skill with knives.\\n\\nWhen someone hires the services of a Nix Scoundrel, it is very clear that the target is going to suffer before dying. These creatures are bloodthirsty murderers who are experts in torture, and experts in leaving gruesome crime scenes. They usually also murder the target\u0027s family in front of their eyes.",
+    "menagerieDialog":  [
+                            "Leave me alone. I must rest before we venture forth into a new Realm.",
+                            "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
+                            "I hear you\u0027ve got a problem that needs solved.",
+                            "My blade is ready. Let\u0027s assassinate some kings.",
+                            "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
+                        ],
+    "minDepth":  1,
+    "name":  "Nix Scoundrel",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NixScoundrel/overworld_e0.png",
+                                         "images/creature/NixScoundrel/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NixScoundrel/overworld_n0.png",
+                                          "images/creature/NixScoundrel/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NixScoundrel/overworld_s0.png",
+                                          "images/creature/NixScoundrel/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NixScoundrel/overworld_w0.png",
+                                         "images/creature/NixScoundrel/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nix",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            14
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  638,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

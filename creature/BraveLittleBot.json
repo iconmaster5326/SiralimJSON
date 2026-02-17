@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BraveLittleBot/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1173,
-  "item": 1555,
-  "lore": "Though their methods are more than questionable, one of the Auditors\u0027 goals is to bring peace to the whole world.\\n\\nBrave Little Bots are the last thing the Auditors would use when facing a threat. They can perceive other creatures\u0027 neural transmissions, as well as the structure of their brains, analyze them with their extensive database, and use the resulting information to know exactly what their target will do, all in a fraction of a second. In addition, if they are lost and certain conditions are met, they will self-destruct in a huge explosion.",
-  "menagerieDialog": [
-    "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
-    "You and I share a common characteristic: we have no self-awareness.",
-    "What is my purpose?",
-    "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
-    "I do not eat. I do not sleep. I exist only to serve my master."
-  ],
-  "minDepth": 1,
-  "name": "Brave Little Bot",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BraveLittleBot/overworld_e0.png",
-      "images/creature/BraveLittleBot/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BraveLittleBot/overworld_n0.png",
-      "images/creature/BraveLittleBot/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BraveLittleBot/overworld_s0.png",
-      "images/creature/BraveLittleBot/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BraveLittleBot/overworld_w0.png",
-      "images/creature/BraveLittleBot/overworld_w1.png"
-    ]
-  },
-  "race": "Modron",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 40,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 1896
+    "battleSprite":  "images/creature/BraveLittleBot/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1173,
+    "item":  1555,
+    "lore":  "Though their methods are more than questionable, one of the Auditors\u0027 goals is to bring peace to the whole world.\\n\\nBrave Little Bots are the last thing the Auditors would use when facing a threat. They can perceive other creatures\u0027 neural transmissions, as well as the structure of their brains, analyze them with their extensive database, and use the resulting information to know exactly what their target will do, all in a fraction of a second. In addition, if they are lost and certain conditions are met, they will self-destruct in a huge explosion.",
+    "menagerieDialog":  [
+                            "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
+                            "You and I share a common characteristic: we have no self-awareness.",
+                            "What is my purpose?",
+                            "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
+                            "I do not eat. I do not sleep. I exist only to serve my master."
+                        ],
+    "minDepth":  1,
+    "name":  "Brave Little Bot",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BraveLittleBot/overworld_e0.png",
+                                         "images/creature/BraveLittleBot/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BraveLittleBot/overworld_n0.png",
+                                          "images/creature/BraveLittleBot/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BraveLittleBot/overworld_s0.png",
+                                          "images/creature/BraveLittleBot/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BraveLittleBot/overworld_w0.png",
+                                         "images/creature/BraveLittleBot/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Modron",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  40,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  1896,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

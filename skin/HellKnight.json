@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/HellKnight/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 505,
-  "name": "Hell Knight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HellKnight/overworld_e0.png",
-      "images/skin/HellKnight/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HellKnight/overworld_n0.png",
-      "images/skin/HellKnight/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HellKnight/overworld_s0.png",
-      "images/skin/HellKnight/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HellKnight/overworld_w0.png",
-      "images/skin/HellKnight/overworld_w1.png"
-    ]
-  },
-  "race": "Asura",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/HellKnight/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  505,
+    "name":  "Hell Knight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HellKnight/overworld_e0.png",
+                                         "images/skin/HellKnight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HellKnight/overworld_n0.png",
+                                          "images/skin/HellKnight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HellKnight/overworld_s0.png",
+                                          "images/skin/HellKnight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HellKnight/overworld_w0.png",
+                                         "images/skin/HellKnight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Asura",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

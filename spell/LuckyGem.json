@@ -1,38 +1,41 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Target recovers 100% {STAT_charges}. Does not affect {SPELL_ultimate}. This spell cannot be cast manually, but has a 20% chance to cast on an ally at the end of its turn.",
-  "god": null,
-  "id": 742,
-  "manuallyCastable": false,
-  "maxCharges": 15,
-  "name": "Lucky Gem",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Target recovers 100% {STAT_charges}. Does not affect {SPELL_ultimate}. This spell cannot be cast manually, but has a 20% chance to cast on an ally at the end of its turn.",
+    "god":  null,
+    "id":  742,
+    "manuallyCastable":  false,
+    "maxCharges":  15,
+    "name":  "Lucky Gem",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

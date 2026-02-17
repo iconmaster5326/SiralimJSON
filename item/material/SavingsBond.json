@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUsury:\nThis creature deals 150% more damage with attacks and takes 50% more damage from attacks.",
-  "icon": "images/item/material/SavingsBond.png",
-  "id": 1472,
-  "name": "Savings Bond",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1780
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUsury:\nThis creature deals 150% more damage with attacks and takes 50% more damage from attacks.",
+    "icon":  "images/item/material/SavingsBond.png",
+    "id":  1472,
+    "name":  "Savings Bond",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1780,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Mortem/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": 19,
-  "id": 949,
-  "item": null,
-  "lore": "Hexilo was a necromancer blinded by his search of knowledge. For more than a decade he faced River, Siralim\u0027s most powerful Magi at the time. In reality, they both studied together at the Refuge of the Magi, and were very good friends, but Hexilo left the kingdom after graduating and unleashed chaos in a nearby nation with his experiments. In the midst of one of their countless battles, Dragan himself, one of the two founders of the Auditors, appeared in person and stopped the fight, not without some difficulty. Hexilo accepted the offer without hesitation, fascinated by the idea of the organization; while River, who had serious doubts, only did it to keep tabs on his arch-enemy. For over ten years, Hexilo worked for the Auditors under the codename Twilight. After the incident in the Refuge of the Magi, the number of Voidlords increased exponentially. Sevalah knew that even the power of Tenebris would be insufficient to create a place capable of attracting the Voidlords to reduce their influx, so she designed a plan in which Mortem would also participate. Thus, the two ancient rivals created the Bastion of the Void.",
-  "menagerieDialog": [
-    "I bid thee good day to mine own favorite cater-cousin.",
-    "Tis sooth, verily didst I hear that thou likest yon Dumplings?",
-    "Whan that Aprill with his shoures soote, the droghte of March hath perced to the roote and bathed every veyne in swich licour.",
-    "So priketh hem nature in hir corages, thanne longen folk goon on pilgrimages.",
-    "Whom ist thou most favored cater-cousin now that thine Damaos and Hebroneth hath doth perished?"
-  ],
-  "minDepth": 1,
-  "name": "Mortem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Mortem/overworld_e0.png",
-      "images/creature/Mortem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Mortem/overworld_n0.png",
-      "images/creature/Mortem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Mortem/overworld_s0.png",
-      "images/creature/Mortem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Mortem/overworld_w0.png",
-      "images/creature/Mortem/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    361,
-    406,
-    426
-  ],
-  "sources": [
-    {
-      "god": 19,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 17,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 17
-  },
-  "trait": 1240
+    "battleSprite":  "images/creature/Mortem/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  19,
+    "id":  949,
+    "item":  null,
+    "lore":  "Hexilo was a necromancer blinded by his search of knowledge. For more than a decade he faced River, Siralim\u0027s most powerful Magi at the time. In reality, they both studied together at the Refuge of the Magi, and were very good friends, but Hexilo left the kingdom after graduating and unleashed chaos in a nearby nation with his experiments. In the midst of one of their countless battles, Dragan himself, one of the two founders of the Auditors, appeared in person and stopped the fight, not without some difficulty. Hexilo accepted the offer without hesitation, fascinated by the idea of the organization; while River, who had serious doubts, only did it to keep tabs on his arch-enemy. For over ten years, Hexilo worked for the Auditors under the codename Twilight. After the incident in the Refuge of the Magi, the number of Voidlords increased exponentially. Sevalah knew that even the power of Tenebris would be insufficient to create a place capable of attracting the Voidlords to reduce their influx, so she designed a plan in which Mortem would also participate. Thus, the two ancient rivals created the Bastion of the Void.",
+    "menagerieDialog":  [
+                            "I bid thee good day to mine own favorite cater-cousin.",
+                            "Tis sooth, verily didst I hear that thou likest yon Dumplings?",
+                            "Whan that Aprill with his shoures soote, the droghte of March hath perced to the roote and bathed every veyne in swich licour.",
+                            "So priketh hem nature in hir corages, thanne longen folk goon on pilgrimages.",
+                            "Whom ist thou most favored cater-cousin now that thine Damaos and Hebroneth hath doth perished?"
+                        ],
+    "minDepth":  1,
+    "name":  "Mortem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Mortem/overworld_e0.png",
+                                         "images/creature/Mortem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Mortem/overworld_n0.png",
+                                          "images/creature/Mortem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Mortem/overworld_s0.png",
+                                          "images/creature/Mortem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Mortem/overworld_w0.png",
+                                         "images/creature/Mortem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  361,
+                  406,
+                  426
+              ],
+    "sources":  [
+                    {
+                        "god":  19,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  17,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  17
+                   },
+    "trait":  1240,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

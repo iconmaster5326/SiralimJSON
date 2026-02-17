@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FinalArbiter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1188,
-  "item": 1571,
-  "lore": "Arbiters are creatures who roam around, resolving minor disputes by order of the Auditors. Sometimes they simply chat with one or more of the parties involved.\\n\\nOf all of them, the Final Arbiter is the one that intervenes the most in the affairs of those with fewer resources, and the only one who does more than speak or go into battle. Recently, a group of Final Arbiters was seen helping in the reconstruction of a town in Neralim that had suffered an earthquake.",
-  "menagerieDialog": [
-    "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
-    "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
-    "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
-    "(This creature moves with the grace and regality of a nobleman.)",
-    "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
-  ],
-  "minDepth": 1,
-  "name": "Final Arbiter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FinalArbiter/overworld_e0.png",
-      "images/creature/FinalArbiter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FinalArbiter/overworld_n0.png",
-      "images/creature/FinalArbiter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FinalArbiter/overworld_s0.png",
-      "images/creature/FinalArbiter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FinalArbiter/overworld_w0.png",
-      "images/creature/FinalArbiter/overworld_w1.png"
-    ]
-  },
-  "race": "Arbiter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 19,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 19
-  },
-  "trait": 1911
+    "battleSprite":  "images/creature/FinalArbiter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1188,
+    "item":  1571,
+    "lore":  "Arbiters are creatures who roam around, resolving minor disputes by order of the Auditors. Sometimes they simply chat with one or more of the parties involved.\\n\\nOf all of them, the Final Arbiter is the one that intervenes the most in the affairs of those with fewer resources, and the only one who does more than speak or go into battle. Recently, a group of Final Arbiters was seen helping in the reconstruction of a town in Neralim that had suffered an earthquake.",
+    "menagerieDialog":  [
+                            "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
+                            "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
+                            "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
+                            "(This creature moves with the grace and regality of a nobleman.)",
+                            "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Final Arbiter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FinalArbiter/overworld_e0.png",
+                                         "images/creature/FinalArbiter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FinalArbiter/overworld_n0.png",
+                                          "images/creature/FinalArbiter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FinalArbiter/overworld_s0.png",
+                                          "images/creature/FinalArbiter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FinalArbiter/overworld_w0.png",
+                                         "images/creature/FinalArbiter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arbiter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  19,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  19
+                   },
+    "trait":  1911,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

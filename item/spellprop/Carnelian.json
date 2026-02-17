@@ -1,15 +1,18 @@
 {
-  "description": "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nChance to Defend After Use",
-  "icon": "images/item/spellprop/Carnelian.png",
-  "id": 6,
-  "name": "Carnelian",
-  "notes": [],
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "spellProperties": [
-    15
-  ]
+    "description":  "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nChance to Defend After Use",
+    "icon":  "images/item/spellprop/Carnelian.png",
+    "id":  6,
+    "name":  "Carnelian",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "spellProperties":  [
+                            15
+                        ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spellPropertyItem.yaml"
 }

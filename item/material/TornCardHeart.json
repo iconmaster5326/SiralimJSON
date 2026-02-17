@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnte:\nThis creature has additional {STAT_intelligence} equal to 5% of your other creatures\u0027 Current {STAT_health}.",
-  "icon": "images/item/material/TornCardHeart.png",
-  "id": 1576,
-  "name": "Torn Card (Heart)",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1914
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnte:\nThis creature has additional {STAT_intelligence} equal to 5% of your other creatures\u0027 Current {STAT_health}.",
+    "icon":  "images/item/material/TornCardHeart.png",
+    "id":  1576,
+    "name":  "Torn Card (Heart)",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1914,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

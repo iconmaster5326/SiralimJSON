@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "(A particularly large jewel with an eye embedded inside begins to float in the air, drawing in all the ambient magical energy for a no doubt sinister purpose. Better put a stop to that.)",
-    "(As soon as the Gemling catches sight of you, it begins emitting a horrible ear-splitting ringing sound! You gesture frantically at your creatures to silence it this instant!)",
-    "(The Gemling has done nothing but silently and judgmentally stare at you non-stop since you entered the room. Time to teach it that it\u0027s rude to stare!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 Ethereal Spell Gems heal 15% more.",
-    "4": "Your creatures\u0027 Ethereal Spell Gems increase/decrease stats 15% more.",
-    "6": "Your creatures\u0027 Ethereal Spell Gems deal 15% more damage."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    934,
-    935,
-    936,
-    937,
-    938,
-    939
-  ],
-  "icon": "images/race/Gemling.png",
-  "master": {
-    "costume": 337,
-    "dialog": "Gemlings are as strong as they are gorgeous. They can power up your other creatures\u0027 Spell Gems to make them a force to be reckoned with. Let me show you in a duel!",
-    "item": 1257,
-    "name": "Queuebert",
-    "trait": 1438
-  },
-  "name": "Gemling",
-  "notes": [],
-  "skins": [
-    108,
-    219,
-    386,
-    688
-  ]
+    "bossDialog":  [
+                       "(A particularly large jewel with an eye embedded inside begins to float in the air, drawing in all the ambient magical energy for a no doubt sinister purpose. Better put a stop to that.)",
+                       "(As soon as the Gemling catches sight of you, it begins emitting a horrible ear-splitting ringing sound! You gesture frantically at your creatures to silence it this instant!)",
+                       "(The Gemling has done nothing but silently and judgmentally stare at you non-stop since you entered the room. Time to teach it that it\u0027s rude to stare!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 Ethereal Spell Gems heal 15% more.",
+                        "4":  "Your creatures\u0027 Ethereal Spell Gems increase/decrease stats 15% more.",
+                        "6":  "Your creatures\u0027 Ethereal Spell Gems deal 15% more damage."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      934,
+                      935,
+                      936,
+                      937,
+                      938,
+                      939
+                  ],
+    "icon":  "images/race/Gemling.png",
+    "master":  {
+                   "costume":  337,
+                   "dialog":  "Gemlings are as strong as they are gorgeous. They can power up your other creatures\u0027 Spell Gems to make them a force to be reckoned with. Let me show you in a duel!",
+                   "item":  1257,
+                   "name":  "Queuebert",
+                   "trait":  1438
+               },
+    "name":  "Gemling",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  108,
+                  219,
+                  386,
+                  688
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

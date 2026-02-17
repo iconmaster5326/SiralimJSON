@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NephilimSkirmisher/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1240,
-  "item": 1611,
-  "lore": "It is believed that the Nephilim were released from their prison after recent events in Rodia, but their numbers were not a cause for concern for the governments of the different kingdoms, until now.\\n\\nUnlike other Nephilim, the Skirmisher acts ruthlessly. This creature is a bloodthirsty assassin who searches for purehearted people for the sole purpose of bathing its weapon in blood. It prioritizes those with the purest convictions, but it also attacks even the worst scum, as even they have done good at some point in their lives.",
-  "menagerieDialog": [
-    "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
-    "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
-    "Let us take our leave at once. There is work to be done.",
-    "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
-    "We\u0027re in good company with you as our leader, {PLAYERNAME}."
-  ],
-  "minDepth": 1,
-  "name": "Nephilim Skirmisher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NephilimSkirmisher/overworld_e0.png",
-      "images/creature/NephilimSkirmisher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NephilimSkirmisher/overworld_n0.png",
-      "images/creature/NephilimSkirmisher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NephilimSkirmisher/overworld_s0.png",
-      "images/creature/NephilimSkirmisher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NephilimSkirmisher/overworld_w0.png",
-      "images/creature/NephilimSkirmisher/overworld_w1.png"
-    ]
-  },
-  "race": "Nephilim",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1951
+    "battleSprite":  "images/creature/NephilimSkirmisher/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1240,
+    "item":  1611,
+    "lore":  "It is believed that the Nephilim were released from their prison after recent events in Rodia, but their numbers were not a cause for concern for the governments of the different kingdoms, until now.\\n\\nUnlike other Nephilim, the Skirmisher acts ruthlessly. This creature is a bloodthirsty assassin who searches for purehearted people for the sole purpose of bathing its weapon in blood. It prioritizes those with the purest convictions, but it also attacks even the worst scum, as even they have done good at some point in their lives.",
+    "menagerieDialog":  [
+                            "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
+                            "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
+                            "Let us take our leave at once. There is work to be done.",
+                            "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
+                            "We\u0027re in good company with you as our leader, {PLAYERNAME}."
+                        ],
+    "minDepth":  1,
+    "name":  "Nephilim Skirmisher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NephilimSkirmisher/overworld_e0.png",
+                                         "images/creature/NephilimSkirmisher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NephilimSkirmisher/overworld_n0.png",
+                                          "images/creature/NephilimSkirmisher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NephilimSkirmisher/overworld_s0.png",
+                                          "images/creature/NephilimSkirmisher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NephilimSkirmisher/overworld_w0.png",
+                                         "images/creature/NephilimSkirmisher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nephilim",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1951,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

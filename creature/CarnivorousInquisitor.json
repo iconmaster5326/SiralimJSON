@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CarnivorousInquisitor/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 881,
-  "item": 990,
-  "lore": "Apocranox was once a mighty warrior of the forests known as Elinar. The Auditors were quick to recruit him and give him eternal life, just as they did with the other five agents who were part of his group. He brought a large number of Arachnalisks with him to the Blood Grove, and when they drank from its rivers they changed and became the Inquisitors.\\n\\nThe Carnivorous Inquisitor uses its claws to tear apart its prey before eating it, but is forbidden from using them to attack Efts, as they can easily slip away if their tails are cut off.",
-  "menagerieDialog": [
-    "Turn down the lights in here. I prefer to rest in total darkness.",
-    "Our army is unstoppable. Together, we will one day rule all of Rodia.",
-    "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
-    "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
-    "Leave me be. I do not wish to be bothered right now."
-  ],
-  "minDepth": 1,
-  "name": "Carnivorous Inquisitor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CarnivorousInquisitor/overworld_e0.png",
-      "images/creature/CarnivorousInquisitor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CarnivorousInquisitor/overworld_n0.png",
-      "images/creature/CarnivorousInquisitor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CarnivorousInquisitor/overworld_s0.png",
-      "images/creature/CarnivorousInquisitor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CarnivorousInquisitor/overworld_w0.png",
-      "images/creature/CarnivorousInquisitor/overworld_w1.png"
-    ]
-  },
-  "race": "Inquisitor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 1142
+    "battleSprite":  "images/creature/CarnivorousInquisitor/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  881,
+    "item":  990,
+    "lore":  "Apocranox was once a mighty warrior of the forests known as Elinar. The Auditors were quick to recruit him and give him eternal life, just as they did with the other five agents who were part of his group. He brought a large number of Arachnalisks with him to the Blood Grove, and when they drank from its rivers they changed and became the Inquisitors.\\n\\nThe Carnivorous Inquisitor uses its claws to tear apart its prey before eating it, but is forbidden from using them to attack Efts, as they can easily slip away if their tails are cut off.",
+    "menagerieDialog":  [
+                            "Turn down the lights in here. I prefer to rest in total darkness.",
+                            "Our army is unstoppable. Together, we will one day rule all of Rodia.",
+                            "Quantity over quality, I always say. The bigger our army, the greater our chance of success.",
+                            "The sun makes it difficult for me to fight as effectively as normal. Perhaps we should consider traveling at night instead.",
+                            "Leave me be. I do not wish to be bothered right now."
+                        ],
+    "minDepth":  1,
+    "name":  "Carnivorous Inquisitor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CarnivorousInquisitor/overworld_e0.png",
+                                         "images/creature/CarnivorousInquisitor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CarnivorousInquisitor/overworld_n0.png",
+                                          "images/creature/CarnivorousInquisitor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CarnivorousInquisitor/overworld_s0.png",
+                                          "images/creature/CarnivorousInquisitor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CarnivorousInquisitor/overworld_w0.png",
+                                         "images/creature/CarnivorousInquisitor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Inquisitor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  1142,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

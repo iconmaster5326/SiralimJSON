@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ImperialAngel/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 129,
-  "item": 101,
-  "lore": "Every unit of Angels had an Imperial Angel at the head of their ranks. They are masters of distraction, agile in flight, able to evade the blows of their enemies until they reach their true target, the most important part of their strategy. There, they drop a vial from their hands, creating a cloud of a mysterious substance that stuns everything that comes in contact with it.",
-  "menagerieDialog": [
-    "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
-    "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
-    "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
-    "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
-    "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
-  ],
-  "minDepth": 1,
-  "name": "Imperial Angel",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ImperialAngel/overworld_e0.png",
-      "images/creature/ImperialAngel/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ImperialAngel/overworld_n0.png",
-      "images/creature/ImperialAngel/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ImperialAngel/overworld_s0.png",
-      "images/creature/ImperialAngel/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ImperialAngel/overworld_w0.png",
-      "images/creature/ImperialAngel/overworld_w1.png"
-    ]
-  },
-  "race": "Angel",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Surathli)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 27,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 10
+    "battleSprite":  "images/creature/ImperialAngel/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  129,
+    "item":  101,
+    "lore":  "Every unit of Angels had an Imperial Angel at the head of their ranks. They are masters of distraction, agile in flight, able to evade the blows of their enemies until they reach their true target, the most important part of their strategy. There, they drop a vial from their hands, creating a cloud of a mysterious substance that stuns everything that comes in contact with it.",
+    "menagerieDialog":  [
+                            "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
+                            "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
+                            "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
+                            "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
+                            "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Imperial Angel",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ImperialAngel/overworld_e0.png",
+                                         "images/creature/ImperialAngel/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ImperialAngel/overworld_n0.png",
+                                          "images/creature/ImperialAngel/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ImperialAngel/overworld_s0.png",
+                                          "images/creature/ImperialAngel/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ImperialAngel/overworld_w0.png",
+                                         "images/creature/ImperialAngel/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Angel",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Surathli)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  27,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  10,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SapphireDrake/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1130,
-  "item": 1650,
-  "lore": "The great lakes of the continent are full of creatures of all kinds. Some, like the great lake of Zayte, have ecosystems riddled with dangerous predators. Sapphire Drakes, dragons with great resistance to pressure, make their homes in this lake. When their eggs hatch, the hatchlings have to fend for themselves to survive in an extremely harsh environment. After three years they become able to take flight and leave the lake, but only the strongest make it out alive.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Sapphire Drake",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SapphireDrake/overworld_e0.png",
-      "images/creature/SapphireDrake/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SapphireDrake/overworld_n0.png",
-      "images/creature/SapphireDrake/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SapphireDrake/overworld_s0.png",
-      "images/creature/SapphireDrake/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SapphireDrake/overworld_w0.png",
-      "images/creature/SapphireDrake/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 43,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1853
+    "battleSprite":  "images/creature/SapphireDrake/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1130,
+    "item":  1650,
+    "lore":  "The great lakes of the continent are full of creatures of all kinds. Some, like the great lake of Zayte, have ecosystems riddled with dangerous predators. Sapphire Drakes, dragons with great resistance to pressure, make their homes in this lake. When their eggs hatch, the hatchlings have to fend for themselves to survive in an extremely harsh environment. After three years they become able to take flight and leave the lake, but only the strongest make it out alive.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Sapphire Drake",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SapphireDrake/overworld_e0.png",
+                                         "images/creature/SapphireDrake/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SapphireDrake/overworld_n0.png",
+                                          "images/creature/SapphireDrake/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SapphireDrake/overworld_s0.png",
+                                          "images/creature/SapphireDrake/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SapphireDrake/overworld_w0.png",
+                                         "images/creature/SapphireDrake/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  43,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1853,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAscendancy:\nThis creature can {ACTION_cast} spells without consuming {STAT_charges}.",
-  "icon": "images/item/material/ArcanomancerLamp.png",
-  "id": 444,
-  "name": "Arcanomancer Lamp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 359
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAscendancy:\nThis creature can {ACTION_cast} spells without consuming {STAT_charges}.",
+    "icon":  "images/item/material/ArcanomancerLamp.png",
+    "id":  444,
+    "name":  "Arcanomancer Lamp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  359,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

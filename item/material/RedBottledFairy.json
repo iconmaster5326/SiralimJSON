@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOutgrow:\nThis creature\u00E2\u20AC\u2122s end-of-turn effects activate 1 additional time, but it has 50% less stats (other than {STAT_health}).",
-  "icon": "images/item/material/RedBottledFairy.png",
-  "id": 1673,
-  "name": "Red Bottled Fairy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1998
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOutgrow:\nThis creature’s end-of-turn effects activate 1 additional time, but it has 50% less stats (other than {STAT_health}).",
+    "icon":  "images/item/material/RedBottledFairy.png",
+    "id":  1673,
+    "name":  "Red Bottled Fairy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1998,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

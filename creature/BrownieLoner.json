@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/BrownieLoner/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 613,
-  "item": 795,
-  "lore": "Despite the rebellion\u0027s success and the abolition of slavery, illegal Brownie trafficking still exists. This despicable practice is persecuted by the authorities, but that is not always enough. The Brownie Loner is a hero known among its own people, a veteran warrior who secretly investigates these activities, goes into the lairs of the criminals and defeats them with its bow. In cities such as Nex and Vanelin, it is rewarded for its services, though it always shares the money with the poor.",
-  "menagerieDialog": [
-    "Could we slow down a little, buddy?",
-    "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
-    "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
-    "(Both its weapon and its temper are comically oversized for its body.)",
-    "(Its annoying laughter haunts your nightmares.)"
-  ],
-  "minDepth": 1,
-  "name": "Brownie Loner",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BrownieLoner/overworld_e0.png",
-      "images/creature/BrownieLoner/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BrownieLoner/overworld_n0.png",
-      "images/creature/BrownieLoner/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BrownieLoner/overworld_s0.png",
-      "images/creature/BrownieLoner/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BrownieLoner/overworld_w0.png",
-      "images/creature/BrownieLoner/overworld_w1.png"
-    ]
-  },
-  "race": "Brownie",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    15
-  ],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 34,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 822
+    "battleSprite":  "images/creature/BrownieLoner/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  613,
+    "item":  795,
+    "lore":  "Despite the rebellion\u0027s success and the abolition of slavery, illegal Brownie trafficking still exists. This despicable practice is persecuted by the authorities, but that is not always enough. The Brownie Loner is a hero known among its own people, a veteran warrior who secretly investigates these activities, goes into the lairs of the criminals and defeats them with its bow. In cities such as Nex and Vanelin, it is rewarded for its services, though it always shares the money with the poor.",
+    "menagerieDialog":  [
+                            "Could we slow down a little, buddy?",
+                            "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
+                            "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
+                            "(Both its weapon and its temper are comically oversized for its body.)",
+                            "(Its annoying laughter haunts your nightmares.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Brownie Loner",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BrownieLoner/overworld_e0.png",
+                                         "images/creature/BrownieLoner/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BrownieLoner/overworld_n0.png",
+                                          "images/creature/BrownieLoner/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BrownieLoner/overworld_s0.png",
+                                          "images/creature/BrownieLoner/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BrownieLoner/overworld_w0.png",
+                                         "images/creature/BrownieLoner/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Brownie",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            15
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  34,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  822,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

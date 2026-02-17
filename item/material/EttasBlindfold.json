@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEtta\u0027s Seduction:\nAt the start of this creature\u0027s turn, a random enemy gives 15% of their stats to this creature.",
-  "icon": "images/item/material/EttasBlindfold.png",
-  "id": 1145,
-  "name": "Etta\u0027s Blindfold",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1290
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEtta\u0027s Seduction:\nAt the start of this creature\u0027s turn, a random enemy gives 15% of their stats to this creature.",
+    "icon":  "images/item/material/EttasBlindfold.png",
+    "id":  1145,
+    "name":  "Etta\u0027s Blindfold",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1290,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

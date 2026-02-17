@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSiren Charms:\nAt the start of battle, this creature afflicts 3 random enemies with {CONDNAME_DEBUFF_CONFUSED}. This trait does not stack.",
-  "icon": "images/item/material/BeguilerBell.png",
-  "id": 131,
-  "name": "Beguiler Bell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 40
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSiren Charms:\nAt the start of battle, this creature afflicts 3 random enemies with {CONDNAME_DEBUFF_CONFUSED}. This trait does not stack.",
+    "icon":  "images/item/material/BeguilerBell.png",
+    "id":  131,
+    "name":  "Beguiler Bell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  40,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

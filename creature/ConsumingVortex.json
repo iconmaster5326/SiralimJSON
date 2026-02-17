@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ConsumingVortex/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 532,
-  "item": 499,
-  "lore": "The Consuming Vortex tries to go unnoticed during battles, pretending to be a spell that another creature cast. If it manages to reach an enemy, it will absorb its life energy, creating a vortex of colors around it. If a spell hits its body, it can absorb it temporarily and use it as its own.",
-  "menagerieDialog": [
-    "(It whirls around in circles, emitting a powerful light.)",
-    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
-    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
-    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
-    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
-  ],
-  "minDepth": 1,
-  "name": "Consuming Vortex",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ConsumingVortex/overworld_e0.png",
-      "images/creature/ConsumingVortex/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ConsumingVortex/overworld_n0.png",
-      "images/creature/ConsumingVortex/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ConsumingVortex/overworld_s0.png",
-      "images/creature/ConsumingVortex/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ConsumingVortex/overworld_w0.png",
-      "images/creature/ConsumingVortex/overworld_w1.png"
-    ]
-  },
-  "race": "Vortex",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Aeolian)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 413
+    "battleSprite":  "images/creature/ConsumingVortex/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  532,
+    "item":  499,
+    "lore":  "The Consuming Vortex tries to go unnoticed during battles, pretending to be a spell that another creature cast. If it manages to reach an enemy, it will absorb its life energy, creating a vortex of colors around it. If a spell hits its body, it can absorb it temporarily and use it as its own.",
+    "menagerieDialog":  [
+                            "(It whirls around in circles, emitting a powerful light.)",
+                            "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+                            "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+                            "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+                            "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Consuming Vortex",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ConsumingVortex/overworld_e0.png",
+                                         "images/creature/ConsumingVortex/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ConsumingVortex/overworld_n0.png",
+                                          "images/creature/ConsumingVortex/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ConsumingVortex/overworld_s0.png",
+                                          "images/creature/ConsumingVortex/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ConsumingVortex/overworld_w0.png",
+                                         "images/creature/ConsumingVortex/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vortex",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Aeolian)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  413,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

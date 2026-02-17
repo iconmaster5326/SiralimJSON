@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AspectofTime/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 608,
-  "item": 782,
-  "lore": "It appears mysteriously in Rodia to witness events of historical significance and to ensure the flow of time is not disrupted. It was created in the past by Milner and Helmholtz after the ravages of the Unification War, when several temporal anomalies manifested in the form of rifts. When one such rift appears, the Aspect of Time instantaneously appears to close it with a wave of its hand.",
-  "menagerieDialog": [
-    "(Its eyes are closed, as if meditating.)",
-    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
-    "(It is meditating. Better to leave it alone while it relaxes.)",
-    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
-    "(Its fur is a total mess. You should have Nortah comb it soon.)"
-  ],
-  "minDepth": 1,
-  "name": "Aspect of Time",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AspectofTime/overworld_e0.png",
-      "images/creature/AspectofTime/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AspectofTime/overworld_n0.png",
-      "images/creature/AspectofTime/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AspectofTime/overworld_s0.png",
-      "images/creature/AspectofTime/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AspectofTime/overworld_w0.png",
-      "images/creature/AspectofTime/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Meraxis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 14,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 24
-  },
-  "trait": 816
+    "battleSprite":  "images/creature/AspectofTime/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  608,
+    "item":  782,
+    "lore":  "It appears mysteriously in Rodia to witness events of historical significance and to ensure the flow of time is not disrupted. It was created in the past by Milner and Helmholtz after the ravages of the Unification War, when several temporal anomalies manifested in the form of rifts. When one such rift appears, the Aspect of Time instantaneously appears to close it with a wave of its hand.",
+    "menagerieDialog":  [
+                            "(Its eyes are closed, as if meditating.)",
+                            "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+                            "(It is meditating. Better to leave it alone while it relaxes.)",
+                            "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+                            "(Its fur is a total mess. You should have Nortah comb it soon.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Aspect of Time",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AspectofTime/overworld_e0.png",
+                                         "images/creature/AspectofTime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AspectofTime/overworld_n0.png",
+                                          "images/creature/AspectofTime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AspectofTime/overworld_s0.png",
+                                          "images/creature/AspectofTime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AspectofTime/overworld_w0.png",
+                                         "images/creature/AspectofTime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Meraxis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  14,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  24
+                   },
+    "trait":  816,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

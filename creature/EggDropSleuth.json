@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EggDropSleuth/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1292,
-  "item": 1794,
-  "lore": "\u0022Being an egg never stopped me from becoming a detective,\u0022 the Egg-Drop Sleuth said during the interview. \u0022People think eggs are fragile and simple-minded, that you can just crack us open like we\u0027re good for nothing else,\u0022 he said, shaking his magnifying glass. \u0022But if we judged by looks alone, we\u0027d never know that some eggs actually have two or three yolks inside!\u0022",
-  "menagerieDialog": [
-    "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
-    "We may look fragile, but we\u0027ll crack some skulls!",
-    "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
-    "Our shells are tougher than they look. Bring it on!",
-    "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
-  ],
-  "minDepth": 1,
-  "name": "Egg-Drop Sleuth",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EggDropSleuth/overworld_e0.png",
-      "images/creature/EggDropSleuth/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EggDropSleuth/overworld_n0.png",
-      "images/creature/EggDropSleuth/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EggDropSleuth/overworld_s0.png",
-      "images/creature/EggDropSleuth/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EggDropSleuth/overworld_w0.png",
-      "images/creature/EggDropSleuth/overworld_w1.png"
-    ]
-  },
-  "race": "Eggxotic",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 25,
-    "speed": 23
-  },
-  "trait": 2147
+    "battleSprite":  "images/creature/EggDropSleuth/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1292,
+    "item":  1794,
+    "lore":  "\"Being an egg never stopped me from becoming a detective,\" the Egg-Drop Sleuth said during the interview. \"People think eggs are fragile and simple-minded, that you can just crack us open like we\u0027re good for nothing else,\" he said, shaking his magnifying glass. \"But if we judged by looks alone, we\u0027d never know that some eggs actually have two or three yolks inside!\"",
+    "menagerieDialog":  [
+                            "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
+                            "We may look fragile, but we\u0027ll crack some skulls!",
+                            "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
+                            "Our shells are tougher than they look. Bring it on!",
+                            "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Egg-Drop Sleuth",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EggDropSleuth/overworld_e0.png",
+                                         "images/creature/EggDropSleuth/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EggDropSleuth/overworld_n0.png",
+                                          "images/creature/EggDropSleuth/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EggDropSleuth/overworld_s0.png",
+                                          "images/creature/EggDropSleuth/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EggDropSleuth/overworld_w0.png",
+                                         "images/creature/EggDropSleuth/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Eggxotic",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  25,
+                       "speed":  23
+                   },
+    "trait":  2147,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

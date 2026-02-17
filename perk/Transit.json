@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creature with the highest {STAT_speed} always {ACTION_attacks} enemies that deal damage to it.",
-  "icon": "images/perk/Transit.png",
-  "id": 269,
-  "maxRanks": 1,
-  "name": "Transit",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 18
+    "anointable":  true,
+    "description":  "Your creature with the highest {STAT_speed} always {ACTION_attacks} enemies that deal damage to it.",
+    "icon":  "images/perk/Transit.png",
+    "id":  269,
+    "maxRanks":  1,
+    "name":  "Transit",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  18,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

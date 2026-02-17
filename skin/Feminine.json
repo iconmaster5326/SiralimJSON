@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Feminine/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 451,
-  "name": "Feminine",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Feminine/overworld_e0.png",
-      "images/skin/Feminine/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Feminine/overworld_n0.png",
-      "images/skin/Feminine/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Feminine/overworld_s0.png",
-      "images/skin/Feminine/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Feminine/overworld_w0.png",
-      "images/skin/Feminine/overworld_w1.png"
-    ]
-  },
-  "race": "Koloss",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Feminine/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  451,
+    "name":  "Feminine",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Feminine/overworld_e0.png",
+                                         "images/skin/Feminine/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Feminine/overworld_n0.png",
+                                          "images/skin/Feminine/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Feminine/overworld_s0.png",
+                                          "images/skin/Feminine/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Feminine/overworld_w0.png",
+                                         "images/skin/Feminine/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Koloss",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

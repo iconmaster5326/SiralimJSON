@@ -1,39 +1,42 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Target {ACTION_attacks} a random enemy for 300% normal damage. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 326,
-  "manuallyCastable": false,
-  "maxCharges": 10,
-  "name": "Amber Ale",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "UTILITY"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Target {ACTION_attacks} a random enemy for 300% normal damage. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  326,
+    "manuallyCastable":  false,
+    "maxCharges":  10,
+    "name":  "Amber Ale",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "UTILITY"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

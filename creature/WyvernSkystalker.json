@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WyvernSkystalker/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 171,
-  "item": 350,
-  "lore": "No Wyvern flies as high as the Skystalker. Its vision allows it to spot prey at great distances and even distinguish prey from more dangerous creatures. When it finds one, it plummets at full speed and swerves at the last moment, grabbing it with its claws and throwing it against a tree or a wall. It is considered one of the fastest and most deadly hunters in Rodia, although it rarely attacks people.",
-  "menagerieDialog": [
-    "(It\u0027s curled up with its head between its wings.)",
-    "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
-    "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
-    "(After it notices you, it unleashes a roar of approval.)",
-    "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
-  ],
-  "minDepth": 1,
-  "name": "Wyvern Skystalker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WyvernSkystalker/overworld_e0.png",
-      "images/creature/WyvernSkystalker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WyvernSkystalker/overworld_n0.png",
-      "images/creature/WyvernSkystalker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WyvernSkystalker/overworld_s0.png",
-      "images/creature/WyvernSkystalker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WyvernSkystalker/overworld_w0.png",
-      "images/creature/WyvernSkystalker/overworld_w1.png"
-    ]
-  },
-  "race": "Wyvern",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 266
+    "battleSprite":  "images/creature/WyvernSkystalker/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  171,
+    "item":  350,
+    "lore":  "No Wyvern flies as high as the Skystalker. Its vision allows it to spot prey at great distances and even distinguish prey from more dangerous creatures. When it finds one, it plummets at full speed and swerves at the last moment, grabbing it with its claws and throwing it against a tree or a wall. It is considered one of the fastest and most deadly hunters in Rodia, although it rarely attacks people.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up with its head between its wings.)",
+                            "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
+                            "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
+                            "(After it notices you, it unleashes a roar of approval.)",
+                            "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Wyvern Skystalker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WyvernSkystalker/overworld_e0.png",
+                                         "images/creature/WyvernSkystalker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WyvernSkystalker/overworld_n0.png",
+                                          "images/creature/WyvernSkystalker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WyvernSkystalker/overworld_s0.png",
+                                          "images/creature/WyvernSkystalker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WyvernSkystalker/overworld_w0.png",
+                                         "images/creature/WyvernSkystalker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wyvern",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  266,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

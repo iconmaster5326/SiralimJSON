@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreat Fall:\nAfter an enemy {ACTION_attacks}, all other enemies each have a 10% chance to be sent to the bottom of the {TIMELINE}. This trait can only activate on the enemies\u0027 first attack per turn. This trait does not stack.",
-  "icon": "images/item/material/ParasiticPitcher.png",
-  "id": 1039,
-  "name": "Parasitic Pitcher",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1095
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreat Fall:\nAfter an enemy {ACTION_attacks}, all other enemies each have a 10% chance to be sent to the bottom of the {TIMELINE}. This trait can only activate on the enemies\u0027 first attack per turn. This trait does not stack.",
+    "icon":  "images/item/material/ParasiticPitcher.png",
+    "id":  1039,
+    "name":  "Parasitic Pitcher",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1095,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

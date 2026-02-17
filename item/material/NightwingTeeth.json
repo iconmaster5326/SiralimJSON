@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRansack:\nAt the start of battle, your creatures gain copies of all the enemies\u0027 {CLASS_Chaos} Spell Gems.",
-  "icon": "images/item/material/NightwingTeeth.png",
-  "id": 310,
-  "name": "Nightwing Teeth",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 226
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRansack:\nAt the start of battle, your creatures gain copies of all the enemies\u0027 {CLASS_Chaos} Spell Gems.",
+    "icon":  "images/item/material/NightwingTeeth.png",
+    "id":  310,
+    "name":  "Nightwing Teeth",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  226,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

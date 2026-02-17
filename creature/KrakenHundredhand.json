@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/KrakenHundredhand/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1247,
-  "item": 1619,
-  "lore": "Krakens were a danger to humans who sailed the high seas. But above all, they have been a serious threat to the Revenants for centuries, as both species inhabit the ocean depths.\\n\\nNo other Kraken sowed as much fear and destruction as the Hundredhand, who can catch dozens of Revenants at once with its tentacles. Today, Revenants catch these creatures and keep them in cages, feeding them and cutting their tentacles daily as they continually regenerate, making them a virtually limitless food source.",
-  "menagerieDialog": [
-    "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
-    "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
-    "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
-    "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
-    "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
-  ],
-  "minDepth": 1,
-  "name": "Kraken Hundredhand",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/KrakenHundredhand/overworld_e0.png",
-      "images/creature/KrakenHundredhand/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/KrakenHundredhand/overworld_n0.png",
-      "images/creature/KrakenHundredhand/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/KrakenHundredhand/overworld_s0.png",
-      "images/creature/KrakenHundredhand/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/KrakenHundredhand/overworld_w0.png",
-      "images/creature/KrakenHundredhand/overworld_w1.png"
-    ]
-  },
-  "race": "Kraken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1958
+    "battleSprite":  "images/creature/KrakenHundredhand/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1247,
+    "item":  1619,
+    "lore":  "Krakens were a danger to humans who sailed the high seas. But above all, they have been a serious threat to the Revenants for centuries, as both species inhabit the ocean depths.\\n\\nNo other Kraken sowed as much fear and destruction as the Hundredhand, who can catch dozens of Revenants at once with its tentacles. Today, Revenants catch these creatures and keep them in cages, feeding them and cutting their tentacles daily as they continually regenerate, making them a virtually limitless food source.",
+    "menagerieDialog":  [
+                            "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
+                            "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
+                            "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
+                            "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
+                            "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Kraken Hundredhand",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/KrakenHundredhand/overworld_e0.png",
+                                         "images/creature/KrakenHundredhand/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/KrakenHundredhand/overworld_n0.png",
+                                          "images/creature/KrakenHundredhand/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/KrakenHundredhand/overworld_s0.png",
+                                          "images/creature/KrakenHundredhand/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/KrakenHundredhand/overworld_w0.png",
+                                         "images/creature/KrakenHundredhand/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Kraken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1958,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

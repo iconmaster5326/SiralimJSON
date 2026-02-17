@@ -1,44 +1,47 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "death",
-  "creator": null,
-  "description": "Your creatures gain {CONDNAME_BUFF_REBIRTH} and then they are killed.",
-  "god": null,
-  "id": 460,
-  "manuallyCastable": true,
-  "maxCharges": 3,
-  "name": "Land of the Dead",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY",
-    "BUFF"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "death",
+    "creator":  null,
+    "description":  "Your creatures gain {CONDNAME_BUFF_REBIRTH} and then they are killed.",
+    "god":  null,
+    "id":  460,
+    "manuallyCastable":  true,
+    "maxCharges":  3,
+    "name":  "Land of the Dead",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY",
+                 "BUFF"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

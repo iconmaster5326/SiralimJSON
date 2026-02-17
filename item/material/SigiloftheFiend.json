@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Fiends:\nYour {RACE_Fiend}s with {CONDNAME_BUFF_BERSERK} have a 40% chance to avoid damage. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheFiend.png",
-  "id": 1255,
-  "name": "Sigil of the Fiend",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1434
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Fiends:\nYour {RACE_Fiend}s with {CONDNAME_BUFF_BERSERK} have a 40% chance to avoid damage. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheFiend.png",
+    "id":  1255,
+    "name":  "Sigil of the Fiend",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1434,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

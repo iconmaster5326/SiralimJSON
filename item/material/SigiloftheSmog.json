@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Smogs:\nWhen your creatures afflict enemies with {CONDNAME_DEBUFF_POISON}, the potency of this debuff is increased by 50% for each {RACE_Smog} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheSmog.png",
-  "id": 1215,
-  "name": "Sigil of the Smog",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1495
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Smogs:\nWhen your creatures afflict enemies with {CONDNAME_DEBUFF_POISON}, the potency of this debuff is increased by 50% for each {RACE_Smog} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheSmog.png",
+    "id":  1215,
+    "name":  "Sigil of the Smog",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1495,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

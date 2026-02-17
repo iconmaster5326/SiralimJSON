@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Etta/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 7,
-  "name": "Etta",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Etta/overworld_e0.png",
-      "images/skin/Etta/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Etta/overworld_n0.png",
-      "images/skin/Etta/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Etta/overworld_s0.png",
-      "images/skin/Etta/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Etta/overworld_w0.png",
-      "images/skin/Etta/overworld_w1.png"
-    ]
-  },
-  "race": "Dryad",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Etta/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  7,
+    "name":  "Etta",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Etta/overworld_e0.png",
+                                         "images/skin/Etta/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Etta/overworld_n0.png",
+                                          "images/skin/Etta/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Etta/overworld_s0.png",
+                                          "images/skin/Etta/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Etta/overworld_w0.png",
+                                         "images/skin/Etta/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dryad",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

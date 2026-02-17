@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ChronoshatterWyrm/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1452,
-  "item": 1719,
-  "lore": "Created as part of a doctoral project at Andolin\u0027s magic university, this creature was built to record events and the exact time they\u0027d happen\u00E2\u20AC\u201Dso it could warn when the moment was close. Now, Chronoshatter Wyrms are prized helpers, coordinating builders, fishing boats, and other workers so no one has to keep track of time themselves.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Chronoshatter Wyrm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ChronoshatterWyrm/overworld_e0.png",
-      "images/creature/ChronoshatterWyrm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ChronoshatterWyrm/overworld_n0.png",
-      "images/creature/ChronoshatterWyrm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ChronoshatterWyrm/overworld_s0.png",
-      "images/creature/ChronoshatterWyrm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ChronoshatterWyrm/overworld_w0.png",
-      "images/creature/ChronoshatterWyrm/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 10
-  },
-  "trait": 2061
+    "battleSprite":  "images/creature/ChronoshatterWyrm/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1452,
+    "item":  1719,
+    "lore":  "Created as part of a doctoral project at Andolin\u0027s magic university, this creature was built to record events and the exact time they\u0027d happen—so it could warn when the moment was close. Now, Chronoshatter Wyrms are prized helpers, coordinating builders, fishing boats, and other workers so no one has to keep track of time themselves.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Chronoshatter Wyrm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ChronoshatterWyrm/overworld_e0.png",
+                                         "images/creature/ChronoshatterWyrm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ChronoshatterWyrm/overworld_n0.png",
+                                          "images/creature/ChronoshatterWyrm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ChronoshatterWyrm/overworld_s0.png",
+                                          "images/creature/ChronoshatterWyrm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ChronoshatterWyrm/overworld_w0.png",
+                                         "images/creature/ChronoshatterWyrm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  10
+                   },
+    "trait":  2061,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

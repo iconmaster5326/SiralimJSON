@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHelix:\nYour creatures have 20% more {STAT_defense} for each permanent {SPELL_equipment} they have equipped. This trait does not stack.",
-  "icon": "images/item/material/AstroSoul.png",
-  "id": 49,
-  "name": "Astro Soul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1014
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHelix:\nYour creatures have 20% more {STAT_defense} for each permanent {SPELL_equipment} they have equipped. This trait does not stack.",
+    "icon":  "images/item/material/AstroSoul.png",
+    "id":  49,
+    "name":  "Astro Soul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1014,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

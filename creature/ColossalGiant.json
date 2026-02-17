@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ColossalGiant/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 354,
-  "item": 512,
-  "lore": "Faced with the Watcher invasion, several Gods joined forces to prevent the destruction of their creation.\\n\\nThe Giants were imbued with a natural instinct that drives them to carry big, blunt objects on their shoulders, which allowed them to crush the Watchers when they sowed chaos in the first human cities. The Colossal Giant prefers to wield columns from ruined temples, but it can also attack with the horn on its head.",
-  "menagerieDialog": [
-    "Humans are weak! Even baby Giants can crush your kind with one hand.",
-    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
-    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
-    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
-    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
-  ],
-  "minDepth": 1,
-  "name": "Colossal Giant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ColossalGiant/overworld_e0.png",
-      "images/creature/ColossalGiant/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ColossalGiant/overworld_n0.png",
-      "images/creature/ColossalGiant/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ColossalGiant/overworld_s0.png",
-      "images/creature/ColossalGiant/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ColossalGiant/overworld_w0.png",
-      "images/creature/ColossalGiant/overworld_w1.png"
-    ]
-  },
-  "race": "Giant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 17,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 23,
-    "health": 40,
-    "intelligence": 13,
-    "speed": 13
-  },
-  "trait": 426
+    "battleSprite":  "images/creature/ColossalGiant/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  354,
+    "item":  512,
+    "lore":  "Faced with the Watcher invasion, several Gods joined forces to prevent the destruction of their creation.\\n\\nThe Giants were imbued with a natural instinct that drives them to carry big, blunt objects on their shoulders, which allowed them to crush the Watchers when they sowed chaos in the first human cities. The Colossal Giant prefers to wield columns from ruined temples, but it can also attack with the horn on its head.",
+    "menagerieDialog":  [
+                            "Humans are weak! Even baby Giants can crush your kind with one hand.",
+                            "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+                            "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+                            "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+                            "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Colossal Giant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ColossalGiant/overworld_e0.png",
+                                         "images/creature/ColossalGiant/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ColossalGiant/overworld_n0.png",
+                                          "images/creature/ColossalGiant/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ColossalGiant/overworld_s0.png",
+                                          "images/creature/ColossalGiant/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ColossalGiant/overworld_w0.png",
+                                         "images/creature/ColossalGiant/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Giant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  23,
+                       "health":  40,
+                       "intelligence":  13,
+                       "speed":  13
+                   },
+    "trait":  426,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

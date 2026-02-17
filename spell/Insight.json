@@ -1,45 +1,48 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Target gains {CONDNAME_BUFF_ARCANE}. If it already has {CONDNAME_BUFF_ARCANE}, it {ACTION_casts} a permanent Spell Gem.",
-  "god": null,
-  "id": 388,
-  "manuallyCastable": true,
-  "maxCharges": 10,
-  "name": "Insight",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    6,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BUFF",
-    "UTILITY"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Target gains {CONDNAME_BUFF_ARCANE}. If it already has {CONDNAME_BUFF_ARCANE}, it {ACTION_casts} a permanent Spell Gem.",
+    "god":  null,
+    "id":  388,
+    "manuallyCastable":  true,
+    "maxCharges":  10,
+    "name":  "Insight",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  6,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BUFF",
+                 "UTILITY"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

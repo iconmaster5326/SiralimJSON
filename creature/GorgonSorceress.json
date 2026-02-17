@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/GorgonSorceress/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 484,
-  "item": 467,
-  "lore": "The Gorgons come from a country where the use of magic is restricted and beyond the reach of non-humans.\\n\\nGorgon Sorceresses are the most well versed in magic of their kind, and they have learned fast on account of the books they borrow from the Familiars of the Cornell Tower. Thanks to their knowledge, they have learned to prolong their enemies\u0027 fear by just staring at them.",
-  "menagerieDialog": [
-    "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
-    "(Her snakes violently hiss upon your approach. Stupid snakes.)",
-    "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
-    "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
-    "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
-  ],
-  "minDepth": 1,
-  "name": "Gorgon Sorceress",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GorgonSorceress/overworld_e0.png",
-      "images/creature/GorgonSorceress/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GorgonSorceress/overworld_n0.png",
-      "images/creature/GorgonSorceress/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GorgonSorceress/overworld_s0.png",
-      "images/creature/GorgonSorceress/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GorgonSorceress/overworld_w0.png",
-      "images/creature/GorgonSorceress/overworld_w1.png"
-    ]
-  },
-  "race": "Gorgon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 10,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 381
+    "battleSprite":  "images/creature/GorgonSorceress/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  484,
+    "item":  467,
+    "lore":  "The Gorgons come from a country where the use of magic is restricted and beyond the reach of non-humans.\\n\\nGorgon Sorceresses are the most well versed in magic of their kind, and they have learned fast on account of the books they borrow from the Familiars of the Cornell Tower. Thanks to their knowledge, they have learned to prolong their enemies\u0027 fear by just staring at them.",
+    "menagerieDialog":  [
+                            "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
+                            "(Her snakes violently hiss upon your approach. Stupid snakes.)",
+                            "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
+                            "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
+                            "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Gorgon Sorceress",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GorgonSorceress/overworld_e0.png",
+                                         "images/creature/GorgonSorceress/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GorgonSorceress/overworld_n0.png",
+                                          "images/creature/GorgonSorceress/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GorgonSorceress/overworld_s0.png",
+                                          "images/creature/GorgonSorceress/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GorgonSorceress/overworld_w0.png",
+                                         "images/creature/GorgonSorceress/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gorgon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  381,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

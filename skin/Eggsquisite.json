@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Eggsquisite/battle.png",
-  "creator": null,
-  "creature": 716,
-  "id": 823,
-  "name": "Egg-squisite",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Eggsquisite/overworld_e0.png",
-      "images/skin/Eggsquisite/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Eggsquisite/overworld_n0.png",
-      "images/skin/Eggsquisite/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Eggsquisite/overworld_s0.png",
-      "images/skin/Eggsquisite/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Eggsquisite/overworld_w0.png",
-      "images/skin/Eggsquisite/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Eggsquisite/battle.png",
+    "creator":  null,
+    "creature":  716,
+    "id":  823,
+    "name":  "Egg-squisite",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Eggsquisite/overworld_e0.png",
+                                         "images/skin/Eggsquisite/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Eggsquisite/overworld_n0.png",
+                                          "images/skin/Eggsquisite/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Eggsquisite/overworld_s0.png",
+                                          "images/skin/Eggsquisite/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Eggsquisite/overworld_w0.png",
+                                         "images/skin/Eggsquisite/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

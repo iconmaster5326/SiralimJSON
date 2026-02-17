@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/StringPuller/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1228,
-  "item": 1436,
-  "lore": "A famous Andolin Mage recently gave life to the String Puller to aid him in his puppet show. The country\u0027s army soon realized its usefulness in battle and began to produce more of these creatures. Of course, the secret to their creation was leaked to the biggest criminal organizations, so now anyone with enough money can have one of these creatures at their disposal.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "String Puller",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StringPuller/overworld_e0.png",
-      "images/creature/StringPuller/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StringPuller/overworld_n0.png",
-      "images/creature/StringPuller/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StringPuller/overworld_s0.png",
-      "images/creature/StringPuller/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StringPuller/overworld_w0.png",
-      "images/creature/StringPuller/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 25,
-    "health": 37,
-    "intelligence": 12,
-    "speed": 22
-  },
-  "trait": 1744
+    "battleSprite":  "images/creature/StringPuller/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1228,
+    "item":  1436,
+    "lore":  "A famous Andolin Mage recently gave life to the String Puller to aid him in his puppet show. The country\u0027s army soon realized its usefulness in battle and began to produce more of these creatures. Of course, the secret to their creation was leaked to the biggest criminal organizations, so now anyone with enough money can have one of these creatures at their disposal.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "String Puller",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StringPuller/overworld_e0.png",
+                                         "images/creature/StringPuller/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StringPuller/overworld_n0.png",
+                                          "images/creature/StringPuller/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StringPuller/overworld_s0.png",
+                                          "images/creature/StringPuller/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StringPuller/overworld_w0.png",
+                                         "images/creature/StringPuller/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  25,
+                       "health":  37,
+                       "intelligence":  12,
+                       "speed":  22
+                   },
+    "trait":  1744,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

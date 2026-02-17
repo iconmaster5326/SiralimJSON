@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SphinxJusticar/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 421,
-  "item": 186,
-  "lore": "At a certain point, Sphinxes began to appear in the iconography of Kaito. According to Pharaoh Kerufen, there were too many and it seemed like they were everywhere. But the people adored them, and Kerufen had no choice but to erect a monument in their honor.\\n\\nSphinx Justicars sacrifice their eyes to obtain visions of the future and intervene when they deem it necessary. Their visions do not show events exactly as they are going to happen, but they are close enough to be useful.",
-  "menagerieDialog": [
-    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
-    "Let us take our leave and fight for glory!",
-    "Things are not always as they seem. My advice to you is to question everything.",
-    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
-    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
-  ],
-  "minDepth": 1,
-  "name": "Sphinx Justicar",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SphinxJusticar/overworld_e0.png",
-      "images/creature/SphinxJusticar/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SphinxJusticar/overworld_n0.png",
-      "images/creature/SphinxJusticar/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SphinxJusticar/overworld_s0.png",
-      "images/creature/SphinxJusticar/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SphinxJusticar/overworld_w0.png",
-      "images/creature/SphinxJusticar/overworld_w1.png"
-    ]
-  },
-  "race": "Sphinx",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Yseros)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 9,
-    "health": 37,
-    "intelligence": 22,
-    "speed": 19
-  },
-  "trait": 96
+    "battleSprite":  "images/creature/SphinxJusticar/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  421,
+    "item":  186,
+    "lore":  "At a certain point, Sphinxes began to appear in the iconography of Kaito. According to Pharaoh Kerufen, there were too many and it seemed like they were everywhere. But the people adored them, and Kerufen had no choice but to erect a monument in their honor.\\n\\nSphinx Justicars sacrifice their eyes to obtain visions of the future and intervene when they deem it necessary. Their visions do not show events exactly as they are going to happen, but they are close enough to be useful.",
+    "menagerieDialog":  [
+                            "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+                            "Let us take our leave and fight for glory!",
+                            "Things are not always as they seem. My advice to you is to question everything.",
+                            "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+                            "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+                        ],
+    "minDepth":  1,
+    "name":  "Sphinx Justicar",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SphinxJusticar/overworld_e0.png",
+                                         "images/creature/SphinxJusticar/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SphinxJusticar/overworld_n0.png",
+                                          "images/creature/SphinxJusticar/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SphinxJusticar/overworld_s0.png",
+                                          "images/creature/SphinxJusticar/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SphinxJusticar/overworld_w0.png",
+                                         "images/creature/SphinxJusticar/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sphinx",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Yseros)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  9,
+                       "health":  37,
+                       "intelligence":  22,
+                       "speed":  19
+                   },
+    "trait":  96,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

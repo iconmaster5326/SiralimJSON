@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Squash/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 781,
-  "item": 5,
-  "lore": "There are numerous stories about lucky items and animals, and enough proof to know most of them are just stories. However, the Squash is an exception to the rule. Like most Dumplings, these creatures are very elusive. However, those who obtain one are undoubtedly blessed with good luck. It is as if the universe conspired so that everything that happens around this creature ends well for those nearby, which has led to terrible stories about the consequences of eating a Squash, as well as explanations from more skeptical people who think the Squash simply affects the world around it with some sort of magic.",
-  "menagerieDialog": [
-    "(It yawns, making a cute, squeaking sound in the process.)",
-    "(How can something so cute exist in a world like this?)",
-    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
-    "(It blushes and giggles every time you come near it.)",
-    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
-  ],
-  "minDepth": 1,
-  "name": "Squash",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Squash/overworld_e0.png",
-      "images/creature/Squash/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Squash/overworld_n0.png",
-      "images/creature/Squash/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Squash/overworld_s0.png",
-      "images/creature/Squash/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Squash/overworld_w0.png",
-      "images/creature/Squash/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1036
+    "battleSprite":  "images/creature/Squash/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  781,
+    "item":  5,
+    "lore":  "There are numerous stories about lucky items and animals, and enough proof to know most of them are just stories. However, the Squash is an exception to the rule. Like most Dumplings, these creatures are very elusive. However, those who obtain one are undoubtedly blessed with good luck. It is as if the universe conspired so that everything that happens around this creature ends well for those nearby, which has led to terrible stories about the consequences of eating a Squash, as well as explanations from more skeptical people who think the Squash simply affects the world around it with some sort of magic.",
+    "menagerieDialog":  [
+                            "(It yawns, making a cute, squeaking sound in the process.)",
+                            "(How can something so cute exist in a world like this?)",
+                            "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+                            "(It blushes and giggles every time you come near it.)",
+                            "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Squash",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Squash/overworld_e0.png",
+                                         "images/creature/Squash/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Squash/overworld_n0.png",
+                                          "images/creature/Squash/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Squash/overworld_s0.png",
+                                          "images/creature/Squash/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Squash/overworld_w0.png",
+                                         "images/creature/Squash/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1036,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

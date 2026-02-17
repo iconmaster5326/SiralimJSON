@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DormantBasilisk/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 591,
-  "item": 713,
-  "lore": "It is a common misconception that the power of the Basilisks is contained in their eyeballs. A study carried out in the Refuge of the Magi confirmed that their powers still worked after removing their eyes.\\n\\nThe Dormant Basilisk has great regenerative abilities: even if they lose their tail or an arm, they grow back in a matter of seconds. Potions that contain hair of this creature are commonly sold on the black market. The most frequent effect after ingesting these products is acute diarrhea.",
-  "menagerieDialog": [
-    "(It\u0027s crouched down, staring blankly into nothingness.)",
-    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
-    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
-    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
-    "(It bows its head and turns away. It must be shy.)"
-  ],
-  "minDepth": 1,
-  "name": "Dormant Basilisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DormantBasilisk/overworld_e0.png",
-      "images/creature/DormantBasilisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DormantBasilisk/overworld_n0.png",
-      "images/creature/DormantBasilisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DormantBasilisk/overworld_s0.png",
-      "images/creature/DormantBasilisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DormantBasilisk/overworld_w0.png",
-      "images/creature/DormantBasilisk/overworld_w1.png"
-    ]
-  },
-  "race": "Basilisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vulcanar)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 34,
-    "intelligence": 19,
-    "speed": 14
-  },
-  "trait": 652
+    "battleSprite":  "images/creature/DormantBasilisk/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  591,
+    "item":  713,
+    "lore":  "It is a common misconception that the power of the Basilisks is contained in their eyeballs. A study carried out in the Refuge of the Magi confirmed that their powers still worked after removing their eyes.\\n\\nThe Dormant Basilisk has great regenerative abilities: even if they lose their tail or an arm, they grow back in a matter of seconds. Potions that contain hair of this creature are commonly sold on the black market. The most frequent effect after ingesting these products is acute diarrhea.",
+    "menagerieDialog":  [
+                            "(It\u0027s crouched down, staring blankly into nothingness.)",
+                            "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+                            "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+                            "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+                            "(It bows its head and turns away. It must be shy.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dormant Basilisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DormantBasilisk/overworld_e0.png",
+                                         "images/creature/DormantBasilisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DormantBasilisk/overworld_n0.png",
+                                          "images/creature/DormantBasilisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DormantBasilisk/overworld_s0.png",
+                                          "images/creature/DormantBasilisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DormantBasilisk/overworld_w0.png",
+                                         "images/creature/DormantBasilisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Basilisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vulcanar)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  34,
+                       "intelligence":  19,
+                       "speed":  14
+                   },
+    "trait":  652,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

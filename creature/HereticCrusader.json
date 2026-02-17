@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HereticCrusader/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1012,
-  "item": 1339,
-  "lore": "This creature is not really a Crusader, but an automaton created by the Auditors to protect Ubi Concordia. When it detects an enemy, the green lights on its neck blink in a random order. When it is active for a long time, the metal plates on its back get so hot that you could fry an egg on them. Indeed, if the creature does not stop to cool down in a timely manner, it will shut down to prevent damage to its structure.",
-  "menagerieDialog": [
-    "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
-    "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
-    "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
-    "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
-    "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
-  ],
-  "minDepth": 1,
-  "name": "Heretic Crusader",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HereticCrusader/overworld_e0.png",
-      "images/creature/HereticCrusader/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HereticCrusader/overworld_n0.png",
-      "images/creature/HereticCrusader/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HereticCrusader/overworld_s0.png",
-      "images/creature/HereticCrusader/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HereticCrusader/overworld_w0.png",
-      "images/creature/HereticCrusader/overworld_w1.png"
-    ]
-  },
-  "race": "Crusader",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Sorcery Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 16,
-    "health": 30,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1585
+    "battleSprite":  "images/creature/HereticCrusader/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1012,
+    "item":  1339,
+    "lore":  "This creature is not really a Crusader, but an automaton created by the Auditors to protect Ubi Concordia. When it detects an enemy, the green lights on its neck blink in a random order. When it is active for a long time, the metal plates on its back get so hot that you could fry an egg on them. Indeed, if the creature does not stop to cool down in a timely manner, it will shut down to prevent damage to its structure.",
+    "menagerieDialog":  [
+                            "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
+                            "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
+                            "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
+                            "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
+                            "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Heretic Crusader",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HereticCrusader/overworld_e0.png",
+                                         "images/creature/HereticCrusader/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HereticCrusader/overworld_n0.png",
+                                          "images/creature/HereticCrusader/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HereticCrusader/overworld_s0.png",
+                                          "images/creature/HereticCrusader/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HereticCrusader/overworld_w0.png",
+                                         "images/creature/HereticCrusader/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Crusader",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Sorcery Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  16,
+                       "health":  30,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1585,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

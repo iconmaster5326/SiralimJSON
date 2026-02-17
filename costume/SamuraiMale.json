@@ -1,29 +1,32 @@
 {
-  "creator": null,
-  "id": 166,
-  "name": "Samurai (Male)",
-  "notes": [],
-  "sources": [
-    {
-      "type": "everett"
-    }
-  ],
-  "sprite": {
-    "east": [
-      "images/costume/SamuraiMale/overworld_e0.png",
-      "images/costume/SamuraiMale/overworld_e1.png"
-    ],
-    "north": [
-      "images/costume/SamuraiMale/overworld_n0.png",
-      "images/costume/SamuraiMale/overworld_n1.png"
-    ],
-    "south": [
-      "images/costume/SamuraiMale/overworld_s0.png",
-      "images/costume/SamuraiMale/overworld_s1.png"
-    ],
-    "west": [
-      "images/costume/SamuraiMale/overworld_w0.png",
-      "images/costume/SamuraiMale/overworld_w1.png"
-    ]
-  }
+    "creator":  null,
+    "id":  166,
+    "name":  "Samurai (Male)",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "everett"
+                    }
+                ],
+    "sprite":  {
+                   "east":  [
+                                "images/costume/SamuraiMale/overworld_e0.png",
+                                "images/costume/SamuraiMale/overworld_e1.png"
+                            ],
+                   "north":  [
+                                 "images/costume/SamuraiMale/overworld_n0.png",
+                                 "images/costume/SamuraiMale/overworld_n1.png"
+                             ],
+                   "south":  [
+                                 "images/costume/SamuraiMale/overworld_s0.png",
+                                 "images/costume/SamuraiMale/overworld_s1.png"
+                             ],
+                   "west":  [
+                                "images/costume/SamuraiMale/overworld_w0.png",
+                                "images/costume/SamuraiMale/overworld_w1.png"
+                            ]
+               },
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/costume.yaml"
 }

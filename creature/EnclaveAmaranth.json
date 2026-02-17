@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EnclaveAmaranth/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 100,
-  "item": 127,
-  "lore": "At the dawn of civilization, the Amaranths fell from the sky. Yseros hurried to Eternity\u0027s End and met with Vertraag. \u0022Was that you?\u0022 she asked. \u0022No,\u0022 answered the God of Time. A smile appeared on his face. \u0022It was no one. They were already here.\u0022\\n\\nWhen a spell hits the Enclave Amaranth, part of the magic bounces off its body and moves toward the caster. It is common to find groups of these creatures after a natural disaster, staring at the damage.",
-  "menagerieDialog": [
-    "(You can\u0027t seem to catch its attention at all...)",
-    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
-    "(It seems to be highly observant of its surroundings.)",
-    "(It\u0027s spinning around on its side. Pretty cool, really.)",
-    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
-  ],
-  "minDepth": 1,
-  "name": "Enclave Amaranth",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EnclaveAmaranth/overworld_e0.png",
-      "images/creature/EnclaveAmaranth/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EnclaveAmaranth/overworld_n0.png",
-      "images/creature/EnclaveAmaranth/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EnclaveAmaranth/overworld_s0.png",
-      "images/creature/EnclaveAmaranth/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EnclaveAmaranth/overworld_w0.png",
-      "images/creature/EnclaveAmaranth/overworld_w1.png"
-    ]
-  },
-  "race": "Amaranth",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 43,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 36
+    "battleSprite":  "images/creature/EnclaveAmaranth/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  100,
+    "item":  127,
+    "lore":  "At the dawn of civilization, the Amaranths fell from the sky. Yseros hurried to Eternity\u0027s End and met with Vertraag. \"Was that you?\" she asked. \"No,\" answered the God of Time. A smile appeared on his face. \"It was no one. They were already here.\"\\n\\nWhen a spell hits the Enclave Amaranth, part of the magic bounces off its body and moves toward the caster. It is common to find groups of these creatures after a natural disaster, staring at the damage.",
+    "menagerieDialog":  [
+                            "(You can\u0027t seem to catch its attention at all...)",
+                            "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+                            "(It seems to be highly observant of its surroundings.)",
+                            "(It\u0027s spinning around on its side. Pretty cool, really.)",
+                            "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Enclave Amaranth",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EnclaveAmaranth/overworld_e0.png",
+                                         "images/creature/EnclaveAmaranth/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EnclaveAmaranth/overworld_n0.png",
+                                          "images/creature/EnclaveAmaranth/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EnclaveAmaranth/overworld_s0.png",
+                                          "images/creature/EnclaveAmaranth/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EnclaveAmaranth/overworld_w0.png",
+                                         "images/creature/EnclaveAmaranth/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Amaranth",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  43,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  36,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

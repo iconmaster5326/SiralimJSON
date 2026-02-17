@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRotten Revenge:\nAfter this creature takes damage from an attack or spell, it {ACTION_casts} [icons,1984]Putrescent Odor.",
-  "icon": "images/item/material/BadEgg.png",
-  "id": 1705,
-  "name": "Bad Egg",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2047
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRotten Revenge:\nAfter this creature takes damage from an attack or spell, it {ACTION_casts} [icons,1984]Putrescent Odor.",
+    "icon":  "images/item/material/BadEgg.png",
+    "id":  1705,
+    "name":  "Bad Egg",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2047,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

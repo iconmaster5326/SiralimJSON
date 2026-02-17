@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BloodLeper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 378,
-  "item": 834,
-  "lore": "The Blood Leper is extremely dangerous, as the blood that emanates from its body transmits the disease to humans who come into contact with it. It is believed that this creature was once a Chosen of Gonfurian, which would explain its longevity. It was caught near Crux centuries ago, and then studied at the Magic University of Andolin. Now, the vaccine is cheaper and available to everyone. However, this creature escaped after an old ruler of Siralim attacked the kingdom, and now wanders the country.",
-  "menagerieDialog": [
-    "(It looks at you groggily with a half-baked grin on its face.)",
-    "(This creature will always be picked last for the dodgeball team.)",
-    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
-    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
-    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
-  ],
-  "minDepth": 1,
-  "name": "Blood Leper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BloodLeper/overworld_e0.png",
-      "images/creature/BloodLeper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BloodLeper/overworld_n0.png",
-      "images/creature/BloodLeper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BloodLeper/overworld_s0.png",
-      "images/creature/BloodLeper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BloodLeper/overworld_w0.png",
-      "images/creature/BloodLeper/overworld_w1.png"
-    ]
-  },
-  "race": "Leper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 861
+    "battleSprite":  "images/creature/BloodLeper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  378,
+    "item":  834,
+    "lore":  "The Blood Leper is extremely dangerous, as the blood that emanates from its body transmits the disease to humans who come into contact with it. It is believed that this creature was once a Chosen of Gonfurian, which would explain its longevity. It was caught near Crux centuries ago, and then studied at the Magic University of Andolin. Now, the vaccine is cheaper and available to everyone. However, this creature escaped after an old ruler of Siralim attacked the kingdom, and now wanders the country.",
+    "menagerieDialog":  [
+                            "(It looks at you groggily with a half-baked grin on its face.)",
+                            "(This creature will always be picked last for the dodgeball team.)",
+                            "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+                            "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+                            "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Blood Leper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BloodLeper/overworld_e0.png",
+                                         "images/creature/BloodLeper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BloodLeper/overworld_n0.png",
+                                          "images/creature/BloodLeper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BloodLeper/overworld_s0.png",
+                                          "images/creature/BloodLeper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BloodLeper/overworld_w0.png",
+                                         "images/creature/BloodLeper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  861,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

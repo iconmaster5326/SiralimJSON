@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AstralSpacecat/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1299,
-  "item": 1806,
-  "lore": "Spacecats have only recently appeared in Siralim and other nations, and the Astral Spacecat is one of the most playful of them all. It\u0027s always seen with its beloved little ball, which it uses to show off amazing tricks! But what most don\u0027t realize is that the ball isn\u0027t just a toy \u00E2\u20AC\u201D it\u0027s a sophisticated device that can read the emotions of any creature and transmit that information to its feline user.",
-  "menagerieDialog": [
-    "(It\u0027s curled up in a floating ball, purring contentedly.)",
-    "Time to show these earthlings what a real predator looks like!",
-    "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
-    "My space suit is impenetrable! Your puny weapons are no match for me!",
-    "(It\u0027s zooming around in erratic patterns, defying gravity.)"
-  ],
-  "minDepth": 1,
-  "name": "Astral Spacecat",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AstralSpacecat/overworld_e0.png",
-      "images/creature/AstralSpacecat/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AstralSpacecat/overworld_n0.png",
-      "images/creature/AstralSpacecat/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AstralSpacecat/overworld_s0.png",
-      "images/creature/AstralSpacecat/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AstralSpacecat/overworld_w0.png",
-      "images/creature/AstralSpacecat/overworld_w1.png"
-    ]
-  },
-  "race": "Spacecat",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 28,
-    "speed": 20
-  },
-  "trait": 2159
+    "battleSprite":  "images/creature/AstralSpacecat/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1299,
+    "item":  1806,
+    "lore":  "Spacecats have only recently appeared in Siralim and other nations, and the Astral Spacecat is one of the most playful of them all. It\u0027s always seen with its beloved little ball, which it uses to show off amazing tricks! But what most don\u0027t realize is that the ball isn\u0027t just a toy — it\u0027s a sophisticated device that can read the emotions of any creature and transmit that information to its feline user.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up in a floating ball, purring contentedly.)",
+                            "Time to show these earthlings what a real predator looks like!",
+                            "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
+                            "My space suit is impenetrable! Your puny weapons are no match for me!",
+                            "(It\u0027s zooming around in erratic patterns, defying gravity.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Astral Spacecat",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AstralSpacecat/overworld_e0.png",
+                                         "images/creature/AstralSpacecat/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AstralSpacecat/overworld_n0.png",
+                                          "images/creature/AstralSpacecat/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AstralSpacecat/overworld_s0.png",
+                                          "images/creature/AstralSpacecat/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AstralSpacecat/overworld_w0.png",
+                                         "images/creature/AstralSpacecat/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spacecat",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  28,
+                       "speed":  20
+                   },
+    "trait":  2159,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

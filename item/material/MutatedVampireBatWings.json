@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVampiric Aura:\nAfter an ally {ACTION_attacks}, your creatures recover {STAT_health} equal to 25% of the damage dealt.",
-  "icon": "images/item/material/MutatedVampireBatWings.png",
-  "id": 292,
-  "name": "Mutated Vampire Bat Wings",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 208
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVampiric Aura:\nAfter an ally {ACTION_attacks}, your creatures recover {STAT_health} equal to 25% of the damage dealt.",
+    "icon":  "images/item/material/MutatedVampireBatWings.png",
+    "id":  292,
+    "name":  "Mutated Vampire Bat Wings",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  208,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

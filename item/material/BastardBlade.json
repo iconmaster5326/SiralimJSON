@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeart Versus Mind:\nAfter your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs are damaged and destroyed, they gain 50% of the original strength of the {CONDNAME_BUFF_BARRIER} as Maximum {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/BastardBlade.png",
-  "id": 980,
-  "name": "Bastard Blade",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1156
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeart Versus Mind:\nAfter your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs are damaged and destroyed, they gain 50% of the original strength of the {CONDNAME_BUFF_BARRIER} as Maximum {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/BastardBlade.png",
+    "id":  980,
+    "name":  "Bastard Blade",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1156,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

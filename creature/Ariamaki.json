@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Ariamaki/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": 24,
-  "id": 1097,
-  "item": null,
-  "lore": "Nobody knows for sure when or how Ariamaki appeared, as his realm was discovered by the Magic University of Neralim a few months ago. For the God of Balance, good and evil, and chaos and order must coexist for the world to function properly. However, his attempts to create balance are not always very successful, and he sometimes ends up helping to commit real atrocities that he later deeply regrets. Also, his way of dealing with people is chaotic, as he refuses to be nice as well as unfriendly to the same person all the time.",
-  "menagerieDialog": [
-    "(You sense Ariamaki\u0027s fatigue. Perhaps you should take some time away from exploring Rodia and relax instead.)",
-    "(You sense a surprising feeling of bloodlust emanating from Ariamaki. He yearns for battle.)",
-    "(Ariamaki seems to be prodding at your mind, curious about your thoughts and desires.)",
-    "(A deep sense of restlessness washes over you. Ariamaki seems to dislike waiting around in your menagerie.)",
-    "(Ariamaki seems agitated. It might be best to leave him alone for now.)"
-  ],
-  "minDepth": 1,
-  "name": "Ariamaki",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Ariamaki/overworld_e0.png",
-      "images/creature/Ariamaki/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Ariamaki/overworld_n0.png",
-      "images/creature/Ariamaki/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Ariamaki/overworld_s0.png",
-      "images/creature/Ariamaki/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Ariamaki/overworld_w0.png",
-      "images/creature/Ariamaki/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    592,
-    600,
-    609
-  ],
-  "sources": [
-    {
-      "god": 24,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1985
+    "battleSprite":  "images/creature/Ariamaki/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  24,
+    "id":  1097,
+    "item":  null,
+    "lore":  "Nobody knows for sure when or how Ariamaki appeared, as his realm was discovered by the Magic University of Neralim a few months ago. For the God of Balance, good and evil, and chaos and order must coexist for the world to function properly. However, his attempts to create balance are not always very successful, and he sometimes ends up helping to commit real atrocities that he later deeply regrets. Also, his way of dealing with people is chaotic, as he refuses to be nice as well as unfriendly to the same person all the time.",
+    "menagerieDialog":  [
+                            "(You sense Ariamaki\u0027s fatigue. Perhaps you should take some time away from exploring Rodia and relax instead.)",
+                            "(You sense a surprising feeling of bloodlust emanating from Ariamaki. He yearns for battle.)",
+                            "(Ariamaki seems to be prodding at your mind, curious about your thoughts and desires.)",
+                            "(A deep sense of restlessness washes over you. Ariamaki seems to dislike waiting around in your menagerie.)",
+                            "(Ariamaki seems agitated. It might be best to leave him alone for now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ariamaki",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Ariamaki/overworld_e0.png",
+                                         "images/creature/Ariamaki/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Ariamaki/overworld_n0.png",
+                                          "images/creature/Ariamaki/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Ariamaki/overworld_s0.png",
+                                          "images/creature/Ariamaki/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Ariamaki/overworld_w0.png",
+                                         "images/creature/Ariamaki/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  592,
+                  600,
+                  609
+              ],
+    "sources":  [
+                    {
+                        "god":  24,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1985,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

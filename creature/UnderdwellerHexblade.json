@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UnderdwellerHexblade/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1367,
-  "item": 1765,
-  "lore": "Underdwellers come from swampy lands, but as cities grew, they adapted to living on the fringes of society.\\n\\nUnderdweller Hexblades are experts at finding enemy weaknesses\u00E2\u20AC\u201Dbe it a limp or a blind spot\u00E2\u20AC\u201Dand use those flaws to their advantage or teach others how to.",
-  "menagerieDialog": [
-    "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
-    "The surface dwellers will learn to fear the depths!",
-    "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
-    "The pressure of the deep has made me unbreakable!",
-    "(It\u0027s darting about erratically, as if unused to open spaces.)"
-  ],
-  "minDepth": 1,
-  "name": "Underdweller Hexblade",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UnderdwellerHexblade/overworld_e0.png",
-      "images/creature/UnderdwellerHexblade/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UnderdwellerHexblade/overworld_n0.png",
-      "images/creature/UnderdwellerHexblade/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UnderdwellerHexblade/overworld_s0.png",
-      "images/creature/UnderdwellerHexblade/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UnderdwellerHexblade/overworld_w0.png",
-      "images/creature/UnderdwellerHexblade/overworld_w1.png"
-    ]
-  },
-  "race": "Underdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 18
-  },
-  "trait": 2118
+    "battleSprite":  "images/creature/UnderdwellerHexblade/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1367,
+    "item":  1765,
+    "lore":  "Underdwellers come from swampy lands, but as cities grew, they adapted to living on the fringes of society.\\n\\nUnderdweller Hexblades are experts at finding enemy weaknesses—be it a limp or a blind spot—and use those flaws to their advantage or teach others how to.",
+    "menagerieDialog":  [
+                            "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
+                            "The surface dwellers will learn to fear the depths!",
+                            "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
+                            "The pressure of the deep has made me unbreakable!",
+                            "(It\u0027s darting about erratically, as if unused to open spaces.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Underdweller Hexblade",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UnderdwellerHexblade/overworld_e0.png",
+                                         "images/creature/UnderdwellerHexblade/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UnderdwellerHexblade/overworld_n0.png",
+                                          "images/creature/UnderdwellerHexblade/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UnderdwellerHexblade/overworld_s0.png",
+                                          "images/creature/UnderdwellerHexblade/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UnderdwellerHexblade/overworld_w0.png",
+                                         "images/creature/UnderdwellerHexblade/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Underdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  18
+                   },
+    "trait":  2118,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

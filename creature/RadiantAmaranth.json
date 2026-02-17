@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RadiantAmaranth/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 655,
-  "item": 790,
-  "lore": "Humans quickly began to use magic in their battles. Although it was rudimentary, the violence they unleashed knew no limits. It was enough to tear the fabric of reality. While Gods, humans, and other creatures faced the Watchers, the universe was shattered. Only the Amaranths noticed. They gathered around the rifts and looked at the sky. They waited for weeks until the night turned to day. The Radiant Amaranth descended, wrapped in a power older than the universe. A power sacrificed to save it.",
-  "menagerieDialog": [
-    "(You can\u0027t seem to catch its attention at all...)",
-    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
-    "(It seems to be highly observant of its surroundings.)",
-    "(It\u0027s spinning around on its side. Pretty cool, really.)",
-    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
-  ],
-  "minDepth": 1,
-  "name": "Radiant Amaranth",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RadiantAmaranth/overworld_e0.png",
-      "images/creature/RadiantAmaranth/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RadiantAmaranth/overworld_n0.png",
-      "images/creature/RadiantAmaranth/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RadiantAmaranth/overworld_s0.png",
-      "images/creature/RadiantAmaranth/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RadiantAmaranth/overworld_w0.png",
-      "images/creature/RadiantAmaranth/overworld_w1.png"
-    ]
-  },
-  "race": "Amaranth",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 39,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 810
+    "battleSprite":  "images/creature/RadiantAmaranth/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  655,
+    "item":  790,
+    "lore":  "Humans quickly began to use magic in their battles. Although it was rudimentary, the violence they unleashed knew no limits. It was enough to tear the fabric of reality. While Gods, humans, and other creatures faced the Watchers, the universe was shattered. Only the Amaranths noticed. They gathered around the rifts and looked at the sky. They waited for weeks until the night turned to day. The Radiant Amaranth descended, wrapped in a power older than the universe. A power sacrificed to save it.",
+    "menagerieDialog":  [
+                            "(You can\u0027t seem to catch its attention at all...)",
+                            "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+                            "(It seems to be highly observant of its surroundings.)",
+                            "(It\u0027s spinning around on its side. Pretty cool, really.)",
+                            "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Radiant Amaranth",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RadiantAmaranth/overworld_e0.png",
+                                         "images/creature/RadiantAmaranth/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RadiantAmaranth/overworld_n0.png",
+                                          "images/creature/RadiantAmaranth/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RadiantAmaranth/overworld_s0.png",
+                                          "images/creature/RadiantAmaranth/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RadiantAmaranth/overworld_w0.png",
+                                         "images/creature/RadiantAmaranth/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Amaranth",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  39,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  810,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLoid\u0027s Laugh:\nAfter an enemy {ACTION_casts} a spell, it loses 20% {STAT_intelligence} and is afflicted with {CONDNAME_DEBUFF_SILENCE}. This trait does not stack.",
-  "icon": "images/item/material/LoidsBoil.png",
-  "id": 1117,
-  "name": "Loid\u0027s Boil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1262
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLoid\u0027s Laugh:\nAfter an enemy {ACTION_casts} a spell, it loses 20% {STAT_intelligence} and is afflicted with {CONDNAME_DEBUFF_SILENCE}. This trait does not stack.",
+    "icon":  "images/item/material/LoidsBoil.png",
+    "id":  1117,
+    "name":  "Loid\u0027s Boil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1262,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

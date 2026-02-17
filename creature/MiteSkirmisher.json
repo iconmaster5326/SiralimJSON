@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MiteSkirmisher/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 222,
-  "item": 569,
-  "lore": "This creature lives mainly in rocky valleys and is an expert climber, as well as a relentless predator. When it sees a goat trying to climb or descend the mountain, it quickly moves towards it and headbutts it to make it fall. The color of its exoskeleton allows it to blend in with its surroundings, but if it moves carelessly, it can fall prey to large birds, so it remains motionless most of the time.",
-  "menagerieDialog": [
-    "(It\u0027s rolled into a ball, sleeping lazily.)",
-    "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
-    "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
-    "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
-    "(It\u0027s unsuccessfully trying to burrow into the floor.)"
-  ],
-  "minDepth": 1,
-  "name": "Mite Skirmisher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MiteSkirmisher/overworld_e0.png",
-      "images/creature/MiteSkirmisher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MiteSkirmisher/overworld_n0.png",
-      "images/creature/MiteSkirmisher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MiteSkirmisher/overworld_s0.png",
-      "images/creature/MiteSkirmisher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MiteSkirmisher/overworld_w0.png",
-      "images/creature/MiteSkirmisher/overworld_w1.png"
-    ]
-  },
-  "race": "Mite",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 483
+    "battleSprite":  "images/creature/MiteSkirmisher/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  222,
+    "item":  569,
+    "lore":  "This creature lives mainly in rocky valleys and is an expert climber, as well as a relentless predator. When it sees a goat trying to climb or descend the mountain, it quickly moves towards it and headbutts it to make it fall. The color of its exoskeleton allows it to blend in with its surroundings, but if it moves carelessly, it can fall prey to large birds, so it remains motionless most of the time.",
+    "menagerieDialog":  [
+                            "(It\u0027s rolled into a ball, sleeping lazily.)",
+                            "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
+                            "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
+                            "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
+                            "(It\u0027s unsuccessfully trying to burrow into the floor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mite Skirmisher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MiteSkirmisher/overworld_e0.png",
+                                         "images/creature/MiteSkirmisher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MiteSkirmisher/overworld_n0.png",
+                                          "images/creature/MiteSkirmisher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MiteSkirmisher/overworld_s0.png",
+                                          "images/creature/MiteSkirmisher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MiteSkirmisher/overworld_w0.png",
+                                         "images/creature/MiteSkirmisher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mite",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  483,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

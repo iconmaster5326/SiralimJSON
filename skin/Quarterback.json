@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Quarterback/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 296,
-  "name": "Quarterback",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Quarterback/overworld_e0.png",
-      "images/skin/Quarterback/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Quarterback/overworld_n0.png",
-      "images/skin/Quarterback/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Quarterback/overworld_s0.png",
-      "images/skin/Quarterback/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Quarterback/overworld_w0.png",
-      "images/skin/Quarterback/overworld_w1.png"
-    ]
-  },
-  "race": "Doomguard",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Quarterback/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  296,
+    "name":  "Quarterback",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Quarterback/overworld_e0.png",
+                                         "images/skin/Quarterback/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Quarterback/overworld_n0.png",
+                                          "images/skin/Quarterback/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Quarterback/overworld_s0.png",
+                                          "images/skin/Quarterback/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Quarterback/overworld_w0.png",
+                                         "images/skin/Quarterback/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doomguard",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBulwark:\nThis creature and your creatures adjacent to it take 50% less damage. This trait does not stack.",
-  "icon": "images/item/material/InfernalHelmet.png",
-  "id": 317,
-  "name": "Infernal Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 233
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBulwark:\nThis creature and your creatures adjacent to it take 50% less damage. This trait does not stack.",
+    "icon":  "images/item/material/InfernalHelmet.png",
+    "id":  317,
+    "name":  "Infernal Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  233,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

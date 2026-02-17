@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SanguineMasochist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 504,
-  "item": 480,
-  "lore": "As they walk the endless corridors of the Torture Chamber, most visitors feel their morale weaken with every step. Blood-stained walls, darkness lurking behind every corner, heartbreaking howls, and, above all, the smell of death. No one forgets the smell of death.\\n\\nIn spite of its diabolical appearance, the blood of the Sanguine Masochist has healing properties and can undo most curses. In another time, this creature may have been a talented Life Mage.",
-  "menagerieDialog": [
-    "(It\u0027s casually whittling away at its arm with a knife.)",
-    "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
-    "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
-    "(This creature takes a sickening amount of pleasure in being wounded.)",
-    "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
-  ],
-  "minDepth": 1,
-  "name": "Sanguine Masochist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SanguineMasochist/overworld_e0.png",
-      "images/creature/SanguineMasochist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SanguineMasochist/overworld_n0.png",
-      "images/creature/SanguineMasochist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SanguineMasochist/overworld_s0.png",
-      "images/creature/SanguineMasochist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SanguineMasochist/overworld_w0.png",
-      "images/creature/SanguineMasochist/overworld_w1.png"
-    ]
-  },
-  "race": "Masochist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 6,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 394
+    "battleSprite":  "images/creature/SanguineMasochist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  504,
+    "item":  480,
+    "lore":  "As they walk the endless corridors of the Torture Chamber, most visitors feel their morale weaken with every step. Blood-stained walls, darkness lurking behind every corner, heartbreaking howls, and, above all, the smell of death. No one forgets the smell of death.\\n\\nIn spite of its diabolical appearance, the blood of the Sanguine Masochist has healing properties and can undo most curses. In another time, this creature may have been a talented Life Mage.",
+    "menagerieDialog":  [
+                            "(It\u0027s casually whittling away at its arm with a knife.)",
+                            "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
+                            "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
+                            "(This creature takes a sickening amount of pleasure in being wounded.)",
+                            "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Sanguine Masochist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SanguineMasochist/overworld_e0.png",
+                                         "images/creature/SanguineMasochist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SanguineMasochist/overworld_n0.png",
+                                          "images/creature/SanguineMasochist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SanguineMasochist/overworld_s0.png",
+                                          "images/creature/SanguineMasochist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SanguineMasochist/overworld_w0.png",
+                                         "images/creature/SanguineMasochist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Masochist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  6,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  394,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

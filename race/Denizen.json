@@ -1,34 +1,39 @@
 {
-  "bossDialog": [
-    "(A chorus of echoing clicks and wet thuds surrounds you as the Denizens emerge, scaling walls and slinking from unseen crevices. You instinctively step back. Too late. They\u0027re already upon you.)",
-    "(As you step closer to the treasure, a trail of saltwater slithers across the floor followed by the sloshing steps of a Denizen crawling forth from the shadows. It gurgles something in a forgotten tongue, then attacks!)",
-    "(The Denizen lurches from its murky pool with a hollow, bubbling shriek. Several others rise behind it, eyes glowing dimly like dying embers beneath the waves. You\u0027ve interrupted their vigil, and now you\u0027ll pay the ultimate price.)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs.",
-    "4": "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs.",
-    "6": "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    1461,
-    1462,
-    1463,
-    1464,
-    1465,
-    1466
-  ],
-  "icon": "images/race/Denizen.png",
-  "master": {
-    "costume": 830,
-    "dialog": "The tides do not favor the loud or the brave. They favor the patient. The still. The drowned.\\n\\nFight me!",
-    "item": 1861,
-    "name": "Havelock",
-    "trait": 2202
-  },
-  "name": "Denizen",
-  "notes": [],
-  "skins": []
+    "bossDialog":  [
+                       "(A chorus of echoing clicks and wet thuds surrounds you as the Denizens emerge, scaling walls and slinking from unseen crevices. You instinctively step back. Too late. They\u0027re already upon you.)",
+                       "(As you step closer to the treasure, a trail of saltwater slithers across the floor followed by the sloshing steps of a Denizen crawling forth from the shadows. It gurgles something in a forgotten tongue, then attacks!)",
+                       "(The Denizen lurches from its murky pool with a hollow, bubbling shriek. Several others rise behind it, eyes glowing dimly like dying embers beneath the waves. You\u0027ve interrupted their vigil, and now you\u0027ll pay the ultimate price.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs.",
+                        "4":  "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs.",
+                        "6":  "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      1461,
+                      1462,
+                      1463,
+                      1464,
+                      1465,
+                      1466
+                  ],
+    "icon":  "images/race/Denizen.png",
+    "master":  {
+                   "costume":  830,
+                   "dialog":  "The tides do not favor the loud or the brave. They favor the patient. The still. The drowned.\\n\\nFight me!",
+                   "item":  1861,
+                   "name":  "Havelock",
+                   "trait":  2202
+               },
+    "name":  "Denizen",
+    "notes":  [
+
+              ],
+    "skins":  [
+
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

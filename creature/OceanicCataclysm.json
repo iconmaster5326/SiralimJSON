@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OceanicCataclysm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1374,
-  "item": 1749,
-  "lore": "Making a Cataclysm is risky\u00E2\u20AC\u201Dsometimes it results in the lab blowing up.\\n\\nThe Oceanic Cataclysm spins a whirlpool at insane speeds. Anyone who touches it risks being sucked in and drowned by its overwhelming force.",
-  "menagerieDialog": [
-    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
-    "I am the storm that ends worlds. Point me at our foes!",
-    "The secrets of the universe flow through me. What would you like to know?",
-    "The elements themselves bend to my will. No force can harm me!",
-    "(It\u0027s swirling violently, barely contained within its form.)"
-  ],
-  "minDepth": 1,
-  "name": "Oceanic Cataclysm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OceanicCataclysm/overworld_e0.png",
-      "images/creature/OceanicCataclysm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OceanicCataclysm/overworld_n0.png",
-      "images/creature/OceanicCataclysm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OceanicCataclysm/overworld_s0.png",
-      "images/creature/OceanicCataclysm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OceanicCataclysm/overworld_w0.png",
-      "images/creature/OceanicCataclysm/overworld_w1.png"
-    ]
-  },
-  "race": "Cataclysm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 42,
-    "intelligence": 25,
-    "speed": 13
-  },
-  "trait": 2102
+    "battleSprite":  "images/creature/OceanicCataclysm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1374,
+    "item":  1749,
+    "lore":  "Making a Cataclysm is risky—sometimes it results in the lab blowing up.\\n\\nThe Oceanic Cataclysm spins a whirlpool at insane speeds. Anyone who touches it risks being sucked in and drowned by its overwhelming force.",
+    "menagerieDialog":  [
+                            "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+                            "I am the storm that ends worlds. Point me at our foes!",
+                            "The secrets of the universe flow through me. What would you like to know?",
+                            "The elements themselves bend to my will. No force can harm me!",
+                            "(It\u0027s swirling violently, barely contained within its form.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Oceanic Cataclysm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OceanicCataclysm/overworld_e0.png",
+                                         "images/creature/OceanicCataclysm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OceanicCataclysm/overworld_n0.png",
+                                          "images/creature/OceanicCataclysm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OceanicCataclysm/overworld_s0.png",
+                                          "images/creature/OceanicCataclysm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OceanicCataclysm/overworld_w0.png",
+                                         "images/creature/OceanicCataclysm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cataclysm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  42,
+                       "intelligence":  25,
+                       "speed":  13
+                   },
+    "trait":  2102,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

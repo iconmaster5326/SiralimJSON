@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nContagion:\nAfter an enemy dodges, this creature afflicts it with {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_SILENCE}.",
-  "icon": "images/item/material/VenomousFinger.png",
-  "id": 363,
-  "name": "Venomous Finger",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 279
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nContagion:\nAfter an enemy dodges, this creature afflicts it with {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_SILENCE}.",
+    "icon":  "images/item/material/VenomousFinger.png",
+    "id":  363,
+    "name":  "Venomous Finger",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  279,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

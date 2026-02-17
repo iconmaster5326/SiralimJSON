@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMechanical Illusion:\nAfter this creature is killed, it reveals the creature that was haunting it.",
-  "icon": "images/item/material/HauntedCog.png",
-  "id": 416,
-  "name": "Haunted Cog",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 331
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMechanical Illusion:\nAfter this creature is killed, it reveals the creature that was haunting it.",
+    "icon":  "images/item/material/HauntedCog.png",
+    "id":  416,
+    "name":  "Haunted Cog",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  331,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

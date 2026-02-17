@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WaspidScout/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 540,
-  "item": 883,
-  "lore": "During the cold season, the Waspids of Rodia leave their colonies due to food shortages, and establish new ones west of Undolim, near the Barrens. This is a crucial stage because, unlike wasps, Waspid queens do not have the ability to hibernate. The Waspid Scout is in charge of finding an ideal place to build the new hive. When winter approaches, the queen feeds a mixture of hormones to one of the larvae so that it develops as a Waspid Scout.",
-  "menagerieDialog": [
-    "(It\u0027s lazing around, buzzing its wings every so often to let your other creatures know it\u0027s still alive.)",
-    "(It buzzes around impatiently as if to wonder what\u0027s taking you so long to finish your business here.)",
-    "(It buzzes around your head which causes you to freeze in place until it gets bored and leaves you alone.)",
-    "(In truth, the Waspid race serves no purpose to the greater good of Rodia. They are an angry, mean, and selfish race that live only for themselves. And to sting people.)",
-    "(It\u0027s rapidly buzzing its wings to try to shake off the dirt and debris it picked up in the last realm you visited.)"
-  ],
-  "minDepth": 1,
-  "name": "Waspid Scout",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WaspidScout/overworld_e0.png",
-      "images/creature/WaspidScout/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WaspidScout/overworld_n0.png",
-      "images/creature/WaspidScout/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WaspidScout/overworld_s0.png",
-      "images/creature/WaspidScout/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WaspidScout/overworld_w0.png",
-      "images/creature/WaspidScout/overworld_w1.png"
-    ]
-  },
-  "race": "Waspid",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Reclusa)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 25,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 910
+    "battleSprite":  "images/creature/WaspidScout/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  540,
+    "item":  883,
+    "lore":  "During the cold season, the Waspids of Rodia leave their colonies due to food shortages, and establish new ones west of Undolim, near the Barrens. This is a crucial stage because, unlike wasps, Waspid queens do not have the ability to hibernate. The Waspid Scout is in charge of finding an ideal place to build the new hive. When winter approaches, the queen feeds a mixture of hormones to one of the larvae so that it develops as a Waspid Scout.",
+    "menagerieDialog":  [
+                            "(It\u0027s lazing around, buzzing its wings every so often to let your other creatures know it\u0027s still alive.)",
+                            "(It buzzes around impatiently as if to wonder what\u0027s taking you so long to finish your business here.)",
+                            "(It buzzes around your head which causes you to freeze in place until it gets bored and leaves you alone.)",
+                            "(In truth, the Waspid race serves no purpose to the greater good of Rodia. They are an angry, mean, and selfish race that live only for themselves. And to sting people.)",
+                            "(It\u0027s rapidly buzzing its wings to try to shake off the dirt and debris it picked up in the last realm you visited.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Waspid Scout",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WaspidScout/overworld_e0.png",
+                                         "images/creature/WaspidScout/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WaspidScout/overworld_n0.png",
+                                          "images/creature/WaspidScout/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WaspidScout/overworld_s0.png",
+                                          "images/creature/WaspidScout/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WaspidScout/overworld_w0.png",
+                                         "images/creature/WaspidScout/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Waspid",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Reclusa)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  25,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  910,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

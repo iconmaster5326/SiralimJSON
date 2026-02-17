@@ -1,11 +1,14 @@
 {
-  "description": "At the end of this minion\u0027s master\u0027s turn, each {CONDNAME_MINION_MICROBOT} deals damage to a random enemy equal to 50% of its {STAT_intelligence}. Maximum of 9 stacks.",
-  "icon": "images/condition/Microbots.png",
-  "iconResisted": null,
-  "id": 55,
-  "material": null,
-  "name": "Microbots",
-  "notes": [],
-  "reserved": false,
-  "type": "minion"
+    "description":  "At the end of this minion\u0027s master\u0027s turn, each {CONDNAME_MINION_MICROBOT} deals damage to a random enemy equal to 50% of its {STAT_intelligence}. Maximum of 9 stacks.",
+    "icon":  "images/condition/Microbots.png",
+    "iconResisted":  null,
+    "id":  55,
+    "material":  null,
+    "name":  "Microbots",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFarsight:\nAfter your creatures gain a buff, they {ACTION_cast} a random spell. This trait can only activate once per turn. This trait does not stack.",
-  "icon": "images/item/material/SeerClaw.png",
-  "id": 1335,
-  "name": "Seer Claw",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1581
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFarsight:\nAfter your creatures gain a buff, they {ACTION_cast} a random spell. This trait can only activate once per turn. This trait does not stack.",
+    "icon":  "images/item/material/SeerClaw.png",
+    "id":  1335,
+    "name":  "Seer Claw",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1581,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

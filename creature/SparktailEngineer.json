@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SparktailEngineer/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 837,
-  "item": 1031,
-  "lore": "Sparktails are generally peaceful creatures, and when they reach maturity they gain the ability to levitate by using powerful electromagnetism.\\n\\nThe smartest Sparktails can become anything they want, such as scientists, engineers, or judges, but they are all commonly called Sparktail Engineers. They can use the electricity in their tails in a very verstaile way which, for example, allows them to weld metals, provoke chemical reactions or even create an electric current to resuscitate an individual in cardiac arrest. These creatures are very rare in Rodia. Most of them live in the countries in the north of the continent, where magic is harder to develop and technology is much more advanced, in part thanks to their contributions.",
-  "menagerieDialog": [
-    "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
-    "Let me guess: you\u0027re here to make yet another \u0022fish out of water\u0022 joke, aren\u0027t you? I\u0027ve heard them all before.",
-    "(This creature moves surprisingly fast, even on land.)",
-    "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
-    "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
-  ],
-  "minDepth": 1,
-  "name": "Sparktail Engineer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SparktailEngineer/overworld_e0.png",
-      "images/creature/SparktailEngineer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SparktailEngineer/overworld_n0.png",
-      "images/creature/SparktailEngineer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SparktailEngineer/overworld_s0.png",
-      "images/creature/SparktailEngineer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SparktailEngineer/overworld_w0.png",
-      "images/creature/SparktailEngineer/overworld_w1.png"
-    ]
-  },
-  "race": "Sparktail",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 38,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1099
+    "battleSprite":  "images/creature/SparktailEngineer/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  837,
+    "item":  1031,
+    "lore":  "Sparktails are generally peaceful creatures, and when they reach maturity they gain the ability to levitate by using powerful electromagnetism.\\n\\nThe smartest Sparktails can become anything they want, such as scientists, engineers, or judges, but they are all commonly called Sparktail Engineers. They can use the electricity in their tails in a very verstaile way which, for example, allows them to weld metals, provoke chemical reactions or even create an electric current to resuscitate an individual in cardiac arrest. These creatures are very rare in Rodia. Most of them live in the countries in the north of the continent, where magic is harder to develop and technology is much more advanced, in part thanks to their contributions.",
+    "menagerieDialog":  [
+                            "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
+                            "Let me guess: you\u0027re here to make yet another \"fish out of water\" joke, aren\u0027t you? I\u0027ve heard them all before.",
+                            "(This creature moves surprisingly fast, even on land.)",
+                            "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
+                            "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
+                        ],
+    "minDepth":  1,
+    "name":  "Sparktail Engineer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SparktailEngineer/overworld_e0.png",
+                                         "images/creature/SparktailEngineer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SparktailEngineer/overworld_n0.png",
+                                          "images/creature/SparktailEngineer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SparktailEngineer/overworld_s0.png",
+                                          "images/creature/SparktailEngineer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SparktailEngineer/overworld_w0.png",
+                                         "images/creature/SparktailEngineer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sparktail",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  38,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1099,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

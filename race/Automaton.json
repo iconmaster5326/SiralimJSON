@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "I PROTECT THIS TREASURE. INTRUDERS WILL BE SLAIN. YOU ARE AN INTRUDER. PLEASE IMMEDIATELY PERISH IN AN EFFICIENT MANNER.",
-    "INTRUDER. ELIMINATE. INTRUDER. ELIMINATE.",
-    "PROTECT THE TREASURE."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 15% more damage with start-of-battle effects.",
-    "4": "Your creatures deal 15% more damage with start-of-battle effects.",
-    "7": "Your creatures\u0027 Spell Gems don\u0027t lose {STAT_charges} when they\u0027re {ACTION_cast} at the start of battle."
-  },
-  "cards": 7,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    808,
-    809,
-    810,
-    811,
-    812,
-    813,
-    814
-  ],
-  "icon": "images/race/Automaton.png",
-  "master": {
-    "costume": 301,
-    "dialog": "Automatons automatically decrease their enemies\u0027 stats without needing to waste a turn! How great is that? Let me show you how they work!",
-    "item": 1168,
-    "name": "Marcus",
-    "trait": 1402
-  },
-  "name": "Automaton",
-  "notes": [],
-  "skins": [
-    214,
-    287,
-    534
-  ]
+    "bossDialog":  [
+                       "I PROTECT THIS TREASURE. INTRUDERS WILL BE SLAIN. YOU ARE AN INTRUDER. PLEASE IMMEDIATELY PERISH IN AN EFFICIENT MANNER.",
+                       "INTRUDER. ELIMINATE. INTRUDER. ELIMINATE.",
+                       "PROTECT THE TREASURE."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 15% more damage with start-of-battle effects.",
+                        "4":  "Your creatures deal 15% more damage with start-of-battle effects.",
+                        "7":  "Your creatures\u0027 Spell Gems don\u0027t lose {STAT_charges} when they\u0027re {ACTION_cast} at the start of battle."
+                    },
+    "cards":  7,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      808,
+                      809,
+                      810,
+                      811,
+                      812,
+                      813,
+                      814
+                  ],
+    "icon":  "images/race/Automaton.png",
+    "master":  {
+                   "costume":  301,
+                   "dialog":  "Automatons automatically decrease their enemies\u0027 stats without needing to waste a turn! How great is that? Let me show you how they work!",
+                   "item":  1168,
+                   "name":  "Marcus",
+                   "trait":  1402
+               },
+    "name":  "Automaton",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  214,
+                  287,
+                  534
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

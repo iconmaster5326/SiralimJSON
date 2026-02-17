@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_provoke}, they gain {CONDNAME_BUFF_TAUNT} and {CONDNAME_BUFF_PROTECT}.\\n\\n{CONDDESC_BUFF_TAUNT}\\n\\n{CONDDESC_BUFF_PROTECT}",
-  "icon": "images/perk/Alpha.png",
-  "id": 374,
-  "maxRanks": 1,
-  "name": "Alpha",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_provoke}, they gain {CONDNAME_BUFF_TAUNT} and {CONDNAME_BUFF_PROTECT}.\\n\\n{CONDDESC_BUFF_TAUNT}\\n\\n{CONDDESC_BUFF_PROTECT}",
+    "icon":  "images/perk/Alpha.png",
+    "id":  374,
+    "maxRanks":  1,
+    "name":  "Alpha",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

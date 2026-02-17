@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaow!:\nThis creature can equip Spell Gems from any class. Your creatures have 10% more {STAT_intelligence} for each Sealed Spell Gem each of your creatures have. This trait does not stack.",
-  "icon": "images/item/material/AstralHelmet.png",
-  "id": 1806,
-  "name": "Astral Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2159
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaow!:\nThis creature can equip Spell Gems from any class. Your creatures have 10% more {STAT_intelligence} for each Sealed Spell Gem each of your creatures have. This trait does not stack.",
+    "icon":  "images/item/material/AstralHelmet.png",
+    "id":  1806,
+    "name":  "Astral Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2159,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

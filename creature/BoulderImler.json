@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BoulderImler/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 339,
-  "item": 533,
-  "lore": "Both Imlers and Imlings belong to the same species, but this was only discovered recently due to the considerable differences between the two.\\n\\nImlers develop protective feelings towards Imlings and do not let them come to harm. Indeed, when a Boulder Imler egg is born as a Tainted Imling, its partner takes care of it at all times despite its unbearable odor, embracing it at night even though doing so leaves the Imler with severe skin injuries.",
-  "menagerieDialog": [
-    "(It unleashes a nasty burp into your face and laughs. Immature.)",
-    "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
-    "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
-    "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
-    "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Boulder Imler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BoulderImler/overworld_e0.png",
-      "images/creature/BoulderImler/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BoulderImler/overworld_n0.png",
-      "images/creature/BoulderImler/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BoulderImler/overworld_s0.png",
-      "images/creature/BoulderImler/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BoulderImler/overworld_w0.png",
-      "images/creature/BoulderImler/overworld_w1.png"
-    ]
-  },
-  "race": "Imler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 28,
-    "defense": 27,
-    "health": 43,
-    "intelligence": 7,
-    "speed": 7
-  },
-  "trait": 447
+    "battleSprite":  "images/creature/BoulderImler/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  339,
+    "item":  533,
+    "lore":  "Both Imlers and Imlings belong to the same species, but this was only discovered recently due to the considerable differences between the two.\\n\\nImlers develop protective feelings towards Imlings and do not let them come to harm. Indeed, when a Boulder Imler egg is born as a Tainted Imling, its partner takes care of it at all times despite its unbearable odor, embracing it at night even though doing so leaves the Imler with severe skin injuries.",
+    "menagerieDialog":  [
+                            "(It unleashes a nasty burp into your face and laughs. Immature.)",
+                            "(It slams its chest so hard you\u0027re surprised it didn\u0027t collapse its own lungs. It seems very angry.)",
+                            "I love my Imling friends. I perfectly complement their brains with my brawn.\\n\\n(That\u0027s the most intelligent and self-aware thing you\u0027ve ever heard an Imler say.)",
+                            "(It\u0027s trying its damndest to swat at a fly in the air, to no avail.)",
+                            "(This creature is trying to whistle unsuccessfully, perhaps trying to imitate someone it saw in the castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Boulder Imler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BoulderImler/overworld_e0.png",
+                                         "images/creature/BoulderImler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BoulderImler/overworld_n0.png",
+                                          "images/creature/BoulderImler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BoulderImler/overworld_s0.png",
+                                          "images/creature/BoulderImler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BoulderImler/overworld_w0.png",
+                                         "images/creature/BoulderImler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  28,
+                       "defense":  27,
+                       "health":  43,
+                       "intelligence":  7,
+                       "speed":  7
+                   },
+    "trait":  447,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

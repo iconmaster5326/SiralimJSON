@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Yllor/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 717,
-  "item": 750,
-  "lore": "Yllor, together with Alakadan, used to keep watch over the gates of the Refuge of the Magi. After the incident that gave birth to the Occultists, Zonte met with them and offered them freedom, encouraging them to travel the world. The two creatures looked at each other with a mixture of amazement and fear, but they finally accepted the offer, in exchange for being able to return to their job during the winter and \u0022take advantage of the thermal field that surrounds the tower\u0022. Yllor and Alakadan were training in Vanelin with the legendary Red Hat order when an old ruler of Siralim appeared and took over the kingdom. Yllor is very temperamental and much naiver than his partner, often starting tavern brawls when they visit a city.",
-  "menagerieDialog": [
-    "There are so many stereotypes about muscular, humanoid horses. It\u0027s revolting.",
-    "(It\u0027s flexing its muscles, just as all pony boys do. That doesn\u0027t make it any less weird.)",
-    "You should host a tournament sometime soon so we can see which of your creatures is the strongest.",
-    "One\u0027s perspective is limited by the brevity of one\u0027s existence.",
-    "I\u0027m starving! I could eat a horse right now."
-  ],
-  "minDepth": 1,
-  "name": "Yllor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Yllor/overworld_e0.png",
-      "images/creature/Yllor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Yllor/overworld_n0.png",
-      "images/creature/Yllor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Yllor/overworld_s0.png",
-      "images/creature/Yllor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Yllor/overworld_w0.png",
-      "images/creature/Yllor/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    157,
-    460
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 796
+    "battleSprite":  "images/creature/Yllor/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  717,
+    "item":  750,
+    "lore":  "Yllor, together with Alakadan, used to keep watch over the gates of the Refuge of the Magi. After the incident that gave birth to the Occultists, Zonte met with them and offered them freedom, encouraging them to travel the world. The two creatures looked at each other with a mixture of amazement and fear, but they finally accepted the offer, in exchange for being able to return to their job during the winter and \"take advantage of the thermal field that surrounds the tower\". Yllor and Alakadan were training in Vanelin with the legendary Red Hat order when an old ruler of Siralim appeared and took over the kingdom. Yllor is very temperamental and much naiver than his partner, often starting tavern brawls when they visit a city.",
+    "menagerieDialog":  [
+                            "There are so many stereotypes about muscular, humanoid horses. It\u0027s revolting.",
+                            "(It\u0027s flexing its muscles, just as all pony boys do. That doesn\u0027t make it any less weird.)",
+                            "You should host a tournament sometime soon so we can see which of your creatures is the strongest.",
+                            "One\u0027s perspective is limited by the brevity of one\u0027s existence.",
+                            "I\u0027m starving! I could eat a horse right now."
+                        ],
+    "minDepth":  1,
+    "name":  "Yllor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Yllor/overworld_e0.png",
+                                         "images/creature/Yllor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Yllor/overworld_n0.png",
+                                          "images/creature/Yllor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Yllor/overworld_s0.png",
+                                          "images/creature/Yllor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Yllor/overworld_w0.png",
+                                         "images/creature/Yllor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  157,
+                  460
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  796,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

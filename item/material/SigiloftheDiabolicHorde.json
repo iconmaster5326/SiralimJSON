@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Diabolic Horde:\nAt the start of battle, your creatures\u0027 races are changed to {RACE_Diabolic Horde}.",
-  "icon": "images/item/material/SigiloftheDiabolicHorde.png",
-  "id": 1266,
-  "name": "Sigil of the Diabolic Horde",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1422
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Diabolic Horde:\nAt the start of battle, your creatures\u0027 races are changed to {RACE_Diabolic Horde}.",
+    "icon":  "images/item/material/SigiloftheDiabolicHorde.png",
+    "id":  1266,
+    "name":  "Sigil of the Diabolic Horde",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1422,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

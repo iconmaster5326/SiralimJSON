@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/CrazedLeper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 374,
-  "item": 266,
-  "lore": "As the disease progresses, the skin rots and the flesh falls off. Finally, the body and the face swell, filled with bumps, and the brain begins to decompose.\\n\\nWhen a Crazed Leper is ordered to join a battle, it can no longer be stopped, although it never attacks its own allies. Instead, this creature will keep destroying furniture, carriages or tents until someone hits its head and knocks it unconscious.",
-  "menagerieDialog": [
-    "(It looks at you groggily with a half-baked grin on its face.)",
-    "(This creature will always be picked last for the dodgeball team.)",
-    "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
-    "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
-    "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
-  ],
-  "minDepth": 1,
-  "name": "Crazed Leper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CrazedLeper/overworld_e0.png",
-      "images/creature/CrazedLeper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CrazedLeper/overworld_n0.png",
-      "images/creature/CrazedLeper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CrazedLeper/overworld_s0.png",
-      "images/creature/CrazedLeper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CrazedLeper/overworld_w0.png",
-      "images/creature/CrazedLeper/overworld_w1.png"
-    ]
-  },
-  "race": "Leper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    20
-  ],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 176
+    "battleSprite":  "images/creature/CrazedLeper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  374,
+    "item":  266,
+    "lore":  "As the disease progresses, the skin rots and the flesh falls off. Finally, the body and the face swell, filled with bumps, and the brain begins to decompose.\\n\\nWhen a Crazed Leper is ordered to join a battle, it can no longer be stopped, although it never attacks its own allies. Instead, this creature will keep destroying furniture, carriages or tents until someone hits its head and knocks it unconscious.",
+    "menagerieDialog":  [
+                            "(It looks at you groggily with a half-baked grin on its face.)",
+                            "(This creature will always be picked last for the dodgeball team.)",
+                            "(It gazes at you in admiration. You can\u0027t help but find this creature far more endearing than you should.)",
+                            "(Surely this creature\u0027s affliction must be contagious. You should be wearing a mask.)",
+                            "(This creature is so ugly that, somehow, it\u0027s almost cute.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Crazed Leper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CrazedLeper/overworld_e0.png",
+                                         "images/creature/CrazedLeper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CrazedLeper/overworld_n0.png",
+                                          "images/creature/CrazedLeper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CrazedLeper/overworld_s0.png",
+                                          "images/creature/CrazedLeper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CrazedLeper/overworld_w0.png",
+                                         "images/creature/CrazedLeper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            20
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  176,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

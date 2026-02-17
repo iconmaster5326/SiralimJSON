@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SentryBot/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1176,
-  "item": 1558,
-  "lore": "If the Auditors\u0027 goal of bringing peace to the world were fulfilled, the next step would be to apply what they learned at Ubi Concordia to improve the quality of life of all creatures.\\n\\nSentry Bots patrol the streets of Ubi Concordia at all times in search of lawbreakers, though their laws are quite lax, focused on not harming others or the environment. These sentries speak in a metallic voice while a green light moves from left to right in their visors.",
-  "menagerieDialog": [
-    "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
-    "You and I share a common characteristic: we have no self-awareness.",
-    "What is my purpose?",
-    "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
-    "I do not eat. I do not sleep. I exist only to serve my master."
-  ],
-  "minDepth": 1,
-  "name": "Sentry Bot",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SentryBot/overworld_e0.png",
-      "images/creature/SentryBot/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SentryBot/overworld_n0.png",
-      "images/creature/SentryBot/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SentryBot/overworld_s0.png",
-      "images/creature/SentryBot/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SentryBot/overworld_w0.png",
-      "images/creature/SentryBot/overworld_w1.png"
-    ]
-  },
-  "race": "Modron",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 22,
-    "health": 39,
-    "intelligence": 14,
-    "speed": 19
-  },
-  "trait": 1899
+    "battleSprite":  "images/creature/SentryBot/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1176,
+    "item":  1558,
+    "lore":  "If the Auditors\u0027 goal of bringing peace to the world were fulfilled, the next step would be to apply what they learned at Ubi Concordia to improve the quality of life of all creatures.\\n\\nSentry Bots patrol the streets of Ubi Concordia at all times in search of lawbreakers, though their laws are quite lax, focused on not harming others or the environment. These sentries speak in a metallic voice while a green light moves from left to right in their visors.",
+    "menagerieDialog":  [
+                            "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
+                            "You and I share a common characteristic: we have no self-awareness.",
+                            "What is my purpose?",
+                            "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
+                            "I do not eat. I do not sleep. I exist only to serve my master."
+                        ],
+    "minDepth":  1,
+    "name":  "Sentry Bot",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SentryBot/overworld_e0.png",
+                                         "images/creature/SentryBot/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SentryBot/overworld_n0.png",
+                                          "images/creature/SentryBot/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SentryBot/overworld_s0.png",
+                                          "images/creature/SentryBot/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SentryBot/overworld_w0.png",
+                                         "images/creature/SentryBot/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Modron",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  22,
+                       "health":  39,
+                       "intelligence":  14,
+                       "speed":  19
+                   },
+    "trait":  1899,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

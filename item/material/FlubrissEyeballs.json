@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFlubris\u0027s Toxicity:\nWhen an enemy takes damage from {CONDNAME_DEBUFF_POISON}, it loses 20% {STAT_intelligence} and {STAT_speed}. This trait does not stack.",
-  "icon": "images/item/material/FlubrissEyeballs.png",
-  "id": 656,
-  "name": "Flubris\u0027s Eyeballs",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 566
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFlubris\u0027s Toxicity:\nWhen an enemy takes damage from {CONDNAME_DEBUFF_POISON}, it loses 20% {STAT_intelligence} and {STAT_speed}. This trait does not stack.",
+    "icon":  "images/item/material/FlubrissEyeballs.png",
+    "id":  656,
+    "name":  "Flubris\u0027s Eyeballs",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  566,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

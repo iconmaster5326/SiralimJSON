@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/WaterPriest/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 324,
-  "item": 117,
-  "lore": "From the Faraway Enclave, the Priests spread by land, sea and air to bring peace to the different nations of the world. The mere presence of these creatures can calm the angriest hearts. The ongoing wars quickly stopped, and the humans established their first kingdoms. But how long would that fictitious peace last?\\n\\nThe Water Priest can alter the course of a river to temporarily direct it to drought-stricken lands.",
-  "menagerieDialog": [
-    "(It\u0027s doing what it does best - standing still.)",
-    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
-    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
-    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
-    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Water Priest",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WaterPriest/overworld_e0.png",
-      "images/creature/WaterPriest/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WaterPriest/overworld_n0.png",
-      "images/creature/WaterPriest/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WaterPriest/overworld_s0.png",
-      "images/creature/WaterPriest/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WaterPriest/overworld_w0.png",
-      "images/creature/WaterPriest/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 18,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 26
+    "battleSprite":  "images/creature/WaterPriest/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  324,
+    "item":  117,
+    "lore":  "From the Faraway Enclave, the Priests spread by land, sea and air to bring peace to the different nations of the world. The mere presence of these creatures can calm the angriest hearts. The ongoing wars quickly stopped, and the humans established their first kingdoms. But how long would that fictitious peace last?\\n\\nThe Water Priest can alter the course of a river to temporarily direct it to drought-stricken lands.",
+    "menagerieDialog":  [
+                            "(It\u0027s doing what it does best - standing still.)",
+                            "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+                            "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+                            "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+                            "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Water Priest",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WaterPriest/overworld_e0.png",
+                                         "images/creature/WaterPriest/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WaterPriest/overworld_n0.png",
+                                          "images/creature/WaterPriest/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WaterPriest/overworld_s0.png",
+                                          "images/creature/WaterPriest/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WaterPriest/overworld_w0.png",
+                                         "images/creature/WaterPriest/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  18,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  26,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

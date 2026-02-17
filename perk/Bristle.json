@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures take damage from a spell, they gain {CONDNAME_BUFF_REPELLING} and {CONDNAME_BUFF_SHELL}.\\n\\n{CONDDESC_BUFF_REPELLING}\\n\\n{CONDDESC_BUFF_SHELL}",
-  "icon": "images/perk/Bristle.png",
-  "id": 375,
-  "maxRanks": 1,
-  "name": "Bristle",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After your creatures take damage from a spell, they gain {CONDNAME_BUFF_REPELLING} and {CONDNAME_BUFF_SHELL}.\\n\\n{CONDDESC_BUFF_REPELLING}\\n\\n{CONDDESC_BUFF_SHELL}",
+    "icon":  "images/perk/Bristle.png",
+    "id":  375,
+    "maxRanks":  1,
+    "name":  "Bristle",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

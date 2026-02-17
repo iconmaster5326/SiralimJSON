@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlessing of Sands:\nYour creatures\u0027 traits and other effects act as if your party contains 3 more creatures that belong to the same class. This trait does not stack.",
-  "icon": "images/item/material/OrdainerMane.png",
-  "id": 189,
-  "name": "Ordainer Mane",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 99
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlessing of Sands:\nYour creatures\u0027 traits and other effects act as if your party contains 3 more creatures that belong to the same class. This trait does not stack.",
+    "icon":  "images/item/material/OrdainerMane.png",
+    "id":  189,
+    "name":  "Ordainer Mane",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  99,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnd You Get A Bomb:\nAt the start of battle, this creature afflicts 3 random enemies with {CONDNAME_DEBUFF_BOMB}.",
-  "icon": "images/item/material/BloodbatherPoison.png",
-  "id": 949,
-  "name": "Bloodbather Poison",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1185
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnd You Get A Bomb:\nAt the start of battle, this creature afflicts 3 random enemies with {CONDNAME_DEBUFF_BOMB}.",
+    "icon":  "images/item/material/BloodbatherPoison.png",
+    "id":  949,
+    "name":  "Bloodbather Poison",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1185,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

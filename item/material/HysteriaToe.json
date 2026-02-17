@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrenzy:\nYour creatures dodge and deal critical damage as if they have 100% more {STAT_speed}. This trait does not stack.",
-  "icon": "images/item/material/HysteriaToe.png",
-  "id": 233,
-  "name": "Hysteria Toe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 142
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrenzy:\nYour creatures dodge and deal critical damage as if they have 100% more {STAT_speed}. This trait does not stack.",
+    "icon":  "images/item/material/HysteriaToe.png",
+    "id":  233,
+    "name":  "Hysteria Toe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  142,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

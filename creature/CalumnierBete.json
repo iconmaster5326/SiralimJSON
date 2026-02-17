@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CalumnierBete/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1322,
-  "item": 1818,
-  "lore": "In the great city of Eshal, a group of Calumniers decided to end the long feud with humans once and for all. They learned the human language and, using their diplomatic skills, forged a peace that has never been broken since.\\n\\nTrickery is the Calumnier Bete\u0027s greatest weapon. They often convince their enemies they can cast powerful spells, using crafted illusions of light and smoke that send foes running in fear.",
-  "menagerieDialog": [
-    "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
-    "Your enemies will rue the day they crossed paths with us!",
-    "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
-    "My scales are like armor, forged in the fires of battle!",
-    "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
-  ],
-  "minDepth": 1,
-  "name": "Calumnier Bete",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CalumnierBete/overworld_e0.png",
-      "images/creature/CalumnierBete/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CalumnierBete/overworld_n0.png",
-      "images/creature/CalumnierBete/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CalumnierBete/overworld_s0.png",
-      "images/creature/CalumnierBete/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CalumnierBete/overworld_w0.png",
-      "images/creature/CalumnierBete/overworld_w1.png"
-    ]
-  },
-  "race": "Calumnier",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 18
-  },
-  "trait": 2171
+    "battleSprite":  "images/creature/CalumnierBete/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1322,
+    "item":  1818,
+    "lore":  "In the great city of Eshal, a group of Calumniers decided to end the long feud with humans once and for all. They learned the human language and, using their diplomatic skills, forged a peace that has never been broken since.\\n\\nTrickery is the Calumnier Bete\u0027s greatest weapon. They often convince their enemies they can cast powerful spells, using crafted illusions of light and smoke that send foes running in fear.",
+    "menagerieDialog":  [
+                            "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
+                            "Your enemies will rue the day they crossed paths with us!",
+                            "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
+                            "My scales are like armor, forged in the fires of battle!",
+                            "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Calumnier Bete",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CalumnierBete/overworld_e0.png",
+                                         "images/creature/CalumnierBete/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CalumnierBete/overworld_n0.png",
+                                          "images/creature/CalumnierBete/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CalumnierBete/overworld_s0.png",
+                                          "images/creature/CalumnierBete/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CalumnierBete/overworld_w0.png",
+                                         "images/creature/CalumnierBete/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Calumnier",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  18
+                   },
+    "trait":  2171,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInnocence:\nEnemies with {CONDNAME_DEBUFF_CURSED} take 10% more damage from this debuff for each time an enemy has taken {CONDNAME_DEBUFF_CURSED} damage in the current battle. This trait does not stack.",
-  "icon": "images/item/material/MaidenLace.png",
-  "id": 1823,
-  "name": "Maiden Lace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2182
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInnocence:\nEnemies with {CONDNAME_DEBUFF_CURSED} take 10% more damage from this debuff for each time an enemy has taken {CONDNAME_DEBUFF_CURSED} damage in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/MaidenLace.png",
+    "id":  1823,
+    "name":  "Maiden Lace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2182,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

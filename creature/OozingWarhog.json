@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OozingWarhog/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1233,
-  "item": 1605,
-  "lore": "During the Brownie rebellion, a large number of Brownies used Warhogs as mounts.\\n\\nNo other Warhog can camouflage itself better than the Oozing Warhog. It can go unnoticed even when it is right next to a person, but it generally stays still and waits for its would-be hunter to leave before running away.",
-  "menagerieDialog": [
-    "(It\u0027s busy snorting and sniffing at the ground. Not exactly the smartest creature you\u0027ve ever met.)",
-    "(It\u0027s rolling around in a pile of what you hope is mud.)",
-    "(If your kingdom ever falls on hard times, Warhogs may prove useful in warding off the threat of famine.)",
-    "(It\u0027s proudly holding an apple in its mouth. You doubt it understands the irony of its actions.)",
-    "(Its tusks seem a bit dull. Nortah must be slacking off lately.)"
-  ],
-  "minDepth": 1,
-  "name": "Oozing Warhog",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OozingWarhog/overworld_e0.png",
-      "images/creature/OozingWarhog/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OozingWarhog/overworld_n0.png",
-      "images/creature/OozingWarhog/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OozingWarhog/overworld_s0.png",
-      "images/creature/OozingWarhog/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OozingWarhog/overworld_w0.png",
-      "images/creature/OozingWarhog/overworld_w1.png"
-    ]
-  },
-  "race": "Warhog",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Genaros)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 24,
-    "defense": 14,
-    "health": 39,
-    "intelligence": 9,
-    "speed": 24
-  },
-  "trait": 1944
+    "battleSprite":  "images/creature/OozingWarhog/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1233,
+    "item":  1605,
+    "lore":  "During the Brownie rebellion, a large number of Brownies used Warhogs as mounts.\\n\\nNo other Warhog can camouflage itself better than the Oozing Warhog. It can go unnoticed even when it is right next to a person, but it generally stays still and waits for its would-be hunter to leave before running away.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy snorting and sniffing at the ground. Not exactly the smartest creature you\u0027ve ever met.)",
+                            "(It\u0027s rolling around in a pile of what you hope is mud.)",
+                            "(If your kingdom ever falls on hard times, Warhogs may prove useful in warding off the threat of famine.)",
+                            "(It\u0027s proudly holding an apple in its mouth. You doubt it understands the irony of its actions.)",
+                            "(Its tusks seem a bit dull. Nortah must be slacking off lately.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Oozing Warhog",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OozingWarhog/overworld_e0.png",
+                                         "images/creature/OozingWarhog/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OozingWarhog/overworld_n0.png",
+                                          "images/creature/OozingWarhog/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OozingWarhog/overworld_s0.png",
+                                          "images/creature/OozingWarhog/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OozingWarhog/overworld_w0.png",
+                                         "images/creature/OozingWarhog/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Warhog",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Genaros)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  24,
+                       "defense":  14,
+                       "health":  39,
+                       "intelligence":  9,
+                       "speed":  24
+                   },
+    "trait":  1944,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

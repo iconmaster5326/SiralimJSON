@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CalumnierSocialite/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1321,
-  "item": 1817,
-  "lore": "Trade deals between humans, other intelligent races, and Calumniers are common these days. Both sides benefit, and entire neighborhoods in cities like Siralim are made up almost entirely of Calumniers. Calumnier Socialites live in these urban areas. They move in high society and excel at trading information. But if threatened, they\u0027re skilled enough with a dagger to take down a group of enemies.",
-  "menagerieDialog": [
-    "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
-    "Your enemies will rue the day they crossed paths with us!",
-    "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
-    "My scales are like armor, forged in the fires of battle!",
-    "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
-  ],
-  "minDepth": 1,
-  "name": "Calumnier Socialite",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CalumnierSocialite/overworld_e0.png",
-      "images/creature/CalumnierSocialite/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CalumnierSocialite/overworld_n0.png",
-      "images/creature/CalumnierSocialite/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CalumnierSocialite/overworld_s0.png",
-      "images/creature/CalumnierSocialite/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CalumnierSocialite/overworld_w0.png",
-      "images/creature/CalumnierSocialite/overworld_w1.png"
-    ]
-  },
-  "race": "Calumnier",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 25,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 2170
+    "battleSprite":  "images/creature/CalumnierSocialite/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1321,
+    "item":  1817,
+    "lore":  "Trade deals between humans, other intelligent races, and Calumniers are common these days. Both sides benefit, and entire neighborhoods in cities like Siralim are made up almost entirely of Calumniers. Calumnier Socialites live in these urban areas. They move in high society and excel at trading information. But if threatened, they\u0027re skilled enough with a dagger to take down a group of enemies.",
+    "menagerieDialog":  [
+                            "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
+                            "Your enemies will rue the day they crossed paths with us!",
+                            "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
+                            "My scales are like armor, forged in the fires of battle!",
+                            "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Calumnier Socialite",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CalumnierSocialite/overworld_e0.png",
+                                         "images/creature/CalumnierSocialite/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CalumnierSocialite/overworld_n0.png",
+                                          "images/creature/CalumnierSocialite/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CalumnierSocialite/overworld_s0.png",
+                                          "images/creature/CalumnierSocialite/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CalumnierSocialite/overworld_w0.png",
+                                         "images/creature/CalumnierSocialite/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Calumnier",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  25,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  2170,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

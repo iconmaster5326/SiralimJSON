@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/Legion/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1125,
-  "item": 1645,
-  "lore": "During battles, especially in conflicts between armies, innumerable injuries of all kinds happen, and many of them involve severed limbs. One day, a Mage came up with the idea of taking advantage of this fact to create creatures that would join the ranks of the side for which he was fighting. The result was Legion, a creature who obeys the orders of its master, capable of fighting relentlessly for days. Although in the past these creatures could only be created with recently severed flesh, magic has advanced enough to be able to use the flesh of corpses a few days old.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Legion",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Legion/overworld_e0.png",
-      "images/creature/Legion/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Legion/overworld_n0.png",
-      "images/creature/Legion/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Legion/overworld_s0.png",
-      "images/creature/Legion/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Legion/overworld_w0.png",
-      "images/creature/Legion/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    27
-  ],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1848
+    "battleSprite":  "images/creature/Legion/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1125,
+    "item":  1645,
+    "lore":  "During battles, especially in conflicts between armies, innumerable injuries of all kinds happen, and many of them involve severed limbs. One day, a Mage came up with the idea of taking advantage of this fact to create creatures that would join the ranks of the side for which he was fighting. The result was Legion, a creature who obeys the orders of its master, capable of fighting relentlessly for days. Although in the past these creatures could only be created with recently severed flesh, magic has advanced enough to be able to use the flesh of corpses a few days old.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Legion",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Legion/overworld_e0.png",
+                                         "images/creature/Legion/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Legion/overworld_n0.png",
+                                          "images/creature/Legion/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Legion/overworld_s0.png",
+                                          "images/creature/Legion/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Legion/overworld_w0.png",
+                                         "images/creature/Legion/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            27
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1848,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

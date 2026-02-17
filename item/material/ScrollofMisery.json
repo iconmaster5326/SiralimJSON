@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHand of Misery:\nAfter your creatures manually {ACTION_cast} a single-target spell on an enemy, they also attack it.",
-  "icon": "images/item/material/ScrollofMisery.png",
-  "id": 658,
-  "name": "Scroll of Misery",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 569
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHand of Misery:\nAfter your creatures manually {ACTION_cast} a single-target spell on an enemy, they also attack it.",
+    "icon":  "images/item/material/ScrollofMisery.png",
+    "id":  658,
+    "name":  "Scroll of Misery",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  569,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSquadron Leader:\nThis creature has 20% more stats (other than {STAT_health}) for each minion it has.",
-  "icon": "images/item/material/TacticiansManual.png",
-  "id": 1370,
-  "name": "Tactician\u0027s Manual",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1677
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSquadron Leader:\nThis creature has 20% more stats (other than {STAT_health}) for each minion it has.",
+    "icon":  "images/item/material/TacticiansManual.png",
+    "id":  1370,
+    "name":  "Tactician\u0027s Manual",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1677,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

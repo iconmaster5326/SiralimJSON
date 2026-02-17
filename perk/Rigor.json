@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures are immune to {CONDNAME_DEBUFF_SNARED}, {CONDNAME_DEBUFF_FROZEN}, and {CONDNAME_DEBUFF_SLEEP}.",
-  "icon": "images/perk/Rigor.png",
-  "id": 64,
-  "maxRanks": 1,
-  "name": "Rigor",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 11
+    "anointable":  true,
+    "description":  "Your creatures are immune to {CONDNAME_DEBUFF_SNARED}, {CONDNAME_DEBUFF_FROZEN}, and {CONDNAME_DEBUFF_SLEEP}.",
+    "icon":  "images/perk/Rigor.png",
+    "id":  64,
+    "maxRanks":  1,
+    "name":  "Rigor",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  11,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

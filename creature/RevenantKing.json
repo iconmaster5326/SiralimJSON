@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RevenantKing/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 415,
-  "item": 276,
-  "lore": "Most Revenants live in small tribes that are in constant war with each other. When these groups contain more than one hundred creatures, several of them proclaim themselves Kings. Naturally, the result is a battle to the death in which only the survivor goes on to govern the other Revenants. If it manages to consolidate its position as a leader, a Revenant King will never lose the respect of its people, who will obey its orders without questioning them and even give their lives to protect it.",
-  "menagerieDialog": [
-    "It\u0027s a common misconception that all Revenants like to fight. I, for one, would prefer to lead a quiet life and dedicate myself to collecting minerals.",
-    "What\u0027s wrong? You look like a fish out of water.\\n\\nHA!",
-    "(Revenants hate when you call them \u0022fish people\u0022. Never make that mistake.)",
-    "I am not a fish. I am NOT. A FISH.\\n\\n(This is the most sensitive fish you\u0027ve ever met.)",
-    "(It smells like dead fish. Probably because that\u0027s exactly what it is.)"
-  ],
-  "minDepth": 1,
-  "name": "Revenant King",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RevenantKing/overworld_e0.png",
-      "images/creature/RevenantKing/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RevenantKing/overworld_n0.png",
-      "images/creature/RevenantKing/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RevenantKing/overworld_s0.png",
-      "images/creature/RevenantKing/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RevenantKing/overworld_w0.png",
-      "images/creature/RevenantKing/overworld_w1.png"
-    ]
-  },
-  "race": "Revenant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Friden)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 26,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 11
-  },
-  "trait": 186
+    "battleSprite":  "images/creature/RevenantKing/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  415,
+    "item":  276,
+    "lore":  "Most Revenants live in small tribes that are in constant war with each other. When these groups contain more than one hundred creatures, several of them proclaim themselves Kings. Naturally, the result is a battle to the death in which only the survivor goes on to govern the other Revenants. If it manages to consolidate its position as a leader, a Revenant King will never lose the respect of its people, who will obey its orders without questioning them and even give their lives to protect it.",
+    "menagerieDialog":  [
+                            "It\u0027s a common misconception that all Revenants like to fight. I, for one, would prefer to lead a quiet life and dedicate myself to collecting minerals.",
+                            "What\u0027s wrong? You look like a fish out of water.\\n\\nHA!",
+                            "(Revenants hate when you call them \"fish people\". Never make that mistake.)",
+                            "I am not a fish. I am NOT. A FISH.\\n\\n(This is the most sensitive fish you\u0027ve ever met.)",
+                            "(It smells like dead fish. Probably because that\u0027s exactly what it is.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Revenant King",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RevenantKing/overworld_e0.png",
+                                         "images/creature/RevenantKing/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RevenantKing/overworld_n0.png",
+                                          "images/creature/RevenantKing/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RevenantKing/overworld_s0.png",
+                                          "images/creature/RevenantKing/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RevenantKing/overworld_w0.png",
+                                         "images/creature/RevenantKing/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Revenant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Friden)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  26,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  11
+                   },
+    "trait":  186,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

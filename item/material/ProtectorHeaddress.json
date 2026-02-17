@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRighteous Concession:\nThis creature and the creatures adjacent to it are resistant to debuffs.",
-  "icon": "images/item/material/ProtectorHeaddress.png",
-  "id": 150,
-  "name": "Protector Headdress",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 60
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRighteous Concession:\nThis creature and the creatures adjacent to it are resistant to debuffs.",
+    "icon":  "images/item/material/ProtectorHeaddress.png",
+    "id":  150,
+    "name":  "Protector Headdress",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  60,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

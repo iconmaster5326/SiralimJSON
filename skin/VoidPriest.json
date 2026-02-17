@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/VoidPriest/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 326,
-  "name": "Void Priest",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/VoidPriest/overworld_e0.png",
-      "images/skin/VoidPriest/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/VoidPriest/overworld_n0.png",
-      "images/skin/VoidPriest/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/VoidPriest/overworld_s0.png",
-      "images/skin/VoidPriest/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/VoidPriest/overworld_w0.png",
-      "images/skin/VoidPriest/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/VoidPriest/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  326,
+    "name":  "Void Priest",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/VoidPriest/overworld_e0.png",
+                                         "images/skin/VoidPriest/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/VoidPriest/overworld_n0.png",
+                                          "images/skin/VoidPriest/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/VoidPriest/overworld_s0.png",
+                                          "images/skin/VoidPriest/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/VoidPriest/overworld_w0.png",
+                                         "images/skin/VoidPriest/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,52 +1,55 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "chaos",
-  "creator": null,
-  "description": "Target takes a small amount of damage, or a massive amount of damage if it is afflicted with {CONDNAME_DEBUFF_BURNED}.",
-  "god": null,
-  "id": 570,
-  "manuallyCastable": true,
-  "maxCharges": 12,
-  "name": "Infernal Pillars",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    1,
-    3,
-    4,
-    5,
-    6,
-    7,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "DAMAGE"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Target takes a small amount of damage, or a massive amount of damage if it is afflicted with {CONDNAME_DEBUFF_BURNED}.",
+    "god":  null,
+    "id":  570,
+    "manuallyCastable":  true,
+    "maxCharges":  12,
+    "name":  "Infernal Pillars",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  1,
+                                  3,
+                                  4,
+                                  5,
+                                  6,
+                                  7,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "DAMAGE"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

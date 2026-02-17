@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AnnihilatorFiend/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 277,
-  "item": 307,
-  "lore": "At first glance, Fiends seem to be frightening and clumsy creatures. However, they can travel at great speeds with precise jumps. In the blink of an eye, a Fiend that looked to be far away could be devouring its prey.\\n\\nThe presence of an Annihilator Fiend affects the minds of the creatures around it, eliminating any sense of calm to replace it with anger or hostility. The more agitated a creature is, the more susceptible it becomes to these effects.",
-  "menagerieDialog": [
-    "(Oh, Gods, it\u0027s eating the floor tiles!)",
-    "(This creature is completely out of control, headbutting everything in sight.)",
-    "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
-    "(You wish it would close its mouth at some point, but it never does. Ever.)",
-    "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
-  ],
-  "minDepth": 1,
-  "name": "Annihilator Fiend",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AnnihilatorFiend/overworld_e0.png",
-      "images/creature/AnnihilatorFiend/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AnnihilatorFiend/overworld_n0.png",
-      "images/creature/AnnihilatorFiend/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AnnihilatorFiend/overworld_s0.png",
-      "images/creature/AnnihilatorFiend/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AnnihilatorFiend/overworld_w0.png",
-      "images/creature/AnnihilatorFiend/overworld_w1.png"
-    ]
-  },
-  "race": "Fiend",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tartarith)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 13,
-    "health": 30,
-    "intelligence": 13,
-    "speed": 23
-  },
-  "trait": 223
+    "battleSprite":  "images/creature/AnnihilatorFiend/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  277,
+    "item":  307,
+    "lore":  "At first glance, Fiends seem to be frightening and clumsy creatures. However, they can travel at great speeds with precise jumps. In the blink of an eye, a Fiend that looked to be far away could be devouring its prey.\\n\\nThe presence of an Annihilator Fiend affects the minds of the creatures around it, eliminating any sense of calm to replace it with anger or hostility. The more agitated a creature is, the more susceptible it becomes to these effects.",
+    "menagerieDialog":  [
+                            "(Oh, Gods, it\u0027s eating the floor tiles!)",
+                            "(This creature is completely out of control, headbutting everything in sight.)",
+                            "(It curls up next to you and purrs like a cat which is an emotionally confusing experience for you, to say the least.)",
+                            "(You wish it would close its mouth at some point, but it never does. Ever.)",
+                            "(It seems to have eaten all your other creatures\u0027 food. Maybe it\u0027s time to put it down.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Annihilator Fiend",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AnnihilatorFiend/overworld_e0.png",
+                                         "images/creature/AnnihilatorFiend/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AnnihilatorFiend/overworld_n0.png",
+                                          "images/creature/AnnihilatorFiend/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AnnihilatorFiend/overworld_s0.png",
+                                          "images/creature/AnnihilatorFiend/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AnnihilatorFiend/overworld_w0.png",
+                                         "images/creature/AnnihilatorFiend/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Fiend",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tartarith)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  13,
+                       "health":  30,
+                       "intelligence":  13,
+                       "speed":  23
+                   },
+    "trait":  223,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

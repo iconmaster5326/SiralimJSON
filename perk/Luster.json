@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures take damage from an attack, they gain {CONDNAME_BUFF_AGILE} and {CONDNAME_BUFF_MEND}.\\n\\n{CONDDESC_BUFF_AGILE}\\n\\n{CONDDESC_BUFF_MEND}",
-  "icon": "images/perk/Luster.png",
-  "id": 376,
-  "maxRanks": 1,
-  "name": "Luster",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After your creatures take damage from an attack, they gain {CONDNAME_BUFF_AGILE} and {CONDNAME_BUFF_MEND}.\\n\\n{CONDDESC_BUFF_AGILE}\\n\\n{CONDDESC_BUFF_MEND}",
+    "icon":  "images/perk/Luster.png",
+    "id":  376,
+    "maxRanks":  1,
+    "name":  "Luster",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

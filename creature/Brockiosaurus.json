@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Brockiosaurus/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1341,
-  "item": 1776,
-  "lore": "In its day, the Brockiosaurus moved like it had been pushing mountains for centuries. Its cliff-like back was home to glowing lichens and wandering birds, and many mistook it for a rock formation\u00E2\u20AC\u201Duntil the ground began to creak. It\u0027s said the oldest druids consulted it like an oracle, carving questions futilely into its basalt shell. They went extinct quickly due to respiratory problems, but scientists revived them, drastically shrinking their size and making them faster.",
-  "menagerieDialog": [
-    "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
-    "RAWR! Time to show these puny creatures what real power looks like!",
-    "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
-    "My hide is infused with primal magic. Nothing can harm me!",
-    "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
-  ],
-  "minDepth": 1,
-  "name": "Brockiosaurus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Brockiosaurus/overworld_e0.png",
-      "images/creature/Brockiosaurus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Brockiosaurus/overworld_n0.png",
-      "images/creature/Brockiosaurus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Brockiosaurus/overworld_s0.png",
-      "images/creature/Brockiosaurus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Brockiosaurus/overworld_w0.png",
-      "images/creature/Brockiosaurus/overworld_w1.png"
-    ]
-  },
-  "race": "Elementasaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 28,
-    "health": 40,
-    "intelligence": 15,
-    "speed": 12
-  },
-  "trait": 2129
+    "battleSprite":  "images/creature/Brockiosaurus/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1341,
+    "item":  1776,
+    "lore":  "In its day, the Brockiosaurus moved like it had been pushing mountains for centuries. Its cliff-like back was home to glowing lichens and wandering birds, and many mistook it for a rock formation—until the ground began to creak. It\u0027s said the oldest druids consulted it like an oracle, carving questions futilely into its basalt shell. They went extinct quickly due to respiratory problems, but scientists revived them, drastically shrinking their size and making them faster.",
+    "menagerieDialog":  [
+                            "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
+                            "RAWR! Time to show these puny creatures what real power looks like!",
+                            "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
+                            "My hide is infused with primal magic. Nothing can harm me!",
+                            "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Brockiosaurus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Brockiosaurus/overworld_e0.png",
+                                         "images/creature/Brockiosaurus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Brockiosaurus/overworld_n0.png",
+                                          "images/creature/Brockiosaurus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Brockiosaurus/overworld_s0.png",
+                                          "images/creature/Brockiosaurus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Brockiosaurus/overworld_w0.png",
+                                         "images/creature/Brockiosaurus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elementasaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  28,
+                       "health":  40,
+                       "intelligence":  15,
+                       "speed":  12
+                   },
+    "trait":  2129,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

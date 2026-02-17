@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nYear of the Trollboar:\nAfter this creature {ACTION_provokes}, it deals damage to a random enemy equal to 25% of its {STAT_intelligence}. This effect repeats once for every 5% {STAT_health} this creature is missing.",
-  "icon": "images/item/material/TrollboarLantern.png",
-  "id": 1097,
-  "name": "Trollboar Lantern",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1027
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nYear of the Trollboar:\nAfter this creature {ACTION_provokes}, it deals damage to a random enemy equal to 25% of its {STAT_intelligence}. This effect repeats once for every 5% {STAT_health} this creature is missing.",
+    "icon":  "images/item/material/TrollboarLantern.png",
+    "id":  1097,
+    "name":  "Trollboar Lantern",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1027,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

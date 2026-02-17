@@ -1,38 +1,41 @@
 {
-  "bossDialog": [
-    "If you\u0027re not gone by the count of ten, I\u0027m going to smear your brains all over the walls. ...TEN!",
-    "Now THERE\u0027S a face that needs a good beating. You\u0027ve come to the right place!",
-    "Oh great, a human. I thought I smelled somethin\u0027 rotten in here. Have at you!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 {CONDNAME_BUFF_SPLASH} buff deals 10% more damage to adjacent creatures.",
-    "5": "Your creatures\u0027 {CONDNAME_BUFF_SPLASH} buff deals its damage to 1 additional enemy.",
-    "8": "Your creatures\u0027 {CONDNAME_BUFF_SPLASH} buff has a 10% chance to activate twice."
-  },
-  "cards": 8,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    162,
-    163,
-    164,
-    165,
-    166,
-    167,
-    168,
-    613
-  ],
-  "icon": "images/race/Brownie.png",
-  "master": {
-    "costume": 307,
-    "dialog": "There\u0027s not much to say about Brownies, really. They pack one hell of a punch with their oversized hammers. Actually, do you suppose it\u0027s their hammers that are oversized, or their bodies that are a bit on the smaller side? Anyway, let\u0027s see how they stack up against the likes of you!",
-    "item": 1170,
-    "name": "Buster",
-    "trait": 1408
-  },
-  "name": "Brownie",
-  "notes": [],
-  "skins": [
-    224
-  ]
+    "bossDialog":  [
+                       "If you\u0027re not gone by the count of ten, I\u0027m going to smear your brains all over the walls. ...TEN!",
+                       "Now THERE\u0027S a face that needs a good beating. You\u0027ve come to the right place!",
+                       "Oh great, a human. I thought I smelled somethin\u0027 rotten in here. Have at you!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 {CONDNAME_BUFF_SPLASH} buff deals 10% more damage to adjacent creatures.",
+                        "5":  "Your creatures\u0027 {CONDNAME_BUFF_SPLASH} buff deals its damage to 1 additional enemy.",
+                        "8":  "Your creatures\u0027 {CONDNAME_BUFF_SPLASH} buff has a 10% chance to activate twice."
+                    },
+    "cards":  8,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      162,
+                      163,
+                      164,
+                      165,
+                      166,
+                      167,
+                      168,
+                      613
+                  ],
+    "icon":  "images/race/Brownie.png",
+    "master":  {
+                   "costume":  307,
+                   "dialog":  "There\u0027s not much to say about Brownies, really. They pack one hell of a punch with their oversized hammers. Actually, do you suppose it\u0027s their hammers that are oversized, or their bodies that are a bit on the smaller side? Anyway, let\u0027s see how they stack up against the likes of you!",
+                   "item":  1170,
+                   "name":  "Buster",
+                   "trait":  1408
+               },
+    "name":  "Brownie",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  224
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,52 +1,55 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Target\u0027s [temporary] Ethereal Spell Gems are Sealed, and this creature gains a small amount of {STAT_intelligence} for each gem that was Sealed.",
-  "god": null,
-  "id": 414,
-  "manuallyCastable": true,
-  "maxCharges": 13,
-  "name": "Divination",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    5,
-    6,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY",
-    "BOOST"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Target\u0027s [temporary] Ethereal Spell Gems are Sealed, and this creature gains a small amount of {STAT_intelligence} for each gem that was Sealed.",
+    "god":  null,
+    "id":  414,
+    "manuallyCastable":  true,
+    "maxCharges":  13,
+    "name":  "Divination",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  5,
+                                  6,
+                                  9,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY",
+                 "BOOST"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

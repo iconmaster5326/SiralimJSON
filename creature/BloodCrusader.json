@@ -1,66 +1,71 @@
 {
-  "battleSprite": "images/creature/BloodCrusader/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 380,
-  "item": 181,
-  "lore": "Crusaders are warriors of light who have watched over the innocent from time immemorial. However, their sense of justice is so extreme that they sometimes end up serving morally dubious causes.\\n\\nThe Blood Crusader\u0027s color and abilities made it easy to give it a name. In the past, it was believed that the blows of its mace only stole the blood of the wicked. Today it is common knowledge that whether their target is a villain or a hero matters little.",
-  "menagerieDialog": [
-    "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
-    "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
-    "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
-    "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
-    "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
-  ],
-  "minDepth": 1,
-  "name": "Blood Crusader",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BloodCrusader/overworld_e0.png",
-      "images/creature/BloodCrusader/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BloodCrusader/overworld_n0.png",
-      "images/creature/BloodCrusader/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BloodCrusader/overworld_s0.png",
-      "images/creature/BloodCrusader/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BloodCrusader/overworld_w0.png",
-      "images/creature/BloodCrusader/overworld_w1.png"
-    ]
-  },
-  "race": "Crusader",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    10
-  ],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 91
+    "battleSprite":  "images/creature/BloodCrusader/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  380,
+    "item":  181,
+    "lore":  "Crusaders are warriors of light who have watched over the innocent from time immemorial. However, their sense of justice is so extreme that they sometimes end up serving morally dubious causes.\\n\\nThe Blood Crusader\u0027s color and abilities made it easy to give it a name. In the past, it was believed that the blows of its mace only stole the blood of the wicked. Today it is common knowledge that whether their target is a villain or a hero matters little.",
+    "menagerieDialog":  [
+                            "(It appears to be sleeping, but everyone knows that Crusaders never sleep.)",
+                            "(It appears to be uncharacteristically restless. It has probably spent too long cooped up in your castle.)",
+                            "(Though this creature may appear to be simple-minded, you know it has great ambitions. Hopefully they align with your own.)",
+                            "(Only this creature\u0027s unbreakable loyalty toward you prohibits it from wreaking havoc on your entire kingdom.)",
+                            "(It\u0027s busy fidgeting with its maul in a rare display of unease.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Blood Crusader",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BloodCrusader/overworld_e0.png",
+                                         "images/creature/BloodCrusader/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BloodCrusader/overworld_n0.png",
+                                          "images/creature/BloodCrusader/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BloodCrusader/overworld_s0.png",
+                                          "images/creature/BloodCrusader/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BloodCrusader/overworld_w0.png",
+                                         "images/creature/BloodCrusader/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Crusader",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            10
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  91,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

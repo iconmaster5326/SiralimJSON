@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Anneltha/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": 23,
-  "id": 1096,
-  "item": null,
-  "lore": "A truly ancient being who has not been seen for milennia, precious little knowledge has survived over the ages regarding Anneltha. Fragments of ancient texts preserved in the libraries of Undolim, treated as unverified myth, speak of a colossal worm Goddess who banished the sentient races of what is now Rodia from her realm for the crime of disrespecting the earth with their greed. Only Aeolian has been known to speak of her, and then only reluctantly, with noticeable sadness.\\n\\nThe recent machinations of Caliban have, however, unsealed her realm - and Anneltha has not seen fit to re-seal it to outsiders once more. Few adventurers have chanced the Forbidden Depths thus far, but reports of a crystalline hive swarming with brutal monsters, as well as a few distant sightings of Anneltha herself moving about the realm, suggest that these deep caves and their inhabitants have not suffered for their isolation from the world.",
-  "menagerieDialog": [
-    "We both have much to do, little one. It would be wise of you to act now while my patience yet endures.",
-    "This castle, this society... I see humanity has changed little over the eons. I pray that you are an exception.",
-    "I wonder what Aeolian has been up to. That old buzzard and I used to be friends a long time ago.",
-    "This world is wounded and sick. In the quietest moments, I hear it screaming in pain.",
-    "There are better ways forward than to greedily ravage the world that gives you life. When will you all learn?"
-  ],
-  "minDepth": 1,
-  "name": "Anneltha",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Anneltha/overworld_e0.png",
-      "images/creature/Anneltha/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Anneltha/overworld_n0.png",
-      "images/creature/Anneltha/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Anneltha/overworld_s0.png",
-      "images/creature/Anneltha/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Anneltha/overworld_w0.png",
-      "images/creature/Anneltha/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    590,
-    599,
-    608
-  ],
-  "sources": [
-    {
-      "god": 23,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1982
+    "battleSprite":  "images/creature/Anneltha/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  23,
+    "id":  1096,
+    "item":  null,
+    "lore":  "A truly ancient being who has not been seen for milennia, precious little knowledge has survived over the ages regarding Anneltha. Fragments of ancient texts preserved in the libraries of Undolim, treated as unverified myth, speak of a colossal worm Goddess who banished the sentient races of what is now Rodia from her realm for the crime of disrespecting the earth with their greed. Only Aeolian has been known to speak of her, and then only reluctantly, with noticeable sadness.\\n\\nThe recent machinations of Caliban have, however, unsealed her realm - and Anneltha has not seen fit to re-seal it to outsiders once more. Few adventurers have chanced the Forbidden Depths thus far, but reports of a crystalline hive swarming with brutal monsters, as well as a few distant sightings of Anneltha herself moving about the realm, suggest that these deep caves and their inhabitants have not suffered for their isolation from the world.",
+    "menagerieDialog":  [
+                            "We both have much to do, little one. It would be wise of you to act now while my patience yet endures.",
+                            "This castle, this society... I see humanity has changed little over the eons. I pray that you are an exception.",
+                            "I wonder what Aeolian has been up to. That old buzzard and I used to be friends a long time ago.",
+                            "This world is wounded and sick. In the quietest moments, I hear it screaming in pain.",
+                            "There are better ways forward than to greedily ravage the world that gives you life. When will you all learn?"
+                        ],
+    "minDepth":  1,
+    "name":  "Anneltha",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Anneltha/overworld_e0.png",
+                                         "images/creature/Anneltha/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Anneltha/overworld_n0.png",
+                                          "images/creature/Anneltha/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Anneltha/overworld_s0.png",
+                                          "images/creature/Anneltha/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Anneltha/overworld_w0.png",
+                                         "images/creature/Anneltha/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  590,
+                  599,
+                  608
+              ],
+    "sources":  [
+                    {
+                        "god":  23,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1982,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

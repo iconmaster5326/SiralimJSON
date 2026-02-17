@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSquelch:\nAfter an enemy is afflicted with {CONDNAME_DEBUFF_DISARMED}, they are also afflicted with {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}, depending on whether their {STAT_attack} or {STAT_intelligence} is higher. This trait does not stack.",
-  "icon": "images/item/material/GloopdiatorGel.png",
-  "id": 961,
-  "name": "Gloopdiator Gel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1173
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSquelch:\nAfter an enemy is afflicted with {CONDNAME_DEBUFF_DISARMED}, they are also afflicted with {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}, depending on whether their {STAT_attack} or {STAT_intelligence} is higher. This trait does not stack.",
+    "icon":  "images/item/material/GloopdiatorGel.png",
+    "id":  961,
+    "name":  "Gloopdiator Gel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1173,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

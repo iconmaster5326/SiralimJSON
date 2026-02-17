@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHead Shot:\nWhen this creature {ACTION_attacks}, it has a 50% chance to deal 200% more damage.",
-  "icon": "images/item/material/SniperBone.png",
-  "id": 223,
-  "name": "Sniper Bone",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 132
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHead Shot:\nWhen this creature {ACTION_attacks}, it has a 50% chance to deal 200% more damage.",
+    "icon":  "images/item/material/SniperBone.png",
+    "id":  223,
+    "name":  "Sniper Bone",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  132,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures that have been resurrected at least 1 time are resistant to debuffs. Your creatures that have been resurrected at least 3 times always have {CONDNAME_BUFF_IMMUNITY}.\\n\\n{CONDDESC_BUFF_IMMUNITY}",
-  "icon": "images/perk/UnnaturalCauses.png",
-  "id": 540,
-  "maxRanks": 1,
-  "name": "Unnatural Causes",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 34
+    "anointable":  true,
+    "description":  "Your creatures that have been resurrected at least 1 time are resistant to debuffs. Your creatures that have been resurrected at least 3 times always have {CONDNAME_BUFF_IMMUNITY}.\\n\\n{CONDDESC_BUFF_IMMUNITY}",
+    "icon":  "images/perk/UnnaturalCauses.png",
+    "id":  540,
+    "maxRanks":  1,
+    "name":  "Unnatural Causes",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  34,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

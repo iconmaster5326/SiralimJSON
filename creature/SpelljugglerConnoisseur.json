@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpelljugglerConnoisseur/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1302,
-  "item": 1809,
-  "lore": "The Spelljuggler order is led by a famous sorcerer from Siralim who\u0027s been outwitting the authorities for over ten years.\\n\\nAs their name suggests, the Spelljuggler Connoisseurs are the ones who gather valuable information within Rodia\u0027s society. They\u0027re skilled in dealing information, often staying under the radar, but if you know who to ask, they\u0027re not hard to find.",
-  "menagerieDialog": [
-    "(It\u0027s lazily floating a single spell orb above its palm.)",
-    "Watch as I juggle their lives away!",
-    "I know spells that would make your head spin... literally!",
-    "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
-    "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
-  ],
-  "minDepth": 1,
-  "name": "Spelljuggler Connoisseur",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpelljugglerConnoisseur/overworld_e0.png",
-      "images/creature/SpelljugglerConnoisseur/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpelljugglerConnoisseur/overworld_n0.png",
-      "images/creature/SpelljugglerConnoisseur/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpelljugglerConnoisseur/overworld_s0.png",
-      "images/creature/SpelljugglerConnoisseur/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpelljugglerConnoisseur/overworld_w0.png",
-      "images/creature/SpelljugglerConnoisseur/overworld_w1.png"
-    ]
-  },
-  "race": "Spelljuggler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 28,
-    "speed": 20
-  },
-  "trait": 2162
+    "battleSprite":  "images/creature/SpelljugglerConnoisseur/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1302,
+    "item":  1809,
+    "lore":  "The Spelljuggler order is led by a famous sorcerer from Siralim who\u0027s been outwitting the authorities for over ten years.\\n\\nAs their name suggests, the Spelljuggler Connoisseurs are the ones who gather valuable information within Rodia\u0027s society. They\u0027re skilled in dealing information, often staying under the radar, but if you know who to ask, they\u0027re not hard to find.",
+    "menagerieDialog":  [
+                            "(It\u0027s lazily floating a single spell orb above its palm.)",
+                            "Watch as I juggle their lives away!",
+                            "I know spells that would make your head spin... literally!",
+                            "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
+                            "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spelljuggler Connoisseur",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpelljugglerConnoisseur/overworld_e0.png",
+                                         "images/creature/SpelljugglerConnoisseur/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpelljugglerConnoisseur/overworld_n0.png",
+                                          "images/creature/SpelljugglerConnoisseur/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpelljugglerConnoisseur/overworld_s0.png",
+                                          "images/creature/SpelljugglerConnoisseur/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpelljugglerConnoisseur/overworld_w0.png",
+                                         "images/creature/SpelljugglerConnoisseur/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spelljuggler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  28,
+                       "speed":  20
+                   },
+    "trait":  2162,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

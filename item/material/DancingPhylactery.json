@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOverpowered:\nThis creature deals 100% more damage. After this creature takes damage, it is sent to the bottom of the {TIMELINE}.",
-  "icon": "images/item/material/DancingPhylactery.png",
-  "id": 1013,
-  "name": "Dancing Phylactery",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1117
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOverpowered:\nThis creature deals 100% more damage. After this creature takes damage, it is sent to the bottom of the {TIMELINE}.",
+    "icon":  "images/item/material/DancingPhylactery.png",
+    "id":  1013,
+    "name":  "Dancing Phylactery",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1117,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

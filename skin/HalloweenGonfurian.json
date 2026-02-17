@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenGonfurian/battle.png",
-  "creator": null,
-  "creature": 731,
-  "id": 403,
-  "name": "Halloween Gonfurian",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenGonfurian/overworld_e0.png",
-      "images/skin/HalloweenGonfurian/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenGonfurian/overworld_n0.png",
-      "images/skin/HalloweenGonfurian/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenGonfurian/overworld_s0.png",
-      "images/skin/HalloweenGonfurian/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenGonfurian/overworld_w0.png",
-      "images/skin/HalloweenGonfurian/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenGonfurian/battle.png",
+    "creator":  null,
+    "creature":  731,
+    "id":  403,
+    "name":  "Halloween Gonfurian",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenGonfurian/overworld_e0.png",
+                                         "images/skin/HalloweenGonfurian/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenGonfurian/overworld_n0.png",
+                                          "images/skin/HalloweenGonfurian/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenGonfurian/overworld_s0.png",
+                                          "images/skin/HalloweenGonfurian/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenGonfurian/overworld_w0.png",
+                                         "images/skin/HalloweenGonfurian/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

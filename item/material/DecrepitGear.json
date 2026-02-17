@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInstigation:\nAt the start of this creature\u0027s turn, it reduces the enemies\u0027 {STAT_defense} by 15% of this creature\u0027s {STAT_defense}.",
-  "icon": "images/item/material/DecrepitGear.png",
-  "id": 1057,
-  "name": "Decrepit Gear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1076
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInstigation:\nAt the start of this creature\u0027s turn, it reduces the enemies\u0027 {STAT_defense} by 15% of this creature\u0027s {STAT_defense}.",
+    "icon":  "images/item/material/DecrepitGear.png",
+    "id":  1057,
+    "name":  "Decrepit Gear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1076,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

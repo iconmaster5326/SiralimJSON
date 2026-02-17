@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "Ahh, perfect. I just finished forging some new weapons and armor. You\u0027ll make a fine test of their strength!",
-    "I hope you\u0027re a more worthy challenge than the last five weaklings who blundered in here.",
-    "May my blades be sharp. May my armor hold fast. May my wit be swift and my muscles swifter. May Gonfurian grant me glory this day."
-  ],
-  "cardBonuses": {
-    "2": "You gain 30% more {RES_BRIMSTONE} from battles.",
-    "4": "Increases the base amount of {RES_BRIMSTONE} gained from battles by 15.",
-    "7": "You have a 15% chance to gain double {RES_BRIMSTONE} from battles."
-  },
-  "cards": 7,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    35,
-    36,
-    37,
-    38,
-    39,
-    40,
-    642
-  ],
-  "icon": "images/race/Minotaur.png",
-  "master": {
-    "costume": 361,
-    "dialog": "Minotaurs have some serious anger issues, but when it comes time for a battle, that\u0027s just fine with me. Let\u0027s see how your creatures stand up against my army of crazed berserkers!",
-    "item": 1242,
-    "name": "Ogron",
-    "trait": 1462
-  },
-  "name": "Minotaur",
-  "notes": [],
-  "skins": [
-    30,
-    271,
-    722,
-    723
-  ]
+    "bossDialog":  [
+                       "Ahh, perfect. I just finished forging some new weapons and armor. You\u0027ll make a fine test of their strength!",
+                       "I hope you\u0027re a more worthy challenge than the last five weaklings who blundered in here.",
+                       "May my blades be sharp. May my armor hold fast. May my wit be swift and my muscles swifter. May Gonfurian grant me glory this day."
+                   ],
+    "cardBonuses":  {
+                        "2":  "You gain 30% more {RES_BRIMSTONE} from battles.",
+                        "4":  "Increases the base amount of {RES_BRIMSTONE} gained from battles by 15.",
+                        "7":  "You have a 15% chance to gain double {RES_BRIMSTONE} from battles."
+                    },
+    "cards":  7,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      35,
+                      36,
+                      37,
+                      38,
+                      39,
+                      40,
+                      642
+                  ],
+    "icon":  "images/race/Minotaur.png",
+    "master":  {
+                   "costume":  361,
+                   "dialog":  "Minotaurs have some serious anger issues, but when it comes time for a battle, that\u0027s just fine with me. Let\u0027s see how your creatures stand up against my army of crazed berserkers!",
+                   "item":  1242,
+                   "name":  "Ogron",
+                   "trait":  1462
+               },
+    "name":  "Minotaur",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  30,
+                  271,
+                  722,
+                  723
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

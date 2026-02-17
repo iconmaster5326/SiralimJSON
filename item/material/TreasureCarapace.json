@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShorted Out:\nAfter this creature is affected by an enemy\u0027s spell, it Seals the Spell Gem and gains a copy of it.",
-  "icon": "images/item/material/TreasureCarapace.png",
-  "id": 945,
-  "name": "Treasure Carapace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1193
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShorted Out:\nAfter this creature is affected by an enemy\u0027s spell, it Seals the Spell Gem and gains a copy of it.",
+    "icon":  "images/item/material/TreasureCarapace.png",
+    "id":  945,
+    "name":  "Treasure Carapace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1193,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

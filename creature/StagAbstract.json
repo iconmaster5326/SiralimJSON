@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/StagAbstract/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 703,
-  "item": 875,
-  "lore": "This creature appears with a snap, curving space around it. The Stag Abstract does not walk, it is simply in one place and then instantly in another. Its attacks are devastating, as predicting its movements is virtually impossible. There is a rumor that this creature\u0027s antlers allow travel between worlds, but it is more likely that whoever confronts it will only get a one-way ticket to the afterlife.",
-  "menagerieDialog": [
-    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
-    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
-    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
-    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
-    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Stag Abstract",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StagAbstract/overworld_e0.png",
-      "images/creature/StagAbstract/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StagAbstract/overworld_n0.png",
-      "images/creature/StagAbstract/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StagAbstract/overworld_s0.png",
-      "images/creature/StagAbstract/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StagAbstract/overworld_w0.png",
-      "images/creature/StagAbstract/overworld_w1.png"
-    ]
-  },
-  "race": "Stag",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 17,
-    "health": 34,
-    "intelligence": 22,
-    "speed": 17
-  },
-  "trait": 902
+    "battleSprite":  "images/creature/StagAbstract/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  703,
+    "item":  875,
+    "lore":  "This creature appears with a snap, curving space around it. The Stag Abstract does not walk, it is simply in one place and then instantly in another. Its attacks are devastating, as predicting its movements is virtually impossible. There is a rumor that this creature\u0027s antlers allow travel between worlds, but it is more likely that whoever confronts it will only get a one-way ticket to the afterlife.",
+    "menagerieDialog":  [
+                            "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+                            "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+                            "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+                            "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+                            "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Stag Abstract",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StagAbstract/overworld_e0.png",
+                                         "images/creature/StagAbstract/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StagAbstract/overworld_n0.png",
+                                          "images/creature/StagAbstract/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StagAbstract/overworld_s0.png",
+                                          "images/creature/StagAbstract/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StagAbstract/overworld_w0.png",
+                                         "images/creature/StagAbstract/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Stag",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  17,
+                       "health":  34,
+                       "intelligence":  22,
+                       "speed":  17
+                   },
+    "trait":  902,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

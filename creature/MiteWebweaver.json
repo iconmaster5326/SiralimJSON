@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MiteWebweaver/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 223,
-  "item": 571,
-  "lore": "This creature is responsible for one of the most unpleasant landscapes in the country. Like Arachnalisks, Mites reach peaks of overpopulation once or twice a century. When the forests of Rodia are completely tangled in cobwebs, a disgusting sight that causes serious damage to ecosystems, it means it is time for the authorities to take measures. Its silk also allows it to survive in extreme environments and to immobilize its enemies.",
-  "menagerieDialog": [
-    "(It\u0027s rolled into a ball, sleeping lazily.)",
-    "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
-    "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
-    "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
-    "(It\u0027s unsuccessfully trying to burrow into the floor.)"
-  ],
-  "minDepth": 1,
-  "name": "Mite Webweaver",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MiteWebweaver/overworld_e0.png",
-      "images/creature/MiteWebweaver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MiteWebweaver/overworld_n0.png",
-      "images/creature/MiteWebweaver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MiteWebweaver/overworld_s0.png",
-      "images/creature/MiteWebweaver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MiteWebweaver/overworld_w0.png",
-      "images/creature/MiteWebweaver/overworld_w1.png"
-    ]
-  },
-  "race": "Mite",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 485
+    "battleSprite":  "images/creature/MiteWebweaver/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  223,
+    "item":  571,
+    "lore":  "This creature is responsible for one of the most unpleasant landscapes in the country. Like Arachnalisks, Mites reach peaks of overpopulation once or twice a century. When the forests of Rodia are completely tangled in cobwebs, a disgusting sight that causes serious damage to ecosystems, it means it is time for the authorities to take measures. Its silk also allows it to survive in extreme environments and to immobilize its enemies.",
+    "menagerieDialog":  [
+                            "(It\u0027s rolled into a ball, sleeping lazily.)",
+                            "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
+                            "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
+                            "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
+                            "(It\u0027s unsuccessfully trying to burrow into the floor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mite Webweaver",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MiteWebweaver/overworld_e0.png",
+                                         "images/creature/MiteWebweaver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MiteWebweaver/overworld_n0.png",
+                                          "images/creature/MiteWebweaver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MiteWebweaver/overworld_s0.png",
+                                          "images/creature/MiteWebweaver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MiteWebweaver/overworld_w0.png",
+                                         "images/creature/MiteWebweaver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mite",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  485,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

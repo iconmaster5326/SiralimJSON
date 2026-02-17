@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Dikya/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 719,
-  "item": 746,
-  "lore": "Dikya is an enthusiastic, inquisitive creature that devotes its life to scientific research. However, it refuses to document its discoveries and only shares them in exchange for any type of information that is not yet part of its vast knowledge. Like some of the Gods, it can see what is happening anywhere without being physically present, a skill that has made it the most renowned informant in history. For this reason, Dikya is constantly being persecuted and has been kidnapped countless times since it mysteriously appeared thousands of years ago. However, these kidnappings usually do not last more than a few days, as it is one of the greatest assets of the Auditors.",
-  "menagerieDialog": [
-    "I am tired and hungry. Leave me alone while I rest.",
-    "Though I dislike fighting, it\u0027s a great way to blow off some steam every now and again.",
-    "(Upon your approach, it rolls its only eye at you. Arrogant little buggar.)",
-    "In the midst of the blood and carnage, there is sometimes also a... a beauty. A beauty that could break your heart.",
-    "If you could know the exact time of your death, would you choose to know?"
-  ],
-  "minDepth": 1,
-  "name": "Dikya",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Dikya/overworld_e0.png",
-      "images/creature/Dikya/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Dikya/overworld_n0.png",
-      "images/creature/Dikya/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Dikya/overworld_s0.png",
-      "images/creature/Dikya/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Dikya/overworld_w0.png",
-      "images/creature/Dikya/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    161,
-    476,
-    535
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 18,
-    "health": 34,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 781
+    "battleSprite":  "images/creature/Dikya/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  719,
+    "item":  746,
+    "lore":  "Dikya is an enthusiastic, inquisitive creature that devotes its life to scientific research. However, it refuses to document its discoveries and only shares them in exchange for any type of information that is not yet part of its vast knowledge. Like some of the Gods, it can see what is happening anywhere without being physically present, a skill that has made it the most renowned informant in history. For this reason, Dikya is constantly being persecuted and has been kidnapped countless times since it mysteriously appeared thousands of years ago. However, these kidnappings usually do not last more than a few days, as it is one of the greatest assets of the Auditors.",
+    "menagerieDialog":  [
+                            "I am tired and hungry. Leave me alone while I rest.",
+                            "Though I dislike fighting, it\u0027s a great way to blow off some steam every now and again.",
+                            "(Upon your approach, it rolls its only eye at you. Arrogant little buggar.)",
+                            "In the midst of the blood and carnage, there is sometimes also a... a beauty. A beauty that could break your heart.",
+                            "If you could know the exact time of your death, would you choose to know?"
+                        ],
+    "minDepth":  1,
+    "name":  "Dikya",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Dikya/overworld_e0.png",
+                                         "images/creature/Dikya/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Dikya/overworld_n0.png",
+                                          "images/creature/Dikya/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Dikya/overworld_s0.png",
+                                          "images/creature/Dikya/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Dikya/overworld_w0.png",
+                                         "images/creature/Dikya/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  161,
+                  476,
+                  535
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  18,
+                       "health":  34,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  781,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

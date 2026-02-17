@@ -1,19 +1,22 @@
 {
-  "arcaneDustCost": 1500,
-  "description": "Unlocks the Tavern Brawl decoration, allowing you to fight against other players\u0027 creatures to win exclusive prizes.",
-  "graniteCost": 15000,
-  "icon": "images/project/TavernBrawls.png",
-  "id": 6,
-  "items": {
-    "46": 100,
-    "45": 10
-  },
-  "monsterPartCost": 7500,
-  "name": "Tavern Brawls",
-  "notes": [],
-  "repeatable": false,
-  "type": "construction",
-  "unlockedCreature": null,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  1500,
+    "description":  "Unlocks the Tavern Brawl decoration, allowing you to fight against other players\u0027 creatures to win exclusive prizes.",
+    "graniteCost":  15000,
+    "icon":  "images/project/TavernBrawls.png",
+    "id":  6,
+    "items":  {
+                  "46":  100,
+                  "45":  10
+              },
+    "monsterPartCost":  7500,
+    "name":  "Tavern Brawls",
+    "notes":  [
+
+              ],
+    "repeatable":  false,
+    "type":  "construction",
+    "unlockedCreature":  null,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

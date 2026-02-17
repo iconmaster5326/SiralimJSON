@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpew Acid:\nAt the end of each enemy\u0027s turn, this creature decreases their {STAT_defense} by 15%.",
-  "icon": "images/item/material/SpittingAcid.png",
-  "id": 211,
-  "name": "Spitting Acid",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 120
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpew Acid:\nAt the end of each enemy\u0027s turn, this creature decreases their {STAT_defense} by 15%.",
+    "icon":  "images/item/material/SpittingAcid.png",
+    "id":  211,
+    "name":  "Spitting Acid",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  120,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_DEBUFF_SNARED} are stuck at the bottom of the {TIMELINE} until they break free. They have a 10% chance to break free at the start of each creature\u0027s turn.",
-  "icon": "images/condition/Snared.png",
-  "iconResisted": "images/condition/Snared_resist.png",
-  "id": 26,
-  "material": null,
-  "name": "Snared",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "Creatures with {CONDNAME_DEBUFF_SNARED} are stuck at the bottom of the Timeline until they break free. They have a 10% chance to break free at the start of each creature\u0027s turn.",
+    "icon":  "images/condition/Snared.png",
+    "iconResisted":  "images/condition/Snared_resist.png",
+    "id":  26,
+    "material":  null,
+    "name":  "Snared",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

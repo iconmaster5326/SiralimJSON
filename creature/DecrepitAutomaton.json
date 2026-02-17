@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DecrepitAutomaton/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 810,
-  "item": 1057,
-  "lore": "The Automaton blueprints were illegaly sold by an unscrupulous scientist to several wealthy people in Rodia, including two of the top mafia bosses.\\n\\nFor an Automaton to recognize an individual as its master, the palm of their hand must be placed on the machine\u0027s back for one minute. If it already belonged to someone, their ownership will be overriden.\\n\\nThe Decrepit Automaton is a faulty but functional model, so no one usually bothers to fix it. Plants grow quickly in its gears, tubes and body, and make their way outward in a way that allows the machine to use them as weapons.",
-  "menagerieDialog": [
-    "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
-    "I am yours. To command.",
-    "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
-    "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
-    "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
-  ],
-  "minDepth": 1,
-  "name": "Decrepit Automaton",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DecrepitAutomaton/overworld_e0.png",
-      "images/creature/DecrepitAutomaton/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DecrepitAutomaton/overworld_n0.png",
-      "images/creature/DecrepitAutomaton/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DecrepitAutomaton/overworld_s0.png",
-      "images/creature/DecrepitAutomaton/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DecrepitAutomaton/overworld_w0.png",
-      "images/creature/DecrepitAutomaton/overworld_w1.png"
-    ]
-  },
-  "race": "Automaton",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 20,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 1076
+    "battleSprite":  "images/creature/DecrepitAutomaton/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  810,
+    "item":  1057,
+    "lore":  "The Automaton blueprints were illegaly sold by an unscrupulous scientist to several wealthy people in Rodia, including two of the top mafia bosses.\\n\\nFor an Automaton to recognize an individual as its master, the palm of their hand must be placed on the machine\u0027s back for one minute. If it already belonged to someone, their ownership will be overriden.\\n\\nThe Decrepit Automaton is a faulty but functional model, so no one usually bothers to fix it. Plants grow quickly in its gears, tubes and body, and make their way outward in a way that allows the machine to use them as weapons.",
+    "menagerieDialog":  [
+                            "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
+                            "I am yours. To command.",
+                            "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
+                            "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
+                            "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Decrepit Automaton",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DecrepitAutomaton/overworld_e0.png",
+                                         "images/creature/DecrepitAutomaton/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DecrepitAutomaton/overworld_n0.png",
+                                          "images/creature/DecrepitAutomaton/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DecrepitAutomaton/overworld_s0.png",
+                                          "images/creature/DecrepitAutomaton/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DecrepitAutomaton/overworld_w0.png",
+                                         "images/creature/DecrepitAutomaton/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Automaton",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  20,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  1076,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

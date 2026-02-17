@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MasterShapeshifter/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 46,
-  "item": 616,
-  "lore": "After the defeat of Sigmund, Helmholtz took over the Genesis project and completed it some decades later. Thanks to him, there are individuals who can force two creatures of any species to breed, producing an egg with accelerated development.\\n\\nMaster Shapeshifters have transcended mastery over the taxonomy of other species and their own power. They can transform into any creature regardless of size and emulate its prosody and gestures. They are undoubtedly the ultimate spies.",
-  "menagerieDialog": [
-    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
-    "(It transforms into a cat right before your very eyes.)",
-    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
-    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
-    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
-  ],
-  "minDepth": 1,
-  "name": "Master Shapeshifter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MasterShapeshifter/overworld_e0.png",
-      "images/creature/MasterShapeshifter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MasterShapeshifter/overworld_n0.png",
-      "images/creature/MasterShapeshifter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MasterShapeshifter/overworld_s0.png",
-      "images/creature/MasterShapeshifter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MasterShapeshifter/overworld_w0.png",
-      "images/creature/MasterShapeshifter/overworld_w1.png"
-    ]
-  },
-  "race": "Shapeshifter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 530
+    "battleSprite":  "images/creature/MasterShapeshifter/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  46,
+    "item":  616,
+    "lore":  "After the defeat of Sigmund, Helmholtz took over the Genesis project and completed it some decades later. Thanks to him, there are individuals who can force two creatures of any species to breed, producing an egg with accelerated development.\\n\\nMaster Shapeshifters have transcended mastery over the taxonomy of other species and their own power. They can transform into any creature regardless of size and emulate its prosody and gestures. They are undoubtedly the ultimate spies.",
+    "menagerieDialog":  [
+                            "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+                            "(It transforms into a cat right before your very eyes.)",
+                            "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+                            "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+                            "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+                        ],
+    "minDepth":  1,
+    "name":  "Master Shapeshifter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MasterShapeshifter/overworld_e0.png",
+                                         "images/creature/MasterShapeshifter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MasterShapeshifter/overworld_n0.png",
+                                          "images/creature/MasterShapeshifter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MasterShapeshifter/overworld_s0.png",
+                                          "images/creature/MasterShapeshifter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MasterShapeshifter/overworld_w0.png",
+                                         "images/creature/MasterShapeshifter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shapeshifter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  530,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

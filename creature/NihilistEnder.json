@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NihilistEnder/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1075,
-  "item": 1511,
-  "lore": "Nihilists appeared all over the world very recently. Most of them roam in small groups, though they sometimes gather in large numbers.\\n\\nWhile any Nihilist can take down a Voidlord, none do it as well as the Nihilist Ender. In addition to sensing the presence of any Voidlords within a mile of it, its weapon deals incredible damage to these creatures, disintegrating them the moment they pierce their bodies.",
-  "menagerieDialog": [
-    "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
-    "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
-    "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
-    "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
-    "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
-  ],
-  "minDepth": 1,
-  "name": "Nihilist Ender",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NihilistEnder/overworld_e0.png",
-      "images/creature/NihilistEnder/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NihilistEnder/overworld_n0.png",
-      "images/creature/NihilistEnder/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NihilistEnder/overworld_s0.png",
-      "images/creature/NihilistEnder/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NihilistEnder/overworld_w0.png",
-      "images/creature/NihilistEnder/overworld_w1.png"
-    ]
-  },
-  "race": "Nihilist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 5,
-    "speed": 25
-  },
-  "trait": 1818
+    "battleSprite":  "images/creature/NihilistEnder/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1075,
+    "item":  1511,
+    "lore":  "Nihilists appeared all over the world very recently. Most of them roam in small groups, though they sometimes gather in large numbers.\\n\\nWhile any Nihilist can take down a Voidlord, none do it as well as the Nihilist Ender. In addition to sensing the presence of any Voidlords within a mile of it, its weapon deals incredible damage to these creatures, disintegrating them the moment they pierce their bodies.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
+                            "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
+                            "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
+                            "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
+                            "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nihilist Ender",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NihilistEnder/overworld_e0.png",
+                                         "images/creature/NihilistEnder/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NihilistEnder/overworld_n0.png",
+                                          "images/creature/NihilistEnder/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NihilistEnder/overworld_s0.png",
+                                          "images/creature/NihilistEnder/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NihilistEnder/overworld_w0.png",
+                                         "images/creature/NihilistEnder/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nihilist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  5,
+                       "speed":  25
+                   },
+    "trait":  1818,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

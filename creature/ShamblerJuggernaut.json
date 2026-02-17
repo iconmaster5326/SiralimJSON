@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShamblerJuggernaut/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 946,
-  "item": 1045,
-  "lore": "About half of William James\u0027s fleet was lost in the waters, not because of a storm, but because of the creature who kept grabbing the ships that survived its attacks. That forgotten, grotesque beast, larger than any boat, was named the Shambler Juggernaut after the pirate captain and his comrades finally managed to subdue it. Soon after landing in Rodia, the captured Juggernaut they had carried with them laid a clutch of eggs, and the pirates, wanting to rebuild their fleet, decided to sell them. Like their mother, these new Juggernauts are fearsome foes both on water and dry land, but also very easy to tame.",
-  "menagerieDialog": [
-    "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
-    "(Though it smells like dead fish, it is a formidable part of your team.)",
-    "(Not everything in life is beautiful. This creature is proof of that.)",
-    "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
-    "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
-  ],
-  "minDepth": 1,
-  "name": "Shambler Juggernaut",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShamblerJuggernaut/overworld_e0.png",
-      "images/creature/ShamblerJuggernaut/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShamblerJuggernaut/overworld_n0.png",
-      "images/creature/ShamblerJuggernaut/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShamblerJuggernaut/overworld_s0.png",
-      "images/creature/ShamblerJuggernaut/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShamblerJuggernaut/overworld_w0.png",
-      "images/creature/ShamblerJuggernaut/overworld_w1.png"
-    ]
-  },
-  "race": "Sea Shambler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 26,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 1089
+    "battleSprite":  "images/creature/ShamblerJuggernaut/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  946,
+    "item":  1045,
+    "lore":  "About half of William James\u0027s fleet was lost in the waters, not because of a storm, but because of the creature who kept grabbing the ships that survived its attacks. That forgotten, grotesque beast, larger than any boat, was named the Shambler Juggernaut after the pirate captain and his comrades finally managed to subdue it. Soon after landing in Rodia, the captured Juggernaut they had carried with them laid a clutch of eggs, and the pirates, wanting to rebuild their fleet, decided to sell them. Like their mother, these new Juggernauts are fearsome foes both on water and dry land, but also very easy to tame.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
+                            "(Though it smells like dead fish, it is a formidable part of your team.)",
+                            "(Not everything in life is beautiful. This creature is proof of that.)",
+                            "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
+                            "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shambler Juggernaut",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShamblerJuggernaut/overworld_e0.png",
+                                         "images/creature/ShamblerJuggernaut/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShamblerJuggernaut/overworld_n0.png",
+                                          "images/creature/ShamblerJuggernaut/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShamblerJuggernaut/overworld_s0.png",
+                                          "images/creature/ShamblerJuggernaut/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShamblerJuggernaut/overworld_w0.png",
+                                         "images/creature/ShamblerJuggernaut/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sea Shambler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  26,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  1089,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

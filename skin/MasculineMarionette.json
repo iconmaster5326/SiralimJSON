@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/MasculineMarionette/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 826,
-  "name": "Masculine Marionette",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/MasculineMarionette/overworld_e0.png",
-      "images/skin/MasculineMarionette/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/MasculineMarionette/overworld_n0.png",
-      "images/skin/MasculineMarionette/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/MasculineMarionette/overworld_s0.png",
-      "images/skin/MasculineMarionette/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/MasculineMarionette/overworld_w0.png",
-      "images/skin/MasculineMarionette/overworld_w1.png"
-    ]
-  },
-  "race": "Marionette",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/MasculineMarionette/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  826,
+    "name":  "Masculine Marionette",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/MasculineMarionette/overworld_e0.png",
+                                         "images/skin/MasculineMarionette/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/MasculineMarionette/overworld_n0.png",
+                                          "images/skin/MasculineMarionette/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/MasculineMarionette/overworld_s0.png",
+                                          "images/skin/MasculineMarionette/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/MasculineMarionette/overworld_w0.png",
+                                         "images/skin/MasculineMarionette/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Marionette",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

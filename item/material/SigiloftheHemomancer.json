@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Hemomancers:\nIf all the creatures in your party are {RACE_Hemomancer}s, their on-attack and when-attacked effects activate 1 additional time. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheHemomancer.png",
-  "id": 1243,
-  "name": "Sigil of the Hemomancer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1446
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Hemomancers:\nIf all the creatures in your party are {RACE_Hemomancer}s, their on-attack and when-attacked effects activate 1 additional time. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheHemomancer.png",
+    "id":  1243,
+    "name":  "Sigil of the Hemomancer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1446,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElderCruncher/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 941,
-  "item": 942,
-  "lore": "Crunchers are born from the walls and columns of the Temple of Lies. This phenomenon has not been studied in depth, as access to this realm was restricted until very recently.\\n\\nDue to their aggressive behavior, not many Crunchers reach the end of their life expectancy, but those who survive for over two hundred years become Elder Crunchers. These are the smartest of their kind and know how to choose their prey, so they sooner or later end up leading small groups of younger Crunchers.",
-  "menagerieDialog": [
-    "(Upon your approach, it withdraws into its shell. It must be tired.)",
-    "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
-    "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
-    "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
-    "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
-  ],
-  "minDepth": 1,
-  "name": "Elder Cruncher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElderCruncher/overworld_e0.png",
-      "images/creature/ElderCruncher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElderCruncher/overworld_n0.png",
-      "images/creature/ElderCruncher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElderCruncher/overworld_s0.png",
-      "images/creature/ElderCruncher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElderCruncher/overworld_w0.png",
-      "images/creature/ElderCruncher/overworld_w1.png"
-    ]
-  },
-  "race": "Cruncher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 8
-  },
-  "trait": 1190
+    "battleSprite":  "images/creature/ElderCruncher/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  941,
+    "item":  942,
+    "lore":  "Crunchers are born from the walls and columns of the Temple of Lies. This phenomenon has not been studied in depth, as access to this realm was restricted until very recently.\\n\\nDue to their aggressive behavior, not many Crunchers reach the end of their life expectancy, but those who survive for over two hundred years become Elder Crunchers. These are the smartest of their kind and know how to choose their prey, so they sooner or later end up leading small groups of younger Crunchers.",
+    "menagerieDialog":  [
+                            "(Upon your approach, it withdraws into its shell. It must be tired.)",
+                            "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
+                            "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
+                            "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
+                            "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elder Cruncher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElderCruncher/overworld_e0.png",
+                                         "images/creature/ElderCruncher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElderCruncher/overworld_n0.png",
+                                          "images/creature/ElderCruncher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElderCruncher/overworld_s0.png",
+                                          "images/creature/ElderCruncher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElderCruncher/overworld_w0.png",
+                                         "images/creature/ElderCruncher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cruncher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  8
+                   },
+    "trait":  1190,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

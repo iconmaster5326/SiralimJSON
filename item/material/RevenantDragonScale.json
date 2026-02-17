@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDynamic Dragon Scales:\nAfter an enemy {ACTION_casts} a spell, this creature reduces all enemies\u0027 {STAT_intelligence} by 35%. This trait does not stack.",
-  "icon": "images/item/material/RevenantDragonScale.png",
-  "id": 399,
-  "name": "Revenant Dragon Scale",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 314
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDynamic Dragon Scales:\nAfter an enemy {ACTION_casts} a spell, this creature reduces all enemies\u0027 {STAT_intelligence} by 35%. This trait does not stack.",
+    "icon":  "images/item/material/RevenantDragonScale.png",
+    "id":  399,
+    "name":  "Revenant Dragon Scale",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  314,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

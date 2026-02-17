@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EctoplasmicSlime/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 178,
-  "item": 463,
-  "lore": "Zonte discovered that these creatures emerged from the waste resulting from the experiments that were carried out in the Refuge of the Magi.\\n\\nThe Ectoplasmic Slime brims with Life magic and cannot stand the sight of suffering. During the many wars of Rodia, these creatures devoted themselves to helping people and creatures that had been attacked while trying to hide or flee.",
-  "menagerieDialog": [
-    "(It has an extremely punchable expression on its face.)",
-    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
-    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
-    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
-    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
-  ],
-  "minDepth": 1,
-  "name": "Ectoplasmic Slime",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EctoplasmicSlime/overworld_e0.png",
-      "images/creature/EctoplasmicSlime/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EctoplasmicSlime/overworld_n0.png",
-      "images/creature/EctoplasmicSlime/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EctoplasmicSlime/overworld_s0.png",
-      "images/creature/EctoplasmicSlime/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EctoplasmicSlime/overworld_w0.png",
-      "images/creature/EctoplasmicSlime/overworld_w1.png"
-    ]
-  },
-  "race": "Slime",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 23,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 377
+    "battleSprite":  "images/creature/EctoplasmicSlime/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  178,
+    "item":  463,
+    "lore":  "Zonte discovered that these creatures emerged from the waste resulting from the experiments that were carried out in the Refuge of the Magi.\\n\\nThe Ectoplasmic Slime brims with Life magic and cannot stand the sight of suffering. During the many wars of Rodia, these creatures devoted themselves to helping people and creatures that had been attacked while trying to hide or flee.",
+    "menagerieDialog":  [
+                            "(It has an extremely punchable expression on its face.)",
+                            "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+                            "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+                            "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+                            "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ectoplasmic Slime",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EctoplasmicSlime/overworld_e0.png",
+                                         "images/creature/EctoplasmicSlime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EctoplasmicSlime/overworld_n0.png",
+                                          "images/creature/EctoplasmicSlime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EctoplasmicSlime/overworld_s0.png",
+                                          "images/creature/EctoplasmicSlime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EctoplasmicSlime/overworld_w0.png",
+                                         "images/creature/EctoplasmicSlime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Slime",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  23,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  377,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

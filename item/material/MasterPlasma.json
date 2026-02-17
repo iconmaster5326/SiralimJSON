@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTransformation Mastery:\nYour {RACE_Shapeshifter}s\u0027 innate traits are 50% more powerful. This trait does not stack.",
-  "icon": "images/item/material/MasterPlasma.png",
-  "id": 616,
-  "name": "Master Plasma",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 530
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTransformation Mastery:\nYour {RACE_Shapeshifter}s\u0027 innate traits are 50% more powerful. This trait does not stack.",
+    "icon":  "images/item/material/MasterPlasma.png",
+    "id":  616,
+    "name":  "Master Plasma",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  530,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

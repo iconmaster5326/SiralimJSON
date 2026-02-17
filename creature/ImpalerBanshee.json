@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ImpalerBanshee/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 252,
-  "item": 217,
-  "lore": "When the first God of Darkness was defeated, the shell of his body broke into a million pieces. It seemed like everything was over, but then the fragments of his body moved and came to life.\\n\\nThe scream of an Impaler Banshee is so strident that it can rupture eardrums if it is heard from very close. Unlike the rest of its species, it only feeds on the flesh of other animals, and has learned how to hunt and use tools by observing humans.",
-  "menagerieDialog": [
-    "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
-    "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
-    "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
-    "Let my cries chill the living.",
-    "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
-  ],
-  "minDepth": 1,
-  "name": "Impaler Banshee",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ImpalerBanshee/overworld_e0.png",
-      "images/creature/ImpalerBanshee/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ImpalerBanshee/overworld_n0.png",
-      "images/creature/ImpalerBanshee/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ImpalerBanshee/overworld_s0.png",
-      "images/creature/ImpalerBanshee/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ImpalerBanshee/overworld_w0.png",
-      "images/creature/ImpalerBanshee/overworld_w1.png"
-    ]
-  },
-  "race": "Banshee",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Ariamaki)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 30,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 126
+    "battleSprite":  "images/creature/ImpalerBanshee/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  252,
+    "item":  217,
+    "lore":  "When the first God of Darkness was defeated, the shell of his body broke into a million pieces. It seemed like everything was over, but then the fragments of his body moved and came to life.\\n\\nThe scream of an Impaler Banshee is so strident that it can rupture eardrums if it is heard from very close. Unlike the rest of its species, it only feeds on the flesh of other animals, and has learned how to hunt and use tools by observing humans.",
+    "menagerieDialog":  [
+                            "(It remains motionless despite your approach, donning an aura of inscrutable mystery.)",
+                            "(The emotional instability of this creature is truly a sight to behold. If it\u0027s not screaming at inanimate objects, it\u0027s crying in a corner.)",
+                            "(Why is this creature always crying? It\u0027s almost as if it refuses to ever be happy.)",
+                            "Let my cries chill the living.",
+                            "(She\u0027s crying, as usual. Perhaps someday you\u0027ll find a way to cheer her up.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Impaler Banshee",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ImpalerBanshee/overworld_e0.png",
+                                         "images/creature/ImpalerBanshee/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ImpalerBanshee/overworld_n0.png",
+                                          "images/creature/ImpalerBanshee/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ImpalerBanshee/overworld_s0.png",
+                                          "images/creature/ImpalerBanshee/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ImpalerBanshee/overworld_w0.png",
+                                         "images/creature/ImpalerBanshee/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Banshee",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Ariamaki)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  30,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  126,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

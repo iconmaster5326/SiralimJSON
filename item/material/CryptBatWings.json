@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBombardment:\nAfter an ally {ACTION_attacks}, this creature deals damage to the target equal to 35% of its {STAT_attack}.",
-  "icon": "images/item/material/CryptBatWings.png",
-  "id": 289,
-  "name": "Crypt Bat Wings",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 205
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBombardment:\nAfter an ally {ACTION_attacks}, this creature deals damage to the target equal to 35% of its {STAT_attack}.",
+    "icon":  "images/item/material/CryptBatWings.png",
+    "id":  289,
+    "name":  "Crypt Bat Wings",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  205,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

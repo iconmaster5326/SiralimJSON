@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/InkjetKraken/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1243,
-  "item": 1617,
-  "lore": "The Revenants have always been busy fighting each other, but in the past many of their peoples temporarily united to confront the Krakens.\\n\\nSome Krakens feel curious about the surface, especially Inkjet Krakens, who find the warmth of the sun on their head and tentacles pleasant and very relaxing. When humans and other intelligent creatures took to the sea, armed with weapons and magic, these creatures became endangered. Those who could shoot the most ink were the ones with the highest chances of survival, so nowadays, thanks to evolution, no one can find them after they release it.",
-  "menagerieDialog": [
-    "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
-    "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
-    "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
-    "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
-    "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
-  ],
-  "minDepth": 1,
-  "name": "Inkjet Kraken",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/InkjetKraken/overworld_e0.png",
-      "images/creature/InkjetKraken/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/InkjetKraken/overworld_n0.png",
-      "images/creature/InkjetKraken/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/InkjetKraken/overworld_s0.png",
-      "images/creature/InkjetKraken/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/InkjetKraken/overworld_w0.png",
-      "images/creature/InkjetKraken/overworld_w1.png"
-    ]
-  },
-  "race": "Kraken",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1954
+    "battleSprite":  "images/creature/InkjetKraken/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1243,
+    "item":  1617,
+    "lore":  "The Revenants have always been busy fighting each other, but in the past many of their peoples temporarily united to confront the Krakens.\\n\\nSome Krakens feel curious about the surface, especially Inkjet Krakens, who find the warmth of the sun on their head and tentacles pleasant and very relaxing. When humans and other intelligent creatures took to the sea, armed with weapons and magic, these creatures became endangered. Those who could shoot the most ink were the ones with the highest chances of survival, so nowadays, thanks to evolution, no one can find them after they release it.",
+    "menagerieDialog":  [
+                            "(It\u0027s making unintelligible groaning noises accompanied by wet coughs. Gross.)",
+                            "(It\u0027s squirming around on its stool, clearly uncomfortable with the seating arrangements provided by your Menagerie.)",
+                            "(Its eyes seem to be staring straight into nothingness. It\u0027s quite unsettling.)",
+                            "(Every so often, Nortah throws a bucket of water on this creature to keep it from dying.)",
+                            "(The high intelligence of this creature is quite surprising given its passive demeanor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Inkjet Kraken",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/InkjetKraken/overworld_e0.png",
+                                         "images/creature/InkjetKraken/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/InkjetKraken/overworld_n0.png",
+                                          "images/creature/InkjetKraken/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/InkjetKraken/overworld_s0.png",
+                                          "images/creature/InkjetKraken/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/InkjetKraken/overworld_w0.png",
+                                         "images/creature/InkjetKraken/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Kraken",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1954,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

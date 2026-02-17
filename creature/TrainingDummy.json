@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TrainingDummy/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1484,
-  "item": 1745,
-  "lore": "This creature was originally designed as a combat training tool for military academies, but over time it developed an inexplicable kind of pride. It always positions itself in the center of the field, stands firm against any attack, and celebrates each hit as if part of a grand choreography. Some say if you manage to hit it ten thousand times without missing, it bows slightly as a sign of respect. Others believe it just does it because its back hurts.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Training Dummy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TrainingDummy/overworld_e0.png",
-      "images/creature/TrainingDummy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TrainingDummy/overworld_n0.png",
-      "images/creature/TrainingDummy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TrainingDummy/overworld_s0.png",
-      "images/creature/TrainingDummy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TrainingDummy/overworld_w0.png",
-      "images/creature/TrainingDummy/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 28,
-    "health": 40,
-    "intelligence": 15,
-    "speed": 12
-  },
-  "trait": 2087
+    "battleSprite":  "images/creature/TrainingDummy/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1484,
+    "item":  1745,
+    "lore":  "This creature was originally designed as a combat training tool for military academies, but over time it developed an inexplicable kind of pride. It always positions itself in the center of the field, stands firm against any attack, and celebrates each hit as if part of a grand choreography. Some say if you manage to hit it ten thousand times without missing, it bows slightly as a sign of respect. Others believe it just does it because its back hurts.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Training Dummy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TrainingDummy/overworld_e0.png",
+                                         "images/creature/TrainingDummy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TrainingDummy/overworld_n0.png",
+                                          "images/creature/TrainingDummy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TrainingDummy/overworld_s0.png",
+                                          "images/creature/TrainingDummy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TrainingDummy/overworld_w0.png",
+                                         "images/creature/TrainingDummy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  28,
+                       "health":  40,
+                       "intelligence":  15,
+                       "speed":  12
+                   },
+    "trait":  2087,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Shadows:\nIf all the creatures in your party are {RACE_Shadow}s, enemies with {CONDNAME_DEBUFF_FEAR} take 30% more damage and deal 30% less damage, and your creatures are immune to {CONDNAME_DEBUFF_FEAR}. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheShadow.png",
-  "id": 1210,
-  "name": "Sigil of the Shadow",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1488
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Shadows:\nIf all the creatures in your party are {RACE_Shadow}s, enemies with {CONDNAME_DEBUFF_FEAR} take 30% more damage and deal 30% less damage, and your creatures are immune to {CONDNAME_DEBUFF_FEAR}. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheShadow.png",
+    "id":  1210,
+    "name":  "Sigil of the Shadow",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1488,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConviviality:\nThis creature deals additional damage equal to 5% of the damage your creatures have taken in the current battle.",
-  "icon": "images/item/material/SearcherSpark.png",
-  "id": 1034,
-  "name": "Searcher Spark",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1102
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConviviality:\nThis creature deals additional damage equal to 5% of the damage your creatures have taken in the current battle.",
+    "icon":  "images/item/material/SearcherSpark.png",
+    "id":  1034,
+    "name":  "Searcher Spark",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1102,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

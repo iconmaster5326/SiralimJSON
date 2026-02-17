@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, each of your creatures have a \u003C2\u003E% chance to {ACTION_cast} a Scourge spell on an enemy. The type of Scourge spell is based on the enemy\u0027s class.",
-  "icon": "images/perk/Pyroblast.png",
-  "id": 251,
-  "maxRanks": 10,
-  "name": "Pyroblast",
-  "notes": [],
-  "pointsPerRank": 10,
-  "specialization": 17
+    "anointable":  true,
+    "description":  "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, each of your creatures have a \u003c2\u003e% chance to {ACTION_cast} a Scourge spell on an enemy. The type of Scourge spell is based on the enemy\u0027s class.",
+    "icon":  "images/perk/Pyroblast.png",
+    "id":  251,
+    "maxRanks":  10,
+    "name":  "Pyroblast",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  10,
+    "specialization":  17,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

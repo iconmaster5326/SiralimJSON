@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures take 10% less damage from attacks and spells for each time they\u0027ve taken damage from {CONDNAME_DEBUFF_POISON} in the current battle.",
-  "icon": "images/perk/Inoculate.png",
-  "id": 490,
-  "maxRanks": 1,
-  "name": "Inoculate",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "Your creatures take 10% less damage from attacks and spells for each time they\u0027ve taken damage from {CONDNAME_DEBUFF_POISON} in the current battle.",
+    "icon":  "images/perk/Inoculate.png",
+    "id":  490,
+    "maxRanks":  1,
+    "name":  "Inoculate",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

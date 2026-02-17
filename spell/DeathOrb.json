@@ -1,52 +1,55 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "death",
-  "creator": null,
-  "description": "Enemies are afflicted with a random debuff and lose a moderate amount of stats.",
-  "god": null,
-  "id": 529,
-  "manuallyCastable": true,
-  "maxCharges": 2,
-  "name": "Death Orb",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    5,
-    6,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "DEBUFF",
-    "DEBOOST"
-  ],
-  "targets": "enemies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "death",
+    "creator":  null,
+    "description":  "Enemies are afflicted with a random debuff and lose a moderate amount of stats.",
+    "god":  null,
+    "id":  529,
+    "manuallyCastable":  true,
+    "maxCharges":  2,
+    "name":  "Death Orb",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  5,
+                                  6,
+                                  8,
+                                  9,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "DEBUFF",
+                 "DEBOOST"
+             ],
+    "targets":  "enemies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RancidImling/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 347,
-  "item": 541,
-  "lore": "Many Imlings considerably resemble Imlers. However, not all Imler embryos react to magic in the same way, and some undergo major changes when transformed into an Imling. In the case of the Rancid Imling, its pale skin did not fully develop, but the cells of its body work at high speed, generating excessive body heat that makes it sweat constantly.",
-  "menagerieDialog": [
-    "(It seems to have scribbled something on the floor. Upon closer insepction, you realize it says, \u0027I\u0027m sleepy, let me rest.\u0027)",
-    "(It draws something on a scroll and hands it to you. It\u0027s a picture of a creature being slammed to death by an Imler. That\u0027s most definitely the first sign of a serial killer in the making.)",
-    "(This particular creature is extremely introverted, which is a rarity for Imlings.)",
-    "(It\u0027s busy drawing a picture on a scroll. Upon further inspection, you realize it\u0027s a lewd picture of Hebron\u0027s mother.)",
-    "(The Imling is holding up its middle finger and waving it in front of your other creatures. Grow up, Imling.)"
-  ],
-  "minDepth": 1,
-  "name": "Rancid Imling",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RancidImling/overworld_e0.png",
-      "images/creature/RancidImling/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RancidImling/overworld_n0.png",
-      "images/creature/RancidImling/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RancidImling/overworld_s0.png",
-      "images/creature/RancidImling/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RancidImling/overworld_w0.png",
-      "images/creature/RancidImling/overworld_w1.png"
-    ]
-  },
-  "race": "Imling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 11,
-    "health": 31,
-    "intelligence": 26,
-    "speed": 26
-  },
-  "trait": 455
+    "battleSprite":  "images/creature/RancidImling/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  347,
+    "item":  541,
+    "lore":  "Many Imlings considerably resemble Imlers. However, not all Imler embryos react to magic in the same way, and some undergo major changes when transformed into an Imling. In the case of the Rancid Imling, its pale skin did not fully develop, but the cells of its body work at high speed, generating excessive body heat that makes it sweat constantly.",
+    "menagerieDialog":  [
+                            "(It seems to have scribbled something on the floor. Upon closer insepction, you realize it says, \u0027I\u0027m sleepy, let me rest.\u0027)",
+                            "(It draws something on a scroll and hands it to you. It\u0027s a picture of a creature being slammed to death by an Imler. That\u0027s most definitely the first sign of a serial killer in the making.)",
+                            "(This particular creature is extremely introverted, which is a rarity for Imlings.)",
+                            "(It\u0027s busy drawing a picture on a scroll. Upon further inspection, you realize it\u0027s a lewd picture of Hebron\u0027s mother.)",
+                            "(The Imling is holding up its middle finger and waving it in front of your other creatures. Grow up, Imling.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Rancid Imling",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RancidImling/overworld_e0.png",
+                                         "images/creature/RancidImling/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RancidImling/overworld_n0.png",
+                                          "images/creature/RancidImling/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RancidImling/overworld_s0.png",
+                                          "images/creature/RancidImling/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RancidImling/overworld_w0.png",
+                                         "images/creature/RancidImling/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  11,
+                       "health":  31,
+                       "intelligence":  26,
+                       "speed":  26
+                   },
+    "trait":  455,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

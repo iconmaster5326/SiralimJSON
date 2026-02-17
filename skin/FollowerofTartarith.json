@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/FollowerofTartarith/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 723,
-  "name": "Follower of Tartarith",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/FollowerofTartarith/overworld_e0.png",
-      "images/skin/FollowerofTartarith/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/FollowerofTartarith/overworld_n0.png",
-      "images/skin/FollowerofTartarith/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/FollowerofTartarith/overworld_s0.png",
-      "images/skin/FollowerofTartarith/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/FollowerofTartarith/overworld_w0.png",
-      "images/skin/FollowerofTartarith/overworld_w1.png"
-    ]
-  },
-  "race": "Minotaur",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/FollowerofTartarith/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  723,
+    "name":  "Follower of Tartarith",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/FollowerofTartarith/overworld_e0.png",
+                                         "images/skin/FollowerofTartarith/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/FollowerofTartarith/overworld_n0.png",
+                                          "images/skin/FollowerofTartarith/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/FollowerofTartarith/overworld_s0.png",
+                                          "images/skin/FollowerofTartarith/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/FollowerofTartarith/overworld_w0.png",
+                                         "images/skin/FollowerofTartarith/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Minotaur",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

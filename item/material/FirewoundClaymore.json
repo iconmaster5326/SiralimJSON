@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPyre:\nThis creature\u0027s attacks deal 75% more damage and afflict the target with {CONDNAME_DEBUFF_BURNED}.",
-  "icon": "images/item/material/FirewoundClaymore.png",
-  "id": 97,
-  "name": "Firewound Claymore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 6
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPyre:\nThis creature\u0027s attacks deal 75% more damage and afflict the target with {CONDNAME_DEBUFF_BURNED}.",
+    "icon":  "images/item/material/FirewoundClaymore.png",
+    "id":  97,
+    "name":  "Firewound Claymore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

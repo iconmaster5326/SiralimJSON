@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpirit Link:\nYour {RACE_Imler}s and {RACE_Imling}s take 10% less damage for each {RACE_Imler} and {RACE_Imling} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/MithrilOre.png",
-  "id": 536,
-  "name": "Mithril Ore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 450
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpirit Link:\nYour {RACE_Imler}s and {RACE_Imling}s take 10% less damage for each {RACE_Imler} and {RACE_Imling} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/MithrilOre.png",
+    "id":  536,
+    "name":  "Mithril Ore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  450,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

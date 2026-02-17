@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MythicantCalti/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1269,
-  "item": 1627,
-  "lore": "Accidents in magic towers during the numerous experiments that have taken place throughout history were not exactly rare. And although nowadays they do not occur so often in magic universities, the origin of the Mythicants is one of these exceptions.\\n\\nThe Mythicant Calti spends most of the day sleeping, though it also likes to chase mice or play with other cats. It often uses the three orbs that orbit around it to play with its friends.",
-  "menagerieDialog": [
-    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
-    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
-    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
-    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
-    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
-  ],
-  "minDepth": 1,
-  "name": "Mythicant Calti",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MythicantCalti/overworld_e0.png",
-      "images/creature/MythicantCalti/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MythicantCalti/overworld_n0.png",
-      "images/creature/MythicantCalti/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MythicantCalti/overworld_s0.png",
-      "images/creature/MythicantCalti/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MythicantCalti/overworld_w0.png",
-      "images/creature/MythicantCalti/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1968
+    "battleSprite":  "images/creature/MythicantCalti/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1269,
+    "item":  1627,
+    "lore":  "Accidents in magic towers during the numerous experiments that have taken place throughout history were not exactly rare. And although nowadays they do not occur so often in magic universities, the origin of the Mythicants is one of these exceptions.\\n\\nThe Mythicant Calti spends most of the day sleeping, though it also likes to chase mice or play with other cats. It often uses the three orbs that orbit around it to play with its friends.",
+    "menagerieDialog":  [
+                            "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+                            "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+                            "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+                            "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+                            "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mythicant Calti",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MythicantCalti/overworld_e0.png",
+                                         "images/creature/MythicantCalti/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MythicantCalti/overworld_n0.png",
+                                          "images/creature/MythicantCalti/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MythicantCalti/overworld_s0.png",
+                                          "images/creature/MythicantCalti/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MythicantCalti/overworld_w0.png",
+                                         "images/creature/MythicantCalti/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1968,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

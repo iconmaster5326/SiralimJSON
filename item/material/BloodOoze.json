@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDispersion:\nAfter this creature is healed, your other creatures that don\u0027t have this trait are healed for 50% of the amount as well.",
-  "icon": "images/item/material/BloodOoze.png",
-  "id": 464,
-  "name": "Blood Ooze",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 378
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDispersion:\nAfter this creature is healed, your other creatures that don\u0027t have this trait are healed for 50% of the amount as well.",
+    "icon":  "images/item/material/BloodOoze.png",
+    "id":  464,
+    "name":  "Blood Ooze",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  378,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

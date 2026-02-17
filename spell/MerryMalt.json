@@ -1,39 +1,42 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "nature",
-  "creator": null,
-  "description": "Caster gains a random trait that belongs to its race. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 322,
-  "manuallyCastable": false,
-  "maxCharges": 12,
-  "name": "Merry Malt",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "UTILITY"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "Caster gains a random trait that belongs to its race. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  322,
+    "manuallyCastable":  false,
+    "maxCharges":  12,
+    "name":  "Merry Malt",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "UTILITY"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

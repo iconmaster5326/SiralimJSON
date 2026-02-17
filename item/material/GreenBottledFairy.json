@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLost In Forever:\nThis creature\u00E2\u20AC\u2122s start-of-turn effects activate 1 additional time, but it has 50% less stats (other than {STAT_health}).",
-  "icon": "images/item/material/GreenBottledFairy.png",
-  "id": 1669,
-  "name": "Green Bottled Fairy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1994
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLost In Forever:\nThis creature’s start-of-turn effects activate 1 additional time, but it has 50% less stats (other than {STAT_health}).",
+    "icon":  "images/item/material/GreenBottledFairy.png",
+    "id":  1669,
+    "name":  "Green Bottled Fairy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1994,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

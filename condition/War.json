@@ -1,11 +1,14 @@
 {
-  "description": "After {CONDNAME_MINION_WAR}\u0027s master is damaged, it deals damage to the enemy equal to 50% of the damage taken.",
-  "icon": "images/condition/War.png",
-  "iconResisted": null,
-  "id": 39,
-  "material": null,
-  "name": "War",
-  "notes": [],
-  "reserved": false,
-  "type": "minion"
+    "description":  "After {CONDNAME_MINION_WAR}\u0027s master is damaged, it deals damage to the enemy equal to 50% of the damage taken.",
+    "icon":  "images/condition/War.png",
+    "iconResisted":  null,
+    "id":  39,
+    "material":  null,
+    "name":  "War",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/MudGolem/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 645,
-  "item": 823,
-  "lore": "The Mud Golem is the creature that inspired the legendary Mage Helmholtz to create his artificial Golems. It is believed that it dates back to the creation of the first Spell Gems. It hibernates during the cold season, but it is possible to see it near abandoned temples when the weather is warmer, protecting ancient magic that has long been lost to time.",
-  "menagerieDialog": [
-    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
-    "(It\u0027s... shadowboxing. Weird.)",
-    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
-    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
-    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Mud Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MudGolem/overworld_e0.png",
-      "images/creature/MudGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MudGolem/overworld_n0.png",
-      "images/creature/MudGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MudGolem/overworld_s0.png",
-      "images/creature/MudGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MudGolem/overworld_w0.png",
-      "images/creature/MudGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 850
+    "battleSprite":  "images/creature/MudGolem/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  645,
+    "item":  823,
+    "lore":  "The Mud Golem is the creature that inspired the legendary Mage Helmholtz to create his artificial Golems. It is believed that it dates back to the creation of the first Spell Gems. It hibernates during the cold season, but it is possible to see it near abandoned temples when the weather is warmer, protecting ancient magic that has long been lost to time.",
+    "menagerieDialog":  [
+                            "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+                            "(It\u0027s... shadowboxing. Weird.)",
+                            "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+                            "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+                            "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mud Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MudGolem/overworld_e0.png",
+                                         "images/creature/MudGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MudGolem/overworld_n0.png",
+                                          "images/creature/MudGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MudGolem/overworld_s0.png",
+                                          "images/creature/MudGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MudGolem/overworld_w0.png",
+                                         "images/creature/MudGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  850,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

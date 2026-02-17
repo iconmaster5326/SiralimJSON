@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFiredevil\u0027s Will:\nYour creatures are immune to {CONDNAME_DEBUFF_BURNED} and enemies take 50% more damage from this debuff. This trait does not stack.",
-  "icon": "images/item/material/FiredevilsTears.png",
-  "id": 1354,
-  "name": "Firedevil\u0027s Tears",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1661
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFiredevil\u0027s Will:\nYour creatures are immune to {CONDNAME_DEBUFF_BURNED} and enemies take 50% more damage from this debuff. This trait does not stack.",
+    "icon":  "images/item/material/FiredevilsTears.png",
+    "id":  1354,
+    "name":  "Firedevil\u0027s Tears",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1661,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

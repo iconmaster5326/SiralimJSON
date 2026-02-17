@@ -1,19 +1,22 @@
 {
-  "description": "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nClass Swap",
-  "icon": "images/item/spellprop/Opal.png",
-  "id": 17,
-  "name": "Opal",
-  "notes": [],
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "spellProperties": [
-    10,
-    11,
-    12,
-    13,
-    14
-  ]
+    "description":  "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nClass Swap",
+    "icon":  "images/item/spellprop/Opal.png",
+    "id":  17,
+    "name":  "Opal",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "spellProperties":  [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spellPropertyItem.yaml"
 }

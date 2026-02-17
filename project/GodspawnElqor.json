@@ -1,18 +1,21 @@
 {
-  "arcaneDustCost": 1000,
-  "description": "After completing this Project, you will gain enough Mana to summon Elqor. In order to complete this Project, you must purchase an item from Zonte, God of Wisdom.",
-  "graniteCost": 10000,
-  "icon": "images/project/GodspawnElqor.png",
-  "id": 56,
-  "items": {
-    "28": 1
-  },
-  "monsterPartCost": 5000,
-  "name": "Godspawn: Elqor",
-  "notes": [],
-  "repeatable": true,
-  "type": "special",
-  "unlockedCreature": 718,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  1000,
+    "description":  "After completing this Project, you will gain enough Mana to summon Elqor. In order to complete this Project, you must purchase an item from Zonte, God of Wisdom.",
+    "graniteCost":  10000,
+    "icon":  "images/project/GodspawnElqor.png",
+    "id":  56,
+    "items":  {
+                  "28":  1
+              },
+    "monsterPartCost":  5000,
+    "name":  "Godspawn: Elqor",
+    "notes":  [
+
+              ],
+    "repeatable":  true,
+    "type":  "special",
+    "unlockedCreature":  718,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

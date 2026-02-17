@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/GriffonDreamfinder/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 388,
-  "item": 177,
-  "lore": "Finding a Griffon nest is extremely hard, as they usually choose high, inaccessible places to lay eggs and feed their chicks. Therefore, their eggs are considered a delicacy in Rodia, and the people in the upper echelons of society often pay a fortune to obtain them. If, in spite of the difficulties, someone manages to steal several eggs, a Griffon Dreamfinder may track that person down, as they are capable of detecting the presence of their relatives at great distances.",
-  "menagerieDialog": [
-    "(It\u0027s preening its feathers.)",
-    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
-    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
-    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
-    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Griffon Dreamfinder",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GriffonDreamfinder/overworld_e0.png",
-      "images/creature/GriffonDreamfinder/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GriffonDreamfinder/overworld_n0.png",
-      "images/creature/GriffonDreamfinder/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GriffonDreamfinder/overworld_s0.png",
-      "images/creature/GriffonDreamfinder/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GriffonDreamfinder/overworld_w0.png",
-      "images/creature/GriffonDreamfinder/overworld_w1.png"
-    ]
-  },
-  "race": "Griffon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 26,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 87
+    "battleSprite":  "images/creature/GriffonDreamfinder/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  388,
+    "item":  177,
+    "lore":  "Finding a Griffon nest is extremely hard, as they usually choose high, inaccessible places to lay eggs and feed their chicks. Therefore, their eggs are considered a delicacy in Rodia, and the people in the upper echelons of society often pay a fortune to obtain them. If, in spite of the difficulties, someone manages to steal several eggs, a Griffon Dreamfinder may track that person down, as they are capable of detecting the presence of their relatives at great distances.",
+    "menagerieDialog":  [
+                            "(It\u0027s preening its feathers.)",
+                            "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+                            "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+                            "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+                            "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Griffon Dreamfinder",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GriffonDreamfinder/overworld_e0.png",
+                                         "images/creature/GriffonDreamfinder/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GriffonDreamfinder/overworld_n0.png",
+                                          "images/creature/GriffonDreamfinder/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GriffonDreamfinder/overworld_s0.png",
+                                          "images/creature/GriffonDreamfinder/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GriffonDreamfinder/overworld_w0.png",
+                                         "images/creature/GriffonDreamfinder/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Griffon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  26,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  87,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

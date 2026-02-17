@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDragon\u0027s Rage:\nAt the start of this creature\u0027s turn, it {ACTION_casts} [icons,1968]Fireball.",
-  "icon": "images/item/material/DracoRubies.png",
-  "id": 1367,
-  "name": "Draco Rubies",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1674
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDragon\u0027s Rage:\nAt the start of this creature\u0027s turn, it {ACTION_casts} [icons,1968]Fireball.",
+    "icon":  "images/item/material/DracoRubies.png",
+    "id":  1367,
+    "name":  "Draco Rubies",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1674,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

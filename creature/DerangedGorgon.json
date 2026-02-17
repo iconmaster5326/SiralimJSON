@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DerangedGorgon/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 482,
-  "item": 465,
-  "lore": "The Gorgons come from distant islands, and they fled to Rodia to save themselves from the genocide ordered by an evil human empress that ruled over an entire continent. They are social creatures and enjoy city life, but their appearance and their abilities instill fear wherever they go.\\n\\nThe Deranged are Gorgons who have suffered traumatic events and have become extremely aggressive. Their gaze is so intense that they can leave anyone who looks into their eyes petrified in fear.",
-  "menagerieDialog": [
-    "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
-    "(Her snakes violently hiss upon your approach. Stupid snakes.)",
-    "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
-    "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
-    "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
-  ],
-  "minDepth": 1,
-  "name": "Deranged Gorgon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DerangedGorgon/overworld_e0.png",
-      "images/creature/DerangedGorgon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DerangedGorgon/overworld_n0.png",
-      "images/creature/DerangedGorgon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DerangedGorgon/overworld_s0.png",
-      "images/creature/DerangedGorgon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DerangedGorgon/overworld_w0.png",
-      "images/creature/DerangedGorgon/overworld_w1.png"
-    ]
-  },
-  "race": "Gorgon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 10,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 27,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 379
+    "battleSprite":  "images/creature/DerangedGorgon/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  482,
+    "item":  465,
+    "lore":  "The Gorgons come from distant islands, and they fled to Rodia to save themselves from the genocide ordered by an evil human empress that ruled over an entire continent. They are social creatures and enjoy city life, but their appearance and their abilities instill fear wherever they go.\\n\\nThe Deranged are Gorgons who have suffered traumatic events and have become extremely aggressive. Their gaze is so intense that they can leave anyone who looks into their eyes petrified in fear.",
+    "menagerieDialog":  [
+                            "My eyes are up here, thank you very much. But don\u0027t look into them or you\u0027ll turn to stone.",
+                            "(Her snakes violently hiss upon your approach. Stupid snakes.)",
+                            "Contrary to popular belief, the snakes on my head don\u0027t need to be fed.",
+                            "(All the snakes on her head are sleeping, which makes it look like her hair is made out of a dirty mop.)",
+                            "(The snakes on its head are vibrating rapidly. Perhaps they sense something is amiss.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Deranged Gorgon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DerangedGorgon/overworld_e0.png",
+                                         "images/creature/DerangedGorgon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DerangedGorgon/overworld_n0.png",
+                                          "images/creature/DerangedGorgon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DerangedGorgon/overworld_s0.png",
+                                          "images/creature/DerangedGorgon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DerangedGorgon/overworld_w0.png",
+                                         "images/creature/DerangedGorgon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gorgon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  27,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  379,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_DEBUFF_SILENCE} cannot cast spells. Overwrites {CONDNAME_DEBUFF_SCORN}.",
-  "icon": "images/condition/Silenced.png",
-  "iconResisted": "images/condition/Silenced_resist.png",
-  "id": 24,
-  "material": null,
-  "name": "Silenced",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "Creatures with {CONDNAME_DEBUFF_SILENCE} cannot cast spells. Overwrites {CONDNAME_DEBUFF_SCORN}.",
+    "icon":  "images/condition/Silenced.png",
+    "iconResisted":  "images/condition/Silenced_resist.png",
+    "id":  24,
+    "material":  null,
+    "name":  "Silenced",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReturn to Source:\nYour creatures\u0027 {CONDNAME_BUFF_REPELLING} buffs now give them a 50% chance to avoid being afflicted by debuffs. This trait does not stack.",
-  "icon": "images/item/material/SubversiveHeart.png",
-  "id": 1021,
-  "name": "Subversive Heart",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1113
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReturn to Source:\nYour creatures\u0027 {CONDNAME_BUFF_REPELLING} buffs now give them a 50% chance to avoid being afflicted by debuffs. This trait does not stack.",
+    "icon":  "images/item/material/SubversiveHeart.png",
+    "id":  1021,
+    "name":  "Subversive Heart",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1113,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_LEECH} recover {STAT_health} equal to 25% of the damage they deal.",
-  "icon": "images/condition/Leeching.png",
-  "iconResisted": null,
-  "id": 10,
-  "material": 24,
-  "name": "Leeching",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_LEECH} recover {STAT_health} equal to 25% of the damage they deal.",
+    "icon":  "images/condition/Leeching.png",
+    "iconResisted":  null,
+    "id":  10,
+    "material":  24,
+    "name":  "Leeching",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

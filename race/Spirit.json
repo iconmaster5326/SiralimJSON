@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "(You hear light, airy laughter as a mask levitates from the treasure, soon manifesting a smoky body and summoning its allies to attack you!)",
-    "Do you desire this treasure, human? Then prove you are worthy of it!",
-    "I have no real use for this treasure, but I\u0027m terribly bored. Care to spar for it?"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures\u0027 healing effects are 10% more potent.",
-    "6": "Your creatures receive 10% more healing.",
-    "10": "Your creatures\u0027 healing effects have a 25% chance to ignore {CONDNAME_DEBUFF_BLIGHT}."
-  },
-  "cards": 10,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    261,
-    262,
-    263,
-    264,
-    265,
-    266,
-    629,
-    640,
-    771,
-    985
-  ],
-  "icon": "images/race/Spirit.png",
-  "master": {
-    "costume": 397,
-    "dialog": "Spirits are cheerful little fellas that take great joy in watching other creatures prosper. For that reason, they typically prefer to heal and empower their allies rather than attack their enemies directly. Let me show you how it\u0027s done!",
-    "item": 1204,
-    "name": "Muse",
-    "trait": 1500
-  },
-  "name": "Spirit",
-  "notes": [],
-  "skins": [
-    68,
-    80,
-    782
-  ]
+    "bossDialog":  [
+                       "(You hear light, airy laughter as a mask levitates from the treasure, soon manifesting a smoky body and summoning its allies to attack you!)",
+                       "Do you desire this treasure, human? Then prove you are worthy of it!",
+                       "I have no real use for this treasure, but I\u0027m terribly bored. Care to spar for it?"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures\u0027 healing effects are 10% more potent.",
+                        "6":  "Your creatures receive 10% more healing.",
+                        "10":  "Your creatures\u0027 healing effects have a 25% chance to ignore {CONDNAME_DEBUFF_BLIGHT}."
+                    },
+    "cards":  10,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      261,
+                      262,
+                      263,
+                      264,
+                      265,
+                      266,
+                      629,
+                      640,
+                      771,
+                      985
+                  ],
+    "icon":  "images/race/Spirit.png",
+    "master":  {
+                   "costume":  397,
+                   "dialog":  "Spirits are cheerful little fellas that take great joy in watching other creatures prosper. For that reason, they typically prefer to heal and empower their allies rather than attack their enemies directly. Let me show you how it\u0027s done!",
+                   "item":  1204,
+                   "name":  "Muse",
+                   "trait":  1500
+               },
+    "name":  "Spirit",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  68,
+                  80,
+                  782
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

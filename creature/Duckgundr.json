@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Duckgundr/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1118,
-  "item": 1639,
-  "lore": "The Auditors recently constructed a snake-shaped device that can penetrate the rifts that led the Watchers to this world thousands of years ago. They wanted find out what lies on the other side, and hopefully find a way to close them once and for all. For the first time in history, something went through the rifts in the opposite direction. However, what came back was organic, had a beak, and had duct tape on its tail. A tape that obviously was not enough to close the rifts. Dragan looked at the creature with a raised eyebrow and said \u0027Whatever is on the other side is laughing at us\u0027, although what really happened was somewhat different\u00E2\u20AC\u201Dthe intentions of whatever was on the other side translated into sarcasm when Duckgundr returned to our world, transforming it as a result.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Duckgundr",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Duckgundr/overworld_e0.png",
-      "images/creature/Duckgundr/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Duckgundr/overworld_n0.png",
-      "images/creature/Duckgundr/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Duckgundr/overworld_s0.png",
-      "images/creature/Duckgundr/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Duckgundr/overworld_w0.png",
-      "images/creature/Duckgundr/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1842
+    "battleSprite":  "images/creature/Duckgundr/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1118,
+    "item":  1639,
+    "lore":  "The Auditors recently constructed a snake-shaped device that can penetrate the rifts that led the Watchers to this world thousands of years ago. They wanted find out what lies on the other side, and hopefully find a way to close them once and for all. For the first time in history, something went through the rifts in the opposite direction. However, what came back was organic, had a beak, and had duct tape on its tail. A tape that obviously was not enough to close the rifts. Dragan looked at the creature with a raised eyebrow and said \u0027Whatever is on the other side is laughing at us\u0027, although what really happened was somewhat different—the intentions of whatever was on the other side translated into sarcasm when Duckgundr returned to our world, transforming it as a result.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Duckgundr",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Duckgundr/overworld_e0.png",
+                                         "images/creature/Duckgundr/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Duckgundr/overworld_n0.png",
+                                          "images/creature/Duckgundr/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Duckgundr/overworld_s0.png",
+                                          "images/creature/Duckgundr/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Duckgundr/overworld_w0.png",
+                                         "images/creature/Duckgundr/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1842,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNetworking:\nYour creatures\u0027 {RACE_Electropod} traits act as if your party contains 3 more {RACE_Electropod} creatures. This trait does not stack.",
-  "icon": "images/item/material/Resistor.png",
-  "id": 1519,
-  "name": "Resistor",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1827
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNetworking:\nYour creatures\u0027 {RACE_Electropod} traits act as if your party contains 3 more {RACE_Electropod} creatures. This trait does not stack.",
+    "icon":  "images/item/material/Resistor.png",
+    "id":  1519,
+    "name":  "Resistor",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1827,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

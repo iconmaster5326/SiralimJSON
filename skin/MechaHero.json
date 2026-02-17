@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/MechaHero/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 74,
-  "name": "Mecha Hero",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/MechaHero/overworld_e0.png",
-      "images/skin/MechaHero/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/MechaHero/overworld_n0.png",
-      "images/skin/MechaHero/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/MechaHero/overworld_s0.png",
-      "images/skin/MechaHero/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/MechaHero/overworld_w0.png",
-      "images/skin/MechaHero/overworld_w1.png"
-    ]
-  },
-  "race": "Crusader",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/MechaHero/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  74,
+    "name":  "Mecha Hero",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/MechaHero/overworld_e0.png",
+                                         "images/skin/MechaHero/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/MechaHero/overworld_n0.png",
+                                          "images/skin/MechaHero/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/MechaHero/overworld_s0.png",
+                                          "images/skin/MechaHero/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/MechaHero/overworld_w0.png",
+                                         "images/skin/MechaHero/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Crusader",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

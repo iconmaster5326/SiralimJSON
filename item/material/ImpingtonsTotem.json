@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHee Hoo Ha:\nYour creatures have a 15% chance to take an additional turn. This trait does not stack.",
-  "icon": "images/item/material/ImpingtonsTotem.png",
-  "id": 1140,
-  "name": "Impington\u0027s Totem",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1285
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHee Hoo Ha:\nYour creatures have a 15% chance to take an additional turn. This trait does not stack.",
+    "icon":  "images/item/material/ImpingtonsTotem.png",
+    "id":  1140,
+    "name":  "Impington\u0027s Totem",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1285,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

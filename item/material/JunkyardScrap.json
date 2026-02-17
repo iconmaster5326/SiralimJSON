@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJunkyard Might:\nThis creature is immune to {CONDNAME_DEBUFF_BLIGHT}, {CONDNAME_DEBUFF_CONFUSED}, and {CONDNAME_DEBUFF_POISON}.",
-  "icon": "images/item/material/JunkyardScrap.png",
-  "id": 1553,
-  "name": "Junkyard Scrap",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1894
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJunkyard Might:\nThis creature is immune to {CONDNAME_DEBUFF_BLIGHT}, {CONDNAME_DEBUFF_CONFUSED}, and {CONDNAME_DEBUFF_POISON}.",
+    "icon":  "images/item/material/JunkyardScrap.png",
+    "id":  1553,
+    "name":  "Junkyard Scrap",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1894,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

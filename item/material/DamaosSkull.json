@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDamaos\u0027 Subversion:\nAfter this creature manually {ACTION_casts} a single-target spell on an enemy, it {ACTION_attacks} 3 random enemies. These attacks deal 50% normal damage.",
-  "icon": "images/item/material/DamaosSkull.png",
-  "id": 769,
-  "name": "Damaos\u0027 Skull",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 974
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDamaos\u0027 Subversion:\nAfter this creature manually {ACTION_casts} a single-target spell on an enemy, it {ACTION_attacks} 3 random enemies. These attacks deal 50% normal damage.",
+    "icon":  "images/item/material/DamaosSkull.png",
+    "id":  769,
+    "name":  "Damaos\u0027 Skull",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  974,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

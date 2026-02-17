@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe High Hunt:\nAfter this creature {ACTION_attacks}, it gains 10% {STAT_intelligence}. After this creature {ACTION_casts} a spell, it gains 10% {STAT_attack}.",
-  "icon": "images/item/material/ArchuntersToken.png",
-  "id": 1797,
-  "name": "Archunter\u0027s Token",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2150
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe High Hunt:\nAfter this creature {ACTION_attacks}, it gains 10% {STAT_intelligence}. After this creature {ACTION_casts} a spell, it gains 10% {STAT_attack}.",
+    "icon":  "images/item/material/ArchuntersToken.png",
+    "id":  1797,
+    "name":  "Archunter\u0027s Token",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2150,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

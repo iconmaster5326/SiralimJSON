@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAggravated Illness:\nEnemies take 50% more damage from {CONDNAME_DEBUFF_BLIGHT}. This trait does not stack.",
-  "icon": "images/item/material/LugubriousHook.png",
-  "id": 1046,
-  "name": "Lugubrious Hook",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1090
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAggravated Illness:\nEnemies take 50% more damage from {CONDNAME_DEBUFF_BLIGHT}. This trait does not stack.",
+    "icon":  "images/item/material/LugubriousHook.png",
+    "id":  1046,
+    "name":  "Lugubrious Hook",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1090,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

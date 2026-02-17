@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RubyCarbuncle/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 931,
-  "item": 928,
-  "lore": "The Ravens were firmly determined to protect the Carbuncles from the humans, which led them to discover certain secrets about dimensional magic which were very advanced for their time. That, especially, caught Vertraag\u0027s attention.\\n\\nThe fur of a Ruby Carbuncle prevents heat loss even in very cold temperatures, so other than plucking the gem on their foreheads, humans also skinned them to make clothes. They stopped doing so when it was discovered that in the long term, clothes made from their fur caused human skin to dry and peel off.",
-  "menagerieDialog": [
-    "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
-    "(The jewel on its forehead shines brightly.)",
-    "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
-    "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
-    "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
-  ],
-  "minDepth": 1,
-  "name": "Ruby Carbuncle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RubyCarbuncle/overworld_e0.png",
-      "images/creature/RubyCarbuncle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RubyCarbuncle/overworld_n0.png",
-      "images/creature/RubyCarbuncle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RubyCarbuncle/overworld_s0.png",
-      "images/creature/RubyCarbuncle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RubyCarbuncle/overworld_w0.png",
-      "images/creature/RubyCarbuncle/overworld_w1.png"
-    ]
-  },
-  "race": "Carbuncle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 35,
-    "intelligence": 23,
-    "speed": 23
-  },
-  "trait": 1200
+    "battleSprite":  "images/creature/RubyCarbuncle/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  931,
+    "item":  928,
+    "lore":  "The Ravens were firmly determined to protect the Carbuncles from the humans, which led them to discover certain secrets about dimensional magic which were very advanced for their time. That, especially, caught Vertraag\u0027s attention.\\n\\nThe fur of a Ruby Carbuncle prevents heat loss even in very cold temperatures, so other than plucking the gem on their foreheads, humans also skinned them to make clothes. They stopped doing so when it was discovered that in the long term, clothes made from their fur caused human skin to dry and peel off.",
+    "menagerieDialog":  [
+                            "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
+                            "(The jewel on its forehead shines brightly.)",
+                            "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
+                            "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
+                            "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ruby Carbuncle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RubyCarbuncle/overworld_e0.png",
+                                         "images/creature/RubyCarbuncle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RubyCarbuncle/overworld_n0.png",
+                                          "images/creature/RubyCarbuncle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RubyCarbuncle/overworld_s0.png",
+                                          "images/creature/RubyCarbuncle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RubyCarbuncle/overworld_w0.png",
+                                         "images/creature/RubyCarbuncle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carbuncle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  35,
+                       "intelligence":  23,
+                       "speed":  23
+                   },
+    "trait":  1200,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

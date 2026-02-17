@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nArcane Echo:\nAfter your creatures manually {ACTION_cast} a spell, they {ACTION_cast} a random spell from the same class.",
-  "icon": "images/item/material/ArcanePuzzle.png",
-  "id": 1347,
-  "name": "Arcane Puzzle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1654
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nArcane Echo:\nAfter your creatures manually {ACTION_cast} a spell, they {ACTION_cast} a random spell from the same class.",
+    "icon":  "images/item/material/ArcanePuzzle.png",
+    "id":  1347,
+    "name":  "Arcane Puzzle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1654,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,34 +1,43 @@
 {
-  "battleSprite": "images/creature/ArmofTheAncestor/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1054,
-  "item": null,
-  "lore": "L_LORE_ARMOFTHEANCESTOR",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Arm of The Ancestor",
-  "notes": [],
-  "overworldSprite": "creature/ArmofTheAncestor/overworld.png",
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 50,
-    "intelligence": 25,
-    "speed": 25
-  },
-  "trait": 1596
+    "battleSprite":  "images/creature/ArmofTheAncestor/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1054,
+    "item":  null,
+    "lore":  "L_LORE_ARMOFTHEANCESTOR",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Arm of The Ancestor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  "creature/ArmofTheAncestor/overworld.png",
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  50,
+                       "intelligence":  25,
+                       "speed":  25
+                   },
+    "trait":  1596,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

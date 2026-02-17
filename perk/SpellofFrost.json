@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the end of an enemy\u0027s third turn, they are afflicted with {CONDNAME_DEBUFF_FROZEN}.\\n\\n{CONDDESC_DEBUFF_FROZEN}",
-  "icon": "images/perk/SpellofFrost.png",
-  "id": 172,
-  "maxRanks": 1,
-  "name": "Spell of Frost",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 12
+    "anointable":  true,
+    "description":  "At the end of an enemy\u0027s third turn, they are afflicted with {CONDNAME_DEBUFF_FROZEN}.\\n\\n{CONDDESC_DEBUFF_FROZEN}",
+    "icon":  "images/perk/SpellofFrost.png",
+    "id":  172,
+    "maxRanks":  1,
+    "name":  "Spell of Frost",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  12,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

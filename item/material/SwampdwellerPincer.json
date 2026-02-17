@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDarkness Surrounding:\nThis creature starts battles with 125% more {STAT_health}, but takes damage equal to 15% of its Maximum {STAT_health} at the start of its turn.",
-  "icon": "images/item/material/SwampdwellerPincer.png",
-  "id": 198,
-  "name": "Swampdweller Pincer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 108
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDarkness Surrounding:\nThis creature starts battles with 125% more {STAT_health}, but takes damage equal to 15% of its Maximum {STAT_health} at the start of its turn.",
+    "icon":  "images/item/material/SwampdwellerPincer.png",
+    "id":  198,
+    "name":  "Swampdweller Pincer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  108,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

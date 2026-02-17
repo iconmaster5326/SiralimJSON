@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures deal additional damage with attacks and spells equal to \u003C1\u003E% of the enemy\u00E2\u20AC\u2122s {CONDNAME_DEBUFF_INVERTED} potency.",
-  "icon": "images/perk/DelusionofGrandeur.png",
-  "id": 394,
-  "maxRanks": 10,
-  "name": "Delusion of Grandeur",
-  "notes": [],
-  "pointsPerRank": 10,
-  "specialization": 26
+    "anointable":  true,
+    "description":  "Your creatures deal additional damage with attacks and spells equal to \u003c1\u003e% of the enemy’s {CONDNAME_DEBUFF_INVERTED} potency.",
+    "icon":  "images/perk/DelusionofGrandeur.png",
+    "id":  394,
+    "maxRanks":  10,
+    "name":  "Delusion of Grandeur",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  10,
+    "specialization":  26,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

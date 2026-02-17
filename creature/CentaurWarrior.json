@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CentaurWarrior/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 549,
-  "item": 728,
-  "lore": "Centaurs have been enemies with the Elves of the Cutthroat Jungle for centuries, even before the Unification of Rodia.\\n\\nNaturally, Warriors form the bulk of their armies, and though their training is not as hard as that of the other ranks, they tend to be better prepared for battle, as it is their only focus. Their marches are known to be extremely quiet, but that is because most Centaurs take advantage of their ability to take a nap while galloping.",
-  "menagerieDialog": [
-    "Free me at once.",
-    "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
-    "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
-    "Let us leave here and conquer new lands together!",
-    "I am under a great deal of stress. A few battles should help me relax."
-  ],
-  "minDepth": 1,
-  "name": "Centaur Warrior",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CentaurWarrior/overworld_e0.png",
-      "images/creature/CentaurWarrior/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CentaurWarrior/overworld_n0.png",
-      "images/creature/CentaurWarrior/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CentaurWarrior/overworld_s0.png",
-      "images/creature/CentaurWarrior/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CentaurWarrior/overworld_w0.png",
-      "images/creature/CentaurWarrior/overworld_w1.png"
-    ]
-  },
-  "race": "Centaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 667
+    "battleSprite":  "images/creature/CentaurWarrior/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  549,
+    "item":  728,
+    "lore":  "Centaurs have been enemies with the Elves of the Cutthroat Jungle for centuries, even before the Unification of Rodia.\\n\\nNaturally, Warriors form the bulk of their armies, and though their training is not as hard as that of the other ranks, they tend to be better prepared for battle, as it is their only focus. Their marches are known to be extremely quiet, but that is because most Centaurs take advantage of their ability to take a nap while galloping.",
+    "menagerieDialog":  [
+                            "Free me at once.",
+                            "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
+                            "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
+                            "Let us leave here and conquer new lands together!",
+                            "I am under a great deal of stress. A few battles should help me relax."
+                        ],
+    "minDepth":  1,
+    "name":  "Centaur Warrior",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CentaurWarrior/overworld_e0.png",
+                                         "images/creature/CentaurWarrior/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CentaurWarrior/overworld_n0.png",
+                                          "images/creature/CentaurWarrior/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CentaurWarrior/overworld_s0.png",
+                                          "images/creature/CentaurWarrior/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CentaurWarrior/overworld_w0.png",
+                                         "images/creature/CentaurWarrior/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Centaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  667,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

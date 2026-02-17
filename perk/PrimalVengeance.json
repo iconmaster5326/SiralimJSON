@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After one of your creatures is killed, all your creatures gain {CONDNAME_BUFF_BERSERK} and {CONDNAME_BUFF_LEECH}.\\n\\n{CONDDESC_BUFF_BERSERK}\\n\\n{CONDDESC_BUFF_LEECH}",
-  "icon": "images/perk/PrimalVengeance.png",
-  "id": 377,
-  "maxRanks": 1,
-  "name": "Primal Vengeance",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After one of your creatures is killed, all your creatures gain {CONDNAME_BUFF_BERSERK} and {CONDNAME_BUFF_LEECH}.\\n\\n{CONDDESC_BUFF_BERSERK}\\n\\n{CONDDESC_BUFF_LEECH}",
+    "icon":  "images/perk/PrimalVengeance.png",
+    "id":  377,
+    "maxRanks":  1,
+    "name":  "Primal Vengeance",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

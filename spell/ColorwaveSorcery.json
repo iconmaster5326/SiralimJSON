@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Your creatures {ACTION_cast} one of their spells, plus 1 additional spell for each Sorcery Infusion you have.",
-  "god": null,
-  "id": 441,
-  "manuallyCastable": true,
-  "maxCharges": 1,
-  "name": "Colorwave (Sorcery)",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Your creatures {ACTION_cast} one of their spells, plus 1 additional spell for each Sorcery Infusion you have.",
+    "god":  null,
+    "id":  441,
+    "manuallyCastable":  true,
+    "maxCharges":  1,
+    "name":  "Colorwave (Sorcery)",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

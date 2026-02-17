@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTwilight:\nAt the end of this creature\u0027s turn, if it didn\u0027t cause any damage during its turn, it {ACTION_attacks} a random enemy for 200% normal damage.",
-  "icon": "images/item/material/HanyacSoil.png",
-  "id": 1332,
-  "name": "Hanyac Soil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1578
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTwilight:\nAt the end of this creature\u0027s turn, if it didn\u0027t cause any damage during its turn, it {ACTION_attacks} a random enemy for 200% normal damage.",
+    "icon":  "images/item/material/HanyacSoil.png",
+    "id":  1332,
+    "name":  "Hanyac Soil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1578,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

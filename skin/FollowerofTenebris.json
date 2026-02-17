@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/FollowerofTenebris/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 744,
-  "name": "Follower of Tenebris",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/FollowerofTenebris/overworld_e0.png",
-      "images/skin/FollowerofTenebris/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/FollowerofTenebris/overworld_n0.png",
-      "images/skin/FollowerofTenebris/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/FollowerofTenebris/overworld_s0.png",
-      "images/skin/FollowerofTenebris/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/FollowerofTenebris/overworld_w0.png",
-      "images/skin/FollowerofTenebris/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/FollowerofTenebris/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  744,
+    "name":  "Follower of Tenebris",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/FollowerofTenebris/overworld_e0.png",
+                                         "images/skin/FollowerofTenebris/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/FollowerofTenebris/overworld_n0.png",
+                                          "images/skin/FollowerofTenebris/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/FollowerofTenebris/overworld_s0.png",
+                                          "images/skin/FollowerofTenebris/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/FollowerofTenebris/overworld_w0.png",
+                                         "images/skin/FollowerofTenebris/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

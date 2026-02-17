@@ -1,43 +1,46 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "Target\u0027s {STAT_health} is set to a random amount between 1% and 100%.",
-  "god": null,
-  "id": 117,
-  "manuallyCastable": true,
-  "maxCharges": 20,
-  "name": "Metamorphosis",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "Target\u0027s {STAT_health} is set to a random amount between 1% and 100%.",
+    "god":  null,
+    "id":  117,
+    "manuallyCastable":  true,
+    "maxCharges":  20,
+    "name":  "Metamorphosis",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

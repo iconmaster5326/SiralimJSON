@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MythicantPalmira/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1270,
-  "item": 1631,
-  "lore": "Mythicants were born in Andolin due to an unfortunate ritual, as well as the magic contained in several novels based on the struggles of an Andolian soldier during the Unification War.\\n\\nThe sword of the Mythicant Palmira turns to ash as soon as it stops holding the handle. When this happens, it can create a new one by simply touching another pile of ash.",
-  "menagerieDialog": [
-    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
-    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
-    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
-    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
-    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
-  ],
-  "minDepth": 1,
-  "name": "Mythicant Palmira",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MythicantPalmira/overworld_e0.png",
-      "images/creature/MythicantPalmira/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MythicantPalmira/overworld_n0.png",
-      "images/creature/MythicantPalmira/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MythicantPalmira/overworld_s0.png",
-      "images/creature/MythicantPalmira/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MythicantPalmira/overworld_w0.png",
-      "images/creature/MythicantPalmira/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 18,
-    "health": 36,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1969
+    "battleSprite":  "images/creature/MythicantPalmira/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1270,
+    "item":  1631,
+    "lore":  "Mythicants were born in Andolin due to an unfortunate ritual, as well as the magic contained in several novels based on the struggles of an Andolian soldier during the Unification War.\\n\\nThe sword of the Mythicant Palmira turns to ash as soon as it stops holding the handle. When this happens, it can create a new one by simply touching another pile of ash.",
+    "menagerieDialog":  [
+                            "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+                            "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+                            "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+                            "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+                            "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mythicant Palmira",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MythicantPalmira/overworld_e0.png",
+                                         "images/creature/MythicantPalmira/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MythicantPalmira/overworld_n0.png",
+                                          "images/creature/MythicantPalmira/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MythicantPalmira/overworld_s0.png",
+                                          "images/creature/MythicantPalmira/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MythicantPalmira/overworld_w0.png",
+                                         "images/creature/MythicantPalmira/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  18,
+                       "health":  36,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1969,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

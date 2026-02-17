@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSiralim\u0027s Attunement:\nAfter this creature {ACTION_attacks}, it has a 10% chance to {ACTION_cast} a random Ultimate spell. This trait can only activate once per turn.",
-  "icon": "images/item/material/RevolutionofSiralim.png",
-  "id": 766,
-  "name": "Revolution of Siralim",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 977
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSiralim\u0027s Attunement:\nAfter this creature {ACTION_attacks}, it has a 10% chance to {ACTION_cast} a random Ultimate spell. This trait can only activate once per turn.",
+    "icon":  "images/item/material/RevolutionofSiralim.png",
+    "id":  766,
+    "name":  "Revolution of Siralim",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  977,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

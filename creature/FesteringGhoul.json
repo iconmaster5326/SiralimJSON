@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/FesteringGhoul/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 628,
-  "item": 821,
-  "lore": "After the defeat of King Sigmund, the survivors of Omnia fled the city, never to return. Before that, Milner defeated Sigmund\u0027s right-hand man, a Mage of great talent, in single combat. Due to his great power and the magic items he carried, the transformation was not complete. Like other Ghouls, the Festering Ghoul has lost his personality. However, it seems that he is able to direct other Ghouls and control their insatiable hunger. The authorities are still trying to find him to destroy him.",
-  "menagerieDialog": [
-    "EAT FLESH!",
-    "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
-    "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
-    "Must... eat... more... footses...",
-    "Want... to eat... more... feet..."
-  ],
-  "minDepth": 1,
-  "name": "Festering Ghoul",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FesteringGhoul/overworld_e0.png",
-      "images/creature/FesteringGhoul/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FesteringGhoul/overworld_n0.png",
-      "images/creature/FesteringGhoul/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FesteringGhoul/overworld_s0.png",
-      "images/creature/FesteringGhoul/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FesteringGhoul/overworld_w0.png",
-      "images/creature/FesteringGhoul/overworld_w1.png"
-    ]
-  },
-  "race": "Ghoul",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 14,
-    "health": 32,
-    "intelligence": 7,
-    "speed": 27
-  },
-  "trait": 848
+    "battleSprite":  "images/creature/FesteringGhoul/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  628,
+    "item":  821,
+    "lore":  "After the defeat of King Sigmund, the survivors of Omnia fled the city, never to return. Before that, Milner defeated Sigmund\u0027s right-hand man, a Mage of great talent, in single combat. Due to his great power and the magic items he carried, the transformation was not complete. Like other Ghouls, the Festering Ghoul has lost his personality. However, it seems that he is able to direct other Ghouls and control their insatiable hunger. The authorities are still trying to find him to destroy him.",
+    "menagerieDialog":  [
+                            "EAT FLESH!",
+                            "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
+                            "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
+                            "Must... eat... more... footses...",
+                            "Want... to eat... more... feet..."
+                        ],
+    "minDepth":  1,
+    "name":  "Festering Ghoul",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FesteringGhoul/overworld_e0.png",
+                                         "images/creature/FesteringGhoul/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FesteringGhoul/overworld_n0.png",
+                                          "images/creature/FesteringGhoul/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FesteringGhoul/overworld_s0.png",
+                                          "images/creature/FesteringGhoul/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FesteringGhoul/overworld_w0.png",
+                                         "images/creature/FesteringGhoul/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ghoul",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  14,
+                       "health":  32,
+                       "intelligence":  7,
+                       "speed":  27
+                   },
+    "trait":  848,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

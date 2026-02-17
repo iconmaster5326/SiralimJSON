@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPiercing Dragon Claws:\nAfter an enemy gains a buff or minion, this creature deals damage to all enemies equal to 30% of this creature\u0027s {STAT_speed}. This trait does not stack.",
-  "icon": "images/item/material/QueenDragonScale.png",
-  "id": 400,
-  "name": "Queen Dragon Scale",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 315
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPiercing Dragon Claws:\nAfter an enemy gains a buff or minion, this creature deals damage to all enemies equal to 30% of this creature\u0027s {STAT_speed}. This trait does not stack.",
+    "icon":  "images/item/material/QueenDragonScale.png",
+    "id":  400,
+    "name":  "Queen Dragon Scale",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  315,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

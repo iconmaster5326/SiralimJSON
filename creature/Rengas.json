@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Rengas/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1110,
-  "item": 1487,
-  "lore": "Rengas is often considered the little brother of Genaros, but he is really his first and only son, the only creature the God of Strife has ever given life to. He is good-natured and, unlike his father, does not get carried away with anger easily. He helps travelers in distress by guiding them to safe places or pointing out where they can find something to eat, but if he discovers that their intentions are looting or indiscriminate violence he will charge with all of his strength without a second thought.",
-  "menagerieDialog": [
-    "If you use a Blood Stone on me, I\u0027ll evolve into an even bigger boar impaled by spears and other sharp weapons!",
-    "(It excitedly thrusts its tusks into your left leg. You sense that your leg is wet with blood but decide not to look.)",
-    "(Legend has it that if you manage to kill exactly 65,340,285 Rengases, you\u0027ll ascend to godhood.)",
-    "Are you here just to make bacon jokes? Because bacon jokes aren\u0027t funny. Never have been, never will be.",
-    "(It\u0027s busy eating a big plate of pork chops. Leave it be!)"
-  ],
-  "minDepth": 1,
-  "name": "Rengas",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Rengas/overworld_e0.png",
-      "images/creature/Rengas/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Rengas/overworld_n0.png",
-      "images/creature/Rengas/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Rengas/overworld_s0.png",
-      "images/creature/Rengas/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Rengas/overworld_w0.png",
-      "images/creature/Rengas/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    757,
-    758
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1798
+    "battleSprite":  "images/creature/Rengas/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1110,
+    "item":  1487,
+    "lore":  "Rengas is often considered the little brother of Genaros, but he is really his first and only son, the only creature the God of Strife has ever given life to. He is good-natured and, unlike his father, does not get carried away with anger easily. He helps travelers in distress by guiding them to safe places or pointing out where they can find something to eat, but if he discovers that their intentions are looting or indiscriminate violence he will charge with all of his strength without a second thought.",
+    "menagerieDialog":  [
+                            "If you use a Blood Stone on me, I\u0027ll evolve into an even bigger boar impaled by spears and other sharp weapons!",
+                            "(It excitedly thrusts its tusks into your left leg. You sense that your leg is wet with blood but decide not to look.)",
+                            "(Legend has it that if you manage to kill exactly 65,340,285 Rengases, you\u0027ll ascend to godhood.)",
+                            "Are you here just to make bacon jokes? Because bacon jokes aren\u0027t funny. Never have been, never will be.",
+                            "(It\u0027s busy eating a big plate of pork chops. Leave it be!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Rengas",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Rengas/overworld_e0.png",
+                                         "images/creature/Rengas/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Rengas/overworld_n0.png",
+                                          "images/creature/Rengas/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Rengas/overworld_s0.png",
+                                          "images/creature/Rengas/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Rengas/overworld_w0.png",
+                                         "images/creature/Rengas/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  757,
+                  758
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1798,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

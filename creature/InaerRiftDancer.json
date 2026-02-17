@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/InaerRiftDancer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 371,
-  "item": 141,
-  "lore": "Rift Dancers are part of the iconography of mausoleums and cemeteries in many cities. The Inaer variety are more commonly seen during clear days. Those lucky enough can find a large number of them in places far from civilization, gathered in a dance in which they interlock their bodies, changing partners with every turn. This dance is known as the Dance of Fire, and some humans have tried to imitate it without much success.",
-  "menagerieDialog": [
-    "(For a Rift Dancer, it\u0027s not very active.)",
-    "(It keeps trying, without any success at all, to get you to dance with it.)",
-    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
-    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
-    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
-  ],
-  "minDepth": 1,
-  "name": "Inaer Rift Dancer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/InaerRiftDancer/overworld_e0.png",
-      "images/creature/InaerRiftDancer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/InaerRiftDancer/overworld_n0.png",
-      "images/creature/InaerRiftDancer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/InaerRiftDancer/overworld_s0.png",
-      "images/creature/InaerRiftDancer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/InaerRiftDancer/overworld_w0.png",
-      "images/creature/InaerRiftDancer/overworld_w1.png"
-    ]
-  },
-  "race": "Rift Dancer",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 51
+    "battleSprite":  "images/creature/InaerRiftDancer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  371,
+    "item":  141,
+    "lore":  "Rift Dancers are part of the iconography of mausoleums and cemeteries in many cities. The Inaer variety are more commonly seen during clear days. Those lucky enough can find a large number of them in places far from civilization, gathered in a dance in which they interlock their bodies, changing partners with every turn. This dance is known as the Dance of Fire, and some humans have tried to imitate it without much success.",
+    "menagerieDialog":  [
+                            "(For a Rift Dancer, it\u0027s not very active.)",
+                            "(It keeps trying, without any success at all, to get you to dance with it.)",
+                            "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+                            "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+                            "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Inaer Rift Dancer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/InaerRiftDancer/overworld_e0.png",
+                                         "images/creature/InaerRiftDancer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/InaerRiftDancer/overworld_n0.png",
+                                          "images/creature/InaerRiftDancer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/InaerRiftDancer/overworld_s0.png",
+                                          "images/creature/InaerRiftDancer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/InaerRiftDancer/overworld_w0.png",
+                                         "images/creature/InaerRiftDancer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Rift Dancer",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  51,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

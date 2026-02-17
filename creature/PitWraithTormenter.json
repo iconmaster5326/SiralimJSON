@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PitWraithTormenter/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 652,
-  "item": 851,
-  "lore": "When Taylor decided to kill his father instead of forgiving him for abandoning him, accidentally turning him into a God, a Pit Wraith fed on what he never was. It automatically became the Tormenter. Tartarith and the creature looked at each other for a moment, but before the God could think of killing it, it unfolded before his eyes. The mere presence of this creature arouses vivid images of a happy future in those who abandoned their loved ones, plunging them into a deep sadness.",
-  "menagerieDialog": [
-    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
-    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
-    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
-    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
-    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
-  ],
-  "minDepth": 1,
-  "name": "Pit Wraith Tormenter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PitWraithTormenter/overworld_e0.png",
-      "images/creature/PitWraithTormenter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PitWraithTormenter/overworld_n0.png",
-      "images/creature/PitWraithTormenter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PitWraithTormenter/overworld_s0.png",
-      "images/creature/PitWraithTormenter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PitWraithTormenter/overworld_w0.png",
-      "images/creature/PitWraithTormenter/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Wraith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 15,
-    "health": 33,
-    "intelligence": 23,
-    "speed": 10
-  },
-  "trait": 878
+    "battleSprite":  "images/creature/PitWraithTormenter/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  652,
+    "item":  851,
+    "lore":  "When Taylor decided to kill his father instead of forgiving him for abandoning him, accidentally turning him into a God, a Pit Wraith fed on what he never was. It automatically became the Tormenter. Tartarith and the creature looked at each other for a moment, but before the God could think of killing it, it unfolded before his eyes. The mere presence of this creature arouses vivid images of a happy future in those who abandoned their loved ones, plunging them into a deep sadness.",
+    "menagerieDialog":  [
+                            "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+                            "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+                            "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+                            "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+                            "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pit Wraith Tormenter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PitWraithTormenter/overworld_e0.png",
+                                         "images/creature/PitWraithTormenter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PitWraithTormenter/overworld_n0.png",
+                                          "images/creature/PitWraithTormenter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PitWraithTormenter/overworld_s0.png",
+                                          "images/creature/PitWraithTormenter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PitWraithTormenter/overworld_w0.png",
+                                         "images/creature/PitWraithTormenter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Wraith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  15,
+                       "health":  33,
+                       "intelligence":  23,
+                       "speed":  10
+                   },
+    "trait":  878,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefy the Odds:\nIf this creature has {ACTION_attacked} at least once this battle, it takes 65% less damage.",
-  "icon": "images/item/material/NexSymbol.png",
-  "id": 860,
-  "name": "Nex Symbol",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 887
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefy the Odds:\nIf this creature has {ACTION_attacked} at least once this battle, it takes 65% less damage.",
+    "icon":  "images/item/material/NexSymbol.png",
+    "id":  860,
+    "name":  "Nex Symbol",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  887,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

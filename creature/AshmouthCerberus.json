@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/AshmouthCerberus/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 452,
-  "item": 391,
-  "lore": "The Cerberus species was created by Vulcanar to terrorize the inhabitants of Rodia and protect the entrance to the Great Pandemonium.\\n\\nWhen prey is not readily available, the Ashmouth Cerberus will sate its hunger with any embers it can find around it. It is used to enduring temperatures above 200 \u00C2\u00BAF, but it can survive in colder environments thanks to the thickness of its skin and the heat it gives off due to its metabolism.",
-  "menagerieDialog": [
-    "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
-    "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
-    "(All three of its heads are fighting over a giant, meat-covered bone.)",
-    "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
-    "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
-  ],
-  "minDepth": 1,
-  "name": "Ashmouth Cerberus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AshmouthCerberus/overworld_e0.png",
-      "images/creature/AshmouthCerberus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AshmouthCerberus/overworld_n0.png",
-      "images/creature/AshmouthCerberus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AshmouthCerberus/overworld_s0.png",
-      "images/creature/AshmouthCerberus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AshmouthCerberus/overworld_w0.png",
-      "images/creature/AshmouthCerberus/overworld_w1.png"
-    ]
-  },
-  "race": "Cerberus",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 306
+    "battleSprite":  "images/creature/AshmouthCerberus/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  452,
+    "item":  391,
+    "lore":  "The Cerberus species was created by Vulcanar to terrorize the inhabitants of Rodia and protect the entrance to the Great Pandemonium.\\n\\nWhen prey is not readily available, the Ashmouth Cerberus will sate its hunger with any embers it can find around it. It is used to enduring temperatures above 200 ºF, but it can survive in colder environments thanks to the thickness of its skin and the heat it gives off due to its metabolism.",
+    "menagerieDialog":  [
+                            "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
+                            "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
+                            "(All three of its heads are fighting over a giant, meat-covered bone.)",
+                            "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
+                            "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ashmouth Cerberus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AshmouthCerberus/overworld_e0.png",
+                                         "images/creature/AshmouthCerberus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AshmouthCerberus/overworld_n0.png",
+                                          "images/creature/AshmouthCerberus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AshmouthCerberus/overworld_s0.png",
+                                          "images/creature/AshmouthCerberus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AshmouthCerberus/overworld_w0.png",
+                                         "images/creature/AshmouthCerberus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cerberus",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  306,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

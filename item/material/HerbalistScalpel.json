@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaximize:\nAfter this creature {ACTION_attacks}, it converts each of the target\u0027s buffs into random debuffs.",
-  "icon": "images/item/material/HerbalistScalpel.png",
-  "id": 731,
-  "name": "Herbalist Scalpel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 670
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaximize:\nAfter this creature {ACTION_attacks}, it converts each of the target\u0027s buffs into random debuffs.",
+    "icon":  "images/item/material/HerbalistScalpel.png",
+    "id":  731,
+    "name":  "Herbalist Scalpel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  670,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOf One Mind:\nAfter your creatures that belong to your most common race {ACTION_attack}, the others have a 5% chance to {ACTION_attack} random enemies for 10% normal damage. This trait does not stack.",
-  "icon": "images/item/material/SleeplessBrain.png",
-  "id": 971,
-  "name": "Sleepless Brain",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1159
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOf One Mind:\nAfter your creatures that belong to your most common race {ACTION_attack}, the others have a 5% chance to {ACTION_attack} random enemies for 10% normal damage. This trait does not stack.",
+    "icon":  "images/item/material/SleeplessBrain.png",
+    "id":  971,
+    "name":  "Sleepless Brain",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1159,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

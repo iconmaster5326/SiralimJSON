@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Phoenixes:\nAt the start of your {RACE_Phoenix}es\u0027 turns, their on-resurrect effects have a 50% chance to activate. This trait does not stack.",
-  "icon": "images/item/material/SigilofthePhoenix.png",
-  "id": 1234,
-  "name": "Sigil of the Phoenix",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1471
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Phoenixes:\nAt the start of your {RACE_Phoenix}es\u0027 turns, their on-resurrect effects have a 50% chance to activate. This trait does not stack.",
+    "icon":  "images/item/material/SigilofthePhoenix.png",
+    "id":  1234,
+    "name":  "Sigil of the Phoenix",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1471,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

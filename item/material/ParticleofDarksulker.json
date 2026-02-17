@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrom Death to Destiny:\nThis creature has additional stats (other than {STAT_health}) equal to 50% of the stats of your dead creatures. This trait does not work with creatures who also have this trait.",
-  "icon": "images/item/material/ParticleofDarksulker.png",
-  "id": 1082,
-  "name": "Particle of Darksulker",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1046
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrom Death to Destiny:\nThis creature has additional stats (other than {STAT_health}) equal to 50% of the stats of your dead creatures. This trait does not work with creatures who also have this trait.",
+    "icon":  "images/item/material/ParticleofDarksulker.png",
+    "id":  1082,
+    "name":  "Particle of Darksulker",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1046,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

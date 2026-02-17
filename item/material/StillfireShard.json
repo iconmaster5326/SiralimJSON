@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nQuality Over Quantity:\nYour creatures\u0027 Spell Gems with the \u0022Singular\u0022 property have 100% more {STAT_charges} if they only have one permanent Spell Gem equipped. This trait does not stack.",
-  "icon": "images/item/material/StillfireShard.png",
-  "id": 937,
-  "name": "Stillfire Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1197
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nQuality Over Quantity:\nYour creatures\u0027 Spell Gems with the \"Singular\" property have 100% more {STAT_charges} if they only have one permanent Spell Gem equipped. This trait does not stack.",
+    "icon":  "images/item/material/StillfireShard.png",
+    "id":  937,
+    "name":  "Stillfire Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1197,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

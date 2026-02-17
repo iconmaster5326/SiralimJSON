@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NihilistParalyzer/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1076,
-  "item": 1512,
-  "lore": "Nihilists will never attack unless they are in danger, unless their opponent is a Voidlord. They do not communicate in any way with other creatures, and they do not need to breathe, feed, or sleep to survive.\\n\\nThe ribbons on this creature\u0027s staff are harmless to all except Voidlords. When they come into contact with these beings, they automatically coil around their bodies, paralyzing their movements and nullifying their abilities.",
-  "menagerieDialog": [
-    "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
-    "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
-    "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
-    "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
-    "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
-  ],
-  "minDepth": 1,
-  "name": "Nihilist Paralyzer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NihilistParalyzer/overworld_e0.png",
-      "images/creature/NihilistParalyzer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NihilistParalyzer/overworld_n0.png",
-      "images/creature/NihilistParalyzer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NihilistParalyzer/overworld_s0.png",
-      "images/creature/NihilistParalyzer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NihilistParalyzer/overworld_w0.png",
-      "images/creature/NihilistParalyzer/overworld_w1.png"
-    ]
-  },
-  "race": "Nihilist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 5,
-    "speed": 25
-  },
-  "trait": 1819
+    "battleSprite":  "images/creature/NihilistParalyzer/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1076,
+    "item":  1512,
+    "lore":  "Nihilists will never attack unless they are in danger, unless their opponent is a Voidlord. They do not communicate in any way with other creatures, and they do not need to breathe, feed, or sleep to survive.\\n\\nThe ribbons on this creature\u0027s staff are harmless to all except Voidlords. When they come into contact with these beings, they automatically coil around their bodies, paralyzing their movements and nullifying their abilities.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
+                            "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
+                            "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
+                            "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
+                            "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nihilist Paralyzer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NihilistParalyzer/overworld_e0.png",
+                                         "images/creature/NihilistParalyzer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NihilistParalyzer/overworld_n0.png",
+                                          "images/creature/NihilistParalyzer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NihilistParalyzer/overworld_s0.png",
+                                          "images/creature/NihilistParalyzer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NihilistParalyzer/overworld_w0.png",
+                                         "images/creature/NihilistParalyzer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nihilist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  5,
+                       "speed":  25
+                   },
+    "trait":  1819,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

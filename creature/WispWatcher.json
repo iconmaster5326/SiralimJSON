@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WispWatcher/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 854,
-  "item": 1017,
-  "lore": "Although Wisps can appear anywhere, even in crowded squares filled with market stalls, they never approach the temples of Surathli. Realizing this, a young scientist who had been investigating these creatures had the idea of pulverizing stones from the walls of one of the temples and tracing a wide perimeter with the resulting pebbles. Indeed, no Wisps were able to get through. Whether it is due to faith or the divine energy of this deity, Rodia must now choose between defiling the temples of Surathli or remaining vulnerable in the face of a terrible threat.\\n\\nThe Wisp Watcher appears as a flame that seeks to provide warmth to those who need it on cold nights... until it opens its great eye and drives those who look at it mad.",
-  "menagerieDialog": [
-    "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
-    "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
-    "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
-    "(This creature constantly cycles between a cacophony of crying and laughter.)",
-    "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
-  ],
-  "minDepth": 1,
-  "name": "Wisp Watcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WispWatcher/overworld_e0.png",
-      "images/creature/WispWatcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WispWatcher/overworld_n0.png",
-      "images/creature/WispWatcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WispWatcher/overworld_s0.png",
-      "images/creature/WispWatcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WispWatcher/overworld_w0.png",
-      "images/creature/WispWatcher/overworld_w1.png"
-    ]
-  },
-  "race": "Wisp",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 1121
+    "battleSprite":  "images/creature/WispWatcher/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  854,
+    "item":  1017,
+    "lore":  "Although Wisps can appear anywhere, even in crowded squares filled with market stalls, they never approach the temples of Surathli. Realizing this, a young scientist who had been investigating these creatures had the idea of pulverizing stones from the walls of one of the temples and tracing a wide perimeter with the resulting pebbles. Indeed, no Wisps were able to get through. Whether it is due to faith or the divine energy of this deity, Rodia must now choose between defiling the temples of Surathli or remaining vulnerable in the face of a terrible threat.\\n\\nThe Wisp Watcher appears as a flame that seeks to provide warmth to those who need it on cold nights... until it opens its great eye and drives those who look at it mad.",
+    "menagerieDialog":  [
+                            "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
+                            "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
+                            "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
+                            "(This creature constantly cycles between a cacophony of crying and laughter.)",
+                            "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Wisp Watcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WispWatcher/overworld_e0.png",
+                                         "images/creature/WispWatcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WispWatcher/overworld_n0.png",
+                                          "images/creature/WispWatcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WispWatcher/overworld_s0.png",
+                                          "images/creature/WispWatcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WispWatcher/overworld_w0.png",
+                                         "images/creature/WispWatcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wisp",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  1121,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

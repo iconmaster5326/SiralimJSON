@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/AspectofChange/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 607,
-  "item": 794,
-  "lore": "This creature\u0027s presence ensures the gestation cycle of the other aspects remains active. In addition, it is capable of altering the weather, turning even a light drizzle into hail. It was created thousands of years ago by six powerful Nature Magi when the increased use of magic began to affect the cycle of the seasons. That is why Aspects are destined to confront any spellcasters they come across.",
-  "menagerieDialog": [
-    "(Its eyes are closed, as if meditating.)",
-    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
-    "(It is meditating. Better to leave it alone while it relaxes.)",
-    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
-    "(Its fur is a total mess. You should have Nortah comb it soon.)"
-  ],
-  "minDepth": 1,
-  "name": "Aspect of Change",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AspectofChange/overworld_e0.png",
-      "images/creature/AspectofChange/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AspectofChange/overworld_n0.png",
-      "images/creature/AspectofChange/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AspectofChange/overworld_s0.png",
-      "images/creature/AspectofChange/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AspectofChange/overworld_w0.png",
-      "images/creature/AspectofChange/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Meraxis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    19
-  ],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 14,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 24
-  },
-  "trait": 815
+    "battleSprite":  "images/creature/AspectofChange/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  607,
+    "item":  794,
+    "lore":  "This creature\u0027s presence ensures the gestation cycle of the other aspects remains active. In addition, it is capable of altering the weather, turning even a light drizzle into hail. It was created thousands of years ago by six powerful Nature Magi when the increased use of magic began to affect the cycle of the seasons. That is why Aspects are destined to confront any spellcasters they come across.",
+    "menagerieDialog":  [
+                            "(Its eyes are closed, as if meditating.)",
+                            "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+                            "(It is meditating. Better to leave it alone while it relaxes.)",
+                            "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+                            "(Its fur is a total mess. You should have Nortah comb it soon.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Aspect of Change",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AspectofChange/overworld_e0.png",
+                                         "images/creature/AspectofChange/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AspectofChange/overworld_n0.png",
+                                          "images/creature/AspectofChange/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AspectofChange/overworld_s0.png",
+                                          "images/creature/AspectofChange/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AspectofChange/overworld_w0.png",
+                                         "images/creature/AspectofChange/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Meraxis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            19
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  14,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  24
+                   },
+    "trait":  815,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

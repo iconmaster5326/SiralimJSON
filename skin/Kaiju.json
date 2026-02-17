@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Kaiju/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 98,
-  "name": "Kaiju",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Kaiju/overworld_e0.png",
-      "images/skin/Kaiju/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Kaiju/overworld_n0.png",
-      "images/skin/Kaiju/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Kaiju/overworld_s0.png",
-      "images/skin/Kaiju/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Kaiju/overworld_w0.png",
-      "images/skin/Kaiju/overworld_w1.png"
-    ]
-  },
-  "race": "Imler",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Kaiju/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  98,
+    "name":  "Kaiju",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Kaiju/overworld_e0.png",
+                                         "images/skin/Kaiju/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Kaiju/overworld_n0.png",
+                                          "images/skin/Kaiju/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Kaiju/overworld_s0.png",
+                                          "images/skin/Kaiju/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Kaiju/overworld_w0.png",
+                                         "images/skin/Kaiju/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imler",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

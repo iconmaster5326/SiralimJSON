@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Pariah/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 808,
-  "name": "Pariah",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Pariah/overworld_e0.png",
-      "images/skin/Pariah/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Pariah/overworld_n0.png",
-      "images/skin/Pariah/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Pariah/overworld_s0.png",
-      "images/skin/Pariah/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Pariah/overworld_w0.png",
-      "images/skin/Pariah/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Pariah/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  808,
+    "name":  "Pariah",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Pariah/overworld_e0.png",
+                                         "images/skin/Pariah/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Pariah/overworld_n0.png",
+                                          "images/skin/Pariah/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Pariah/overworld_s0.png",
+                                          "images/skin/Pariah/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Pariah/overworld_w0.png",
+                                         "images/skin/Pariah/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

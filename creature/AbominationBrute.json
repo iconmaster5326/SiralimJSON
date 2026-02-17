@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/AbominationBrute/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 561,
-  "item": 688,
-  "lore": "Abominations are a result of Tartarith\u0027s actions in the Torture Chamber. To create them, he overfeeds an individual for weeks, and then implants a second head on their shoulder.\\n\\nThe Abomination Brute is the only one of its kind that is prone to violence, as well as the only one who is good at it. It lets its enemies get as close as possible by holding back, then grabs them by the arms and rips them off with its brutal strength.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Abomination Brute",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AbominationBrute/overworld_e0.png",
-      "images/creature/AbominationBrute/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AbominationBrute/overworld_n0.png",
-      "images/creature/AbominationBrute/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AbominationBrute/overworld_s0.png",
-      "images/creature/AbominationBrute/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AbominationBrute/overworld_w0.png",
-      "images/creature/AbominationBrute/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 17
-  },
-  "trait": 803
+    "battleSprite":  "images/creature/AbominationBrute/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  561,
+    "item":  688,
+    "lore":  "Abominations are a result of Tartarith\u0027s actions in the Torture Chamber. To create them, he overfeeds an individual for weeks, and then implants a second head on their shoulder.\\n\\nThe Abomination Brute is the only one of its kind that is prone to violence, as well as the only one who is good at it. It lets its enemies get as close as possible by holding back, then grabs them by the arms and rips them off with its brutal strength.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Abomination Brute",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AbominationBrute/overworld_e0.png",
+                                         "images/creature/AbominationBrute/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AbominationBrute/overworld_n0.png",
+                                          "images/creature/AbominationBrute/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AbominationBrute/overworld_s0.png",
+                                          "images/creature/AbominationBrute/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AbominationBrute/overworld_w0.png",
+                                         "images/creature/AbominationBrute/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  17
+                   },
+    "trait":  803,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

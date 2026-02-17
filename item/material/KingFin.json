@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPact of the Deep:\nAt the start of battle, this creature steals 35% of your other creatures\u0027 {STAT_health}.",
-  "icon": "images/item/material/KingFin.png",
-  "id": 276,
-  "name": "King Fin",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 186
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPact of the Deep:\nAt the start of battle, this creature steals 35% of your other creatures\u0027 {STAT_health}.",
+    "icon":  "images/item/material/KingFin.png",
+    "id":  276,
+    "name":  "King Fin",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  186,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

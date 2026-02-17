@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCana:\nThis creature\u0027s first 3 permanent, damaging Spell Gems each have a 50% chance to be {ACTION_cast} automatically at the start of battle.",
-  "icon": "images/item/material/SkywardEar.png",
-  "id": 676,
-  "name": "Skyward Ear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 614
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCana:\nThis creature\u0027s first 3 permanent, damaging Spell Gems each have a 50% chance to be {ACTION_cast} automatically at the start of battle.",
+    "icon":  "images/item/material/SkywardEar.png",
+    "id":  676,
+    "name":  "Skyward Ear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  614,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

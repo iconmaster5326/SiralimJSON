@@ -1,51 +1,60 @@
 {
-  "battleSprite": "images/creature/Trion/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1359,
-  "item": null,
-  "lore": "Trion and Jotun were once rivals, but through the centuries, they became the best of friends. Trapped together on a mysterious magical island, they battled endlessly, each match ending in a stalemate. Despite their fierce rivalry, every fight was followed by a celebration and a peaceful night side by side. That is, until a band of ruthless smugglers interfered, leading to Trion\u0027s defeat and the theft of his treasure. Though this wasn\u0027t Trion\u0027s intention, Jotun absorbed much of his power. Furious, the two joined forces to take down the intruders and escape the island, seeking a new path together.",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Trion",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Trion/overworld_e0.png",
-      "images/creature/Trion/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Trion/overworld_n0.png",
-      "images/creature/Trion/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Trion/overworld_s0.png",
-      "images/creature/Trion/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Trion/overworld_w0.png",
-      "images/creature/Trion/overworld_w1.png"
-    ]
-  },
-  "race": "False Godspawn",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2092
+    "battleSprite":  "images/creature/Trion/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1359,
+    "item":  null,
+    "lore":  "Trion and Jotun were once rivals, but through the centuries, they became the best of friends. Trapped together on a mysterious magical island, they battled endlessly, each match ending in a stalemate. Despite their fierce rivalry, every fight was followed by a celebration and a peaceful night side by side. That is, until a band of ruthless smugglers interfered, leading to Trion\u0027s defeat and the theft of his treasure. Though this wasn\u0027t Trion\u0027s intention, Jotun absorbed much of his power. Furious, the two joined forces to take down the intruders and escape the island, seeking a new path together.",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Trion",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Trion/overworld_e0.png",
+                                         "images/creature/Trion/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Trion/overworld_n0.png",
+                                          "images/creature/Trion/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Trion/overworld_s0.png",
+                                          "images/creature/Trion/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Trion/overworld_w0.png",
+                                         "images/creature/Trion/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "False Godspawn",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2092,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

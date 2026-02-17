@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BloodReaper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 11,
-  "item": 246,
-  "lore": "Reapers are as old as the first creatures the Gods created; beings that embody the inexorable end of all things. They know the life expectancy of all creatures, and Blood Reapers can even absorb their vitality when their scythe helps accelerate the process. If someone touches the edge immediately after this happens, they will rejuvenate several years, if only for a few minutes.",
-  "menagerieDialog": [
-    "Oh, hello there! Would you like to know the exact date of your death?",
-    "While I can\u0027t hold your hand, I will have your back.",
-    "(This creature always seems to be focused on something you can\u0027t see.)",
-    "Don\u0027t fear the reaper.\\n\\n(Sigh. How clich\u00C3\u00A9.)",
-    "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Blood Reaper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BloodReaper/overworld_e0.png",
-      "images/creature/BloodReaper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BloodReaper/overworld_n0.png",
-      "images/creature/BloodReaper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BloodReaper/overworld_s0.png",
-      "images/creature/BloodReaper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BloodReaper/overworld_w0.png",
-      "images/creature/BloodReaper/overworld_w1.png"
-    ]
-  },
-  "race": "Reaper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tenebris)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 13,
-    "health": 28,
-    "intelligence": 18,
-    "speed": 23
-  },
-  "trait": 156
+    "battleSprite":  "images/creature/BloodReaper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  11,
+    "item":  246,
+    "lore":  "Reapers are as old as the first creatures the Gods created; beings that embody the inexorable end of all things. They know the life expectancy of all creatures, and Blood Reapers can even absorb their vitality when their scythe helps accelerate the process. If someone touches the edge immediately after this happens, they will rejuvenate several years, if only for a few minutes.",
+    "menagerieDialog":  [
+                            "Oh, hello there! Would you like to know the exact date of your death?",
+                            "While I can\u0027t hold your hand, I will have your back.",
+                            "(This creature always seems to be focused on something you can\u0027t see.)",
+                            "Don\u0027t fear the reaper.\\n\\n(Sigh. How cliché.)",
+                            "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Blood Reaper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BloodReaper/overworld_e0.png",
+                                         "images/creature/BloodReaper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BloodReaper/overworld_n0.png",
+                                          "images/creature/BloodReaper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BloodReaper/overworld_s0.png",
+                                          "images/creature/BloodReaper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BloodReaper/overworld_w0.png",
+                                         "images/creature/BloodReaper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Reaper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tenebris)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  13,
+                       "health":  28,
+                       "intelligence":  18,
+                       "speed":  23
+                   },
+    "trait":  156,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

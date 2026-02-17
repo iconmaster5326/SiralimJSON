@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Gaudy/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 756,
-  "name": "Gaudy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Gaudy/overworld_e0.png",
-      "images/skin/Gaudy/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Gaudy/overworld_n0.png",
-      "images/skin/Gaudy/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Gaudy/overworld_s0.png",
-      "images/skin/Gaudy/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Gaudy/overworld_w0.png",
-      "images/skin/Gaudy/overworld_w1.png"
-    ]
-  },
-  "race": "Raven",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Gaudy/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  756,
+    "name":  "Gaudy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Gaudy/overworld_e0.png",
+                                         "images/skin/Gaudy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Gaudy/overworld_n0.png",
+                                          "images/skin/Gaudy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Gaudy/overworld_s0.png",
+                                          "images/skin/Gaudy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Gaudy/overworld_w0.png",
+                                         "images/skin/Gaudy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Raven",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

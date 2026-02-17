@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Gemler/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 231,
-  "name": "Gemler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Gemler/overworld_e0.png",
-      "images/skin/Gemler/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Gemler/overworld_n0.png",
-      "images/skin/Gemler/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Gemler/overworld_s0.png",
-      "images/skin/Gemler/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Gemler/overworld_w0.png",
-      "images/skin/Gemler/overworld_w1.png"
-    ]
-  },
-  "race": "Imler",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Gemler/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  231,
+    "name":  "Gemler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Gemler/overworld_e0.png",
+                                         "images/skin/Gemler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Gemler/overworld_n0.png",
+                                          "images/skin/Gemler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Gemler/overworld_s0.png",
+                                          "images/skin/Gemler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Gemler/overworld_w0.png",
+                                         "images/skin/Gemler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imler",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

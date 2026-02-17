@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/RavingStorm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 201,
-  "item": 526,
-  "lore": "Despite their angry faces and their violent language, these creatures rarely harm anyone, at least physically. Gonfurian thought that such indifference to warlike activities was a waste of their appearance and bad manners. He decided that at least one of them would act in accordance with what one would expect from a thundercloud with a mean face. Torun never noticed the God of War\u0027s interference, but he did appreciate the rage of the Raving Storm, which quickly became his favorite.",
-  "menagerieDialog": [
-    "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
-    "(Lightning is brimming from its mouth. It must be eager to fight.)",
-    "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
-    "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
-    "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
-  ],
-  "minDepth": 1,
-  "name": "Raving Storm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RavingStorm/overworld_e0.png",
-      "images/creature/RavingStorm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RavingStorm/overworld_n0.png",
-      "images/creature/RavingStorm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RavingStorm/overworld_s0.png",
-      "images/creature/RavingStorm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RavingStorm/overworld_w0.png",
-      "images/creature/RavingStorm/overworld_w1.png"
-    ]
-  },
-  "race": "Storm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 440
+    "battleSprite":  "images/creature/RavingStorm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  201,
+    "item":  526,
+    "lore":  "Despite their angry faces and their violent language, these creatures rarely harm anyone, at least physically. Gonfurian thought that such indifference to warlike activities was a waste of their appearance and bad manners. He decided that at least one of them would act in accordance with what one would expect from a thundercloud with a mean face. Torun never noticed the God of War\u0027s interference, but he did appreciate the rage of the Raving Storm, which quickly became his favorite.",
+    "menagerieDialog":  [
+                            "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
+                            "(Lightning is brimming from its mouth. It must be eager to fight.)",
+                            "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
+                            "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
+                            "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Raving Storm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RavingStorm/overworld_e0.png",
+                                         "images/creature/RavingStorm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RavingStorm/overworld_n0.png",
+                                          "images/creature/RavingStorm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RavingStorm/overworld_s0.png",
+                                          "images/creature/RavingStorm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RavingStorm/overworld_w0.png",
+                                         "images/creature/RavingStorm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Storm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  440,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

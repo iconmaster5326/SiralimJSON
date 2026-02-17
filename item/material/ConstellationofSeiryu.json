@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nScaling:\nYour {RACE_Exotic} creatures have 7% more {STAT_intelligence} for each permanent Spell Gem they have equipped. This trait does not stack.",
-  "icon": "images/item/material/ConstellationofSeiryu.png",
-  "id": 1448,
-  "name": "Constellation of Seiryu",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1756
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nScaling:\nYour {RACE_Exotic} creatures have 7% more {STAT_intelligence} for each permanent Spell Gem they have equipped. This trait does not stack.",
+    "icon":  "images/item/material/ConstellationofSeiryu.png",
+    "id":  1448,
+    "name":  "Constellation of Seiryu",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1756,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

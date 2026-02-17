@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpin the Wheel:\nWhenever it is an enemy\u0027s turn, any random effects that fail to occur are re-rolled an additional time. This trait does not stack.",
-  "icon": "images/item/material/BrokenRouletteWheel.png",
-  "id": 1457,
-  "name": "Broken Roulette Wheel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1765
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpin the Wheel:\nWhenever it is an enemy\u0027s turn, any random effects that fail to occur are re-rolled an additional time. This trait does not stack.",
+    "icon":  "images/item/material/BrokenRouletteWheel.png",
+    "id":  1457,
+    "name":  "Broken Roulette Wheel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1765,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

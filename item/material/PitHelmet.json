@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRampart:\nAt the start of battle, your creatures adjacent to this creature gain 65% of its {STAT_defense}, {STAT_health}, and {STAT_speed}.",
-  "icon": "images/item/material/PitHelmet.png",
-  "id": 316,
-  "name": "Pit Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 232
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRampart:\nAt the start of battle, your creatures adjacent to this creature gain 65% of its {STAT_defense}, {STAT_health}, and {STAT_speed}.",
+    "icon":  "images/item/material/PitHelmet.png",
+    "id":  316,
+    "name":  "Pit Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  232,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

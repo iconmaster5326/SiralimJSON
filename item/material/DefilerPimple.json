@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHugs and Kisses:\nAfter this creature takes damage from an attack or spell, it afflicts the enemy with a random debuff.",
-  "icon": "images/item/material/DefilerPimple.png",
-  "id": 268,
-  "name": "Defiler Pimple",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 178
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHugs and Kisses:\nAfter this creature takes damage from an attack or spell, it afflicts the enemy with a random debuff.",
+    "icon":  "images/item/material/DefilerPimple.png",
+    "id":  268,
+    "name":  "Defiler Pimple",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  178,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

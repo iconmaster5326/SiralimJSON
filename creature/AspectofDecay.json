@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AspectofDecay/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 984,
-  "item": 1310,
-  "lore": "Egas the Necromancer once corrupted some Aspects with his power so they would fight in his army during the Unification War. However, once Egas was defeated, they dispersed. They live in places where the land is sterile and the seasons never seem to alter the climate or the ecosystem much. Some travelers fear these creatures and run away from their terrifying appearance, but they are not aggressive creatures.",
-  "menagerieDialog": [
-    "(Its eyes are closed, as if meditating.)",
-    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
-    "(It is meditating. Better to leave it alone while it relaxes.)",
-    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
-    "(Its fur is a total mess. You should have Nortah comb it soon.)"
-  ],
-  "minDepth": 1,
-  "name": "Aspect of Decay",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AspectofDecay/overworld_e0.png",
-      "images/creature/AspectofDecay/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AspectofDecay/overworld_n0.png",
-      "images/creature/AspectofDecay/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AspectofDecay/overworld_s0.png",
-      "images/creature/AspectofDecay/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AspectofDecay/overworld_w0.png",
-      "images/creature/AspectofDecay/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Death Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 27,
-    "intelligence": 17,
-    "speed": 27
-  },
-  "trait": 1558
+    "battleSprite":  "images/creature/AspectofDecay/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  984,
+    "item":  1310,
+    "lore":  "Egas the Necromancer once corrupted some Aspects with his power so they would fight in his army during the Unification War. However, once Egas was defeated, they dispersed. They live in places where the land is sterile and the seasons never seem to alter the climate or the ecosystem much. Some travelers fear these creatures and run away from their terrifying appearance, but they are not aggressive creatures.",
+    "menagerieDialog":  [
+                            "(Its eyes are closed, as if meditating.)",
+                            "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+                            "(It is meditating. Better to leave it alone while it relaxes.)",
+                            "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+                            "(Its fur is a total mess. You should have Nortah comb it soon.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Aspect of Decay",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AspectofDecay/overworld_e0.png",
+                                         "images/creature/AspectofDecay/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AspectofDecay/overworld_n0.png",
+                                          "images/creature/AspectofDecay/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AspectofDecay/overworld_s0.png",
+                                          "images/creature/AspectofDecay/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AspectofDecay/overworld_w0.png",
+                                         "images/creature/AspectofDecay/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Death Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  27,
+                       "intelligence":  17,
+                       "speed":  27
+                   },
+    "trait":  1558,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

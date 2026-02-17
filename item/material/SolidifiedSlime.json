@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReform:\nAfter your other creatures are killed for the first time, they are resurrected with 30% {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/SolidifiedSlime.png",
-  "id": 1648,
-  "name": "Solidified Slime",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1851
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReform:\nAfter your other creatures are killed for the first time, they are resurrected with 30% {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/SolidifiedSlime.png",
+    "id":  1648,
+    "name":  "Solidified Slime",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1851,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

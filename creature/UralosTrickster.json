@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/UralosTrickster/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1199,
-  "item": 1582,
-  "lore": "The Uralos Council only considered starting diplomatic relations with the other kingdoms of Rodia when peace finally seemed to have blossomed in the country.\\n\\nMasters at tricking the senses of other creatures, Uralos Tricksters are one of the fundamental defensive pillars of this species, as they set traps in the forests, plains, and mountains of Hutika Island.",
-  "menagerieDialog": [
-    "You\u0027re lucky to have someone like me in your party. I\u0027m much smarter than the average bear.",
-    "It\u0027s not that we get smarter as we grow older; it\u0027s that we run out of stupid things to do after a while.",
-    "What do you say we stop fighting for the day and have ourselves a pic-a-nic instead?",
-    "I hope to find myself a beautiful wife someday to bear my bears.",
-    "(It\u0027s snoring loudly, surrounded by the remnants of what was once a large, bountiful picnic basket.)"
-  ],
-  "minDepth": 1,
-  "name": "Uralos Trickster",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UralosTrickster/overworld_e0.png",
-      "images/creature/UralosTrickster/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UralosTrickster/overworld_n0.png",
-      "images/creature/UralosTrickster/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UralosTrickster/overworld_s0.png",
-      "images/creature/UralosTrickster/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UralosTrickster/overworld_w0.png",
-      "images/creature/UralosTrickster/overworld_w1.png"
-    ]
-  },
-  "race": "Uralos",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1922
+    "battleSprite":  "images/creature/UralosTrickster/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1199,
+    "item":  1582,
+    "lore":  "The Uralos Council only considered starting diplomatic relations with the other kingdoms of Rodia when peace finally seemed to have blossomed in the country.\\n\\nMasters at tricking the senses of other creatures, Uralos Tricksters are one of the fundamental defensive pillars of this species, as they set traps in the forests, plains, and mountains of Hutika Island.",
+    "menagerieDialog":  [
+                            "You\u0027re lucky to have someone like me in your party. I\u0027m much smarter than the average bear.",
+                            "It\u0027s not that we get smarter as we grow older; it\u0027s that we run out of stupid things to do after a while.",
+                            "What do you say we stop fighting for the day and have ourselves a pic-a-nic instead?",
+                            "I hope to find myself a beautiful wife someday to bear my bears.",
+                            "(It\u0027s snoring loudly, surrounded by the remnants of what was once a large, bountiful picnic basket.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Uralos Trickster",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UralosTrickster/overworld_e0.png",
+                                         "images/creature/UralosTrickster/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UralosTrickster/overworld_n0.png",
+                                          "images/creature/UralosTrickster/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UralosTrickster/overworld_s0.png",
+                                          "images/creature/UralosTrickster/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UralosTrickster/overworld_w0.png",
+                                         "images/creature/UralosTrickster/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Uralos",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1922,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/SpiderOccultist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 132,
-  "item": 401,
-  "lore": "Hundreds of Nether Orbs were taken to the Refuge of the Magi during this time. Some barely contained any power, but others could allow a mortal to ascend to a state of divinity.\\n\\nOccultists seem to be insane and sometimes turn on the same person they wanted to help and attack without warning. Washburn noted this fact when the Spider Occultist she had been working with for fifty years suddenly decided to attack her tower with magic missiles.",
-  "menagerieDialog": [
-    "(It\u0027s floating comfortably in the air while napping peacefully.)",
-    "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
-    "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
-    "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
-    "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Spider Occultist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpiderOccultist/overworld_e0.png",
-      "images/creature/SpiderOccultist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpiderOccultist/overworld_n0.png",
-      "images/creature/SpiderOccultist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpiderOccultist/overworld_s0.png",
-      "images/creature/SpiderOccultist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpiderOccultist/overworld_w0.png",
-      "images/creature/SpiderOccultist/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    4
-  ],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 17,
-    "health": 29,
-    "intelligence": 27,
-    "speed": 22
-  },
-  "trait": 316
+    "battleSprite":  "images/creature/SpiderOccultist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  132,
+    "item":  401,
+    "lore":  "Hundreds of Nether Orbs were taken to the Refuge of the Magi during this time. Some barely contained any power, but others could allow a mortal to ascend to a state of divinity.\\n\\nOccultists seem to be insane and sometimes turn on the same person they wanted to help and attack without warning. Washburn noted this fact when the Spider Occultist she had been working with for fifty years suddenly decided to attack her tower with magic missiles.",
+    "menagerieDialog":  [
+                            "(It\u0027s floating comfortably in the air while napping peacefully.)",
+                            "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
+                            "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
+                            "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
+                            "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spider Occultist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpiderOccultist/overworld_e0.png",
+                                         "images/creature/SpiderOccultist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpiderOccultist/overworld_n0.png",
+                                          "images/creature/SpiderOccultist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpiderOccultist/overworld_s0.png",
+                                          "images/creature/SpiderOccultist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpiderOccultist/overworld_w0.png",
+                                         "images/creature/SpiderOccultist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            4
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  17,
+                       "health":  29,
+                       "intelligence":  27,
+                       "speed":  22
+                   },
+    "trait":  316,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

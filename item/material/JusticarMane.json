@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRecombobulation:\nAt the start of battle, your creatures are set to the same class, chosen randomly.",
-  "icon": "images/item/material/JusticarMane.png",
-  "id": 186,
-  "name": "Justicar Mane",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 96
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRecombobulation:\nAt the start of battle, your creatures are set to the same class, chosen randomly.",
+    "icon":  "images/item/material/JusticarMane.png",
+    "id":  186,
+    "name":  "Justicar Mane",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  96,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

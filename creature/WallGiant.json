@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/WallGiant/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 351,
-  "item": 509,
-  "lore": "As the size of Giants and other creatures makes it impossible to take them through the streets or inside buildings, Magi had to come up with a spell to shrink any creature to a more reasonable size. The spell has many restrictions and only works with creatures that have a bond with the caster, so it is not suitable for battle.",
-  "menagerieDialog": [
-    "Humans are weak! Even baby Giants can crush your kind with one hand.",
-    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
-    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
-    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
-    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
-  ],
-  "minDepth": 1,
-  "name": "Wall Giant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WallGiant/overworld_e0.png",
-      "images/creature/WallGiant/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WallGiant/overworld_n0.png",
-      "images/creature/WallGiant/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WallGiant/overworld_s0.png",
-      "images/creature/WallGiant/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WallGiant/overworld_w0.png",
-      "images/creature/WallGiant/overworld_w1.png"
-    ]
-  },
-  "race": "Giant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 17,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    15
-  ],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 22,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 12
-  },
-  "trait": 423
+    "battleSprite":  "images/creature/WallGiant/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  351,
+    "item":  509,
+    "lore":  "As the size of Giants and other creatures makes it impossible to take them through the streets or inside buildings, Magi had to come up with a spell to shrink any creature to a more reasonable size. The spell has many restrictions and only works with creatures that have a bond with the caster, so it is not suitable for battle.",
+    "menagerieDialog":  [
+                            "Humans are weak! Even baby Giants can crush your kind with one hand.",
+                            "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+                            "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+                            "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+                            "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Wall Giant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WallGiant/overworld_e0.png",
+                                         "images/creature/WallGiant/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WallGiant/overworld_n0.png",
+                                          "images/creature/WallGiant/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WallGiant/overworld_s0.png",
+                                          "images/creature/WallGiant/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WallGiant/overworld_w0.png",
+                                         "images/creature/WallGiant/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Giant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            15
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  22,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  12
+                   },
+    "trait":  423,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

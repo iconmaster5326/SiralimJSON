@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NephilimScion/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1242,
-  "item": 1612,
-  "lore": "Nephilim are drawn to good intentions and pure hearts. They seek to subdue them and turn them to ashes. The Nephilim Scion\u0027s powers allow it to confuse the thoughts of anyone within reach, sowing doubt about the intentions of others towards them. Recently, one of these creatures appeared in the village of Hutika and quietly passed through as its inhabitants went about their work. That night, the village had turned into smoking rubble, and every Uralos in it had become a soot-covered corpse.",
-  "menagerieDialog": [
-    "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
-    "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
-    "Let us take our leave at once. There is work to be done.",
-    "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
-    "We\u0027re in good company with you as our leader, {PLAYERNAME}."
-  ],
-  "minDepth": 1,
-  "name": "Nephilim Scion",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NephilimScion/overworld_e0.png",
-      "images/creature/NephilimScion/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NephilimScion/overworld_n0.png",
-      "images/creature/NephilimScion/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NephilimScion/overworld_s0.png",
-      "images/creature/NephilimScion/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NephilimScion/overworld_w0.png",
-      "images/creature/NephilimScion/overworld_w1.png"
-    ]
-  },
-  "race": "Nephilim",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1953
+    "battleSprite":  "images/creature/NephilimScion/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1242,
+    "item":  1612,
+    "lore":  "Nephilim are drawn to good intentions and pure hearts. They seek to subdue them and turn them to ashes. The Nephilim Scion\u0027s powers allow it to confuse the thoughts of anyone within reach, sowing doubt about the intentions of others towards them. Recently, one of these creatures appeared in the village of Hutika and quietly passed through as its inhabitants went about their work. That night, the village had turned into smoking rubble, and every Uralos in it had become a soot-covered corpse.",
+    "menagerieDialog":  [
+                            "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
+                            "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
+                            "Let us take our leave at once. There is work to be done.",
+                            "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
+                            "We\u0027re in good company with you as our leader, {PLAYERNAME}."
+                        ],
+    "minDepth":  1,
+    "name":  "Nephilim Scion",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NephilimScion/overworld_e0.png",
+                                         "images/creature/NephilimScion/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NephilimScion/overworld_n0.png",
+                                          "images/creature/NephilimScion/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NephilimScion/overworld_s0.png",
+                                          "images/creature/NephilimScion/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NephilimScion/overworld_w0.png",
+                                         "images/creature/NephilimScion/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nephilim",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1953,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

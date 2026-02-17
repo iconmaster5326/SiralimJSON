@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OvoidVortex/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 790,
-  "item": 16,
-  "lore": "After the Watcher War, some of the refugees from Kaito started a new life in the Unsullied Meadows. Since the Dragons were too busy dealing with the Watchers, Aeolian was the first to notice their presence... and the first to ask them to abandon his realm. But he also knew of Kaito\u0027s plight, and seeing how respectful those people had been gave him an idea: he would let them stay for a generation before making a choice. When the time was up, Aeolian found that the humans had not only survived while preserving nature, but also improved the state of his realm wherever they had settled. Those refugees became the first humans to live in the Unsullied Meadows. In a gesture of gratitude and praise, Aeolian created the Ovoid Vortex to protect them, inspired by the Omelettes that lived with the refugees.",
-  "menagerieDialog": [
-    "(It whirls around in circles, emitting a powerful light.)",
-    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
-    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
-    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
-    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
-  ],
-  "minDepth": 1,
-  "name": "Ovoid Vortex",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OvoidVortex/overworld_e0.png",
-      "images/creature/OvoidVortex/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OvoidVortex/overworld_n0.png",
-      "images/creature/OvoidVortex/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OvoidVortex/overworld_s0.png",
-      "images/creature/OvoidVortex/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OvoidVortex/overworld_w0.png",
-      "images/creature/OvoidVortex/overworld_w1.png"
-    ]
-  },
-  "race": "Vortex",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Sorcery Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 1041
+    "battleSprite":  "images/creature/OvoidVortex/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  790,
+    "item":  16,
+    "lore":  "After the Watcher War, some of the refugees from Kaito started a new life in the Unsullied Meadows. Since the Dragons were too busy dealing with the Watchers, Aeolian was the first to notice their presence... and the first to ask them to abandon his realm. But he also knew of Kaito\u0027s plight, and seeing how respectful those people had been gave him an idea: he would let them stay for a generation before making a choice. When the time was up, Aeolian found that the humans had not only survived while preserving nature, but also improved the state of his realm wherever they had settled. Those refugees became the first humans to live in the Unsullied Meadows. In a gesture of gratitude and praise, Aeolian created the Ovoid Vortex to protect them, inspired by the Omelettes that lived with the refugees.",
+    "menagerieDialog":  [
+                            "(It whirls around in circles, emitting a powerful light.)",
+                            "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+                            "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+                            "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+                            "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ovoid Vortex",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OvoidVortex/overworld_e0.png",
+                                         "images/creature/OvoidVortex/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OvoidVortex/overworld_n0.png",
+                                          "images/creature/OvoidVortex/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OvoidVortex/overworld_s0.png",
+                                          "images/creature/OvoidVortex/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OvoidVortex/overworld_w0.png",
+                                         "images/creature/OvoidVortex/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vortex",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Sorcery Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  1041,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

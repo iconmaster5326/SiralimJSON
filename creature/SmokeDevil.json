@@ -1,66 +1,71 @@
 {
-  "battleSprite": "images/creature/SmokeDevil/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 666,
-  "item": 804,
-  "lore": "The Smoke Devil emerged from the ashes after a war lost in time and is unable to think. Since then it has traveled the world in silence with a lifeless gaze, leaving behind a mysterious cloud of dust. Wherever it goes there is anger, a fight, an argument, or maybe even a war, as if its very presence was the embodiment of Chaos. Although it carries a sword, it never gets into trouble and will only use it to defend itself.",
-  "menagerieDialog": [
-    "You\u0027re the big boss here, right? You should share some of them resources with me, neh?",
-    "I prefer blades over magic. What\u0027s the fun in casting a spell when there\u0027s no blood to show in the aftermath of your effort?",
-    "The devil\u0027s in the details, neh?\\n\\n(Well, that was random.)",
-    "I have an idea! You should raise your kingdom\u0027s taxes. That way, you can steal from everyone with impunity.",
-    "I absolutely, positively did not steal this bag of coins from anyone."
-  ],
-  "minDepth": 1,
-  "name": "Smoke Devil",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SmokeDevil/overworld_e0.png",
-      "images/creature/SmokeDevil/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SmokeDevil/overworld_n0.png",
-      "images/creature/SmokeDevil/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SmokeDevil/overworld_s0.png",
-      "images/creature/SmokeDevil/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SmokeDevil/overworld_w0.png",
-      "images/creature/SmokeDevil/overworld_w1.png"
-    ]
-  },
-  "race": "Devil",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    6
-  ],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 32,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 831
+    "battleSprite":  "images/creature/SmokeDevil/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  666,
+    "item":  804,
+    "lore":  "The Smoke Devil emerged from the ashes after a war lost in time and is unable to think. Since then it has traveled the world in silence with a lifeless gaze, leaving behind a mysterious cloud of dust. Wherever it goes there is anger, a fight, an argument, or maybe even a war, as if its very presence was the embodiment of Chaos. Although it carries a sword, it never gets into trouble and will only use it to defend itself.",
+    "menagerieDialog":  [
+                            "You\u0027re the big boss here, right? You should share some of them resources with me, neh?",
+                            "I prefer blades over magic. What\u0027s the fun in casting a spell when there\u0027s no blood to show in the aftermath of your effort?",
+                            "The devil\u0027s in the details, neh?\\n\\n(Well, that was random.)",
+                            "I have an idea! You should raise your kingdom\u0027s taxes. That way, you can steal from everyone with impunity.",
+                            "I absolutely, positively did not steal this bag of coins from anyone."
+                        ],
+    "minDepth":  1,
+    "name":  "Smoke Devil",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SmokeDevil/overworld_e0.png",
+                                         "images/creature/SmokeDevil/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SmokeDevil/overworld_n0.png",
+                                          "images/creature/SmokeDevil/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SmokeDevil/overworld_s0.png",
+                                          "images/creature/SmokeDevil/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SmokeDevil/overworld_w0.png",
+                                         "images/creature/SmokeDevil/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Devil",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            6
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  32,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  831,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

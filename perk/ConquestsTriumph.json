@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_cast} a spell, they summon {CONDNAME_MINION_CONQUEST}.\\n\\n{CONDDESC_MINION_CONQUEST}",
-  "icon": "images/perk/ConquestsTriumph.png",
-  "id": 225,
-  "maxRanks": 1,
-  "name": "Conquest\u0027s Triumph",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 8
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_cast} a spell, they summon {CONDNAME_MINION_CONQUEST}.\\n\\n{CONDDESC_MINION_CONQUEST}",
+    "icon":  "images/perk/ConquestsTriumph.png",
+    "id":  225,
+    "maxRanks":  1,
+    "name":  "Conquest\u0027s Triumph",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  8,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

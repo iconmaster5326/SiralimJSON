@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LifeShapeshifter/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 41,
-  "item": 611,
-  "lore": "From a young age, Shapeshifters practice on the animals and plants around them to imitate their patterns. At the age of eight, these creatures are already capable of transforming into beings twice or half their size.\\n\\nLife Shapeshifters often take care of the sick and wounded, assist with deliveries and guide the elderly in their last moments of life. They have a strong sense of justice and protect the weak, even above their own lives.",
-  "menagerieDialog": [
-    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
-    "(It transforms into a cat right before your very eyes.)",
-    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
-    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
-    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
-  ],
-  "minDepth": 1,
-  "name": "Life Shapeshifter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LifeShapeshifter/overworld_e0.png",
-      "images/creature/LifeShapeshifter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LifeShapeshifter/overworld_n0.png",
-      "images/creature/LifeShapeshifter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LifeShapeshifter/overworld_s0.png",
-      "images/creature/LifeShapeshifter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LifeShapeshifter/overworld_w0.png",
-      "images/creature/LifeShapeshifter/overworld_w1.png"
-    ]
-  },
-  "race": "Shapeshifter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 525
+    "battleSprite":  "images/creature/LifeShapeshifter/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  41,
+    "item":  611,
+    "lore":  "From a young age, Shapeshifters practice on the animals and plants around them to imitate their patterns. At the age of eight, these creatures are already capable of transforming into beings twice or half their size.\\n\\nLife Shapeshifters often take care of the sick and wounded, assist with deliveries and guide the elderly in their last moments of life. They have a strong sense of justice and protect the weak, even above their own lives.",
+    "menagerieDialog":  [
+                            "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+                            "(It transforms into a cat right before your very eyes.)",
+                            "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+                            "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+                            "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+                        ],
+    "minDepth":  1,
+    "name":  "Life Shapeshifter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LifeShapeshifter/overworld_e0.png",
+                                         "images/creature/LifeShapeshifter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LifeShapeshifter/overworld_n0.png",
+                                          "images/creature/LifeShapeshifter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LifeShapeshifter/overworld_s0.png",
+                                          "images/creature/LifeShapeshifter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LifeShapeshifter/overworld_w0.png",
+                                         "images/creature/LifeShapeshifter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shapeshifter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  525,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "chaos",
-  "creator": null,
-  "description": "Your creatures gain a random trait and are afflicted with {CONDNAME_DEBUFF_DISARMED}.",
-  "god": null,
-  "id": 595,
-  "manuallyCastable": true,
-  "maxCharges": 25,
-  "name": "Erratium",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Your creatures gain a random trait and are afflicted with {CONDNAME_DEBUFF_DISARMED}.",
+    "god":  null,
+    "id":  595,
+    "manuallyCastable":  true,
+    "maxCharges":  25,
+    "name":  "Erratium",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

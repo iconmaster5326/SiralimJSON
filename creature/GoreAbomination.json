@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/GoreAbomination/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 564,
-  "item": 691,
-  "lore": "Abominations keep some parts of their true identity, although they have lost most of their memories. Both heads can access the other\u0027s mind to know what they think at all times.\\n\\nWhen the God of Punishment is in a hurry to create more Abominations, the result is usually a Gore Abomination. This creature has an unusual amount of blood in it, which erupts from its body when it receives damage.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Gore Abomination",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GoreAbomination/overworld_e0.png",
-      "images/creature/GoreAbomination/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GoreAbomination/overworld_n0.png",
-      "images/creature/GoreAbomination/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GoreAbomination/overworld_s0.png",
-      "images/creature/GoreAbomination/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GoreAbomination/overworld_w0.png",
-      "images/creature/GoreAbomination/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 36,
-    "intelligence": 13,
-    "speed": 18
-  },
-  "trait": 806
+    "battleSprite":  "images/creature/GoreAbomination/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  564,
+    "item":  691,
+    "lore":  "Abominations keep some parts of their true identity, although they have lost most of their memories. Both heads can access the other\u0027s mind to know what they think at all times.\\n\\nWhen the God of Punishment is in a hurry to create more Abominations, the result is usually a Gore Abomination. This creature has an unusual amount of blood in it, which erupts from its body when it receives damage.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Gore Abomination",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GoreAbomination/overworld_e0.png",
+                                         "images/creature/GoreAbomination/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GoreAbomination/overworld_n0.png",
+                                          "images/creature/GoreAbomination/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GoreAbomination/overworld_s0.png",
+                                          "images/creature/GoreAbomination/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GoreAbomination/overworld_w0.png",
+                                         "images/creature/GoreAbomination/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  36,
+                       "intelligence":  13,
+                       "speed":  18
+                   },
+    "trait":  806,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

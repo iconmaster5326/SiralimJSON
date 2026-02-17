@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnxiety:\nThis creature\u0027s Spell Gems have 100% more potency, but are Sealed after they\u0027re {ACTION_cast}.",
-  "icon": "images/item/material/PlaguebearerPincer.png",
-  "id": 818,
-  "name": "Plaguebearer Pincer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 845
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnxiety:\nThis creature\u0027s Spell Gems have 100% more potency, but are Sealed after they\u0027re {ACTION_cast}.",
+    "icon":  "images/item/material/PlaguebearerPincer.png",
+    "id":  818,
+    "name":  "Plaguebearer Pincer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  845,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Masochists:\nIf all the creatures in your party are {RACE_Masochist}s, they are resistant to debuffs and take 30% less damage from all sources. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheMasochist.png",
-  "id": 1224,
-  "name": "Sigil of the Masochist",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1459
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Masochists:\nIf all the creatures in your party are {RACE_Masochist}s, they are resistant to debuffs and take 30% less damage from all sources. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheMasochist.png",
+    "id":  1224,
+    "name":  "Sigil of the Masochist",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1459,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

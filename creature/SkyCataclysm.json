@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SkyCataclysm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1372,
-  "item": 1747,
-  "lore": "Crafting a Cataclysm requires sacrificing multiple spell gems, and the element of those gems determines what kind of creature it creates.\\n\\nThe Sky Cataclysm is made of fierce winds that can send small creatures and objects flying. While they lack a mind of their own, they seem to be more restless when strong winds blow.",
-  "menagerieDialog": [
-    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
-    "I am the storm that ends worlds. Point me at our foes!",
-    "The secrets of the universe flow through me. What would you like to know?",
-    "The elements themselves bend to my will. No force can harm me!",
-    "(It\u0027s swirling violently, barely contained within its form.)"
-  ],
-  "minDepth": 1,
-  "name": "Sky Cataclysm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SkyCataclysm/overworld_e0.png",
-      "images/creature/SkyCataclysm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SkyCataclysm/overworld_n0.png",
-      "images/creature/SkyCataclysm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SkyCataclysm/overworld_s0.png",
-      "images/creature/SkyCataclysm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SkyCataclysm/overworld_w0.png",
-      "images/creature/SkyCataclysm/overworld_w1.png"
-    ]
-  },
-  "race": "Cataclysm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 38,
-    "intelligence": 25,
-    "speed": 17
-  },
-  "trait": 2100
+    "battleSprite":  "images/creature/SkyCataclysm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1372,
+    "item":  1747,
+    "lore":  "Crafting a Cataclysm requires sacrificing multiple spell gems, and the element of those gems determines what kind of creature it creates.\\n\\nThe Sky Cataclysm is made of fierce winds that can send small creatures and objects flying. While they lack a mind of their own, they seem to be more restless when strong winds blow.",
+    "menagerieDialog":  [
+                            "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+                            "I am the storm that ends worlds. Point me at our foes!",
+                            "The secrets of the universe flow through me. What would you like to know?",
+                            "The elements themselves bend to my will. No force can harm me!",
+                            "(It\u0027s swirling violently, barely contained within its form.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Sky Cataclysm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SkyCataclysm/overworld_e0.png",
+                                         "images/creature/SkyCataclysm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SkyCataclysm/overworld_n0.png",
+                                          "images/creature/SkyCataclysm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SkyCataclysm/overworld_s0.png",
+                                          "images/creature/SkyCataclysm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SkyCataclysm/overworld_w0.png",
+                                         "images/creature/SkyCataclysm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cataclysm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  38,
+                       "intelligence":  25,
+                       "speed":  17
+                   },
+    "trait":  2100,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

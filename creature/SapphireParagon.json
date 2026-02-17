@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SapphireParagon/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 9,
-  "item": 138,
-  "lore": "After the unification of Rodia, most Paragons left the military to devote themselves to other activities. Some had forgotten their true purpose, corrupted by the selfish desires they had learned from humans.\\n\\nThe Sapphire Paragon\u0027s body is the most resilient of its species. An extraordinary force is necessary to damage it. In addition, even glass and porcelain seem to be made of stone when this creature is near.",
-  "menagerieDialog": [
-    "Your Eminence, please allow me to rest for a bit. It\u0027s been a long day.",
-    "We must constantly re-evaluate our battle strategies to ensure that our foes can never get the best of us.",
-    "Everett is a liar. Don\u0027t say I didn\u0027t warn you.",
-    "Two Paragons make a King Paragon. Two King Paragons make a Gold Paragon. Two Gold Paragons make a Grandpa Paragon.\\n\\nWait, what?",
-    "Something is amiss. I cannot say what is wrong for certain, but I am unable to shake this feeling of dread."
-  ],
-  "minDepth": 1,
-  "name": "Sapphire Paragon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SapphireParagon/overworld_e0.png",
-      "images/creature/SapphireParagon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SapphireParagon/overworld_n0.png",
-      "images/creature/SapphireParagon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SapphireParagon/overworld_s0.png",
-      "images/creature/SapphireParagon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SapphireParagon/overworld_w0.png",
-      "images/creature/SapphireParagon/overworld_w1.png"
-    ]
-  },
-  "race": "Paragon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 11,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 4,
-    "defense": 24,
-    "health": 42,
-    "intelligence": 14,
-    "speed": 24
-  },
-  "trait": 47
+    "battleSprite":  "images/creature/SapphireParagon/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  9,
+    "item":  138,
+    "lore":  "After the unification of Rodia, most Paragons left the military to devote themselves to other activities. Some had forgotten their true purpose, corrupted by the selfish desires they had learned from humans.\\n\\nThe Sapphire Paragon\u0027s body is the most resilient of its species. An extraordinary force is necessary to damage it. In addition, even glass and porcelain seem to be made of stone when this creature is near.",
+    "menagerieDialog":  [
+                            "Your Eminence, please allow me to rest for a bit. It\u0027s been a long day.",
+                            "We must constantly re-evaluate our battle strategies to ensure that our foes can never get the best of us.",
+                            "Everett is a liar. Don\u0027t say I didn\u0027t warn you.",
+                            "Two Paragons make a King Paragon. Two King Paragons make a Gold Paragon. Two Gold Paragons make a Grandpa Paragon.\\n\\nWait, what?",
+                            "Something is amiss. I cannot say what is wrong for certain, but I am unable to shake this feeling of dread."
+                        ],
+    "minDepth":  1,
+    "name":  "Sapphire Paragon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SapphireParagon/overworld_e0.png",
+                                         "images/creature/SapphireParagon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SapphireParagon/overworld_n0.png",
+                                          "images/creature/SapphireParagon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SapphireParagon/overworld_s0.png",
+                                          "images/creature/SapphireParagon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SapphireParagon/overworld_w0.png",
+                                         "images/creature/SapphireParagon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Paragon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  4,
+                       "defense":  24,
+                       "health":  42,
+                       "intelligence":  14,
+                       "speed":  24
+                   },
+    "trait":  47,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

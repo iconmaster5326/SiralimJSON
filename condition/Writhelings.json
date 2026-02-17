@@ -1,11 +1,14 @@
 {
-  "description": "After this minion\u0027s master takes damage from an attack or spell, each {CONDNAME_MINION_WRITHELING} afflicts a random enemy with a random debuff. Maximum of 5 stacks.",
-  "icon": "images/condition/Writhelings.png",
-  "iconResisted": null,
-  "id": 46,
-  "material": null,
-  "name": "Writhelings",
-  "notes": [],
-  "reserved": false,
-  "type": "minion"
+    "description":  "After this minion\u0027s master takes damage from an attack or spell, each {CONDNAME_MINION_WRITHELING} afflicts a random enemy with a random debuff. Maximum of 5 stacks.",
+    "icon":  "images/condition/Writhelings.png",
+    "iconResisted":  null,
+    "id":  46,
+    "material":  null,
+    "name":  "Writhelings",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DryadProliferator/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 86,
-  "item": 552,
-  "lore": "Aeolian listened to the Ents and created the Dryads from the oaks that populated the forests. At first, they were unable to move more than half a mile away from the tree that had given them life.\\n\\nIn the past, it was believed that Dryad Proliferators had the ability to create life from nothing. However, their power only allows them to accelerate the growth of plants, with certain limitations. If they were exceeded, they Dryads would end up consuming themselves and the tree that gave them life.",
-  "menagerieDialog": [
-    "More and more forests are destroyed each year; your kind should be more careful.",
-    "I will show the world what it means to disrespect nature.",
-    "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
-    "I sometimes miss the forest. Can we return there for a visit one day?",
-    "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
-  ],
-  "minDepth": 1,
-  "name": "Dryad Proliferator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DryadProliferator/overworld_e0.png",
-      "images/creature/DryadProliferator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DryadProliferator/overworld_n0.png",
-      "images/creature/DryadProliferator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DryadProliferator/overworld_s0.png",
-      "images/creature/DryadProliferator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DryadProliferator/overworld_w0.png",
-      "images/creature/DryadProliferator/overworld_w1.png"
-    ]
-  },
-  "race": "Dryad",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Shallan)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 22,
-    "health": 29,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 466
+    "battleSprite":  "images/creature/DryadProliferator/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  86,
+    "item":  552,
+    "lore":  "Aeolian listened to the Ents and created the Dryads from the oaks that populated the forests. At first, they were unable to move more than half a mile away from the tree that had given them life.\\n\\nIn the past, it was believed that Dryad Proliferators had the ability to create life from nothing. However, their power only allows them to accelerate the growth of plants, with certain limitations. If they were exceeded, they Dryads would end up consuming themselves and the tree that gave them life.",
+    "menagerieDialog":  [
+                            "More and more forests are destroyed each year; your kind should be more careful.",
+                            "I will show the world what it means to disrespect nature.",
+                            "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
+                            "I sometimes miss the forest. Can we return there for a visit one day?",
+                            "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
+                        ],
+    "minDepth":  1,
+    "name":  "Dryad Proliferator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DryadProliferator/overworld_e0.png",
+                                         "images/creature/DryadProliferator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DryadProliferator/overworld_n0.png",
+                                          "images/creature/DryadProliferator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DryadProliferator/overworld_s0.png",
+                                          "images/creature/DryadProliferator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DryadProliferator/overworld_w0.png",
+                                         "images/creature/DryadProliferator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dryad",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Shallan)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  22,
+                       "health":  29,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  466,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(A ghostly entity pirouettes through the air from behind the treasure and lands, blocking your path with wild but graceful twirls and flourishes. Looks like a fight!)",
-    "(Atop the pile of treasure, the flaming form of a Rift Dancer twirls and dances beautifully. Distracted by the display, you almost fail to notice its allies sneaking up on you!)",
-    "(The Rift Dancer begins a graceful and even beautiful dance... that apparently ends with it kicking you right in the head. Ouch. Your creatures immediately retaliate!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures with {CONDNAME_BUFF_WARD} gain 20% more stats.",
-    "4": "Your creatures with {CONDNAME_BUFF_WARD} have a 25% chance to resist debuffs.",
-    "7": "Your creatures with {CONDNAME_BUFF_WARD} have 30% more {STAT_defense}."
-  },
-  "cards": 7,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    369,
-    370,
-    371,
-    372,
-    373,
-    695,
-    995
-  ],
-  "icon": "images/race/RiftDancer.png",
-  "master": {
-    "costume": 378,
-    "dialog": "Rift Dancers are some of the most graceful creatures in existence. Their unique dances empower their allies, granting them powerful boons that can turn the tide of battle. Let\u0027s see if you can stand up against my Rift Dancer army!",
-    "item": 1229,
-    "name": "Zarveo",
-    "trait": 1481
-  },
-  "name": "Rift Dancer",
-  "notes": [],
-  "skins": [
-    439,
-    440,
-    759,
-    760
-  ]
+    "bossDialog":  [
+                       "(A ghostly entity pirouettes through the air from behind the treasure and lands, blocking your path with wild but graceful twirls and flourishes. Looks like a fight!)",
+                       "(Atop the pile of treasure, the flaming form of a Rift Dancer twirls and dances beautifully. Distracted by the display, you almost fail to notice its allies sneaking up on you!)",
+                       "(The Rift Dancer begins a graceful and even beautiful dance... that apparently ends with it kicking you right in the head. Ouch. Your creatures immediately retaliate!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures with {CONDNAME_BUFF_WARD} gain 20% more stats.",
+                        "4":  "Your creatures with {CONDNAME_BUFF_WARD} have a 25% chance to resist debuffs.",
+                        "7":  "Your creatures with {CONDNAME_BUFF_WARD} have 30% more {STAT_defense}."
+                    },
+    "cards":  7,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      369,
+                      370,
+                      371,
+                      372,
+                      373,
+                      695,
+                      995
+                  ],
+    "icon":  "images/race/RiftDancer.png",
+    "master":  {
+                   "costume":  378,
+                   "dialog":  "Rift Dancers are some of the most graceful creatures in existence. Their unique dances empower their allies, granting them powerful boons that can turn the tide of battle. Let\u0027s see if you can stand up against my Rift Dancer army!",
+                   "item":  1229,
+                   "name":  "Zarveo",
+                   "trait":  1481
+               },
+    "name":  "Rift Dancer",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  439,
+                  440,
+                  759,
+                  760
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

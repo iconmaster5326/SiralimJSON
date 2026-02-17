@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/JackFrost/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1445,
-  "item": 1734,
-  "lore": "An ancient curse created malevolent spirits that rise during snowstorms on the winter solstice. Legends say that hunting them for their carrot noses grants powers, though the carrot itself holds no such magic. However, it does affect their behavior\u00E2\u20AC\u201Dbecause to regrow the carrot, they must feed on the ears, toes, and noses of other creatures.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Jack Frost",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/JackFrost/overworld_e0.png",
-      "images/creature/JackFrost/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/JackFrost/overworld_n0.png",
-      "images/creature/JackFrost/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/JackFrost/overworld_s0.png",
-      "images/creature/JackFrost/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/JackFrost/overworld_w0.png",
-      "images/creature/JackFrost/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 25,
-    "speed": 18
-  },
-  "trait": 2076
+    "battleSprite":  "images/creature/JackFrost/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1445,
+    "item":  1734,
+    "lore":  "An ancient curse created malevolent spirits that rise during snowstorms on the winter solstice. Legends say that hunting them for their carrot noses grants powers, though the carrot itself holds no such magic. However, it does affect their behavior—because to regrow the carrot, they must feed on the ears, toes, and noses of other creatures.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Jack Frost",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/JackFrost/overworld_e0.png",
+                                         "images/creature/JackFrost/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/JackFrost/overworld_n0.png",
+                                          "images/creature/JackFrost/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/JackFrost/overworld_s0.png",
+                                          "images/creature/JackFrost/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/JackFrost/overworld_w0.png",
+                                         "images/creature/JackFrost/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  25,
+                       "speed":  18
+                   },
+    "trait":  2076,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

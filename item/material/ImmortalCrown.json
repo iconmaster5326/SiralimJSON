@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCelestial Fortitude:\nYour creatures cannot take damage that exceeds 20% of their Maximum {STAT_health}. The amount of damage prevented cannot exceed 100% of the creature\u0027s Maximum {STAT_health}.",
-  "icon": "images/item/material/ImmortalCrown.png",
-  "id": 114,
-  "name": "Immortal Crown",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 23
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCelestial Fortitude:\nYour creatures cannot take damage that exceeds 20% of their Maximum {STAT_health}. The amount of damage prevented cannot exceed 100% of the creature\u0027s Maximum {STAT_health}.",
+    "icon":  "images/item/material/ImmortalCrown.png",
+    "id":  114,
+    "name":  "Immortal Crown",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  23,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SkeletonGunslinger/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 322,
-  "item": 228,
-  "lore": "With its face hidden behind a bandana and its hat leaning forward, the Skeleton Gunslinger is able to sneak into a city unnoticed, even when it is under heavy guard. It looks for strong opponents worthy of using its rifles and challenges them to a duel in the middle of the road, and it usually wins. When it needs money, it usually robs large mansions, city halls, or any building that looks profitable enough.",
-  "menagerieDialog": [
-    "I\u0027m glad we stopped to rest. I need to clean my guns.",
-    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
-    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
-    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
-    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
-  ],
-  "minDepth": 1,
-  "name": "Skeleton Gunslinger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SkeletonGunslinger/overworld_e0.png",
-      "images/creature/SkeletonGunslinger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SkeletonGunslinger/overworld_n0.png",
-      "images/creature/SkeletonGunslinger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SkeletonGunslinger/overworld_s0.png",
-      "images/creature/SkeletonGunslinger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SkeletonGunslinger/overworld_w0.png",
-      "images/creature/SkeletonGunslinger/overworld_w1.png"
-    ]
-  },
-  "race": "Skeleton",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Erebyss)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 10,
-    "speed": 25
-  },
-  "trait": 137
+    "battleSprite":  "images/creature/SkeletonGunslinger/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  322,
+    "item":  228,
+    "lore":  "With its face hidden behind a bandana and its hat leaning forward, the Skeleton Gunslinger is able to sneak into a city unnoticed, even when it is under heavy guard. It looks for strong opponents worthy of using its rifles and challenges them to a duel in the middle of the road, and it usually wins. When it needs money, it usually robs large mansions, city halls, or any building that looks profitable enough.",
+    "menagerieDialog":  [
+                            "I\u0027m glad we stopped to rest. I need to clean my guns.",
+                            "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+                            "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+                            "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+                            "(It\u0027s shouting \"YEE-HAW\" while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Skeleton Gunslinger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SkeletonGunslinger/overworld_e0.png",
+                                         "images/creature/SkeletonGunslinger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SkeletonGunslinger/overworld_n0.png",
+                                          "images/creature/SkeletonGunslinger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SkeletonGunslinger/overworld_s0.png",
+                                          "images/creature/SkeletonGunslinger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SkeletonGunslinger/overworld_w0.png",
+                                         "images/creature/SkeletonGunslinger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Skeleton",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Erebyss)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  10,
+                       "speed":  25
+                   },
+    "trait":  137,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

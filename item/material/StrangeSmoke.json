@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nErratic:\nAt the start of battle, one of your creatures is chosen to have 150% more stats (other than {STAT_health}) for the rest of the battle.",
-  "icon": "images/item/material/StrangeSmoke.png",
-  "id": 1372,
-  "name": "Strange Smoke",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1679
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nErratic:\nAt the start of battle, one of your creatures is chosen to have 150% more stats (other than {STAT_health}) for the rest of the battle.",
+    "icon":  "images/item/material/StrangeSmoke.png",
+    "id":  1372,
+    "name":  "Strange Smoke",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1679,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

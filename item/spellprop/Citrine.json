@@ -1,18 +1,21 @@
 {
-  "description": "This item can be taken to the Enchanter to add the following properties to your Spell Gems:\\n\\nCast On Attack, Cast On Defend, Cast On Provoke, Cast On Heal",
-  "icon": "images/item/spellprop/Citrine.png",
-  "id": 7,
-  "name": "Citrine",
-  "notes": [],
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "spellProperties": [
-    24,
-    25,
-    26,
-    27
-  ]
+    "description":  "This item can be taken to the Enchanter to add the following properties to your Spell Gems:\\n\\nCast On Attack, Cast On Defend, Cast On Provoke, Cast On Heal",
+    "icon":  "images/item/spellprop/Citrine.png",
+    "id":  7,
+    "name":  "Citrine",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "spellProperties":  [
+                            24,
+                            25,
+                            26,
+                            27
+                        ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spellPropertyItem.yaml"
 }

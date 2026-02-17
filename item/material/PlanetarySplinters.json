@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJailbreak:\nYour creatures have 50% more {STAT_defense}. This trait does not stack.",
-  "icon": "images/item/material/PlanetarySplinters.png",
-  "id": 123,
-  "name": "Planetary Splinters",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 32
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJailbreak:\nYour creatures have 50% more {STAT_defense}. This trait does not stack.",
+    "icon":  "images/item/material/PlanetarySplinters.png",
+    "id":  123,
+    "name":  "Planetary Splinters",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  32,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

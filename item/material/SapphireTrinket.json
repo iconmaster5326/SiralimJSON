@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNirvana:\nIf your creatures have {ACTION_cast} a total of 7 or more spells in the current battle, this creature\u0027s spells are 50% more potent and no longer consume {STAT_charges}.",
-  "icon": "images/item/material/SapphireTrinket.png",
-  "id": 929,
-  "name": "Sapphire Trinket",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1201
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNirvana:\nIf your creatures have {ACTION_cast} a total of 7 or more spells in the current battle, this creature\u0027s spells are 50% more potent and no longer consume {STAT_charges}.",
+    "icon":  "images/item/material/SapphireTrinket.png",
+    "id":  929,
+    "name":  "Sapphire Trinket",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1201,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RoaringBasilisk/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 594,
-  "item": 712,
-  "lore": "The mane and scales of the Basilisks make them greatly resilient. If they are attacked from behind, they lean on their claws and deliver a powerful whiplash with the rest of their bodies.\\n\\nRoaring Basilisks have the most powerful voice of their kind. When they are young and cannot control their power, their voice makes everyone around them faint. It takes these creatures years of practice to avoid knocking out their allies as well as their enemies.",
-  "menagerieDialog": [
-    "(It\u0027s crouched down, staring blankly into nothingness.)",
-    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
-    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
-    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
-    "(It bows its head and turns away. It must be shy.)"
-  ],
-  "minDepth": 1,
-  "name": "Roaring Basilisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RoaringBasilisk/overworld_e0.png",
-      "images/creature/RoaringBasilisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RoaringBasilisk/overworld_n0.png",
-      "images/creature/RoaringBasilisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RoaringBasilisk/overworld_s0.png",
-      "images/creature/RoaringBasilisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RoaringBasilisk/overworld_w0.png",
-      "images/creature/RoaringBasilisk/overworld_w1.png"
-    ]
-  },
-  "race": "Basilisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vulcanar)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 651
+    "battleSprite":  "images/creature/RoaringBasilisk/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  594,
+    "item":  712,
+    "lore":  "The mane and scales of the Basilisks make them greatly resilient. If they are attacked from behind, they lean on their claws and deliver a powerful whiplash with the rest of their bodies.\\n\\nRoaring Basilisks have the most powerful voice of their kind. When they are young and cannot control their power, their voice makes everyone around them faint. It takes these creatures years of practice to avoid knocking out their allies as well as their enemies.",
+    "menagerieDialog":  [
+                            "(It\u0027s crouched down, staring blankly into nothingness.)",
+                            "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+                            "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+                            "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+                            "(It bows its head and turns away. It must be shy.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Roaring Basilisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RoaringBasilisk/overworld_e0.png",
+                                         "images/creature/RoaringBasilisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RoaringBasilisk/overworld_n0.png",
+                                          "images/creature/RoaringBasilisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RoaringBasilisk/overworld_s0.png",
+                                          "images/creature/RoaringBasilisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RoaringBasilisk/overworld_w0.png",
+                                         "images/creature/RoaringBasilisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Basilisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vulcanar)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  651,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

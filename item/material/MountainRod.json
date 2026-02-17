@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPreacher of Stone:\nAt the start of this creature\u0027s turn, it increases other creatures\u0027 {STAT_defense} by 15% of this creature\u0027s {STAT_defense}.",
-  "icon": "images/item/material/MountainRod.png",
-  "id": 119,
-  "name": "Mountain Rod",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 28
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPreacher of Stone:\nAt the start of this creature\u0027s turn, it increases your creatures\u0027 {STAT_defense} by 15% of this creature\u0027s {STAT_defense}.",
+    "icon":  "images/item/material/MountainRod.png",
+    "id":  119,
+    "name":  "Mountain Rod",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  28,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

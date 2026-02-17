@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Elementasaurs:\nIf all the creatures in your party are {RACE_Elementasaur}s, they are resistant to debuffs and at the start of battle, they share the debuffs referenced in their traits with each other. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheElementasaur.png",
-  "id": 1847,
-  "name": "Sigil of the Elementasaur",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2199
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Elementasaurs:\nIf all the creatures in your party are {RACE_Elementasaur}s, they are resistant to debuffs and at the start of battle, they share the debuffs referenced in their traits with each other. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheElementasaur.png",
+    "id":  1847,
+    "name":  "Sigil of the Elementasaur",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2199,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

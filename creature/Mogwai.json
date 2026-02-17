@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Mogwai/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 793,
-  "item": 1088,
-  "lore": "A group of veteran explorers found a frozen creature one day while traveling through the Frostbite Caverns in Sithicus. They took it with them and built a camp. While they debated about its possible species around the bonfire, the block of ice began to crack and the creature emerged. They did not understand how it could have survived or how the ice had broken, but it seemed like a kind and loving creature, so the explorers went to sleep without a worry. Upon awakening, they realized the creature had stolen all their money, as well as important tools and climbing gear. With great difficulty, they returned to the capital and looked for information about what had happened to them. They had been lucky. A student at the Magic University of Andolin explained that the creature was believed to be extinct, in part because its extermination had been ordered. This creature is kind and gentle while it is cold, and it can use ice to enter a state of stasis indefinitely, but when it gets warm it becomes a deceitful, malicious being who sometimes kills others for fun.",
-  "menagerieDialog": [
-    "(It seems to be in a bad mood. It might be best to leave it alone and let it rest for a while.)",
-    "Wa-hey! Hope you\u0027re having a lovely day!",
-    "(Make no mistake - this is the most ornery creature in all of Rodia. No amount of magic will keep it from playing tricks on you and your creatures.)",
-    "(It\u0027s busy pulling apart Nortah\u0027s hat - the little trickster!)",
-    "(Nortah and Everett have reported that this creature has been causing mischief all around the castle. Surely they\u0027re exaggerating their claims.)"
-  ],
-  "minDepth": 1,
-  "name": "Mogwai",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Mogwai/overworld_e0.png",
-      "images/creature/Mogwai/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Mogwai/overworld_n0.png",
-      "images/creature/Mogwai/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Mogwai/overworld_s0.png",
-      "images/creature/Mogwai/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Mogwai/overworld_w0.png",
-      "images/creature/Mogwai/overworld_w1.png"
-    ]
-  },
-  "race": "Mogwai",
-  "reserved": false,
-  "skins": [
-    557,
-    558
-  ],
-  "sources": [
-    {
-      "desc": "Nether Realm",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1211
+    "battleSprite":  "images/creature/Mogwai/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  793,
+    "item":  1088,
+    "lore":  "A group of veteran explorers found a frozen creature one day while traveling through the Frostbite Caverns in Sithicus. They took it with them and built a camp. While they debated about its possible species around the bonfire, the block of ice began to crack and the creature emerged. They did not understand how it could have survived or how the ice had broken, but it seemed like a kind and loving creature, so the explorers went to sleep without a worry. Upon awakening, they realized the creature had stolen all their money, as well as important tools and climbing gear. With great difficulty, they returned to the capital and looked for information about what had happened to them. They had been lucky. A student at the Magic University of Andolin explained that the creature was believed to be extinct, in part because its extermination had been ordered. This creature is kind and gentle while it is cold, and it can use ice to enter a state of stasis indefinitely, but when it gets warm it becomes a deceitful, malicious being who sometimes kills others for fun.",
+    "menagerieDialog":  [
+                            "(It seems to be in a bad mood. It might be best to leave it alone and let it rest for a while.)",
+                            "Wa-hey! Hope you\u0027re having a lovely day!",
+                            "(Make no mistake - this is the most ornery creature in all of Rodia. No amount of magic will keep it from playing tricks on you and your creatures.)",
+                            "(It\u0027s busy pulling apart Nortah\u0027s hat - the little trickster!)",
+                            "(Nortah and Everett have reported that this creature has been causing mischief all around the castle. Surely they\u0027re exaggerating their claims.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mogwai",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Mogwai/overworld_e0.png",
+                                         "images/creature/Mogwai/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Mogwai/overworld_n0.png",
+                                          "images/creature/Mogwai/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Mogwai/overworld_s0.png",
+                                          "images/creature/Mogwai/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Mogwai/overworld_w0.png",
+                                         "images/creature/Mogwai/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mogwai",
+    "reserved":  false,
+    "skins":  [
+                  557,
+                  558
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nether Realm",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1211,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

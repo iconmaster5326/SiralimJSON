@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ForgottenDisciple/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1253,
-  "item": 1443,
-  "lore": "In addition to the worship of the Gods, there are minor alternative religions without any real divine representation. However, a sufficient number of believers can succeed in materializing less powerful creatures through unwavering faith. This is the case of the Forgotten Disciple, a creature that the villagers of a small town lost in the mountains treated like a deity. However, over many generations, the locals began to migrate to larger cities and towns, until the Forgotten Disciple saw the last adherents of the faith that had brought him to life die of old age. But that could not be the end. The Forgotten Disciple concluded that it he ate the corpses of its followers, the faith would re-emerge. Naturally, it had no effect, so it decided to go out in search of more corpses, in hopes of achieving its goal.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Forgotten Disciple",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ForgottenDisciple/overworld_e0.png",
-      "images/creature/ForgottenDisciple/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ForgottenDisciple/overworld_n0.png",
-      "images/creature/ForgottenDisciple/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ForgottenDisciple/overworld_s0.png",
-      "images/creature/ForgottenDisciple/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ForgottenDisciple/overworld_w0.png",
-      "images/creature/ForgottenDisciple/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1751
+    "battleSprite":  "images/creature/ForgottenDisciple/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1253,
+    "item":  1443,
+    "lore":  "In addition to the worship of the Gods, there are minor alternative religions without any real divine representation. However, a sufficient number of believers can succeed in materializing less powerful creatures through unwavering faith. This is the case of the Forgotten Disciple, a creature that the villagers of a small town lost in the mountains treated like a deity. However, over many generations, the locals began to migrate to larger cities and towns, until the Forgotten Disciple saw the last adherents of the faith that had brought it to life die of old age. But that could not be the end. The Forgotten Disciple concluded that if it ate the corpses of its followers, the faith would re-emerge. Naturally, it had no effect, so it decided to go out in search of more corpses, in hopes of achieving its goal.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Forgotten Disciple",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ForgottenDisciple/overworld_e0.png",
+                                         "images/creature/ForgottenDisciple/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ForgottenDisciple/overworld_n0.png",
+                                          "images/creature/ForgottenDisciple/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ForgottenDisciple/overworld_s0.png",
+                                          "images/creature/ForgottenDisciple/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ForgottenDisciple/overworld_w0.png",
+                                         "images/creature/ForgottenDisciple/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1751,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

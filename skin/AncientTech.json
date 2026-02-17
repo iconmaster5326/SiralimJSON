@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/AncientTech/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 669,
-  "name": "Ancient Tech",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/AncientTech/overworld_e0.png",
-      "images/skin/AncientTech/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/AncientTech/overworld_n0.png",
-      "images/skin/AncientTech/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/AncientTech/overworld_s0.png",
-      "images/skin/AncientTech/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/AncientTech/overworld_w0.png",
-      "images/skin/AncientTech/overworld_w1.png"
-    ]
-  },
-  "race": "Electropod",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/AncientTech/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  669,
+    "name":  "Ancient Tech",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/AncientTech/overworld_e0.png",
+                                         "images/skin/AncientTech/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/AncientTech/overworld_n0.png",
+                                          "images/skin/AncientTech/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/AncientTech/overworld_s0.png",
+                                          "images/skin/AncientTech/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/AncientTech/overworld_w0.png",
+                                         "images/skin/AncientTech/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Electropod",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

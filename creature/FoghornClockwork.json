@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FoghornClockwork/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1178,
-  "item": 1564,
-  "lore": "Over the years, the people of Kiaces and other nations, especially those that are far from Rodia, have changed their lifestyle, adapting it to the advantages steam technology provides.\\n\\nFoghorn Clockworks camouflage themselves by standing motionless close to the gears found throughout Damarel. Their purpose is to ensure everything works correctly, and also to alert Battle Clockworks to the presence of intruders. In any case, they are also capable of dealing with threats, which they often do by letting themselves fall on them.",
-  "menagerieDialog": [
-    "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
-    "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
-    "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
-    "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
-    "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
-  ],
-  "minDepth": 1,
-  "name": "Foghorn Clockwork",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FoghornClockwork/overworld_e0.png",
-      "images/creature/FoghornClockwork/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FoghornClockwork/overworld_n0.png",
-      "images/creature/FoghornClockwork/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FoghornClockwork/overworld_s0.png",
-      "images/creature/FoghornClockwork/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FoghornClockwork/overworld_w0.png",
-      "images/creature/FoghornClockwork/overworld_w1.png"
-    ]
-  },
-  "race": "Clockwork",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1901
+    "battleSprite":  "images/creature/FoghornClockwork/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1178,
+    "item":  1564,
+    "lore":  "Over the years, the people of Kiaces and other nations, especially those that are far from Rodia, have changed their lifestyle, adapting it to the advantages steam technology provides.\\n\\nFoghorn Clockworks camouflage themselves by standing motionless close to the gears found throughout Damarel. Their purpose is to ensure everything works correctly, and also to alert Battle Clockworks to the presence of intruders. In any case, they are also capable of dealing with threats, which they often do by letting themselves fall on them.",
+    "menagerieDialog":  [
+                            "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
+                            "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
+                            "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
+                            "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
+                            "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Foghorn Clockwork",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FoghornClockwork/overworld_e0.png",
+                                         "images/creature/FoghornClockwork/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FoghornClockwork/overworld_n0.png",
+                                          "images/creature/FoghornClockwork/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FoghornClockwork/overworld_s0.png",
+                                          "images/creature/FoghornClockwork/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FoghornClockwork/overworld_w0.png",
+                                         "images/creature/FoghornClockwork/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clockwork",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1901,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

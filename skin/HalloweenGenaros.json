@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenGenaros/battle.png",
-  "creator": null,
-  "creature": 1098,
-  "id": 610,
-  "name": "Halloween Genaros",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenGenaros/overworld_e0.png",
-      "images/skin/HalloweenGenaros/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenGenaros/overworld_n0.png",
-      "images/skin/HalloweenGenaros/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenGenaros/overworld_s0.png",
-      "images/skin/HalloweenGenaros/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenGenaros/overworld_w0.png",
-      "images/skin/HalloweenGenaros/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenGenaros/battle.png",
+    "creator":  null,
+    "creature":  1098,
+    "id":  610,
+    "name":  "Halloween Genaros",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenGenaros/overworld_e0.png",
+                                         "images/skin/HalloweenGenaros/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenGenaros/overworld_n0.png",
+                                          "images/skin/HalloweenGenaros/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenGenaros/overworld_s0.png",
+                                          "images/skin/HalloweenGenaros/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenGenaros/overworld_w0.png",
+                                         "images/skin/HalloweenGenaros/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

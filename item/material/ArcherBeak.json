@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVolley:\nYour {RACE_Griffon}s have an independent 20% chance to deal critical damage with attacks for each {RACE_Griffon} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/ArcherBeak.png",
-  "id": 825,
-  "name": "Archer Beak",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 852
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVolley:\nYour {RACE_Griffon}s have an independent 20% chance to deal critical damage with attacks for each {RACE_Griffon} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/ArcherBeak.png",
+    "id":  825,
+    "name":  "Archer Beak",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  852,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

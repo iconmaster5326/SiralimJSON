@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AngelSoulslayer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 130,
-  "item": 102,
-  "lore": "The Angels were created by the deities of light at the time when humans were taking their first steps in the world. They were the first warriors and fought against a dark power that threatened all existence at the dawn of creation.\\n\\nThe Angel Soulslayer is able to snatch the soul of its opponent for a few minutes, causing a feeling of emptiness and depersonalization that has led many of its opponents to commit suicide.",
-  "menagerieDialog": [
-    "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
-    "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
-    "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
-    "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
-    "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
-  ],
-  "minDepth": 1,
-  "name": "Angel Soulslayer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AngelSoulslayer/overworld_e0.png",
-      "images/creature/AngelSoulslayer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AngelSoulslayer/overworld_n0.png",
-      "images/creature/AngelSoulslayer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AngelSoulslayer/overworld_s0.png",
-      "images/creature/AngelSoulslayer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AngelSoulslayer/overworld_w0.png",
-      "images/creature/AngelSoulslayer/overworld_w1.png"
-    ]
-  },
-  "race": "Angel",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Surathli)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 11
+    "battleSprite":  "images/creature/AngelSoulslayer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  130,
+    "item":  102,
+    "lore":  "The Angels were created by the deities of light at the time when humans were taking their first steps in the world. They were the first warriors and fought against a dark power that threatened all existence at the dawn of creation.\\n\\nThe Angel Soulslayer is able to snatch the soul of its opponent for a few minutes, causing a feeling of emptiness and depersonalization that has led many of its opponents to commit suicide.",
+    "menagerieDialog":  [
+                            "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
+                            "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
+                            "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
+                            "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
+                            "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Angel Soulslayer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AngelSoulslayer/overworld_e0.png",
+                                         "images/creature/AngelSoulslayer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AngelSoulslayer/overworld_n0.png",
+                                          "images/creature/AngelSoulslayer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AngelSoulslayer/overworld_s0.png",
+                                          "images/creature/AngelSoulslayer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AngelSoulslayer/overworld_w0.png",
+                                         "images/creature/AngelSoulslayer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Angel",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Surathli)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  11,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

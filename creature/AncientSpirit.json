@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/AncientSpirit/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 261,
-  "item": 106,
-  "lore": "The existence of the Spirits is subject to the use of magic and a series of conditions that vary according to the subspecies. They are usually merciful creatures who take care of any beings they encounter, but their lack of intelligence can sometimes lead them to support evil causes.\\n\\nWhen a Spirit has lived for five hundred years it becomes an Ancient Spirit. Thanks to its experience, it has a vast knowledge of magic and many spells that manifest spontaneously when someone tries to save an ally.",
-  "menagerieDialog": [
-    "(Something about this creature\u0027s presence is particularly comforting.)",
-    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
-    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
-    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
-    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Ancient Spirit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AncientSpirit/overworld_e0.png",
-      "images/creature/AncientSpirit/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AncientSpirit/overworld_n0.png",
-      "images/creature/AncientSpirit/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AncientSpirit/overworld_s0.png",
-      "images/creature/AncientSpirit/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AncientSpirit/overworld_w0.png",
-      "images/creature/AncientSpirit/overworld_w1.png"
-    ]
-  },
-  "race": "Spirit",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 15
+    "battleSprite":  "images/creature/AncientSpirit/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  261,
+    "item":  106,
+    "lore":  "The existence of the Spirits is subject to the use of magic and a series of conditions that vary according to the subspecies. They are usually merciful creatures who take care of any beings they encounter, but their lack of intelligence can sometimes lead them to support evil causes.\\n\\nWhen a Spirit has lived for five hundred years it becomes an Ancient Spirit. Thanks to its experience, it has a vast knowledge of magic and many spells that manifest spontaneously when someone tries to save an ally.",
+    "menagerieDialog":  [
+                            "(Something about this creature\u0027s presence is particularly comforting.)",
+                            "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+                            "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+                            "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+                            "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ancient Spirit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AncientSpirit/overworld_e0.png",
+                                         "images/creature/AncientSpirit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AncientSpirit/overworld_n0.png",
+                                          "images/creature/AncientSpirit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AncientSpirit/overworld_s0.png",
+                                          "images/creature/AncientSpirit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AncientSpirit/overworld_w0.png",
+                                         "images/creature/AncientSpirit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spirit",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  15,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

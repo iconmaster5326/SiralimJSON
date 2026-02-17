@@ -1,44 +1,47 @@
 {
-  "bossDialog": [
-    "(As you begin to notice that the room is unusually dark, the shadows in the room all begin to converge on a single point. You ready your creatures for a fight.)",
-    "(Mocking, creepy laughter echoes around the room, creating a cacophonous ambience as a being of living darkness manifests before you, ready to attack!)",
-    "(One of your creatures suddenly shoves into you, barging you aside! As you turn to admonish it, you notice it grappling with a creature that had been posing as your shadow to ambush you!)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies with {CONDNAME_DEBUFF_FEAR} take 10% more damage.",
-    "4": "Enemies with {CONDNAME_DEBUFF_FEAR} have 15% less {STAT_speed}.",
-    "6": "Enemies with {CONDNAME_DEBUFF_FEAR} have 15% less {STAT_defense}."
-  },
-  "cards": 6,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    838,
-    839,
-    840,
-    841,
-    842,
-    843
-  ],
-  "icon": "images/race/Shadow.png",
-  "master": {
-    "costume": 385,
-    "dialog": "Your creatures will be shaking in their shoes when they see my Shadows in action! And if they don\u0027t have shoes, well, they\u0027ll just be really scared.",
-    "item": 1210,
-    "name": "Roland",
-    "trait": 1488
-  },
-  "name": "Shadow",
-  "notes": [],
-  "skins": [
-    15,
-    16,
-    17,
-    18,
-    19,
-    186,
-    492,
-    493,
-    771
-  ]
+    "bossDialog":  [
+                       "(As you begin to notice that the room is unusually dark, the shadows in the room all begin to converge on a single point. You ready your creatures for a fight.)",
+                       "(Mocking, creepy laughter echoes around the room, creating a cacophonous ambience as a being of living darkness manifests before you, ready to attack!)",
+                       "(One of your creatures suddenly shoves into you, barging you aside! As you turn to admonish it, you notice it grappling with a creature that had been posing as your shadow to ambush you!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies with {CONDNAME_DEBUFF_FEAR} take 10% more damage.",
+                        "4":  "Enemies with {CONDNAME_DEBUFF_FEAR} have 15% less {STAT_speed}.",
+                        "6":  "Enemies with {CONDNAME_DEBUFF_FEAR} have 15% less {STAT_defense}."
+                    },
+    "cards":  6,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      838,
+                      839,
+                      840,
+                      841,
+                      842,
+                      843
+                  ],
+    "icon":  "images/race/Shadow.png",
+    "master":  {
+                   "costume":  385,
+                   "dialog":  "Your creatures will be shaking in their shoes when they see my Shadows in action! And if they don\u0027t have shoes, well, they\u0027ll just be really scared.",
+                   "item":  1210,
+                   "name":  "Roland",
+                   "trait":  1488
+               },
+    "name":  "Shadow",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  186,
+                  492,
+                  493,
+                  771
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

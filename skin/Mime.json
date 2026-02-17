@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Mime/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 807,
-  "name": "Mime",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Mime/overworld_e0.png",
-      "images/skin/Mime/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Mime/overworld_n0.png",
-      "images/skin/Mime/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Mime/overworld_s0.png",
-      "images/skin/Mime/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Mime/overworld_w0.png",
-      "images/skin/Mime/overworld_w1.png"
-    ]
-  },
-  "race": "Angel",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Mime/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  807,
+    "name":  "Mime",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Mime/overworld_e0.png",
+                                         "images/skin/Mime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Mime/overworld_n0.png",
+                                          "images/skin/Mime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Mime/overworld_s0.png",
+                                          "images/skin/Mime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Mime/overworld_w0.png",
+                                         "images/skin/Mime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Angel",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

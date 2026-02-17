@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "AAAAAH! It\u0027s a madge! ..maych? maige? ...wizard. IT\u0027S A WIZARD! ALLIES, HELP ME!",
-    "Hey, you wanna see something awesome? DON\u0027T LOOK IN A MIRROR, THEN!\\n\\n(You decide to attack while the Imling is laughing uproariously. Totally not out of wounded pride or anything, mind you.)",
-    "Oh cripes, what\u0027s THAT?!\\n(The Imling points behind you. You shake your head in disbelief, until you hear the footsteps of the Imling\u0027s allies behind you...)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_defending}.",
-    "5": "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_defending}.",
-    "8": "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_defending}."
-  },
-  "cards": 8,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    343,
-    344,
-    345,
-    346,
-    347,
-    348,
-    701,
-    752
-  ],
-  "icon": "images/race/Imling.png",
-  "master": {
-    "costume": 349,
-    "dialog": "Imlings are extremely intelligent creatures that are known for their devious battle tactics. However, they\u0027re quite frail and can\u0027t take too many hits before they fall, so they rely on their massive Imler partners for protection. Let me show you how it\u0027s done!",
-    "item": 1245,
-    "name": "Tad",
-    "trait": 1450
-  },
-  "name": "Imling",
-  "notes": [],
-  "skins": [
-    97,
-    333,
-    373,
-    761
-  ]
+    "bossDialog":  [
+                       "AAAAAH! It\u0027s a madge! ..maych? maige? ...wizard. IT\u0027S A WIZARD! ALLIES, HELP ME!",
+                       "Hey, you wanna see something awesome? DON\u0027T LOOK IN A MIRROR, THEN!\\n\\n(You decide to attack while the Imling is laughing uproariously. Totally not out of wounded pride or anything, mind you.)",
+                       "Oh cripes, what\u0027s THAT?!\\n(The Imling points behind you. You shake your head in disbelief, until you hear the footsteps of the Imling\u0027s allies behind you...)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_defending}.",
+                        "5":  "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_defending}.",
+                        "8":  "Your creatures have 10% more {STAT_defense} while they\u0027re {ACTION_defending}."
+                    },
+    "cards":  8,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      343,
+                      344,
+                      345,
+                      346,
+                      347,
+                      348,
+                      701,
+                      752
+                  ],
+    "icon":  "images/race/Imling.png",
+    "master":  {
+                   "costume":  349,
+                   "dialog":  "Imlings are extremely intelligent creatures that are known for their devious battle tactics. However, they\u0027re quite frail and can\u0027t take too many hits before they fall, so they rely on their massive Imler partners for protection. Let me show you how it\u0027s done!",
+                   "item":  1245,
+                   "name":  "Tad",
+                   "trait":  1450
+               },
+    "name":  "Imling",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  97,
+                  333,
+                  373,
+                  761
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

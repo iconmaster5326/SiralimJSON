@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DeepClutcher/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 986,
-  "item": 1312,
-  "lore": "The Deep Clutcher catches its enemies by using its tentacles, which can be more effective than the usual fingers of these creatures. Even if some creatures can easily slip away from these tentacles, they will start to move more slowly due to the paralyzing poison they secrete.",
-  "menagerieDialog": [
-    "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
-    "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
-    "(It\u0027s impatiently tapping the floor with its fingertips.)",
-    "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
-    "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
-  ],
-  "minDepth": 1,
-  "name": "Deep Clutcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DeepClutcher/overworld_e0.png",
-      "images/creature/DeepClutcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DeepClutcher/overworld_n0.png",
-      "images/creature/DeepClutcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DeepClutcher/overworld_s0.png",
-      "images/creature/DeepClutcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DeepClutcher/overworld_w0.png",
-      "images/creature/DeepClutcher/overworld_w1.png"
-    ]
-  },
-  "race": "Clutcher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Death Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 15,
-    "health": 38,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 1560
+    "battleSprite":  "images/creature/DeepClutcher/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  986,
+    "item":  1312,
+    "lore":  "The Deep Clutcher catches its enemies by using its tentacles, which can be more effective than the usual fingers of these creatures. Even if some creatures can easily slip away from these tentacles, they will start to move more slowly due to the paralyzing poison they secrete.",
+    "menagerieDialog":  [
+                            "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
+                            "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
+                            "(It\u0027s impatiently tapping the floor with its fingertips.)",
+                            "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
+                            "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Deep Clutcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DeepClutcher/overworld_e0.png",
+                                         "images/creature/DeepClutcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DeepClutcher/overworld_n0.png",
+                                          "images/creature/DeepClutcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DeepClutcher/overworld_s0.png",
+                                          "images/creature/DeepClutcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DeepClutcher/overworld_w0.png",
+                                         "images/creature/DeepClutcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clutcher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Death Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  15,
+                       "health":  38,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  1560,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

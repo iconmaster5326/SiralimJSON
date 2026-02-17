@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MysteryMucus/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 913,
-  "item": 959,
-  "lore": "A single tablespoon of the substance Concoctions are made of is enough to fatally poison more than 10 individuals.\\n\\nThe Mystery Mucus carries a barrel, but nobody knows what could be inside. It is literally a mystery! Some less-than-bright smugglers have tried to use them to transport illegal goods, but unfortunately for them, the trail they leave behind is strong evidence of their activities.",
-  "menagerieDialog": [
-    "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
-    "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
-    "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
-    "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
-    "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
-  ],
-  "minDepth": 1,
-  "name": "Mystery Mucus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MysteryMucus/overworld_e0.png",
-      "images/creature/MysteryMucus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MysteryMucus/overworld_n0.png",
-      "images/creature/MysteryMucus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MysteryMucus/overworld_s0.png",
-      "images/creature/MysteryMucus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MysteryMucus/overworld_w0.png",
-      "images/creature/MysteryMucus/overworld_w1.png"
-    ]
-  },
-  "race": "Concoction",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 19,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 33,
-    "intelligence": 21,
-    "speed": 11
-  },
-  "trait": 1171
+    "battleSprite":  "images/creature/MysteryMucus/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  913,
+    "item":  959,
+    "lore":  "A single tablespoon of the substance Concoctions are made of is enough to fatally poison more than 10 individuals.\\n\\nThe Mystery Mucus carries a barrel, but nobody knows what could be inside. It is literally a mystery! Some less-than-bright smugglers have tried to use them to transport illegal goods, but unfortunately for them, the trail they leave behind is strong evidence of their activities.",
+    "menagerieDialog":  [
+                            "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
+                            "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
+                            "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
+                            "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
+                            "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mystery Mucus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MysteryMucus/overworld_e0.png",
+                                         "images/creature/MysteryMucus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MysteryMucus/overworld_n0.png",
+                                          "images/creature/MysteryMucus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MysteryMucus/overworld_s0.png",
+                                          "images/creature/MysteryMucus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MysteryMucus/overworld_w0.png",
+                                         "images/creature/MysteryMucus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Concoction",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  33,
+                       "intelligence":  21,
+                       "speed":  11
+                   },
+    "trait":  1171,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

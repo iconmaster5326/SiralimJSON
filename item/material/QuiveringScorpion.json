@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParry:\nAt the start of this creature\u0027s turn, it gains {STAT_defense} equal to 50% of its {STAT_attack}.",
-  "icon": "images/item/material/QuiveringScorpion.png",
-  "id": 388,
-  "name": "Quivering Scorpion",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 298
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParry:\nAt the start of this creature\u0027s turn, it gains {STAT_defense} equal to 50% of its {STAT_attack}.",
+    "icon":  "images/item/material/QuiveringScorpion.png",
+    "id":  388,
+    "name":  "Quivering Scorpion",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  298,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

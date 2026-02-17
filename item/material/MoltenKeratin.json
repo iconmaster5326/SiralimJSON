@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMolten Spray:\nThis creature always has {CONDNAME_DEBUFF_SCORN}. After your creatures with {CONDNAME_DEBUFF_SCORN} {ACTION_attack}, they deal damage to each enemy equal to 50% of the damage dealt. This trait does not stack.",
-  "icon": "images/item/material/MoltenKeratin.png",
-  "id": 1778,
-  "name": "Molten Keratin",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2131
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMolten Spray:\nThis creature always has {CONDNAME_DEBUFF_SCORN}. After your creatures with {CONDNAME_DEBUFF_SCORN} {ACTION_attack}, they deal damage to each enemy equal to 50% of the damage dealt. This trait does not stack.",
+    "icon":  "images/item/material/MoltenKeratin.png",
+    "id":  1778,
+    "name":  "Molten Keratin",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2131,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

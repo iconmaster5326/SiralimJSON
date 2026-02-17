@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMetaphor:\nAfter an enemy takes damage from {CONDNAME_DEBUFF_POISON}, {CONDNAME_DEBUFF_BURNED}, or {CONDNAME_DEBUFF_BLIGHT}, your creatures recover {STAT_health} equal to 35% of the damage dealt. This trait does not stack.",
-  "icon": "images/item/material/SoothsayerScalpel.png",
-  "id": 733,
-  "name": "Soothsayer Scalpel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 672
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMetaphor:\nAfter an enemy takes damage from {CONDNAME_DEBUFF_POISON}, {CONDNAME_DEBUFF_BURNED}, or {CONDNAME_DEBUFF_BLIGHT}, your creatures recover {STAT_health} equal to 35% of the damage dealt. This trait does not stack.",
+    "icon":  "images/item/material/SoothsayerScalpel.png",
+    "id":  733,
+    "name":  "Soothsayer Scalpel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  672,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

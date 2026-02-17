@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBig Wings:\nIf this creature\u0027s {STAT_attack} and {STAT_intelligence} are within 100% of each other, it always deals critical damage and enemies cannot dodge its attacks.",
-  "icon": "images/item/material/WindridersToken.png",
-  "id": 1801,
-  "name": "Windrider\u0027s Token",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2154
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBig Wings:\nIf this creature\u0027s {STAT_attack} and {STAT_intelligence} are within 100% of each other, it always deals critical damage and enemies cannot dodge its attacks.",
+    "icon":  "images/item/material/WindridersToken.png",
+    "id":  1801,
+    "name":  "Windrider\u0027s Token",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2154,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

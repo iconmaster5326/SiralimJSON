@@ -1,51 +1,60 @@
 {
-  "battleSprite": "images/creature/Xandor/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1357,
-  "item": null,
-  "lore": "A twisted rumor suggests that when one of Hydranox\u0027s heads is severed, it transforms into Xandor. This False God is the result of dark, forbidden rituals and is not capable of reproduction. Created from part of Hydranox\u0027s power, Xandor serves as a steward to this corrupted force, but it will not hesitate to kill anyone who dares approach its lair.",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Xandor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Xandor/overworld_e0.png",
-      "images/creature/Xandor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Xandor/overworld_n0.png",
-      "images/creature/Xandor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Xandor/overworld_s0.png",
-      "images/creature/Xandor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Xandor/overworld_w0.png",
-      "images/creature/Xandor/overworld_w1.png"
-    ]
-  },
-  "race": "False Godspawn",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 24
-  },
-  "trait": 2093
+    "battleSprite":  "images/creature/Xandor/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1357,
+    "item":  null,
+    "lore":  "A twisted rumor suggests that when one of Hydranox\u0027s heads is severed, it transforms into Xandor. This False God is the result of dark, forbidden rituals and is not capable of reproduction. Created from part of Hydranox\u0027s power, Xandor serves as a steward to this corrupted force, but it will not hesitate to kill anyone who dares approach its lair.",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Xandor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Xandor/overworld_e0.png",
+                                         "images/creature/Xandor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Xandor/overworld_n0.png",
+                                          "images/creature/Xandor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Xandor/overworld_s0.png",
+                                          "images/creature/Xandor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Xandor/overworld_w0.png",
+                                         "images/creature/Xandor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "False Godspawn",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  24
+                   },
+    "trait":  2093,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

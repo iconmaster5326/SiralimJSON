@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies with {CONDNAME_DEBUFF_BOMB} have 20% less stats (excluding {STAT_health}).",
-  "icon": "images/perk/HeatDistortion.png",
-  "id": 578,
-  "maxRanks": 1,
-  "name": "Heat Distortion",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 36
+    "anointable":  true,
+    "description":  "Enemies with {CONDNAME_DEBUFF_BOMB} have 20% less stats (excluding {STAT_health}).",
+    "icon":  "images/perk/HeatDistortion.png",
+    "id":  578,
+    "maxRanks":  1,
+    "name":  "Heat Distortion",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  36,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/AngrySpirits/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 299,
-  "name": "Angry Spirits",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/AngrySpirits/overworld_e0.png",
-      "images/skin/AngrySpirits/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/AngrySpirits/overworld_n0.png",
-      "images/skin/AngrySpirits/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/AngrySpirits/overworld_s0.png",
-      "images/skin/AngrySpirits/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/AngrySpirits/overworld_w0.png",
-      "images/skin/AngrySpirits/overworld_w1.png"
-    ]
-  },
-  "race": "Shade",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/AngrySpirits/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  299,
+    "name":  "Angry Spirits",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/AngrySpirits/overworld_e0.png",
+                                         "images/skin/AngrySpirits/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/AngrySpirits/overworld_n0.png",
+                                          "images/skin/AngrySpirits/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/AngrySpirits/overworld_s0.png",
+                                          "images/skin/AngrySpirits/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/AngrySpirits/overworld_w0.png",
+                                         "images/skin/AngrySpirits/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shade",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

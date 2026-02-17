@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MacabreMasochist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 502,
-  "item": 481,
-  "lore": "A century after the Unification War, a group of adventurers of renown decided to try what no one had tried before: taking down Tartarith.\\n\\nMasochists do not need to eat or drink to obtain nutrients. Instead, they wrap the tentacles that emerge from their eye sockets around magic items to extract their energy. The presence of a Macabre Masochist can corrupt magic around it, causing it to have the opposite effect.",
-  "menagerieDialog": [
-    "(It\u0027s casually whittling away at its arm with a knife.)",
-    "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
-    "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
-    "(This creature takes a sickening amount of pleasure in being wounded.)",
-    "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
-  ],
-  "minDepth": 1,
-  "name": "Macabre Masochist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MacabreMasochist/overworld_e0.png",
-      "images/creature/MacabreMasochist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MacabreMasochist/overworld_n0.png",
-      "images/creature/MacabreMasochist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MacabreMasochist/overworld_s0.png",
-      "images/creature/MacabreMasochist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MacabreMasochist/overworld_w0.png",
-      "images/creature/MacabreMasochist/overworld_w1.png"
-    ]
-  },
-  "race": "Masochist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 8,
-    "health": 28,
-    "intelligence": 23,
-    "speed": 23
-  },
-  "trait": 395
+    "battleSprite":  "images/creature/MacabreMasochist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  502,
+    "item":  481,
+    "lore":  "A century after the Unification War, a group of adventurers of renown decided to try what no one had tried before: taking down Tartarith.\\n\\nMasochists do not need to eat or drink to obtain nutrients. Instead, they wrap the tentacles that emerge from their eye sockets around magic items to extract their energy. The presence of a Macabre Masochist can corrupt magic around it, causing it to have the opposite effect.",
+    "menagerieDialog":  [
+                            "(It\u0027s casually whittling away at its arm with a knife.)",
+                            "(It keeps scraping its katars together. In other words, it\u0027s making the most annoying noise in the world.)",
+                            "(It never seems to stop hurting itself. Fortunately, your kingdom\u0027s healers are some of the best in all of Rodia.)",
+                            "(This creature takes a sickening amount of pleasure in being wounded.)",
+                            "(This creature never eats or sleeps. How it survives is a mystery to even your most astute scholars.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Macabre Masochist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MacabreMasochist/overworld_e0.png",
+                                         "images/creature/MacabreMasochist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MacabreMasochist/overworld_n0.png",
+                                          "images/creature/MacabreMasochist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MacabreMasochist/overworld_s0.png",
+                                          "images/creature/MacabreMasochist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MacabreMasochist/overworld_w0.png",
+                                         "images/creature/MacabreMasochist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Masochist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  8,
+                       "health":  28,
+                       "intelligence":  23,
+                       "speed":  23
+                   },
+    "trait":  395,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

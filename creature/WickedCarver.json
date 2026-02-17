@@ -1,67 +1,72 @@
 {
-  "battleSprite": "images/creature/WickedCarver/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 78,
-  "item": 353,
-  "lore": "When this creature subdues its victims, it rarely ends their lives directly. Instead, it usually cuts off one foot and leaves them somewhere away from civilization until they bleed to death. If the victims are many, it sometimes leaves one of them tied up and unhurt so they can watch the others die.",
-  "menagerieDialog": [
-    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
-    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
-    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
-    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
-    "Come on, come on, come on! We\u0027ve killed very little today."
-  ],
-  "minDepth": 1,
-  "name": "Wicked Carver",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WickedCarver/overworld_e0.png",
-      "images/creature/WickedCarver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WickedCarver/overworld_n0.png",
-      "images/creature/WickedCarver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WickedCarver/overworld_s0.png",
-      "images/creature/WickedCarver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WickedCarver/overworld_w0.png",
-      "images/creature/WickedCarver/overworld_w1.png"
-    ]
-  },
-  "race": "Carver",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    14,
-    35
-  ],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 27,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 269
+    "battleSprite":  "images/creature/WickedCarver/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  78,
+    "item":  353,
+    "lore":  "When this creature subdues its victims, it rarely ends their lives directly. Instead, it usually cuts off one foot and leaves them somewhere away from civilization until they bleed to death. If the victims are many, it sometimes leaves one of them tied up and unhurt so they can watch the others die.",
+    "menagerieDialog":  [
+                            "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+                            "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+                            "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+                            "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+                            "Come on, come on, come on! We\u0027ve killed very little today."
+                        ],
+    "minDepth":  1,
+    "name":  "Wicked Carver",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WickedCarver/overworld_e0.png",
+                                         "images/creature/WickedCarver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WickedCarver/overworld_n0.png",
+                                          "images/creature/WickedCarver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WickedCarver/overworld_s0.png",
+                                          "images/creature/WickedCarver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WickedCarver/overworld_w0.png",
+                                         "images/creature/WickedCarver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carver",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            14,
+                            35
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  27,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  269,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

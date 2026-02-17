@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UnderdwellerRitesmaster/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1370,
-  "item": 1768,
-  "lore": "Underdwellers thrive in the shadows, especially when the job requires discretion. For them, staying unknown is a mark of pride, and no Underdweller worth their salt lets their name circulate where it shouldn\u0027t.\\n\\nUnderdweller Ritesmasters are the veterans of their kind, entrusted with revealing the secrets of the modern world to their younger kin. No Underdweller Ritesmaster is ever blessed by their people unless they\u0027ve proven themselves\u00E2\u20AC\u201Dusually through acts of larceny, coercion, or the handling of contraband.",
-  "menagerieDialog": [
-    "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
-    "The surface dwellers will learn to fear the depths!",
-    "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
-    "The pressure of the deep has made me unbreakable!",
-    "(It\u0027s darting about erratically, as if unused to open spaces.)"
-  ],
-  "minDepth": 1,
-  "name": "Underdweller Ritesmaster",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UnderdwellerRitesmaster/overworld_e0.png",
-      "images/creature/UnderdwellerRitesmaster/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UnderdwellerRitesmaster/overworld_n0.png",
-      "images/creature/UnderdwellerRitesmaster/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UnderdwellerRitesmaster/overworld_s0.png",
-      "images/creature/UnderdwellerRitesmaster/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UnderdwellerRitesmaster/overworld_w0.png",
-      "images/creature/UnderdwellerRitesmaster/overworld_w1.png"
-    ]
-  },
-  "race": "Underdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 25,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2121
+    "battleSprite":  "images/creature/UnderdwellerRitesmaster/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1370,
+    "item":  1768,
+    "lore":  "Underdwellers thrive in the shadows, especially when the job requires discretion. For them, staying unknown is a mark of pride, and no Underdweller worth their salt lets their name circulate where it shouldn\u0027t.\\n\\nUnderdweller Ritesmasters are the veterans of their kind, entrusted with revealing the secrets of the modern world to their younger kin. No Underdweller Ritesmaster is ever blessed by their people unless they\u0027ve proven themselves—usually through acts of larceny, coercion, or the handling of contraband.",
+    "menagerieDialog":  [
+                            "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
+                            "The surface dwellers will learn to fear the depths!",
+                            "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
+                            "The pressure of the deep has made me unbreakable!",
+                            "(It\u0027s darting about erratically, as if unused to open spaces.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Underdweller Ritesmaster",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UnderdwellerRitesmaster/overworld_e0.png",
+                                         "images/creature/UnderdwellerRitesmaster/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UnderdwellerRitesmaster/overworld_n0.png",
+                                          "images/creature/UnderdwellerRitesmaster/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UnderdwellerRitesmaster/overworld_s0.png",
+                                          "images/creature/UnderdwellerRitesmaster/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UnderdwellerRitesmaster/overworld_w0.png",
+                                         "images/creature/UnderdwellerRitesmaster/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Underdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  25,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2121,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

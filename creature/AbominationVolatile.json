@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/AbominationVolatile/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 563,
-  "item": 689,
-  "lore": "Tartarith created the Abominations to protect the Torture Chamber, but he eventually decided that it would be more fun to set them free and let them sow chaos in Rodia. However, when they do not feel the presence of the God of Punishment, most Abominations disobey his orders.\\n\\nThe Abomination Volatile despises violence, and it prefers to grab its enemies and throw them far away so that they stop hurting it. Naturally, this has ended many lives.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Abomination Volatile",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AbominationVolatile/overworld_e0.png",
-      "images/creature/AbominationVolatile/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AbominationVolatile/overworld_n0.png",
-      "images/creature/AbominationVolatile/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AbominationVolatile/overworld_s0.png",
-      "images/creature/AbominationVolatile/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AbominationVolatile/overworld_w0.png",
-      "images/creature/AbominationVolatile/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 13,
-    "speed": 18
-  },
-  "trait": 804
+    "battleSprite":  "images/creature/AbominationVolatile/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  563,
+    "item":  689,
+    "lore":  "Tartarith created the Abominations to protect the Torture Chamber, but he eventually decided that it would be more fun to set them free and let them sow chaos in Rodia. However, when they do not feel the presence of the God of Punishment, most Abominations disobey his orders.\\n\\nThe Abomination Volatile despises violence, and it prefers to grab its enemies and throw them far away so that they stop hurting it. Naturally, this has ended many lives.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Abomination Volatile",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AbominationVolatile/overworld_e0.png",
+                                         "images/creature/AbominationVolatile/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AbominationVolatile/overworld_n0.png",
+                                          "images/creature/AbominationVolatile/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AbominationVolatile/overworld_s0.png",
+                                          "images/creature/AbominationVolatile/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AbominationVolatile/overworld_w0.png",
+                                         "images/creature/AbominationVolatile/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  13,
+                       "speed":  18
+                   },
+    "trait":  804,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

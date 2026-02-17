@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRed Wedding:\nAfter all start-of-battle effects occur, 3 of your creatures are killed. This trait does not stack.",
-  "icon": "images/item/material/MaliceCrest.png",
-  "id": 1314,
-  "name": "Malice Crest",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1562
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRed Wedding:\nAfter all start-of-battle effects occur, 3 of your creatures are killed. This trait does not stack.",
+    "icon":  "images/item/material/MaliceCrest.png",
+    "id":  1314,
+    "name":  "Malice Crest",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1562,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

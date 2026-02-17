@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/WatcherSentinel/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 679,
-  "item": 884,
-  "lore": "The war against the Watchers did not begin until the Watcher Sentinel crossed the portal to this world. The wait was over. It stood in front of a huge temple crowded with people and unceremoniously fired countless rays through its eyes. The temple fell to the ground, burying hundreds of people beneath it, and that was only the beginning. The Sentinel is a relentless watchman, but what was it watching over? Why did it leave its home dimension? The truth was not revealed until the Ophans arrived.",
-  "menagerieDialog": [
-    "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
-    "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
-    "(It blinks at you bashfully. It must respect you quite a lot.)",
-    "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
-    "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
-  ],
-  "minDepth": 1,
-  "name": "Watcher Sentinel",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WatcherSentinel/overworld_e0.png",
-      "images/creature/WatcherSentinel/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WatcherSentinel/overworld_n0.png",
-      "images/creature/WatcherSentinel/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WatcherSentinel/overworld_s0.png",
-      "images/creature/WatcherSentinel/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WatcherSentinel/overworld_w0.png",
-      "images/creature/WatcherSentinel/overworld_w1.png"
-    ]
-  },
-  "race": "Watcher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 20,
-    "health": 27,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 911
+    "battleSprite":  "images/creature/WatcherSentinel/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  679,
+    "item":  884,
+    "lore":  "The war against the Watchers did not begin until the Watcher Sentinel crossed the portal to this world. The wait was over. It stood in front of a huge temple crowded with people and unceremoniously fired countless rays through its eyes. The temple fell to the ground, burying hundreds of people beneath it, and that was only the beginning. The Sentinel is a relentless watchman, but what was it watching over? Why did it leave its home dimension? The truth was not revealed until the Ophans arrived.",
+    "menagerieDialog":  [
+                            "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
+                            "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
+                            "(It blinks at you bashfully. It must respect you quite a lot.)",
+                            "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
+                            "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Watcher Sentinel",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WatcherSentinel/overworld_e0.png",
+                                         "images/creature/WatcherSentinel/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WatcherSentinel/overworld_n0.png",
+                                          "images/creature/WatcherSentinel/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WatcherSentinel/overworld_s0.png",
+                                          "images/creature/WatcherSentinel/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WatcherSentinel/overworld_w0.png",
+                                         "images/creature/WatcherSentinel/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Watcher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  20,
+                       "health":  27,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  911,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

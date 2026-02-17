@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSign of Libra:\nYour creatures\u0027 buff Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
-  "icon": "images/item/material/PeridotofLibra.png",
-  "id": 1074,
-  "name": "Peridot of Libra",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1059
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSign of Libra:\nYour creatures\u0027 buff Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
+    "icon":  "images/item/material/PeridotofLibra.png",
+    "id":  1074,
+    "name":  "Peridot of Libra",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1059,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/ManticoreConqueror/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 476,
-  "item": 385,
-  "lore": "The long tail of a Manticore is a dangerous weapon. However, the poison of its stinger is only deadly to humans. No other Manticore handles its tail with such ease as the Manticore Conqueror. Those who have fought one agree that its tail moves as if it was alive, as if it could foresee its enemy\u0027s movements, dodge blows and attack at just the right moment while the creature bites and tears at another target.",
-  "menagerieDialog": [
-    "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
-    "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
-    "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
-    "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
-    "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
-  ],
-  "minDepth": 1,
-  "name": "Manticore Conqueror",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ManticoreConqueror/overworld_e0.png",
-      "images/creature/ManticoreConqueror/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ManticoreConqueror/overworld_n0.png",
-      "images/creature/ManticoreConqueror/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ManticoreConqueror/overworld_s0.png",
-      "images/creature/ManticoreConqueror/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ManticoreConqueror/overworld_w0.png",
-      "images/creature/ManticoreConqueror/overworld_w1.png"
-    ]
-  },
-  "race": "Manticore",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 301
+    "battleSprite":  "images/creature/ManticoreConqueror/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  476,
+    "item":  385,
+    "lore":  "The long tail of a Manticore is a dangerous weapon. However, the poison of its stinger is only deadly to humans. No other Manticore handles its tail with such ease as the Manticore Conqueror. Those who have fought one agree that its tail moves as if it was alive, as if it could foresee its enemy\u0027s movements, dodge blows and attack at just the right moment while the creature bites and tears at another target.",
+    "menagerieDialog":  [
+                            "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
+                            "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
+                            "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
+                            "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
+                            "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Manticore Conqueror",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ManticoreConqueror/overworld_e0.png",
+                                         "images/creature/ManticoreConqueror/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ManticoreConqueror/overworld_n0.png",
+                                          "images/creature/ManticoreConqueror/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ManticoreConqueror/overworld_s0.png",
+                                          "images/creature/ManticoreConqueror/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ManticoreConqueror/overworld_w0.png",
+                                         "images/creature/ManticoreConqueror/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Manticore",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  301,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

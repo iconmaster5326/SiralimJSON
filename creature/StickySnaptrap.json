@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/StickySnaptrap/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 832,
-  "item": 1040,
-  "lore": "One of the most spectacular shows in the world occurs during the night in Eferia, when Snaptraps expel part of the residual energy of the creatures they have devoured. That is, when they expel their \u0022memories\u0022.\\n\\nFights between Snaptraps take place from time to time, usually because of a dispute over prey, but they are rarely fatal for any of the opponents.\\n\\nThe Sticky Snaptrap uses the suckers on its branches to stick to tree trunks and surprise its prey from unexpected angles. Usually, it does not move from the trunk and uses its sticky branches to catch very small animals and bring them to its mouth, but if larger prey passes under it, it drops and coils to devour it.",
-  "menagerieDialog": [
-    "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
-    "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
-    "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
-    "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
-    "(A few feathers are stuck in its teeth. What could it have eaten?)"
-  ],
-  "minDepth": 1,
-  "name": "Sticky Snaptrap",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StickySnaptrap/overworld_e0.png",
-      "images/creature/StickySnaptrap/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StickySnaptrap/overworld_n0.png",
-      "images/creature/StickySnaptrap/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StickySnaptrap/overworld_s0.png",
-      "images/creature/StickySnaptrap/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StickySnaptrap/overworld_w0.png",
-      "images/creature/StickySnaptrap/overworld_w1.png"
-    ]
-  },
-  "race": "Snaptrap",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 20,
-    "speed": 13
-  },
-  "trait": 1096
+    "battleSprite":  "images/creature/StickySnaptrap/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  832,
+    "item":  1040,
+    "lore":  "One of the most spectacular shows in the world occurs during the night in Eferia, when Snaptraps expel part of the residual energy of the creatures they have devoured. That is, when they expel their \"memories\".\\n\\nFights between Snaptraps take place from time to time, usually because of a dispute over prey, but they are rarely fatal for any of the opponents.\\n\\nThe Sticky Snaptrap uses the suckers on its branches to stick to tree trunks and surprise its prey from unexpected angles. Usually, it does not move from the trunk and uses its sticky branches to catch very small animals and bring them to its mouth, but if larger prey passes under it, it drops and coils to devour it.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
+                            "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
+                            "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
+                            "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
+                            "(A few feathers are stuck in its teeth. What could it have eaten?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Sticky Snaptrap",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StickySnaptrap/overworld_e0.png",
+                                         "images/creature/StickySnaptrap/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StickySnaptrap/overworld_n0.png",
+                                          "images/creature/StickySnaptrap/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StickySnaptrap/overworld_s0.png",
+                                          "images/creature/StickySnaptrap/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StickySnaptrap/overworld_w0.png",
+                                         "images/creature/StickySnaptrap/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Snaptrap",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  20,
+                       "speed":  13
+                   },
+    "trait":  1096,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

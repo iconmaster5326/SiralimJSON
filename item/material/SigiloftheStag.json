@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Stags:\nIf all the creatures in your party are {RACE_Stag}s, their innate traits are 100% more effective. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheStag.png",
-  "id": 1197,
-  "name": "Sigil of the Stag",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1501
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Stags:\nIf all the creatures in your party are {RACE_Stag}s, their innate traits are 100% more effective. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheStag.png",
+    "id":  1197,
+    "name":  "Sigil of the Stag",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1501,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Imlers:\nYour {RACE_Imler}s and {RACE_Imling}s deal 20% more damage for each {RACE_Imler} and {RACE_Imling} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheImler.png",
-  "id": 1250,
-  "name": "Sigil of the Imler",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1449
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Imlers:\nYour {RACE_Imler}s and {RACE_Imling}s deal 20% more damage for each {RACE_Imler} and {RACE_Imling} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheImler.png",
+    "id":  1250,
+    "name":  "Sigil of the Imler",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1449,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

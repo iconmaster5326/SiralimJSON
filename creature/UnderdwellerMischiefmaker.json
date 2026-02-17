@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UnderdwellerMischiefmaker/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1368,
-  "item": 1766,
-  "lore": "When shady business needs doing, many turn to the Underdwellers\u00E2\u20AC\u201Dsilent, efficient, and always fair in their dealings. They slip in, slip out, and leave no trace but a satisfied client. But not every plan works out. That\u0027s where the Underdweller Mischiefmaker comes in. These tight-lipped tacticians thrive in chaos, always ready with backup plans and silent retreats. If something goes wrong, they don\u0027t panic\u00E2\u20AC\u201Dthey vanish, dragging their team to safety before fading into the dark themselves.",
-  "menagerieDialog": [
-    "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
-    "The surface dwellers will learn to fear the depths!",
-    "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
-    "The pressure of the deep has made me unbreakable!",
-    "(It\u0027s darting about erratically, as if unused to open spaces.)"
-  ],
-  "minDepth": 1,
-  "name": "Underdweller Mischiefmaker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UnderdwellerMischiefmaker/overworld_e0.png",
-      "images/creature/UnderdwellerMischiefmaker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UnderdwellerMischiefmaker/overworld_n0.png",
-      "images/creature/UnderdwellerMischiefmaker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UnderdwellerMischiefmaker/overworld_s0.png",
-      "images/creature/UnderdwellerMischiefmaker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UnderdwellerMischiefmaker/overworld_w0.png",
-      "images/creature/UnderdwellerMischiefmaker/overworld_w1.png"
-    ]
-  },
-  "race": "Underdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 2119
+    "battleSprite":  "images/creature/UnderdwellerMischiefmaker/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1368,
+    "item":  1766,
+    "lore":  "When shady business needs doing, many turn to the Underdwellers—silent, efficient, and always fair in their dealings. They slip in, slip out, and leave no trace but a satisfied client. But not every plan works out. That\u0027s where the Underdweller Mischiefmaker comes in. These tight-lipped tacticians thrive in chaos, always ready with backup plans and silent retreats. If something goes wrong, they don\u0027t panic—they vanish, dragging their team to safety before fading into the dark themselves.",
+    "menagerieDialog":  [
+                            "(It\u0027s huddled in a dark corner, seemingly more comfortable there.)",
+                            "The surface dwellers will learn to fear the depths!",
+                            "In the darkness, one learns to see truths others miss. Shall I enlighten you?",
+                            "The pressure of the deep has made me unbreakable!",
+                            "(It\u0027s darting about erratically, as if unused to open spaces.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Underdweller Mischiefmaker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UnderdwellerMischiefmaker/overworld_e0.png",
+                                         "images/creature/UnderdwellerMischiefmaker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UnderdwellerMischiefmaker/overworld_n0.png",
+                                          "images/creature/UnderdwellerMischiefmaker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UnderdwellerMischiefmaker/overworld_s0.png",
+                                          "images/creature/UnderdwellerMischiefmaker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UnderdwellerMischiefmaker/overworld_w0.png",
+                                         "images/creature/UnderdwellerMischiefmaker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Underdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  2119,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

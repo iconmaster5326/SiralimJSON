@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSimulacrum:\nWhen an enemy {ACTION_casts} a spell, this creature has a 35% chance to negate the spell. When this happens, this creature gains a copy of that Spell Gem. This trait does not stack.",
-  "icon": "images/item/material/ConsumingWind.png",
-  "id": 499,
-  "name": "Consuming Wind",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 413
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSimulacrum:\nWhen an enemy {ACTION_casts} a spell, this creature has a 35% chance to negate the spell. When this happens, this creature gains a copy of that Spell Gem. This trait does not stack.",
+    "icon":  "images/item/material/ConsumingWind.png",
+    "id":  499,
+    "name":  "Consuming Wind",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  413,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

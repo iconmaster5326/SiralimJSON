@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMind Eraser:\nAfter this creature {ACTION_attacks}, it Seals one of the target\u0027s Spell Gems and gives a copy of it to your creatures.",
-  "icon": "images/item/material/SeerBloodVial.png",
-  "id": 1002,
-  "name": "Seer Blood Vial",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1130
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMind Eraser:\nAfter this creature {ACTION_attacks}, it Seals one of the target\u0027s Spell Gems and gives a copy of it to your creatures.",
+    "icon":  "images/item/material/SeerBloodVial.png",
+    "id":  1002,
+    "name":  "Seer Blood Vial",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1130,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

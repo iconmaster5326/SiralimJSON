@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/BestialKoloss/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 896,
-  "item": 977,
-  "lore": "These creatures produce physical puppets by outwardly projecting part of their consciousness. Unless they feel threatened, these projections often look harmless and can often be talked to as they leisurely walk through Sanctum Umbra.\\n\\nThe Bestial Koloss is living proof that the fire of a Koloss Firebrand can be extinguished. These creatures abused their power in the past and gave life to other Koloss in search of admiration, but ended up paying dearly for it. Within their societies, they are considered consummate egomaniacs, thus occupying the last place in their hierarchy.",
-  "menagerieDialog": [
-    "You go away now. Me sleep soon.",
-    "We go and kill now. Together, right now?",
-    "(It\u0027s busy polishing its weapon for the next battle.)",
-    "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
-    "(You can see the veins through its semi-transparent skin. Interesting.)"
-  ],
-  "minDepth": 1,
-  "name": "Bestial Koloss",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BestialKoloss/overworld_e0.png",
-      "images/creature/BestialKoloss/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BestialKoloss/overworld_n0.png",
-      "images/creature/BestialKoloss/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BestialKoloss/overworld_s0.png",
-      "images/creature/BestialKoloss/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BestialKoloss/overworld_w0.png",
-      "images/creature/BestialKoloss/overworld_w1.png"
-    ]
-  },
-  "race": "Koloss",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 40,
-    "intelligence": 13,
-    "speed": 13
-  },
-  "trait": 1153
+    "battleSprite":  "images/creature/BestialKoloss/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  896,
+    "item":  977,
+    "lore":  "These creatures produce physical puppets by outwardly projecting part of their consciousness. Unless they feel threatened, these projections often look harmless and can often be talked to as they leisurely walk through Sanctum Umbra.\\n\\nThe Bestial Koloss is living proof that the fire of a Koloss Firebrand can be extinguished. These creatures abused their power in the past and gave life to other Koloss in search of admiration, but ended up paying dearly for it. Within their societies, they are considered consummate egomaniacs, thus occupying the last place in their hierarchy.",
+    "menagerieDialog":  [
+                            "You go away now. Me sleep soon.",
+                            "We go and kill now. Together, right now?",
+                            "(It\u0027s busy polishing its weapon for the next battle.)",
+                            "(Its skin is oddly marbled, as if its flesh is the product of multiple different creatures.)",
+                            "(You can see the veins through its semi-transparent skin. Interesting.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bestial Koloss",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BestialKoloss/overworld_e0.png",
+                                         "images/creature/BestialKoloss/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BestialKoloss/overworld_n0.png",
+                                          "images/creature/BestialKoloss/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BestialKoloss/overworld_s0.png",
+                                          "images/creature/BestialKoloss/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BestialKoloss/overworld_w0.png",
+                                         "images/creature/BestialKoloss/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Koloss",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  40,
+                       "intelligence":  13,
+                       "speed":  13
+                   },
+    "trait":  1153,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

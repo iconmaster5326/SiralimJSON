@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LugubriousShambler/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 825,
-  "item": 1046,
-  "lore": "This is the corpse of a majestic creature who flew in the skies near that island where William James and his people found the curse that still haunts them today. In its original form, the Lugubrious Shambler does not age, and lays a single egg every one thousand years. It is a docile creature, but it becomes a formidable adversary if attacked. James\u0027s crew lost over fifty of his men trying to hunt one down due to a \u0022mistake\u0022 of one of his boatswains. After making him walk the plank as punishment, James took the undead corpse of this creature with him to Rodia. During the journey, he discovered that its ability to lay eggs not only had not disappeared, but had been substantially enhanced, although its progeny was not exactly alive. The Lugubrious Shambler is not as powerful as it was in life, which is a good thing, since it was able to cast devastating spells with every tick of the clock.",
-  "menagerieDialog": [
-    "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
-    "(Though it smells like dead fish, it is a formidable part of your team.)",
-    "(Not everything in life is beautiful. This creature is proof of that.)",
-    "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
-    "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
-  ],
-  "minDepth": 1,
-  "name": "Lugubrious Shambler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LugubriousShambler/overworld_e0.png",
-      "images/creature/LugubriousShambler/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LugubriousShambler/overworld_n0.png",
-      "images/creature/LugubriousShambler/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LugubriousShambler/overworld_s0.png",
-      "images/creature/LugubriousShambler/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LugubriousShambler/overworld_w0.png",
-      "images/creature/LugubriousShambler/overworld_w1.png"
-    ]
-  },
-  "race": "Sea Shambler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 17,
-    "health": 33,
-    "intelligence": 23,
-    "speed": 12
-  },
-  "trait": 1090
+    "battleSprite":  "images/creature/LugubriousShambler/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  825,
+    "item":  1046,
+    "lore":  "This is the corpse of a majestic creature who flew in the skies near that island where William James and his people found the curse that still haunts them today. In its original form, the Lugubrious Shambler does not age, and lays a single egg every one thousand years. It is a docile creature, but it becomes a formidable adversary if attacked. James\u0027s crew lost over fifty of his men trying to hunt one down due to a \"mistake\" of one of his boatswains. After making him walk the plank as punishment, James took the undead corpse of this creature with him to Rodia. During the journey, he discovered that its ability to lay eggs not only had not disappeared, but had been substantially enhanced, although its progeny was not exactly alive. The Lugubrious Shambler is not as powerful as it was in life, which is a good thing, since it was able to cast devastating spells with every tick of the clock.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
+                            "(Though it smells like dead fish, it is a formidable part of your team.)",
+                            "(Not everything in life is beautiful. This creature is proof of that.)",
+                            "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
+                            "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Lugubrious Shambler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LugubriousShambler/overworld_e0.png",
+                                         "images/creature/LugubriousShambler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LugubriousShambler/overworld_n0.png",
+                                          "images/creature/LugubriousShambler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LugubriousShambler/overworld_s0.png",
+                                          "images/creature/LugubriousShambler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LugubriousShambler/overworld_w0.png",
+                                         "images/creature/LugubriousShambler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sea Shambler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  17,
+                       "health":  33,
+                       "intelligence":  23,
+                       "speed":  12
+                   },
+    "trait":  1090,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShadowMoth/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 839,
-  "item": 1028,
-  "lore": "A year had passed since the Shadows became that boy\u0027s whole life, and he had completely mastered them. With them, he scared his neighbors and schoolmates, and occasionally made the Shadows hit them when they made him angry.\\n\\nShadow Moths have started to worry the local authorities. Although their behaviour is mostly the same as that of normal moths, their large size frightens the locals, who often anger these creatures when trying to scare them away, causing them to attack. It has recently been found that luckily, the creatures who can create other Shadows can only do so once a day.",
-  "menagerieDialog": [
-    "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
-    "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
-    "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
-    "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
-    "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
-  ],
-  "minDepth": 1,
-  "name": "Shadow Moth",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShadowMoth/overworld_e0.png",
-      "images/creature/ShadowMoth/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShadowMoth/overworld_n0.png",
-      "images/creature/ShadowMoth/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShadowMoth/overworld_s0.png",
-      "images/creature/ShadowMoth/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShadowMoth/overworld_w0.png",
-      "images/creature/ShadowMoth/overworld_w1.png"
-    ]
-  },
-  "race": "Shadow",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 12,
-    "health": 24,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 1108
+    "battleSprite":  "images/creature/ShadowMoth/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  839,
+    "item":  1028,
+    "lore":  "A year had passed since the Shadows became that boy\u0027s whole life, and he had completely mastered them. With them, he scared his neighbors and schoolmates, and occasionally made the Shadows hit them when they made him angry.\\n\\nShadow Moths have started to worry the local authorities. Although their behaviour is mostly the same as that of normal moths, their large size frightens the locals, who often anger these creatures when trying to scare them away, causing them to attack. It has recently been found that luckily, the creatures who can create other Shadows can only do so once a day.",
+    "menagerieDialog":  [
+                            "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
+                            "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
+                            "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
+                            "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
+                            "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shadow Moth",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShadowMoth/overworld_e0.png",
+                                         "images/creature/ShadowMoth/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShadowMoth/overworld_n0.png",
+                                          "images/creature/ShadowMoth/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShadowMoth/overworld_s0.png",
+                                          "images/creature/ShadowMoth/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShadowMoth/overworld_w0.png",
+                                         "images/creature/ShadowMoth/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shadow",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  12,
+                       "health":  24,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  1108,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/TimewornEnt/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 5,
-  "item": 559,
-  "lore": "Just like trees, Ents are not immune to parasites. When one of them becomes infested, it progressively becomes a Timeworn Ent, and its life expectancy is reduced to a few years. Aware of their limited time to help the forest, these creatures exclusively hunt and kill humans no matter what they were doing in the forest. A scientist from Vanelin discovered that they also lose their ability to speak, so it is possible that their sanity is also affected.",
-  "menagerieDialog": [
-    "There is nothing quite like the clean air of a Rodian forest.",
-    "I\u0027ll make short work of anyone who dares desecrate nature.",
-    "This castle smells like a wasteland. I would prefer to leave this place at once.",
-    "I feel invigorated in your presence. Thank you for looking after me.",
-    "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
-  ],
-  "minDepth": 1,
-  "name": "Timeworn Ent",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TimewornEnt/overworld_e0.png",
-      "images/creature/TimewornEnt/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TimewornEnt/overworld_n0.png",
-      "images/creature/TimewornEnt/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TimewornEnt/overworld_s0.png",
-      "images/creature/TimewornEnt/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TimewornEnt/overworld_w0.png",
-      "images/creature/TimewornEnt/overworld_w1.png"
-    ]
-  },
-  "race": "Ent",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 22,
-    "health": 37,
-    "intelligence": 22,
-    "speed": 12
-  },
-  "trait": 473
+    "battleSprite":  "images/creature/TimewornEnt/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  5,
+    "item":  559,
+    "lore":  "Just like trees, Ents are not immune to parasites. When one of them becomes infested, it progressively becomes a Timeworn Ent, and its life expectancy is reduced to a few years. Aware of their limited time to help the forest, these creatures exclusively hunt and kill humans no matter what they were doing in the forest. A scientist from Vanelin discovered that they also lose their ability to speak, so it is possible that their sanity is also affected.",
+    "menagerieDialog":  [
+                            "There is nothing quite like the clean air of a Rodian forest.",
+                            "I\u0027ll make short work of anyone who dares desecrate nature.",
+                            "This castle smells like a wasteland. I would prefer to leave this place at once.",
+                            "I feel invigorated in your presence. Thank you for looking after me.",
+                            "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Timeworn Ent",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TimewornEnt/overworld_e0.png",
+                                         "images/creature/TimewornEnt/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TimewornEnt/overworld_n0.png",
+                                          "images/creature/TimewornEnt/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TimewornEnt/overworld_s0.png",
+                                          "images/creature/TimewornEnt/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TimewornEnt/overworld_w0.png",
+                                         "images/creature/TimewornEnt/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ent",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  22,
+                       "health":  37,
+                       "intelligence":  22,
+                       "speed":  12
+                   },
+    "trait":  473,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

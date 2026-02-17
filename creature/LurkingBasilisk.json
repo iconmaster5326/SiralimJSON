@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/LurkingBasilisk/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 592,
-  "item": 715,
-  "lore": "Due to their form, Basilisks move awkwardly and at a very low speed. However, these creatures possess an enormous strength, as well as claws that do not break easily despite their fragile appearance, which allows them to easily pierce shields and metal armor.\\n\\nThe scream of the Lurking Basilisk was thought for a long time to inflict serious injuries. The Magic University of Andolin discovered that their scream actually stops time for fifteen seconds, which allows them to attack all their enemies.",
-  "menagerieDialog": [
-    "(It\u0027s crouched down, staring blankly into nothingness.)",
-    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
-    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
-    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
-    "(It bows its head and turns away. It must be shy.)"
-  ],
-  "minDepth": 1,
-  "name": "Lurking Basilisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LurkingBasilisk/overworld_e0.png",
-      "images/creature/LurkingBasilisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LurkingBasilisk/overworld_n0.png",
-      "images/creature/LurkingBasilisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LurkingBasilisk/overworld_s0.png",
-      "images/creature/LurkingBasilisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LurkingBasilisk/overworld_w0.png",
-      "images/creature/LurkingBasilisk/overworld_w1.png"
-    ]
-  },
-  "race": "Basilisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vulcanar)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 654
+    "battleSprite":  "images/creature/LurkingBasilisk/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  592,
+    "item":  715,
+    "lore":  "Due to their form, Basilisks move awkwardly and at a very low speed. However, these creatures possess an enormous strength, as well as claws that do not break easily despite their fragile appearance, which allows them to easily pierce shields and metal armor.\\n\\nThe scream of the Lurking Basilisk was thought for a long time to inflict serious injuries. The Magic University of Andolin discovered that their scream actually stops time for fifteen seconds, which allows them to attack all their enemies.",
+    "menagerieDialog":  [
+                            "(It\u0027s crouched down, staring blankly into nothingness.)",
+                            "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+                            "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+                            "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+                            "(It bows its head and turns away. It must be shy.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Lurking Basilisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LurkingBasilisk/overworld_e0.png",
+                                         "images/creature/LurkingBasilisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LurkingBasilisk/overworld_n0.png",
+                                          "images/creature/LurkingBasilisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LurkingBasilisk/overworld_s0.png",
+                                          "images/creature/LurkingBasilisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LurkingBasilisk/overworld_w0.png",
+                                         "images/creature/LurkingBasilisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Basilisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vulcanar)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  654,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

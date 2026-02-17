@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Grubette/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1134,
-  "item": 1654,
-  "lore": "These creatures inhabit a series of hidden tunnels found in the Arachnid Nest and, as with the Nix, males of this species are prohibited from leaving their home. Females are exceptional hunters and their preferred prey is the Arachnalisks. It is not uncommon for Grubettes to leave the Arachnid Nest, but when they do they only visit large cities to trade with other creatures. Since they do not have vocal cords, they communicate with other intelligent species through hand gestures. Once they finish trading, they immediately return home.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Grubette",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Grubette/overworld_e0.png",
-      "images/creature/Grubette/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Grubette/overworld_n0.png",
-      "images/creature/Grubette/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Grubette/overworld_s0.png",
-      "images/creature/Grubette/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Grubette/overworld_w0.png",
-      "images/creature/Grubette/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 18,
-    "health": 27,
-    "intelligence": 18,
-    "speed": 23
-  },
-  "trait": 1857
+    "battleSprite":  "images/creature/Grubette/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1134,
+    "item":  1654,
+    "lore":  "These creatures inhabit a series of hidden tunnels found in the Arachnid Nest and, as with the Nix, males of this species are prohibited from leaving their home. Females are exceptional hunters and their preferred prey is the Arachnalisks. It is not uncommon for Grubettes to leave the Arachnid Nest, but when they do they only visit large cities to trade with other creatures. Since they do not have vocal cords, they communicate with other intelligent species through hand gestures. Once they finish trading, they immediately return home.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Grubette",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Grubette/overworld_e0.png",
+                                         "images/creature/Grubette/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Grubette/overworld_n0.png",
+                                          "images/creature/Grubette/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Grubette/overworld_s0.png",
+                                          "images/creature/Grubette/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Grubette/overworld_w0.png",
+                                         "images/creature/Grubette/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  18,
+                       "health":  27,
+                       "intelligence":  18,
+                       "speed":  23
+                   },
+    "trait":  1857,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

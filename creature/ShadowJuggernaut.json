@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShadowJuggernaut/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 843,
-  "item": 1025,
-  "lore": "After a few months, the boy managed to make his own shadow interact with the physical world, first by moving small objects, then by holding them. But those were only his first steps.\\n\\nThe Shadow Juggernaut glides across surfaces at full speed, like a black stain that portends disaster. It may look light, even flimsy, but when it rises from the ground it rises as a calamity. Its fists can shatter stone and pulverize bone, and it can effortlessly charge through walls, smashing anyone who gets in its way.",
-  "menagerieDialog": [
-    "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
-    "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
-    "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
-    "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
-    "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
-  ],
-  "minDepth": 1,
-  "name": "Shadow Juggernaut",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShadowJuggernaut/overworld_e0.png",
-      "images/creature/ShadowJuggernaut/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShadowJuggernaut/overworld_n0.png",
-      "images/creature/ShadowJuggernaut/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShadowJuggernaut/overworld_s0.png",
-      "images/creature/ShadowJuggernaut/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShadowJuggernaut/overworld_w0.png",
-      "images/creature/ShadowJuggernaut/overworld_w1.png"
-    ]
-  },
-  "race": "Shadow",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 12,
-    "health": 27,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 1105
+    "battleSprite":  "images/creature/ShadowJuggernaut/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  843,
+    "item":  1025,
+    "lore":  "After a few months, the boy managed to make his own shadow interact with the physical world, first by moving small objects, then by holding them. But those were only his first steps.\\n\\nThe Shadow Juggernaut glides across surfaces at full speed, like a black stain that portends disaster. It may look light, even flimsy, but when it rises from the ground it rises as a calamity. Its fists can shatter stone and pulverize bone, and it can effortlessly charge through walls, smashing anyone who gets in its way.",
+    "menagerieDialog":  [
+                            "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
+                            "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
+                            "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
+                            "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
+                            "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shadow Juggernaut",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShadowJuggernaut/overworld_e0.png",
+                                         "images/creature/ShadowJuggernaut/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShadowJuggernaut/overworld_n0.png",
+                                          "images/creature/ShadowJuggernaut/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShadowJuggernaut/overworld_s0.png",
+                                          "images/creature/ShadowJuggernaut/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShadowJuggernaut/overworld_w0.png",
+                                         "images/creature/ShadowJuggernaut/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shadow",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  12,
+                       "health":  27,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  1105,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

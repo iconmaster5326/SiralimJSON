@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(Snapping its immense jaws in a threat display, the Carnage makes its hostile intentions clear. You\u0027re going to have to fight to escape!)",
-    "(The Carnage screams, raw hatred audible on its ragged voice, before lunging towards you!)",
-    "(You notice a pile of mangled bodies nearby - presumably the last adventurers to come upon this treasure hoard. Unfortunately, you also notice the Carnage that slew them charging right at you!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 10% more damage to {CLASS_Death} creatures.",
-    "4": "Your creatures deal 10% more damage to {CLASS_Death} creatures.",
-    "7": "Your creatures deal 10% more damage to {CLASS_Death} creatures."
-  },
-  "cards": 7,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    236,
-    237,
-    238,
-    239,
-    240,
-    241,
-    614
-  ],
-  "icon": "images/race/Carnage.png",
-  "master": {
-    "costume": 309,
-    "dialog": "Carnages are downright evil creatures. I can\u0027t say too many good things about them aside from the fact that they\u0027re good at fighting. One moment, you\u0027ll be chatting it up with one of your creatures, and the next thing you know, a Carnage is devouring them. Let\u0027s have a quick duel - I promise not to let my Carnages eat your creatures!",
-    "item": 1160,
-    "name": "Carnagor",
-    "trait": 1410
-  },
-  "name": "Carnage",
-  "notes": [],
-  "skins": [
-    194,
-    275,
-    307,
-    812
-  ]
+    "bossDialog":  [
+                       "(Snapping its immense jaws in a threat display, the Carnage makes its hostile intentions clear. You\u0027re going to have to fight to escape!)",
+                       "(The Carnage screams, raw hatred audible on its ragged voice, before lunging towards you!)",
+                       "(You notice a pile of mangled bodies nearby - presumably the last adventurers to come upon this treasure hoard. Unfortunately, you also notice the Carnage that slew them charging right at you!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 10% more damage to {CLASS_Death} creatures.",
+                        "4":  "Your creatures deal 10% more damage to {CLASS_Death} creatures.",
+                        "7":  "Your creatures deal 10% more damage to {CLASS_Death} creatures."
+                    },
+    "cards":  7,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      236,
+                      237,
+                      238,
+                      239,
+                      240,
+                      241,
+                      614
+                  ],
+    "icon":  "images/race/Carnage.png",
+    "master":  {
+                   "costume":  309,
+                   "dialog":  "Carnages are downright evil creatures. I can\u0027t say too many good things about them aside from the fact that they\u0027re good at fighting. One moment, you\u0027ll be chatting it up with one of your creatures, and the next thing you know, a Carnage is devouring them. Let\u0027s have a quick duel - I promise not to let my Carnages eat your creatures!",
+                   "item":  1160,
+                   "name":  "Carnagor",
+                   "trait":  1410
+               },
+    "name":  "Carnage",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  194,
+                  275,
+                  307,
+                  812
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

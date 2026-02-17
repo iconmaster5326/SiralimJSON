@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe Shadows:\nAfter this creature is killed for the first time in battle, it is resurrected with 100% {STAT_health} and your creatures gain 25% {STAT_attack} and {STAT_intelligence}.",
-  "icon": "images/item/material/ExtractedShadow.png",
-  "id": 1408,
-  "name": "Extracted Shadow",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1715
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe Shadows:\nAfter this creature is killed for the first time in battle, it is resurrected with 100% {STAT_health} and your creatures gain 25% {STAT_attack} and {STAT_intelligence}.",
+    "icon":  "images/item/material/ExtractedShadow.png",
+    "id":  1408,
+    "name":  "Extracted Shadow",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1715,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

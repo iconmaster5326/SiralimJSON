@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/NaxRiftDancer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 995,
-  "item": 1322,
-  "lore": "Crowds of these creatures can be seen in the spring and summer, when the forests are lush. At the top of the trees, Nax Rift Dancers perform a frantic dance that seems to unleash a storm of leaves. Nearby animals often observe their movements carefully, without showing any fear beyond the initial surprise, probably due to the sudden noise.",
-  "menagerieDialog": [
-    "(For a Rift Dancer, it\u0027s not very active.)",
-    "(It keeps trying, without any success at all, to get you to dance with it.)",
-    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
-    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
-    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
-  ],
-  "minDepth": 1,
-  "name": "Nax Rift Dancer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NaxRiftDancer/overworld_e0.png",
-      "images/creature/NaxRiftDancer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NaxRiftDancer/overworld_n0.png",
-      "images/creature/NaxRiftDancer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NaxRiftDancer/overworld_s0.png",
-      "images/creature/NaxRiftDancer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NaxRiftDancer/overworld_w0.png",
-      "images/creature/NaxRiftDancer/overworld_w1.png"
-    ]
-  },
-  "race": "Rift Dancer",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Life Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 33,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 1568
+    "battleSprite":  "images/creature/NaxRiftDancer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  995,
+    "item":  1322,
+    "lore":  "Crowds of these creatures can be seen in the spring and summer, when the forests are lush. At the top of the trees, Nax Rift Dancers perform a frantic dance that seems to unleash a storm of leaves. Nearby animals often observe their movements carefully, without showing any fear beyond the initial surprise, probably due to the sudden noise.",
+    "menagerieDialog":  [
+                            "(For a Rift Dancer, it\u0027s not very active.)",
+                            "(It keeps trying, without any success at all, to get you to dance with it.)",
+                            "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+                            "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+                            "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nax Rift Dancer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NaxRiftDancer/overworld_e0.png",
+                                         "images/creature/NaxRiftDancer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NaxRiftDancer/overworld_n0.png",
+                                          "images/creature/NaxRiftDancer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NaxRiftDancer/overworld_s0.png",
+                                          "images/creature/NaxRiftDancer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NaxRiftDancer/overworld_w0.png",
+                                         "images/creature/NaxRiftDancer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Rift Dancer",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Life Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  33,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  1568,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

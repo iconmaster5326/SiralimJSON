@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AquamarineCarbuncle/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 928,
-  "item": 933,
-  "lore": "Carbuncles are elusive, easily frightened creatures, though not by nature. In ancient times, humans discovered that the gem on their forehead has the ability to store spells, which can then be used by anyone with practically no limitations.\\n\\nAny magic item around an Aquamarine Carbuncle gets slightly colder and gives off specks of blue light that are more visible the closer the item is to the creature. Unlike the rest of their kind, Aquamarine Carbuncles do not dislike water and sometimes they even enjoy shaking themselves next to others of their species while they are wet.",
-  "menagerieDialog": [
-    "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
-    "(The jewel on its forehead shines brightly.)",
-    "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
-    "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
-    "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
-  ],
-  "minDepth": 1,
-  "name": "Aquamarine Carbuncle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AquamarineCarbuncle/overworld_e0.png",
-      "images/creature/AquamarineCarbuncle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AquamarineCarbuncle/overworld_n0.png",
-      "images/creature/AquamarineCarbuncle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AquamarineCarbuncle/overworld_s0.png",
-      "images/creature/AquamarineCarbuncle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AquamarineCarbuncle/overworld_w0.png",
-      "images/creature/AquamarineCarbuncle/overworld_w1.png"
-    ]
-  },
-  "race": "Carbuncle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 35,
-    "intelligence": 23,
-    "speed": 23
-  },
-  "trait": 1049
+    "battleSprite":  "images/creature/AquamarineCarbuncle/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  928,
+    "item":  933,
+    "lore":  "Carbuncles are elusive, easily frightened creatures, though not by nature. In ancient times, humans discovered that the gem on their forehead has the ability to store spells, which can then be used by anyone with practically no limitations.\\n\\nAny magic item around an Aquamarine Carbuncle gets slightly colder and gives off specks of blue light that are more visible the closer the item is to the creature. Unlike the rest of their kind, Aquamarine Carbuncles do not dislike water and sometimes they even enjoy shaking themselves next to others of their species while they are wet.",
+    "menagerieDialog":  [
+                            "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
+                            "(The jewel on its forehead shines brightly.)",
+                            "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
+                            "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
+                            "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Aquamarine Carbuncle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AquamarineCarbuncle/overworld_e0.png",
+                                         "images/creature/AquamarineCarbuncle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AquamarineCarbuncle/overworld_n0.png",
+                                          "images/creature/AquamarineCarbuncle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AquamarineCarbuncle/overworld_s0.png",
+                                          "images/creature/AquamarineCarbuncle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AquamarineCarbuncle/overworld_w0.png",
+                                         "images/creature/AquamarineCarbuncle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carbuncle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  35,
+                       "intelligence":  23,
+                       "speed":  23
+                   },
+    "trait":  1049,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

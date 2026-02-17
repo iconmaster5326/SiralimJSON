@@ -1,39 +1,42 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "life",
-  "creator": null,
-  "description": "Enemies are afflicted with {CONDNAME_DEBUFF_SLEEP} and {CONDNAME_DEBUFF_BLIND}. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 325,
-  "manuallyCastable": false,
-  "maxCharges": 12,
-  "name": "Luscious Lager",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "DEBUFF"
-  ],
-  "targets": "enemies"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Enemies are afflicted with {CONDNAME_DEBUFF_SLEEP} and {CONDNAME_DEBUFF_BLIND}. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  325,
+    "manuallyCastable":  false,
+    "maxCharges":  12,
+    "name":  "Luscious Lager",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "DEBUFF"
+             ],
+    "targets":  "enemies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

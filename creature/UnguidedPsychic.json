@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UnguidedPsychic/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 904,
-  "item": 966,
-  "lore": "Erebyss and Surathli banished these creatures to a dimensional pocket. Thousands of years later, Perdition discovered that he was able to summon them from Sanctum Umbra.\\n\\nThe Unguided Psychics behave very differently from others of their kind. Instead of punishing, they share mental images of the consequences of supposedly evil actions, such as the corpse of an ant being dragged by other ants into an anthill, or people laughing at a very bad joke.",
-  "menagerieDialog": [
-    "(You can\u0027t help but admire the brilliance of its appearance.)",
-    "(It watches you carefully, obediently waiting for your next command.)",
-    "(This creature emanates an aura of pure evil. You\u0027re fortunate to have such strong control over it, lest it could wreak havoc on your kingdom.)",
-    "I will make my own decisions in battle. You need only sit back and enjoy the show.",
-    "(This creature has an annoying habit of breaking its chair when it\u0027s unhappy. Perhaps a few days of standing will help it change its ways.)"
-  ],
-  "minDepth": 1,
-  "name": "Unguided Psychic",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UnguidedPsychic/overworld_e0.png",
-      "images/creature/UnguidedPsychic/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UnguidedPsychic/overworld_n0.png",
-      "images/creature/UnguidedPsychic/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UnguidedPsychic/overworld_s0.png",
-      "images/creature/UnguidedPsychic/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UnguidedPsychic/overworld_w0.png",
-      "images/creature/UnguidedPsychic/overworld_w1.png"
-    ]
-  },
-  "race": "Unguided",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Perdition)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 37,
-    "intelligence": 21,
-    "speed": 11
-  },
-  "trait": 1166
+    "battleSprite":  "images/creature/UnguidedPsychic/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  904,
+    "item":  966,
+    "lore":  "Erebyss and Surathli banished these creatures to a dimensional pocket. Thousands of years later, Perdition discovered that he was able to summon them from Sanctum Umbra.\\n\\nThe Unguided Psychics behave very differently from others of their kind. Instead of punishing, they share mental images of the consequences of supposedly evil actions, such as the corpse of an ant being dragged by other ants into an anthill, or people laughing at a very bad joke.",
+    "menagerieDialog":  [
+                            "(You can\u0027t help but admire the brilliance of its appearance.)",
+                            "(It watches you carefully, obediently waiting for your next command.)",
+                            "(This creature emanates an aura of pure evil. You\u0027re fortunate to have such strong control over it, lest it could wreak havoc on your kingdom.)",
+                            "I will make my own decisions in battle. You need only sit back and enjoy the show.",
+                            "(This creature has an annoying habit of breaking its chair when it\u0027s unhappy. Perhaps a few days of standing will help it change its ways.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Unguided Psychic",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UnguidedPsychic/overworld_e0.png",
+                                         "images/creature/UnguidedPsychic/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UnguidedPsychic/overworld_n0.png",
+                                          "images/creature/UnguidedPsychic/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UnguidedPsychic/overworld_s0.png",
+                                          "images/creature/UnguidedPsychic/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UnguidedPsychic/overworld_w0.png",
+                                         "images/creature/UnguidedPsychic/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Unguided",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Perdition)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  37,
+                       "intelligence":  21,
+                       "speed":  11
+                   },
+    "trait":  1166,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

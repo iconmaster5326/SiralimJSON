@@ -1,43 +1,46 @@
 {
-  "bossDialog": [
-    "Ahh, more slaves have come to add themselves to my collection. How generous of you to offer up your lives to me!",
-    "There\u0027s so much I could do once I\u0027ve ripped your soul out of your body. Care to give me any ideas?",
-    "You and your creatures will make fine additions to my army of the undead."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 {CLASS_Death} spells deal 10% more damage.",
-    "5": "Your creatures\u0027 damaging {CLASS_Death} spells ignore 10% of the enemies\u0027 {STAT_defense}.",
-    "8": "Your creatures\u0027 damaging {CLASS_Death} spells have 10% additional {STAT_charges}."
-  },
-  "cards": 8,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    120,
-    121,
-    122,
-    123,
-    124,
-    125,
-    689,
-    1011
-  ],
-  "icon": "images/race/Lich.png",
-  "master": {
-    "costume": 355,
-    "dialog": "Liches are powerful spellcasters who use their Death spells to bring decay and rot to all who oppose them. Let\u0027s see if you can handle them!",
-    "item": 1241,
-    "name": "The Reverend",
-    "trait": 1456
-  },
-  "name": "Lich",
-  "notes": [],
-  "skins": [
-    43,
-    212,
-    303,
-    382,
-    676,
-    715
-  ]
+    "bossDialog":  [
+                       "Ahh, more slaves have come to add themselves to my collection. How generous of you to offer up your lives to me!",
+                       "There\u0027s so much I could do once I\u0027ve ripped your soul out of your body. Care to give me any ideas?",
+                       "You and your creatures will make fine additions to my army of the undead."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 {CLASS_Death} spells deal 10% more damage.",
+                        "5":  "Your creatures\u0027 damaging {CLASS_Death} spells ignore 10% of the enemies\u0027 {STAT_defense}.",
+                        "8":  "Your creatures\u0027 damaging {CLASS_Death} spells have 10% additional {STAT_charges}."
+                    },
+    "cards":  8,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      120,
+                      121,
+                      122,
+                      123,
+                      124,
+                      125,
+                      689,
+                      1011
+                  ],
+    "icon":  "images/race/Lich.png",
+    "master":  {
+                   "costume":  355,
+                   "dialog":  "Liches are powerful spellcasters who use their Death spells to bring decay and rot to all who oppose them. Let\u0027s see if you can handle them!",
+                   "item":  1241,
+                   "name":  "The Reverend",
+                   "trait":  1456
+               },
+    "name":  "Lich",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  43,
+                  212,
+                  303,
+                  382,
+                  676,
+                  715
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

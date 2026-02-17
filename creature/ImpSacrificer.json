@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ImpSacrificer/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 24,
-  "item": 563,
-  "lore": "Most Imps ignore that Torun is a God, a being whose power IS BEYOND THEIR !@#$ING UNDERSTANDING. Some of them insult him and even throw small stones at him. The God of Anger simply curses them, unless someone dares to say the word \u0022tasty\u0022. I WILL !@#$ING KILL YOU IF YOU SAY IT.\\n\\nImp Sacrificers perform a ritual in front of their idols, sacrificing an animal in exchange for their favor. The faith of this creature somehow causes spells to manifest spontaneously when it is in danger.",
-  "menagerieDialog": [
-    "Got any more of them feel-goods?",
-    "We go visit Torun and spit on altar! Go now!",
-    "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
-    "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
-    "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
-  ],
-  "minDepth": 1,
-  "name": "Imp Sacrificer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ImpSacrificer/overworld_e0.png",
-      "images/creature/ImpSacrificer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ImpSacrificer/overworld_n0.png",
-      "images/creature/ImpSacrificer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ImpSacrificer/overworld_s0.png",
-      "images/creature/ImpSacrificer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ImpSacrificer/overworld_w0.png",
-      "images/creature/ImpSacrificer/overworld_w1.png"
-    ]
-  },
-  "race": "Imp",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 477
+    "battleSprite":  "images/creature/ImpSacrificer/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  24,
+    "item":  563,
+    "lore":  "Most Imps ignore that Torun is a God, a being whose power IS BEYOND THEIR !@#$ING UNDERSTANDING. Some of them insult him and even throw small stones at him. The God of Anger simply curses them, unless someone dares to say the word \"tasty\". I WILL !@#$ING KILL YOU IF YOU SAY IT.\\n\\nImp Sacrificers perform a ritual in front of their idols, sacrificing an animal in exchange for their favor. The faith of this creature somehow causes spells to manifest spontaneously when it is in danger.",
+    "menagerieDialog":  [
+                            "Got any more of them feel-goods?",
+                            "We go visit Torun and spit on altar! Go now!",
+                            "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
+                            "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
+                            "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
+                        ],
+    "minDepth":  1,
+    "name":  "Imp Sacrificer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ImpSacrificer/overworld_e0.png",
+                                         "images/creature/ImpSacrificer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ImpSacrificer/overworld_n0.png",
+                                          "images/creature/ImpSacrificer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ImpSacrificer/overworld_s0.png",
+                                          "images/creature/ImpSacrificer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ImpSacrificer/overworld_w0.png",
+                                         "images/creature/ImpSacrificer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imp",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  477,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

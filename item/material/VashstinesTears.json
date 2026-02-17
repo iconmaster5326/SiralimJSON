@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEager Recruit:\nAfter one of your creatures summons a creature, the summoned creature [battle_attack] Attacks 2 random enemies. This trait does not stack.",
-  "icon": "images/item/material/VashstinesTears.png",
-  "id": 635,
-  "name": "Vashstine\u0027s Tears",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 982
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEager Recruit:\nAfter one of your creatures summons a creature, the summoned creature [battle_attack] Attacks 2 random enemies. This trait does not stack.",
+    "icon":  "images/item/material/VashstinesTears.png",
+    "id":  635,
+    "name":  "Vashstine\u0027s Tears",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  982,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

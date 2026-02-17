@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MitidaOphan/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 397,
-  "item": 166,
-  "lore": "The Ophans\u0027 appearance is not without purpose. Watchers hesitated to attack creatures similar to them, which made them lose the initiative.\\n\\nThe Mitida Ophan can alter magical items with a mere thought, extracting the spells inside of them without even touching them. It served a key role in the Watcher War, enabling its allies to share their spells.",
-  "menagerieDialog": [
-    "(It appears to be deep in its own thoughts.)",
-    "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
-    "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
-    "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
-    "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
-  ],
-  "minDepth": 1,
-  "name": "Mitida Ophan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MitidaOphan/overworld_e0.png",
-      "images/creature/MitidaOphan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MitidaOphan/overworld_n0.png",
-      "images/creature/MitidaOphan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MitidaOphan/overworld_s0.png",
-      "images/creature/MitidaOphan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MitidaOphan/overworld_w0.png",
-      "images/creature/MitidaOphan/overworld_w1.png"
-    ]
-  },
-  "race": "Ophan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 12,
-    "health": 33,
-    "intelligence": 28,
-    "speed": 22
-  },
-  "trait": 76
+    "battleSprite":  "images/creature/MitidaOphan/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  397,
+    "item":  166,
+    "lore":  "The Ophans\u0027 appearance is not without purpose. Watchers hesitated to attack creatures similar to them, which made them lose the initiative.\\n\\nThe Mitida Ophan can alter magical items with a mere thought, extracting the spells inside of them without even touching them. It served a key role in the Watcher War, enabling its allies to share their spells.",
+    "menagerieDialog":  [
+                            "(It appears to be deep in its own thoughts.)",
+                            "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
+                            "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
+                            "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
+                            "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mitida Ophan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MitidaOphan/overworld_e0.png",
+                                         "images/creature/MitidaOphan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MitidaOphan/overworld_n0.png",
+                                          "images/creature/MitidaOphan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MitidaOphan/overworld_s0.png",
+                                          "images/creature/MitidaOphan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MitidaOphan/overworld_w0.png",
+                                         "images/creature/MitidaOphan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ophan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  12,
+                       "health":  33,
+                       "intelligence":  28,
+                       "speed":  22
+                   },
+    "trait":  76,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

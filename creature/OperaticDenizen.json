@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OperaticDenizen/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1464,
-  "item": 1833,
-  "lore": "This creature, perfectly dressed for tragedy, sings with a power that can shatter both coral and hearts. The most imaginative sailor legends claim its high notes summon storms and its low ones alter ocean currents, but the truth is these phenomena simply inspire its singing one way or another. If it ever locks eyes with you during a sustained note, be sure to applaud when it finishes.",
-  "menagerieDialog": [
-    "(It clicks its jaws twice, then stares through you like a dying fish.)",
-    "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
-    "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
-    "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
-    "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it\u00E2\u20AC\u2122s yawning or threatening you.)"
-  ],
-  "minDepth": 1,
-  "name": "Operatic Denizen",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OperaticDenizen/overworld_e0.png",
-      "images/creature/OperaticDenizen/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OperaticDenizen/overworld_n0.png",
-      "images/creature/OperaticDenizen/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OperaticDenizen/overworld_s0.png",
-      "images/creature/OperaticDenizen/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OperaticDenizen/overworld_w0.png",
-      "images/creature/OperaticDenizen/overworld_w1.png"
-    ]
-  },
-  "race": "Denizen",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 25,
-    "speed": 18
-  },
-  "trait": 2177
+    "battleSprite":  "images/creature/OperaticDenizen/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1464,
+    "item":  1833,
+    "lore":  "This creature, perfectly dressed for tragedy, sings with a power that can shatter both coral and hearts. The most imaginative sailor legends claim its high notes summon storms and its low ones alter ocean currents, but the truth is these phenomena simply inspire its singing one way or another. If it ever locks eyes with you during a sustained note, be sure to applaud when it finishes.",
+    "menagerieDialog":  [
+                            "(It clicks its jaws twice, then stares through you like a dying fish.)",
+                            "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
+                            "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
+                            "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
+                            "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it’s yawning or threatening you.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Operatic Denizen",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OperaticDenizen/overworld_e0.png",
+                                         "images/creature/OperaticDenizen/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OperaticDenizen/overworld_n0.png",
+                                          "images/creature/OperaticDenizen/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OperaticDenizen/overworld_s0.png",
+                                          "images/creature/OperaticDenizen/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OperaticDenizen/overworld_w0.png",
+                                         "images/creature/OperaticDenizen/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Denizen",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  25,
+                       "speed":  18
+                   },
+    "trait":  2177,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

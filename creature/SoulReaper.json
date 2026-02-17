@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SoulReaper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 13,
-  "item": 248,
-  "lore": "Ainsworth and her team investigated the Reapers and discovered that whenever one of them dies it automatically reappears in another part of the world.\\n\\nThe Soul Reaper has a different task than the rest of its species. Sometimes, for many reasons, the souls of mortals are trapped in our world. This creature can literally sever the chains that bind them to this world and lead them to the afterlife.",
-  "menagerieDialog": [
-    "Oh, hello there! Would you like to know the exact date of your death?",
-    "While I can\u0027t hold your hand, I will have your back.",
-    "(This creature always seems to be focused on something you can\u0027t see.)",
-    "Don\u0027t fear the reaper.\\n\\n(Sigh. How clich\u00C3\u00A9.)",
-    "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Soul Reaper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SoulReaper/overworld_e0.png",
-      "images/creature/SoulReaper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SoulReaper/overworld_n0.png",
-      "images/creature/SoulReaper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SoulReaper/overworld_s0.png",
-      "images/creature/SoulReaper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SoulReaper/overworld_w0.png",
-      "images/creature/SoulReaper/overworld_w1.png"
-    ]
-  },
-  "race": "Reaper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tenebris)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 9,
-    "health": 32,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 158
+    "battleSprite":  "images/creature/SoulReaper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  13,
+    "item":  248,
+    "lore":  "Ainsworth and her team investigated the Reapers and discovered that whenever one of them dies it automatically reappears in another part of the world.\\n\\nThe Soul Reaper has a different task than the rest of its species. Sometimes, for many reasons, the souls of mortals are trapped in our world. This creature can literally sever the chains that bind them to this world and lead them to the afterlife.",
+    "menagerieDialog":  [
+                            "Oh, hello there! Would you like to know the exact date of your death?",
+                            "While I can\u0027t hold your hand, I will have your back.",
+                            "(This creature always seems to be focused on something you can\u0027t see.)",
+                            "Don\u0027t fear the reaper.\\n\\n(Sigh. How cliché.)",
+                            "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Soul Reaper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SoulReaper/overworld_e0.png",
+                                         "images/creature/SoulReaper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SoulReaper/overworld_n0.png",
+                                          "images/creature/SoulReaper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SoulReaper/overworld_s0.png",
+                                          "images/creature/SoulReaper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SoulReaper/overworld_w0.png",
+                                         "images/creature/SoulReaper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Reaper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tenebris)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  9,
+                       "health":  32,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  158,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

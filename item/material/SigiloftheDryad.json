@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Dryads:\nYour {RACE_Dryad}s\u0027 buffs and minions last forever.",
-  "icon": "images/item/material/SigiloftheDryad.png",
-  "id": 1274,
-  "name": "Sigil of the Dryad",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1427
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Dryads:\nYour {RACE_Dryad}s\u0027 buffs and minions last forever.",
+    "icon":  "images/item/material/SigiloftheDryad.png",
+    "id":  1274,
+    "name":  "Sigil of the Dryad",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1427,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

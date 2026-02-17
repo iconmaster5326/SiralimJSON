@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpringtimeAspect/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 102,
-  "item": 516,
-  "lore": "The Springtime Aspect emerges from the hills when they are covered in flowers, rising heavily and shaking the dirt from its mossy fur. Its body is home to insects and small birds, and bees often visit the flowers that grow on its arms and head. Its very presence helps the flowers bloom in the most arid regions and its cane punishes those who exploit the land.",
-  "menagerieDialog": [
-    "(Its eyes are closed, as if meditating.)",
-    "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
-    "(It is meditating. Better to leave it alone while it relaxes.)",
-    "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
-    "(Its fur is a total mess. You should have Nortah comb it soon.)"
-  ],
-  "minDepth": 1,
-  "name": "Springtime Aspect",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpringtimeAspect/overworld_e0.png",
-      "images/creature/SpringtimeAspect/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpringtimeAspect/overworld_n0.png",
-      "images/creature/SpringtimeAspect/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpringtimeAspect/overworld_s0.png",
-      "images/creature/SpringtimeAspect/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpringtimeAspect/overworld_w0.png",
-      "images/creature/SpringtimeAspect/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Meraxis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 14,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 24
-  },
-  "trait": 430
+    "battleSprite":  "images/creature/SpringtimeAspect/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  102,
+    "item":  516,
+    "lore":  "The Springtime Aspect emerges from the hills when they are covered in flowers, rising heavily and shaking the dirt from its mossy fur. Its body is home to insects and small birds, and bees often visit the flowers that grow on its arms and head. Its very presence helps the flowers bloom in the most arid regions and its cane punishes those who exploit the land.",
+    "menagerieDialog":  [
+                            "(Its eyes are closed, as if meditating.)",
+                            "(It\u0027s making annoying clicking noises by pounding its staff on the ground. It must be agitated.)",
+                            "(It is meditating. Better to leave it alone while it relaxes.)",
+                            "(This is perhaps the wisest creature you\u0027ve ever met. You are fortunate to have such a knowledgeable creature on your side.)",
+                            "(Its fur is a total mess. You should have Nortah comb it soon.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Springtime Aspect",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpringtimeAspect/overworld_e0.png",
+                                         "images/creature/SpringtimeAspect/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpringtimeAspect/overworld_n0.png",
+                                          "images/creature/SpringtimeAspect/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpringtimeAspect/overworld_s0.png",
+                                          "images/creature/SpringtimeAspect/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpringtimeAspect/overworld_w0.png",
+                                         "images/creature/SpringtimeAspect/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Meraxis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  14,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  24
+                   },
+    "trait":  430,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

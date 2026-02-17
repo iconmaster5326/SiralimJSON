@@ -1,38 +1,41 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "chaos",
-  "creator": null,
-  "description": "Your creatures with {CONDNAME_BUFF_SPLASH} {ACTION_attack} random enemies. Otherwise, they gain {CONDNAME_BUFF_SPLASH}. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 319,
-  "manuallyCastable": false,
-  "maxCharges": 9,
-  "name": "Spicy Suds",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "UTILITY"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Your creatures with {CONDNAME_BUFF_SPLASH} {ACTION_attack} random enemies. Otherwise, they gain {CONDNAME_BUFF_SPLASH}. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  319,
+    "manuallyCastable":  false,
+    "maxCharges":  9,
+    "name":  "Spicy Suds",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "UTILITY"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

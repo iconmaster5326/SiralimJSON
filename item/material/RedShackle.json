@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRed Tether:\nAfter an adjacent ally {ACTION_attacks}, this creature {ACTION_attacks} the enemy as well. This trait does not work with creatures that also have this trait.",
-  "icon": "images/item/material/RedShackle.png",
-  "id": 1593,
-  "name": "Red Shackle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1930
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRed Tether:\nAfter an adjacent ally {ACTION_attacks}, this creature {ACTION_attacks} the enemy as well. This trait does not work with creatures that also have this trait.",
+    "icon":  "images/item/material/RedShackle.png",
+    "id":  1593,
+    "name":  "Red Shackle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1930,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

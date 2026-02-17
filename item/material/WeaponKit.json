@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAdaptive Tactics:\nYour creatures\u0027 attacks ignore 5% of the enemies\u0027 {STAT_defense} (up to 50%) for each time a creature died in the current battle. This trait does not stack.",
-  "icon": "images/item/material/WeaponKit.png",
-  "id": 1379,
-  "name": "Weapon Kit",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1686
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAdaptive Tactics:\nYour creatures\u0027 attacks ignore 5% of the enemies\u0027 {STAT_defense} (up to 50%) for each time a creature died in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/WeaponKit.png",
+    "id":  1379,
+    "name":  "Weapon Kit",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1686,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

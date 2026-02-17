@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Emus/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1107,
-  "item": 1490,
-  "lore": "It was a young Raven who discovered the existence of Muse and the Astral Gallery. He was a really promising young wizard. While studying the magic that allows dimensional travel, that is, moving to the different realms, he noticed a small loophole that allowed him to enter the realm of the Godess of Creation. Fascinated by the living artistic display that was there, he decided to bring a human friend, the person he trusted the most. Very soon they met Emus, the second in command. She kindly asked them to keep the existence of that place a secret, fearing the inevitable if it became known. The Raven and the human understood her request and reassured her that they already planned to try to hide her existence from the world. Emus thanked them deeply, and in time a good friendship blossomed. The Raven later cast a powerful spell that further concealed the entrance, but also warned Emus that sooner or later someone would find a way to bypass the wards, a prediction that hundreds of years later would come true.",
-  "menagerieDialog": [
-    "Your creatures have grown complacent. You do not discipline them nearly as often as you should.",
-    "Your creatures are weak. They need to train more. Do not be afraid to push them to their limits and beyond.",
-    "Your creatures may be strong, but they are not quick-witted. Their lack of foresight will lead to their demise one day.",
-    "Your creatures are physically and emotionally frail. They strut around with an air of confidence, but if things don\u0027t go exactly according to plan, they fall apart.",
-    "Your creatures are too impulsive. Without a sound strategy, they won\u0027t stand a chance against a strong foe."
-  ],
-  "minDepth": 1,
-  "name": "Emus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Emus/overworld_e0.png",
-      "images/creature/Emus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Emus/overworld_n0.png",
-      "images/creature/Emus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Emus/overworld_s0.png",
-      "images/creature/Emus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Emus/overworld_w0.png",
-      "images/creature/Emus/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    673,
-    674
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1795
+    "battleSprite":  "images/creature/Emus/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1107,
+    "item":  1490,
+    "lore":  "It was a young Raven who discovered the existence of Muse and the Astral Gallery. He was a really promising young wizard. While studying the magic that allows dimensional travel, that is, moving to the different realms, he noticed a small loophole that allowed him to enter the realm of the Godess of Creation. Fascinated by the living artistic display that was there, he decided to bring a human friend, the person he trusted the most. Very soon they met Emus, the second in command. She kindly asked them to keep the existence of that place a secret, fearing the inevitable if it became known. The Raven and the human understood her request and reassured her that they already planned to try to hide her existence from the world. Emus thanked them deeply, and in time a good friendship blossomed. The Raven later cast a powerful spell that further concealed the entrance, but also warned Emus that sooner or later someone would find a way to bypass the wards, a prediction that hundreds of years later would come true.",
+    "menagerieDialog":  [
+                            "Your creatures have grown complacent. You do not discipline them nearly as often as you should.",
+                            "Your creatures are weak. They need to train more. Do not be afraid to push them to their limits and beyond.",
+                            "Your creatures may be strong, but they are not quick-witted. Their lack of foresight will lead to their demise one day.",
+                            "Your creatures are physically and emotionally frail. They strut around with an air of confidence, but if things don\u0027t go exactly according to plan, they fall apart.",
+                            "Your creatures are too impulsive. Without a sound strategy, they won\u0027t stand a chance against a strong foe."
+                        ],
+    "minDepth":  1,
+    "name":  "Emus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Emus/overworld_e0.png",
+                                         "images/creature/Emus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Emus/overworld_n0.png",
+                                          "images/creature/Emus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Emus/overworld_s0.png",
+                                          "images/creature/Emus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Emus/overworld_w0.png",
+                                         "images/creature/Emus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  673,
+                  674
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1795,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

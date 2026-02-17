@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/BoundCerberus/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 612,
-  "item": 799,
-  "lore": "Vulcanar soon regretted creating this creature. Even the Elemental King himself could not control it. In its first minutes of life it pounced on every creature it could find and tore them apart with its jaws on its way to the surface, where it continued the carnage. For several weeks it terrorized the people of Rodia, until, in a stroke of luck for the country, it encountered the Eternal Divinity. After a fierce battle, the Demigod vanquished the beast and left it somewhere no one could find it.",
-  "menagerieDialog": [
-    "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
-    "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
-    "(All three of its heads are fighting over a giant, meat-covered bone.)",
-    "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
-    "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
-  ],
-  "minDepth": 1,
-  "name": "Bound Cerberus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BoundCerberus/overworld_e0.png",
-      "images/creature/BoundCerberus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BoundCerberus/overworld_n0.png",
-      "images/creature/BoundCerberus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BoundCerberus/overworld_s0.png",
-      "images/creature/BoundCerberus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BoundCerberus/overworld_w0.png",
-      "images/creature/BoundCerberus/overworld_w1.png"
-    ]
-  },
-  "race": "Cerberus",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    19
-  ],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 826
+    "battleSprite":  "images/creature/BoundCerberus/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  612,
+    "item":  799,
+    "lore":  "Vulcanar soon regretted creating this creature. Even the Elemental King himself could not control it. In its first minutes of life it pounced on every creature it could find and tore them apart with its jaws on its way to the surface, where it continued the carnage. For several weeks it terrorized the people of Rodia, until, in a stroke of luck for the country, it encountered the Eternal Divinity. After a fierce battle, the Demigod vanquished the beast and left it somewhere no one could find it.",
+    "menagerieDialog":  [
+                            "(Even for a trained Cerberus, this one is particularly calm and gentle. Sometimes you think it wouldn\u0027t attack your enemies if it weren\u0027t for your orders.)",
+                            "(Each of its heads seem to take turns being stubborn. This is one creature that you\u0027ll never be able to fully control.)",
+                            "(All three of its heads are fighting over a giant, meat-covered bone.)",
+                            "(It\u0027s sitting around, pounting for no reason. It hasn\u0027t done any physical activity at all - why is it panting so much?)",
+                            "(It\u0027s chasing its own tail, which would be cute if this creature wasn\u0027t a massive, three-headed, carnivorous beast.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bound Cerberus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BoundCerberus/overworld_e0.png",
+                                         "images/creature/BoundCerberus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BoundCerberus/overworld_n0.png",
+                                          "images/creature/BoundCerberus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BoundCerberus/overworld_s0.png",
+                                          "images/creature/BoundCerberus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BoundCerberus/overworld_w0.png",
+                                         "images/creature/BoundCerberus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cerberus",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            19
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  826,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

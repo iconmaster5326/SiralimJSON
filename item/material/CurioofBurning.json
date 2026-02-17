@@ -1,17 +1,22 @@
 {
-  "condition": 51,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nBurning On Damage:\nCreature has a chance to afflict enemies with {CONDNAME_DEBUFF_BURNED} when it deals damage to them with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
-  "icon": "images/item/material/CurioofBurning.png",
-  "id": 52,
-  "name": "Curio of Burning",
-  "notes": [],
-  "slot": "trick",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": null
+    "condition":  51,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nBurning On Damage:\nCreature has a chance to afflict enemies with {CONDNAME_DEBUFF_BURNED} when it deals damage to them with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/CurioofBurning.png",
+    "id":  52,
+    "name":  "Curio of Burning",
+    "notes":  [
+
+              ],
+    "slot":  "trick",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

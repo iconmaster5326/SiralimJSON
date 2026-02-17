@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/IniquitousIncarnate/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 64,
-  "name": "Iniquitous Incarnate",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/IniquitousIncarnate/overworld_e0.png",
-      "images/skin/IniquitousIncarnate/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/IniquitousIncarnate/overworld_n0.png",
-      "images/skin/IniquitousIncarnate/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/IniquitousIncarnate/overworld_s0.png",
-      "images/skin/IniquitousIncarnate/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/IniquitousIncarnate/overworld_w0.png",
-      "images/skin/IniquitousIncarnate/overworld_w1.png"
-    ]
-  },
-  "race": "Sin",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/IniquitousIncarnate/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  64,
+    "name":  "Iniquitous Incarnate",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/IniquitousIncarnate/overworld_e0.png",
+                                         "images/skin/IniquitousIncarnate/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/IniquitousIncarnate/overworld_n0.png",
+                                          "images/skin/IniquitousIncarnate/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/IniquitousIncarnate/overworld_s0.png",
+                                          "images/skin/IniquitousIncarnate/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/IniquitousIncarnate/overworld_w0.png",
+                                         "images/skin/IniquitousIncarnate/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sin",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

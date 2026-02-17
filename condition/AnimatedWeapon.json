@@ -1,11 +1,14 @@
 {
-  "description": "When the {CONDNAME_MINION_ANIMATEDWEAPON}\u0027s master {ACTION_attacks}, it deals additional damage equal to the highest total stat from all of its Artifact\u0027s Stat Slots.",
-  "icon": "images/condition/AnimatedWeapon.png",
-  "iconResisted": null,
-  "id": 35,
-  "material": null,
-  "name": "Animated Weapon",
-  "notes": [],
-  "reserved": false,
-  "type": "minion"
+    "description":  "When the {CONDNAME_MINION_ANIMATEDWEAPON}\u0027s master {ACTION_attacks}, it deals additional damage equal to the highest total stat from all of its Artifact\u0027s Stat Slots.",
+    "icon":  "images/condition/AnimatedWeapon.png",
+    "iconResisted":  null,
+    "id":  35,
+    "material":  null,
+    "name":  "Animated Weapon",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

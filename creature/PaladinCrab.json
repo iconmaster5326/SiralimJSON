@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PaladinCrab/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1230,
-  "item": 1438,
-  "lore": "For centuries, Lister watched the Imps of his realm overhunt shame-faced crabs. One day, he opened his eyes and found one of these crustaceans sleeping next to him. As time passed, more crabs gathered around him. They had learned that being close to the God of Fortune was the easiest way for them to survive. In time, Lister grew fond of them and finally decided these animals needed protection. For this purpose he created the Paladin Crab, a creature that would gladly give its life to prevent its weaker kin from being eaten, no matter who dares to try.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Paladin Crab",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PaladinCrab/overworld_e0.png",
-      "images/creature/PaladinCrab/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PaladinCrab/overworld_n0.png",
-      "images/creature/PaladinCrab/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PaladinCrab/overworld_s0.png",
-      "images/creature/PaladinCrab/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PaladinCrab/overworld_w0.png",
-      "images/creature/PaladinCrab/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 9,
-    "defense": 27,
-    "health": 39,
-    "intelligence": 9,
-    "speed": 27
-  },
-  "trait": 1746
+    "battleSprite":  "images/creature/PaladinCrab/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1230,
+    "item":  1438,
+    "lore":  "For centuries, Lister watched the Imps of his realm overhunt shame-faced crabs. One day, he opened his eyes and found one of these crustaceans sleeping next to him. As time passed, more crabs gathered around him. They had learned that being close to the God of Fortune was the easiest way for them to survive. In time, Lister grew fond of them and finally decided these animals needed protection. For this purpose he created the Paladin Crab, a creature that would gladly give its life to prevent its weaker kin from being eaten, no matter who dares to try.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Paladin Crab",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PaladinCrab/overworld_e0.png",
+                                         "images/creature/PaladinCrab/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PaladinCrab/overworld_n0.png",
+                                          "images/creature/PaladinCrab/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PaladinCrab/overworld_s0.png",
+                                          "images/creature/PaladinCrab/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PaladinCrab/overworld_w0.png",
+                                         "images/creature/PaladinCrab/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  9,
+                       "defense":  27,
+                       "health":  39,
+                       "intelligence":  9,
+                       "speed":  27
+                   },
+    "trait":  1746,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

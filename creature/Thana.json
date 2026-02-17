@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Thana/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1112,
-  "item": 1492,
-  "lore": "The Goddess of Earth has multiple \u0027granddaughters\u0027 shaped from the stone and dirt and given life, who assist her in maintaining the balance within the Forbidden Depths. Though there are only nine, among them Thana is a living legend due to having found a way to bypass the seal on the Forbidden Depths, and has been known to appear in Vulcanar\u0027s realm from time to time, causing havoc in the fire god\u0027s domain.\\n\\nThere are records in the distant past of Thana even visiting the surface once for a brief time; but as they cannot speak any of the Rodian languages, the people assumed Thana to be a terrible monster and attacked them. Thana retreated to the Forbidden Depths badly injured and harboring a deep, violent hatred of humanity that, thus far, they have not acted upon. This is of great concern to Anneltha, who only entrusts Thana to those who she feels may grant them more hopeful perspectives.",
-  "menagerieDialog": [
-    "There\u0027s nothing better than quaffing down a big bucket of mud on a hot summer day!",
-    "(It seems to have burrowed deep into the ground, destroying your beautiful castle floor in the process.)",
-    "Crystal is a surprisingly nutritious delicacy. I wouldn\u0027t recommend a human consuming any, of course, as you\u0027d tear apart your innards and die a long, painful death.",
-    "My carapace is nearly impenetrable! Our foes don\u0027t stand a chance against the likes of me.",
-    "Someday, I hope to be as powerful as Anneltha. Let\u0027s visit her in the Forgotten Depths sometime soon, shall we?"
-  ],
-  "minDepth": 1,
-  "name": "Thana",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Thana/overworld_e0.png",
-      "images/creature/Thana/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Thana/overworld_n0.png",
-      "images/creature/Thana/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Thana/overworld_s0.png",
-      "images/creature/Thana/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Thana/overworld_w0.png",
-      "images/creature/Thana/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    786,
-    787
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1800
+    "battleSprite":  "images/creature/Thana/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1112,
+    "item":  1492,
+    "lore":  "The Goddess of Earth has multiple \u0027granddaughters\u0027 shaped from the stone and dirt and given life, who assist her in maintaining the balance within the Forbidden Depths. Though there are only nine, among them Thana is a living legend due to having found a way to bypass the seal on the Forbidden Depths, and has been known to appear in Vulcanar\u0027s realm from time to time, causing havoc in the fire god\u0027s domain.\\n\\nThere are records in the distant past of Thana even visiting the surface once for a brief time; but as they cannot speak any of the Rodian languages, the people assumed Thana to be a terrible monster and attacked them. Thana retreated to the Forbidden Depths badly injured and harboring a deep, violent hatred of humanity that, thus far, they have not acted upon. This is of great concern to Anneltha, who only entrusts Thana to those who she feels may grant them more hopeful perspectives.",
+    "menagerieDialog":  [
+                            "There\u0027s nothing better than quaffing down a big bucket of mud on a hot summer day!",
+                            "(It seems to have burrowed deep into the ground, destroying your beautiful castle floor in the process.)",
+                            "Crystal is a surprisingly nutritious delicacy. I wouldn\u0027t recommend a human consuming any, of course, as you\u0027d tear apart your innards and die a long, painful death.",
+                            "My carapace is nearly impenetrable! Our foes don\u0027t stand a chance against the likes of me.",
+                            "Someday, I hope to be as powerful as Anneltha. Let\u0027s visit her in the Forgotten Depths sometime soon, shall we?"
+                        ],
+    "minDepth":  1,
+    "name":  "Thana",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Thana/overworld_e0.png",
+                                         "images/creature/Thana/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Thana/overworld_n0.png",
+                                          "images/creature/Thana/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Thana/overworld_s0.png",
+                                          "images/creature/Thana/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Thana/overworld_w0.png",
+                                         "images/creature/Thana/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  786,
+                  787
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1800,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

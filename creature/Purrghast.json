@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Purrghast/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 794,
-  "item": 1089,
-  "lore": "A legend in Undolim tells of a spirit that steals people\u0027s lives and gives them to cats until they have nine. After the Unification War, a boy watched from his window as a hooded figure approached and touched a drunkard who was walking down the street. The man collapsed onto the cobblestones as a cat came out of a trash can and started grooming its paw. The boy\u0027s terrified gaze soon met a pair of glowing eyes in the dark. The unknown figure removed its hood, revealing a cat\u0027s head. \u0022Meow\u0022, said the strange being. The boy screamed so loud he woke up his family. His parents looked at each other in disbelief as he told the story, but when they went out to look for the man they believed had passed out from drunkenness, they found that he was indeed dead.",
-  "menagerieDialog": [
-    "(It\u0027s purring so loudly that your other creatures are unable to sleep.)",
-    "Greetings, meowster. Are you ready to depart on yet another journey?",
-    "(It\u0027s playing with a ball of yarn. Just cat things.)",
-    "(It\u0027s busy licking its paws and rubbing its face with them, which is perhaps the cutest thing a cat can do.)",
-    "(It always seems to hiss at Everett when he comes for a visit. You can\u0027t blame it - Everett can be quite annoying.)"
-  ],
-  "minDepth": 1,
-  "name": "Purrghast",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Purrghast/overworld_e0.png",
-      "images/creature/Purrghast/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Purrghast/overworld_n0.png",
-      "images/creature/Purrghast/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Purrghast/overworld_s0.png",
-      "images/creature/Purrghast/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Purrghast/overworld_w0.png",
-      "images/creature/Purrghast/overworld_w1.png"
-    ]
-  },
-  "race": "Purrghast",
-  "reserved": false,
-  "skins": [
-    559,
-    560
-  ],
-  "sources": [
-    {
-      "desc": "Nether Realm",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1212
+    "battleSprite":  "images/creature/Purrghast/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  794,
+    "item":  1089,
+    "lore":  "A legend in Undolim tells of a spirit that steals people\u0027s lives and gives them to cats until they have nine. After the Unification War, a boy watched from his window as a hooded figure approached and touched a drunkard who was walking down the street. The man collapsed onto the cobblestones as a cat came out of a trash can and started grooming its paw. The boy\u0027s terrified gaze soon met a pair of glowing eyes in the dark. The unknown figure removed its hood, revealing a cat\u0027s head. \"Meow\", said the strange being. The boy screamed so loud he woke up his family. His parents looked at each other in disbelief as he told the story, but when they went out to look for the man they believed had passed out from drunkenness, they found that he was indeed dead.",
+    "menagerieDialog":  [
+                            "(It\u0027s purring so loudly that your other creatures are unable to sleep.)",
+                            "Greetings, meowster. Are you ready to depart on yet another journey?",
+                            "(It\u0027s playing with a ball of yarn. Just cat things.)",
+                            "(It\u0027s busy licking its paws and rubbing its face with them, which is perhaps the cutest thing a cat can do.)",
+                            "(It always seems to hiss at Everett when he comes for a visit. You can\u0027t blame it - Everett can be quite annoying.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Purrghast",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Purrghast/overworld_e0.png",
+                                         "images/creature/Purrghast/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Purrghast/overworld_n0.png",
+                                          "images/creature/Purrghast/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Purrghast/overworld_s0.png",
+                                          "images/creature/Purrghast/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Purrghast/overworld_w0.png",
+                                         "images/creature/Purrghast/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Purrghast",
+    "reserved":  false,
+    "skins":  [
+                  559,
+                  560
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nether Realm",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1212,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OniGoroshi/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1156,
-  "item": 1418,
-  "lore": "These creatures are vengeful spirits that come from a very distant country. After being abandoned by their masters during a siege of the temple where they lived and trained, they swore revenge before dying in that battle. Their unshakable faith in their beliefs, coupled with the betrayal they felt and the magic that floated there, made the last wish of these young warriors come true. Once again on their feet, they dispersed and massacred both those who had killed them and their own masters, who had abandoned them. However, their thirst for blood did not go away, and they continue their indiscriminate slaughter across the continent to this day.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Oni-Goroshi",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OniGoroshi/overworld_e0.png",
-      "images/creature/OniGoroshi/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OniGoroshi/overworld_n0.png",
-      "images/creature/OniGoroshi/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OniGoroshi/overworld_s0.png",
-      "images/creature/OniGoroshi/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OniGoroshi/overworld_w0.png",
-      "images/creature/OniGoroshi/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1725
+    "battleSprite":  "images/creature/OniGoroshi/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1156,
+    "item":  1418,
+    "lore":  "These creatures are vengeful spirits that come from a very distant country. After being abandoned by their masters during a siege of the temple where they lived and trained, they swore revenge before dying in that battle. Their unshakable faith in their beliefs, coupled with the betrayal they felt and the magic that floated there, made the last wish of these young warriors come true. Once again on their feet, they dispersed and massacred both those who had killed them and their own masters, who had abandoned them. However, their thirst for blood did not go away, and they continue their indiscriminate slaughter across the continent to this day.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Oni-Goroshi",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OniGoroshi/overworld_e0.png",
+                                         "images/creature/OniGoroshi/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OniGoroshi/overworld_n0.png",
+                                          "images/creature/OniGoroshi/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OniGoroshi/overworld_s0.png",
+                                          "images/creature/OniGoroshi/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OniGoroshi/overworld_w0.png",
+                                         "images/creature/OniGoroshi/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1725,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

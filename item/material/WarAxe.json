@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWarcraft:\nThis creature\u0027s [slot_stat] Stat Slots provide 40% more benefit.",
-  "icon": "images/item/material/WarAxe.png",
-  "id": 868,
-  "name": "War Axe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 895
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWarcraft:\nThis creature\u0027s [slot_stat] Stat Slots provide 40% more benefit.",
+    "icon":  "images/item/material/WarAxe.png",
+    "id":  868,
+    "name":  "War Axe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  895,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

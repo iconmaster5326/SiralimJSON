@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Steal:\nAfter this creature {ACTION_attacks}, its Spell Gem with the lowest number of remaining {STAT_charges} gains 1  {STAT_charge}. This creature\u0027s attacks deal 75% more damage.",
-  "icon": "images/item/material/BloodySoulCrystal.png",
-  "id": 1365,
-  "name": "Bloody Soul Crystal",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1672
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Steal:\nAfter this creature {ACTION_attacks}, its Spell Gem with the lowest number of remaining {STAT_charges} gains 1  {STAT_charge}. This creature\u0027s attacks deal 75% more damage.",
+    "icon":  "images/item/material/BloodySoulCrystal.png",
+    "id":  1365,
+    "name":  "Bloody Soul Crystal",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1672,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

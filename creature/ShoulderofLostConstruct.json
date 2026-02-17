@@ -1,34 +1,43 @@
 {
-  "battleSprite": "images/creature/ShoulderofLostConstruct/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1074,
-  "item": null,
-  "lore": "L_LORE_SHOULDEROFLOSTCONSTRUCT",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Shoulder of Lost Construct",
-  "notes": [],
-  "overworldSprite": "creature/ShoulderofLostConstruct/overworld.png",
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 50,
-    "intelligence": 25,
-    "speed": 25
-  },
-  "trait": 1628
+    "battleSprite":  "images/creature/ShoulderofLostConstruct/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1074,
+    "item":  null,
+    "lore":  "L_LORE_SHOULDEROFLOSTCONSTRUCT",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Shoulder of Lost Construct",
+    "notes":  [
+
+              ],
+    "overworldSprite":  "creature/ShoulderofLostConstruct/overworld.png",
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  50,
+                       "intelligence":  25,
+                       "speed":  25
+                   },
+    "trait":  1628,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

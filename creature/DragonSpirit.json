@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DragonSpirit/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1007,
-  "item": 1334,
-  "lore": "In times of crisis, Dragons can perform a ritual that literally materializes their faith in their own people. This extraordinary manifestation has no awareness and only obeys very simple orders, but in battle it is a formidable ally as strong as any other Dragon. When its services are no longer required, it disappears like a beam of light spreading in all directions.",
-  "menagerieDialog": [
-    "I\u0027ll guard your treasure for you while you\u0027re away.",
-    "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
-    "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
-    "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
-    "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
-  ],
-  "minDepth": 1,
-  "name": "Dragon Spirit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DragonSpirit/overworld_e0.png",
-      "images/creature/DragonSpirit/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DragonSpirit/overworld_n0.png",
-      "images/creature/DragonSpirit/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DragonSpirit/overworld_s0.png",
-      "images/creature/DragonSpirit/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DragonSpirit/overworld_w0.png",
-      "images/creature/DragonSpirit/overworld_w1.png"
-    ]
-  },
-  "race": "Dragon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Sorcery Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 28,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 1580
+    "battleSprite":  "images/creature/DragonSpirit/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1007,
+    "item":  1334,
+    "lore":  "In times of crisis, Dragons can perform a ritual that literally materializes their faith in their own people. This extraordinary manifestation has no awareness and only obeys very simple orders, but in battle it is a formidable ally as strong as any other Dragon. When its services are no longer required, it disappears like a beam of light spreading in all directions.",
+    "menagerieDialog":  [
+                            "I\u0027ll guard your treasure for you while you\u0027re away.",
+                            "Your insignificantly short-lived existence must depress you. We Dragons live for thousands of years while humans live and die in the blink of an eye.",
+                            "The air here is stagnant. You could at least add a window or two to allow a fresh breeze in here to freshen things up, you know.",
+                            "Tell Nortah to polish my scales. It has been far too long since they\u0027ve received the attention they deserve.",
+                            "I hope to set off on an adventure of my own one day.\\n\\n(Yep, not going to happen.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dragon Spirit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DragonSpirit/overworld_e0.png",
+                                         "images/creature/DragonSpirit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DragonSpirit/overworld_n0.png",
+                                          "images/creature/DragonSpirit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DragonSpirit/overworld_s0.png",
+                                          "images/creature/DragonSpirit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DragonSpirit/overworld_w0.png",
+                                         "images/creature/DragonSpirit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dragon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Sorcery Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  28,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  1580,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

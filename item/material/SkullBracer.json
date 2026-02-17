@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRevenant\u0027s Toll:\nThis creature deals 200% more damage to {CLASS_Death} creatures and takes 65% less damage from them.",
-  "icon": "images/item/material/SkullBracer.png",
-  "id": 299,
-  "name": "Skull Bracer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 215
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRevenant\u0027s Toll:\nThis creature deals 200% more damage to {CLASS_Death} creatures and takes 65% less damage from them.",
+    "icon":  "images/item/material/SkullBracer.png",
+    "id":  299,
+    "name":  "Skull Bracer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  215,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

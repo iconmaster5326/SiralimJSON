@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PandemicCataclysm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1418,
-  "item": 1753,
-  "lore": "Cataclysms are highly unstable magical creations that constantly leak dangerous spells. They should only be removed from their container when used in combat.\\n\\nBeing near a Pandemic Cataclysm without proper protection can cause serious illness due to the viruses it carries. One time, a city in Siralim went into quarantine because of one.",
-  "menagerieDialog": [
-    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
-    "I am the storm that ends worlds. Point me at our foes!",
-    "The secrets of the universe flow through me. What would you like to know?",
-    "The elements themselves bend to my will. No force can harm me!",
-    "(It\u0027s swirling violently, barely contained within its form.)"
-  ],
-  "minDepth": 1,
-  "name": "Pandemic Cataclysm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PandemicCataclysm/overworld_e0.png",
-      "images/creature/PandemicCataclysm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PandemicCataclysm/overworld_n0.png",
-      "images/creature/PandemicCataclysm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PandemicCataclysm/overworld_s0.png",
-      "images/creature/PandemicCataclysm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PandemicCataclysm/overworld_w0.png",
-      "images/creature/PandemicCataclysm/overworld_w1.png"
-    ]
-  },
-  "race": "Cataclysm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 28,
-    "speed": 22
-  },
-  "trait": 2106
+    "battleSprite":  "images/creature/PandemicCataclysm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1418,
+    "item":  1753,
+    "lore":  "Cataclysms are highly unstable magical creations that constantly leak dangerous spells. They should only be removed from their container when used in combat.\\n\\nBeing near a Pandemic Cataclysm without proper protection can cause serious illness due to the viruses it carries. One time, a city in Siralim went into quarantine because of one.",
+    "menagerieDialog":  [
+                            "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+                            "I am the storm that ends worlds. Point me at our foes!",
+                            "The secrets of the universe flow through me. What would you like to know?",
+                            "The elements themselves bend to my will. No force can harm me!",
+                            "(It\u0027s swirling violently, barely contained within its form.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pandemic Cataclysm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PandemicCataclysm/overworld_e0.png",
+                                         "images/creature/PandemicCataclysm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PandemicCataclysm/overworld_n0.png",
+                                          "images/creature/PandemicCataclysm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PandemicCataclysm/overworld_s0.png",
+                                          "images/creature/PandemicCataclysm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PandemicCataclysm/overworld_w0.png",
+                                         "images/creature/PandemicCataclysm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cataclysm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  28,
+                       "speed":  22
+                   },
+    "trait":  2106,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

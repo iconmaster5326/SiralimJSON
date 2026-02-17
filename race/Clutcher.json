@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "(As you approach the treasure hoard, a Clutcher guarding one of the chests makes an obscene gesture at you. That was just uncalled for.)",
-    "(The Clutcher suddenly lunges at you, trying to grab you! One of your creatures instinctively deflects the ambush, and you prepare for battle!)",
-    "(You hear scuttling as a Clutcher rapidly walks down the wall on its appendages. It points at you, and a group of creatures attack at its command!)"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures have a 5% greater chance to Dodge attacks.",
-    "6": "Your creatures have an independent 5% chance to Dodge attacks.",
-    "9": "When your creatures fail to Dodge attacks, they take 5% less damage."
-  },
-  "cards": 9,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    53,
-    54,
-    55,
-    56,
-    57,
-    58,
-    669,
-    680,
-    986
-  ],
-  "icon": "images/race/Clutcher.png",
-  "master": {
-    "costume": 313,
-    "dialog": "If your team relies on dodging attacks, I\u0027m afraid my Clutchers are going to dish out the ultimate punishment to you. Let\u0027s see what you\u0027ve got!",
-    "item": 1163,
-    "name": "Gringer",
-    "trait": 1414
-  },
-  "name": "Clutcher",
-  "notes": [],
-  "skins": [
-    195,
-    279,
-    655
-  ]
+    "bossDialog":  [
+                       "(As you approach the treasure hoard, a Clutcher guarding one of the chests makes an obscene gesture at you. That was just uncalled for.)",
+                       "(The Clutcher suddenly lunges at you, trying to grab you! One of your creatures instinctively deflects the ambush, and you prepare for battle!)",
+                       "(You hear scuttling as a Clutcher rapidly walks down the wall on its appendages. It points at you, and a group of creatures attack at its command!)"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures have a 5% greater chance to Dodge attacks.",
+                        "6":  "Your creatures have an independent 5% chance to Dodge attacks.",
+                        "9":  "When your creatures fail to Dodge attacks, they take 5% less damage."
+                    },
+    "cards":  9,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      53,
+                      54,
+                      55,
+                      56,
+                      57,
+                      58,
+                      669,
+                      680,
+                      986
+                  ],
+    "icon":  "images/race/Clutcher.png",
+    "master":  {
+                   "costume":  313,
+                   "dialog":  "If your team relies on dodging attacks, I\u0027m afraid my Clutchers are going to dish out the ultimate punishment to you. Let\u0027s see what you\u0027ve got!",
+                   "item":  1163,
+                   "name":  "Gringer",
+                   "trait":  1414
+               },
+    "name":  "Clutcher",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  195,
+                  279,
+                  655
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AhnkolTremor/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 509,
-  "item": 594,
-  "lore": "Nobody thought that unleashing magic without control could affect the world. First was the Watcher War. The consequences of that event gave life to the battlefield, to the land itself. To the Tremors.\\n\\nThe tentacles of an Ahnkol Tremor can extend up to sixteen feet away. During battle, it uses them to entangle the arms of its enemies and stop their attacks.",
-  "menagerieDialog": [
-    "(It seems to be infested with all manner of parasites. It\u0027s so care-free that it doesn\u0027t even groom itself!)",
-    "(This creature has propped itself up by its arms and is repeatedly slamming its torso into the ground in an attempt to start an earthquake. Real mature.)",
-    "(Despite its ultra-punchable face, this creature seems to be especially intelligent for a Tremor.)",
-    "(It\u0027s gazing upward at a nest of birds that have apparently decided to call its forehead home.)",
-    "(It\u0027s stomping down with its fists, one at a time. Annoying.)"
-  ],
-  "minDepth": 1,
-  "name": "Ahnkol Tremor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AhnkolTremor/overworld_e0.png",
-      "images/creature/AhnkolTremor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AhnkolTremor/overworld_n0.png",
-      "images/creature/AhnkolTremor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AhnkolTremor/overworld_s0.png",
-      "images/creature/AhnkolTremor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AhnkolTremor/overworld_w0.png",
-      "images/creature/AhnkolTremor/overworld_w1.png"
-    ]
-  },
-  "race": "Tremor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Anneltha)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 10,
-    "speed": 25
-  },
-  "trait": 508
+    "battleSprite":  "images/creature/AhnkolTremor/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  509,
+    "item":  594,
+    "lore":  "Nobody thought that unleashing magic without control could affect the world. First was the Watcher War. The consequences of that event gave life to the battlefield, to the land itself. To the Tremors.\\n\\nThe tentacles of an Ahnkol Tremor can extend up to sixteen feet away. During battle, it uses them to entangle the arms of its enemies and stop their attacks.",
+    "menagerieDialog":  [
+                            "(It seems to be infested with all manner of parasites. It\u0027s so care-free that it doesn\u0027t even groom itself!)",
+                            "(This creature has propped itself up by its arms and is repeatedly slamming its torso into the ground in an attempt to start an earthquake. Real mature.)",
+                            "(Despite its ultra-punchable face, this creature seems to be especially intelligent for a Tremor.)",
+                            "(It\u0027s gazing upward at a nest of birds that have apparently decided to call its forehead home.)",
+                            "(It\u0027s stomping down with its fists, one at a time. Annoying.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ahnkol Tremor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AhnkolTremor/overworld_e0.png",
+                                         "images/creature/AhnkolTremor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AhnkolTremor/overworld_n0.png",
+                                          "images/creature/AhnkolTremor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AhnkolTremor/overworld_s0.png",
+                                          "images/creature/AhnkolTremor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AhnkolTremor/overworld_w0.png",
+                                         "images/creature/AhnkolTremor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Tremor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Anneltha)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  10,
+                       "speed":  25
+                   },
+    "trait":  508,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

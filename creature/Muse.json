@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Muse/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": 26,
-  "id": 1099,
-  "item": null,
-  "lore": "Muse is almost as old as art, although for thousands of years no one knew she existed because she has never moved beyond her realm. Her realm is one of the few that are popular tourist destinations. The reason is very simple\u00E2\u20AC\u201Dall works of art that are conceived in the world and the different realms are manifested in the Astral Gallery as living beings. Of course, this phenomenon attracts a multitude of thugs who want to kidnap them to sell or kill them for fun. The Godess of Creation vehemently condemns their actions and does not hesitate to reward anyone who helps her deal with this problem.",
-  "menagerieDialog": [
-    "I would prefer to stay back in {CASTLENAME} and work on my paintings today, if it pleases you. No fighting for me today!",
-    "I have an idea for a new painting. Stick with me here - I know it\u0027s weird - but what if we used the blood of our enemies as paint?\\n\\nNo? Okay.",
-    "Spending all this time in the menagerie has given me ample opportunities to draw portraits of your creatures.",
-    "I can\u0027t help but feel a desperate lack of inspiration here in {CASTLENAME}. I would like to return to my realm at once!",
-    "My desire to create new art is fleeting. I\u0027m ready to leave the confines of these castle walls and seek adventure, {PLAYERNAME}! Let us take our leave at once!"
-  ],
-  "minDepth": 1,
-  "name": "Muse",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Muse/overworld_e0.png",
-      "images/creature/Muse/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Muse/overworld_n0.png",
-      "images/creature/Muse/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Muse/overworld_s0.png",
-      "images/creature/Muse/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Muse/overworld_w0.png",
-      "images/creature/Muse/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    597,
-    602,
-    611
-  ],
-  "sources": [
-    {
-      "god": 26,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1989
+    "battleSprite":  "images/creature/Muse/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  26,
+    "id":  1099,
+    "item":  null,
+    "lore":  "Muse is almost as old as art, although for thousands of years no one knew she existed because she has never moved beyond her realm. Her realm is one of the few that are popular tourist destinations. The reason is very simple—all works of art that are conceived in the world and the different realms are manifested in the Astral Gallery as living beings. Of course, this phenomenon attracts a multitude of thugs who want to kidnap them to sell or kill them for fun. The Godess of Creation vehemently condemns their actions and does not hesitate to reward anyone who helps her deal with this problem.",
+    "menagerieDialog":  [
+                            "I would prefer to stay back in {CASTLENAME} and work on my paintings today, if it pleases you. No fighting for me today!",
+                            "I have an idea for a new painting. Stick with me here - I know it\u0027s weird - but what if we used the blood of our enemies as paint?\\n\\nNo? Okay.",
+                            "Spending all this time in the menagerie has given me ample opportunities to draw portraits of your creatures.",
+                            "I can\u0027t help but feel a desperate lack of inspiration here in {CASTLENAME}. I would like to return to my realm at once!",
+                            "My desire to create new art is fleeting. I\u0027m ready to leave the confines of these castle walls and seek adventure, {PLAYERNAME}! Let us take our leave at once!"
+                        ],
+    "minDepth":  1,
+    "name":  "Muse",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Muse/overworld_e0.png",
+                                         "images/creature/Muse/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Muse/overworld_n0.png",
+                                          "images/creature/Muse/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Muse/overworld_s0.png",
+                                          "images/creature/Muse/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Muse/overworld_w0.png",
+                                         "images/creature/Muse/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  597,
+                  602,
+                  611
+              ],
+    "sources":  [
+                    {
+                        "god":  26,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1989,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PhasePaladin/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 209,
-  "item": 455,
-  "lore": "Centuries ago, during the critical phase of the Unification War, Sigmund devastated the city of Siralim with a mercenary army and his extraordinary power. The Queen returned with her most trusted Magi, but it was too late. She had fallen into a trap.\\n\\nPhase Paladins fight for just causes. They are remnants of warriors who devoted their lives to the protection of the innocent. When they hit their shield with their hammer, they generate a force field that can block the attacks of their enemies.",
-  "menagerieDialog": [
-    "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
-    "(It\u0027s dancing and asking you to call it \u0022Dio\u0022. You are now questioning all your life choices.)",
-    "(It tries to impress you by moving random objects through its body.)",
-    "I am yours to command.",
-    "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
-  ],
-  "minDepth": 1,
-  "name": "Phase Paladin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PhasePaladin/overworld_e0.png",
-      "images/creature/PhasePaladin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PhasePaladin/overworld_n0.png",
-      "images/creature/PhasePaladin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PhasePaladin/overworld_s0.png",
-      "images/creature/PhasePaladin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PhasePaladin/overworld_w0.png",
-      "images/creature/PhasePaladin/overworld_w1.png"
-    ]
-  },
-  "race": "Phase Warrior",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 370
+    "battleSprite":  "images/creature/PhasePaladin/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  209,
+    "item":  455,
+    "lore":  "Centuries ago, during the critical phase of the Unification War, Sigmund devastated the city of Siralim with a mercenary army and his extraordinary power. The Queen returned with her most trusted Magi, but it was too late. She had fallen into a trap.\\n\\nPhase Paladins fight for just causes. They are remnants of warriors who devoted their lives to the protection of the innocent. When they hit their shield with their hammer, they generate a force field that can block the attacks of their enemies.",
+    "menagerieDialog":  [
+                            "(Queen Moira of Siralim, whose reign took place during the Unification War, was the first one to use the spell that gives life to these creatures.)",
+                            "(It\u0027s dancing and asking you to call it \"Dio\". You are now questioning all your life choices.)",
+                            "(It tries to impress you by moving random objects through its body.)",
+                            "I am yours to command.",
+                            "(It\u0027s fiercely protective of your other creatures. You\u0027re glad to have it as a part of your team.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Phase Paladin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PhasePaladin/overworld_e0.png",
+                                         "images/creature/PhasePaladin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PhasePaladin/overworld_n0.png",
+                                          "images/creature/PhasePaladin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PhasePaladin/overworld_s0.png",
+                                          "images/creature/PhasePaladin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PhasePaladin/overworld_w0.png",
+                                         "images/creature/PhasePaladin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Phase Warrior",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  370,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

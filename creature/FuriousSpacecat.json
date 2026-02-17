@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FuriousSpacecat/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1300,
-  "item": 1807,
-  "lore": "Most intelligent beings think highly of the Spacecats, though some suspect they\u0027re secretly plotting to take over other nations.\\n\\nDuring their journey through hyperspace, some Spacecats suffered severe shocks from unexpected quantum distortions. Now they\u0027ve lost all sense of reason and become dangerously aggressive. Luckily, a special device can channel their fury toward a target \u00E2\u20AC\u201D and even put them to sleep when needed.",
-  "menagerieDialog": [
-    "(It\u0027s curled up in a floating ball, purring contentedly.)",
-    "Time to show these earthlings what a real predator looks like!",
-    "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
-    "My space suit is impenetrable! Your puny weapons are no match for me!",
-    "(It\u0027s zooming around in erratic patterns, defying gravity.)"
-  ],
-  "minDepth": 1,
-  "name": "Furious Spacecat",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FuriousSpacecat/overworld_e0.png",
-      "images/creature/FuriousSpacecat/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FuriousSpacecat/overworld_n0.png",
-      "images/creature/FuriousSpacecat/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FuriousSpacecat/overworld_s0.png",
-      "images/creature/FuriousSpacecat/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FuriousSpacecat/overworld_w0.png",
-      "images/creature/FuriousSpacecat/overworld_w1.png"
-    ]
-  },
-  "race": "Spacecat",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 28,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 2160
+    "battleSprite":  "images/creature/FuriousSpacecat/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1300,
+    "item":  1807,
+    "lore":  "Most intelligent beings think highly of the Spacecats, though some suspect they\u0027re secretly plotting to take over other nations.\\n\\nDuring their journey through hyperspace, some Spacecats suffered severe shocks from unexpected quantum distortions. Now they\u0027ve lost all sense of reason and become dangerously aggressive. Luckily, a special device can channel their fury toward a target — and even put them to sleep when needed.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up in a floating ball, purring contentedly.)",
+                            "Time to show these earthlings what a real predator looks like!",
+                            "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
+                            "My space suit is impenetrable! Your puny weapons are no match for me!",
+                            "(It\u0027s zooming around in erratic patterns, defying gravity.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Furious Spacecat",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FuriousSpacecat/overworld_e0.png",
+                                         "images/creature/FuriousSpacecat/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FuriousSpacecat/overworld_n0.png",
+                                          "images/creature/FuriousSpacecat/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FuriousSpacecat/overworld_s0.png",
+                                          "images/creature/FuriousSpacecat/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FuriousSpacecat/overworld_w0.png",
+                                         "images/creature/FuriousSpacecat/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spacecat",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  28,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  2160,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

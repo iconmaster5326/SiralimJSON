@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your creatures gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_PROFICIENT}.\\n\\n{CONDDESC_BUFF_INVISIBLE}\\n\\n{CONDDESC_BUFF_PROFICIENT}",
-  "icon": "images/perk/Preparation.png",
-  "id": 370,
-  "maxRanks": 1,
-  "name": "Preparation",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "At the start of battle, your creatures gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_PROFICIENT}.\\n\\n{CONDDESC_BUFF_INVISIBLE}\\n\\n{CONDDESC_BUFF_PROFICIENT}",
+    "icon":  "images/perk/Preparation.png",
+    "id":  370,
+    "maxRanks":  1,
+    "name":  "Preparation",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

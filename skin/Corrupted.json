@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Corrupted/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 294,
-  "name": "Corrupted",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Corrupted/overworld_e0.png",
-      "images/skin/Corrupted/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Corrupted/overworld_n0.png",
-      "images/skin/Corrupted/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Corrupted/overworld_s0.png",
-      "images/skin/Corrupted/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Corrupted/overworld_w0.png",
-      "images/skin/Corrupted/overworld_w1.png"
-    ]
-  },
-  "race": "Doom Fortress",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Corrupted/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  294,
+    "name":  "Corrupted",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Corrupted/overworld_e0.png",
+                                         "images/skin/Corrupted/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Corrupted/overworld_n0.png",
+                                          "images/skin/Corrupted/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Corrupted/overworld_s0.png",
+                                          "images/skin/Corrupted/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Corrupted/overworld_w0.png",
+                                         "images/skin/Corrupted/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doom Fortress",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/RiftWatcher/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 473,
-  "item": 488,
-  "lore": "Watchers were the first real threat to this world because of their superior knowledge of magic. When they arrived, they appeared to be playful and harmless creatures. Some even thought they were a gift from the Gods. But when their numbers were large enough, they mercilessly attacked the first human cities and reduced them to ashes and rubble.\\n\\nRift Watchers like rocky caves, where they usually join a colony of bats, sleeping next to them and chasing away their predators.",
-  "menagerieDialog": [
-    "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
-    "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
-    "(It blinks at you bashfully. It must respect you quite a lot.)",
-    "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
-    "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
-  ],
-  "minDepth": 1,
-  "name": "Rift Watcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RiftWatcher/overworld_e0.png",
-      "images/creature/RiftWatcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RiftWatcher/overworld_n0.png",
-      "images/creature/RiftWatcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RiftWatcher/overworld_s0.png",
-      "images/creature/RiftWatcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RiftWatcher/overworld_w0.png",
-      "images/creature/RiftWatcher/overworld_w1.png"
-    ]
-  },
-  "race": "Watcher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 20,
-    "health": 27,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 402
+    "battleSprite":  "images/creature/RiftWatcher/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  473,
+    "item":  488,
+    "lore":  "Watchers were the first real threat to this world because of their superior knowledge of magic. When they arrived, they appeared to be playful and harmless creatures. Some even thought they were a gift from the Gods. But when their numbers were large enough, they mercilessly attacked the first human cities and reduced them to ashes and rubble.\\n\\nRift Watchers like rocky caves, where they usually join a colony of bats, sleeping next to them and chasing away their predators.",
+    "menagerieDialog":  [
+                            "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
+                            "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
+                            "(It blinks at you bashfully. It must respect you quite a lot.)",
+                            "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
+                            "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Rift Watcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RiftWatcher/overworld_e0.png",
+                                         "images/creature/RiftWatcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RiftWatcher/overworld_n0.png",
+                                          "images/creature/RiftWatcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RiftWatcher/overworld_s0.png",
+                                          "images/creature/RiftWatcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RiftWatcher/overworld_w0.png",
+                                         "images/creature/RiftWatcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Watcher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  20,
+                       "health":  27,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  402,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

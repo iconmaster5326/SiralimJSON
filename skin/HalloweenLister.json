@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenLister/battle.png",
-  "creator": null,
-  "creature": 732,
-  "id": 404,
-  "name": "Halloween Lister",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenLister/overworld_e0.png",
-      "images/skin/HalloweenLister/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenLister/overworld_n0.png",
-      "images/skin/HalloweenLister/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenLister/overworld_s0.png",
-      "images/skin/HalloweenLister/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenLister/overworld_w0.png",
-      "images/skin/HalloweenLister/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenLister/battle.png",
+    "creator":  null,
+    "creature":  732,
+    "id":  404,
+    "name":  "Halloween Lister",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenLister/overworld_e0.png",
+                                         "images/skin/HalloweenLister/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenLister/overworld_n0.png",
+                                          "images/skin/HalloweenLister/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenLister/overworld_s0.png",
+                                          "images/skin/HalloweenLister/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenLister/overworld_w0.png",
+                                         "images/skin/HalloweenLister/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

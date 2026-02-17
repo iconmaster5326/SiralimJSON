@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Genaros/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": 25,
-  "id": 1098,
-  "item": null,
-  "lore": "In the distant kingdom of Kiaces, hunting was revered for dozens of generations, so much so that its cult spread beyond its borders. That faith that traveled almost the entire continent gave life to Genaros, a God who, far from being vengeful, even extolled indiscriminate slaughter as long as it had the purpose of filling the stomach of another living being. However, over time he was forgotten and the borders of his realm simply ceased to be seen with the naked eye. Recently, a group of Rodian Magi found a way to enter the Overgrown Temple, causing that mist to disappear. Genaros is always talking about hunting and does not tolerate any type of violence that is not related to survival in the strictest sense of the word. He charges with all his anger against any criminal who enters his realm.",
-  "menagerieDialog": [
-    "Your creatures are extremely loyal to you. Do not take that fact for granted.",
-    "Practice makes perfect, but one must always train harder than the time before in order for progress to be made.",
-    "A strong group of creatures is worth nothing if they are not backed with a sound strategy. Never stop educating yourself, {PLAYERNAME}, or you\u0027ll eventually come upon a battle that brute strength cannot win on its own.",
-    "I\u0027ve stabbed myself with these weapons in just the right locations in order to block any sensation of pain. I am an unstoppable force!",
-    "Trust no one. Even your most valued lieutenants will stab you in the back if the price is right."
-  ],
-  "minDepth": 1,
-  "name": "Genaros",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Genaros/overworld_e0.png",
-      "images/creature/Genaros/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Genaros/overworld_n0.png",
-      "images/creature/Genaros/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Genaros/overworld_s0.png",
-      "images/creature/Genaros/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Genaros/overworld_w0.png",
-      "images/creature/Genaros/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    596,
-    601,
-    610
-  ],
-  "sources": [
-    {
-      "god": 25,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1987
+    "battleSprite":  "images/creature/Genaros/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  25,
+    "id":  1098,
+    "item":  null,
+    "lore":  "In the distant kingdom of Kiaces, hunting was revered for dozens of generations, so much so that its cult spread beyond its borders. That faith that traveled almost the entire continent gave life to Genaros, a God who, far from being vengeful, even extolled indiscriminate slaughter as long as it had the purpose of filling the stomach of another living being. However, over time he was forgotten and the borders of his realm simply ceased to be seen with the naked eye. Recently, a group of Rodian Magi found a way to enter the Overgrown Temple, causing that mist to disappear. Genaros is always talking about hunting and does not tolerate any type of violence that is not related to survival in the strictest sense of the word. He charges with all his anger against any criminal who enters his realm.",
+    "menagerieDialog":  [
+                            "Your creatures are extremely loyal to you. Do not take that fact for granted.",
+                            "Practice makes perfect, but one must always train harder than the time before in order for progress to be made.",
+                            "A strong group of creatures is worth nothing if they are not backed with a sound strategy. Never stop educating yourself, {PLAYERNAME}, or you\u0027ll eventually come upon a battle that brute strength cannot win on its own.",
+                            "I\u0027ve stabbed myself with these weapons in just the right locations in order to block any sensation of pain. I am an unstoppable force!",
+                            "Trust no one. Even your most valued lieutenants will stab you in the back if the price is right."
+                        ],
+    "minDepth":  1,
+    "name":  "Genaros",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Genaros/overworld_e0.png",
+                                         "images/creature/Genaros/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Genaros/overworld_n0.png",
+                                          "images/creature/Genaros/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Genaros/overworld_s0.png",
+                                          "images/creature/Genaros/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Genaros/overworld_w0.png",
+                                         "images/creature/Genaros/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  596,
+                  601,
+                  610
+              ],
+    "sources":  [
+                    {
+                        "god":  25,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1987,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

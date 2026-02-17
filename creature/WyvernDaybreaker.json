@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WyvernDaybreaker/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 173,
-  "item": 352,
-  "lore": "When Wyverns find an adversary worthy of their strength, they perch on their legs and gather their wings as a sign of respect. Depending on what their opponent does next, they may even join them.\\n\\nWyvern Daybreakers nest in the Frostbite Caverns, hiding their eggs in hollow spaces on the frozen walls. Once the clutch is laid, these creatures leave the cold regions until after their next reproductive cycle. The young must survive in a hostile environment that punishes weakness with death.",
-  "menagerieDialog": [
-    "(It\u0027s curled up with its head between its wings.)",
-    "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
-    "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
-    "(After it notices you, it unleashes a roar of approval.)",
-    "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
-  ],
-  "minDepth": 1,
-  "name": "Wyvern Daybreaker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WyvernDaybreaker/overworld_e0.png",
-      "images/creature/WyvernDaybreaker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WyvernDaybreaker/overworld_n0.png",
-      "images/creature/WyvernDaybreaker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WyvernDaybreaker/overworld_s0.png",
-      "images/creature/WyvernDaybreaker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WyvernDaybreaker/overworld_w0.png",
-      "images/creature/WyvernDaybreaker/overworld_w1.png"
-    ]
-  },
-  "race": "Wyvern",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 16,
-    "health": 33,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 268
+    "battleSprite":  "images/creature/WyvernDaybreaker/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  173,
+    "item":  352,
+    "lore":  "When Wyverns find an adversary worthy of their strength, they perch on their legs and gather their wings as a sign of respect. Depending on what their opponent does next, they may even join them.\\n\\nWyvern Daybreakers nest in the Frostbite Caverns, hiding their eggs in hollow spaces on the frozen walls. Once the clutch is laid, these creatures leave the cold regions until after their next reproductive cycle. The young must survive in a hostile environment that punishes weakness with death.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up with its head between its wings.)",
+                            "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
+                            "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
+                            "(After it notices you, it unleashes a roar of approval.)",
+                            "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Wyvern Daybreaker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WyvernDaybreaker/overworld_e0.png",
+                                         "images/creature/WyvernDaybreaker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WyvernDaybreaker/overworld_n0.png",
+                                          "images/creature/WyvernDaybreaker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WyvernDaybreaker/overworld_s0.png",
+                                          "images/creature/WyvernDaybreaker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WyvernDaybreaker/overworld_w0.png",
+                                         "images/creature/WyvernDaybreaker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wyvern",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  16,
+                       "health":  33,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  268,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

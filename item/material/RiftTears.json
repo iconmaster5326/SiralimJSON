@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nProwess:\nThis creature deals 50% more damage for each {CLASS_Sorcery} creature you have greater than the enemy.",
-  "icon": "images/item/material/RiftTears.png",
-  "id": 488,
-  "name": "Rift Tears",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 402
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nProwess:\nThis creature deals 50% more damage for each {CLASS_Sorcery} creature you have greater than the enemy.",
+    "icon":  "images/item/material/RiftTears.png",
+    "id":  488,
+    "name":  "Rift Tears",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  402,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

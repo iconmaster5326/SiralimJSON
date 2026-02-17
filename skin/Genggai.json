@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Genggai/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 179,
-  "name": "Genggai",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Genggai/overworld_e0.png",
-      "images/skin/Genggai/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Genggai/overworld_n0.png",
-      "images/skin/Genggai/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Genggai/overworld_s0.png",
-      "images/skin/Genggai/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Genggai/overworld_w0.png",
-      "images/skin/Genggai/overworld_w1.png"
-    ]
-  },
-  "race": "Aspect",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Genggai/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  179,
+    "name":  "Genggai",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Genggai/overworld_e0.png",
+                                         "images/skin/Genggai/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Genggai/overworld_n0.png",
+                                          "images/skin/Genggai/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Genggai/overworld_s0.png",
+                                          "images/skin/Genggai/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Genggai/overworld_w0.png",
+                                         "images/skin/Genggai/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Aspect",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

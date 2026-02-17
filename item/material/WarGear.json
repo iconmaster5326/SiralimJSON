@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDownturn:\nAt the start of this creature\u0027s turn, it removes 1 buff from each enemy.",
-  "icon": "images/item/material/WarGear.png",
-  "id": 1060,
-  "name": "War Gear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1079
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDownturn:\nAt the start of this creature\u0027s turn, it removes 1 buff from each enemy.",
+    "icon":  "images/item/material/WarGear.png",
+    "id":  1060,
+    "name":  "War Gear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1079,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

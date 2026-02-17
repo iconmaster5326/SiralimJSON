@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your {CLASS_Sorcery} creatures gain {CONDNAME_MINION_BELPHEGOR}.\\n\\n{CONDDESC_MINION_BELPHEGOR}",
-  "icon": "images/perk/SummonBelphegor.png",
-  "id": 553,
-  "maxRanks": 1,
-  "name": "Summon Belphegor",
-  "notes": [],
-  "pointsPerRank": 50,
-  "specialization": 35
+    "anointable":  true,
+    "description":  "At the start of battle, your {CLASS_Sorcery} creatures gain {CONDNAME_MINION_BELPHEGOR}.\\n\\n{CONDDESC_MINION_BELPHEGOR}",
+    "icon":  "images/perk/SummonBelphegor.png",
+    "id":  553,
+    "maxRanks":  1,
+    "name":  "Summon Belphegor",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  50,
+    "specialization":  35,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/EternitysEnd/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 246,
-  "name": "Eternity\u0027s End",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/EternitysEnd/overworld_e0.png",
-      "images/skin/EternitysEnd/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/EternitysEnd/overworld_n0.png",
-      "images/skin/EternitysEnd/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/EternitysEnd/overworld_s0.png",
-      "images/skin/EternitysEnd/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/EternitysEnd/overworld_w0.png",
-      "images/skin/EternitysEnd/overworld_w1.png"
-    ]
-  },
-  "race": "Mimic",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/EternitysEnd/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  246,
+    "name":  "Eternity\u0027s End",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/EternitysEnd/overworld_e0.png",
+                                         "images/skin/EternitysEnd/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/EternitysEnd/overworld_n0.png",
+                                          "images/skin/EternitysEnd/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/EternitysEnd/overworld_s0.png",
+                                          "images/skin/EternitysEnd/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/EternitysEnd/overworld_w0.png",
+                                         "images/skin/EternitysEnd/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mimic",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

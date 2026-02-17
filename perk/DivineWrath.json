@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When your creatures deal damage with [life_paladin_retribution]Retribution while they\u0027re {ACTION_defending}, the amount of damage is increased by \u003C2\u003E%.",
-  "icon": "images/perk/DivineWrath.png",
-  "id": 131,
-  "maxRanks": 25,
-  "name": "Divine Wrath",
-  "notes": [],
-  "pointsPerRank": 4,
-  "specialization": 10
+    "anointable":  true,
+    "description":  "When your creatures deal damage with [life_paladin_retribution]Retribution while they\u0027re {ACTION_defending}, the amount of damage is increased by \u003c2\u003e%.",
+    "icon":  "images/perk/DivineWrath.png",
+    "id":  131,
+    "maxRanks":  25,
+    "name":  "Divine Wrath",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  4,
+    "specialization":  10,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

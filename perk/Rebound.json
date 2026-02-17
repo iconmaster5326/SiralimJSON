@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When your creatures {ACTION_attack}, and their attack would fail to deal critical damage, the critical chance is re-rolled one additional time.",
-  "icon": "images/perk/Rebound.png",
-  "id": 41,
-  "maxRanks": 1,
-  "name": "Rebound",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 14
+    "anointable":  true,
+    "description":  "When your creatures {ACTION_attack}, and their attack would fail to deal critical damage, the critical chance is re-rolled one additional time.",
+    "icon":  "images/perk/Rebound.png",
+    "id":  41,
+    "maxRanks":  1,
+    "name":  "Rebound",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  14,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

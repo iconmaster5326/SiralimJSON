@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Sakura/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 86,
-  "name": "Sakura",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Sakura/overworld_e0.png",
-      "images/skin/Sakura/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Sakura/overworld_n0.png",
-      "images/skin/Sakura/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Sakura/overworld_s0.png",
-      "images/skin/Sakura/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Sakura/overworld_w0.png",
-      "images/skin/Sakura/overworld_w1.png"
-    ]
-  },
-  "race": "Ent",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Sakura/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  86,
+    "name":  "Sakura",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Sakura/overworld_e0.png",
+                                         "images/skin/Sakura/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Sakura/overworld_n0.png",
+                                          "images/skin/Sakura/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Sakura/overworld_s0.png",
+                                          "images/skin/Sakura/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Sakura/overworld_w0.png",
+                                         "images/skin/Sakura/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ent",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

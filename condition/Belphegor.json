@@ -1,11 +1,14 @@
 {
-  "description": "When {CONDNAME_MINION_BELPHEGOR}\u0027s master {ACTION_casts} a single-target spell, it targets all the creatures fighting on the target\u0027s side. This minion is a Greater Demon.",
-  "icon": "images/condition/Belphegor.png",
-  "iconResisted": null,
-  "id": 59,
-  "material": null,
-  "name": "Belphegor",
-  "notes": [],
-  "reserved": true,
-  "type": "minion"
+    "description":  "When {CONDNAME_MINION_BELPHEGOR}\u0027s master {ACTION_casts} a single-target spell, it targets all the creatures fighting on the target\u0027s side. This minion is a Greater Demon.",
+    "icon":  "images/condition/Belphegor.png",
+    "iconResisted":  null,
+    "id":  59,
+    "material":  null,
+    "name":  "Belphegor",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

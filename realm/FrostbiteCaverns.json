@@ -1,413 +1,418 @@
 {
-  "creator": null,
-  "emblemIcon": "images/item/emblem/Azural.png",
-  "god": 6,
-  "godBlessings": [
-    {
-      "blessing": "\u002B50% Treasure From Tombs",
-      "icon": "images/blessing/fc_tomb.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Campfires Grant Health Boost",
-      "icon": "images/blessing/fc_campfire.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure From Igloos",
-      "icon": "images/blessing/fc_igloo.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B50% Favor From Frozen Yetis",
-      "icon": "images/blessing/fc_yeti.png"
-    },
-    {
-      "blessing": "Increased View Distance",
-      "icon": "images/blessing/seefurther.png"
-    },
-    {
-      "blessing": "Teleportation Shrine is Pre-Revealed at Start of Realm",
-      "icon": "images/blessing/revealshrines.png"
-    },
-    {
-      "blessing": "Mummy Graves Afflict Enemies With a Debuff",
-      "icon": "images/blessing/fc_grave.png"
-    },
-    {
-      "blessing": "\u002B1 Emblems Spawn",
-      "icon": "images/blessing/moreemblems.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Treasure Chests Spawn",
-      "icon": "images/blessing/morechests.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "\u002B50% Favor From Diamonds",
-      "icon": "images/blessing/fc_diamond.png"
-    },
-    {
-      "blessing": "God Altar is Pre-revealed at Start of Realm",
-      "icon": "images/blessing/revealshrines.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Tombs Decrease Enemies\u0027 Defense",
-      "icon": "images/blessing/fc_tomb.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B1 Treasure Chests Spawn",
-      "icon": "images/blessing/morechests.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "\u002B1 Emblems Spawn",
-      "icon": "images/blessing/moreemblems.png"
-    },
-    {
-      "blessing": "25% Chance to Receive Emblem From Campfires",
-      "icon": "images/blessing/fc_campfire.png"
-    },
-    {
-      "blessing": "-50% Chance For Dumplings to Flee",
-      "icon": "images/blessing/noescapedumpling.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Treasure Chests Spawn",
-      "icon": "images/blessing/morechests.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "25% Chance to Receive Emblem From Igloos",
-      "icon": "images/blessing/fc_igloo.png"
-    },
-    {
-      "blessing": "Increased View Distance",
-      "icon": "images/blessing/seefurther.png"
-    },
-    {
-      "blessing": "-50% Chance For Treasure Golems to Flee",
-      "icon": "images/blessing/noescapetgolem.png"
-    },
-    {
-      "blessing": "\u002B1 Nemesis Creatures Spawn",
-      "icon": "images/blessing/morenemesis.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "25% Chance to Receive Emblem From Frozen Yetis",
-      "icon": "images/blessing/fc_yeti.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "\u002B50% Favor From Mummy Graves",
-      "icon": "images/blessing/fc_grave.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B100% Pandemonium Shrine Spawn Chance",
-      "icon": "images/blessing/morepandshrines.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Diamonds Grant Defense Boost",
-      "icon": "images/blessing/fc_diamond.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "Tombs Grant Treasure Chest After Next Battle",
-      "icon": "images/blessing/fc_tomb.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B1 Nemesis Creatures Spawn",
-      "icon": "images/blessing/morenemesis.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "Increased View Distance",
-      "icon": "images/blessing/seefurther.png"
-    },
-    {
-      "blessing": "Dumplings Never Flee",
-      "icon": "images/blessing/noescapedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Campfires Drop Treasure",
-      "icon": "images/blessing/fc_campfire.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "Treasure Golems Never Flee",
-      "icon": "images/blessing/noescapetgolem.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Igloos Grant 100% Critical Chance In Next Battle",
-      "icon": "images/blessing/fc_igloo.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Frozen Yetis Grant Resistance to Debuffs In Next Battle",
-      "icon": "images/blessing/fc_yeti.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "Mummy Graves Drop Treasure",
-      "icon": "images/blessing/fc_grave.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Diamonds Decrease Enemies\u0027 Defense",
-      "icon": "images/blessing/fc_diamond.png"
-    }
-  ],
-  "godShop": {},
-  "id": 0,
-  "name": "Frostbite Caverns",
-  "notes": [],
-  "project": null,
-  "unlockedAtDepth": null
+    "creator":  null,
+    "emblemIcon":  "images/item/emblem/Azural.png",
+    "god":  6,
+    "godBlessings":  [
+                         {
+                             "blessing":  "+50% Treasure From Tombs",
+                             "icon":  "images/blessing/fc_tomb.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Campfires Grant Health Boost",
+                             "icon":  "images/blessing/fc_campfire.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure From Igloos",
+                             "icon":  "images/blessing/fc_igloo.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+50% Favor From Frozen Yetis",
+                             "icon":  "images/blessing/fc_yeti.png"
+                         },
+                         {
+                             "blessing":  "Increased View Distance",
+                             "icon":  "images/blessing/seefurther.png"
+                         },
+                         {
+                             "blessing":  "Teleportation Shrine is Pre-Revealed at Start of Realm",
+                             "icon":  "images/blessing/revealshrines.png"
+                         },
+                         {
+                             "blessing":  "Mummy Graves Afflict Enemies With a Debuff",
+                             "icon":  "images/blessing/fc_grave.png"
+                         },
+                         {
+                             "blessing":  "+1 Emblems Spawn",
+                             "icon":  "images/blessing/moreemblems.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Treasure Chests Spawn",
+                             "icon":  "images/blessing/morechests.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "+50% Favor From Diamonds",
+                             "icon":  "images/blessing/fc_diamond.png"
+                         },
+                         {
+                             "blessing":  "God Altar is Pre-revealed at Start of Realm",
+                             "icon":  "images/blessing/revealshrines.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Tombs Decrease Enemies\u0027 Defense",
+                             "icon":  "images/blessing/fc_tomb.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+1 Treasure Chests Spawn",
+                             "icon":  "images/blessing/morechests.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "+1 Emblems Spawn",
+                             "icon":  "images/blessing/moreemblems.png"
+                         },
+                         {
+                             "blessing":  "25% Chance to Receive Emblem From Campfires",
+                             "icon":  "images/blessing/fc_campfire.png"
+                         },
+                         {
+                             "blessing":  "-50% Chance For Dumplings to Flee",
+                             "icon":  "images/blessing/noescapedumpling.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Treasure Chests Spawn",
+                             "icon":  "images/blessing/morechests.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "25% Chance to Receive Emblem From Igloos",
+                             "icon":  "images/blessing/fc_igloo.png"
+                         },
+                         {
+                             "blessing":  "Increased View Distance",
+                             "icon":  "images/blessing/seefurther.png"
+                         },
+                         {
+                             "blessing":  "-50% Chance For Treasure Golems to Flee",
+                             "icon":  "images/blessing/noescapetgolem.png"
+                         },
+                         {
+                             "blessing":  "+1 Nemesis Creatures Spawn",
+                             "icon":  "images/blessing/morenemesis.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "25% Chance to Receive Emblem From Frozen Yetis",
+                             "icon":  "images/blessing/fc_yeti.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "+50% Favor From Mummy Graves",
+                             "icon":  "images/blessing/fc_grave.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+100% Pandemonium Shrine Spawn Chance",
+                             "icon":  "images/blessing/morepandshrines.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Diamonds Grant Defense Boost",
+                             "icon":  "images/blessing/fc_diamond.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "Tombs Grant Treasure Chest After Next Battle",
+                             "icon":  "images/blessing/fc_tomb.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+1 Nemesis Creatures Spawn",
+                             "icon":  "images/blessing/morenemesis.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "Increased View Distance",
+                             "icon":  "images/blessing/seefurther.png"
+                         },
+                         {
+                             "blessing":  "Dumplings Never Flee",
+                             "icon":  "images/blessing/noescapedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Campfires Drop Treasure",
+                             "icon":  "images/blessing/fc_campfire.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "Treasure Golems Never Flee",
+                             "icon":  "images/blessing/noescapetgolem.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Igloos Grant 100% Critical Chance In Next Battle",
+                             "icon":  "images/blessing/fc_igloo.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Frozen Yetis Grant Resistance to Debuffs In Next Battle",
+                             "icon":  "images/blessing/fc_yeti.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "Mummy Graves Drop Treasure",
+                             "icon":  "images/blessing/fc_grave.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Diamonds Decrease Enemies\u0027 Defense",
+                             "icon":  "images/blessing/fc_diamond.png"
+                         }
+                     ],
+    "godShop":  {
+
+                },
+    "id":  0,
+    "name":  "Frostbite Caverns",
+    "notes":  [
+
+              ],
+    "project":  null,
+    "unlockedAtDepth":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/realm.yaml"
 }

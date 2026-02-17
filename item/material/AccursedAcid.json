@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHaunted Carapace:\nAt the start of each ally\u0027s turn, this creature deals damage to a random enemy equal to 15% of the ally\u0027s {STAT_intelligence}.",
-  "icon": "images/item/material/AccursedAcid.png",
-  "id": 213,
-  "name": "Accursed Acid",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 122
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHaunted Carapace:\nAt the start of each ally\u0027s turn, this creature deals damage to a random enemy equal to 15% of the ally\u0027s {STAT_intelligence}.",
+    "icon":  "images/item/material/AccursedAcid.png",
+    "id":  213,
+    "name":  "Accursed Acid",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  122,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

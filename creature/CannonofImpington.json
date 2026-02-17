@@ -1,34 +1,43 @@
 {
-  "battleSprite": "images/creature/CannonofImpington/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1047,
-  "item": null,
-  "lore": "L_LORE_CANNONOFIMPINGTON",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Cannon of Impington",
-  "notes": [],
-  "overworldSprite": "creature/CannonofImpington/overworld.png",
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 50,
-    "intelligence": 25,
-    "speed": 25
-  },
-  "trait": 1607
+    "battleSprite":  "images/creature/CannonofImpington/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1047,
+    "item":  null,
+    "lore":  "L_LORE_CANNONOFIMPINGTON",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Cannon of Impington",
+    "notes":  [
+
+              ],
+    "overworldSprite":  "creature/CannonofImpington/overworld.png",
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  50,
+                       "intelligence":  25,
+                       "speed":  25
+                   },
+    "trait":  1607,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

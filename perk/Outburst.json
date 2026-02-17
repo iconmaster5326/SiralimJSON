@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures have 1% more stats (other than {STAT_health}) for each time their on-action effects activated in the current battle.",
-  "icon": "images/perk/Outburst.png",
-  "id": 369,
-  "maxRanks": 1,
-  "name": "Outburst",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 24
+    "anointable":  true,
+    "description":  "Your creatures have 1% more stats (other than {STAT_health}) for each time their on-action effects activated in the current battle.",
+    "icon":  "images/perk/Outburst.png",
+    "id":  369,
+    "maxRanks":  1,
+    "name":  "Outburst",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  24,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

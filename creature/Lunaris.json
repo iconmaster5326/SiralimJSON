@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Lunaris/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1469,
-  "item": 1724,
-  "lore": "This creature appears only on full moon nights, wrapped in a silver glow that seems to blur the edges of its body. Its presence affects the sleep of those around it, causing shared visions among people who have never met. It\u0027s believed to act as a link between people\u0027s dreams and their memories of the moon, though whether it\u0027s a messenger, guardian, or mere cosmic accident remains unclear.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Lunaris",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Lunaris/overworld_e0.png",
-      "images/creature/Lunaris/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Lunaris/overworld_n0.png",
-      "images/creature/Lunaris/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Lunaris/overworld_s0.png",
-      "images/creature/Lunaris/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Lunaris/overworld_w0.png",
-      "images/creature/Lunaris/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2066
+    "battleSprite":  "images/creature/Lunaris/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1469,
+    "item":  1724,
+    "lore":  "This creature appears only on full moon nights, wrapped in a silver glow that seems to blur the edges of its body. Its presence affects the sleep of those around it, causing shared visions among people who have never met. It\u0027s believed to act as a link between people\u0027s dreams and their memories of the moon, though whether it\u0027s a messenger, guardian, or mere cosmic accident remains unclear.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Lunaris",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Lunaris/overworld_e0.png",
+                                         "images/creature/Lunaris/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Lunaris/overworld_n0.png",
+                                          "images/creature/Lunaris/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Lunaris/overworld_s0.png",
+                                          "images/creature/Lunaris/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Lunaris/overworld_w0.png",
+                                         "images/creature/Lunaris/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2066,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

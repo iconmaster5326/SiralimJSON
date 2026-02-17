@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHellblast:\nThis creature can\u0027t {ACTION_cast} spells manually. After this creature {ACTION_provokes}, it {ACTION_casts} one of its spells that can target all enemy creatures.",
-  "icon": "images/item/material/HellguardChain.png",
-  "id": 392,
-  "name": "Hellguard Chain",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 307
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHellblast:\nThis creature can\u0027t {ACTION_cast} spells manually. After this creature {ACTION_provokes}, it {ACTION_casts} one of its spells that can target all enemy creatures.",
+    "icon":  "images/item/material/HellguardChain.png",
+    "id":  392,
+    "name":  "Hellguard Chain",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  307,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

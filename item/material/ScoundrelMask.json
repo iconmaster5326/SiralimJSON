@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReroute to Remain:\nAt the start of battle, enemies are afflicted with {CONDNAME_DEBUFF_SCORN} for 1 turn.",
-  "icon": "images/item/material/ScoundrelMask.png",
-  "id": 699,
-  "name": "Scoundrel Mask",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 638
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReroute to Remain:\nAt the start of battle, enemies are afflicted with {CONDNAME_DEBUFF_SCORN} for 1 turn.",
+    "icon":  "images/item/material/ScoundrelMask.png",
+    "id":  699,
+    "name":  "Scoundrel Mask",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  638,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/NightmareGolem/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 153,
-  "item": 417,
-  "lore": "With its incredible amount of magical power, the Nightmare Golem can put its opponents to sleep with ease. A Mage named Magendie once used this creature\u0027s power to combat his insomnia, and he even offered the service to his fellow citizens.",
-  "menagerieDialog": [
-    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
-    "(It\u0027s... shadowboxing. Weird.)",
-    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
-    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
-    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Nightmare Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NightmareGolem/overworld_e0.png",
-      "images/creature/NightmareGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NightmareGolem/overworld_n0.png",
-      "images/creature/NightmareGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NightmareGolem/overworld_s0.png",
-      "images/creature/NightmareGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NightmareGolem/overworld_w0.png",
-      "images/creature/NightmareGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 332
+    "battleSprite":  "images/creature/NightmareGolem/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  153,
+    "item":  417,
+    "lore":  "With its incredible amount of magical power, the Nightmare Golem can put its opponents to sleep with ease. A Mage named Magendie once used this creature\u0027s power to combat his insomnia, and he even offered the service to his fellow citizens.",
+    "menagerieDialog":  [
+                            "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+                            "(It\u0027s... shadowboxing. Weird.)",
+                            "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+                            "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+                            "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nightmare Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NightmareGolem/overworld_e0.png",
+                                         "images/creature/NightmareGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NightmareGolem/overworld_n0.png",
+                                          "images/creature/NightmareGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NightmareGolem/overworld_s0.png",
+                                          "images/creature/NightmareGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NightmareGolem/overworld_w0.png",
+                                         "images/creature/NightmareGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  332,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

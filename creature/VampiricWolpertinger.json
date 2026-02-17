@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/VampiricWolpertinger/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 361,
-  "item": 622,
-  "lore": "Wolpertingers are dangerous beasts that live mainly in high mountain areas. Creatures like Trolls or the Smiths of the Scarlet Mountains often have trouble with them.\\n\\nDue to their unstable structure, some Wolpertingers mutate into the Vampiric subspecies without any specific cause. This creature\u0027s visual system does not allow it to receive clear images during the day. However, it is an insatiable predator at night, feeding on the blood of other creatures until they are completely dry.",
-  "menagerieDialog": [
-    "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
-    "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
-    "(It\u0027s eating a pile of trash. Hm. To each his own.)",
-    "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
-    "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
-  ],
-  "minDepth": 1,
-  "name": "Vampiric Wolpertinger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VampiricWolpertinger/overworld_e0.png",
-      "images/creature/VampiricWolpertinger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VampiricWolpertinger/overworld_n0.png",
-      "images/creature/VampiricWolpertinger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VampiricWolpertinger/overworld_s0.png",
-      "images/creature/VampiricWolpertinger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VampiricWolpertinger/overworld_w0.png",
-      "images/creature/VampiricWolpertinger/overworld_w1.png"
-    ]
-  },
-  "race": "Wolpertinger",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    23
-  ],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 16,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 536
+    "battleSprite":  "images/creature/VampiricWolpertinger/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  361,
+    "item":  622,
+    "lore":  "Wolpertingers are dangerous beasts that live mainly in high mountain areas. Creatures like Trolls or the Smiths of the Scarlet Mountains often have trouble with them.\\n\\nDue to their unstable structure, some Wolpertingers mutate into the Vampiric subspecies without any specific cause. This creature\u0027s visual system does not allow it to receive clear images during the day. However, it is an insatiable predator at night, feeding on the blood of other creatures until they are completely dry.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up into a little ball with its eyes half-closed. A nap is imminent.)",
+                            "(You\u0027re constantly amazed at how violent this creature is. Even after it has slain its foes, it continues goring them with its horn.)",
+                            "(It\u0027s eating a pile of trash. Hm. To each his own.)",
+                            "(It bucks at the air anxiously. Perhaps a drugged carrot will settle it down.)",
+                            "(The creature is growling at you. Unfortunately for it, you can\u0027t take it seriously at all since it has a piece of food caught between its teeth.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vampiric Wolpertinger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VampiricWolpertinger/overworld_e0.png",
+                                         "images/creature/VampiricWolpertinger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VampiricWolpertinger/overworld_n0.png",
+                                          "images/creature/VampiricWolpertinger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VampiricWolpertinger/overworld_s0.png",
+                                          "images/creature/VampiricWolpertinger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VampiricWolpertinger/overworld_w0.png",
+                                         "images/creature/VampiricWolpertinger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wolpertinger",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            23
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  16,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  536,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

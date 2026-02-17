@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCorpse Keeper:\nAt the start of your creatures\u0027 turns, they gain 1 stack of {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
-  "icon": "images/item/material/GraveShovel.png",
-  "id": 1637,
-  "name": "Grave Shovel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1840
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCorpse Keeper:\nAt the start of your creatures\u0027 turns, they gain 1 stack of {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
+    "icon":  "images/item/material/GraveShovel.png",
+    "id":  1637,
+    "name":  "Grave Shovel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1840,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

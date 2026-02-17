@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/BrownieCaptain/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 164,
-  "item": 545,
-  "lore": "When humans began to capture, sell and enslave Brownies, all the strength of their people fell upon them. They were small and fast, and they were many.\\n\\nWhen a Brownie reaches a certain age, it usually has considerable combat experience. These individuals are called Captains by their own kind, and they are experts in finding enemy weak points at a glance during battle.",
-  "menagerieDialog": [
-    "Could we slow down a little, buddy?",
-    "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
-    "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
-    "(Both its weapon and its temper are comically oversized for its body.)",
-    "(Its annoying laughter haunts your nightmares.)"
-  ],
-  "minDepth": 1,
-  "name": "Brownie Captain",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BrownieCaptain/overworld_e0.png",
-      "images/creature/BrownieCaptain/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BrownieCaptain/overworld_n0.png",
-      "images/creature/BrownieCaptain/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BrownieCaptain/overworld_s0.png",
-      "images/creature/BrownieCaptain/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BrownieCaptain/overworld_w0.png",
-      "images/creature/BrownieCaptain/overworld_w1.png"
-    ]
-  },
-  "race": "Brownie",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 459
+    "battleSprite":  "images/creature/BrownieCaptain/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  164,
+    "item":  545,
+    "lore":  "When humans began to capture, sell and enslave Brownies, all the strength of their people fell upon them. They were small and fast, and they were many.\\n\\nWhen a Brownie reaches a certain age, it usually has considerable combat experience. These individuals are called Captains by their own kind, and they are experts in finding enemy weak points at a glance during battle.",
+    "menagerieDialog":  [
+                            "Could we slow down a little, buddy?",
+                            "I\u0027M GONNA BASH THEIR BRAINS IN!\\n\\n(Its threats would seem a lot more promising if this creature\u0027s voice wasn\u0027t so high-pitched.)",
+                            "I like to think of myself as the leader of our group. Don\u0027t worry - you\u0027re my second in command!",
+                            "(Both its weapon and its temper are comically oversized for its body.)",
+                            "(Its annoying laughter haunts your nightmares.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Brownie Captain",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BrownieCaptain/overworld_e0.png",
+                                         "images/creature/BrownieCaptain/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BrownieCaptain/overworld_n0.png",
+                                          "images/creature/BrownieCaptain/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BrownieCaptain/overworld_s0.png",
+                                          "images/creature/BrownieCaptain/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BrownieCaptain/overworld_w0.png",
+                                         "images/creature/BrownieCaptain/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Brownie",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  459,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

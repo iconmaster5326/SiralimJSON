@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/SingularAcrova/battle.png",
-  "creator": null,
-  "creature": 1091,
-  "id": 618,
-  "name": "Singular Acrova",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SingularAcrova/overworld_e0.png",
-      "images/skin/SingularAcrova/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SingularAcrova/overworld_n0.png",
-      "images/skin/SingularAcrova/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SingularAcrova/overworld_s0.png",
-      "images/skin/SingularAcrova/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SingularAcrova/overworld_w0.png",
-      "images/skin/SingularAcrova/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/SingularAcrova/battle.png",
+    "creator":  null,
+    "creature":  1091,
+    "id":  618,
+    "name":  "Singular Acrova",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SingularAcrova/overworld_e0.png",
+                                         "images/skin/SingularAcrova/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SingularAcrova/overworld_n0.png",
+                                          "images/skin/SingularAcrova/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SingularAcrova/overworld_s0.png",
+                                          "images/skin/SingularAcrova/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SingularAcrova/overworld_w0.png",
+                                         "images/skin/SingularAcrova/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

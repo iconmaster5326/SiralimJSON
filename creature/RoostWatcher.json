@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/RoostWatcher/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 474,
-  "item": 486,
-  "lore": "This creature specializes in sneaking into mansions and castles at night. It wanders around the corridors, waiting for someone to get up for a visit to the pantry or to empty the bladder. It uses its knowledge of light to cast a long shadow on the ground, scaring anyone who sees it. When they are terrified enough to ignite a stronger light, it suddenly appears in front of them with its characteristic smile and attacks with a powerful spell.",
-  "menagerieDialog": [
-    "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
-    "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
-    "(It blinks at you bashfully. It must respect you quite a lot.)",
-    "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
-    "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
-  ],
-  "minDepth": 1,
-  "name": "Roost Watcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RoostWatcher/overworld_e0.png",
-      "images/creature/RoostWatcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RoostWatcher/overworld_n0.png",
-      "images/creature/RoostWatcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RoostWatcher/overworld_s0.png",
-      "images/creature/RoostWatcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RoostWatcher/overworld_w0.png",
-      "images/creature/RoostWatcher/overworld_w1.png"
-    ]
-  },
-  "race": "Watcher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    25
-  ],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 400
+    "battleSprite":  "images/creature/RoostWatcher/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  474,
+    "item":  486,
+    "lore":  "This creature specializes in sneaking into mansions and castles at night. It wanders around the corridors, waiting for someone to get up for a visit to the pantry or to empty the bladder. It uses its knowledge of light to cast a long shadow on the ground, scaring anyone who sees it. When they are terrified enough to ignite a stronger light, it suddenly appears in front of them with its characteristic smile and attacks with a powerful spell.",
+    "menagerieDialog":  [
+                            "(These days, no one is particularly afraid of these creatures, but in the past they nearly destroyed the world.)",
+                            "(Its single eye is completely bloodshot. It\u0027s either angry or hungover, neither of which are preferable.)",
+                            "(It blinks at you bashfully. It must respect you quite a lot.)",
+                            "(It\u0027s doing pushups, which is probably quite important for a creature with only one limb.)",
+                            "(It\u0027s flipping its eye back and forth. Perhaps this is its way of showing you that it\u0027s nervous.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Roost Watcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RoostWatcher/overworld_e0.png",
+                                         "images/creature/RoostWatcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RoostWatcher/overworld_n0.png",
+                                          "images/creature/RoostWatcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RoostWatcher/overworld_s0.png",
+                                          "images/creature/RoostWatcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RoostWatcher/overworld_w0.png",
+                                         "images/creature/RoostWatcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Watcher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            25
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  400,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

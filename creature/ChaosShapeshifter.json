@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ChaosShapeshifter/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 43,
-  "item": 613,
-  "lore": "Shapeshifters live in small tribes, deep in the Swamplands and the Unsullied Meadows. To protect themselves from their enemies, these creatures alter their structure and copy that of other creatures.\\n\\nChaos Shapeshifters are the rowdiest of their kind. Some do not even choose their path voluntarily, but they end up transforming into that class of creatures simply because of their unbridled character.",
-  "menagerieDialog": [
-    "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
-    "(It transforms into a cat right before your very eyes.)",
-    "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
-    "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
-    "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
-  ],
-  "minDepth": 1,
-  "name": "Chaos Shapeshifter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ChaosShapeshifter/overworld_e0.png",
-      "images/creature/ChaosShapeshifter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ChaosShapeshifter/overworld_n0.png",
-      "images/creature/ChaosShapeshifter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ChaosShapeshifter/overworld_s0.png",
-      "images/creature/ChaosShapeshifter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ChaosShapeshifter/overworld_w0.png",
-      "images/creature/ChaosShapeshifter/overworld_w1.png"
-    ]
-  },
-  "race": "Shapeshifter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 527
+    "battleSprite":  "images/creature/ChaosShapeshifter/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  43,
+    "item":  613,
+    "lore":  "Shapeshifters live in small tribes, deep in the Swamplands and the Unsullied Meadows. To protect themselves from their enemies, these creatures alter their structure and copy that of other creatures.\\n\\nChaos Shapeshifters are the rowdiest of their kind. Some do not even choose their path voluntarily, but they end up transforming into that class of creatures simply because of their unbridled character.",
+    "menagerieDialog":  [
+                            "I\u0027m a big fan of the cuisine around here. My compliments to your chef.",
+                            "(It transforms into a cat right before your very eyes.)",
+                            "I\u0027d prefer that you keep your kingdom small. I\u0027m not good with large crowds.",
+                            "(It transforms into a perfect copy of you. You never realized just how imperfect you look.)",
+                            "We Shapeshifters invented the concept of Fusion. You\u0027re welcome."
+                        ],
+    "minDepth":  1,
+    "name":  "Chaos Shapeshifter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ChaosShapeshifter/overworld_e0.png",
+                                         "images/creature/ChaosShapeshifter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ChaosShapeshifter/overworld_n0.png",
+                                          "images/creature/ChaosShapeshifter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ChaosShapeshifter/overworld_s0.png",
+                                          "images/creature/ChaosShapeshifter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ChaosShapeshifter/overworld_w0.png",
+                                         "images/creature/ChaosShapeshifter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shapeshifter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  527,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

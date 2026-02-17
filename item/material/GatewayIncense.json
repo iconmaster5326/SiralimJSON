@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpook:\nAt the start of battle, this creature gains {CONDNAME_BUFF_INVISIBLE}. This creature deals 200% more damage while it is {CONDNAME_BUFF_INVISIBLE}. This creature\u0027s {CONDNAME_BUFF_INVISIBLE} buff is no longer removed at the start of its turn.",
-  "icon": "images/item/material/GatewayIncense.png",
-  "id": 286,
-  "name": "Gateway Incense",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 202
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpook:\nAt the start of battle, this creature gains {CONDNAME_BUFF_INVISIBLE}. This creature deals 200% more damage while it is {CONDNAME_BUFF_INVISIBLE}. This creature\u0027s {CONDNAME_BUFF_INVISIBLE} buff is no longer removed at the start of its turn.",
+    "icon":  "images/item/material/GatewayIncense.png",
+    "id":  286,
+    "name":  "Gateway Incense",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  202,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

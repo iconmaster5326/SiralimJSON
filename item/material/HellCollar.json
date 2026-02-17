@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHound Legion:\nYour creatures\u0027 {CONDNAME_MINION_DIREWOLF} never go away.",
-  "icon": "images/item/material/HellCollar.png",
-  "id": 238,
-  "name": "Hell Collar",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 147
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHound Legion:\nYour creatures\u0027 {CONDNAME_MINION_DIREWOLF} never go away.",
+    "icon":  "images/item/material/HellCollar.png",
+    "id":  238,
+    "name":  "Hell Collar",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  147,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

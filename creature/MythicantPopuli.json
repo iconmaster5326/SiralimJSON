@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/MythicantPopuli/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1267,
-  "item": 1626,
-  "lore": "The Mythicants took shapes related to the three novels based on the diaries an Andolian soldier wrote during the Unification War. Anyone in possession of one of its pages can control a Mythicant.\\n\\nThe Mythicant Populi uses its book and blade to protect itself from enemy attacks. Unlike other Mythicants, it materializes words outside of battle that float above its head and describe what it is doing at all times.",
-  "menagerieDialog": [
-    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
-    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
-    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
-    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
-    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
-  ],
-  "minDepth": 1,
-  "name": "Mythicant Populi",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MythicantPopuli/overworld_e0.png",
-      "images/creature/MythicantPopuli/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MythicantPopuli/overworld_n0.png",
-      "images/creature/MythicantPopuli/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MythicantPopuli/overworld_s0.png",
-      "images/creature/MythicantPopuli/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MythicantPopuli/overworld_w0.png",
-      "images/creature/MythicantPopuli/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    26
-  ],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 16,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1966
+    "battleSprite":  "images/creature/MythicantPopuli/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1267,
+    "item":  1626,
+    "lore":  "The Mythicants took shapes related to the three novels based on the diaries an Andolian soldier wrote during the Unification War. Anyone in possession of one of its pages can control a Mythicant.\\n\\nThe Mythicant Populi uses its book and blade to protect itself from enemy attacks. Unlike other Mythicants, it materializes words outside of battle that float above its head and describe what it is doing at all times.",
+    "menagerieDialog":  [
+                            "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+                            "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+                            "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+                            "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+                            "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mythicant Populi",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MythicantPopuli/overworld_e0.png",
+                                         "images/creature/MythicantPopuli/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MythicantPopuli/overworld_n0.png",
+                                          "images/creature/MythicantPopuli/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MythicantPopuli/overworld_s0.png",
+                                          "images/creature/MythicantPopuli/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MythicantPopuli/overworld_w0.png",
+                                         "images/creature/MythicantPopuli/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            26
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  16,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1966,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

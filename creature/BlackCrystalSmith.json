@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BlackCrystalSmith/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 286,
-  "item": 428,
-  "lore": "After the second diaspora of the Smiths, some Gorgons decided to travel with them to the Scarlet Mountains to settle there. The place is an inhospitable wilderness, infested with aggressive creatures that prey on the unsuspecting, so the Smiths were forced to specialize in the manufacture of traps to protect their villages.\\n\\nBlack Crystal Smiths still forge some weapons and shields, with the only purpose of attacking human knights and creatures.",
-  "menagerieDialog": [
-    "I\u0027m far more skilled in forging weapons than fighting creatures.",
-    "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
-    "Never leave home without ensuring that all your Artifacts are fully upgraded.",
-    "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
-    "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
-  ],
-  "minDepth": 1,
-  "name": "Black Crystal Smith",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BlackCrystalSmith/overworld_e0.png",
-      "images/creature/BlackCrystalSmith/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BlackCrystalSmith/overworld_n0.png",
-      "images/creature/BlackCrystalSmith/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BlackCrystalSmith/overworld_s0.png",
-      "images/creature/BlackCrystalSmith/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BlackCrystalSmith/overworld_w0.png",
-      "images/creature/BlackCrystalSmith/overworld_w1.png"
-    ]
-  },
-  "race": "Smith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Azural)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 33,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 343
+    "battleSprite":  "images/creature/BlackCrystalSmith/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  286,
+    "item":  428,
+    "lore":  "After the second diaspora of the Smiths, some Gorgons decided to travel with them to the Scarlet Mountains to settle there. The place is an inhospitable wilderness, infested with aggressive creatures that prey on the unsuspecting, so the Smiths were forced to specialize in the manufacture of traps to protect their villages.\\n\\nBlack Crystal Smiths still forge some weapons and shields, with the only purpose of attacking human knights and creatures.",
+    "menagerieDialog":  [
+                            "I\u0027m far more skilled in forging weapons than fighting creatures.",
+                            "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
+                            "Never leave home without ensuring that all your Artifacts are fully upgraded.",
+                            "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
+                            "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
+                        ],
+    "minDepth":  1,
+    "name":  "Black Crystal Smith",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BlackCrystalSmith/overworld_e0.png",
+                                         "images/creature/BlackCrystalSmith/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BlackCrystalSmith/overworld_n0.png",
+                                          "images/creature/BlackCrystalSmith/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BlackCrystalSmith/overworld_s0.png",
+                                          "images/creature/BlackCrystalSmith/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BlackCrystalSmith/overworld_w0.png",
+                                         "images/creature/BlackCrystalSmith/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Smith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Azural)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  33,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  343,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

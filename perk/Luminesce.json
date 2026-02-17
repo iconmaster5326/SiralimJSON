@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures are healed, and the amount healed exceeds the creature\u0027s Maximum {STAT_health}, store the extra healing as a {CONDNAME_BUFF_BARRIER}.\\n\\n{CONDDESC_BUFF_BARRIER}",
-  "icon": "images/perk/Luminesce.png",
-  "id": 96,
-  "maxRanks": 1,
-  "name": "Luminesce",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 2
+    "anointable":  true,
+    "description":  "After your creatures are healed, and the amount healed exceeds the creature\u0027s Maximum {STAT_health}, store the extra healing as a {CONDNAME_BUFF_BARRIER}.\\n\\n{CONDDESC_BUFF_BARRIER}",
+    "icon":  "images/perk/Luminesce.png",
+    "id":  96,
+    "maxRanks":  1,
+    "name":  "Luminesce",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  2,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

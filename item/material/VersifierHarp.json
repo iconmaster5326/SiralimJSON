@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHymn of Strength:\nWhen your creatures lose stats, the amount lost is reduced by 50%. This trait does not stack.",
-  "icon": "images/item/material/VersifierHarp.png",
-  "id": 711,
-  "name": "Versifier Harp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 650
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHymn of Strength:\nWhen your creatures lose stats, the amount lost is reduced by 50%. This trait does not stack.",
+    "icon":  "images/item/material/VersifierHarp.png",
+    "id":  711,
+    "name":  "Versifier Harp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  650,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, they are afflicted with {CONDNAME_DEBUFF_BOMB}.\\n\\n{CONDDESC_DEBUFF_BOMB}",
-  "icon": "images/perk/Flashover.png",
-  "id": 261,
-  "maxRanks": 1,
-  "name": "Flashover",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 17
+    "anointable":  true,
+    "description":  "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, they are afflicted with {CONDNAME_DEBUFF_BOMB}.\\n\\n{CONDDESC_DEBUFF_BOMB}",
+    "icon":  "images/perk/Flashover.png",
+    "id":  261,
+    "maxRanks":  1,
+    "name":  "Flashover",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  17,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

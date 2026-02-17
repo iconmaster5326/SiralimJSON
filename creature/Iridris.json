@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Iridris/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1093,
-  "item": 1632,
-  "lore": "The cry of this creature, native to the kingdom of Ercath, is one of the most terrifying sounds that exists. Luckily, it hates crowds and never goes near towns and cities, not even small villages. Their genetic memory is very particular, since they remember all the threats to the life of any ancestor they had before being conceived. Of course, capturing one of these creatures is extremely difficult, as they know many tricks, as well as how to hide and where it is better to lay low. However, their peculiar scream provokes interest in some wealthy individuals, so there are often mercenaries trying to hunt them down without much success.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Iridris",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Iridris/overworld_e0.png",
-      "images/creature/Iridris/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Iridris/overworld_n0.png",
-      "images/creature/Iridris/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Iridris/overworld_s0.png",
-      "images/creature/Iridris/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Iridris/overworld_w0.png",
-      "images/creature/Iridris/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1836
+    "battleSprite":  "images/creature/Iridris/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1093,
+    "item":  1632,
+    "lore":  "The cry of this creature, native to the kingdom of Ercath, is one of the most terrifying sounds that exists. Luckily, it hates crowds and never goes near towns and cities, not even small villages. Their genetic memory is very particular, since they remember all the threats to the life of any ancestor they had before being conceived. Of course, capturing one of these creatures is extremely difficult, as they know many tricks, as well as how to hide and where it is better to lay low. However, their peculiar scream provokes interest in some wealthy individuals, so there are often mercenaries trying to hunt them down without much success.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Iridris",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Iridris/overworld_e0.png",
+                                         "images/creature/Iridris/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Iridris/overworld_n0.png",
+                                          "images/creature/Iridris/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Iridris/overworld_s0.png",
+                                          "images/creature/Iridris/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Iridris/overworld_w0.png",
+                                         "images/creature/Iridris/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1836,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

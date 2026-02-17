@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CentaurRunner/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 552,
-  "item": 727,
-  "lore": "The tests to achieve the rank of Runner are so strenuous that many of the Centaur candidates end up injured, never to gallop again. Centaur Runners can hold their own in battle by using spells and shield slams, but their main purpose is to look for supplies during long trips to feed the large Centaur parties.",
-  "menagerieDialog": [
-    "Free me at once.",
-    "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
-    "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
-    "Let us leave here and conquer new lands together!",
-    "I am under a great deal of stress. A few battles should help me relax."
-  ],
-  "minDepth": 1,
-  "name": "Centaur Runner",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CentaurRunner/overworld_e0.png",
-      "images/creature/CentaurRunner/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CentaurRunner/overworld_n0.png",
-      "images/creature/CentaurRunner/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CentaurRunner/overworld_s0.png",
-      "images/creature/CentaurRunner/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CentaurRunner/overworld_w0.png",
-      "images/creature/CentaurRunner/overworld_w1.png"
-    ]
-  },
-  "race": "Centaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 33,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 666
+    "battleSprite":  "images/creature/CentaurRunner/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  552,
+    "item":  727,
+    "lore":  "The tests to achieve the rank of Runner are so strenuous that many of the Centaur candidates end up injured, never to gallop again. Centaur Runners can hold their own in battle by using spells and shield slams, but their main purpose is to look for supplies during long trips to feed the large Centaur parties.",
+    "menagerieDialog":  [
+                            "Free me at once.",
+                            "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
+                            "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
+                            "Let us leave here and conquer new lands together!",
+                            "I am under a great deal of stress. A few battles should help me relax."
+                        ],
+    "minDepth":  1,
+    "name":  "Centaur Runner",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CentaurRunner/overworld_e0.png",
+                                         "images/creature/CentaurRunner/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CentaurRunner/overworld_n0.png",
+                                          "images/creature/CentaurRunner/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CentaurRunner/overworld_s0.png",
+                                          "images/creature/CentaurRunner/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CentaurRunner/overworld_w0.png",
+                                         "images/creature/CentaurRunner/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Centaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  33,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  666,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

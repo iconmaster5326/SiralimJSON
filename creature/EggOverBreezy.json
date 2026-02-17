@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EggOverBreezy/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1289,
-  "item": 1791,
-  "lore": "Who says eggs can\u0027t float on air? Why not? This powerful egg has transcended space, time, quantum physics, and anything else you can think of. It can be in multiple places at once, take on different shapes. Its shell might be lounging on a beach, soaking up the sun, or whatever shells do at the beach. Its egg white can turn into a cloud, and it even holds the yolk inside its soft, cotton-like fluff. The only limit is its imagination!",
-  "menagerieDialog": [
-    "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
-    "We may look fragile, but we\u0027ll crack some skulls!",
-    "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
-    "Our shells are tougher than they look. Bring it on!",
-    "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
-  ],
-  "minDepth": 1,
-  "name": "Egg Over Breezy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EggOverBreezy/overworld_e0.png",
-      "images/creature/EggOverBreezy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EggOverBreezy/overworld_n0.png",
-      "images/creature/EggOverBreezy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EggOverBreezy/overworld_s0.png",
-      "images/creature/EggOverBreezy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EggOverBreezy/overworld_w0.png",
-      "images/creature/EggOverBreezy/overworld_w1.png"
-    ]
-  },
-  "race": "Eggxotic",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 30
-  },
-  "trait": 2144
+    "battleSprite":  "images/creature/EggOverBreezy/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1289,
+    "item":  1791,
+    "lore":  "Who says eggs can\u0027t float on air? Why not? This powerful egg has transcended space, time, quantum physics, and anything else you can think of. It can be in multiple places at once, take on different shapes. Its shell might be lounging on a beach, soaking up the sun, or whatever shells do at the beach. Its egg white can turn into a cloud, and it even holds the yolk inside its soft, cotton-like fluff. The only limit is its imagination!",
+    "menagerieDialog":  [
+                            "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
+                            "We may look fragile, but we\u0027ll crack some skulls!",
+                            "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
+                            "Our shells are tougher than they look. Bring it on!",
+                            "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Egg Over Breezy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EggOverBreezy/overworld_e0.png",
+                                         "images/creature/EggOverBreezy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EggOverBreezy/overworld_n0.png",
+                                          "images/creature/EggOverBreezy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EggOverBreezy/overworld_s0.png",
+                                          "images/creature/EggOverBreezy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EggOverBreezy/overworld_w0.png",
+                                         "images/creature/EggOverBreezy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Eggxotic",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  30
+                   },
+    "trait":  2144,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

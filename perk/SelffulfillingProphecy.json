@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After an enemy {ACTION_casts} a spell, it gains {CONDNAME_BUFF_MEND}.\\n\\n{CONDDESC_BUFF_MEND}",
-  "icon": "images/perk/SelffulfillingProphecy.png",
-  "id": 520,
-  "maxRanks": 1,
-  "name": "Self-fulfilling Prophecy",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 33
+    "anointable":  true,
+    "description":  "After an enemy {ACTION_casts} a spell, it gains {CONDNAME_BUFF_MEND}.\\n\\n{CONDDESC_BUFF_MEND}",
+    "icon":  "images/perk/SelffulfillingProphecy.png",
+    "id":  520,
+    "maxRanks":  1,
+    "name":  "Self-fulfilling Prophecy",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  33,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

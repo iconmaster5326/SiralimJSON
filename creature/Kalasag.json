@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Kalasag/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 720,
-  "item": 754,
-  "lore": "Before Azural forged his current weapon, the mighty Wintermaul, he wielded shields in each hand: one called Rhylthar and the other known as Kalasag, otherwise known as the Brother Shields. Many years ago, Rhylthar was stolen by a lieutenant of one of the first rulers of Siralim to use it as a catalyst for a powerful spell. In response, Azural cast an enchantment on Kalasag, breathing life into it and entrusting it with exacting vengeance on the king\u0027s man of old and recover what was his. However, the lieutenant never went back home, and Kalasag still seeks to fulfill its purpose to this day.",
-  "menagerieDialog": [
-    "(You are fortunate to have such a rare creature in your possession.)",
-    "(You envision yourself wielding this creature as a shield and Laglor as a scepter as you march into battle. Then, you remember that you\u0027re a bit of a coward and are thankful that you have creatures to do all the dirty work for you.)",
-    "(It barely ever leaves your side, as if its sole purpose in life is to protect you.)",
-    "(It\u0027s incredibly cold to the touch. Perhaps you should lick it...)",
-    "(You\u0027re surprised at the large amount of emotion this creature is displaying. It\u0027s a shield, after all. It seems to be perturbed about something.)"
-  ],
-  "minDepth": 1,
-  "name": "Kalasag",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Kalasag/overworld_e0.png",
-      "images/creature/Kalasag/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Kalasag/overworld_n0.png",
-      "images/creature/Kalasag/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Kalasag/overworld_s0.png",
-      "images/creature/Kalasag/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Kalasag/overworld_w0.png",
-      "images/creature/Kalasag/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    164,
-    472
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 801
+    "battleSprite":  "images/creature/Kalasag/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  720,
+    "item":  754,
+    "lore":  "Before Azural forged his current weapon, the mighty Wintermaul, he wielded shields in each hand: one called Rhylthar and the other known as Kalasag, otherwise known as the Brother Shields. Many years ago, Rhylthar was stolen by a lieutenant of one of the first rulers of Siralim to use it as a catalyst for a powerful spell. In response, Azural cast an enchantment on Kalasag, breathing life into it and entrusting it with exacting vengeance on the king\u0027s man of old and recover what was his. However, the lieutenant never went back home, and Kalasag still seeks to fulfill its purpose to this day.",
+    "menagerieDialog":  [
+                            "(You are fortunate to have such a rare creature in your possession.)",
+                            "(You envision yourself wielding this creature as a shield and Laglor as a scepter as you march into battle. Then, you remember that you\u0027re a bit of a coward and are thankful that you have creatures to do all the dirty work for you.)",
+                            "(It barely ever leaves your side, as if its sole purpose in life is to protect you.)",
+                            "(It\u0027s incredibly cold to the touch. Perhaps you should lick it...)",
+                            "(You\u0027re surprised at the large amount of emotion this creature is displaying. It\u0027s a shield, after all. It seems to be perturbed about something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Kalasag",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Kalasag/overworld_e0.png",
+                                         "images/creature/Kalasag/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Kalasag/overworld_n0.png",
+                                          "images/creature/Kalasag/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Kalasag/overworld_s0.png",
+                                          "images/creature/Kalasag/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Kalasag/overworld_w0.png",
+                                         "images/creature/Kalasag/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  164,
+                  472
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  801,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

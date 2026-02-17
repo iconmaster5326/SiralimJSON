@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ForestPriest/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 325,
-  "item": 115,
-  "lore": "When humans and creatures populated the land, the first cities were born. But it seemed like the children of the Gods would forever fight among themselves.\\n\\nPriests are venerated as divine creatures in all of the kingdoms of Rodia. Forests and their ecosystems have been affected by wars and other human activities. The Forest Priests traveled to these places and spread their essence to repopulate them. When they finished their work, some stayed behind to prevent that from happening again.",
-  "menagerieDialog": [
-    "(It\u0027s doing what it does best - standing still.)",
-    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
-    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
-    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
-    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Forest Priest",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ForestPriest/overworld_e0.png",
-      "images/creature/ForestPriest/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ForestPriest/overworld_n0.png",
-      "images/creature/ForestPriest/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ForestPriest/overworld_s0.png",
-      "images/creature/ForestPriest/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ForestPriest/overworld_w0.png",
-      "images/creature/ForestPriest/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 24
+    "battleSprite":  "images/creature/ForestPriest/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  325,
+    "item":  115,
+    "lore":  "When humans and creatures populated the land, the first cities were born. But it seemed like the children of the Gods would forever fight among themselves.\\n\\nPriests are venerated as divine creatures in all of the kingdoms of Rodia. Forests and their ecosystems have been affected by wars and other human activities. The Forest Priests traveled to these places and spread their essence to repopulate them. When they finished their work, some stayed behind to prevent that from happening again.",
+    "menagerieDialog":  [
+                            "(It\u0027s doing what it does best - standing still.)",
+                            "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+                            "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+                            "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+                            "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Forest Priest",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ForestPriest/overworld_e0.png",
+                                         "images/creature/ForestPriest/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ForestPriest/overworld_n0.png",
+                                          "images/creature/ForestPriest/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ForestPriest/overworld_s0.png",
+                                          "images/creature/ForestPriest/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ForestPriest/overworld_w0.png",
+                                         "images/creature/ForestPriest/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  24,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

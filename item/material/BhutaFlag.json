@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiabolic Celebration:\nAt the start of battle, your {RACE_Diabolic Horde} gain a random Spell Gem that belongs to their class for each {RACE_Diabolic Horde} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/BhutaFlag.png",
-  "id": 805,
-  "name": "Bhuta Flag",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 832
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiabolic Celebration:\nAt the start of battle, your {RACE_Diabolic Horde} gain a random Spell Gem that belongs to their class for each {RACE_Diabolic Horde} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/BhutaFlag.png",
+    "id":  805,
+    "name":  "Bhuta Flag",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  832,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

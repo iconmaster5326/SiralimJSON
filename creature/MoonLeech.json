@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MoonLeech/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 861,
-  "item": 1007,
-  "lore": "Of the five newest Gods, Mortem was the only one who did not create a realm to stop the advance of the Itherian Realms. Instead, he created a powerful seal inside the body of a creature the size of a star.\\n\\nThis dangerous creature flies high in search of prey, then drops on them. Fortunately, its sense of smell is not entirely accurate, so it ends up hitting the ground an alarming number of times. When this happens, the only thing left of the creature is a slimy, lifeless mass.",
-  "menagerieDialog": [
-    "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
-    "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
-    "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
-    "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
-    "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
-  ],
-  "minDepth": 1,
-  "name": "Moon Leech",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MoonLeech/overworld_e0.png",
-      "images/creature/MoonLeech/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MoonLeech/overworld_n0.png",
-      "images/creature/MoonLeech/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MoonLeech/overworld_s0.png",
-      "images/creature/MoonLeech/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MoonLeech/overworld_w0.png",
-      "images/creature/MoonLeech/overworld_w1.png"
-    ]
-  },
-  "race": "Leech",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 1123
+    "battleSprite":  "images/creature/MoonLeech/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  861,
+    "item":  1007,
+    "lore":  "Of the five newest Gods, Mortem was the only one who did not create a realm to stop the advance of the Itherian Realms. Instead, he created a powerful seal inside the body of a creature the size of a star.\\n\\nThis dangerous creature flies high in search of prey, then drops on them. Fortunately, its sense of smell is not entirely accurate, so it ends up hitting the ground an alarming number of times. When this happens, the only thing left of the creature is a slimy, lifeless mass.",
+    "menagerieDialog":  [
+                            "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
+                            "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
+                            "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
+                            "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
+                            "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Moon Leech",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MoonLeech/overworld_e0.png",
+                                         "images/creature/MoonLeech/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MoonLeech/overworld_n0.png",
+                                          "images/creature/MoonLeech/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MoonLeech/overworld_s0.png",
+                                          "images/creature/MoonLeech/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MoonLeech/overworld_w0.png",
+                                         "images/creature/MoonLeech/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leech",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  1123,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

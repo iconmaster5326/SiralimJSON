@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Doedoodle/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1318,
-  "item": 1694,
-  "lore": "These watchdogs were originally used to guard bank vaults until 367 years ago, when they were replaced by stronger, often inanimate magical creatures. Most Doedoodles ended up as household pets, and over time, very few were trained for combat. But organized crime groups kept breeding and training them to be tougher, often enhancing them with magical treatments. Nowadays, their fur has become tougher, and parts of their body are covered in sharp, armored plates that are just as dangerous as their bite.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Doedoodle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Doedoodle/overworld_e0.png",
-      "images/creature/Doedoodle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Doedoodle/overworld_n0.png",
-      "images/creature/Doedoodle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Doedoodle/overworld_s0.png",
-      "images/creature/Doedoodle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Doedoodle/overworld_w0.png",
-      "images/creature/Doedoodle/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 28,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 17
-  },
-  "trait": 2036
+    "battleSprite":  "images/creature/Doedoodle/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1318,
+    "item":  1694,
+    "lore":  "These watchdogs were originally used to guard bank vaults until 367 years ago, when they were replaced by stronger, often inanimate magical creatures. Most Doedoodles ended up as household pets, and over time, very few were trained for combat. But organized crime groups kept breeding and training them to be tougher, often enhancing them with magical treatments. Nowadays, their fur has become tougher, and parts of their body are covered in sharp, armored plates that are just as dangerous as their bite.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Doedoodle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Doedoodle/overworld_e0.png",
+                                         "images/creature/Doedoodle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Doedoodle/overworld_n0.png",
+                                          "images/creature/Doedoodle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Doedoodle/overworld_s0.png",
+                                          "images/creature/Doedoodle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Doedoodle/overworld_w0.png",
+                                         "images/creature/Doedoodle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  28,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  17
+                   },
+    "trait":  2036,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

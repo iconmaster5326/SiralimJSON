@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/NixInformer/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 569,
-  "item": 698,
-  "lore": "Only female Nixes are allowed to visit the surface and be in contact with other intelligent species. Indeed, any male Nixes who wish to trade with the humans and dwarves who visit their cities must be accompanied by a woman at all times.\\n\\nAlthough Nix Informers usually work for large corporations, they sometimes act as government spies who, if necessary, eliminate key figures that could jeopardize their interests.",
-  "menagerieDialog": [
-    "Leave me alone. I must rest before we venture forth into a new Realm.",
-    "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
-    "I hear you\u0027ve got a problem that needs solved.",
-    "My blade is ready. Let\u0027s assassinate some kings.",
-    "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
-  ],
-  "minDepth": 1,
-  "name": "Nix Informer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NixInformer/overworld_e0.png",
-      "images/creature/NixInformer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NixInformer/overworld_n0.png",
-      "images/creature/NixInformer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NixInformer/overworld_s0.png",
-      "images/creature/NixInformer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NixInformer/overworld_w0.png",
-      "images/creature/NixInformer/overworld_w1.png"
-    ]
-  },
-  "race": "Nix",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 636
+    "battleSprite":  "images/creature/NixInformer/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  569,
+    "item":  698,
+    "lore":  "Only female Nixes are allowed to visit the surface and be in contact with other intelligent species. Indeed, any male Nixes who wish to trade with the humans and dwarves who visit their cities must be accompanied by a woman at all times.\\n\\nAlthough Nix Informers usually work for large corporations, they sometimes act as government spies who, if necessary, eliminate key figures that could jeopardize their interests.",
+    "menagerieDialog":  [
+                            "Leave me alone. I must rest before we venture forth into a new Realm.",
+                            "You should strive to be more efficient. There\u0027s no need to stop back at your castle between every single realm.",
+                            "I hear you\u0027ve got a problem that needs solved.",
+                            "My blade is ready. Let\u0027s assassinate some kings.",
+                            "This castle is so loud and overwhelming. I can\u0027t wait to get out of here."
+                        ],
+    "minDepth":  1,
+    "name":  "Nix Informer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NixInformer/overworld_e0.png",
+                                         "images/creature/NixInformer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NixInformer/overworld_n0.png",
+                                          "images/creature/NixInformer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NixInformer/overworld_s0.png",
+                                          "images/creature/NixInformer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NixInformer/overworld_w0.png",
+                                         "images/creature/NixInformer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nix",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  636,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

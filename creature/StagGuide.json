@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/StagGuide/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 767,
-  "item": 43,
-  "lore": "The Stag Guide is one of the rarest specimens of its kind, and capturing one is almost impossible due to its ability to travel through time. Their horns were believed to be the source of this power, but a scientist from Neralim recently proved the rumors wrong. Despite this discovery, these creatures are still being hunted by countless mercenaries, so they have become timider and less aggressive.",
-  "menagerieDialog": [
-    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
-    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
-    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
-    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
-    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Stag Guide",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StagGuide/overworld_e0.png",
-      "images/creature/StagGuide/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StagGuide/overworld_n0.png",
-      "images/creature/StagGuide/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StagGuide/overworld_s0.png",
-      "images/creature/StagGuide/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StagGuide/overworld_w0.png",
-      "images/creature/StagGuide/overworld_w1.png"
-    ]
-  },
-  "race": "Stag",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Life Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 37,
-    "intelligence": 22,
-    "speed": 17
-  },
-  "trait": 1020
+    "battleSprite":  "images/creature/StagGuide/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  767,
+    "item":  43,
+    "lore":  "The Stag Guide is one of the rarest specimens of its kind, and capturing one is almost impossible due to its ability to travel through time. Their horns were believed to be the source of this power, but a scientist from Neralim recently proved the rumors wrong. Despite this discovery, these creatures are still being hunted by countless mercenaries, so they have become timider and less aggressive.",
+    "menagerieDialog":  [
+                            "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+                            "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+                            "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+                            "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+                            "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Stag Guide",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StagGuide/overworld_e0.png",
+                                         "images/creature/StagGuide/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StagGuide/overworld_n0.png",
+                                          "images/creature/StagGuide/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StagGuide/overworld_s0.png",
+                                          "images/creature/StagGuide/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StagGuide/overworld_w0.png",
+                                         "images/creature/StagGuide/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Stag",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Life Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  37,
+                       "intelligence":  22,
+                       "speed":  17
+                   },
+    "trait":  1020,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

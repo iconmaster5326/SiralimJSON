@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEcholocation:\nAfter an ally {ACTION_attacks}, this creature gains 7% {STAT_speed}.",
-  "icon": "images/item/material/PulseBatWings.png",
-  "id": 290,
-  "name": "Pulse Bat Wings",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 206
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEcholocation:\nAfter an ally {ACTION_attacks}, this creature gains 7% {STAT_speed}.",
+    "icon":  "images/item/material/PulseBatWings.png",
+    "id":  290,
+    "name":  "Pulse Bat Wings",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  206,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

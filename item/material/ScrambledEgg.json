@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHigh Protein:\nYour {RACE_Dumpling}s have a 10% chance to avoid debuffs for each {RACE_Dumpling} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/ScrambledEgg.png",
-  "id": 17,
-  "name": "Scrambled Egg",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1040
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHigh Protein:\nYour {RACE_Dumpling}s have a 10% chance to avoid debuffs for each {RACE_Dumpling} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/ScrambledEgg.png",
+    "id":  17,
+    "name":  "Scrambled Egg",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1040,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

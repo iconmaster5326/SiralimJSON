@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Holyguanodon/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1455,
-  "item": 1783,
-  "lore": "Most Elementasaur species don\u0027t form herds, but none ignore each other. When they meet, they recognize one another and often exchange some kind of gesture. Sometimes, they even fight over territory.\\n\\nThe Holyguanodon buries itself for days, decades, or even over a century, becoming indistinguishable from the surrounding rock. Its awakening is usually driven by hunger, though often it\u0027s triggered when an intelligent species tries to reshape the land to build settlements.",
-  "menagerieDialog": [
-    "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
-    "RAWR! Time to show these puny creatures what real power looks like!",
-    "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
-    "My hide is infused with primal magic. Nothing can harm me!",
-    "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
-  ],
-  "minDepth": 1,
-  "name": "Holyguanodon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Holyguanodon/overworld_e0.png",
-      "images/creature/Holyguanodon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Holyguanodon/overworld_n0.png",
-      "images/creature/Holyguanodon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Holyguanodon/overworld_s0.png",
-      "images/creature/Holyguanodon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Holyguanodon/overworld_w0.png",
-      "images/creature/Holyguanodon/overworld_w1.png"
-    ]
-  },
-  "race": "Elementasaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 10
-  },
-  "trait": 2136
+    "battleSprite":  "images/creature/Holyguanodon/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1455,
+    "item":  1783,
+    "lore":  "Most Elementasaur species don\u0027t form herds, but none ignore each other. When they meet, they recognize one another and often exchange some kind of gesture. Sometimes, they even fight over territory.\\n\\nThe Holyguanodon buries itself for days, decades, or even over a century, becoming indistinguishable from the surrounding rock. Its awakening is usually driven by hunger, though often it\u0027s triggered when an intelligent species tries to reshape the land to build settlements.",
+    "menagerieDialog":  [
+                            "(It\u0027s lounging peacefully, occasionally snorting small puffs of elemental energy.)",
+                            "RAWR! Time to show these puny creatures what real power looks like!",
+                            "The wisdom of the ancients and the power of the elements are mine to command. What would you like to know?",
+                            "My hide is infused with primal magic. Nothing can harm me!",
+                            "(It\u0027s stomping around, leaving trails of elemental energy in its wake.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Holyguanodon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Holyguanodon/overworld_e0.png",
+                                         "images/creature/Holyguanodon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Holyguanodon/overworld_n0.png",
+                                          "images/creature/Holyguanodon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Holyguanodon/overworld_s0.png",
+                                          "images/creature/Holyguanodon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Holyguanodon/overworld_w0.png",
+                                         "images/creature/Holyguanodon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elementasaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  10
+                   },
+    "trait":  2136,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

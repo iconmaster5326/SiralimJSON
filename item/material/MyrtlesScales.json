@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMyrtle\u0027s Greed:\nAfter an ally is killed, this creature gains 50% of its stats.",
-  "icon": "images/item/material/MyrtlesScales.png",
-  "id": 1114,
-  "name": "Myrtle\u0027s Scales",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1259
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMyrtle\u0027s Greed:\nAfter an ally is killed, this creature gains 50% of its stats.",
+    "icon":  "images/item/material/MyrtlesScales.png",
+    "id":  1114,
+    "name":  "Myrtle\u0027s Scales",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1259,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

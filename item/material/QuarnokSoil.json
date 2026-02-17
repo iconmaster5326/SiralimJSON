@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRattle:\nAfter an enemy {ACTION_defends} or {ACTION_provokes}, this creature {ACTION_attacks} it and afflicts it with {CONDNAME_DEBUFF_STONE}.",
-  "icon": "images/item/material/QuarnokSoil.png",
-  "id": 595,
-  "name": "Quarnok Soil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 509
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRattle:\nAfter an enemy {ACTION_defends} or {ACTION_provokes}, this creature {ACTION_attacks} it and afflicts it with {CONDNAME_DEBUFF_STONE}.",
+    "icon":  "images/item/material/QuarnokSoil.png",
+    "id":  595,
+    "name":  "Quarnok Soil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  509,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

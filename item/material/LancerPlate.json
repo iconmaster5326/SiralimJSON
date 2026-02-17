@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPiercing Focus:\nThis creature\u0027s attacks ignore 1% of the target\u0027s {STAT_defense} for every 1% {STAT_health} this creature is missing.",
-  "icon": "images/item/material/LancerPlate.png",
-  "id": 837,
-  "name": "Lancer Plate",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 864
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPiercing Focus:\nThis creature\u0027s attacks ignore 1% of the target\u0027s {STAT_defense} for every 1% {STAT_health} this creature is missing.",
+    "icon":  "images/item/material/LancerPlate.png",
+    "id":  837,
+    "name":  "Lancer Plate",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  864,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

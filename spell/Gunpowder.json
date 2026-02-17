@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "chaos",
-  "creator": null,
-  "description": "Potency of enemies\u0027 {CONDNAME_DEBUFF_BOMB} debuffs is increased by 30% of the caster\u0027s {STAT_speed}.",
-  "god": null,
-  "id": 664,
-  "manuallyCastable": true,
-  "maxCharges": 7,
-  "name": "Gunpowder",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "enemies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Potency of enemies\u0027 {CONDNAME_DEBUFF_BOMB} debuffs is increased by 30% of the caster\u0027s {STAT_speed}.",
+    "god":  null,
+    "id":  664,
+    "manuallyCastable":  true,
+    "maxCharges":  7,
+    "name":  "Gunpowder",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "enemies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

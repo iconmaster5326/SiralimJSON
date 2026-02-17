@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVlora\u0027s Haunting:\nAfter this creature is moved to the top of the {TIMELINE}, your other creatures gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_SAVAGE}.",
-  "icon": "images/item/material/VlorasEssence.png",
-  "id": 1124,
-  "name": "Vlora\u0027s Essence",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1269
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVlora\u0027s Haunting:\nAfter this creature is moved to the top of the {TIMELINE}, your other creatures gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_SAVAGE}.",
+    "icon":  "images/item/material/VlorasEssence.png",
+    "id":  1124,
+    "name":  "Vlora\u0027s Essence",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1269,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

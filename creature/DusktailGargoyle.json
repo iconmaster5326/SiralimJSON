@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/DusktailGargoyle/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 231,
-  "item": 309,
-  "lore": "When a Gargoyle senses evil intentions in a creature, it dives to attack without mercy. However, after the Unification War, other Magi decided to create their own gargoyles, and at present some attack travelers to steal their belongings for their masters.\\n\\nThe Dusktail Gargoyle extends its wings to drain the magic power of its enemies. It digs its tail on the ground to remain static, preventing the force of its own ability from pushing it away from its targets.",
-  "menagerieDialog": [
-    "Is everything alright, my liege?",
-    "You drool in your sleep.",
-    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
-    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
-    "(This creature could easily be mistaken for a statue.)"
-  ],
-  "minDepth": 1,
-  "name": "Dusktail Gargoyle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DusktailGargoyle/overworld_e0.png",
-      "images/creature/DusktailGargoyle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DusktailGargoyle/overworld_n0.png",
-      "images/creature/DusktailGargoyle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DusktailGargoyle/overworld_s0.png",
-      "images/creature/DusktailGargoyle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DusktailGargoyle/overworld_w0.png",
-      "images/creature/DusktailGargoyle/overworld_w1.png"
-    ]
-  },
-  "race": "Gargoyle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 23,
-    "health": 30,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 225
+    "battleSprite":  "images/creature/DusktailGargoyle/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  231,
+    "item":  309,
+    "lore":  "When a Gargoyle senses evil intentions in a creature, it dives to attack without mercy. However, after the Unification War, other Magi decided to create their own gargoyles, and at present some attack travelers to steal their belongings for their masters.\\n\\nThe Dusktail Gargoyle extends its wings to drain the magic power of its enemies. It digs its tail on the ground to remain static, preventing the force of its own ability from pushing it away from its targets.",
+    "menagerieDialog":  [
+                            "Is everything alright, my liege?",
+                            "You drool in your sleep.",
+                            "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+                            "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+                            "(This creature could easily be mistaken for a statue.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dusktail Gargoyle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DusktailGargoyle/overworld_e0.png",
+                                         "images/creature/DusktailGargoyle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DusktailGargoyle/overworld_n0.png",
+                                          "images/creature/DusktailGargoyle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DusktailGargoyle/overworld_s0.png",
+                                          "images/creature/DusktailGargoyle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DusktailGargoyle/overworld_w0.png",
+                                         "images/creature/DusktailGargoyle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargoyle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  23,
+                       "health":  30,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  225,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

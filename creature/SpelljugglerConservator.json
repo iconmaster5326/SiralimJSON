@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpelljugglerConservator/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1305,
-  "item": 1812,
-  "lore": "Spelljugglers work alone or in small groups and only answer to their leader when necessary\u00E2\u20AC\u201Dusually to pay the 1% of their earnings, as per the contract they signed.\\n\\nKnown as \u0022Preservers of Memories,\u0022 Spelljuggler Conservators can record memories on magic-infused rocks. However, they can only record their own memories, and they must get permission from their creator to unlock those memories.",
-  "menagerieDialog": [
-    "(It\u0027s lazily floating a single spell orb above its palm.)",
-    "Watch as I juggle their lives away!",
-    "I know spells that would make your head spin... literally!",
-    "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
-    "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
-  ],
-  "minDepth": 1,
-  "name": "Spelljuggler Conservator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpelljugglerConservator/overworld_e0.png",
-      "images/creature/SpelljugglerConservator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpelljugglerConservator/overworld_n0.png",
-      "images/creature/SpelljugglerConservator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpelljugglerConservator/overworld_s0.png",
-      "images/creature/SpelljugglerConservator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpelljugglerConservator/overworld_w0.png",
-      "images/creature/SpelljugglerConservator/overworld_w1.png"
-    ]
-  },
-  "race": "Spelljuggler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 15
-  },
-  "trait": 2165
+    "battleSprite":  "images/creature/SpelljugglerConservator/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1305,
+    "item":  1812,
+    "lore":  "Spelljugglers work alone or in small groups and only answer to their leader when necessary—usually to pay the 1% of their earnings, as per the contract they signed.\\n\\nKnown as \"Preservers of Memories,\" Spelljuggler Conservators can record memories on magic-infused rocks. However, they can only record their own memories, and they must get permission from their creator to unlock those memories.",
+    "menagerieDialog":  [
+                            "(It\u0027s lazily floating a single spell orb above its palm.)",
+                            "Watch as I juggle their lives away!",
+                            "I know spells that would make your head spin... literally!",
+                            "Can\u0027t hit what you can\u0027t catch! My defenses are impenetrable!",
+                            "(It\u0027s tossing spells from hand to hand at dizzying speeds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spelljuggler Conservator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpelljugglerConservator/overworld_e0.png",
+                                         "images/creature/SpelljugglerConservator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpelljugglerConservator/overworld_n0.png",
+                                          "images/creature/SpelljugglerConservator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpelljugglerConservator/overworld_s0.png",
+                                          "images/creature/SpelljugglerConservator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpelljugglerConservator/overworld_w0.png",
+                                         "images/creature/SpelljugglerConservator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spelljuggler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  15
+                   },
+    "trait":  2165,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "(A bizarre hybridized creature stands before you, brandishing weapons. Your thoughts turn briefly to the fusion station in your castle, wondering if this was some form of fusing mishap. Either way, it needs to die before you can claim your prize.)",
-    "(Sinister magic hangs around this creature like a curse. You do not know what this thing\u0027s origin is; only where you\u0027re about to send it.)",
-    "(The Chimera begins to yell incomprehensible words at you from all of its heads at once, and a few of its limbs. This creature is clearly an affront to decent biology and putting it down will surely give your kingdom\u0027s bestiary keepers a good night\u0027s sleep.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 Nether Stones are 5% more powerful.",
-    "4": "Your creatures\u0027 Nether Stones are 5% more powerful.",
-    "6": "Your creatures\u0027 Nether Stones are 5% more powerful."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    1201,
-    1202,
-    1203,
-    1204,
-    1205,
-    1206
-  ],
-  "icon": "images/race/Chimera.png",
-  "master": {
-    "costume": 676,
-    "dialog": "Who doesn\u0027t enjoy a good Fusion? Well, I happen to be a bit more obsessed about it than most people, and that\u0027s why I employ the skills of Chimeras. Chimeras utilize their fusions to their fullest potential, enabling them to far-surpass the strength of other creatures. Have a look for yourself!",
-    "item": 1497,
-    "name": "Bekhud",
-    "trait": 1805
-  },
-  "name": "Chimera",
-  "notes": [],
-  "skins": [
-    650,
-    651,
-    652,
-    829
-  ]
+    "bossDialog":  [
+                       "(A bizarre hybridized creature stands before you, brandishing weapons. Your thoughts turn briefly to the fusion station in your castle, wondering if this was some form of fusing mishap. Either way, it needs to die before you can claim your prize.)",
+                       "(Sinister magic hangs around this creature like a curse. You do not know what this thing\u0027s origin is; only where you\u0027re about to send it.)",
+                       "(The Chimera begins to yell incomprehensible words at you from all of its heads at once, and a few of its limbs. This creature is clearly an affront to decent biology and putting it down will surely give your kingdom\u0027s bestiary keepers a good night\u0027s sleep.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 Nether Stones are 5% more powerful.",
+                        "4":  "Your creatures\u0027 Nether Stones are 5% more powerful.",
+                        "6":  "Your creatures\u0027 Nether Stones are 5% more powerful."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      1201,
+                      1202,
+                      1203,
+                      1204,
+                      1205,
+                      1206
+                  ],
+    "icon":  "images/race/Chimera.png",
+    "master":  {
+                   "costume":  676,
+                   "dialog":  "Who doesn\u0027t enjoy a good Fusion? Well, I happen to be a bit more obsessed about it than most people, and that\u0027s why I employ the skills of Chimeras. Chimeras utilize their fusions to their fullest potential, enabling them to far-surpass the strength of other creatures. Have a look for yourself!",
+                   "item":  1497,
+                   "name":  "Bekhud",
+                   "trait":  1805
+               },
+    "name":  "Chimera",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  650,
+                  651,
+                  652,
+                  829
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

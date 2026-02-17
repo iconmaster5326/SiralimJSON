@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures cause an enemy to take damage from {CONDNAME_DEBUFF_BLIGHT}, they have a 15% chance to {ACTION_cast} [icons,1984]Ill Fate.",
-  "icon": "images/perk/Doomsday.png",
-  "id": 514,
-  "maxRanks": 1,
-  "name": "Doomsday",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 33
+    "anointable":  true,
+    "description":  "After your creatures cause an enemy to take damage from {CONDNAME_DEBUFF_BLIGHT}, they have a 15% chance to {ACTION_cast} [icons,1984]Ill Fate.",
+    "icon":  "images/perk/Doomsday.png",
+    "id":  514,
+    "maxRanks":  1,
+    "name":  "Doomsday",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  33,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

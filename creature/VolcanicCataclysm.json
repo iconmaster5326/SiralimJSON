@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/VolcanicCataclysm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1373,
-  "item": 1748,
-  "lore": "The process of creating a cataclysm is life-threatening, and that\u0027s why criminal syndicates force people to work on them.\\n\\nThe Volcanic Cataclysm gives off an intense heat that can melt snow in seconds. In one instance, it burned down an entire neighborhood in a village in Neralim from the constant spells it cast.",
-  "menagerieDialog": [
-    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
-    "I am the storm that ends worlds. Point me at our foes!",
-    "The secrets of the universe flow through me. What would you like to know?",
-    "The elements themselves bend to my will. No force can harm me!",
-    "(It\u0027s swirling violently, barely contained within its form.)"
-  ],
-  "minDepth": 1,
-  "name": "Volcanic Cataclysm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VolcanicCataclysm/overworld_e0.png",
-      "images/creature/VolcanicCataclysm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VolcanicCataclysm/overworld_n0.png",
-      "images/creature/VolcanicCataclysm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VolcanicCataclysm/overworld_s0.png",
-      "images/creature/VolcanicCataclysm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VolcanicCataclysm/overworld_w0.png",
-      "images/creature/VolcanicCataclysm/overworld_w1.png"
-    ]
-  },
-  "race": "Cataclysm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 20,
-    "health": 40,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 2101
+    "battleSprite":  "images/creature/VolcanicCataclysm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1373,
+    "item":  1748,
+    "lore":  "The process of creating a cataclysm is life-threatening, and that\u0027s why criminal syndicates force people to work on them.\\n\\nThe Volcanic Cataclysm gives off an intense heat that can melt snow in seconds. In one instance, it burned down an entire neighborhood in a village in Neralim from the constant spells it cast.",
+    "menagerieDialog":  [
+                            "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+                            "I am the storm that ends worlds. Point me at our foes!",
+                            "The secrets of the universe flow through me. What would you like to know?",
+                            "The elements themselves bend to my will. No force can harm me!",
+                            "(It\u0027s swirling violently, barely contained within its form.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Volcanic Cataclysm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VolcanicCataclysm/overworld_e0.png",
+                                         "images/creature/VolcanicCataclysm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VolcanicCataclysm/overworld_n0.png",
+                                          "images/creature/VolcanicCataclysm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VolcanicCataclysm/overworld_s0.png",
+                                          "images/creature/VolcanicCataclysm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VolcanicCataclysm/overworld_w0.png",
+                                         "images/creature/VolcanicCataclysm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cataclysm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  20,
+                       "health":  40,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  2101,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

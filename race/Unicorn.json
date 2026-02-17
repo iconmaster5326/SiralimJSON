@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "(A wild blaze of colors suddenly plays out in your mind - you shake off the obvious distraction and order your creatures to attack the Unicorn that was hoping to catch you off guard!)",
-    "(As you approach the treasure, a Unicorn comes barreling out of nowhere, flanked by several other creatures! It\u0027s never your lucky day with these treasure hoards, is it?)",
-    "(The Unicorn guarding the treasure whinnies loudly and rears up on its hind legs in a majestic threat display. It\u0027s almost a shame to end the life of such a magnificent creature.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures.",
-    "4": "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures.",
-    "7": "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures."
-  },
-  "cards": 7,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    180,
-    181,
-    182,
-    183,
-    184,
-    185,
-    705
-  ],
-  "icon": "images/race/Unicorn.png",
-  "master": {
-    "costume": 404,
-    "dialog": "Unicorns are valiant attackers that use their enchanted horns to unleash powerful restorative magic on their allies. While any party could benefit from having a Unicorn or two, I prefer to bring along a whole army of them. Let me show you what they can do!",
-    "item": 1185,
-    "name": "Vitali",
-    "trait": 1508
-  },
-  "name": "Unicorn",
-  "notes": [],
-  "skins": [
-    13,
-    78,
-    255,
-    393,
-    525,
-    549
-  ]
+    "bossDialog":  [
+                       "(A wild blaze of colors suddenly plays out in your mind - you shake off the obvious distraction and order your creatures to attack the Unicorn that was hoping to catch you off guard!)",
+                       "(As you approach the treasure, a Unicorn comes barreling out of nowhere, flanked by several other creatures! It\u0027s never your lucky day with these treasure hoards, is it?)",
+                       "(The Unicorn guarding the treasure whinnies loudly and rears up on its hind legs in a majestic threat display. It\u0027s almost a shame to end the life of such a magnificent creature.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures.",
+                        "4":  "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures.",
+                        "7":  "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures."
+                    },
+    "cards":  7,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      180,
+                      181,
+                      182,
+                      183,
+                      184,
+                      185,
+                      705
+                  ],
+    "icon":  "images/race/Unicorn.png",
+    "master":  {
+                   "costume":  404,
+                   "dialog":  "Unicorns are valiant attackers that use their enchanted horns to unleash powerful restorative magic on their allies. While any party could benefit from having a Unicorn or two, I prefer to bring along a whole army of them. Let me show you what they can do!",
+                   "item":  1185,
+                   "name":  "Vitali",
+                   "trait":  1508
+               },
+    "name":  "Unicorn",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  13,
+                  78,
+                  255,
+                  393,
+                  525,
+                  549
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

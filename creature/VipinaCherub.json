@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/VipinaCherub/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1168,
-  "item": 1550,
-  "lore": "Each Cherub is always wreathed in a magical aura, which have a great deal of diversity. From blazing and burning auras to glimmering clouds of freezing cold air, brilliant lights and impenetrable darknesses, all manner of Cherubs have been seen and recorded throughout the ages. What they are often found to lack however is drive or will, as most seem simply content to float about the realms taking few wilful actions.\\n\\nThe flora strewn about the Vipina Cherub\u0027s body is not actually a part of it, but are regular plants that have somehow adapted to feed on the Cherub\u0027s stored energy. While this is a parasitism, it does not seem to cause any particular harm to the Cherub. The blooms are potent magical reagents, but obtaining one is difficult as the Cherub seems unwilling to allow anyone to take them.",
-  "menagerieDialog": [
-    "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
-    "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
-    "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
-    "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
-    "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
-  ],
-  "minDepth": 1,
-  "name": "Vipina Cherub",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VipinaCherub/overworld_e0.png",
-      "images/creature/VipinaCherub/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VipinaCherub/overworld_n0.png",
-      "images/creature/VipinaCherub/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VipinaCherub/overworld_s0.png",
-      "images/creature/VipinaCherub/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VipinaCherub/overworld_w0.png",
-      "images/creature/VipinaCherub/overworld_w1.png"
-    ]
-  },
-  "race": "Cherub",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 11,
-    "health": 42,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1891
+    "battleSprite":  "images/creature/VipinaCherub/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1168,
+    "item":  1550,
+    "lore":  "Each Cherub is always wreathed in a magical aura, which have a great deal of diversity. From blazing and burning auras to glimmering clouds of freezing cold air, brilliant lights and impenetrable darknesses, all manner of Cherubs have been seen and recorded throughout the ages. What they are often found to lack however is drive or will, as most seem simply content to float about the realms taking few wilful actions.\\n\\nThe flora strewn about the Vipina Cherub\u0027s body is not actually a part of it, but are regular plants that have somehow adapted to feed on the Cherub\u0027s stored energy. While this is a parasitism, it does not seem to cause any particular harm to the Cherub. The blooms are potent magical reagents, but obtaining one is difficult as the Cherub seems unwilling to allow anyone to take them.",
+    "menagerieDialog":  [
+                            "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
+                            "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
+                            "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
+                            "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
+                            "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vipina Cherub",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VipinaCherub/overworld_e0.png",
+                                         "images/creature/VipinaCherub/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VipinaCherub/overworld_n0.png",
+                                          "images/creature/VipinaCherub/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VipinaCherub/overworld_s0.png",
+                                          "images/creature/VipinaCherub/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VipinaCherub/overworld_w0.png",
+                                         "images/creature/VipinaCherub/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cherub",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  11,
+                       "health":  42,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1891,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

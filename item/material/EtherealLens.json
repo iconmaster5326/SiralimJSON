@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFocused Magicks:\nYour creatures\u0027 [temporary] Ethereal Spell Gems ignore 30% of enemies\u0027 {STAT_defense}, plus 10% more for each creature missing from your party. This trait does not stack.",
-  "icon": "images/item/material/EtherealLens.png",
-  "id": 1836,
-  "name": "Ethereal Lens",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2001
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFocused Magicks:\nYour creatures\u0027 [temporary] Ethereal Spell Gems ignore 30% of enemies\u0027 {STAT_defense}, plus 10% more for each creature missing from your party. This trait does not stack.",
+    "icon":  "images/item/material/EtherealLens.png",
+    "id":  1836,
+    "name":  "Ethereal Lens",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2001,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

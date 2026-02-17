@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "(Curled up and sitting on top of the treasure, the Basilisk snarls more and more the closer you get. You\u0027ll have to defeat it to get the treasure!)",
-    "(Shrieking and ruffling its scales, the Basilisk charges head-first into your monsters in a vicious rage!)",
-    "(The Basilisk rouses itself, clearly very unhappy about having been woken up. With an echoing cry, it attacks with its companions!)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies take 3% more damage.",
-    "4": "Enemies take 3% more damage.",
-    "7": "Enemies take 3% more damage."
-  },
-  "cards": 7,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    590,
-    591,
-    592,
-    593,
-    594,
-    595,
-    702
-  ],
-  "icon": "images/race/Basilisk.png",
-  "master": {
-    "costume": 304,
-    "dialog": "If you want to stand a chance against my Basilisks, you\u0027d better make sure you damage them between each of their turns. Otherwise, you\u0027ll be in for a world of hurt! Let\u0027s see what you\u0027ve got!",
-    "item": 1166,
-    "name": "Searle",
-    "trait": 1405
-  },
-  "name": "Basilisk",
-  "notes": [],
-  "skins": [
-    266,
-    278,
-    638
-  ]
+    "bossDialog":  [
+                       "(Curled up and sitting on top of the treasure, the Basilisk snarls more and more the closer you get. You\u0027ll have to defeat it to get the treasure!)",
+                       "(Shrieking and ruffling its scales, the Basilisk charges head-first into your monsters in a vicious rage!)",
+                       "(The Basilisk rouses itself, clearly very unhappy about having been woken up. With an echoing cry, it attacks with its companions!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies take 3% more damage.",
+                        "4":  "Enemies take 3% more damage.",
+                        "7":  "Enemies take 3% more damage."
+                    },
+    "cards":  7,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      590,
+                      591,
+                      592,
+                      593,
+                      594,
+                      595,
+                      702
+                  ],
+    "icon":  "images/race/Basilisk.png",
+    "master":  {
+                   "costume":  304,
+                   "dialog":  "If you want to stand a chance against my Basilisks, you\u0027d better make sure you damage them between each of their turns. Otherwise, you\u0027ll be in for a world of hurt! Let\u0027s see what you\u0027ve got!",
+                   "item":  1166,
+                   "name":  "Searle",
+                   "trait":  1405
+               },
+    "name":  "Basilisk",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  266,
+                  278,
+                  638
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

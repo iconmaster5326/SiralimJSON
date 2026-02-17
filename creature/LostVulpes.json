@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LostVulpes/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 580,
-  "item": 681,
-  "lore": "This creature does not tolerate its own kind, and it lashes its two tails threateningly when it encounters them. It is believed that its coat has magical properties, and some small-time merchants have begun to sell concoctions that they claim contain its essence. However, if any of these traders had actually gotten close enough to this variety of Vulpes, they would most likely have been bitten before they could even think of running away.",
-  "menagerieDialog": [
-    "(You would have loved to keep one of these creatures as a pet when you were a child.)",
-    "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
-    "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
-    "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
-    "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
-  ],
-  "minDepth": 1,
-  "name": "Lost Vulpes",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LostVulpes/overworld_e0.png",
-      "images/creature/LostVulpes/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LostVulpes/overworld_n0.png",
-      "images/creature/LostVulpes/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LostVulpes/overworld_s0.png",
-      "images/creature/LostVulpes/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LostVulpes/overworld_w0.png",
-      "images/creature/LostVulpes/overworld_w1.png"
-    ]
-  },
-  "race": "Vulpes",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 619
+    "battleSprite":  "images/creature/LostVulpes/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  580,
+    "item":  681,
+    "lore":  "This creature does not tolerate its own kind, and it lashes its two tails threateningly when it encounters them. It is believed that its coat has magical properties, and some small-time merchants have begun to sell concoctions that they claim contain its essence. However, if any of these traders had actually gotten close enough to this variety of Vulpes, they would most likely have been bitten before they could even think of running away.",
+    "menagerieDialog":  [
+                            "(You would have loved to keep one of these creatures as a pet when you were a child.)",
+                            "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
+                            "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
+                            "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
+                            "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Lost Vulpes",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LostVulpes/overworld_e0.png",
+                                         "images/creature/LostVulpes/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LostVulpes/overworld_n0.png",
+                                          "images/creature/LostVulpes/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LostVulpes/overworld_s0.png",
+                                          "images/creature/LostVulpes/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LostVulpes/overworld_w0.png",
+                                         "images/creature/LostVulpes/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vulpes",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  619,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

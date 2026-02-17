@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSarea\u0027s Haste:\nBuffs and debuffs last twice as long, but they lose 2 units of duration per turn. This trait does not stack.",
-  "icon": "images/item/material/SareasBrittleHair.png",
-  "id": 910,
-  "name": "Sarea\u0027s Brittle Hair",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 946
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSarea\u0027s Haste:\nBuffs and debuffs last twice as long, but they lose 2 units of duration per turn. This trait does not stack.",
+    "icon":  "images/item/material/SareasBrittleHair.png",
+    "id":  910,
+    "name":  "Sarea\u0027s Brittle Hair",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  946,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/LunarHorse/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 393,
-  "name": "Lunar Horse",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/LunarHorse/overworld_e0.png",
-      "images/skin/LunarHorse/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/LunarHorse/overworld_n0.png",
-      "images/skin/LunarHorse/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/LunarHorse/overworld_s0.png",
-      "images/skin/LunarHorse/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/LunarHorse/overworld_w0.png",
-      "images/skin/LunarHorse/overworld_w1.png"
-    ]
-  },
-  "race": "Unicorn",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/LunarHorse/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  393,
+    "name":  "Lunar Horse",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/LunarHorse/overworld_e0.png",
+                                         "images/skin/LunarHorse/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/LunarHorse/overworld_n0.png",
+                                          "images/skin/LunarHorse/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/LunarHorse/overworld_s0.png",
+                                          "images/skin/LunarHorse/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/LunarHorse/overworld_w0.png",
+                                         "images/skin/LunarHorse/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Unicorn",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

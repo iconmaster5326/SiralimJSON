@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUnspeakable Frights:\nAt the start of an enemy\u0027s turn, they have a 20% chance to be sent to the bottom of the {TIMELINE} if they have {CONDNAME_DEBUFF_FEAR}. This trait does not stack.",
-  "icon": "images/item/material/WolfBlackHole.png",
-  "id": 1026,
-  "name": "Wolf Black Hole",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1106
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUnspeakable Frights:\nAt the start of an enemy\u0027s turn, they have a 20% chance to be sent to the bottom of the {TIMELINE} if they have {CONDNAME_DEBUFF_FEAR}. This trait does not stack.",
+    "icon":  "images/item/material/WolfBlackHole.png",
+    "id":  1026,
+    "name":  "Wolf Black Hole",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1106,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

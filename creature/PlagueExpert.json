@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PlagueExpert/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 699,
-  "item": 887,
-  "lore": "The first known appearance of the Plague Expert dates to the quarantine of Andolin, but no one really knows for how long it had been traveling the world before that. While its people cured the sick, the Expert wrote strange symbols in its book that no one recognized. The presence of this creature is now a beacon of hope, and it lifts the spirits of the people wherever it goes. Moreover, it is believed that its book contains the supreme knowledge of medicine, and many long to learn its secrets.",
-  "menagerieDialog": [
-    "Bend over, grab your ankles, and cough!",
-    "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
-    "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
-    "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
-    "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
-  ],
-  "minDepth": 1,
-  "name": "Plague Expert",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PlagueExpert/overworld_e0.png",
-      "images/creature/PlagueExpert/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PlagueExpert/overworld_n0.png",
-      "images/creature/PlagueExpert/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PlagueExpert/overworld_s0.png",
-      "images/creature/PlagueExpert/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PlagueExpert/overworld_w0.png",
-      "images/creature/PlagueExpert/overworld_w1.png"
-    ]
-  },
-  "race": "Plague Doctor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (4080)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 33,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 914
+    "battleSprite":  "images/creature/PlagueExpert/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  699,
+    "item":  887,
+    "lore":  "The first known appearance of the Plague Expert dates to the quarantine of Andolin, but no one really knows for how long it had been traveling the world before that. While its people cured the sick, the Expert wrote strange symbols in its book that no one recognized. The presence of this creature is now a beacon of hope, and it lifts the spirits of the people wherever it goes. Moreover, it is believed that its book contains the supreme knowledge of medicine, and many long to learn its secrets.",
+    "menagerieDialog":  [
+                            "Bend over, grab your ankles, and cough!",
+                            "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
+                            "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
+                            "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
+                            "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Plague Expert",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PlagueExpert/overworld_e0.png",
+                                         "images/creature/PlagueExpert/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PlagueExpert/overworld_n0.png",
+                                          "images/creature/PlagueExpert/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PlagueExpert/overworld_s0.png",
+                                          "images/creature/PlagueExpert/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PlagueExpert/overworld_w0.png",
+                                         "images/creature/PlagueExpert/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Plague Doctor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (4080)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  33,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  914,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

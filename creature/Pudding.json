@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Pudding/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 775,
-  "item": 44,
-  "lore": "Puddings spend most of the year hibernating in remote places. This kind of Dumpling awakens for eleven days in the winter and voraciously feeds on any organic matter it finds, so it is one of the few members of this species that is more predator than prey. Unlike other Dumplings, Puddings have an unpleasant taste no matter how they are cooked. However, a chef of great skill can use them to prepare a dessert that has no equal.",
-  "menagerieDialog": [
-    "(It yawns, making a cute, squeaking sound in the process.)",
-    "(How can something so cute exist in a world like this?)",
-    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
-    "(It blushes and giggles every time you come near it.)",
-    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
-  ],
-  "minDepth": 1,
-  "name": "Pudding",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Pudding/overworld_e0.png",
-      "images/creature/Pudding/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Pudding/overworld_n0.png",
-      "images/creature/Pudding/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Pudding/overworld_s0.png",
-      "images/creature/Pudding/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Pudding/overworld_w0.png",
-      "images/creature/Pudding/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1019
+    "battleSprite":  "images/creature/Pudding/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  775,
+    "item":  44,
+    "lore":  "Puddings spend most of the year hibernating in remote places. This kind of Dumpling awakens for eleven days in the winter and voraciously feeds on any organic matter it finds, so it is one of the few members of this species that is more predator than prey. Unlike other Dumplings, Puddings have an unpleasant taste no matter how they are cooked. However, a chef of great skill can use them to prepare a dessert that has no equal.",
+    "menagerieDialog":  [
+                            "(It yawns, making a cute, squeaking sound in the process.)",
+                            "(How can something so cute exist in a world like this?)",
+                            "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+                            "(It blushes and giggles every time you come near it.)",
+                            "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pudding",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Pudding/overworld_e0.png",
+                                         "images/creature/Pudding/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Pudding/overworld_n0.png",
+                                          "images/creature/Pudding/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Pudding/overworld_s0.png",
+                                          "images/creature/Pudding/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Pudding/overworld_w0.png",
+                                         "images/creature/Pudding/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1019,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

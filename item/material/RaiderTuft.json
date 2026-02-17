@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnticipation:\nAfter an enemy is killed, this creature {ACTION_attacks} random enemies 3 times.",
-  "icon": "images/item/material/RaiderTuft.png",
-  "id": 797,
-  "name": "Raider Tuft",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 824
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnticipation:\nAfter an enemy is killed, this creature {ACTION_attacks} random enemies 3 times.",
+    "icon":  "images/item/material/RaiderTuft.png",
+    "id":  797,
+    "name":  "Raider Tuft",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  824,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

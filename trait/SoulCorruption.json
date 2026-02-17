@@ -1,11 +1,14 @@
 {
-  "creator": null,
-  "creature": 15,
-  "description": "After this creature {ACTION_attacks} a creature with less than 35% {STAT_health}, it is killed, then this creature afflicts enemies with a random debuff for each buff the target had before it died.",
-  "god": null,
-  "id": 160,
-  "item": 250,
-  "name": "Soul Corruption",
-  "notes": [],
-  "race": null
+    "creator":  null,
+    "creature":  15,
+    "description":  "After this creature {ACTION_attacks} a creature with less than 35% {STAT_health}, it is killed, then this creature afflicts enemies with a random debuff for each buff the target had before it died.",
+    "god":  null,
+    "id":  160,
+    "item":  250,
+    "name":  "Soul Corruption",
+    "notes":  [
+
+              ],
+    "race":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/trait.yaml"
 }

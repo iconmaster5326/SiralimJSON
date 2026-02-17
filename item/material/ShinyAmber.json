@@ -1,20 +1,23 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_stat] Stat Slot with this item to gain this property:\\n\\nDefense / Speed\\n\\nYou need 5 of these materials to use them for Socketing.",
-  "icon": "images/item/material/ShinyAmber.png",
-  "id": 1109,
-  "name": "Shiny Amber",
-  "notes": [],
-  "slot": "stat",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [
-    "defense",
-    "speed"
-  ],
-  "trait": null
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_stat] Stat Slot with this item to gain this property:\\n\\nDefense / Speed\\n\\nYou need 5 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/ShinyAmber.png",
+    "id":  1109,
+    "name":  "Shiny Amber",
+    "notes":  [
+
+              ],
+    "slot":  "stat",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+                  "defense",
+                  "speed"
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

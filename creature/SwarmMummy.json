@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SwarmMummy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 672,
-  "item": 840,
-  "lore": "A priest learned from the Sphinxes more than any other. Along with one of them, he developed a curse that he incautiously shared with others. Soon his betrayal was discovered. He was mummified alive and hit with his own curse. Then the Sphinxes made their move. They knew that humans were spying on them and showed them just enough magic to create the mummies, which they awoke to sow chaos. The Swarm Mummy brought terrible hardship to Kaito and served the Sphinxes in their conquest of the Empire.",
-  "menagerieDialog": [
-    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
-    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
-    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
-    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
-    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
-  ],
-  "minDepth": 1,
-  "name": "Swarm Mummy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SwarmMummy/overworld_e0.png",
-      "images/creature/SwarmMummy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SwarmMummy/overworld_n0.png",
-      "images/creature/SwarmMummy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SwarmMummy/overworld_s0.png",
-      "images/creature/SwarmMummy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SwarmMummy/overworld_w0.png",
-      "images/creature/SwarmMummy/overworld_w1.png"
-    ]
-  },
-  "race": "Mummy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 11
-  },
-  "trait": 867
+    "battleSprite":  "images/creature/SwarmMummy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  672,
+    "item":  840,
+    "lore":  "A priest learned from the Sphinxes more than any other. Along with one of them, he developed a curse that he incautiously shared with others. Soon his betrayal was discovered. He was mummified alive and hit with his own curse. Then the Sphinxes made their move. They knew that humans were spying on them and showed them just enough magic to create the mummies, which they awoke to sow chaos. The Swarm Mummy brought terrible hardship to Kaito and served the Sphinxes in their conquest of the Empire.",
+    "menagerieDialog":  [
+                            "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+                            "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+                            "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+                            "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+                            "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Swarm Mummy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SwarmMummy/overworld_e0.png",
+                                         "images/creature/SwarmMummy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SwarmMummy/overworld_n0.png",
+                                          "images/creature/SwarmMummy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SwarmMummy/overworld_s0.png",
+                                          "images/creature/SwarmMummy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SwarmMummy/overworld_w0.png",
+                                         "images/creature/SwarmMummy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mummy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  11
+                   },
+    "trait":  867,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

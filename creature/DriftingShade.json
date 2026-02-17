@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DriftingShade/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 498,
-  "item": 285,
-  "lore": "Shades are the residual energy left behind when the soul of an evildoer leaves its body for the afterlife. However, they are not eternal. When a certain time has passed after their \u0022birth\u0022, they begin slowly disintegrating, becoming a Drifting Shade that eventually ends up disappearing altogether.",
-  "menagerieDialog": [
-    "(It appears calm, but you should never lower your guard around a creature known for its trickery.)",
-    "(You could swear you saw this tricky little guy spying on you while you were in the privvy earlier.)",
-    "(It reaches behind your ear and, with a sly wink, produces a coin.)",
-    "(It disappears from your sight before sneaking up from behind and tickling you. Tee hee, stop that!)",
-    "(It\u0027s methodically approaching each of your creatures and shouting \u0022BOO!\u0022 in their faces. You should probably release this creature from your service.)"
-  ],
-  "minDepth": 1,
-  "name": "Drifting Shade",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DriftingShade/overworld_e0.png",
-      "images/creature/DriftingShade/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DriftingShade/overworld_n0.png",
-      "images/creature/DriftingShade/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DriftingShade/overworld_s0.png",
-      "images/creature/DriftingShade/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DriftingShade/overworld_w0.png",
-      "images/creature/DriftingShade/overworld_w1.png"
-    ]
-  },
-  "race": "Shade",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vertraag)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 26,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 201
+    "battleSprite":  "images/creature/DriftingShade/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  498,
+    "item":  285,
+    "lore":  "Shades are the residual energy left behind when the soul of an evildoer leaves its body for the afterlife. However, they are not eternal. When a certain time has passed after their \"birth\", they begin slowly disintegrating, becoming a Drifting Shade that eventually ends up disappearing altogether.",
+    "menagerieDialog":  [
+                            "(It appears calm, but you should never lower your guard around a creature known for its trickery.)",
+                            "(You could swear you saw this tricky little guy spying on you while you were in the privvy earlier.)",
+                            "(It reaches behind your ear and, with a sly wink, produces a coin.)",
+                            "(It disappears from your sight before sneaking up from behind and tickling you. Tee hee, stop that!)",
+                            "(It\u0027s methodically approaching each of your creatures and shouting \"BOO!\" in their faces. You should probably release this creature from your service.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Drifting Shade",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DriftingShade/overworld_e0.png",
+                                         "images/creature/DriftingShade/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DriftingShade/overworld_n0.png",
+                                          "images/creature/DriftingShade/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DriftingShade/overworld_s0.png",
+                                          "images/creature/DriftingShade/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DriftingShade/overworld_w0.png",
+                                         "images/creature/DriftingShade/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shade",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vertraag)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  26,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  201,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

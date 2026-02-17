@@ -1,21 +1,24 @@
 {
-  "arcaneDustCost": 500,
-  "description": "Unlocks four different NPCs that you can place in your castle. Each one offers their own mini-games that reward you with valuable prizes. Also allows you to encounter Riddle Dwarves in realms.",
-  "graniteCost": 5000,
-  "icon": "images/project/GamblingDwarves.png",
-  "id": 8,
-  "items": {
-    "55": 10,
-    "70": 10,
-    "60": 4,
-    "75": 1
-  },
-  "monsterPartCost": 2500,
-  "name": "Gambling Dwarves",
-  "notes": [],
-  "repeatable": false,
-  "type": "construction",
-  "unlockedCreature": null,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  500,
+    "description":  "Unlocks four different NPCs that you can place in your castle. Each one offers their own mini-games that reward you with valuable prizes. Also allows you to encounter Riddle Dwarves in realms.",
+    "graniteCost":  5000,
+    "icon":  "images/project/GamblingDwarves.png",
+    "id":  8,
+    "items":  {
+                  "55":  10,
+                  "70":  10,
+                  "60":  4,
+                  "75":  1
+              },
+    "monsterPartCost":  2500,
+    "name":  "Gambling Dwarves",
+    "notes":  [
+
+              ],
+    "repeatable":  false,
+    "type":  "construction",
+    "unlockedCreature":  null,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

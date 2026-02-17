@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/ContagiousCockatrice/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 820,
-  "item": 1053,
-  "lore": "Contagious Cockatrices had not been seen in the entire continent until they arrived on board one of the ships of the infamous pirate William James. There are numerous theories and stories about these creatures, including a small rumor that claims they come from an unknown continent in which there is no magic. In truth, a nuclear catastrophe filled that distant land with radiation, allowing only the most resilient Cockatrices to survive. Contagious Cockatrices are simply immune to nuclear radiation. James\u0027s pirates breed them as poultry, as they are also docile and resistant to many illnesses, and they have begun to commercialize them. Other ranchers, fearing competition, have taken advantage of these creatures\u0027 suspicious appearance to create a hoax, saying they carry dangerous diseases.",
-  "menagerieDialog": [
-    "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
-    "(What a ridiculous looking, yet endearing creature.)",
-    "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
-    "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
-    "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
-  ],
-  "minDepth": 1,
-  "name": "Contagious Cockatrice",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ContagiousCockatrice/overworld_e0.png",
-      "images/creature/ContagiousCockatrice/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ContagiousCockatrice/overworld_n0.png",
-      "images/creature/ContagiousCockatrice/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ContagiousCockatrice/overworld_s0.png",
-      "images/creature/ContagiousCockatrice/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ContagiousCockatrice/overworld_w0.png",
-      "images/creature/ContagiousCockatrice/overworld_w1.png"
-    ]
-  },
-  "race": "Cockatrice",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1085
+    "battleSprite":  "images/creature/ContagiousCockatrice/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  820,
+    "item":  1053,
+    "lore":  "Contagious Cockatrices had not been seen in the entire continent until they arrived on board one of the ships of the infamous pirate William James. There are numerous theories and stories about these creatures, including a small rumor that claims they come from an unknown continent in which there is no magic. In truth, a nuclear catastrophe filled that distant land with radiation, allowing only the most resilient Cockatrices to survive. Contagious Cockatrices are simply immune to nuclear radiation. James\u0027s pirates breed them as poultry, as they are also docile and resistant to many illnesses, and they have begun to commercialize them. Other ranchers, fearing competition, have taken advantage of these creatures\u0027 suspicious appearance to create a hoax, saying they carry dangerous diseases.",
+    "menagerieDialog":  [
+                            "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
+                            "(What a ridiculous looking, yet endearing creature.)",
+                            "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
+                            "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
+                            "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Contagious Cockatrice",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ContagiousCockatrice/overworld_e0.png",
+                                         "images/creature/ContagiousCockatrice/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ContagiousCockatrice/overworld_n0.png",
+                                          "images/creature/ContagiousCockatrice/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ContagiousCockatrice/overworld_s0.png",
+                                          "images/creature/ContagiousCockatrice/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ContagiousCockatrice/overworld_w0.png",
+                                         "images/creature/ContagiousCockatrice/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cockatrice",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1085,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

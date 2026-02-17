@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVilestalker:\nAt the start of battle, this creature gains [icons,1968]Acid Rain. After this creature {ACTION_casts} this spell, it gains {CONDNAME_BUFF_INVISIBLE} and 20% {STAT_speed}.",
-  "icon": "images/item/material/VenomousPelt.png",
-  "id": 1599,
-  "name": "Venomous Pelt",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1939
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVilestalker:\nAt the start of battle, this creature gains [icons,1968]Acid Rain. After this creature {ACTION_casts} this spell, it gains {CONDNAME_BUFF_INVISIBLE} and 20% {STAT_speed}.",
+    "icon":  "images/item/material/VenomousPelt.png",
+    "id":  1599,
+    "name":  "Venomous Pelt",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1939,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

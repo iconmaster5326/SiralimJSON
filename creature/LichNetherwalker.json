@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/LichNetherwalker/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1011,
-  "item": 1338,
-  "lore": "The blue flames of the Lich Netherwalker are cold and make no sound. Anyone who comes into contact with them will see their willpower tested. If they are not strong enough, they will become this creature\u0027s puppet for twenty-four hours. Unfortunately, once its influence over its victim wanes, it can simply produce more flames to control them again, repeating the process indefinitely and turning the victim into a puppet for the rest of their days if it so wishes.",
-  "menagerieDialog": [
-    "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
-    "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
-    "Knowledge is power, and I have a lot.",
-    "The ancient evil survives.",
-    "We must seek out the Necronomicon. With it, my true power will be realized."
-  ],
-  "minDepth": 1,
-  "name": "Lich Netherwalker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LichNetherwalker/overworld_e0.png",
-      "images/creature/LichNetherwalker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LichNetherwalker/overworld_n0.png",
-      "images/creature/LichNetherwalker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LichNetherwalker/overworld_s0.png",
-      "images/creature/LichNetherwalker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LichNetherwalker/overworld_w0.png",
-      "images/creature/LichNetherwalker/overworld_w1.png"
-    ]
-  },
-  "race": "Lich",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Sorcery Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1584
+    "battleSprite":  "images/creature/LichNetherwalker/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1011,
+    "item":  1338,
+    "lore":  "The blue flames of the Lich Netherwalker are cold and make no sound. Anyone who comes into contact with them will see their willpower tested. If they are not strong enough, they will become this creature\u0027s puppet for twenty-four hours. Unfortunately, once its influence over its victim wanes, it can simply produce more flames to control them again, repeating the process indefinitely and turning the victim into a puppet for the rest of their days if it so wishes.",
+    "menagerieDialog":  [
+                            "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
+                            "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
+                            "Knowledge is power, and I have a lot.",
+                            "The ancient evil survives.",
+                            "We must seek out the Necronomicon. With it, my true power will be realized."
+                        ],
+    "minDepth":  1,
+    "name":  "Lich Netherwalker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LichNetherwalker/overworld_e0.png",
+                                         "images/creature/LichNetherwalker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LichNetherwalker/overworld_n0.png",
+                                          "images/creature/LichNetherwalker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LichNetherwalker/overworld_s0.png",
+                                          "images/creature/LichNetherwalker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LichNetherwalker/overworld_w0.png",
+                                         "images/creature/LichNetherwalker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Lich",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Sorcery Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1584,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

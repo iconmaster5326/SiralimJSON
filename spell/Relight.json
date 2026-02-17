@@ -1,43 +1,46 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Caster is killed, and your other creatures gain {CONDNAME_BUFF_REBIRTH}.",
-  "god": null,
-  "id": 590,
-  "manuallyCastable": true,
-  "maxCharges": 5,
-  "name": "Relight",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BUFF"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Caster is killed, and your other creatures gain {CONDNAME_BUFF_REBIRTH}.",
+    "god":  null,
+    "id":  590,
+    "manuallyCastable":  true,
+    "maxCharges":  5,
+    "name":  "Relight",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BUFF"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

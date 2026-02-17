@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlade Eater:\nAfter this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_DISARMED} and decreases their {STAT_attack} by 15%.",
-  "icon": "images/item/material/BladedTusk.png",
-  "id": 1604,
-  "name": "Bladed Tusk",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1945
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlade Eater:\nAfter this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_DISARMED} and decreases their {STAT_attack} by 15%.",
+    "icon":  "images/item/material/BladedTusk.png",
+    "id":  1604,
+    "name":  "Bladed Tusk",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1945,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKirisute Gomen:\nAfter this creature {ACTION_attacks}, and the damage exceeds 25% of the target\u0027s Maximum {STAT_health}, the target is killed. Otherwise, this creature is killed.",
-  "icon": "images/item/material/ShogunMaul.png",
-  "id": 549,
-  "name": "Shogun Maul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 463
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKirisute Gomen:\nAfter this creature {ACTION_attacks}, and the damage exceeds 25% of the target\u0027s Maximum {STAT_health}, the target is killed. Otherwise, this creature is killed.",
+    "icon":  "images/item/material/ShogunMaul.png",
+    "id":  549,
+    "name":  "Shogun Maul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  463,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

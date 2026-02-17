@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ApisMajesty/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 367,
-  "item": 154,
-  "lore": "The Sphinx Usurper ordered all of the Apis in the empire to gather together while it explored the pyramids of the ancient pharaohs with its followers to recover the orbs with which they had been buried.\\n\\nIn the past, the Apis Majesty could concentrate to divert the light and the heat of the sun over a certain region. They lost this ability during the Watcher invasion, but in return they are now able to concentrate their energy between their horns to increase their power.",
-  "menagerieDialog": [
-    "(It yawns and turns away from you.)",
-    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
-    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
-    "(Upon your approach, it licks your hand over and over and over again. True love.)",
-    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
-  ],
-  "minDepth": 1,
-  "name": "Apis Majesty",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ApisMajesty/overworld_e0.png",
-      "images/creature/ApisMajesty/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ApisMajesty/overworld_n0.png",
-      "images/creature/ApisMajesty/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ApisMajesty/overworld_s0.png",
-      "images/creature/ApisMajesty/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ApisMajesty/overworld_w0.png",
-      "images/creature/ApisMajesty/overworld_w1.png"
-    ]
-  },
-  "race": "Apis",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 19,
-    "health": 32,
-    "intelligence": 12,
-    "speed": 19
-  },
-  "trait": 64
+    "battleSprite":  "images/creature/ApisMajesty/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  367,
+    "item":  154,
+    "lore":  "The Sphinx Usurper ordered all of the Apis in the empire to gather together while it explored the pyramids of the ancient pharaohs with its followers to recover the orbs with which they had been buried.\\n\\nIn the past, the Apis Majesty could concentrate to divert the light and the heat of the sun over a certain region. They lost this ability during the Watcher invasion, but in return they are now able to concentrate their energy between their horns to increase their power.",
+    "menagerieDialog":  [
+                            "(It yawns and turns away from you.)",
+                            "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+                            "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+                            "(Upon your approach, it licks your hand over and over and over again. True love.)",
+                            "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Apis Majesty",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ApisMajesty/overworld_e0.png",
+                                         "images/creature/ApisMajesty/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ApisMajesty/overworld_n0.png",
+                                          "images/creature/ApisMajesty/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ApisMajesty/overworld_s0.png",
+                                          "images/creature/ApisMajesty/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ApisMajesty/overworld_w0.png",
+                                         "images/creature/ApisMajesty/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Apis",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  19,
+                       "health":  32,
+                       "intelligence":  12,
+                       "speed":  19
+                   },
+    "trait":  64,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

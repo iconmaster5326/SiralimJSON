@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MountainPriest/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 326,
-  "item": 119,
-  "lore": "Innumerable wars raged on the land the Gods had created for their children. In an attempt to stop the endless spiral of destruction, Yseros created Lister from forty-two Nether Orbs.\\n\\nPriests are worshipped instead of Gods in many temples. For some reason, the 300-pound Mountain Priest tried to help the tribes of Trolls and other creatures that did not live in the plains. Although its work was not as productive as that of the other Priests, it managed to considerably reduce their pillaging.",
-  "menagerieDialog": [
-    "(It\u0027s doing what it does best - standing still.)",
-    "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
-    "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
-    "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
-    "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Mountain Priest",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MountainPriest/overworld_e0.png",
-      "images/creature/MountainPriest/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MountainPriest/overworld_n0.png",
-      "images/creature/MountainPriest/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MountainPriest/overworld_s0.png",
-      "images/creature/MountainPriest/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MountainPriest/overworld_w0.png",
-      "images/creature/MountainPriest/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 41,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 28
+    "battleSprite":  "images/creature/MountainPriest/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  326,
+    "item":  119,
+    "lore":  "Innumerable wars raged on the land the Gods had created for their children. In an attempt to stop the endless spiral of destruction, Yseros created Lister from forty-two Nether Orbs.\\n\\nPriests are worshipped instead of Gods in many temples. For some reason, the 300-pound Mountain Priest tried to help the tribes of Trolls and other creatures that did not live in the plains. Although its work was not as productive as that of the other Priests, it managed to considerably reduce their pillaging.",
+    "menagerieDialog":  [
+                            "(It\u0027s doing what it does best - standing still.)",
+                            "(Something about this creature makes you feel... different, somehow. Suddenly, your long-term goals seem irrelevant, and you yearn only to battle.)",
+                            "(You feel oddly enlightened whenever you\u0027re around this creature. Everything just seems to make a bit more sense than usual.)",
+                            "(It\u0027s sleeping peacefully. You\u0027re not quite sure how you know that, given its lack of facial features.)",
+                            "(Its aura of light flickers rapidly, as if to show that it\u0027s feeling uneasy right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mountain Priest",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MountainPriest/overworld_e0.png",
+                                         "images/creature/MountainPriest/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MountainPriest/overworld_n0.png",
+                                          "images/creature/MountainPriest/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MountainPriest/overworld_s0.png",
+                                          "images/creature/MountainPriest/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MountainPriest/overworld_w0.png",
+                                         "images/creature/MountainPriest/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  41,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  28,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

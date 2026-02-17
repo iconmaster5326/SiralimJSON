@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPurrr:\nThis creature can equip Spell Gems from any class. After this creature {ACTION_casts} a spell, it is Sealed.",
-  "icon": "images/item/material/PeculiarHelmet.png",
-  "id": 1803,
-  "name": "Peculiar Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2156
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPurrr:\nThis creature can equip Spell Gems from any class. After this creature {ACTION_casts} a spell, it is Sealed.",
+    "icon":  "images/item/material/PeculiarHelmet.png",
+    "id":  1803,
+    "name":  "Peculiar Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2156,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

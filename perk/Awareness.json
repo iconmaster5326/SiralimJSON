@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_defend}, they gain {CONDNAME_BUFF_DEFENSIVE} and {CONDNAME_BUFF_REBIRTH}.\\n\\n{CONDDESC_BUFF_DEFENSIVE}\\n\\n{CONDDESC_BUFF_REBIRTH}",
-  "icon": "images/perk/Awareness.png",
-  "id": 372,
-  "maxRanks": 1,
-  "name": "Awareness",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_defend}, they gain {CONDNAME_BUFF_DEFENSIVE} and {CONDNAME_BUFF_REBIRTH}.\\n\\n{CONDDESC_BUFF_DEFENSIVE}\\n\\n{CONDDESC_BUFF_REBIRTH}",
+    "icon":  "images/perk/Awareness.png",
+    "id":  372,
+    "maxRanks":  1,
+    "name":  "Awareness",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

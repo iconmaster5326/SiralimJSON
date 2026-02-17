@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures deal additional damage equal to 50% of the amount of {STAT_speed} they have greater than their target.",
-  "icon": "images/perk/ThylacinesFury.png",
-  "id": 12,
-  "maxRanks": 1,
-  "name": "Thylacine\u0027s Fury",
-  "notes": [],
-  "pointsPerRank": 75,
-  "specialization": 7
+    "anointable":  true,
+    "description":  "Your creatures deal additional damage equal to 50% of the amount of {STAT_speed} they have greater than their target.",
+    "icon":  "images/perk/ThylacinesFury.png",
+    "id":  12,
+    "maxRanks":  1,
+    "name":  "Thylacine\u0027s Fury",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  75,
+    "specialization":  7,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMidnight Feast:\nAfter this creature kills a creature, it recovers 100% {STAT_health} and takes another turn. This trait only allows the creature to take an additional turn once at a time.",
-  "icon": "images/item/material/FallenExoskeleton.png",
-  "id": 192,
-  "name": "Fallen Exoskeleton",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 102
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMidnight Feast:\nAfter this creature kills a creature, it recovers 100% {STAT_health} and takes another turn. This trait only allows the creature to take an additional turn once at a time.",
+    "icon":  "images/item/material/FallenExoskeleton.png",
+    "id":  192,
+    "name":  "Fallen Exoskeleton",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  102,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

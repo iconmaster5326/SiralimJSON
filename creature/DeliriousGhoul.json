@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DeliriousGhoul/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 213,
-  "item": 230,
-  "lore": "Shortly before Omnia was invaded by Unification forces, King Sigmund managed to develop a wretched spell which he used on the city\u0027s water supply.\\n\\nDespite their appearance and status as undead, Ghouls are incredibly fast. When the Delirious Ghoul stabs his enemies with the tentacles on its shoulder, strange thoughts appear in their heads. Most of them experience doubts and believe that they are about to become one of these creatures.",
-  "menagerieDialog": [
-    "EAT FLESH!",
-    "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
-    "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
-    "Must... eat... more... footses...",
-    "Want... to eat... more... feet..."
-  ],
-  "minDepth": 1,
-  "name": "Delirious Ghoul",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DeliriousGhoul/overworld_e0.png",
-      "images/creature/DeliriousGhoul/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DeliriousGhoul/overworld_n0.png",
-      "images/creature/DeliriousGhoul/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DeliriousGhoul/overworld_s0.png",
-      "images/creature/DeliriousGhoul/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DeliriousGhoul/overworld_w0.png",
-      "images/creature/DeliriousGhoul/overworld_w1.png"
-    ]
-  },
-  "race": "Ghoul",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 6,
-    "speed": 26
-  },
-  "trait": 139
+    "battleSprite":  "images/creature/DeliriousGhoul/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  213,
+    "item":  230,
+    "lore":  "Shortly before Omnia was invaded by Unification forces, King Sigmund managed to develop a wretched spell which he used on the city\u0027s water supply.\\n\\nDespite their appearance and status as undead, Ghouls are incredibly fast. When the Delirious Ghoul stabs his enemies with the tentacles on its shoulder, strange thoughts appear in their heads. Most of them experience doubts and believe that they are about to become one of these creatures.",
+    "menagerieDialog":  [
+                            "EAT FLESH!",
+                            "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
+                            "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
+                            "Must... eat... more... footses...",
+                            "Want... to eat... more... feet..."
+                        ],
+    "minDepth":  1,
+    "name":  "Delirious Ghoul",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DeliriousGhoul/overworld_e0.png",
+                                         "images/creature/DeliriousGhoul/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DeliriousGhoul/overworld_n0.png",
+                                          "images/creature/DeliriousGhoul/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DeliriousGhoul/overworld_s0.png",
+                                          "images/creature/DeliriousGhoul/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DeliriousGhoul/overworld_w0.png",
+                                         "images/creature/DeliriousGhoul/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ghoul",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  6,
+                       "speed":  26
+                   },
+    "trait":  139,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

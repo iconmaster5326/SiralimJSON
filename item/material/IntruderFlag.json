@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiabolic Power:\nYour {RACE_Diabolic Horde} have 10% more {STAT_intelligence} for each {RACE_Diabolic Horde} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/IntruderFlag.png",
-  "id": 323,
-  "name": "Intruder Flag",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 239
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiabolic Power:\nYour {RACE_Diabolic Horde} have 10% more {STAT_intelligence} for each {RACE_Diabolic Horde} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/IntruderFlag.png",
+    "id":  323,
+    "name":  "Intruder Flag",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  239,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

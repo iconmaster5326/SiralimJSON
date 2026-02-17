@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_PROTECT} take 50% less damage.",
-  "icon": "images/condition/Protected.png",
-  "iconResisted": null,
-  "id": 0,
-  "material": 27,
-  "name": "Protected",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_PROTECT} take 50% less damage.",
+    "icon":  "images/condition/Protected.png",
+    "iconResisted":  null,
+    "id":  0,
+    "material":  27,
+    "name":  "Protected",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

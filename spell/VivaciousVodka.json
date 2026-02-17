@@ -1,37 +1,40 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "death",
-  "creator": null,
-  "description": "One of your creatures is moved to the top of the {TIMELINE}. This spell can only ever target 1 creature and can only be {ACTION_cast} once at a time. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 317,
-  "manuallyCastable": false,
-  "maxCharges": 23,
-  "name": "Vivacious Vodka",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "UTILITY"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "death",
+    "creator":  null,
+    "description":  "One of your creatures is moved to the top of the {TIMELINE}. This spell can only ever target 1 creature and can only be {ACTION_cast} once at a time. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  317,
+    "manuallyCastable":  false,
+    "maxCharges":  23,
+    "name":  "Vivacious Vodka",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "UTILITY"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

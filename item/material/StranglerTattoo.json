@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLacerate:\nAfter your creatures deal critical damage, this creature afflicts the target with {CONDNAME_DEBUFF_SILENCE} and {CONDNAME_DEBUFF_BLEED}.",
-  "icon": "images/item/material/StranglerTattoo.png",
-  "id": 379,
-  "name": "Strangler Tattoo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 295
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLacerate:\nAfter your creatures deal critical damage, this creature afflicts the target with {CONDNAME_DEBUFF_SILENCE} and {CONDNAME_DEBUFF_BLEED}.",
+    "icon":  "images/item/material/StranglerTattoo.png",
+    "id":  379,
+    "name":  "Strangler Tattoo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  295,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

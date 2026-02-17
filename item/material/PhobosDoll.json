@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTempest:\nYour creatures\u0027 single-target spells have a 35% chance to also be {ACTION_cast} on all the target\u0027s allies. This trait does not stack.",
-  "icon": "images/item/material/PhobosDoll.png",
-  "id": 1306,
-  "name": "Phobos Doll",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1553
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTempest:\nYour creatures\u0027 single-target spells have a 35% chance to also be {ACTION_cast} on all the target\u0027s allies. This trait does not stack.",
+    "icon":  "images/item/material/PhobosDoll.png",
+    "id":  1306,
+    "name":  "Phobos Doll",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1553,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

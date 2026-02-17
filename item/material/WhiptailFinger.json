@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLash:\nAfter an enemy dodges an attack, they take damage equal to 30% of their Current {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/WhiptailFinger.png",
-  "id": 801,
-  "name": "Whiptail Finger",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 828
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLash:\nAfter an enemy dodges an attack, they take damage equal to 30% of their Current {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/WhiptailFinger.png",
+    "id":  801,
+    "name":  "Whiptail Finger",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  828,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPendulum\u0027s Return:\nYour {CLASS_Death} creatures and {RACE_Beacon} creatures always have {CONDNAME_BUFF_AGILE}. When an enemy {CLASS_Death} creature would afflict your creatures with a debuff, they afflict them with a buff instead.",
-  "icon": "images/item/material/DesecratorsLantern.png",
-  "id": 1623,
-  "name": "Desecrator\u0027s Lantern",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1963
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPendulum\u0027s Return:\nYour {CLASS_Death} creatures and {RACE_Beacon} creatures always have {CONDNAME_BUFF_AGILE}. When an enemy {CLASS_Death} creature would afflict your creatures with a debuff, they afflict them with a buff instead.",
+    "icon":  "images/item/material/DesecratorsLantern.png",
+    "id":  1623,
+    "name":  "Desecrator\u0027s Lantern",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1963,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

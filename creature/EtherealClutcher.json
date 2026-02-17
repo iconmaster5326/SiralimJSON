@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EtherealClutcher/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 56,
-  "item": 362,
-  "lore": "Clutchers can sense fear over great distances. Before approaching an unarmed, terrified victim, they hide and move slowly, scratching the cold stone with their nails.\\n\\nThe Ethereal Clutcher can project terrifying images and scenes into people\u0027s minds, even when they are asleep. When Tartarith is especially busy \u0022DOING THE KILLING\u0022, he orders these creatures to have fun with his future victims.",
-  "menagerieDialog": [
-    "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
-    "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
-    "(It\u0027s impatiently tapping the floor with its fingertips.)",
-    "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
-    "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
-  ],
-  "minDepth": 1,
-  "name": "Ethereal Clutcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EtherealClutcher/overworld_e0.png",
-      "images/creature/EtherealClutcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EtherealClutcher/overworld_n0.png",
-      "images/creature/EtherealClutcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EtherealClutcher/overworld_s0.png",
-      "images/creature/EtherealClutcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EtherealClutcher/overworld_w0.png",
-      "images/creature/EtherealClutcher/overworld_w1.png"
-    ]
-  },
-  "race": "Clutcher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 10,
-    "health": 27,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 278
+    "battleSprite":  "images/creature/EtherealClutcher/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  56,
+    "item":  362,
+    "lore":  "Clutchers can sense fear over great distances. Before approaching an unarmed, terrified victim, they hide and move slowly, scratching the cold stone with their nails.\\n\\nThe Ethereal Clutcher can project terrifying images and scenes into people\u0027s minds, even when they are asleep. When Tartarith is especially busy \"DOING THE KILLING\", he orders these creatures to have fun with his future victims.",
+    "menagerieDialog":  [
+                            "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
+                            "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
+                            "(It\u0027s impatiently tapping the floor with its fingertips.)",
+                            "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
+                            "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ethereal Clutcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EtherealClutcher/overworld_e0.png",
+                                         "images/creature/EtherealClutcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EtherealClutcher/overworld_n0.png",
+                                          "images/creature/EtherealClutcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EtherealClutcher/overworld_s0.png",
+                                          "images/creature/EtherealClutcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EtherealClutcher/overworld_w0.png",
+                                         "images/creature/EtherealClutcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clutcher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  10,
+                       "health":  27,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  278,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

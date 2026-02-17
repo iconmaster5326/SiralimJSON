@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMemorial:\nAfter your creatures are resurrected, they {ACTION_cast} one of their spells at random. This trait does not stack.",
-  "icon": "images/item/material/EarthOil.png",
-  "id": 719,
-  "name": "Earth Oil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 658
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMemorial:\nAfter your creatures are resurrected, they {ACTION_cast} one of their spells at random. This trait does not stack.",
+    "icon":  "images/item/material/EarthOil.png",
+    "id":  719,
+    "name":  "Earth Oil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  658,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

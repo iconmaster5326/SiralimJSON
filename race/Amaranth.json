@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "(An Amaranth floats atop the treasure hoard, seemingly guarding it; you can\u0027t be too sure, given how inscrutable these creatures are. Either way, you need to get past it!)",
-    "(The creature guarding the treasure gazes deep into your soul with its single eye. Evidently not liking what it found, it moves to attack! How rude!)",
-    "(You have to stop and recollect your bearings momentarily as a bizarre creature suddenly materializes in your path, as if it had always been there. It attacks just as quickly!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have 5% more {STAT_defense}.",
-    "5": "Your creatures have 5% more {STAT_defense}.",
-    "8": "Your creatures have 5% more {STAT_defense}."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    96,
-    97,
-    98,
-    99,
-    100,
-    101,
-    655,
-    779
-  ],
-  "icon": "images/race/Amaranth.png",
-  "master": {
-    "costume": 293,
-    "dialog": "Amaranths have the best defense of any race in all of Rodia! Think you can beat me? I\u0027ll bet your creatures can\u0027t even scratch mine!",
-    "item": 1171,
-    "name": "Jerex",
-    "trait": 1394
-  },
-  "name": "Amaranth",
-  "notes": [],
-  "skins": [
-    259,
-    325,
-    548,
-    624
-  ]
+    "bossDialog":  [
+                       "(An Amaranth floats atop the treasure hoard, seemingly guarding it; you can\u0027t be too sure, given how inscrutable these creatures are. Either way, you need to get past it!)",
+                       "(The creature guarding the treasure gazes deep into your soul with its single eye. Evidently not liking what it found, it moves to attack! How rude!)",
+                       "(You have to stop and recollect your bearings momentarily as a bizarre creature suddenly materializes in your path, as if it had always been there. It attacks just as quickly!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have 5% more {STAT_defense}.",
+                        "5":  "Your creatures have 5% more {STAT_defense}.",
+                        "8":  "Your creatures have 5% more {STAT_defense}."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      96,
+                      97,
+                      98,
+                      99,
+                      100,
+                      101,
+                      655,
+                      779
+                  ],
+    "icon":  "images/race/Amaranth.png",
+    "master":  {
+                   "costume":  293,
+                   "dialog":  "Amaranths have the best defense of any race in all of Rodia! Think you can beat me? I\u0027ll bet your creatures can\u0027t even scratch mine!",
+                   "item":  1171,
+                   "name":  "Jerex",
+                   "trait":  1394
+               },
+    "name":  "Amaranth",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  259,
+                  325,
+                  548,
+                  624
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

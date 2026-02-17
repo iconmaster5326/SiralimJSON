@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PlagueSoothsayer/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 576,
-  "item": 733,
-  "lore": "Plague Doctors are believed to come from another dimension. Nothing is known about their reproductive cycle or their customs, and no one has seen them sleep or settle anywhere.\\n\\nAlthough it has great skill as a doctor, the Plague Soothsayer prefers to prevent damage rather than repair it. Its main targets are criminal gangs, and it devotes itself to investigate them and set traps. When the evildoers finally fall, the Soothsayer gloats as it throws its coin in the air before its terrified victims.",
-  "menagerieDialog": [
-    "Bend over, grab your ankles, and cough!",
-    "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
-    "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
-    "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
-    "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
-  ],
-  "minDepth": 1,
-  "name": "Plague Soothsayer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PlagueSoothsayer/overworld_e0.png",
-      "images/creature/PlagueSoothsayer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PlagueSoothsayer/overworld_n0.png",
-      "images/creature/PlagueSoothsayer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PlagueSoothsayer/overworld_s0.png",
-      "images/creature/PlagueSoothsayer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PlagueSoothsayer/overworld_w0.png",
-      "images/creature/PlagueSoothsayer/overworld_w1.png"
-    ]
-  },
-  "race": "Plague Doctor",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (4080)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 17,
-    "health": 34,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 672
+    "battleSprite":  "images/creature/PlagueSoothsayer/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  576,
+    "item":  733,
+    "lore":  "Plague Doctors are believed to come from another dimension. Nothing is known about their reproductive cycle or their customs, and no one has seen them sleep or settle anywhere.\\n\\nAlthough it has great skill as a doctor, the Plague Soothsayer prefers to prevent damage rather than repair it. Its main targets are criminal gangs, and it devotes itself to investigate them and set traps. When the evildoers finally fall, the Soothsayer gloats as it throws its coin in the air before its terrified victims.",
+    "menagerieDialog":  [
+                            "Bend over, grab your ankles, and cough!",
+                            "(It points at you, then mimes a drinking motion. Unsure about how to respond, you pretend to be distracted by another one of your creatures.)",
+                            "(It hands you a vial full of purple liquid. You shake your head as if to reject its offer, and it glances downward with a sad look on its face.)",
+                            "(It picks its nose, but it\u0027s not really gross because its nose is a mask. Pretty neat.)",
+                            "(It was busy mixing a potion before you startled it and caused it to drop its vials on the ground.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Plague Soothsayer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PlagueSoothsayer/overworld_e0.png",
+                                         "images/creature/PlagueSoothsayer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PlagueSoothsayer/overworld_n0.png",
+                                          "images/creature/PlagueSoothsayer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PlagueSoothsayer/overworld_s0.png",
+                                          "images/creature/PlagueSoothsayer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PlagueSoothsayer/overworld_w0.png",
+                                         "images/creature/PlagueSoothsayer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Plague Doctor",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (4080)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  17,
+                       "health":  34,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  672,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

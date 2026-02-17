@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/HarpyPillager/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 19,
-  "item": 367,
-  "lore": "Harpies are fully aware that they carry numerous diseases, deadly to humans and other creatures. On more than one occasion, entire cities have succumbed to their perverse plans.\\n\\nHarpy Pillagers are the greatest danger to sailors who navigate the seas. They have learned how to wield knives and are especially skilled at cutting the ropes that hold the sails of boats. When a group of Harpies attacks a settlement or a caravan, these creatures are tasked with taking the loot.",
-  "menagerieDialog": [
-    "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
-    "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
-    "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
-    "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
-    "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
-  ],
-  "minDepth": 1,
-  "name": "Harpy Pillager",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HarpyPillager/overworld_e0.png",
-      "images/creature/HarpyPillager/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HarpyPillager/overworld_n0.png",
-      "images/creature/HarpyPillager/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HarpyPillager/overworld_s0.png",
-      "images/creature/HarpyPillager/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HarpyPillager/overworld_w0.png",
-      "images/creature/HarpyPillager/overworld_w1.png"
-    ]
-  },
-  "race": "Harpy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 29,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 283
+    "battleSprite":  "images/creature/HarpyPillager/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  19,
+    "item":  367,
+    "lore":  "Harpies are fully aware that they carry numerous diseases, deadly to humans and other creatures. On more than one occasion, entire cities have succumbed to their perverse plans.\\n\\nHarpy Pillagers are the greatest danger to sailors who navigate the seas. They have learned how to wield knives and are especially skilled at cutting the ropes that hold the sails of boats. When a group of Harpies attacks a settlement or a caravan, these creatures are tasked with taking the loot.",
+    "menagerieDialog":  [
+                            "(It appears content, but you\u0027re certain it will have a tantrum the moment you turn your back on it.)",
+                            "(This creature is trying to pull out your hair to make an effigy. You\u0027re not sure whether to be flattered or revolted.)",
+                            "(She has a terrible attitude, snapping at your other creatures whenever the opportunity presents itself.)",
+                            "(Harpies are known for their deep hatred of humans. Fortunately for you, its loyalty is held steadfast by your magic.)",
+                            "(It\u0027s flapping its wings and squawking even more obnoxiously than usual. It\u0027s probably sick. Good.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Harpy Pillager",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HarpyPillager/overworld_e0.png",
+                                         "images/creature/HarpyPillager/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HarpyPillager/overworld_n0.png",
+                                          "images/creature/HarpyPillager/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HarpyPillager/overworld_s0.png",
+                                          "images/creature/HarpyPillager/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HarpyPillager/overworld_w0.png",
+                                         "images/creature/HarpyPillager/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Harpy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  29,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  283,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

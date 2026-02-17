@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRaging Spirit:\nAfter your creatures are killed, they have a 25% chance to be resurrected with 50% {STAT_health} and gain a random trait that belongs to their Fused creature\u0027s race. This trait does not stack.",
-  "icon": "images/item/material/OrthodoxRecipe.png",
-  "id": 1589,
-  "name": "Orthodox Recipe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1927
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRaging Spirit:\nAfter your creatures are killed, they have a 25% chance to be resurrected with 50% {STAT_health} and gain a random trait that belongs to their Fused creature\u0027s race. This trait does not stack.",
+    "icon":  "images/item/material/OrthodoxRecipe.png",
+    "id":  1589,
+    "name":  "Orthodox Recipe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1927,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

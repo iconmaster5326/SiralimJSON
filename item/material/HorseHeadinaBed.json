@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeath Threats:\nAfter your creatures {ACTION_provoke}, 3 random enemies activate their on-dodge effects. This trait does not stack.",
-  "icon": "images/item/material/HorseHeadinaBed.png",
-  "id": 1842,
-  "name": "Horse Head in a Bed",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2007
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeath Threats:\nAfter your creatures {ACTION_provoke}, 3 random enemies activate their on-dodge effects. This trait does not stack.",
+    "icon":  "images/item/material/HorseHeadinaBed.png",
+    "id":  1842,
+    "name":  "Horse Head in a Bed",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2007,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

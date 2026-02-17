@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Sarea/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 49,
-  "name": "Sarea",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Sarea/overworld_e0.png",
-      "images/skin/Sarea/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Sarea/overworld_n0.png",
-      "images/skin/Sarea/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Sarea/overworld_s0.png",
-      "images/skin/Sarea/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Sarea/overworld_w0.png",
-      "images/skin/Sarea/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Sarea/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  49,
+    "name":  "Sarea",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Sarea/overworld_e0.png",
+                                         "images/skin/Sarea/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Sarea/overworld_n0.png",
+                                          "images/skin/Sarea/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Sarea/overworld_s0.png",
+                                          "images/skin/Sarea/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Sarea/overworld_w0.png",
+                                         "images/skin/Sarea/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

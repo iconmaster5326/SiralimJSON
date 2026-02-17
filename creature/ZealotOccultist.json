@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ZealotOccultist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 136,
-  "item": 405,
-  "lore": "Zonte never approved of his master\u0027s project and stayed on the sidelines, but not without having endless arguments with her. Zonte especially distrusted the word of Vertraag, whom he considered suspiciously condescending.\\n\\nSome Magi have theorized that every Occultist carries a Nether Orb. Brenda Milner discovered that, strangely, this seems to be true and false at the same time, as their orbs share some of the characteristics, but also bleed and produce pain to their owners when manipulated.",
-  "menagerieDialog": [
-    "(It\u0027s floating comfortably in the air while napping peacefully.)",
-    "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
-    "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
-    "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
-    "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Zealot Occultist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ZealotOccultist/overworld_e0.png",
-      "images/creature/ZealotOccultist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ZealotOccultist/overworld_n0.png",
-      "images/creature/ZealotOccultist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ZealotOccultist/overworld_s0.png",
-      "images/creature/ZealotOccultist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ZealotOccultist/overworld_w0.png",
-      "images/creature/ZealotOccultist/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 320
+    "battleSprite":  "images/creature/ZealotOccultist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  136,
+    "item":  405,
+    "lore":  "Zonte never approved of his master\u0027s project and stayed on the sidelines, but not without having endless arguments with her. Zonte especially distrusted the word of Vertraag, whom he considered suspiciously condescending.\\n\\nSome Magi have theorized that every Occultist carries a Nether Orb. Brenda Milner discovered that, strangely, this seems to be true and false at the same time, as their orbs share some of the characteristics, but also bleed and produce pain to their owners when manipulated.",
+    "menagerieDialog":  [
+                            "(It\u0027s floating comfortably in the air while napping peacefully.)",
+                            "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
+                            "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
+                            "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
+                            "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Zealot Occultist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ZealotOccultist/overworld_e0.png",
+                                         "images/creature/ZealotOccultist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ZealotOccultist/overworld_n0.png",
+                                          "images/creature/ZealotOccultist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ZealotOccultist/overworld_s0.png",
+                                          "images/creature/ZealotOccultist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ZealotOccultist/overworld_w0.png",
+                                         "images/creature/ZealotOccultist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  320,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

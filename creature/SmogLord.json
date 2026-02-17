@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SmogLord/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 198,
-  "item": 341,
-  "lore": "Some agricultural companies hire mercenaries to capture Smogs and drop them in the fields of the competition. These practices are punished by law, which is why other companies pretend to have suffered an attack in order to falsely accuse their rivals.\\n\\nSmog Lords are an exception among their kind, as they do not target the common people of Rodia. They used to be workers who were not prisoners of war, so they direct their attacks toward the universities of magic and the leaders of each kingdom.",
-  "menagerieDialog": [
-    "(It\u0027s spinning in place while mumbling its name over and over again.)",
-    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
-    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
-    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
-    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Smog Lord",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SmogLord/overworld_e0.png",
-      "images/creature/SmogLord/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SmogLord/overworld_n0.png",
-      "images/creature/SmogLord/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SmogLord/overworld_s0.png",
-      "images/creature/SmogLord/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SmogLord/overworld_w0.png",
-      "images/creature/SmogLord/overworld_w1.png"
-    ]
-  },
-  "race": "Smog",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 257
+    "battleSprite":  "images/creature/SmogLord/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  198,
+    "item":  341,
+    "lore":  "Some agricultural companies hire mercenaries to capture Smogs and drop them in the fields of the competition. These practices are punished by law, which is why other companies pretend to have suffered an attack in order to falsely accuse their rivals.\\n\\nSmog Lords are an exception among their kind, as they do not target the common people of Rodia. They used to be workers who were not prisoners of war, so they direct their attacks toward the universities of magic and the leaders of each kingdom.",
+    "menagerieDialog":  [
+                            "(It\u0027s spinning in place while mumbling its name over and over again.)",
+                            "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+                            "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+                            "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+                            "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Smog Lord",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SmogLord/overworld_e0.png",
+                                         "images/creature/SmogLord/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SmogLord/overworld_n0.png",
+                                          "images/creature/SmogLord/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SmogLord/overworld_s0.png",
+                                          "images/creature/SmogLord/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SmogLord/overworld_w0.png",
+                                         "images/creature/SmogLord/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Smog",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  257,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

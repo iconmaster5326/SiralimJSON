@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nYellow Tether:\nAfter this creature deals critical damage, its adjacent allies gain 30% {STAT_attack} and {STAT_speed}. This creature always has {CONDNAME_BUFF_SAVAGE}.",
-  "icon": "images/item/material/YellowShackle.png",
-  "id": 1595,
-  "name": "Yellow Shackle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1932
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nYellow Tether:\nAfter this creature deals critical damage, its adjacent allies gain 30% {STAT_attack} and {STAT_speed}. This creature always has {CONDNAME_BUFF_SAVAGE}.",
+    "icon":  "images/item/material/YellowShackle.png",
+    "id":  1595,
+    "name":  "Yellow Shackle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1932,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

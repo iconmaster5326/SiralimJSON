@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJealousy:\nIf you only have one {RACE_Imler} and one {RACE_Imling} fighting on your side, both creatures share 50% of their base {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} with each other. This trait does not stack.",
-  "icon": "images/item/material/RancidCharm.png",
-  "id": 541,
-  "name": "Rancid Charm",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 455
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJealousy:\nIf you only have one {RACE_Imler} and one {RACE_Imling} fighting on your side, both creatures share 50% of their base {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} with each other. This trait does not stack.",
+    "icon":  "images/item/material/RancidCharm.png",
+    "id":  541,
+    "name":  "Rancid Charm",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  455,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

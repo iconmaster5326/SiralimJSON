@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures\u0027 {SPELL_equipment}s are 5% more potent for each time they\u0027ve {ACTION_cast} an {SPELL_equipment} in the current battle.",
-  "icon": "images/perk/AcclimatedArmaments.png",
-  "id": 590,
-  "maxRanks": 1,
-  "name": "Acclimated Armaments",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 39
+    "anointable":  true,
+    "description":  "Your creatures\u0027 {SPELL_equipment}s are 5% more potent for each time they\u0027ve {ACTION_cast} an {SPELL_equipment} in the current battle.",
+    "icon":  "images/perk/AcclimatedArmaments.png",
+    "id":  590,
+    "maxRanks":  1,
+    "name":  "Acclimated Armaments",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  39,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

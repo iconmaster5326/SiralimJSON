@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Friden/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": 11,
-  "id": 730,
-  "item": null,
-  "lore": "The oceans hide many mysteries. In them lie innumerable treasures, lost islands full of unimaginable riches, and terrible curses. They gave rise to incredible stories and legends. People, especially pirates, believed in the sea as a deity. In some way, their faith and the magic hidden in the depths of the waters gave life to Friden. The God of the Sea enjoys stories about the courage of adventurers, and often communicates with them to encourage them, give them advice and acknowledge their feats.",
-  "menagerieDialog": [
-    "A drink, a drink, a drink! My kingdom for a drink.\\n\\nWell, your kingdom for a drink.",
-    "(The moment Friden notices your presence, he produces a bottle with a skull drawn on the front and chugs it down in an odd attempt to impress you. You\u0027re not impressed, though.)",
-    "We shall drink and drink and drink until the break of dawn!",
-    "Someday, I wish to create an entirely new realm that is inhabited by nothing but Alementals. That\u0027s my dream.",
-    "The oceans are rife with new discoveries to be made. What do you say we sail the seas together in search of new lands to conquer?"
-  ],
-  "minDepth": 1,
-  "name": "Friden",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Friden/overworld_e0.png",
-      "images/creature/Friden/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Friden/overworld_n0.png",
-      "images/creature/Friden/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Friden/overworld_s0.png",
-      "images/creature/Friden/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Friden/overworld_w0.png",
-      "images/creature/Friden/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    357,
-    402,
-    424
-  ],
-  "sources": [
-    {
-      "god": 11,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 17,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 600
+    "battleSprite":  "images/creature/Friden/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  11,
+    "id":  730,
+    "item":  null,
+    "lore":  "The oceans hide many mysteries. In them lie innumerable treasures, lost islands full of unimaginable riches, and terrible curses. They gave rise to incredible stories and legends. People, especially pirates, believed in the sea as a deity. In some way, their faith and the magic hidden in the depths of the waters gave life to Friden. The God of the Sea enjoys stories about the courage of adventurers, and often communicates with them to encourage them, give them advice and acknowledge their feats.",
+    "menagerieDialog":  [
+                            "A drink, a drink, a drink! My kingdom for a drink.\\n\\nWell, your kingdom for a drink.",
+                            "(The moment Friden notices your presence, he produces a bottle with a skull drawn on the front and chugs it down in an odd attempt to impress you. You\u0027re not impressed, though.)",
+                            "We shall drink and drink and drink until the break of dawn!",
+                            "Someday, I wish to create an entirely new realm that is inhabited by nothing but Alementals. That\u0027s my dream.",
+                            "The oceans are rife with new discoveries to be made. What do you say we sail the seas together in search of new lands to conquer?"
+                        ],
+    "minDepth":  1,
+    "name":  "Friden",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Friden/overworld_e0.png",
+                                         "images/creature/Friden/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Friden/overworld_n0.png",
+                                          "images/creature/Friden/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Friden/overworld_s0.png",
+                                          "images/creature/Friden/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Friden/overworld_w0.png",
+                                         "images/creature/Friden/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  357,
+                  402,
+                  424
+              ],
+    "sources":  [
+                    {
+                        "god":  11,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  17,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  600,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

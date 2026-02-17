@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures manually {ACTION_cast} a {CLASS_Sorcery} spell, you gain 1 [infusion_sorcery]Sorcery Infusion. When any of your creatures manually {ACTION_cast} a spell, your creatures gain 1 random buff as long as you have at least 1 [infusion_sorcery]Sorcery Infusion, plus 1 additional random buff for every 3 [infusion_sorcery]Sorcery Infusions you have beyond that.",
-  "icon": "images/perk/SorceryInfusion.png",
-  "id": 344,
-  "maxRanks": 1,
-  "name": "Sorcery Infusion",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 23
+    "anointable":  true,
+    "description":  "After your creatures manually {ACTION_cast} a {CLASS_Sorcery} spell, you gain 1 [infusion_sorcery]Sorcery Infusion. When any of your creatures manually {ACTION_cast} a spell, your creatures gain 1 random buff as long as you have at least 1 [infusion_sorcery]Sorcery Infusion, plus 1 additional random buff for every 3 [infusion_sorcery]Sorcery Infusions you have beyond that.",
+    "icon":  "images/perk/SorceryInfusion.png",
+    "id":  344,
+    "maxRanks":  1,
+    "name":  "Sorcery Infusion",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  23,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiamond Hands:\nThis creature takes 4% less damage and deals 20% more damage for each trait it has gained in the current battle.",
-  "icon": "images/item/material/UnstablePlasma.png",
-  "id": 1336,
-  "name": "Unstable Plasma",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1582
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiamond Hands:\nThis creature takes 4% less damage and deals 20% more damage for each trait it has gained in the current battle.",
+    "icon":  "images/item/material/UnstablePlasma.png",
+    "id":  1336,
+    "name":  "Unstable Plasma",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1582,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

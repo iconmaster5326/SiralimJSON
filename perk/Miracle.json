@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures are resurrected, they deal damage to all enemies equal to \u003C1.5\u003E% of their Maximum {STAT_health}.",
-  "icon": "images/perk/Miracle.png",
-  "id": 78,
-  "maxRanks": 25,
-  "name": "Miracle",
-  "notes": [],
-  "pointsPerRank": 3,
-  "specialization": 6
+    "anointable":  true,
+    "description":  "After your creatures are resurrected, they deal damage to all enemies equal to \u003c1.5\u003e% of their Maximum {STAT_health}.",
+    "icon":  "images/perk/Miracle.png",
+    "id":  78,
+    "maxRanks":  25,
+    "name":  "Miracle",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  3,
+    "specialization":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

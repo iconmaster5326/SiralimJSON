@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nComing Undone:\nAfter your creatures with {CONDNAME_BUFF_LEECH} {ACTION_attack}, they gain 10% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. This trait does not stack.",
-  "icon": "images/item/material/DevourerCyst.png",
-  "id": 1009,
-  "name": "Devourer Cyst",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1124
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nComing Undone:\nAfter your creatures with {CONDNAME_BUFF_LEECH} {ACTION_attack}, they gain 10% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. This trait does not stack.",
+    "icon":  "images/item/material/DevourerCyst.png",
+    "id":  1009,
+    "name":  "Devourer Cyst",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1124,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

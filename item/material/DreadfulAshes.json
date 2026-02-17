@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nStoke:\nAfter this creature {ACTION_defends} or {ACTION_provokes}, it increases the potency of each enemy\u0027s {CONDNAME_DEBUFF_BURNED} debuff by 65%.",
-  "icon": "images/item/material/DreadfulAshes.png",
-  "id": 813,
-  "name": "Dreadful Ashes",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 840
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nStoke:\nAfter this creature {ACTION_defends} or {ACTION_provokes}, it increases the potency of each enemy\u0027s {CONDNAME_DEBUFF_BURNED} debuff by 65%.",
+    "icon":  "images/item/material/DreadfulAshes.png",
+    "id":  813,
+    "name":  "Dreadful Ashes",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  840,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

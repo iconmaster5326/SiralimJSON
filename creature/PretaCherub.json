@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/PretaCherub/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1167,
-  "item": 1551,
-  "lore": "To the followers of Surathli in particular, the Cherub holds special holy significance. Their strong resemblence to unborn children early in development leads many to believe that the Cherubs will, over time, gradually transform into something far greater and more powerful. If there is any truth to this theory, the fact that the Cherubs have changed little since their discovery suggests a tremendously long transformation indeed.\\n\\nPreta Cherubs are one of the more dangerous kinds of Cherub and by far the most hostile to living creatures. One touch from its body can badly disrupt all kinds of energies magical and mundane alike, leaving its prey in agony and often well beyond saving. For such victims, the only ministration their comrades can offer is a quick end to their suffering.",
-  "menagerieDialog": [
-    "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
-    "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
-    "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
-    "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
-    "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
-  ],
-  "minDepth": 1,
-  "name": "Preta Cherub",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PretaCherub/overworld_e0.png",
-      "images/creature/PretaCherub/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PretaCherub/overworld_n0.png",
-      "images/creature/PretaCherub/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PretaCherub/overworld_s0.png",
-      "images/creature/PretaCherub/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PretaCherub/overworld_w0.png",
-      "images/creature/PretaCherub/overworld_w1.png"
-    ]
-  },
-  "race": "Cherub",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 11,
-    "health": 38,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1890
+    "battleSprite":  "images/creature/PretaCherub/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1167,
+    "item":  1551,
+    "lore":  "To the followers of Surathli in particular, the Cherub holds special holy significance. Their strong resemblence to unborn children early in development leads many to believe that the Cherubs will, over time, gradually transform into something far greater and more powerful. If there is any truth to this theory, the fact that the Cherubs have changed little since their discovery suggests a tremendously long transformation indeed.\\n\\nPreta Cherubs are one of the more dangerous kinds of Cherub and by far the most hostile to living creatures. One touch from its body can badly disrupt all kinds of energies magical and mundane alike, leaving its prey in agony and often well beyond saving. For such victims, the only ministration their comrades can offer is a quick end to their suffering.",
+    "menagerieDialog":  [
+                            "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
+                            "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
+                            "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
+                            "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
+                            "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Preta Cherub",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PretaCherub/overworld_e0.png",
+                                         "images/creature/PretaCherub/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PretaCherub/overworld_n0.png",
+                                          "images/creature/PretaCherub/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PretaCherub/overworld_s0.png",
+                                          "images/creature/PretaCherub/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PretaCherub/overworld_w0.png",
+                                         "images/creature/PretaCherub/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cherub",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  11,
+                       "health":  38,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1890,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

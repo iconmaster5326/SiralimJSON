@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your {CLASS_Life} creatures gain [icons,1972]Rune of Lua.\n\nRune of Lua: Target takes a large amount of damage, caster recovers {STAT_health} equal to 50% of the damage dealt, and the caster\u0027s on-attack effects are activated. 100% of this spell\u0027s damage is based on the caster\u0027s highest stat.",
-  "icon": "images/perk/RuneofLua.png",
-  "id": 280,
-  "maxRanks": 1,
-  "name": "Rune of Lua",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 19
+    "anointable":  true,
+    "description":  "At the start of battle, your {CLASS_Life} creatures gain [icons,1972]Rune of Lua.\n\nRune of Lua: Target takes a large amount of damage, caster recovers {STAT_health} equal to 50% of the damage dealt, and the caster\u0027s on-attack effects are activated. 100% of this spell\u0027s damage is based on the caster\u0027s highest stat.",
+    "icon":  "images/perk/RuneofLua.png",
+    "id":  280,
+    "maxRanks":  1,
+    "name":  "Rune of Lua",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  19,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,22 +1,25 @@
 {
-  "arcaneDustCost": 500,
-  "description": "Allows you to take on Nether Synthesis Missions. These are repeatable Projects that reward you with a random Nether Stone.",
-  "graniteCost": 5000,
-  "icon": "images/project/UnlockMissionNetherSynthesis.png",
-  "id": 124,
-  "items": {
-    "92": 5,
-    "93": 5,
-    "94": 5,
-    "95": 5,
-    "96": 5
-  },
-  "monsterPartCost": 2500,
-  "name": "Unlock Mission: Nether Synthesis",
-  "notes": [],
-  "repeatable": false,
-  "type": "construction",
-  "unlockedCreature": null,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  500,
+    "description":  "Allows you to take on Nether Synthesis Missions. These are repeatable Projects that reward you with a random Nether Stone.",
+    "graniteCost":  5000,
+    "icon":  "images/project/UnlockMissionNetherSynthesis.png",
+    "id":  124,
+    "items":  {
+                  "92":  5,
+                  "93":  5,
+                  "94":  5,
+                  "95":  5,
+                  "96":  5
+              },
+    "monsterPartCost":  2500,
+    "name":  "Unlock Mission: Nether Synthesis",
+    "notes":  [
+
+              ],
+    "repeatable":  false,
+    "type":  "construction",
+    "unlockedCreature":  null,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

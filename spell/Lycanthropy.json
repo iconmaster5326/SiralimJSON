@@ -1,38 +1,41 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "Caster transforms into a random {CLASS_Nature} creature with 100% {STAT_health}. Then, this Spell Gem is Sealed. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage while it is below 25% {STAT_health}.",
-  "god": null,
-  "id": 282,
-  "manuallyCastable": false,
-  "maxCharges": 10,
-  "name": "Lycanthropy",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "Caster transforms into a random {CLASS_Nature} creature with 100% {STAT_health}. Then, this Spell Gem is Sealed. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage while it is below 25% {STAT_health}.",
+    "god":  null,
+    "id":  282,
+    "manuallyCastable":  false,
+    "maxCharges":  10,
+    "name":  "Lycanthropy",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

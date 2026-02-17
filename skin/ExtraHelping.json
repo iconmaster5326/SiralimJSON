@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/ExtraHelping/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 572,
-  "name": "Extra Helping",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/ExtraHelping/overworld_e0.png",
-      "images/skin/ExtraHelping/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/ExtraHelping/overworld_n0.png",
-      "images/skin/ExtraHelping/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/ExtraHelping/overworld_s0.png",
-      "images/skin/ExtraHelping/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/ExtraHelping/overworld_w0.png",
-      "images/skin/ExtraHelping/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/ExtraHelping/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  572,
+    "name":  "Extra Helping",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/ExtraHelping/overworld_e0.png",
+                                         "images/skin/ExtraHelping/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/ExtraHelping/overworld_n0.png",
+                                          "images/skin/ExtraHelping/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/ExtraHelping/overworld_s0.png",
+                                          "images/skin/ExtraHelping/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/ExtraHelping/overworld_w0.png",
+                                         "images/skin/ExtraHelping/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

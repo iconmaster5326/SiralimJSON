@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIn Favor of Destruction:\nAfter start-of-battle effects are determined, 40% of this creature\u0027s {STAT_attack} is added to that of your other creatures.",
-  "icon": "images/item/material/EmotingScales.png",
-  "id": 1567,
-  "name": "Emoting Scales",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1907
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIn Favor of Destruction:\nAfter start-of-battle effects are determined, 40% of this creature\u0027s {STAT_attack} is added to that of your other creatures.",
+    "icon":  "images/item/material/EmotingScales.png",
+    "id":  1567,
+    "name":  "Emoting Scales",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1907,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

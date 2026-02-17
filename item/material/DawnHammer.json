@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoyal Authority:\nThis creature always has {CONDNAME_BUFF_PROTECT} and {CONDNAME_BUFF_REPELLING}, and {ACTION_defends} at the end of its turn.",
-  "icon": "images/item/material/DawnHammer.png",
-  "id": 182,
-  "name": "Dawn Hammer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 92
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoyal Authority:\nThis creature always has {CONDNAME_BUFF_PROTECT} and {CONDNAME_BUFF_REPELLING}, and {ACTION_defends} at the end of its turn.",
+    "icon":  "images/item/material/DawnHammer.png",
+    "id":  182,
+    "name":  "Dawn Hammer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  92,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

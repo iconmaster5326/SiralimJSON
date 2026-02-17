@@ -1,38 +1,41 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "When the caster dies, it resurrects with 100% {STAT_health}. This spell cannot be cast manually.",
-  "god": null,
-  "id": 263,
-  "manuallyCastable": false,
-  "maxCharges": 1,
-  "name": "Sacrifice to the Light",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": true,
-  "resurrects": true,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "When the caster dies, it resurrects with 100% {STAT_health}. This spell cannot be cast manually.",
+    "god":  null,
+    "id":  263,
+    "manuallyCastable":  false,
+    "maxCharges":  1,
+    "name":  "Sacrifice to the Light",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  true,
+    "resurrects":  true,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

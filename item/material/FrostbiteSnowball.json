@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBrain Freeze:\nAfter this creature is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_FROZEN}.",
-  "icon": "images/item/material/FrostbiteSnowball.png",
-  "id": 471,
-  "name": "Frostbite Snowball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 385
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBrain Freeze:\nAfter this creature is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_FROZEN}.",
+    "icon":  "images/item/material/FrostbiteSnowball.png",
+    "id":  471,
+    "name":  "Frostbite Snowball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  385,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

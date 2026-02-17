@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBrawl:\nAfter this creature {ACTION_attacks}, it has a 20% chance to {ACTION_attack} a random enemy. This effect can occur repeatedly.",
-  "icon": "images/item/material/BrawlerPoem.png",
-  "id": 1329,
-  "name": "Brawler Poem",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1575
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBrawl:\nAfter this creature {ACTION_attacks}, it has a 20% chance to {ACTION_attack} a random enemy. This effect can occur repeatedly.",
+    "icon":  "images/item/material/BrawlerPoem.png",
+    "id":  1329,
+    "name":  "Brawler Poem",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1575,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/StonehornGargoyle/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 670,
-  "item": 820,
-  "lore": "At some point in history, a small number of Gargoyles became self-aware. According to Marette, the ones with the most intricate patterns of action may have developed a personality based on said patterns. The Stonehorn Gargoyle has led this small group for centuries, watching over Undolim at night from the top of the cathedral. When the city was invaded by an old ruler of Siralim, the Stonehorn Gargoyle was defeated and had no choice but to flee.",
-  "menagerieDialog": [
-    "Is everything alright, my liege?",
-    "You drool in your sleep.",
-    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
-    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
-    "(This creature could easily be mistaken for a statue.)"
-  ],
-  "minDepth": 1,
-  "name": "Stonehorn Gargoyle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StonehornGargoyle/overworld_e0.png",
-      "images/creature/StonehornGargoyle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StonehornGargoyle/overworld_n0.png",
-      "images/creature/StonehornGargoyle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StonehornGargoyle/overworld_s0.png",
-      "images/creature/StonehornGargoyle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StonehornGargoyle/overworld_w0.png",
-      "images/creature/StonehornGargoyle/overworld_w1.png"
-    ]
-  },
-  "race": "Gargoyle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 22,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 17
-  },
-  "trait": 847
+    "battleSprite":  "images/creature/StonehornGargoyle/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  670,
+    "item":  820,
+    "lore":  "At some point in history, a small number of Gargoyles became self-aware. According to Marette, the ones with the most intricate patterns of action may have developed a personality based on said patterns. The Stonehorn Gargoyle has led this small group for centuries, watching over Undolim at night from the top of the cathedral. When the city was invaded by an old ruler of Siralim, the Stonehorn Gargoyle was defeated and had no choice but to flee.",
+    "menagerieDialog":  [
+                            "Is everything alright, my liege?",
+                            "You drool in your sleep.",
+                            "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+                            "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+                            "(This creature could easily be mistaken for a statue.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Stonehorn Gargoyle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StonehornGargoyle/overworld_e0.png",
+                                         "images/creature/StonehornGargoyle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StonehornGargoyle/overworld_n0.png",
+                                          "images/creature/StonehornGargoyle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StonehornGargoyle/overworld_s0.png",
+                                          "images/creature/StonehornGargoyle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StonehornGargoyle/overworld_w0.png",
+                                         "images/creature/StonehornGargoyle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargoyle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  22,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  17
+                   },
+    "trait":  847,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

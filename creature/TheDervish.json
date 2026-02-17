@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TheDervish/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1161,
-  "item": 1543,
-  "lore": "According to legend, there is a plain deep in the Unsullied Meadows, guarded by creatures called Dervish. This is said to have been the first piece of land that Aeolian shaped, or at least the first piece of land he was satisfied with. It is said to be a very precious place for this God, and sometimes he even rests there. Every time Aeolian lands on the cool grass of this plain, a hundred Dervish each take shape from a blade of grass around him.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "The Dervish",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TheDervish/overworld_e0.png",
-      "images/creature/TheDervish/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TheDervish/overworld_n0.png",
-      "images/creature/TheDervish/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TheDervish/overworld_s0.png",
-      "images/creature/TheDervish/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TheDervish/overworld_w0.png",
-      "images/creature/TheDervish/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 18,
-    "health": 43,
-    "intelligence": 13,
-    "speed": 23
-  },
-  "trait": 1884
+    "battleSprite":  "images/creature/TheDervish/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1161,
+    "item":  1543,
+    "lore":  "According to legend, there is a plain deep in the Unsullied Meadows, guarded by creatures called Dervish. This is said to have been the first piece of land that Aeolian shaped, or at least the first piece of land he was satisfied with. It is said to be a very precious place for this God, and sometimes he even rests there. Every time Aeolian lands on the cool grass of this plain, a hundred Dervish each take shape from a blade of grass around him.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "The Dervish",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TheDervish/overworld_e0.png",
+                                         "images/creature/TheDervish/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TheDervish/overworld_n0.png",
+                                          "images/creature/TheDervish/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TheDervish/overworld_s0.png",
+                                          "images/creature/TheDervish/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TheDervish/overworld_w0.png",
+                                         "images/creature/TheDervish/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  18,
+                       "health":  43,
+                       "intelligence":  13,
+                       "speed":  23
+                   },
+    "trait":  1884,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

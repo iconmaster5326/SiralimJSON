@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/WildfireEfreet/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 114,
-  "item": 419,
-  "lore": "When there were two Efreets left to complete the deal, Vulcanar grew weary of Zonte\u0027s insolence and declared that it would not help the Magi take back their tower unless he agreed to take a nice bath in the lava of the Great Pandemonium. But Zonte had everything under control.\\n\\nThe temperature of the Wildfire Efreet is so high that it burns through anything it comes into contact with. However, it feels a great aversion towards wood and paper, and it never approaches objects made of them.",
-  "menagerieDialog": [
-    "Death to the Djinns!",
-    "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
-    "You can catch just about anything on fire if you set your mind to it, really.",
-    "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
-    "Fire solves everything. If you need me to take care of someone for you, just say the word."
-  ],
-  "minDepth": 1,
-  "name": "Wildfire Efreet",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WildfireEfreet/overworld_e0.png",
-      "images/creature/WildfireEfreet/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WildfireEfreet/overworld_n0.png",
-      "images/creature/WildfireEfreet/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WildfireEfreet/overworld_s0.png",
-      "images/creature/WildfireEfreet/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WildfireEfreet/overworld_w0.png",
-      "images/creature/WildfireEfreet/overworld_w1.png"
-    ]
-  },
-  "race": "Efreet",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 334
+    "battleSprite":  "images/creature/WildfireEfreet/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  114,
+    "item":  419,
+    "lore":  "When there were two Efreets left to complete the deal, Vulcanar grew weary of Zonte\u0027s insolence and declared that it would not help the Magi take back their tower unless he agreed to take a nice bath in the lava of the Great Pandemonium. But Zonte had everything under control.\\n\\nThe temperature of the Wildfire Efreet is so high that it burns through anything it comes into contact with. However, it feels a great aversion towards wood and paper, and it never approaches objects made of them.",
+    "menagerieDialog":  [
+                            "Death to the Djinns!",
+                            "I have a confession to make. I accidentally set one of the other creatures on fire earlier while you were away.",
+                            "You can catch just about anything on fire if you set your mind to it, really.",
+                            "Many people often confuse Efreets with Djinns. The difference between the two is that Efreets are much smarter and more handsome than Djinns.",
+                            "Fire solves everything. If you need me to take care of someone for you, just say the word."
+                        ],
+    "minDepth":  1,
+    "name":  "Wildfire Efreet",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WildfireEfreet/overworld_e0.png",
+                                         "images/creature/WildfireEfreet/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WildfireEfreet/overworld_n0.png",
+                                          "images/creature/WildfireEfreet/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WildfireEfreet/overworld_s0.png",
+                                          "images/creature/WildfireEfreet/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WildfireEfreet/overworld_w0.png",
+                                         "images/creature/WildfireEfreet/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Efreet",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  334,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

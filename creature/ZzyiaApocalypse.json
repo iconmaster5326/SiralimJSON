@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ZzyiaApocalypse/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 972,
-  "item": 1299,
-  "lore": "This creature looks like an Apocalypse, but it is not one of them. It was artificially created by the Auditors and ordered to stop any outsiders who enter Ubi Concordia. The cry of the so-called Zzyia Apocalypse chills anyone who hears it to the bone, as it was programmed to do. During the development of this creature, the Auditors researched which sounds activated the parts of the brain that produce fear, until they found one capable of terrorizing hundreds of different species.",
-  "menagerieDialog": [
-    "(Is it really sleeping at a time like this?)",
-    "(It\u0027s rearing its heads around in circles. At this rate, it\u0027s going to break something.)",
-    "(You were always terrified of these creatures as a child, and with good reason. Each head sways around unpredictably, and you constantly struggle to understand its intentions.)",
-    "(Its many heads often get into arguments with each other. It must be tough being an Apocalypse.)",
-    "(All of its heads are swaying around in little circles. You should probably have Nortah check it out and make sure it\u0027s not sick.)"
-  ],
-  "minDepth": 1,
-  "name": "Zzyia Apocalypse",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ZzyiaApocalypse/overworld_e0.png",
-      "images/creature/ZzyiaApocalypse/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ZzyiaApocalypse/overworld_n0.png",
-      "images/creature/ZzyiaApocalypse/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ZzyiaApocalypse/overworld_s0.png",
-      "images/creature/ZzyiaApocalypse/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ZzyiaApocalypse/overworld_w0.png",
-      "images/creature/ZzyiaApocalypse/overworld_w1.png"
-    ]
-  },
-  "race": "Apocalypse",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Chaos Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 32,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1546
+    "battleSprite":  "images/creature/ZzyiaApocalypse/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  972,
+    "item":  1299,
+    "lore":  "This creature looks like an Apocalypse, but it is not one of them. It was artificially created by the Auditors and ordered to stop any outsiders who enter Ubi Concordia. The cry of the so-called Zzyia Apocalypse chills anyone who hears it to the bone, as it was programmed to do. During the development of this creature, the Auditors researched which sounds activated the parts of the brain that produce fear, until they found one capable of terrorizing hundreds of different species.",
+    "menagerieDialog":  [
+                            "(Is it really sleeping at a time like this?)",
+                            "(It\u0027s rearing its heads around in circles. At this rate, it\u0027s going to break something.)",
+                            "(You were always terrified of these creatures as a child, and with good reason. Each head sways around unpredictably, and you constantly struggle to understand its intentions.)",
+                            "(Its many heads often get into arguments with each other. It must be tough being an Apocalypse.)",
+                            "(All of its heads are swaying around in little circles. You should probably have Nortah check it out and make sure it\u0027s not sick.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Zzyia Apocalypse",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ZzyiaApocalypse/overworld_e0.png",
+                                         "images/creature/ZzyiaApocalypse/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ZzyiaApocalypse/overworld_n0.png",
+                                          "images/creature/ZzyiaApocalypse/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ZzyiaApocalypse/overworld_s0.png",
+                                          "images/creature/ZzyiaApocalypse/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ZzyiaApocalypse/overworld_w0.png",
+                                         "images/creature/ZzyiaApocalypse/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Apocalypse",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Chaos Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  32,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1546,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

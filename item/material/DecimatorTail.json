@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBeast Within:\nAfter your creatures gain a stat other than {STAT_attack}, they gain 50% of that stat as {STAT_attack} as well. This trait does not stack.",
-  "icon": "images/item/material/DecimatorTail.png",
-  "id": 386,
-  "name": "Decimator Tail",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 302
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBeast Within:\nAfter your creatures gain a stat other than {STAT_attack}, they gain 50% of that stat as {STAT_attack} as well. This trait does not stack.",
+    "icon":  "images/item/material/DecimatorTail.png",
+    "id":  386,
+    "name":  "Decimator Tail",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  302,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

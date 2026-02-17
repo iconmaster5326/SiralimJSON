@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ManiacalGhoul/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 217,
-  "item": 231,
-  "lore": "Ghouls are undead creatures that have lost their minds. During the siege of Omnia, the civilians and soldiers of the defending forces were attacked by their own companions, friends and loved ones when they died in the bloody battle.\\n\\nThe bite of a Maniacal Ghoul is usually deadly, as once he clings to a victim he never lets it go unless his head and limbs are destroyed first.",
-  "menagerieDialog": [
-    "EAT FLESH!",
-    "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
-    "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
-    "Must... eat... more... footses...",
-    "Want... to eat... more... feet..."
-  ],
-  "minDepth": 1,
-  "name": "Maniacal Ghoul",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ManiacalGhoul/overworld_e0.png",
-      "images/creature/ManiacalGhoul/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ManiacalGhoul/overworld_n0.png",
-      "images/creature/ManiacalGhoul/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ManiacalGhoul/overworld_s0.png",
-      "images/creature/ManiacalGhoul/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ManiacalGhoul/overworld_w0.png",
-      "images/creature/ManiacalGhoul/overworld_w1.png"
-    ]
-  },
-  "race": "Ghoul",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 17,
-    "health": 27,
-    "intelligence": 7,
-    "speed": 27
-  },
-  "trait": 140
+    "battleSprite":  "images/creature/ManiacalGhoul/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  217,
+    "item":  231,
+    "lore":  "Ghouls are undead creatures that have lost their minds. During the siege of Omnia, the civilians and soldiers of the defending forces were attacked by their own companions, friends and loved ones when they died in the bloody battle.\\n\\nThe bite of a Maniacal Ghoul is usually deadly, as once he clings to a victim he never lets it go unless his head and limbs are destroyed first.",
+    "menagerieDialog":  [
+                            "EAT FLESH!",
+                            "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
+                            "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
+                            "Must... eat... more... footses...",
+                            "Want... to eat... more... feet..."
+                        ],
+    "minDepth":  1,
+    "name":  "Maniacal Ghoul",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ManiacalGhoul/overworld_e0.png",
+                                         "images/creature/ManiacalGhoul/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ManiacalGhoul/overworld_n0.png",
+                                          "images/creature/ManiacalGhoul/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ManiacalGhoul/overworld_s0.png",
+                                          "images/creature/ManiacalGhoul/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ManiacalGhoul/overworld_w0.png",
+                                         "images/creature/ManiacalGhoul/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ghoul",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  17,
+                       "health":  27,
+                       "intelligence":  7,
+                       "speed":  27
+                   },
+    "trait":  140,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

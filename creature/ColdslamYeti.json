@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ColdslamYeti/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 464,
-  "item": 474,
-  "lore": "The Coldslam Yeti is one of Azural\u0027s own favorite works. Like the rest of the Yetis, it prefers to live in high mountains covered with snow and ice, although its thick fur allows it to adapt to almost any environment. These creatures can summon blizzards when they get angry, and even turn summer into a terrible winter for an entire city, which is why the authorities no longer allow them entry.",
-  "menagerieDialog": [
-    "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
-    "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
-    "(It brings its face close to you and nudges its nose against yours. Ugh.)",
-    "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
-    "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
-  ],
-  "minDepth": 1,
-  "name": "Coldslam Yeti",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ColdslamYeti/overworld_e0.png",
-      "images/creature/ColdslamYeti/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ColdslamYeti/overworld_n0.png",
-      "images/creature/ColdslamYeti/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ColdslamYeti/overworld_s0.png",
-      "images/creature/ColdslamYeti/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ColdslamYeti/overworld_w0.png",
-      "images/creature/ColdslamYeti/overworld_w1.png"
-    ]
-  },
-  "race": "Yeti",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 22,
-    "health": 34,
-    "intelligence": 14,
-    "speed": 17
-  },
-  "trait": 388
+    "battleSprite":  "images/creature/ColdslamYeti/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  464,
+    "item":  474,
+    "lore":  "The Coldslam Yeti is one of Azural\u0027s own favorite works. Like the rest of the Yetis, it prefers to live in high mountains covered with snow and ice, although its thick fur allows it to adapt to almost any environment. These creatures can summon blizzards when they get angry, and even turn summer into a terrible winter for an entire city, which is why the authorities no longer allow them entry.",
+    "menagerieDialog":  [
+                            "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
+                            "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
+                            "(It brings its face close to you and nudges its nose against yours. Ugh.)",
+                            "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
+                            "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Coldslam Yeti",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ColdslamYeti/overworld_e0.png",
+                                         "images/creature/ColdslamYeti/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ColdslamYeti/overworld_n0.png",
+                                          "images/creature/ColdslamYeti/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ColdslamYeti/overworld_s0.png",
+                                          "images/creature/ColdslamYeti/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ColdslamYeti/overworld_w0.png",
+                                         "images/creature/ColdslamYeti/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Yeti",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  22,
+                       "health":  34,
+                       "intelligence":  14,
+                       "speed":  17
+                   },
+    "trait":  388,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

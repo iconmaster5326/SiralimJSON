@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, the first \u003C1\u003E  creature(s) in your party gain {CONDNAME_BUFF_INVISIBLE}.\\n\\n{CONDDESC_BUFF_INVISIBLE}",
-  "icon": "images/perk/Nightstalker.png",
-  "id": 37,
-  "maxRanks": 6,
-  "name": "Nightstalker",
-  "notes": [],
-  "pointsPerRank": 20,
-  "specialization": 14
+    "anointable":  true,
+    "description":  "At the start of battle, the first \u003c1\u003e  creature(s) in your party gain {CONDNAME_BUFF_INVISIBLE}.\\n\\n{CONDDESC_BUFF_INVISIBLE}",
+    "icon":  "images/perk/Nightstalker.png",
+    "id":  37,
+    "maxRanks":  6,
+    "name":  "Nightstalker",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  20,
+    "specialization":  14,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

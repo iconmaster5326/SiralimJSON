@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSealed Fate:\nWhen this creature {ACTION_casts} a single-target spell on an enemy, it deals 50% more damage and afflicts the target with {CONDNAME_DEBUFF_STONE}.",
-  "icon": "images/item/material/WitchSnake.png",
-  "id": 469,
-  "name": "Witch Snake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 383
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSealed Fate:\nWhen this creature {ACTION_casts} a single-target spell on an enemy, it deals 50% more damage and afflicts the target with {CONDNAME_DEBUFF_STONE}.",
+    "icon":  "images/item/material/WitchSnake.png",
+    "id":  469,
+    "name":  "Witch Snake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  383,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

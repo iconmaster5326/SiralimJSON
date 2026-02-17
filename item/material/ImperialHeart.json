@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nContortion:\nAfter your creatures with {CONDNAME_BUFF_REPELLING} take damage from attacks or spells, they reflect 50% of the damage taken back on the enemy. This trait does not stack.",
-  "icon": "images/item/material/ImperialHeart.png",
-  "id": 1022,
-  "name": "Imperial Heart",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1114
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nContortion:\nAfter your creatures with {CONDNAME_BUFF_REPELLING} take damage from attacks or spells, they reflect 50% of the damage taken back on the enemy. This trait does not stack.",
+    "icon":  "images/item/material/ImperialHeart.png",
+    "id":  1022,
+    "name":  "Imperial Heart",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1114,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

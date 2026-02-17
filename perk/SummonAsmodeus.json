@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your {CLASS_Chaos} creatures gain {CONDNAME_MINION_ASMODEUS}.\\n\\n{CONDDESC_MINION_ASMODEUS}",
-  "icon": "images/perk/SummonAsmodeus.png",
-  "id": 549,
-  "maxRanks": 1,
-  "name": "Summon Asmodeus",
-  "notes": [],
-  "pointsPerRank": 50,
-  "specialization": 35
+    "anointable":  true,
+    "description":  "At the start of battle, your {CLASS_Chaos} creatures gain {CONDNAME_MINION_ASMODEUS}.\\n\\n{CONDDESC_MINION_ASMODEUS}",
+    "icon":  "images/perk/SummonAsmodeus.png",
+    "id":  549,
+    "maxRanks":  1,
+    "name":  "Summon Asmodeus",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  50,
+    "specialization":  35,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

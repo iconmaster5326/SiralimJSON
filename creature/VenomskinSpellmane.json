@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/VenomskinSpellmane/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1222,
-  "item": 1599,
-  "lore": "When a female Spellmane gives birth, both parents divide the babies between them and never see each other again, unless they mate again the following year.\\n\\nThe Arachnid Nest is fraught with danger, and not only due to the huge number of Arachnalisks and other creatures that inhabit it. Venomskins can be very quiet, camouflaging themselves in the dark caves with great ease. They only need to pounce on their prey and let their poisonous fur do the rest, paralyzing or even killing it depending on the creature in question.",
-  "menagerieDialog": [
-    "(It\u0027s aggressively roaring at your other creatures. Perhaps it\u0027s time for a time-out.)",
-    "(It seems to have conjured a massive, elemental ball for it to play with. It\u0027s busy rolling around on its back, batting at the ball, completely ignorant of your presence.)",
-    "(It\u0027s in a deep slumber with a loud purr emanating from its throat.)",
-    "(This creature\u0027s intelligence is matched only by its speed. You\u0027re glad to have such a formidable creature in your party, but you dread the day you encounter one as a foe in the wild.)",
-    "(This creature boasts unimaginable power. It seems to have mastered the elements even more easily than Rodia\u0027s most astute magi.)"
-  ],
-  "minDepth": 1,
-  "name": "Venomskin Spellmane",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VenomskinSpellmane/overworld_e0.png",
-      "images/creature/VenomskinSpellmane/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VenomskinSpellmane/overworld_n0.png",
-      "images/creature/VenomskinSpellmane/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VenomskinSpellmane/overworld_s0.png",
-      "images/creature/VenomskinSpellmane/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VenomskinSpellmane/overworld_w0.png",
-      "images/creature/VenomskinSpellmane/overworld_w1.png"
-    ]
-  },
-  "race": "Spellmane",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 6,
-      "type": "realm"
-    },
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 43,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 1939
+    "battleSprite":  "images/creature/VenomskinSpellmane/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1222,
+    "item":  1599,
+    "lore":  "When a female Spellmane gives birth, both parents divide the babies between them and never see each other again, unless they mate again the following year.\\n\\nThe Arachnid Nest is fraught with danger, and not only due to the huge number of Arachnalisks and other creatures that inhabit it. Venomskins can be very quiet, camouflaging themselves in the dark caves with great ease. They only need to pounce on their prey and let their poisonous fur do the rest, paralyzing or even killing it depending on the creature in question.",
+    "menagerieDialog":  [
+                            "(It\u0027s aggressively roaring at your other creatures. Perhaps it\u0027s time for a time-out.)",
+                            "(It seems to have conjured a massive, elemental ball for it to play with. It\u0027s busy rolling around on its back, batting at the ball, completely ignorant of your presence.)",
+                            "(It\u0027s in a deep slumber with a loud purr emanating from its throat.)",
+                            "(This creature\u0027s intelligence is matched only by its speed. You\u0027re glad to have such a formidable creature in your party, but you dread the day you encounter one as a foe in the wild.)",
+                            "(This creature boasts unimaginable power. It seems to have mastered the elements even more easily than Rodia\u0027s most astute magi.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Venomskin Spellmane",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VenomskinSpellmane/overworld_e0.png",
+                                         "images/creature/VenomskinSpellmane/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VenomskinSpellmane/overworld_n0.png",
+                                          "images/creature/VenomskinSpellmane/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VenomskinSpellmane/overworld_s0.png",
+                                          "images/creature/VenomskinSpellmane/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VenomskinSpellmane/overworld_w0.png",
+                                         "images/creature/VenomskinSpellmane/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spellmane",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  6,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  43,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  1939,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

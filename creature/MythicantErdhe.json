@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MythicantErdhe/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1272,
-  "item": 1629,
-  "lore": "In order to create books that could convey their content through an artifical voice, an experiment was recently carried out that imbued a series of novels with a huge magical charge.\\n\\nThe Mythicant Erdhe\u0027s luminescent symbols are clearly visible at night. When it enters combat, they glow so brightly that staring at them is unpleasant.",
-  "menagerieDialog": [
-    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
-    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
-    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
-    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
-    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
-  ],
-  "minDepth": 1,
-  "name": "Mythicant Erdhe",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MythicantErdhe/overworld_e0.png",
-      "images/creature/MythicantErdhe/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MythicantErdhe/overworld_n0.png",
-      "images/creature/MythicantErdhe/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MythicantErdhe/overworld_s0.png",
-      "images/creature/MythicantErdhe/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MythicantErdhe/overworld_w0.png",
-      "images/creature/MythicantErdhe/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1971
+    "battleSprite":  "images/creature/MythicantErdhe/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1272,
+    "item":  1629,
+    "lore":  "In order to create books that could convey their content through an artifical voice, an experiment was recently carried out that imbued a series of novels with a huge magical charge.\\n\\nThe Mythicant Erdhe\u0027s luminescent symbols are clearly visible at night. When it enters combat, they glow so brightly that staring at them is unpleasant.",
+    "menagerieDialog":  [
+                            "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+                            "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+                            "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+                            "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+                            "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mythicant Erdhe",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MythicantErdhe/overworld_e0.png",
+                                         "images/creature/MythicantErdhe/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MythicantErdhe/overworld_n0.png",
+                                          "images/creature/MythicantErdhe/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MythicantErdhe/overworld_s0.png",
+                                          "images/creature/MythicantErdhe/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MythicantErdhe/overworld_w0.png",
+                                         "images/creature/MythicantErdhe/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1971,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

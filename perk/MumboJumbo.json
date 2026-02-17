@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies with {CONDNAME_DEBUFF_CONFUSED} have a \u003C5\u003E% chance to afflict allies with a debuff instead of a buff.\\n\\n{CONDDESC_DEBUFF_CONFUSED}",
-  "icon": "images/perk/MumboJumbo.png",
-  "id": 412,
-  "maxRanks": 10,
-  "name": "Mumbo Jumbo",
-  "notes": [],
-  "pointsPerRank": 10,
-  "specialization": 29
+    "anointable":  true,
+    "description":  "Enemies with {CONDNAME_DEBUFF_CONFUSED} have a \u003c5\u003e% chance to afflict allies with a debuff instead of a buff.\\n\\n{CONDDESC_DEBUFF_CONFUSED}",
+    "icon":  "images/perk/MumboJumbo.png",
+    "id":  412,
+    "maxRanks":  10,
+    "name":  "Mumbo Jumbo",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  10,
+    "specialization":  29,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

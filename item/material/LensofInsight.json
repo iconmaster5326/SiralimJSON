@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInsight:\nYour creatures can target {CONDNAME_BUFF_INVISIBLE} enemies.",
-  "icon": "images/item/material/LensofInsight.png",
-  "id": 1342,
-  "name": "Lens of Insight",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1649
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInsight:\nYour creatures can target {CONDNAME_BUFF_INVISIBLE} enemies.",
+    "icon":  "images/item/material/LensofInsight.png",
+    "id":  1342,
+    "name":  "Lens of Insight",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1649,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

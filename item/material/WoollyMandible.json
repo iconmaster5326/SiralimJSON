@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nArachnophobia:\nEnemies with {CONDNAME_DEBUFF_SNARED} take 100% more damage from their {CONDNAME_DEBUFF_POISON} debuffs. When they break free, they take damage equal to 5 turns of their {CONDNAME_DEBUFF_POISON} debuffs. This trait does not stack.",
-  "icon": "images/item/material/WoollyMandible.png",
-  "id": 607,
-  "name": "Woolly Mandible",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 521
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nArachnophobia:\nEnemies with {CONDNAME_DEBUFF_SNARED} take 100% more damage from their {CONDNAME_DEBUFF_POISON} debuffs. When they break free, they take damage equal to 5 turns of their {CONDNAME_DEBUFF_POISON} debuffs. This trait does not stack.",
+    "icon":  "images/item/material/WoollyMandible.png",
+    "id":  607,
+    "name":  "Woolly Mandible",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  521,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

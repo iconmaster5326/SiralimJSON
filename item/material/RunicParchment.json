@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBook of the Warlock:\nYour creatures start battles with {CONDNAME_BUFF_ARCANE}. At the end of your creatures\u0027 turns, they have a 30% chance to gain {CONDNAME_BUFF_ARCANE}.",
-  "icon": "images/item/material/RunicParchment.png",
-  "id": 489,
-  "name": "Runic Parchment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 403
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBook of the Warlock:\nYour creatures start battles with {CONDNAME_BUFF_ARCANE}. At the end of your creatures\u0027 turns, they have a 30% chance to gain {CONDNAME_BUFF_ARCANE}.",
+    "icon":  "images/item/material/RunicParchment.png",
+    "id":  489,
+    "name":  "Runic Parchment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  403,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

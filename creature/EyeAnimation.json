@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EyeAnimation/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1209,
-  "item": 1595,
-  "lore": "When a necromancer creates an Animation, the rest of the body that part belonged to turns to dust after a few seconds. In addition, the size of the body part increases considerably.\\n\\nNecromancers who bring Eye Animations to life often place them outside their lairs to keep an eye on the horizon, as their sharp vision allows them to see any detail within three miles.",
-  "menagerieDialog": [
-    "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
-    "(Where did this body part come from, anyway?)",
-    "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
-    "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
-    "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
-  ],
-  "minDepth": 1,
-  "name": "Eye Animation",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EyeAnimation/overworld_e0.png",
-      "images/creature/EyeAnimation/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EyeAnimation/overworld_n0.png",
-      "images/creature/EyeAnimation/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EyeAnimation/overworld_s0.png",
-      "images/creature/EyeAnimation/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EyeAnimation/overworld_w0.png",
-      "images/creature/EyeAnimation/overworld_w1.png"
-    ]
-  },
-  "race": "Animation",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 39,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1932
+    "battleSprite":  "images/creature/EyeAnimation/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1209,
+    "item":  1595,
+    "lore":  "When a necromancer creates an Animation, the rest of the body that part belonged to turns to dust after a few seconds. In addition, the size of the body part increases considerably.\\n\\nNecromancers who bring Eye Animations to life often place them outside their lairs to keep an eye on the horizon, as their sharp vision allows them to see any detail within three miles.",
+    "menagerieDialog":  [
+                            "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
+                            "(Where did this body part come from, anyway?)",
+                            "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
+                            "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
+                            "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Eye Animation",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EyeAnimation/overworld_e0.png",
+                                         "images/creature/EyeAnimation/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EyeAnimation/overworld_n0.png",
+                                          "images/creature/EyeAnimation/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EyeAnimation/overworld_s0.png",
+                                          "images/creature/EyeAnimation/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EyeAnimation/overworld_w0.png",
+                                         "images/creature/EyeAnimation/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Animation",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  39,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1932,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

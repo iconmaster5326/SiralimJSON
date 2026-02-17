@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPhantasm:\nYour creatures\u0027 Spell Gems deal 30% more damage for each time they\u0027ve been {ACTION_cast} in the current battle. This trait does not stack.",
-  "icon": "images/item/material/SpellbinderOrb.png",
-  "id": 408,
-  "name": "Spellbinder Orb",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 323
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPhantasm:\nYour creatures\u0027 Spell Gems deal 30% more damage for each time they\u0027ve been {ACTION_cast} in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/SpellbinderOrb.png",
+    "id":  408,
+    "name":  "Spellbinder Orb",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  323,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

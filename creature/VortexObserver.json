@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/VortexObserver/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 529,
-  "item": 881,
-  "lore": "The Vortex Observer has an omniscient knowledge of everything that happens in the present, although its way of understanding it is different from that of the rest of the creatures. When the Maluh Ophan was about to kill the Watcher Sentinel, this creature projected images and emotions into the mind of the legendary Ophan. The Watchers only felt fear and deep regret. They had been wrenched from their world by accident, and they feared an invasion. That put an end to the war and a new era began.",
-  "menagerieDialog": [
-    "(It whirls around in circles, emitting a powerful light.)",
-    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
-    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
-    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
-    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
-  ],
-  "minDepth": 1,
-  "name": "Vortex Observer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/VortexObserver/overworld_e0.png",
-      "images/creature/VortexObserver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/VortexObserver/overworld_n0.png",
-      "images/creature/VortexObserver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/VortexObserver/overworld_s0.png",
-      "images/creature/VortexObserver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/VortexObserver/overworld_w0.png",
-      "images/creature/VortexObserver/overworld_w1.png"
-    ]
-  },
-  "race": "Vortex",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Aeolian)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 16,
-    "health": 32,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 908
+    "battleSprite":  "images/creature/VortexObserver/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  529,
+    "item":  881,
+    "lore":  "The Vortex Observer has an omniscient knowledge of everything that happens in the present, although its way of understanding it is different from that of the rest of the creatures. When the Maluh Ophan was about to kill the Watcher Sentinel, this creature projected images and emotions into the mind of the legendary Ophan. The Watchers only felt fear and deep regret. They had been wrenched from their world by accident, and they feared an invasion. That put an end to the war and a new era began.",
+    "menagerieDialog":  [
+                            "(It whirls around in circles, emitting a powerful light.)",
+                            "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+                            "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+                            "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+                            "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Vortex Observer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/VortexObserver/overworld_e0.png",
+                                         "images/creature/VortexObserver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/VortexObserver/overworld_n0.png",
+                                          "images/creature/VortexObserver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/VortexObserver/overworld_s0.png",
+                                          "images/creature/VortexObserver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/VortexObserver/overworld_w0.png",
+                                         "images/creature/VortexObserver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vortex",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Aeolian)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  16,
+                       "health":  32,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  908,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

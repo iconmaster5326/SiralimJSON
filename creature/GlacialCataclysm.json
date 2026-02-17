@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/GlacialCataclysm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1377,
-  "item": 1752,
-  "lore": "Cataclysms are creatures created in secret, illegal labs.\\n\\nThe Glacial Cataclysm unleashes a bone-chilling cold that can freeze water in mere minutes. Sometimes, shady groups use it for torture, though the creature cannot help but cast its spell, and usually ends up killing the victims instead.",
-  "menagerieDialog": [
-    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
-    "I am the storm that ends worlds. Point me at our foes!",
-    "The secrets of the universe flow through me. What would you like to know?",
-    "The elements themselves bend to my will. No force can harm me!",
-    "(It\u0027s swirling violently, barely contained within its form.)"
-  ],
-  "minDepth": 1,
-  "name": "Glacial Cataclysm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GlacialCataclysm/overworld_e0.png",
-      "images/creature/GlacialCataclysm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GlacialCataclysm/overworld_n0.png",
-      "images/creature/GlacialCataclysm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GlacialCataclysm/overworld_s0.png",
-      "images/creature/GlacialCataclysm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GlacialCataclysm/overworld_w0.png",
-      "images/creature/GlacialCataclysm/overworld_w1.png"
-    ]
-  },
-  "race": "Cataclysm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 38,
-    "intelligence": 25,
-    "speed": 17
-  },
-  "trait": 2105
+    "battleSprite":  "images/creature/GlacialCataclysm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1377,
+    "item":  1752,
+    "lore":  "Cataclysms are creatures created in secret, illegal labs.\\n\\nThe Glacial Cataclysm unleashes a bone-chilling cold that can freeze water in mere minutes. Sometimes, shady groups use it for torture, though the creature cannot help but cast its spell, and usually ends up killing the victims instead.",
+    "menagerieDialog":  [
+                            "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+                            "I am the storm that ends worlds. Point me at our foes!",
+                            "The secrets of the universe flow through me. What would you like to know?",
+                            "The elements themselves bend to my will. No force can harm me!",
+                            "(It\u0027s swirling violently, barely contained within its form.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Glacial Cataclysm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GlacialCataclysm/overworld_e0.png",
+                                         "images/creature/GlacialCataclysm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GlacialCataclysm/overworld_n0.png",
+                                          "images/creature/GlacialCataclysm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GlacialCataclysm/overworld_s0.png",
+                                          "images/creature/GlacialCataclysm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GlacialCataclysm/overworld_w0.png",
+                                         "images/creature/GlacialCataclysm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cataclysm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  38,
+                       "intelligence":  25,
+                       "speed":  17
+                   },
+    "trait":  2105,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

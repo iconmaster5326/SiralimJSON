@@ -1,38 +1,41 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "nature",
-  "creator": null,
-  "description": "All the creatures on the battlefield {ACTION_attack} themselves. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 316,
-  "manuallyCastable": false,
-  "maxCharges": 10,
-  "name": "Succulent Scotch",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "UTILITY"
-  ],
-  "targets": "all"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "All the creatures on the battlefield {ACTION_attack} themselves. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  316,
+    "manuallyCastable":  false,
+    "maxCharges":  10,
+    "name":  "Succulent Scotch",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "UTILITY"
+             ],
+    "targets":  "all",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

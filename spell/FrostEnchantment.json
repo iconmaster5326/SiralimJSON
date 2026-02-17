@@ -1,53 +1,56 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "Target gains {CONDNAME_BUFF_PROTECT}, and a large amount of {STAT_intelligence}.",
-  "god": null,
-  "id": 70,
-  "manuallyCastable": true,
-  "maxCharges": 8,
-  "name": "Frost Enchantment",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    5,
-    6,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BUFF",
-    "BOOST"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "Target gains {CONDNAME_BUFF_PROTECT}, and a large amount of {STAT_intelligence}.",
+    "god":  null,
+    "id":  70,
+    "manuallyCastable":  true,
+    "maxCharges":  8,
+    "name":  "Frost Enchantment",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  5,
+                                  6,
+                                  8,
+                                  9,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BUFF",
+                 "BOOST"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

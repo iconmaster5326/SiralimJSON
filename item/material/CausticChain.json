@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nChanneling:\nThis creature can\u0027t {ACTION_cast} spells manually. Your creatures have 5% more {STAT_attack}, {STAT_intelligence}, {STAT_speed}, {STAT_defense}, or {STAT_health} for each permanent {CLASS_Chaos}, {CLASS_Sorcery}, {CLASS_Nature}, {CLASS_Death}, or {CLASS_Life} Spell Gem this creature has equipped. This trait does not stack.",
-  "icon": "images/item/material/CausticChain.png",
-  "id": 389,
-  "name": "Caustic Chain",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 304
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nChanneling:\nThis creature can\u0027t {ACTION_cast} spells manually. Your creatures have 5% more {STAT_attack}, {STAT_intelligence}, {STAT_speed}, {STAT_defense}, or {STAT_health} for each permanent {CLASS_Chaos}, {CLASS_Sorcery}, {CLASS_Nature}, {CLASS_Death}, or {CLASS_Life} Spell Gem this creature has equipped. This trait does not stack.",
+    "icon":  "images/item/material/CausticChain.png",
+    "id":  389,
+    "name":  "Caustic Chain",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  304,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

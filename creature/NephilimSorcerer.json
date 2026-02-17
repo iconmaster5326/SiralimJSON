@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NephilimSorcerer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1239,
-  "item": 1609,
-  "lore": "The Nephilim are feared everywhere in the world, and getting rid of them has become a top priority in many places.\\n\\nThe Nephilim Sorcerer can absorb the feelings of those who want to care for others, turning its victim into an apathetic, motionless puppet. However, this creature always returns what it took, after twisting those motivations to turn its victim against the person they wanted to help.",
-  "menagerieDialog": [
-    "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
-    "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
-    "Let us take our leave at once. There is work to be done.",
-    "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
-    "We\u0027re in good company with you as our leader, {PLAYERNAME}."
-  ],
-  "minDepth": 1,
-  "name": "Nephilim Sorcerer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NephilimSorcerer/overworld_e0.png",
-      "images/creature/NephilimSorcerer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NephilimSorcerer/overworld_n0.png",
-      "images/creature/NephilimSorcerer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NephilimSorcerer/overworld_s0.png",
-      "images/creature/NephilimSorcerer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NephilimSorcerer/overworld_w0.png",
-      "images/creature/NephilimSorcerer/overworld_w1.png"
-    ]
-  },
-  "race": "Nephilim",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1950
+    "battleSprite":  "images/creature/NephilimSorcerer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1239,
+    "item":  1609,
+    "lore":  "The Nephilim are feared everywhere in the world, and getting rid of them has become a top priority in many places.\\n\\nThe Nephilim Sorcerer can absorb the feelings of those who want to care for others, turning its victim into an apathetic, motionless puppet. However, this creature always returns what it took, after twisting those motivations to turn its victim against the person they wanted to help.",
+    "menagerieDialog":  [
+                            "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
+                            "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
+                            "Let us take our leave at once. There is work to be done.",
+                            "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
+                            "We\u0027re in good company with you as our leader, {PLAYERNAME}."
+                        ],
+    "minDepth":  1,
+    "name":  "Nephilim Sorcerer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NephilimSorcerer/overworld_e0.png",
+                                         "images/creature/NephilimSorcerer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NephilimSorcerer/overworld_n0.png",
+                                          "images/creature/NephilimSorcerer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NephilimSorcerer/overworld_s0.png",
+                                          "images/creature/NephilimSorcerer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NephilimSorcerer/overworld_w0.png",
+                                         "images/creature/NephilimSorcerer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nephilim",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1950,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

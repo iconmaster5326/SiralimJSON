@@ -1,11 +1,14 @@
 {
-  "description": "{CONDNAME_DEBUFF_INVERTED} creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency.",
-  "icon": "images/condition/Inverted.png",
-  "iconResisted": null,
-  "id": 53,
-  "material": null,
-  "name": "Inverted",
-  "notes": [],
-  "reserved": true,
-  "type": "debuff"
+    "description":  "{CONDNAME_DEBUFF_INVERTED} creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency.",
+    "icon":  "images/condition/Inverted.png",
+    "iconResisted":  null,
+    "id":  53,
+    "material":  null,
+    "name":  "Inverted",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

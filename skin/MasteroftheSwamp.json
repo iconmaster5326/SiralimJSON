@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/MasteroftheSwamp/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 719,
-  "name": "Master of the Swamp",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/MasteroftheSwamp/overworld_e0.png",
-      "images/skin/MasteroftheSwamp/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/MasteroftheSwamp/overworld_n0.png",
-      "images/skin/MasteroftheSwamp/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/MasteroftheSwamp/overworld_s0.png",
-      "images/skin/MasteroftheSwamp/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/MasteroftheSwamp/overworld_w0.png",
-      "images/skin/MasteroftheSwamp/overworld_w1.png"
-    ]
-  },
-  "race": "Hunter",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/MasteroftheSwamp/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  719,
+    "name":  "Master of the Swamp",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/MasteroftheSwamp/overworld_e0.png",
+                                         "images/skin/MasteroftheSwamp/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/MasteroftheSwamp/overworld_n0.png",
+                                          "images/skin/MasteroftheSwamp/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/MasteroftheSwamp/overworld_s0.png",
+                                          "images/skin/MasteroftheSwamp/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/MasteroftheSwamp/overworld_w0.png",
+                                         "images/skin/MasteroftheSwamp/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hunter",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

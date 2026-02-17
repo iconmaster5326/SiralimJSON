@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParity:\nIf your creatures have {ACTION_cast} an even number of spells, 30% of their {STAT_speed} is added to their spells\u0027 potency. If your creatures have {ACTION_cast} an odd number of spells, 30% of their {STAT_defense} is added to their spells\u0027 potency. This trait does not stack.",
-  "icon": "images/item/material/Integerite.png",
-  "id": 1404,
-  "name": "Integerite",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1711
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParity:\nIf your creatures have {ACTION_cast} an even number of spells, 30% of their {STAT_speed} is added to their spells\u0027 potency. If your creatures have {ACTION_cast} an odd number of spells, 30% of their {STAT_defense} is added to their spells\u0027 potency. This trait does not stack.",
+    "icon":  "images/item/material/Integerite.png",
+    "id":  1404,
+    "name":  "Integerite",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1711,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

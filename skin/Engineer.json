@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Engineer/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 804,
-  "name": "Engineer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Engineer/overworld_e0.png",
-      "images/skin/Engineer/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Engineer/overworld_n0.png",
-      "images/skin/Engineer/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Engineer/overworld_s0.png",
-      "images/skin/Engineer/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Engineer/overworld_w0.png",
-      "images/skin/Engineer/overworld_w1.png"
-    ]
-  },
-  "race": "Toxdweller",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Engineer/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  804,
+    "name":  "Engineer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Engineer/overworld_e0.png",
+                                         "images/skin/Engineer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Engineer/overworld_n0.png",
+                                          "images/skin/Engineer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Engineer/overworld_s0.png",
+                                          "images/skin/Engineer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Engineer/overworld_w0.png",
+                                         "images/skin/Engineer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Toxdweller",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

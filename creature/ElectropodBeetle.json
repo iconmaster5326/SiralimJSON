@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ElectropodBeetle/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1082,
-  "item": 1518,
-  "lore": "The electrical energy that flows through the circuits of the Electropods is the key to their intelligence and movement, and magic is essential to produce it.\\n\\nWhen a Beetle Electropod lunges, it can break through walls of solid stone. Although their potential in battle is immense, the scientist who gave them life would rather see them help farmers transport large balls of manure from one place to another.",
-  "menagerieDialog": [
-    "(Something about this creature reminds you of an old toy you used to play with as a child.)",
-    "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
-    "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff\u00E2\u20AC\u00A6",
-    "(This creature has one and only one weakness: being dropped into a tub of water.)",
-    "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
-  ],
-  "minDepth": 1,
-  "name": "Electropod Beetle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElectropodBeetle/overworld_e0.png",
-      "images/creature/ElectropodBeetle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElectropodBeetle/overworld_n0.png",
-      "images/creature/ElectropodBeetle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElectropodBeetle/overworld_s0.png",
-      "images/creature/ElectropodBeetle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElectropodBeetle/overworld_w0.png",
-      "images/creature/ElectropodBeetle/overworld_w1.png"
-    ]
-  },
-  "race": "Electropod",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 1825
+    "battleSprite":  "images/creature/ElectropodBeetle/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1082,
+    "item":  1518,
+    "lore":  "The electrical energy that flows through the circuits of the Electropods is the key to their intelligence and movement, and magic is essential to produce it.\\n\\nWhen a Beetle Electropod lunges, it can break through walls of solid stone. Although their potential in battle is immense, the scientist who gave them life would rather see them help farmers transport large balls of manure from one place to another.",
+    "menagerieDialog":  [
+                            "(Something about this creature reminds you of an old toy you used to play with as a child.)",
+                            "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
+                            "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff…",
+                            "(This creature has one and only one weakness: being dropped into a tub of water.)",
+                            "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Electropod Beetle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElectropodBeetle/overworld_e0.png",
+                                         "images/creature/ElectropodBeetle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElectropodBeetle/overworld_n0.png",
+                                          "images/creature/ElectropodBeetle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElectropodBeetle/overworld_s0.png",
+                                          "images/creature/ElectropodBeetle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElectropodBeetle/overworld_w0.png",
+                                         "images/creature/ElectropodBeetle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Electropod",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  1825,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

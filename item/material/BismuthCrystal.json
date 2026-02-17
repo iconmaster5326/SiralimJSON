@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLunatic Generosity:\nAt the start of battle, all creatures gain a copy of this creature\u0027s first 3 Spell Gems. These Spell Gems have 1 {STAT_charge}.",
-  "icon": "images/item/material/BismuthCrystal.png",
-  "id": 1686,
-  "name": "Bismuth Crystal",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2028
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLunatic Generosity:\nAt the start of battle, all creatures gain a copy of this creature\u0027s first 3 Spell Gems. These Spell Gems have 1 {STAT_charge}.",
+    "icon":  "images/item/material/BismuthCrystal.png",
+    "id":  1686,
+    "name":  "Bismuth Crystal",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2028,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

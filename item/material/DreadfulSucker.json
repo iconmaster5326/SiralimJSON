@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShipbreaker:\nAs long as this creature hasn\u0027t gained or lost {STAT_attack}, it has 200% more {STAT_attack} and has {CONDNAME_BUFF_BERSERK}.",
-  "icon": "images/item/material/DreadfulSucker.png",
-  "id": 1615,
-  "name": "Dreadful Sucker",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1955
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShipbreaker:\nAs long as this creature hasn\u0027t gained or lost {STAT_attack}, it has 200% more {STAT_attack} and has {CONDNAME_BUFF_BERSERK}.",
+    "icon":  "images/item/material/DreadfulSucker.png",
+    "id":  1615,
+    "name":  "Dreadful Sucker",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1955,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

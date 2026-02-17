@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLaw of the Large:\nThis creature has additional {STAT_speed} equal to 30% of its Current {STAT_health}.",
-  "icon": "images/item/material/TheTediousDevice.png",
-  "id": 1388,
-  "name": "The Tedious Device",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1695
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLaw of the Large:\nThis creature has additional {STAT_speed} equal to 30% of its Current {STAT_health}.",
+    "icon":  "images/item/material/TheTediousDevice.png",
+    "id":  1388,
+    "name":  "The Tedious Device",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1695,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

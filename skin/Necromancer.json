@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Necromancer/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 510,
-  "name": "Necromancer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Necromancer/overworld_e0.png",
-      "images/skin/Necromancer/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Necromancer/overworld_n0.png",
-      "images/skin/Necromancer/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Necromancer/overworld_s0.png",
-      "images/skin/Necromancer/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Necromancer/overworld_w0.png",
-      "images/skin/Necromancer/overworld_w1.png"
-    ]
-  },
-  "race": "Hound",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Necromancer/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  510,
+    "name":  "Necromancer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Necromancer/overworld_e0.png",
+                                         "images/skin/Necromancer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Necromancer/overworld_n0.png",
+                                          "images/skin/Necromancer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Necromancer/overworld_s0.png",
+                                          "images/skin/Necromancer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Necromancer/overworld_w0.png",
+                                         "images/skin/Necromancer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hound",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

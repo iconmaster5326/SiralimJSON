@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HammerLord/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 284,
-  "item": 433,
-  "lore": "The Smiths\u0027 arrival in what is now Rodia supposed a revolution in the field of blacksmithing, as their methods and materials were groundbreaking for the time. During the Unification War, King Misery enslaved all of Caedo\u0027s Smiths to produce weapons, armor and artifacts without rest. Many of them died of exhaustion, but that did not stop the Last King of Caedo, who began to kidnap Smiths from other kingdoms, and even offered a bounty to anyone who brought him one.",
-  "menagerieDialog": [
-    "I\u0027m far more skilled in forging weapons than fighting creatures.",
-    "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
-    "Never leave home without ensuring that all your Artifacts are fully upgraded.",
-    "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
-    "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
-  ],
-  "minDepth": 1,
-  "name": "Hammer Lord",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HammerLord/overworld_e0.png",
-      "images/creature/HammerLord/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HammerLord/overworld_n0.png",
-      "images/creature/HammerLord/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HammerLord/overworld_s0.png",
-      "images/creature/HammerLord/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HammerLord/overworld_w0.png",
-      "images/creature/HammerLord/overworld_w1.png"
-    ]
-  },
-  "race": "Smith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Azural)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 34,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 348
+    "battleSprite":  "images/creature/HammerLord/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  284,
+    "item":  433,
+    "lore":  "The Smiths\u0027 arrival in what is now Rodia supposed a revolution in the field of blacksmithing, as their methods and materials were groundbreaking for the time. During the Unification War, King Misery enslaved all of Caedo\u0027s Smiths to produce weapons, armor and artifacts without rest. Many of them died of exhaustion, but that did not stop the Last King of Caedo, who began to kidnap Smiths from other kingdoms, and even offered a bounty to anyone who brought him one.",
+    "menagerieDialog":  [
+                            "I\u0027m far more skilled in forging weapons than fighting creatures.",
+                            "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
+                            "Never leave home without ensuring that all your Artifacts are fully upgraded.",
+                            "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
+                            "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
+                        ],
+    "minDepth":  1,
+    "name":  "Hammer Lord",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HammerLord/overworld_e0.png",
+                                         "images/creature/HammerLord/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HammerLord/overworld_n0.png",
+                                          "images/creature/HammerLord/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HammerLord/overworld_s0.png",
+                                          "images/creature/HammerLord/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HammerLord/overworld_w0.png",
+                                         "images/creature/HammerLord/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Smith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Azural)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  34,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  348,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

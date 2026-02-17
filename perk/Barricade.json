@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "While your creatures are {ACTION_defending}, the creatures adjacent to them take 50% less damage.",
-  "icon": "images/perk/Barricade.png",
-  "id": 420,
-  "maxRanks": 1,
-  "name": "Barricade",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 30
+    "anointable":  true,
+    "description":  "While your creatures are {ACTION_defending}, the creatures adjacent to them take 50% less damage.",
+    "icon":  "images/perk/Barricade.png",
+    "id":  420,
+    "maxRanks":  1,
+    "name":  "Barricade",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  30,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

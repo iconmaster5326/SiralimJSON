@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBattle Born:\nYour creatures\u0027 [slot_spell] Spell Slots have a 10% greater chance to activate.",
-  "icon": "images/item/material/DarkBrimAxe.png",
-  "id": 427,
-  "name": "Dark Brim Axe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 342
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBattle Born:\nYour creatures\u0027 [slot_spell] Spell Slots have a 10% greater chance to activate.",
+    "icon":  "images/item/material/DarkBrimAxe.png",
+    "id":  427,
+    "name":  "Dark Brim Axe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  342,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

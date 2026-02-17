@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HunterDirector/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 305,
-  "item": 524,
-  "lore": "In every group of Hunters there is always a leader, whom the scholars of non-human societies call the Hunter Director. They are always the bravest members of the group and masters of the shuriken, although they still need the support of their own kind. They charge at their enemies\u0027 front lines and throw their shurikens while attacking with their swords. As if it were a dance, their companions return the throwing weapon with strikes of their own, destroying their enemies in a matter of seconds.",
-  "menagerieDialog": [
-    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
-    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
-    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
-    "(It\u0027s busy feeding bits of meat to its wolf.)",
-    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
-  ],
-  "minDepth": 1,
-  "name": "Hunter Director",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HunterDirector/overworld_e0.png",
-      "images/creature/HunterDirector/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HunterDirector/overworld_n0.png",
-      "images/creature/HunterDirector/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HunterDirector/overworld_s0.png",
-      "images/creature/HunterDirector/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HunterDirector/overworld_w0.png",
-      "images/creature/HunterDirector/overworld_w1.png"
-    ]
-  },
-  "race": "Hunter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 10,
-    "health": 25,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 438
+    "battleSprite":  "images/creature/HunterDirector/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  305,
+    "item":  524,
+    "lore":  "In every group of Hunters there is always a leader, whom the scholars of non-human societies call the Hunter Director. They are always the bravest members of the group and masters of the shuriken, although they still need the support of their own kind. They charge at their enemies\u0027 front lines and throw their shurikens while attacking with their swords. As if it were a dance, their companions return the throwing weapon with strikes of their own, destroying their enemies in a matter of seconds.",
+    "menagerieDialog":  [
+                            "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+                            "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+                            "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+                            "(It\u0027s busy feeding bits of meat to its wolf.)",
+                            "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Hunter Director",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HunterDirector/overworld_e0.png",
+                                         "images/creature/HunterDirector/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HunterDirector/overworld_n0.png",
+                                          "images/creature/HunterDirector/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HunterDirector/overworld_s0.png",
+                                          "images/creature/HunterDirector/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HunterDirector/overworld_w0.png",
+                                         "images/creature/HunterDirector/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hunter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  10,
+                       "health":  25,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  438,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

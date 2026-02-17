@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your creatures gain [icons,1976] Secret Stuff.\n\nSecret Stuff: The enemy with the highest {STAT_attack} {ACTION_attacks} one of its allies for 200% normal damage. This spell is a {SPELL_alcohol}.",
-  "icon": "images/perk/BadMedicine.png",
-  "id": 408,
-  "maxRanks": 1,
-  "name": "Bad Medicine",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 29
+    "anointable":  true,
+    "description":  "At the start of battle, your creatures gain [icons,1976] Secret Stuff.\n\nSecret Stuff: The enemy with the highest {STAT_attack} {ACTION_attacks} one of its allies for 200% normal damage. This spell is a {SPELL_alcohol}.",
+    "icon":  "images/perk/BadMedicine.png",
+    "id":  408,
+    "maxRanks":  1,
+    "name":  "Bad Medicine",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  29,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

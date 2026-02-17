@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AlluringSnaptrap/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 831,
-  "item": 1036,
-  "lore": "Years before weighing anchor at Rodia, the legendary pirate Willian James and his crew managed to find an island of which only a few rumors existed. Eferia, the indomitable jungle, inhabited by a single intelligent species, the Ak\u0027haruts, to which one of the Auditors\u0027 agents, known as The Lost, belongs.\\n\\nThe substance released by the Alluring Snaptrap is extremely dangerous, as the brain interprets its smell as that of something familiar, such as food or the trace of a relative. Initially, it reproduced the scent of its victims\u0027 favorite food, but the adaptability arms race between predator and prey has brought them to a point where Eferia\u0027s fauna follows the trail of any pleasant smell with much caution, and Alluring Snaptraps hide among vegetation.",
-  "menagerieDialog": [
-    "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
-    "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
-    "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
-    "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
-    "(A few feathers are stuck in its teeth. What could it have eaten?)"
-  ],
-  "minDepth": 1,
-  "name": "Alluring Snaptrap",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AlluringSnaptrap/overworld_e0.png",
-      "images/creature/AlluringSnaptrap/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AlluringSnaptrap/overworld_n0.png",
-      "images/creature/AlluringSnaptrap/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AlluringSnaptrap/overworld_s0.png",
-      "images/creature/AlluringSnaptrap/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AlluringSnaptrap/overworld_w0.png",
-      "images/creature/AlluringSnaptrap/overworld_w1.png"
-    ]
-  },
-  "race": "Snaptrap",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 20,
-    "speed": 10
-  },
-  "trait": 1092
+    "battleSprite":  "images/creature/AlluringSnaptrap/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  831,
+    "item":  1036,
+    "lore":  "Years before weighing anchor at Rodia, the legendary pirate Willian James and his crew managed to find an island of which only a few rumors existed. Eferia, the indomitable jungle, inhabited by a single intelligent species, the Ak\u0027haruts, to which one of the Auditors\u0027 agents, known as The Lost, belongs.\\n\\nThe substance released by the Alluring Snaptrap is extremely dangerous, as the brain interprets its smell as that of something familiar, such as food or the trace of a relative. Initially, it reproduced the scent of its victims\u0027 favorite food, but the adaptability arms race between predator and prey has brought them to a point where Eferia\u0027s fauna follows the trail of any pleasant smell with much caution, and Alluring Snaptraps hide among vegetation.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
+                            "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
+                            "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
+                            "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
+                            "(A few feathers are stuck in its teeth. What could it have eaten?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Alluring Snaptrap",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AlluringSnaptrap/overworld_e0.png",
+                                         "images/creature/AlluringSnaptrap/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AlluringSnaptrap/overworld_n0.png",
+                                          "images/creature/AlluringSnaptrap/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AlluringSnaptrap/overworld_s0.png",
+                                          "images/creature/AlluringSnaptrap/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AlluringSnaptrap/overworld_w0.png",
+                                         "images/creature/AlluringSnaptrap/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Snaptrap",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  20,
+                       "speed":  10
+                   },
+    "trait":  1092,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

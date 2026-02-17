@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Toadstool/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1435,
-  "item": 1709,
-  "lore": "It doesn\u0027t take much to realize that eating this mushroom could lead to serious health issues. In fact, one of the deadliest poisons in existence comes from these creatures, and when synthesized, it can cause devastating effects in a matter of seconds. Interestingly, the magical properties of this creature make its venom effective even against golems or spirits\u00E2\u20AC\u201Dbeings that aren\u0027t traditionally considered alive.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Toadstool",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Toadstool/overworld_e0.png",
-      "images/creature/Toadstool/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Toadstool/overworld_n0.png",
-      "images/creature/Toadstool/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Toadstool/overworld_s0.png",
-      "images/creature/Toadstool/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Toadstool/overworld_w0.png",
-      "images/creature/Toadstool/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 15
-  },
-  "trait": 2051
+    "battleSprite":  "images/creature/Toadstool/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1435,
+    "item":  1709,
+    "lore":  "It doesn\u0027t take much to realize that eating this mushroom could lead to serious health issues. In fact, one of the deadliest poisons in existence comes from these creatures, and when synthesized, it can cause devastating effects in a matter of seconds. Interestingly, the magical properties of this creature make its venom effective even against golems or spirits—beings that aren\u0027t traditionally considered alive.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Toadstool",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Toadstool/overworld_e0.png",
+                                         "images/creature/Toadstool/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Toadstool/overworld_n0.png",
+                                          "images/creature/Toadstool/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Toadstool/overworld_s0.png",
+                                          "images/creature/Toadstool/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Toadstool/overworld_w0.png",
+                                         "images/creature/Toadstool/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  15
+                   },
+    "trait":  2051,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

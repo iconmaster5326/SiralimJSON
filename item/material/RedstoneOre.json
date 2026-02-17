@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLead By Example:\nYour {RACE_Imling}s gain 25% of the {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} bonuses from this creature\u0027s Artifact.",
-  "icon": "images/item/material/RedstoneOre.png",
-  "id": 532,
-  "name": "Redstone Ore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 446
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLead By Example:\nYour {RACE_Imling}s gain 25% of the {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} bonuses from this creature\u0027s Artifact.",
+    "icon":  "images/item/material/RedstoneOre.png",
+    "id":  532,
+    "name":  "Redstone Ore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  446,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

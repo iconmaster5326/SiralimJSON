@@ -1,37 +1,40 @@
 {
-  "bossDialog": [
-    "(A truly weird creature suddenly manifests before you - an oversized limb wreathed in neon green flames. Not wanting it to touch you, you order your creatures to deal with it instead.)",
-    "(An enlarged body part hovers in the air before you, approaching you with intent. You\u0027re not really sure how you determine a disembodied creature part\u0027s intent, only that you can and it needs stopping.)",
-    "(You confusedly wonder if the enchanted body part floating infront of you belongs to someone. One way or another, you doubt they\u0027re going to get it back.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures recover 50% more {STAT_health} from enemies\u0027 {CONDNAME_DEBUFF_INVERTED} debuff.",
-    "4": "Enemies with {CONDNAME_DEBUFF_INVERTED} take 10% more damage.",
-    "6": "Enemies take 20% more damage from their {CONDNAME_DEBUFF_INVERTED} debuffs."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    1207,
-    1208,
-    1209,
-    1210,
-    1211,
-    1212
-  ],
-  "icon": "images/race/Animation.png",
-  "master": {
-    "costume": 672,
-    "dialog": "What might appear as a generic ear, nose, or eyeball to you is, in reality, a core component of my army. Prepare to be decimated by random, severed body parts!",
-    "item": 1493,
-    "name": "Obert",
-    "trait": 1801
-  },
-  "name": "Animation",
-  "notes": [],
-  "skins": [
-    627,
-    628
-  ]
+    "bossDialog":  [
+                       "(A truly weird creature suddenly manifests before you - an oversized limb wreathed in neon green flames. Not wanting it to touch you, you order your creatures to deal with it instead.)",
+                       "(An enlarged body part hovers in the air before you, approaching you with intent. You\u0027re not really sure how you determine a disembodied creature part\u0027s intent, only that you can and it needs stopping.)",
+                       "(You confusedly wonder if the enchanted body part floating infront of you belongs to someone. One way or another, you doubt they\u0027re going to get it back.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures recover 50% more {STAT_health} from enemies\u0027 {CONDNAME_DEBUFF_INVERTED} debuff.",
+                        "4":  "Enemies with {CONDNAME_DEBUFF_INVERTED} take 10% more damage.",
+                        "6":  "Enemies take 20% more damage from their {CONDNAME_DEBUFF_INVERTED} debuffs."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      1207,
+                      1208,
+                      1209,
+                      1210,
+                      1211,
+                      1212
+                  ],
+    "icon":  "images/race/Animation.png",
+    "master":  {
+                   "costume":  672,
+                   "dialog":  "What might appear as a generic ear, nose, or eyeball to you is, in reality, a core component of my army. Prepare to be decimated by random, severed body parts!",
+                   "item":  1493,
+                   "name":  "Obert",
+                   "trait":  1801
+               },
+    "name":  "Animation",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  627,
+                  628
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

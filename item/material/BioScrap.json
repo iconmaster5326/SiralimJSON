@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBig Brained:\nYour creatures are immune to {CONDNAME_DEBUFF_CONFUSED}.",
-  "icon": "images/item/material/BioScrap.png",
-  "id": 1554,
-  "name": "Bio Scrap",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1895
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBig Brained:\nYour creatures are immune to {CONDNAME_DEBUFF_CONFUSED}.",
+    "icon":  "images/item/material/BioScrap.png",
+    "id":  1554,
+    "name":  "Bio Scrap",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1895,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Soulwarper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1314,
-  "item": 1690,
-  "lore": "A coven of witches, desperate to end a demon possession outbreak in their village, summoned the Soulwarper. This creature\u0027s bite can tear away parasitic spirits and return them to where they came from by swallowing them whole. However, Soulwarpers also consume dead wood, and once their soul feast was over, the witches were forced to banish them to save their houses from destruction.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Soulwarper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Soulwarper/overworld_e0.png",
-      "images/creature/Soulwarper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Soulwarper/overworld_n0.png",
-      "images/creature/Soulwarper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Soulwarper/overworld_s0.png",
-      "images/creature/Soulwarper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Soulwarper/overworld_w0.png",
-      "images/creature/Soulwarper/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2032
+    "battleSprite":  "images/creature/Soulwarper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1314,
+    "item":  1690,
+    "lore":  "A coven of witches, desperate to end a demon possession outbreak in their village, summoned the Soulwarper. This creature\u0027s bite can tear away parasitic spirits and return them to where they came from by swallowing them whole. However, Soulwarpers also consume dead wood, and once their soul feast was over, the witches were forced to banish them to save their houses from destruction.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Soulwarper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Soulwarper/overworld_e0.png",
+                                         "images/creature/Soulwarper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Soulwarper/overworld_n0.png",
+                                          "images/creature/Soulwarper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Soulwarper/overworld_s0.png",
+                                          "images/creature/Soulwarper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Soulwarper/overworld_w0.png",
+                                         "images/creature/Soulwarper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2032,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

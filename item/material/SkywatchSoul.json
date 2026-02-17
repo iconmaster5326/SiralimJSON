@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nI Am Above:\nAfter one of your creatures manually {ACTION_casts} an {SPELL_equipment}, your other creatures\u0027 Artifacts have a 35% chance to {ACTION_cast} the spell in their Spell Slot. This trait does not stack.",
-  "icon": "images/item/material/SkywatchSoul.png",
-  "id": 66,
-  "name": "Skywatch Soul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1011
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nI Am Above:\nAfter one of your creatures manually {ACTION_casts} an {SPELL_equipment}, your other creatures\u0027 Artifacts have a 35% chance to {ACTION_cast} the spell in their Spell Slot. This trait does not stack.",
+    "icon":  "images/item/material/SkywatchSoul.png",
+    "id":  66,
+    "name":  "Skywatch Soul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1011,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

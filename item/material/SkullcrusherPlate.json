@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRise to Fall:\nAfter this creature {ACTION_attacks}, it recovers 30% {STAT_health}. In addition, this creature receives 5% more healing from all sources for every 1% of {STAT_health} it is missing.",
-  "icon": "images/item/material/SkullcrusherPlate.png",
-  "id": 344,
-  "name": "Skullcrusher Plate",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 260
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRise to Fall:\nAfter this creature {ACTION_attacks}, it recovers 30% {STAT_health}. In addition, this creature receives 5% more healing from all sources for every 1% of {STAT_health} it is missing.",
+    "icon":  "images/item/material/SkullcrusherPlate.png",
+    "id":  344,
+    "name":  "Skullcrusher Plate",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  260,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

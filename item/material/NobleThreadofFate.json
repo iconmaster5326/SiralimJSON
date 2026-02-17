@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeightened Learning:\nAfter your creatures gain a stat (other than {STAT_health}), they grant 25% of this stat to your other creatures as well. Your creatures gain 50% less stats. This trait does not stack.",
-  "icon": "images/item/material/NobleThreadofFate.png",
-  "id": 1610,
-  "name": "Noble Thread of Fate",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1949
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeightened Learning:\nAfter your creatures gain a stat (other than {STAT_health}), they grant 25% of this stat to your other creatures as well. Your creatures gain 50% less stats. This trait does not stack.",
+    "icon":  "images/item/material/NobleThreadofFate.png",
+    "id":  1610,
+    "name":  "Noble Thread of Fate",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1949,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

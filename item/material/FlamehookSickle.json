@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKindling:\nAfter an enemy is afflicted with {CONDNAME_DEBUFF_BLEED} or {CONDNAME_DEBUFF_BURNED}, this creature afflicts them with whichever of these debuffs the target doesn\u0027t already have.",
-  "icon": "images/item/material/FlamehookSickle.png",
-  "id": 584,
-  "name": "Flamehook Sickle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 498
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKindling:\nAfter an enemy is afflicted with {CONDNAME_DEBUFF_BLEED} or {CONDNAME_DEBUFF_BURNED}, this creature afflicts them with whichever of these debuffs the target doesn\u0027t already have.",
+    "icon":  "images/item/material/FlamehookSickle.png",
+    "id":  584,
+    "name":  "Flamehook Sickle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  498,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

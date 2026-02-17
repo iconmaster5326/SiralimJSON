@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEve:\nYour creatures\u0027 spells are 100% more potent, but only have 1 {STAT_charge}. This trait does not stack.",
-  "icon": "images/item/material/ParticleofDikya.png",
-  "id": 746,
-  "name": "Particle of Dikya",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 781
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEve:\nYour creatures\u0027 spells are 100% more potent, but only have 1 {STAT_charge}. This trait does not stack.",
+    "icon":  "images/item/material/ParticleofDikya.png",
+    "id":  746,
+    "name":  "Particle of Dikya",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  781,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

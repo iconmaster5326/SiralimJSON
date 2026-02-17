@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/ColdCockatrice/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 816,
-  "item": 1052,
-  "lore": "In Rodia, these creatures inhabit mainly snowy mountains and frozen places in Azural\u0027s realm. This fact, coupled with their appearance, has led people to believe their plumages evolved so they could camouflage themselves in their environment and to protect them from the cold. However, Cockatrices with very similar morphology but brown plumages also inhabit desertic regions in other countries. A group of biologists from Andolin discovered not only that these birds are identical, capable of withstanding extreme temperatures both high and low, but also that their plumages change color in the following molt if their environment changes.",
-  "menagerieDialog": [
-    "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
-    "(What a ridiculous looking, yet endearing creature.)",
-    "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
-    "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
-    "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
-  ],
-  "minDepth": 1,
-  "name": "Cold Cockatrice",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ColdCockatrice/overworld_e0.png",
-      "images/creature/ColdCockatrice/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ColdCockatrice/overworld_n0.png",
-      "images/creature/ColdCockatrice/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ColdCockatrice/overworld_s0.png",
-      "images/creature/ColdCockatrice/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ColdCockatrice/overworld_w0.png",
-      "images/creature/ColdCockatrice/overworld_w1.png"
-    ]
-  },
-  "race": "Cockatrice",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1084
+    "battleSprite":  "images/creature/ColdCockatrice/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  816,
+    "item":  1052,
+    "lore":  "In Rodia, these creatures inhabit mainly snowy mountains and frozen places in Azural\u0027s realm. This fact, coupled with their appearance, has led people to believe their plumages evolved so they could camouflage themselves in their environment and to protect them from the cold. However, Cockatrices with very similar morphology but brown plumages also inhabit desertic regions in other countries. A group of biologists from Andolin discovered not only that these birds are identical, capable of withstanding extreme temperatures both high and low, but also that their plumages change color in the following molt if their environment changes.",
+    "menagerieDialog":  [
+                            "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
+                            "(What a ridiculous looking, yet endearing creature.)",
+                            "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
+                            "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
+                            "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Cold Cockatrice",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ColdCockatrice/overworld_e0.png",
+                                         "images/creature/ColdCockatrice/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ColdCockatrice/overworld_n0.png",
+                                          "images/creature/ColdCockatrice/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ColdCockatrice/overworld_s0.png",
+                                          "images/creature/ColdCockatrice/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ColdCockatrice/overworld_w0.png",
+                                         "images/creature/ColdCockatrice/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cockatrice",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1084,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

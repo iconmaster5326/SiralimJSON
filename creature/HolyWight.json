@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HolyWight/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 983,
-  "item": 1321,
-  "lore": "Some warriors of Surathli protect her designs too vehemently. Many go astray and commit atrocities in the name of Light. A few of these warriors, consumed by rage at not having accomplished their goals, remain in this world even after losing their lives. They are known as Holy Wights, bloodthirsty creatures who are unable to distinguish between good and evil.",
-  "menagerieDialog": [
-    "I grow tired of waiting. Let\u0027s seek out a battle!",
-    "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
-    "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
-    "Who else wishes to taste my steel?",
-    "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
-  ],
-  "minDepth": 1,
-  "name": "Holy Wight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HolyWight/overworld_e0.png",
-      "images/creature/HolyWight/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HolyWight/overworld_n0.png",
-      "images/creature/HolyWight/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HolyWight/overworld_s0.png",
-      "images/creature/HolyWight/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HolyWight/overworld_w0.png",
-      "images/creature/HolyWight/overworld_w1.png"
-    ]
-  },
-  "race": "Wight",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Life Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1557
+    "battleSprite":  "images/creature/HolyWight/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  983,
+    "item":  1321,
+    "lore":  "Some warriors of Surathli protect her designs too vehemently. Many go astray and commit atrocities in the name of Light. A few of these warriors, consumed by rage at not having accomplished their goals, remain in this world even after losing their lives. They are known as Holy Wights, bloodthirsty creatures who are unable to distinguish between good and evil.",
+    "menagerieDialog":  [
+                            "I grow tired of waiting. Let\u0027s seek out a battle!",
+                            "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
+                            "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
+                            "Who else wishes to taste my steel?",
+                            "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Holy Wight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HolyWight/overworld_e0.png",
+                                         "images/creature/HolyWight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HolyWight/overworld_n0.png",
+                                          "images/creature/HolyWight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HolyWight/overworld_s0.png",
+                                          "images/creature/HolyWight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HolyWight/overworld_w0.png",
+                                         "images/creature/HolyWight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wight",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Life Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1557,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

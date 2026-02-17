@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEverglow:\nYour creatures recover 100% more {STAT_health} from healing effects. This trait does not stack.",
-  "icon": "images/item/material/WillowFluff.png",
-  "id": 103,
-  "name": "Willow Fluff",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 12
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEverglow:\nYour creatures recover 100% more {STAT_health} from healing effects. This trait does not stack.",
+    "icon":  "images/item/material/WillowFluff.png",
+    "id":  103,
+    "name":  "Willow Fluff",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  12,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

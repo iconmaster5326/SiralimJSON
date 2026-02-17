@@ -1,42 +1,45 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Your allies are killed, and your dead allies are resurrected with 100% {STAT_health} and {STAT_charges}. This spell does not work on {SPELL_ultimate}s.",
-  "god": null,
-  "id": 693,
-  "manuallyCastable": true,
-  "maxCharges": 2,
-  "name": "Genesis",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": true,
-  "resurrects": true,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Your allies are killed, and your dead allies are resurrected with 100% {STAT_health} and {STAT_charges}. This spell does not work on {SPELL_ultimate}s.",
+    "god":  null,
+    "id":  693,
+    "manuallyCastable":  true,
+    "maxCharges":  2,
+    "name":  "Genesis",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  true,
+    "resurrects":  true,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/SingularThana/battle.png",
-  "creator": null,
-  "creature": 1112,
-  "id": 786,
-  "name": "Singular Thana",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SingularThana/overworld_e0.png",
-      "images/skin/SingularThana/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SingularThana/overworld_n0.png",
-      "images/skin/SingularThana/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SingularThana/overworld_s0.png",
-      "images/skin/SingularThana/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SingularThana/overworld_w0.png",
-      "images/skin/SingularThana/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/SingularThana/battle.png",
+    "creator":  null,
+    "creature":  1112,
+    "id":  786,
+    "name":  "Singular Thana",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SingularThana/overworld_e0.png",
+                                         "images/skin/SingularThana/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SingularThana/overworld_n0.png",
+                                          "images/skin/SingularThana/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SingularThana/overworld_s0.png",
+                                          "images/skin/SingularThana/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SingularThana/overworld_w0.png",
+                                         "images/skin/SingularThana/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

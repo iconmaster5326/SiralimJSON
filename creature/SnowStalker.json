@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SnowStalker/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1316,
-  "item": 1692,
-  "lore": "During the snowstorms of the winter solstice, an evil spirit stirs from its slumber to feast. This dangerous creature was once believed to devour the souls of its victims, but that myth has been completely debunked. However, some still believe that eating the carrot on its nose grants incredible powers\u00E2\u20AC\u201Deverything from acquiring the abilities and memories of those the Snow Stalker has claimed to even achieving immortality. Though the legend no longer holds the weight it once did, hunting the Snow Stalker remains a cherished tradition.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Snow Stalker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SnowStalker/overworld_e0.png",
-      "images/creature/SnowStalker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SnowStalker/overworld_n0.png",
-      "images/creature/SnowStalker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SnowStalker/overworld_s0.png",
-      "images/creature/SnowStalker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SnowStalker/overworld_w0.png",
-      "images/creature/SnowStalker/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 2034
+    "battleSprite":  "images/creature/SnowStalker/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1316,
+    "item":  1692,
+    "lore":  "During the snowstorms of the winter solstice, an evil spirit stirs from its slumber to feast. This dangerous creature was once believed to devour the souls of its victims, but that myth has been completely debunked. However, some still believe that eating the carrot on its nose grants incredible powers—everything from acquiring the abilities and memories of those the Snow Stalker has claimed to even achieving immortality. Though the legend no longer holds the weight it once did, hunting the Snow Stalker remains a cherished tradition.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Snow Stalker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SnowStalker/overworld_e0.png",
+                                         "images/creature/SnowStalker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SnowStalker/overworld_n0.png",
+                                          "images/creature/SnowStalker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SnowStalker/overworld_s0.png",
+                                          "images/creature/SnowStalker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SnowStalker/overworld_w0.png",
+                                         "images/creature/SnowStalker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  2034,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/DanseMacabre/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 759,
-  "name": "Danse Macabre",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/DanseMacabre/overworld_e0.png",
-      "images/skin/DanseMacabre/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/DanseMacabre/overworld_n0.png",
-      "images/skin/DanseMacabre/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/DanseMacabre/overworld_s0.png",
-      "images/skin/DanseMacabre/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/DanseMacabre/overworld_w0.png",
-      "images/skin/DanseMacabre/overworld_w1.png"
-    ]
-  },
-  "race": "Rift Dancer",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/DanseMacabre/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  759,
+    "name":  "Danse Macabre",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/DanseMacabre/overworld_e0.png",
+                                         "images/skin/DanseMacabre/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/DanseMacabre/overworld_n0.png",
+                                          "images/skin/DanseMacabre/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/DanseMacabre/overworld_s0.png",
+                                          "images/skin/DanseMacabre/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/DanseMacabre/overworld_w0.png",
+                                         "images/skin/DanseMacabre/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Rift Dancer",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

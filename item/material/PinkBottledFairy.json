@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCrystal Lake:\nThis creature {ACTION_attacks} and {ACTION_casts} spells 2 additional times, but it can\u0027t gain buffs.",
-  "icon": "images/item/material/PinkBottledFairy.png",
-  "id": 1670,
-  "name": "Pink Bottled Fairy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1995
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCrystal Lake:\nThis creature {ACTION_attacks} and {ACTION_casts} spells 2 additional times, but it can\u0027t gain buffs.",
+    "icon":  "images/item/material/PinkBottledFairy.png",
+    "id":  1670,
+    "name":  "Pink Bottled Fairy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1995,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

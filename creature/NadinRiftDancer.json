@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/NadinRiftDancer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 372,
-  "item": 140,
-  "lore": "There are no written records of Rift Dancers until the time of the first wars in which magic played an important role.\\n\\nNadin Rift Dancers detest the darkness, so they gather near the lights of city walls or village squares during the night. As they do not pose a threat to most people, even children are allowed to play with them, and they are considered to be a fascinating sight. Some people even allow them into their homes and let them spend the night by candlelight.",
-  "menagerieDialog": [
-    "(For a Rift Dancer, it\u0027s not very active.)",
-    "(It keeps trying, without any success at all, to get you to dance with it.)",
-    "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
-    "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
-    "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
-  ],
-  "minDepth": 1,
-  "name": "Nadin Rift Dancer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NadinRiftDancer/overworld_e0.png",
-      "images/creature/NadinRiftDancer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NadinRiftDancer/overworld_n0.png",
-      "images/creature/NadinRiftDancer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NadinRiftDancer/overworld_s0.png",
-      "images/creature/NadinRiftDancer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NadinRiftDancer/overworld_w0.png",
-      "images/creature/NadinRiftDancer/overworld_w1.png"
-    ]
-  },
-  "race": "Rift Dancer",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 50
+    "battleSprite":  "images/creature/NadinRiftDancer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  372,
+    "item":  140,
+    "lore":  "There are no written records of Rift Dancers until the time of the first wars in which magic played an important role.\\n\\nNadin Rift Dancers detest the darkness, so they gather near the lights of city walls or village squares during the night. As they do not pose a threat to most people, even children are allowed to play with them, and they are considered to be a fascinating sight. Some people even allow them into their homes and let them spend the night by candlelight.",
+    "menagerieDialog":  [
+                            "(For a Rift Dancer, it\u0027s not very active.)",
+                            "(It keeps trying, without any success at all, to get you to dance with it.)",
+                            "(It\u0027s looking at you expectantly. Unfortunately, you\u0027re not sure what it desires.)",
+                            "(This creature really needs to exercise some moderation. It plays games just a little too often for your liking.)",
+                            "(It\u0027s fluttering around the menagerie, pacing back and forth repeatedly.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nadin Rift Dancer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NadinRiftDancer/overworld_e0.png",
+                                         "images/creature/NadinRiftDancer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NadinRiftDancer/overworld_n0.png",
+                                          "images/creature/NadinRiftDancer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NadinRiftDancer/overworld_s0.png",
+                                          "images/creature/NadinRiftDancer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NadinRiftDancer/overworld_w0.png",
+                                         "images/creature/NadinRiftDancer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Rift Dancer",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  50,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

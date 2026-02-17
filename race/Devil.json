@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "I wonder what kind of sound you\u0027ll make when I tear your legs off!",
-    "I\u0027m going to have fun playing with your broken corpse. Don\u0027t worry; I\u0027ll be gentle.",
-    "Once I\u0027m done with you, they won\u0027t be able to identify what\u0027s left of you."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 5% more damage.",
-    "5": "Your creatures deal 5% more damage.",
-    "8": "Your creatures deal 5% more damage."
-  },
-  "cards": 8,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    156,
-    157,
-    158,
-    159,
-    160,
-    161,
-    666,
-    783
-  ],
-  "icon": "images/race/Devil.png",
-  "master": {
-    "costume": 320,
-    "dialog": "Each Devil specializes in destroying creatures that belong to a certain class. What\u0027s more, Krampus allows my other Devils to share their power so they can handle anything you throw their way. Let\u0027s fight - but be warned, this won\u0027t be easy!",
-    "item": 1272,
-    "name": "Ashton",
-    "trait": 1421
-  },
-  "name": "Devil",
-  "notes": [],
-  "skins": [
-    26,
-    31,
-    32,
-    662,
-    663
-  ]
+    "bossDialog":  [
+                       "I wonder what kind of sound you\u0027ll make when I tear your legs off!",
+                       "I\u0027m going to have fun playing with your broken corpse. Don\u0027t worry; I\u0027ll be gentle.",
+                       "Once I\u0027m done with you, they won\u0027t be able to identify what\u0027s left of you."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 5% more damage.",
+                        "5":  "Your creatures deal 5% more damage.",
+                        "8":  "Your creatures deal 5% more damage."
+                    },
+    "cards":  8,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      156,
+                      157,
+                      158,
+                      159,
+                      160,
+                      161,
+                      666,
+                      783
+                  ],
+    "icon":  "images/race/Devil.png",
+    "master":  {
+                   "costume":  320,
+                   "dialog":  "Each Devil specializes in destroying creatures that belong to a certain class. What\u0027s more, Krampus allows my other Devils to share their power so they can handle anything you throw their way. Let\u0027s fight - but be warned, this won\u0027t be easy!",
+                   "item":  1272,
+                   "name":  "Ashton",
+                   "trait":  1421
+               },
+    "name":  "Devil",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  26,
+                  31,
+                  32,
+                  662,
+                  663
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

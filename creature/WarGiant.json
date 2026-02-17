@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WarGiant/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 977,
-  "item": 1304,
-  "lore": "While this creature is not really a giant, it is programmed to speak like one of them. Like other robots created by the Auditors, it has the order to exterminate any outsider who manages to enter Ubi Concordia. In addition to its extraordinary strength, the War Giant possesses a plasma cannon with devastating firepower. The more it charges its shot, the further the explosion will reach, and the stronger it will be.",
-  "menagerieDialog": [
-    "Humans are weak! Even baby Giants can crush your kind with one hand.",
-    "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
-    "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
-    "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
-    "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
-  ],
-  "minDepth": 1,
-  "name": "War Giant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WarGiant/overworld_e0.png",
-      "images/creature/WarGiant/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WarGiant/overworld_n0.png",
-      "images/creature/WarGiant/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WarGiant/overworld_s0.png",
-      "images/creature/WarGiant/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WarGiant/overworld_w0.png",
-      "images/creature/WarGiant/overworld_w1.png"
-    ]
-  },
-  "race": "Giant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Chaos Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 22,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 12
-  },
-  "trait": 1551
+    "battleSprite":  "images/creature/WarGiant/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  977,
+    "item":  1304,
+    "lore":  "While this creature is not really a giant, it is programmed to speak like one of them. Like other robots created by the Auditors, it has the order to exterminate any outsider who manages to enter Ubi Concordia. In addition to its extraordinary strength, the War Giant possesses a plasma cannon with devastating firepower. The more it charges its shot, the further the explosion will reach, and the stronger it will be.",
+    "menagerieDialog":  [
+                            "Humans are weak! Even baby Giants can crush your kind with one hand.",
+                            "I\u0027ll send your enemies flying with a kick to the gut. Bring it on!",
+                            "If you ever need any help re-arranging your castle, I\u0027m your Giant! Just say the word.",
+                            "(It\u0027s curling two of your other creatures as they all giggle maniacally. It would probably be best for you to leave them to it.)",
+                            "(It\u0027s playing some make-shift drums using its stool and two excessively large tree trunks.)"
+                        ],
+    "minDepth":  1,
+    "name":  "War Giant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WarGiant/overworld_e0.png",
+                                         "images/creature/WarGiant/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WarGiant/overworld_n0.png",
+                                          "images/creature/WarGiant/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WarGiant/overworld_s0.png",
+                                          "images/creature/WarGiant/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WarGiant/overworld_w0.png",
+                                         "images/creature/WarGiant/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Giant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Chaos Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  22,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  12
+                   },
+    "trait":  1551,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

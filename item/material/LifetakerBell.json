@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBeautiful Sorrow:\nAfter one of your creatures dies, this creature gains their innate trait.",
-  "icon": "images/item/material/LifetakerBell.png",
-  "id": 878,
-  "name": "Lifetaker Bell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 905
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBeautiful Sorrow:\nAfter one of your creatures dies, this creature gains their innate trait.",
+    "icon":  "images/item/material/LifetakerBell.png",
+    "id":  878,
+    "name":  "Lifetaker Bell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  905,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

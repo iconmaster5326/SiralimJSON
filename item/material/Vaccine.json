@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHorde Limits:\nAfter your creatures are afflicted with a debuff, they have a 25% chance to gain {CONDNAME_BUFF_IMMUNITY}. This trait does not stack.",
-  "icon": "images/item/material/Vaccine.png",
-  "id": 1411,
-  "name": "Vaccine",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1718
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHorde Limits:\nAfter your creatures are afflicted with a debuff, they have a 25% chance to gain {CONDNAME_BUFF_IMMUNITY}. This trait does not stack.",
+    "icon":  "images/item/material/Vaccine.png",
+    "id":  1411,
+    "name":  "Vaccine",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1718,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

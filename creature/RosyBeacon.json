@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/RosyBeacon/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1260,
-  "item": 1625,
-  "lore": "Beacons feed only on flowers, but are able to survive by eating just a few every day. To maintain the forest\u0027s balance, they often plant trees and shrubs so that other species are not affected by their presence. All beacons participate in this activity, but the Rosy Beacon has the most important role in it, as it is the only one who can create flowers with its power. In this way, it can help the bees with pollination, or its own kind to feed themselves on a particularly rough year.",
-  "menagerieDialog": [
-    "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
-    "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
-    "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
-    "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
-    "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
-  ],
-  "minDepth": 1,
-  "name": "Rosy Beacon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RosyBeacon/overworld_e0.png",
-      "images/creature/RosyBeacon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RosyBeacon/overworld_n0.png",
-      "images/creature/RosyBeacon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RosyBeacon/overworld_s0.png",
-      "images/creature/RosyBeacon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RosyBeacon/overworld_w0.png",
-      "images/creature/RosyBeacon/overworld_w1.png"
-    ]
-  },
-  "race": "Beacon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1965
+    "battleSprite":  "images/creature/RosyBeacon/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1260,
+    "item":  1625,
+    "lore":  "Beacons feed only on flowers, but are able to survive by eating just a few every day. To maintain the forest\u0027s balance, they often plant trees and shrubs so that other species are not affected by their presence. All beacons participate in this activity, but the Rosy Beacon has the most important role in it, as it is the only one who can create flowers with its power. In this way, it can help the bees with pollination, or its own kind to feed themselves on a particularly rough year.",
+    "menagerieDialog":  [
+                            "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
+                            "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
+                            "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
+                            "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
+                            "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Rosy Beacon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RosyBeacon/overworld_e0.png",
+                                         "images/creature/RosyBeacon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RosyBeacon/overworld_n0.png",
+                                          "images/creature/RosyBeacon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RosyBeacon/overworld_s0.png",
+                                          "images/creature/RosyBeacon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RosyBeacon/overworld_w0.png",
+                                         "images/creature/RosyBeacon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Beacon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1965,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

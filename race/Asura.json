@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "How bold of you to seek me out. I welcome your challenge. Let us fight...",
-    "My blade, your wit. Which shall be found to be sharper?",
-    "You\u0027ve got some nerve challenging the likes of I."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures with {CONDNAME_BUFF_SAVAGE} have a 10% greater chance to deal critical damage.",
-    "4": "Your creatures with {CONDNAME_BUFF_SAVAGE} deal 30% more critical damage.",
-    "7": "Your creatures\u0027 {CONDNAME_BUFF_SAVAGE} buff lasts forever."
-  },
-  "cards": 7,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    458,
-    459,
-    460,
-    461,
-    462,
-    463,
-    609
-  ],
-  "icon": "images/race/Asura.png",
-  "master": {
-    "costume": 300,
-    "dialog": "Asuras are formidable melee attackers that can dish out some massive critical damage. Care for a duel? I won\u0027t go easy on you!",
-    "item": 1178,
-    "name": "Apok",
-    "trait": 1401
-  },
-  "name": "Asura",
-  "notes": [],
-  "skins": [
-    264,
-    267,
-    505,
-    632
-  ]
+    "bossDialog":  [
+                       "How bold of you to seek me out. I welcome your challenge. Let us fight...",
+                       "My blade, your wit. Which shall be found to be sharper?",
+                       "You\u0027ve got some nerve challenging the likes of I."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures with {CONDNAME_BUFF_SAVAGE} have a 10% greater chance to deal critical damage.",
+                        "4":  "Your creatures with {CONDNAME_BUFF_SAVAGE} deal 30% more critical damage.",
+                        "7":  "Your creatures\u0027 {CONDNAME_BUFF_SAVAGE} buff lasts forever."
+                    },
+    "cards":  7,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      458,
+                      459,
+                      460,
+                      461,
+                      462,
+                      463,
+                      609
+                  ],
+    "icon":  "images/race/Asura.png",
+    "master":  {
+                   "costume":  300,
+                   "dialog":  "Asuras are formidable melee attackers that can dish out some massive critical damage. Care for a duel? I won\u0027t go easy on you!",
+                   "item":  1178,
+                   "name":  "Apok",
+                   "trait":  1401
+               },
+    "name":  "Asura",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  264,
+                  267,
+                  505,
+                  632
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

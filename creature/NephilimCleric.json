@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NephilimCleric/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1241,
-  "item": 1613,
-  "lore": "When Arcadia became the Path of the Damned, the Angels who had survived the epic battle transformed into the Nephilim.\\n\\nOf all the Nephilim, the Cleric is probably the most dangerous. A low murmur heralds its presence, similar to that of the wind caressing the ruins of a desolate city. Anyone who listens to it long enough will become an agent of evil until this creature is destroyed. The more light there is in that person\u0027s heart, the longer it will take to be converted, and the crueler their acts will be.",
-  "menagerieDialog": [
-    "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
-    "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
-    "Let us take our leave at once. There is work to be done.",
-    "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
-    "We\u0027re in good company with you as our leader, {PLAYERNAME}."
-  ],
-  "minDepth": 1,
-  "name": "Nephilim Cleric",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NephilimCleric/overworld_e0.png",
-      "images/creature/NephilimCleric/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NephilimCleric/overworld_n0.png",
-      "images/creature/NephilimCleric/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NephilimCleric/overworld_s0.png",
-      "images/creature/NephilimCleric/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NephilimCleric/overworld_w0.png",
-      "images/creature/NephilimCleric/overworld_w1.png"
-    ]
-  },
-  "race": "Nephilim",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1952
+    "battleSprite":  "images/creature/NephilimCleric/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1241,
+    "item":  1613,
+    "lore":  "When Arcadia became the Path of the Damned, the Angels who had survived the epic battle transformed into the Nephilim.\\n\\nOf all the Nephilim, the Cleric is probably the most dangerous. A low murmur heralds its presence, similar to that of the wind caressing the ruins of a desolate city. Anyone who listens to it long enough will become an agent of evil until this creature is destroyed. The more light there is in that person\u0027s heart, the longer it will take to be converted, and the crueler their acts will be.",
+    "menagerieDialog":  [
+                            "I will protect my brethren at all costs. You don\u0027t need to worry for their safety as long as I\u0027m around.",
+                            "None will stand in my way. I have a mission to fulfill, and nothing will stop me from finishing my duties.",
+                            "Let us take our leave at once. There is work to be done.",
+                            "I would feel much more comfortable with a different set of creatures fighting by my side. Have you considered employing a more meaningful strategy?",
+                            "We\u0027re in good company with you as our leader, {PLAYERNAME}."
+                        ],
+    "minDepth":  1,
+    "name":  "Nephilim Cleric",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NephilimCleric/overworld_e0.png",
+                                         "images/creature/NephilimCleric/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NephilimCleric/overworld_n0.png",
+                                          "images/creature/NephilimCleric/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NephilimCleric/overworld_s0.png",
+                                          "images/creature/NephilimCleric/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NephilimCleric/overworld_w0.png",
+                                         "images/creature/NephilimCleric/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nephilim",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1952,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

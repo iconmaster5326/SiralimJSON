@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EftScavenger/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 879,
-  "item": 88,
-  "lore": "Efts prey on every single creature that inhabits the Blood Grove. Neither the Inquisitors, who live underground, nor the Satyrs, who build their homes in the treetops, are safe from these fearsome monsters.\\n\\nEft Scavengers are the easiest of their kind to tame. Unlike other Efts, their instincts do not lead them to hunt, as their main role is to protect the young in the nest from possible attacks.",
-  "menagerieDialog": [
-    "(This one is incredibly quiet before entering battle, its steps are barely heard.)",
-    "(It\u0027s quite a violent creature, but in a controlled sort of way. You can\u0027t help but wish your other creatures have a similar demeanor.)",
-    "(Despite its wild apperance, this creature is extremely loyal to you.)",
-    "(Its eyes are fixed on the horizon, deep in thought.)",
-    "(Its horns are so sharp and powerful that they could pierce through even the strongest of armor.)"
-  ],
-  "minDepth": 1,
-  "name": "Eft Scavenger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EftScavenger/overworld_e0.png",
-      "images/creature/EftScavenger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EftScavenger/overworld_n0.png",
-      "images/creature/EftScavenger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EftScavenger/overworld_s0.png",
-      "images/creature/EftScavenger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EftScavenger/overworld_w0.png",
-      "images/creature/EftScavenger/overworld_w1.png"
-    ]
-  },
-  "race": "Eft",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Apocranox)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 1210
+    "battleSprite":  "images/creature/EftScavenger/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  879,
+    "item":  88,
+    "lore":  "Efts prey on every single creature that inhabits the Blood Grove. Neither the Inquisitors, who live underground, nor the Satyrs, who build their homes in the treetops, are safe from these fearsome monsters.\\n\\nEft Scavengers are the easiest of their kind to tame. Unlike other Efts, their instincts do not lead them to hunt, as their main role is to protect the young in the nest from possible attacks.",
+    "menagerieDialog":  [
+                            "(This one is incredibly quiet before entering battle, its steps are barely heard.)",
+                            "(It\u0027s quite a violent creature, but in a controlled sort of way. You can\u0027t help but wish your other creatures have a similar demeanor.)",
+                            "(Despite its wild apperance, this creature is extremely loyal to you.)",
+                            "(Its eyes are fixed on the horizon, deep in thought.)",
+                            "(Its horns are so sharp and powerful that they could pierce through even the strongest of armor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Eft Scavenger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EftScavenger/overworld_e0.png",
+                                         "images/creature/EftScavenger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EftScavenger/overworld_n0.png",
+                                          "images/creature/EftScavenger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EftScavenger/overworld_s0.png",
+                                          "images/creature/EftScavenger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EftScavenger/overworld_w0.png",
+                                         "images/creature/EftScavenger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Eft",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Apocranox)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  1210,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

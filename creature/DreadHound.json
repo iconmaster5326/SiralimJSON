@@ -1,66 +1,71 @@
 {
-  "battleSprite": "images/creature/DreadHound/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 289,
-  "item": 237,
-  "lore": "The superiority of human intelligence made them believe they had the right to play God, crossbreeding different species of wolves to obtain creatures of which to take advantage. With the rise of magic, these practices began to include spells and rituals, which ended up creating these creatures.\\n\\nThe Dread Hound\u0027s bite is extremely dangerous, as it fills its victims\u0027 minds with intrusive thoughts of impending doom, making them lose concentration during battle.",
-  "menagerieDialog": [
-    "(It yawns and stretches into a downward dog position.)",
-    "Hiss... hiss!\\n(You do know you\u0027re not a cat, right?)",
-    "(It\u0027s running around in small circles, wiggling its ass for no reason. Yep, it\u0027s a hound all right.)",
-    "(It smells of dog sweat. You should tell Nortah to give it a bath before you leave.)",
-    "(It often scratches itself with one of its hind legs. Nortah should really check it for fleas.)"
-  ],
-  "minDepth": 1,
-  "name": "Dread Hound",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DreadHound/overworld_e0.png",
-      "images/creature/DreadHound/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DreadHound/overworld_n0.png",
-      "images/creature/DreadHound/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DreadHound/overworld_s0.png",
-      "images/creature/DreadHound/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DreadHound/overworld_w0.png",
-      "images/creature/DreadHound/overworld_w1.png"
-    ]
-  },
-  "race": "Hound",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 18,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    8
-  ],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 146
+    "battleSprite":  "images/creature/DreadHound/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  289,
+    "item":  237,
+    "lore":  "The superiority of human intelligence made them believe they had the right to play God, crossbreeding different species of wolves to obtain creatures of which to take advantage. With the rise of magic, these practices began to include spells and rituals, which ended up creating these creatures.\\n\\nThe Dread Hound\u0027s bite is extremely dangerous, as it fills its victims\u0027 minds with intrusive thoughts of impending doom, making them lose concentration during battle.",
+    "menagerieDialog":  [
+                            "(It yawns and stretches into a downward dog position.)",
+                            "Hiss... hiss!\\n(You do know you\u0027re not a cat, right?)",
+                            "(It\u0027s running around in small circles, wiggling its ass for no reason. Yep, it\u0027s a hound all right.)",
+                            "(It smells of dog sweat. You should tell Nortah to give it a bath before you leave.)",
+                            "(It often scratches itself with one of its hind legs. Nortah should really check it for fleas.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dread Hound",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DreadHound/overworld_e0.png",
+                                         "images/creature/DreadHound/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DreadHound/overworld_n0.png",
+                                          "images/creature/DreadHound/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DreadHound/overworld_s0.png",
+                                          "images/creature/DreadHound/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DreadHound/overworld_w0.png",
+                                         "images/creature/DreadHound/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hound",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            8
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  146,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

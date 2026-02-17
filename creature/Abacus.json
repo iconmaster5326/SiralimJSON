@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Abacus/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1252,
-  "item": 1442,
-  "lore": "Tired of his students using an abacus behind his back to solve exercises in class, a math teacher decided to take desperate measures by contacting someone versed in the art of magic. His salary, unfortunately, did not allow him to hire the services of an expert, so he decided to search the underworld until he found someone. After a long haggling session, a price was agreed upon, and two weeks later that Mage handed the professor a box. He was satisfied, and opened it in the middle of class with the intention of scaring his students, saying \u0027This is what happens when you use an abacus too much, so be caAAAAAARGH!\u0027 The Abacus turned out to be more aggressive and vastly more dangerous than anticipated, and amid the laughter of his students, the teacher ran out the door with the Abacus chasing behind him.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Abacus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Abacus/overworld_e0.png",
-      "images/creature/Abacus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Abacus/overworld_n0.png",
-      "images/creature/Abacus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Abacus/overworld_s0.png",
-      "images/creature/Abacus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Abacus/overworld_w0.png",
-      "images/creature/Abacus/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 31,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1750
+    "battleSprite":  "images/creature/Abacus/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1252,
+    "item":  1442,
+    "lore":  "Tired of his students using an abacus behind his back to solve exercises in class, a math teacher decided to take desperate measures by contacting someone versed in the art of magic. His salary, unfortunately, did not allow him to hire the services of an expert, so he decided to search the underworld until he found someone. After a long haggling session, a price was agreed upon, and two weeks later that Mage handed the professor a box. He was satisfied, and opened it in the middle of class with the intention of scaring his students, saying \u0027This is what happens when you use an abacus too much, so be caAAAAAARGH!\u0027 The Abacus turned out to be more aggressive and vastly more dangerous than anticipated, and amid the laughter of his students, the teacher ran out the door with the Abacus chasing behind him.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Abacus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Abacus/overworld_e0.png",
+                                         "images/creature/Abacus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Abacus/overworld_n0.png",
+                                          "images/creature/Abacus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Abacus/overworld_s0.png",
+                                          "images/creature/Abacus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Abacus/overworld_w0.png",
+                                         "images/creature/Abacus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  31,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1750,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

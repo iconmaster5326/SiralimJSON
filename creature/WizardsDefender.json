@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WizardsDefender/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1175,
-  "item": 1557,
-  "lore": "By no means have the Auditors managed to put an end to all the problems that come with living in a society, or with the life itself of an intelligent creature.\\n\\nOnly a few inhabitants of Ubi Concordia are admitted to magic schools and universities. Many envy them, though few dare to do anything about it. If a person tries to hurt a magic apprentice, or steal files or magic items, they will face the Wizard\u0027s Defender, an artificial intelligence programmed to unload a barrage of bullets on anyone foolish enough to challenge the Auditors themselves.",
-  "menagerieDialog": [
-    "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
-    "You and I share a common characteristic: we have no self-awareness.",
-    "What is my purpose?",
-    "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
-    "I do not eat. I do not sleep. I exist only to serve my master."
-  ],
-  "minDepth": 1,
-  "name": "Wizard\u0027s Defender",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WizardsDefender/overworld_e0.png",
-      "images/creature/WizardsDefender/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WizardsDefender/overworld_n0.png",
-      "images/creature/WizardsDefender/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WizardsDefender/overworld_s0.png",
-      "images/creature/WizardsDefender/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WizardsDefender/overworld_w0.png",
-      "images/creature/WizardsDefender/overworld_w1.png"
-    ]
-  },
-  "race": "Modron",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 43,
-    "intelligence": 13,
-    "speed": 18
-  },
-  "trait": 1898
+    "battleSprite":  "images/creature/WizardsDefender/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1175,
+    "item":  1557,
+    "lore":  "By no means have the Auditors managed to put an end to all the problems that come with living in a society, or with the life itself of an intelligent creature.\\n\\nOnly a few inhabitants of Ubi Concordia are admitted to magic schools and universities. Many envy them, though few dare to do anything about it. If a person tries to hurt a magic apprentice, or steal files or magic items, they will face the Wizard\u0027s Defender, an artificial intelligence programmed to unload a barrage of bullets on anyone foolish enough to challenge the Auditors themselves.",
+    "menagerieDialog":  [
+                            "I am a Modron. I have no fear. I lack emotion. I shed no tears.",
+                            "You and I share a common characteristic: we have no self-awareness.",
+                            "What is my purpose?",
+                            "(Small puffs of smoke continuously protrude from its back. It\u0027s all too bad Nortah knows nothing about repairing machinery.)",
+                            "I do not eat. I do not sleep. I exist only to serve my master."
+                        ],
+    "minDepth":  1,
+    "name":  "Wizard\u0027s Defender",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WizardsDefender/overworld_e0.png",
+                                         "images/creature/WizardsDefender/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WizardsDefender/overworld_n0.png",
+                                          "images/creature/WizardsDefender/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WizardsDefender/overworld_s0.png",
+                                          "images/creature/WizardsDefender/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WizardsDefender/overworld_w0.png",
+                                         "images/creature/WizardsDefender/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Modron",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  43,
+                       "intelligence":  13,
+                       "speed":  18
+                   },
+    "trait":  1898,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpadeLuckmantria/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1192,
-  "item": 1578,
-  "lore": "Since the Luckmantrias arrived in Rodia, all kinds of rumors have arisen about their luck-related powers. That is why the Rodians quickly discovered that trying to chase them can be as dangerous as climbing to the top of a mountain during a thunderstorm.\\n\\nThe wheat and corn fields of Hutika are infested with Spade Luckmantrias, something the Uraloses are not precisely excited about. Though Luckmantrias do not feel threatened by these beings, sometimes they could be injured by accident, if it were not because someone forgot a harvesting instrument among the branches that fortuitously ended up stamped on a Uralos snout.",
-  "menagerieDialog": [
-    "(It flaps its wings excitedly, giving you a great view of its beautiful markings.)",
-    "(You can\u0027t help but feel a bit luckier than usual with this creature in your party.)",
-    "(You carefully study the patterns on its wings. From where did such a marvelous creature come from?)",
-    "(It\u0027s greedily lapping up a bowl of sugar water. Nortah always knows the best food to feed your creatures.)",
-    "(The powder on its wings is said to be poisonous, though you\u0027re not willing to test this theory out for yourself.)"
-  ],
-  "minDepth": 1,
-  "name": "Spade Luckmantria",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpadeLuckmantria/overworld_e0.png",
-      "images/creature/SpadeLuckmantria/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpadeLuckmantria/overworld_n0.png",
-      "images/creature/SpadeLuckmantria/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpadeLuckmantria/overworld_s0.png",
-      "images/creature/SpadeLuckmantria/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpadeLuckmantria/overworld_w0.png",
-      "images/creature/SpadeLuckmantria/overworld_w1.png"
-    ]
-  },
-  "race": "Luckmantria",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 6,
-    "defense": 16,
-    "health": 26,
-    "intelligence": 26,
-    "speed": 26
-  },
-  "trait": 1915
+    "battleSprite":  "images/creature/SpadeLuckmantria/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1192,
+    "item":  1578,
+    "lore":  "Since the Luckmantrias arrived in Rodia, all kinds of rumors have arisen about their luck-related powers. That is why the Rodians quickly discovered that trying to chase them can be as dangerous as climbing to the top of a mountain during a thunderstorm.\\n\\nThe wheat and corn fields of Hutika are infested with Spade Luckmantrias, something the Uraloses are not precisely excited about. Though Luckmantrias do not feel threatened by these beings, sometimes they could be injured by accident, if it were not because someone forgot a harvesting instrument among the branches that fortuitously ended up stamped on a Uralos snout.",
+    "menagerieDialog":  [
+                            "(It flaps its wings excitedly, giving you a great view of its beautiful markings.)",
+                            "(You can\u0027t help but feel a bit luckier than usual with this creature in your party.)",
+                            "(You carefully study the patterns on its wings. From where did such a marvelous creature come from?)",
+                            "(It\u0027s greedily lapping up a bowl of sugar water. Nortah always knows the best food to feed your creatures.)",
+                            "(The powder on its wings is said to be poisonous, though you\u0027re not willing to test this theory out for yourself.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spade Luckmantria",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpadeLuckmantria/overworld_e0.png",
+                                         "images/creature/SpadeLuckmantria/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpadeLuckmantria/overworld_n0.png",
+                                          "images/creature/SpadeLuckmantria/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpadeLuckmantria/overworld_s0.png",
+                                          "images/creature/SpadeLuckmantria/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpadeLuckmantria/overworld_w0.png",
+                                         "images/creature/SpadeLuckmantria/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Luckmantria",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  6,
+                       "defense":  16,
+                       "health":  26,
+                       "intelligence":  26,
+                       "speed":  26
+                   },
+    "trait":  1915,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

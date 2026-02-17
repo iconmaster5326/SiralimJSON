@@ -1,61 +1,64 @@
 {
-  "battleSprite": "images/creature/Emlai/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 723,
-  "item": 888,
-  "lore": "King Misery was defeated and killed 723 years ago in the throne room of his own kingdom, but his thirst for vengeance allowed his spirit to remain in this world. Caedo, his kingdom, became part of Gonfurian\u0027s realm, and from there he planned his return for centuries. Emlai, the last Caedo Seraph, seeks retribution for its king, who was crucified as a heretic for the second time so many years ago by none other than the ruler of Siralim. Emlai\u0027s thirst for vengeance will not be quenched until Siralim, and all the people who contributed to its king\u0027s untimely demise, are wiped from the face of Rodia.",
-  "menagerieDialog": [
-    "Someday, everything you know and love will be turned to ashes.",
-    "Together, we will fight until the break of dawn.",
-    "(It tries to talk to you, but its helmet muffles whatever it\u0027s trying to say.)",
-    "It is far more honorable to be raised to a throne than to be born to one.\\n\\n(Well, that hurt.)",
-    "I cannot stand to laze around and do nothing in this menagerie all day. Let\u0027s get a move on!"
-  ],
-  "minDepth": 1,
-  "name": "Emlai",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Emlai/overworld_e0.png",
-      "images/creature/Emlai/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Emlai/overworld_n0.png",
-      "images/creature/Emlai/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Emlai/overworld_s0.png",
-      "images/creature/Emlai/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Emlai/overworld_w0.png",
-      "images/creature/Emlai/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    153,
-    474
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    21
-  ],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 789
+    "battleSprite":  "images/creature/Emlai/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  723,
+    "item":  888,
+    "lore":  "King Misery was defeated and killed 723 years ago in the throne room of his own kingdom, but his thirst for vengeance allowed his spirit to remain in this world. Caedo, his kingdom, became part of Gonfurian\u0027s realm, and from there he planned his return for centuries. Emlai, the last Caedo Seraph, seeks retribution for its king, who was crucified as a heretic for the second time so many years ago by none other than the ruler of Siralim. Emlai\u0027s thirst for vengeance will not be quenched until Siralim, and all the people who contributed to its king\u0027s untimely demise, are wiped from the face of Rodia.",
+    "menagerieDialog":  [
+                            "Someday, everything you know and love will be turned to ashes.",
+                            "Together, we will fight until the break of dawn.",
+                            "(It tries to talk to you, but its helmet muffles whatever it\u0027s trying to say.)",
+                            "It is far more honorable to be raised to a throne than to be born to one.\\n\\n(Well, that hurt.)",
+                            "I cannot stand to laze around and do nothing in this menagerie all day. Let\u0027s get a move on!"
+                        ],
+    "minDepth":  1,
+    "name":  "Emlai",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Emlai/overworld_e0.png",
+                                         "images/creature/Emlai/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Emlai/overworld_n0.png",
+                                          "images/creature/Emlai/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Emlai/overworld_s0.png",
+                                          "images/creature/Emlai/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Emlai/overworld_w0.png",
+                                         "images/creature/Emlai/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  153,
+                  474
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            21
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  789,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

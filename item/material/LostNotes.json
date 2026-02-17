@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSingle Discipline:\nAfter this creature {ACTION_casts} a spell, it gains 10% {STAT_intelligence} for each time it was {ACTION_cast} at the same time.",
-  "icon": "images/item/material/LostNotes.png",
-  "id": 1371,
-  "name": "Lost Notes",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1678
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSingle Discipline:\nAfter this creature {ACTION_casts} a spell, it gains 10% {STAT_intelligence} for each time it was {ACTION_cast} at the same time.",
+    "icon":  "images/item/material/LostNotes.png",
+    "id":  1371,
+    "name":  "Lost Notes",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1678,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

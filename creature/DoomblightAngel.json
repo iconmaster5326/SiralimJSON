@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/DoomblightAngel/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 131,
-  "item": 100,
-  "lore": "This creature was created in times of need to mercilessly annihilate anything that crossed its path. When one of them stumbles upon a town, it does not stop until either someone stops it or it kills every single inhabitant. Like the rest of the Angels, they fought on the side of the Gods in an ancient war. To achieve victory, a sacrifice was necessary, as there can be no light without darkness. Someone had to contain that darkness, but only the wisest of them, the eternal one, knew that secret.",
-  "menagerieDialog": [
-    "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
-    "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
-    "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
-    "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
-    "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
-  ],
-  "minDepth": 1,
-  "name": "Doomblight Angel",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DoomblightAngel/overworld_e0.png",
-      "images/creature/DoomblightAngel/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DoomblightAngel/overworld_n0.png",
-      "images/creature/DoomblightAngel/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DoomblightAngel/overworld_s0.png",
-      "images/creature/DoomblightAngel/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DoomblightAngel/overworld_w0.png",
-      "images/creature/DoomblightAngel/overworld_w1.png"
-    ]
-  },
-  "race": "Angel",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Surathli)",
-      "type": "special"
-    }
-  ],
-  "specializations": [
-    24
-  ],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 14,
-    "health": 32,
-    "intelligence": 17,
-    "speed": 19
-  },
-  "trait": 9
+    "battleSprite":  "images/creature/DoomblightAngel/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  131,
+    "item":  100,
+    "lore":  "This creature was created in times of need to mercilessly annihilate anything that crossed its path. When one of them stumbles upon a town, it does not stop until either someone stops it or it kills every single inhabitant. Like the rest of the Angels, they fought on the side of the Gods in an ancient war. To achieve victory, a sacrifice was necessary, as there can be no light without darkness. Someone had to contain that darkness, but only the wisest of them, the eternal one, knew that secret.",
+    "menagerieDialog":  [
+                            "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
+                            "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
+                            "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
+                            "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
+                            "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Doomblight Angel",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DoomblightAngel/overworld_e0.png",
+                                         "images/creature/DoomblightAngel/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DoomblightAngel/overworld_n0.png",
+                                          "images/creature/DoomblightAngel/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DoomblightAngel/overworld_s0.png",
+                                          "images/creature/DoomblightAngel/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DoomblightAngel/overworld_w0.png",
+                                         "images/creature/DoomblightAngel/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Angel",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Surathli)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+                            24
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  14,
+                       "health":  32,
+                       "intelligence":  17,
+                       "speed":  19
+                   },
+    "trait":  9,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

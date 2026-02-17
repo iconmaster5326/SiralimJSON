@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpell Stealer:\nAfter an enemy {ACTION_casts} a spell on all its allies, this creature has a 50% chance to {ACTION_cast} the same spell on your creatures as well. This trait does not stack.",
-  "icon": "images/item/material/WindriderHead.png",
-  "id": 349,
-  "name": "Windrider Head",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 265
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpell Stealer:\nAfter an enemy {ACTION_casts} a spell on all its allies, this creature has a 50% chance to {ACTION_cast} the same spell on your creatures as well. This trait does not stack.",
+    "icon":  "images/item/material/WindriderHead.png",
+    "id":  349,
+    "name":  "Windrider Head",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  265,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

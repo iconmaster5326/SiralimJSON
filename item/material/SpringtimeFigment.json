@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of the Bloom:\nAfter this creature dodges, your creatures recover 30% {STAT_health}. In addition, this creature has an independent 50% chance to dodge attacks.",
-  "icon": "images/item/material/SpringtimeFigment.png",
-  "id": 516,
-  "name": "Springtime Figment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 430
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of the Bloom:\nAfter this creature dodges, your creatures recover 30% {STAT_health}. In addition, this creature has an independent 50% chance to dodge attacks.",
+    "icon":  "images/item/material/SpringtimeFigment.png",
+    "id":  516,
+    "name":  "Springtime Figment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  430,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

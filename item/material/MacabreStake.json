@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBoon to Bane:\nWhen an enemy creature would gain a buff, they have a 50% chance to gain a debuff instead. This trait does not stack.",
-  "icon": "images/item/material/MacabreStake.png",
-  "id": 481,
-  "name": "Macabre Stake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 395
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBoon to Bane:\nWhen an enemy creature would gain a buff, they have a 50% chance to gain a debuff instead. This trait does not stack.",
+    "icon":  "images/item/material/MacabreStake.png",
+    "id":  481,
+    "name":  "Macabre Stake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  395,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

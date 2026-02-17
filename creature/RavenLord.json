@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/RavenLord/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 95,
-  "item": 451,
-  "lore": "Raven culture promotes pacifism and tolerance, but many of them are corrupted by power and follow other paths. Some of these creatures actually form or lead powerful crime syndicates.\\n\\nIt is generally a Raven Lord who pulls the strings. They are smart, dangerous and very ambitious. And they like attention. Indeed, neither their crown, red stones or staff serve a purpose other than showing off their position of power.",
-  "menagerieDialog": [
-    "I\u0027d be more useful in a laboratory. Perhaps you should allow me to stay back home with Castor?",
-    "Careful research and preparation are the precursors to victory.",
-    "Make sure all your Spell Gems are fully charged before we leave. To be attacked with dull gems is to be caught with one\u0027s pants down around one\u0027s ankles.",
-    "Legends speak of a hidden relic that does not belong to any of the gods. I wonder if there\u0027s any substance to this rumor.",
-    "I can\u0027t help but feel a deep sense of foreboding. Perhaps I need to take some time away from this adventure."
-  ],
-  "minDepth": 1,
-  "name": "Raven Lord",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RavenLord/overworld_e0.png",
-      "images/creature/RavenLord/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RavenLord/overworld_n0.png",
-      "images/creature/RavenLord/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RavenLord/overworld_s0.png",
-      "images/creature/RavenLord/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RavenLord/overworld_w0.png",
-      "images/creature/RavenLord/overworld_w1.png"
-    ]
-  },
-  "race": "Raven",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 366
+    "battleSprite":  "images/creature/RavenLord/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  95,
+    "item":  451,
+    "lore":  "Raven culture promotes pacifism and tolerance, but many of them are corrupted by power and follow other paths. Some of these creatures actually form or lead powerful crime syndicates.\\n\\nIt is generally a Raven Lord who pulls the strings. They are smart, dangerous and very ambitious. And they like attention. Indeed, neither their crown, red stones or staff serve a purpose other than showing off their position of power.",
+    "menagerieDialog":  [
+                            "I\u0027d be more useful in a laboratory. Perhaps you should allow me to stay back home with Castor?",
+                            "Careful research and preparation are the precursors to victory.",
+                            "Make sure all your Spell Gems are fully charged before we leave. To be attacked with dull gems is to be caught with one\u0027s pants down around one\u0027s ankles.",
+                            "Legends speak of a hidden relic that does not belong to any of the gods. I wonder if there\u0027s any substance to this rumor.",
+                            "I can\u0027t help but feel a deep sense of foreboding. Perhaps I need to take some time away from this adventure."
+                        ],
+    "minDepth":  1,
+    "name":  "Raven Lord",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RavenLord/overworld_e0.png",
+                                         "images/creature/RavenLord/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RavenLord/overworld_n0.png",
+                                          "images/creature/RavenLord/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RavenLord/overworld_s0.png",
+                                          "images/creature/RavenLord/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RavenLord/overworld_w0.png",
+                                         "images/creature/RavenLord/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Raven",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  366,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

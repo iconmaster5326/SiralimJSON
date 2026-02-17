@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCreation Dirge:\nAfter this creature is {ACTION_attacked}, it decreases the enemy\u0027s {STAT_attack}, {STAT_defense}, {STAT_intelligence}, and {STAT_speed} by 25%.",
-  "icon": "images/item/material/DreadEmbryo.png",
-  "id": 625,
-  "name": "Dread Embryo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 195
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCreation Dirge:\nAfter this creature is {ACTION_attacked}, it decreases the enemy\u0027s {STAT_attack}, {STAT_defense}, {STAT_intelligence}, and {STAT_speed} by 25%.",
+    "icon":  "images/item/material/DreadEmbryo.png",
+    "id":  625,
+    "name":  "Dread Embryo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  195,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,43 +1,46 @@
 {
-  "arsenal": true,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Your creatures gain {CONDNAME_BUFF_IMMUNITY}. This spell is an {SPELL_equipment}.",
-  "god": null,
-  "id": 338,
-  "manuallyCastable": true,
-  "maxCharges": 4,
-  "name": "Living Ribbon",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "ARTIFACT",
-    "UTILITY"
-  ],
-  "targets": "allies"
+    "arsenal":  true,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Your creatures gain {CONDNAME_BUFF_IMMUNITY}. This spell is an {SPELL_equipment}.",
+    "god":  null,
+    "id":  338,
+    "manuallyCastable":  true,
+    "maxCharges":  4,
+    "name":  "Living Ribbon",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "ARTIFACT",
+                 "UTILITY"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

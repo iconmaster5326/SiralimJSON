@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(The Cockatrice begins throwing the mother of all tantrums as you approach! The sheer amount of noise attracts more creatures who want the treasure for themselves!)",
-    "(True to character, the Cockatrice immediately flings itself at you the second it sees you, becoming a scratching, biting, fluttering ball of rage. Your creatures move to protect you!)",
-    "(You try to sneak up to the treasure hoard, but the Cockatrice wakes up and immediately makes a tremendously dangerous nuisance of itself. It just isn\u0027t your lucky day.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have 1 more base {STAT_attack}.",
-    "4": "Your creatures have 1 more base {STAT_attack}.",
-    "6": "Your creatures have 1 more base {STAT_attack}."
-  },
-  "cards": 6,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    815,
-    816,
-    817,
-    818,
-    819,
-    820
-  ],
-  "icon": "images/race/Cockatrice.png",
-  "master": {
-    "costume": 314,
-    "dialog": "Make no mistake: Cockatrices are weird. But isn\u0027t everyone a little odd in their own way? Cockatrices like to make other creatures feel welcome no matter who they are. Such inclusion translates into brilliant teamwork in battle as well. Let me show you!",
-    "item": 1279,
-    "name": "Imba",
-    "trait": 1415
-  },
-  "name": "Cockatrice",
-  "notes": [],
-  "skins": [
-    295,
-    491,
-    656,
-    657,
-    821
-  ]
+    "bossDialog":  [
+                       "(The Cockatrice begins throwing the mother of all tantrums as you approach! The sheer amount of noise attracts more creatures who want the treasure for themselves!)",
+                       "(True to character, the Cockatrice immediately flings itself at you the second it sees you, becoming a scratching, biting, fluttering ball of rage. Your creatures move to protect you!)",
+                       "(You try to sneak up to the treasure hoard, but the Cockatrice wakes up and immediately makes a tremendously dangerous nuisance of itself. It just isn\u0027t your lucky day.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have 1 more base {STAT_attack}.",
+                        "4":  "Your creatures have 1 more base {STAT_attack}.",
+                        "6":  "Your creatures have 1 more base {STAT_attack}."
+                    },
+    "cards":  6,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      815,
+                      816,
+                      817,
+                      818,
+                      819,
+                      820
+                  ],
+    "icon":  "images/race/Cockatrice.png",
+    "master":  {
+                   "costume":  314,
+                   "dialog":  "Make no mistake: Cockatrices are weird. But isn\u0027t everyone a little odd in their own way? Cockatrices like to make other creatures feel welcome no matter who they are. Such inclusion translates into brilliant teamwork in battle as well. Let me show you!",
+                   "item":  1279,
+                   "name":  "Imba",
+                   "trait":  1415
+               },
+    "name":  "Cockatrice",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  295,
+                  491,
+                  656,
+                  657,
+                  821
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

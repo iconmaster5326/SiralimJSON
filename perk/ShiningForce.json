@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your creatures gain {CONDNAME_BUFF_REBIRTH}.\\n\\n{CONDDESC_BUFF_REBIRTH}",
-  "icon": "images/perk/ShiningForce.png",
-  "id": 81,
-  "maxRanks": 1,
-  "name": "Shining Force",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 6
+    "anointable":  true,
+    "description":  "At the start of battle, your creatures gain {CONDNAME_BUFF_REBIRTH}.\\n\\n{CONDDESC_BUFF_REBIRTH}",
+    "icon":  "images/perk/ShiningForce.png",
+    "id":  81,
+    "maxRanks":  1,
+    "name":  "Shining Force",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  6,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

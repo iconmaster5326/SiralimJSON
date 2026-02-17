@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBook of the Dead:\nAt the start of battle, this creature {ACTION_casts} its first 2 permanent Spell Gems that summon minions.",
-  "icon": "images/item/material/NecroParchment.png",
-  "id": 491,
-  "name": "Necro Parchment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 405
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBook of the Dead:\nAt the start of battle, this creature {ACTION_casts} its first 2 permanent Spell Gems that summon minions.",
+    "icon":  "images/item/material/NecroParchment.png",
+    "id":  491,
+    "name":  "Necro Parchment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  405,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

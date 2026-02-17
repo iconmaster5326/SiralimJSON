@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfusion:\nYour creatures {ACTION_cast} {CLASS_Life} spells as if they have 100% more {STAT_intelligence}. This trait does not stack.",
-  "icon": "images/item/material/BurhuaEyeball.png",
-  "id": 165,
-  "name": "Burhua Eyeball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 75
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfusion:\nYour creatures {ACTION_cast} {CLASS_Life} spells as if they have 100% more {STAT_intelligence}. This trait does not stack.",
+    "icon":  "images/item/material/BurhuaEyeball.png",
+    "id":  165,
+    "name":  "Burhua Eyeball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  75,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

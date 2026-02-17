@@ -1,42 +1,45 @@
 {
-  "bossDialog": [
-    "(A frigid breeze blows by and encases the treasure in solid ice. You soon hear a low growl as a huge Yeti emerges from the shadows, furious at your intrusion!)",
-    "(A large chunk of ice sits among the treasure hoard. Soon it begins to crack and splinter, before shattering outright as the Yeti within bursts free and attacks!)",
-    "(The Yeti looks up at you hungrily, dropping the piece of meat it had been eating when you entered the room and advancing upon you with a greedy look in its eyes!)"
-  ],
-  "cardBonuses": {
-    "2": "{CONDNAME_DEBUFF_FROZEN} enemies have a 5% lower base chance to thaw.",
-    "4": "Decreases {CONDNAME_DEBUFF_FROZEN} enemies\u0027 chance to thaw each turn by 10%.",
-    "7": "Enemies\u0027 {CONDNAME_DEBUFF_FROZEN} debuffs have a 50% chance to not gain an increased chance to thaw at the end of their turns."
-  },
-  "cards": 7,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    464,
-    465,
-    466,
-    467,
-    468,
-    469,
-    605
-  ],
-  "icon": "images/race/Yeti.png",
-  "master": {
-    "costume": 415,
-    "dialog": "My Yetis will freeze your creatures in their tracks. I\u0027ll finish you off before your creatures get a chance to move! Let\u0027s fight!",
-    "item": 1193,
-    "name": "Bjorn",
-    "trait": 1519
-  },
-  "name": "Yeti",
-  "notes": [],
-  "skins": [
-    189,
-    346,
-    381,
-    444,
-    513,
-    803
-  ]
+    "bossDialog":  [
+                       "(A frigid breeze blows by and encases the treasure in solid ice. You soon hear a low growl as a huge Yeti emerges from the shadows, furious at your intrusion!)",
+                       "(A large chunk of ice sits among the treasure hoard. Soon it begins to crack and splinter, before shattering outright as the Yeti within bursts free and attacks!)",
+                       "(The Yeti looks up at you hungrily, dropping the piece of meat it had been eating when you entered the room and advancing upon you with a greedy look in its eyes!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "{CONDNAME_DEBUFF_FROZEN} enemies have a 5% lower base chance to thaw.",
+                        "4":  "Decreases {CONDNAME_DEBUFF_FROZEN} enemies\u0027 chance to thaw each turn by 10%.",
+                        "7":  "Enemies\u0027 {CONDNAME_DEBUFF_FROZEN} debuffs have a 50% chance to not gain an increased chance to thaw at the end of their turns."
+                    },
+    "cards":  7,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      464,
+                      465,
+                      466,
+                      467,
+                      468,
+                      469,
+                      605
+                  ],
+    "icon":  "images/race/Yeti.png",
+    "master":  {
+                   "costume":  415,
+                   "dialog":  "My Yetis will freeze your creatures in their tracks. I\u0027ll finish you off before your creatures get a chance to move! Let\u0027s fight!",
+                   "item":  1193,
+                   "name":  "Bjorn",
+                   "trait":  1519
+               },
+    "name":  "Yeti",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  189,
+                  346,
+                  381,
+                  444,
+                  513,
+                  803
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

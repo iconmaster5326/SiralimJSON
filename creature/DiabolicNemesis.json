@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DiabolicNemesis/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 314,
-  "item": 327,
-  "lore": "The Diabolic Nemesis is considered a shaman by the members of the Horde. It often gives advice to its people and speaks to them about the Word of Gonfurian and their sacred duty of fighting and pillaging. When it knows there is a difficult fight ahead, it will start a ritual the night before the battle. This ritual ends with the preparation of a brew to calm the spirit and make it more resilient.",
-  "menagerieDialog": [
-    "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
-    "What are we doing here? Let\u0027s get moving!",
-    "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
-    "(It\u0027s busy feeding rotten meat to its pups.)",
-    "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
-  ],
-  "minDepth": 1,
-  "name": "Diabolic Nemesis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DiabolicNemesis/overworld_e0.png",
-      "images/creature/DiabolicNemesis/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DiabolicNemesis/overworld_n0.png",
-      "images/creature/DiabolicNemesis/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DiabolicNemesis/overworld_s0.png",
-      "images/creature/DiabolicNemesis/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DiabolicNemesis/overworld_w0.png",
-      "images/creature/DiabolicNemesis/overworld_w1.png"
-    ]
-  },
-  "race": "Diabolic Horde",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 38,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 243
+    "battleSprite":  "images/creature/DiabolicNemesis/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  314,
+    "item":  327,
+    "lore":  "The Diabolic Nemesis is considered a shaman by the members of the Horde. It often gives advice to its people and speaks to them about the Word of Gonfurian and their sacred duty of fighting and pillaging. When it knows there is a difficult fight ahead, it will start a ritual the night before the battle. This ritual ends with the preparation of a brew to calm the spirit and make it more resilient.",
+    "menagerieDialog":  [
+                            "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
+                            "What are we doing here? Let\u0027s get moving!",
+                            "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
+                            "(It\u0027s busy feeding rotten meat to its pups.)",
+                            "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Diabolic Nemesis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DiabolicNemesis/overworld_e0.png",
+                                         "images/creature/DiabolicNemesis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DiabolicNemesis/overworld_n0.png",
+                                          "images/creature/DiabolicNemesis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DiabolicNemesis/overworld_s0.png",
+                                          "images/creature/DiabolicNemesis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DiabolicNemesis/overworld_w0.png",
+                                         "images/creature/DiabolicNemesis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Diabolic Horde",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  38,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  243,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

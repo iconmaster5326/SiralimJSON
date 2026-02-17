@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOptimism:\nAfter this creature is {ACTION_attacked}, it gains 25% {STAT_defense} and {STAT_speed}.",
-  "icon": "images/item/material/AshwoodBranch.png",
-  "id": 557,
-  "name": "Ashwood Branch",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 471
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOptimism:\nAfter this creature is {ACTION_attacked}, it gains 25% {STAT_defense} and {STAT_speed}.",
+    "icon":  "images/item/material/AshwoodBranch.png",
+    "id":  557,
+    "name":  "Ashwood Branch",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  471,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

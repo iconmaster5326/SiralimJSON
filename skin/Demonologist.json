@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Demonologist/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 802,
-  "name": "Demonologist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Demonologist/overworld_e0.png",
-      "images/skin/Demonologist/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Demonologist/overworld_n0.png",
-      "images/skin/Demonologist/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Demonologist/overworld_s0.png",
-      "images/skin/Demonologist/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Demonologist/overworld_w0.png",
-      "images/skin/Demonologist/overworld_w1.png"
-    ]
-  },
-  "race": "Inquisitor",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Demonologist/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  802,
+    "name":  "Demonologist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Demonologist/overworld_e0.png",
+                                         "images/skin/Demonologist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Demonologist/overworld_n0.png",
+                                          "images/skin/Demonologist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Demonologist/overworld_s0.png",
+                                          "images/skin/Demonologist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Demonologist/overworld_w0.png",
+                                         "images/skin/Demonologist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Inquisitor",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

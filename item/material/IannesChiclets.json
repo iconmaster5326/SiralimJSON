@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIanne\u0027s Quirk:\nAfter this creature {ACTION_attacks} it {ACTION_casts} [icons,1976] Metamorphosis on the target.",
-  "icon": "images/item/material/IannesChiclets.png",
-  "id": 643,
-  "name": "Ianne\u0027s Chiclets",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 958
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIanne\u0027s Quirk:\nAfter this creature {ACTION_attacks} it {ACTION_casts} [icons,1976] Metamorphosis on the target.",
+    "icon":  "images/item/material/IannesChiclets.png",
+    "id":  643,
+    "name":  "Ianne\u0027s Chiclets",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  958,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

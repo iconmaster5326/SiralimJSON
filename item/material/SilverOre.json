@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDevotion:\nIf you only have one {RACE_Imler} and one {RACE_Imling} fighting on your side, both creatures take 65% less damage. This trait does not stack.",
-  "icon": "images/item/material/SilverOre.png",
-  "id": 535,
-  "name": "Silver Ore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 449
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDevotion:\nIf you only have one {RACE_Imler} and one {RACE_Imling} fighting on your side, both creatures take 65% less damage. This trait does not stack.",
+    "icon":  "images/item/material/SilverOre.png",
+    "id":  535,
+    "name":  "Silver Ore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  449,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

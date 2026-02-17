@@ -1,52 +1,55 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "Target creature is transformed into a creature that belongs to its same race, and gains a massive amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. If the battle is a boss battle, this spell only works on your creatures.",
-  "god": null,
-  "id": 378,
-  "manuallyCastable": true,
-  "maxCharges": 5,
-  "name": "Evolution",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    5,
-    6,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY",
-    "BOOST"
-  ],
-  "targets": "one"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "Target creature is transformed into a creature that belongs to its same race, and gains a massive amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. If the battle is a boss battle, this spell only works on your creatures.",
+    "god":  null,
+    "id":  378,
+    "manuallyCastable":  true,
+    "maxCharges":  5,
+    "name":  "Evolution",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  5,
+                                  6,
+                                  9,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY",
+                 "BOOST"
+             ],
+    "targets":  "one",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

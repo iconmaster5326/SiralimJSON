@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Solaris/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1470,
-  "item": 1725,
-  "lore": "This creature emits a bright, steady light but produces no heat. It floats silently with the same expression, unsettling anyone who watches it for too long. Often found over ancient battlefields or sites of tragedy, as if trying to purify what can no longer be changed. Sometimes it removes its sunglasses as a sign of respect for the fallen.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Solaris",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Solaris/overworld_e0.png",
-      "images/creature/Solaris/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Solaris/overworld_n0.png",
-      "images/creature/Solaris/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Solaris/overworld_s0.png",
-      "images/creature/Solaris/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Solaris/overworld_w0.png",
-      "images/creature/Solaris/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2067
+    "battleSprite":  "images/creature/Solaris/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1470,
+    "item":  1725,
+    "lore":  "This creature emits a bright, steady light but produces no heat. It floats silently with the same expression, unsettling anyone who watches it for too long. Often found over ancient battlefields or sites of tragedy, as if trying to purify what can no longer be changed. Sometimes it removes its sunglasses as a sign of respect for the fallen.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Solaris",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Solaris/overworld_e0.png",
+                                         "images/creature/Solaris/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Solaris/overworld_n0.png",
+                                          "images/creature/Solaris/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Solaris/overworld_s0.png",
+                                          "images/creature/Solaris/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Solaris/overworld_w0.png",
+                                         "images/creature/Solaris/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2067,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(The Masochist cracks an unnerving grin before shoving one of their katars right through their own hand, licking the blood off the blade. You decide to finish this before it gets any more awkward.)",
-    "Don\u0027t be afraid. I have such sights to show you.",
-    "Hit me as hard as you can. I love it!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures take 3% less damage.",
-    "5": "Your creatures take 3% less damage.",
-    "8": "Your creatures take 3% less damage."
-  },
-  "cards": 8,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    500,
-    501,
-    502,
-    503,
-    504,
-    505,
-    691,
-    978
-  ],
-  "icon": "images/race/Masochist.png",
-  "master": {
-    "costume": 358,
-    "dialog": "Masochists realize that, much like how it takes money to make money, it also takes pain to make pain. Sure, they spend the first several moments of battle taking a beating, but they\u0027re great at turning things around. Let me show you!",
-    "item": 1224,
-    "name": "Sceledrus",
-    "trait": 1459
-  },
-  "name": "Masochist",
-  "notes": [],
-  "skins": [
-    48,
-    116,
-    376
-  ]
+    "bossDialog":  [
+                       "(The Masochist cracks an unnerving grin before shoving one of their katars right through their own hand, licking the blood off the blade. You decide to finish this before it gets any more awkward.)",
+                       "Don\u0027t be afraid. I have such sights to show you.",
+                       "Hit me as hard as you can. I love it!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures take 3% less damage.",
+                        "5":  "Your creatures take 3% less damage.",
+                        "8":  "Your creatures take 3% less damage."
+                    },
+    "cards":  8,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      500,
+                      501,
+                      502,
+                      503,
+                      504,
+                      505,
+                      691,
+                      978
+                  ],
+    "icon":  "images/race/Masochist.png",
+    "master":  {
+                   "costume":  358,
+                   "dialog":  "Masochists realize that, much like how it takes money to make money, it also takes pain to make pain. Sure, they spend the first several moments of battle taking a beating, but they\u0027re great at turning things around. Let me show you!",
+                   "item":  1224,
+                   "name":  "Sceledrus",
+                   "trait":  1459
+               },
+    "name":  "Masochist",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  48,
+                  116,
+                  376
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

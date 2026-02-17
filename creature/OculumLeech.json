@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/OculumLeech/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 856,
-  "item": 1006,
-  "lore": "Leeches reportedly feed on the blood of the dead creature that Mortem claimed as his realm. They have been able to survive in this way for thousands of years. On the other hand, it seems like the survival instincts of these creatures have atrophied, or rather, were never really there in the first place.\\n\\nAlthough the Oculum Leech is able to see through its eye, it does not understand what it is seeing, and it is unable to use that information at all. When it tries to feed, its sight intereferes with its sense of smell, so it often tries to suck blood from a tree or a wall.",
-  "menagerieDialog": [
-    "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
-    "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
-    "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
-    "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
-    "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
-  ],
-  "minDepth": 1,
-  "name": "Oculum Leech",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OculumLeech/overworld_e0.png",
-      "images/creature/OculumLeech/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OculumLeech/overworld_n0.png",
-      "images/creature/OculumLeech/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OculumLeech/overworld_s0.png",
-      "images/creature/OculumLeech/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OculumLeech/overworld_w0.png",
-      "images/creature/OculumLeech/overworld_w1.png"
-    ]
-  },
-  "race": "Leech",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 1122
+    "battleSprite":  "images/creature/OculumLeech/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  856,
+    "item":  1006,
+    "lore":  "Leeches reportedly feed on the blood of the dead creature that Mortem claimed as his realm. They have been able to survive in this way for thousands of years. On the other hand, it seems like the survival instincts of these creatures have atrophied, or rather, were never really there in the first place.\\n\\nAlthough the Oculum Leech is able to see through its eye, it does not understand what it is seeing, and it is unable to use that information at all. When it tries to feed, its sight intereferes with its sense of smell, so it often tries to suck blood from a tree or a wall.",
+    "menagerieDialog":  [
+                            "(Visions of it sucking the blood from your skull will haunt your nightmares for all eternity.)",
+                            "(You\u0027re horrified to see that fresh blood is dripping from its mouth. Who\u0027d he kill this time?)",
+                            "(No matter how hard you try, you just can\u0027t seem to find any beauty in this creature.)",
+                            "(This creature\u0027s flesh is always lubricated with blood and it smells like copper.)",
+                            "(It lets out a little burp as it sprays blood all over your boots. Nice.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Oculum Leech",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OculumLeech/overworld_e0.png",
+                                         "images/creature/OculumLeech/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OculumLeech/overworld_n0.png",
+                                          "images/creature/OculumLeech/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OculumLeech/overworld_s0.png",
+                                          "images/creature/OculumLeech/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OculumLeech/overworld_w0.png",
+                                         "images/creature/OculumLeech/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Leech",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  1122,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

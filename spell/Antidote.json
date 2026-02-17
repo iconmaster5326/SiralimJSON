@@ -1,51 +1,54 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "The duration of your creatures\u0027 debuffs is reduced by 1 turn, and they recover a small amount of {STAT_health} for each debuff.",
-  "god": null,
-  "id": 6,
-  "manuallyCastable": true,
-  "maxCharges": 17,
-  "name": "Antidote",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    2,
-    3,
-    5,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "HEAL",
-    "DISPEL"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "The duration of your creatures\u0027 debuffs is reduced by 1 turn, and they recover a small amount of {STAT_health} for each debuff.",
+    "god":  null,
+    "id":  6,
+    "manuallyCastable":  true,
+    "maxCharges":  17,
+    "name":  "Antidote",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  2,
+                                  3,
+                                  5,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "HEAL",
+                 "DISPEL"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

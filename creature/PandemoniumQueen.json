@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PandemoniumQueen/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 725,
-  "item": null,
-  "lore": "This creature is a manifestation of Vulcanar\u0027s sense of humor, poured into his Pandemonium Tokens in the form of a floating fortress that spits fire and blazing rocks. Although harmless to most civilians, it can wreak havoc when summoned in the middle of nature, even when it simply opens its mouth to insult whoever summoned it. Specifically, Vulcanar thought it would be hilarious if an adventurer made it appear in the middle of the Cutthroat Jungle to set the trees on fire and make Torun mad.",
-  "menagerieDialog": [
-    "Oh, I\u0027m so tired...\\n\\n(It breathes out deeply, throwing your hood back and shaking your hair violently. A loose brick almost hits you.)",
-    "WRRRRAAAAAAGHHHH...\\n\\nUgh... Cough. Ahem. Sorry about that. I think a Troll got caught in my teeth.",
-    "The maximum number of decorations that can be placed inside me is 50. If you wish to place additional decorations, please remove some first.",
-    "I\u0027m a castle within a castle. How strange!",
-    "(Its teeth are chattering, which makes far more noise than you would have imagined.)"
-  ],
-  "minDepth": 1,
-  "name": "Pandemonium Queen",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PandemoniumQueen/overworld_e0.png",
-      "images/creature/PandemoniumQueen/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PandemoniumQueen/overworld_n0.png",
-      "images/creature/PandemoniumQueen/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PandemoniumQueen/overworld_s0.png",
-      "images/creature/PandemoniumQueen/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PandemoniumQueen/overworld_w0.png",
-      "images/creature/PandemoniumQueen/overworld_w1.png"
-    ]
-  },
-  "race": "Doom Fortress",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 27,
-    "health": 43,
-    "intelligence": 17,
-    "speed": 7
-  },
-  "trait": 780
+    "battleSprite":  "images/creature/PandemoniumQueen/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  725,
+    "item":  null,
+    "lore":  "This creature is a manifestation of Vulcanar\u0027s sense of humor, poured into his Pandemonium Tokens in the form of a floating fortress that spits fire and blazing rocks. Although harmless to most civilians, it can wreak havoc when summoned in the middle of nature, even when it simply opens its mouth to insult whoever summoned it. Specifically, Vulcanar thought it would be hilarious if an adventurer made it appear in the middle of the Cutthroat Jungle to set the trees on fire and make Torun mad.",
+    "menagerieDialog":  [
+                            "Oh, I\u0027m so tired...\\n\\n(It breathes out deeply, throwing your hood back and shaking your hair violently. A loose brick almost hits you.)",
+                            "WRRRRAAAAAAGHHHH...\\n\\nUgh... Cough. Ahem. Sorry about that. I think a Troll got caught in my teeth.",
+                            "The maximum number of decorations that can be placed inside me is 50. If you wish to place additional decorations, please remove some first.",
+                            "I\u0027m a castle within a castle. How strange!",
+                            "(Its teeth are chattering, which makes far more noise than you would have imagined.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pandemonium Queen",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PandemoniumQueen/overworld_e0.png",
+                                         "images/creature/PandemoniumQueen/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PandemoniumQueen/overworld_n0.png",
+                                          "images/creature/PandemoniumQueen/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PandemoniumQueen/overworld_s0.png",
+                                          "images/creature/PandemoniumQueen/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PandemoniumQueen/overworld_w0.png",
+                                         "images/creature/PandemoniumQueen/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doom Fortress",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  27,
+                       "health":  43,
+                       "intelligence":  17,
+                       "speed":  7
+                   },
+    "trait":  780,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

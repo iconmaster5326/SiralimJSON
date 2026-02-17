@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCantripology:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} its top-most, Unsealed Spell Gem. Then, that Spell Gem is Sealed.",
-  "icon": "images/item/material/AmetrineShard.png",
-  "id": 1531,
-  "name": "Ametrine Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1872
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCantripology:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} its top-most, Unsealed Spell Gem. Then, that Spell Gem is Sealed.",
+    "icon":  "images/item/material/AmetrineShard.png",
+    "id":  1531,
+    "name":  "Ametrine Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1872,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

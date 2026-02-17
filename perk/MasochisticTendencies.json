@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures\u0027 spells no longer consume {STAT_charges}. Before your creatures {ACTION_cast} a spell, they deal damage to themselves equal to 25% of their Maximum {STAT_health}.",
-  "icon": "images/perk/MasochisticTendencies.png",
-  "id": 232,
-  "maxRanks": 1,
-  "name": "Masochistic Tendencies",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 16
+    "anointable":  true,
+    "description":  "Your creatures\u0027 spells no longer consume {STAT_charges}. Before your creatures {ACTION_cast} a spell, they deal damage to themselves equal to 25% of their Maximum {STAT_health}.",
+    "icon":  "images/perk/MasochisticTendencies.png",
+    "id":  232,
+    "maxRanks":  1,
+    "name":  "Masochistic Tendencies",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  16,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

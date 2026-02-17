@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Ravens:\nYour {RACE_Raven}s have 15% more {STAT_intelligence} and {STAT_speed} for each {RACE_Raven} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheRaven.png",
-  "id": 1223,
-  "name": "Sigil of the Raven",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1478
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Ravens:\nYour {RACE_Raven}s have 15% more {STAT_intelligence} and {STAT_speed} for each {RACE_Raven} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheRaven.png",
+    "id":  1223,
+    "name":  "Sigil of the Raven",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1478,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

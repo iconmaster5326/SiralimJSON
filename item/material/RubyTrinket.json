@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnnex:\nThis creature has 5% more {STAT_intelligence} for each spell that has been {ACTION_cast} by all creatures in the current battle.",
-  "icon": "images/item/material/RubyTrinket.png",
-  "id": 928,
-  "name": "Ruby Trinket",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1200
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAnnex:\nThis creature has 5% more {STAT_intelligence} for each spell that has been {ACTION_cast} by all creatures in the current battle.",
+    "icon":  "images/item/material/RubyTrinket.png",
+    "id":  928,
+    "name":  "Ruby Trinket",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1200,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

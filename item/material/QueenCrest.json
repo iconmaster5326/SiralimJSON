@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBRAAAAWK!:\nAt the end of each enemy\u0027s turn, this creature has a 50% chance to {ACTION_cast} a random spell.",
-  "icon": "images/item/material/QueenCrest.png",
-  "id": 370,
-  "name": "Queen Crest",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 286
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBRAAAAWK!:\nAt the end of each enemy\u0027s turn, this creature has a 50% chance to {ACTION_cast} a random spell.",
+    "icon":  "images/item/material/QueenCrest.png",
+    "id":  370,
+    "name":  "Queen Crest",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  286,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ToylandAmalgamation/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1094,
-  "item": 1633,
-  "lore": "These creatures have recently been put up for sale on the Siralim black market. They are fast, tough and capable of knocking down a wall without too much difficulty. The authorities believe they were made by a Mage who managed to escape from prison not long ago, but the investigation has not yet concluded. If wound up, this creature emits a hallucinogenic gas through its ears that takes five minutes to take effect, making it a potential tool for thieves.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Toyland Amalgamation",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ToylandAmalgamation/overworld_e0.png",
-      "images/creature/ToylandAmalgamation/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ToylandAmalgamation/overworld_n0.png",
-      "images/creature/ToylandAmalgamation/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ToylandAmalgamation/overworld_s0.png",
-      "images/creature/ToylandAmalgamation/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ToylandAmalgamation/overworld_w0.png",
-      "images/creature/ToylandAmalgamation/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1733
+    "battleSprite":  "images/creature/ToylandAmalgamation/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1094,
+    "item":  1633,
+    "lore":  "These creatures have recently been put up for sale on the Siralim black market. They are fast, tough and capable of knocking down a wall without too much difficulty. The authorities believe they were made by a Mage who managed to escape from prison not long ago, but the investigation has not yet concluded. If wound up, this creature emits a hallucinogenic gas through its ears that takes five minutes to take effect, making it a potential tool for thieves.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Toyland Amalgamation",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ToylandAmalgamation/overworld_e0.png",
+                                         "images/creature/ToylandAmalgamation/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ToylandAmalgamation/overworld_n0.png",
+                                          "images/creature/ToylandAmalgamation/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ToylandAmalgamation/overworld_s0.png",
+                                          "images/creature/ToylandAmalgamation/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ToylandAmalgamation/overworld_w0.png",
+                                         "images/creature/ToylandAmalgamation/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1733,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

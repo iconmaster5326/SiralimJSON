@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Bejem/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1090,
-  "item": 1526,
-  "lore": "These creatures can only be found in the wild in the kingdom of Ahruna. Their multicolored shells attract many insects they feed on, so they never need to go in search of prey. In addition, these creatures are capable of changing color at will, so it is very easy for them to hide if someone tries to capture them. Over time, they have learned to make their colors fade if they are caught, so they are no longer attractive to those who would catch them to keep as pets.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Bejem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Bejem/overworld_e0.png",
-      "images/creature/Bejem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Bejem/overworld_n0.png",
-      "images/creature/Bejem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Bejem/overworld_s0.png",
-      "images/creature/Bejem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Bejem/overworld_w0.png",
-      "images/creature/Bejem/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 17,
-    "health": 36,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 1833
+    "battleSprite":  "images/creature/Bejem/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1090,
+    "item":  1526,
+    "lore":  "These creatures can only be found in the wild in the kingdom of Ahruna. Their multicolored shells attract many insects they feed on, so they never need to go in search of prey. In addition, these creatures are capable of changing color at will, so it is very easy for them to hide if someone tries to capture them. Over time, they have learned to make their colors fade if they are caught, so they are no longer attractive to those who would catch them to keep as pets.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Bejem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Bejem/overworld_e0.png",
+                                         "images/creature/Bejem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Bejem/overworld_n0.png",
+                                          "images/creature/Bejem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Bejem/overworld_s0.png",
+                                          "images/creature/Bejem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Bejem/overworld_w0.png",
+                                         "images/creature/Bejem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  17,
+                       "health":  36,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  1833,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

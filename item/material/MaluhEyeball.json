@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWorship:\nAfter your creatures manually {ACTION_cast} a {CLASS_Life} spell, they gain a random trait. This trait does not stack.",
-  "icon": "images/item/material/MaluhEyeball.png",
-  "id": 843,
-  "name": "Maluh Eyeball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 870
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWorship:\nAfter your creatures manually {ACTION_cast} a {CLASS_Life} spell, they gain a random trait. This trait does not stack.",
+    "icon":  "images/item/material/MaluhEyeball.png",
+    "id":  843,
+    "name":  "Maluh Eyeball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  870,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

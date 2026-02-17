@@ -1,44 +1,47 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "chaos",
-  "creator": null,
-  "description": "Your creatures gain a random buff and enemies are afflicted with a random debuff for each enemy with {CONDNAME_DEBUFF_BURNED}.",
-  "god": null,
-  "id": 549,
-  "manuallyCastable": true,
-  "maxCharges": 4,
-  "name": "Radiant Sunfire",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    6,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BUFF",
-    "DEBUFF"
-  ],
-  "targets": "all"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "chaos",
+    "creator":  null,
+    "description":  "Your creatures gain a random buff and enemies are afflicted with a random debuff for each enemy with {CONDNAME_DEBUFF_BURNED}.",
+    "god":  null,
+    "id":  549,
+    "manuallyCastable":  true,
+    "maxCharges":  4,
+    "name":  "Radiant Sunfire",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  6,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BUFF",
+                 "DEBUFF"
+             ],
+    "targets":  "all",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

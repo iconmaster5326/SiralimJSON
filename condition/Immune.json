@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_IMMUNITY} can\u0027t be afflicted with debuffs.",
-  "icon": "images/condition/Immune.png",
-  "iconResisted": null,
-  "id": 51,
-  "material": 52,
-  "name": "Immune",
-  "notes": [],
-  "reserved": true,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_IMMUNITY} can\u0027t be afflicted with debuffs.",
+    "icon":  "images/condition/Immune.png",
+    "iconResisted":  null,
+    "id":  51,
+    "material":  52,
+    "name":  "Immune",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/StagIdol/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 586,
-  "item": 685,
-  "lore": "Overnight, the Stag Idol has become one of the most coveted trophies for Rodia\u0027s hunters. Its golden antlers have won it fame, but it is not easy prey by any means. Endowed with magical powers and an extraordinary strength, this creature is capable of overpowering seasoned warriors with a headbutt that sometimes even tears through their organs.",
-  "menagerieDialog": [
-    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
-    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
-    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
-    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
-    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Stag Idol",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StagIdol/overworld_e0.png",
-      "images/creature/StagIdol/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StagIdol/overworld_n0.png",
-      "images/creature/StagIdol/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StagIdol/overworld_s0.png",
-      "images/creature/StagIdol/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StagIdol/overworld_w0.png",
-      "images/creature/StagIdol/overworld_w1.png"
-    ]
-  },
-  "race": "Stag",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 34,
-    "intelligence": 22,
-    "speed": 17
-  },
-  "trait": 623
+    "battleSprite":  "images/creature/StagIdol/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  586,
+    "item":  685,
+    "lore":  "Overnight, the Stag Idol has become one of the most coveted trophies for Rodia\u0027s hunters. Its golden antlers have won it fame, but it is not easy prey by any means. Endowed with magical powers and an extraordinary strength, this creature is capable of overpowering seasoned warriors with a headbutt that sometimes even tears through their organs.",
+    "menagerieDialog":  [
+                            "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+                            "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+                            "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+                            "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+                            "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Stag Idol",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StagIdol/overworld_e0.png",
+                                         "images/creature/StagIdol/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StagIdol/overworld_n0.png",
+                                          "images/creature/StagIdol/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StagIdol/overworld_s0.png",
+                                          "images/creature/StagIdol/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StagIdol/overworld_w0.png",
+                                         "images/creature/StagIdol/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Stag",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  34,
+                       "intelligence":  22,
+                       "speed":  17
+                   },
+    "trait":  623,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

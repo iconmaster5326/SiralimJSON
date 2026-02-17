@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TrollArsonist/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 72,
-  "item": 574,
-  "lore": "Although Trolls do not pose a serious threat to any seasoned traveler, these creatures have proved to be a problem for Rodia\u0027s inhabitants for two reasons: they are extremely prolific and prone to violence.\\n\\nTroll Arsonists are especially problematic, as their main priority seems to be burning anything that crosses their path.",
-  "menagerieDialog": [
-    "Human kings are weak. You should let us Trolls lead you instead!",
-    "Let\u0027s go burn some villages down!",
-    "You rely on magic far too much. Brute strength is always the way to go!",
-    "(You\u0027re constantly amazed at just how badly this creature smells.)",
-    "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
-  ],
-  "minDepth": 1,
-  "name": "Troll Arsonist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TrollArsonist/overworld_e0.png",
-      "images/creature/TrollArsonist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TrollArsonist/overworld_n0.png",
-      "images/creature/TrollArsonist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TrollArsonist/overworld_s0.png",
-      "images/creature/TrollArsonist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TrollArsonist/overworld_w0.png",
-      "images/creature/TrollArsonist/overworld_w1.png"
-    ]
-  },
-  "race": "Troll",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Torun)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 38,
-    "intelligence": 8,
-    "speed": 18
-  },
-  "trait": 488
+    "battleSprite":  "images/creature/TrollArsonist/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  72,
+    "item":  574,
+    "lore":  "Although Trolls do not pose a serious threat to any seasoned traveler, these creatures have proved to be a problem for Rodia\u0027s inhabitants for two reasons: they are extremely prolific and prone to violence.\\n\\nTroll Arsonists are especially problematic, as their main priority seems to be burning anything that crosses their path.",
+    "menagerieDialog":  [
+                            "Human kings are weak. You should let us Trolls lead you instead!",
+                            "Let\u0027s go burn some villages down!",
+                            "You rely on magic far too much. Brute strength is always the way to go!",
+                            "(You\u0027re constantly amazed at just how badly this creature smells.)",
+                            "(This creature stinks, but you really can\u0027t blame Nortah. Who would want to clean a Troll?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Troll Arsonist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TrollArsonist/overworld_e0.png",
+                                         "images/creature/TrollArsonist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TrollArsonist/overworld_n0.png",
+                                          "images/creature/TrollArsonist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TrollArsonist/overworld_s0.png",
+                                          "images/creature/TrollArsonist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TrollArsonist/overworld_w0.png",
+                                         "images/creature/TrollArsonist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Troll",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Torun)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  38,
+                       "intelligence":  8,
+                       "speed":  18
+                   },
+    "trait":  488,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

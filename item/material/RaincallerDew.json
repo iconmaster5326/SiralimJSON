@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoothing Rain:\nAfter this creature {ACTION_defends}, your creatures recover 20% {STAT_health} for each buff they have.",
-  "icon": "images/item/material/RaincallerDew.png",
-  "id": 551,
-  "name": "Raincaller Dew",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 465
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoothing Rain:\nAfter this creature {ACTION_defends}, your creatures recover 20% {STAT_health} for each buff they have.",
+    "icon":  "images/item/material/RaincallerDew.png",
+    "id":  551,
+    "name":  "Raincaller Dew",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  465,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

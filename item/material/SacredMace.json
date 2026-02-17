@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConsecrated Ground:\nThis creature and its adjacent allies are immune to damage from minions and take 35% less indirect damage. This trait does not stack.",
-  "icon": "images/item/material/SacredMace.png",
-  "id": 1454,
-  "name": "Sacred Mace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1762
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConsecrated Ground:\nThis creature and its adjacent allies are immune to damage from minions and take 35% less indirect damage. This trait does not stack.",
+    "icon":  "images/item/material/SacredMace.png",
+    "id":  1454,
+    "name":  "Sacred Mace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1762,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Dreamshade/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 502,
-  "name": "Dreamshade",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Dreamshade/overworld_e0.png",
-      "images/skin/Dreamshade/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Dreamshade/overworld_n0.png",
-      "images/skin/Dreamshade/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Dreamshade/overworld_s0.png",
-      "images/skin/Dreamshade/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Dreamshade/overworld_w0.png",
-      "images/skin/Dreamshade/overworld_w1.png"
-    ]
-  },
-  "race": "Shapeshifter",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Dreamshade/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  502,
+    "name":  "Dreamshade",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Dreamshade/overworld_e0.png",
+                                         "images/skin/Dreamshade/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Dreamshade/overworld_n0.png",
+                                          "images/skin/Dreamshade/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Dreamshade/overworld_s0.png",
+                                          "images/skin/Dreamshade/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Dreamshade/overworld_w0.png",
+                                         "images/skin/Dreamshade/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shapeshifter",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

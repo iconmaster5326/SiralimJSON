@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCURUKUKU!!:\nWhen an enemy attempts to {ACTION_cast} a single-target spell on any other creature, they have a 50% chance to target themselves instead. This trait does not stack.",
-  "icon": "images/item/material/TorturerCrest.png",
-  "id": 369,
-  "name": "Torturer Crest",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 285
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCURUKUKU!!:\nWhen an enemy attempts to {ACTION_cast} a single-target spell on any other creature, they have a 50% chance to target themselves instead. This trait does not stack.",
+    "icon":  "images/item/material/TorturerCrest.png",
+    "id":  369,
+    "name":  "Torturer Crest",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  285,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

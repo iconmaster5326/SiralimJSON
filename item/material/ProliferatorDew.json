@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMoonlight:\nYour creatures have 7% more {STAT_attack}, {STAT_intelligence}, and {STAT_defense} for each buff they have. This trait does not stack.",
-  "icon": "images/item/material/ProliferatorDew.png",
-  "id": 552,
-  "name": "Proliferator Dew",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 466
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMoonlight:\nYour creatures have 7% more {STAT_attack}, {STAT_intelligence}, and {STAT_defense} for each buff they have. This trait does not stack.",
+    "icon":  "images/item/material/ProliferatorDew.png",
+    "id":  552,
+    "name":  "Proliferator Dew",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  466,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

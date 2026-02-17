@@ -1,48 +1,51 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Caster\u0027s buffs are removed and this Spell Gem\u0027s owner steals 5% of the caster\u0027s highest stat. This spell cannot be cast manually, but has a 20% chance to be cast by enemies at the start of their turns.",
-  "god": null,
-  "id": 747,
-  "manuallyCastable": false,
-  "maxCharges": 13,
-  "name": "Treasonous Mind",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    5,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY",
-    "BOOST",
-    "DEBOOST"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Caster\u0027s buffs are removed and this Spell Gem\u0027s owner steals 5% of the caster\u0027s highest stat. This spell cannot be cast manually, but has a 20% chance to be cast by enemies at the start of their turns.",
+    "god":  null,
+    "id":  747,
+    "manuallyCastable":  false,
+    "maxCharges":  13,
+    "name":  "Treasonous Mind",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  5,
+                                  9,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY",
+                 "BOOST",
+                 "DEBOOST"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

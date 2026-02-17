@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/NightvelvetGemling/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 936,
-  "item": 936,
-  "lore": "It was Dragan, a Raven from the Refuge of the Magi, who had the idea of activating an ancient and hidden magic item in his hometown: The Rod of Ruin. Its name, he said, was a reminder of the price his people paid due to the the atrocities committed by humans.\\n\\nNightvelvet Gemlings cannot remain still. In fact, if their movements are contained, they quickly turn bright red and explode into a thousand pieces, unless they are released in a few seconds.",
-  "menagerieDialog": [
-    "(It glows softly.)",
-    "(It begins to vibrate violently as you draw closer to it.)",
-    "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
-    "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
-    "(It twirls around in circles, giving you a good look at just how polished it is.)"
-  ],
-  "minDepth": 1,
-  "name": "Nightvelvet Gemling",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NightvelvetGemling/overworld_e0.png",
-      "images/creature/NightvelvetGemling/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NightvelvetGemling/overworld_n0.png",
-      "images/creature/NightvelvetGemling/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NightvelvetGemling/overworld_s0.png",
-      "images/creature/NightvelvetGemling/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NightvelvetGemling/overworld_w0.png",
-      "images/creature/NightvelvetGemling/overworld_w1.png"
-    ]
-  },
-  "race": "Gemling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Aurum)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 21,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1196
+    "battleSprite":  "images/creature/NightvelvetGemling/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  936,
+    "item":  936,
+    "lore":  "It was Dragan, a Raven from the Refuge of the Magi, who had the idea of activating an ancient and hidden magic item in his hometown: The Rod of Ruin. Its name, he said, was a reminder of the price his people paid due to the the atrocities committed by humans.\\n\\nNightvelvet Gemlings cannot remain still. In fact, if their movements are contained, they quickly turn bright red and explode into a thousand pieces, unless they are released in a few seconds.",
+    "menagerieDialog":  [
+                            "(It glows softly.)",
+                            "(It begins to vibrate violently as you draw closer to it.)",
+                            "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
+                            "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
+                            "(It twirls around in circles, giving you a good look at just how polished it is.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nightvelvet Gemling",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NightvelvetGemling/overworld_e0.png",
+                                         "images/creature/NightvelvetGemling/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NightvelvetGemling/overworld_n0.png",
+                                          "images/creature/NightvelvetGemling/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NightvelvetGemling/overworld_s0.png",
+                                          "images/creature/NightvelvetGemling/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NightvelvetGemling/overworld_w0.png",
+                                         "images/creature/NightvelvetGemling/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gemling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Aurum)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  21,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1196,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

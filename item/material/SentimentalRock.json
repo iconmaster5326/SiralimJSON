@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHoarding:\nThis creature has 50% more {STAT_intelligence} for each different class of Spell Gem it has equipped.",
-  "icon": "images/item/material/SentimentalRock.png",
-  "id": 1398,
-  "name": "Sentimental Rock",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1705
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHoarding:\nThis creature has 50% more {STAT_intelligence} for each different class of Spell Gem it has equipped.",
+    "icon":  "images/item/material/SentimentalRock.png",
+    "id":  1398,
+    "name":  "Sentimental Rock",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1705,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

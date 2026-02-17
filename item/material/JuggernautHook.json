@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVicar\u0027s Blessing:\nAfter an enemy takes damage from {CONDNAME_DEBUFF_BLIGHT}, this creature has a 35% chance to {ACTION_cast} [icons,1972]Minor Healing on it. This trait does not stack.",
-  "icon": "images/item/material/JuggernautHook.png",
-  "id": 1045,
-  "name": "Juggernaut Hook",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1089
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVicar\u0027s Blessing:\nAfter an enemy takes damage from {CONDNAME_DEBUFF_BLIGHT}, this creature has a 35% chance to {ACTION_cast} [icons,1972]Minor Healing on it. This trait does not stack.",
+    "icon":  "images/item/material/JuggernautHook.png",
+    "id":  1045,
+    "name":  "Juggernaut Hook",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1089,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

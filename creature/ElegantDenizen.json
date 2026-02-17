@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElegantDenizen/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1461,
-  "item": 1830,
-  "lore": "With a distinguished bearing and impeccable manners, this abyssal dweller doesn\u0027t speak, but its gaze judges as if it has spent centuries in a God\u0027s court. It communicates with slow, deliberate gestures and never attacks without first straightening its hat. It is said that those defeated by this creature are condemned to eternal good manners.",
-  "menagerieDialog": [
-    "(It clicks its jaws twice, then stares through you like a dying fish.)",
-    "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
-    "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
-    "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
-    "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it\u00E2\u20AC\u2122s yawning or threatening you.)"
-  ],
-  "minDepth": 1,
-  "name": "Elegant Denizen",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElegantDenizen/overworld_e0.png",
-      "images/creature/ElegantDenizen/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElegantDenizen/overworld_n0.png",
-      "images/creature/ElegantDenizen/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElegantDenizen/overworld_s0.png",
-      "images/creature/ElegantDenizen/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElegantDenizen/overworld_w0.png",
-      "images/creature/ElegantDenizen/overworld_w1.png"
-    ]
-  },
-  "race": "Denizen",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 15
-  },
-  "trait": 2174
+    "battleSprite":  "images/creature/ElegantDenizen/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1461,
+    "item":  1830,
+    "lore":  "With a distinguished bearing and impeccable manners, this abyssal dweller doesn\u0027t speak, but its gaze judges as if it has spent centuries in a God\u0027s court. It communicates with slow, deliberate gestures and never attacks without first straightening its hat. It is said that those defeated by this creature are condemned to eternal good manners.",
+    "menagerieDialog":  [
+                            "(It clicks its jaws twice, then stares through you like a dying fish.)",
+                            "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
+                            "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
+                            "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
+                            "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it’s yawning or threatening you.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elegant Denizen",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElegantDenizen/overworld_e0.png",
+                                         "images/creature/ElegantDenizen/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElegantDenizen/overworld_n0.png",
+                                          "images/creature/ElegantDenizen/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElegantDenizen/overworld_s0.png",
+                                          "images/creature/ElegantDenizen/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElegantDenizen/overworld_w0.png",
+                                         "images/creature/ElegantDenizen/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Denizen",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  15
+                   },
+    "trait":  2174,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

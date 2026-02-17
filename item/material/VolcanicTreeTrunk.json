@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpontaneous Combustion:\nAfter this creature is {ACTION_attacked}, it {ACTION_casts} [icons,1968]Volcano.",
-  "icon": "images/item/material/VolcanicTreeTrunk.png",
-  "id": 1331,
-  "name": "Volcanic Tree Trunk",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1577
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpontaneous Combustion:\nAfter this creature is {ACTION_attacked}, it {ACTION_casts} [icons,1968]Volcano.",
+    "icon":  "images/item/material/VolcanicTreeTrunk.png",
+    "id":  1331,
+    "name":  "Volcanic Tree Trunk",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1577,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Heartminder/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1120,
-  "item": 1641,
-  "lore": "Fed up with greed, selfishness and other common human attributes, four Magi from the Tergath kingdom decided to take matters into their own hands. They took initiatives to help the underprivileged, using magic to create infrastructures in order to give jobs and food to as many people as possible. In addition, they promoted progressive protests, but the Queen who reigned there did not support their activities. With the army against them, they were finished. Surrounded by ten of the eleven platoons, they performed a ritual. Their will would not end that day. Thus, they sacrificed their lives and the Heartminder was born, a creature who carried their legacy and who would take whatever actions were necessary to help all who were oppressed by selfishness and opulence.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Heartminder",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Heartminder/overworld_e0.png",
-      "images/creature/Heartminder/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Heartminder/overworld_n0.png",
-      "images/creature/Heartminder/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Heartminder/overworld_s0.png",
-      "images/creature/Heartminder/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Heartminder/overworld_w0.png",
-      "images/creature/Heartminder/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1844
+    "battleSprite":  "images/creature/Heartminder/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1120,
+    "item":  1641,
+    "lore":  "Fed up with greed, selfishness and other common human attributes, four Magi from the Tergath kingdom decided to take matters into their own hands. They took initiatives to help the underprivileged, using magic to create infrastructures in order to give jobs and food to as many people as possible. In addition, they promoted progressive protests, but the Queen who reigned there did not support their activities. With the army against them, they were finished. Surrounded by ten of the eleven platoons, they performed a ritual. Their will would not end that day. Thus, they sacrificed their lives and the Heartminder was born, a creature who carried their legacy and who would take whatever actions were necessary to help all who were oppressed by selfishness and opulence.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Heartminder",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Heartminder/overworld_e0.png",
+                                         "images/creature/Heartminder/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Heartminder/overworld_n0.png",
+                                          "images/creature/Heartminder/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Heartminder/overworld_s0.png",
+                                          "images/creature/Heartminder/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Heartminder/overworld_w0.png",
+                                         "images/creature/Heartminder/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1844,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

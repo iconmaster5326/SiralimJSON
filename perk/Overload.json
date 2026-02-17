@@ -1,11 +1,14 @@
 {
-  "anointable": false,
-  "description": "After your creatures manually {ACTION_cast} a spell, each of their other Spell Gems that belong to a different class have a 50% chance to be {ACTION_cast} as well. Maximum of 1 spell per class.",
-  "icon": "images/perk/Overload.png",
-  "id": 453,
-  "maxRanks": 1,
-  "name": "Overload",
-  "notes": [],
-  "pointsPerRank": 1,
-  "specialization": 4
+    "anointable":  false,
+    "description":  "After your creatures manually {ACTION_cast} a spell, each of their other Spell Gems that belong to a different class have a 50% chance to be {ACTION_cast} as well. Maximum of 1 spell per class.",
+    "icon":  "images/perk/Overload.png",
+    "id":  453,
+    "maxRanks":  1,
+    "name":  "Overload",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  1,
+    "specialization":  4,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

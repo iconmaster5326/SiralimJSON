@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MinotaurJuggernaut/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 39,
-  "item": 346,
-  "lore": "This powerful warrior is always on the front lines and charges against its enemies with ruthless might. Its progress is inexorable, its footsteps make the ground rumble, and a blow of its mace spells doom for whoever receives it. Minotaur Juggernauts are dangerous even for those outside their path, as they can easily skewer anyone with their big horns just by moving their heads.",
-  "menagerieDialog": [
-    "I still have my strength, let\u0027s go!",
-    "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
-    "Let none survive. All will perish in our wake!",
-    "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
-    "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
-  ],
-  "minDepth": 1,
-  "name": "Minotaur Juggernaut",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MinotaurJuggernaut/overworld_e0.png",
-      "images/creature/MinotaurJuggernaut/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MinotaurJuggernaut/overworld_n0.png",
-      "images/creature/MinotaurJuggernaut/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MinotaurJuggernaut/overworld_s0.png",
-      "images/creature/MinotaurJuggernaut/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MinotaurJuggernaut/overworld_w0.png",
-      "images/creature/MinotaurJuggernaut/overworld_w1.png"
-    ]
-  },
-  "race": "Minotaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 262
+    "battleSprite":  "images/creature/MinotaurJuggernaut/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  39,
+    "item":  346,
+    "lore":  "This powerful warrior is always on the front lines and charges against its enemies with ruthless might. Its progress is inexorable, its footsteps make the ground rumble, and a blow of its mace spells doom for whoever receives it. Minotaur Juggernauts are dangerous even for those outside their path, as they can easily skewer anyone with their big horns just by moving their heads.",
+    "menagerieDialog":  [
+                            "I still have my strength, let\u0027s go!",
+                            "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
+                            "Let none survive. All will perish in our wake!",
+                            "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
+                            "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Minotaur Juggernaut",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MinotaurJuggernaut/overworld_e0.png",
+                                         "images/creature/MinotaurJuggernaut/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MinotaurJuggernaut/overworld_n0.png",
+                                          "images/creature/MinotaurJuggernaut/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MinotaurJuggernaut/overworld_s0.png",
+                                          "images/creature/MinotaurJuggernaut/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MinotaurJuggernaut/overworld_w0.png",
+                                         "images/creature/MinotaurJuggernaut/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Minotaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  262,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

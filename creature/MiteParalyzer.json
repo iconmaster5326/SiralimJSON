@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MiteParalyzer/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 643,
-  "item": 839,
-  "lore": "Regalis created this creature to face the Creeping Arachnalisk and teach the God of Time a lesson. She even had him witness the encounter. When Vertraag saw how the creature that would fight his creation really looked like an alien, he knew his words had not hurt Regalis in the least, but rather encouraged her. The battle was over in a heartbeat, as the poison produced by the Mite Paralyzer can stun even an elephant. Then, Regalis turned to Vertraag and congratulated him sarcastically on his dirty trick.",
-  "menagerieDialog": [
-    "(It\u0027s rolled into a ball, sleeping lazily.)",
-    "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
-    "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
-    "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
-    "(It\u0027s unsuccessfully trying to burrow into the floor.)"
-  ],
-  "minDepth": 1,
-  "name": "Mite Paralyzer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MiteParalyzer/overworld_e0.png",
-      "images/creature/MiteParalyzer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MiteParalyzer/overworld_n0.png",
-      "images/creature/MiteParalyzer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MiteParalyzer/overworld_s0.png",
-      "images/creature/MiteParalyzer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MiteParalyzer/overworld_w0.png",
-      "images/creature/MiteParalyzer/overworld_w1.png"
-    ]
-  },
-  "race": "Mite",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 866
+    "battleSprite":  "images/creature/MiteParalyzer/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  643,
+    "item":  839,
+    "lore":  "Regalis created this creature to face the Creeping Arachnalisk and teach the God of Time a lesson. She even had him witness the encounter. When Vertraag saw how the creature that would fight his creation really looked like an alien, he knew his words had not hurt Regalis in the least, but rather encouraged her. The battle was over in a heartbeat, as the poison produced by the Mite Paralyzer can stun even an elephant. Then, Regalis turned to Vertraag and congratulated him sarcastically on his dirty trick.",
+    "menagerieDialog":  [
+                            "(It\u0027s rolled into a ball, sleeping lazily.)",
+                            "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
+                            "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
+                            "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
+                            "(It\u0027s unsuccessfully trying to burrow into the floor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mite Paralyzer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MiteParalyzer/overworld_e0.png",
+                                         "images/creature/MiteParalyzer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MiteParalyzer/overworld_n0.png",
+                                          "images/creature/MiteParalyzer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MiteParalyzer/overworld_s0.png",
+                                          "images/creature/MiteParalyzer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MiteParalyzer/overworld_w0.png",
+                                         "images/creature/MiteParalyzer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mite",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  866,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

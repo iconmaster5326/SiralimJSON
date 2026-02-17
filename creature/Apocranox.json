@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Apocranox/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": 17,
-  "id": 951,
-  "item": null,
-  "lore": "Elinar was a forest Elf who lived for hundreds of years in the northeast Cutthroat Jungle of a different continent. In that place, an evil empress not only banned non-humans from using what little magic there was, but also ordered their extermination, which caused an exodus of creatures such as Smiths and Gorgons. The Elves, hidden in the woods, were the main foes of this Dark Lady, the only ones who were not exterminated despite the fact that they would not leave their home under any circumstances. Elinar was their most powerful warrior, but the Auditors tried to recruit him before the war came to an end. Elinar accepted the offer, but he would only join them when the war ended. The Auditors assured him that the land of the Elves could never fall to the empress, and that she would be betrayed by one of her own in less than a year. Still Elinar declined the offer. The next morning, the empress was dead. According to one of the survivors in the castle, five Carnages and a \u0022big eye\u0022 had taken her down after overwhelming her personal guard. For the eleven years he worked with his five companions in the organization, Elinar used the codename Morning Star.",
-  "menagerieDialog": [
-    "I yearn for a great hunt. Let us finish our errands here and make haste to a new realm.",
-    "Always remain vigilant. You never know when the perfect hunt will present itself.",
-    "Perhaps Kiichi could use a friend. Hmmm...",
-    "Humans often eat animals. But do they ever eat creatures?",
-    "I have decided to release Kiichi back into the wild. She served us well, but she will be much better off among her own species."
-  ],
-  "minDepth": 1,
-  "name": "Apocranox",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Apocranox/overworld_e0.png",
-      "images/creature/Apocranox/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Apocranox/overworld_n0.png",
-      "images/creature/Apocranox/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Apocranox/overworld_s0.png",
-      "images/creature/Apocranox/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Apocranox/overworld_w0.png",
-      "images/creature/Apocranox/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    352,
-    397
-  ],
-  "sources": [
-    {
-      "god": 17,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1238
+    "battleSprite":  "images/creature/Apocranox/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  17,
+    "id":  951,
+    "item":  null,
+    "lore":  "Elinar was a forest Elf who lived for hundreds of years in the northeast Cutthroat Jungle of a different continent. In that place, an evil empress not only banned non-humans from using what little magic there was, but also ordered their extermination, which caused an exodus of creatures such as Smiths and Gorgons. The Elves, hidden in the woods, were the main foes of this Dark Lady, the only ones who were not exterminated despite the fact that they would not leave their home under any circumstances. Elinar was their most powerful warrior, but the Auditors tried to recruit him before the war came to an end. Elinar accepted the offer, but he would only join them when the war ended. The Auditors assured him that the land of the Elves could never fall to the empress, and that she would be betrayed by one of her own in less than a year. Still Elinar declined the offer. The next morning, the empress was dead. According to one of the survivors in the castle, five Carnages and a \"big eye\" had taken her down after overwhelming her personal guard. For the eleven years he worked with his five companions in the organization, Elinar used the codename Morning Star.",
+    "menagerieDialog":  [
+                            "I yearn for a great hunt. Let us finish our errands here and make haste to a new realm.",
+                            "Always remain vigilant. You never know when the perfect hunt will present itself.",
+                            "Perhaps Kiichi could use a friend. Hmmm...",
+                            "Humans often eat animals. But do they ever eat creatures?",
+                            "I have decided to release Kiichi back into the wild. She served us well, but she will be much better off among her own species."
+                        ],
+    "minDepth":  1,
+    "name":  "Apocranox",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Apocranox/overworld_e0.png",
+                                         "images/creature/Apocranox/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Apocranox/overworld_n0.png",
+                                          "images/creature/Apocranox/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Apocranox/overworld_s0.png",
+                                          "images/creature/Apocranox/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Apocranox/overworld_w0.png",
+                                         "images/creature/Apocranox/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  352,
+                  397
+              ],
+    "sources":  [
+                    {
+                        "god":  17,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1238,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures\u0027 damage with attacks is based on 50% of their Maximum {STAT_health} instead of their {STAT_attack}.",
-  "icon": "images/perk/Bloodrage.png",
-  "id": 237,
-  "maxRanks": 1,
-  "name": "Bloodrage",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 16
+    "anointable":  true,
+    "description":  "Your creatures\u0027 damage with attacks is based on 50% of their Maximum {STAT_health} instead of their {STAT_attack}.",
+    "icon":  "images/perk/Bloodrage.png",
+    "id":  237,
+    "maxRanks":  1,
+    "name":  "Bloodrage",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  16,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

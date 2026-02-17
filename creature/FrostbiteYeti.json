@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/FrostbiteYeti/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 467,
-  "item": 471,
-  "lore": "This creature can channel the cold of the Frostbite Caverns through its blows to freeze its prey. It is a peaceful creature that lives in the snow and does not look for trouble, but faced with the arrival of explorers that are scared by its presence and hunters who seek its skin, it often has to look for allies to get by. At times, it is deceived by other creatures into forming a group, and at nightfall they end its life to get some money out of its coat.",
-  "menagerieDialog": [
-    "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
-    "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
-    "(It brings its face close to you and nudges its nose against yours. Ugh.)",
-    "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
-    "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
-  ],
-  "minDepth": 1,
-  "name": "Frostbite Yeti",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FrostbiteYeti/overworld_e0.png",
-      "images/creature/FrostbiteYeti/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FrostbiteYeti/overworld_n0.png",
-      "images/creature/FrostbiteYeti/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FrostbiteYeti/overworld_s0.png",
-      "images/creature/FrostbiteYeti/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FrostbiteYeti/overworld_w0.png",
-      "images/creature/FrostbiteYeti/overworld_w1.png"
-    ]
-  },
-  "race": "Yeti",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    12
-  ],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 21,
-    "health": 33,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 385
+    "battleSprite":  "images/creature/FrostbiteYeti/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  467,
+    "item":  471,
+    "lore":  "This creature can channel the cold of the Frostbite Caverns through its blows to freeze its prey. It is a peaceful creature that lives in the snow and does not look for trouble, but faced with the arrival of explorers that are scared by its presence and hunters who seek its skin, it often has to look for allies to get by. At times, it is deceived by other creatures into forming a group, and at nightfall they end its life to get some money out of its coat.",
+    "menagerieDialog":  [
+                            "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
+                            "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
+                            "(It brings its face close to you and nudges its nose against yours. Ugh.)",
+                            "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
+                            "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Frostbite Yeti",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FrostbiteYeti/overworld_e0.png",
+                                         "images/creature/FrostbiteYeti/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FrostbiteYeti/overworld_n0.png",
+                                          "images/creature/FrostbiteYeti/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FrostbiteYeti/overworld_s0.png",
+                                          "images/creature/FrostbiteYeti/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FrostbiteYeti/overworld_w0.png",
+                                         "images/creature/FrostbiteYeti/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Yeti",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            12
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  21,
+                       "health":  33,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  385,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

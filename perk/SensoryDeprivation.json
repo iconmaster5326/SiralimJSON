@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies with {CONDNAME_DEBUFF_BLIND} can only {ACTION_cast} single-target spells manually in non-boss battles, and have a 20% chance for their spells to fizzle in boss battles.",
-  "icon": "images/perk/SensoryDeprivation.png",
-  "id": 624,
-  "maxRanks": 1,
-  "name": "Sensory Deprivation",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 42
+    "anointable":  true,
+    "description":  "Enemies with {CONDNAME_DEBUFF_BLIND} can only {ACTION_cast} single-target spells manually in non-boss battles, and have a 20% chance for their spells to fizzle in boss battles.",
+    "icon":  "images/perk/SensoryDeprivation.png",
+    "id":  624,
+    "maxRanks":  1,
+    "name":  "Sensory Deprivation",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  42,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CalumnierDandy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1320,
-  "item": 1816,
-  "lore": "Calumniers make their home in the swamps, building villages both on the ground and high up in the trees. They often link homes and shops with intricate hanging walkways.\\n\\nFierce and familiar with every inch of their territory, Calumnier Dandies guard the borders without rest, gliding silently through the underbrush or slipping beneath the surface to warn their kin of danger. These days, many work as mercenary spies or serve the various kingdoms that make up the land of Rodia.",
-  "menagerieDialog": [
-    "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
-    "Your enemies will rue the day they crossed paths with us!",
-    "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
-    "My scales are like armor, forged in the fires of battle!",
-    "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
-  ],
-  "minDepth": 1,
-  "name": "Calumnier Dandy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CalumnierDandy/overworld_e0.png",
-      "images/creature/CalumnierDandy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CalumnierDandy/overworld_n0.png",
-      "images/creature/CalumnierDandy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CalumnierDandy/overworld_s0.png",
-      "images/creature/CalumnierDandy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CalumnierDandy/overworld_w0.png",
-      "images/creature/CalumnierDandy/overworld_w1.png"
-    ]
-  },
-  "race": "Calumnier",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 20,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 23
-  },
-  "trait": 2169
+    "battleSprite":  "images/creature/CalumnierDandy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1320,
+    "item":  1816,
+    "lore":  "Calumniers make their home in the swamps, building villages both on the ground and high up in the trees. They often link homes and shops with intricate hanging walkways.\\n\\nFierce and familiar with every inch of their territory, Calumnier Dandies guard the borders without rest, gliding silently through the underbrush or slipping beneath the surface to warn their kin of danger. These days, many work as mercenary spies or serve the various kingdoms that make up the land of Rodia.",
+    "menagerieDialog":  [
+                            "(It\u0027s basking lazily in a patch of sunlight, eyes half-closed.)",
+                            "Your enemies will rue the day they crossed paths with us!",
+                            "Let\u0027s discuss battle strategies. I have a few ideas that might surprise you.",
+                            "My scales are like armor, forged in the fires of battle!",
+                            "(It\u0027s pacing back and forth, its tail swishing impatiently.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Calumnier Dandy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CalumnierDandy/overworld_e0.png",
+                                         "images/creature/CalumnierDandy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CalumnierDandy/overworld_n0.png",
+                                          "images/creature/CalumnierDandy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CalumnierDandy/overworld_s0.png",
+                                          "images/creature/CalumnierDandy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CalumnierDandy/overworld_w0.png",
+                                         "images/creature/CalumnierDandy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Calumnier",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  20,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  23
+                   },
+    "trait":  2169,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

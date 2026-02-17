@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSerenade of Guilt:\nYour creatures\u0027 class-specific traits act as if your party contains 2 more creatures that belong to that class. This trait does not stack.",
-  "icon": "images/item/material/EyeofTheUnguided.png",
-  "id": 653,
-  "name": "Eye of The Unguided",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 564
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSerenade of Guilt:\nYour creatures\u0027 class-specific traits act as if your party contains 2 more creatures that belong to that class. This trait does not stack.",
+    "icon":  "images/item/material/EyeofTheUnguided.png",
+    "id":  653,
+    "name":  "Eye of The Unguided",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  564,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

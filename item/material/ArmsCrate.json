@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWhat Are You Buying?:\nAt the start of this creature\u0027s turn, enemy creatures gain this creature\u0027s Artifact trait.",
-  "icon": "images/item/material/ArmsCrate.png",
-  "id": 1743,
-  "name": "Arms Crate",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2085
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWhat Are You Buying?:\nAt the start of this creature\u0027s turn, enemy creatures gain this creature\u0027s Artifact trait.",
+    "icon":  "images/item/material/ArmsCrate.png",
+    "id":  1743,
+    "name":  "Arms Crate",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2085,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

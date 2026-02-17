@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGrubby Strength:\nAfter this creature is killed, it deals damage to enemies equal to 3% of its lowest stat, multiplied by the number of times it {ACTION_attacked} in the current battle.",
-  "icon": "images/item/material/PocketGrubs.png",
-  "id": 1654,
-  "name": "Pocket Grubs",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1857
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGrubby Strength:\nAfter this creature is killed, it deals damage to enemies equal to 3% of its lowest stat, multiplied by the number of times it {ACTION_attacked} in the current battle.",
+    "icon":  "images/item/material/PocketGrubs.png",
+    "id":  1654,
+    "name":  "Pocket Grubs",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1857,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

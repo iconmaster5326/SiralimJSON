@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RockmossGemling/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 937,
-  "item": 935,
-  "lore": "Dragan was certain that once he opened the portal to the dimension where the Carbuncles had lived in peace for centuries, the Gemlings would cross it to guard them at all costs. Fortunately, he was not wrong.\\n\\nMost Gemlings levitate and move quickly among other creatures. However, Rockmoss Gemlings never leave the ground, and instead try to run into their enemies to make them fall.",
-  "menagerieDialog": [
-    "(It glows softly.)",
-    "(It begins to vibrate violently as you draw closer to it.)",
-    "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
-    "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
-    "(It twirls around in circles, giving you a good look at just how polished it is.)"
-  ],
-  "minDepth": 1,
-  "name": "Rockmoss Gemling",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RockmossGemling/overworld_e0.png",
-      "images/creature/RockmossGemling/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RockmossGemling/overworld_n0.png",
-      "images/creature/RockmossGemling/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RockmossGemling/overworld_s0.png",
-      "images/creature/RockmossGemling/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RockmossGemling/overworld_w0.png",
-      "images/creature/RockmossGemling/overworld_w1.png"
-    ]
-  },
-  "race": "Gemling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Aurum)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 21,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1195
+    "battleSprite":  "images/creature/RockmossGemling/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  937,
+    "item":  935,
+    "lore":  "Dragan was certain that once he opened the portal to the dimension where the Carbuncles had lived in peace for centuries, the Gemlings would cross it to guard them at all costs. Fortunately, he was not wrong.\\n\\nMost Gemlings levitate and move quickly among other creatures. However, Rockmoss Gemlings never leave the ground, and instead try to run into their enemies to make them fall.",
+    "menagerieDialog":  [
+                            "(It glows softly.)",
+                            "(It begins to vibrate violently as you draw closer to it.)",
+                            "(What would happen if you equipped this creature to one of your other creatures like a big Spell Gem?)",
+                            "(This creature seems particularly sparkly today. Perhaps Nortah gave it a much-needed shining.)",
+                            "(It twirls around in circles, giving you a good look at just how polished it is.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Rockmoss Gemling",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RockmossGemling/overworld_e0.png",
+                                         "images/creature/RockmossGemling/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RockmossGemling/overworld_n0.png",
+                                          "images/creature/RockmossGemling/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RockmossGemling/overworld_s0.png",
+                                          "images/creature/RockmossGemling/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RockmossGemling/overworld_w0.png",
+                                         "images/creature/RockmossGemling/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gemling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Aurum)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  21,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1195,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(As the Stag\u0027s antlers begin to glow, a group it seems to have allied itself with emerge from the shadows to confront you as one!)",
-    "(Following a bellowing cry that freezes you dead in your tracks, a massive Stag charges out from the shadows of the room with murderous intent!)",
-    "(The Stag stands above the treasure hoard, gazing down at you with contempt. It leaps down to block you from approaching any further.)"
-  ],
-  "cardBonuses": {
-    "2": "You gain 30% more {RES_POWER} from battles.",
-    "5": "Increases the base amount of {RES_POWER} gained from battles by 15.",
-    "8": "You have a 15% chance to gain double {RES_POWER} from battles."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    584,
-    585,
-    586,
-    587,
-    588,
-    589,
-    703,
-    767
-  ],
-  "icon": "images/race/Stag.png",
-  "master": {
-    "costume": 398,
-    "dialog": "Stags are the only creatures in Rodia that have the ability to unlock the true potential of Spell Gems. If you think you can stand up against my army of spellcasters, then let\u0027s have ourselves a duel!",
-    "item": 1197,
-    "name": "Folo",
-    "trait": 1501
-  },
-  "name": "Stag",
-  "notes": [],
-  "skins": [
-    77,
-    321,
-    322
-  ]
+    "bossDialog":  [
+                       "(As the Stag\u0027s antlers begin to glow, a group it seems to have allied itself with emerge from the shadows to confront you as one!)",
+                       "(Following a bellowing cry that freezes you dead in your tracks, a massive Stag charges out from the shadows of the room with murderous intent!)",
+                       "(The Stag stands above the treasure hoard, gazing down at you with contempt. It leaps down to block you from approaching any further.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "You gain 30% more {RES_POWER} from battles.",
+                        "5":  "Increases the base amount of {RES_POWER} gained from battles by 15.",
+                        "8":  "You have a 15% chance to gain double {RES_POWER} from battles."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      584,
+                      585,
+                      586,
+                      587,
+                      588,
+                      589,
+                      703,
+                      767
+                  ],
+    "icon":  "images/race/Stag.png",
+    "master":  {
+                   "costume":  398,
+                   "dialog":  "Stags are the only creatures in Rodia that have the ability to unlock the true potential of Spell Gems. If you think you can stand up against my army of spellcasters, then let\u0027s have ourselves a duel!",
+                   "item":  1197,
+                   "name":  "Folo",
+                   "trait":  1501
+               },
+    "name":  "Stag",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  77,
+                  321,
+                  322
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

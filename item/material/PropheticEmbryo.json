@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nExperimentation:\nAfter an enemy gains stats, this creature has a 30% chance to {ACTION_attack} it.",
-  "icon": "images/item/material/PropheticEmbryo.png",
-  "id": 852,
-  "name": "Prophetic Embryo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 879
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nExperimentation:\nAfter an enemy gains stats, this creature has a 30% chance to {ACTION_attack} it.",
+    "icon":  "images/item/material/PropheticEmbryo.png",
+    "id":  852,
+    "name":  "Prophetic Embryo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  879,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

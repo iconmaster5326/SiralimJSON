@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Carbuncles:\nIf all the creatures in your party are {RACE_Carbuncle}s, their innate traits grow stronger twice as fast. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheCarbuncle.png",
-  "id": 1159,
-  "name": "Sigil of the Carbuncle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1409
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Carbuncles:\nIf all the creatures in your party are {RACE_Carbuncle}s, their innate traits grow stronger twice as fast. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheCarbuncle.png",
+    "id":  1159,
+    "name":  "Sigil of the Carbuncle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1409,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

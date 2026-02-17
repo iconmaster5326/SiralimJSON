@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Davey/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1145,
-  "item": 1665,
-  "lore": "Davey is able to absorb the mist around its neck, but only during a new moon is it able to release it. That is why this creature has been used on occasions by Rodians to clear roads affected by this weather condition or to perform surprise attacks. However, a simple spell can have the same effect, so ultimately its usefulness in battle is viewed more as a last resort or as a decoy.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Davey",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Davey/overworld_e0.png",
-      "images/creature/Davey/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Davey/overworld_n0.png",
-      "images/creature/Davey/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Davey/overworld_s0.png",
-      "images/creature/Davey/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Davey/overworld_w0.png",
-      "images/creature/Davey/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1868
+    "battleSprite":  "images/creature/Davey/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1145,
+    "item":  1665,
+    "lore":  "Davey is able to absorb the mist around its neck, but only during a new moon is it able to release it. That is why this creature has been used on occasions by Rodians to clear roads affected by this weather condition or to perform surprise attacks. However, a simple spell can have the same effect, so ultimately its usefulness in battle is viewed more as a last resort or as a decoy.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Davey",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Davey/overworld_e0.png",
+                                         "images/creature/Davey/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Davey/overworld_n0.png",
+                                          "images/creature/Davey/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Davey/overworld_s0.png",
+                                          "images/creature/Davey/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Davey/overworld_w0.png",
+                                         "images/creature/Davey/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1868,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

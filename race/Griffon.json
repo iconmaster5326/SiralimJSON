@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(A loud shriek issues from above as a Griffon descends, whirling its claws in a threatening flourish. You\u0027re not taking its treasure without a fight.)",
-    "(Hoping to sneak up to the treasure without waking up the Griffon sleeping on it, you accidentally stub your toe on a loose rock and cuss loudly. It wakes up and dives at you immediately!)",
-    "(The Griffon stands proudly atop the treasure, glaring at you. It\u0027s as if it\u0027s daring you to challenge it - you are, of course, happy to oblige.)"
-  ],
-  "cardBonuses": {
-    "2": "You gain 15% more resources from battles.",
-    "5": "You gain 10 more resources from battles.",
-    "8": "You have a 15% chance to gain double resources from battles."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    386,
-    387,
-    388,
-    389,
-    390,
-    391,
-    633,
-    992
-  ],
-  "icon": "images/race/Griffon.png",
-  "master": {
-    "costume": 342,
-    "dialog": "Griffons are fast-moving creatures that work together to bombard their foes from the skies. Do you really think your creatures stand a chance against my team of Griffons? We\u0027ll soon find out!",
-    "item": 1265,
-    "name": "Gryffindor",
-    "trait": 1443
-  },
-  "name": "Griffon",
-  "notes": [],
-  "skins": [
-    70,
-    256,
-    539
-  ]
+    "bossDialog":  [
+                       "(A loud shriek issues from above as a Griffon descends, whirling its claws in a threatening flourish. You\u0027re not taking its treasure without a fight.)",
+                       "(Hoping to sneak up to the treasure without waking up the Griffon sleeping on it, you accidentally stub your toe on a loose rock and cuss loudly. It wakes up and dives at you immediately!)",
+                       "(The Griffon stands proudly atop the treasure, glaring at you. It\u0027s as if it\u0027s daring you to challenge it - you are, of course, happy to oblige.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "You gain 15% more resources from battles.",
+                        "5":  "You gain 10 more resources from battles.",
+                        "8":  "You have a 15% chance to gain double resources from battles."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      386,
+                      387,
+                      388,
+                      389,
+                      390,
+                      391,
+                      633,
+                      992
+                  ],
+    "icon":  "images/race/Griffon.png",
+    "master":  {
+                   "costume":  342,
+                   "dialog":  "Griffons are fast-moving creatures that work together to bombard their foes from the skies. Do you really think your creatures stand a chance against my team of Griffons? We\u0027ll soon find out!",
+                   "item":  1265,
+                   "name":  "Gryffindor",
+                   "trait":  1443
+               },
+    "name":  "Griffon",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  70,
+                  256,
+                  539
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

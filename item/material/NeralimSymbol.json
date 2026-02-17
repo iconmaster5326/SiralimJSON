@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nChasing Infinity:\nIf this creature has {ACTION_provoked} at least one time this battle, its spells no longer consume {STAT_charges} and have 50% more potency.",
-  "icon": "images/item/material/NeralimSymbol.png",
-  "id": 148,
-  "name": "Neralim Symbol",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 58
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nChasing Infinity:\nIf this creature has {ACTION_provoked} at least one time this battle, its spells no longer consume {STAT_charges} and have 50% more potency.",
+    "icon":  "images/item/material/NeralimSymbol.png",
+    "id":  148,
+    "name":  "Neralim Symbol",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  58,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

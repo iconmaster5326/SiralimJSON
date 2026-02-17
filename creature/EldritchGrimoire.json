@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EldritchGrimoire/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 449,
-  "item": 76,
-  "lore": "Shortly after becoming the Hidden Grimoire, Cornell started researching the transmigration that souls undergo after death. Using small rodents as test subjects he discovered, among other things, that this phenomenon happens exactly nine minutes and seven seconds after a living being perishes. His most notable find, however, was the fact that Spell Gems leave a mark on a soul, one that remains at the very least throughout the entire process of transmigration. With great caution he created a Grimoire that was able to manipulate this magic. He gave it a terrifying appearance, hoping to scare the looters, but also gave it a personality that would drive it to take care of animals, trying to make amends for the many creatures that had died for his research. However, for obvious reasons, animals usually flee in terror at its presence.",
-  "menagerieDialog": [
-    "Read any good books lately?",
-    "I shall wreak havoc upon my enemies via a thousand papercuts!",
-    "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
-    "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
-    "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
-  ],
-  "minDepth": 1,
-  "name": "Eldritch Grimoire",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EldritchGrimoire/overworld_e0.png",
-      "images/creature/EldritchGrimoire/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EldritchGrimoire/overworld_n0.png",
-      "images/creature/EldritchGrimoire/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EldritchGrimoire/overworld_s0.png",
-      "images/creature/EldritchGrimoire/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EldritchGrimoire/overworld_w0.png",
-      "images/creature/EldritchGrimoire/overworld_w1.png"
-    ]
-  },
-  "race": "Grimoire",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Chaos Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 10,
-    "defense": 18,
-    "health": 25,
-    "intelligence": 25,
-    "speed": 23
-  },
-  "trait": 998
+    "battleSprite":  "images/creature/EldritchGrimoire/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  449,
+    "item":  76,
+    "lore":  "Shortly after becoming the Hidden Grimoire, Cornell started researching the transmigration that souls undergo after death. Using small rodents as test subjects he discovered, among other things, that this phenomenon happens exactly nine minutes and seven seconds after a living being perishes. His most notable find, however, was the fact that Spell Gems leave a mark on a soul, one that remains at the very least throughout the entire process of transmigration. With great caution he created a Grimoire that was able to manipulate this magic. He gave it a terrifying appearance, hoping to scare the looters, but also gave it a personality that would drive it to take care of animals, trying to make amends for the many creatures that had died for his research. However, for obvious reasons, animals usually flee in terror at its presence.",
+    "menagerieDialog":  [
+                            "Read any good books lately?",
+                            "I shall wreak havoc upon my enemies via a thousand papercuts!",
+                            "There is a great number of books about battle strategy. A comprehensive review of such tomes would be of great help in your endeavors.",
+                            "Nothing beats a warm fire, a fresh-cooked meal, and a good book.",
+                            "(It\u0027s taking a nap, which conveniently makes it look like an ordinary book.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Eldritch Grimoire",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EldritchGrimoire/overworld_e0.png",
+                                         "images/creature/EldritchGrimoire/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EldritchGrimoire/overworld_n0.png",
+                                          "images/creature/EldritchGrimoire/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EldritchGrimoire/overworld_s0.png",
+                                          "images/creature/EldritchGrimoire/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EldritchGrimoire/overworld_w0.png",
+                                         "images/creature/EldritchGrimoire/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Grimoire",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Chaos Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  10,
+                       "defense":  18,
+                       "health":  25,
+                       "intelligence":  25,
+                       "speed":  23
+                   },
+    "trait":  998,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

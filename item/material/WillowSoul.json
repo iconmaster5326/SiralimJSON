@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJustice For None:\nAfter your creatures are afflicted with a debuff, they have a 25% chance to {ACTION_cast} [icons,1984] Living Helmet. This trait does not stack.",
-  "icon": "images/item/material/WillowSoul.png",
-  "id": 50,
-  "name": "Willow Soul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1013
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJustice For None:\nAfter your creatures are afflicted with a debuff, they have a 25% chance to {ACTION_cast} [icons,1984] Living Helmet. This trait does not stack.",
+    "icon":  "images/item/material/WillowSoul.png",
+    "id":  50,
+    "name":  "Willow Soul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1013,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

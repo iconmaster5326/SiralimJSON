@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenCaliban/battle.png",
-  "creator": null,
-  "creature": 947,
-  "id": 400,
-  "name": "Halloween Caliban",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenCaliban/overworld_e0.png",
-      "images/skin/HalloweenCaliban/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenCaliban/overworld_n0.png",
-      "images/skin/HalloweenCaliban/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenCaliban/overworld_s0.png",
-      "images/skin/HalloweenCaliban/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenCaliban/overworld_w0.png",
-      "images/skin/HalloweenCaliban/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenCaliban/battle.png",
+    "creator":  null,
+    "creature":  947,
+    "id":  400,
+    "name":  "Halloween Caliban",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenCaliban/overworld_e0.png",
+                                         "images/skin/HalloweenCaliban/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenCaliban/overworld_n0.png",
+                                          "images/skin/HalloweenCaliban/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenCaliban/overworld_s0.png",
+                                          "images/skin/HalloweenCaliban/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenCaliban/overworld_w0.png",
+                                         "images/skin/HalloweenCaliban/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

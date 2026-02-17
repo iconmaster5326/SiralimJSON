@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDamaos\u0027 Treason:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} a random Sword spell on the target.",
-  "icon": "images/item/material/DamaosBrokenCrown.png",
-  "id": 770,
-  "name": "Damaos\u0027 Broken Crown",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 973
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDamaos\u0027 Treason:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} a random Sword spell on the target.",
+    "icon":  "images/item/material/DamaosBrokenCrown.png",
+    "id":  770,
+    "name":  "Damaos\u0027 Broken Crown",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  973,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

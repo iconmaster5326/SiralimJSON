@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "(A huge fox leaps into your path, whirling its tails around and crackling with magical energy as it growls and approaches. You have your creatures answer the threat head-on!)",
-    "(Atop the treasure, the Vulpes issues several screeching yaps before it turns and notices you, shocked at your presence. You seem to have interrupted something, and it isn\u0027t happy about it!)",
-    "(The Vulpes sitting on the treasure hoard gives you a condescending look as it begins to charge a spell. Having no particular desire to get zapped, you have your creatures quickly attack!)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies\u0027 Spell Gems have 10% fewer {STAT_charges}.",
-    "5": "Enemies\u0027 Spell Gems have 10% fewer {STAT_charges}.",
-    "8": "Enemies\u0027 Spell Gems have 10% fewer {STAT_charges}."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    578,
-    579,
-    580,
-    581,
-    582,
-    583,
-    688,
-    1013
-  ],
-  "icon": "images/race/Vulpes.png",
-  "master": {
-    "costume": 408,
-    "dialog": "Vulpes are fantastic spellcasters who prefer to do all the heavy lifting at the very start of battle. In other words, I\u0027m probably going to win this battle before you get a chance to make a move. Farewell!",
-    "item": 1186,
-    "name": "Benedict",
-    "trait": 1512
-  },
-  "name": "Vulpes",
-  "notes": [],
-  "skins": [
-    190,
-    319,
-    320,
-    794
-  ]
+    "bossDialog":  [
+                       "(A huge fox leaps into your path, whirling its tails around and crackling with magical energy as it growls and approaches. You have your creatures answer the threat head-on!)",
+                       "(Atop the treasure, the Vulpes issues several screeching yaps before it turns and notices you, shocked at your presence. You seem to have interrupted something, and it isn\u0027t happy about it!)",
+                       "(The Vulpes sitting on the treasure hoard gives you a condescending look as it begins to charge a spell. Having no particular desire to get zapped, you have your creatures quickly attack!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies\u0027 Spell Gems have 10% fewer {STAT_charges}.",
+                        "5":  "Enemies\u0027 Spell Gems have 10% fewer {STAT_charges}.",
+                        "8":  "Enemies\u0027 Spell Gems have 10% fewer {STAT_charges}."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      578,
+                      579,
+                      580,
+                      581,
+                      582,
+                      583,
+                      688,
+                      1013
+                  ],
+    "icon":  "images/race/Vulpes.png",
+    "master":  {
+                   "costume":  408,
+                   "dialog":  "Vulpes are fantastic spellcasters who prefer to do all the heavy lifting at the very start of battle. In other words, I\u0027m probably going to win this battle before you get a chance to make a move. Farewell!",
+                   "item":  1186,
+                   "name":  "Benedict",
+                   "trait":  1512
+               },
+    "name":  "Vulpes",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  190,
+                  319,
+                  320,
+                  794
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

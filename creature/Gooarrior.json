@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Gooarrior/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 912,
-  "item": 960,
-  "lore": "Concoctions leave behind them a trail of highly polluting, glowing, sticky substance. It is believed that, if one of these creatures were thrown into a river, entire ecosystems and crops would be ruined for a long time.\\n\\nTo intimidate its enemies, the Gooarrior constantly alters its shape. The truth is, this creature tries very hard to assume a terrifying appearance, but its success rate is questionable, as the only thing it provokes in its opponents is laughter.",
-  "menagerieDialog": [
-    "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
-    "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
-    "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
-    "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
-    "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
-  ],
-  "minDepth": 1,
-  "name": "Gooarrior",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Gooarrior/overworld_e0.png",
-      "images/creature/Gooarrior/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Gooarrior/overworld_n0.png",
-      "images/creature/Gooarrior/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Gooarrior/overworld_s0.png",
-      "images/creature/Gooarrior/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Gooarrior/overworld_w0.png",
-      "images/creature/Gooarrior/overworld_w1.png"
-    ]
-  },
-  "race": "Concoction",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 19,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 10
-  },
-  "trait": 1172
+    "battleSprite":  "images/creature/Gooarrior/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  912,
+    "item":  960,
+    "lore":  "Concoctions leave behind them a trail of highly polluting, glowing, sticky substance. It is believed that, if one of these creatures were thrown into a river, entire ecosystems and crops would be ruined for a long time.\\n\\nTo intimidate its enemies, the Gooarrior constantly alters its shape. The truth is, this creature tries very hard to assume a terrifying appearance, but its success rate is questionable, as the only thing it provokes in its opponents is laughter.",
+    "menagerieDialog":  [
+                            "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
+                            "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
+                            "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
+                            "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
+                            "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Gooarrior",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Gooarrior/overworld_e0.png",
+                                         "images/creature/Gooarrior/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Gooarrior/overworld_n0.png",
+                                          "images/creature/Gooarrior/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Gooarrior/overworld_s0.png",
+                                          "images/creature/Gooarrior/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Gooarrior/overworld_w0.png",
+                                         "images/creature/Gooarrior/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Concoction",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  10
+                   },
+    "trait":  1172,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

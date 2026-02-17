@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LappetBeacon/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1257,
-  "item": 1622,
-  "lore": "The two Magi who created the Beacons were inexperienced, and though they were successful, they lost their lives to exhaustion in the process of creating them.\\n\\nThe Lappet Beacon is the only one of its kind able to pollinate flowers, though it does so in fair measure so as not to alter the ecosystem in which it resides. Its arms reach up to five feet, allowing it to immobilize or trip its enemies.",
-  "menagerieDialog": [
-    "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
-    "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
-    "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
-    "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
-    "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
-  ],
-  "minDepth": 1,
-  "name": "Lappet Beacon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LappetBeacon/overworld_e0.png",
-      "images/creature/LappetBeacon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LappetBeacon/overworld_n0.png",
-      "images/creature/LappetBeacon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LappetBeacon/overworld_s0.png",
-      "images/creature/LappetBeacon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LappetBeacon/overworld_w0.png",
-      "images/creature/LappetBeacon/overworld_w1.png"
-    ]
-  },
-  "race": "Beacon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1962
+    "battleSprite":  "images/creature/LappetBeacon/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1257,
+    "item":  1622,
+    "lore":  "The two Magi who created the Beacons were inexperienced, and though they were successful, they lost their lives to exhaustion in the process of creating them.\\n\\nThe Lappet Beacon is the only one of its kind able to pollinate flowers, though it does so in fair measure so as not to alter the ecosystem in which it resides. Its arms reach up to five feet, allowing it to immobilize or trip its enemies.",
+    "menagerieDialog":  [
+                            "(It\u0027s fluttering around in seemingly random directions. Doesn\u0027t it ever get dizzy?)",
+                            "(Despite the countless trials and tribulations your other creatures have overcome during your travels, it\u0027s comical to witness their discomfort in the proximity of harmless bugs and insects.)",
+                            "(This creature\u0027s elegance and beauty are eclipsed only by its vicious battle prowess.)",
+                            "(The patterns on its wings signify the location it was born. You can\u0027t help but wonder where you ripped it away from when you summoned it.)",
+                            "(Its wings emit a brilliant light that can illuminate even the gloomiest of places.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Lappet Beacon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LappetBeacon/overworld_e0.png",
+                                         "images/creature/LappetBeacon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LappetBeacon/overworld_n0.png",
+                                          "images/creature/LappetBeacon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LappetBeacon/overworld_s0.png",
+                                          "images/creature/LappetBeacon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LappetBeacon/overworld_w0.png",
+                                         "images/creature/LappetBeacon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Beacon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1962,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

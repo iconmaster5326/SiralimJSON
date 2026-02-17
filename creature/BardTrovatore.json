@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/BardTrovatore/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 546,
-  "item": 710,
-  "lore": "Bards long for the sounds of their \u0022voice\u0022 to reach as many people as possible. However, the effects of their music and their apparent inability to stop their own mind-affecting traits have led many towns and cities to permanently ban these creatures.\\n\\nThe songs of the Bard Trovatore ridicule politicians, sometimes with very well-chosen words. Listening to them produces laughter, but also arouses feelings of rebellion against authority.",
-  "menagerieDialog": [
-    "(A spell that allows telepathic communication was discovered in the Refuge of the Magi centuries ago after countless experiments were done on these creatures.)",
-    "(This creature has a peculiar habit of stimulating the minds of everyone around it. Right now, it\u0027s projecting some aggressive metal music into your brain.)",
-    "(Despite having no discernable facial features, you always find it easy to read this creature\u0027s mood.)",
-    "(It\u0027s playing a gentle song for your other creatures who are listening with rapt attention.)",
-    "(You can\u0027t help but wonder what it looks like without a robe on.)"
-  ],
-  "minDepth": 1,
-  "name": "Bard Trovatore",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BardTrovatore/overworld_e0.png",
-      "images/creature/BardTrovatore/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BardTrovatore/overworld_n0.png",
-      "images/creature/BardTrovatore/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BardTrovatore/overworld_s0.png",
-      "images/creature/BardTrovatore/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BardTrovatore/overworld_w0.png",
-      "images/creature/BardTrovatore/overworld_w1.png"
-    ]
-  },
-  "race": "Bard",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 12,
-    "health": 39,
-    "intelligence": 27,
-    "speed": 12
-  },
-  "trait": 649
+    "battleSprite":  "images/creature/BardTrovatore/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  546,
+    "item":  710,
+    "lore":  "Bards long for the sounds of their \"voice\" to reach as many people as possible. However, the effects of their music and their apparent inability to stop their own mind-affecting traits have led many towns and cities to permanently ban these creatures.\\n\\nThe songs of the Bard Trovatore ridicule politicians, sometimes with very well-chosen words. Listening to them produces laughter, but also arouses feelings of rebellion against authority.",
+    "menagerieDialog":  [
+                            "(A spell that allows telepathic communication was discovered in the Refuge of the Magi centuries ago after countless experiments were done on these creatures.)",
+                            "(This creature has a peculiar habit of stimulating the minds of everyone around it. Right now, it\u0027s projecting some aggressive metal music into your brain.)",
+                            "(Despite having no discernable facial features, you always find it easy to read this creature\u0027s mood.)",
+                            "(It\u0027s playing a gentle song for your other creatures who are listening with rapt attention.)",
+                            "(You can\u0027t help but wonder what it looks like without a robe on.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bard Trovatore",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BardTrovatore/overworld_e0.png",
+                                         "images/creature/BardTrovatore/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BardTrovatore/overworld_n0.png",
+                                          "images/creature/BardTrovatore/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BardTrovatore/overworld_s0.png",
+                                          "images/creature/BardTrovatore/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BardTrovatore/overworld_w0.png",
+                                         "images/creature/BardTrovatore/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Bard",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  12,
+                       "health":  39,
+                       "intelligence":  27,
+                       "speed":  12
+                   },
+    "trait":  649,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDexterity Aura:\nYour creatures have an independent 20% chance to deal critical damage and dodge attacks. This trait does not stack.",
-  "icon": "images/item/material/RoguePrism.png",
-  "id": 846,
-  "name": "Rogue Prism",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 873
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDexterity Aura:\nYour creatures have an independent 20% chance to deal critical damage and dodge attacks. This trait does not stack.",
+    "icon":  "images/item/material/RoguePrism.png",
+    "id":  846,
+    "name":  "Rogue Prism",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  873,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

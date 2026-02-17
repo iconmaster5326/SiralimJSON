@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrailty:\nWhen this creature {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_VULNERABLE}, it deals 100% more damage, recovers {STAT_health} equal to 100% of the damage dealt, and removes this debuff.",
-  "icon": "images/item/material/BileStitches.png",
-  "id": 789,
-  "name": "Bile Stitches",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 809
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrailty:\nWhen this creature {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_VULNERABLE}, it deals 100% more damage, recovers {STAT_health} equal to 100% of the damage dealt, and removes this debuff.",
+    "icon":  "images/item/material/BileStitches.png",
+    "id":  789,
+    "name":  "Bile Stitches",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  809,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

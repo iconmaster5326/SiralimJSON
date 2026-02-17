@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRich Get Richer:\nAfter one of your {RACE_Dumpling}s are killed, this creature gains 50% of their highest stat.",
-  "icon": "images/item/material/RoyalDoughBall.png",
-  "id": 1287,
-  "name": "Royal Dough Ball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1527
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRich Get Richer:\nAfter one of your {RACE_Dumpling}s are killed, this creature gains 50% of their highest stat.",
+    "icon":  "images/item/material/RoyalDoughBall.png",
+    "id":  1287,
+    "name":  "Royal Dough Ball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1527,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

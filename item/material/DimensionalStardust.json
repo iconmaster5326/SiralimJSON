@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDispossession:\nYour creatures take 50% less damage as a result of their class strength. This trait does not stack.",
-  "icon": "images/item/material/DimensionalStardust.png",
-  "id": 965,
-  "name": "Dimensional Stardust",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1165
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDispossession:\nYour creatures take 50% less damage as a result of their class strength. This trait does not stack.",
+    "icon":  "images/item/material/DimensionalStardust.png",
+    "id":  965,
+    "name":  "Dimensional Stardust",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1165,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

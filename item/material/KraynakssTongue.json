@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUltimate Trickery:\nAt the start of battle, this creature transforms into a copy of the second creature in your party, gains the innate trait of the third creature in your party, and gains the fused trait of the fourth creature in your party. This creature always starts battles at the bottom of the {TIMELINE}.",
-  "icon": "images/item/material/KraynakssTongue.png",
-  "id": 1154,
-  "name": "Kraynaks\u0027s Tongue",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1299
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUltimate Trickery:\nAt the start of battle, this creature transforms into a copy of the second creature in your party, gains the innate trait of the third creature in your party, and gains the fused trait of the fourth creature in your party. This creature always starts battles at the bottom of the {TIMELINE}.",
+    "icon":  "images/item/material/KraynakssTongue.png",
+    "id":  1154,
+    "name":  "Kraynaks\u0027s Tongue",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1299,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

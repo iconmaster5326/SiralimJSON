@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/PestilentSmog/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 196,
-  "item": 339,
-  "lore": "The explosion in Siralim\u0027s chemical plant disintegrated the body of the prisoners of war, but their souls were locked in the gas masks they were forced to wear during the workday.\\n\\nAt night, the Pestilent Smog approaches villages and unprotected camps to look for sick people. When the smoke of this creature enters the organism, it replicates a virus or a harmful substance inside it, preventing it from disappearing.",
-  "menagerieDialog": [
-    "(It\u0027s spinning in place while mumbling its name over and over again.)",
-    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
-    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
-    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
-    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Pestilent Smog",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PestilentSmog/overworld_e0.png",
-      "images/creature/PestilentSmog/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PestilentSmog/overworld_n0.png",
-      "images/creature/PestilentSmog/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PestilentSmog/overworld_s0.png",
-      "images/creature/PestilentSmog/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PestilentSmog/overworld_w0.png",
-      "images/creature/PestilentSmog/overworld_w1.png"
-    ]
-  },
-  "race": "Smog",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 255
+    "battleSprite":  "images/creature/PestilentSmog/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  196,
+    "item":  339,
+    "lore":  "The explosion in Siralim\u0027s chemical plant disintegrated the body of the prisoners of war, but their souls were locked in the gas masks they were forced to wear during the workday.\\n\\nAt night, the Pestilent Smog approaches villages and unprotected camps to look for sick people. When the smoke of this creature enters the organism, it replicates a virus or a harmful substance inside it, preventing it from disappearing.",
+    "menagerieDialog":  [
+                            "(It\u0027s spinning in place while mumbling its name over and over again.)",
+                            "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+                            "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+                            "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+                            "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pestilent Smog",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PestilentSmog/overworld_e0.png",
+                                         "images/creature/PestilentSmog/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PestilentSmog/overworld_n0.png",
+                                          "images/creature/PestilentSmog/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PestilentSmog/overworld_s0.png",
+                                          "images/creature/PestilentSmog/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PestilentSmog/overworld_w0.png",
+                                         "images/creature/PestilentSmog/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Smog",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  255,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

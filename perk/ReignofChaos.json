@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures have \u003C1\u003E% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each battle you\u0027ve won in the current realm.",
-  "icon": "images/perk/ReignofChaos.png",
-  "id": 66,
-  "maxRanks": 15,
-  "name": "Reign of Chaos",
-  "notes": [],
-  "pointsPerRank": 5,
-  "specialization": 11
+    "anointable":  true,
+    "description":  "Your creatures have \u003c1\u003e% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each battle you\u0027ve won in the current realm.",
+    "icon":  "images/perk/ReignofChaos.png",
+    "id":  66,
+    "maxRanks":  15,
+    "name":  "Reign of Chaos",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  5,
+    "specialization":  11,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/CerebralVortex/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 531,
-  "item": 497,
-  "lore": "While Surathli was designing the Ophans, the Goddess of Illusion visited Aeolian and helped him with his plans to help in the Watcher War.\\n\\nThe Cerebral Vortex is a modified nerve cell, and its role was to transmit messages over long distances. It is able to acquire knowledge from any creature and then grant it to another through a series of nerve impulses.",
-  "menagerieDialog": [
-    "(It whirls around in circles, emitting a powerful light.)",
-    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
-    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
-    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
-    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
-  ],
-  "minDepth": 1,
-  "name": "Cerebral Vortex",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CerebralVortex/overworld_e0.png",
-      "images/creature/CerebralVortex/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CerebralVortex/overworld_n0.png",
-      "images/creature/CerebralVortex/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CerebralVortex/overworld_s0.png",
-      "images/creature/CerebralVortex/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CerebralVortex/overworld_w0.png",
-      "images/creature/CerebralVortex/overworld_w1.png"
-    ]
-  },
-  "race": "Vortex",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Aeolian)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 411
+    "battleSprite":  "images/creature/CerebralVortex/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  531,
+    "item":  497,
+    "lore":  "While Surathli was designing the Ophans, the Goddess of Illusion visited Aeolian and helped him with his plans to help in the Watcher War.\\n\\nThe Cerebral Vortex is a modified nerve cell, and its role was to transmit messages over long distances. It is able to acquire knowledge from any creature and then grant it to another through a series of nerve impulses.",
+    "menagerieDialog":  [
+                            "(It whirls around in circles, emitting a powerful light.)",
+                            "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+                            "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+                            "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+                            "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Cerebral Vortex",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CerebralVortex/overworld_e0.png",
+                                         "images/creature/CerebralVortex/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CerebralVortex/overworld_n0.png",
+                                          "images/creature/CerebralVortex/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CerebralVortex/overworld_s0.png",
+                                          "images/creature/CerebralVortex/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CerebralVortex/overworld_w0.png",
+                                         "images/creature/CerebralVortex/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vortex",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Aeolian)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  411,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

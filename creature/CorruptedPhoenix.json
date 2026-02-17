@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CorruptedPhoenix/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 63,
-  "item": 438,
-  "lore": "Phoenixes are mystical creatures that can influence the life and death of other beings.\\n\\nDuring the Unification War, Egas the Necromancer corrupted a large number of Phoenixes with a dark ritual to help him in his conquest. The presence of these creatures prevented the resurrection attempts of enemy creatures. When Helmholtz defeated the Necromancer, the Phoenixes escaped his control and spread throughout the country. They are currently peaceful creatures that feed on carrion.",
-  "menagerieDialog": [
-    "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
-    "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
-    "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
-    "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \u0022revives\u0022, it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
-    "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
-  ],
-  "minDepth": 1,
-  "name": "Corrupted Phoenix",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CorruptedPhoenix/overworld_e0.png",
-      "images/creature/CorruptedPhoenix/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CorruptedPhoenix/overworld_n0.png",
-      "images/creature/CorruptedPhoenix/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CorruptedPhoenix/overworld_s0.png",
-      "images/creature/CorruptedPhoenix/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CorruptedPhoenix/overworld_w0.png",
-      "images/creature/CorruptedPhoenix/overworld_w1.png"
-    ]
-  },
-  "race": "Phoenix",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 12,
-    "health": 29,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 353
+    "battleSprite":  "images/creature/CorruptedPhoenix/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  63,
+    "item":  438,
+    "lore":  "Phoenixes are mystical creatures that can influence the life and death of other beings.\\n\\nDuring the Unification War, Egas the Necromancer corrupted a large number of Phoenixes with a dark ritual to help him in his conquest. The presence of these creatures prevented the resurrection attempts of enemy creatures. When Helmholtz defeated the Necromancer, the Phoenixes escaped his control and spread throughout the country. They are currently peaceful creatures that feed on carrion.",
+    "menagerieDialog":  [
+                            "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
+                            "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
+                            "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
+                            "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \"revives\", it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
+                            "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Corrupted Phoenix",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CorruptedPhoenix/overworld_e0.png",
+                                         "images/creature/CorruptedPhoenix/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CorruptedPhoenix/overworld_n0.png",
+                                          "images/creature/CorruptedPhoenix/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CorruptedPhoenix/overworld_s0.png",
+                                          "images/creature/CorruptedPhoenix/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CorruptedPhoenix/overworld_w0.png",
+                                         "images/creature/CorruptedPhoenix/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Phoenix",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  12,
+                       "health":  29,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  353,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

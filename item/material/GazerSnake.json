@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeterioration:\nEnemy creatures deal 10% less damage with attacks and spells for each creature with {CONDNAME_DEBUFF_STONE} that is fighting on their side. This trait does not stack.",
-  "icon": "images/item/material/GazerSnake.png",
-  "id": 468,
-  "name": "Gazer Snake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 382
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeterioration:\nEnemy creatures deal 10% less damage with attacks and spells for each creature with {CONDNAME_DEBUFF_STONE} that is fighting on their side. This trait does not stack.",
+    "icon":  "images/item/material/GazerSnake.png",
+    "id":  468,
+    "name":  "Gazer Snake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  382,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

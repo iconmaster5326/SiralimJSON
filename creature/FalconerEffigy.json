@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/FalconerEffigy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1277,
-  "item": 1786,
-  "lore": "Effigies were once a ruthless species that almost conquered an entire nation. Today, they coexist peacefully with humans and other intelligent beings in the great cities.\\n\\nThe Falconer Effigy is a master falconer, an impeccable hunter, and an expert explorer. Their services are among the most expensive \u00E2\u20AC\u201D and the most reliable.",
-  "menagerieDialog": [
-    "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
-    "Feel the pinprick of my needles! Your pain is my pleasure!",
-    "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
-    "Strike me all you want - your pain will be reflected back tenfold!",
-    "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
-  ],
-  "minDepth": 1,
-  "name": "Falconer Effigy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FalconerEffigy/overworld_e0.png",
-      "images/creature/FalconerEffigy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FalconerEffigy/overworld_n0.png",
-      "images/creature/FalconerEffigy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FalconerEffigy/overworld_s0.png",
-      "images/creature/FalconerEffigy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FalconerEffigy/overworld_w0.png",
-      "images/creature/FalconerEffigy/overworld_w1.png"
-    ]
-  },
-  "race": "Effigy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 18
-  },
-  "trait": 2139
+    "battleSprite":  "images/creature/FalconerEffigy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1277,
+    "item":  1786,
+    "lore":  "Effigies were once a ruthless species that almost conquered an entire nation. Today, they coexist peacefully with humans and other intelligent beings in the great cities.\\n\\nThe Falconer Effigy is a master falconer, an impeccable hunter, and an expert explorer. Their services are among the most expensive — and the most reliable.",
+    "menagerieDialog":  [
+                            "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
+                            "Feel the pinprick of my needles! Your pain is my pleasure!",
+                            "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
+                            "Strike me all you want - your pain will be reflected back tenfold!",
+                            "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Falconer Effigy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FalconerEffigy/overworld_e0.png",
+                                         "images/creature/FalconerEffigy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FalconerEffigy/overworld_n0.png",
+                                          "images/creature/FalconerEffigy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FalconerEffigy/overworld_s0.png",
+                                          "images/creature/FalconerEffigy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FalconerEffigy/overworld_w0.png",
+                                         "images/creature/FalconerEffigy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Effigy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  18
+                   },
+    "trait":  2139,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

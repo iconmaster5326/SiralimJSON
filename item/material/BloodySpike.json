@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAgonizing Entrapment:\nAfter this creature takes damage, the enemy is afflicted with {CONDNAME_DEBUFF_SNARED} and {CONDNAME_DEBUFF_BLEED}. Enemies with {CONDNAME_DEBUFF_SNARED} take 50% more damage from {CONDNAME_DEBUFF_BLEED}. This trait does not stack.",
-  "icon": "images/item/material/BloodySpike.png",
-  "id": 1703,
-  "name": "Bloody Spike",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2045
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAgonizing Entrapment:\nAfter this creature takes damage, the enemy is afflicted with {CONDNAME_DEBUFF_SNARED} and {CONDNAME_DEBUFF_BLEED}. Enemies with {CONDNAME_DEBUFF_SNARED} take 50% more damage from {CONDNAME_DEBUFF_BLEED}. This trait does not stack.",
+    "icon":  "images/item/material/BloodySpike.png",
+    "id":  1703,
+    "name":  "Bloody Spike",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2045,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

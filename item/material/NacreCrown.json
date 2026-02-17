@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEureka!:\nThis creature always has {CONDNAME_DEBUFF_MANIA} and has additional {STAT_intelligence} equal to 5% of the potency of its {CONDNAME_DEBUFF_MANIA}. This creature cannot be immune to {CONDNAME_DEBUFF_MANIA}.",
-  "icon": "images/item/material/NacreCrown.png",
-  "id": 1831,
-  "name": "Nacre Crown",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2175
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEureka!:\nThis creature always has {CONDNAME_DEBUFF_MANIA} and has additional {STAT_intelligence} equal to 5% of the potency of its {CONDNAME_DEBUFF_MANIA}. This creature cannot be immune to {CONDNAME_DEBUFF_MANIA}.",
+    "icon":  "images/item/material/NacreCrown.png",
+    "id":  1831,
+    "name":  "Nacre Crown",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2175,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

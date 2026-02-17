@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWar Forged:\nYour creatures\u0027 \u0022Gain Buff On Damage\u0022 properties have a 100% greater chance to activate. This trait does not stack.",
-  "icon": "images/item/material/IannesSpareHammer.png",
-  "id": 433,
-  "name": "Ianne\u0027s Spare Hammer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 348
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWar Forged:\nYour creatures\u0027 \"Gain Buff On Damage\" properties have a 100% greater chance to activate. This trait does not stack.",
+    "icon":  "images/item/material/IannesSpareHammer.png",
+    "id":  433,
+    "name":  "Ianne\u0027s Spare Hammer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  348,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

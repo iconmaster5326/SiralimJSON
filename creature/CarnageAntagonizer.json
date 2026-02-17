@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/CarnageAntagonizer/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 239,
-  "item": 195,
-  "lore": "After meeting with Yseros and the rest of the Gods who participated in the Watcher War, Erebyss decided to set her Carnage project in motion, which she had been thinking about for centuries. Their senses and their tracking skills are unparalleled in this world.\\n\\nThe Carnage Antagonizer is a savage creature that kills its enemies in brutally creative ways, to the point of instilling terror in the rest of its enemies.",
-  "menagerieDialog": [
-    "(Even while it\u0027s not moving, its mere presence is terrifying.)",
-    "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
-    "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
-    "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
-    "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Carnage Antagonizer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CarnageAntagonizer/overworld_e0.png",
-      "images/creature/CarnageAntagonizer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CarnageAntagonizer/overworld_n0.png",
-      "images/creature/CarnageAntagonizer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CarnageAntagonizer/overworld_s0.png",
-      "images/creature/CarnageAntagonizer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CarnageAntagonizer/overworld_w0.png",
-      "images/creature/CarnageAntagonizer/overworld_w1.png"
-    ]
-  },
-  "race": "Carnage",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 12,
-    "health": 37,
-    "intelligence": 12,
-    "speed": 22
-  },
-  "trait": 105
+    "battleSprite":  "images/creature/CarnageAntagonizer/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  239,
+    "item":  195,
+    "lore":  "After meeting with Yseros and the rest of the Gods who participated in the Watcher War, Erebyss decided to set her Carnage project in motion, which she had been thinking about for centuries. Their senses and their tracking skills are unparalleled in this world.\\n\\nThe Carnage Antagonizer is a savage creature that kills its enemies in brutally creative ways, to the point of instilling terror in the rest of its enemies.",
+    "menagerieDialog":  [
+                            "(Even while it\u0027s not moving, its mere presence is terrifying.)",
+                            "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
+                            "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
+                            "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
+                            "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Carnage Antagonizer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CarnageAntagonizer/overworld_e0.png",
+                                         "images/creature/CarnageAntagonizer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CarnageAntagonizer/overworld_n0.png",
+                                          "images/creature/CarnageAntagonizer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CarnageAntagonizer/overworld_s0.png",
+                                          "images/creature/CarnageAntagonizer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CarnageAntagonizer/overworld_w0.png",
+                                         "images/creature/CarnageAntagonizer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carnage",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  12,
+                       "health":  37,
+                       "intelligence":  12,
+                       "speed":  22
+                   },
+    "trait":  105,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

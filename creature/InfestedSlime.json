@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/InfestedSlime/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 638,
-  "item": 867,
-  "lore": "After their uprising in the Refuge of the Magi, the Djinns noticed this creature in the chamber where the Djinn Ghula had been created. They decided to destroy it, but not only was their magic harmless to it, it also made it mutate with each spell thrown at it. The Infested Slime was grateful for the spells and returned the favor by also casting some at the Djinns. It was not long before it grew bored of the fleeing Djinns and decided to leave the tower and see the world.",
-  "menagerieDialog": [
-    "(It has an extremely punchable expression on its face.)",
-    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
-    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
-    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
-    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
-  ],
-  "minDepth": 1,
-  "name": "Infested Slime",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/InfestedSlime/overworld_e0.png",
-      "images/creature/InfestedSlime/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/InfestedSlime/overworld_n0.png",
-      "images/creature/InfestedSlime/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/InfestedSlime/overworld_s0.png",
-      "images/creature/InfestedSlime/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/InfestedSlime/overworld_w0.png",
-      "images/creature/InfestedSlime/overworld_w1.png"
-    ]
-  },
-  "race": "Slime",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 22,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 894
+    "battleSprite":  "images/creature/InfestedSlime/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  638,
+    "item":  867,
+    "lore":  "After their uprising in the Refuge of the Magi, the Djinns noticed this creature in the chamber where the Djinn Ghula had been created. They decided to destroy it, but not only was their magic harmless to it, it also made it mutate with each spell thrown at it. The Infested Slime was grateful for the spells and returned the favor by also casting some at the Djinns. It was not long before it grew bored of the fleeing Djinns and decided to leave the tower and see the world.",
+    "menagerieDialog":  [
+                            "(It has an extremely punchable expression on its face.)",
+                            "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+                            "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+                            "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+                            "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Infested Slime",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/InfestedSlime/overworld_e0.png",
+                                         "images/creature/InfestedSlime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/InfestedSlime/overworld_n0.png",
+                                          "images/creature/InfestedSlime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/InfestedSlime/overworld_s0.png",
+                                          "images/creature/InfestedSlime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/InfestedSlime/overworld_w0.png",
+                                         "images/creature/InfestedSlime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Slime",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  22,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  894,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

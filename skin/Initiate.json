@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Initiate/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 490,
-  "name": "Initiate",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Initiate/overworld_e0.png",
-      "images/skin/Initiate/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Initiate/overworld_n0.png",
-      "images/skin/Initiate/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Initiate/overworld_s0.png",
-      "images/skin/Initiate/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Initiate/overworld_w0.png",
-      "images/skin/Initiate/overworld_w1.png"
-    ]
-  },
-  "race": "Diabolic Horde",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Initiate/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  490,
+    "name":  "Initiate",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Initiate/overworld_e0.png",
+                                         "images/skin/Initiate/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Initiate/overworld_n0.png",
+                                          "images/skin/Initiate/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Initiate/overworld_s0.png",
+                                          "images/skin/Initiate/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Initiate/overworld_w0.png",
+                                         "images/skin/Initiate/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Diabolic Horde",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

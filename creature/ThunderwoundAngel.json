@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ThunderwoundAngel/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 990,
-  "item": 1317,
-  "lore": "Beams of electricity traverse the Thunderwound Angel\u0027s body continously. Touching this creature is dangerous, since they can produce discharges powerful enough to burn a small animal to a crisp. In battle, they summon a spear made of electricity that pierces through swords, shields, and armor, unless they were properly enchanted to resist it.",
-  "menagerieDialog": [
-    "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
-    "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
-    "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
-    "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
-    "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
-  ],
-  "minDepth": 1,
-  "name": "Thunderwound Angel",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ThunderwoundAngel/overworld_e0.png",
-      "images/creature/ThunderwoundAngel/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ThunderwoundAngel/overworld_n0.png",
-      "images/creature/ThunderwoundAngel/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ThunderwoundAngel/overworld_s0.png",
-      "images/creature/ThunderwoundAngel/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ThunderwoundAngel/overworld_w0.png",
-      "images/creature/ThunderwoundAngel/overworld_w1.png"
-    ]
-  },
-  "race": "Angel",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Life Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 26,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1564
+    "battleSprite":  "images/creature/ThunderwoundAngel/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  990,
+    "item":  1317,
+    "lore":  "Beams of electricity traverse the Thunderwound Angel\u0027s body continously. Touching this creature is dangerous, since they can produce discharges powerful enough to burn a small animal to a crisp. In battle, they summon a spear made of electricity that pierces through swords, shields, and armor, unless they were properly enchanted to resist it.",
+    "menagerieDialog":  [
+                            "(It appears to be calm, but you know a terrifying spectacle awaits its enemies.)",
+                            "(This creature radiates an aura of violence. Perfect for decimating your foes.)",
+                            "(You can tell it feels restless. Perhaps it knows a battle is coming.)",
+                            "(This is perhaps the most serious and focused creature you\u0027ve ever encountered. It will serve you well in battle.)",
+                            "(It meets your gaze with a firm, confident, and yet obedient stare. This creature is well-suited for battle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Thunderwound Angel",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ThunderwoundAngel/overworld_e0.png",
+                                         "images/creature/ThunderwoundAngel/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ThunderwoundAngel/overworld_n0.png",
+                                          "images/creature/ThunderwoundAngel/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ThunderwoundAngel/overworld_s0.png",
+                                          "images/creature/ThunderwoundAngel/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ThunderwoundAngel/overworld_w0.png",
+                                         "images/creature/ThunderwoundAngel/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Angel",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Life Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  26,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1564,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

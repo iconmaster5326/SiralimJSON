@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHisss!:\nThis creature can equip Spell Gems from any class. Your creatures have 10% more {STAT_defense} for each Sealed Spell Gem each of your creatures have. This trait does not stack.",
-  "icon": "images/item/material/BlackHelmet.png",
-  "id": 1805,
-  "name": "Black Helmet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2158
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHisss!:\nThis creature can equip Spell Gems from any class. Your creatures have 10% more {STAT_defense} for each Sealed Spell Gem each of your creatures have. This trait does not stack.",
+    "icon":  "images/item/material/BlackHelmet.png",
+    "id":  1805,
+    "name":  "Black Helmet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2158,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

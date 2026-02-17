@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures gain a minion or a minion stack, they recover {STAT_health} equal to \u003C1\u003E% of their Maximum {STAT_health}.",
-  "icon": "images/perk/DeadlyVitality.png",
-  "id": 224,
-  "maxRanks": 20,
-  "name": "Deadly Vitality",
-  "notes": [],
-  "pointsPerRank": 5,
-  "specialization": 8
+    "anointable":  true,
+    "description":  "After your creatures gain a minion or a minion stack, they recover {STAT_health} equal to \u003c1\u003e% of their Maximum {STAT_health}.",
+    "icon":  "images/perk/DeadlyVitality.png",
+    "id":  224,
+    "maxRanks":  20,
+    "name":  "Deadly Vitality",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  5,
+    "specialization":  8,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

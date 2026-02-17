@@ -1,43 +1,46 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "death",
-  "creator": null,
-  "description": "Caster\u0027s on-resurrect effects are activated.",
-  "god": null,
-  "id": 525,
-  "manuallyCastable": true,
-  "maxCharges": 10,
-  "name": "Revelation",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "UTILITY"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "death",
+    "creator":  null,
+    "description":  "Caster\u0027s on-resurrect effects are activated.",
+    "god":  null,
+    "id":  525,
+    "manuallyCastable":  true,
+    "maxCharges":  10,
+    "name":  "Revelation",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "UTILITY"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

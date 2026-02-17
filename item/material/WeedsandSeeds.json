@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFlower Power:\nAt the start of battle, your creatures gain 3 random {CLASS_Nature} Spell Gems. This trait does not stack.",
-  "icon": "images/item/material/WeedsandSeeds.png",
-  "id": 1364,
-  "name": "Weeds and Seeds",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1671
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFlower Power:\nAt the start of battle, your creatures gain 3 random {CLASS_Nature} Spell Gems. This trait does not stack.",
+    "icon":  "images/item/material/WeedsandSeeds.png",
+    "id":  1364,
+    "name":  "Weeds and Seeds",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1671,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

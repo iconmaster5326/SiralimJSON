@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/FrenzyGhoul/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 214,
-  "item": 232,
-  "lore": "All those who drank of Omnia\u0027s water three days before the attack were struck by a curse that remained inside them in a latent state.\\n\\nGhouls are always hungry and feel an intense predilection toward human flesh. To subdue their victims, Frenzy Ghouls rarely begin by biting them. Instead, they take advantage of the incredible strength of their left arm to beat them to death. Only then will they start eating.",
-  "menagerieDialog": [
-    "EAT FLESH!",
-    "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
-    "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
-    "Must... eat... more... footses...",
-    "Want... to eat... more... feet..."
-  ],
-  "minDepth": 1,
-  "name": "Frenzy Ghoul",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FrenzyGhoul/overworld_e0.png",
-      "images/creature/FrenzyGhoul/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FrenzyGhoul/overworld_n0.png",
-      "images/creature/FrenzyGhoul/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FrenzyGhoul/overworld_s0.png",
-      "images/creature/FrenzyGhoul/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FrenzyGhoul/overworld_w0.png",
-      "images/creature/FrenzyGhoul/overworld_w1.png"
-    ]
-  },
-  "race": "Ghoul",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 17,
-    "health": 26,
-    "intelligence": 7,
-    "speed": 27
-  },
-  "trait": 141
+    "battleSprite":  "images/creature/FrenzyGhoul/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  214,
+    "item":  232,
+    "lore":  "All those who drank of Omnia\u0027s water three days before the attack were struck by a curse that remained inside them in a latent state.\\n\\nGhouls are always hungry and feel an intense predilection toward human flesh. To subdue their victims, Frenzy Ghouls rarely begin by biting them. Instead, they take advantage of the incredible strength of their left arm to beat them to death. Only then will they start eating.",
+    "menagerieDialog":  [
+                            "EAT FLESH!",
+                            "(You can\u0027t help but wonder how this creature came to become so damn ugly.)",
+                            "(It eyes your other creatures hungrily. Better get it a steak before you\u0027re left without a team.)",
+                            "Must... eat... more... footses...",
+                            "Want... to eat... more... feet..."
+                        ],
+    "minDepth":  1,
+    "name":  "Frenzy Ghoul",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FrenzyGhoul/overworld_e0.png",
+                                         "images/creature/FrenzyGhoul/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FrenzyGhoul/overworld_n0.png",
+                                          "images/creature/FrenzyGhoul/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FrenzyGhoul/overworld_s0.png",
+                                          "images/creature/FrenzyGhoul/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FrenzyGhoul/overworld_w0.png",
+                                         "images/creature/FrenzyGhoul/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ghoul",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  17,
+                       "health":  26,
+                       "intelligence":  7,
+                       "speed":  27
+                   },
+    "trait":  141,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

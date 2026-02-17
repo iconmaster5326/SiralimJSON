@@ -1,34 +1,39 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Your creatures gain an army of minions. This spell does not activate on-minion effects. This spell is an {SPELL_ultimate}.",
-  "god": 26,
-  "id": 654,
-  "manuallyCastable": true,
-  "maxCharges": 1,
-  "name": "Work of Art",
-  "notes": [],
-  "obtainable": false,
-  "propertyCompatibility": [
-    0,
-    3,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [],
-  "tags": [
-    "ULTIMATE",
-    "MINION"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Your creatures gain an army of minions. This spell does not activate on-minion effects. This spell is an {SPELL_ultimate}.",
+    "god":  26,
+    "id":  654,
+    "manuallyCastable":  true,
+    "maxCharges":  1,
+    "name":  "Work of Art",
+    "notes":  [
+
+              ],
+    "obtainable":  false,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+
+                ],
+    "tags":  [
+                 "ULTIMATE",
+                 "MINION"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

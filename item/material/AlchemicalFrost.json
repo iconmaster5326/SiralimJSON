@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDead of Winter:\nAfter an enemy afflicts a debuff, it is afflicted with {CONDNAME_DEBUFF_FROZEN} and {CONDNAME_DEBUFF_POISON}.",
-  "icon": "images/item/material/AlchemicalFrost.png",
-  "id": 1369,
-  "name": "Alchemical Frost",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1676
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDead of Winter:\nAfter an enemy afflicts a debuff, it is afflicted with {CONDNAME_DEBUFF_FROZEN} and {CONDNAME_DEBUFF_POISON}.",
+    "icon":  "images/item/material/AlchemicalFrost.png",
+    "id":  1369,
+    "name":  "Alchemical Frost",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1676,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/GoliathArachnalisk/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 514,
-  "item": 606,
-  "lore": "Although its poison is not lethal, the Goliath Arachnalisk is the largest of its siblings. It lives deep in forests and tends to avoid clearings, which is why forest-dwelling Familiars usually settle in them. This creature is a born hunter that attacks any creature of similar or smaller size even when it is not hungry, as its web can preserve food for several days.",
-  "menagerieDialog": [
-    "(These creatures are a real plague... but they can be useful in battle.)",
-    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
-    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
-    "(It hands you a little doll made out of web silk. Ugh.)",
-    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
-  ],
-  "minDepth": 1,
-  "name": "Goliath Arachnalisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GoliathArachnalisk/overworld_e0.png",
-      "images/creature/GoliathArachnalisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GoliathArachnalisk/overworld_n0.png",
-      "images/creature/GoliathArachnalisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GoliathArachnalisk/overworld_s0.png",
-      "images/creature/GoliathArachnalisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GoliathArachnalisk/overworld_w0.png",
-      "images/creature/GoliathArachnalisk/overworld_w1.png"
-    ]
-  },
-  "race": "Arachnalisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 13,
-    "health": 28,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 520
+    "battleSprite":  "images/creature/GoliathArachnalisk/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  514,
+    "item":  606,
+    "lore":  "Although its poison is not lethal, the Goliath Arachnalisk is the largest of its siblings. It lives deep in forests and tends to avoid clearings, which is why forest-dwelling Familiars usually settle in them. This creature is a born hunter that attacks any creature of similar or smaller size even when it is not hungry, as its web can preserve food for several days.",
+    "menagerieDialog":  [
+                            "(These creatures are a real plague... but they can be useful in battle.)",
+                            "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+                            "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+                            "(It hands you a little doll made out of web silk. Ugh.)",
+                            "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Goliath Arachnalisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GoliathArachnalisk/overworld_e0.png",
+                                         "images/creature/GoliathArachnalisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GoliathArachnalisk/overworld_n0.png",
+                                          "images/creature/GoliathArachnalisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GoliathArachnalisk/overworld_s0.png",
+                                          "images/creature/GoliathArachnalisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GoliathArachnalisk/overworld_w0.png",
+                                         "images/creature/GoliathArachnalisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arachnalisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  13,
+                       "health":  28,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  520,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

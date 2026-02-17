@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMyrtle\u0027s Hunger:\nAfter an enemy is killed, this creature gains 20% of its stats.",
-  "icon": "images/item/material/MyrtlesShell.png",
-  "id": 1113,
-  "name": "Myrtle\u0027s Shell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1258
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMyrtle\u0027s Hunger:\nAfter an enemy is killed, this creature gains 20% of its stats.",
+    "icon":  "images/item/material/MyrtlesShell.png",
+    "id":  1113,
+    "name":  "Myrtle\u0027s Shell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1258,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

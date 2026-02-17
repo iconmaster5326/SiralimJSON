@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Familiars:\nYour {RACE_Familiar}s have 10% more {STAT_intelligence} for each time your {RACE_Familiar}s have {ACTION_cast} a spell in the current battle. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheFamiliar.png",
-  "id": 1260,
-  "name": "Sigil of the Familiar",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1433
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Familiars:\nYour {RACE_Familiar}s have 10% more {STAT_intelligence} for each time your {RACE_Familiar}s have {ACTION_cast} a spell in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheFamiliar.png",
+    "id":  1260,
+    "name":  "Sigil of the Familiar",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1433,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

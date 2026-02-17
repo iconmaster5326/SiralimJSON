@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCannibalistic Tendencies:\nAfter your creatures {ACTION_provoke}, they are killed, and your other creatures gain 20% of their {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. This trait does not stack.",
-  "icon": "images/item/material/MutantFoot.png",
-  "id": 957,
-  "name": "Mutant Foot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1181
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCannibalistic Tendencies:\nAfter your creatures {ACTION_provoke}, they are killed, and your other creatures gain 20% of their {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. This trait does not stack.",
+    "icon":  "images/item/material/MutantFoot.png",
+    "id":  957,
+    "name":  "Mutant Foot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1181,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

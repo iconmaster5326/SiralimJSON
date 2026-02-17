@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MirageOccultist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 137,
-  "item": 406,
-  "lore": "In those times of magic advancement, some Magi managed to contact the Gods. Or at least they thought they had initiated the contact themselves.\\n\\nIf the Mirage Occultist\u0027s staff is taken away from her, she falls to the ground and remains immobile. After a few seconds, she dies. When he analyzed the staff, Helmholtz discovered that, in addition to sharing some properties of Nether Orbs, it has tissue inside that resembles that of human lungs.",
-  "menagerieDialog": [
-    "(It\u0027s floating comfortably in the air while napping peacefully.)",
-    "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
-    "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
-    "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
-    "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Mirage Occultist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MirageOccultist/overworld_e0.png",
-      "images/creature/MirageOccultist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MirageOccultist/overworld_n0.png",
-      "images/creature/MirageOccultist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MirageOccultist/overworld_s0.png",
-      "images/creature/MirageOccultist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MirageOccultist/overworld_w0.png",
-      "images/creature/MirageOccultist/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 321
+    "battleSprite":  "images/creature/MirageOccultist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  137,
+    "item":  406,
+    "lore":  "In those times of magic advancement, some Magi managed to contact the Gods. Or at least they thought they had initiated the contact themselves.\\n\\nIf the Mirage Occultist\u0027s staff is taken away from her, she falls to the ground and remains immobile. After a few seconds, she dies. When he analyzed the staff, Helmholtz discovered that, in addition to sharing some properties of Nether Orbs, it has tissue inside that resembles that of human lungs.",
+    "menagerieDialog":  [
+                            "(It\u0027s floating comfortably in the air while napping peacefully.)",
+                            "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
+                            "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
+                            "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
+                            "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mirage Occultist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MirageOccultist/overworld_e0.png",
+                                         "images/creature/MirageOccultist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MirageOccultist/overworld_n0.png",
+                                          "images/creature/MirageOccultist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MirageOccultist/overworld_s0.png",
+                                          "images/creature/MirageOccultist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MirageOccultist/overworld_w0.png",
+                                         "images/creature/MirageOccultist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  321,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

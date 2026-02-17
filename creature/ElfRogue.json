@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElfRogue/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 559,
-  "item": 705,
-  "lore": "Elves do not live forever, and the older they get, the more vulnerable to disease they become. However, their longevity is legendary, and some even live beyond a thousand years of age.\\n\\nElves are also extremely agile and clever, and Elf Rogues are trained to harness the maximum potential of their bodies. They move stealthily in the shadows and determine their enemies\u0027 movements while looking for the right moment to strike a mortal blow.",
-  "menagerieDialog": [
-    "The sound of elves singing at night is a spectacle worth witnessing.",
-    "No one shall trespass through our lands without consequences.",
-    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
-    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
-    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
-  ],
-  "minDepth": 1,
-  "name": "Elf Rogue",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElfRogue/overworld_e0.png",
-      "images/creature/ElfRogue/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElfRogue/overworld_n0.png",
-      "images/creature/ElfRogue/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElfRogue/overworld_s0.png",
-      "images/creature/ElfRogue/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElfRogue/overworld_w0.png",
-      "images/creature/ElfRogue/overworld_w1.png"
-    ]
-  },
-  "race": "Elf",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Regalis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 31,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 644
+    "battleSprite":  "images/creature/ElfRogue/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  559,
+    "item":  705,
+    "lore":  "Elves do not live forever, and the older they get, the more vulnerable to disease they become. However, their longevity is legendary, and some even live beyond a thousand years of age.\\n\\nElves are also extremely agile and clever, and Elf Rogues are trained to harness the maximum potential of their bodies. They move stealthily in the shadows and determine their enemies\u0027 movements while looking for the right moment to strike a mortal blow.",
+    "menagerieDialog":  [
+                            "The sound of elves singing at night is a spectacle worth witnessing.",
+                            "No one shall trespass through our lands without consequences.",
+                            "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+                            "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+                            "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elf Rogue",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElfRogue/overworld_e0.png",
+                                         "images/creature/ElfRogue/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElfRogue/overworld_n0.png",
+                                          "images/creature/ElfRogue/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElfRogue/overworld_s0.png",
+                                          "images/creature/ElfRogue/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElfRogue/overworld_w0.png",
+                                         "images/creature/ElfRogue/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elf",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Regalis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  31,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  644,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

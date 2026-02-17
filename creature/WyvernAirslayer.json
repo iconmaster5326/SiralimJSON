@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WyvernAirslayer/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 172,
-  "item": 351,
-  "lore": "Wyverns are ferocious predators that play an important role in many ecosystems. However, Wyvern Airslayers pose a problem for these ecosystems, as they kill other creatures for pleasure instead of necessity. There was once a Wyvern Windrider who went into the Torture Chamber and made the mistake of facing Tartarith. The God of Punishment easily subdued the creature and played with it for several days, corrupting its nature until it became the first Airslayer.",
-  "menagerieDialog": [
-    "(It\u0027s curled up with its head between its wings.)",
-    "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
-    "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
-    "(After it notices you, it unleashes a roar of approval.)",
-    "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
-  ],
-  "minDepth": 1,
-  "name": "Wyvern Airslayer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WyvernAirslayer/overworld_e0.png",
-      "images/creature/WyvernAirslayer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WyvernAirslayer/overworld_n0.png",
-      "images/creature/WyvernAirslayer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WyvernAirslayer/overworld_s0.png",
-      "images/creature/WyvernAirslayer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WyvernAirslayer/overworld_w0.png",
-      "images/creature/WyvernAirslayer/overworld_w1.png"
-    ]
-  },
-  "race": "Wyvern",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 267
+    "battleSprite":  "images/creature/WyvernAirslayer/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  172,
+    "item":  351,
+    "lore":  "Wyverns are ferocious predators that play an important role in many ecosystems. However, Wyvern Airslayers pose a problem for these ecosystems, as they kill other creatures for pleasure instead of necessity. There was once a Wyvern Windrider who went into the Torture Chamber and made the mistake of facing Tartarith. The God of Punishment easily subdued the creature and played with it for several days, corrupting its nature until it became the first Airslayer.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up with its head between its wings.)",
+                            "(Upon your approach, it roars so loudly your eardrums start to ring. It must like you.)",
+                            "(It\u0027s squirming around on the floor in a failed effort to scratch its own back. It must be difficult to have such short and restrained limbs.)",
+                            "(After it notices you, it unleashes a roar of approval.)",
+                            "(It\u0027s stretching out its wings, unwittingly knocking the neighboring creatures off their stools.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Wyvern Airslayer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WyvernAirslayer/overworld_e0.png",
+                                         "images/creature/WyvernAirslayer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WyvernAirslayer/overworld_n0.png",
+                                          "images/creature/WyvernAirslayer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WyvernAirslayer/overworld_s0.png",
+                                          "images/creature/WyvernAirslayer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WyvernAirslayer/overworld_w0.png",
+                                         "images/creature/WyvernAirslayer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wyvern",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  267,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

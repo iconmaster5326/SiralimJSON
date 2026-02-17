@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nForbearance:\nWhen your creatures are resurrected, they are resurrected with 100% additional {STAT_health}. If this amount exceeds their Maximum {STAT_health}, their Maximum {STAT_health} increases by an amount equal to the difference. This trait does not stack.",
-  "icon": "images/item/material/ShadowFossil.png",
-  "id": 994,
-  "name": "Shadow Fossil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1134
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nForbearance:\nWhen your creatures are resurrected, they are resurrected with 100% additional {STAT_health}. If this amount exceeds their Maximum {STAT_health}, their Maximum {STAT_health} increases by an amount equal to the difference. This trait does not stack.",
+    "icon":  "images/item/material/ShadowFossil.png",
+    "id":  994,
+    "name":  "Shadow Fossil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1134,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

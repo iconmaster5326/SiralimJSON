@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Vulpeses:\nIf all the creatures in your party are {RACE_Vulpes}, their innate traits now affect the first 5 permanent Spell Gems they have equipped.",
-  "icon": "images/item/material/SigiloftheVulpes.png",
-  "id": 1186,
-  "name": "Sigil of the Vulpes",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1512
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Vulpeses:\nIf all the creatures in your party are {RACE_Vulpes}, their innate traits now affect the first 5 permanent Spell Gems they have equipped.",
+    "icon":  "images/item/material/SigiloftheVulpes.png",
+    "id":  1186,
+    "name":  "Sigil of the Vulpes",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1512,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

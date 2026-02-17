@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeads or Tails:\nAfter this creature {ACTION_attacks}, it has a 50% chance to gain a random buff. Otherwise, it gains a random minion.",
-  "icon": "images/item/material/LuckyCoin.png",
-  "id": 1477,
-  "name": "Lucky Coin",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1785
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeads or Tails:\nAfter this creature {ACTION_attacks}, it has a 50% chance to gain a random buff. Otherwise, it gains a random minion.",
+    "icon":  "images/item/material/LuckyCoin.png",
+    "id":  1477,
+    "name":  "Lucky Coin",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1785,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "description": "{CONDNAME_BUFF_INVISIBLE} creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action.",
-  "icon": "images/condition/Invisible.png",
-  "iconResisted": null,
-  "id": 12,
-  "material": 22,
-  "name": "Invisible",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "{CONDNAME_BUFF_INVISIBLE} creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action.",
+    "icon":  "images/condition/Invisible.png",
+    "iconResisted":  null,
+    "id":  12,
+    "material":  22,
+    "name":  "Invisible",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

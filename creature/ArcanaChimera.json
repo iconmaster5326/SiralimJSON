@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ArcanaChimera/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1203,
-  "item": 1587,
-  "lore": "The Chimeras were created by T\u0027mere M\u0027rgo for the sole purpose of protecting the Amalgam Gardens.\\n\\nThe Arcana Chimera is the most intelligent of its kind, although military strategy is better suited to one of its siblings. It prefers not to fight physically, but when cornered it uses its stinger to keep enemies away. Only if this does not work will it lower its head and charge towards its enemies, possibly knocking them out. In its spare time it loves to read, especially plays. Indeed, some these creatures have recently visited Rodia\u0027s theaters.",
-  "menagerieDialog": [
-    "(Such a horrifying yet fascinating creature... you don\u0027t want to look, but you can\u0027t seem to tear your gaze away from it.)",
-    "(This creature is clearly the product of a sick and twisted mind.)",
-    "(This creature inspires you to think about what would happen if Torun fused himself with a Dumpling.)",
-    "(Despite its horrifying appearance, this creature\u0027s steadfast loyalty to you and your kingdom is unquestionable.)",
-    "Kill... me..."
-  ],
-  "minDepth": 1,
-  "name": "Arcana Chimera",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ArcanaChimera/overworld_e0.png",
-      "images/creature/ArcanaChimera/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ArcanaChimera/overworld_n0.png",
-      "images/creature/ArcanaChimera/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ArcanaChimera/overworld_s0.png",
-      "images/creature/ArcanaChimera/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ArcanaChimera/overworld_w0.png",
-      "images/creature/ArcanaChimera/overworld_w1.png"
-    ]
-  },
-  "race": "Chimera",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (T\u0027mere M\u0027rgo)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 22,
-    "health": 34,
-    "intelligence": 14,
-    "speed": 22
-  },
-  "trait": 1926
+    "battleSprite":  "images/creature/ArcanaChimera/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1203,
+    "item":  1587,
+    "lore":  "The Chimeras were created by T\u0027mere M\u0027rgo for the sole purpose of protecting the Amalgam Gardens.\\n\\nThe Arcana Chimera is the most intelligent of its kind, although military strategy is better suited to one of its siblings. It prefers not to fight physically, but when cornered it uses its stinger to keep enemies away. Only if this does not work will it lower its head and charge towards its enemies, possibly knocking them out. In its spare time it loves to read, especially plays. Indeed, some these creatures have recently visited Rodia\u0027s theaters.",
+    "menagerieDialog":  [
+                            "(Such a horrifying yet fascinating creature... you don\u0027t want to look, but you can\u0027t seem to tear your gaze away from it.)",
+                            "(This creature is clearly the product of a sick and twisted mind.)",
+                            "(This creature inspires you to think about what would happen if Torun fused himself with a Dumpling.)",
+                            "(Despite its horrifying appearance, this creature\u0027s steadfast loyalty to you and your kingdom is unquestionable.)",
+                            "Kill... me..."
+                        ],
+    "minDepth":  1,
+    "name":  "Arcana Chimera",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ArcanaChimera/overworld_e0.png",
+                                         "images/creature/ArcanaChimera/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ArcanaChimera/overworld_n0.png",
+                                          "images/creature/ArcanaChimera/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ArcanaChimera/overworld_s0.png",
+                                          "images/creature/ArcanaChimera/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ArcanaChimera/overworld_w0.png",
+                                         "images/creature/ArcanaChimera/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Chimera",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (T\u0027mere M\u0027rgo)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  22,
+                       "health":  34,
+                       "intelligence":  14,
+                       "speed":  22
+                   },
+    "trait":  1926,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Pegasus/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 184,
-  "item": 96,
-  "lore": "Many children in Rodia dream of becoming Magi and summoning a Pegasus with which to soar the skies. They are extremely rare creatures that spend most of their time in the clouds or on the peaks of high mountains, inaccessible to most. They enjoy silence and tranquility, but they will immediately come to the aid of people who cannot fend for themselves if they witness a catastrophe.",
-  "menagerieDialog": [
-    "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
-    "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
-    "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
-    "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
-    "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
-  ],
-  "minDepth": 1,
-  "name": "Pegasus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Pegasus/overworld_e0.png",
-      "images/creature/Pegasus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Pegasus/overworld_n0.png",
-      "images/creature/Pegasus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Pegasus/overworld_s0.png",
-      "images/creature/Pegasus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Pegasus/overworld_w0.png",
-      "images/creature/Pegasus/overworld_w1.png"
-    ]
-  },
-  "race": "Unicorn",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 5
+    "battleSprite":  "images/creature/Pegasus/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  184,
+    "item":  96,
+    "lore":  "Many children in Rodia dream of becoming Magi and summoning a Pegasus with which to soar the skies. They are extremely rare creatures that spend most of their time in the clouds or on the peaks of high mountains, inaccessible to most. They enjoy silence and tranquility, but they will immediately come to the aid of people who cannot fend for themselves if they witness a catastrophe.",
+    "menagerieDialog":  [
+                            "(The Unicorn is projecting an image of the stables into your mind. It must be tired.)",
+                            "(Upon your approach, the Unicorn projects an image of battle into your mind. It seems to never grow tired of fighting.)",
+                            "(It\u0027s incredibly sure of itself, though not arrogant in the slightest. Such confidence is inspiring.)",
+                            "(It nuzzles your hand lovingly. You reach out to pet it, but it recoils shyly. It nuzzles your hand once more, so you attempt to pet it yet again and it backs away for a second time. To hell with it, then.)",
+                            "(It\u0027s nervously tapping at the ground with one if its hooves. Perhaps Nortah is making it nervous.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pegasus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Pegasus/overworld_e0.png",
+                                         "images/creature/Pegasus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Pegasus/overworld_n0.png",
+                                          "images/creature/Pegasus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Pegasus/overworld_s0.png",
+                                          "images/creature/Pegasus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Pegasus/overworld_w0.png",
+                                         "images/creature/Pegasus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Unicorn",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  5,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

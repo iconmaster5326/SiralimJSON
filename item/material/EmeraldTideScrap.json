@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEmerald Blessings:\nThis creature gives and receives 150% more healing.",
-  "icon": "images/item/material/EmeraldTideScrap.png",
-  "id": 1383,
-  "name": "Emerald Tide Scrap",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1690
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEmerald Blessings:\nThis creature gives and receives 150% more healing.",
+    "icon":  "images/item/material/EmeraldTideScrap.png",
+    "id":  1383,
+    "name":  "Emerald Tide Scrap",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1690,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/AmphisbaenaVaccinator/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 804,
-  "item": 1067,
-  "lore": "After the fall of Omnia, the surviving Amphisbaenas scattered across the newly founded country of Rodia, trying to find a place in society. At first, they ran into the same difficulties they had found in Omnia, but over the years their presence was normalized. Today, these creatures are treated with respect and equality, and measures for their protection are no longer necessary.\\n\\nAmphisbaena Vaccinators can move any substance they ingest into an object with which they are in contact. In the case of vaccines, they can generate up to ten additional doses of it after it has entered their body.",
-  "menagerieDialog": [
-    "It is an honor to fight by your side, {PLAYERNAME}.",
-    "After having fought so much, I\u0027ve come to appreciate the art of war.",
-    "We may have two heads, but we think as one. We are a single being, and each of our brains is like a single hemisphere of your own.",
-    "You should consider memorizing a few spells for when you\u0027re in a pinch. What good is a {CURRENTSPEC} if they can\u0027t fight their own battles?",
-    "I dislike fighting, though I must admit that I am quite good at it."
-  ],
-  "minDepth": 1,
-  "name": "Amphisbaena Vaccinator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AmphisbaenaVaccinator/overworld_e0.png",
-      "images/creature/AmphisbaenaVaccinator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AmphisbaenaVaccinator/overworld_n0.png",
-      "images/creature/AmphisbaenaVaccinator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AmphisbaenaVaccinator/overworld_s0.png",
-      "images/creature/AmphisbaenaVaccinator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AmphisbaenaVaccinator/overworld_w0.png",
-      "images/creature/AmphisbaenaVaccinator/overworld_w1.png"
-    ]
-  },
-  "race": "Amphisbaena",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 1072
+    "battleSprite":  "images/creature/AmphisbaenaVaccinator/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  804,
+    "item":  1067,
+    "lore":  "After the fall of Omnia, the surviving Amphisbaenas scattered across the newly founded country of Rodia, trying to find a place in society. At first, they ran into the same difficulties they had found in Omnia, but over the years their presence was normalized. Today, these creatures are treated with respect and equality, and measures for their protection are no longer necessary.\\n\\nAmphisbaena Vaccinators can move any substance they ingest into an object with which they are in contact. In the case of vaccines, they can generate up to ten additional doses of it after it has entered their body.",
+    "menagerieDialog":  [
+                            "It is an honor to fight by your side, {PLAYERNAME}.",
+                            "After having fought so much, I\u0027ve come to appreciate the art of war.",
+                            "We may have two heads, but we think as one. We are a single being, and each of our brains is like a single hemisphere of your own.",
+                            "You should consider memorizing a few spells for when you\u0027re in a pinch. What good is a {CURRENTSPEC} if they can\u0027t fight their own battles?",
+                            "I dislike fighting, though I must admit that I am quite good at it."
+                        ],
+    "minDepth":  1,
+    "name":  "Amphisbaena Vaccinator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AmphisbaenaVaccinator/overworld_e0.png",
+                                         "images/creature/AmphisbaenaVaccinator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AmphisbaenaVaccinator/overworld_n0.png",
+                                          "images/creature/AmphisbaenaVaccinator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AmphisbaenaVaccinator/overworld_s0.png",
+                                          "images/creature/AmphisbaenaVaccinator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AmphisbaenaVaccinator/overworld_w0.png",
+                                         "images/creature/AmphisbaenaVaccinator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Amphisbaena",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  1072,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

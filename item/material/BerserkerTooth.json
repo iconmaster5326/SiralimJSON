@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOutrage:\nThis creature is always {CONDNAME_BUFF_BERSERK}, and deals 75% more damage.",
-  "icon": "images/item/material/BerserkerTooth.png",
-  "id": 302,
-  "name": "Berserker Tooth",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 218
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOutrage:\nThis creature is always {CONDNAME_BUFF_BERSERK}, and deals 75% more damage.",
+    "icon":  "images/item/material/BerserkerTooth.png",
+    "id":  302,
+    "name":  "Berserker Tooth",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  218,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

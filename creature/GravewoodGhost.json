@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/GravewoodGhost/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1273,
-  "item": 1536,
-  "lore": "Mount Hyvana was the site of one of the first battles of the Unification War. Vanelin\u0027s army wiped out the enemy in a matter of minutes, literally reducing them to ashes and severed limbs. After the victory of the Vanelites, they ordered the bodies to be buried. When the war ended, the daughter of one of these soldiers used the residual magic from the battle to cast a powerful spell meant to bring the dead back to life.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Gravewood Ghost",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GravewoodGhost/overworld_e0.png",
-      "images/creature/GravewoodGhost/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GravewoodGhost/overworld_n0.png",
-      "images/creature/GravewoodGhost/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GravewoodGhost/overworld_s0.png",
-      "images/creature/GravewoodGhost/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GravewoodGhost/overworld_w0.png",
-      "images/creature/GravewoodGhost/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 18
-  },
-  "trait": 1877
+    "battleSprite":  "images/creature/GravewoodGhost/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1273,
+    "item":  1536,
+    "lore":  "Mount Hyvana was the site of one of the first battles of the Unification War. Vanelin\u0027s army wiped out the enemy in a matter of minutes, literally reducing them to ashes and severed limbs. After the victory of the Vanelites, they ordered the bodies to be buried. When the war ended, the daughter of one of these soldiers used the residual magic from the battle to cast a powerful spell meant to bring the dead back to life.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Gravewood Ghost",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GravewoodGhost/overworld_e0.png",
+                                         "images/creature/GravewoodGhost/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GravewoodGhost/overworld_n0.png",
+                                          "images/creature/GravewoodGhost/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GravewoodGhost/overworld_s0.png",
+                                          "images/creature/GravewoodGhost/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GravewoodGhost/overworld_w0.png",
+                                         "images/creature/GravewoodGhost/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  18
+                   },
+    "trait":  1877,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

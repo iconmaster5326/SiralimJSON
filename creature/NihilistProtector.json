@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NihilistProtector/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1077,
-  "item": 1513,
-  "lore": "The existence of the Nihilists is believed to be linked to that of the Voidlords. In fact, there are those who think these creatures exist only to end them.\\n\\nWhen a Nihilist Protector places its hand on its book and chants, all creatures within a mile of it are shielded from the Voidlords\u0027 powers for thirty-six days.",
-  "menagerieDialog": [
-    "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
-    "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
-    "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
-    "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
-    "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
-  ],
-  "minDepth": 1,
-  "name": "Nihilist Protector",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NihilistProtector/overworld_e0.png",
-      "images/creature/NihilistProtector/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NihilistProtector/overworld_n0.png",
-      "images/creature/NihilistProtector/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NihilistProtector/overworld_s0.png",
-      "images/creature/NihilistProtector/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NihilistProtector/overworld_w0.png",
-      "images/creature/NihilistProtector/overworld_w1.png"
-    ]
-  },
-  "race": "Nihilist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 16,
-    "health": 33,
-    "intelligence": 6,
-    "speed": 26
-  },
-  "trait": 1820
+    "battleSprite":  "images/creature/NihilistProtector/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1077,
+    "item":  1513,
+    "lore":  "The existence of the Nihilists is believed to be linked to that of the Voidlords. In fact, there are those who think these creatures exist only to end them.\\n\\nWhen a Nihilist Protector places its hand on its book and chants, all creatures within a mile of it are shielded from the Voidlords\u0027 powers for thirty-six days.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy performing a fast-paced dance for the entertainment of your other creatures.)",
+                            "(This creature always seems to be dancing. Its beauty and grace are truly captivating.)",
+                            "(Despite its limitless grace and beauty, you can\u0027t help but feel a sense of unease around this creature. There seems to be a presence of darkness living within it.)",
+                            "(Though this creature cannot speak, it seems to be able to communicate with you via its complex and varied dances.)",
+                            "(Your other creatures seem to be a bit more chipper with this creature around, but you can\u0027t help but think it has ulterior motives.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nihilist Protector",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NihilistProtector/overworld_e0.png",
+                                         "images/creature/NihilistProtector/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NihilistProtector/overworld_n0.png",
+                                          "images/creature/NihilistProtector/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NihilistProtector/overworld_s0.png",
+                                          "images/creature/NihilistProtector/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NihilistProtector/overworld_w0.png",
+                                         "images/creature/NihilistProtector/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Nihilist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  16,
+                       "health":  33,
+                       "intelligence":  6,
+                       "speed":  26
+                   },
+    "trait":  1820,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

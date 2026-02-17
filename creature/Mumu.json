@@ -1,59 +1,64 @@
 {
-  "battleSprite": "images/creature/Mumu/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 715,
-  "item": 742,
-  "lore": "Mumu is just one of the many infants that were cruelly murdered by an overzealous Nightveil Spectre who sought to make a game out of knifeplay. Now, Mumu wanders the lands as a compressed, corrupt version of what its existence would have been had it not been killed, snatching children from their homes and gobbling them up in a single bite.",
-  "menagerieDialog": [
-    "(Every time this creature notices you, it spins its head around repeatedly. You\u0027re fairly certain that it does this on purpose to try to impress you.)",
-    "(It\u0027s attempting to disgust your other creatures by turning its head to unnatural angles.)",
-    "(It\u0027s playing a game involving cards and dice with your other creatures.)",
-    "(Mumu is often mentioned in popular culture as a tale to scare children who misbehave. You never would have thought such a creature actually exists, much less that it would be yours to command one day.)",
-    "(Its eyes glow eerily any time you\u0027re around. It either likes you, or wants to possess your soul. You\u0027re not sure which.)"
-  ],
-  "minDepth": 1,
-  "name": "Mumu",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Mumu/overworld_e0.png",
-      "images/creature/Mumu/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Mumu/overworld_n0.png",
-      "images/creature/Mumu/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Mumu/overworld_s0.png",
-      "images/creature/Mumu/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Mumu/overworld_w0.png",
-      "images/creature/Mumu/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    154,
-    468
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 37,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 790
+    "battleSprite":  "images/creature/Mumu/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  715,
+    "item":  742,
+    "lore":  "Mumu is just one of the many infants that were cruelly murdered by an overzealous Nightveil Spectre who sought to make a game out of knifeplay. Now, Mumu wanders the lands as a compressed, corrupt version of what its existence would have been had it not been killed, snatching children from their homes and gobbling them up in a single bite.",
+    "menagerieDialog":  [
+                            "(Every time this creature notices you, it spins its head around repeatedly. You\u0027re fairly certain that it does this on purpose to try to impress you.)",
+                            "(It\u0027s attempting to disgust your other creatures by turning its head to unnatural angles.)",
+                            "(It\u0027s playing a game involving cards and dice with your other creatures.)",
+                            "(Mumu is often mentioned in popular culture as a tale to scare children who misbehave. You never would have thought such a creature actually exists, much less that it would be yours to command one day.)",
+                            "(Its eyes glow eerily any time you\u0027re around. It either likes you, or wants to possess your soul. You\u0027re not sure which.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mumu",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Mumu/overworld_e0.png",
+                                         "images/creature/Mumu/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Mumu/overworld_n0.png",
+                                          "images/creature/Mumu/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Mumu/overworld_s0.png",
+                                          "images/creature/Mumu/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Mumu/overworld_w0.png",
+                                         "images/creature/Mumu/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  154,
+                  468
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  37,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  790,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

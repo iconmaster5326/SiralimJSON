@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSign of Leo:\nWhen this creature attacks, it consumes 1 {STAT_charge} from all its permanent Spell Gems and deals 25% more damage for each {STAT_charge} consumed.",
-  "icon": "images/item/material/OnyxofLeo.png",
-  "id": 1073,
-  "name": "Onyx of Leo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1058
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSign of Leo:\nWhen this creature attacks, it consumes 1 {STAT_charge} from all its permanent Spell Gems and deals 25% more damage for each {STAT_charge} consumed.",
+    "icon":  "images/item/material/OnyxofLeo.png",
+    "id":  1073,
+    "name":  "Onyx of Leo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1058,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

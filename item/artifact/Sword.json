@@ -1,15 +1,18 @@
 {
-  "description": "[slot_stat] {1}% Attack\n",
-  "icons": [
-    "images/item/artifact/Sword_t0.png",
-    "images/item/artifact/Sword_t1.png",
-    "images/item/artifact/Sword_t2.png",
-    "images/item/artifact/Sword_t3.png",
-    "images/item/artifact/Sword_t4.png",
-    "images/item/artifact/Sword_t5.png"
-  ],
-  "id": 3,
-  "name": "Sword",
-  "notes": [],
-  "stat": "attack"
+    "description":  "[slot_stat] {1}% Attack\n",
+    "icons":  [
+                  "images/item/artifact/Sword_t0.png",
+                  "images/item/artifact/Sword_t1.png",
+                  "images/item/artifact/Sword_t2.png",
+                  "images/item/artifact/Sword_t3.png",
+                  "images/item/artifact/Sword_t4.png",
+                  "images/item/artifact/Sword_t5.png"
+              ],
+    "id":  3,
+    "name":  "Sword",
+    "notes":  [
+
+              ],
+    "stat":  "attack",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/artifactItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRise of the Phoenix:\nAfter your creatures with {CONDNAME_DEBUFF_BURNED} are killed, they have a 35% chance to be resurrected with 20% {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/AshofRenewal.png",
-  "id": 1351,
-  "name": "Ash of Renewal",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1658
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRise of the Phoenix:\nAfter your creatures with {CONDNAME_DEBUFF_BURNED} are killed, they have a 35% chance to be resurrected with 20% {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/AshofRenewal.png",
+    "id":  1351,
+    "name":  "Ash of Renewal",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1658,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

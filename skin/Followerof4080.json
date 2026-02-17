@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Followerof4080/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 689,
-  "name": "Follower of 4080",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Followerof4080/overworld_e0.png",
-      "images/skin/Followerof4080/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Followerof4080/overworld_n0.png",
-      "images/skin/Followerof4080/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Followerof4080/overworld_s0.png",
-      "images/skin/Followerof4080/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Followerof4080/overworld_w0.png",
-      "images/skin/Followerof4080/overworld_w1.png"
-    ]
-  },
-  "race": "Ghoul",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Followerof4080/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  689,
+    "name":  "Follower of 4080",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Followerof4080/overworld_e0.png",
+                                         "images/skin/Followerof4080/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Followerof4080/overworld_n0.png",
+                                          "images/skin/Followerof4080/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Followerof4080/overworld_s0.png",
+                                          "images/skin/Followerof4080/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Followerof4080/overworld_w0.png",
+                                         "images/skin/Followerof4080/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ghoul",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

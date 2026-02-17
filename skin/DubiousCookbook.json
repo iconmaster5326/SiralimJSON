@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/DubiousCookbook/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 107,
-  "name": "Dubious Cookbook",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/DubiousCookbook/overworld_e0.png",
-      "images/skin/DubiousCookbook/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/DubiousCookbook/overworld_n0.png",
-      "images/skin/DubiousCookbook/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/DubiousCookbook/overworld_s0.png",
-      "images/skin/DubiousCookbook/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/DubiousCookbook/overworld_w0.png",
-      "images/skin/DubiousCookbook/overworld_w1.png"
-    ]
-  },
-  "race": "Grimoire",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/DubiousCookbook/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  107,
+    "name":  "Dubious Cookbook",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/DubiousCookbook/overworld_e0.png",
+                                         "images/skin/DubiousCookbook/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/DubiousCookbook/overworld_n0.png",
+                                          "images/skin/DubiousCookbook/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/DubiousCookbook/overworld_s0.png",
+                                          "images/skin/DubiousCookbook/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/DubiousCookbook/overworld_w0.png",
+                                         "images/skin/DubiousCookbook/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Grimoire",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

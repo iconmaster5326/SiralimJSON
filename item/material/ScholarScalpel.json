@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInsipid:\nYour creatures take 10% less damage for each debuff they have. This trait does not stack.",
-  "icon": "images/item/material/ScholarScalpel.png",
-  "id": 730,
-  "name": "Scholar Scalpel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 669
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInsipid:\nYour creatures take 10% less damage for each debuff they have. This trait does not stack.",
+    "icon":  "images/item/material/ScholarScalpel.png",
+    "id":  730,
+    "name":  "Scholar Scalpel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  669,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGolden Aura:\nAfter your {RACE_Exotic} creatures are killed, your other {RACE_Exotic} creatures gain their trait. Your {RACE_Exotic} creatures have 10% more stats (other than {STAT_health}) for each extra trait they have. This trait does not stack.",
-  "icon": "images/item/material/ConstellationofHuanglong.png",
-  "id": 1450,
-  "name": "Constellation of Huanglong",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1758
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGolden Aura:\nAfter your {RACE_Exotic} creatures are killed, your other {RACE_Exotic} creatures gain their trait. Your {RACE_Exotic} creatures have 10% more stats (other than {STAT_health}) for each extra trait they have. This trait does not stack.",
+    "icon":  "images/item/material/ConstellationofHuanglong.png",
+    "id":  1450,
+    "name":  "Constellation of Huanglong",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1758,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

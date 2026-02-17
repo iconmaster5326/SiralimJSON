@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/BurhuaOphan/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 393,
-  "item": 165,
-  "lore": "The Ophans were born from the efforts of Surathli and Yseros to prevent their creation from being destroyed.\\n\\nThe Burhua Ophan offers excellent support in battle. During the Watcher incident, it helped Surathli\u0027s faithful cast more powerful spells. To produce this effect, it rotates the ring around its body at high speeds, so that its magical energy is shared with the spellcasters around it.",
-  "menagerieDialog": [
-    "(It appears to be deep in its own thoughts.)",
-    "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
-    "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
-    "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
-    "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
-  ],
-  "minDepth": 1,
-  "name": "Burhua Ophan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BurhuaOphan/overworld_e0.png",
-      "images/creature/BurhuaOphan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BurhuaOphan/overworld_n0.png",
-      "images/creature/BurhuaOphan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BurhuaOphan/overworld_s0.png",
-      "images/creature/BurhuaOphan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BurhuaOphan/overworld_w0.png",
-      "images/creature/BurhuaOphan/overworld_w1.png"
-    ]
-  },
-  "race": "Ophan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 10,
-    "defense": 16,
-    "health": 30,
-    "intelligence": 25,
-    "speed": 26
-  },
-  "trait": 75
+    "battleSprite":  "images/creature/BurhuaOphan/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  393,
+    "item":  165,
+    "lore":  "The Ophans were born from the efforts of Surathli and Yseros to prevent their creation from being destroyed.\\n\\nThe Burhua Ophan offers excellent support in battle. During the Watcher incident, it helped Surathli\u0027s faithful cast more powerful spells. To produce this effect, it rotates the ring around its body at high speeds, so that its magical energy is shared with the spellcasters around it.",
+    "menagerieDialog":  [
+                            "(It appears to be deep in its own thoughts.)",
+                            "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
+                            "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
+                            "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
+                            "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Burhua Ophan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BurhuaOphan/overworld_e0.png",
+                                         "images/creature/BurhuaOphan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BurhuaOphan/overworld_n0.png",
+                                          "images/creature/BurhuaOphan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BurhuaOphan/overworld_s0.png",
+                                          "images/creature/BurhuaOphan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BurhuaOphan/overworld_w0.png",
+                                         "images/creature/BurhuaOphan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ophan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  10,
+                       "defense":  16,
+                       "health":  30,
+                       "intelligence":  25,
+                       "speed":  26
+                   },
+    "trait":  75,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

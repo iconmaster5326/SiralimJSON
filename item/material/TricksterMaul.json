@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBrain Bash:\nAfter this creature {ACTION_attacks}, the target has a 100% chance and the enemies adjacent to the target have a 50% chance to be afflicted with {CONDNAME_DEBUFF_CONFUSED}.",
-  "icon": "images/item/material/TricksterMaul.png",
-  "id": 544,
-  "name": "Trickster Maul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 458
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBrain Bash:\nAfter this creature {ACTION_attacks}, the target has a 100% chance and the enemies adjacent to the target have a 50% chance to be afflicted with {CONDNAME_DEBUFF_CONFUSED}.",
+    "icon":  "images/item/material/TricksterMaul.png",
+    "id":  544,
+    "name":  "Trickster Maul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  458,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BloodmailConstruct/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 762,
-  "item": 48,
-  "lore": "The average battery life of a Construct has been estimated to be 1000 days, which is when the battery has lost too much charge and the creature stops moving permanently. The batteries cannot be replaced, so the construct must be discarded, although the material of which its body is made can be reused.\\n\\nThe Bloodmail Construct was created with the main purpose of preventing civilians and soldiers from bleeding to death. At a touch of its armor, the blood is partially returned to the circulatory system, giving the doctors more options to save their life.",
-  "menagerieDialog": [
-    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
-    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
-    "(Nothing breeds subservience quite like being programmed by humans.)",
-    "(You can sense the raw power and lust for battle emmanating from this creature.)",
-    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Bloodmail Construct",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BloodmailConstruct/overworld_e0.png",
-      "images/creature/BloodmailConstruct/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BloodmailConstruct/overworld_n0.png",
-      "images/creature/BloodmailConstruct/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BloodmailConstruct/overworld_s0.png",
-      "images/creature/BloodmailConstruct/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BloodmailConstruct/overworld_w0.png",
-      "images/creature/BloodmailConstruct/overworld_w1.png"
-    ]
-  },
-  "race": "Construct",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1015
+    "battleSprite":  "images/creature/BloodmailConstruct/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  762,
+    "item":  48,
+    "lore":  "The average battery life of a Construct has been estimated to be 1000 days, which is when the battery has lost too much charge and the creature stops moving permanently. The batteries cannot be replaced, so the construct must be discarded, although the material of which its body is made can be reused.\\n\\nThe Bloodmail Construct was created with the main purpose of preventing civilians and soldiers from bleeding to death. At a touch of its armor, the blood is partially returned to the circulatory system, giving the doctors more options to save their life.",
+    "menagerieDialog":  [
+                            "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+                            "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+                            "(Nothing breeds subservience quite like being programmed by humans.)",
+                            "(You can sense the raw power and lust for battle emmanating from this creature.)",
+                            "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bloodmail Construct",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BloodmailConstruct/overworld_e0.png",
+                                         "images/creature/BloodmailConstruct/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BloodmailConstruct/overworld_n0.png",
+                                          "images/creature/BloodmailConstruct/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BloodmailConstruct/overworld_s0.png",
+                                          "images/creature/BloodmailConstruct/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BloodmailConstruct/overworld_w0.png",
+                                         "images/creature/BloodmailConstruct/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Construct",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1015,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

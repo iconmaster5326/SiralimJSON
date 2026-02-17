@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAssumption:\nAfter this creature {ACTION_attacks} a creature with less than 35% {STAT_health}, it is killed, and then this creature {ACTION_casts} its first 3 spells.",
-  "icon": "images/item/material/PlagueScythe.png",
-  "id": 855,
-  "name": "Plague Scythe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 882
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAssumption:\nAfter this creature {ACTION_attacks} a creature with less than 35% {STAT_health}, it is killed, and then this creature {ACTION_casts} its first 3 spells.",
+    "icon":  "images/item/material/PlagueScythe.png",
+    "id":  855,
+    "name":  "Plague Scythe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  882,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Gourdspawn/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 694,
-  "name": "Gourdspawn",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Gourdspawn/overworld_e0.png",
-      "images/skin/Gourdspawn/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Gourdspawn/overworld_n0.png",
-      "images/skin/Gourdspawn/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Gourdspawn/overworld_s0.png",
-      "images/skin/Gourdspawn/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Gourdspawn/overworld_w0.png",
-      "images/skin/Gourdspawn/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Gourdspawn/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  694,
+    "name":  "Gourdspawn",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Gourdspawn/overworld_e0.png",
+                                         "images/skin/Gourdspawn/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Gourdspawn/overworld_n0.png",
+                                          "images/skin/Gourdspawn/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Gourdspawn/overworld_s0.png",
+                                          "images/skin/Gourdspawn/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Gourdspawn/overworld_w0.png",
+                                         "images/skin/Gourdspawn/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

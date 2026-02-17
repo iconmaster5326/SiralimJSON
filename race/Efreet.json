@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "BURN! BURN! BURN TO THE GROUND! BURN TO THE GROUND!",
-    "I\u0027m gonna torch the lot of you! Bring it on!",
-    "Nice outfit. Would be a shame if it went up in flames while you were wearing it."
-  ],
-  "cardBonuses": {
-    "2": "Enemies take 15% more damage from {CONDNAME_DEBUFF_BURNED}.",
-    "4": "Increases the amount of {STAT_intelligence} added to the {CONDNAME_DEBUFF_BURNED} debuffs your creatures apply by 50%.",
-    "7": "Enemies\u0027 {CONDNAME_DEBUFF_BURNED} debuff lasts forever."
-  },
-  "cards": 7,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    114,
-    115,
-    116,
-    117,
-    118,
-    119,
-    625
-  ],
-  "icon": "images/race/Efreet.png",
-  "master": {
-    "costume": 328,
-    "dialog": "Efreets light their foes on fire and watch them die short but painful deaths. Allow me to demonstrate!",
-    "item": 1278,
-    "name": "Histor",
-    "trait": 1429
-  },
-  "name": "Efreet",
-  "notes": [],
-  "skins": [
-    342,
-    350,
-    668
-  ]
+    "bossDialog":  [
+                       "BURN! BURN! BURN TO THE GROUND! BURN TO THE GROUND!",
+                       "I\u0027m gonna torch the lot of you! Bring it on!",
+                       "Nice outfit. Would be a shame if it went up in flames while you were wearing it."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies take 15% more damage from {CONDNAME_DEBUFF_BURNED}.",
+                        "4":  "Increases the amount of {STAT_intelligence} added to the {CONDNAME_DEBUFF_BURNED} debuffs your creatures apply by 50%.",
+                        "7":  "Enemies\u0027 {CONDNAME_DEBUFF_BURNED} debuff lasts forever."
+                    },
+    "cards":  7,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      114,
+                      115,
+                      116,
+                      117,
+                      118,
+                      119,
+                      625
+                  ],
+    "icon":  "images/race/Efreet.png",
+    "master":  {
+                   "costume":  328,
+                   "dialog":  "Efreets light their foes on fire and watch them die short but painful deaths. Allow me to demonstrate!",
+                   "item":  1278,
+                   "name":  "Histor",
+                   "trait":  1429
+               },
+    "name":  "Efreet",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  342,
+                  350,
+                  668
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

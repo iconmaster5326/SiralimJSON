@@ -1,60 +1,66 @@
 {
-  "battleSprite": "images/creature/ClothAbomination/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 756,
-  "item": null,
-  "lore": "The life expectancy of an Abomination is usually under ten years due to their poor state of health, which they do not notice because Tartarith removed their ability to feel pain. On one occasion, a Bile Abomination vomited on another that was still in progress. One would think the God of Torture would have left it to die slowly, but he was feeling creative that day, so he fixed the damage. Using pieces of cloth from here and there, Tartarith covered the corroded skin of the creature, sewing them to its flesh with very clumsy technique. However, the hands of a God had touched the rags and unknowingly imbued his creation with extraordinary resilience.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Cloth Abomination",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ClothAbomination/overworld_e0.png",
-      "images/creature/ClothAbomination/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ClothAbomination/overworld_n0.png",
-      "images/creature/ClothAbomination/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ClothAbomination/overworld_s0.png",
-      "images/creature/ClothAbomination/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ClothAbomination/overworld_w0.png",
-      "images/creature/ClothAbomination/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 17
-  },
-  "trait": 1003
+    "battleSprite":  "images/creature/ClothAbomination/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  756,
+    "item":  null,
+    "lore":  "The life expectancy of an Abomination is usually under ten years due to their poor state of health, which they do not notice because Tartarith removed their ability to feel pain. On one occasion, a Bile Abomination vomited on another that was still in progress. One would think the God of Torture would have left it to die slowly, but he was feeling creative that day, so he fixed the damage. Using pieces of cloth from here and there, Tartarith covered the corroded skin of the creature, sewing them to its flesh with very clumsy technique. However, the hands of a God had touched the rags and unknowingly imbued his creation with extraordinary resilience.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Cloth Abomination",
+    "notes":  [
+                  {
+                      "lastVerified":  "2.0.37",
+                      "note":  "The game erroneously lists this creature as being findable from any realm\nAbominations are normally found, but it is instead found from special\nmeans.\n"
+                  }
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ClothAbomination/overworld_e0.png",
+                                         "images/creature/ClothAbomination/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ClothAbomination/overworld_n0.png",
+                                          "images/creature/ClothAbomination/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ClothAbomination/overworld_s0.png",
+                                          "images/creature/ClothAbomination/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ClothAbomination/overworld_w0.png",
+                                         "images/creature/ClothAbomination/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "special",
+                        "desc":  "Interact with an Abomination Plush"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  17
+                   },
+    "trait":  1003,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

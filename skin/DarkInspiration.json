@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/DarkInspiration/battle.png",
-  "creator": null,
-  "creature": 1099,
-  "id": 597,
-  "name": "Dark Inspiration",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/DarkInspiration/overworld_e0.png",
-      "images/skin/DarkInspiration/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/DarkInspiration/overworld_n0.png",
-      "images/skin/DarkInspiration/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/DarkInspiration/overworld_s0.png",
-      "images/skin/DarkInspiration/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/DarkInspiration/overworld_w0.png",
-      "images/skin/DarkInspiration/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/DarkInspiration/battle.png",
+    "creator":  null,
+    "creature":  1099,
+    "id":  597,
+    "name":  "Dark Inspiration",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/DarkInspiration/overworld_e0.png",
+                                         "images/skin/DarkInspiration/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/DarkInspiration/overworld_n0.png",
+                                          "images/skin/DarkInspiration/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/DarkInspiration/overworld_s0.png",
+                                          "images/skin/DarkInspiration/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/DarkInspiration/overworld_w0.png",
+                                         "images/skin/DarkInspiration/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

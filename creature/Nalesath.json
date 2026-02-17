@@ -1,51 +1,60 @@
 {
-  "battleSprite": "images/creature/Nalesath/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1364,
-  "item": null,
-  "lore": "The Nether Orb that once controlled Saint Althea became sentient after her defeat, forming its own body and mind. Nalesath is a mysterious figure who weaves in and out of the upper echelons of society, always speaking with calculated caution to avoid drawing too much attention. It has cultivated a network of powerful allies in Rodia, exchanging favors for information. Its true motives remain unclear, but its influence continues to grow.",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Nalesath",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Nalesath/overworld_e0.png",
-      "images/creature/Nalesath/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Nalesath/overworld_n0.png",
-      "images/creature/Nalesath/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Nalesath/overworld_s0.png",
-      "images/creature/Nalesath/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Nalesath/overworld_w0.png",
-      "images/creature/Nalesath/overworld_w1.png"
-    ]
-  },
-  "race": "False Godspawn",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 38,
-    "intelligence": 25,
-    "speed": 17
-  },
-  "trait": 2090
+    "battleSprite":  "images/creature/Nalesath/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1364,
+    "item":  null,
+    "lore":  "The Nether Orb that once controlled Saint Althea became sentient after her defeat, forming its own body and mind. Nalesath is a mysterious figure who weaves in and out of the upper echelons of society, always speaking with calculated caution to avoid drawing too much attention. It has cultivated a network of powerful allies in Rodia, exchanging favors for information. Its true motives remain unclear, but its influence continues to grow.",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Nalesath",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Nalesath/overworld_e0.png",
+                                         "images/creature/Nalesath/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Nalesath/overworld_n0.png",
+                                          "images/creature/Nalesath/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Nalesath/overworld_s0.png",
+                                          "images/creature/Nalesath/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Nalesath/overworld_w0.png",
+                                         "images/creature/Nalesath/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "False Godspawn",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  38,
+                       "intelligence":  25,
+                       "speed":  17
+                   },
+    "trait":  2090,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

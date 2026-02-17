@@ -1,37 +1,40 @@
 {
-  "bossDialog": [
-    "(The mechanical guardian\u0027s eyes glow a menacing red as panels on its body slide open to reveal an alarming array of weapons pointed directly at you!)",
-    "ALERT: UNAUTHORIZED LIFEFORM DETECTED. TREASURE PROTECTION PROTOCOL ACTIVATED. COMMENCING TERMINATION SEQUENCE.",
-    "ANALYSIS COMPLETE. PROBABILITY OF YOUR SURVIVAL: 0.0%. RECOMMENDATION: ACCEPT YOUR FATE QUIETLY."
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have a 10% chance to avoid instant-kill effects.",
-    "4": "Your creatures have a 10% chance to avoid instant-kill effects.",
-    "6": "Your creatures have a 10% chance to avoid instant-kill effects."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    1349,
-    1350,
-    1351,
-    1352,
-    1353,
-    1354
-  ],
-  "icon": "images/race/Robodomi.png",
-  "master": {
-    "costume": 816,
-    "dialog": "Robodomi represent the perfect marriage of magic and machinery! Their processors can calculate a million battle strategies per second, and their shields are impenetrable to conventional attacks. My mechanical army operates at peak efficiency, with each unit networked for optimal performance. PREPARE FOR SYSTEMATIC ELIMINATION OF ALL OPPOSITION.",
-    "item": 1858,
-    "name": "Machinist K-42",
-    "trait": 2196
-  },
-  "name": "Robodomi",
-  "notes": [],
-  "skins": [
-    824,
-    825
-  ]
+    "bossDialog":  [
+                       "(The mechanical guardian\u0027s eyes glow a menacing red as panels on its body slide open to reveal an alarming array of weapons pointed directly at you!)",
+                       "ALERT: UNAUTHORIZED LIFEFORM DETECTED. TREASURE PROTECTION PROTOCOL ACTIVATED. COMMENCING TERMINATION SEQUENCE.",
+                       "ANALYSIS COMPLETE. PROBABILITY OF YOUR SURVIVAL: 0.0%. RECOMMENDATION: ACCEPT YOUR FATE QUIETLY."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have a 10% chance to avoid instant-kill effects.",
+                        "4":  "Your creatures have a 10% chance to avoid instant-kill effects.",
+                        "6":  "Your creatures have a 10% chance to avoid instant-kill effects."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      1349,
+                      1350,
+                      1351,
+                      1352,
+                      1353,
+                      1354
+                  ],
+    "icon":  "images/race/Robodomi.png",
+    "master":  {
+                   "costume":  816,
+                   "dialog":  "Robodomi represent the perfect marriage of magic and machinery! Their processors can calculate a million battle strategies per second, and their shields are impenetrable to conventional attacks. My mechanical army operates at peak efficiency, with each unit networked for optimal performance. PREPARE FOR SYSTEMATIC ELIMINATION OF ALL OPPOSITION.",
+                   "item":  1858,
+                   "name":  "Machinist K-42",
+                   "trait":  2196
+               },
+    "name":  "Robodomi",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  824,
+                  825
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

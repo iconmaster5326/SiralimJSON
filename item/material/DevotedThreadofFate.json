@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMender\u0027s Oath:\nAfter your creatures are healed, they heal your other creatures for 25% of this amount. Your creatures receive 50% less healing. This trait does not stack.",
-  "icon": "images/item/material/DevotedThreadofFate.png",
-  "id": 1613,
-  "name": "Devoted Thread of Fate",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1952
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMender\u0027s Oath:\nAfter your creatures are healed, they heal your other creatures for 25% of this amount. Your creatures receive 50% less healing. This trait does not stack.",
+    "icon":  "images/item/material/DevotedThreadofFate.png",
+    "id":  1613,
+    "name":  "Devoted Thread of Fate",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1952,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

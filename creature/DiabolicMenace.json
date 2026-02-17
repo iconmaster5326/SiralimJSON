@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DiabolicMenace/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 313,
-  "item": 326,
-  "lore": "This creature is the most silent member of the Diabolic Horde. While everyone else is eating and laughing around the campfire, this creature is usually alone with its eyes closed, meditating on matters known only to itself. Its knowledge of magic is exceptional and appreciated by its people, but in battle it prefers to wield two axes to wipe out its enemies with fearsome might.",
-  "menagerieDialog": [
-    "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
-    "What are we doing here? Let\u0027s get moving!",
-    "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
-    "(It\u0027s busy feeding rotten meat to its pups.)",
-    "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
-  ],
-  "minDepth": 1,
-  "name": "Diabolic Menace",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DiabolicMenace/overworld_e0.png",
-      "images/creature/DiabolicMenace/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DiabolicMenace/overworld_n0.png",
-      "images/creature/DiabolicMenace/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DiabolicMenace/overworld_s0.png",
-      "images/creature/DiabolicMenace/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DiabolicMenace/overworld_w0.png",
-      "images/creature/DiabolicMenace/overworld_w1.png"
-    ]
-  },
-  "race": "Diabolic Horde",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 242
+    "battleSprite":  "images/creature/DiabolicMenace/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  313,
+    "item":  326,
+    "lore":  "This creature is the most silent member of the Diabolic Horde. While everyone else is eating and laughing around the campfire, this creature is usually alone with its eyes closed, meditating on matters known only to itself. Its knowledge of magic is exceptional and appreciated by its people, but in battle it prefers to wield two axes to wipe out its enemies with fearsome might.",
+    "menagerieDialog":  [
+                            "I\u0027m tired of running around, everything hurts! Can\u0027t we rest for a little while?",
+                            "What are we doing here? Let\u0027s get moving!",
+                            "My hounds crave the flesh of humans. What do you say we go out and start a war to sate their appetites?",
+                            "(It\u0027s busy feeding rotten meat to its pups.)",
+                            "(It\u0027s having a difficult time controlling its beasts. What has them so anxious?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Diabolic Menace",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DiabolicMenace/overworld_e0.png",
+                                         "images/creature/DiabolicMenace/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DiabolicMenace/overworld_n0.png",
+                                          "images/creature/DiabolicMenace/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DiabolicMenace/overworld_s0.png",
+                                          "images/creature/DiabolicMenace/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DiabolicMenace/overworld_w0.png",
+                                         "images/creature/DiabolicMenace/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Diabolic Horde",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  242,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

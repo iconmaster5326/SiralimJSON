@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/CaveCockatrice/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 815,
-  "item": 1050,
-  "lore": "Cave Cockatrices are an Arachnalisk\u0027s greatest enemy, as no other creature devours as many eggs from these arachnids. Since they generally inhabit dark places such as caves or underground tunnels, they lost their sight in favor of very acute senses of hearing and smell, as well as a sixth sense that allows them to locate sources of heat around them through receptors on their featherless skin. The council of Rodia legalized breeding these creatures to eliminate Arachnalisk infestations.",
-  "menagerieDialog": [
-    "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
-    "(What a ridiculous looking, yet endearing creature.)",
-    "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
-    "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
-    "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
-  ],
-  "minDepth": 1,
-  "name": "Cave Cockatrice",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CaveCockatrice/overworld_e0.png",
-      "images/creature/CaveCockatrice/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CaveCockatrice/overworld_n0.png",
-      "images/creature/CaveCockatrice/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CaveCockatrice/overworld_s0.png",
-      "images/creature/CaveCockatrice/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CaveCockatrice/overworld_w0.png",
-      "images/creature/CaveCockatrice/overworld_w1.png"
-    ]
-  },
-  "race": "Cockatrice",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1082
+    "battleSprite":  "images/creature/CaveCockatrice/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  815,
+    "item":  1050,
+    "lore":  "Cave Cockatrices are an Arachnalisk\u0027s greatest enemy, as no other creature devours as many eggs from these arachnids. Since they generally inhabit dark places such as caves or underground tunnels, they lost their sight in favor of very acute senses of hearing and smell, as well as a sixth sense that allows them to locate sources of heat around them through receptors on their featherless skin. The council of Rodia legalized breeding these creatures to eliminate Arachnalisk infestations.",
+    "menagerieDialog":  [
+                            "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
+                            "(What a ridiculous looking, yet endearing creature.)",
+                            "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
+                            "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
+                            "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Cave Cockatrice",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CaveCockatrice/overworld_e0.png",
+                                         "images/creature/CaveCockatrice/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CaveCockatrice/overworld_n0.png",
+                                          "images/creature/CaveCockatrice/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CaveCockatrice/overworld_s0.png",
+                                          "images/creature/CaveCockatrice/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CaveCockatrice/overworld_w0.png",
+                                         "images/creature/CaveCockatrice/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cockatrice",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1082,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCurse of the Silent:\nThis creature\u0027s Spell Gems don\u0027t lose {STAT_charges} when it casts spells, but it also starts battles with {CONDNAME_DEBUFF_SILENCE}.",
-  "icon": "images/item/material/ScourgewalkerPincer.png",
-  "id": 202,
-  "name": "Scourgewalker Pincer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 111
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCurse of the Silent:\nThis creature\u0027s Spell Gems don\u0027t lose {STAT_charges} when it casts spells, but it also starts battles with {CONDNAME_DEBUFF_SILENCE}.",
+    "icon":  "images/item/material/ScourgewalkerPincer.png",
+    "id":  202,
+    "name":  "Scourgewalker Pincer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  111,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

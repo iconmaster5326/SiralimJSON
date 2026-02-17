@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoyal Flush:\nYour {RACE_Luckmantria} creatures share their innate traits with each other.",
-  "icon": "images/item/material/TornCardAce.png",
-  "id": 1573,
-  "name": "Torn Card (Ace)",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1916
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoyal Flush:\nYour {RACE_Luckmantria} creatures share their innate traits with each other.",
+    "icon":  "images/item/material/TornCardAce.png",
+    "id":  1573,
+    "name":  "Torn Card (Ace)",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1916,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

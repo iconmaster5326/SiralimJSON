@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ArcaneAutomaton/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 808,
-  "item": 1055,
-  "lore": "Thanks to advances in magic, a group of Neralim scientisis succeeded in creating a functional design of the unfinished prototype. Automatons were built to protect Rodia. They are mindless soldiers who only obey orders from their owners.\\n\\nThe Arcane Automaton is unable to handle weapons with its hands, but it can telepathically move the crystals that orbit around it to cut its enemies down. If one of the crystals breaks, it uses the tears that come from its eye to make another.",
-  "menagerieDialog": [
-    "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
-    "I am yours. To command.",
-    "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
-    "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
-    "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
-  ],
-  "minDepth": 1,
-  "name": "Arcane Automaton",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ArcaneAutomaton/overworld_e0.png",
-      "images/creature/ArcaneAutomaton/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ArcaneAutomaton/overworld_n0.png",
-      "images/creature/ArcaneAutomaton/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ArcaneAutomaton/overworld_s0.png",
-      "images/creature/ArcaneAutomaton/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ArcaneAutomaton/overworld_w0.png",
-      "images/creature/ArcaneAutomaton/overworld_w1.png"
-    ]
-  },
-  "race": "Automaton",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 31,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1074
+    "battleSprite":  "images/creature/ArcaneAutomaton/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  808,
+    "item":  1055,
+    "lore":  "Thanks to advances in magic, a group of Neralim scientisis succeeded in creating a functional design of the unfinished prototype. Automatons were built to protect Rodia. They are mindless soldiers who only obey orders from their owners.\\n\\nThe Arcane Automaton is unable to handle weapons with its hands, but it can telepathically move the crystals that orbit around it to cut its enemies down. If one of the crystals breaks, it uses the tears that come from its eye to make another.",
+    "menagerieDialog":  [
+                            "ENERGY LOW. PLEASE RECHARGE AS SOON AS POSSIBLE.",
+                            "I am yours. To command.",
+                            "(You insert a piece of bread into its mouth. A few moments later, you have toast.)",
+                            "(It\u0027s moving its legs in place as if it were walking. This is probably its unique way of showing off and trying to impress you and your other creatures.)",
+                            "For Rodiaaaaaaa...ahhh...ahhh...ahhh...\\n\\n(It\u0027s stuck in a loop!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Arcane Automaton",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ArcaneAutomaton/overworld_e0.png",
+                                         "images/creature/ArcaneAutomaton/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ArcaneAutomaton/overworld_n0.png",
+                                          "images/creature/ArcaneAutomaton/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ArcaneAutomaton/overworld_s0.png",
+                                          "images/creature/ArcaneAutomaton/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ArcaneAutomaton/overworld_w0.png",
+                                         "images/creature/ArcaneAutomaton/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Automaton",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  31,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1074,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

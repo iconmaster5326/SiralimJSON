@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HemomancerLord/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 862,
-  "item": 1003,
-  "lore": "River, who would later be known as Midnight, prevented the necromancer from destroying several kingdoms with his experiments. Although Hexilo was not motivated by power or wealth, but by knowledge, his methods were as ethical as one can expect from a necromancer.\\n\\nAny Hemomancer can know how healthy a creature is just by touching their blood.\\n\\nHemomancer Lords specialize in military strategy and lead these creatures in battle, often remaining behind. They are able to see what any of their kind sees, transmit order through telepathy, and even forcefully control their movements.",
-  "menagerieDialog": [
-    "(You can tell by the cool and calculated look on its face that it\u0027s hatching a new, sinister scheme.)",
-    "There\u0027s no time to waste - let\u0027s go.",
-    "(It\u0027s pouring blood back and forth between two vials. Interesting hobby.)",
-    "(It stares at you in silence, refusing to say anything. How stubborn!)",
-    "What am I doing? The same thing I do every night, {PLAYERNAME}. Trying to take over the world!"
-  ],
-  "minDepth": 1,
-  "name": "Hemomancer Lord",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HemomancerLord/overworld_e0.png",
-      "images/creature/HemomancerLord/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HemomancerLord/overworld_n0.png",
-      "images/creature/HemomancerLord/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HemomancerLord/overworld_s0.png",
-      "images/creature/HemomancerLord/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HemomancerLord/overworld_w0.png",
-      "images/creature/HemomancerLord/overworld_w1.png"
-    ]
-  },
-  "race": "Hemomancer",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Mortem)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 16,
-    "health": 33,
-    "intelligence": 13,
-    "speed": 21
-  },
-  "trait": 1131
+    "battleSprite":  "images/creature/HemomancerLord/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  862,
+    "item":  1003,
+    "lore":  "River, who would later be known as Midnight, prevented the necromancer from destroying several kingdoms with his experiments. Although Hexilo was not motivated by power or wealth, but by knowledge, his methods were as ethical as one can expect from a necromancer.\\n\\nAny Hemomancer can know how healthy a creature is just by touching their blood.\\n\\nHemomancer Lords specialize in military strategy and lead these creatures in battle, often remaining behind. They are able to see what any of their kind sees, transmit order through telepathy, and even forcefully control their movements.",
+    "menagerieDialog":  [
+                            "(You can tell by the cool and calculated look on its face that it\u0027s hatching a new, sinister scheme.)",
+                            "There\u0027s no time to waste - let\u0027s go.",
+                            "(It\u0027s pouring blood back and forth between two vials. Interesting hobby.)",
+                            "(It stares at you in silence, refusing to say anything. How stubborn!)",
+                            "What am I doing? The same thing I do every night, {PLAYERNAME}. Trying to take over the world!"
+                        ],
+    "minDepth":  1,
+    "name":  "Hemomancer Lord",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HemomancerLord/overworld_e0.png",
+                                         "images/creature/HemomancerLord/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HemomancerLord/overworld_n0.png",
+                                          "images/creature/HemomancerLord/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HemomancerLord/overworld_s0.png",
+                                          "images/creature/HemomancerLord/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HemomancerLord/overworld_w0.png",
+                                         "images/creature/HemomancerLord/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hemomancer",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Mortem)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  16,
+                       "health":  33,
+                       "intelligence":  13,
+                       "speed":  21
+                   },
+    "trait":  1131,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

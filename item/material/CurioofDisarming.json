@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nDisarmed On Damage:\nCreature has a chance to afflict enemies with {CONDNAME_DEBUFF_DISARMED} when it deals damage to them with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
-  "icon": "images/item/material/CurioofDisarming.png",
-  "id": 925,
-  "name": "Curio of Disarming",
-  "notes": [],
-  "slot": "trick",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": null
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nDisarmed On Damage:\nCreature has a chance to afflict enemies with {CONDNAME_DEBUFF_DISARMED} when it deals damage to them with attacks or spells.\\n\\nYou need 3 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/CurioofDisarming.png",
+    "id":  925,
+    "name":  "Curio of Disarming",
+    "notes":  [
+
+              ],
+    "slot":  "trick",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

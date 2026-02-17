@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/RoyalPhoenix/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 62,
-  "item": 437,
-  "lore": "Despite their evasive behavior, there are a few men and women who have established a special bond with a Phoenix. They are known as Phoenix Knights, and they ride on the backs of these creatures to enforce justice.\\n\\nWhen a creature is resurrected, a small discharge of space-time energy is generated around it. A Royal Phoenix can concentrate this energy on the recently-revived creature to make it incredibly fast for a few moments.",
-  "menagerieDialog": [
-    "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
-    "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
-    "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
-    "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \u0022revives\u0022, it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
-    "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
-  ],
-  "minDepth": 1,
-  "name": "Royal Phoenix",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RoyalPhoenix/overworld_e0.png",
-      "images/creature/RoyalPhoenix/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RoyalPhoenix/overworld_n0.png",
-      "images/creature/RoyalPhoenix/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RoyalPhoenix/overworld_s0.png",
-      "images/creature/RoyalPhoenix/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RoyalPhoenix/overworld_w0.png",
-      "images/creature/RoyalPhoenix/overworld_w1.png"
-    ]
-  },
-  "race": "Phoenix",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 352
+    "battleSprite":  "images/creature/RoyalPhoenix/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  62,
+    "item":  437,
+    "lore":  "Despite their evasive behavior, there are a few men and women who have established a special bond with a Phoenix. They are known as Phoenix Knights, and they ride on the backs of these creatures to enforce justice.\\n\\nWhen a creature is resurrected, a small discharge of space-time energy is generated around it. A Royal Phoenix can concentrate this energy on the recently-revived creature to make it incredibly fast for a few moments.",
+    "menagerieDialog":  [
+                            "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
+                            "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
+                            "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
+                            "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \"revives\", it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
+                            "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Royal Phoenix",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RoyalPhoenix/overworld_e0.png",
+                                         "images/creature/RoyalPhoenix/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RoyalPhoenix/overworld_n0.png",
+                                          "images/creature/RoyalPhoenix/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RoyalPhoenix/overworld_s0.png",
+                                          "images/creature/RoyalPhoenix/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RoyalPhoenix/overworld_w0.png",
+                                         "images/creature/RoyalPhoenix/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Phoenix",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  352,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

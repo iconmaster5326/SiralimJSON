@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Sphinxes:\nYour {RACE_Sphinx}es start battles with {CONDNAME_BUFF_REBIRTH}.",
-  "icon": "images/item/material/SigiloftheSphinx.png",
-  "id": 1207,
-  "name": "Sigil of the Sphinx",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1499
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Sphinxes:\nYour {RACE_Sphinx}es start battles with {CONDNAME_BUFF_REBIRTH}.",
+    "icon":  "images/item/material/SigiloftheSphinx.png",
+    "id":  1207,
+    "name":  "Sigil of the Sphinx",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1499,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

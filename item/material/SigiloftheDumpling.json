@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Dumplings:\nAt the start of battle, your {RACE_Dumpling}s gain an {SPELL_ultimate} depending on the skin they have equipped. If they don\u0027t have a skin equipped that was obtained from defeating a Dumpling in the wild, the spell will be chosen at random.",
-  "icon": "images/item/material/SigiloftheDumpling.png",
-  "id": 1269,
-  "name": "Sigil of the Dumpling",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1428
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Dumplings:\nAt the start of battle, your {RACE_Dumpling}s gain an {SPELL_ultimate} depending on the skin they have equipped. If they don\u0027t have a skin equipped that was obtained from defeating a Dumpling in the wild, the spell will be chosen at random.",
+    "icon":  "images/item/material/SigiloftheDumpling.png",
+    "id":  1269,
+    "name":  "Sigil of the Dumpling",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1428,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

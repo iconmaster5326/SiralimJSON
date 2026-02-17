@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PitWraithObliterator/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 272,
-  "item": 257,
-  "lore": "Pit Wraiths fold and unfold spontaneously in different eras of history. On one occasion, Baker lost her Pit Wraith in the middle of a fight against an Ira Sin. When she tried to flee from the Magnificus Sanctus, it mysteriously reappeared and gave its life so that she could escape.\\n\\nA Pit Wraith Obliterator is a binary existence: one version exists an instant after the other. It seems to leave an afterimage when it moves, but the weaker it becomes, the less powerful its later version becomes.",
-  "menagerieDialog": [
-    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
-    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
-    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
-    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
-    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
-  ],
-  "minDepth": 1,
-  "name": "Pit Wraith Obliterator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PitWraithObliterator/overworld_e0.png",
-      "images/creature/PitWraithObliterator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PitWraithObliterator/overworld_n0.png",
-      "images/creature/PitWraithObliterator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PitWraithObliterator/overworld_s0.png",
-      "images/creature/PitWraithObliterator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PitWraithObliterator/overworld_w0.png",
-      "images/creature/PitWraithObliterator/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Wraith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 12
-  },
-  "trait": 167
+    "battleSprite":  "images/creature/PitWraithObliterator/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  272,
+    "item":  257,
+    "lore":  "Pit Wraiths fold and unfold spontaneously in different eras of history. On one occasion, Baker lost her Pit Wraith in the middle of a fight against an Ira Sin. When she tried to flee from the Magnificus Sanctus, it mysteriously reappeared and gave its life so that she could escape.\\n\\nA Pit Wraith Obliterator is a binary existence: one version exists an instant after the other. It seems to leave an afterimage when it moves, but the weaker it becomes, the less powerful its later version becomes.",
+    "menagerieDialog":  [
+                            "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+                            "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+                            "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+                            "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+                            "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pit Wraith Obliterator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PitWraithObliterator/overworld_e0.png",
+                                         "images/creature/PitWraithObliterator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PitWraithObliterator/overworld_n0.png",
+                                          "images/creature/PitWraithObliterator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PitWraithObliterator/overworld_s0.png",
+                                          "images/creature/PitWraithObliterator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PitWraithObliterator/overworld_w0.png",
+                                         "images/creature/PitWraithObliterator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Wraith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  12
+                   },
+    "trait":  167,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/FeminineSatyr/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 99,
-  "name": "Feminine Satyr",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/FeminineSatyr/overworld_e0.png",
-      "images/skin/FeminineSatyr/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/FeminineSatyr/overworld_n0.png",
-      "images/skin/FeminineSatyr/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/FeminineSatyr/overworld_s0.png",
-      "images/skin/FeminineSatyr/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/FeminineSatyr/overworld_w0.png",
-      "images/skin/FeminineSatyr/overworld_w1.png"
-    ]
-  },
-  "race": "Satyr",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/FeminineSatyr/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  99,
+    "name":  "Feminine Satyr",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/FeminineSatyr/overworld_e0.png",
+                                         "images/skin/FeminineSatyr/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/FeminineSatyr/overworld_n0.png",
+                                          "images/skin/FeminineSatyr/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/FeminineSatyr/overworld_s0.png",
+                                          "images/skin/FeminineSatyr/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/FeminineSatyr/overworld_w0.png",
+                                         "images/skin/FeminineSatyr/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Satyr",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

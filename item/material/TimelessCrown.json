@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEquilibrium:\nThis creature deals additional damage with attacks and spells equal to 25% of the total damage the enemy has received in the current battle.",
-  "icon": "images/item/material/TimelessCrown.png",
-  "id": 109,
-  "name": "Timeless Crown",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 18
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEquilibrium:\nThis creature deals additional damage with attacks and spells equal to 25% of the total damage the enemy has received in the current battle.",
+    "icon":  "images/item/material/TimelessCrown.png",
+    "id":  109,
+    "name":  "Timeless Crown",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  18,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

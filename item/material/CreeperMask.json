@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBreak Down And Cry:\nBefore this creature dies, it {ACTION_casts} 3 of its spells.",
-  "icon": "images/item/material/CreeperMask.png",
-  "id": 696,
-  "name": "Creeper Mask",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 634
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBreak Down And Cry:\nBefore this creature dies, it {ACTION_casts} 3 of its spells.",
+    "icon":  "images/item/material/CreeperMask.png",
+    "id":  696,
+    "name":  "Creeper Mask",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  634,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

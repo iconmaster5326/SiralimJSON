@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures gain stats other than {STAT_speed}, they gain {STAT_speed} equal to \u003C3\u003E% of the amount gained.",
-  "icon": "images/perk/Derivation.png",
-  "id": 436,
-  "maxRanks": 5,
-  "name": "Derivation",
-  "notes": [],
-  "pointsPerRank": 20,
-  "specialization": 28
+    "anointable":  true,
+    "description":  "After your creatures gain stats other than {STAT_speed}, they gain {STAT_speed} equal to \u003c3\u003e% of the amount gained.",
+    "icon":  "images/perk/Derivation.png",
+    "id":  436,
+    "maxRanks":  5,
+    "name":  "Derivation",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  20,
+    "specialization":  28,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

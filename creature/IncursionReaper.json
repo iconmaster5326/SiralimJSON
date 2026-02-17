@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/IncursionReaper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 16,
-  "item": 251,
-  "lore": "Despite their unsettling appearance and the sharp scythe they carry with them, Reapers are not aggressive unless they are attacked. They have eternal life and are immune to all diseases. However, they are not immune to the effects of magic.\\n\\nIf a creature\u0027s time has not yet come, the Incursion Reaper may decide to use its scythe to return it to a previous state where it was healthy.",
-  "menagerieDialog": [
-    "Oh, hello there! Would you like to know the exact date of your death?",
-    "While I can\u0027t hold your hand, I will have your back.",
-    "(This creature always seems to be focused on something you can\u0027t see.)",
-    "Don\u0027t fear the reaper.\\n\\n(Sigh. How clich\u00C3\u00A9.)",
-    "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Incursion Reaper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/IncursionReaper/overworld_e0.png",
-      "images/creature/IncursionReaper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/IncursionReaper/overworld_n0.png",
-      "images/creature/IncursionReaper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/IncursionReaper/overworld_s0.png",
-      "images/creature/IncursionReaper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/IncursionReaper/overworld_w0.png",
-      "images/creature/IncursionReaper/overworld_w1.png"
-    ]
-  },
-  "race": "Reaper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tenebris)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 11,
-    "health": 30,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 161
+    "battleSprite":  "images/creature/IncursionReaper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  16,
+    "item":  251,
+    "lore":  "Despite their unsettling appearance and the sharp scythe they carry with them, Reapers are not aggressive unless they are attacked. They have eternal life and are immune to all diseases. However, they are not immune to the effects of magic.\\n\\nIf a creature\u0027s time has not yet come, the Incursion Reaper may decide to use its scythe to return it to a previous state where it was healthy.",
+    "menagerieDialog":  [
+                            "Oh, hello there! Would you like to know the exact date of your death?",
+                            "While I can\u0027t hold your hand, I will have your back.",
+                            "(This creature always seems to be focused on something you can\u0027t see.)",
+                            "Don\u0027t fear the reaper.\\n\\n(Sigh. How cliché.)",
+                            "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Incursion Reaper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/IncursionReaper/overworld_e0.png",
+                                         "images/creature/IncursionReaper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/IncursionReaper/overworld_n0.png",
+                                          "images/creature/IncursionReaper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/IncursionReaper/overworld_s0.png",
+                                          "images/creature/IncursionReaper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/IncursionReaper/overworld_w0.png",
+                                         "images/creature/IncursionReaper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Reaper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tenebris)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  11,
+                       "health":  30,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  161,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

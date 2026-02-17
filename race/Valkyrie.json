@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "Do you have any idea how long I\u0027ve been guarding these useless trinkets for? I\u0027m bored out of my mind! FIGHT ME!",
-    "Interloper! Blessed Surathli, guide the edge of my weapon! Aid me in slaying this foe!",
-    "On my honor, you will not touch so much as a gram of this treasure."
-  ],
-  "cardBonuses": {
-    "2": "Enemies have a 10% lower chance to deal critical damage.",
-    "5": "Enemies deal 30% less critical damage.",
-    "8": "Enemies have a 75% maximum chance to deal critical damage."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    429,
-    430,
-    431,
-    432,
-    433,
-    434,
-    706,
-    997
-  ],
-  "icon": "images/race/Valkyrie.png",
-  "master": {
-    "costume": 405,
-    "dialog": "Valkyries are well-rounded creatures that live to keep their allies safe from harm. Let\u0027s see if you can break down my defenses in a duel!",
-    "item": 1179,
-    "name": "Althea",
-    "trait": 1509
-  },
-  "name": "Valkyrie",
-  "notes": [],
-  "skins": [
-    79,
-    323,
-    526,
-    785
-  ]
+    "bossDialog":  [
+                       "Do you have any idea how long I\u0027ve been guarding these useless trinkets for? I\u0027m bored out of my mind! FIGHT ME!",
+                       "Interloper! Blessed Surathli, guide the edge of my weapon! Aid me in slaying this foe!",
+                       "On my honor, you will not touch so much as a gram of this treasure."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies have a 10% lower chance to deal critical damage.",
+                        "5":  "Enemies deal 30% less critical damage.",
+                        "8":  "Enemies have a 75% maximum chance to deal critical damage."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      429,
+                      430,
+                      431,
+                      432,
+                      433,
+                      434,
+                      706,
+                      997
+                  ],
+    "icon":  "images/race/Valkyrie.png",
+    "master":  {
+                   "costume":  405,
+                   "dialog":  "Valkyries are well-rounded creatures that live to keep their allies safe from harm. Let\u0027s see if you can break down my defenses in a duel!",
+                   "item":  1179,
+                   "name":  "Althea",
+                   "trait":  1509
+               },
+    "name":  "Valkyrie",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  79,
+                  323,
+                  526,
+                  785
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

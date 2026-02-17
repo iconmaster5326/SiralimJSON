@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SirenLifetaker/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 663,
-  "item": 878,
-  "lore": "The Siren Lifetaker was once a Coercer who, after decades of living in this world, decided to get serious. It only acts at night and it moves stealthily, avoiding being seen by crowds. It is observant and cautious, and only begins to sing when it knows it has the advantage over its victims. Its song, perfected for years, is much more effective than that of the other Sirens. When its audience approaches, it glides gracefully and lets the edge of its scythe slice each neck.",
-  "menagerieDialog": [
-    "(Singing, as usual.)",
-    "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
-    "(It always seems eager to teach your other creatures new things.)",
-    "Dude... bubbles...",
-    "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Siren Lifetaker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SirenLifetaker/overworld_e0.png",
-      "images/creature/SirenLifetaker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SirenLifetaker/overworld_n0.png",
-      "images/creature/SirenLifetaker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SirenLifetaker/overworld_s0.png",
-      "images/creature/SirenLifetaker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SirenLifetaker/overworld_w0.png",
-      "images/creature/SirenLifetaker/overworld_w1.png"
-    ]
-  },
-  "race": "Siren",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Lister)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 905
+    "battleSprite":  "images/creature/SirenLifetaker/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  663,
+    "item":  878,
+    "lore":  "The Siren Lifetaker was once a Coercer who, after decades of living in this world, decided to get serious. It only acts at night and it moves stealthily, avoiding being seen by crowds. It is observant and cautious, and only begins to sing when it knows it has the advantage over its victims. Its song, perfected for years, is much more effective than that of the other Sirens. When its audience approaches, it glides gracefully and lets the edge of its scythe slice each neck.",
+    "menagerieDialog":  [
+                            "(Singing, as usual.)",
+                            "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
+                            "(It always seems eager to teach your other creatures new things.)",
+                            "Dude... bubbles...",
+                            "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Siren Lifetaker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SirenLifetaker/overworld_e0.png",
+                                         "images/creature/SirenLifetaker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SirenLifetaker/overworld_n0.png",
+                                          "images/creature/SirenLifetaker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SirenLifetaker/overworld_s0.png",
+                                          "images/creature/SirenLifetaker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SirenLifetaker/overworld_w0.png",
+                                         "images/creature/SirenLifetaker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Siren",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Lister)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  905,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Hydra/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1148,
-  "item": 1530,
-  "lore": "Hydras protect large bastions that Vulcanar had built in Great Pandemonium a long time ago. The God of Fire created these creatures with the purpose of attracting adventurers and bounty hunters, who expect something valuable to be hidden in a building guarded by such a large creature. The first time someone managed to reach the depths of one of these fortresses, he found a chest with a note inside, which simply said \u0027Sucker\u0027.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Hydra",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Hydra/overworld_e0.png",
-      "images/creature/Hydra/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Hydra/overworld_n0.png",
-      "images/creature/Hydra/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Hydra/overworld_s0.png",
-      "images/creature/Hydra/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Hydra/overworld_w0.png",
-      "images/creature/Hydra/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 42,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 1871
+    "battleSprite":  "images/creature/Hydra/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1148,
+    "item":  1530,
+    "lore":  "Hydras protect large bastions that Vulcanar had built in Great Pandemonium a long time ago. The God of Fire created these creatures with the purpose of attracting adventurers and bounty hunters, who expect something valuable to be hidden in a building guarded by such a large creature. The first time someone managed to reach the depths of one of these fortresses, he found a chest with a note inside, which simply said \u0027Sucker\u0027.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Hydra",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Hydra/overworld_e0.png",
+                                         "images/creature/Hydra/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Hydra/overworld_n0.png",
+                                          "images/creature/Hydra/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Hydra/overworld_s0.png",
+                                          "images/creature/Hydra/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Hydra/overworld_w0.png",
+                                         "images/creature/Hydra/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  42,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  1871,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

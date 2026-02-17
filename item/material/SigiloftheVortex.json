@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Vortexes:\nAt the start of battle, your {RACE_Vortex}es gain the Spiral Ward trait.",
-  "icon": "images/item/material/SigiloftheVortex.png",
-  "id": 1191,
-  "name": "Sigil of the Vortex",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1511
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Vortexes:\nAt the start of battle, your {RACE_Vortex}es gain the Spiral Ward trait.",
+    "icon":  "images/item/material/SigiloftheVortex.png",
+    "id":  1191,
+    "name":  "Sigil of the Vortex",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1511,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

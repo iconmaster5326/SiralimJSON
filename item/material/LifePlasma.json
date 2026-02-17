@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLife Transformation:\nWhen your creatures heal an enemy, it instead takes damage equal to 50% of the amount it would have been healed. This trait does not stack.",
-  "icon": "images/item/material/LifePlasma.png",
-  "id": 611,
-  "name": "Life Plasma",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 525
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLife Transformation:\nWhen your creatures heal an enemy, it instead takes damage equal to 50% of the amount it would have been healed. This trait does not stack.",
+    "icon":  "images/item/material/LifePlasma.png",
+    "id":  611,
+    "name":  "Life Plasma",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  525,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

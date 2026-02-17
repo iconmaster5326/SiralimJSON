@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenMeraxis/battle.png",
-  "creator": null,
-  "creature": 733,
-  "id": 405,
-  "name": "Halloween Meraxis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenMeraxis/overworld_e0.png",
-      "images/skin/HalloweenMeraxis/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenMeraxis/overworld_n0.png",
-      "images/skin/HalloweenMeraxis/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenMeraxis/overworld_s0.png",
-      "images/skin/HalloweenMeraxis/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenMeraxis/overworld_w0.png",
-      "images/skin/HalloweenMeraxis/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenMeraxis/battle.png",
+    "creator":  null,
+    "creature":  733,
+    "id":  405,
+    "name":  "Halloween Meraxis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenMeraxis/overworld_e0.png",
+                                         "images/skin/HalloweenMeraxis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenMeraxis/overworld_n0.png",
+                                          "images/skin/HalloweenMeraxis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenMeraxis/overworld_s0.png",
+                                          "images/skin/HalloweenMeraxis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenMeraxis/overworld_w0.png",
+                                         "images/skin/HalloweenMeraxis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

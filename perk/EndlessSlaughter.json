@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures {ACTION_attack} and {ACTION_cast} spells 1 additional time for every 20% {STAT_health} they\u0027re missing.",
-  "icon": "images/perk/EndlessSlaughter.png",
-  "id": 239,
-  "maxRanks": 1,
-  "name": "Endless Slaughter",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 16
+    "anointable":  true,
+    "description":  "Your creatures {ACTION_attack} and {ACTION_cast} spells 1 additional time for every 20% {STAT_health} they\u0027re missing.",
+    "icon":  "images/perk/EndlessSlaughter.png",
+    "id":  239,
+    "maxRanks":  1,
+    "name":  "Endless Slaughter",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  16,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

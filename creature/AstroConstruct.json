@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AstroConstruct/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 761,
-  "item": 49,
-  "lore": "Constructs need sunlight in order to move. They have batteries inside them that gather this energy, but this is not an efficient way of recharging them during the rainy seasons or in places where the sky is often cloudy. In response to this, several alternatives have been devised: buying pre-charged batteries, recharging the batteries with spells, and the Astro Construct. This creature is constantly receiving energy, not only from the sun, but also from the stars and the moon, thanks to its much more powerful light receptors. Because this cutting-edge technology requires the use of one Nether Orb for every one hundred receptors, its price is simply astronomical.",
-  "menagerieDialog": [
-    "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
-    "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
-    "(Nothing breeds subservience quite like being programmed by humans.)",
-    "(You can sense the raw power and lust for battle emmanating from this creature.)",
-    "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Astro Construct",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AstroConstruct/overworld_e0.png",
-      "images/creature/AstroConstruct/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AstroConstruct/overworld_n0.png",
-      "images/creature/AstroConstruct/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AstroConstruct/overworld_s0.png",
-      "images/creature/AstroConstruct/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AstroConstruct/overworld_w0.png",
-      "images/creature/AstroConstruct/overworld_w1.png"
-    ]
-  },
-  "race": "Construct",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1014
+    "battleSprite":  "images/creature/AstroConstruct/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  761,
+    "item":  49,
+    "lore":  "Constructs need sunlight in order to move. They have batteries inside them that gather this energy, but this is not an efficient way of recharging them during the rainy seasons or in places where the sky is often cloudy. In response to this, several alternatives have been devised: buying pre-charged batteries, recharging the batteries with spells, and the Astro Construct. This creature is constantly receiving energy, not only from the sun, but also from the stars and the moon, thanks to its much more powerful light receptors. Because this cutting-edge technology requires the use of one Nether Orb for every one hundred receptors, its price is simply astronomical.",
+    "menagerieDialog":  [
+                            "(You\u0027re still unsure about how to communicate with this creature. While it obeys your every command, you\u0027re unable to understand what it says to you.)",
+                            "(Though it lacks the ability to personify its emotions, you have a feeling it\u0027s ready and raring to fight.)",
+                            "(Nothing breeds subservience quite like being programmed by humans.)",
+                            "(You can sense the raw power and lust for battle emmanating from this creature.)",
+                            "(With a bit of time and effort, you might be able to program this creature to automate chores around the castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Astro Construct",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AstroConstruct/overworld_e0.png",
+                                         "images/creature/AstroConstruct/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AstroConstruct/overworld_n0.png",
+                                          "images/creature/AstroConstruct/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AstroConstruct/overworld_s0.png",
+                                          "images/creature/AstroConstruct/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AstroConstruct/overworld_w0.png",
+                                         "images/creature/AstroConstruct/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Construct",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1014,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

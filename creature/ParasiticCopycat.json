@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ParasiticCopycat/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1483,
-  "item": 1744,
-  "lore": "Parasitic Copycats are slimy creatures that latch onto their victims, mimicking their appearance, voice, and abilities while draining their life force. They only detach once the host is completely exhausted, leaving behind a hollow shell. Their first recorded appearance dates back to the Unification War, when magic ran wild and twisted certain lifeforms.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Parasitic Copycat",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ParasiticCopycat/overworld_e0.png",
-      "images/creature/ParasiticCopycat/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ParasiticCopycat/overworld_n0.png",
-      "images/creature/ParasiticCopycat/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ParasiticCopycat/overworld_s0.png",
-      "images/creature/ParasiticCopycat/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ParasiticCopycat/overworld_w0.png",
-      "images/creature/ParasiticCopycat/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 2086
+    "battleSprite":  "images/creature/ParasiticCopycat/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1483,
+    "item":  1744,
+    "lore":  "Parasitic Copycats are slimy creatures that latch onto their victims, mimicking their appearance, voice, and abilities while draining their life force. They only detach once the host is completely exhausted, leaving behind a hollow shell. Their first recorded appearance dates back to the Unification War, when magic ran wild and twisted certain lifeforms.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Parasitic Copycat",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ParasiticCopycat/overworld_e0.png",
+                                         "images/creature/ParasiticCopycat/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ParasiticCopycat/overworld_n0.png",
+                                          "images/creature/ParasiticCopycat/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ParasiticCopycat/overworld_s0.png",
+                                          "images/creature/ParasiticCopycat/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ParasiticCopycat/overworld_w0.png",
+                                         "images/creature/ParasiticCopycat/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  2086,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

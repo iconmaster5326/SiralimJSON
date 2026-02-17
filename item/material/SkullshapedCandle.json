@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDark Ritual:\nAt the start of battle, your creatures share 10% of their class\u0027 corresponding stats with your other creatures. Your creatures start battles at 50% {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/SkullshapedCandle.png",
-  "id": 1768,
-  "name": "Skull-shaped Candle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2121
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDark Ritual:\nAt the start of battle, your creatures share 10% of their class\u0027 corresponding stats with your other creatures. Your creatures start battles at 50% {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/SkullshapedCandle.png",
+    "id":  1768,
+    "name":  "Skull-shaped Candle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2121,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

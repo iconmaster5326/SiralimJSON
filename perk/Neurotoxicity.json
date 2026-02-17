@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies take 1% more damage from attacks and spells for each time each enemy has taken damage from {CONDNAME_DEBUFF_POISON} in the current battle.",
-  "icon": "images/perk/Neurotoxicity.png",
-  "id": 489,
-  "maxRanks": 1,
-  "name": "Neurotoxicity",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "Enemies take 1% more damage from attacks and spells for each time each enemy has taken damage from {CONDNAME_DEBUFF_POISON} in the current battle.",
+    "icon":  "images/perk/Neurotoxicity.png",
+    "id":  489,
+    "maxRanks":  1,
+    "name":  "Neurotoxicity",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

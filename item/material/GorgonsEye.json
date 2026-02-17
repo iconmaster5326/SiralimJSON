@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPetrified Hope:\nAt the start of this creature\u0027s turn, each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_STONE} and {CONDNAME_DEBUFF_FEAR}.",
-  "icon": "images/item/material/GorgonsEye.png",
-  "id": 1727,
-  "name": "Gorgon\u0027s Eye",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2069
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPetrified Hope:\nAt the start of this creature\u0027s turn, each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_STONE} and {CONDNAME_DEBUFF_FEAR}.",
+    "icon":  "images/item/material/GorgonsEye.png",
+    "id":  1727,
+    "name":  "Gorgon\u0027s Eye",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2069,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

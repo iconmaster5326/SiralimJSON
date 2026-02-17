@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Zarnox/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1349,
-  "item": 1770,
-  "lore": "Robodomi don\u0027t feel emotions, but they can understand them and pick up on them through things like facial expressions or tone of voice.\\n\\nMechto was designed as an unstoppable weapon, but the tech still has a long way to go. Its quantum core can withstand a dragon\u0027s breath or an axe strike from a seasoned barbarian, but even the faintest breath of poisoned air that messes with its core will knock it out in an instant.",
-  "menagerieDialog": [
-    "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
-    "Extermination protocols activated. Targets acquired.",
-    "My processors can calculate a million strategies per second. How may I assist you?",
-    "Shields at maximum. No damage can penetrate my defenses.",
-    "System overclocked. Operating at 250% efficiency."
-  ],
-  "minDepth": 1,
-  "name": "Zarnox",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Zarnox/overworld_e0.png",
-      "images/creature/Zarnox/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Zarnox/overworld_n0.png",
-      "images/creature/Zarnox/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Zarnox/overworld_s0.png",
-      "images/creature/Zarnox/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Zarnox/overworld_w0.png",
-      "images/creature/Zarnox/overworld_w1.png"
-    ]
-  },
-  "race": "Robodomi",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 25,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 10
-  },
-  "trait": 2123
+    "battleSprite":  "images/creature/Zarnox/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1349,
+    "item":  1770,
+    "lore":  "Robodomi don\u0027t feel emotions, but they can understand them and pick up on them through things like facial expressions or tone of voice.\\n\\nMechto was designed as an unstoppable weapon, but the tech still has a long way to go. Its quantum core can withstand a dragon\u0027s breath or an axe strike from a seasoned barbarian, but even the faintest breath of poisoned air that messes with its core will knock it out in an instant.",
+    "menagerieDialog":  [
+                            "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
+                            "Extermination protocols activated. Targets acquired.",
+                            "My processors can calculate a million strategies per second. How may I assist you?",
+                            "Shields at maximum. No damage can penetrate my defenses.",
+                            "System overclocked. Operating at 250% efficiency."
+                        ],
+    "minDepth":  1,
+    "name":  "Zarnox",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Zarnox/overworld_e0.png",
+                                         "images/creature/Zarnox/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Zarnox/overworld_n0.png",
+                                          "images/creature/Zarnox/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Zarnox/overworld_s0.png",
+                                          "images/creature/Zarnox/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Zarnox/overworld_w0.png",
+                                         "images/creature/Zarnox/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Robodomi",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  25,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  10
+                   },
+    "trait":  2123,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

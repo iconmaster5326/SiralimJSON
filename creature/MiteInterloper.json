@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/MiteInterloper/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 219,
-  "item": 570,
-  "lore": "Cautious and observant, the Mite Interloper waits for nightfall to act. It sneaks into cities through the sewers, and from there it tries to enter large food warehouses to eat the leftovers. If it is not hungry, it follows its nose to magic item shops, since it likes to collect such devices, probably because of their smell. Even so, it hardly ever succeeds, as the numerous thefts have forced the inhabitants of Rodia to reinforce their businesses\u0027 security and use traps.",
-  "menagerieDialog": [
-    "(It\u0027s rolled into a ball, sleeping lazily.)",
-    "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
-    "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
-    "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
-    "(It\u0027s unsuccessfully trying to burrow into the floor.)"
-  ],
-  "minDepth": 1,
-  "name": "Mite Interloper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MiteInterloper/overworld_e0.png",
-      "images/creature/MiteInterloper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MiteInterloper/overworld_n0.png",
-      "images/creature/MiteInterloper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MiteInterloper/overworld_s0.png",
-      "images/creature/MiteInterloper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MiteInterloper/overworld_w0.png",
-      "images/creature/MiteInterloper/overworld_w1.png"
-    ]
-  },
-  "race": "Mite",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    33
-  ],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 484
+    "battleSprite":  "images/creature/MiteInterloper/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  219,
+    "item":  570,
+    "lore":  "Cautious and observant, the Mite Interloper waits for nightfall to act. It sneaks into cities through the sewers, and from there it tries to enter large food warehouses to eat the leftovers. If it is not hungry, it follows its nose to magic item shops, since it likes to collect such devices, probably because of their smell. Even so, it hardly ever succeeds, as the numerous thefts have forced the inhabitants of Rodia to reinforce their businesses\u0027 security and use traps.",
+    "menagerieDialog":  [
+                            "(It\u0027s rolled into a ball, sleeping lazily.)",
+                            "(It keeps nibbling at its teammates, who are most certainly growing tired of its shenanigans.)",
+                            "(It\u0027s doing some kind of strange clicking thing with its mandibles. You\u0027re horrified, but you can\u0027t bring yourself to look away.)",
+                            "(It\u0027s eating a bunch of tiny insects. Surely that\u0027s cannibalism, is it not?)",
+                            "(It\u0027s unsuccessfully trying to burrow into the floor.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mite Interloper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MiteInterloper/overworld_e0.png",
+                                         "images/creature/MiteInterloper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MiteInterloper/overworld_n0.png",
+                                          "images/creature/MiteInterloper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MiteInterloper/overworld_s0.png",
+                                          "images/creature/MiteInterloper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MiteInterloper/overworld_w0.png",
+                                         "images/creature/MiteInterloper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mite",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            33
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  484,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

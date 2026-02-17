@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/UnsulliedMeadows/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 237,
-  "name": "Unsullied Meadows",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/UnsulliedMeadows/overworld_e0.png",
-      "images/skin/UnsulliedMeadows/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/UnsulliedMeadows/overworld_n0.png",
-      "images/skin/UnsulliedMeadows/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/UnsulliedMeadows/overworld_s0.png",
-      "images/skin/UnsulliedMeadows/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/UnsulliedMeadows/overworld_w0.png",
-      "images/skin/UnsulliedMeadows/overworld_w1.png"
-    ]
-  },
-  "race": "Mimic",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/UnsulliedMeadows/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  237,
+    "name":  "Unsullied Meadows",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/UnsulliedMeadows/overworld_e0.png",
+                                         "images/skin/UnsulliedMeadows/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/UnsulliedMeadows/overworld_n0.png",
+                                          "images/skin/UnsulliedMeadows/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/UnsulliedMeadows/overworld_s0.png",
+                                          "images/skin/UnsulliedMeadows/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/UnsulliedMeadows/overworld_w0.png",
+                                         "images/skin/UnsulliedMeadows/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mimic",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

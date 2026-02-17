@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AbaddonGuard/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 228,
-  "item": 319,
-  "lore": "Taylor created the Torture Chamber to punish all criminals, no matter what they had done. After his death, a law was enacted to close the facilities. However, Tartarith then left the Torture Chamber and began killing the inhabitants of the city, so its use was legalized again.\\n\\nIn the darkness, the Abaddon Guard\u0027s armor emits a powerful greenish glow, and the white parts of its shield shine, giving the impression that a skull is floating in the air.",
-  "menagerieDialog": [
-    "Huff...\\n\\n(Why does it look so tired?)",
-    "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
-    "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
-    "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
-    "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
-  ],
-  "minDepth": 1,
-  "name": "Abaddon Guard",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AbaddonGuard/overworld_e0.png",
-      "images/creature/AbaddonGuard/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AbaddonGuard/overworld_n0.png",
-      "images/creature/AbaddonGuard/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AbaddonGuard/overworld_s0.png",
-      "images/creature/AbaddonGuard/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AbaddonGuard/overworld_w0.png",
-      "images/creature/AbaddonGuard/overworld_w1.png"
-    ]
-  },
-  "race": "Doomguard",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 26,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 235
+    "battleSprite":  "images/creature/AbaddonGuard/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  228,
+    "item":  319,
+    "lore":  "Taylor created the Torture Chamber to punish all criminals, no matter what they had done. After his death, a law was enacted to close the facilities. However, Tartarith then left the Torture Chamber and began killing the inhabitants of the city, so its use was legalized again.\\n\\nIn the darkness, the Abaddon Guard\u0027s armor emits a powerful greenish glow, and the white parts of its shield shine, giving the impression that a skull is floating in the air.",
+    "menagerieDialog":  [
+                            "Huff...\\n\\n(Why does it look so tired?)",
+                            "(It\u0027s continuously slamming its shield into the ground. How obnoxious.)",
+                            "(Its breathing is slow and hoarse, and it doesn\u0027t seem to be looking at anything in particular. Creepy.)",
+                            "(It\u0027s attempting to sweep the floor with its shield. Thanks!)",
+                            "(It\u0027s scraping a gauntleted finger over its shield to make a horrible screeching noise.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Abaddon Guard",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AbaddonGuard/overworld_e0.png",
+                                         "images/creature/AbaddonGuard/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AbaddonGuard/overworld_n0.png",
+                                          "images/creature/AbaddonGuard/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AbaddonGuard/overworld_s0.png",
+                                          "images/creature/AbaddonGuard/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AbaddonGuard/overworld_w0.png",
+                                         "images/creature/AbaddonGuard/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Doomguard",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  26,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  235,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

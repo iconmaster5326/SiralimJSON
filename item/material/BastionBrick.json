@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCongregation:\nAfter this creature {ACTION_provokes}, your creatures gain 35% {STAT_defense} and {STAT_speed}.",
-  "icon": "images/item/material/BastionBrick.png",
-  "id": 334,
-  "name": "Bastion Brick",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 250
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCongregation:\nAfter this creature {ACTION_provokes}, your creatures gain 35% {STAT_defense} and {STAT_speed}.",
+    "icon":  "images/item/material/BastionBrick.png",
+    "id":  334,
+    "name":  "Bastion Brick",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  250,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MythicantSolis/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1268,
-  "item": 1628,
-  "lore": "Mythicants do not do much besides training, sleeping, or chasing mice, though they always defend the victim when they witness an assault.\\n\\nThe mace of the Mythicant Solis does not always have the same shape. When it attacks an enemy and hits them with its weapon, the round part of it transforms into words that cause damage. As soon as this creature pulls back the hilt, the mace instantly returns to its former appearance.",
-  "menagerieDialog": [
-    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
-    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
-    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
-    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
-    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
-  ],
-  "minDepth": 1,
-  "name": "Mythicant Solis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MythicantSolis/overworld_e0.png",
-      "images/creature/MythicantSolis/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MythicantSolis/overworld_n0.png",
-      "images/creature/MythicantSolis/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MythicantSolis/overworld_s0.png",
-      "images/creature/MythicantSolis/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MythicantSolis/overworld_w0.png",
-      "images/creature/MythicantSolis/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1967
+    "battleSprite":  "images/creature/MythicantSolis/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1268,
+    "item":  1628,
+    "lore":  "Mythicants do not do much besides training, sleeping, or chasing mice, though they always defend the victim when they witness an assault.\\n\\nThe mace of the Mythicant Solis does not always have the same shape. When it attacks an enemy and hits them with its weapon, the round part of it transforms into words that cause damage. As soon as this creature pulls back the hilt, the mace instantly returns to its former appearance.",
+    "menagerieDialog":  [
+                            "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+                            "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+                            "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+                            "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+                            "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mythicant Solis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MythicantSolis/overworld_e0.png",
+                                         "images/creature/MythicantSolis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MythicantSolis/overworld_n0.png",
+                                          "images/creature/MythicantSolis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MythicantSolis/overworld_s0.png",
+                                          "images/creature/MythicantSolis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MythicantSolis/overworld_w0.png",
+                                         "images/creature/MythicantSolis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1967,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

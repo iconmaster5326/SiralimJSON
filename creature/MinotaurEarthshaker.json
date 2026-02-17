@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MinotaurEarthshaker/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 36,
-  "item": 343,
-  "lore": "Many Minotaurs like to hunt deadly beasts, as trophies are essential to being considered a great fighter in their culture.\\n\\nAlthough all Minotaurs boast great physical strength, only the very strongest can become Earthshakers. Before entering battle, they pound the ground to make it shake with an intensity that makes their enemies quake in their boots. However, if someone manages to get close enough, they will drop their powerful hammer to hit the enemy with their bare hands.",
-  "menagerieDialog": [
-    "I still have my strength, let\u0027s go!",
-    "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
-    "Let none survive. All will perish in our wake!",
-    "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
-    "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
-  ],
-  "minDepth": 1,
-  "name": "Minotaur Earthshaker",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MinotaurEarthshaker/overworld_e0.png",
-      "images/creature/MinotaurEarthshaker/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MinotaurEarthshaker/overworld_n0.png",
-      "images/creature/MinotaurEarthshaker/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MinotaurEarthshaker/overworld_s0.png",
-      "images/creature/MinotaurEarthshaker/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MinotaurEarthshaker/overworld_w0.png",
-      "images/creature/MinotaurEarthshaker/overworld_w1.png"
-    ]
-  },
-  "race": "Minotaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 259
+    "battleSprite":  "images/creature/MinotaurEarthshaker/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  36,
+    "item":  343,
+    "lore":  "Many Minotaurs like to hunt deadly beasts, as trophies are essential to being considered a great fighter in their culture.\\n\\nAlthough all Minotaurs boast great physical strength, only the very strongest can become Earthshakers. Before entering battle, they pound the ground to make it shake with an intensity that makes their enemies quake in their boots. However, if someone manages to get close enough, they will drop their powerful hammer to hit the enemy with their bare hands.",
+    "menagerieDialog":  [
+                            "I still have my strength, let\u0027s go!",
+                            "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
+                            "Let none survive. All will perish in our wake!",
+                            "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
+                            "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Minotaur Earthshaker",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MinotaurEarthshaker/overworld_e0.png",
+                                         "images/creature/MinotaurEarthshaker/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MinotaurEarthshaker/overworld_n0.png",
+                                          "images/creature/MinotaurEarthshaker/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MinotaurEarthshaker/overworld_s0.png",
+                                          "images/creature/MinotaurEarthshaker/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MinotaurEarthshaker/overworld_w0.png",
+                                         "images/creature/MinotaurEarthshaker/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Minotaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  259,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

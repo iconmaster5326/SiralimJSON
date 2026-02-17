@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiabolic Brilliance:\nYour {RACE_Diabolic Horde}\u0027s Spell Gems have 1 more {STAT_charge} for each {RACE_Diabolic Horde} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/MenaceFlag.png",
-  "id": 326,
-  "name": "Menace Flag",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 242
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDiabolic Brilliance:\nYour {RACE_Diabolic Horde}\u0027s Spell Gems have 1 more {STAT_charge} for each {RACE_Diabolic Horde} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/MenaceFlag.png",
+    "id":  326,
+    "name":  "Menace Flag",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  242,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

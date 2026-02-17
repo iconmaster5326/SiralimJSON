@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLiberation:\nThis creature {ACTION_casts} spells 1 additional time for each minion it has.",
-  "icon": "images/item/material/SurgeonScalpel.png",
-  "id": 735,
-  "name": "Surgeon Scalpel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 674
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLiberation:\nThis creature {ACTION_casts} spells 1 additional time for each minion it has.",
+    "icon":  "images/item/material/SurgeonScalpel.png",
+    "id":  735,
+    "name":  "Surgeon Scalpel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  674,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

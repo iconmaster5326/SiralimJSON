@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRescue Ride:\nAt the end of this creature\u0027s turn, it resurrects a random ally with 100% {STAT_health} and gives it {CONDNAME_BUFF_SHELL}.",
-  "icon": "images/item/material/ParticleofKalasag.png",
-  "id": 754,
-  "name": "Particle of Kalasag",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 801
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRescue Ride:\nAt the end of this creature\u0027s turn, it resurrects a random ally with 100% {STAT_health} and gives it {CONDNAME_BUFF_SHELL}.",
+    "icon":  "images/item/material/ParticleofKalasag.png",
+    "id":  754,
+    "name":  "Particle of Kalasag",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  801,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

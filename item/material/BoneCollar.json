@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUncharted:\nYour {RACE_Hound}s deal 5% more damage for each stack of {CONDNAME_MINION_DIREWOLF} each of your creatures have. This trait does not stack.",
-  "icon": "images/item/material/BoneCollar.png",
-  "id": 828,
-  "name": "Bone Collar",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 855
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUncharted:\nYour {RACE_Hound}s deal 5% more damage for each stack of {CONDNAME_MINION_DIREWOLF} each of your creatures have. This trait does not stack.",
+    "icon":  "images/item/material/BoneCollar.png",
+    "id":  828,
+    "name":  "Bone Collar",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  855,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

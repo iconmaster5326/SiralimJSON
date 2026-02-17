@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_attack}, they gain {CONDNAME_BUFF_SPLASH} and {CONDNAME_BUFF_SAVAGE}.\\n\\n{CONDDESC_BUFF_SPLASH}\\n\\n{CONDDESC_BUFF_SAVAGE}",
-  "icon": "images/perk/Predator.png",
-  "id": 371,
-  "maxRanks": 1,
-  "name": "Predator",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_attack}, they gain {CONDNAME_BUFF_SPLASH} and {CONDNAME_BUFF_SAVAGE}.\\n\\n{CONDDESC_BUFF_SPLASH}\\n\\n{CONDDESC_BUFF_SAVAGE}",
+    "icon":  "images/perk/Predator.png",
+    "id":  371,
+    "maxRanks":  1,
+    "name":  "Predator",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

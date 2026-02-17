@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHebron\u0027s Trickery:\nAfter an enemy manually {ACTION_casts} a spell, this creature afflicts it with {CONDNAME_DEBUFF_BOMB}.",
-  "icon": "images/item/material/HebronsBrokenShield.png",
-  "id": 900,
-  "name": "Hebron\u0027s Broken Shield",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 936
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHebron\u0027s Trickery:\nAfter an enemy manually {ACTION_casts} a spell, this creature afflicts it with {CONDNAME_DEBUFF_BOMB}.",
+    "icon":  "images/item/material/HebronsBrokenShield.png",
+    "id":  900,
+    "name":  "Hebron\u0027s Broken Shield",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  936,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

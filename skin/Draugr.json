@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Draugr/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 207,
-  "name": "Draugr",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Draugr/overworld_e0.png",
-      "images/skin/Draugr/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Draugr/overworld_n0.png",
-      "images/skin/Draugr/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Draugr/overworld_s0.png",
-      "images/skin/Draugr/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Draugr/overworld_w0.png",
-      "images/skin/Draugr/overworld_w1.png"
-    ]
-  },
-  "race": "Mummy",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Draugr/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  207,
+    "name":  "Draugr",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Draugr/overworld_e0.png",
+                                         "images/skin/Draugr/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Draugr/overworld_n0.png",
+                                          "images/skin/Draugr/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Draugr/overworld_s0.png",
+                                          "images/skin/Draugr/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Draugr/overworld_w0.png",
+                                         "images/skin/Draugr/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mummy",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

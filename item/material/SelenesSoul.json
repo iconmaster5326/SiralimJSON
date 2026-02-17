@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIncoming Tide:\nAt the start of this creature\u0027s turn, it has a 50% chance to {ACTION_cast} [icons,1976]Submerge.",
-  "icon": "images/item/material/SelenesSoul.png",
-  "id": 1353,
-  "name": "Selene\u0027s Soul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1660
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIncoming Tide:\nAt the start of this creature\u0027s turn, it has a 50% chance to {ACTION_cast} [icons,1976]Submerge.",
+    "icon":  "images/item/material/SelenesSoul.png",
+    "id":  1353,
+    "name":  "Selene\u0027s Soul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1660,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

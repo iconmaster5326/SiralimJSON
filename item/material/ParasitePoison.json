@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSharing Is Caring:\nAfter an enemy\u0027s {CONDNAME_DEBUFF_BOMB} detonates, adjacent enemies take 100% of the detonation damage as well. This trait does not stack.",
-  "icon": "images/item/material/ParasitePoison.png",
-  "id": 947,
-  "name": "Parasite Poison",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1183
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSharing Is Caring:\nAfter an enemy\u0027s {CONDNAME_DEBUFF_BOMB} detonates, adjacent enemies take 100% of the detonation damage as well. This trait does not stack.",
+    "icon":  "images/item/material/ParasitePoison.png",
+    "id":  947,
+    "name":  "Parasite Poison",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1183,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

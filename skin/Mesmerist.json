@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Mesmerist/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 827,
-  "name": "Mesmerist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Mesmerist/overworld_e0.png",
-      "images/skin/Mesmerist/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Mesmerist/overworld_n0.png",
-      "images/skin/Mesmerist/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Mesmerist/overworld_s0.png",
-      "images/skin/Mesmerist/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Mesmerist/overworld_w0.png",
-      "images/skin/Mesmerist/overworld_w1.png"
-    ]
-  },
-  "race": "Marionette",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Mesmerist/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  827,
+    "name":  "Mesmerist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Mesmerist/overworld_e0.png",
+                                         "images/skin/Mesmerist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Mesmerist/overworld_n0.png",
+                                          "images/skin/Mesmerist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Mesmerist/overworld_s0.png",
+                                          "images/skin/Mesmerist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Mesmerist/overworld_w0.png",
+                                         "images/skin/Mesmerist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Marionette",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

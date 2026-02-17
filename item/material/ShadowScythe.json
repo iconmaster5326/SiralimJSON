@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShadow Scythe:\nAfter this creature {ACTION_attacks} an enemy with less than 35% {STAT_health}, it is killed, then this creature deals damage to adjacent enemies equal to 200% of the damage dealt by the {ACTION_attack}.",
-  "icon": "images/item/material/ShadowScythe.png",
-  "id": 249,
-  "name": "Shadow Scythe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 159
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShadow Scythe:\nAfter this creature {ACTION_attacks} an enemy with less than 35% {STAT_health}, it is killed, then this creature deals damage to adjacent enemies equal to 200% of the damage dealt by the {ACTION_attack}.",
+    "icon":  "images/item/material/ShadowScythe.png",
+    "id":  249,
+    "name":  "Shadow Scythe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  159,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ToxdwellerInfector/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 927,
-  "item": 948,
-  "lore": "Mikhail, or Eve, and the other five agents of his group, played roles of great relevance to the Auditors when it came to weaving the framework that allowed them to operate worldwide. In this way, the organization was largely able to control the development of history.\\n\\nThe Toxdweller Infector has become the greatest threat to survivors on the other side of the Veil. Because it moves with great ease thanks to its four wings, it has spread the calamities that travel with it to more places.",
-  "menagerieDialog": [
-    "(It\u0027s staring thoughtfully at a bomb.)",
-    "(It never blinks. Ever. It\u0027s very creepy.)",
-    "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
-    "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
-    "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
-  ],
-  "minDepth": 1,
-  "name": "Toxdweller Infector",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ToxdwellerInfector/overworld_e0.png",
-      "images/creature/ToxdwellerInfector/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ToxdwellerInfector/overworld_n0.png",
-      "images/creature/ToxdwellerInfector/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ToxdwellerInfector/overworld_s0.png",
-      "images/creature/ToxdwellerInfector/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ToxdwellerInfector/overworld_w0.png",
-      "images/creature/ToxdwellerInfector/overworld_w1.png"
-    ]
-  },
-  "race": "Toxdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Venedon)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 14,
-    "defense": 16,
-    "health": 29,
-    "intelligence": 21,
-    "speed": 26
-  },
-  "trait": 1184
+    "battleSprite":  "images/creature/ToxdwellerInfector/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  927,
+    "item":  948,
+    "lore":  "Mikhail, or Eve, and the other five agents of his group, played roles of great relevance to the Auditors when it came to weaving the framework that allowed them to operate worldwide. In this way, the organization was largely able to control the development of history.\\n\\nThe Toxdweller Infector has become the greatest threat to survivors on the other side of the Veil. Because it moves with great ease thanks to its four wings, it has spread the calamities that travel with it to more places.",
+    "menagerieDialog":  [
+                            "(It\u0027s staring thoughtfully at a bomb.)",
+                            "(It never blinks. Ever. It\u0027s very creepy.)",
+                            "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
+                            "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
+                            "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Toxdweller Infector",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ToxdwellerInfector/overworld_e0.png",
+                                         "images/creature/ToxdwellerInfector/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ToxdwellerInfector/overworld_n0.png",
+                                          "images/creature/ToxdwellerInfector/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ToxdwellerInfector/overworld_s0.png",
+                                          "images/creature/ToxdwellerInfector/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ToxdwellerInfector/overworld_w0.png",
+                                         "images/creature/ToxdwellerInfector/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Toxdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Venedon)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  14,
+                       "defense":  16,
+                       "health":  29,
+                       "intelligence":  21,
+                       "speed":  26
+                   },
+    "trait":  1184,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

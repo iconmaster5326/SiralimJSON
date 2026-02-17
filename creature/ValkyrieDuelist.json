@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ValkyrieDuelist/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 706,
-  "item": 880,
-  "lore": "At the end of the Unification War, only Andolin and Vanelin had forces remaining. Although the Queen of Siralim added her Phase Warriors to that, it was not enough to invade the city of Omnia. The only option left was to seek the help of the Desert Priest in Ahruna, but before Helmholtz and Milner could depart, the Duelist appeared with three hundred Valkyries behind her. This creature is the best Valkyrie warrior, a queen of queens who leads her people to give their lives for justice.",
-  "menagerieDialog": [
-    "(She spends most of her free time relaxing. Is she really a Valkyrie?)",
-    "She\u0027s waving her weapon around and striking various battle poses. She must be eager to fight.",
-    "(It\u0027s completely absorbed in sharpening its weapon and polishing its armor.)",
-    "(She is extremely protective of your other creatures. If only your entire team had such camaraderie...)",
-    "(She\u0027s parading back and forth around the menagerie. You really wish she\u0027d stand still for a moment.)"
-  ],
-  "minDepth": 1,
-  "name": "Valkyrie Duelist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ValkyrieDuelist/overworld_e0.png",
-      "images/creature/ValkyrieDuelist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ValkyrieDuelist/overworld_n0.png",
-      "images/creature/ValkyrieDuelist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ValkyrieDuelist/overworld_s0.png",
-      "images/creature/ValkyrieDuelist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ValkyrieDuelist/overworld_w0.png",
-      "images/creature/ValkyrieDuelist/overworld_w1.png"
-    ]
-  },
-  "race": "Valkyrie",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 22,
-    "health": 30,
-    "intelligence": 7,
-    "speed": 22
-  },
-  "trait": 907
+    "battleSprite":  "images/creature/ValkyrieDuelist/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  706,
+    "item":  880,
+    "lore":  "At the end of the Unification War, only Andolin and Vanelin had forces remaining. Although the Queen of Siralim added her Phase Warriors to that, it was not enough to invade the city of Omnia. The only option left was to seek the help of the Desert Priest in Ahruna, but before Helmholtz and Milner could depart, the Duelist appeared with three hundred Valkyries behind her. This creature is the best Valkyrie warrior, a queen of queens who leads her people to give their lives for justice.",
+    "menagerieDialog":  [
+                            "(She spends most of her free time relaxing. Is she really a Valkyrie?)",
+                            "She\u0027s waving her weapon around and striking various battle poses. She must be eager to fight.",
+                            "(It\u0027s completely absorbed in sharpening its weapon and polishing its armor.)",
+                            "(She is extremely protective of your other creatures. If only your entire team had such camaraderie...)",
+                            "(She\u0027s parading back and forth around the menagerie. You really wish she\u0027d stand still for a moment.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Valkyrie Duelist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ValkyrieDuelist/overworld_e0.png",
+                                         "images/creature/ValkyrieDuelist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ValkyrieDuelist/overworld_n0.png",
+                                          "images/creature/ValkyrieDuelist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ValkyrieDuelist/overworld_s0.png",
+                                          "images/creature/ValkyrieDuelist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ValkyrieDuelist/overworld_w0.png",
+                                         "images/creature/ValkyrieDuelist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Valkyrie",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  22,
+                       "health":  30,
+                       "intelligence":  7,
+                       "speed":  22
+                   },
+    "trait":  907,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

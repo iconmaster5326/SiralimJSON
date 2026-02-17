@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNo Fear:\nWhile your creatures are below 40% {STAT_health}, they deal 100% more damage. This trait does not stack.",
-  "icon": "images/item/material/BuilderFoot.png",
-  "id": 955,
-  "name": "Builder Foot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1179
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNo Fear:\nWhile your creatures are below 40% {STAT_health}, they deal 100% more damage. This trait does not stack.",
+    "icon":  "images/item/material/BuilderFoot.png",
+    "id":  955,
+    "name":  "Builder Foot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1179,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

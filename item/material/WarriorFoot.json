@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNice Haircut:\nAfter your {RACE_Maniac}s are killed while it is an ally\u0027s turn, they have a 50% chance to be resurrected with 50% {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/WarriorFoot.png",
-  "id": 954,
-  "name": "Warrior Foot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1178
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNice Haircut:\nAfter your {RACE_Maniac}s are killed while it is an ally\u0027s turn, they have a 50% chance to be resurrected with 50% {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/WarriorFoot.png",
+    "id":  954,
+    "name":  "Warrior Foot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1178,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

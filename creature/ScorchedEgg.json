@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ScorchedEgg/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1290,
-  "item": 1792,
-  "lore": "Also known as the \u0022Fierce Warm Egg,\u0022 \u0022Egg Slammed Into Molten Rock,\u0022 or \u0022Satan, Lord of the Underworld.\u0022 This egg is more than just cooked\u00E2\u20AC\u201Dit can withstand blazing heat and roll through lava like a fire-breathing dragon. It constantly leaks glowing yolk, though if it gets too hot, it\u0027ll lose its yolk altogether and stop oozing.",
-  "menagerieDialog": [
-    "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
-    "We may look fragile, but we\u0027ll crack some skulls!",
-    "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
-    "Our shells are tougher than they look. Bring it on!",
-    "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
-  ],
-  "minDepth": 1,
-  "name": "Scorched Egg",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ScorchedEgg/overworld_e0.png",
-      "images/creature/ScorchedEgg/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ScorchedEgg/overworld_n0.png",
-      "images/creature/ScorchedEgg/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ScorchedEgg/overworld_s0.png",
-      "images/creature/ScorchedEgg/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ScorchedEgg/overworld_w0.png",
-      "images/creature/ScorchedEgg/overworld_w1.png"
-    ]
-  },
-  "race": "Eggxotic",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 2145
+    "battleSprite":  "images/creature/ScorchedEgg/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1290,
+    "item":  1792,
+    "lore":  "Also known as the \"Fierce Warm Egg,\" \"Egg Slammed Into Molten Rock,\" or \"Satan, Lord of the Underworld.\" This egg is more than just cooked—it can withstand blazing heat and roll through lava like a fire-breathing dragon. It constantly leaks glowing yolk, though if it gets too hot, it\u0027ll lose its yolk altogether and stop oozing.",
+    "menagerieDialog":  [
+                            "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
+                            "We may look fragile, but we\u0027ll crack some skulls!",
+                            "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
+                            "Our shells are tougher than they look. Bring it on!",
+                            "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Scorched Egg",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ScorchedEgg/overworld_e0.png",
+                                         "images/creature/ScorchedEgg/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ScorchedEgg/overworld_n0.png",
+                                          "images/creature/ScorchedEgg/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ScorchedEgg/overworld_s0.png",
+                                          "images/creature/ScorchedEgg/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ScorchedEgg/overworld_w0.png",
+                                         "images/creature/ScorchedEgg/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Eggxotic",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  2145,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

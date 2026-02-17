@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SirenAscendant/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 33,
-  "item": 133,
-  "lore": "The songs of the Sirens are well known by the sailors and pirates who sail the seas. It begins as a distant, soft, almost ethereal murmur, but as one listens more closely, the voice becomes irresistible and it is too late to turn back.\\n\\nThe Siren Ascendant is a creature of incredible power who uses its eye of providence to effortlessly curse its enemies. If the eye is destroyed or removed by force, it regenerates after a few days.",
-  "menagerieDialog": [
-    "(Singing, as usual.)",
-    "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
-    "(It always seems eager to teach your other creatures new things.)",
-    "Dude... bubbles...",
-    "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Siren Ascendant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SirenAscendant/overworld_e0.png",
-      "images/creature/SirenAscendant/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SirenAscendant/overworld_n0.png",
-      "images/creature/SirenAscendant/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SirenAscendant/overworld_s0.png",
-      "images/creature/SirenAscendant/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SirenAscendant/overworld_w0.png",
-      "images/creature/SirenAscendant/overworld_w1.png"
-    ]
-  },
-  "race": "Siren",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Lister)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 43
+    "battleSprite":  "images/creature/SirenAscendant/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  33,
+    "item":  133,
+    "lore":  "The songs of the Sirens are well known by the sailors and pirates who sail the seas. It begins as a distant, soft, almost ethereal murmur, but as one listens more closely, the voice becomes irresistible and it is too late to turn back.\\n\\nThe Siren Ascendant is a creature of incredible power who uses its eye of providence to effortlessly curse its enemies. If the eye is destroyed or removed by force, it regenerates after a few days.",
+    "menagerieDialog":  [
+                            "(Singing, as usual.)",
+                            "(Judging by the spiteful looks it gives to your citizens, it\u0027s very clear that this creature dislikes humans.)",
+                            "(It always seems eager to teach your other creatures new things.)",
+                            "Dude... bubbles...",
+                            "(It\u0027s making an extremely ugly face at you. You take that as a hint that it doesn\u0027t want to be bothered right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Siren Ascendant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SirenAscendant/overworld_e0.png",
+                                         "images/creature/SirenAscendant/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SirenAscendant/overworld_n0.png",
+                                          "images/creature/SirenAscendant/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SirenAscendant/overworld_s0.png",
+                                          "images/creature/SirenAscendant/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SirenAscendant/overworld_w0.png",
+                                         "images/creature/SirenAscendant/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Siren",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Lister)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  43,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

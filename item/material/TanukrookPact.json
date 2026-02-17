@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMonster Crown:\nAt the start of this creature\u0027s turn, it kills your other creatures and gains 20% of their stats (other than {STAT_health}).",
-  "icon": "images/item/material/TanukrookPact.png",
-  "id": 1061,
-  "name": "Tanukrook Pact",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1044
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMonster Crown:\nAt the start of this creature\u0027s turn, it kills your other creatures and gains 20% of their stats (other than {STAT_health}).",
+    "icon":  "images/item/material/TanukrookPact.png",
+    "id":  1061,
+    "name":  "Tanukrook Pact",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1044,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

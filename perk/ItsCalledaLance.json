@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures manually {ACTION_cast} an {SPELL_equipment}, they {ACTION_cast} a Living Lance spell. The type of Living Lance spell is based on the caster\u0027s class.",
-  "icon": "images/perk/ItsCalledaLance.png",
-  "id": 589,
-  "maxRanks": 1,
-  "name": "It\u0027s Called a Lance",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 39
+    "anointable":  true,
+    "description":  "After your creatures manually {ACTION_cast} an {SPELL_equipment}, they {ACTION_cast} a Living Lance spell. The type of Living Lance spell is based on the caster\u0027s class.",
+    "icon":  "images/perk/ItsCalledaLance.png",
+    "id":  589,
+    "maxRanks":  1,
+    "name":  "It\u0027s Called a Lance",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  39,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

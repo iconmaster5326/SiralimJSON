@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReactor Shield:\nThis creature is immune to instant-death effects in non-boss battles and can only take damage up to 60% of its Maximum {STAT_health}.",
-  "icon": "images/item/material/ShieldCrust.png",
-  "id": 1771,
-  "name": "Shield Crust",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2124
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReactor Shield:\nThis creature is immune to instant-death effects in non-boss battles and can only take damage up to 60% of its Maximum {STAT_health}.",
+    "icon":  "images/item/material/ShieldCrust.png",
+    "id":  1771,
+    "name":  "Shield Crust",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2124,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

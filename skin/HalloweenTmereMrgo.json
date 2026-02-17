@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenTmereMrgo/battle.png",
-  "creator": null,
-  "creature": 1103,
-  "id": 615,
-  "name": "Halloween T\u0027mere M\u0027rgo",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenTmereMrgo/overworld_e0.png",
-      "images/skin/HalloweenTmereMrgo/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenTmereMrgo/overworld_n0.png",
-      "images/skin/HalloweenTmereMrgo/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenTmereMrgo/overworld_s0.png",
-      "images/skin/HalloweenTmereMrgo/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenTmereMrgo/overworld_w0.png",
-      "images/skin/HalloweenTmereMrgo/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenTmereMrgo/battle.png",
+    "creator":  null,
+    "creature":  1103,
+    "id":  615,
+    "name":  "Halloween T\u0027mere M\u0027rgo",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenTmereMrgo/overworld_e0.png",
+                                         "images/skin/HalloweenTmereMrgo/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenTmereMrgo/overworld_n0.png",
+                                          "images/skin/HalloweenTmereMrgo/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenTmereMrgo/overworld_s0.png",
+                                          "images/skin/HalloweenTmereMrgo/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenTmereMrgo/overworld_w0.png",
+                                         "images/skin/HalloweenTmereMrgo/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

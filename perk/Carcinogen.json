@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies always have {CONDNAME_DEBUFF_POISON}.\\n\\n{CONDDESC_DEBUFF_POISON}",
-  "icon": "images/perk/Carcinogen.png",
-  "id": 487,
-  "maxRanks": 1,
-  "name": "Carcinogen",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "Enemies always have {CONDNAME_DEBUFF_POISON}.\\n\\n{CONDDESC_DEBUFF_POISON}",
+    "icon":  "images/perk/Carcinogen.png",
+    "id":  487,
+    "maxRanks":  1,
+    "name":  "Carcinogen",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

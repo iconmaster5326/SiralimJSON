@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_attack}, they have a \u003C5\u003E% chance to {ACTION_cast} [icons,1980] Mind Control on the target.\n\nMind Control: Target {ACTION_attacks} one of its allies.",
-  "icon": "images/perk/Trance.png",
-  "id": 407,
-  "maxRanks": 5,
-  "name": "Trance",
-  "notes": [],
-  "pointsPerRank": 20,
-  "specialization": 29
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_attack}, they have a \u003c5\u003e% chance to {ACTION_cast} [icons,1980] Mind Control on the target.\n\nMind Control: Target {ACTION_attacks} one of its allies.",
+    "icon":  "images/perk/Trance.png",
+    "id":  407,
+    "maxRanks":  5,
+    "name":  "Trance",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  20,
+    "specialization":  29,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

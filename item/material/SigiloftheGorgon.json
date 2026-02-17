@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Gorgons:\nYour {RACE_Gorgon}s deal 35% more damage to enemies with {CONDNAME_DEBUFF_STONE} for each {RACE_Gorgon} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheGorgon.png",
-  "id": 1259,
-  "name": "Sigil of the Gorgon",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1442
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Gorgons:\nYour {RACE_Gorgon}s deal 35% more damage to enemies with {CONDNAME_DEBUFF_STONE} for each {RACE_Gorgon} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheGorgon.png",
+    "id":  1259,
+    "name":  "Sigil of the Gorgon",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1442,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

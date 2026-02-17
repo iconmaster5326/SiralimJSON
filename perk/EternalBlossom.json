@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the end of your Herbling\u0027s turn, it {ACTION_casts} [icons,1976]Wild Growth. This spell affects a number of allies equal to its Tier.\n\nWild Growth: Target gains {CONDNAME_BUFF_MEND}, and a large amount of Maximum {STAT_health}.",
-  "icon": "images/perk/EternalBlossom.png",
-  "id": 339,
-  "maxRanks": 1,
-  "name": "Eternal Blossom",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 22
+    "anointable":  true,
+    "description":  "At the end of your Herbling\u0027s turn, it {ACTION_casts} [icons,1976]Wild Growth. This spell affects a number of allies equal to its Tier.\n\nWild Growth: Target gains {CONDNAME_BUFF_MEND}, and a large amount of Maximum {STAT_health}.",
+    "icon":  "images/perk/EternalBlossom.png",
+    "id":  339,
+    "maxRanks":  1,
+    "name":  "Eternal Blossom",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  22,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

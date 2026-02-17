@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoll the Dice:\nAt the end of this creature\u0027s turn, it {ACTION_casts} 2 of its [temporary] Ethereal Spell Gems.",
-  "icon": "images/item/material/DieFragments.png",
-  "id": 1368,
-  "name": "Die Fragments",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1675
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoll the Dice:\nAt the end of this creature\u0027s turn, it {ACTION_casts} 2 of its [temporary] Ethereal Spell Gems.",
+    "icon":  "images/item/material/DieFragments.png",
+    "id":  1368,
+    "name":  "Die Fragments",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1675,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

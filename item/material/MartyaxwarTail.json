@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMouth For War:\nAfter this creature {ACTION_casts} a single-target spell on an enemy, it also {ACTION_attacks} that enemy 2 times.",
-  "icon": "images/item/material/MartyaxwarTail.png",
-  "id": 387,
-  "name": "Martyaxwar Tail",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 303
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMouth For War:\nAfter this creature {ACTION_casts} a single-target spell on an enemy, it also {ACTION_attacks} that enemy 2 times.",
+    "icon":  "images/item/material/MartyaxwarTail.png",
+    "id":  387,
+    "name":  "Martyaxwar Tail",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  303,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Fiery/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 566,
-  "name": "Fiery",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Fiery/overworld_e0.png",
-      "images/skin/Fiery/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Fiery/overworld_n0.png",
-      "images/skin/Fiery/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Fiery/overworld_s0.png",
-      "images/skin/Fiery/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Fiery/overworld_w0.png",
-      "images/skin/Fiery/overworld_w1.png"
-    ]
-  },
-  "race": "Cherub",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Fiery/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  566,
+    "name":  "Fiery",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Fiery/overworld_e0.png",
+                                         "images/skin/Fiery/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Fiery/overworld_n0.png",
+                                          "images/skin/Fiery/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Fiery/overworld_s0.png",
+                                          "images/skin/Fiery/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Fiery/overworld_w0.png",
+                                         "images/skin/Fiery/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cherub",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

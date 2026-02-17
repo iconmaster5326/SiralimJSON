@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Toxicity/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 24,
-  "name": "Toxicity",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Toxicity/overworld_e0.png",
-      "images/skin/Toxicity/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Toxicity/overworld_n0.png",
-      "images/skin/Toxicity/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Toxicity/overworld_s0.png",
-      "images/skin/Toxicity/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Toxicity/overworld_w0.png",
-      "images/skin/Toxicity/overworld_w1.png"
-    ]
-  },
-  "race": "Fiend",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Toxicity/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  24,
+    "name":  "Toxicity",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Toxicity/overworld_e0.png",
+                                         "images/skin/Toxicity/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Toxicity/overworld_n0.png",
+                                          "images/skin/Toxicity/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Toxicity/overworld_s0.png",
+                                          "images/skin/Toxicity/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Toxicity/overworld_w0.png",
+                                         "images/skin/Toxicity/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Fiend",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

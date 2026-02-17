@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/ShackledGargantuan/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 525,
-  "item": 819,
-  "lore": "When Torun was creating the Gargantuans, he used his power indiscriminately over different mountains. One of them was cursed, and this creature was born. It woke up full of unbridled rage and began to destroy everything in its path. Torun was disappointed, as it is not necessary to kill mortals to humiliate them. However, he also felt pity. He finally decided to chain it and leave it hidden, hoping that it would change its attitude over time. It only took two days for him to forget about it.",
-  "menagerieDialog": [
-    "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
-    "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
-    "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
-    "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
-    "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
-  ],
-  "minDepth": 1,
-  "name": "Shackled Gargantuan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShackledGargantuan/overworld_e0.png",
-      "images/creature/ShackledGargantuan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShackledGargantuan/overworld_n0.png",
-      "images/creature/ShackledGargantuan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShackledGargantuan/overworld_s0.png",
-      "images/creature/ShackledGargantuan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShackledGargantuan/overworld_w0.png",
-      "images/creature/ShackledGargantuan/overworld_w1.png"
-    ]
-  },
-  "race": "Gargantuan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 27,
-    "health": 39,
-    "intelligence": 12,
-    "speed": 7
-  },
-  "trait": 846
+    "battleSprite":  "images/creature/ShackledGargantuan/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  525,
+    "item":  819,
+    "lore":  "When Torun was creating the Gargantuans, he used his power indiscriminately over different mountains. One of them was cursed, and this creature was born. It woke up full of unbridled rage and began to destroy everything in its path. Torun was disappointed, as it is not necessary to kill mortals to humiliate them. However, he also felt pity. He finally decided to chain it and leave it hidden, hoping that it would change its attitude over time. It only took two days for him to forget about it.",
+    "menagerieDialog":  [
+                            "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
+                            "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
+                            "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
+                            "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
+                            "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shackled Gargantuan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShackledGargantuan/overworld_e0.png",
+                                         "images/creature/ShackledGargantuan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShackledGargantuan/overworld_n0.png",
+                                          "images/creature/ShackledGargantuan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShackledGargantuan/overworld_s0.png",
+                                          "images/creature/ShackledGargantuan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShackledGargantuan/overworld_w0.png",
+                                         "images/creature/ShackledGargantuan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargantuan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  27,
+                       "health":  39,
+                       "intelligence":  12,
+                       "speed":  7
+                   },
+    "trait":  846,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

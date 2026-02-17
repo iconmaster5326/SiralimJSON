@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCharity:\nAfter this creature is healed, it heals one of your other creatures for 300% of this amount. This trait does not heal creatures that also have this trait.",
-  "icon": "images/item/material/BookofCharity.png",
-  "id": 168,
-  "name": "Book of Charity",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 78
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCharity:\nAfter this creature is healed, it heals one of your other creatures for 300% of this amount. This trait does not heal creatures that also have this trait.",
+    "icon":  "images/item/material/BookofCharity.png",
+    "id":  168,
+    "name":  "Book of Charity",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  78,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

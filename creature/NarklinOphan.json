@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/NarklinOphan/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 392,
-  "item": 161,
-  "lore": "Although the Ophans\u0027 ability to communicate is very limited, they are self-aware and have prodigious intelligence.\\n\\nNarklin Ophans cannot stand to watch others suffer, so they used to be a common sight near hospitals, where they lent their help for free to heal wounds and cure diseases. However, humans began to hunt them to take advantage of their powers and even make a profit, which ended up creating distrust in them.",
-  "menagerieDialog": [
-    "(It appears to be deep in its own thoughts.)",
-    "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
-    "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
-    "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
-    "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
-  ],
-  "minDepth": 1,
-  "name": "Narklin Ophan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NarklinOphan/overworld_e0.png",
-      "images/creature/NarklinOphan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NarklinOphan/overworld_n0.png",
-      "images/creature/NarklinOphan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NarklinOphan/overworld_s0.png",
-      "images/creature/NarklinOphan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NarklinOphan/overworld_w0.png",
-      "images/creature/NarklinOphan/overworld_w1.png"
-    ]
-  },
-  "race": "Ophan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 8,
-    "defense": 18,
-    "health": 28,
-    "intelligence": 23,
-    "speed": 28
-  },
-  "trait": 71
+    "battleSprite":  "images/creature/NarklinOphan/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  392,
+    "item":  161,
+    "lore":  "Although the Ophans\u0027 ability to communicate is very limited, they are self-aware and have prodigious intelligence.\\n\\nNarklin Ophans cannot stand to watch others suffer, so they used to be a common sight near hospitals, where they lent their help for free to heal wounds and cure diseases. However, humans began to hunt them to take advantage of their powers and even make a profit, which ended up creating distrust in them.",
+    "menagerieDialog":  [
+                            "(It appears to be deep in its own thoughts.)",
+                            "(You\u0027re amazed at how much aggressive emotion a single eye can convey. It\u0027s time to take this creature out for a few battles.)",
+                            "(It\u0027s staring directly at you. You can\u0027t but feel judged.)",
+                            "(You can\u0027t help but find this creature\u0027s tiny little mouth endearing, even if it\u0027s mostly hidden by an enormous, bloodshot eyeball.)",
+                            "(It closes its eye in an obvious attempt to make you think it\u0027s sleeping. You decide to leave it alone for now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Narklin Ophan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NarklinOphan/overworld_e0.png",
+                                         "images/creature/NarklinOphan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NarklinOphan/overworld_n0.png",
+                                          "images/creature/NarklinOphan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NarklinOphan/overworld_s0.png",
+                                          "images/creature/NarklinOphan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NarklinOphan/overworld_w0.png",
+                                         "images/creature/NarklinOphan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ophan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  8,
+                       "defense":  18,
+                       "health":  28,
+                       "intelligence":  23,
+                       "speed":  28
+                   },
+    "trait":  71,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

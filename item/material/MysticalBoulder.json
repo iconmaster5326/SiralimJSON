@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPilgrimage:\nWhen this creature {ACTION_casts} a spell, 50% of its Current {STAT_health} is added to its {STAT_intelligence} to determine the spell\u0027s potency.",
-  "icon": "images/item/material/MysticalBoulder.png",
-  "id": 822,
-  "name": "Mystical Boulder",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 849
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPilgrimage:\nWhen this creature {ACTION_casts} a spell, 50% of its Current {STAT_health} is added to its {STAT_intelligence} to determine the spell\u0027s potency.",
+    "icon":  "images/item/material/MysticalBoulder.png",
+    "id":  822,
+    "name":  "Mystical Boulder",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  849,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

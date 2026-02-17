@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/ShadowSkull/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 19,
-  "name": "Shadow Skull",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/ShadowSkull/overworld_e0.png",
-      "images/skin/ShadowSkull/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/ShadowSkull/overworld_n0.png",
-      "images/skin/ShadowSkull/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/ShadowSkull/overworld_s0.png",
-      "images/skin/ShadowSkull/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/ShadowSkull/overworld_w0.png",
-      "images/skin/ShadowSkull/overworld_w1.png"
-    ]
-  },
-  "race": "Shadow",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/ShadowSkull/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  19,
+    "name":  "Shadow Skull",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/ShadowSkull/overworld_e0.png",
+                                         "images/skin/ShadowSkull/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/ShadowSkull/overworld_n0.png",
+                                          "images/skin/ShadowSkull/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/ShadowSkull/overworld_s0.png",
+                                          "images/skin/ShadowSkull/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/ShadowSkull/overworld_w0.png",
+                                         "images/skin/ShadowSkull/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shadow",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

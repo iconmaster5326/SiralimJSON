@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/IraSin/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 398,
-  "item": 263,
-  "lore": "The Sin cult is relatively widespread in Rodia. Its members perform strange rituals that can summon these creatures by sacrificing others.\\n\\nWhen the Kings met before the Unification War, an Ira Sin manifested in the room in which they were assembled. Milner (who attended the meeting as the King of Neralim\u0027s bodyguard) and Sigmund destroyed it in seconds. However, that event marked the beginning of the Unification War.",
-  "menagerieDialog": [
-    "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
-    "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
-    "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
-    "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
-    "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
-  ],
-  "minDepth": 1,
-  "name": "Ira Sin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/IraSin/overworld_e0.png",
-      "images/creature/IraSin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/IraSin/overworld_n0.png",
-      "images/creature/IraSin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/IraSin/overworld_s0.png",
-      "images/creature/IraSin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/IraSin/overworld_w0.png",
-      "images/creature/IraSin/overworld_w1.png"
-    ]
-  },
-  "race": "Sin",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 173
+    "battleSprite":  "images/creature/IraSin/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  398,
+    "item":  263,
+    "lore":  "The Sin cult is relatively widespread in Rodia. Its members perform strange rituals that can summon these creatures by sacrificing others.\\n\\nWhen the Kings met before the Unification War, an Ira Sin manifested in the room in which they were assembled. Milner (who attended the meeting as the King of Neralim\u0027s bodyguard) and Sigmund destroyed it in seconds. However, that event marked the beginning of the Unification War.",
+    "menagerieDialog":  [
+                            "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
+                            "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
+                            "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
+                            "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
+                            "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ira Sin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/IraSin/overworld_e0.png",
+                                         "images/creature/IraSin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/IraSin/overworld_n0.png",
+                                          "images/creature/IraSin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/IraSin/overworld_s0.png",
+                                          "images/creature/IraSin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/IraSin/overworld_w0.png",
+                                         "images/creature/IraSin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sin",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  173,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

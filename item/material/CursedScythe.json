@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Corruption:\nAfter this creature {ACTION_attacks} a creature with less than 35% {STAT_health}, it is killed, then this creature afflicts enemies with a random debuff for each buff the target had before it died.",
-  "icon": "images/item/material/CursedScythe.png",
-  "id": 250,
-  "name": "Cursed Scythe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 160
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Corruption:\nAfter this creature {ACTION_attacks} a creature with less than 35% {STAT_health}, it is killed, then this creature afflicts enemies with a random debuff for each buff the target had before it died.",
+    "icon":  "images/item/material/CursedScythe.png",
+    "id":  250,
+    "name":  "Cursed Scythe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  160,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

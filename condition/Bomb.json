@@ -1,11 +1,14 @@
 {
-  "description": "At the start of a creature\u0027s turn, its {CONDNAME_DEBUFF_BOMB} detonates, dealing damage to the creature equal to 80% of the afflictor\u0027s {STAT_speed}. Then, this debuff is removed.",
-  "icon": "images/condition/Bomb.png",
-  "iconResisted": null,
-  "id": 30,
-  "material": null,
-  "name": "Bomb",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "At the start of a creature\u0027s turn, its {CONDNAME_DEBUFF_BOMB} detonates, dealing damage to the creature equal to 80% of the afflictor\u0027s {STAT_speed}. Then, this debuff is removed.",
+    "icon":  "images/condition/Bomb.png",
+    "iconResisted":  null,
+    "id":  30,
+    "material":  null,
+    "name":  "Bomb",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

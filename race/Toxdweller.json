@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(The lonely Toxdweller starts screaming and throwing rocks at you. The commotion attracts more creatures, and a brawl breaks out!)",
-    "I found this treasure first! Get your own, you greedy pig!",
-    "Wha- where did YOU come from?! Get out of my hideout! I\u0027ll kill you if I have to!"
-  ],
-  "cardBonuses": {
-    "2": "Enemies take 25% more damage from their {CONDNAME_DEBUFF_BOMB} debuffs.",
-    "4": "Increases the amount of {STAT_speed} added to the {CONDNAME_DEBUFF_BOMB} debuffs your creatures apply by 25%.",
-    "6": "Enemies take 25% more damage from their {CONDNAME_DEBUFF_BOMB} debuffs."
-  },
-  "cards": 6,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    922,
-    923,
-    924,
-    925,
-    926,
-    927
-  ],
-  "icon": "images/race/Toxdweller.png",
-  "master": {
-    "costume": 400,
-    "dialog": "Toxdwellers really, really, REALLY enjoy bombs. And that\u0027s just fine with me, since bombs are great for winning battles. Let\u0027s fight - but I\u0027m warning you, you might want to step back a bit or risk losing a limb!",
-    "item": 1208,
-    "name": "Aener",
-    "trait": 1504
-  },
-  "name": "Toxdweller",
-  "notes": [],
-  "skins": [
-    20,
-    272,
-    282,
-    804,
-    816
-  ]
+    "bossDialog":  [
+                       "(The lonely Toxdweller starts screaming and throwing rocks at you. The commotion attracts more creatures, and a brawl breaks out!)",
+                       "I found this treasure first! Get your own, you greedy pig!",
+                       "Wha- where did YOU come from?! Get out of my hideout! I\u0027ll kill you if I have to!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies take 25% more damage from their {CONDNAME_DEBUFF_BOMB} debuffs.",
+                        "4":  "Increases the amount of {STAT_speed} added to the {CONDNAME_DEBUFF_BOMB} debuffs your creatures apply by 25%.",
+                        "6":  "Enemies take 25% more damage from their {CONDNAME_DEBUFF_BOMB} debuffs."
+                    },
+    "cards":  6,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      922,
+                      923,
+                      924,
+                      925,
+                      926,
+                      927
+                  ],
+    "icon":  "images/race/Toxdweller.png",
+    "master":  {
+                   "costume":  400,
+                   "dialog":  "Toxdwellers really, really, REALLY enjoy bombs. And that\u0027s just fine with me, since bombs are great for winning battles. Let\u0027s fight - but I\u0027m warning you, you might want to step back a bit or risk losing a limb!",
+                   "item":  1208,
+                   "name":  "Aener",
+                   "trait":  1504
+               },
+    "name":  "Toxdweller",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  20,
+                  272,
+                  282,
+                  804,
+                  816
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSadism:\nAt the start of this creature\u0027s turn, enemies take damage equal to 15% of their Current {STAT_health}.",
-  "icon": "images/item/material/KingSweat.png",
-  "id": 579,
-  "name": "King Sweat",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 493
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSadism:\nAt the start of this creature\u0027s turn, enemies take damage equal to 15% of their Current {STAT_health}.",
+    "icon":  "images/item/material/KingSweat.png",
+    "id":  579,
+    "name":  "King Sweat",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  493,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

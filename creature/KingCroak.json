@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/KingCroak/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1477,
-  "item": 1732,
-  "lore": "King Croaks are a species of giant frogs found in certain forests and swamps. They\u0027re much more intelligent than common frogs and interact with each other in ways similar to chimpanzees. Constant play-fighting is part of their daily life, and the group is led by the individual who commands the most respect\u00E2\u20AC\u201Dusually the strongest. Leader or not, it\u0027s not uncommon to find these creatures for sale on the black market, where it\u0027s recently become trendy to outfit them with crowns.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "King Croak",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/KingCroak/overworld_e0.png",
-      "images/creature/KingCroak/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/KingCroak/overworld_n0.png",
-      "images/creature/KingCroak/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/KingCroak/overworld_s0.png",
-      "images/creature/KingCroak/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/KingCroak/overworld_w0.png",
-      "images/creature/KingCroak/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 38,
-    "intelligence": 25,
-    "speed": 12
-  },
-  "trait": 2074
+    "battleSprite":  "images/creature/KingCroak/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1477,
+    "item":  1732,
+    "lore":  "King Croaks are a species of giant frogs found in certain forests and swamps. They\u0027re much more intelligent than common frogs and interact with each other in ways similar to chimpanzees. Constant play-fighting is part of their daily life, and the group is led by the individual who commands the most respect—usually the strongest. Leader or not, it\u0027s not uncommon to find these creatures for sale on the black market, where it\u0027s recently become trendy to outfit them with crowns.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "King Croak",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/KingCroak/overworld_e0.png",
+                                         "images/creature/KingCroak/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/KingCroak/overworld_n0.png",
+                                          "images/creature/KingCroak/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/KingCroak/overworld_s0.png",
+                                          "images/creature/KingCroak/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/KingCroak/overworld_w0.png",
+                                         "images/creature/KingCroak/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  38,
+                       "intelligence":  25,
+                       "speed":  12
+                   },
+    "trait":  2074,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "description": "When creatures with {CONDNAME_DEBUFF_CURSED} deal damage with attacks or spells, they take damage equal to 100% of their target\u0027s {STAT_attack}.",
-  "icon": "images/condition/Cursed.png",
-  "iconResisted": null,
-  "id": 20,
-  "material": 34,
-  "name": "Cursed",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "When creatures with {CONDNAME_DEBUFF_CURSED} deal damage with attacks or spells, they take damage equal to 100% of their target\u0027s {STAT_attack}.",
+    "icon":  "images/condition/Cursed.png",
+    "iconResisted":  null,
+    "id":  20,
+    "material":  34,
+    "name":  "Cursed",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

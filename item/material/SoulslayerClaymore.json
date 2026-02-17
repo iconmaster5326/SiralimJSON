@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul to Keep:\nThis creature\u0027s attacks deal 75% more damage. After this creature {ACTION_attacks}, it gains a copy of the target\u0027s trait.",
-  "icon": "images/item/material/SoulslayerClaymore.png",
-  "id": 102,
-  "name": "Soulslayer Claymore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 11
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul to Keep:\nThis creature\u0027s attacks deal 75% more damage. After this creature {ACTION_attacks}, it gains a copy of the target\u0027s trait.",
+    "icon":  "images/item/material/SoulslayerClaymore.png",
+    "id":  102,
+    "name":  "Soulslayer Claymore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  11,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

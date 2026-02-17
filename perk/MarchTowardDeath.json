@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures deal additional damage with attacks and spells equal to 50% of the {STAT_health} they\u0027re missing.",
-  "icon": "images/perk/MarchTowardDeath.png",
-  "id": 241,
-  "maxRanks": 1,
-  "name": "March Toward Death",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 16
+    "anointable":  true,
+    "description":  "Your creatures deal additional damage with attacks and spells equal to 50% of the {STAT_health} they\u0027re missing.",
+    "icon":  "images/perk/MarchTowardDeath.png",
+    "id":  241,
+    "maxRanks":  1,
+    "name":  "March Toward Death",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  16,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

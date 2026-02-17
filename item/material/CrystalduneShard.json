@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOscillation:\nYour creatures\u0027 Spell Gems are 70% more potent when they have an odd number of {STAT_charges}, and are 70% less potent when they have an even number of {STAT_charges}. This trait does not stack.",
-  "icon": "images/item/material/CrystalduneShard.png",
-  "id": 939,
-  "name": "Crystaldune Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1199
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOscillation:\nYour creatures\u0027 Spell Gems are 70% more potent when they have an odd number of {STAT_charges}, and are 70% less potent when they have an even number of {STAT_charges}. This trait does not stack.",
+    "icon":  "images/item/material/CrystalduneShard.png",
+    "id":  939,
+    "name":  "Crystaldune Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1199,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

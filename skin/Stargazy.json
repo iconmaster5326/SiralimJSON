@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Stargazy/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 147,
-  "name": "Stargazy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Stargazy/overworld_e0.png",
-      "images/skin/Stargazy/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Stargazy/overworld_n0.png",
-      "images/skin/Stargazy/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Stargazy/overworld_s0.png",
-      "images/skin/Stargazy/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Stargazy/overworld_w0.png",
-      "images/skin/Stargazy/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Stargazy/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  147,
+    "name":  "Stargazy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Stargazy/overworld_e0.png",
+                                         "images/skin/Stargazy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Stargazy/overworld_n0.png",
+                                          "images/skin/Stargazy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Stargazy/overworld_s0.png",
+                                          "images/skin/Stargazy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Stargazy/overworld_w0.png",
+                                         "images/skin/Stargazy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

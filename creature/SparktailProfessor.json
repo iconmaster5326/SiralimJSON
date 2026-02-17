@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SparktailProfessor/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 833,
-  "item": 1033,
-  "lore": "When a Sparktail reaches maturity, they gain the ability to breathe out of water. That is why many of these creatures have decided to leave Blue Emerald and integrate into other societies.\\n\\nSparktail Professors are the cornerstone of their community. Even though they can teach anywhere, their most vital task is to oversee the learning of the children of their kind, as once they take the Step, there is no turning back. Even when out of the water, the Professors\u0027 tails allow them to move small objects without touching them.",
-  "menagerieDialog": [
-    "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
-    "Let me guess: you\u0027re here to make yet another \u0022fish out of water\u0022 joke, aren\u0027t you? I\u0027ve heard them all before.",
-    "(This creature moves surprisingly fast, even on land.)",
-    "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
-    "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
-  ],
-  "minDepth": 1,
-  "name": "Sparktail Professor",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SparktailProfessor/overworld_e0.png",
-      "images/creature/SparktailProfessor/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SparktailProfessor/overworld_n0.png",
-      "images/creature/SparktailProfessor/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SparktailProfessor/overworld_s0.png",
-      "images/creature/SparktailProfessor/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SparktailProfessor/overworld_w0.png",
-      "images/creature/SparktailProfessor/overworld_w1.png"
-    ]
-  },
-  "race": "Sparktail",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 40,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 1101
+    "battleSprite":  "images/creature/SparktailProfessor/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  833,
+    "item":  1033,
+    "lore":  "When a Sparktail reaches maturity, they gain the ability to breathe out of water. That is why many of these creatures have decided to leave Blue Emerald and integrate into other societies.\\n\\nSparktail Professors are the cornerstone of their community. Even though they can teach anywhere, their most vital task is to oversee the learning of the children of their kind, as once they take the Step, there is no turning back. Even when out of the water, the Professors\u0027 tails allow them to move small objects without touching them.",
+    "menagerieDialog":  [
+                            "I don\u0027t feel like fighting anymore. Mind switching me out for a different creature? I need my rest.",
+                            "Let me guess: you\u0027re here to make yet another \"fish out of water\" joke, aren\u0027t you? I\u0027ve heard them all before.",
+                            "(This creature moves surprisingly fast, even on land.)",
+                            "What\u0027s wrong, {PLAYERNAME}? You look like a fish out of water. Baaaaaaah hahaha...\\n\\nNo? Okay.",
+                            "You should build a strong team of creatures that don\u0027t rely too much on offense or defense. Balance is key."
+                        ],
+    "minDepth":  1,
+    "name":  "Sparktail Professor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SparktailProfessor/overworld_e0.png",
+                                         "images/creature/SparktailProfessor/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SparktailProfessor/overworld_n0.png",
+                                          "images/creature/SparktailProfessor/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SparktailProfessor/overworld_s0.png",
+                                          "images/creature/SparktailProfessor/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SparktailProfessor/overworld_w0.png",
+                                         "images/creature/SparktailProfessor/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sparktail",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  40,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  1101,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

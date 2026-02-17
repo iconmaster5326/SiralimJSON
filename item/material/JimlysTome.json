@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNecromancy:\nAfter a creature dies, your creatures gain 1 to 3 stacks of {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
-  "icon": "images/item/material/JimlysTome.png",
-  "id": 1382,
-  "name": "Jimly\u0027s Tome",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1689
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNecromancy:\nAfter a creature dies, your creatures gain 1 to 3 stacks of {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
+    "icon":  "images/item/material/JimlysTome.png",
+    "id":  1382,
+    "name":  "Jimly\u0027s Tome",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1689,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

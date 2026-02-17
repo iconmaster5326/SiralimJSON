@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCleansed Blood:\nYour creatures with {CONDNAME_BUFF_LEECH} deal 30% more damage and no longer take damage from {CONDNAME_DEBUFF_BLIGHT}. This trait does not stack.",
-  "icon": "images/item/material/DiggerCyst.png",
-  "id": 1011,
-  "name": "Digger Cyst",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1126
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCleansed Blood:\nYour creatures with {CONDNAME_BUFF_LEECH} deal 30% more damage and no longer take damage from {CONDNAME_DEBUFF_BLIGHT}. This trait does not stack.",
+    "icon":  "images/item/material/DiggerCyst.png",
+    "id":  1011,
+    "name":  "Digger Cyst",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1126,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

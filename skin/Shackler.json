@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Shackler/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 51,
-  "name": "Shackler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Shackler/overworld_e0.png",
-      "images/skin/Shackler/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Shackler/overworld_n0.png",
-      "images/skin/Shackler/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Shackler/overworld_s0.png",
-      "images/skin/Shackler/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Shackler/overworld_w0.png",
-      "images/skin/Shackler/overworld_w1.png"
-    ]
-  },
-  "race": "Shade",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Shackler/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  51,
+    "name":  "Shackler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Shackler/overworld_e0.png",
+                                         "images/skin/Shackler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Shackler/overworld_n0.png",
+                                          "images/skin/Shackler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Shackler/overworld_s0.png",
+                                          "images/skin/Shackler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Shackler/overworld_w0.png",
+                                         "images/skin/Shackler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shade",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/DarkeyeGargoyle/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 235,
-  "item": 313,
-  "lore": "During the Unification War, the army of Egas invaded the city of Undolim, but Helmholtz and Milner were waiting for it. Together with Marette and the other Magi of the capital, they gave life to these creatures and set a trap for him.\\n\\nWhen a Darkeye Gargoyle fights for the cause that governs its movements, magic manifests spontaneously around it. If it exceeds its limits, it remains paralyzed for some hours.",
-  "menagerieDialog": [
-    "Is everything alright, my liege?",
-    "You drool in your sleep.",
-    "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
-    "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
-    "(This creature could easily be mistaken for a statue.)"
-  ],
-  "minDepth": 1,
-  "name": "Darkeye Gargoyle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DarkeyeGargoyle/overworld_e0.png",
-      "images/creature/DarkeyeGargoyle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DarkeyeGargoyle/overworld_n0.png",
-      "images/creature/DarkeyeGargoyle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DarkeyeGargoyle/overworld_s0.png",
-      "images/creature/DarkeyeGargoyle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DarkeyeGargoyle/overworld_w0.png",
-      "images/creature/DarkeyeGargoyle/overworld_w1.png"
-    ]
-  },
-  "race": "Gargoyle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 22,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 23,
-    "health": 30,
-    "intelligence": 23,
-    "speed": 18
-  },
-  "trait": 229
+    "battleSprite":  "images/creature/DarkeyeGargoyle/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  235,
+    "item":  313,
+    "lore":  "During the Unification War, the army of Egas invaded the city of Undolim, but Helmholtz and Milner were waiting for it. Together with Marette and the other Magi of the capital, they gave life to these creatures and set a trap for him.\\n\\nWhen a Darkeye Gargoyle fights for the cause that governs its movements, magic manifests spontaneously around it. If it exceeds its limits, it remains paralyzed for some hours.",
+    "menagerieDialog":  [
+                            "Is everything alright, my liege?",
+                            "You drool in your sleep.",
+                            "It is imperative that we always have a backup plan in case our original strategy doesn\u0027t work out.",
+                            "(It\u0027s not moving at all. Not one bit, in fact. It\u0027s still as stone.)",
+                            "(This creature could easily be mistaken for a statue.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Darkeye Gargoyle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DarkeyeGargoyle/overworld_e0.png",
+                                         "images/creature/DarkeyeGargoyle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DarkeyeGargoyle/overworld_n0.png",
+                                          "images/creature/DarkeyeGargoyle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DarkeyeGargoyle/overworld_s0.png",
+                                          "images/creature/DarkeyeGargoyle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DarkeyeGargoyle/overworld_w0.png",
+                                         "images/creature/DarkeyeGargoyle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargoyle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  23,
+                       "health":  30,
+                       "intelligence":  23,
+                       "speed":  18
+                   },
+    "trait":  229,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

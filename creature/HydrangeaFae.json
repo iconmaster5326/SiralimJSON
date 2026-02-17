@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HydrangeaFae/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1215,
-  "item": 1670,
-  "lore": "The magic that protects Yataka prevents it from taking any damage from blows, cuts, or spells. Indeed, not even a God could harm it. However, a study conducted recently at the Magic University of Vanelin established that a force powerful enough could destroy it. The Hydrangea Fae\u0027s wings glow in the dark, so they have a much harder time making a surprise attack at night. For this reason, they tend to hide in the leafy treetops, plummeting from the heights on their enemies.",
-  "menagerieDialog": [
-    "(The Fae are singing in unison, much to the dismay of your other creatures.)",
-    "(The Fae are currently engaged in a rousing game of tag. You can\u0027t really tell who\u0027s winning, of course, since they all look alike.)",
-    "(Each Fae is making a rude gesture at you. One is sticking her tongue out, while another is proudly showing off her middle finger. Are they unaware that you could squash them like bugs?)",
-    "(Upon your approach, one of the Fae pulls another\u0027s wings off. Luckily, these creatures seem to reproduce quickly enough that they\u0027re expendable.)",
-    "(They\u0027re all making obnoxious giggling sounds. You soon realize they\u0027re mocking you.)"
-  ],
-  "minDepth": 1,
-  "name": "Hydrangea Fae",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HydrangeaFae/overworld_e0.png",
-      "images/creature/HydrangeaFae/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HydrangeaFae/overworld_n0.png",
-      "images/creature/HydrangeaFae/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HydrangeaFae/overworld_s0.png",
-      "images/creature/HydrangeaFae/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HydrangeaFae/overworld_w0.png",
-      "images/creature/HydrangeaFae/overworld_w1.png"
-    ]
-  },
-  "race": "Fae",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 9,
-    "health": 25,
-    "intelligence": 24,
-    "speed": 19
-  },
-  "trait": 1995
+    "battleSprite":  "images/creature/HydrangeaFae/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1215,
+    "item":  1670,
+    "lore":  "The magic that protects Yataka prevents it from taking any damage from blows, cuts, or spells. Indeed, not even a God could harm it. However, a study conducted recently at the Magic University of Vanelin established that a force powerful enough could destroy it. The Hydrangea Fae\u0027s wings glow in the dark, so they have a much harder time making a surprise attack at night. For this reason, they tend to hide in the leafy treetops, plummeting from the heights on their enemies.",
+    "menagerieDialog":  [
+                            "(The Fae are singing in unison, much to the dismay of your other creatures.)",
+                            "(The Fae are currently engaged in a rousing game of tag. You can\u0027t really tell who\u0027s winning, of course, since they all look alike.)",
+                            "(Each Fae is making a rude gesture at you. One is sticking her tongue out, while another is proudly showing off her middle finger. Are they unaware that you could squash them like bugs?)",
+                            "(Upon your approach, one of the Fae pulls another\u0027s wings off. Luckily, these creatures seem to reproduce quickly enough that they\u0027re expendable.)",
+                            "(They\u0027re all making obnoxious giggling sounds. You soon realize they\u0027re mocking you.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Hydrangea Fae",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HydrangeaFae/overworld_e0.png",
+                                         "images/creature/HydrangeaFae/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HydrangeaFae/overworld_n0.png",
+                                          "images/creature/HydrangeaFae/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HydrangeaFae/overworld_s0.png",
+                                          "images/creature/HydrangeaFae/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HydrangeaFae/overworld_w0.png",
+                                         "images/creature/HydrangeaFae/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Fae",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  9,
+                       "health":  25,
+                       "intelligence":  24,
+                       "speed":  19
+                   },
+    "trait":  1995,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

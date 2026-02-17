@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures take 5% less damage for each time their Relic has {ACTION_attacked} or {ACTION_cast}.",
-  "icon": "images/perk/FossilizedShield.png",
-  "id": 653,
-  "maxRanks": 1,
-  "name": "Fossilized Shield",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 43
+    "anointable":  true,
+    "description":  "Your creatures take 5% less damage for each time their Relic has {ACTION_attacked} or {ACTION_cast}.",
+    "icon":  "images/perk/FossilizedShield.png",
+    "id":  653,
+    "maxRanks":  1,
+    "name":  "Fossilized Shield",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  43,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

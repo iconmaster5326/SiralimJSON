@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRapid Digestion:\nAfter this creature kills a creature, it gains 5 random buffs.",
-  "icon": "images/item/material/DevourerExoskeleton.png",
-  "id": 796,
-  "name": "Devourer Exoskeleton",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 823
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRapid Digestion:\nAfter this creature kills a creature, it gains 5 random buffs.",
+    "icon":  "images/item/material/DevourerExoskeleton.png",
+    "id":  796,
+    "name":  "Devourer Exoskeleton",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  823,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

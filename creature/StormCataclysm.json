@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/StormCataclysm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1375,
-  "item": 1750,
-  "lore": "Cataclysms are a hot commodity in the black market, which is why authorities in Siralim and other nations created a device that detects them within a 100-meter range.\\n\\nThe Storm Cataclysm makes a deafening roar before appearing. Inside it, lightning and thunder rage, and it can kill a large animal within seconds of contact.",
-  "menagerieDialog": [
-    "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
-    "I am the storm that ends worlds. Point me at our foes!",
-    "The secrets of the universe flow through me. What would you like to know?",
-    "The elements themselves bend to my will. No force can harm me!",
-    "(It\u0027s swirling violently, barely contained within its form.)"
-  ],
-  "minDepth": 1,
-  "name": "Storm Cataclysm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StormCataclysm/overworld_e0.png",
-      "images/creature/StormCataclysm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StormCataclysm/overworld_n0.png",
-      "images/creature/StormCataclysm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StormCataclysm/overworld_s0.png",
-      "images/creature/StormCataclysm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StormCataclysm/overworld_w0.png",
-      "images/creature/StormCataclysm/overworld_w1.png"
-    ]
-  },
-  "race": "Cataclysm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 25
-  },
-  "trait": 2103
+    "battleSprite":  "images/creature/StormCataclysm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1375,
+    "item":  1750,
+    "lore":  "Cataclysms are a hot commodity in the black market, which is why authorities in Siralim and other nations created a device that detects them within a 100-meter range.\\n\\nThe Storm Cataclysm makes a deafening roar before appearing. Inside it, lightning and thunder rage, and it can kill a large animal within seconds of contact.",
+    "menagerieDialog":  [
+                            "(It\u0027s calm for once, gently pulsing with ethereal energy.)",
+                            "I am the storm that ends worlds. Point me at our foes!",
+                            "The secrets of the universe flow through me. What would you like to know?",
+                            "The elements themselves bend to my will. No force can harm me!",
+                            "(It\u0027s swirling violently, barely contained within its form.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Storm Cataclysm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StormCataclysm/overworld_e0.png",
+                                         "images/creature/StormCataclysm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StormCataclysm/overworld_n0.png",
+                                          "images/creature/StormCataclysm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StormCataclysm/overworld_s0.png",
+                                          "images/creature/StormCataclysm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StormCataclysm/overworld_w0.png",
+                                         "images/creature/StormCataclysm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cataclysm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  25
+                   },
+    "trait":  2103,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

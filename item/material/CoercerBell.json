@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nForbidden Lullaby:\nAfter this creature is {ACTION_attacked}, the enemy is afflicted with {CONDNAME_DEBUFF_SLEEP}.",
-  "icon": "images/item/material/CoercerBell.png",
-  "id": 130,
-  "name": "Coercer Bell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 39
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nForbidden Lullaby:\nAfter this creature is {ACTION_attacked}, the enemy is afflicted with {CONDNAME_DEBUFF_SLEEP}.",
+    "icon":  "images/item/material/CoercerBell.png",
+    "id":  130,
+    "name":  "Coercer Bell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  39,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

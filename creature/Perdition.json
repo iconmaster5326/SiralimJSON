@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Perdition/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": 18,
-  "id": 954,
-  "item": null,
-  "lore": "Vyre was the most skilled blademaster in Ankor, the country closest to Rodia. His older sister, Sevalah, taught him the secrets of magic, and together they protected the country from the hordes of the Great Pandemonium, who wanted to destroy the church of Surathli that was so widespread in those lands. Vyre had a calm demeanor and enjoyed meditating, unlike his sister, who spent all her free time reading or investigating the mysteries of magic and the universe itself. When the Auditors contacted them, Vyre flatly refused to belong to such an organization, but after a long night talking to his sister, he accepted the offer on the condition that they helped them destroy the enemies of Ankor. The Auditors replied that the war would be long, and its outcome uncertain, were it not for the fact that the organization had already begun to intervene a long time ago. After joining them, Vyre was given the codename Dawn, and his sister Sevalah was Gloom. Their first mission along with the other four members of their group consisted, precisely, in thwarting the Great Pandemonium\u0027s plans for these lands. Twelve years later, Vyre became Perdition and created the Sanctum Umbra.",
-  "menagerieDialog": [
-    "You rule the most prosperous kingdom in the world. Will you use your place of power for good or evil?",
-    "My one and only foot is ripping and raring to kick some ass. Let\u0027s go!",
-    "(He\u0027s bouncing up and down on his foot, knowing full well that it\u0027s causing your creatures a great deal of discomfort.)",
-    "You never seem to give us any alone time. I\u0027d really like to take a day to myself and relax a bit.",
-    "I would prefer to have my own quarters rather than to be reduced to just another creature in your menagerie."
-  ],
-  "minDepth": 1,
-  "name": "Perdition",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Perdition/overworld_e0.png",
-      "images/creature/Perdition/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Perdition/overworld_n0.png",
-      "images/creature/Perdition/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Perdition/overworld_s0.png",
-      "images/creature/Perdition/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Perdition/overworld_w0.png",
-      "images/creature/Perdition/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    362,
-    407,
-    432
-  ],
-  "sources": [
-    {
-      "god": 18,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 17,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1241
+    "battleSprite":  "images/creature/Perdition/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  18,
+    "id":  954,
+    "item":  null,
+    "lore":  "Vyre was the most skilled blademaster in Ankor, the country closest to Rodia. His older sister, Sevalah, taught him the secrets of magic, and together they protected the country from the hordes of the Great Pandemonium, who wanted to destroy the church of Surathli that was so widespread in those lands. Vyre had a calm demeanor and enjoyed meditating, unlike his sister, who spent all her free time reading or investigating the mysteries of magic and the universe itself. When the Auditors contacted them, Vyre flatly refused to belong to such an organization, but after a long night talking to his sister, he accepted the offer on the condition that they helped them destroy the enemies of Ankor. The Auditors replied that the war would be long, and its outcome uncertain, were it not for the fact that the organization had already begun to intervene a long time ago. After joining them, Vyre was given the codename Dawn, and his sister Sevalah was Gloom. Their first mission along with the other four members of their group consisted, precisely, in thwarting the Great Pandemonium\u0027s plans for these lands. Twelve years later, Vyre became Perdition and created the Sanctum Umbra.",
+    "menagerieDialog":  [
+                            "You rule the most prosperous kingdom in the world. Will you use your place of power for good or evil?",
+                            "My one and only foot is ripping and raring to kick some ass. Let\u0027s go!",
+                            "(He\u0027s bouncing up and down on his foot, knowing full well that it\u0027s causing your creatures a great deal of discomfort.)",
+                            "You never seem to give us any alone time. I\u0027d really like to take a day to myself and relax a bit.",
+                            "I would prefer to have my own quarters rather than to be reduced to just another creature in your menagerie."
+                        ],
+    "minDepth":  1,
+    "name":  "Perdition",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Perdition/overworld_e0.png",
+                                         "images/creature/Perdition/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Perdition/overworld_n0.png",
+                                          "images/creature/Perdition/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Perdition/overworld_s0.png",
+                                          "images/creature/Perdition/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Perdition/overworld_w0.png",
+                                         "images/creature/Perdition/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  362,
+                  407,
+                  432
+              ],
+    "sources":  [
+                    {
+                        "god":  18,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  17,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1241,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

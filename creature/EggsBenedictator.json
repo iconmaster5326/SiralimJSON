@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EggsBenedictator/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1294,
-  "item": 1796,
-  "lore": "No egg can escape the will of an Eggs Benedictator. Dressed in the finest colors and with an air of dignified simplicity, they lead their troops with a firm hand\u00E2\u20AC\u00A6 or hard shell, into battle. Minimizing casualties is their goal\u00E2\u20AC\u201Dif it\u0027s possible. Though it\u0027s a little tricky when your entire army is covered in shells that could break just by bumping into the kitchen counter.",
-  "menagerieDialog": [
-    "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
-    "We may look fragile, but we\u0027ll crack some skulls!",
-    "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
-    "Our shells are tougher than they look. Bring it on!",
-    "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
-  ],
-  "minDepth": 1,
-  "name": "Eggs Benedictator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EggsBenedictator/overworld_e0.png",
-      "images/creature/EggsBenedictator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EggsBenedictator/overworld_n0.png",
-      "images/creature/EggsBenedictator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EggsBenedictator/overworld_s0.png",
-      "images/creature/EggsBenedictator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EggsBenedictator/overworld_w0.png",
-      "images/creature/EggsBenedictator/overworld_w1.png"
-    ]
-  },
-  "race": "Eggxotic",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 20,
-    "speed": 18
-  },
-  "trait": 2149
+    "battleSprite":  "images/creature/EggsBenedictator/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1294,
+    "item":  1796,
+    "lore":  "No egg can escape the will of an Eggs Benedictator. Dressed in the finest colors and with an air of dignified simplicity, they lead their troops with a firm hand… or hard shell, into battle. Minimizing casualties is their goal—if it\u0027s possible. Though it\u0027s a little tricky when your entire army is covered in shells that could break just by bumping into the kitchen counter.",
+    "menagerieDialog":  [
+                            "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
+                            "We may look fragile, but we\u0027ll crack some skulls!",
+                            "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
+                            "Our shells are tougher than they look. Bring it on!",
+                            "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Eggs Benedictator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EggsBenedictator/overworld_e0.png",
+                                         "images/creature/EggsBenedictator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EggsBenedictator/overworld_n0.png",
+                                          "images/creature/EggsBenedictator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EggsBenedictator/overworld_s0.png",
+                                          "images/creature/EggsBenedictator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EggsBenedictator/overworld_w0.png",
+                                         "images/creature/EggsBenedictator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Eggxotic",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  20,
+                       "speed":  18
+                   },
+    "trait":  2149,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

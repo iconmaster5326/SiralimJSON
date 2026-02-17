@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ChandraCherub/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1169,
-  "item": 1549,
-  "lore": "Cherubs are known on extremely rare occasions when exposed to specific stimuli to initiate a rapid transformation, suddenly accumulating tremendous amounts of energy before vanishing in a burst of intense light. To this date, this has only been known to happen twice \u00E2\u20AC\u201D once with a freezing cherub hewn of ice, and with another sickly cherub perpetually enveloped in salty water.\\n\\nThe most volatile and mercurial of their kind, Chandra Cherubs often seem to exist in synchronicity with unseen cycles and forces. Their energies change, surging and waning, sometimes quite suddenly. While research into Cherubs is already considered notoriously difficult, the Chandra Cherub\u0027s ceaseless defiance of any known form of reason or reality is of infamous befuddlement to Magi.",
-  "menagerieDialog": [
-    "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
-    "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
-    "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
-    "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
-    "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
-  ],
-  "minDepth": 1,
-  "name": "Chandra Cherub",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ChandraCherub/overworld_e0.png",
-      "images/creature/ChandraCherub/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ChandraCherub/overworld_n0.png",
-      "images/creature/ChandraCherub/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ChandraCherub/overworld_s0.png",
-      "images/creature/ChandraCherub/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ChandraCherub/overworld_w0.png",
-      "images/creature/ChandraCherub/overworld_w1.png"
-    ]
-  },
-  "race": "Cherub",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 13,
-    "health": 40,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 1892
+    "battleSprite":  "images/creature/ChandraCherub/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1169,
+    "item":  1549,
+    "lore":  "Cherubs are known on extremely rare occasions when exposed to specific stimuli to initiate a rapid transformation, suddenly accumulating tremendous amounts of energy before vanishing in a burst of intense light. To this date, this has only been known to happen twice — once with a freezing cherub hewn of ice, and with another sickly cherub perpetually enveloped in salty water.\\n\\nThe most volatile and mercurial of their kind, Chandra Cherubs often seem to exist in synchronicity with unseen cycles and forces. Their energies change, surging and waning, sometimes quite suddenly. While research into Cherubs is already considered notoriously difficult, the Chandra Cherub\u0027s ceaseless defiance of any known form of reason or reality is of infamous befuddlement to Magi.",
+    "menagerieDialog":  [
+                            "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
+                            "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
+                            "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
+                            "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
+                            "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Chandra Cherub",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ChandraCherub/overworld_e0.png",
+                                         "images/creature/ChandraCherub/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ChandraCherub/overworld_n0.png",
+                                          "images/creature/ChandraCherub/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ChandraCherub/overworld_s0.png",
+                                          "images/creature/ChandraCherub/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ChandraCherub/overworld_w0.png",
+                                         "images/creature/ChandraCherub/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cherub",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  13,
+                       "health":  40,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  1892,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

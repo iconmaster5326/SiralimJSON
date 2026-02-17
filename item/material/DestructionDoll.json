@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEmpowered Fireball:\nAt the start of battle, this creature gains [icons,1968]Fireball. When this creature {ACTION_casts} this spell, it has a 90% chance to {ACTION_cast} it 1 additional time. This effect can occur repeatedly.",
-  "icon": "images/item/material/DestructionDoll.png",
-  "id": 219,
-  "name": "Destruction Doll",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 128
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEmpowered Fireball:\nAt the start of battle, this creature gains [icons,1968]Fireball. When this creature {ACTION_casts} this spell, it has a 90% chance to {ACTION_cast} it 1 additional time. This effect can occur repeatedly.",
+    "icon":  "images/item/material/DestructionDoll.png",
+    "id":  219,
+    "name":  "Destruction Doll",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  128,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

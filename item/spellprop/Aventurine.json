@@ -1,15 +1,18 @@
 {
-  "description": "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nSingular: the spell\u0027s potency is increased by 30% for each empty Spell Gem slot the creature has.",
-  "icon": "images/item/spellprop/Aventurine.png",
-  "id": 2,
-  "name": "Aventurine",
-  "notes": [],
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "spellProperties": [
-    20
-  ]
+    "description":  "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nSingular: the spell\u0027s potency is increased by 30% for each empty Spell Gem slot the creature has.",
+    "icon":  "images/item/spellprop/Aventurine.png",
+    "id":  2,
+    "name":  "Aventurine",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "spellProperties":  [
+                            20
+                        ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spellPropertyItem.yaml"
 }

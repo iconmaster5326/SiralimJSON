@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/MrsClaus/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 377,
-  "name": "Mrs. Claus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/MrsClaus/overworld_e0.png",
-      "images/skin/MrsClaus/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/MrsClaus/overworld_n0.png",
-      "images/skin/MrsClaus/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/MrsClaus/overworld_s0.png",
-      "images/skin/MrsClaus/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/MrsClaus/overworld_w0.png",
-      "images/skin/MrsClaus/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/MrsClaus/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  377,
+    "name":  "Mrs. Claus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/MrsClaus/overworld_e0.png",
+                                         "images/skin/MrsClaus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/MrsClaus/overworld_n0.png",
+                                          "images/skin/MrsClaus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/MrsClaus/overworld_s0.png",
+                                          "images/skin/MrsClaus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/MrsClaus/overworld_w0.png",
+                                         "images/skin/MrsClaus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

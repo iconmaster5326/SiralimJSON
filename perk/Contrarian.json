@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When an enemy with {CONDNAME_DEBUFF_INVERTED} gains a buff, they have a 50% chance to gain a random debuff instead.",
-  "icon": "images/perk/Contrarian.png",
-  "id": 391,
-  "maxRanks": 1,
-  "name": "Contrarian",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 26
+    "anointable":  true,
+    "description":  "When an enemy with {CONDNAME_DEBUFF_INVERTED} gains a buff, they have a 50% chance to gain a random debuff instead.",
+    "icon":  "images/perk/Contrarian.png",
+    "id":  391,
+    "maxRanks":  1,
+    "name":  "Contrarian",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  26,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

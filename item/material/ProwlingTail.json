@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCovert:\nYour creatures\u0027 {TIMELINE} placement at the start of battle is determined by their {STAT_attack} rather than their {STAT_speed}.",
-  "icon": "images/item/material/ProwlingTail.png",
-  "id": 836,
-  "name": "Prowling Tail",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 863
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCovert:\nYour creatures\u0027 {TIMELINE} placement at the start of battle is determined by their {STAT_attack} rather than their {STAT_speed}.",
+    "icon":  "images/item/material/ProwlingTail.png",
+    "id":  836,
+    "name":  "Prowling Tail",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  863,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

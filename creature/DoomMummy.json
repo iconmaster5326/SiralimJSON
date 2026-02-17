@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DoomMummy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 50,
-  "item": 243,
-  "lore": "The sovereigns of Kaito were mummified after death and placed inside large pyramids with strange spherical objects, whose power was still unknown to humans at that time.\\n\\nThe Doom Mummy\u0027s appearance was terrifying for the people of Kaito. As if it were a nightmare, this creature burst into the houses and showed the rotten flesh beneath its bandages. The more frightened its victims were, the more powerful its blows became.",
-  "menagerieDialog": [
-    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
-    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
-    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
-    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
-    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
-  ],
-  "minDepth": 1,
-  "name": "Doom Mummy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DoomMummy/overworld_e0.png",
-      "images/creature/DoomMummy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DoomMummy/overworld_n0.png",
-      "images/creature/DoomMummy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DoomMummy/overworld_s0.png",
-      "images/creature/DoomMummy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DoomMummy/overworld_w0.png",
-      "images/creature/DoomMummy/overworld_w1.png"
-    ]
-  },
-  "race": "Mummy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 17,
-    "health": 40,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 153
+    "battleSprite":  "images/creature/DoomMummy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  50,
+    "item":  243,
+    "lore":  "The sovereigns of Kaito were mummified after death and placed inside large pyramids with strange spherical objects, whose power was still unknown to humans at that time.\\n\\nThe Doom Mummy\u0027s appearance was terrifying for the people of Kaito. As if it were a nightmare, this creature burst into the houses and showed the rotten flesh beneath its bandages. The more frightened its victims were, the more powerful its blows became.",
+    "menagerieDialog":  [
+                            "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+                            "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+                            "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+                            "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+                            "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Doom Mummy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DoomMummy/overworld_e0.png",
+                                         "images/creature/DoomMummy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DoomMummy/overworld_n0.png",
+                                          "images/creature/DoomMummy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DoomMummy/overworld_s0.png",
+                                          "images/creature/DoomMummy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DoomMummy/overworld_w0.png",
+                                         "images/creature/DoomMummy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mummy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  17,
+                       "health":  40,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  153,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

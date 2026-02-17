@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SkeletonMarksman/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 320,
-  "item": 226,
-  "lore": "Able to take on large groups on its own, the Skeleton Marksman walks in a slow and cocky way towards its opponents, shooting ruthlessly in all directions. When that is not enough to make them flee in disarray, it will skillfully slip among any enemies that manage to approach, causing serious injuries with well-aimed shots of its firearms. If there are survivors, it will tie them to a horse and drag them down the road until they die.",
-  "menagerieDialog": [
-    "I\u0027m glad we stopped to rest. I need to clean my guns.",
-    "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
-    "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
-    "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
-    "(It\u0027s shouting \u0022YEE-HAW\u0022 while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
-  ],
-  "minDepth": 1,
-  "name": "Skeleton Marksman",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SkeletonMarksman/overworld_e0.png",
-      "images/creature/SkeletonMarksman/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SkeletonMarksman/overworld_n0.png",
-      "images/creature/SkeletonMarksman/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SkeletonMarksman/overworld_s0.png",
-      "images/creature/SkeletonMarksman/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SkeletonMarksman/overworld_w0.png",
-      "images/creature/SkeletonMarksman/overworld_w1.png"
-    ]
-  },
-  "race": "Skeleton",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Erebyss)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 10,
-    "speed": 25
-  },
-  "trait": 135
+    "battleSprite":  "images/creature/SkeletonMarksman/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  320,
+    "item":  226,
+    "lore":  "Able to take on large groups on its own, the Skeleton Marksman walks in a slow and cocky way towards its opponents, shooting ruthlessly in all directions. When that is not enough to make them flee in disarray, it will skillfully slip among any enemies that manage to approach, causing serious injuries with well-aimed shots of its firearms. If there are survivors, it will tie them to a horse and drag them down the road until they die.",
+    "menagerieDialog":  [
+                            "I\u0027m glad we stopped to rest. I need to clean my guns.",
+                            "(Why does it always feel the need to point its gun toward your kneecaps? Doesn\u0027t it know proper gun etiquette?)",
+                            "While your kingdom\u0027s knowledge of magic is admirable, its technology leaves much to be desired.",
+                            "(It\u0027s spinning a gun around on its finger in an attempt to impress you.)",
+                            "(It\u0027s shouting \"YEE-HAW\" while shooting its gun into the air. No worries, little Skeleton, we\u0027ll pay to repair the damage once you\u0027re finished.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Skeleton Marksman",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SkeletonMarksman/overworld_e0.png",
+                                         "images/creature/SkeletonMarksman/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SkeletonMarksman/overworld_n0.png",
+                                          "images/creature/SkeletonMarksman/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SkeletonMarksman/overworld_s0.png",
+                                          "images/creature/SkeletonMarksman/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SkeletonMarksman/overworld_w0.png",
+                                         "images/creature/SkeletonMarksman/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Skeleton",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Erebyss)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  10,
+                       "speed":  25
+                   },
+    "trait":  135,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

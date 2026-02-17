@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/GriffonScreecher/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 389,
-  "item": 178,
-  "lore": "The Griffons have learned much from humans and other creatures through observation. The knowledge they have gained includes the handling of weapons or using the cold to preserve food, and it is always passed on to subsequent generations.\\n\\nThe Griffon Screecher\u0027s screams inspire dread and can cause temporary deafness with prolonged exposure.",
-  "menagerieDialog": [
-    "(It\u0027s preening its feathers.)",
-    "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
-    "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
-    "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
-    "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
-  ],
-  "minDepth": 1,
-  "name": "Griffon Screecher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GriffonScreecher/overworld_e0.png",
-      "images/creature/GriffonScreecher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GriffonScreecher/overworld_n0.png",
-      "images/creature/GriffonScreecher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GriffonScreecher/overworld_s0.png",
-      "images/creature/GriffonScreecher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GriffonScreecher/overworld_w0.png",
-      "images/creature/GriffonScreecher/overworld_w1.png"
-    ]
-  },
-  "race": "Griffon",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 88
+    "battleSprite":  "images/creature/GriffonScreecher/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  389,
+    "item":  178,
+    "lore":  "The Griffons have learned much from humans and other creatures through observation. The knowledge they have gained includes the handling of weapons or using the cold to preserve food, and it is always passed on to subsequent generations.\\n\\nThe Griffon Screecher\u0027s screams inspire dread and can cause temporary deafness with prolonged exposure.",
+    "menagerieDialog":  [
+                            "(It\u0027s preening its feathers.)",
+                            "(It\u0027s screeching uncontrollably while digging its claws into the ground.)",
+                            "(It seems to be quite lonely. Perhaps you should summon a she-Griffon to keep it company.)",
+                            "(It\u0027s pretending to be hungry, but you know full well that it has already eaten more than its fair share of food. Greedy little slob.)",
+                            "(It shies away from your touch. It clearly doesn\u0027t want to be bothered right now.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Griffon Screecher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GriffonScreecher/overworld_e0.png",
+                                         "images/creature/GriffonScreecher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GriffonScreecher/overworld_n0.png",
+                                          "images/creature/GriffonScreecher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GriffonScreecher/overworld_s0.png",
+                                          "images/creature/GriffonScreecher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GriffonScreecher/overworld_w0.png",
+                                         "images/creature/GriffonScreecher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Griffon",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  88,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

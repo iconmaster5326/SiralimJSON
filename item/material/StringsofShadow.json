@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBeyond the Veil:\nThis creature can be affected by stat changes while dead and does not lose stats on death. This creature\u0027s traits remain active while dead, except for traits that would redirect attacks or take damage in place of allies.",
-  "icon": "images/item/material/StringsofShadow.png",
-  "id": 1721,
-  "name": "Strings of Shadow",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2063
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBeyond the Veil:\nThis creature can be affected by stat changes while dead and does not lose stats on death. This creature\u0027s traits remain active while dead, except for traits that would redirect attacks or take damage in place of allies.",
+    "icon":  "images/item/material/StringsofShadow.png",
+    "id":  1721,
+    "name":  "Strings of Shadow",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2063,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

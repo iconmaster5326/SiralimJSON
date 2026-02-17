@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Maniacs:\nYour {RACE_Maniac}s start battles with 25% more {STAT_health} and 10% less {STAT_defense} for each {RACE_Maniac} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheManiac.png",
-  "id": 1236,
-  "name": "Sigil of the Maniac",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1457
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Maniacs:\nYour {RACE_Maniac}s start battles with 25% more {STAT_health} and 10% less {STAT_defense} for each {RACE_Maniac} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheManiac.png",
+    "id":  1236,
+    "name":  "Sigil of the Maniac",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1457,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/EarthSalamander/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 601,
-  "item": 719,
-  "lore": "When an old ruler of Siralim ascended to godhood, some of the creatures in Rodia underwent a transformation. This event turned the Salamanders into elemental creatures, able to adapt in an unusual way to all kinds of hostile environments.\\n\\nThe Earth Salamander digs tunnels quickly to protect itself from the cold and other inclement weather. It likes to hide underground and surprise its enemies with deadly spells.",
-  "menagerieDialog": [
-    "(Your magical items grow warmer in its presence.)",
-    "(It just bit off its own tail. It\u0027ll grow back though, right?)",
-    "(It blinks immediately after you do. Every. Single. Time.)",
-    "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
-    "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
-  ],
-  "minDepth": 1,
-  "name": "Earth Salamander",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EarthSalamander/overworld_e0.png",
-      "images/creature/EarthSalamander/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EarthSalamander/overworld_n0.png",
-      "images/creature/EarthSalamander/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EarthSalamander/overworld_s0.png",
-      "images/creature/EarthSalamander/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EarthSalamander/overworld_w0.png",
-      "images/creature/EarthSalamander/overworld_w1.png"
-    ]
-  },
-  "race": "Salamander",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 13,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 658
+    "battleSprite":  "images/creature/EarthSalamander/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  601,
+    "item":  719,
+    "lore":  "When an old ruler of Siralim ascended to godhood, some of the creatures in Rodia underwent a transformation. This event turned the Salamanders into elemental creatures, able to adapt in an unusual way to all kinds of hostile environments.\\n\\nThe Earth Salamander digs tunnels quickly to protect itself from the cold and other inclement weather. It likes to hide underground and surprise its enemies with deadly spells.",
+    "menagerieDialog":  [
+                            "(Your magical items grow warmer in its presence.)",
+                            "(It just bit off its own tail. It\u0027ll grow back though, right?)",
+                            "(It blinks immediately after you do. Every. Single. Time.)",
+                            "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
+                            "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Earth Salamander",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EarthSalamander/overworld_e0.png",
+                                         "images/creature/EarthSalamander/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EarthSalamander/overworld_n0.png",
+                                          "images/creature/EarthSalamander/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EarthSalamander/overworld_s0.png",
+                                          "images/creature/EarthSalamander/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EarthSalamander/overworld_w0.png",
+                                         "images/creature/EarthSalamander/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Salamander",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  13,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  658,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

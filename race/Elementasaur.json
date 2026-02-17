@@ -1,37 +1,42 @@
 {
-  "bossDialog": [
-    "(The Elementasaur rears up on its hind legs, towering over you as primal magical energy swirls around its body, collecting in its gaping maw for a devastating attack!)",
-    "(The ground trembles as a massive reptilian creature stomps forward, its hide crackling with elemental energies that leave scorch marks and frost patches wherever it steps!)",
-    "RAAAWWRR! Tiny human think can take MY treasure? Elementasaur crush you, then burn you, then freeze what\u0027s left!"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures\u0027 debuffs each have a 3% chance to be removed at the start of their turns.",
-    "6": "Your creatures\u0027 debuffs each have a 3% chance to be removed at the start of their turns.",
-    "9": "Your creatures\u0027 debuffs each have a 3% chance to be removed at the start of their turns."
-  },
-  "cards": 9,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    1341,
-    1342,
-    1343,
-    1344,
-    1345,
-    1346,
-    1347,
-    1455,
-    1456
-  ],
-  "icon": "images/race/Elementasaur.png",
-  "master": {
-    "costume": 814,
-    "dialog": "Elementasaurs command the primal forces of nature through their ancient, magical hides! Fire, frost, lightning - all the elements bend to their will. The wisdom of the ancients and raw elemental power are mine to command through my Elementasaur companions. Their thunderous footsteps have made kingdoms tremble - yours will be no different!",
-    "item": 1847,
-    "name": "Ryzon",
-    "trait": 2199
-  },
-  "name": "Elementasaur",
-  "notes": [],
-  "skins": []
+    "bossDialog":  [
+                       "(The Elementasaur rears up on its hind legs, towering over you as primal magical energy swirls around its body, collecting in its gaping maw for a devastating attack!)",
+                       "(The ground trembles as a massive reptilian creature stomps forward, its hide crackling with elemental energies that leave scorch marks and frost patches wherever it steps!)",
+                       "RAAAWWRR! Tiny human think can take MY treasure? Elementasaur crush you, then burn you, then freeze what\u0027s left!"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures\u0027 debuffs each have a 3% chance to be removed at the start of their turns.",
+                        "6":  "Your creatures\u0027 debuffs each have a 3% chance to be removed at the start of their turns.",
+                        "9":  "Your creatures\u0027 debuffs each have a 3% chance to be removed at the start of their turns."
+                    },
+    "cards":  9,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      1341,
+                      1342,
+                      1343,
+                      1344,
+                      1345,
+                      1346,
+                      1347,
+                      1455,
+                      1456
+                  ],
+    "icon":  "images/race/Elementasaur.png",
+    "master":  {
+                   "costume":  814,
+                   "dialog":  "Elementasaurs command the primal forces of nature through their ancient, magical hides! Fire, frost, lightning - all the elements bend to their will. The wisdom of the ancients and raw elemental power are mine to command through my Elementasaur companions. Their thunderous footsteps have made kingdoms tremble - yours will be no different!",
+                   "item":  1847,
+                   "name":  "Ryzon",
+                   "trait":  2199
+               },
+    "name":  "Elementasaur",
+    "notes":  [
+
+              ],
+    "skins":  [
+
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

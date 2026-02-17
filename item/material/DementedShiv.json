@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoulette:\nWhen this creature {ACTION_attacks}, it has a 50% chance to deal no damage and heal all your creatures for the amount of damage it would have dealt. Otherwise, it deals 50% more damage.",
-  "icon": "images/item/material/DementedShiv.png",
-  "id": 355,
-  "name": "Demented Shiv",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 271
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRoulette:\nWhen this creature {ACTION_attacks}, it has a 50% chance to deal no damage and heal all your creatures for the amount of damage it would have dealt. Otherwise, it deals 50% more damage.",
+    "icon":  "images/item/material/DementedShiv.png",
+    "id":  355,
+    "name":  "Demented Shiv",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  271,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

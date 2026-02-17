@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNatural Beauty:\nAt the start of battle, your creatures gain [icons,1980]Crystal Shield. In addition, your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs are 40% stronger. This trait does not stack.",
-  "icon": "images/item/material/JewelShell.png",
-  "id": 1526,
-  "name": "Jewel Shell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1833
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNatural Beauty:\nAt the start of battle, your creatures gain [icons,1980]Crystal Shield. In addition, your creatures\u0027 {CONDNAME_BUFF_BARRIER} buffs are 40% stronger. This trait does not stack.",
+    "icon":  "images/item/material/JewelShell.png",
+    "id":  1526,
+    "name":  "Jewel Shell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1833,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

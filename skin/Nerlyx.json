@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Nerlyx/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 46,
-  "name": "Nerlyx",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Nerlyx/overworld_e0.png",
-      "images/skin/Nerlyx/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Nerlyx/overworld_n0.png",
-      "images/skin/Nerlyx/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Nerlyx/overworld_s0.png",
-      "images/skin/Nerlyx/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Nerlyx/overworld_w0.png",
-      "images/skin/Nerlyx/overworld_w1.png"
-    ]
-  },
-  "race": "Ophan",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Nerlyx/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  46,
+    "name":  "Nerlyx",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Nerlyx/overworld_e0.png",
+                                         "images/skin/Nerlyx/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Nerlyx/overworld_n0.png",
+                                          "images/skin/Nerlyx/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Nerlyx/overworld_s0.png",
+                                          "images/skin/Nerlyx/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Nerlyx/overworld_w0.png",
+                                         "images/skin/Nerlyx/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ophan",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

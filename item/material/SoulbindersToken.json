@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Exchange:\nAt the start of battle, your creatures\u0027 {STAT_attack} and {STAT_intelligence} are set to whichever is highest.",
-  "icon": "images/item/material/SoulbindersToken.png",
-  "id": 1798,
-  "name": "Soulbinder\u0027s Token",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2151
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSoul Exchange:\nAt the start of battle, your creatures\u0027 {STAT_attack} and {STAT_intelligence} are set to whichever is highest.",
+    "icon":  "images/item/material/SoulbindersToken.png",
+    "id":  1798,
+    "name":  "Soulbinder\u0027s Token",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2151,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

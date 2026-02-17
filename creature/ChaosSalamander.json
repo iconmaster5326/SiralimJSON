@@ -1,66 +1,71 @@
 {
-  "battleSprite": "images/creature/ChaosSalamander/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 686,
-  "item": 858,
-  "lore": "A famous archaeologist recently found the mittens of a violent warrior from a thousand years ago in the depths of the Cutthroat Jungle. To do so, she ordered her Water Salamander to activate the powers of the artifact. The soul of the warrior, trapped in the mittens, manifested and took over the creature\u0027s body. The Salamander soon turned on its owner and ended her life. It then left the ruined temple, looking for more adversaries to defeat.",
-  "menagerieDialog": [
-    "(Your magical items grow warmer in its presence.)",
-    "(It just bit off its own tail. It\u0027ll grow back though, right?)",
-    "(It blinks immediately after you do. Every. Single. Time.)",
-    "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
-    "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
-  ],
-  "minDepth": 1,
-  "name": "Chaos Salamander",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ChaosSalamander/overworld_e0.png",
-      "images/creature/ChaosSalamander/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ChaosSalamander/overworld_n0.png",
-      "images/creature/ChaosSalamander/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ChaosSalamander/overworld_s0.png",
-      "images/creature/ChaosSalamander/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ChaosSalamander/overworld_w0.png",
-      "images/creature/ChaosSalamander/overworld_w1.png"
-    ]
-  },
-  "race": "Salamander",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    35
-  ],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 885
+    "battleSprite":  "images/creature/ChaosSalamander/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  686,
+    "item":  858,
+    "lore":  "A famous archaeologist recently found the mittens of a violent warrior from a thousand years ago in the depths of the Cutthroat Jungle. To do so, she ordered her Water Salamander to activate the powers of the artifact. The soul of the warrior, trapped in the mittens, manifested and took over the creature\u0027s body. The Salamander soon turned on its owner and ended her life. It then left the ruined temple, looking for more adversaries to defeat.",
+    "menagerieDialog":  [
+                            "(Your magical items grow warmer in its presence.)",
+                            "(It just bit off its own tail. It\u0027ll grow back though, right?)",
+                            "(It blinks immediately after you do. Every. Single. Time.)",
+                            "(This creature is licking everything in sight. Even the floor, which is home to some unsavory presents after such a long journey.)",
+                            "(Its severed tail is laying next to it. Fear not - it will grow back soon enough.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Chaos Salamander",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ChaosSalamander/overworld_e0.png",
+                                         "images/creature/ChaosSalamander/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ChaosSalamander/overworld_n0.png",
+                                          "images/creature/ChaosSalamander/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ChaosSalamander/overworld_s0.png",
+                                          "images/creature/ChaosSalamander/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ChaosSalamander/overworld_w0.png",
+                                         "images/creature/ChaosSalamander/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Salamander",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            35
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  885,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

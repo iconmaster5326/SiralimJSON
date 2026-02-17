@@ -1,15 +1,18 @@
 {
-  "description": "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nIncreased Stat Potency",
-  "icon": "images/item/spellprop/Malachite.png",
-  "id": 13,
-  "name": "Malachite",
-  "notes": [],
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "spellProperties": [
-    9
-  ]
+    "description":  "This item can be taken to the Enchanter to add the following property to your Spell Gems:\\n\\nIncreased Stat Potency",
+    "icon":  "images/item/spellprop/Malachite.png",
+    "id":  13,
+    "name":  "Malachite",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "spellProperties":  [
+                            9
+                        ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spellPropertyItem.yaml"
 }

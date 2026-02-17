@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRapid Learning:\nYour {RACE_Shapeshifter}s start battles with 1 additional trait. This trait does not stack.",
-  "icon": "images/item/material/ApprenticePlasma.png",
-  "id": 862,
-  "name": "Apprentice Plasma",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 889
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRapid Learning:\nYour {RACE_Shapeshifter}s start battles with 1 additional trait. This trait does not stack.",
+    "icon":  "images/item/material/ApprenticePlasma.png",
+    "id":  862,
+    "name":  "Apprentice Plasma",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  889,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

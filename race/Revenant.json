@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "Good thing no-one will ever find your body; that way they don\u0027t have to think about how painful your death is about to be!",
-    "I\u0027ve spent my whole life fighting; I\u0027ve earned this treasure. I\u0027m not giving it up to a spoiled brat like you!",
-    "NGAAAAAAH!!! I thought this hideout was well-hidden! I\u0027m gonna KILL you!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures take 2% less damage for each debuff they have.",
-    "5": "Your creatures deal 2% more damage for each debuff they have.",
-    "8": "These bonuses apply to buffs as well."
-  },
-  "cards": 8,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    412,
-    413,
-    414,
-    415,
-    416,
-    417,
-    657,
-    777
-  ],
-  "icon": "images/race/Revenant.png",
-  "master": {
-    "costume": 377,
-    "dialog": "Revenants are noble creatures who willingly sacrifice their own well-being for the greater good of their comrades. Do you really think you can take down a team as cooperative as mine?",
-    "item": 1230,
-    "name": "Brashen",
-    "trait": 1480
-  },
-  "name": "Revenant",
-  "notes": [],
-  "skins": [
-    50,
-    210,
-    554,
-    811
-  ]
+    "bossDialog":  [
+                       "Good thing no-one will ever find your body; that way they don\u0027t have to think about how painful your death is about to be!",
+                       "I\u0027ve spent my whole life fighting; I\u0027ve earned this treasure. I\u0027m not giving it up to a spoiled brat like you!",
+                       "NGAAAAAAH!!! I thought this hideout was well-hidden! I\u0027m gonna KILL you!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures take 2% less damage for each debuff they have.",
+                        "5":  "Your creatures deal 2% more damage for each debuff they have.",
+                        "8":  "These bonuses apply to buffs as well."
+                    },
+    "cards":  8,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      412,
+                      413,
+                      414,
+                      415,
+                      416,
+                      417,
+                      657,
+                      777
+                  ],
+    "icon":  "images/race/Revenant.png",
+    "master":  {
+                   "costume":  377,
+                   "dialog":  "Revenants are noble creatures who willingly sacrifice their own well-being for the greater good of their comrades. Do you really think you can take down a team as cooperative as mine?",
+                   "item":  1230,
+                   "name":  "Brashen",
+                   "trait":  1480
+               },
+    "name":  "Revenant",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  50,
+                  210,
+                  554,
+                  811
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNerlyx\u0027s Veil:\nAfter your creatures {ACTION_defend}, they have a 50% chance to take another turn. This trait does not stack.",
-  "icon": "images/item/material/NerlyxsDamagedCornea.png",
-  "id": 904,
-  "name": "Nerlyx\u0027s Damaged Cornea",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 940
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNerlyx\u0027s Veil:\nAfter your creatures {ACTION_defend}, they have a 50% chance to take another turn. This trait does not stack.",
+    "icon":  "images/item/material/NerlyxsDamagedCornea.png",
+    "id":  904,
+    "name":  "Nerlyx\u0027s Damaged Cornea",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  940,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

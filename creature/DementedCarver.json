@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/DementedCarver/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 80,
-  "item": 355,
-  "lore": "A Demented Carver never stops looking for prey. When it finds some, it chops the poor victims to small pieces it can eat, not caring whether they are dead or alive during the process. It only collaborates with others when they promise a great number of victims for it to carve. Extreme caution is advised when dealing with this creature.",
-  "menagerieDialog": [
-    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
-    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
-    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
-    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
-    "Come on, come on, come on! We\u0027ve killed very little today."
-  ],
-  "minDepth": 1,
-  "name": "Demented Carver",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DementedCarver/overworld_e0.png",
-      "images/creature/DementedCarver/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DementedCarver/overworld_n0.png",
-      "images/creature/DementedCarver/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DementedCarver/overworld_s0.png",
-      "images/creature/DementedCarver/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DementedCarver/overworld_w0.png",
-      "images/creature/DementedCarver/overworld_w1.png"
-    ]
-  },
-  "race": "Carver",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 271
+    "battleSprite":  "images/creature/DementedCarver/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  80,
+    "item":  355,
+    "lore":  "A Demented Carver never stops looking for prey. When it finds some, it chops the poor victims to small pieces it can eat, not caring whether they are dead or alive during the process. It only collaborates with others when they promise a great number of victims for it to carve. Extreme caution is advised when dealing with this creature.",
+    "menagerieDialog":  [
+                            "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+                            "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+                            "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+                            "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+                            "Come on, come on, come on! We\u0027ve killed very little today."
+                        ],
+    "minDepth":  1,
+    "name":  "Demented Carver",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DementedCarver/overworld_e0.png",
+                                         "images/creature/DementedCarver/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DementedCarver/overworld_n0.png",
+                                          "images/creature/DementedCarver/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DementedCarver/overworld_s0.png",
+                                          "images/creature/DementedCarver/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DementedCarver/overworld_w0.png",
+                                         "images/creature/DementedCarver/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carver",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  271,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/AsuraHeartripper/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 461,
-  "item": 380,
-  "lore": "The conquest of the Asura took place during an extremely cold winter. Humans sometimes confused them with Yetis when they walked through a strong blizzard, as both races can reach 9 feet in height.\\n\\nAsura Heartrippers unleash a whirlwind of blows with their scythes and knives. However, their blows are not very accurate.",
-  "menagerieDialog": [
-    "Thank you for this opportunity. You won\u0027t regret this.",
-    "You lack the controlled anger that is necessary to overcome your enemies.",
-    "There is no room in this kingdom for weakness. With your permission, I would like to test your other creatures and determine their might.",
-    "Show no mercy. Never hesitate before you make a kill, lest your enemies will turn your pity to their advantage.",
-    "We\u0027re wasting time here. Let\u0027s keep moving. There are still plenty of enemies to defeat."
-  ],
-  "minDepth": 1,
-  "name": "Asura Heartripper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AsuraHeartripper/overworld_e0.png",
-      "images/creature/AsuraHeartripper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AsuraHeartripper/overworld_n0.png",
-      "images/creature/AsuraHeartripper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AsuraHeartripper/overworld_s0.png",
-      "images/creature/AsuraHeartripper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AsuraHeartripper/overworld_w0.png",
-      "images/creature/AsuraHeartripper/overworld_w1.png"
-    ]
-  },
-  "race": "Asura",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    5
-  ],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 10,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 296
+    "battleSprite":  "images/creature/AsuraHeartripper/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  461,
+    "item":  380,
+    "lore":  "The conquest of the Asura took place during an extremely cold winter. Humans sometimes confused them with Yetis when they walked through a strong blizzard, as both races can reach 9 feet in height.\\n\\nAsura Heartrippers unleash a whirlwind of blows with their scythes and knives. However, their blows are not very accurate.",
+    "menagerieDialog":  [
+                            "Thank you for this opportunity. You won\u0027t regret this.",
+                            "You lack the controlled anger that is necessary to overcome your enemies.",
+                            "There is no room in this kingdom for weakness. With your permission, I would like to test your other creatures and determine their might.",
+                            "Show no mercy. Never hesitate before you make a kill, lest your enemies will turn your pity to their advantage.",
+                            "We\u0027re wasting time here. Let\u0027s keep moving. There are still plenty of enemies to defeat."
+                        ],
+    "minDepth":  1,
+    "name":  "Asura Heartripper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AsuraHeartripper/overworld_e0.png",
+                                         "images/creature/AsuraHeartripper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AsuraHeartripper/overworld_n0.png",
+                                          "images/creature/AsuraHeartripper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AsuraHeartripper/overworld_s0.png",
+                                          "images/creature/AsuraHeartripper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AsuraHeartripper/overworld_w0.png",
+                                         "images/creature/AsuraHeartripper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Asura",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            5
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  10,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  296,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

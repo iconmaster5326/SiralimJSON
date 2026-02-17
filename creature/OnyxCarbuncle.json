@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/OnyxCarbuncle/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 930,
-  "item": 932,
-  "lore": "Once the Watcher War was over, the Ravens tried to get in touch with the Gods so they could intervene on behalf of the Carbuncles, but none of them answered their demands.\\n\\nAny magic item around a Carbuncle reacts to its presence in sometimes imperceptible ways.\\n\\nOnyx Carbuncles are curious and unruly, and they kept sneaking into human homes to steal food or simply open the kitchen cupboards and throw everything to the floor for fun, even when they were being hunted. When a magic item touches their fur, it turns black permanently.",
-  "menagerieDialog": [
-    "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
-    "(The jewel on its forehead shines brightly.)",
-    "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
-    "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
-    "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
-  ],
-  "minDepth": 1,
-  "name": "Onyx Carbuncle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/OnyxCarbuncle/overworld_e0.png",
-      "images/creature/OnyxCarbuncle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/OnyxCarbuncle/overworld_n0.png",
-      "images/creature/OnyxCarbuncle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/OnyxCarbuncle/overworld_s0.png",
-      "images/creature/OnyxCarbuncle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/OnyxCarbuncle/overworld_w0.png",
-      "images/creature/OnyxCarbuncle/overworld_w1.png"
-    ]
-  },
-  "race": "Carbuncle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 38,
-    "intelligence": 23,
-    "speed": 23
-  },
-  "trait": 1204
+    "battleSprite":  "images/creature/OnyxCarbuncle/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  930,
+    "item":  932,
+    "lore":  "Once the Watcher War was over, the Ravens tried to get in touch with the Gods so they could intervene on behalf of the Carbuncles, but none of them answered their demands.\\n\\nAny magic item around a Carbuncle reacts to its presence in sometimes imperceptible ways.\\n\\nOnyx Carbuncles are curious and unruly, and they kept sneaking into human homes to steal food or simply open the kitchen cupboards and throw everything to the floor for fun, even when they were being hunted. When a magic item touches their fur, it turns black permanently.",
+    "menagerieDialog":  [
+                            "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
+                            "(The jewel on its forehead shines brightly.)",
+                            "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
+                            "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
+                            "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Onyx Carbuncle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/OnyxCarbuncle/overworld_e0.png",
+                                         "images/creature/OnyxCarbuncle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/OnyxCarbuncle/overworld_n0.png",
+                                          "images/creature/OnyxCarbuncle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/OnyxCarbuncle/overworld_s0.png",
+                                          "images/creature/OnyxCarbuncle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/OnyxCarbuncle/overworld_w0.png",
+                                         "images/creature/OnyxCarbuncle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carbuncle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  38,
+                       "intelligence":  23,
+                       "speed":  23
+                   },
+    "trait":  1204,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

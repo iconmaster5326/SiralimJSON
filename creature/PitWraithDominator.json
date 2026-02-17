@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PitWraithDominator/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 268,
-  "item": 253,
-  "lore": "Vertraag got the inspiration to create the Pit Wraiths after meeting Regalis\u0027s Mite Paralyzer. He used the Transient Spectre, whose existence is compressed in time, as a blueprint. These creatures possess very diverse temporal abilities, and their presence is disturbing, perhaps solely due to their appearance.\\n\\nWhen the claws of a Pit Wraith Dominator tear the skin of an enemy, the flow of time around the wound is accelerated, which makes the blood flow three times faster.",
-  "menagerieDialog": [
-    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
-    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
-    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
-    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
-    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
-  ],
-  "minDepth": 1,
-  "name": "Pit Wraith Dominator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PitWraithDominator/overworld_e0.png",
-      "images/creature/PitWraithDominator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PitWraithDominator/overworld_n0.png",
-      "images/creature/PitWraithDominator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PitWraithDominator/overworld_s0.png",
-      "images/creature/PitWraithDominator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PitWraithDominator/overworld_w0.png",
-      "images/creature/PitWraithDominator/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Wraith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 28,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 163
+    "battleSprite":  "images/creature/PitWraithDominator/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  268,
+    "item":  253,
+    "lore":  "Vertraag got the inspiration to create the Pit Wraiths after meeting Regalis\u0027s Mite Paralyzer. He used the Transient Spectre, whose existence is compressed in time, as a blueprint. These creatures possess very diverse temporal abilities, and their presence is disturbing, perhaps solely due to their appearance.\\n\\nWhen the claws of a Pit Wraith Dominator tear the skin of an enemy, the flow of time around the wound is accelerated, which makes the blood flow three times faster.",
+    "menagerieDialog":  [
+                            "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+                            "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+                            "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+                            "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+                            "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pit Wraith Dominator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PitWraithDominator/overworld_e0.png",
+                                         "images/creature/PitWraithDominator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PitWraithDominator/overworld_n0.png",
+                                          "images/creature/PitWraithDominator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PitWraithDominator/overworld_s0.png",
+                                          "images/creature/PitWraithDominator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PitWraithDominator/overworld_w0.png",
+                                         "images/creature/PitWraithDominator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Wraith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  28,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  163,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

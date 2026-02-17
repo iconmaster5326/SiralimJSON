@@ -1,47 +1,50 @@
 {
-  "bossDialog": [
-    "Out. Out! OUT! Get out of my hideout! It\u0027s where I keep all my things!! You can\u0027t have them!",
-    "What would you even do with this treasure, you wrinkly lump of meat? It\u0027s going to last longer than you are!",
-    "You were always going to die someday. But, thanks to your curiosity, your time is now!"
-  ],
-  "cardBonuses": {
-    "3": "Enemies with {CONDNAME_DEBUFF_SILENCE} deal 15% less damage.",
-    "6": "Increases the duration of enemies\u0027 {CONDNAME_DEBUFF_SILENCE} debuff by 1 turn.",
-    "9": "After an enemy is afflicted with {CONDNAME_DEBUFF_SILENCE}, one of its Spell Gems is Sealed."
-  },
-  "cards": 9,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    6,
-    7,
-    8,
-    9,
-    10,
-    604,
-    648,
-    784,
-    993
-  ],
-  "icon": "images/race/Paragon.png",
-  "master": {
-    "costume": 367,
-    "dialog": "Paragons are interesting creatures in the sense that they affect all the creatures on the battlefield - friend and foe alike. It takes some serious strategy to utilize their full potential, but hey, that\u0027s the kind of guy I am so it all works out. Your creatures don\u0027t stand a chance against the likes of me!",
-    "item": 1221,
-    "name": "Unaxx",
-    "trait": 1469
-  },
-  "name": "Paragon",
-  "notes": [],
-  "skins": [
-    35,
-    36,
-    37,
-    38,
-    39,
-    75,
-    311,
-    746,
-    747
-  ]
+    "bossDialog":  [
+                       "Out. Out! OUT! Get out of my hideout! It\u0027s where I keep all my things!! You can\u0027t have them!",
+                       "What would you even do with this treasure, you wrinkly lump of meat? It\u0027s going to last longer than you are!",
+                       "You were always going to die someday. But, thanks to your curiosity, your time is now!"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Enemies with {CONDNAME_DEBUFF_SILENCE} deal 15% less damage.",
+                        "6":  "Increases the duration of enemies\u0027 {CONDNAME_DEBUFF_SILENCE} debuff by 1 turn.",
+                        "9":  "After an enemy is afflicted with {CONDNAME_DEBUFF_SILENCE}, one of its Spell Gems is Sealed."
+                    },
+    "cards":  9,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      604,
+                      648,
+                      784,
+                      993
+                  ],
+    "icon":  "images/race/Paragon.png",
+    "master":  {
+                   "costume":  367,
+                   "dialog":  "Paragons are interesting creatures in the sense that they affect all the creatures on the battlefield - friend and foe alike. It takes some serious strategy to utilize their full potential, but hey, that\u0027s the kind of guy I am so it all works out. Your creatures don\u0027t stand a chance against the likes of me!",
+                   "item":  1221,
+                   "name":  "Unaxx",
+                   "trait":  1469
+               },
+    "name":  "Paragon",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  75,
+                  311,
+                  746,
+                  747
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

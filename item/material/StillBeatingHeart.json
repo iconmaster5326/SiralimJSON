@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLove Giveth:\nYour creatures gain 50% more Maximum {STAT_health} from stat-increasing effects. This trait does not stack.",
-  "icon": "images/item/material/StillBeatingHeart.png",
-  "id": 1459,
-  "name": "Still-Beating Heart",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1767
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLove Giveth:\nYour creatures gain 50% more Maximum {STAT_health} from stat-increasing effects. This trait does not stack.",
+    "icon":  "images/item/material/StillBeatingHeart.png",
+    "id":  1459,
+    "name":  "Still-Beating Heart",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1767,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

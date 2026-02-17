@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Venedon/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": 16,
-  "id": 953,
-  "item": null,
-  "lore": "Before he became a God, Mikhail was a legendary hitman who was recruited by the Auditors. Under the codename Eve he carried out numerous missions for the organization, both on his own and with his group of six agents. He grew up on the streets with a group of bandits who one by one lost their lives until only he was left alive. He had always been a detached, cold, and calculating person, but things began to change when he met his five companions. They formed a powerful bond of friendship, and when he became Venedon ten years later, he said goodbye to his friends in tears. Venedon still uses the weapons he had while he was a mortal, two state-of-the-art fully automatic firearms designed on the continent beyond the Veil. They also have a telescopic sight to shoot long distances.",
-  "menagerieDialog": [
-    "Let\u0027s get out of here. Downtime makes me anxious.",
-    "Let\u0027s get on with it. I have no patience for waiting around in your castle.",
-    "If I had a Brimstone for every minute we wasted in this castle, I\u0027d be able to buy the Great Pandemonium.",
-    "Magic breeds incompetence. You should learn not to rely on it too much.",
-    "(He tips his fedora at you.)\\n\\nM\u0027{CURRENTSPEC}."
-  ],
-  "minDepth": 1,
-  "name": "Venedon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Venedon/overworld_e0.png",
-      "images/creature/Venedon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Venedon/overworld_n0.png",
-      "images/creature/Venedon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Venedon/overworld_s0.png",
-      "images/creature/Venedon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Venedon/overworld_w0.png",
-      "images/creature/Venedon/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    368,
-    413,
-    434
-  ],
-  "sources": [
-    {
-      "god": 16,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1237
+    "battleSprite":  "images/creature/Venedon/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  16,
+    "id":  953,
+    "item":  null,
+    "lore":  "Before he became a God, Mikhail was a legendary hitman who was recruited by the Auditors. Under the codename Eve he carried out numerous missions for the organization, both on his own and with his group of six agents. He grew up on the streets with a group of bandits who one by one lost their lives until only he was left alive. He had always been a detached, cold, and calculating person, but things began to change when he met his five companions. They formed a powerful bond of friendship, and when he became Venedon ten years later, he said goodbye to his friends in tears. Venedon still uses the weapons he had while he was a mortal, two state-of-the-art fully automatic firearms designed on the continent beyond the Veil. They also have a telescopic sight to shoot long distances.",
+    "menagerieDialog":  [
+                            "Let\u0027s get out of here. Downtime makes me anxious.",
+                            "Let\u0027s get on with it. I have no patience for waiting around in your castle.",
+                            "If I had a Brimstone for every minute we wasted in this castle, I\u0027d be able to buy the Great Pandemonium.",
+                            "Magic breeds incompetence. You should learn not to rely on it too much.",
+                            "(He tips his fedora at you.)\\n\\nM\u0027{CURRENTSPEC}."
+                        ],
+    "minDepth":  1,
+    "name":  "Venedon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Venedon/overworld_e0.png",
+                                         "images/creature/Venedon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Venedon/overworld_n0.png",
+                                          "images/creature/Venedon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Venedon/overworld_s0.png",
+                                          "images/creature/Venedon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Venedon/overworld_w0.png",
+                                         "images/creature/Venedon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  368,
+                  413,
+                  434
+              ],
+    "sources":  [
+                    {
+                        "god":  16,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1237,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

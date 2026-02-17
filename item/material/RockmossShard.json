@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nObelisk:\nYour creatures\u0027 [temporary] Ethereal Spell Gems have the same number of {STAT_charges} they\u0027d have if they weren\u0027t Ethereal.",
-  "icon": "images/item/material/RockmossShard.png",
-  "id": 935,
-  "name": "Rockmoss Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1195
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nObelisk:\nYour creatures\u0027 [temporary] Ethereal Spell Gems have the same number of {STAT_charges} they\u0027d have if they weren\u0027t Ethereal.",
+    "icon":  "images/item/material/RockmossShard.png",
+    "id":  935,
+    "name":  "Rockmoss Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1195,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

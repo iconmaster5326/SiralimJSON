@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConversion:\nYour creatures\u0027 spells deal 15% more damage and 15% less healing for each {RACE_Familiar} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/ElementalPinion.png",
-  "id": 501,
-  "name": "Elemental Pinion",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 415
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConversion:\nYour creatures\u0027 spells deal 15% more damage and 15% less healing for each {RACE_Familiar} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/ElementalPinion.png",
+    "id":  501,
+    "name":  "Elemental Pinion",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  415,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

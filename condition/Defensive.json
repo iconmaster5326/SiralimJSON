@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_DEFENSIVE} automatically {ACTION_defend} at the end of their turn.",
-  "icon": "images/condition/Defensive.png",
-  "iconResisted": null,
-  "id": 8,
-  "material": 32,
-  "name": "Defensive",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_DEFENSIVE} automatically {ACTION_defend} at the end of their turn.",
+    "icon":  "images/condition/Defensive.png",
+    "iconResisted":  null,
+    "id":  8,
+    "material":  32,
+    "name":  "Defensive",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

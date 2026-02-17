@@ -1,413 +1,418 @@
 {
-  "creator": null,
-  "emblemIcon": "images/item/emblem/Gonfurian.png",
-  "god": 14,
-  "godBlessings": [
-    {
-      "blessing": "Bloodstains Grant Health Boost",
-      "icon": "images/blessing/kh_blood.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B1 Knowledge From Book Shelves",
-      "icon": "images/blessing/kh_books.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "Potion Shelves Grant a Random Stat Boost",
-      "icon": "images/blessing/kh_potions.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "Knights Decrease Enemies\u0027 Spell Gem Count In Next Battle",
-      "icon": "images/blessing/kh_knight.png"
-    },
-    {
-      "blessing": "Increased View Distance",
-      "icon": "images/blessing/seefurther.png"
-    },
-    {
-      "blessing": "Teleportation Shrine is Pre-Revealed at Start of Realm",
-      "icon": "images/blessing/revealshrines.png"
-    },
-    {
-      "blessing": "Coats of Arms Grant a Random Stat Boost",
-      "icon": "images/blessing/kh_arms.png"
-    },
-    {
-      "blessing": "\u002B1 Emblems Spawn",
-      "icon": "images/blessing/moreemblems.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Treasure Chests Spawn",
-      "icon": "images/blessing/morechests.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure From Caches",
-      "icon": "images/blessing/kh_satchel.png"
-    },
-    {
-      "blessing": "God Altar is Pre-revealed at Start of Realm",
-      "icon": "images/blessing/revealshrines.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Bloodstains Grant Attack Boost",
-      "icon": "images/blessing/kh_blood.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B1 Treasure Chests Spawn",
-      "icon": "images/blessing/morechests.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "\u002B1 Emblems Spawn",
-      "icon": "images/blessing/moreemblems.png"
-    },
-    {
-      "blessing": "Book Shelves Grant Intelligence Boost",
-      "icon": "images/blessing/kh_books.png"
-    },
-    {
-      "blessing": "-50% Chance For Dumplings to Flee",
-      "icon": "images/blessing/noescapedumpling.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Treasure Chests Spawn",
-      "icon": "images/blessing/morechests.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "25% Chance to Receive Emblem From Potion Shelves",
-      "icon": "images/blessing/kh_potions.png"
-    },
-    {
-      "blessing": "Increased View Distance",
-      "icon": "images/blessing/seefurther.png"
-    },
-    {
-      "blessing": "-50% Chance For Treasure Golems to Flee",
-      "icon": "images/blessing/noescapetgolem.png"
-    },
-    {
-      "blessing": "\u002B1 Nemesis Creatures Spawn",
-      "icon": "images/blessing/morenemesis.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "Knights Grant Resistance to Debuffs In Next Battle",
-      "icon": "images/blessing/kh_knight.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B1 Resource Nodes Spawn",
-      "icon": "images/blessing/morenodes.png"
-    },
-    {
-      "blessing": "\u002B2 Coats of Arms Spawn",
-      "icon": "images/blessing/kh_arms.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B100% Pandemonium Shrine Spawn Chance",
-      "icon": "images/blessing/morepandshrines.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "25% Chance to Receive Emblem From Caches",
-      "icon": "images/blessing/kh_satchel.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "Bloodstains Grant Speed Boost",
-      "icon": "images/blessing/kh_blood.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B1 Nemesis Creatures Spawn",
-      "icon": "images/blessing/morenemesis.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "Increased View Distance",
-      "icon": "images/blessing/seefurther.png"
-    },
-    {
-      "blessing": "Dumplings Never Flee",
-      "icon": "images/blessing/noescapedumpling.png"
-    },
-    {
-      "blessing": "\u002B1 Breakable Objects Spawn",
-      "icon": "images/blessing/morebreakables.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B1 Knowledge From Book Shelves",
-      "icon": "images/blessing/kh_books.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "Treasure Golems Never Flee",
-      "icon": "images/blessing/noescapetgolem.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Potion Shelves Decrease Enemies\u0027 Stats",
-      "icon": "images/blessing/kh_potions.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Knights Kill Random Enemy In Next Battle",
-      "icon": "images/blessing/kh_knight.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B50% Treasure Golem Spawn Chance",
-      "icon": "images/blessing/chancetgolem.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "Coats of Arms Drop Treasure",
-      "icon": "images/blessing/kh_arms.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B50% Dumpling Spawn Chance",
-      "icon": "images/blessing/chancedumpling.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B10% Treasure From All Sources",
-      "icon": "images/blessing/moretreasure.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "\u002B10% Resources From Resource Nodes",
-      "icon": "images/blessing/morenoderesources.png"
-    },
-    {
-      "blessing": "\u002B5% Resources From Battles",
-      "icon": "images/blessing/morebtlresources.png"
-    },
-    {
-      "blessing": "Caches Grant Random Stat Boost",
-      "icon": "images/blessing/kh_satchel.png"
-    }
-  ],
-  "godShop": {},
-  "id": 22,
-  "name": "Kingdom of Heretics",
-  "notes": [],
-  "project": null,
-  "unlockedAtDepth": null
+    "creator":  null,
+    "emblemIcon":  "images/item/emblem/Gonfurian.png",
+    "god":  14,
+    "godBlessings":  [
+                         {
+                             "blessing":  "Bloodstains Grant Health Boost",
+                             "icon":  "images/blessing/kh_blood.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+1 Knowledge From Book Shelves",
+                             "icon":  "images/blessing/kh_books.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "Potion Shelves Grant a Random Stat Boost",
+                             "icon":  "images/blessing/kh_potions.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "Knights Decrease Enemies\u0027 Spell Gem Count In Next Battle",
+                             "icon":  "images/blessing/kh_knight.png"
+                         },
+                         {
+                             "blessing":  "Increased View Distance",
+                             "icon":  "images/blessing/seefurther.png"
+                         },
+                         {
+                             "blessing":  "Teleportation Shrine is Pre-Revealed at Start of Realm",
+                             "icon":  "images/blessing/revealshrines.png"
+                         },
+                         {
+                             "blessing":  "Coats of Arms Grant a Random Stat Boost",
+                             "icon":  "images/blessing/kh_arms.png"
+                         },
+                         {
+                             "blessing":  "+1 Emblems Spawn",
+                             "icon":  "images/blessing/moreemblems.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Treasure Chests Spawn",
+                             "icon":  "images/blessing/morechests.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure From Caches",
+                             "icon":  "images/blessing/kh_satchel.png"
+                         },
+                         {
+                             "blessing":  "God Altar is Pre-revealed at Start of Realm",
+                             "icon":  "images/blessing/revealshrines.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Bloodstains Grant Attack Boost",
+                             "icon":  "images/blessing/kh_blood.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+1 Treasure Chests Spawn",
+                             "icon":  "images/blessing/morechests.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "+1 Emblems Spawn",
+                             "icon":  "images/blessing/moreemblems.png"
+                         },
+                         {
+                             "blessing":  "Book Shelves Grant Intelligence Boost",
+                             "icon":  "images/blessing/kh_books.png"
+                         },
+                         {
+                             "blessing":  "-50% Chance For Dumplings to Flee",
+                             "icon":  "images/blessing/noescapedumpling.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Treasure Chests Spawn",
+                             "icon":  "images/blessing/morechests.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "25% Chance to Receive Emblem From Potion Shelves",
+                             "icon":  "images/blessing/kh_potions.png"
+                         },
+                         {
+                             "blessing":  "Increased View Distance",
+                             "icon":  "images/blessing/seefurther.png"
+                         },
+                         {
+                             "blessing":  "-50% Chance For Treasure Golems to Flee",
+                             "icon":  "images/blessing/noescapetgolem.png"
+                         },
+                         {
+                             "blessing":  "+1 Nemesis Creatures Spawn",
+                             "icon":  "images/blessing/morenemesis.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "Knights Grant Resistance to Debuffs In Next Battle",
+                             "icon":  "images/blessing/kh_knight.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+1 Resource Nodes Spawn",
+                             "icon":  "images/blessing/morenodes.png"
+                         },
+                         {
+                             "blessing":  "+2 Coats of Arms Spawn",
+                             "icon":  "images/blessing/kh_arms.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+100% Pandemonium Shrine Spawn Chance",
+                             "icon":  "images/blessing/morepandshrines.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "25% Chance to Receive Emblem From Caches",
+                             "icon":  "images/blessing/kh_satchel.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "Bloodstains Grant Speed Boost",
+                             "icon":  "images/blessing/kh_blood.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+1 Nemesis Creatures Spawn",
+                             "icon":  "images/blessing/morenemesis.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "Increased View Distance",
+                             "icon":  "images/blessing/seefurther.png"
+                         },
+                         {
+                             "blessing":  "Dumplings Never Flee",
+                             "icon":  "images/blessing/noescapedumpling.png"
+                         },
+                         {
+                             "blessing":  "+1 Breakable Objects Spawn",
+                             "icon":  "images/blessing/morebreakables.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+1 Knowledge From Book Shelves",
+                             "icon":  "images/blessing/kh_books.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "Treasure Golems Never Flee",
+                             "icon":  "images/blessing/noescapetgolem.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Potion Shelves Decrease Enemies\u0027 Stats",
+                             "icon":  "images/blessing/kh_potions.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Knights Kill Random Enemy In Next Battle",
+                             "icon":  "images/blessing/kh_knight.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+50% Treasure Golem Spawn Chance",
+                             "icon":  "images/blessing/chancetgolem.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "Coats of Arms Drop Treasure",
+                             "icon":  "images/blessing/kh_arms.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+50% Dumpling Spawn Chance",
+                             "icon":  "images/blessing/chancedumpling.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+10% Treasure From All Sources",
+                             "icon":  "images/blessing/moretreasure.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "+10% Resources From Resource Nodes",
+                             "icon":  "images/blessing/morenoderesources.png"
+                         },
+                         {
+                             "blessing":  "+5% Resources From Battles",
+                             "icon":  "images/blessing/morebtlresources.png"
+                         },
+                         {
+                             "blessing":  "Caches Grant Random Stat Boost",
+                             "icon":  "images/blessing/kh_satchel.png"
+                         }
+                     ],
+    "godShop":  {
+
+                },
+    "id":  22,
+    "name":  "Kingdom of Heretics",
+    "notes":  [
+
+              ],
+    "project":  null,
+    "unlockedAtDepth":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/realm.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BattleClockwork/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1181,
-  "item": 1563,
-  "lore": "The further one moves away from Rodia, the harder it is to learn magic. In places unable to rely so much on it, technology has developed further.\\n\\nBattle Clockworks are the first to go on the attack when an outsider enters Damarel. They are fierce warriors who will not listen to reason unless a higher-ranking Clockwork (that is, any other Clockwork) or Alexandria himself says otherwise. When they are not fighting, they come to a complete stop, and the sound of the gears turning relentlessly within them can be heard.",
-  "menagerieDialog": [
-    "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
-    "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
-    "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
-    "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
-    "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
-  ],
-  "minDepth": 1,
-  "name": "Battle Clockwork",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BattleClockwork/overworld_e0.png",
-      "images/creature/BattleClockwork/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BattleClockwork/overworld_n0.png",
-      "images/creature/BattleClockwork/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BattleClockwork/overworld_s0.png",
-      "images/creature/BattleClockwork/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BattleClockwork/overworld_w0.png",
-      "images/creature/BattleClockwork/overworld_w1.png"
-    ]
-  },
-  "race": "Clockwork",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 20,
-    "health": 27,
-    "intelligence": 17,
-    "speed": 20
-  },
-  "trait": 1904
+    "battleSprite":  "images/creature/BattleClockwork/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1181,
+    "item":  1563,
+    "lore":  "The further one moves away from Rodia, the harder it is to learn magic. In places unable to rely so much on it, technology has developed further.\\n\\nBattle Clockworks are the first to go on the attack when an outsider enters Damarel. They are fierce warriors who will not listen to reason unless a higher-ranking Clockwork (that is, any other Clockwork) or Alexandria himself says otherwise. When they are not fighting, they come to a complete stop, and the sound of the gears turning relentlessly within them can be heard.",
+    "menagerieDialog":  [
+                            "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
+                            "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
+                            "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
+                            "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
+                            "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Battle Clockwork",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BattleClockwork/overworld_e0.png",
+                                         "images/creature/BattleClockwork/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BattleClockwork/overworld_n0.png",
+                                          "images/creature/BattleClockwork/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BattleClockwork/overworld_s0.png",
+                                          "images/creature/BattleClockwork/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BattleClockwork/overworld_w0.png",
+                                         "images/creature/BattleClockwork/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clockwork",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  20,
+                       "health":  27,
+                       "intelligence":  17,
+                       "speed":  20
+                   },
+    "trait":  1904,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

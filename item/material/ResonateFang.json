@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNegative Charge:\nThis creature always has {CONDNAME_DEBUFF_SILENCE}. Your creatures\u0027 [icons,1976]Lightning Storm acts as if they have 50% more {STAT_intelligence} for each creature on your team afflicted with {CONDNAME_DEBUFF_SILENCE}. This trait does not stack.",
-  "icon": "images/item/material/ResonateFang.png",
-  "id": 1777,
-  "name": "Resonate Fang",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2130
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNegative Charge:\nThis creature always has {CONDNAME_DEBUFF_SILENCE}. Your creatures\u0027 [icons,1976]Lightning Storm acts as if they have 50% more {STAT_intelligence} for each creature on your team afflicted with {CONDNAME_DEBUFF_SILENCE}. This trait does not stack.",
+    "icon":  "images/item/material/ResonateFang.png",
+    "id":  1777,
+    "name":  "Resonate Fang",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2130,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

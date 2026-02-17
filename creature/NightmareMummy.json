@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/NightmareMummy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 51,
-  "item": 244,
-  "lore": "The only ones who had the privilege of being mummified were usually the sovereigns of Kaito, once they exhaled their last breath. However, there was a punishment reserved for a few in a which a traitor was condemned to be mummified in life, along with many other hardships.\\n\\nThe Nightmare Mummies dealt with the priests and priestesses of Kaito. When their spells hit the dark bandages, a strange purple halo appeared that absorbed the magic, leaving them powerless to face the creatures.",
-  "menagerieDialog": [
-    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
-    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
-    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
-    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
-    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
-  ],
-  "minDepth": 1,
-  "name": "Nightmare Mummy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NightmareMummy/overworld_e0.png",
-      "images/creature/NightmareMummy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NightmareMummy/overworld_n0.png",
-      "images/creature/NightmareMummy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NightmareMummy/overworld_s0.png",
-      "images/creature/NightmareMummy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NightmareMummy/overworld_w0.png",
-      "images/creature/NightmareMummy/overworld_w1.png"
-    ]
-  },
-  "race": "Mummy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 16,
-    "health": 40,
-    "intelligence": 16,
-    "speed": 11
-  },
-  "trait": 154
+    "battleSprite":  "images/creature/NightmareMummy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  51,
+    "item":  244,
+    "lore":  "The only ones who had the privilege of being mummified were usually the sovereigns of Kaito, once they exhaled their last breath. However, there was a punishment reserved for a few in a which a traitor was condemned to be mummified in life, along with many other hardships.\\n\\nThe Nightmare Mummies dealt with the priests and priestesses of Kaito. When their spells hit the dark bandages, a strange purple halo appeared that absorbed the magic, leaving them powerless to face the creatures.",
+    "menagerieDialog":  [
+                            "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+                            "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+                            "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+                            "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+                            "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Nightmare Mummy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NightmareMummy/overworld_e0.png",
+                                         "images/creature/NightmareMummy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NightmareMummy/overworld_n0.png",
+                                          "images/creature/NightmareMummy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NightmareMummy/overworld_s0.png",
+                                          "images/creature/NightmareMummy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NightmareMummy/overworld_w0.png",
+                                         "images/creature/NightmareMummy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mummy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  16,
+                       "health":  40,
+                       "intelligence":  16,
+                       "speed":  11
+                   },
+    "trait":  154,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

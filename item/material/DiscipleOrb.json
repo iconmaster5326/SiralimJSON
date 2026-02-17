@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeal Magic:\nAfter an enemy {ACTION_casts} a spell, that Spell Gem is Sealed.",
-  "icon": "images/item/material/DiscipleOrb.png",
-  "id": 404,
-  "name": "Disciple Orb",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 319
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSeal Magic:\nAfter an enemy {ACTION_casts} a spell, that Spell Gem is Sealed.",
+    "icon":  "images/item/material/DiscipleOrb.png",
+    "id":  404,
+    "name":  "Disciple Orb",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  319,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

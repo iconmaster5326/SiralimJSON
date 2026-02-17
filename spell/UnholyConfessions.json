@@ -1,50 +1,53 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "death",
-  "creator": null,
-  "description": "Your creatures gain a moderate amount of {STAT_intelligence}.",
-  "god": null,
-  "id": 203,
-  "manuallyCastable": true,
-  "maxCharges": 11,
-  "name": "Unholy Confessions",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    5,
-    6,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BOOST"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "death",
+    "creator":  null,
+    "description":  "Your creatures gain a moderate amount of {STAT_intelligence}.",
+    "god":  null,
+    "id":  203,
+    "manuallyCastable":  true,
+    "maxCharges":  11,
+    "name":  "Unholy Confessions",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  5,
+                                  6,
+                                  9,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BOOST"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

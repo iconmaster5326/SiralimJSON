@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpittingBasilisk/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 702,
-  "item": 786,
-  "lore": "Although Basilisks are much larger than humans, they have learned not to pick a fight with them. Still, showing fear in front of these creatures often means becoming their prey.\\n\\nAccording to a legend, the Spitting Basilisk is a rare specimen that, in addition to emitting a powerful scream, releases a substance that causes death on contact with the skin. This, like many other legends, is false. Its saliva, in fact, has powerful healing and analgesic properties.",
-  "menagerieDialog": [
-    "(It\u0027s crouched down, staring blankly into nothingness.)",
-    "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
-    "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
-    "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
-    "(It bows its head and turns away. It must be shy.)"
-  ],
-  "minDepth": 1,
-  "name": "Spitting Basilisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpittingBasilisk/overworld_e0.png",
-      "images/creature/SpittingBasilisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpittingBasilisk/overworld_n0.png",
-      "images/creature/SpittingBasilisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpittingBasilisk/overworld_s0.png",
-      "images/creature/SpittingBasilisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpittingBasilisk/overworld_w0.png",
-      "images/creature/SpittingBasilisk/overworld_w1.png"
-    ]
-  },
-  "race": "Basilisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Vulcanar)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 15
-  },
-  "trait": 820
+    "battleSprite":  "images/creature/SpittingBasilisk/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  702,
+    "item":  786,
+    "lore":  "Although Basilisks are much larger than humans, they have learned not to pick a fight with them. Still, showing fear in front of these creatures often means becoming their prey.\\n\\nAccording to a legend, the Spitting Basilisk is a rare specimen that, in addition to emitting a powerful scream, releases a substance that causes death on contact with the skin. This, like many other legends, is false. Its saliva, in fact, has powerful healing and analgesic properties.",
+    "menagerieDialog":  [
+                            "(It\u0027s crouched down, staring blankly into nothingness.)",
+                            "(It\u0027s busy eating a fish. Any time someone comes too close to it, it growls protectively.)",
+                            "(It\u0027s sniffing in deep gulps of air, perhaps in search of food.)",
+                            "(It burps up a boot. You don\u0027t even want to know who it once belonged to.)",
+                            "(It bows its head and turns away. It must be shy.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Spitting Basilisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpittingBasilisk/overworld_e0.png",
+                                         "images/creature/SpittingBasilisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpittingBasilisk/overworld_n0.png",
+                                          "images/creature/SpittingBasilisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpittingBasilisk/overworld_s0.png",
+                                          "images/creature/SpittingBasilisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpittingBasilisk/overworld_w0.png",
+                                         "images/creature/SpittingBasilisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Basilisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Vulcanar)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  15
+                   },
+    "trait":  820,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

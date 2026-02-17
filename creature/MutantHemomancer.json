@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MutantHemomancer/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 863,
-  "item": 1001,
-  "lore": "The new realms also served as a way to seal dangerous creatures that threatened the safety of the world, like the Voidlords, who could erase any creature from existence.\\n\\nWith enough concentration, Hemomancers can draw a creature\u0027s blood through a wound and move it through the air, or drive their own blood into an organism. If a Mutant Hemomancer introduces enough of its blood into another creature\u0027s circulatory system and it is not removed in time, an irreversible transformation takes place that turns the creature into a mindless Hemomancer who only obeys the orders of a Hemomancer Lord.",
-  "menagerieDialog": [
-    "(You can tell by the cool and calculated look on its face that it\u0027s hatching a new, sinister scheme.)",
-    "There\u0027s no time to waste - let\u0027s go.",
-    "(It\u0027s pouring blood back and forth between two vials. Interesting hobby.)",
-    "(It stares at you in silence, refusing to say anything. How stubborn!)",
-    "What am I doing? The same thing I do every night, {PLAYERNAME}. Trying to take over the world!"
-  ],
-  "minDepth": 1,
-  "name": "Mutant Hemomancer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MutantHemomancer/overworld_e0.png",
-      "images/creature/MutantHemomancer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MutantHemomancer/overworld_n0.png",
-      "images/creature/MutantHemomancer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MutantHemomancer/overworld_s0.png",
-      "images/creature/MutantHemomancer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MutantHemomancer/overworld_w0.png",
-      "images/creature/MutantHemomancer/overworld_w1.png"
-    ]
-  },
-  "race": "Hemomancer",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Mortem)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 17,
-    "health": 31,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 1129
+    "battleSprite":  "images/creature/MutantHemomancer/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  863,
+    "item":  1001,
+    "lore":  "The new realms also served as a way to seal dangerous creatures that threatened the safety of the world, like the Voidlords, who could erase any creature from existence.\\n\\nWith enough concentration, Hemomancers can draw a creature\u0027s blood through a wound and move it through the air, or drive their own blood into an organism. If a Mutant Hemomancer introduces enough of its blood into another creature\u0027s circulatory system and it is not removed in time, an irreversible transformation takes place that turns the creature into a mindless Hemomancer who only obeys the orders of a Hemomancer Lord.",
+    "menagerieDialog":  [
+                            "(You can tell by the cool and calculated look on its face that it\u0027s hatching a new, sinister scheme.)",
+                            "There\u0027s no time to waste - let\u0027s go.",
+                            "(It\u0027s pouring blood back and forth between two vials. Interesting hobby.)",
+                            "(It stares at you in silence, refusing to say anything. How stubborn!)",
+                            "What am I doing? The same thing I do every night, {PLAYERNAME}. Trying to take over the world!"
+                        ],
+    "minDepth":  1,
+    "name":  "Mutant Hemomancer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MutantHemomancer/overworld_e0.png",
+                                         "images/creature/MutantHemomancer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MutantHemomancer/overworld_n0.png",
+                                          "images/creature/MutantHemomancer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MutantHemomancer/overworld_s0.png",
+                                          "images/creature/MutantHemomancer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MutantHemomancer/overworld_w0.png",
+                                         "images/creature/MutantHemomancer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hemomancer",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Mortem)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  17,
+                       "health":  31,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  1129,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

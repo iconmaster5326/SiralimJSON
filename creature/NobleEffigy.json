@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/NobleEffigy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1280,
-  "item": 1789,
-  "lore": "While no Effigy holds an official title, some are considered leaders among their kind. They\u0027re the sharpest and most cunning of their species, though calling them \u0022noble\u0022 would be an exaggeration. After all, these creatures would never allow such privileges to exist within their own ranks. Still, they tend to dress in elaborate, eye-catching clothing, which is how the people of Siralim and other cities ended up dubbing them \u0022noble.\u0022",
-  "menagerieDialog": [
-    "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
-    "Feel the pinprick of my needles! Your pain is my pleasure!",
-    "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
-    "Strike me all you want - your pain will be reflected back tenfold!",
-    "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
-  ],
-  "minDepth": 1,
-  "name": "Noble Effigy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NobleEffigy/overworld_e0.png",
-      "images/creature/NobleEffigy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NobleEffigy/overworld_n0.png",
-      "images/creature/NobleEffigy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NobleEffigy/overworld_s0.png",
-      "images/creature/NobleEffigy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NobleEffigy/overworld_w0.png",
-      "images/creature/NobleEffigy/overworld_w1.png"
-    ]
-  },
-  "race": "Effigy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 15
-  },
-  "trait": 2142
+    "battleSprite":  "images/creature/NobleEffigy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1280,
+    "item":  1789,
+    "lore":  "While no Effigy holds an official title, some are considered leaders among their kind. They\u0027re the sharpest and most cunning of their species, though calling them \"noble\" would be an exaggeration. After all, these creatures would never allow such privileges to exist within their own ranks. Still, they tend to dress in elaborate, eye-catching clothing, which is how the people of Siralim and other cities ended up dubbing them \"noble.\"",
+    "menagerieDialog":  [
+                            "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
+                            "Feel the pinprick of my needles! Your pain is my pleasure!",
+                            "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
+                            "Strike me all you want - your pain will be reflected back tenfold!",
+                            "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Noble Effigy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NobleEffigy/overworld_e0.png",
+                                         "images/creature/NobleEffigy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NobleEffigy/overworld_n0.png",
+                                          "images/creature/NobleEffigy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NobleEffigy/overworld_s0.png",
+                                          "images/creature/NobleEffigy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NobleEffigy/overworld_w0.png",
+                                         "images/creature/NobleEffigy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Effigy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  15
+                   },
+    "trait":  2142,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

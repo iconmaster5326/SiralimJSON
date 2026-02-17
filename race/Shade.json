@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "(As you approach the treasure hoard, you catch motion in the corner of your eye and barely evade a well-concealed Shade\u0027s surprise attack! Your creatures immediately respond to protect you!)",
-    "(Creepy whispers echo around the room as the smoky form of a Shade coalesces in front of you. Looks like you\u0027re not getting any easy treasure today.)",
-    "Surrender, human, and I will make your death swift and painless...\\n\\n(Yeah, that\u0027s not happening.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures take 15% less damage while they\u0027re {CONDNAME_BUFF_INVISIBLE}.",
-    "5": "Your creatures have a 10% chance to not lose their {CONDNAME_BUFF_INVISIBLE} buff after they {ACTION_attack} or {ACTION_cast} spells.",
-    "8": "Your creatures take 15% less damage while they\u0027re {CONDNAME_BUFF_INVISIBLE}."
-  },
-  "cards": 8,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    494,
-    495,
-    496,
-    497,
-    498,
-    499,
-    676,
-    754
-  ],
-  "icon": "images/race/Shade.png",
-  "master": {
-    "costume": 384,
-    "dialog": "How can you kill that which you cannot see? My Shades will decimate your creatures before they even know what hit \u0027em!",
-    "item": 1213,
-    "name": "Mort",
-    "trait": 1487
-  },
-  "name": "Shade",
-  "notes": [],
-  "skins": [
-    51,
-    67,
-    299,
-    770
-  ]
+    "bossDialog":  [
+                       "(As you approach the treasure hoard, you catch motion in the corner of your eye and barely evade a well-concealed Shade\u0027s surprise attack! Your creatures immediately respond to protect you!)",
+                       "(Creepy whispers echo around the room as the smoky form of a Shade coalesces in front of you. Looks like you\u0027re not getting any easy treasure today.)",
+                       "Surrender, human, and I will make your death swift and painless...\\n\\n(Yeah, that\u0027s not happening.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures take 15% less damage while they\u0027re {CONDNAME_BUFF_INVISIBLE}.",
+                        "5":  "Your creatures have a 10% chance to not lose their {CONDNAME_BUFF_INVISIBLE} buff after they {ACTION_attack} or {ACTION_cast} spells.",
+                        "8":  "Your creatures take 15% less damage while they\u0027re {CONDNAME_BUFF_INVISIBLE}."
+                    },
+    "cards":  8,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      494,
+                      495,
+                      496,
+                      497,
+                      498,
+                      499,
+                      676,
+                      754
+                  ],
+    "icon":  "images/race/Shade.png",
+    "master":  {
+                   "costume":  384,
+                   "dialog":  "How can you kill that which you cannot see? My Shades will decimate your creatures before they even know what hit \u0027em!",
+                   "item":  1213,
+                   "name":  "Mort",
+                   "trait":  1487
+               },
+    "name":  "Shade",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  51,
+                  67,
+                  299,
+                  770
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

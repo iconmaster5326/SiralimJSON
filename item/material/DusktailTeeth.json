@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSleight of Hand:\nAfter your creatures {ACTION_cast} a single-target {CLASS_Chaos} spell, this creature afflicts the target with {CONDNAME_DEBUFF_SILENCE}.",
-  "icon": "images/item/material/DusktailTeeth.png",
-  "id": 309,
-  "name": "Dusktail Teeth",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 225
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSleight of Hand:\nAfter your creatures {ACTION_cast} a single-target {CLASS_Chaos} spell, this creature afflicts the target with {CONDNAME_DEBUFF_SILENCE}.",
+    "icon":  "images/item/material/DusktailTeeth.png",
+    "id":  309,
+    "name":  "Dusktail Teeth",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  225,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

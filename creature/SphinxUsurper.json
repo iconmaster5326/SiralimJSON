@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SphinxUsurper/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 668,
-  "item": 798,
-  "lore": "The Sphinxes awakened the Mummies and used them to conquer the Kaito Empire. This creature, along with the Swarm Mummy, burst into the throne room and tore off the head of Ateppicmon, proclaiming itself the new Pharaoh. Humans were forced into slavery by the Sphinxes, living in misery until the Watchers arrived. When these creatures attacked the Empire, the humans did not help the Sphinxes, instead fleeing far from the wastelands and leaving their home to be consumed and fall into oblivion.",
-  "menagerieDialog": [
-    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
-    "Let us take our leave and fight for glory!",
-    "Things are not always as they seem. My advice to you is to question everything.",
-    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
-    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
-  ],
-  "minDepth": 1,
-  "name": "Sphinx Usurper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SphinxUsurper/overworld_e0.png",
-      "images/creature/SphinxUsurper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SphinxUsurper/overworld_n0.png",
-      "images/creature/SphinxUsurper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SphinxUsurper/overworld_s0.png",
-      "images/creature/SphinxUsurper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SphinxUsurper/overworld_w0.png",
-      "images/creature/SphinxUsurper/overworld_w1.png"
-    ]
-  },
-  "race": "Sphinx",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Yseros)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 825
+    "battleSprite":  "images/creature/SphinxUsurper/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  668,
+    "item":  798,
+    "lore":  "The Sphinxes awakened the Mummies and used them to conquer the Kaito Empire. This creature, along with the Swarm Mummy, burst into the throne room and tore off the head of Ateppicmon, proclaiming itself the new Pharaoh. Humans were forced into slavery by the Sphinxes, living in misery until the Watchers arrived. When these creatures attacked the Empire, the humans did not help the Sphinxes, instead fleeing far from the wastelands and leaving their home to be consumed and fall into oblivion.",
+    "menagerieDialog":  [
+                            "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+                            "Let us take our leave and fight for glory!",
+                            "Things are not always as they seem. My advice to you is to question everything.",
+                            "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+                            "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+                        ],
+    "minDepth":  1,
+    "name":  "Sphinx Usurper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SphinxUsurper/overworld_e0.png",
+                                         "images/creature/SphinxUsurper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SphinxUsurper/overworld_n0.png",
+                                          "images/creature/SphinxUsurper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SphinxUsurper/overworld_s0.png",
+                                          "images/creature/SphinxUsurper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SphinxUsurper/overworld_w0.png",
+                                         "images/creature/SphinxUsurper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sphinx",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Yseros)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  825,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

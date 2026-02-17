@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGiant Bite:\nAfter this creature {ACTION_attacks}, it deals damage to all enemies equal to 1% to 100% of the damage dealt.",
-  "icon": "images/item/material/MythicalTooth.png",
-  "id": 1729,
-  "name": "Mythical Tooth",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2071
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGiant Bite:\nAfter this creature {ACTION_attacks}, it deals damage to all enemies equal to 1% to 100% of the damage dealt.",
+    "icon":  "images/item/material/MythicalTooth.png",
+    "id":  1729,
+    "name":  "Mythical Tooth",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2071,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

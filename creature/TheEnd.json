@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/TheEnd/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1312,
-  "item": 1688,
-  "lore": "It\u0027s said The End was created by a careless wizard who was too lazy to take out the trash and got swallowed by the creature\u0027s crushing gravitational pull one night as he slept. In truth, this myth was spread by a student at the Magic University of Vanelin to ridicule the professor who created the creature. The kingdom\u0027s rulers quickly fired the professor and banned The End\u0027s use and spread, but smugglers still sell them on the black market.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "The End",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TheEnd/overworld_e0.png",
-      "images/creature/TheEnd/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TheEnd/overworld_n0.png",
-      "images/creature/TheEnd/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TheEnd/overworld_s0.png",
-      "images/creature/TheEnd/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TheEnd/overworld_w0.png",
-      "images/creature/TheEnd/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 40,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 2030
+    "battleSprite":  "images/creature/TheEnd/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1312,
+    "item":  1688,
+    "lore":  "It\u0027s said The End was created by a careless wizard who was too lazy to take out the trash and got swallowed by the creature\u0027s crushing gravitational pull one night as he slept. In truth, this myth was spread by a student at the Magic University of Vanelin to ridicule the professor who created the creature. The kingdom\u0027s rulers quickly fired the professor and banned The End\u0027s use and spread, but smugglers still sell them on the black market.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "The End",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TheEnd/overworld_e0.png",
+                                         "images/creature/TheEnd/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TheEnd/overworld_n0.png",
+                                          "images/creature/TheEnd/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TheEnd/overworld_s0.png",
+                                          "images/creature/TheEnd/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TheEnd/overworld_w0.png",
+                                         "images/creature/TheEnd/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  40,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  2030,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

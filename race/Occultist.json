@@ -1,45 +1,48 @@
 {
-  "bossDialog": [
-    "(As you draw near the humanoid figure, her abnormal proportions rapidly become apparent. She turns around and prepares to fight you, her total lack of a face revealing her to be no ordinary human.)",
-    "(The Occultist points at you and emits some strange sounds, almost like speech but not quite. The intent is clear, however - you\u0027re going to have to fight to get the treasure.)",
-    "(You recognize the mage standing before you as one of the Occultists. Knowing well their formidable prowess with magic, you advance cautiously with your creatures.)"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures\u0027 {CLASS_Sorcery} spells deal 10% more damage.",
-    "6": "Your creatures\u0027 damaging {CLASS_Sorcery} spells ignore 10% of their enemies\u0027 {STAT_defense}.",
-    "9": "Your creatures\u0027 {CLASS_Sorcery} spells have 10% additional {STAT_charges}."
-  },
-  "cards": 9,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    132,
-    133,
-    134,
-    135,
-    136,
-    137,
-    138,
-    139,
-    616
-  ],
-  "icon": "images/race/Occultist.png",
-  "master": {
-    "costume": 365,
-    "dialog": "Occultists are some of the finest Sorcery-spellcasters in all the land. As an added bonus, they\u0027re easy on the eyes as well, eh?\\n\\n(Let\u0027s show this creep who\u0027s boss!)",
-    "item": 1237,
-    "name": "Potrix",
-    "trait": 1467
-  },
-  "name": "Occultist",
-  "notes": [],
-  "skins": [
-    49,
-    274,
-    347,
-    348,
-    377,
-    523,
-    744
-  ]
+    "bossDialog":  [
+                       "(As you draw near the humanoid figure, her abnormal proportions rapidly become apparent. She turns around and prepares to fight you, her total lack of a face revealing her to be no ordinary human.)",
+                       "(The Occultist points at you and emits some strange sounds, almost like speech but not quite. The intent is clear, however - you\u0027re going to have to fight to get the treasure.)",
+                       "(You recognize the mage standing before you as one of the Occultists. Knowing well their formidable prowess with magic, you advance cautiously with your creatures.)"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures\u0027 {CLASS_Sorcery} spells deal 10% more damage.",
+                        "6":  "Your creatures\u0027 damaging {CLASS_Sorcery} spells ignore 10% of their enemies\u0027 {STAT_defense}.",
+                        "9":  "Your creatures\u0027 {CLASS_Sorcery} spells have 10% additional {STAT_charges}."
+                    },
+    "cards":  9,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      132,
+                      133,
+                      134,
+                      135,
+                      136,
+                      137,
+                      138,
+                      139,
+                      616
+                  ],
+    "icon":  "images/race/Occultist.png",
+    "master":  {
+                   "costume":  365,
+                   "dialog":  "Occultists are some of the finest Sorcery-spellcasters in all the land. As an added bonus, they\u0027re easy on the eyes as well, eh?\\n\\n(Let\u0027s show this creep who\u0027s boss!)",
+                   "item":  1237,
+                   "name":  "Potrix",
+                   "trait":  1467
+               },
+    "name":  "Occultist",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  49,
+                  274,
+                  347,
+                  348,
+                  377,
+                  523,
+                  744
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/FrostbiteWight/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 630,
-  "item": 885,
-  "lore": "He was the scourge of the icy mountains near Sithicus long before Misery, Egas and other dark lords even existed. When the blizzards lifted snow and frost from the ground, he fell on his enemies wrapped in a blanket of cold white and blood red. It was believed that Azural had sent him to cover the entire kingdom in ice. However, the Queen of Sithicus foresaw his movements and managed to sabotage his descent by provoking a huge avalanche. Now, he and his castle belong to the Kingdom of Heretics.",
-  "menagerieDialog": [
-    "I grow tired of waiting. Let\u0027s seek out a battle!",
-    "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
-    "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
-    "Who else wishes to taste my steel?",
-    "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
-  ],
-  "minDepth": 1,
-  "name": "Frostbite Wight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FrostbiteWight/overworld_e0.png",
-      "images/creature/FrostbiteWight/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FrostbiteWight/overworld_n0.png",
-      "images/creature/FrostbiteWight/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FrostbiteWight/overworld_s0.png",
-      "images/creature/FrostbiteWight/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FrostbiteWight/overworld_w0.png",
-      "images/creature/FrostbiteWight/overworld_w1.png"
-    ]
-  },
-  "race": "Wight",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 41,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 912
+    "battleSprite":  "images/creature/FrostbiteWight/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  630,
+    "item":  885,
+    "lore":  "He was the scourge of the icy mountains near Sithicus long before Misery, Egas and other dark lords even existed. When the blizzards lifted snow and frost from the ground, he fell on his enemies wrapped in a blanket of cold white and blood red. It was believed that Azural had sent him to cover the entire kingdom in ice. However, the Queen of Sithicus foresaw his movements and managed to sabotage his descent by provoking a huge avalanche. Now, he and his castle belong to the Kingdom of Heretics.",
+    "menagerieDialog":  [
+                            "I grow tired of waiting. Let\u0027s seek out a battle!",
+                            "As death is the winner of every war, it\u0027s death that I\u0027ve become.",
+                            "Your enemy is constantly waiting for you to let your guard down. Never let it happen.",
+                            "Who else wishes to taste my steel?",
+                            "Revenge, redemption... what difference does it make? In the end, violence is my only destiny.\\n\\n(Whoa. Calm down, edgelord.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Frostbite Wight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FrostbiteWight/overworld_e0.png",
+                                         "images/creature/FrostbiteWight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FrostbiteWight/overworld_n0.png",
+                                          "images/creature/FrostbiteWight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FrostbiteWight/overworld_s0.png",
+                                          "images/creature/FrostbiteWight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FrostbiteWight/overworld_w0.png",
+                                         "images/creature/FrostbiteWight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wight",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  41,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  912,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

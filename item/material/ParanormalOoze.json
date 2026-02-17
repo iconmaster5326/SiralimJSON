@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVanity:\nAfter this creature gains Spell Gems, your other creatures that don\u0027t have this trait gain those Spell Gems as well.",
-  "icon": "images/item/material/ParanormalOoze.png",
-  "id": 462,
-  "name": "Paranormal Ooze",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 376
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nVanity:\nAfter this creature gains Spell Gems, your other creatures that don\u0027t have this trait gain those Spell Gems as well.",
+    "icon":  "images/item/material/ParanormalOoze.png",
+    "id":  462,
+    "name":  "Paranormal Ooze",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  376,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

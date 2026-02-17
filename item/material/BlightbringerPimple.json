@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPus and Pox:\nAt the start of each enemy\u0027s turn, this creature afflicts them with a random debuff. This trait does not stack.",
-  "icon": "images/item/material/BlightbringerPimple.png",
-  "id": 269,
-  "name": "Blightbringer Pimple",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 179
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPus and Pox:\nAt the start of each enemy\u0027s turn, this creature afflicts them with a random debuff. This trait does not stack.",
+    "icon":  "images/item/material/BlightbringerPimple.png",
+    "id":  269,
+    "name":  "Blightbringer Pimple",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  179,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

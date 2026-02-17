@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Deathgrip/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 195,
-  "name": "Deathgrip",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Deathgrip/overworld_e0.png",
-      "images/skin/Deathgrip/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Deathgrip/overworld_n0.png",
-      "images/skin/Deathgrip/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Deathgrip/overworld_s0.png",
-      "images/skin/Deathgrip/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Deathgrip/overworld_w0.png",
-      "images/skin/Deathgrip/overworld_w1.png"
-    ]
-  },
-  "race": "Clutcher",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Deathgrip/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  195,
+    "name":  "Deathgrip",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Deathgrip/overworld_e0.png",
+                                         "images/skin/Deathgrip/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Deathgrip/overworld_n0.png",
+                                          "images/skin/Deathgrip/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Deathgrip/overworld_s0.png",
+                                          "images/skin/Deathgrip/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Deathgrip/overworld_w0.png",
+                                         "images/skin/Deathgrip/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clutcher",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MelodicDenizen/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1463,
-  "item": 1832,
-  "lore": "The Melodic Denizen glides through reefs, playing a sea harp with unmatched grace. Its melodies gently sway the currents, affect sea creatures, and stir the emotions of those who hear it. Sailors say its song can bring dead coral back to life... or shatter a heart in an instant.",
-  "menagerieDialog": [
-    "(It clicks its jaws twice, then stares through you like a dying fish.)",
-    "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
-    "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
-    "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
-    "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it\u00E2\u20AC\u2122s yawning or threatening you.)"
-  ],
-  "minDepth": 1,
-  "name": "Melodic Denizen",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MelodicDenizen/overworld_e0.png",
-      "images/creature/MelodicDenizen/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MelodicDenizen/overworld_n0.png",
-      "images/creature/MelodicDenizen/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MelodicDenizen/overworld_s0.png",
-      "images/creature/MelodicDenizen/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MelodicDenizen/overworld_w0.png",
-      "images/creature/MelodicDenizen/overworld_w1.png"
-    ]
-  },
-  "race": "Denizen",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 20
-  },
-  "trait": 2176
+    "battleSprite":  "images/creature/MelodicDenizen/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1463,
+    "item":  1832,
+    "lore":  "The Melodic Denizen glides through reefs, playing a sea harp with unmatched grace. Its melodies gently sway the currents, affect sea creatures, and stir the emotions of those who hear it. Sailors say its song can bring dead coral back to life... or shatter a heart in an instant.",
+    "menagerieDialog":  [
+                            "(It clicks its jaws twice, then stares through you like a dying fish.)",
+                            "(It gurgles softly, then slaps a wet limb against the wall in what you assume is a gesture of approval. Maybe.)",
+                            "(You find it chewing on something unidentifiable. You hope it\u0027s not one of your other creatures.)",
+                            "(It\u0027s dripping a strange fluid onto the floor. Your other creatures wisely keep their distance.)",
+                            "(Its jaw unhinges briefly, revealing rows of teeth spiraling inward. You\u0027re not sure if it’s yawning or threatening you.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Melodic Denizen",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MelodicDenizen/overworld_e0.png",
+                                         "images/creature/MelodicDenizen/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MelodicDenizen/overworld_n0.png",
+                                          "images/creature/MelodicDenizen/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MelodicDenizen/overworld_s0.png",
+                                          "images/creature/MelodicDenizen/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MelodicDenizen/overworld_w0.png",
+                                         "images/creature/MelodicDenizen/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Denizen",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  20
+                   },
+    "trait":  2176,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

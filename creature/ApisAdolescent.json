@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ApisAdolescent/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 782,
-  "item": 38,
-  "lore": "The Apis Adolescent owes its name to its lack of horns. However, it is similar in size to the other Apis, which begin to grow horns immediately after birth. In the past, it was able to channel the power of other Apis to increase their power over the weather and the soil\u0027s fertility, helping them change whatever they wished. At present, these creatures can turn certain spells into an energy blast that deals massive damage to whoever cast them.",
-  "menagerieDialog": [
-    "(It yawns and turns away from you.)",
-    "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
-    "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
-    "(Upon your approach, it licks your hand over and over and over again. True love.)",
-    "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
-  ],
-  "minDepth": 1,
-  "name": "Apis Adolescent",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ApisAdolescent/overworld_e0.png",
-      "images/creature/ApisAdolescent/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ApisAdolescent/overworld_n0.png",
-      "images/creature/ApisAdolescent/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ApisAdolescent/overworld_s0.png",
-      "images/creature/ApisAdolescent/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ApisAdolescent/overworld_w0.png",
-      "images/creature/ApisAdolescent/overworld_w1.png"
-    ]
-  },
-  "race": "Apis",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Nature Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 26,
-    "intelligence": 11,
-    "speed": 21
-  },
-  "trait": 1037
+    "battleSprite":  "images/creature/ApisAdolescent/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  782,
+    "item":  38,
+    "lore":  "The Apis Adolescent owes its name to its lack of horns. However, it is similar in size to the other Apis, which begin to grow horns immediately after birth. In the past, it was able to channel the power of other Apis to increase their power over the weather and the soil\u0027s fertility, helping them change whatever they wished. At present, these creatures can turn certain spells into an energy blast that deals massive damage to whoever cast them.",
+    "menagerieDialog":  [
+                            "(It yawns and turns away from you.)",
+                            "(It seems unnecessarily agitated. Perhaps a few battles will drain its aggression.)",
+                            "(You can\u0027t help but feel as though it knows exactly what you\u0027re thinking.)",
+                            "(Upon your approach, it licks your hand over and over and over again. True love.)",
+                            "(This creature is easily startled. You attempted to pat its head and it jumped as if it didn\u0027t know you were there.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Apis Adolescent",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ApisAdolescent/overworld_e0.png",
+                                         "images/creature/ApisAdolescent/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ApisAdolescent/overworld_n0.png",
+                                          "images/creature/ApisAdolescent/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ApisAdolescent/overworld_s0.png",
+                                          "images/creature/ApisAdolescent/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ApisAdolescent/overworld_w0.png",
+                                         "images/creature/ApisAdolescent/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Apis",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nature Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  26,
+                       "intelligence":  11,
+                       "speed":  21
+                   },
+    "trait":  1037,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

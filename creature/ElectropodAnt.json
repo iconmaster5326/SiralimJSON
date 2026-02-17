@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/ElectropodAnt/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1084,
-  "item": 1517,
-  "lore": "The Electropods were designed by a scientist in the north of the continent, a long way from Rodia. In that place, magic has developed more slowly, as the number of Nether Orbs found there is not very high.\\n\\nThe Ant Electropod loves to lift all kinds of things when it is not complying with any order, but its strength is not proportional to a real ant, so on more than one occasion it has destroyed its mandibles or other parts of its body when trying to lift an object that was too heavy.",
-  "menagerieDialog": [
-    "(Something about this creature reminds you of an old toy you used to play with as a child.)",
-    "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
-    "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff\u00E2\u20AC\u00A6",
-    "(This creature has one and only one weakness: being dropped into a tub of water.)",
-    "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
-  ],
-  "minDepth": 1,
-  "name": "Electropod Ant",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElectropodAnt/overworld_e0.png",
-      "images/creature/ElectropodAnt/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElectropodAnt/overworld_n0.png",
-      "images/creature/ElectropodAnt/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElectropodAnt/overworld_s0.png",
-      "images/creature/ElectropodAnt/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElectropodAnt/overworld_w0.png",
-      "images/creature/ElectropodAnt/overworld_w1.png"
-    ]
-  },
-  "race": "Electropod",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    28
-  ],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 1824
+    "battleSprite":  "images/creature/ElectropodAnt/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1084,
+    "item":  1517,
+    "lore":  "The Electropods were designed by a scientist in the north of the continent, a long way from Rodia. In that place, magic has developed more slowly, as the number of Nether Orbs found there is not very high.\\n\\nThe Ant Electropod loves to lift all kinds of things when it is not complying with any order, but its strength is not proportional to a real ant, so on more than one occasion it has destroyed its mandibles or other parts of its body when trying to lift an object that was too heavy.",
+    "menagerieDialog":  [
+                            "(Something about this creature reminds you of an old toy you used to play with as a child.)",
+                            "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
+                            "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff…",
+                            "(This creature has one and only one weakness: being dropped into a tub of water.)",
+                            "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Electropod Ant",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElectropodAnt/overworld_e0.png",
+                                         "images/creature/ElectropodAnt/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElectropodAnt/overworld_n0.png",
+                                          "images/creature/ElectropodAnt/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElectropodAnt/overworld_s0.png",
+                                          "images/creature/ElectropodAnt/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElectropodAnt/overworld_w0.png",
+                                         "images/creature/ElectropodAnt/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Electropod",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            28
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  1824,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

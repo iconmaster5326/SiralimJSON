@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Shallan/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": 29,
-  "id": 1102,
-  "item": null,
-  "lore": "Unlike the Fae, Shallan is quiet and calm. She spends most of her time lying down or flying slowly while watching over her realm, although she does occasionally approach other creatures to play with them, tell stories, or simply strike up conversation. Now that the Auditors have found a way into the realm, she is not at all happy due to the influx of looters. She has ordered all Fae to attack any intruder, especially those who try to cut down trees or take the creatures that inhabit the Fae Lands.",
-  "menagerieDialog": [
-    "Have you not seen enough realms for one lifetime? Their layouts are largely uninspired and repetitive. Once you\u0027ve seen one, you\u0027ve seen them all, as far as I\u0027m concerned.",
-    "I do not wish to travel alongside your creatures as if I were a mere servant. Find an alternative means to call upon my aid, or you\u0027ll lose it forever.",
-    "Humans have significantly shorter lifespans than most creatures. That is, until you mercilessly slaughter them at random while traveling through realms.",
-    "You smell as though you haven\u0027t bathed in weeks. I refuse to set foot into another realm before you wash yourself, {PLAYERNAME}.",
-    "I do not belong in a menagerie as if I were some manner of farm animal. I wish to make my quarters elsewhere in your castle."
-  ],
-  "minDepth": 1,
-  "name": "Shallan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Shallan/overworld_e0.png",
-      "images/creature/Shallan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Shallan/overworld_n0.png",
-      "images/creature/Shallan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Shallan/overworld_s0.png",
-      "images/creature/Shallan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Shallan/overworld_w0.png",
-      "images/creature/Shallan/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    595,
-    605,
-    614
-  ],
-  "sources": [
-    {
-      "god": 29,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1990
+    "battleSprite":  "images/creature/Shallan/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  29,
+    "id":  1102,
+    "item":  null,
+    "lore":  "Unlike the Fae, Shallan is quiet and calm. She spends most of her time lying down or flying slowly while watching over her realm, although she does occasionally approach other creatures to play with them, tell stories, or simply strike up conversation. Now that the Auditors have found a way into the realm, she is not at all happy due to the influx of looters. She has ordered all Fae to attack any intruder, especially those who try to cut down trees or take the creatures that inhabit the Fae Lands.",
+    "menagerieDialog":  [
+                            "Have you not seen enough realms for one lifetime? Their layouts are largely uninspired and repetitive. Once you\u0027ve seen one, you\u0027ve seen them all, as far as I\u0027m concerned.",
+                            "I do not wish to travel alongside your creatures as if I were a mere servant. Find an alternative means to call upon my aid, or you\u0027ll lose it forever.",
+                            "Humans have significantly shorter lifespans than most creatures. That is, until you mercilessly slaughter them at random while traveling through realms.",
+                            "You smell as though you haven\u0027t bathed in weeks. I refuse to set foot into another realm before you wash yourself, {PLAYERNAME}.",
+                            "I do not belong in a menagerie as if I were some manner of farm animal. I wish to make my quarters elsewhere in your castle."
+                        ],
+    "minDepth":  1,
+    "name":  "Shallan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Shallan/overworld_e0.png",
+                                         "images/creature/Shallan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Shallan/overworld_n0.png",
+                                          "images/creature/Shallan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Shallan/overworld_s0.png",
+                                          "images/creature/Shallan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Shallan/overworld_w0.png",
+                                         "images/creature/Shallan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  595,
+                  605,
+                  614
+              ],
+    "sources":  [
+                    {
+                        "god":  29,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1990,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

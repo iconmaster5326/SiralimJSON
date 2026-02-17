@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/StagOverseer/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 587,
-  "item": 682,
-  "lore": "The Stag Overseer is a monster of the night that terrorizes unfortunate travelers. This creature likes to stand tall in the distance, forming a dark silhouette against the full moon. When someone notices it, it disappears into the shadows, moving silently while hiding from its victims. Until, suddenly, they are lost in the dark, never to be seen again.",
-  "menagerieDialog": [
-    "(You have a feeling that, if it could, it would spend the whole day grazing.)",
-    "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
-    "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
-    "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
-    "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Stag Overseer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/StagOverseer/overworld_e0.png",
-      "images/creature/StagOverseer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/StagOverseer/overworld_n0.png",
-      "images/creature/StagOverseer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/StagOverseer/overworld_s0.png",
-      "images/creature/StagOverseer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/StagOverseer/overworld_w0.png",
-      "images/creature/StagOverseer/overworld_w1.png"
-    ]
-  },
-  "race": "Stag",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 620
+    "battleSprite":  "images/creature/StagOverseer/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  587,
+    "item":  682,
+    "lore":  "The Stag Overseer is a monster of the night that terrorizes unfortunate travelers. This creature likes to stand tall in the distance, forming a dark silhouette against the full moon. When someone notices it, it disappears into the shadows, moving silently while hiding from its victims. Until, suddenly, they are lost in the dark, never to be seen again.",
+    "menagerieDialog":  [
+                            "(You have a feeling that, if it could, it would spend the whole day grazing.)",
+                            "(Upon your approach, it snorts indignantly and tosses its head as if frustrated by something.)",
+                            "(This creature\u0027s wisdom is unmatched by other species. If only you could communicate with it...)",
+                            "(It\u0027s prancing and dancing around, putting on a little show for your other creatures.)",
+                            "(This creature is always the last one to join in a battle. Perhaps it would be better suited to living out the rest of its days in your castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Stag Overseer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/StagOverseer/overworld_e0.png",
+                                         "images/creature/StagOverseer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/StagOverseer/overworld_n0.png",
+                                          "images/creature/StagOverseer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/StagOverseer/overworld_s0.png",
+                                          "images/creature/StagOverseer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/StagOverseer/overworld_w0.png",
+                                         "images/creature/StagOverseer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Stag",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  620,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

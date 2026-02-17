@@ -1,43 +1,48 @@
 {
-  "bossDialog": [],
-  "cardBonuses": {
-    "3": "You gain 5% more Notoriety from the Gambling Dwarves.",
-    "6": "You gain 5% more Notoriety from the Gambling Dwarves.",
-    "10": "You gain 5% more Notoriety from the Gambling Dwarves."
-  },
-  "cards": 10,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    741,
-    742,
-    743,
-    744,
-    745,
-    746,
-    747,
-    748,
-    749,
-    750
-  ],
-  "icon": "images/race/Alemental.png",
-  "master": {
-    "costume": 292,
-    "dialog": "Alementals are... well, they don\u0027t have much in the way of a unifying theme across the entire race, but they DO urinate booze on command, so there\u0027s that. Care for a round? It\u0027s on me.",
-    "item": 1176,
-    "name": "Furnace, Brother of Furness",
-    "trait": 1393
-  },
-  "name": "Alemental",
-  "notes": [],
-  "skins": [
-    374,
-    495,
-    496,
-    497,
-    498,
-    499,
-    623,
-    801
-  ]
+    "bossDialog":  [
+
+                   ],
+    "cardBonuses":  {
+                        "3":  "You gain 5% more Notoriety from the Gambling Dwarves.",
+                        "6":  "You gain 5% more Notoriety from the Gambling Dwarves.",
+                        "10":  "You gain 5% more Notoriety from the Gambling Dwarves."
+                    },
+    "cards":  10,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      741,
+                      742,
+                      743,
+                      744,
+                      745,
+                      746,
+                      747,
+                      748,
+                      749,
+                      750
+                  ],
+    "icon":  "images/race/Alemental.png",
+    "master":  {
+                   "costume":  292,
+                   "dialog":  "Alementals are... well, they don\u0027t have much in the way of a unifying theme across the entire race, but they DO urinate booze on command, so there\u0027s that. Care for a round? It\u0027s on me.",
+                   "item":  1176,
+                   "name":  "Furnace, Brother of Furness",
+                   "trait":  1393
+               },
+    "name":  "Alemental",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  374,
+                  495,
+                  496,
+                  497,
+                  498,
+                  499,
+                  623,
+                  801
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

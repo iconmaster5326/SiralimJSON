@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/IndustrialClockwork/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1179,
-  "item": 1565,
-  "lore": "When an idea gains true strength among a multitude of individuals, it can take shape\u00E2\u20AC\u201Dand, as it happened with Gods like Friden or Azural, a divine being manifested herself due to the thousands of people whose lifestyles revolved around steam technology.\\n\\nWhen a Clockwork is not operating correctly due to wear or other reasons, the Industrial Clockworks rush to repair whatever is needed. They are in constant motion, receiving and transmitting all kinds of information to other Clockworks. At present, due to the arrival of outsiders, they travel at all times with War Clockworks.",
-  "menagerieDialog": [
-    "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
-    "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
-    "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
-    "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
-    "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
-  ],
-  "minDepth": 1,
-  "name": "Industrial Clockwork",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/IndustrialClockwork/overworld_e0.png",
-      "images/creature/IndustrialClockwork/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/IndustrialClockwork/overworld_n0.png",
-      "images/creature/IndustrialClockwork/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/IndustrialClockwork/overworld_s0.png",
-      "images/creature/IndustrialClockwork/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/IndustrialClockwork/overworld_w0.png",
-      "images/creature/IndustrialClockwork/overworld_w1.png"
-    ]
-  },
-  "race": "Clockwork",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 21,
-    "speed": 16
-  },
-  "trait": 1902
+    "battleSprite":  "images/creature/IndustrialClockwork/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1179,
+    "item":  1565,
+    "lore":  "When an idea gains true strength among a multitude of individuals, it can take shape—and, as it happened with Gods like Friden or Azural, a divine being manifested herself due to the thousands of people whose lifestyles revolved around steam technology.\\n\\nWhen a Clockwork is not operating correctly due to wear or other reasons, the Industrial Clockworks rush to repair whatever is needed. They are in constant motion, receiving and transmitting all kinds of information to other Clockworks. At present, due to the arrival of outsiders, they travel at all times with War Clockworks.",
+    "menagerieDialog":  [
+                            "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
+                            "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
+                            "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
+                            "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
+                            "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Industrial Clockwork",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/IndustrialClockwork/overworld_e0.png",
+                                         "images/creature/IndustrialClockwork/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/IndustrialClockwork/overworld_n0.png",
+                                          "images/creature/IndustrialClockwork/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/IndustrialClockwork/overworld_s0.png",
+                                          "images/creature/IndustrialClockwork/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/IndustrialClockwork/overworld_w0.png",
+                                         "images/creature/IndustrialClockwork/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clockwork",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  21,
+                       "speed":  16
+                   },
+    "trait":  1902,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

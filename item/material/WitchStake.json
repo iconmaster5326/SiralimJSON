@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBinary Affliction:\nAfter this creature {ACTION_attacks}, it gains a random buff and afflicts its target with a random debuff.",
-  "icon": "images/item/material/WitchStake.png",
-  "id": 477,
-  "name": "Witch Stake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 391
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBinary Affliction:\nAfter this creature {ACTION_attacks}, it gains a random buff and afflicts its target with a random debuff.",
+    "icon":  "images/item/material/WitchStake.png",
+    "id":  477,
+    "name":  "Witch Stake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  391,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUndead Legion:\nYour creatures can have 5 additional stacks of {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
-  "icon": "images/item/material/GiantPileofCorpses.png",
-  "id": 1453,
-  "name": "Giant Pile of Corpses",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1761
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUndead Legion:\nYour creatures can have 5 additional stacks of {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
+    "icon":  "images/item/material/GiantPileofCorpses.png",
+    "id":  1453,
+    "name":  "Giant Pile of Corpses",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1761,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

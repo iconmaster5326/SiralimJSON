@@ -1,38 +1,41 @@
 {
-  "bossDialog": [
-    "(A bizarre and unintelligible voice rings around the room as a pink flame ignites in the air before you, staring you down menacingly before attacking!)",
-    "(The treasure hoard seems to be haunted by a malevolent entity. It manifests a sinister leer as you approach, as if daring you to attack it. You promptly oblige.)",
-    "(You feel an intense heat on the back of your neck, and turn around just in time to avoid a Wisp trying to scorch you! Your creatures intercept it and attack!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}.",
-    "4": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}.",
-    "6": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}."
-  },
-  "cards": 6,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    850,
-    851,
-    852,
-    853,
-    854,
-    855
-  ],
-  "icon": "images/race/Wisp.png",
-  "master": {
-    "costume": 412,
-    "dialog": "Wisps are some of the most powerful creatures in Rodia, but admittedly, they have one glaring weakness: they can be disrupted very, very easily. Even so, if you don\u0027t manage to interrupt my Wisps in time, they\u0027ll make quick work of your creatures. Let me show you!",
-    "item": 1187,
-    "name": "Verdun",
-    "trait": 1516
-  },
-  "name": "Wisp",
-  "notes": [],
-  "skins": [
-    72,
-    257,
-    446
-  ]
+    "bossDialog":  [
+                       "(A bizarre and unintelligible voice rings around the room as a pink flame ignites in the air before you, staring you down menacingly before attacking!)",
+                       "(The treasure hoard seems to be haunted by a malevolent entity. It manifests a sinister leer as you approach, as if daring you to attack it. You promptly oblige.)",
+                       "(You feel an intense heat on the back of your neck, and turn around just in time to avoid a Wisp trying to scorch you! Your creatures intercept it and attack!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}.",
+                        "4":  "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}.",
+                        "6":  "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}."
+                    },
+    "cards":  6,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      850,
+                      851,
+                      852,
+                      853,
+                      854,
+                      855
+                  ],
+    "icon":  "images/race/Wisp.png",
+    "master":  {
+                   "costume":  412,
+                   "dialog":  "Wisps are some of the most powerful creatures in Rodia, but admittedly, they have one glaring weakness: they can be disrupted very, very easily. Even so, if you don\u0027t manage to interrupt my Wisps in time, they\u0027ll make quick work of your creatures. Let me show you!",
+                   "item":  1187,
+                   "name":  "Verdun",
+                   "trait":  1516
+               },
+    "name":  "Wisp",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  72,
+                  257,
+                  446
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies have a 5% chance (up to 80%) to deal no damage for each time they\u0027ve been affected by a {SPELL_alcohol} in the current battle.",
-  "icon": "images/perk/Inebriation.png",
-  "id": 602,
-  "maxRanks": 1,
-  "name": "Inebriation",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 40
+    "anointable":  true,
+    "description":  "Enemies have a 5% chance (up to 80%) to deal no damage for each time they\u0027ve been affected by a {SPELL_alcohol} in the current battle.",
+    "icon":  "images/perk/Inebriation.png",
+    "id":  602,
+    "maxRanks":  1,
+    "name":  "Inebriation",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  40,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

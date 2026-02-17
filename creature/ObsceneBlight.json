@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ObsceneBlight/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1124,
-  "item": 1644,
-  "lore": "Hundreds of miles north of Rodia there is a small underground kingdom, ruled by creatures who can see in the dark, and who dig tunnels with their strong, sharp claws. Although from the beginning of time they were known in what would later become Rodia as the Skyless, they are now called Obscene Blight because of an event that took place when the Asura tried to conquer their kingdom hundreds of years ago. They simply dug tunnels in such a way that the earth would collapse as the enemy army walked on it, rushing them to their deaths. Most of these creatures are peaceful and do business with other kingdoms, and there are still those who say that somewhere in their domains lies a treasure like no other.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Obscene Blight",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ObsceneBlight/overworld_e0.png",
-      "images/creature/ObsceneBlight/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ObsceneBlight/overworld_n0.png",
-      "images/creature/ObsceneBlight/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ObsceneBlight/overworld_s0.png",
-      "images/creature/ObsceneBlight/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ObsceneBlight/overworld_w0.png",
-      "images/creature/ObsceneBlight/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 13,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 23
-  },
-  "trait": 1847
+    "battleSprite":  "images/creature/ObsceneBlight/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1124,
+    "item":  1644,
+    "lore":  "Hundreds of miles north of Rodia there is a small underground kingdom, ruled by creatures who can see in the dark, and who dig tunnels with their strong, sharp claws. Although from the beginning of time they were known in what would later become Rodia as the Skyless, they are now called Obscene Blight because of an event that took place when the Asura tried to conquer their kingdom hundreds of years ago. They simply dug tunnels in such a way that the earth would collapse as the enemy army walked on it, rushing them to their deaths. Most of these creatures are peaceful and do business with other kingdoms, and there are still those who say that somewhere in their domains lies a treasure like no other.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Obscene Blight",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ObsceneBlight/overworld_e0.png",
+                                         "images/creature/ObsceneBlight/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ObsceneBlight/overworld_n0.png",
+                                          "images/creature/ObsceneBlight/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ObsceneBlight/overworld_s0.png",
+                                          "images/creature/ObsceneBlight/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ObsceneBlight/overworld_w0.png",
+                                         "images/creature/ObsceneBlight/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  13,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  23
+                   },
+    "trait":  1847,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

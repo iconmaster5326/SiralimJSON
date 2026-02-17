@@ -1,43 +1,46 @@
 {
-  "bossDialog": [
-    "Challenge one, and you challenge us all. Have at you!",
-    "For the glory of Gonfurian! For the horde! CHARGE!!!",
-    "Look brothers, a worthy opponent! To arms!"
-  ],
-  "cardBonuses": {
-    "3": "Your creatures have a 5% chance to {ACTION_attack} an additional time.",
-    "7": "Your creatures have a 5% chance to {ACTION_cast} spells an additional time.",
-    "11": "Doubles the chance for these effects to occur."
-  },
-  "cards": 11,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    307,
-    308,
-    309,
-    310,
-    311,
-    312,
-    313,
-    314,
-    315,
-    316,
-    621
-  ],
-  "icon": "images/race/DiabolicHorde.png",
-  "master": {
-    "costume": 321,
-    "dialog": "Diabolic Horde are perhaps the most cooperative of any creature in all of Rodia. They encourage and empower one another with only one goal in mind: to achieve victory at all costs. Frankly, I don\u0027t think you stand a chance, but we shall see soon enough!",
-    "item": 1266,
-    "name": "Woovie",
-    "trait": 1422
-  },
-  "name": "Diabolic Horde",
-  "notes": [],
-  "skins": [
-    489,
-    490,
-    706
-  ]
+    "bossDialog":  [
+                       "Challenge one, and you challenge us all. Have at you!",
+                       "For the glory of Gonfurian! For the horde! CHARGE!!!",
+                       "Look brothers, a worthy opponent! To arms!"
+                   ],
+    "cardBonuses":  {
+                        "3":  "Your creatures have a 5% chance to {ACTION_attack} an additional time.",
+                        "7":  "Your creatures have a 5% chance to {ACTION_cast} spells an additional time.",
+                        "11":  "Doubles the chance for these effects to occur."
+                    },
+    "cards":  11,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      307,
+                      308,
+                      309,
+                      310,
+                      311,
+                      312,
+                      313,
+                      314,
+                      315,
+                      316,
+                      621
+                  ],
+    "icon":  "images/race/DiabolicHorde.png",
+    "master":  {
+                   "costume":  321,
+                   "dialog":  "Diabolic Horde are perhaps the most cooperative of any creature in all of Rodia. They encourage and empower one another with only one goal in mind: to achieve victory at all costs. Frankly, I don\u0027t think you stand a chance, but we shall see soon enough!",
+                   "item":  1266,
+                   "name":  "Woovie",
+                   "trait":  1422
+               },
+    "name":  "Diabolic Horde",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  489,
+                  490,
+                  706
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

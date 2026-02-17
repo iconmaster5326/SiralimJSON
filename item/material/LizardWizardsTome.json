@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLizardry:\nYour creatures\u0027 [temporary] Ethereal Spell Gems do not consume {STAT_charges}. This trait does not stack.",
-  "icon": "images/item/material/LizardWizardsTome.png",
-  "id": 1538,
-  "name": "Lizard Wizard\u0027s Tome",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1879
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLizardry:\nYour creatures\u0027 [temporary] Ethereal Spell Gems do not consume {STAT_charges}. This trait does not stack.",
+    "icon":  "images/item/material/LizardWizardsTome.png",
+    "id":  1538,
+    "name":  "Lizard Wizard\u0027s Tome",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1879,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

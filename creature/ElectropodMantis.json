@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ElectropodMantis/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1085,
-  "item": 1519,
-  "lore": "The Electropods are much larger creatures than the insects they are based on. As long as they do not receive an order, they will behave identically to their counterparts.\\n\\nThe edge of the Mantis Electropod\u0027s scythes is as dangerous as that of the sharpest sword. With enough force, it can cut through metal like butter. Sometimes, when they sway with the wind on a tree branch, it ends up split in two.",
-  "menagerieDialog": [
-    "(Something about this creature reminds you of an old toy you used to play with as a child.)",
-    "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
-    "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff\u00E2\u20AC\u00A6",
-    "(This creature has one and only one weakness: being dropped into a tub of water.)",
-    "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
-  ],
-  "minDepth": 1,
-  "name": "Electropod Mantis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElectropodMantis/overworld_e0.png",
-      "images/creature/ElectropodMantis/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElectropodMantis/overworld_n0.png",
-      "images/creature/ElectropodMantis/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElectropodMantis/overworld_s0.png",
-      "images/creature/ElectropodMantis/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElectropodMantis/overworld_w0.png",
-      "images/creature/ElectropodMantis/overworld_w1.png"
-    ]
-  },
-  "race": "Electropod",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 1827
+    "battleSprite":  "images/creature/ElectropodMantis/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1085,
+    "item":  1519,
+    "lore":  "The Electropods are much larger creatures than the insects they are based on. As long as they do not receive an order, they will behave identically to their counterparts.\\n\\nThe edge of the Mantis Electropod\u0027s scythes is as dangerous as that of the sharpest sword. With enough force, it can cut through metal like butter. Sometimes, when they sway with the wind on a tree branch, it ends up split in two.",
+    "menagerieDialog":  [
+                            "(Something about this creature reminds you of an old toy you used to play with as a child.)",
+                            "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
+                            "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff…",
+                            "(This creature has one and only one weakness: being dropped into a tub of water.)",
+                            "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Electropod Mantis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElectropodMantis/overworld_e0.png",
+                                         "images/creature/ElectropodMantis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElectropodMantis/overworld_n0.png",
+                                          "images/creature/ElectropodMantis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElectropodMantis/overworld_s0.png",
+                                          "images/creature/ElectropodMantis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElectropodMantis/overworld_w0.png",
+                                         "images/creature/ElectropodMantis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Electropod",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  1827,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

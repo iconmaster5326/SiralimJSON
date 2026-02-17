@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures are immune to {CONDNAME_DEBUFF_SILENCE}.\\n\\n{CONDDESC_DEBUFF_SILENCE}",
-  "icon": "images/perk/Unshackled.png",
-  "id": 192,
-  "maxRanks": 1,
-  "name": "Unshackled",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 3
+    "anointable":  true,
+    "description":  "Your creatures are immune to {CONDNAME_DEBUFF_SILENCE}.\\n\\n{CONDDESC_DEBUFF_SILENCE}",
+    "icon":  "images/perk/Unshackled.png",
+    "id":  192,
+    "maxRanks":  1,
+    "name":  "Unshackled",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  3,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

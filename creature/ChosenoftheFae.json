@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ChosenoftheFae/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1133,
-  "item": 1653,
-  "lore": "When Shallan sensed an opening in the spell that prevented interdimensional travel to her realm, she ordered the Fae to train the most skilled Braves, creatures full of courage and adventurous spirit who are always accompanied by one of the Fae. Their main mission would be to leave the Fae Lands and travel the world in search of knowledge that could serve the Fae and all other creatures within Yataka to protect themselves from the looters.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Chosen of the Fae",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ChosenoftheFae/overworld_e0.png",
-      "images/creature/ChosenoftheFae/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ChosenoftheFae/overworld_n0.png",
-      "images/creature/ChosenoftheFae/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ChosenoftheFae/overworld_s0.png",
-      "images/creature/ChosenoftheFae/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ChosenoftheFae/overworld_w0.png",
-      "images/creature/ChosenoftheFae/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1856
+    "battleSprite":  "images/creature/ChosenoftheFae/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1133,
+    "item":  1653,
+    "lore":  "When Shallan sensed an opening in the spell that prevented interdimensional travel to her realm, she ordered the Fae to train the most skilled Braves, creatures full of courage and adventurous spirit who are always accompanied by one of the Fae. Their main mission would be to leave the Fae Lands and travel the world in search of knowledge that could serve the Fae and all other creatures within Yataka to protect themselves from the looters.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Chosen of the Fae",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ChosenoftheFae/overworld_e0.png",
+                                         "images/creature/ChosenoftheFae/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ChosenoftheFae/overworld_n0.png",
+                                          "images/creature/ChosenoftheFae/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ChosenoftheFae/overworld_s0.png",
+                                          "images/creature/ChosenoftheFae/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ChosenoftheFae/overworld_w0.png",
+                                         "images/creature/ChosenoftheFae/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1856,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

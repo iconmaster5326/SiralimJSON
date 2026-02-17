@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAbsence of Light:\nAfter an enemy is healed, this creature decreases their lowest stat by 25%.",
-  "icon": "images/item/material/FogFluff.png",
-  "id": 874,
-  "name": "Fog Fluff",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 901
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAbsence of Light:\nAfter an enemy is healed, this creature decreases their lowest stat by 25%.",
+    "icon":  "images/item/material/FogFluff.png",
+    "id":  874,
+    "name":  "Fog Fluff",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  901,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

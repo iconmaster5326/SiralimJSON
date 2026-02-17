@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/AmorphousShambler/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 821,
-  "item": 1042,
-  "lore": "William James and his crew visited hidden and forgotten places on the high seas. Deep in the Boreal Ocean, where he and his people were cursed, he discovered creatures who could not die. The waters were riddled with amorphous beings capable of levitating in their unlife. At first, some of the captain\u0027s crew thought they might be edible, but their rotten stench was warning enough not to. Sea Shamblers are not aggressive creatures by nature, but when the captain\u0027s ships sailed over shoals of these creatures, many were hit hard, causing a fight in which no member of the crew lost their life.",
-  "menagerieDialog": [
-    "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
-    "(Though it smells like dead fish, it is a formidable part of your team.)",
-    "(Not everything in life is beautiful. This creature is proof of that.)",
-    "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
-    "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
-  ],
-  "minDepth": 1,
-  "name": "Amorphous Shambler",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AmorphousShambler/overworld_e0.png",
-      "images/creature/AmorphousShambler/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AmorphousShambler/overworld_n0.png",
-      "images/creature/AmorphousShambler/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AmorphousShambler/overworld_s0.png",
-      "images/creature/AmorphousShambler/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AmorphousShambler/overworld_w0.png",
-      "images/creature/AmorphousShambler/overworld_w1.png"
-    ]
-  },
-  "race": "Sea Shambler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 1086
+    "battleSprite":  "images/creature/AmorphousShambler/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  821,
+    "item":  1042,
+    "lore":  "William James and his crew visited hidden and forgotten places on the high seas. Deep in the Boreal Ocean, where he and his people were cursed, he discovered creatures who could not die. The waters were riddled with amorphous beings capable of levitating in their unlife. At first, some of the captain\u0027s crew thought they might be edible, but their rotten stench was warning enough not to. Sea Shamblers are not aggressive creatures by nature, but when the captain\u0027s ships sailed over shoals of these creatures, many were hit hard, causing a fight in which no member of the crew lost their life.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
+                            "(Though it smells like dead fish, it is a formidable part of your team.)",
+                            "(Not everything in life is beautiful. This creature is proof of that.)",
+                            "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
+                            "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Amorphous Shambler",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AmorphousShambler/overworld_e0.png",
+                                         "images/creature/AmorphousShambler/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AmorphousShambler/overworld_n0.png",
+                                          "images/creature/AmorphousShambler/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AmorphousShambler/overworld_s0.png",
+                                          "images/creature/AmorphousShambler/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AmorphousShambler/overworld_w0.png",
+                                         "images/creature/AmorphousShambler/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sea Shambler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  1086,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

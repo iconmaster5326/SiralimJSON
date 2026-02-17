@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEjector Seat:\nThis creature is immune to damage from attacks and spells but its {STAT_health} is immediately set to 0 when it takes indirect damage. This trait is ignored if this creature is affected by effects that make it immune to indirect damage, or if an ally has the same trait.",
-  "icon": "images/item/material/EjectorSeatbelt.png",
-  "id": 1770,
-  "name": "Ejector Seatbelt",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2123
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEjector Seat:\nThis creature is immune to damage from attacks and spells but its {STAT_health} is immediately set to 0 when it takes indirect damage. This trait is ignored if this creature is affected by effects that make it immune to indirect damage, or if an ally has the same trait.",
+    "icon":  "images/item/material/EjectorSeatbelt.png",
+    "id":  1770,
+    "name":  "Ejector Seatbelt",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2123,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

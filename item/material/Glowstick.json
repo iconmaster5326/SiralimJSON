@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRave:\nYour creatures deal 6% more damage for each creature of the same race fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/Glowstick.png",
-  "id": 1343,
-  "name": "Glowstick",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1650
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRave:\nYour creatures deal 6% more damage for each creature of the same race fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/Glowstick.png",
+    "id":  1343,
+    "name":  "Glowstick",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1650,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

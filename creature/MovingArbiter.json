@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MovingArbiter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1187,
-  "item": 1570,
-  "lore": "On many occasions, Arbiters have no choice but to take action and confront all kinds of thugs. Many consider these creatures altruistic vigilantes who ensure the safety of every person in the world.\\n\\nSome warriors who stood out for their physical strength end up becoming Moving Arbiters. They are not known for resolving conflicts peacefully, but they will not hesitate to intervene in a robbery or go after a thief.",
-  "menagerieDialog": [
-    "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
-    "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
-    "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
-    "(This creature moves with the grace and regality of a nobleman.)",
-    "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
-  ],
-  "minDepth": 1,
-  "name": "Moving Arbiter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MovingArbiter/overworld_e0.png",
-      "images/creature/MovingArbiter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MovingArbiter/overworld_n0.png",
-      "images/creature/MovingArbiter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MovingArbiter/overworld_s0.png",
-      "images/creature/MovingArbiter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MovingArbiter/overworld_w0.png",
-      "images/creature/MovingArbiter/overworld_w1.png"
-    ]
-  },
-  "race": "Arbiter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 19,
-    "health": 29,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 1910
+    "battleSprite":  "images/creature/MovingArbiter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1187,
+    "item":  1570,
+    "lore":  "On many occasions, Arbiters have no choice but to take action and confront all kinds of thugs. Many consider these creatures altruistic vigilantes who ensure the safety of every person in the world.\\n\\nSome warriors who stood out for their physical strength end up becoming Moving Arbiters. They are not known for resolving conflicts peacefully, but they will not hesitate to intervene in a robbery or go after a thief.",
+    "menagerieDialog":  [
+                            "(Some sort of sorcery has replaced where its limbs once were. Quite unsettling.)",
+                            "(Though this creature lacks a normal visage, you can\u0027t help but feel as though it\u0027s judging your every action.)",
+                            "(The swirling and whirling of the magical energy encompassing this creature\u0027s body is a captivating spectacle, to say the least.)",
+                            "(This creature moves with the grace and regality of a nobleman.)",
+                            "(Though this creature often speaks to you, you\u0027re unable to discern what it says. Its words are drowned out by an exaggerated echo that causes its intonation to be all but lost.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Moving Arbiter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MovingArbiter/overworld_e0.png",
+                                         "images/creature/MovingArbiter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MovingArbiter/overworld_n0.png",
+                                          "images/creature/MovingArbiter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MovingArbiter/overworld_s0.png",
+                                          "images/creature/MovingArbiter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MovingArbiter/overworld_w0.png",
+                                         "images/creature/MovingArbiter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arbiter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  19,
+                       "health":  29,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  1910,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrom Hero To Zero:\nAfter this creature {ACTION_attacks}, it removes the target\u0027s traits that it didn\u0027t start with in battle and gives them to your creatures.",
-  "icon": "images/item/material/DonorBloodVial.png",
-  "id": 1004,
-  "name": "Donor Blood Vial",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1132
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrom Hero To Zero:\nAfter this creature {ACTION_attacks}, it removes the target\u0027s traits that it didn\u0027t start with in battle and gives them to your creatures.",
+    "icon":  "images/item/material/DonorBloodVial.png",
+    "id":  1004,
+    "name":  "Donor Blood Vial",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1132,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

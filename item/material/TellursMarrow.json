@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTellur\u0027s Scales:\nThis creature takes 20% less damage for each time it has taken damage in the current battle.",
-  "icon": "images/item/material/TellursMarrow.png",
-  "id": 1147,
-  "name": "Tellur\u0027s Marrow",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1292
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTellur\u0027s Scales:\nThis creature takes 20% less damage for each time it has taken damage in the current battle.",
+    "icon":  "images/item/material/TellursMarrow.png",
+    "id":  1147,
+    "name":  "Tellur\u0027s Marrow",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1292,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SiegeClockwork/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1180,
-  "item": 1561,
-  "lore": "Clockworks make sure that everything in Damarel works properly. Each one has its role, and they only act based on contingencies that are rarely too complex.\\n\\nAlexandria built the Siege Clockwork for the purpose of transporting material from one place to another through the intricate maze of rails that runs through the cogs of Damarel. Nowadays, with the arrival of outsiders, these creatures also transport other Clockworks so they can face any threat as quickly as possible.",
-  "menagerieDialog": [
-    "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
-    "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
-    "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
-    "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
-    "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
-  ],
-  "minDepth": 1,
-  "name": "Siege Clockwork",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SiegeClockwork/overworld_e0.png",
-      "images/creature/SiegeClockwork/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SiegeClockwork/overworld_n0.png",
-      "images/creature/SiegeClockwork/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SiegeClockwork/overworld_s0.png",
-      "images/creature/SiegeClockwork/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SiegeClockwork/overworld_w0.png",
-      "images/creature/SiegeClockwork/overworld_w1.png"
-    ]
-  },
-  "race": "Clockwork",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1903
+    "battleSprite":  "images/creature/SiegeClockwork/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1180,
+    "item":  1561,
+    "lore":  "Clockworks make sure that everything in Damarel works properly. Each one has its role, and they only act based on contingencies that are rarely too complex.\\n\\nAlexandria built the Siege Clockwork for the purpose of transporting material from one place to another through the intricate maze of rails that runs through the cogs of Damarel. Nowadays, with the arrival of outsiders, these creatures also transport other Clockworks so they can face any threat as quickly as possible.",
+    "menagerieDialog":  [
+                            "(It\u0027s making a constant ticking noise, much to the dismay of your other creatures.)",
+                            "(Its gears are making a harsh grinding sound with each passing second. Perhaps Nortah should oil it up.)",
+                            "(Despite having no discernible facial features, this little creature seems to have a happy and animated demeanor.)",
+                            "(You often find yourself surprised at how stalwart this creature is. Despite the constant beatings it takes in battle, it never breaks.)",
+                            "(Tick, tock, tick, tock... the sound it makes is absolutely mesmerizing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Siege Clockwork",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SiegeClockwork/overworld_e0.png",
+                                         "images/creature/SiegeClockwork/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SiegeClockwork/overworld_n0.png",
+                                          "images/creature/SiegeClockwork/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SiegeClockwork/overworld_s0.png",
+                                          "images/creature/SiegeClockwork/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SiegeClockwork/overworld_w0.png",
+                                         "images/creature/SiegeClockwork/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clockwork",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1903,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,34 +1,43 @@
 {
-  "battleSprite": "images/creature/ShoulderofTheAncestor/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1056,
-  "item": null,
-  "lore": "L_LORE_SHOULDEROFTHEANCESTOR",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Shoulder of The Ancestor",
-  "notes": [],
-  "overworldSprite": "creature/ShoulderofTheAncestor/overworld.png",
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 50,
-    "intelligence": 25,
-    "speed": 25
-  },
-  "trait": 1598
+    "battleSprite":  "images/creature/ShoulderofTheAncestor/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1056,
+    "item":  null,
+    "lore":  "L_LORE_SHOULDEROFTHEANCESTOR",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Shoulder of The Ancestor",
+    "notes":  [
+
+              ],
+    "overworldSprite":  "creature/ShoulderofTheAncestor/overworld.png",
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  50,
+                       "intelligence":  25,
+                       "speed":  25
+                   },
+    "trait":  1598,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

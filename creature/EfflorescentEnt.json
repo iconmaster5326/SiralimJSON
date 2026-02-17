@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/EfflorescentEnt/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 3,
-  "item": 815,
-  "lore": "An Efflorescent Ent\u0027s only task is to plant the flowers that grow on its trunk and branches. After a few weeks, the buds grow and become adult cherry trees. Any Ent except the Timeworn can bloom into an Efflorescent Ent, and it only happens when a Springtime Aspect finds it necessary, in areas specially harmed by humans or natural catastrophes. The Springtime Aspect has to touch the Ent with its staff to trigger this unique transformation.",
-  "menagerieDialog": [
-    "There is nothing quite like the clean air of a Rodian forest.",
-    "I\u0027ll make short work of anyone who dares desecrate nature.",
-    "This castle smells like a wasteland. I would prefer to leave this place at once.",
-    "I feel invigorated in your presence. Thank you for looking after me.",
-    "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
-  ],
-  "minDepth": 1,
-  "name": "Efflorescent Ent",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EfflorescentEnt/overworld_e0.png",
-      "images/creature/EfflorescentEnt/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EfflorescentEnt/overworld_n0.png",
-      "images/creature/EfflorescentEnt/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EfflorescentEnt/overworld_s0.png",
-      "images/creature/EfflorescentEnt/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EfflorescentEnt/overworld_w0.png",
-      "images/creature/EfflorescentEnt/overworld_w1.png"
-    ]
-  },
-  "race": "Ent",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 23,
-    "health": 32,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 842
+    "battleSprite":  "images/creature/EfflorescentEnt/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  3,
+    "item":  815,
+    "lore":  "An Efflorescent Ent\u0027s only task is to plant the flowers that grow on its trunk and branches. After a few weeks, the buds grow and become adult cherry trees. Any Ent except the Timeworn can bloom into an Efflorescent Ent, and it only happens when a Springtime Aspect finds it necessary, in areas specially harmed by humans or natural catastrophes. The Springtime Aspect has to touch the Ent with its staff to trigger this unique transformation.",
+    "menagerieDialog":  [
+                            "There is nothing quite like the clean air of a Rodian forest.",
+                            "I\u0027ll make short work of anyone who dares desecrate nature.",
+                            "This castle smells like a wasteland. I would prefer to leave this place at once.",
+                            "I feel invigorated in your presence. Thank you for looking after me.",
+                            "(A little bird is nesting in this creature\u0027s branches which is oddly endearing.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Efflorescent Ent",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EfflorescentEnt/overworld_e0.png",
+                                         "images/creature/EfflorescentEnt/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EfflorescentEnt/overworld_n0.png",
+                                          "images/creature/EfflorescentEnt/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EfflorescentEnt/overworld_s0.png",
+                                          "images/creature/EfflorescentEnt/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EfflorescentEnt/overworld_w0.png",
+                                         "images/creature/EfflorescentEnt/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Ent",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  23,
+                       "health":  32,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  842,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

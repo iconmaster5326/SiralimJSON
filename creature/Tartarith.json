@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Tartarith/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": 7,
-  "id": 735,
-  "item": null,
-  "lore": "When Taylor\u0027s father arrived in the city, he was immediately arrested and taken to the Torture Chamber. His son had fun with him for hours, peeling off his skin, burning his face, pouring saltwater over him. Tartarith died in great pain and guilt. Then, the Nether Orbs that Taylor had set as per Vertraag\u0027s advice unleashed its power over his father. Tartarith breathed once more, but he was completely insane. Turned into a merciless God, he approached his son and said: I WILL NOT BE KILLED. NOW I KILL.",
-  "menagerieDialog": [
-    "WHAT YOU LOOKING AT.",
-    "KILL. CUTE. THINGS.",
-    "CHOP THEM IN THE BRAIN FOR A QUICK AND NOT-FUN DEATH.",
-    "NOSE KEEPS RUNNING. NEED TISSUE. FAST.",
-    "ALL KILL AND NO PLAY MAKES TARTARITH A DULL BOY."
-  ],
-  "minDepth": 1,
-  "name": "Tartarith",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Tartarith/overworld_e0.png",
-      "images/creature/Tartarith/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Tartarith/overworld_n0.png",
-      "images/creature/Tartarith/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Tartarith/overworld_s0.png",
-      "images/creature/Tartarith/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Tartarith/overworld_w0.png",
-      "images/creature/Tartarith/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    365,
-    410,
-    422
-  ],
-  "sources": [
-    {
-      "god": 7,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 36,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 604
+    "battleSprite":  "images/creature/Tartarith/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  7,
+    "id":  735,
+    "item":  null,
+    "lore":  "When Taylor\u0027s father arrived in the city, he was immediately arrested and taken to the Torture Chamber. His son had fun with him for hours, peeling off his skin, burning his face, pouring saltwater over him. Tartarith died in great pain and guilt. Then, the Nether Orbs that Taylor had set as per Vertraag\u0027s advice unleashed its power over his father. Tartarith breathed once more, but he was completely insane. Turned into a merciless God, he approached his son and said: I WILL NOT BE KILLED. NOW I KILL.",
+    "menagerieDialog":  [
+                            "WHAT YOU LOOKING AT.",
+                            "KILL. CUTE. THINGS.",
+                            "CHOP THEM IN THE BRAIN FOR A QUICK AND NOT-FUN DEATH.",
+                            "NOSE KEEPS RUNNING. NEED TISSUE. FAST.",
+                            "ALL KILL AND NO PLAY MAKES TARTARITH A DULL BOY."
+                        ],
+    "minDepth":  1,
+    "name":  "Tartarith",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Tartarith/overworld_e0.png",
+                                         "images/creature/Tartarith/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Tartarith/overworld_n0.png",
+                                          "images/creature/Tartarith/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Tartarith/overworld_s0.png",
+                                          "images/creature/Tartarith/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Tartarith/overworld_w0.png",
+                                         "images/creature/Tartarith/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  365,
+                  410,
+                  422
+              ],
+    "sources":  [
+                    {
+                        "god":  7,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  36,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  604,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

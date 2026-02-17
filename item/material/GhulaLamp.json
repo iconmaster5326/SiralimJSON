@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAtmosphere:\nAfter this creature {ACTION_provokes}, it {ACTION_casts} [icons,1980] Elemental Barrage.",
-  "icon": "images/item/material/GhulaLamp.png",
-  "id": 807,
-  "name": "Ghula Lamp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 834
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAtmosphere:\nAfter this creature {ACTION_provokes}, it {ACTION_casts} [icons,1980] Elemental Barrage.",
+    "icon":  "images/item/material/GhulaLamp.png",
+    "id":  807,
+    "name":  "Ghula Lamp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  834,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

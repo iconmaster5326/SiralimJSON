@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your {CLASS_Nature} creatures gain {CONDNAME_MINION_LEVIATHAN}.\\n\\n{CONDDESC_MINION_LEVIATHAN}",
-  "icon": "images/perk/SummonLeviathan.png",
-  "id": 552,
-  "maxRanks": 1,
-  "name": "Summon Leviathan",
-  "notes": [],
-  "pointsPerRank": 50,
-  "specialization": 35
+    "anointable":  true,
+    "description":  "At the start of battle, your {CLASS_Nature} creatures gain {CONDNAME_MINION_LEVIATHAN}.\\n\\n{CONDDESC_MINION_LEVIATHAN}",
+    "icon":  "images/perk/SummonLeviathan.png",
+    "id":  552,
+    "maxRanks":  1,
+    "name":  "Summon Leviathan",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  50,
+    "specialization":  35,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

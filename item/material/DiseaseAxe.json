@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImbue:\nYour creatures\u0027 [slot_stat] Stat Slots provide 15% more benefit. This trait does not stack.",
-  "icon": "images/item/material/DiseaseAxe.png",
-  "id": 430,
-  "name": "Disease Axe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 345
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImbue:\nYour creatures\u0027 [slot_stat] Stat Slots provide 15% more benefit. This trait does not stack.",
+    "icon":  "images/item/material/DiseaseAxe.png",
+    "id":  430,
+    "name":  "Disease Axe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  345,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

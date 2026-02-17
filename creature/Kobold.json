@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Kobold/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1163,
-  "item": 1545,
-  "lore": "As with lizardmen, Kobolds are integrated into Rodian society and live in many of its towns and all of its cities. However, unlike them, there are several underground settlements exclusively inhabited by these creatures. Mining is what the Kobolds who live in these places mostly do, but they are sadly often attacked by creatures from the surface who want to seize the precious minerals they extract. That is why all Kobolds living underground receive combat training, even if they choose not to become miners.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Kobold",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Kobold/overworld_e0.png",
-      "images/creature/Kobold/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Kobold/overworld_n0.png",
-      "images/creature/Kobold/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Kobold/overworld_s0.png",
-      "images/creature/Kobold/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Kobold/overworld_w0.png",
-      "images/creature/Kobold/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 39,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 1886
+    "battleSprite":  "images/creature/Kobold/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1163,
+    "item":  1545,
+    "lore":  "As with lizardmen, Kobolds are integrated into Rodian society and live in many of its towns and all of its cities. However, unlike them, there are several underground settlements exclusively inhabited by these creatures. Mining is what the Kobolds who live in these places mostly do, but they are sadly often attacked by creatures from the surface who want to seize the precious minerals they extract. That is why all Kobolds living underground receive combat training, even if they choose not to become miners.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Kobold",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Kobold/overworld_e0.png",
+                                         "images/creature/Kobold/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Kobold/overworld_n0.png",
+                                          "images/creature/Kobold/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Kobold/overworld_s0.png",
+                                          "images/creature/Kobold/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Kobold/overworld_w0.png",
+                                         "images/creature/Kobold/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  39,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  1886,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

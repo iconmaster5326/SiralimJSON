@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDrinking Game:\nAt the start of each enemy\u0027s turn, they have a 5% chance to be killed. This trait does not stack.",
-  "icon": "images/item/material/BottleofLagergoyle.png",
-  "id": 77,
-  "name": "Bottle of Lagergoyle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 996
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDrinking Game:\nAt the start of each enemy\u0027s turn, they have a 5% chance to be killed. This trait does not stack.",
+    "icon":  "images/item/material/BottleofLagergoyle.png",
+    "id":  77,
+    "name":  "Bottle of Lagergoyle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  996,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

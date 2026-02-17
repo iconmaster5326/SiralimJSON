@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/ClamorousCockatrice/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 817,
-  "item": 1048,
-  "lore": "Cockatrices are exotic birds that for centuries have inspired a multitude of stories in the different cultures of Rodia, specially regarding their origin.\\n\\nClamorous Cockatrices had to survive in the Cutthroat Jungle. Imitating a wide variety of sounds helps them drive away predators, attract prey, and trick other creatures into hunting for them so they can eat both hunter and prey.",
-  "menagerieDialog": [
-    "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
-    "(What a ridiculous looking, yet endearing creature.)",
-    "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
-    "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
-    "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
-  ],
-  "minDepth": 1,
-  "name": "Clamorous Cockatrice",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ClamorousCockatrice/overworld_e0.png",
-      "images/creature/ClamorousCockatrice/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ClamorousCockatrice/overworld_n0.png",
-      "images/creature/ClamorousCockatrice/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ClamorousCockatrice/overworld_s0.png",
-      "images/creature/ClamorousCockatrice/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ClamorousCockatrice/overworld_w0.png",
-      "images/creature/ClamorousCockatrice/overworld_w1.png"
-    ]
-  },
-  "race": "Cockatrice",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 10,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1080
+    "battleSprite":  "images/creature/ClamorousCockatrice/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  817,
+    "item":  1048,
+    "lore":  "Cockatrices are exotic birds that for centuries have inspired a multitude of stories in the different cultures of Rodia, specially regarding their origin.\\n\\nClamorous Cockatrices had to survive in the Cutthroat Jungle. Imitating a wide variety of sounds helps them drive away predators, attract prey, and trick other creatures into hunting for them so they can eat both hunter and prey.",
+    "menagerieDialog":  [
+                            "(It seems incredibly tired - something you never thought possible given its normally-obnoxious personality.)",
+                            "(What a ridiculous looking, yet endearing creature.)",
+                            "(Its eyes are crossed. Perhaps this is its strange way of meditating.)",
+                            "(It\u0027s preening its feathers, pulling out all manner of disgusting-looking parasites.)",
+                            "(This particular Cockatrice seems to be a cut above the rest. Though it may appear to be stupid, you can\u0027t help but sense its immense intellect.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Clamorous Cockatrice",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ClamorousCockatrice/overworld_e0.png",
+                                         "images/creature/ClamorousCockatrice/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ClamorousCockatrice/overworld_n0.png",
+                                          "images/creature/ClamorousCockatrice/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ClamorousCockatrice/overworld_s0.png",
+                                          "images/creature/ClamorousCockatrice/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ClamorousCockatrice/overworld_w0.png",
+                                         "images/creature/ClamorousCockatrice/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cockatrice",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  10,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1080,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

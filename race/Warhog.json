@@ -1,38 +1,41 @@
 {
-  "bossDialog": [
-    "(Rooting around in the treasure hoard, the Warhog looks up from it, pieces of half-chewed treasure stuck in its teeth. These ridiculous things will eat anything - including you, if you\u0027re not careful!)",
-    "(Suddenly woken up by your approach, the giant beast screeches at the top of its lungs as it rolls around trying to get up sending treasure flying everywhere. Attracted to the wealth on offer, more creatures show up to fight you for it!)",
-    "(The biggest eyeless pig you\u0027ve ever seen suddenly crashes through the wall and comes charging right at you! You\u0027re certainly glad there\u0027s only one, and not thirty to fifty of them.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures have a 3% chance to avoid damage from attacks.",
-    "4": "Your creatures have a 3% chance to avoid damage from spells.",
-    "6": "Your creatures have a 3% chance to avoid indirect damage."
-  },
-  "cards": 6,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    1231,
-    1232,
-    1233,
-    1234,
-    1235,
-    1236
-  ],
-  "icon": "images/race/Warhog.png",
-  "master": {
-    "costume": 688,
-    "dialog": "Warhogs afflict their unfortunate foes with all manner of deadly ailments. Then, they use their opponent\u0027s ailments to grow more powerful and ensure an easy victory. Prepare yourself!",
-    "item": 1509,
-    "name": "Zotar",
-    "trait": 1817
-  },
-  "name": "Warhog",
-  "notes": [],
-  "skins": [
-    635,
-    795,
-    796
-  ]
+    "bossDialog":  [
+                       "(Rooting around in the treasure hoard, the Warhog looks up from it, pieces of half-chewed treasure stuck in its teeth. These ridiculous things will eat anything - including you, if you\u0027re not careful!)",
+                       "(Suddenly woken up by your approach, the giant beast screeches at the top of its lungs as it rolls around trying to get up sending treasure flying everywhere. Attracted to the wealth on offer, more creatures show up to fight you for it!)",
+                       "(The biggest eyeless pig you\u0027ve ever seen suddenly crashes through the wall and comes charging right at you! You\u0027re certainly glad there\u0027s only one, and not thirty to fifty of them.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures have a 3% chance to avoid damage from attacks.",
+                        "4":  "Your creatures have a 3% chance to avoid damage from spells.",
+                        "6":  "Your creatures have a 3% chance to avoid indirect damage."
+                    },
+    "cards":  6,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      1231,
+                      1232,
+                      1233,
+                      1234,
+                      1235,
+                      1236
+                  ],
+    "icon":  "images/race/Warhog.png",
+    "master":  {
+                   "costume":  688,
+                   "dialog":  "Warhogs afflict their unfortunate foes with all manner of deadly ailments. Then, they use their opponent\u0027s ailments to grow more powerful and ensure an easy victory. Prepare yourself!",
+                   "item":  1509,
+                   "name":  "Zotar",
+                   "trait":  1817
+               },
+    "name":  "Warhog",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  635,
+                  795,
+                  796
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

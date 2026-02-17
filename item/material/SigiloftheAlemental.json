@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Alementals:\nAt the start of battle, your {RACE_Alemental}s gain 2 random {SPELL_alcohol}s for each {RACE_Alemental} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheAlemental.png",
-  "id": 1176,
-  "name": "Sigil of the Alemental",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1393
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Alementals:\nAt the start of battle, your {RACE_Alemental}s gain 2 random {SPELL_alcohol}s for each {RACE_Alemental} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheAlemental.png",
+    "id":  1176,
+    "name":  "Sigil of the Alemental",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1393,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

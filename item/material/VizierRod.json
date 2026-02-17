@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFanaticism:\nAt the start of this creature\u0027s turn, it grants your creatures 1 random buff.",
-  "icon": "images/item/material/VizierRod.png",
-  "id": 122,
-  "name": "Vizier Rod",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 31
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFanaticism:\nAt the start of this creature\u0027s turn, it grants your creatures 1 random buff.",
+    "icon":  "images/item/material/VizierRod.png",
+    "id":  122,
+    "name":  "Vizier Rod",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

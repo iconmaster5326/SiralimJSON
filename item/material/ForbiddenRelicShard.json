@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nObey:\nAfter this creature {ACTION_attacks} or {ACTION_casts} a spell, your creatures of the same class {ACTION_provoke} and gain {CONDNAME_BUFF_SHELL}. This trait does not stack.",
-  "icon": "images/item/material/ForbiddenRelicShard.png",
-  "id": 1844,
-  "name": "Forbidden Relic Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2009
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nObey:\nAfter this creature {ACTION_attacks} or {ACTION_casts} a spell, your creatures of the same class {ACTION_provoke} and gain {CONDNAME_BUFF_SHELL}. This trait does not stack.",
+    "icon":  "images/item/material/ForbiddenRelicShard.png",
+    "id":  1844,
+    "name":  "Forbidden Relic Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2009,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

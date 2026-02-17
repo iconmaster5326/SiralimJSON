@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/SeasonsBeatings/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 381,
-  "name": "Season\u0027s Beatings",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/SeasonsBeatings/overworld_e0.png",
-      "images/skin/SeasonsBeatings/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/SeasonsBeatings/overworld_n0.png",
-      "images/skin/SeasonsBeatings/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/SeasonsBeatings/overworld_s0.png",
-      "images/skin/SeasonsBeatings/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/SeasonsBeatings/overworld_w0.png",
-      "images/skin/SeasonsBeatings/overworld_w1.png"
-    ]
-  },
-  "race": "Yeti",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/SeasonsBeatings/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  381,
+    "name":  "Season\u0027s Beatings",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/SeasonsBeatings/overworld_e0.png",
+                                         "images/skin/SeasonsBeatings/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/SeasonsBeatings/overworld_n0.png",
+                                          "images/skin/SeasonsBeatings/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/SeasonsBeatings/overworld_s0.png",
+                                          "images/skin/SeasonsBeatings/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/SeasonsBeatings/overworld_w0.png",
+                                         "images/skin/SeasonsBeatings/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Yeti",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

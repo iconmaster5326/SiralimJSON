@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Wisps:\nIf all the creatures in your party are {RACE_Wisp}s, they have a 25% chance to avoid damage and gain {CONDNAME_BUFF_SHELL} at the start of their turns. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheWisp.png",
-  "id": 1187,
-  "name": "Sigil of the Wisp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1516
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Wisps:\nIf all the creatures in your party are {RACE_Wisp}s, they have a 25% chance to avoid damage and gain {CONDNAME_BUFF_SHELL} at the start of their turns. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheWisp.png",
+    "id":  1187,
+    "name":  "Sigil of the Wisp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1516,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

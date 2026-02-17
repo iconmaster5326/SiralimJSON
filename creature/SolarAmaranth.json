@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SolarAmaranth/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 779,
-  "item": 7,
-  "lore": "Like the rest of the Amaranths, this creature only responds with violence when it is in danger. By concentrating, it can summon fire from anywhere in the world and use it against whoever is trying to harm it. Milner and Helmholtz, two legendary Magi who managed to overcome death, have noticed how the Amaranths have become more restless with the passage of centuries, and sightings of them have increased. However, they have not yet found an explanation for this mystery.",
-  "menagerieDialog": [
-    "(You can\u0027t seem to catch its attention at all...)",
-    "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
-    "(It seems to be highly observant of its surroundings.)",
-    "(It\u0027s spinning around on its side. Pretty cool, really.)",
-    "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
-  ],
-  "minDepth": 1,
-  "name": "Solar Amaranth",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SolarAmaranth/overworld_e0.png",
-      "images/creature/SolarAmaranth/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SolarAmaranth/overworld_n0.png",
-      "images/creature/SolarAmaranth/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SolarAmaranth/overworld_s0.png",
-      "images/creature/SolarAmaranth/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SolarAmaranth/overworld_w0.png",
-      "images/creature/SolarAmaranth/overworld_w1.png"
-    ]
-  },
-  "race": "Amaranth",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Chaos Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 25,
-    "health": 40,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 1035
+    "battleSprite":  "images/creature/SolarAmaranth/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  779,
+    "item":  7,
+    "lore":  "Like the rest of the Amaranths, this creature only responds with violence when it is in danger. By concentrating, it can summon fire from anywhere in the world and use it against whoever is trying to harm it. Milner and Helmholtz, two legendary Magi who managed to overcome death, have noticed how the Amaranths have become more restless with the passage of centuries, and sightings of them have increased. However, they have not yet found an explanation for this mystery.",
+    "menagerieDialog":  [
+                            "(You can\u0027t seem to catch its attention at all...)",
+                            "(Such a mysterious creature. You suspect you\u0027ll never fully understand them.)",
+                            "(It seems to be highly observant of its surroundings.)",
+                            "(It\u0027s spinning around on its side. Pretty cool, really.)",
+                            "(Its inability to blink unsettles you. Its lonely eye constantly scans up and down, left and right - as if it\u0027s always searching for something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Solar Amaranth",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SolarAmaranth/overworld_e0.png",
+                                         "images/creature/SolarAmaranth/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SolarAmaranth/overworld_n0.png",
+                                          "images/creature/SolarAmaranth/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SolarAmaranth/overworld_s0.png",
+                                          "images/creature/SolarAmaranth/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SolarAmaranth/overworld_w0.png",
+                                         "images/creature/SolarAmaranth/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Amaranth",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Chaos Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  25,
+                       "health":  40,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  1035,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

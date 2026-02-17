@@ -1,51 +1,60 @@
 {
-  "battleSprite": "images/creature/Structicon/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1361,
-  "item": null,
-  "lore": "Lord Construct\u00E2\u20AC\u201Da magnificent creation, or so the exiled scientist thought. He sought to replicate a relentless killing machine and succeeded with Structicon. However, the machine\u0027s growing intelligence soon turned against its creator. Instead of obeying the scientist, Structicon eliminated him and went on a search for the only being who could command it; a False God capable of eradicating all its enemies.",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Structicon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Structicon/overworld_e0.png",
-      "images/creature/Structicon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Structicon/overworld_n0.png",
-      "images/creature/Structicon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Structicon/overworld_s0.png",
-      "images/creature/Structicon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Structicon/overworld_w0.png",
-      "images/creature/Structicon/overworld_w1.png"
-    ]
-  },
-  "race": "False Godspawn",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 25,
-    "health": 38,
-    "intelligence": 20,
-    "speed": 17
-  },
-  "trait": 2099
+    "battleSprite":  "images/creature/Structicon/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1361,
+    "item":  null,
+    "lore":  "Lord Construct—a magnificent creation, or so the exiled scientist thought. He sought to replicate a relentless killing machine and succeeded with Structicon. However, the machine\u0027s growing intelligence soon turned against its creator. Instead of obeying the scientist, Structicon eliminated him and went on a search for the only being who could command it; a False God capable of eradicating all its enemies.",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Structicon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Structicon/overworld_e0.png",
+                                         "images/creature/Structicon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Structicon/overworld_n0.png",
+                                          "images/creature/Structicon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Structicon/overworld_s0.png",
+                                          "images/creature/Structicon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Structicon/overworld_w0.png",
+                                         "images/creature/Structicon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "False Godspawn",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  25,
+                       "health":  38,
+                       "intelligence":  20,
+                       "speed":  17
+                   },
+    "trait":  2099,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

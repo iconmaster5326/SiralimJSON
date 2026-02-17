@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRime:\nThis creature\u0027s attacks deal 75% more damage and afflict the target with {CONDNAME_DEBUFF_FROZEN}.",
-  "icon": "images/item/material/IcewoundClaymore.png",
-  "id": 98,
-  "name": "Icewound Claymore",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 7
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRime:\nThis creature\u0027s attacks deal 75% more damage and afflict the target with {CONDNAME_DEBUFF_FROZEN}.",
+    "icon":  "images/item/material/IcewoundClaymore.png",
+    "id":  98,
+    "name":  "Icewound Claymore",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  7,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

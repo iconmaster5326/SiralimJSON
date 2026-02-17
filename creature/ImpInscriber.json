@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ImpInscriber/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 26,
-  "item": 565,
-  "lore": "Imps love hallucinogenic fruits, although their diet also includes mushrooms of any size, insects, and even dangerous creatures that they hunt in groups.\\n\\nThe Imp Inscriber does not really know what its tablets say. The symbols simply appear mysteriously on their surface when it stores the magic of its allies. Until the blue light is consumed, these stones act as generators that constantly energize its peers.",
-  "menagerieDialog": [
-    "Got any more of them feel-goods?",
-    "We go visit Torun and spit on altar! Go now!",
-    "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
-    "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
-    "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
-  ],
-  "minDepth": 1,
-  "name": "Imp Inscriber",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ImpInscriber/overworld_e0.png",
-      "images/creature/ImpInscriber/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ImpInscriber/overworld_n0.png",
-      "images/creature/ImpInscriber/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ImpInscriber/overworld_s0.png",
-      "images/creature/ImpInscriber/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ImpInscriber/overworld_w0.png",
-      "images/creature/ImpInscriber/overworld_w1.png"
-    ]
-  },
-  "race": "Imp",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 15,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 29,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 479
+    "battleSprite":  "images/creature/ImpInscriber/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  26,
+    "item":  565,
+    "lore":  "Imps love hallucinogenic fruits, although their diet also includes mushrooms of any size, insects, and even dangerous creatures that they hunt in groups.\\n\\nThe Imp Inscriber does not really know what its tablets say. The symbols simply appear mysteriously on their surface when it stores the magic of its allies. Until the blue light is consumed, these stones act as generators that constantly energize its peers.",
+    "menagerieDialog":  [
+                            "Got any more of them feel-goods?",
+                            "We go visit Torun and spit on altar! Go now!",
+                            "We go to war... without crab helmets? No, no. Stupid. Very stupid.",
+                            "(It\u0027s wearing a crab on its head while eating a bunch of mushrooms, many of which are sure to be poisonous.)",
+                            "Step one, take feelgood of choice. Step two, mash in hands. Step three, eat. Step four, enjoy!"
+                        ],
+    "minDepth":  1,
+    "name":  "Imp Inscriber",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ImpInscriber/overworld_e0.png",
+                                         "images/creature/ImpInscriber/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ImpInscriber/overworld_n0.png",
+                                          "images/creature/ImpInscriber/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ImpInscriber/overworld_s0.png",
+                                          "images/creature/ImpInscriber/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ImpInscriber/overworld_w0.png",
+                                         "images/creature/ImpInscriber/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Imp",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  15,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  29,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  479,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

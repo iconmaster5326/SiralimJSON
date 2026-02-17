@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeathwalker\u0027s Strangulation:\nWhen an enemy takes damage from {CONDNAME_DEBUFF_POISON}, it has a 50% chance to take this damage a second time. This effect can repeat multiple times in a row.",
-  "icon": "images/item/material/DeathwalkersGem.png",
-  "id": 649,
-  "name": "Deathwalker\u0027s Gem",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 560
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeathwalker\u0027s Strangulation:\nWhen an enemy takes damage from {CONDNAME_DEBUFF_POISON}, it has a 50% chance to take this damage a second time. This effect can repeat multiple times in a row.",
+    "icon":  "images/item/material/DeathwalkersGem.png",
+    "id":  649,
+    "name":  "Deathwalker\u0027s Gem",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  560,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

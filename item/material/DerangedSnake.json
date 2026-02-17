@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlink:\nThis creature\u0027s attacks deal 75% more damage and afflict the target with {CONDNAME_DEBUFF_STONE}.",
-  "icon": "images/item/material/DerangedSnake.png",
-  "id": 465,
-  "name": "Deranged Snake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 379
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlink:\nThis creature\u0027s attacks deal 75% more damage and afflict the target with {CONDNAME_DEBUFF_STONE}.",
+    "icon":  "images/item/material/DerangedSnake.png",
+    "id":  465,
+    "name":  "Deranged Snake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  379,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

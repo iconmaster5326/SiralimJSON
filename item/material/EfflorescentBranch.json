@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlack Lotus:\nYour creatures take 40% less damage while they have {CONDNAME_BUFF_MEND}. This trait does not stack.",
-  "icon": "images/item/material/EfflorescentBranch.png",
-  "id": 815,
-  "name": "Efflorescent Branch",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 842
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBlack Lotus:\nYour creatures take 40% less damage while they have {CONDNAME_BUFF_MEND}. This trait does not stack.",
+    "icon":  "images/item/material/EfflorescentBranch.png",
+    "id":  815,
+    "name":  "Efflorescent Branch",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  842,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

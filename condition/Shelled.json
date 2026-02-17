@@ -1,11 +1,14 @@
 {
-  "description": "{CONDNAME_BUFF_SHELL} negates the next incoming attack or spell.",
-  "icon": "images/condition/Shelled.png",
-  "iconResisted": null,
-  "id": 13,
-  "material": 21,
-  "name": "Shelled",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "{CONDNAME_BUFF_SHELL} negates the next incoming attack or spell.",
+    "icon":  "images/condition/Shelled.png",
+    "iconResisted":  null,
+    "id":  13,
+    "material":  21,
+    "name":  "Shelled",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

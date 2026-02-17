@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(It tries to mumble something at you, but its mouths have been stitched shut. This poor creature\u0027s death can surely only be a release from its torment.)",
-    "WE... MUST... GUARD. WE... SORRY.",
-    "YOU... NO... TALK... TO ME... OR MY PLUSH... EVER AGAIN..."
-  ],
-  "cardBonuses": {
-    "2": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} take 15% more damage.",
-    "5": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} have a 10% lower chance to Dodge.",
-    "8": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} gain 35% less healing from all sources."
-  },
-  "cards": 8,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    560,
-    561,
-    562,
-    563,
-    564,
-    565,
-    684,
-    756
-  ],
-  "icon": "images/race/Abomination.png",
-  "master": {
-    "costume": 291,
-    "dialog": "Abominations excel at exploiting the weak and vulnerable. Let me show you how it\u0027s done!",
-    "item": 1182,
-    "name": "Gilbert",
-    "trait": 1392
-  },
-  "name": "Abomination",
-  "notes": [],
-  "skins": [
-    206,
-    208,
-    617
-  ]
+    "bossDialog":  [
+                       "(It tries to mumble something at you, but its mouths have been stitched shut. This poor creature\u0027s death can surely only be a release from its torment.)",
+                       "WE... MUST... GUARD. WE... SORRY.",
+                       "YOU... NO... TALK... TO ME... OR MY PLUSH... EVER AGAIN..."
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies with {CONDNAME_DEBUFF_VULNERABLE} take 15% more damage.",
+                        "5":  "Enemies with {CONDNAME_DEBUFF_VULNERABLE} have a 10% lower chance to Dodge.",
+                        "8":  "Enemies with {CONDNAME_DEBUFF_VULNERABLE} gain 35% less healing from all sources."
+                    },
+    "cards":  8,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      560,
+                      561,
+                      562,
+                      563,
+                      564,
+                      565,
+                      684,
+                      756
+                  ],
+    "icon":  "images/race/Abomination.png",
+    "master":  {
+                   "costume":  291,
+                   "dialog":  "Abominations excel at exploiting the weak and vulnerable. Let me show you how it\u0027s done!",
+                   "item":  1182,
+                   "name":  "Gilbert",
+                   "trait":  1392
+               },
+    "name":  "Abomination",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  206,
+                  208,
+                  617
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

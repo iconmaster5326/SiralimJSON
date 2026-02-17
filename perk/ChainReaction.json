@@ -1,11 +1,14 @@
 {
-  "anointable": false,
-  "description": "After an enemy takes damage from {CONDNAME_DEBUFF_BOMB}, all other enemies take this damage as well.",
-  "icon": "images/perk/ChainReaction.png",
-  "id": 579,
-  "maxRanks": 1,
-  "name": "Chain Reaction",
-  "notes": [],
-  "pointsPerRank": 1,
-  "specialization": 36
+    "anointable":  false,
+    "description":  "After an enemy takes damage from {CONDNAME_DEBUFF_BOMB}, all other enemies take this damage as well.",
+    "icon":  "images/perk/ChainReaction.png",
+    "id":  579,
+    "maxRanks":  1,
+    "name":  "Chain Reaction",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  1,
+    "specialization":  36,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

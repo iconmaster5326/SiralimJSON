@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBottom Feeder:\nYour creatures\u0027 Scourge spells also afflict the target with a debuff that is based on the type of Scourge spell that is cast. This trait does not stack.",
-  "icon": "images/item/material/ViridianCarrot.png",
-  "id": 621,
-  "name": "Viridian Carrot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 533
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBottom Feeder:\nYour creatures\u0027 Scourge spells also afflict the target with a debuff that is based on the type of Scourge spell that is cast. This trait does not stack.",
+    "icon":  "images/item/material/ViridianCarrot.png",
+    "id":  621,
+    "name":  "Viridian Carrot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  533,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

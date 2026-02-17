@@ -1,29 +1,32 @@
 {
-  "creator": null,
-  "id": 168,
-  "name": "Student",
-  "notes": [],
-  "sources": [
-    {
-      "type": "everett"
-    }
-  ],
-  "sprite": {
-    "east": [
-      "images/costume/Student/overworld_e0.png",
-      "images/costume/Student/overworld_e1.png"
-    ],
-    "north": [
-      "images/costume/Student/overworld_n0.png",
-      "images/costume/Student/overworld_n1.png"
-    ],
-    "south": [
-      "images/costume/Student/overworld_s0.png",
-      "images/costume/Student/overworld_s1.png"
-    ],
-    "west": [
-      "images/costume/Student/overworld_w0.png",
-      "images/costume/Student/overworld_w1.png"
-    ]
-  }
+    "creator":  null,
+    "id":  168,
+    "name":  "Student",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "everett"
+                    }
+                ],
+    "sprite":  {
+                   "east":  [
+                                "images/costume/Student/overworld_e0.png",
+                                "images/costume/Student/overworld_e1.png"
+                            ],
+                   "north":  [
+                                 "images/costume/Student/overworld_n0.png",
+                                 "images/costume/Student/overworld_n1.png"
+                             ],
+                   "south":  [
+                                 "images/costume/Student/overworld_s0.png",
+                                 "images/costume/Student/overworld_s1.png"
+                             ],
+                   "west":  [
+                                "images/costume/Student/overworld_w0.png",
+                                "images/costume/Student/overworld_w1.png"
+                            ]
+               },
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/costume.yaml"
 }

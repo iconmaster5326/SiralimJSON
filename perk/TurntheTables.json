@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures manually {ACTION_cast} an {SPELL_equipment}, they {ACTION_attack} a random enemy for 50% more damage.",
-  "icon": "images/perk/TurntheTables.png",
-  "id": 592,
-  "maxRanks": 1,
-  "name": "Turn the Tables",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 39
+    "anointable":  true,
+    "description":  "After your creatures manually {ACTION_cast} an {SPELL_equipment}, they {ACTION_attack} a random enemy for 50% more damage.",
+    "icon":  "images/perk/TurntheTables.png",
+    "id":  592,
+    "maxRanks":  1,
+    "name":  "Turn the Tables",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  39,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

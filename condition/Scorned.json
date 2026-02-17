@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_DEBUFF_SCORN} cannot attack. Overwrites {CONDNAME_DEBUFF_SILENCE}.",
-  "icon": "images/condition/Scorned.png",
-  "iconResisted": "images/condition/Scorned_resist.png",
-  "id": 23,
-  "material": null,
-  "name": "Scorned",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "Creatures with {CONDNAME_DEBUFF_SCORN} cannot attack. Overwrites {CONDNAME_DEBUFF_SILENCE}.",
+    "icon":  "images/condition/Scorned.png",
+    "iconResisted":  "images/condition/Scorned_resist.png",
+    "id":  23,
+    "material":  null,
+    "name":  "Scorned",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

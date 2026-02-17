@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SphinxAvenger/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 418,
-  "item": 187,
-  "lore": "Sphinxes arrived in the Kaito Empire after the first pyramids were built. They presented themselves as divine, majestic creatures, and they knew how to use magic better than anyone else. At the same time, Sphinxes learned some things from humans.\\n\\nThe Sphinx Avenger watched the royal guard and learned how to use weapons to avoid exposing its face and claws in hand-to-hand combat.",
-  "menagerieDialog": [
-    "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
-    "Let us take our leave and fight for glory!",
-    "Things are not always as they seem. My advice to you is to question everything.",
-    "This menagerie is not a worthy living space for someone of my caliber. Do better.",
-    "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
-  ],
-  "minDepth": 1,
-  "name": "Sphinx Avenger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SphinxAvenger/overworld_e0.png",
-      "images/creature/SphinxAvenger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SphinxAvenger/overworld_n0.png",
-      "images/creature/SphinxAvenger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SphinxAvenger/overworld_s0.png",
-      "images/creature/SphinxAvenger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SphinxAvenger/overworld_w0.png",
-      "images/creature/SphinxAvenger/overworld_w1.png"
-    ]
-  },
-  "race": "Sphinx",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Yseros)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 9,
-    "health": 37,
-    "intelligence": 19,
-    "speed": 19
-  },
-  "trait": 97
+    "battleSprite":  "images/creature/SphinxAvenger/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  418,
+    "item":  187,
+    "lore":  "Sphinxes arrived in the Kaito Empire after the first pyramids were built. They presented themselves as divine, majestic creatures, and they knew how to use magic better than anyone else. At the same time, Sphinxes learned some things from humans.\\n\\nThe Sphinx Avenger watched the royal guard and learned how to use weapons to avoid exposing its face and claws in hand-to-hand combat.",
+    "menagerieDialog":  [
+                            "There are many books I\u0027d like to read. Can we visit the kingdom library later on?",
+                            "Let us take our leave and fight for glory!",
+                            "Things are not always as they seem. My advice to you is to question everything.",
+                            "This menagerie is not a worthy living space for someone of my caliber. Do better.",
+                            "These constant battles make for a difficult life. I am unsure about how long I can continue on this way."
+                        ],
+    "minDepth":  1,
+    "name":  "Sphinx Avenger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SphinxAvenger/overworld_e0.png",
+                                         "images/creature/SphinxAvenger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SphinxAvenger/overworld_n0.png",
+                                          "images/creature/SphinxAvenger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SphinxAvenger/overworld_s0.png",
+                                          "images/creature/SphinxAvenger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SphinxAvenger/overworld_w0.png",
+                                         "images/creature/SphinxAvenger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sphinx",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Yseros)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  9,
+                       "health":  37,
+                       "intelligence":  19,
+                       "speed":  19
+                   },
+    "trait":  97,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

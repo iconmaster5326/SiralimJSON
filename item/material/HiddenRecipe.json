@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nValiant Heart:\nYour creatures {ACTION_attack} and {ACTION_cast} 1 additional time for each creature with the same secondary Fusion fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/HiddenRecipe.png",
-  "id": 1586,
-  "name": "Hidden Recipe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1924
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nValiant Heart:\nYour creatures {ACTION_attack} and {ACTION_cast} 1 additional time for each creature with the same secondary Fusion fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/HiddenRecipe.png",
+    "id":  1586,
+    "name":  "Hidden Recipe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1924,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

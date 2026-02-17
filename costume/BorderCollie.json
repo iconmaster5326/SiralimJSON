@@ -1,29 +1,32 @@
 {
-  "creator": null,
-  "id": 535,
-  "name": "Border Collie",
-  "notes": [],
-  "sources": [
-    {
-      "type": "everett"
-    }
-  ],
-  "sprite": {
-    "east": [
-      "images/costume/BorderCollie/overworld_e0.png",
-      "images/costume/BorderCollie/overworld_e1.png"
-    ],
-    "north": [
-      "images/costume/BorderCollie/overworld_n0.png",
-      "images/costume/BorderCollie/overworld_n1.png"
-    ],
-    "south": [
-      "images/costume/BorderCollie/overworld_s0.png",
-      "images/costume/BorderCollie/overworld_s1.png"
-    ],
-    "west": [
-      "images/costume/BorderCollie/overworld_w0.png",
-      "images/costume/BorderCollie/overworld_w1.png"
-    ]
-  }
+    "creator":  null,
+    "id":  535,
+    "name":  "Border Collie",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "everett"
+                    }
+                ],
+    "sprite":  {
+                   "east":  [
+                                "images/costume/BorderCollie/overworld_e0.png",
+                                "images/costume/BorderCollie/overworld_e1.png"
+                            ],
+                   "north":  [
+                                 "images/costume/BorderCollie/overworld_n0.png",
+                                 "images/costume/BorderCollie/overworld_n1.png"
+                             ],
+                   "south":  [
+                                 "images/costume/BorderCollie/overworld_s0.png",
+                                 "images/costume/BorderCollie/overworld_s1.png"
+                             ],
+                   "west":  [
+                                "images/costume/BorderCollie/overworld_w0.png",
+                                "images/costume/BorderCollie/overworld_w1.png"
+                            ]
+               },
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/costume.yaml"
 }

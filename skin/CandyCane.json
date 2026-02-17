@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/CandyCane/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 379,
-  "name": "Candy Cane",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/CandyCane/overworld_e0.png",
-      "images/skin/CandyCane/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/CandyCane/overworld_n0.png",
-      "images/skin/CandyCane/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/CandyCane/overworld_s0.png",
-      "images/skin/CandyCane/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/CandyCane/overworld_w0.png",
-      "images/skin/CandyCane/overworld_w1.png"
-    ]
-  },
-  "race": "Priest",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/CandyCane/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  379,
+    "name":  "Candy Cane",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/CandyCane/overworld_e0.png",
+                                         "images/skin/CandyCane/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/CandyCane/overworld_n0.png",
+                                          "images/skin/CandyCane/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/CandyCane/overworld_s0.png",
+                                          "images/skin/CandyCane/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/CandyCane/overworld_w0.png",
+                                         "images/skin/CandyCane/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Priest",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

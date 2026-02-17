@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ToxdwellerBloodbather/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 923,
-  "item": 949,
-  "lore": "Mikhail was the most famous hitman on the other side of the Veil, on a continent where magic could not develop, which the Gods separated from the rest of the world. When he turned 55, he was recruited by the Auditors and became Eve, one of their most dangerous agents.\\n\\nToxdwellers feed on the nuclear waste produced by the experiments carried out in the Caustic Reactor. After the first outsiders reached this realm, Venedon thought it would be a good idea to equip these creatures with extra weapons, such as the stinger he gave the Toxdweller Bloodbather.",
-  "menagerieDialog": [
-    "(It\u0027s staring thoughtfully at a bomb.)",
-    "(It never blinks. Ever. It\u0027s very creepy.)",
-    "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
-    "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
-    "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
-  ],
-  "minDepth": 1,
-  "name": "Toxdweller Bloodbather",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ToxdwellerBloodbather/overworld_e0.png",
-      "images/creature/ToxdwellerBloodbather/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ToxdwellerBloodbather/overworld_n0.png",
-      "images/creature/ToxdwellerBloodbather/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ToxdwellerBloodbather/overworld_s0.png",
-      "images/creature/ToxdwellerBloodbather/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ToxdwellerBloodbather/overworld_w0.png",
-      "images/creature/ToxdwellerBloodbather/overworld_w1.png"
-    ]
-  },
-  "race": "Toxdweller",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Venedon)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 26
-  },
-  "trait": 1185
+    "battleSprite":  "images/creature/ToxdwellerBloodbather/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  923,
+    "item":  949,
+    "lore":  "Mikhail was the most famous hitman on the other side of the Veil, on a continent where magic could not develop, which the Gods separated from the rest of the world. When he turned 55, he was recruited by the Auditors and became Eve, one of their most dangerous agents.\\n\\nToxdwellers feed on the nuclear waste produced by the experiments carried out in the Caustic Reactor. After the first outsiders reached this realm, Venedon thought it would be a good idea to equip these creatures with extra weapons, such as the stinger he gave the Toxdweller Bloodbather.",
+    "menagerieDialog":  [
+                            "(It\u0027s staring thoughtfully at a bomb.)",
+                            "(It never blinks. Ever. It\u0027s very creepy.)",
+                            "(It doesn\u0027t have eyelids, which instantly makes it one of the most disconcerting creatures in the entire Menagerie.)",
+                            "(This creature reminds you of Spoonor, so you can\u0027t help but treat it a little worse than the others.)",
+                            "(It\u0027s eating some disgusting-looking muck that it apparently found on the ground. Weirdo.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Toxdweller Bloodbather",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ToxdwellerBloodbather/overworld_e0.png",
+                                         "images/creature/ToxdwellerBloodbather/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ToxdwellerBloodbather/overworld_n0.png",
+                                          "images/creature/ToxdwellerBloodbather/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ToxdwellerBloodbather/overworld_s0.png",
+                                          "images/creature/ToxdwellerBloodbather/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ToxdwellerBloodbather/overworld_w0.png",
+                                         "images/creature/ToxdwellerBloodbather/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Toxdweller",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Venedon)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  26
+                   },
+    "trait":  1185,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

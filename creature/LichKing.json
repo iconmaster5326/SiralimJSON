@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LichKing/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 125,
-  "item": 209,
-  "lore": "Sovereign of the great Lich hordes, it served the Lich Necromancer even in life. It dislikes fighting because, after all, it wears a crown over its skull and has a title of nobility. Although the title has been obsolete for centuries and never meant much, it is still very important to the Lich King, who never stops dreaming about the promises of power the Necromancer made to it.",
-  "menagerieDialog": [
-    "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
-    "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
-    "Knowledge is power, and I have a lot.",
-    "The ancient evil survives.",
-    "We must seek out the Necronomicon. With it, my true power will be realized."
-  ],
-  "minDepth": 1,
-  "name": "Lich King",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LichKing/overworld_e0.png",
-      "images/creature/LichKing/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LichKing/overworld_n0.png",
-      "images/creature/LichKing/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LichKing/overworld_s0.png",
-      "images/creature/LichKing/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LichKing/overworld_w0.png",
-      "images/creature/LichKing/overworld_w1.png"
-    ]
-  },
-  "race": "Lich",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 31,
-    "intelligence": 28,
-    "speed": 23
-  },
-  "trait": 118
+    "battleSprite":  "images/creature/LichKing/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  125,
+    "item":  209,
+    "lore":  "Sovereign of the great Lich hordes, it served the Lich Necromancer even in life. It dislikes fighting because, after all, it wears a crown over its skull and has a title of nobility. Although the title has been obsolete for centuries and never meant much, it is still very important to the Lich King, who never stops dreaming about the promises of power the Necromancer made to it.",
+    "menagerieDialog":  [
+                            "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
+                            "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
+                            "Knowledge is power, and I have a lot.",
+                            "The ancient evil survives.",
+                            "We must seek out the Necronomicon. With it, my true power will be realized."
+                        ],
+    "minDepth":  1,
+    "name":  "Lich King",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LichKing/overworld_e0.png",
+                                         "images/creature/LichKing/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LichKing/overworld_n0.png",
+                                          "images/creature/LichKing/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LichKing/overworld_s0.png",
+                                          "images/creature/LichKing/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LichKing/overworld_w0.png",
+                                         "images/creature/LichKing/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Lich",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  31,
+                       "intelligence":  28,
+                       "speed":  23
+                   },
+    "trait":  118,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

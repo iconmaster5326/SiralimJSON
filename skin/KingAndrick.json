@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/KingAndrick/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 43,
-  "name": "King Andrick",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/KingAndrick/overworld_e0.png",
-      "images/skin/KingAndrick/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/KingAndrick/overworld_n0.png",
-      "images/skin/KingAndrick/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/KingAndrick/overworld_s0.png",
-      "images/skin/KingAndrick/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/KingAndrick/overworld_w0.png",
-      "images/skin/KingAndrick/overworld_w1.png"
-    ]
-  },
-  "race": "Lich",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/KingAndrick/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  43,
+    "name":  "King Andrick",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/KingAndrick/overworld_e0.png",
+                                         "images/skin/KingAndrick/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/KingAndrick/overworld_n0.png",
+                                          "images/skin/KingAndrick/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/KingAndrick/overworld_s0.png",
+                                          "images/skin/KingAndrick/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/KingAndrick/overworld_w0.png",
+                                         "images/skin/KingAndrick/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Lich",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

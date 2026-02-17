@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEgg Flourish-tine:\nThis creature always has {CONDNAME_BUFF_LEECH}. Your {RACE_Eggxotic} creatures always have {CONDNAME_BUFF_BERSERK}.",
-  "icon": "images/item/material/CommanderEggshell.png",
-  "id": 1796,
-  "name": "Commander Eggshell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2149
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEgg Flourish-tine:\nThis creature always has {CONDNAME_BUFF_LEECH}. Your {RACE_Eggxotic} creatures always have {CONDNAME_BUFF_BERSERK}.",
+    "icon":  "images/item/material/CommanderEggshell.png",
+    "id":  1796,
+    "name":  "Commander Eggshell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2149,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

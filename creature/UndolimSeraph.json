@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/UndolimSeraph/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 426,
-  "item": 145,
-  "lore": "The Unification War had begun. That which Surathli feared most was unfolding before her eyes, inexorably, endangering all her hopes.\\n\\nSeraphs are incredibly long-lived, but they cannot reproduce without the blessing of Surathli. When she gives it, a new Seraph is immediately conceived as a sphere of light that grows and takes shape for twenty-three months.\\n\\nThe Undolim Seraph is the most merciful of its siblings and always cares for them. It detests violence and, if possible, it will not spill a single drop of blood. Protecting the innocent is what matters most to it, so it will not hesitate to join a battle if Rodia\u0027s peace is in danger.",
-  "menagerieDialog": [
-    "Long past are the days when we brandished our swords for a real cause... Have you even tried speaking with your enemy before resorting to violence?",
-    "Trust no one. Even the gods are known for their paper-thin allegiances.",
-    "When a kingdom falls, its Seraph is destroyed as well. Perhaps humans should think twice before blindly heading to war with each other.",
-    "I am proud to serve under the {CASTLENAME} banner. Thank you for having me.",
-    "I find it difficult to trust humans. Do not let me down."
-  ],
-  "minDepth": 1,
-  "name": "Undolim Seraph",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/UndolimSeraph/overworld_e0.png",
-      "images/creature/UndolimSeraph/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/UndolimSeraph/overworld_n0.png",
-      "images/creature/UndolimSeraph/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/UndolimSeraph/overworld_s0.png",
-      "images/creature/UndolimSeraph/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/UndolimSeraph/overworld_w0.png",
-      "images/creature/UndolimSeraph/overworld_w1.png"
-    ]
-  },
-  "race": "Seraph",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Muse)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 32,
-    "intelligence": 22,
-    "speed": 12
-  },
-  "trait": 55
+    "battleSprite":  "images/creature/UndolimSeraph/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  426,
+    "item":  145,
+    "lore":  "The Unification War had begun. That which Surathli feared most was unfolding before her eyes, inexorably, endangering all her hopes.\\n\\nSeraphs are incredibly long-lived, but they cannot reproduce without the blessing of Surathli. When she gives it, a new Seraph is immediately conceived as a sphere of light that grows and takes shape for twenty-three months.\\n\\nThe Undolim Seraph is the most merciful of its siblings and always cares for them. It detests violence and, if possible, it will not spill a single drop of blood. Protecting the innocent is what matters most to it, so it will not hesitate to join a battle if Rodia\u0027s peace is in danger.",
+    "menagerieDialog":  [
+                            "Long past are the days when we brandished our swords for a real cause... Have you even tried speaking with your enemy before resorting to violence?",
+                            "Trust no one. Even the gods are known for their paper-thin allegiances.",
+                            "When a kingdom falls, its Seraph is destroyed as well. Perhaps humans should think twice before blindly heading to war with each other.",
+                            "I am proud to serve under the {CASTLENAME} banner. Thank you for having me.",
+                            "I find it difficult to trust humans. Do not let me down."
+                        ],
+    "minDepth":  1,
+    "name":  "Undolim Seraph",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/UndolimSeraph/overworld_e0.png",
+                                         "images/creature/UndolimSeraph/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/UndolimSeraph/overworld_n0.png",
+                                          "images/creature/UndolimSeraph/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/UndolimSeraph/overworld_s0.png",
+                                          "images/creature/UndolimSeraph/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/UndolimSeraph/overworld_w0.png",
+                                         "images/creature/UndolimSeraph/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Seraph",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Muse)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  32,
+                       "intelligence":  22,
+                       "speed":  12
+                   },
+    "trait":  55,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

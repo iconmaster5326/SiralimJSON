@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJungle Boogie:\nThis creature has 50% more {STAT_speed} for each of {CONDNAME_DEBUFF_CURSED}, {CONDNAME_DEBUFF_BURNED}, {CONDNAME_DEBUFF_POISON}, and {CONDNAME_DEBUFF_BLEED} it has.",
-  "icon": "images/item/material/DancingButton.png",
-  "id": 1788,
-  "name": "Dancing Button",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2141
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nJungle Boogie:\nThis creature has 50% more {STAT_speed} for each of {CONDNAME_DEBUFF_CURSED}, {CONDNAME_DEBUFF_BURNED}, {CONDNAME_DEBUFF_POISON}, and {CONDNAME_DEBUFF_BLEED} it has.",
+    "icon":  "images/item/material/DancingButton.png",
+    "id":  1788,
+    "name":  "Dancing Button",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2141,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRelish the Kill:\nAfter this creature kills an enemy, it Seals the enemy\u0027s Spell Gems and gains 20% {STAT_attack} and 10% {STAT_defense} for each Spell Gem it Sealed.",
-  "icon": "images/item/material/RainbowCarapace.png",
-  "id": 941,
-  "name": "Rainbow Carapace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1189
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRelish the Kill:\nAfter this creature kills an enemy, it Seals the enemy\u0027s Spell Gems and gains 20% {STAT_attack} and 10% {STAT_defense} for each Spell Gem it Sealed.",
+    "icon":  "images/item/material/RainbowCarapace.png",
+    "id":  941,
+    "name":  "Rainbow Carapace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1189,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

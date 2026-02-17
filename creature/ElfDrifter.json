@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElfDrifter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 687,
-  "item": 814,
-  "lore": "Broca the Drifter is a legendary warrior who left his village centuries ago to lead a solitary life. He is the oldest Elf currently alive and as he himself affirmed, the most bored with life in the forest. In his time, he was at once the most skillful Huntsman and Rogue, and over time he developed his own style. One of his exploits as The Drifter was to find the entrance to the town of the Centaurs, although he did not participate in the attack as he disagreed with the orders to annihilate them.",
-  "menagerieDialog": [
-    "The sound of elves singing at night is a spectacle worth witnessing.",
-    "No one shall trespass through our lands without consequences.",
-    "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
-    "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
-    "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
-  ],
-  "minDepth": 1,
-  "name": "Elf Drifter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElfDrifter/overworld_e0.png",
-      "images/creature/ElfDrifter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElfDrifter/overworld_n0.png",
-      "images/creature/ElfDrifter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElfDrifter/overworld_s0.png",
-      "images/creature/ElfDrifter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElfDrifter/overworld_w0.png",
-      "images/creature/ElfDrifter/overworld_w1.png"
-    ]
-  },
-  "race": "Elf",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Regalis)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 17,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 841
+    "battleSprite":  "images/creature/ElfDrifter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  687,
+    "item":  814,
+    "lore":  "Broca the Drifter is a legendary warrior who left his village centuries ago to lead a solitary life. He is the oldest Elf currently alive and as he himself affirmed, the most bored with life in the forest. In his time, he was at once the most skillful Huntsman and Rogue, and over time he developed his own style. One of his exploits as The Drifter was to find the entrance to the town of the Centaurs, although he did not participate in the attack as he disagreed with the orders to annihilate them.",
+    "menagerieDialog":  [
+                            "The sound of elves singing at night is a spectacle worth witnessing.",
+                            "No one shall trespass through our lands without consequences.",
+                            "Elves fight best in the thick of a dense forest. Perhaps you should adjust our strategy accordingly.",
+                            "Everyone tends to underestimate the Elves. We have proved that to be a mistake time and time again.",
+                            "(It\u0027s cracking its knuckles nervously. You find it strange that it adopted a habit that is generally associated with humans.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elf Drifter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElfDrifter/overworld_e0.png",
+                                         "images/creature/ElfDrifter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElfDrifter/overworld_n0.png",
+                                          "images/creature/ElfDrifter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElfDrifter/overworld_s0.png",
+                                          "images/creature/ElfDrifter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElfDrifter/overworld_w0.png",
+                                         "images/creature/ElfDrifter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elf",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Regalis)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  17,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  841,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

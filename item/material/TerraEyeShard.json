@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWrath of the Earth:\nAt the end of each creature\u0027s turn, this creature has a 10% chance to {ACTION_cast} [icons,1976]Richter 10.",
-  "icon": "images/item/material/TerraEyeShard.png",
-  "id": 1751,
-  "name": "Terra Eye Shard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2104
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWrath of the Earth:\nAt the end of each creature\u0027s turn, this creature has a 10% chance to {ACTION_cast} [icons,1976]Richter 10.",
+    "icon":  "images/item/material/TerraEyeShard.png",
+    "id":  1751,
+    "name":  "Terra Eye Shard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2104,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

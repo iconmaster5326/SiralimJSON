@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShrapnel Blast:\nAfter an enemy takes damage at the start of its turn from {CONDNAME_DEBUFF_BOMB}, all other enemies take 50% of that damage as well. This trait does not stack.",
-  "icon": "images/item/material/BombScraps.png",
-  "id": 1468,
-  "name": "Bomb Scraps",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1776
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShrapnel Blast:\nAfter an enemy takes damage at the start of its turn from {CONDNAME_DEBUFF_BOMB}, all other enemies take 50% of that damage as well. This trait does not stack.",
+    "icon":  "images/item/material/BombScraps.png",
+    "id":  1468,
+    "name":  "Bomb Scraps",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1776,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

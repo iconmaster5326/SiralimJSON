@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of Evolution:\nAfter this creature dodges an attack, it {ACTION_casts} one of its spells. In addition, this creature has an independent 50% chance to dodge attacks.",
-  "icon": "images/item/material/ChangeFigment.png",
-  "id": 794,
-  "name": "Change Figment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 815
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of Evolution:\nAfter this creature dodges an attack, it {ACTION_casts} one of its spells. In addition, this creature has an independent 50% chance to dodge attacks.",
+    "icon":  "images/item/material/ChangeFigment.png",
+    "id":  794,
+    "name":  "Change Figment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  815,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

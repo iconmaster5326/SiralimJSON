@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEldritch Rune:\nAt the start of battle, this creature\u0027s Maximum {STAT_health} is set to 50%. This creature\u0027s spells are 100% more potent.",
-  "icon": "images/item/material/TomeofEldritchKnowledge.png",
-  "id": 1424,
-  "name": "Tome of Eldritch Knowledge",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1731
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nEldritch Rune:\nAt the start of battle, this creature\u0027s Maximum {STAT_health} is set to 50%. This creature\u0027s spells are 100% more potent.",
+    "icon":  "images/item/material/TomeofEldritchKnowledge.png",
+    "id":  1424,
+    "name":  "Tome of Eldritch Knowledge",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1731,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/Kraynaks/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 11,
-  "name": "Kraynaks",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Kraynaks/overworld_e0.png",
-      "images/skin/Kraynaks/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Kraynaks/overworld_n0.png",
-      "images/skin/Kraynaks/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Kraynaks/overworld_s0.png",
-      "images/skin/Kraynaks/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Kraynaks/overworld_w0.png",
-      "images/skin/Kraynaks/overworld_w1.png"
-    ]
-  },
-  "race": "Mimic",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/Kraynaks/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  11,
+    "name":  "Kraynaks",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Kraynaks/overworld_e0.png",
+                                         "images/skin/Kraynaks/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Kraynaks/overworld_n0.png",
+                                          "images/skin/Kraynaks/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Kraynaks/overworld_s0.png",
+                                          "images/skin/Kraynaks/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Kraynaks/overworld_w0.png",
+                                         "images/skin/Kraynaks/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mimic",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

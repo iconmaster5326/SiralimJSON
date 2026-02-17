@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Mechto/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1353,
-  "item": 1774,
-  "lore": "Robodomi can transfer a ton of information in seconds, but quantum engineering has given some cybernetic creatures abilities that go beyond that. Mechto represents the peak of this technology, capable of copying other synthetic creatures\u0027 unique abilities and transferring them to any other being it comes into contact with.",
-  "menagerieDialog": [
-    "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
-    "Extermination protocols activated. Targets acquired.",
-    "My processors can calculate a million strategies per second. How may I assist you?",
-    "Shields at maximum. No damage can penetrate my defenses.",
-    "System overclocked. Operating at 250% efficiency."
-  ],
-  "minDepth": 1,
-  "name": "Mechto",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Mechto/overworld_e0.png",
-      "images/creature/Mechto/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Mechto/overworld_n0.png",
-      "images/creature/Mechto/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Mechto/overworld_s0.png",
-      "images/creature/Mechto/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Mechto/overworld_w0.png",
-      "images/creature/Mechto/overworld_w1.png"
-    ]
-  },
-  "race": "Robodomi",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 10
-  },
-  "trait": 2127
+    "battleSprite":  "images/creature/Mechto/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1353,
+    "item":  1774,
+    "lore":  "Robodomi can transfer a ton of information in seconds, but quantum engineering has given some cybernetic creatures abilities that go beyond that. Mechto represents the peak of this technology, capable of copying other synthetic creatures\u0027 unique abilities and transferring them to any other being it comes into contact with.",
+    "menagerieDialog":  [
+                            "(It\u0027s powered down, occasional beeps and whirs emanating from its chassis.)",
+                            "Extermination protocols activated. Targets acquired.",
+                            "My processors can calculate a million strategies per second. How may I assist you?",
+                            "Shields at maximum. No damage can penetrate my defenses.",
+                            "System overclocked. Operating at 250% efficiency."
+                        ],
+    "minDepth":  1,
+    "name":  "Mechto",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Mechto/overworld_e0.png",
+                                         "images/creature/Mechto/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Mechto/overworld_n0.png",
+                                          "images/creature/Mechto/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Mechto/overworld_s0.png",
+                                          "images/creature/Mechto/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Mechto/overworld_w0.png",
+                                         "images/creature/Mechto/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Robodomi",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  10
+                   },
+    "trait":  2127,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

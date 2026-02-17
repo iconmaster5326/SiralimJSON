@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/NineTailedHarvester/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1113,
-  "item": 1634,
-  "lore": "Nine Tailed Harvesters inhabit the Hamubo Rocky Mountains, to the southeast of Yarthe. Since the dawn of their civilization they have worshipped death, and to them Harvesters are sacred creatures who should not be disturbed under any circumstances. Their lives revolve around their customs and rites, centered on meditation, and they do not seek war with other peoples. However, they also need to defend themselves. All Nine Tailed Harvesters receive combat training from a young age, and all of them use a scythe in battle.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Nine Tailed Harvester",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/NineTailedHarvester/overworld_e0.png",
-      "images/creature/NineTailedHarvester/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/NineTailedHarvester/overworld_n0.png",
-      "images/creature/NineTailedHarvester/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/NineTailedHarvester/overworld_s0.png",
-      "images/creature/NineTailedHarvester/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/NineTailedHarvester/overworld_w0.png",
-      "images/creature/NineTailedHarvester/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1837
+    "battleSprite":  "images/creature/NineTailedHarvester/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1113,
+    "item":  1634,
+    "lore":  "Nine Tailed Harvesters inhabit the Hamubo Rocky Mountains, to the southeast of Yarthe. Since the dawn of their civilization they have worshipped death, and to them Harvesters are sacred creatures who should not be disturbed under any circumstances. Their lives revolve around their customs and rites, centered on meditation, and they do not seek war with other peoples. However, they also need to defend themselves. All Nine Tailed Harvesters receive combat training from a young age, and all of them use a scythe in battle.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Nine Tailed Harvester",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/NineTailedHarvester/overworld_e0.png",
+                                         "images/creature/NineTailedHarvester/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/NineTailedHarvester/overworld_n0.png",
+                                          "images/creature/NineTailedHarvester/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/NineTailedHarvester/overworld_s0.png",
+                                          "images/creature/NineTailedHarvester/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/NineTailedHarvester/overworld_w0.png",
+                                         "images/creature/NineTailedHarvester/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1837,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

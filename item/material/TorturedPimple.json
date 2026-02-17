@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWrong Side:\nAfter your creatures are afflicted with a debuff, they have a 40% chance to remove the debuff and give it to a random enemy. This trait does not stack.",
-  "icon": "images/item/material/TorturedPimple.png",
-  "id": 267,
-  "name": "Tortured Pimple",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 177
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nWrong Side:\nAfter your creatures are afflicted with a debuff, they have a 40% chance to remove the debuff and give it to a random enemy. This trait does not stack.",
+    "icon":  "images/item/material/TorturedPimple.png",
+    "id":  267,
+    "name":  "Tortured Pimple",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  177,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

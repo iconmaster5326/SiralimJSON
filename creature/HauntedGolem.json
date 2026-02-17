@@ -1,66 +1,71 @@
 {
-  "battleSprite": "images/creature/HauntedGolem/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 152,
-  "item": 416,
-  "lore": "The creature that haunts this Golem is fully self-aware. Tormented at being trapped in this body, it desperately tries to make the Golem die in battle so that it can be free. It seems to have developed a peculiar hatred of mirrors.",
-  "menagerieDialog": [
-    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
-    "(It\u0027s... shadowboxing. Weird.)",
-    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
-    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
-    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Haunted Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HauntedGolem/overworld_e0.png",
-      "images/creature/HauntedGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HauntedGolem/overworld_n0.png",
-      "images/creature/HauntedGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HauntedGolem/overworld_s0.png",
-      "images/creature/HauntedGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HauntedGolem/overworld_w0.png",
-      "images/creature/HauntedGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    37
-  ],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 331
+    "battleSprite":  "images/creature/HauntedGolem/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  152,
+    "item":  416,
+    "lore":  "The creature that haunts this Golem is fully self-aware. Tormented at being trapped in this body, it desperately tries to make the Golem die in battle so that it can be free. It seems to have developed a peculiar hatred of mirrors.",
+    "menagerieDialog":  [
+                            "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+                            "(It\u0027s... shadowboxing. Weird.)",
+                            "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+                            "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+                            "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Haunted Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HauntedGolem/overworld_e0.png",
+                                         "images/creature/HauntedGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HauntedGolem/overworld_n0.png",
+                                          "images/creature/HauntedGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HauntedGolem/overworld_s0.png",
+                                          "images/creature/HauntedGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HauntedGolem/overworld_w0.png",
+                                         "images/creature/HauntedGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            37
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  331,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MummyLord/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 52,
-  "item": 245,
-  "lore": "Over the centuries, the design of mummies changed and began to include more colorful ornaments, among which were the strange orbs that the explorers found in the wastelands.\\n\\nWhen the Mummy Lord\u0027s orbs activate, they create a force field around it that protects it from blows. Its appearance inspired respect in the people of Kaito, and many prostrated themselves and begged for forgiveness. Unceremoniously, this creature lifted its leg and crushed their skulls against the ground.",
-  "menagerieDialog": [
-    "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
-    "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
-    "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
-    "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
-    "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
-  ],
-  "minDepth": 1,
-  "name": "Mummy Lord",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MummyLord/overworld_e0.png",
-      "images/creature/MummyLord/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MummyLord/overworld_n0.png",
-      "images/creature/MummyLord/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MummyLord/overworld_s0.png",
-      "images/creature/MummyLord/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MummyLord/overworld_w0.png",
-      "images/creature/MummyLord/overworld_w1.png"
-    ]
-  },
-  "race": "Mummy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 17,
-    "health": 36,
-    "intelligence": 17,
-    "speed": 12
-  },
-  "trait": 155
+    "battleSprite":  "images/creature/MummyLord/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  52,
+    "item":  245,
+    "lore":  "Over the centuries, the design of mummies changed and began to include more colorful ornaments, among which were the strange orbs that the explorers found in the wastelands.\\n\\nWhen the Mummy Lord\u0027s orbs activate, they create a force field around it that protects it from blows. Its appearance inspired respect in the people of Kaito, and many prostrated themselves and begged for forgiveness. Unceremoniously, this creature lifted its leg and crushed their skulls against the ground.",
+    "menagerieDialog":  [
+                            "Mmph, mmmmph!\\n\\n(Ah, the trials and tribulations of being wrapped up in bandages!)",
+                            "Bggggggggg...\\n\\n(It stomps the floor, which is a far more comical sight than this creature likely realizes.)",
+                            "(You can\u0027t help but wonder what would happen if you removed its bandages.)",
+                            "(Its bandages smell like sweat and mold. It might be nice to exchange them for clean ones, but what happens if the creature is made out of nothing but its wrappings?)",
+                            "(Its bandages are stained with blood and filth. No amount of bathing can ever help this creature.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mummy Lord",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MummyLord/overworld_e0.png",
+                                         "images/creature/MummyLord/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MummyLord/overworld_n0.png",
+                                          "images/creature/MummyLord/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MummyLord/overworld_s0.png",
+                                          "images/creature/MummyLord/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MummyLord/overworld_w0.png",
+                                         "images/creature/MummyLord/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mummy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  17,
+                       "health":  36,
+                       "intelligence":  17,
+                       "speed":  12
+                   },
+    "trait":  155,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe Walking Dead:\nYour creatures\u0027 {CONDNAME_MINION_ZOMBIE} minions now deal damage based on their master\u0027s highest stat. In addition, your creatures start battles with 1 {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
-  "icon": "images/item/material/WatchfulChalice.png",
-  "id": 991,
-  "name": "Watchful Chalice",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1143
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe Walking Dead:\nYour creatures\u0027 {CONDNAME_MINION_ZOMBIE} minions now deal damage based on their master\u0027s highest stat. In addition, your creatures start battles with 1 {CONDNAME_MINION_ZOMBIE}. This trait does not stack.",
+    "icon":  "images/item/material/WatchfulChalice.png",
+    "id":  991,
+    "name":  "Watchful Chalice",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1143,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

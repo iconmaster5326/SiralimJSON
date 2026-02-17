@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFracture:\nAfter this creature is {ACTION_attacked}, it deals 50% of the damage taken to all enemies. This damage cannot exceed 100% of this creature\u0027s Maximum {STAT_health}.",
-  "icon": "images/item/material/EarthshakerPlate.png",
-  "id": 343,
-  "name": "Earthshaker Plate",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 259
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFracture:\nAfter this creature is {ACTION_attacked}, it deals 50% of the damage taken to all enemies. This damage cannot exceed 100% of this creature\u0027s Maximum {STAT_health}.",
+    "icon":  "images/item/material/EarthshakerPlate.png",
+    "id":  343,
+    "name":  "Earthshaker Plate",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  259,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

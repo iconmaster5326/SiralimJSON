@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPyromaniac:\nAfter your creatures manually {ACTION_cast} a spell, this creature deals damage to all enemies equal to 35% of its {STAT_intelligence}.",
-  "icon": "images/item/material/PyromancerLamp.png",
-  "id": 442,
-  "name": "Pyromancer Lamp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 357
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPyromaniac:\nAfter your creatures manually {ACTION_cast} a spell, this creature deals damage to all enemies equal to 35% of its {STAT_intelligence}.",
+    "icon":  "images/item/material/PyromancerLamp.png",
+    "id":  442,
+    "name":  "Pyromancer Lamp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  357,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

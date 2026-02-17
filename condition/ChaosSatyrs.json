@@ -1,11 +1,14 @@
 {
-  "description": "After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it sacrifices each {CONDNAME_MINION_CHAOSSATYR} to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
-  "icon": "images/condition/ChaosSatyrs.png",
-  "iconResisted": null,
-  "id": 65,
-  "material": null,
-  "name": "Chaos Satyrs",
-  "notes": [],
-  "reserved": true,
-  "type": "minion"
+    "description":  "After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it sacrifices each {CONDNAME_MINION_CHAOSSATYR} to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "icon":  "images/condition/ChaosSatyrs.png",
+    "iconResisted":  null,
+    "id":  65,
+    "material":  null,
+    "name":  "Chaos Satyrs",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

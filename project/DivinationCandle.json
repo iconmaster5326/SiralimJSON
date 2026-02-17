@@ -1,23 +1,26 @@
 {
-  "arcaneDustCost": 500,
-  "description": "Allows you to find Divination Candles in realms. Divination Candles allow you to spawn your choice of creatures to fight against.",
-  "graniteCost": 5000,
-  "icon": "images/project/DivinationCandle.png",
-  "id": 14,
-  "items": {
-    "82": 3,
-    "83": 3,
-    "85": 3,
-    "86": 3,
-    "84": 10,
-    "87": 20
-  },
-  "monsterPartCost": 2500,
-  "name": "Divination Candle",
-  "notes": [],
-  "repeatable": false,
-  "type": "construction",
-  "unlockedCreature": null,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  500,
+    "description":  "Allows you to find Divination Candles in realms. Divination Candles allow you to spawn your choice of creatures to fight against.",
+    "graniteCost":  5000,
+    "icon":  "images/project/DivinationCandle.png",
+    "id":  14,
+    "items":  {
+                  "82":  3,
+                  "83":  3,
+                  "85":  3,
+                  "86":  3,
+                  "84":  10,
+                  "87":  20
+              },
+    "monsterPartCost":  2500,
+    "name":  "Divination Candle",
+    "notes":  [
+
+              ],
+    "repeatable":  false,
+    "type":  "construction",
+    "unlockedCreature":  null,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

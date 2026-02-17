@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Bandit/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 585,
-  "name": "Bandit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Bandit/overworld_e0.png",
-      "images/skin/Bandit/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Bandit/overworld_n0.png",
-      "images/skin/Bandit/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Bandit/overworld_s0.png",
-      "images/skin/Bandit/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Bandit/overworld_w0.png",
-      "images/skin/Bandit/overworld_w1.png"
-    ]
-  },
-  "race": "Carver",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Bandit/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  585,
+    "name":  "Bandit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Bandit/overworld_e0.png",
+                                         "images/skin/Bandit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Bandit/overworld_n0.png",
+                                          "images/skin/Bandit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Bandit/overworld_s0.png",
+                                          "images/skin/Bandit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Bandit/overworld_w0.png",
+                                         "images/skin/Bandit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carver",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

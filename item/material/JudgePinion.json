@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPierce the Veil:\nYour creatures\u0027 spells ignore 10% of their target\u0027s {STAT_defense} for each {RACE_Familiar} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/JudgePinion.png",
-  "id": 506,
-  "name": "Judge Pinion",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 420
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPierce the Veil:\nYour creatures\u0027 spells ignore 10% of their target\u0027s {STAT_defense} for each {RACE_Familiar} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/JudgePinion.png",
+    "id":  506,
+    "name":  "Judge Pinion",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  420,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

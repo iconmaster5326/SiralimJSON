@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPhasers:\nWhen this creature {ACTION_attacks}, it always does 0 damage but restores 1 {STAT_charge} to a non-{SPELL_ultimate}.",
-  "icon": "images/item/material/Phasers.png",
-  "id": 1775,
-  "name": "Phasers",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2128
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPhasers:\nWhen this creature {ACTION_attacks}, it always does 0 damage but restores 1 {STAT_charge} to a non-{SPELL_ultimate}.",
+    "icon":  "images/item/material/Phasers.png",
+    "id":  1775,
+    "name":  "Phasers",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2128,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

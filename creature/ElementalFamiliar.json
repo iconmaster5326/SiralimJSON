@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ElementalFamiliar/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 517,
-  "item": 501,
-  "lore": "The flame on its head never goes out, so it tries to stay away from forests and villages that could accidentally catch fire. Before attacking its enemies, it deftly moves its burning staff to create an impressive spiral of fire. If they do not back down, it will flap its wings strongly to create a heat wave, then place its torch near the clothes of its enemies.",
-  "menagerieDialog": [
-    "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
-    "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
-    "Did you know that an Eft can live for up to 20 days without water?",
-    "(Its eyes scan its surroundings with innocent curiosity.)",
-    "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
-  ],
-  "minDepth": 1,
-  "name": "Elemental Familiar",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElementalFamiliar/overworld_e0.png",
-      "images/creature/ElementalFamiliar/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElementalFamiliar/overworld_n0.png",
-      "images/creature/ElementalFamiliar/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElementalFamiliar/overworld_s0.png",
-      "images/creature/ElementalFamiliar/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElementalFamiliar/overworld_w0.png",
-      "images/creature/ElementalFamiliar/overworld_w1.png"
-    ]
-  },
-  "race": "Familiar",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Zonte)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 13,
-    "health": 33,
-    "intelligence": 28,
-    "speed": 13
-  },
-  "trait": 415
+    "battleSprite":  "images/creature/ElementalFamiliar/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  517,
+    "item":  501,
+    "lore":  "The flame on its head never goes out, so it tries to stay away from forests and villages that could accidentally catch fire. Before attacking its enemies, it deftly moves its burning staff to create an impressive spiral of fire. If they do not back down, it will flap its wings strongly to create a heat wave, then place its torch near the clothes of its enemies.",
+    "menagerieDialog":  [
+                            "I\u0027d rather work at the castle library than risk my life fighting beyond these steadfast walls.",
+                            "There is a lot of wasted space in this castle. Perhaps you should set up a library where we can research new spells.",
+                            "Did you know that an Eft can live for up to 20 days without water?",
+                            "(Its eyes scan its surroundings with innocent curiosity.)",
+                            "(Despite the fact that it can speak your language, this creature insists on hooting repeatedly to feign ignorance to whatever you tell it to do.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Elemental Familiar",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElementalFamiliar/overworld_e0.png",
+                                         "images/creature/ElementalFamiliar/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElementalFamiliar/overworld_n0.png",
+                                          "images/creature/ElementalFamiliar/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElementalFamiliar/overworld_s0.png",
+                                          "images/creature/ElementalFamiliar/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElementalFamiliar/overworld_w0.png",
+                                         "images/creature/ElementalFamiliar/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Familiar",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Zonte)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  13,
+                       "health":  33,
+                       "intelligence":  28,
+                       "speed":  13
+                   },
+    "trait":  415,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

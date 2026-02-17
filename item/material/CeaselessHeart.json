@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCeaseless Vitality:\nAt the start of this creature\u0027s turn, it recovers 20% {STAT_health} and gains {CONDNAME_BUFF_SHELL}.",
-  "icon": "images/item/material/CeaselessHeart.png",
-  "id": 647,
-  "name": "Ceaseless Heart",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 558
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCeaseless Vitality:\nAt the start of this creature\u0027s turn, it recovers 20% {STAT_health} and gains {CONDNAME_BUFF_SHELL}.",
+    "icon":  "images/item/material/CeaselessHeart.png",
+    "id":  647,
+    "name":  "Ceaseless Heart",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  558,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

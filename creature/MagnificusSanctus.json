@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MagnificusSanctus/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 409,
-  "item": 864,
-  "lore": "Something had gone wrong. Humilitas and Humanitas charged at their creatures while the last Nether Orb, more powerful than the others, began to react. An eighth Sanctus emerged from the vapors and approached Spielrein from behind. Its scale tilted to one side. The wrong side. It plunged its knife into Spielrein\u0027s back. Baker turned in time to pick her up and looked into her eyes, terrified. A trembling hand stroked her cheek and a pair of lips smiled at her. \u0022Run\u0022. And her arm fell, lifeless.",
-  "menagerieDialog": [
-    "(You\u0027ve always found these sort of creatures unnerving.)",
-    "(It seems vengeful. The next few battles should be quite interesting.)",
-    "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
-    "(This creature would make an excellent mascot for {CASTLENAME}.)",
-    "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
-  ],
-  "minDepth": 1,
-  "name": "Magnificus Sanctus",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MagnificusSanctus/overworld_e0.png",
-      "images/creature/MagnificusSanctus/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MagnificusSanctus/overworld_n0.png",
-      "images/creature/MagnificusSanctus/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MagnificusSanctus/overworld_s0.png",
-      "images/creature/MagnificusSanctus/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MagnificusSanctus/overworld_w0.png",
-      "images/creature/MagnificusSanctus/overworld_w1.png"
-    ]
-  },
-  "race": "Sanctus",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 17,
-    "health": 41,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 891
+    "battleSprite":  "images/creature/MagnificusSanctus/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  409,
+    "item":  864,
+    "lore":  "Something had gone wrong. Humilitas and Humanitas charged at their creatures while the last Nether Orb, more powerful than the others, began to react. An eighth Sanctus emerged from the vapors and approached Spielrein from behind. Its scale tilted to one side. The wrong side. It plunged its knife into Spielrein\u0027s back. Baker turned in time to pick her up and looked into her eyes, terrified. A trembling hand stroked her cheek and a pair of lips smiled at her. \"Run\". And her arm fell, lifeless.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always found these sort of creatures unnerving.)",
+                            "(It seems vengeful. The next few battles should be quite interesting.)",
+                            "(It seems to be excessively confident in itself. Always a good trait to have in a creature.)",
+                            "(This creature would make an excellent mascot for {CASTLENAME}.)",
+                            "(It seems to be gripping the objects in its claws a bit tighter than usual. It must feel anxious about something.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Magnificus Sanctus",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MagnificusSanctus/overworld_e0.png",
+                                         "images/creature/MagnificusSanctus/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MagnificusSanctus/overworld_n0.png",
+                                          "images/creature/MagnificusSanctus/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MagnificusSanctus/overworld_s0.png",
+                                          "images/creature/MagnificusSanctus/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MagnificusSanctus/overworld_w0.png",
+                                         "images/creature/MagnificusSanctus/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sanctus",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  17,
+                       "health":  41,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  891,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

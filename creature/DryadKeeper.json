@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DryadKeeper/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 88,
-  "item": 554,
-  "lore": "Dryads are denizens of the forest, but some also live in the Cutthroat Jungle and the Unsullied Meadows. They are active protectors of nature, although they prefer to use words to persuade those who threaten it.\\n\\nWhen tenacious lumberjacks or Flamehook Pilwiz attack a Dryad Keeper after refusing to stop their activities, her first response is to protect herself with her shield. If she is attacked again, she uses the orb in her right hand to call on every nearby creature and annihilate the threat.",
-  "menagerieDialog": [
-    "More and more forests are destroyed each year; your kind should be more careful.",
-    "I will show the world what it means to disrespect nature.",
-    "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
-    "I sometimes miss the forest. Can we return there for a visit one day?",
-    "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
-  ],
-  "minDepth": 1,
-  "name": "Dryad Keeper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DryadKeeper/overworld_e0.png",
-      "images/creature/DryadKeeper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DryadKeeper/overworld_n0.png",
-      "images/creature/DryadKeeper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DryadKeeper/overworld_s0.png",
-      "images/creature/DryadKeeper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DryadKeeper/overworld_w0.png",
-      "images/creature/DryadKeeper/overworld_w1.png"
-    ]
-  },
-  "race": "Dryad",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Shallan)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 28,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 468
+    "battleSprite":  "images/creature/DryadKeeper/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  88,
+    "item":  554,
+    "lore":  "Dryads are denizens of the forest, but some also live in the Cutthroat Jungle and the Unsullied Meadows. They are active protectors of nature, although they prefer to use words to persuade those who threaten it.\\n\\nWhen tenacious lumberjacks or Flamehook Pilwiz attack a Dryad Keeper after refusing to stop their activities, her first response is to protect herself with her shield. If she is attacked again, she uses the orb in her right hand to call on every nearby creature and annihilate the threat.",
+    "menagerieDialog":  [
+                            "More and more forests are destroyed each year; your kind should be more careful.",
+                            "I will show the world what it means to disrespect nature.",
+                            "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
+                            "I sometimes miss the forest. Can we return there for a visit one day?",
+                            "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
+                        ],
+    "minDepth":  1,
+    "name":  "Dryad Keeper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DryadKeeper/overworld_e0.png",
+                                         "images/creature/DryadKeeper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DryadKeeper/overworld_n0.png",
+                                          "images/creature/DryadKeeper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DryadKeeper/overworld_s0.png",
+                                          "images/creature/DryadKeeper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DryadKeeper/overworld_w0.png",
+                                         "images/creature/DryadKeeper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dryad",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Shallan)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  28,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  468,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

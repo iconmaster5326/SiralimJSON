@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HeavenSent/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 651,
-  "name": "Heaven Sent",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HeavenSent/overworld_e0.png",
-      "images/skin/HeavenSent/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HeavenSent/overworld_n0.png",
-      "images/skin/HeavenSent/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HeavenSent/overworld_s0.png",
-      "images/skin/HeavenSent/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HeavenSent/overworld_w0.png",
-      "images/skin/HeavenSent/overworld_w1.png"
-    ]
-  },
-  "race": "Chimera",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HeavenSent/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  651,
+    "name":  "Heaven Sent",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HeavenSent/overworld_e0.png",
+                                         "images/skin/HeavenSent/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HeavenSent/overworld_n0.png",
+                                          "images/skin/HeavenSent/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HeavenSent/overworld_s0.png",
+                                          "images/skin/HeavenSent/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HeavenSent/overworld_w0.png",
+                                         "images/skin/HeavenSent/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Chimera",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

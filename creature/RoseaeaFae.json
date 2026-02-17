@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RoseaeaFae/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1218,
-  "item": 1673,
-  "lore": "Fae are peaceful and joyful creatures who do not know envy or greed. They are intelligent and help any creature who needs it... as long as it is not the prey of another Fae.\\n\\nThe most aggressive Fae are undoubtedly Roseae fae. Not only are they the first to go on the attack, but they also lead the others into battle and continually shout to boost the morale of all their allies.",
-  "menagerieDialog": [
-    "(The Fae are singing in unison, much to the dismay of your other creatures.)",
-    "(The Fae are currently engaged in a rousing game of tag. You can\u0027t really tell who\u0027s winning, of course, since they all look alike.)",
-    "(Each Fae is making a rude gesture at you. One is sticking her tongue out, while another is proudly showing off her middle finger. Are they unaware that you could squash them like bugs?)",
-    "(Upon your approach, one of the Fae pulls another\u0027s wings off. Luckily, these creatures seem to reproduce quickly enough that they\u0027re expendable.)",
-    "(They\u0027re all making obnoxious giggling sounds. You soon realize they\u0027re mocking you.)"
-  ],
-  "minDepth": 1,
-  "name": "Roseaea Fae",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RoseaeaFae/overworld_e0.png",
-      "images/creature/RoseaeaFae/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RoseaeaFae/overworld_n0.png",
-      "images/creature/RoseaeaFae/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RoseaeaFae/overworld_s0.png",
-      "images/creature/RoseaeaFae/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RoseaeaFae/overworld_w0.png",
-      "images/creature/RoseaeaFae/overworld_w1.png"
-    ]
-  },
-  "race": "Fae",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 32,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 9,
-    "health": 26,
-    "intelligence": 24,
-    "speed": 19
-  },
-  "trait": 1998
+    "battleSprite":  "images/creature/RoseaeaFae/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1218,
+    "item":  1673,
+    "lore":  "Fae are peaceful and joyful creatures who do not know envy or greed. They are intelligent and help any creature who needs it... as long as it is not the prey of another Fae.\\n\\nThe most aggressive Fae are undoubtedly Roseae fae. Not only are they the first to go on the attack, but they also lead the others into battle and continually shout to boost the morale of all their allies.",
+    "menagerieDialog":  [
+                            "(The Fae are singing in unison, much to the dismay of your other creatures.)",
+                            "(The Fae are currently engaged in a rousing game of tag. You can\u0027t really tell who\u0027s winning, of course, since they all look alike.)",
+                            "(Each Fae is making a rude gesture at you. One is sticking her tongue out, while another is proudly showing off her middle finger. Are they unaware that you could squash them like bugs?)",
+                            "(Upon your approach, one of the Fae pulls another\u0027s wings off. Luckily, these creatures seem to reproduce quickly enough that they\u0027re expendable.)",
+                            "(They\u0027re all making obnoxious giggling sounds. You soon realize they\u0027re mocking you.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Roseaea Fae",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RoseaeaFae/overworld_e0.png",
+                                         "images/creature/RoseaeaFae/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RoseaeaFae/overworld_n0.png",
+                                          "images/creature/RoseaeaFae/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RoseaeaFae/overworld_s0.png",
+                                          "images/creature/RoseaeaFae/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RoseaeaFae/overworld_w0.png",
+                                         "images/creature/RoseaeaFae/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Fae",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  32,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  9,
+                       "health":  26,
+                       "intelligence":  24,
+                       "speed":  19
+                   },
+    "trait":  1998,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "I never can tell you apes apart. All of your foolish bravado is at odds with your simpering weakness.",
-    "Miserable human slave. Die screaming and forgotten, like your worthless ancestors!",
-    "To earn this treasure, you must answer one hundred riddles. My first riddl-\\n\\n(Nope. Attack!)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies have 5% less {STAT_attack}.",
-    "4": "Enemies gain 25% less {STAT_attack}.",
-    "7": "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_attack}."
-  },
-  "cards": 7,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    418,
-    419,
-    420,
-    421,
-    422,
-    423,
-    668
-  ],
-  "icon": "images/race/Sphinx.png",
-  "master": {
-    "costume": 396,
-    "dialog": "Sphinxes are perhaps the most adaptive creatures Rodia has to offer. They\u0027re able to change their class identity in the midst of battle to suit their needs. If your team isn\u0027t equally flexible, you\u0027re going to have a hard time against me. Let\u0027s duel!",
-    "item": 1207,
-    "name": "Leonault",
-    "trait": 1499
-  },
-  "name": "Sphinx",
-  "notes": [],
-  "skins": [
-    14,
-    261,
-    310
-  ]
+    "bossDialog":  [
+                       "I never can tell you apes apart. All of your foolish bravado is at odds with your simpering weakness.",
+                       "Miserable human slave. Die screaming and forgotten, like your worthless ancestors!",
+                       "To earn this treasure, you must answer one hundred riddles. My first riddl-\\n\\n(Nope. Attack!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies have 5% less {STAT_attack}.",
+                        "4":  "Enemies gain 25% less {STAT_attack}.",
+                        "7":  "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_attack}."
+                    },
+    "cards":  7,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      418,
+                      419,
+                      420,
+                      421,
+                      422,
+                      423,
+                      668
+                  ],
+    "icon":  "images/race/Sphinx.png",
+    "master":  {
+                   "costume":  396,
+                   "dialog":  "Sphinxes are perhaps the most adaptive creatures Rodia has to offer. They\u0027re able to change their class identity in the midst of battle to suit their needs. If your team isn\u0027t equally flexible, you\u0027re going to have a hard time against me. Let\u0027s duel!",
+                   "item":  1207,
+                   "name":  "Leonault",
+                   "trait":  1499
+               },
+    "name":  "Sphinx",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  14,
+                  261,
+                  310
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After an enemy\u0027s {CONDNAME_DEBUFF_BOMB} debuff detonates, one of your creatures gains \u003C1\u003E  stack(s) of {CONDNAME_MINION_MICROBOT}.\\n\\n{CONDDESC_MINION_MICROBOT}",
-  "icon": "images/perk/DroneBait.png",
-  "id": 571,
-  "maxRanks": 3,
-  "name": "Drone Bait",
-  "notes": [],
-  "pointsPerRank": 35,
-  "specialization": 36
+    "anointable":  true,
+    "description":  "After an enemy\u0027s {CONDNAME_DEBUFF_BOMB} debuff detonates, one of your creatures gains \u003c1\u003e  stack(s) of {CONDNAME_MINION_MICROBOT}.\\n\\n{CONDDESC_MINION_MICROBOT}",
+    "icon":  "images/perk/DroneBait.png",
+    "id":  571,
+    "maxRanks":  3,
+    "name":  "Drone Bait",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  35,
+    "specialization":  36,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

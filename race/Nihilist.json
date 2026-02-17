@@ -1,39 +1,42 @@
 {
-  "bossDialog": [
-    "(A magical being looks up from a book it was reading, then calmly sets it aside and begins to approach you with a weapon drawn. Your creatures move to block it and it immediately adopts a combat stance!)",
-    "(Little is known of the Nihilists, so you decide to approach with as much caution as possible. This creature could be capable of anything.)",
-    "(Poised gracefully atop the treasure, a slender figure leaps into your path and begins to twirl a weapon with expert skill. It clearly has no intention of allowing you to claim the treasure.)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 Spell Gems have a 5% chance to not consume {STAT_charges}.",
-    "4": "Your creatures\u0027 Spell Gems have a 5% chance to not consume {STAT_charges}.",
-    "6": "Your creatures\u0027 Spell Gems have a 5% chance to not consume {STAT_charges}."
-  },
-  "cards": 6,
-  "class": "chaos",
-  "creator": null,
-  "creatures": [
-    1075,
-    1076,
-    1077,
-    1078,
-    1079,
-    1080
-  ],
-  "icon": "images/race/Nihilist.png",
-  "master": {
-    "costume": 684,
-    "dialog": "Nihilists channel unimaginable power that, if properly employed, can wreak havoc on your foes. The drawback of Nihilists is that they overflow with so much strength that their enemies tend to be able to draw from this power as well. A seasoned tactician is capable of mitigating this downside to ensure victory. Let\u0027s fight!",
-    "item": 1505,
-    "name": "Honas",
-    "trait": 1813
-  },
-  "name": "Nihilist",
-  "notes": [],
-  "skins": [
-    735,
-    736,
-    737,
-    741
-  ]
+    "bossDialog":  [
+                       "(A magical being looks up from a book it was reading, then calmly sets it aside and begins to approach you with a weapon drawn. Your creatures move to block it and it immediately adopts a combat stance!)",
+                       "(Little is known of the Nihilists, so you decide to approach with as much caution as possible. This creature could be capable of anything.)",
+                       "(Poised gracefully atop the treasure, a slender figure leaps into your path and begins to twirl a weapon with expert skill. It clearly has no intention of allowing you to claim the treasure.)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 Spell Gems have a 5% chance to not consume {STAT_charges}.",
+                        "4":  "Your creatures\u0027 Spell Gems have a 5% chance to not consume {STAT_charges}.",
+                        "6":  "Your creatures\u0027 Spell Gems have a 5% chance to not consume {STAT_charges}."
+                    },
+    "cards":  6,
+    "class":  "chaos",
+    "creator":  null,
+    "creatures":  [
+                      1075,
+                      1076,
+                      1077,
+                      1078,
+                      1079,
+                      1080
+                  ],
+    "icon":  "images/race/Nihilist.png",
+    "master":  {
+                   "costume":  684,
+                   "dialog":  "Nihilists channel unimaginable power that, if properly employed, can wreak havoc on your foes. The drawback of Nihilists is that they overflow with so much strength that their enemies tend to be able to draw from this power as well. A seasoned tactician is capable of mitigating this downside to ensure victory. Let\u0027s fight!",
+                   "item":  1505,
+                   "name":  "Honas",
+                   "trait":  1813
+               },
+    "name":  "Nihilist",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  735,
+                  736,
+                  737,
+                  741
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

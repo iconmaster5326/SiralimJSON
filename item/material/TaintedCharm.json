@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRapid Evolution:\nAt the start of battle, this creature gains the innate traits of the {RACE_Imler} creatures adjacent to it.",
-  "icon": "images/item/material/TaintedCharm.png",
-  "id": 539,
-  "name": "Tainted Charm",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 453
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRapid Evolution:\nAt the start of battle, this creature gains the innate traits of the {RACE_Imler} creatures adjacent to it.",
+    "icon":  "images/item/material/TaintedCharm.png",
+    "id":  539,
+    "name":  "Tainted Charm",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  453,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

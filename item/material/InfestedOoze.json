@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParasitic Illusion:\nThis creature always has {CONDNAME_DEBUFF_POISON}. After this creature takes damage from {CONDNAME_DEBUFF_POISON}, 50% of the damage is dealt to all enemies.",
-  "icon": "images/item/material/InfestedOoze.png",
-  "id": 867,
-  "name": "Infested Ooze",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 894
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nParasitic Illusion:\nThis creature always has {CONDNAME_DEBUFF_POISON}. After this creature takes damage from {CONDNAME_DEBUFF_POISON}, 50% of the damage is dealt to all enemies.",
+    "icon":  "images/item/material/InfestedOoze.png",
+    "id":  867,
+    "name":  "Infested Ooze",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  894,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

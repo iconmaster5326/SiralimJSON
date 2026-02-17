@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShadowZealot/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 838,
-  "item": 1027,
-  "lore": "But one day, he went too far. He decided that his mastery would not be complete until he could separate the shadows themselves from their bodies. To achieve his goal, he developed an item, a knife imbued with now-forbidden magic. Blade in hand, he cut his own shadow, separating it from himself and cutting off his soul and his sanity. His body fell to the ground, lifeless, and his Shadow rose in a frenzy. A Shadow who could create other Shadows like itself. A Shadow who could dominate them and call them to war. A Shadow that, finally, was sealed away along with the army it had gathered.",
-  "menagerieDialog": [
-    "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
-    "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
-    "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
-    "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
-    "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
-  ],
-  "minDepth": 1,
-  "name": "Shadow Zealot",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShadowZealot/overworld_e0.png",
-      "images/creature/ShadowZealot/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShadowZealot/overworld_n0.png",
-      "images/creature/ShadowZealot/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShadowZealot/overworld_s0.png",
-      "images/creature/ShadowZealot/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShadowZealot/overworld_w0.png",
-      "images/creature/ShadowZealot/overworld_w1.png"
-    ]
-  },
-  "race": "Shadow",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 26,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1107
+    "battleSprite":  "images/creature/ShadowZealot/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  838,
+    "item":  1027,
+    "lore":  "But one day, he went too far. He decided that his mastery would not be complete until he could separate the shadows themselves from their bodies. To achieve his goal, he developed an item, a knife imbued with now-forbidden magic. Blade in hand, he cut his own shadow, separating it from himself and cutting off his soul and his sanity. His body fell to the ground, lifeless, and his Shadow rose in a frenzy. A Shadow who could create other Shadows like itself. A Shadow who could dominate them and call them to war. A Shadow that, finally, was sealed away along with the army it had gathered.",
+    "menagerieDialog":  [
+                            "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
+                            "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
+                            "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
+                            "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
+                            "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shadow Zealot",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShadowZealot/overworld_e0.png",
+                                         "images/creature/ShadowZealot/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShadowZealot/overworld_n0.png",
+                                          "images/creature/ShadowZealot/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShadowZealot/overworld_s0.png",
+                                          "images/creature/ShadowZealot/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShadowZealot/overworld_w0.png",
+                                         "images/creature/ShadowZealot/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shadow",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  26,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1107,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

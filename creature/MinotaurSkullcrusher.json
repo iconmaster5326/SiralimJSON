@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MinotaurSkullcrusher/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 37,
-  "item": 344,
-  "lore": "Minotaurs only worship Gonfurian and war itself, and Skullcrushers are the shamans who fan the flames of tradition with their words and rituals, which range from dances that would be very picturesque outside a Minotaur tribe, to sacrifices. Some warriors who face a Minotaur Skullcrusher may think its weapon is fragile, as it looks like a human skeleton, but in fact it is made of a heavy metal that can only be found in the Kingdom of Heretics, and Skullcrushers can break common swords with it.",
-  "menagerieDialog": [
-    "I still have my strength, let\u0027s go!",
-    "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
-    "Let none survive. All will perish in our wake!",
-    "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
-    "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
-  ],
-  "minDepth": 1,
-  "name": "Minotaur Skullcrusher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MinotaurSkullcrusher/overworld_e0.png",
-      "images/creature/MinotaurSkullcrusher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MinotaurSkullcrusher/overworld_n0.png",
-      "images/creature/MinotaurSkullcrusher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MinotaurSkullcrusher/overworld_s0.png",
-      "images/creature/MinotaurSkullcrusher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MinotaurSkullcrusher/overworld_w0.png",
-      "images/creature/MinotaurSkullcrusher/overworld_w1.png"
-    ]
-  },
-  "race": "Minotaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 15
-  },
-  "trait": 260
+    "battleSprite":  "images/creature/MinotaurSkullcrusher/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  37,
+    "item":  344,
+    "lore":  "Minotaurs only worship Gonfurian and war itself, and Skullcrushers are the shamans who fan the flames of tradition with their words and rituals, which range from dances that would be very picturesque outside a Minotaur tribe, to sacrifices. Some warriors who face a Minotaur Skullcrusher may think its weapon is fragile, as it looks like a human skeleton, but in fact it is made of a heavy metal that can only be found in the Kingdom of Heretics, and Skullcrushers can break common swords with it.",
+    "menagerieDialog":  [
+                            "I still have my strength, let\u0027s go!",
+                            "We\u0027ve only been fighting weaklings. Are you afraid of something tougher?",
+                            "Let none survive. All will perish in our wake!",
+                            "Humans handle their weapons so awkwardly. They should learn from us Minotaur how to fight correctly.",
+                            "(It\u0027s busy polishing its horns. It would probably be best for you to leave it alone.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Minotaur Skullcrusher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MinotaurSkullcrusher/overworld_e0.png",
+                                         "images/creature/MinotaurSkullcrusher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MinotaurSkullcrusher/overworld_n0.png",
+                                          "images/creature/MinotaurSkullcrusher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MinotaurSkullcrusher/overworld_s0.png",
+                                          "images/creature/MinotaurSkullcrusher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MinotaurSkullcrusher/overworld_w0.png",
+                                         "images/creature/MinotaurSkullcrusher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Minotaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  15
+                   },
+    "trait":  260,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

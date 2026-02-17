@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(A burst of divine fire ignites above the treasure, as a golden ring manifests within it. A huge eye gazes at you as the creature moves to attack!)",
-    "(Spinning its ring faster and faster, the Ophan begins to charge some kind of spell as you approach. You order your creatures to put a stop to it.)",
-    "(The Ophan, guarding the treasure hoard, begins to loudly sing what sounds like battle hymns as it spots you. Its allies, rallied by the song, move in to attack you and your creatures!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 {CLASS_Life} spells deal 10% more damage.",
-    "4": "Your creatures\u0027 damaging {CLASS_Life} spells ignore 10% of their enemies\u0027 {STAT_defense}.",
-    "7": "Your creatures\u0027 {CLASS_Life} spells have 10% additional {STAT_charges}."
-  },
-  "cards": 7,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    392,
-    393,
-    394,
-    395,
-    396,
-    397,
-    694
-  ],
-  "icon": "images/race/Ophan.png",
-  "master": {
-    "costume": 366,
-    "dialog": "Ophans are proficient Life-based spellcasters that specialize in restorative magic. They look really damn cool, too.\\n\\nOrphans, you say? No, not orphans - Ophans! I will punish you for your stupidity!",
-    "item": 1233,
-    "name": "Izor",
-    "trait": 1468
-  },
-  "name": "Ophan",
-  "notes": [],
-  "skins": [
-    46,
-    73,
-    312,
-    745
-  ]
+    "bossDialog":  [
+                       "(A burst of divine fire ignites above the treasure, as a golden ring manifests within it. A huge eye gazes at you as the creature moves to attack!)",
+                       "(Spinning its ring faster and faster, the Ophan begins to charge some kind of spell as you approach. You order your creatures to put a stop to it.)",
+                       "(The Ophan, guarding the treasure hoard, begins to loudly sing what sounds like battle hymns as it spots you. Its allies, rallied by the song, move in to attack you and your creatures!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 {CLASS_Life} spells deal 10% more damage.",
+                        "4":  "Your creatures\u0027 damaging {CLASS_Life} spells ignore 10% of their enemies\u0027 {STAT_defense}.",
+                        "7":  "Your creatures\u0027 {CLASS_Life} spells have 10% additional {STAT_charges}."
+                    },
+    "cards":  7,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      392,
+                      393,
+                      394,
+                      395,
+                      396,
+                      397,
+                      694
+                  ],
+    "icon":  "images/race/Ophan.png",
+    "master":  {
+                   "costume":  366,
+                   "dialog":  "Ophans are proficient Life-based spellcasters that specialize in restorative magic. They look really damn cool, too.\\n\\nOrphans, you say? No, not orphans - Ophans! I will punish you for your stupidity!",
+                   "item":  1233,
+                   "name":  "Izor",
+                   "trait":  1468
+               },
+    "name":  "Ophan",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  46,
+                  73,
+                  312,
+                  745
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

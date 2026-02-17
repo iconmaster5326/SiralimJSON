@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Battrap/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 827,
-  "item": 1037,
-  "lore": "Even though Eferia is part of Torun\u0027s realm, the Ak\u0027haruts blocked access to it through Teleportation Shrines and similar portals which adventurers and looters have been using to travel for over a thousand years.\\n\\nSnaptraps can uproot themselves and walk on their roots. Although they lack intelligence, their ability to navigate their surroundings and respond to the stimuli around them is impressive.\\n\\nThe Battrap is the only Snaptrap in Eferia that does not feed on birds, mammals or reptiles, but on insects and feces. If another predator, including other Snaptraps, tries to devour it or the animals it shelters, it will either attack or flee depending on its chances.",
-  "menagerieDialog": [
-    "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
-    "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
-    "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
-    "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
-    "(A few feathers are stuck in its teeth. What could it have eaten?)"
-  ],
-  "minDepth": 1,
-  "name": "Battrap",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Battrap/overworld_e0.png",
-      "images/creature/Battrap/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Battrap/overworld_n0.png",
-      "images/creature/Battrap/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Battrap/overworld_s0.png",
-      "images/creature/Battrap/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Battrap/overworld_w0.png",
-      "images/creature/Battrap/overworld_w1.png"
-    ]
-  },
-  "race": "Snaptrap",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 16,
-    "health": 42,
-    "intelligence": 22,
-    "speed": 12
-  },
-  "trait": 1093
+    "battleSprite":  "images/creature/Battrap/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  827,
+    "item":  1037,
+    "lore":  "Even though Eferia is part of Torun\u0027s realm, the Ak\u0027haruts blocked access to it through Teleportation Shrines and similar portals which adventurers and looters have been using to travel for over a thousand years.\\n\\nSnaptraps can uproot themselves and walk on their roots. Although they lack intelligence, their ability to navigate their surroundings and respond to the stimuli around them is impressive.\\n\\nThe Battrap is the only Snaptrap in Eferia that does not feed on birds, mammals or reptiles, but on insects and feces. If another predator, including other Snaptraps, tries to devour it or the animals it shelters, it will either attack or flee depending on its chances.",
+    "menagerieDialog":  [
+                            "(It\u0027s busy trying to plant its roots in the castle floor, to no avail.)",
+                            "(Better not get too close to its mouth, lest it might mistake you for a fluttering insect.)",
+                            "(This creature always seems to be digesting food. Eating is a non-stop process for it.)",
+                            "(It\u0027s snapping at the air, making a satisfying clicking sound with its teeth.)",
+                            "(A few feathers are stuck in its teeth. What could it have eaten?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Battrap",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Battrap/overworld_e0.png",
+                                         "images/creature/Battrap/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Battrap/overworld_n0.png",
+                                          "images/creature/Battrap/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Battrap/overworld_s0.png",
+                                          "images/creature/Battrap/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Battrap/overworld_w0.png",
+                                         "images/creature/Battrap/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Snaptrap",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  16,
+                       "health":  42,
+                       "intelligence":  22,
+                       "speed":  12
+                   },
+    "trait":  1093,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

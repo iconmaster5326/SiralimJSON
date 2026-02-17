@@ -1,11 +1,14 @@
 {
-  "creator": null,
-  "creature": 16,
-  "description": "After this creature {ACTION_attacks} an ally with less than 50% {STAT_health}, it is killed, then this creature resurrects it with 100% {STAT_health} and 50% more {STAT_attack}, {STAT_intelligence}, and {STAT_speed}.",
-  "god": null,
-  "id": 161,
-  "item": 251,
-  "name": "Defy the Gods",
-  "notes": [],
-  "race": null
+    "creator":  null,
+    "creature":  16,
+    "description":  "After this creature {ACTION_attacks} an ally with less than 50% {STAT_health}, it is killed, then this creature resurrects it with 100% {STAT_health} and 50% more {STAT_attack}, {STAT_intelligence}, and {STAT_speed}.",
+    "god":  null,
+    "id":  161,
+    "item":  251,
+    "name":  "Defy the Gods",
+    "notes":  [
+
+              ],
+    "race":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/trait.yaml"
 }

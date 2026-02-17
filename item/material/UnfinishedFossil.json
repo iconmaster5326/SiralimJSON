@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLonesome Haze:\nAfter your creatures are resurrected, they {ACTION_attack} random enemies 3 times.",
-  "icon": "images/item/material/UnfinishedFossil.png",
-  "id": 998,
-  "name": "Unfinished Fossil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1138
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLonesome Haze:\nAfter your creatures are resurrected, they {ACTION_attack} random enemies 3 times.",
+    "icon":  "images/item/material/UnfinishedFossil.png",
+    "id":  998,
+    "name":  "Unfinished Fossil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1138,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ThunderStorm/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 202,
-  "item": 527,
-  "lore": "During rainy days, Storms get really angry and leave their masters\u0027 houses or search for clearings in the jungle. With their eyes fixed on the clouds and their faces full of rage, these creatures begin to emit thunder and rain as if it were a competition.\\n\\nThe Thunder Storm is loyal to its companions, and it only unleashes the precise amount of electricity that it needs, to the point where it can revive a creature whose heart has stopped.",
-  "menagerieDialog": [
-    "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
-    "(Lightning is brimming from its mouth. It must be eager to fight.)",
-    "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
-    "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
-    "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
-  ],
-  "minDepth": 1,
-  "name": "Thunder Storm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ThunderStorm/overworld_e0.png",
-      "images/creature/ThunderStorm/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ThunderStorm/overworld_n0.png",
-      "images/creature/ThunderStorm/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ThunderStorm/overworld_s0.png",
-      "images/creature/ThunderStorm/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ThunderStorm/overworld_w0.png",
-      "images/creature/ThunderStorm/overworld_w1.png"
-    ]
-  },
-  "race": "Storm",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 441
+    "battleSprite":  "images/creature/ThunderStorm/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  202,
+    "item":  527,
+    "lore":  "During rainy days, Storms get really angry and leave their masters\u0027 houses or search for clearings in the jungle. With their eyes fixed on the clouds and their faces full of rage, these creatures begin to emit thunder and rain as if it were a competition.\\n\\nThe Thunder Storm is loyal to its companions, and it only unleashes the precise amount of electricity that it needs, to the point where it can revive a creature whose heart has stopped.",
+    "menagerieDialog":  [
+                            "(It\u0027s sleeping lazily, and its snores sound like little blasts of thunder. It\u0027s oddly endearing.)",
+                            "(Lightning is brimming from its mouth. It must be eager to fight.)",
+                            "(It offers to shake your hand. You comply, and it shocks you. The fact that you didn\u0027t see that coming speaks volumes.)",
+                            "I am the sky. I am the rain. I am the thunder.\\n\\n(Wow. That\u0027s deep.)",
+                            "(It\u0027s gently zapping your other creatures, none of whom seem to appreciate the gesture.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Thunder Storm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ThunderStorm/overworld_e0.png",
+                                         "images/creature/ThunderStorm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ThunderStorm/overworld_n0.png",
+                                          "images/creature/ThunderStorm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ThunderStorm/overworld_s0.png",
+                                          "images/creature/ThunderStorm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ThunderStorm/overworld_w0.png",
+                                         "images/creature/ThunderStorm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Storm",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  441,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

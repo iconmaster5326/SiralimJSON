@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAdept Wizarding:\nYour creatures can equip 1 additional Spell Gem and their spells are 30% more potent. This trait does not stack.",
-  "icon": "images/item/material/AdeptsToolBag.png",
-  "id": 1851,
-  "name": "Adept\u0027s Tool Bag",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2016
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAdept Wizarding:\nYour creatures can equip 1 additional Spell Gem and their spells are 30% more potent. This trait does not stack.",
+    "icon":  "images/item/material/AdeptsToolBag.png",
+    "id":  1851,
+    "name":  "Adept\u0027s Tool Bag",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2016,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ToxicSmog/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 704,
-  "item": 869,
-  "lore": "The leader of the Spark plant was the project manager, a Mage who overestimated her achievements and gave the go-ahead to the results without performing the relevant safety checks, falsifying a series of reports. On the day of the explosion, she was supervising the work of the operators. When the machine failed, and everything blew up, she became the Toxic Smog. Since then, her only concern has been to annihilate every Smog, as she would not have been in the plant if not for their incompetence.",
-  "menagerieDialog": [
-    "(It\u0027s spinning in place while mumbling its name over and over again.)",
-    "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
-    "(You can only hope that your other creatures doesn\u0027t have asthma.)",
-    "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
-    "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Toxic Smog",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ToxicSmog/overworld_e0.png",
-      "images/creature/ToxicSmog/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ToxicSmog/overworld_n0.png",
-      "images/creature/ToxicSmog/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ToxicSmog/overworld_s0.png",
-      "images/creature/ToxicSmog/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ToxicSmog/overworld_w0.png",
-      "images/creature/ToxicSmog/overworld_w1.png"
-    ]
-  },
-  "race": "Smog",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 20
-  },
-  "trait": 896
+    "battleSprite":  "images/creature/ToxicSmog/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  704,
+    "item":  869,
+    "lore":  "The leader of the Spark plant was the project manager, a Mage who overestimated her achievements and gave the go-ahead to the results without performing the relevant safety checks, falsifying a series of reports. On the day of the explosion, she was supervising the work of the operators. When the machine failed, and everything blew up, she became the Toxic Smog. Since then, her only concern has been to annihilate every Smog, as she would not have been in the plant if not for their incompetence.",
+    "menagerieDialog":  [
+                            "(It\u0027s spinning in place while mumbling its name over and over again.)",
+                            "(It\u0027s emitting so much smoke that your creatures are doubled over in fits of coughing.)",
+                            "(You can only hope that your other creatures doesn\u0027t have asthma.)",
+                            "(It makes a whistling sound upon your approach, much like a tea kettle. Strange.)",
+                            "(It\u0027s blowing large puffs of smoke into the air. That can\u0027t possibly be healthy for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Toxic Smog",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ToxicSmog/overworld_e0.png",
+                                         "images/creature/ToxicSmog/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ToxicSmog/overworld_n0.png",
+                                          "images/creature/ToxicSmog/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ToxicSmog/overworld_s0.png",
+                                          "images/creature/ToxicSmog/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ToxicSmog/overworld_w0.png",
+                                         "images/creature/ToxicSmog/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Smog",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  20
+                   },
+    "trait":  896,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

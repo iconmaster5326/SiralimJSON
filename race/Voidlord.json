@@ -1,37 +1,40 @@
 {
-  "bossDialog": [
-    "(As you approach the treasure hoard, a dark creature rises and begins to erase the treasure! You\u0027ll have to act now if there\u0027s going to be any of it left to claim!)",
-    "(Ordering your creatures to attack the Voidlord before you, you prepare a spell of escape in advance, just in case. It\u0027s a lot better than being erased from reality.)",
-    "(Though these creatures have only come to Rodia recently, you know very well the danger they pose. Casting several protective wards as a precaution, you order your creatures into battle!)"
-  ],
-  "cardBonuses": {
-    "2": "Your {CONDNAME_BUFF_REPELLING} creatures take 5% less damage from spells.",
-    "4": "Your {CONDNAME_BUFF_REPELLING} creatures take 5% less damage from attacks.",
-    "6": "Your creatures\u0027 {CONDNAME_BUFF_REPELLING} buff now lasts forever."
-  },
-  "cards": 6,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    844,
-    845,
-    846,
-    847,
-    848,
-    849
-  ],
-  "icon": "images/race/Voidlord.png",
-  "master": {
-    "costume": 406,
-    "dialog": "Your creatures will never penetrate my Voidlords\u0027 defenses! Do you really think you stand a chance against me? Let\u0027s find out!",
-    "item": 1175,
-    "name": "Shuulmoth",
-    "trait": 1510
-  },
-  "name": "Voidlord",
-  "notes": [],
-  "skins": [
-    66,
-    199
-  ]
+    "bossDialog":  [
+                       "(As you approach the treasure hoard, a dark creature rises and begins to erase the treasure! You\u0027ll have to act now if there\u0027s going to be any of it left to claim!)",
+                       "(Ordering your creatures to attack the Voidlord before you, you prepare a spell of escape in advance, just in case. It\u0027s a lot better than being erased from reality.)",
+                       "(Though these creatures have only come to Rodia recently, you know very well the danger they pose. Casting several protective wards as a precaution, you order your creatures into battle!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your {CONDNAME_BUFF_REPELLING} creatures take 5% less damage from spells.",
+                        "4":  "Your {CONDNAME_BUFF_REPELLING} creatures take 5% less damage from attacks.",
+                        "6":  "Your creatures\u0027 {CONDNAME_BUFF_REPELLING} buff now lasts forever."
+                    },
+    "cards":  6,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      844,
+                      845,
+                      846,
+                      847,
+                      848,
+                      849
+                  ],
+    "icon":  "images/race/Voidlord.png",
+    "master":  {
+                   "costume":  406,
+                   "dialog":  "Your creatures will never penetrate my Voidlords\u0027 defenses! Do you really think you stand a chance against me? Let\u0027s find out!",
+                   "item":  1175,
+                   "name":  "Shuulmoth",
+                   "trait":  1510
+               },
+    "name":  "Voidlord",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  66,
+                  199
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

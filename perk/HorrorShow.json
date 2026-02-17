@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Enemies with {CONDNAME_DEBUFF_FEAR} have a \u003C1\u003E% chance to lose their turns.\\n\\n{CONDDESC_DEBUFF_FEAR}",
-  "icon": "images/perk/HorrorShow.png",
-  "id": 111,
-  "maxRanks": 25,
-  "name": "Horror Show",
-  "notes": [],
-  "pointsPerRank": 4,
-  "specialization": 9
+    "anointable":  true,
+    "description":  "Enemies with {CONDNAME_DEBUFF_FEAR} have a \u003c1\u003e% chance to lose their turns.\\n\\n{CONDDESC_DEBUFF_FEAR}",
+    "icon":  "images/perk/HorrorShow.png",
+    "id":  111,
+    "maxRanks":  25,
+    "name":  "Horror Show",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  4,
+    "specialization":  9,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

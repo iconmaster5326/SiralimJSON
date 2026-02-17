@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "At the start of battle, your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to \u003C1\u003E% of their Maximum {STAT_health}.\\n\\n{CONDDESC_BUFF_BARRIER}",
-  "icon": "images/perk/GuidingLight.png",
-  "id": 103,
-  "maxRanks": 50,
-  "name": "Guiding Light",
-  "notes": [],
-  "pointsPerRank": 2,
-  "specialization": 2
+    "anointable":  true,
+    "description":  "At the start of battle, your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to \u003c1\u003e% of their Maximum {STAT_health}.\\n\\n{CONDDESC_BUFF_BARRIER}",
+    "icon":  "images/perk/GuidingLight.png",
+    "id":  103,
+    "maxRanks":  50,
+    "name":  "Guiding Light",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  2,
+    "specialization":  2,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

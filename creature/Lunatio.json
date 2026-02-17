@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Lunatio/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1147,
-  "item": 1529,
-  "lore": "Gangrel\u0027s city guard is mostly made up of mysterious creatures skilled in dual-wielding swords. They communicate silently through gestures, but only when absolutely necessary. If one of their own is in danger, any Lunatio within a radius of three miles knows it automatically, and will come to its aid without a moment\u0027s hesitation. During the Unification War, their presence was key to detecting surprise enemy attacks before it was too late.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Lunatio",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Lunatio/overworld_e0.png",
-      "images/creature/Lunatio/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Lunatio/overworld_n0.png",
-      "images/creature/Lunatio/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Lunatio/overworld_s0.png",
-      "images/creature/Lunatio/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Lunatio/overworld_w0.png",
-      "images/creature/Lunatio/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 27,
-    "defense": 12,
-    "health": 27,
-    "intelligence": 17,
-    "speed": 22
-  },
-  "trait": 1870
+    "battleSprite":  "images/creature/Lunatio/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1147,
+    "item":  1529,
+    "lore":  "Gangrel\u0027s city guard is mostly made up of mysterious creatures skilled in dual-wielding swords. They communicate silently through gestures, but only when absolutely necessary. If one of their own is in danger, any Lunatio within a radius of three miles knows it automatically, and will come to its aid without a moment\u0027s hesitation. During the Unification War, their presence was key to detecting surprise enemy attacks before it was too late.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Lunatio",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Lunatio/overworld_e0.png",
+                                         "images/creature/Lunatio/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Lunatio/overworld_n0.png",
+                                          "images/creature/Lunatio/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Lunatio/overworld_s0.png",
+                                          "images/creature/Lunatio/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Lunatio/overworld_w0.png",
+                                         "images/creature/Lunatio/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  27,
+                       "defense":  12,
+                       "health":  27,
+                       "intelligence":  17,
+                       "speed":  22
+                   },
+    "trait":  1870,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

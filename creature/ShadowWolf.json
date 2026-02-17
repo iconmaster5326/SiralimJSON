@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShadowWolf/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 841,
-  "item": 1026,
-  "lore": "After all his hard work, the young man learned how to enter his own shadow. He could move across the floor and walls like a light breeze; he felt weightless and free, as if he could fly.\\n\\nA lone Shadow Wolf may not be a big threat to an average adventurer, but these creatures tend to band together in small groups in the wilderness, and rarely hunt unaccompanied. For this reason, straying far from the roads of some regions, especially in the kingdom of Andolin, is tantamount to suicide. Shadow Wolf packs sneak through the woods, stalking their prey, who never realize the danger before being surrounded by their jaws.",
-  "menagerieDialog": [
-    "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
-    "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
-    "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
-    "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
-    "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
-  ],
-  "minDepth": 1,
-  "name": "Shadow Wolf",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShadowWolf/overworld_e0.png",
-      "images/creature/ShadowWolf/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShadowWolf/overworld_n0.png",
-      "images/creature/ShadowWolf/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShadowWolf/overworld_s0.png",
-      "images/creature/ShadowWolf/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShadowWolf/overworld_w0.png",
-      "images/creature/ShadowWolf/overworld_w1.png"
-    ]
-  },
-  "race": "Shadow",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 11,
-    "health": 26,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1106
+    "battleSprite":  "images/creature/ShadowWolf/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  841,
+    "item":  1026,
+    "lore":  "After all his hard work, the young man learned how to enter his own shadow. He could move across the floor and walls like a light breeze; he felt weightless and free, as if he could fly.\\n\\nA lone Shadow Wolf may not be a big threat to an average adventurer, but these creatures tend to band together in small groups in the wilderness, and rarely hunt unaccompanied. For this reason, straying far from the roads of some regions, especially in the kingdom of Andolin, is tantamount to suicide. Shadow Wolf packs sneak through the woods, stalking their prey, who never realize the danger before being surrounded by their jaws.",
+    "menagerieDialog":  [
+                            "(It\u0027s laying on the ground, pretending to be one of your other creature\u0027s shadow.)",
+                            "(The fact that it never makes a sound is rather disconcerting at times. Its supernatural nature is something you\u0027ll probably never get used to.)",
+                            "(Despite its appearance, this creature is extremely polite and kind toward your other creatures.)",
+                            "(You could swear that you\u0027ve seen this creature before in the midst of one of your sleep paralysis episodes.)",
+                            "(This creature moves so quickly that you sometimes find it difficult to focus your eyes on it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shadow Wolf",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShadowWolf/overworld_e0.png",
+                                         "images/creature/ShadowWolf/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShadowWolf/overworld_n0.png",
+                                          "images/creature/ShadowWolf/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShadowWolf/overworld_s0.png",
+                                          "images/creature/ShadowWolf/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShadowWolf/overworld_w0.png",
+                                         "images/creature/ShadowWolf/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shadow",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  11,
+                       "health":  26,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1106,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

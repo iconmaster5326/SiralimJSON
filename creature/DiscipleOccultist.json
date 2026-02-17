@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DiscipleOccultist/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 135,
-  "item": 404,
-  "lore": "The Refuge of the Magi used to be the most prestigious tower of magic in the world. After several decades of research, the Magi discovered how to alter space inside the tower to increase the number of floors to infinity.\\n\\nWhen an Occultist picks up a book, she sometimes holds it upside down and starts turning two or three pages at a time. With a single touch of her hand, the Disciple Occultist can turn any Spell Gem to dust.",
-  "menagerieDialog": [
-    "(It\u0027s floating comfortably in the air while napping peacefully.)",
-    "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
-    "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
-    "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
-    "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Disciple Occultist",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DiscipleOccultist/overworld_e0.png",
-      "images/creature/DiscipleOccultist/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DiscipleOccultist/overworld_n0.png",
-      "images/creature/DiscipleOccultist/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DiscipleOccultist/overworld_s0.png",
-      "images/creature/DiscipleOccultist/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DiscipleOccultist/overworld_w0.png",
-      "images/creature/DiscipleOccultist/overworld_w1.png"
-    ]
-  },
-  "race": "Occultist",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 319
+    "battleSprite":  "images/creature/DiscipleOccultist/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  135,
+    "item":  404,
+    "lore":  "The Refuge of the Magi used to be the most prestigious tower of magic in the world. After several decades of research, the Magi discovered how to alter space inside the tower to increase the number of floors to infinity.\\n\\nWhen an Occultist picks up a book, she sometimes holds it upside down and starts turning two or three pages at a time. With a single touch of her hand, the Disciple Occultist can turn any Spell Gem to dust.",
+    "menagerieDialog":  [
+                            "(It\u0027s floating comfortably in the air while napping peacefully.)",
+                            "(This creature always seems to be moving its hands in a peculiar way, as if it\u0027s constantly channeling some sort of spell.)",
+                            "(It\u0027s carrying on an elaborate conversation with itself about which realm grows the sweetest fruits.)",
+                            "(She\u0027s humming to herself while conjuring little bits of magic between her fingers. Perhaps this is her form of meditation.)",
+                            "(She\u0027s taking deep drags from a long, wooden pipe and blowing smoke rings at your other creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Disciple Occultist",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DiscipleOccultist/overworld_e0.png",
+                                         "images/creature/DiscipleOccultist/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DiscipleOccultist/overworld_n0.png",
+                                          "images/creature/DiscipleOccultist/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DiscipleOccultist/overworld_s0.png",
+                                          "images/creature/DiscipleOccultist/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DiscipleOccultist/overworld_w0.png",
+                                         "images/creature/DiscipleOccultist/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Occultist",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  319,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

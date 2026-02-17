@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTestu-Oyakodon:\nThis creature always has {CONDNAME_BUFF_SAVAGE}. After an enemy {ACTION_attacks} your {RACE_Eggxotic} creatures, the targeted creature gains {CONDNAME_BUFF_SHELL}.",
-  "icon": "images/item/material/ArmoredEggshell.png",
-  "id": 1795,
-  "name": "Armored Eggshell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2148
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTestu-Oyakodon:\nThis creature always has {CONDNAME_BUFF_SAVAGE}. After an enemy {ACTION_attacks} your {RACE_Eggxotic} creatures, the targeted creature gains {CONDNAME_BUFF_SHELL}.",
+    "icon":  "images/item/material/ArmoredEggshell.png",
+    "id":  1795,
+    "name":  "Armored Eggshell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2148,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

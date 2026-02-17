@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HolidaySpirit/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 771,
-  "item": 42,
-  "lore": "Holiday Spirits have no color or shine for most of the year and can be mistaken for a suspicious-looking bush. During the winter festivities, however, they regain their vitality and quickly travel to the nearest town or village, no matter how densely populated. There they fly among the crowd, wearing a permanent smile. Rodians greatly enjoy the display when many of these creatures gather.",
-  "menagerieDialog": [
-    "(Something about this creature\u0027s presence is particularly comforting.)",
-    "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
-    "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
-    "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
-    "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Holiday Spirit",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HolidaySpirit/overworld_e0.png",
-      "images/creature/HolidaySpirit/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HolidaySpirit/overworld_n0.png",
-      "images/creature/HolidaySpirit/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HolidaySpirit/overworld_s0.png",
-      "images/creature/HolidaySpirit/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HolidaySpirit/overworld_w0.png",
-      "images/creature/HolidaySpirit/overworld_w1.png"
-    ]
-  },
-  "race": "Spirit",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Life Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 22,
-    "speed": 17
-  },
-  "trait": 1021
+    "battleSprite":  "images/creature/HolidaySpirit/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  771,
+    "item":  42,
+    "lore":  "Holiday Spirits have no color or shine for most of the year and can be mistaken for a suspicious-looking bush. During the winter festivities, however, they regain their vitality and quickly travel to the nearest town or village, no matter how densely populated. There they fly among the crowd, wearing a permanent smile. Rodians greatly enjoy the display when many of these creatures gather.",
+    "menagerieDialog":  [
+                            "(Something about this creature\u0027s presence is particularly comforting.)",
+                            "(Spirits are not known for their love of violence, but this one appears to be an exception.)",
+                            "(While Spirits are typically a joy to be around thanks to their friendly nature, this one is especially ingratiating due to its keen intellect.)",
+                            "(It\u0027s very quick to make friends with your other creatures. Such camaraderie will be useful in battle.)",
+                            "(It appears to be in a fantastic mood, as usual. You only wish that you could have such a light attitude sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Holiday Spirit",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HolidaySpirit/overworld_e0.png",
+                                         "images/creature/HolidaySpirit/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HolidaySpirit/overworld_n0.png",
+                                          "images/creature/HolidaySpirit/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HolidaySpirit/overworld_s0.png",
+                                          "images/creature/HolidaySpirit/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HolidaySpirit/overworld_w0.png",
+                                         "images/creature/HolidaySpirit/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spirit",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Life Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  22,
+                       "speed":  17
+                   },
+    "trait":  1021,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

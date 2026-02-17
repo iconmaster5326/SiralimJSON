@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DancingWisp/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 850,
-  "item": 1013,
-  "lore": "Wisps have been known to take control of fresh corpses. When this happens, the eyes of the lifeless body turn blue, and it moves to undertake bloody revenge on those who aggrieved it in life. If the possessed body successfully takes a life in the name of revenge, it dances on the corpse before moving on to the next victim.\\n\\nThere are reports of Rift Dancers interacting with these creatures. Dancing Wisps often reject them abruptly and look away, though they always end up playing together in the end.",
-  "menagerieDialog": [
-    "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
-    "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
-    "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
-    "(This creature constantly cycles between a cacophony of crying and laughter.)",
-    "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
-  ],
-  "minDepth": 1,
-  "name": "Dancing Wisp",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DancingWisp/overworld_e0.png",
-      "images/creature/DancingWisp/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DancingWisp/overworld_n0.png",
-      "images/creature/DancingWisp/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DancingWisp/overworld_s0.png",
-      "images/creature/DancingWisp/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DancingWisp/overworld_w0.png",
-      "images/creature/DancingWisp/overworld_w1.png"
-    ]
-  },
-  "race": "Wisp",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 1117
+    "battleSprite":  "images/creature/DancingWisp/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  850,
+    "item":  1013,
+    "lore":  "Wisps have been known to take control of fresh corpses. When this happens, the eyes of the lifeless body turn blue, and it moves to undertake bloody revenge on those who aggrieved it in life. If the possessed body successfully takes a life in the name of revenge, it dances on the corpse before moving on to the next victim.\\n\\nThere are reports of Rift Dancers interacting with these creatures. Dancing Wisps often reject them abruptly and look away, though they always end up playing together in the end.",
+    "menagerieDialog":  [
+                            "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
+                            "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
+                            "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
+                            "(This creature constantly cycles between a cacophony of crying and laughter.)",
+                            "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dancing Wisp",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DancingWisp/overworld_e0.png",
+                                         "images/creature/DancingWisp/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DancingWisp/overworld_n0.png",
+                                          "images/creature/DancingWisp/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DancingWisp/overworld_s0.png",
+                                          "images/creature/DancingWisp/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DancingWisp/overworld_w0.png",
+                                         "images/creature/DancingWisp/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wisp",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  1117,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCounter Sweep:\nAfter this creature is {ACTION_attacked}, it deals damage to enemies equal to 5% of its {STAT_defense} for each time it has been {ACTION_attacked} in the current battle.",
-  "icon": "images/item/material/StoneWool.png",
-  "id": 1694,
-  "name": "Stone Wool",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2036
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCounter Sweep:\nAfter this creature is {ACTION_attacked}, it deals damage to enemies equal to 5% of its {STAT_defense} for each time it has been {ACTION_attacked} in the current battle.",
+    "icon":  "images/item/material/StoneWool.png",
+    "id":  1694,
+    "name":  "Stone Wool",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2036,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

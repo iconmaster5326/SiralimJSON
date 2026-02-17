@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Doomguards:\nYour {RACE_Doomguard}s have a 20% chance to avoid damage, or 50% if they are {ACTION_defending} or {ACTION_provoking}. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheDoomguard.png",
-  "id": 1273,
-  "name": "Sigil of the Doomguard",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1425
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Doomguards:\nYour {RACE_Doomguard}s have a 20% chance to avoid damage, or 50% if they are {ACTION_defending} or {ACTION_provoking}. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheDoomguard.png",
+    "id":  1273,
+    "name":  "Sigil of the Doomguard",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1425,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

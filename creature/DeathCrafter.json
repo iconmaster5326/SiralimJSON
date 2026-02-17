@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DeathCrafter/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 282,
-  "item": 431,
-  "lore": "These Smiths use dark arts to imbue their weapons with a corrupt power that increases the strength of their allies\u0027 artifacts. It is a ritual that requires the sacrifice of a member of the Smith species. In the past, there were always volunteers among those who had lost their families and those who had nothing left but an empty, broken heart. These days, Death Crafters only sacrifice the Smiths who renounce their lives in the Scarlet Mountains or the Gorgon colonies.",
-  "menagerieDialog": [
-    "I\u0027m far more skilled in forging weapons than fighting creatures.",
-    "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
-    "Never leave home without ensuring that all your Artifacts are fully upgraded.",
-    "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
-    "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
-  ],
-  "minDepth": 1,
-  "name": "Death Crafter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DeathCrafter/overworld_e0.png",
-      "images/creature/DeathCrafter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DeathCrafter/overworld_n0.png",
-      "images/creature/DeathCrafter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DeathCrafter/overworld_s0.png",
-      "images/creature/DeathCrafter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DeathCrafter/overworld_w0.png",
-      "images/creature/DeathCrafter/overworld_w1.png"
-    ]
-  },
-  "race": "Smith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Azural)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 21,
-    "health": 34,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 346
+    "battleSprite":  "images/creature/DeathCrafter/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  282,
+    "item":  431,
+    "lore":  "These Smiths use dark arts to imbue their weapons with a corrupt power that increases the strength of their allies\u0027 artifacts. It is a ritual that requires the sacrifice of a member of the Smith species. In the past, there were always volunteers among those who had lost their families and those who had nothing left but an empty, broken heart. These days, Death Crafters only sacrifice the Smiths who renounce their lives in the Scarlet Mountains or the Gorgon colonies.",
+    "menagerieDialog":  [
+                            "I\u0027m far more skilled in forging weapons than fighting creatures.",
+                            "The final step to forging a mighty blade is to let it taste a bit of blood. Let\u0027s go!",
+                            "Never leave home without ensuring that all your Artifacts are fully upgraded.",
+                            "A creature without an artifact is like a human without pants. It just doesn\u0027t make any sense.",
+                            "I grow tired of this incessant fighting. I\u0027d rather spend my time doing what I love: forging weapons and armor."
+                        ],
+    "minDepth":  1,
+    "name":  "Death Crafter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DeathCrafter/overworld_e0.png",
+                                         "images/creature/DeathCrafter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DeathCrafter/overworld_n0.png",
+                                          "images/creature/DeathCrafter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DeathCrafter/overworld_s0.png",
+                                          "images/creature/DeathCrafter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DeathCrafter/overworld_w0.png",
+                                         "images/creature/DeathCrafter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Smith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Azural)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  21,
+                       "health":  34,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  346,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

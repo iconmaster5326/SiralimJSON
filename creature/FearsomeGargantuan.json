@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/FearsomeGargantuan/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 527,
-  "item": 588,
-  "lore": "Torun has always been fascinated by mountains. One day, after giving life to the Storms, he decided that it would be great if mountains could walk and insult simple mortals, giving them intense looks of disapproval.\\n\\nIn some regions of Rodia it is believed that the Fearsome Gargantuan\u0027s name is due to the horns on its head. In reality, it was named by several warriors who saw one curl into a ball and roll toward them at great speed.",
-  "menagerieDialog": [
-    "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
-    "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
-    "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
-    "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
-    "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
-  ],
-  "minDepth": 1,
-  "name": "Fearsome Gargantuan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/FearsomeGargantuan/overworld_e0.png",
-      "images/creature/FearsomeGargantuan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/FearsomeGargantuan/overworld_n0.png",
-      "images/creature/FearsomeGargantuan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/FearsomeGargantuan/overworld_s0.png",
-      "images/creature/FearsomeGargantuan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/FearsomeGargantuan/overworld_w0.png",
-      "images/creature/FearsomeGargantuan/overworld_w1.png"
-    ]
-  },
-  "race": "Gargantuan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 27,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 7
-  },
-  "trait": 502
+    "battleSprite":  "images/creature/FearsomeGargantuan/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  527,
+    "item":  588,
+    "lore":  "Torun has always been fascinated by mountains. One day, after giving life to the Storms, he decided that it would be great if mountains could walk and insult simple mortals, giving them intense looks of disapproval.\\n\\nIn some regions of Rodia it is believed that the Fearsome Gargantuan\u0027s name is due to the horns on its head. In reality, it was named by several warriors who saw one curl into a ball and roll toward them at great speed.",
+    "menagerieDialog":  [
+                            "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
+                            "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
+                            "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
+                            "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
+                            "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Fearsome Gargantuan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/FearsomeGargantuan/overworld_e0.png",
+                                         "images/creature/FearsomeGargantuan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/FearsomeGargantuan/overworld_n0.png",
+                                          "images/creature/FearsomeGargantuan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/FearsomeGargantuan/overworld_s0.png",
+                                          "images/creature/FearsomeGargantuan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/FearsomeGargantuan/overworld_w0.png",
+                                         "images/creature/FearsomeGargantuan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargantuan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  27,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  7
+                   },
+    "trait":  502,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

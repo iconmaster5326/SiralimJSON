@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfinite Scaling:\nAt the start of battle, your {RACE_Electropod} creatures share 15% of their {STAT_speed} with each other. This trait does not stack.",
-  "icon": "images/item/material/Transformer.png",
-  "id": 1522,
-  "name": "Transformer",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1992
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nInfinite Scaling:\nAt the start of battle, your {RACE_Electropod} creatures share 15% of their {STAT_speed} with each other. This trait does not stack.",
+    "icon":  "images/item/material/Transformer.png",
+    "id":  1522,
+    "name":  "Transformer",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1992,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

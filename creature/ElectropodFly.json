@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/ElectropodFly/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1083,
-  "item": 1522,
-  "lore": "The Electropods are just the first step of an ambitious project that aims to replace organs and limbs with synthetic machinery. These creatures\u0027 lifeforce will simply not be depleted unless magic or physical force destroys them.\\n\\nNo other Electropod travels as fast as the Fly Electropod when it takes flight. In addition, it is capable of changing direction with spectacular speed. However, hovering at high speeds quickly drains its energy, so it needs to rest right away.",
-  "menagerieDialog": [
-    "(Something about this creature reminds you of an old toy you used to play with as a child.)",
-    "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
-    "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff\u00E2\u20AC\u00A6",
-    "(This creature has one and only one weakness: being dropped into a tub of water.)",
-    "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
-  ],
-  "minDepth": 1,
-  "name": "Electropod Fly",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ElectropodFly/overworld_e0.png",
-      "images/creature/ElectropodFly/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ElectropodFly/overworld_n0.png",
-      "images/creature/ElectropodFly/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ElectropodFly/overworld_s0.png",
-      "images/creature/ElectropodFly/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ElectropodFly/overworld_w0.png",
-      "images/creature/ElectropodFly/overworld_w1.png"
-    ]
-  },
-  "race": "Electropod",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 25,
-      "type": "realm"
-    },
-    {
-      "realm": 28,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    28
-  ],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 20,
-    "health": 32,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 1992
+    "battleSprite":  "images/creature/ElectropodFly/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1083,
+    "item":  1522,
+    "lore":  "The Electropods are just the first step of an ambitious project that aims to replace organs and limbs with synthetic machinery. These creatures\u0027 lifeforce will simply not be depleted unless magic or physical force destroys them.\\n\\nNo other Electropod travels as fast as the Fly Electropod when it takes flight. In addition, it is capable of changing direction with spectacular speed. However, hovering at high speeds quickly drains its energy, so it needs to rest right away.",
+    "menagerieDialog":  [
+                            "(Something about this creature reminds you of an old toy you used to play with as a child.)",
+                            "(It is strange to see a sentient creature act so robotically. The line between living creatures and technology is virtually non-existent.)",
+                            "Bzzzzt. Bzzzzzzzzzt! Pffffffffffffffffffffffffffffffffffffffff…",
+                            "(This creature has one and only one weakness: being dropped into a tub of water.)",
+                            "(It\u0027s making a strange clicking sound. Perhaps it\u0027s in need of a repair.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Electropod Fly",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ElectropodFly/overworld_e0.png",
+                                         "images/creature/ElectropodFly/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ElectropodFly/overworld_n0.png",
+                                          "images/creature/ElectropodFly/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ElectropodFly/overworld_s0.png",
+                                          "images/creature/ElectropodFly/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ElectropodFly/overworld_w0.png",
+                                         "images/creature/ElectropodFly/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Electropod",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  25,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  28,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            28
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  20,
+                       "health":  32,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  1992,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

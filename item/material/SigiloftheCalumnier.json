@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Calumniers:\nIf all the creatures in your party are {RACE_Calumnier}s, they do not have decreased stats from their Personalities.",
-  "icon": "images/item/material/SigiloftheCalumnier.png",
-  "id": 1852,
-  "name": "Sigil of the Calumnier",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2190
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Calumniers:\nIf all the creatures in your party are {RACE_Calumnier}s, they do not have decreased stats from their Personalities.",
+    "icon":  "images/item/material/SigiloftheCalumnier.png",
+    "id":  1852,
+    "name":  "Sigil of the Calumnier",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2190,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

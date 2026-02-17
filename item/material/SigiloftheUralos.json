@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Uraloses:\nIf all the creatures in your party are {RACE_Uralos}es, they have a 50% chance to avoid indirect damage. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheUralos.png",
-  "id": 1508,
-  "name": "Sigil of the Uralos",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1816
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Uraloses:\nIf all the creatures in your party are {RACE_Uralos}es, they have a 50% chance to avoid indirect damage. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheUralos.png",
+    "id":  1508,
+    "name":  "Sigil of the Uralos",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1816,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

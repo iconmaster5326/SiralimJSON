@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLush Licks:\nAfter your creatures {ACTION_attack}, they afflict the target with a copy of their debuffs.",
-  "icon": "images/item/material/AddledPimple.png",
-  "id": 265,
-  "name": "Addled Pimple",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 175
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLush Licks:\nAfter your creatures {ACTION_attack}, they afflict the target with a copy of their debuffs.",
+    "icon":  "images/item/material/AddledPimple.png",
+    "id":  265,
+    "name":  "Addled Pimple",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  175,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

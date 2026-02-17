@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Mites:\nYour {RACE_Mite}s have a 5% chance to avoid damage for each {RACE_Mite} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheMite.png",
-  "id": 1232,
-  "name": "Sigil of the Mite",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1463
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Mites:\nYour {RACE_Mite}s have a 5% chance to avoid damage for each {RACE_Mite} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheMite.png",
+    "id":  1232,
+    "name":  "Sigil of the Mite",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1463,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

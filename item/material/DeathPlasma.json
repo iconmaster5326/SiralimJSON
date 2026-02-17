@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeath Transformation:\nWhen your creatures increase an enemy\u0027s stats, they are instead decreased by 50% of the amount. This trait does not stack.",
-  "icon": "images/item/material/DeathPlasma.png",
-  "id": 612,
-  "name": "Death Plasma",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 526
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDeath Transformation:\nWhen your creatures increase an enemy\u0027s stats, they are instead decreased by 50% of the amount. This trait does not stack.",
+    "icon":  "images/item/material/DeathPlasma.png",
+    "id":  612,
+    "name":  "Death Plasma",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  526,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

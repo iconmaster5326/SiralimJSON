@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCradle to the Grave:\nAfter your creatures are killed, they have a 15% chance to resurrect with 50% {STAT_health} for each dead creature on your side. This trait does not stack.",
-  "icon": "images/item/material/GravediggerGoo.png",
-  "id": 572,
-  "name": "Gravedigger Goo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 486
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCradle to the Grave:\nAfter your creatures are killed, they have a 15% chance to resurrect with 50% {STAT_health} for each dead creature on your side. This trait does not stack.",
+    "icon":  "images/item/material/GravediggerGoo.png",
+    "id":  572,
+    "name":  "Gravedigger Goo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  486,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

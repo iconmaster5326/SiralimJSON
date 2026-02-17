@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SapphireCarbuncle/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 933,
-  "item": 929,
-  "lore": "It took half of the Raven population of Crux to build a new home for the Carbuncles. When the ritual began, trails of light quickly shot into the air over the squawks and arcane movements that guided the magic towards its manifestation. But Vertraag had not revealed the price they would pay. When the door to the new world opened at the top of the city\u0027s magic palace, the Ravens who had participated in its creation lost their lives and collapsed on the cobblestones of their own home. A few, perhaps fortunately, managed to see the Carbuncles start their long journey before closing their eyes forever.\\n\\nThe Sapphire Carbuncle appeared after that and stayed with the Ravens, guarding the Rod of Ruin for thousands of years. However, now that the Temple of Lies is accessible, it has joined its kind to protect their lives.",
-  "menagerieDialog": [
-    "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
-    "(The jewel on its forehead shines brightly.)",
-    "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
-    "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
-    "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
-  ],
-  "minDepth": 1,
-  "name": "Sapphire Carbuncle",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SapphireCarbuncle/overworld_e0.png",
-      "images/creature/SapphireCarbuncle/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SapphireCarbuncle/overworld_n0.png",
-      "images/creature/SapphireCarbuncle/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SapphireCarbuncle/overworld_s0.png",
-      "images/creature/SapphireCarbuncle/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SapphireCarbuncle/overworld_w0.png",
-      "images/creature/SapphireCarbuncle/overworld_w1.png"
-    ]
-  },
-  "race": "Carbuncle",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 31,
-    "intelligence": 23,
-    "speed": 23
-  },
-  "trait": 1201
+    "battleSprite":  "images/creature/SapphireCarbuncle/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  933,
+    "item":  929,
+    "lore":  "It took half of the Raven population of Crux to build a new home for the Carbuncles. When the ritual began, trails of light quickly shot into the air over the squawks and arcane movements that guided the magic towards its manifestation. But Vertraag had not revealed the price they would pay. When the door to the new world opened at the top of the city\u0027s magic palace, the Ravens who had participated in its creation lost their lives and collapsed on the cobblestones of their own home. A few, perhaps fortunately, managed to see the Carbuncles start their long journey before closing their eyes forever.\\n\\nThe Sapphire Carbuncle appeared after that and stayed with the Ravens, guarding the Rod of Ruin for thousands of years. However, now that the Temple of Lies is accessible, it has joined its kind to protect their lives.",
+    "menagerieDialog":  [
+                            "(It unleashes a surprisingly boisterous yawn before curling up into a ball and falling asleep.)",
+                            "(The jewel on its forehead shines brightly.)",
+                            "(It always seems to want to impress you with a dance whenever it knows you\u0027re looking.)",
+                            "(It\u0027s sniffing at the air as if it can sense something is amiss. Perhaps Everett forgot to douse the firepits again.)",
+                            "(It scratches at its neck with one of its hind paws. Adorable little thing, really.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Sapphire Carbuncle",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SapphireCarbuncle/overworld_e0.png",
+                                         "images/creature/SapphireCarbuncle/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SapphireCarbuncle/overworld_n0.png",
+                                          "images/creature/SapphireCarbuncle/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SapphireCarbuncle/overworld_s0.png",
+                                          "images/creature/SapphireCarbuncle/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SapphireCarbuncle/overworld_w0.png",
+                                         "images/creature/SapphireCarbuncle/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carbuncle",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  31,
+                       "intelligence":  23,
+                       "speed":  23
+                   },
+    "trait":  1201,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

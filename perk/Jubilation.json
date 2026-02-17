@@ -1,11 +1,14 @@
 {
-  "anointable": false,
-  "description": "At the start of each creature\u0027s turn, if your {RACE_Guardian} has at least 500% of the {STAT_defense} it started the battle with, all creatures {ACTION_cast} [icons,1972]Words of Encouragement on your {RACE_Guardian} and they take damage equal to 100% of their {CONDNAME_DEBUFF_MANIA} debuff\u0027s potency. This effect can only happen once per battle.",
-  "icon": "images/perk/Jubilation.png",
-  "id": 647,
-  "maxRanks": 1,
-  "name": "Jubilation",
-  "notes": [],
-  "pointsPerRank": 1,
-  "specialization": 41
+    "anointable":  false,
+    "description":  "At the start of each creature\u0027s turn, if your {RACE_Guardian} has at least 500% of the {STAT_defense} it started the battle with, all creatures {ACTION_cast} [icons,1972]Words of Encouragement on your {RACE_Guardian} and they take damage equal to 100% of their {CONDNAME_DEBUFF_MANIA} debuff\u0027s potency. This effect can only happen once per battle.",
+    "icon":  "images/perk/Jubilation.png",
+    "id":  647,
+    "maxRanks":  1,
+    "name":  "Jubilation",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  1,
+    "specialization":  41,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

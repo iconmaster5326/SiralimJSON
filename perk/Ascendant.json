@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creature with the highest Maximum {STAT_health} starts battles at the top of the {TIMELINE}.",
-  "icon": "images/perk/Ascendant.png",
-  "id": 270,
-  "maxRanks": 1,
-  "name": "Ascendant",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 18
+    "anointable":  true,
+    "description":  "Your creature with the highest Maximum {STAT_health} starts battles at the top of the {TIMELINE}.",
+    "icon":  "images/perk/Ascendant.png",
+    "id":  270,
+    "maxRanks":  1,
+    "name":  "Ascendant",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  18,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

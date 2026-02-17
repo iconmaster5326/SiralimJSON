@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HandAnimation/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1211,
-  "item": 1594,
-  "lore": "If an Animation takes damage, the necromancer who created it will feel a shooting pain in the same part of the body the Animation was made from.\\n\\nWhen a Hand Animation spends too much time idle, their fingers begin to tap against the surface they are on. On one occasion, a necromancer who was in the Great Pandemonium watched as one of these creatures was consumed by the lava when it carried out this movement.",
-  "menagerieDialog": [
-    "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
-    "(Where did this body part come from, anyway?)",
-    "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
-    "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
-    "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
-  ],
-  "minDepth": 1,
-  "name": "Hand Animation",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HandAnimation/overworld_e0.png",
-      "images/creature/HandAnimation/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HandAnimation/overworld_n0.png",
-      "images/creature/HandAnimation/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HandAnimation/overworld_s0.png",
-      "images/creature/HandAnimation/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HandAnimation/overworld_w0.png",
-      "images/creature/HandAnimation/overworld_w1.png"
-    ]
-  },
-  "race": "Animation",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 31,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1934
+    "battleSprite":  "images/creature/HandAnimation/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1211,
+    "item":  1594,
+    "lore":  "If an Animation takes damage, the necromancer who created it will feel a shooting pain in the same part of the body the Animation was made from.\\n\\nWhen a Hand Animation spends too much time idle, their fingers begin to tap against the surface they are on. On one occasion, a necromancer who was in the Great Pandemonium watched as one of these creatures was consumed by the lava when it carried out this movement.",
+    "menagerieDialog":  [
+                            "(This creature seems to lack any semblance of emotion. It is merely an animated object and nothing more.)",
+                            "(Where did this body part come from, anyway?)",
+                            "(You\u0027re nearly overwhelmed by the powerful magic that gives life to this creature.)",
+                            "(The creature awaits your next command, living only to serve your needs. Pretty convenient, really.)",
+                            "(If you combine each of the six known Animation creatures, perhaps something interesting will happen. But probably not.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Hand Animation",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HandAnimation/overworld_e0.png",
+                                         "images/creature/HandAnimation/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HandAnimation/overworld_n0.png",
+                                          "images/creature/HandAnimation/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HandAnimation/overworld_s0.png",
+                                          "images/creature/HandAnimation/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HandAnimation/overworld_w0.png",
+                                         "images/creature/HandAnimation/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Animation",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  31,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1934,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

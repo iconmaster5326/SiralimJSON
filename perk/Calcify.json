@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After an enemy takes damage from a spell, they have a \u003C5\u003E% chance to be afflicted with {CONDNAME_DEBUFF_STONE}.\\n\\n{CONDDESC_DEBUFF_STONE}",
-  "icon": "images/perk/Calcify.png",
-  "id": 173,
-  "maxRanks": 10,
-  "name": "Calcify",
-  "notes": [],
-  "pointsPerRank": 10,
-  "specialization": 12
+    "anointable":  true,
+    "description":  "After an enemy takes damage from a spell, they have a \u003c5\u003e% chance to be afflicted with {CONDNAME_DEBUFF_STONE}.\\n\\n{CONDDESC_DEBUFF_STONE}",
+    "icon":  "images/perk/Calcify.png",
+    "id":  173,
+    "maxRanks":  10,
+    "name":  "Calcify",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  10,
+    "specialization":  12,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

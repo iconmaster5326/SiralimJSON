@@ -1,54 +1,57 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "nature",
-  "creator": null,
-  "description": "Enemies are afflicted with {CONDNAME_DEBUFF_BLIGHT}. If they are already afflicted with this debuff, they instead recover a moderate amount of {STAT_health}.",
-  "god": null,
-  "id": 373,
-  "manuallyCastable": true,
-  "maxCharges": 10,
-  "name": "Cruelty of the Wild",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    1,
-    2,
-    3,
-    5,
-    6,
-    7,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "DEBUFF",
-    "DAMAGE"
-  ],
-  "targets": "enemies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "nature",
+    "creator":  null,
+    "description":  "Enemies are afflicted with {CONDNAME_DEBUFF_BLIGHT}. If they are already afflicted with this debuff, they instead recover a moderate amount of {STAT_health}.",
+    "god":  null,
+    "id":  373,
+    "manuallyCastable":  true,
+    "maxCharges":  10,
+    "name":  "Cruelty of the Wild",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  1,
+                                  2,
+                                  3,
+                                  5,
+                                  6,
+                                  7,
+                                  8,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "DEBUFF",
+                 "DAMAGE"
+             ],
+    "targets":  "enemies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTurn to Gray:\nAfter this creature is {ACTION_attacked}, enemies are afflicted with {CONDNAME_DEBUFF_VULNERABLE}.",
-  "icon": "images/item/material/RitualStitches.png",
-  "id": 780,
-  "name": "Ritual Stitches",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 807
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTurn to Gray:\nAfter this creature is {ACTION_attacked}, enemies are afflicted with {CONDNAME_DEBUFF_VULNERABLE}.",
+    "icon":  "images/item/material/RitualStitches.png",
+    "id":  780,
+    "name":  "Ritual Stitches",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  807,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

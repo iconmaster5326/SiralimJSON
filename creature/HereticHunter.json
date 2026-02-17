@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/HereticHunter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 306,
-  "item": 523,
-  "lore": "Heretic Hunters are an exception within their culture in regard to the faith they choose to profess. They usually worship a Chaos God, though in no case are they repudiated by their own, to the surprise of the scholars of non-human societies. They are silent, bloodthirsty warriors who take advantage of the powers bestowed by the deities they worship, as well as their bond with the group to enhance their blows.",
-  "menagerieDialog": [
-    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
-    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
-    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
-    "(It\u0027s busy feeding bits of meat to its wolf.)",
-    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
-  ],
-  "minDepth": 1,
-  "name": "Heretic Hunter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/HereticHunter/overworld_e0.png",
-      "images/creature/HereticHunter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/HereticHunter/overworld_n0.png",
-      "images/creature/HereticHunter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/HereticHunter/overworld_s0.png",
-      "images/creature/HereticHunter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/HereticHunter/overworld_w0.png",
-      "images/creature/HereticHunter/overworld_w1.png"
-    ]
-  },
-  "race": "Hunter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 10,
-    "health": 25,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 437
+    "battleSprite":  "images/creature/HereticHunter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  306,
+    "item":  523,
+    "lore":  "Heretic Hunters are an exception within their culture in regard to the faith they choose to profess. They usually worship a Chaos God, though in no case are they repudiated by their own, to the surprise of the scholars of non-human societies. They are silent, bloodthirsty warriors who take advantage of the powers bestowed by the deities they worship, as well as their bond with the group to enhance their blows.",
+    "menagerieDialog":  [
+                            "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+                            "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+                            "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+                            "(It\u0027s busy feeding bits of meat to its wolf.)",
+                            "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Heretic Hunter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/HereticHunter/overworld_e0.png",
+                                         "images/creature/HereticHunter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/HereticHunter/overworld_n0.png",
+                                          "images/creature/HereticHunter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/HereticHunter/overworld_s0.png",
+                                          "images/creature/HereticHunter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/HereticHunter/overworld_w0.png",
+                                         "images/creature/HereticHunter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hunter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  10,
+                       "health":  25,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  437,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

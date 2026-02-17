@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTrove:\nAt the start of battle, your {RACE_Imler}s and {RACE_Imling}s share copies of their first 3 permanent Spell Gems with each other. This trait does not stack.",
-  "icon": "images/item/material/DiamondCharm.png",
-  "id": 542,
-  "name": "Diamond Charm",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 456
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nTrove:\nAt the start of battle, your {RACE_Imler}s and {RACE_Imling}s share copies of their first 3 permanent Spell Gems with each other. This trait does not stack.",
+    "icon":  "images/item/material/DiamondCharm.png",
+    "id":  542,
+    "name":  "Diamond Charm",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  456,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

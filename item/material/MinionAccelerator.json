@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMinions First:\nThis creature has a 20% chance to take an additional turn for each minion it has. This trait can only activate once per turn.",
-  "icon": "images/item/material/MinionAccelerator.png",
-  "id": 1376,
-  "name": "Minion Accelerator",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1683
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMinions First:\nThis creature has a 20% chance to take an additional turn for each minion it has. This trait can only activate once per turn.",
+    "icon":  "images/item/material/MinionAccelerator.png",
+    "id":  1376,
+    "name":  "Minion Accelerator",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1683,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

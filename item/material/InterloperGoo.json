@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCorrosion:\nAfter this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_BLIGHT}. If the target is already afflicted with {CONDNAME_DEBUFF_BLIGHT}, the target is healed for 100% of the amount of damage dealt.",
-  "icon": "images/item/material/InterloperGoo.png",
-  "id": 570,
-  "name": "Interloper Goo",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 484
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCorrosion:\nAfter this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_BLIGHT}. If the target is already afflicted with {CONDNAME_DEBUFF_BLIGHT}, the target is healed for 100% of the amount of damage dealt.",
+    "icon":  "images/item/material/InterloperGoo.png",
+    "id":  570,
+    "name":  "Interloper Goo",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  484,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

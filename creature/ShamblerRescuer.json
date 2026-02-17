@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/ShamblerRescuer/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 824,
-  "item": 1043,
-  "lore": "The sea is vast and full of hazards, some natural and others not so much. Shipwrecks are relatively common, and often spell death for the crew members who manage to stay afloat after the ship has sunk. All is lost for them... unless it is their lucky day, and a bony hand emerges from the ocean to bring them to safety. There are many stories and legends about these mysterious creatures who never utter a word... if they can speak at all. They do not expect anything in return nor do they communicate in any way with the people they save; they simply appear when they are needed most, saving victims of shipwrecks or guiding wandering ships that had lost their way. Some say they come from the world of the Plague Doctors, others think this is a species who suffered the same fate as the Shambler Rescuers. When James landed on Rodia, he brought some of these creatures with him, but his crew never mentioned seeing them in any of the Revenant engravings.",
-  "menagerieDialog": [
-    "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
-    "(Though it smells like dead fish, it is a formidable part of your team.)",
-    "(Not everything in life is beautiful. This creature is proof of that.)",
-    "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
-    "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
-  ],
-  "minDepth": 1,
-  "name": "Shambler Rescuer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ShamblerRescuer/overworld_e0.png",
-      "images/creature/ShamblerRescuer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ShamblerRescuer/overworld_n0.png",
-      "images/creature/ShamblerRescuer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ShamblerRescuer/overworld_s0.png",
-      "images/creature/ShamblerRescuer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ShamblerRescuer/overworld_w0.png",
-      "images/creature/ShamblerRescuer/overworld_w1.png"
-    ]
-  },
-  "race": "Sea Shambler",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 30,
-    "intelligence": 22,
-    "speed": 12
-  },
-  "trait": 1087
+    "battleSprite":  "images/creature/ShamblerRescuer/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  824,
+    "item":  1043,
+    "lore":  "The sea is vast and full of hazards, some natural and others not so much. Shipwrecks are relatively common, and often spell death for the crew members who manage to stay afloat after the ship has sunk. All is lost for them... unless it is their lucky day, and a bony hand emerges from the ocean to bring them to safety. There are many stories and legends about these mysterious creatures who never utter a word... if they can speak at all. They do not expect anything in return nor do they communicate in any way with the people they save; they simply appear when they are needed most, saving victims of shipwrecks or guiding wandering ships that had lost their way. Some say they come from the world of the Plague Doctors, others think this is a species who suffered the same fate as the Shambler Rescuers. When James landed on Rodia, he brought some of these creatures with him, but his crew never mentioned seeing them in any of the Revenant engravings.",
+    "menagerieDialog":  [
+                            "(You\u0027ve always wondered how it\u0027s able to breathe outside of water.)",
+                            "(Though it smells like dead fish, it is a formidable part of your team.)",
+                            "(Not everything in life is beautiful. This creature is proof of that.)",
+                            "(You can\u0027t help but wonder if this creature is in perpetual pain.)",
+                            "(Yep, this creature will definitely haunt your nightmares until the end of time.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Shambler Rescuer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ShamblerRescuer/overworld_e0.png",
+                                         "images/creature/ShamblerRescuer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ShamblerRescuer/overworld_n0.png",
+                                          "images/creature/ShamblerRescuer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ShamblerRescuer/overworld_s0.png",
+                                          "images/creature/ShamblerRescuer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ShamblerRescuer/overworld_w0.png",
+                                         "images/creature/ShamblerRescuer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sea Shambler",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  30,
+                       "intelligence":  22,
+                       "speed":  12
+                   },
+    "trait":  1087,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

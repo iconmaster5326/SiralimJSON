@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Megalodon/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1474,
-  "item": 1729,
-  "lore": "This colossal sea beast has endless rows of blade-like teeth sharp enough to tear massive holes into ordinary ships. Once believed extinct, it has reappeared in recent years, forcing seafarers to reinforce their vessels with protective magical varnish. The reason for its return remains unknown, though some suspect it may be tied to recent genetic engineering experiments that have revived other ancient creatures.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Megalodon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Megalodon/overworld_e0.png",
-      "images/creature/Megalodon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Megalodon/overworld_n0.png",
-      "images/creature/Megalodon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Megalodon/overworld_s0.png",
-      "images/creature/Megalodon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Megalodon/overworld_w0.png",
-      "images/creature/Megalodon/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 28,
-    "defense": 25,
-    "health": 40,
-    "intelligence": 10,
-    "speed": 17
-  },
-  "trait": 2071
+    "battleSprite":  "images/creature/Megalodon/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1474,
+    "item":  1729,
+    "lore":  "This colossal sea beast has endless rows of blade-like teeth sharp enough to tear massive holes into ordinary ships. Once believed extinct, it has reappeared in recent years, forcing seafarers to reinforce their vessels with protective magical varnish. The reason for its return remains unknown, though some suspect it may be tied to recent genetic engineering experiments that have revived other ancient creatures.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Megalodon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Megalodon/overworld_e0.png",
+                                         "images/creature/Megalodon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Megalodon/overworld_n0.png",
+                                          "images/creature/Megalodon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Megalodon/overworld_s0.png",
+                                          "images/creature/Megalodon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Megalodon/overworld_w0.png",
+                                         "images/creature/Megalodon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  28,
+                       "defense":  25,
+                       "health":  40,
+                       "intelligence":  10,
+                       "speed":  17
+                   },
+    "trait":  2071,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

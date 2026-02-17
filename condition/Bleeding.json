@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_DEBUFF_BLEED} take damage equal to 30% of their Current {STAT_health} at the start of each turn.",
-  "icon": "images/condition/Bleeding.png",
-  "iconResisted": "images/condition/Bleeding_resist.png",
-  "id": 33,
-  "material": null,
-  "name": "Bleeding",
-  "notes": [],
-  "reserved": false,
-  "type": "debuff"
+    "description":  "Creatures with {CONDNAME_DEBUFF_BLEED} take damage equal to 30% of their Current {STAT_health} at the start of each turn.",
+    "icon":  "images/condition/Bleeding.png",
+    "iconResisted":  "images/condition/Bleeding_resist.png",
+    "id":  33,
+    "material":  null,
+    "name":  "Bleeding",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

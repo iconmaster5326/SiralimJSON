@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DivinePhoenix/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 994,
-  "item": 1320,
-  "lore": "This creature is not really a Phoenix, but an automaton programmed by the Auditors to eliminate any outsider who manages to break through the barrier surrounding the city of Ubi Concordia. Its flight is as deft as that of other Phoenixes, but its call is metallic, high-pitched, and extremely unpleasant. The energy released by its wings and tail damages both organic tissue and stone or metal, and it can exhale bursts of it through its jaws when it enters combat.",
-  "menagerieDialog": [
-    "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
-    "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
-    "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
-    "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \u0022revives\u0022, it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
-    "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
-  ],
-  "minDepth": 1,
-  "name": "Divine Phoenix",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DivinePhoenix/overworld_e0.png",
-      "images/creature/DivinePhoenix/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DivinePhoenix/overworld_n0.png",
-      "images/creature/DivinePhoenix/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DivinePhoenix/overworld_s0.png",
-      "images/creature/DivinePhoenix/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DivinePhoenix/overworld_w0.png",
-      "images/creature/DivinePhoenix/overworld_w1.png"
-    ]
-  },
-  "race": "Phoenix",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Life Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 37,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1588
+    "battleSprite":  "images/creature/DivinePhoenix/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  994,
+    "item":  1320,
+    "lore":  "This creature is not really a Phoenix, but an automaton programmed by the Auditors to eliminate any outsider who manages to break through the barrier surrounding the city of Ubi Concordia. Its flight is as deft as that of other Phoenixes, but its call is metallic, high-pitched, and extremely unpleasant. The energy released by its wings and tail damages both organic tissue and stone or metal, and it can exhale bursts of it through its jaws when it enters combat.",
+    "menagerieDialog":  [
+                            "(It\u0027s preening its feathers, plucking out the ones that are damaged from battle.)",
+                            "(It screeches and spreads its wings, showering you in a coat of dusty ash.)",
+                            "(It\u0027s closely studying its environment, as if trying to note where every single object in your castle is located.)",
+                            "(You are confident that a Phoenix\u0027s so-called resurrection is merely a parlor trick. Whenever it \"revives\", it seems to have no recollection of its past life. Someone is probably just replacing this creature with a new one when it dies.)",
+                            "(It gently pecks at your hand. Perhaps it\u0027s hungry. But what do Phoenixes even eat?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Divine Phoenix",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DivinePhoenix/overworld_e0.png",
+                                         "images/creature/DivinePhoenix/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DivinePhoenix/overworld_n0.png",
+                                          "images/creature/DivinePhoenix/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DivinePhoenix/overworld_s0.png",
+                                          "images/creature/DivinePhoenix/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DivinePhoenix/overworld_w0.png",
+                                         "images/creature/DivinePhoenix/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Phoenix",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Life Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  37,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1588,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

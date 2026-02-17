@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/EvilVortex/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1010,
-  "item": 1337,
-  "lore": "Even though Evil Vortices also participated in the Watcher War, many began to call them that due to their appearance and peculiarities. All light around an Evil Vortex is inevitably absorbed by it. Even on a bright morning with totally clear skies, the space around an Evil Vortex somehow seems darker.",
-  "menagerieDialog": [
-    "(It whirls around in circles, emitting a powerful light.)",
-    "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
-    "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
-    "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
-    "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
-  ],
-  "minDepth": 1,
-  "name": "Evil Vortex",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/EvilVortex/overworld_e0.png",
-      "images/creature/EvilVortex/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/EvilVortex/overworld_n0.png",
-      "images/creature/EvilVortex/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/EvilVortex/overworld_s0.png",
-      "images/creature/EvilVortex/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/EvilVortex/overworld_w0.png",
-      "images/creature/EvilVortex/overworld_w1.png"
-    ]
-  },
-  "race": "Vortex",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Sorcery Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 11,
-    "health": 41,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 1583
+    "battleSprite":  "images/creature/EvilVortex/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1010,
+    "item":  1337,
+    "lore":  "Even though Evil Vortices also participated in the Watcher War, many began to call them that due to their appearance and peculiarities. All light around an Evil Vortex is inevitably absorbed by it. Even on a bright morning with totally clear skies, the space around an Evil Vortex somehow seems darker.",
+    "menagerieDialog":  [
+                            "(It whirls around in circles, emitting a powerful light.)",
+                            "(It whirs around the menagerie, annoying your other creatures who are trying to rest.)",
+                            "(This creature\u0027s presence is particularly welcome in the stuffy confines of these castle walls.)",
+                            "(It\u0027s starting to lose its luster - it might be time to feed it another Spell Gem.)",
+                            "(This creature is surprisingly small when it\u0027s not wreaking havoc with its winds.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Evil Vortex",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/EvilVortex/overworld_e0.png",
+                                         "images/creature/EvilVortex/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/EvilVortex/overworld_n0.png",
+                                          "images/creature/EvilVortex/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/EvilVortex/overworld_s0.png",
+                                          "images/creature/EvilVortex/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/EvilVortex/overworld_w0.png",
+                                         "images/creature/EvilVortex/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vortex",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Sorcery Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  11,
+                       "health":  41,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  1583,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

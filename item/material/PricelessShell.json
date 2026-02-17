@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUltra Cling:\nAfter this creature damages an enemy with an attack or spell, it has a 50% chance to afflict the target with {CONDNAME_DEBUFF_SNARED}.",
-  "icon": "images/item/material/PricelessShell.png",
-  "id": 1726,
-  "name": "Priceless Shell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2068
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUltra Cling:\nAfter this creature damages an enemy with an attack or spell, it has a 50% chance to afflict the target with {CONDNAME_DEBUFF_SNARED}.",
+    "icon":  "images/item/material/PricelessShell.png",
+    "id":  1726,
+    "name":  "Priceless Shell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2068,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

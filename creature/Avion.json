@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Avion/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1138,
-  "item": 1658,
-  "lore": "Avion racing is common in Yarthe, a country where these creatures thrive. However, trying to ride them without proper training is tantamount to suicide. Their rider must care for them from the moment they hatch, or they will peck and kick at anyone who tries to climb on top of them.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Avion",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Avion/overworld_e0.png",
-      "images/creature/Avion/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Avion/overworld_n0.png",
-      "images/creature/Avion/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Avion/overworld_s0.png",
-      "images/creature/Avion/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Avion/overworld_w0.png",
-      "images/creature/Avion/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 43,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1861
+    "battleSprite":  "images/creature/Avion/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1138,
+    "item":  1658,
+    "lore":  "Avion racing is common in Yarthe, a country where these creatures thrive. However, trying to ride them without proper training is tantamount to suicide. Their rider must care for them from the moment they hatch, or they will peck and kick at anyone who tries to climb on top of them.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Avion",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Avion/overworld_e0.png",
+                                         "images/creature/Avion/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Avion/overworld_n0.png",
+                                          "images/creature/Avion/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Avion/overworld_s0.png",
+                                          "images/creature/Avion/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Avion/overworld_w0.png",
+                                         "images/creature/Avion/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  43,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1861,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/TmereMrgo/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": false,
-  "god": 30,
-  "id": 1103,
-  "item": null,
-  "lore": "This God spends most of his time giving life to creatures in his realm. However, none of them are really original, as their bodies are made up of parts from different beings\u00E2\u20AC\u201Dthe reason why he calls himself the God of Fusion. Although many of these creatures have terrifying forms, none are especially dangerous for a well-prepared adventurer. It was not until the Amalgam Gardens were invaded by malicious outsiders that T\u0027mere decided to give life to truly dangerous creatures with the sole purpose of protecting his creations.",
-  "menagerieDialog": [
-    "(You can\u0027t help but wonder how many followers this god could possibly have, given the fact that no one can understand its ancient language.)",
-    "(It\u0027s slowly spinning around in circles. Perhaps it needs more exercise.)",
-    "(It gazes at you silently, fully aware that you wouldn\u0027t be able to decipher its words anyway.)",
-    "(Upon your approach, it turns away from you. You feel bad about yourself.)",
-    "Grugghot orghmot ett brauh\u0027ah. Brauh\u0027ha\u0027ha\u0027ha\u0027ha\u0027ha!"
-  ],
-  "minDepth": 1,
-  "name": "T\u0027mere M\u0027rgo",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/TmereMrgo/overworld_e0.png",
-      "images/creature/TmereMrgo/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/TmereMrgo/overworld_n0.png",
-      "images/creature/TmereMrgo/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/TmereMrgo/overworld_s0.png",
-      "images/creature/TmereMrgo/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/TmereMrgo/overworld_w0.png",
-      "images/creature/TmereMrgo/overworld_w1.png"
-    ]
-  },
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [
-    594,
-    606,
-    615
-  ],
-  "sources": [
-    {
-      "god": 30,
-      "type": "gotg"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 1988
+    "battleSprite":  "images/creature/TmereMrgo/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  30,
+    "id":  1103,
+    "item":  null,
+    "lore":  "This God spends most of his time giving life to creatures in his realm. However, none of them are really original, as their bodies are made up of parts from different beings—the reason why he calls himself the God of Fusion. Although many of these creatures have terrifying forms, none are especially dangerous for a well-prepared adventurer. It was not until the Amalgam Gardens were invaded by malicious outsiders that T\u0027mere decided to give life to truly dangerous creatures with the sole purpose of protecting his creations.",
+    "menagerieDialog":  [
+                            "(You can\u0027t help but wonder how many followers this god could possibly have, given the fact that no one can understand its ancient language.)",
+                            "(It\u0027s slowly spinning around in circles. Perhaps it needs more exercise.)",
+                            "(It gazes at you silently, fully aware that you wouldn\u0027t be able to decipher its words anyway.)",
+                            "(Upon your approach, it turns away from you. You feel bad about yourself.)",
+                            "Grugghot orghmot ett brauh\u0027ah. Brauh\u0027ha\u0027ha\u0027ha\u0027ha\u0027ha!"
+                        ],
+    "minDepth":  1,
+    "name":  "T\u0027mere M\u0027rgo",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/TmereMrgo/overworld_e0.png",
+                                         "images/creature/TmereMrgo/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/TmereMrgo/overworld_n0.png",
+                                          "images/creature/TmereMrgo/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/TmereMrgo/overworld_s0.png",
+                                          "images/creature/TmereMrgo/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/TmereMrgo/overworld_w0.png",
+                                         "images/creature/TmereMrgo/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+                  594,
+                  606,
+                  615
+              ],
+    "sources":  [
+                    {
+                        "god":  30,
+                        "type":  "gotg"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  1988,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

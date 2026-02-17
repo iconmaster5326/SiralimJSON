@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/GummyWorm/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 580,
-  "name": "Gummy Worm",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/GummyWorm/overworld_e0.png",
-      "images/skin/GummyWorm/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/GummyWorm/overworld_n0.png",
-      "images/skin/GummyWorm/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/GummyWorm/overworld_s0.png",
-      "images/skin/GummyWorm/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/GummyWorm/overworld_w0.png",
-      "images/skin/GummyWorm/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/GummyWorm/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  580,
+    "name":  "Gummy Worm",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/GummyWorm/overworld_e0.png",
+                                         "images/skin/GummyWorm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/GummyWorm/overworld_n0.png",
+                                          "images/skin/GummyWorm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/GummyWorm/overworld_s0.png",
+                                          "images/skin/GummyWorm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/GummyWorm/overworld_w0.png",
+                                         "images/skin/GummyWorm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

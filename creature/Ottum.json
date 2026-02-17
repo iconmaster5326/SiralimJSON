@@ -1,60 +1,65 @@
 {
-  "battleSprite": "images/creature/Ottum/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 711,
-  "item": 745,
-  "lore": "Ottum begin their lives as tiny parasites that burrow into the skulls of their prey and feast on the brain matter found within. After they\u0027ve consumed enough food, they go into hiding for 6 years during which they grow into the unstoppable killing machines we\u0027ve grown to know and love.",
-  "menagerieDialog": [
-    "(This creature\u0027s demeanor is disconcerting. It barely moves aside from the occasional twitch of its body, and its eyes blink rapidly when you approach it.)",
-    "(Its blades are dripping with blood. Uh oh.)",
-    "(It\u0027s casually levitating off the ground while enjoying the company of your other creatures.)",
-    "(Its eyes are always so full of murderous intent. Relax!)",
-    "(It makes horrible smacking sounds with its mouth while it eats.)"
-  ],
-  "minDepth": 1,
-  "name": "Ottum",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Ottum/overworld_e0.png",
-      "images/creature/Ottum/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Ottum/overworld_n0.png",
-      "images/creature/Ottum/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Ottum/overworld_s0.png",
-      "images/creature/Ottum/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Ottum/overworld_w0.png",
-      "images/creature/Ottum/overworld_w1.png"
-    ]
-  },
-  "race": "Godspawn",
-  "reserved": true,
-  "skins": [
-    155,
-    466,
-    485
-  ],
-  "sources": [
-    {
-      "desc": "Project",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 31,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 782
+    "battleSprite":  "images/creature/Ottum/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  711,
+    "item":  745,
+    "lore":  "Ottum begin their lives as tiny parasites that burrow into the skulls of their prey and feast on the brain matter found within. After they\u0027ve consumed enough food, they go into hiding for 6 years during which they grow into the unstoppable killing machines we\u0027ve grown to know and love.",
+    "menagerieDialog":  [
+                            "(This creature\u0027s demeanor is disconcerting. It barely moves aside from the occasional twitch of its body, and its eyes blink rapidly when you approach it.)",
+                            "(Its blades are dripping with blood. Uh oh.)",
+                            "(It\u0027s casually levitating off the ground while enjoying the company of your other creatures.)",
+                            "(Its eyes are always so full of murderous intent. Relax!)",
+                            "(It makes horrible smacking sounds with its mouth while it eats.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ottum",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Ottum/overworld_e0.png",
+                                         "images/creature/Ottum/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Ottum/overworld_n0.png",
+                                          "images/creature/Ottum/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Ottum/overworld_s0.png",
+                                          "images/creature/Ottum/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Ottum/overworld_w0.png",
+                                         "images/creature/Ottum/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Godspawn",
+    "reserved":  true,
+    "skins":  [
+                  155,
+                  466,
+                  485
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Project",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  31,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  782,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

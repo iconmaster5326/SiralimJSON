@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PossessedCruncher/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 943,
-  "item": 943,
-  "lore": "Crunchers are slow creatures of low intelligence that simply try to eat anything within their reach. For centuries, this \u0022anything\u0022 was either Carbuncles, smaller Crunchers, or any object they found in their path.\\n\\nPossessed Crunchers owe their name to the fact that, when they are asleep, and they retract their head and legs inside their shell, it rises and moves on its own, spinning mysteriously. Apparently, this is a defense mechanism to protect them against predators while they sleep.",
-  "menagerieDialog": [
-    "(Upon your approach, it withdraws into its shell. It must be tired.)",
-    "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
-    "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
-    "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
-    "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
-  ],
-  "minDepth": 1,
-  "name": "Possessed Cruncher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PossessedCruncher/overworld_e0.png",
-      "images/creature/PossessedCruncher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PossessedCruncher/overworld_n0.png",
-      "images/creature/PossessedCruncher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PossessedCruncher/overworld_s0.png",
-      "images/creature/PossessedCruncher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PossessedCruncher/overworld_w0.png",
-      "images/creature/PossessedCruncher/overworld_w1.png"
-    ]
-  },
-  "race": "Cruncher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 23,
-    "health": 35,
-    "intelligence": 18,
-    "speed": 8
-  },
-  "trait": 1191
+    "battleSprite":  "images/creature/PossessedCruncher/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  943,
+    "item":  943,
+    "lore":  "Crunchers are slow creatures of low intelligence that simply try to eat anything within their reach. For centuries, this \"anything\" was either Carbuncles, smaller Crunchers, or any object they found in their path.\\n\\nPossessed Crunchers owe their name to the fact that, when they are asleep, and they retract their head and legs inside their shell, it rises and moves on its own, spinning mysteriously. Apparently, this is a defense mechanism to protect them against predators while they sleep.",
+    "menagerieDialog":  [
+                            "(Upon your approach, it withdraws into its shell. It must be tired.)",
+                            "(It\u0027s jaw is ridiculously powerful, capable of cutting through even the strongest of materials. And fingers.)",
+                            "(Rhea often brings your kingdom\u0027s spare Spell Gems to this creature to eat.)",
+                            "(It slowly cranes its neck toward you and takes a bite out of your shirt.)",
+                            "(As you watch it devour a pile of uncharged Spell Gems, you can\u0027t help but wince at the thought of it accidentally getting ahold of your fingers.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Possessed Cruncher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PossessedCruncher/overworld_e0.png",
+                                         "images/creature/PossessedCruncher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PossessedCruncher/overworld_n0.png",
+                                          "images/creature/PossessedCruncher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PossessedCruncher/overworld_s0.png",
+                                          "images/creature/PossessedCruncher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PossessedCruncher/overworld_w0.png",
+                                         "images/creature/PossessedCruncher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cruncher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  23,
+                       "health":  35,
+                       "intelligence":  18,
+                       "speed":  8
+                   },
+    "trait":  1191,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

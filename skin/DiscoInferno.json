@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/DiscoInferno/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 537,
-  "name": "Disco Inferno",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/DiscoInferno/overworld_e0.png",
-      "images/skin/DiscoInferno/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/DiscoInferno/overworld_n0.png",
-      "images/skin/DiscoInferno/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/DiscoInferno/overworld_s0.png",
-      "images/skin/DiscoInferno/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/DiscoInferno/overworld_w0.png",
-      "images/skin/DiscoInferno/overworld_w1.png"
-    ]
-  },
-  "race": "Elf",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/DiscoInferno/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  537,
+    "name":  "Disco Inferno",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/DiscoInferno/overworld_e0.png",
+                                         "images/skin/DiscoInferno/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/DiscoInferno/overworld_n0.png",
+                                          "images/skin/DiscoInferno/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/DiscoInferno/overworld_s0.png",
+                                          "images/skin/DiscoInferno/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/DiscoInferno/overworld_w0.png",
+                                         "images/skin/DiscoInferno/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Elf",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

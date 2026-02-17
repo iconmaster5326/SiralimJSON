@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreat Conjunction:\nAfter your creatures are killed, they have a 25% chance to be resurrected with 50% {STAT_health} and gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 50% of their Maximum {STAT_health}. This trait does not stack.",
-  "icon": "images/item/material/RadiantEnergy.png",
-  "id": 1552,
-  "name": "Radiant Energy",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1888
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGreat Conjunction:\nAfter your creatures are killed, they have a 25% chance to be resurrected with 50% {STAT_health} and gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 50% of their Maximum {STAT_health}. This trait does not stack.",
+    "icon":  "images/item/material/RadiantEnergy.png",
+    "id":  1552,
+    "name":  "Radiant Energy",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1888,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

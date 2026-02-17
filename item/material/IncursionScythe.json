@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefy the Gods:\nAfter this creature {ACTION_attacks} an ally with less than 50% {STAT_health}, it is killed, then this creature resurrects it with 100% {STAT_health} and 50% more {STAT_attack}, {STAT_intelligence}, and {STAT_speed}.",
-  "icon": "images/item/material/IncursionScythe.png",
-  "id": 251,
-  "name": "Incursion Scythe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 161
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefy the Gods:\nAfter this creature {ACTION_attacks} an ally with less than 50% {STAT_health}, it is killed, then this creature resurrects it with 100% {STAT_health} and 50% more {STAT_attack}, {STAT_intelligence}, and {STAT_speed}.",
+    "icon":  "images/item/material/IncursionScythe.png",
+    "id":  251,
+    "name":  "Incursion Scythe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  161,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

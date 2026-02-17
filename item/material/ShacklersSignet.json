@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShackler\u0027s Mastery:\nYour creatures\u0027 race-specific traits act as if your party contains 2 more creatures that belong to that race. This trait does not stack.",
-  "icon": "images/item/material/ShacklersSignet.png",
-  "id": 674,
-  "name": "Shackler\u0027s Signet",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 585
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShackler\u0027s Mastery:\nYour creatures\u0027 race-specific traits act as if your party contains 2 more creatures that belong to that race. This trait does not stack.",
+    "icon":  "images/item/material/ShacklersSignet.png",
+    "id":  674,
+    "name":  "Shackler\u0027s Signet",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  585,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/PitWraithOvermind/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 271,
-  "item": 256,
-  "lore": "During her youth, Milner was romantically involved with the prince of Neralim. Though it ended a few years later, their friendship endured, and she sometimes escorted him in times of war. All Pit Wraiths have a trunk, though they have never been seen feeding.\\n\\nWhen a Pit Wraith Overmind stares at its opponents, it can return them to a previous state or send them to a later one in which their body was or will be fatigued. In addition, the victims are invaded by the memories of what was happening or will happen at that moment, causing confusion and restlessness.",
-  "menagerieDialog": [
-    "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
-    "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
-    "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
-    "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
-    "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
-  ],
-  "minDepth": 1,
-  "name": "Pit Wraith Overmind",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/PitWraithOvermind/overworld_e0.png",
-      "images/creature/PitWraithOvermind/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/PitWraithOvermind/overworld_n0.png",
-      "images/creature/PitWraithOvermind/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/PitWraithOvermind/overworld_s0.png",
-      "images/creature/PitWraithOvermind/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/PitWraithOvermind/overworld_w0.png",
-      "images/creature/PitWraithOvermind/overworld_w1.png"
-    ]
-  },
-  "race": "Pit Wraith",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 23,
-    "defense": 18,
-    "health": 31,
-    "intelligence": 23,
-    "speed": 13
-  },
-  "trait": 166
+    "battleSprite":  "images/creature/PitWraithOvermind/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  271,
+    "item":  256,
+    "lore":  "During her youth, Milner was romantically involved with the prince of Neralim. Though it ended a few years later, their friendship endured, and she sometimes escorted him in times of war. All Pit Wraiths have a trunk, though they have never been seen feeding.\\n\\nWhen a Pit Wraith Overmind stares at its opponents, it can return them to a previous state or send them to a later one in which their body was or will be fatigued. In addition, the victims are invaded by the memories of what was happening or will happen at that moment, causing confusion and restlessness.",
+    "menagerieDialog":  [
+                            "(Pit Wraiths have the ability to disappear at any time. Hopefully that doesn\u0027t ever happen in a critical situation.)",
+                            "(It\u0027s impossible not to be stricken with overwhelming dread while you\u0027re around this creature. It emanates a constant aura of terror at all times.)",
+                            "(Despite their terrifying appearance, you know these creatures are harmless unless provoked.)",
+                            "(Each of its eyes appear to be focused on something different. How can it keep its mind in order with so much stimulation?)",
+                            "(You can\u0027t help but admit that you still feel a little nervous in this creature\u0027s presence.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Pit Wraith Overmind",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/PitWraithOvermind/overworld_e0.png",
+                                         "images/creature/PitWraithOvermind/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/PitWraithOvermind/overworld_n0.png",
+                                          "images/creature/PitWraithOvermind/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/PitWraithOvermind/overworld_s0.png",
+                                          "images/creature/PitWraithOvermind/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/PitWraithOvermind/overworld_w0.png",
+                                         "images/creature/PitWraithOvermind/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Pit Wraith",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  23,
+                       "defense":  18,
+                       "health":  31,
+                       "intelligence":  23,
+                       "speed":  13
+                   },
+    "trait":  166,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

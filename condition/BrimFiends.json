@@ -1,11 +1,14 @@
 {
-  "description": "When this minion\u0027s master {ACTION_attacks}, it sacrifices each {CONDNAME_MINION_BRIMFIEND} to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
-  "icon": "images/condition/BrimFiends.png",
-  "iconResisted": null,
-  "id": 63,
-  "material": null,
-  "name": "Brim Fiends",
-  "notes": [],
-  "reserved": true,
-  "type": "minion"
+    "description":  "When this minion\u0027s master {ACTION_attacks}, it sacrifices each {CONDNAME_MINION_BRIMFIEND} to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "icon":  "images/condition/BrimFiends.png",
+    "iconResisted":  null,
+    "id":  63,
+    "material":  null,
+    "name":  "Brim Fiends",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

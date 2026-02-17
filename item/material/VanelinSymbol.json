@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAlmost Easy:\nIf this creature has {ACTION_attacked} at least one time this battle, its attacks deal 200% more damage.",
-  "icon": "images/item/material/VanelinSymbol.png",
-  "id": 144,
-  "name": "Vanelin Symbol",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 54
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nAlmost Easy:\nIf this creature has {ACTION_attacked} at least one time this battle, its attacks deal 200% more damage.",
+    "icon":  "images/item/material/VanelinSymbol.png",
+    "id":  144,
+    "name":  "Vanelin Symbol",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  54,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

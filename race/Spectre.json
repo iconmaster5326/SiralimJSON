@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(A small baby floats in the air in the midst of the treasure hoard. Its eyes begin to glow, and it projects a frightful apparition to battle you with, calling allies to its aid!)",
-    "(The sounds of wailing and sobbing fill the chamber. As you approach the Spectre cautiously, it whips around with a terrifying shriek and lunges towards you!)",
-    "(You see a small, crying child, begging for your aid. Not fooled, you dispel the illusion to reveal a deadly Spectre; one that is now very angry with you!)"
-  ],
-  "cardBonuses": {
-    "2": "Enemies have 5% less {STAT_defense}.",
-    "5": "Enemies gain 25% less {STAT_defense}.",
-    "8": "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_defense}."
-  },
-  "cards": 8,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    440,
-    441,
-    442,
-    443,
-    444,
-    445,
-    654,
-    681
-  ],
-  "icon": "images/race/Spectre.png",
-  "master": {
-    "costume": 395,
-    "dialog": "Spectres excel at crippling their opponents to make for an easy kill. Their kids are really great, too. Well, I mean, those babies probably aren\u0027t really their own kids... but, you know. Anyway, let\u0027s duel!",
-    "item": 1216,
-    "name": "Remane",
-    "trait": 1498
-  },
-  "name": "Spectre",
-  "notes": [],
-  "skins": [
-    61,
-    205,
-    511
-  ]
+    "bossDialog":  [
+                       "(A small baby floats in the air in the midst of the treasure hoard. Its eyes begin to glow, and it projects a frightful apparition to battle you with, calling allies to its aid!)",
+                       "(The sounds of wailing and sobbing fill the chamber. As you approach the Spectre cautiously, it whips around with a terrifying shriek and lunges towards you!)",
+                       "(You see a small, crying child, begging for your aid. Not fooled, you dispel the illusion to reveal a deadly Spectre; one that is now very angry with you!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies have 5% less {STAT_defense}.",
+                        "5":  "Enemies gain 25% less {STAT_defense}.",
+                        "8":  "Enemies have 50% less benefit from their Artifacts\u0027 Stat Slots that boost their {STAT_defense}."
+                    },
+    "cards":  8,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      440,
+                      441,
+                      442,
+                      443,
+                      444,
+                      445,
+                      654,
+                      681
+                  ],
+    "icon":  "images/race/Spectre.png",
+    "master":  {
+                   "costume":  395,
+                   "dialog":  "Spectres excel at crippling their opponents to make for an easy kill. Their kids are really great, too. Well, I mean, those babies probably aren\u0027t really their own kids... but, you know. Anyway, let\u0027s duel!",
+                   "item":  1216,
+                   "name":  "Remane",
+                   "trait":  1498
+               },
+    "name":  "Spectre",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  61,
+                  205,
+                  511
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

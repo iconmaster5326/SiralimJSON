@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpur of the Heavens:\nAfter this creature {ACTION_attacks}, it has a 50% chance to move a random ally to the top of the {TIMELINE}.",
-  "icon": "images/item/material/ThundercrackerHorseshoe.png",
-  "id": 95,
-  "name": "Thundercracker Horseshoe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 4
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpur of the Heavens:\nAfter this creature {ACTION_attacks}, it has a 50% chance to move a random ally to the top of the {TIMELINE}.",
+    "icon":  "images/item/material/ThundercrackerHorseshoe.png",
+    "id":  95,
+    "name":  "Thundercracker Horseshoe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  4,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

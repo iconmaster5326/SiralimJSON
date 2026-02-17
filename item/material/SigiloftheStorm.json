@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Storms:\nIf all the creatures in your party are {RACE_Storm}s, their innate traits now activate while they\u0027re above 60% {STAT_health}.",
-  "icon": "images/item/material/SigiloftheStorm.png",
-  "id": 1217,
-  "name": "Sigil of the Storm",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1502
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Storms:\nIf all the creatures in your party are {RACE_Storm}s, their innate traits now activate while they\u0027re above 60% {STAT_health}.",
+    "icon":  "images/item/material/SigiloftheStorm.png",
+    "id":  1217,
+    "name":  "Sigil of the Storm",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1502,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

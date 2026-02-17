@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShackler\u0027s Trance:\nThis creature always deals 0 damage during its turn, but deals 200% more damage when it is not its turn.",
-  "icon": "images/item/material/ShacklersCape.png",
-  "id": 675,
-  "name": "Shackler\u0027s Cape",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 586
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShackler\u0027s Trance:\nThis creature always deals 0 damage during its turn, but deals 200% more damage when it is not its turn.",
+    "icon":  "images/item/material/ShacklersCape.png",
+    "id":  675,
+    "name":  "Shackler\u0027s Cape",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  586,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

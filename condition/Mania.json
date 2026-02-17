@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_DEBUFF_MANIA} take damage at the end of their turn equal to 3% of the {STAT_health} all creatures had recovered when this debuff was applied.",
-  "icon": "images/condition/Mania.png",
-  "iconResisted": null,
-  "id": 66,
-  "material": null,
-  "name": "Mania",
-  "notes": [],
-  "reserved": true,
-  "type": "debuff"
+    "description":  "Creatures with {CONDNAME_DEBUFF_MANIA} take damage at the end of their turn equal to 3% of the {STAT_health} all creatures had recovered when this debuff was applied.",
+    "icon":  "images/condition/Mania.png",
+    "iconResisted":  null,
+    "id":  66,
+    "material":  null,
+    "name":  "Mania",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "debuff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

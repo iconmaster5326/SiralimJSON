@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCeaseless Fighting:\nWhen your creatures are killed, they attack a random enemy.",
-  "icon": "images/item/material/CeaselessFang.png",
-  "id": 648,
-  "name": "Ceaseless Fang",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 559
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCeaseless Fighting:\nWhen your creatures are killed, they attack a random enemy.",
+    "icon":  "images/item/material/CeaselessFang.png",
+    "id":  648,
+    "name":  "Ceaseless Fang",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  559,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

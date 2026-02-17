@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BoneReaper/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 12,
-  "item": 247,
-  "lore": "A Reaper sometimes appears when someone dies, remaining there for a moment before disappearing. This led to the popular belief that these creatures accompany the souls of the deceased to the afterlife.\\n\\nDuring his stay in Eternity\u0027s End, Sigmund met and befriended a Bone Reaper. This was an unprecedented event in history, and it led to the discovery that anyone who wears a Reaper\u0027s tunic automatically knows the life expectancy of any creature except their own.",
-  "menagerieDialog": [
-    "Oh, hello there! Would you like to know the exact date of your death?",
-    "While I can\u0027t hold your hand, I will have your back.",
-    "(This creature always seems to be focused on something you can\u0027t see.)",
-    "Don\u0027t fear the reaper.\\n\\n(Sigh. How clich\u00C3\u00A9.)",
-    "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
-  ],
-  "minDepth": 1,
-  "name": "Bone Reaper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BoneReaper/overworld_e0.png",
-      "images/creature/BoneReaper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BoneReaper/overworld_n0.png",
-      "images/creature/BoneReaper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BoneReaper/overworld_s0.png",
-      "images/creature/BoneReaper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BoneReaper/overworld_w0.png",
-      "images/creature/BoneReaper/overworld_w1.png"
-    ]
-  },
-  "race": "Reaper",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Tenebris)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 26,
-    "defense": 11,
-    "health": 29,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 157
+    "battleSprite":  "images/creature/BoneReaper/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  12,
+    "item":  247,
+    "lore":  "A Reaper sometimes appears when someone dies, remaining there for a moment before disappearing. This led to the popular belief that these creatures accompany the souls of the deceased to the afterlife.\\n\\nDuring his stay in Eternity\u0027s End, Sigmund met and befriended a Bone Reaper. This was an unprecedented event in history, and it led to the discovery that anyone who wears a Reaper\u0027s tunic automatically knows the life expectancy of any creature except their own.",
+    "menagerieDialog":  [
+                            "Oh, hello there! Would you like to know the exact date of your death?",
+                            "While I can\u0027t hold your hand, I will have your back.",
+                            "(This creature always seems to be focused on something you can\u0027t see.)",
+                            "Don\u0027t fear the reaper.\\n\\n(Sigh. How cliché.)",
+                            "(Its inability to stop grinning is rather unsettling for you and your creatures.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Bone Reaper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BoneReaper/overworld_e0.png",
+                                         "images/creature/BoneReaper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BoneReaper/overworld_n0.png",
+                                          "images/creature/BoneReaper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BoneReaper/overworld_s0.png",
+                                          "images/creature/BoneReaper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BoneReaper/overworld_w0.png",
+                                         "images/creature/BoneReaper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Reaper",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Tenebris)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  26,
+                       "defense":  11,
+                       "health":  29,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  157,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

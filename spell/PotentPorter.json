@@ -1,39 +1,42 @@
 {
-  "arsenal": false,
-  "booze": true,
-  "class": "sorcery",
-  "creator": null,
-  "description": "Caster {ACTION_casts} 2 of its permanent Spell Gems. This spell is a {SPELL_alcohol}.",
-  "god": null,
-  "id": 315,
-  "manuallyCastable": false,
-  "maxCharges": 7,
-  "name": "Potent Porter",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    3,
-    4,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "BEER",
-    "UTILITY"
-  ],
-  "targets": "other"
+    "arsenal":  false,
+    "booze":  true,
+    "class":  "sorcery",
+    "creator":  null,
+    "description":  "Caster {ACTION_casts} 2 of its permanent Spell Gems. This spell is a {SPELL_alcohol}.",
+    "god":  null,
+    "id":  315,
+    "manuallyCastable":  false,
+    "maxCharges":  7,
+    "name":  "Potent Porter",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  4,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "BEER",
+                 "UTILITY"
+             ],
+    "targets":  "other",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

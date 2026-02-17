@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Giants:\nYour {RACE_Giant}s start battles with 30% more {STAT_health} for each {RACE_Giant} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheGiant.png",
-  "id": 1258,
-  "name": "Sigil of the Giant",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1440
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Giants:\nYour {RACE_Giant}s start battles with 30% more {STAT_health} for each {RACE_Giant} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheGiant.png",
+    "id":  1258,
+    "name":  "Sigil of the Giant",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1440,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

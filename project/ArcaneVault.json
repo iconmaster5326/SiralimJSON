@@ -1,18 +1,21 @@
 {
-  "arcaneDustCost": 3000,
-  "description": "Unlocks the Arcane Vault decoration, which allows you to upgrade your Talisman.",
-  "graniteCost": 30000,
-  "icon": "images/project/ArcaneVault.png",
-  "id": 27,
-  "items": {
-    "44": 1
-  },
-  "monsterPartCost": 15000,
-  "name": "Arcane Vault",
-  "notes": [],
-  "repeatable": false,
-  "type": "construction",
-  "unlockedCreature": null,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  3000,
+    "description":  "Unlocks the Arcane Vault decoration, which allows you to upgrade your Talisman.",
+    "graniteCost":  30000,
+    "icon":  "images/project/ArcaneVault.png",
+    "id":  27,
+    "items":  {
+                  "44":  1
+              },
+    "monsterPartCost":  15000,
+    "name":  "Arcane Vault",
+    "notes":  [
+
+              ],
+    "repeatable":  false,
+    "type":  "construction",
+    "unlockedCreature":  null,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

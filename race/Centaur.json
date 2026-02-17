@@ -1,41 +1,44 @@
 {
-  "bossDialog": [
-    "(The Centaur stomps its hooves rhythmically while loudly chanting. Soon enough, its allies appear to defend the treasure!)",
-    "Choose your death: trampled, stabbed, choked, or beaten? Perhaps I will do them all at once!",
-    "The clan demands victory! On my life, I will deliver your head on a platter to the Khan!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 10% more damage to {CLASS_Nature} creatures.",
-    "5": "Your creatures deal 10% more damage to {CLASS_Nature} creatures.",
-    "8": "Your creatures deal 10% more damage to {CLASS_Nature} creatures."
-  },
-  "cards": 8,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    548,
-    549,
-    550,
-    551,
-    552,
-    553,
-    685,
-    1001
-  ],
-  "icon": "images/race/Centaur.png",
-  "master": {
-    "costume": 311,
-    "dialog": "Centaurs tend to shy away from spellcasting in favor of strong melee attacks - which is great, since that means I don\u0027t ever have to worry about my creatures\u0027 Spell Gems running out of Charges! Think you\u0027ve got what it takes to bring me down?",
-    "item": 1162,
-    "name": "Shun",
-    "trait": 1412
-  },
-  "name": "Centaur",
-  "notes": [],
-  "skins": [
-    330,
-    341,
-    645,
-    814
-  ]
+    "bossDialog":  [
+                       "(The Centaur stomps its hooves rhythmically while loudly chanting. Soon enough, its allies appear to defend the treasure!)",
+                       "Choose your death: trampled, stabbed, choked, or beaten? Perhaps I will do them all at once!",
+                       "The clan demands victory! On my life, I will deliver your head on a platter to the Khan!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 10% more damage to {CLASS_Nature} creatures.",
+                        "5":  "Your creatures deal 10% more damage to {CLASS_Nature} creatures.",
+                        "8":  "Your creatures deal 10% more damage to {CLASS_Nature} creatures."
+                    },
+    "cards":  8,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      548,
+                      549,
+                      550,
+                      551,
+                      552,
+                      553,
+                      685,
+                      1001
+                  ],
+    "icon":  "images/race/Centaur.png",
+    "master":  {
+                   "costume":  311,
+                   "dialog":  "Centaurs tend to shy away from spellcasting in favor of strong melee attacks - which is great, since that means I don\u0027t ever have to worry about my creatures\u0027 Spell Gems running out of Charges! Think you\u0027ve got what it takes to bring me down?",
+                   "item":  1162,
+                   "name":  "Shun",
+                   "trait":  1412
+               },
+    "name":  "Centaur",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  330,
+                  341,
+                  645,
+                  814
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

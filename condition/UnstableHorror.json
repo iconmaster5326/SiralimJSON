@@ -1,11 +1,14 @@
 {
-  "description": "This minion\u0027s master has 5% more stats for each {CONDNAME_MINION_UNSTABLEHORROR} it has. After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it deals damage to all enemies equal to 10% of its master\u0027s highest stat for each stack of {CONDNAME_MINION_UNSTABLEHORROR} it has. Maximum of 9 stacks.",
-  "icon": "images/condition/UnstableHorror.png",
-  "iconResisted": null,
-  "id": 44,
-  "material": null,
-  "name": "Unstable Horror",
-  "notes": [],
-  "reserved": false,
-  "type": "minion"
+    "description":  "This minion\u0027s master has 5% more stats for each {CONDNAME_MINION_UNSTABLEHORROR} it has. After this minion\u0027s master {ACTION_defends} or {ACTION_provokes}, it deals damage to all enemies equal to 10% of its master\u0027s highest stat for each stack of {CONDNAME_MINION_UNSTABLEHORROR} it has. Maximum of 9 stacks.",
+    "icon":  "images/condition/UnstableHorror.png",
+    "iconResisted":  null,
+    "id":  44,
+    "material":  null,
+    "name":  "Unstable Horror",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

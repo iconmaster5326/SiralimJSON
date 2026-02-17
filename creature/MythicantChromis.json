@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/MythicantChromis/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1335,
-  "item": 1697,
-  "lore": "Some editions of the Andolin novel which inspired these creatures were published with color illustrations. Through one of these versions, the Mythicant Chromis were born. They can resonate with others of their kind to create ephemeral copies of themselves that attack multiple enemies. Additionally, their strikes and spells materialize more vividly than expected, easily piercing through armor and magical defenses.",
-  "menagerieDialog": [
-    "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
-    "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
-    "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
-    "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
-    "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
-  ],
-  "minDepth": 1,
-  "name": "Mythicant Chromis",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MythicantChromis/overworld_e0.png",
-      "images/creature/MythicantChromis/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MythicantChromis/overworld_n0.png",
-      "images/creature/MythicantChromis/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MythicantChromis/overworld_s0.png",
-      "images/creature/MythicantChromis/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MythicantChromis/overworld_w0.png",
-      "images/creature/MythicantChromis/overworld_w1.png"
-    ]
-  },
-  "race": "Mythicant",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 32,
-    "intelligence": 25,
-    "speed": 23
-  },
-  "trait": 2039
+    "battleSprite":  "images/creature/MythicantChromis/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1335,
+    "item":  1697,
+    "lore":  "Some editions of the Andolin novel which inspired these creatures were published with color illustrations. Through one of these versions, the Mythicant Chromis were born. They can resonate with others of their kind to create ephemeral copies of themselves that attack multiple enemies. Additionally, their strikes and spells materialize more vividly than expected, easily piercing through armor and magical defenses.",
+    "menagerieDialog":  [
+                            "(Though this creature dons a humanoid appearance, its mannerisms are all but natural.)",
+                            "(It speaks to you, but not in a tongue you\u0027re familiar with. You can only hope it wishes to communicate nothing of importance.)",
+                            "(The runes on its flesh glisten vibrantly as it moves. Such an interesting creature.)",
+                            "(Your nightmares will henceforth be plagued by visions of an army of these creatures chasing you around the castle.)",
+                            "(Despite its form, this creature is capable of moving and flexing its limbs in all manner of unnatural positions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mythicant Chromis",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MythicantChromis/overworld_e0.png",
+                                         "images/creature/MythicantChromis/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MythicantChromis/overworld_n0.png",
+                                          "images/creature/MythicantChromis/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MythicantChromis/overworld_s0.png",
+                                          "images/creature/MythicantChromis/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MythicantChromis/overworld_w0.png",
+                                         "images/creature/MythicantChromis/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Mythicant",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  32,
+                       "intelligence":  25,
+                       "speed":  23
+                   },
+    "trait":  2039,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/DjinnArcanomancer/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 70,
-  "item": 444,
-  "lore": "Before the disastrous incident that took place in the Refuge of the Magi, many interesting projects were developed with the purpose of benefiting both the magical community and the world. One of them was the Djinn Project.\\n\\nThe Djinn Arcanomancer\u0027s lamp contains an inexhaustible reserve of magic that it can use to cast its own spells or to help its allies.",
-  "menagerieDialog": [
-    "Make a wish. The only rule is that you can\u0027t wish for more wishes.",
-    "The most powerful weapon is deceit. You\u0027d do well to remember that.",
-    "I don\u0027t trust Everett. I think it\u0027s because his haircut is terrible.",
-    "Make a wish, then blow out the fire on my head.",
-    "Your creatures would be nothing without my support. You\u0027re welcome."
-  ],
-  "minDepth": 1,
-  "name": "Djinn Arcanomancer",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DjinnArcanomancer/overworld_e0.png",
-      "images/creature/DjinnArcanomancer/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DjinnArcanomancer/overworld_n0.png",
-      "images/creature/DjinnArcanomancer/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DjinnArcanomancer/overworld_s0.png",
-      "images/creature/DjinnArcanomancer/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DjinnArcanomancer/overworld_w0.png",
-      "images/creature/DjinnArcanomancer/overworld_w1.png"
-    ]
-  },
-  "race": "Djinn",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 11,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 13,
-    "defense": 13,
-    "health": 35,
-    "intelligence": 28,
-    "speed": 18
-  },
-  "trait": 359
+    "battleSprite":  "images/creature/DjinnArcanomancer/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  70,
+    "item":  444,
+    "lore":  "Before the disastrous incident that took place in the Refuge of the Magi, many interesting projects were developed with the purpose of benefiting both the magical community and the world. One of them was the Djinn Project.\\n\\nThe Djinn Arcanomancer\u0027s lamp contains an inexhaustible reserve of magic that it can use to cast its own spells or to help its allies.",
+    "menagerieDialog":  [
+                            "Make a wish. The only rule is that you can\u0027t wish for more wishes.",
+                            "The most powerful weapon is deceit. You\u0027d do well to remember that.",
+                            "I don\u0027t trust Everett. I think it\u0027s because his haircut is terrible.",
+                            "Make a wish, then blow out the fire on my head.",
+                            "Your creatures would be nothing without my support. You\u0027re welcome."
+                        ],
+    "minDepth":  1,
+    "name":  "Djinn Arcanomancer",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DjinnArcanomancer/overworld_e0.png",
+                                         "images/creature/DjinnArcanomancer/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DjinnArcanomancer/overworld_n0.png",
+                                          "images/creature/DjinnArcanomancer/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DjinnArcanomancer/overworld_s0.png",
+                                          "images/creature/DjinnArcanomancer/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DjinnArcanomancer/overworld_w0.png",
+                                         "images/creature/DjinnArcanomancer/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Djinn",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  13,
+                       "defense":  13,
+                       "health":  35,
+                       "intelligence":  28,
+                       "speed":  18
+                   },
+    "trait":  359,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

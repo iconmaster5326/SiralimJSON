@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nZenpang\u0027s Boast:\nYour creatures take 10% less damage for each time they\u0027ve {ACTION_provoked} in the current battle. This trait does not stack.",
-  "icon": "images/item/material/ZenpangsFeather.png",
-  "id": 906,
-  "name": "Zenpang\u0027s Feather",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 942
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nZenpang\u0027s Boast:\nYour creatures take 10% less damage for each time they\u0027ve {ACTION_provoked} in the current battle. This trait does not stack.",
+    "icon":  "images/item/material/ZenpangsFeather.png",
+    "id":  906,
+    "name":  "Zenpang\u0027s Feather",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  942,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

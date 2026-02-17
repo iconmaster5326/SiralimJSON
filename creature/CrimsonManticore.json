@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/CrimsonManticore/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 478,
-  "item": 384,
-  "lore": "Few species have been created for the sole purpose of eliminating another. Indeed, only one \u00E2\u20AC\u201D Manticores. Their target: mankind.\\n\\nThe Crimson Manticore can smell the blood of a human at great distances. When it finds its target, it moves stealthily, crouching, aware of where it places its paws so as not to step on a branch or a pile of dry leaves. The victim will not see this creature coming, as it always attacks from behind.",
-  "menagerieDialog": [
-    "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
-    "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
-    "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
-    "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
-    "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
-  ],
-  "minDepth": 1,
-  "name": "Crimson Manticore",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CrimsonManticore/overworld_e0.png",
-      "images/creature/CrimsonManticore/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CrimsonManticore/overworld_n0.png",
-      "images/creature/CrimsonManticore/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CrimsonManticore/overworld_s0.png",
-      "images/creature/CrimsonManticore/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CrimsonManticore/overworld_w0.png",
-      "images/creature/CrimsonManticore/overworld_w1.png"
-    ]
-  },
-  "race": "Manticore",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 16,
-    "health": 32,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 300
+    "battleSprite":  "images/creature/CrimsonManticore/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  478,
+    "item":  384,
+    "lore":  "Few species have been created for the sole purpose of eliminating another. Indeed, only one — Manticores. Their target: mankind.\\n\\nThe Crimson Manticore can smell the blood of a human at great distances. When it finds its target, it moves stealthily, crouching, aware of where it places its paws so as not to step on a branch or a pile of dry leaves. The victim will not see this creature coming, as it always attacks from behind.",
+    "menagerieDialog":  [
+                            "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
+                            "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
+                            "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
+                            "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
+                            "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Crimson Manticore",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CrimsonManticore/overworld_e0.png",
+                                         "images/creature/CrimsonManticore/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CrimsonManticore/overworld_n0.png",
+                                          "images/creature/CrimsonManticore/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CrimsonManticore/overworld_s0.png",
+                                          "images/creature/CrimsonManticore/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CrimsonManticore/overworld_w0.png",
+                                         "images/creature/CrimsonManticore/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Manticore",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  16,
+                       "health":  32,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  300,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

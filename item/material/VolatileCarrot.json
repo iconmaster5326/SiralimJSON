@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPrey:\nAt the start of battle, your creatures gain a Scourge spell that matches their class. This trait does not stack.",
-  "icon": "images/item/material/VolatileCarrot.png",
-  "id": 619,
-  "name": "Volatile Carrot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 534
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPrey:\nAt the start of battle, your creatures gain a Scourge spell that matches their class. This trait does not stack.",
+    "icon":  "images/item/material/VolatileCarrot.png",
+    "id":  619,
+    "name":  "Volatile Carrot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  534,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

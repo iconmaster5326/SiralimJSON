@@ -1,11 +1,14 @@
 {
-  "description": "When an {CONDNAME_BUFF_ARCANE} creature {ACTION_casts} a spell, the spell does not consume any {STAT_charges}. Then, this buff is removed.",
-  "icon": "images/condition/Arcane.png",
-  "iconResisted": null,
-  "id": 5,
-  "material": 30,
-  "name": "Arcane",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "When an {CONDNAME_BUFF_ARCANE} creature {ACTION_casts} a spell, the spell does not consume any {STAT_charges}. Then, this buff is removed.",
+    "icon":  "images/condition/Arcane.png",
+    "iconResisted":  null,
+    "id":  5,
+    "material":  30,
+    "name":  "Arcane",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

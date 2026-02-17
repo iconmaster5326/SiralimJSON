@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCurrents:\nAfter an enemy gains stats, this creature afflicts it with a random debuff.",
-  "icon": "images/item/material/ToxicfangHead.png",
-  "id": 810,
-  "name": "Toxicfang Head",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 837
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCurrents:\nAfter an enemy gains stats, this creature afflicts it with a random debuff.",
+    "icon":  "images/item/material/ToxicfangHead.png",
+    "id":  810,
+    "name":  "Toxicfang Head",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  837,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

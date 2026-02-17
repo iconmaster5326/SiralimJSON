@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ImperialVoidlord/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 847,
-  "item": 1022,
-  "lore": "Dragan tutored Ainsworth while she was a student, and he conducted numerous investigations. Among other things, he studied the void through the Voidlords. His findings led him to believe these creatures are the void itself, poured into the universe through the cracks the Watchers used to slip into this world. According to his hypothesis, the Watchers came from a dimension without matter, and when they slipped through the cracks, they involuntarily adapted to the laws of physics in our world.\\n\\nTouching an Imperial Voidlord is even more dangerous than touching the others, as even if someone manages to get away before being erased, their mind is assaulted by delusions and feelings of impending doom that often lead to suicide.",
-  "menagerieDialog": [
-    "(You\u0027ll probably never get accustomed to being around this creature. Something about its demeanor gives you goosebumps.)",
-    "(You\u0027ll probably never be able to fully trust that this creature won\u0027t stab you in the back when you least expect it.)",
-    "(It can take on any shape it wants, and yet it seems to stubbornly maintain this one at all times.)",
-    "(You should really consider keeping this creature somewhere else. It frightens your citizens with its grim demeanor.)",
-    "(It watches you intently, waiting for your next command.)"
-  ],
-  "minDepth": 1,
-  "name": "Imperial Voidlord",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ImperialVoidlord/overworld_e0.png",
-      "images/creature/ImperialVoidlord/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ImperialVoidlord/overworld_n0.png",
-      "images/creature/ImperialVoidlord/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ImperialVoidlord/overworld_s0.png",
-      "images/creature/ImperialVoidlord/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ImperialVoidlord/overworld_w0.png",
-      "images/creature/ImperialVoidlord/overworld_w1.png"
-    ]
-  },
-  "race": "Voidlord",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 22,
-    "health": 37,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1114
+    "battleSprite":  "images/creature/ImperialVoidlord/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  847,
+    "item":  1022,
+    "lore":  "Dragan tutored Ainsworth while she was a student, and he conducted numerous investigations. Among other things, he studied the void through the Voidlords. His findings led him to believe these creatures are the void itself, poured into the universe through the cracks the Watchers used to slip into this world. According to his hypothesis, the Watchers came from a dimension without matter, and when they slipped through the cracks, they involuntarily adapted to the laws of physics in our world.\\n\\nTouching an Imperial Voidlord is even more dangerous than touching the others, as even if someone manages to get away before being erased, their mind is assaulted by delusions and feelings of impending doom that often lead to suicide.",
+    "menagerieDialog":  [
+                            "(You\u0027ll probably never get accustomed to being around this creature. Something about its demeanor gives you goosebumps.)",
+                            "(You\u0027ll probably never be able to fully trust that this creature won\u0027t stab you in the back when you least expect it.)",
+                            "(It can take on any shape it wants, and yet it seems to stubbornly maintain this one at all times.)",
+                            "(You should really consider keeping this creature somewhere else. It frightens your citizens with its grim demeanor.)",
+                            "(It watches you intently, waiting for your next command.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Imperial Voidlord",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ImperialVoidlord/overworld_e0.png",
+                                         "images/creature/ImperialVoidlord/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ImperialVoidlord/overworld_n0.png",
+                                          "images/creature/ImperialVoidlord/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ImperialVoidlord/overworld_s0.png",
+                                          "images/creature/ImperialVoidlord/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ImperialVoidlord/overworld_w0.png",
+                                         "images/creature/ImperialVoidlord/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Voidlord",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  22,
+                       "health":  37,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1114,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

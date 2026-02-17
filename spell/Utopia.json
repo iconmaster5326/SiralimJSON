@@ -1,50 +1,53 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "All creatures recover {STAT_health} equal to 100% of the amount they\u0027re missing.",
-  "god": null,
-  "id": 472,
-  "manuallyCastable": true,
-  "maxCharges": 1,
-  "name": "Utopia",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    2,
-    3,
-    5,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "HEAL"
-  ],
-  "targets": "all"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "All creatures recover {STAT_health} equal to 100% of the amount they\u0027re missing.",
+    "god":  null,
+    "id":  472,
+    "manuallyCastable":  true,
+    "maxCharges":  1,
+    "name":  "Utopia",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  2,
+                                  3,
+                                  5,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "HEAL"
+             ],
+    "targets":  "all",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

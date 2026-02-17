@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImpossibility:\nYour creatures with {CONDNAME_BUFF_INVISIBLE} are immune to damage from spells.",
-  "icon": "images/item/material/WanderingIncense.png",
-  "id": 861,
-  "name": "Wandering Incense",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 888
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImpossibility:\nYour creatures with {CONDNAME_BUFF_INVISIBLE} are immune to damage from spells.",
+    "icon":  "images/item/material/WanderingIncense.png",
+    "id":  861,
+    "name":  "Wandering Incense",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  888,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

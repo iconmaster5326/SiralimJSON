@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefiance:\nAt the start of battle, this creature and the creatures adjacent to it {ACTION_cast} a random Living Shield spell.",
-  "icon": "images/item/material/HeavenshieldSoul.png",
-  "id": 67,
-  "name": "Heavenshield Soul",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1010
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDefiance:\nAt the start of battle, this creature and the creatures adjacent to it {ACTION_cast} a random Living Shield spell.",
+    "icon":  "images/item/material/HeavenshieldSoul.png",
+    "id":  67,
+    "name":  "Heavenshield Soul",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1010,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

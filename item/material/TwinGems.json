@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDynamic Duos:\nFor each creature in your party that is a class you have exactly 2 of, those creatures deal 160% more damage. For each creature in your party that is a race you have exactly 2 of, those creatures take 80% less damage. This trait ignores other traits and perks that increase the number of creatures of a specific race or class. This trait does not stack.",
-  "icon": "images/item/material/TwinGems.png",
-  "id": 1850,
-  "name": "Twin Gems",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2015
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDynamic Duos:\nFor each creature in your party that is a class you have exactly 2 of, those creatures deal 160% more damage. For each creature in your party that is a race you have exactly 2 of, those creatures take 80% less damage. This trait ignores other traits and perks that increase the number of creatures of a specific race or class. This trait does not stack.",
+    "icon":  "images/item/material/TwinGems.png",
+    "id":  1850,
+    "name":  "Twin Gems",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2015,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

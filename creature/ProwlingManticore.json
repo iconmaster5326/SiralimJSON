@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/ProwlingManticore/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 481,
-  "item": 836,
-  "lore": "The origin of Manticores can be traced back to an ancient rivalry between humans and Nixes. The first human civilizations trembled at the brutality of these creatures, but they endured. The last vestige of that frightful battle is the Prowling Manticore, an immortal creature that still embodies one of the greatest fears of mankind. It is almost seven feet tall, and its bite can easily tear a person\u0027s head off, and it has a dangerous ability to travel between realms and appear where it sees fit.",
-  "menagerieDialog": [
-    "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
-    "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
-    "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
-    "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
-    "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
-  ],
-  "minDepth": 1,
-  "name": "Prowling Manticore",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ProwlingManticore/overworld_e0.png",
-      "images/creature/ProwlingManticore/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ProwlingManticore/overworld_n0.png",
-      "images/creature/ProwlingManticore/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ProwlingManticore/overworld_s0.png",
-      "images/creature/ProwlingManticore/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ProwlingManticore/overworld_w0.png",
-      "images/creature/ProwlingManticore/overworld_w1.png"
-    ]
-  },
-  "race": "Manticore",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 12,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    },
-    {
-      "realm": 30,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 18,
-    "health": 30,
-    "intelligence": 15,
-    "speed": 23
-  },
-  "trait": 863
+    "battleSprite":  "images/creature/ProwlingManticore/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  481,
+    "item":  836,
+    "lore":  "The origin of Manticores can be traced back to an ancient rivalry between humans and Nixes. The first human civilizations trembled at the brutality of these creatures, but they endured. The last vestige of that frightful battle is the Prowling Manticore, an immortal creature that still embodies one of the greatest fears of mankind. It is almost seven feet tall, and its bite can easily tear a person\u0027s head off, and it has a dangerous ability to travel between realms and appear where it sees fit.",
+    "menagerieDialog":  [
+                            "(These creatures were created to destroy humans; you should be careful while it\u0027s in the castle.)",
+                            "(You\u0027ve noticed the way it looks at you. Its homicidal instincts are barely contained by your bond.)",
+                            "(It seems to be sizing up your other creatures, as if it\u0027s competing to see which is the strongest.)",
+                            "(You\u0027ll never quite get used to this creature\u0027s tail, knowing that at any moment it could sink it deep into your heart and kill you in the blink of an eye.)",
+                            "(It seems to grow restless any time you approach it. Perhaps you should try a different method of interacting with it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Prowling Manticore",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ProwlingManticore/overworld_e0.png",
+                                         "images/creature/ProwlingManticore/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ProwlingManticore/overworld_n0.png",
+                                          "images/creature/ProwlingManticore/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ProwlingManticore/overworld_s0.png",
+                                          "images/creature/ProwlingManticore/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ProwlingManticore/overworld_w0.png",
+                                         "images/creature/ProwlingManticore/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Manticore",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  12,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  30,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  18,
+                       "health":  30,
+                       "intelligence":  15,
+                       "speed":  23
+                   },
+    "trait":  863,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

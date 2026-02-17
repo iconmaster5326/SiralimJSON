@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKarma:\nAfter this creature {ACTION_attacks} or is damaged by an attack or spell, it gains 50% of its lowest stat.",
-  "icon": "images/item/material/ParticleofUgat.png",
-  "id": 743,
-  "name": "Particle of Ugat",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 791
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nKarma:\nAfter this creature {ACTION_attacks} or is damaged by an attack or spell, it gains 50% of its lowest stat.",
+    "icon":  "images/item/material/ParticleofUgat.png",
+    "id":  743,
+    "name":  "Particle of Ugat",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  791,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

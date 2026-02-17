@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Nightmare/battle.png",
-  "creator": null,
-  "creature": 947,
-  "id": 355,
-  "name": "Nightmare",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Nightmare/overworld_e0.png",
-      "images/skin/Nightmare/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Nightmare/overworld_n0.png",
-      "images/skin/Nightmare/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Nightmare/overworld_s0.png",
-      "images/skin/Nightmare/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Nightmare/overworld_w0.png",
-      "images/skin/Nightmare/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Nightmare/battle.png",
+    "creator":  null,
+    "creature":  947,
+    "id":  355,
+    "name":  "Nightmare",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Nightmare/overworld_e0.png",
+                                         "images/skin/Nightmare/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Nightmare/overworld_n0.png",
+                                          "images/skin/Nightmare/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Nightmare/overworld_s0.png",
+                                          "images/skin/Nightmare/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Nightmare/overworld_w0.png",
+                                         "images/skin/Nightmare/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

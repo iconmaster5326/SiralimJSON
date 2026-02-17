@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBismuth Attunement:\nCreatures gain 50% less stats. This trait does not stack.",
-  "icon": "images/item/material/BismuthJewel.png",
-  "id": 1319,
-  "name": "Bismuth Jewel",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1567
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBismuth Attunement:\nCreatures gain 50% less stats. This trait does not stack.",
+    "icon":  "images/item/material/BismuthJewel.png",
+    "id":  1319,
+    "name":  "Bismuth Jewel",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1567,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

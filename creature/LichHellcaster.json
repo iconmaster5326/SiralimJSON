@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/LichHellcaster/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 122,
-  "item": 206,
-  "lore": "When a large number of Liches gather, it is usually with a destructive purpose. In such occasions, a Lich Hellcaster will put its fiery hand on the top of its staff and then anoint the other Liches one by one. The process seems to stoke this creature\u0027s flames. Like other Liches, it has a ghostly voice, and when the wind blows strongly through the bony cavities of its skull, gloomy sounds can be heard over the rustle of its tunic.",
-  "menagerieDialog": [
-    "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
-    "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
-    "Knowledge is power, and I have a lot.",
-    "The ancient evil survives.",
-    "We must seek out the Necronomicon. With it, my true power will be realized."
-  ],
-  "minDepth": 1,
-  "name": "Lich Hellcaster",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LichHellcaster/overworld_e0.png",
-      "images/creature/LichHellcaster/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LichHellcaster/overworld_n0.png",
-      "images/creature/LichHellcaster/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LichHellcaster/overworld_s0.png",
-      "images/creature/LichHellcaster/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LichHellcaster/overworld_w0.png",
-      "images/creature/LichHellcaster/overworld_w1.png"
-    ]
-  },
-  "race": "Lich",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 12,
-    "defense": 12,
-    "health": 31,
-    "intelligence": 27,
-    "speed": 22
-  },
-  "trait": 115
+    "battleSprite":  "images/creature/LichHellcaster/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  122,
+    "item":  206,
+    "lore":  "When a large number of Liches gather, it is usually with a destructive purpose. In such occasions, a Lich Hellcaster will put its fiery hand on the top of its staff and then anoint the other Liches one by one. The process seems to stoke this creature\u0027s flames. Like other Liches, it has a ghostly voice, and when the wind blows strongly through the bony cavities of its skull, gloomy sounds can be heard over the rustle of its tunic.",
+    "menagerieDialog":  [
+                            "I\u0027ll sleep when I\u0027m dead.\\n\\nWhich happens to be right now. Good night!",
+                            "You are far too merciful on your subjects. Punishment breeds obedience, and you\u0027d do well to learn that fact.",
+                            "Knowledge is power, and I have a lot.",
+                            "The ancient evil survives.",
+                            "We must seek out the Necronomicon. With it, my true power will be realized."
+                        ],
+    "minDepth":  1,
+    "name":  "Lich Hellcaster",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LichHellcaster/overworld_e0.png",
+                                         "images/creature/LichHellcaster/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LichHellcaster/overworld_n0.png",
+                                          "images/creature/LichHellcaster/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LichHellcaster/overworld_s0.png",
+                                          "images/creature/LichHellcaster/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LichHellcaster/overworld_w0.png",
+                                         "images/creature/LichHellcaster/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Lich",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  12,
+                       "defense":  12,
+                       "health":  31,
+                       "intelligence":  27,
+                       "speed":  22
+                   },
+    "trait":  115,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

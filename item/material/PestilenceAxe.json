@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIncursion:\nYour creatures\u0027 \u0022Afflict Debuff On Damage\u0022 properties have a 100% greater chance to activate. This trait does not stack.",
-  "icon": "images/item/material/PestilenceAxe.png",
-  "id": 432,
-  "name": "Pestilence Axe",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 347
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nIncursion:\nYour creatures\u0027 \"Afflict Debuff On Damage\" properties have a 100% greater chance to activate. This trait does not stack.",
+    "icon":  "images/item/material/PestilenceAxe.png",
+    "id":  432,
+    "name":  "Pestilence Axe",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  347,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

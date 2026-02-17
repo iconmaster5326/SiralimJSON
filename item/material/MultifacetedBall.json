@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpectrometry:\nYour {RACE_Spelljuggler} creatures can equip Spell Gems from any class.",
-  "icon": "images/item/material/MultifacetedBall.png",
-  "id": 1811,
-  "name": "Multifaceted Ball",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2164
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpectrometry:\nYour {RACE_Spelljuggler} creatures can equip Spell Gems from any class.",
+    "icon":  "images/item/material/MultifacetedBall.png",
+    "id":  1811,
+    "name":  "Multifaceted Ball",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2164,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

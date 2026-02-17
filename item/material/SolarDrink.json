@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSolar Flare:\nAfter this creature is {ACTION_attacked} while it is {ACTION_defending} or {ACTION_provoking}, it {ACTION_casts} [icons,1968]Stellar Flare. This spell deals 50% more damage.",
-  "icon": "images/item/material/SolarDrink.png",
-  "id": 7,
-  "name": "Solar Drink",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1035
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSolar Flare:\nAfter this creature is {ACTION_attacked} while it is {ACTION_defending} or {ACTION_provoking}, it {ACTION_casts} [icons,1968]Stellar Flare. This spell deals 50% more damage.",
+    "icon":  "images/item/material/SolarDrink.png",
+    "id":  7,
+    "name":  "Solar Drink",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1035,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

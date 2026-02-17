@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSapphire Attunement:\nAll creatures take 50% less damage. This trait does not stack.",
-  "icon": "images/item/material/GiantSapphire.png",
-  "id": 138,
-  "name": "Giant Sapphire",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 47
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSapphire Attunement:\nAll creatures take 50% less damage. This trait does not stack.",
+    "icon":  "images/item/material/GiantSapphire.png",
+    "id":  138,
+    "name":  "Giant Sapphire",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  47,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

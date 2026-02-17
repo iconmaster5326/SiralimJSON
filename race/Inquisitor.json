@@ -1,38 +1,41 @@
 {
-  "bossDialog": [
-    "Hmmmm, hmmmm, yes; strong, healthy, I could definitely use you. Do come along quietly without a fight, little thing.",
-    "Oh look, another weary and tired traveler. Stay a while.... stay FOREVER!",
-    "Oh, you poor little thing. You have no idea what you\u0027ve just gotten yourself into, do you?"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 minions have a 5% lower chance to go away.",
-    "4": "Your creatures\u0027 minions have a 5% lower chance to go away.",
-    "6": "Your creatures\u0027 minions have a 5% lower chance to go away."
-  },
-  "cards": 6,
-  "class": "nature",
-  "creator": null,
-  "creatures": [
-    880,
-    881,
-    882,
-    883,
-    884,
-    885
-  ],
-  "icon": "images/race/Inquisitor.png",
-  "master": {
-    "costume": 351,
-    "dialog": "Rather than doing all the fighting themselves, Inquisitors prefer to summon minions to do their bidding. Do you think your creatures can stand up against an entire army of minions? We will soon find out!",
-    "item": 1246,
-    "name": "Ridley",
-    "trait": 1452
-  },
-  "name": "Inquisitor",
-  "notes": [],
-  "skins": [
-    93,
-    455,
-    802
-  ]
+    "bossDialog":  [
+                       "Hmmmm, hmmmm, yes; strong, healthy, I could definitely use you. Do come along quietly without a fight, little thing.",
+                       "Oh look, another weary and tired traveler. Stay a while.... stay FOREVER!",
+                       "Oh, you poor little thing. You have no idea what you\u0027ve just gotten yourself into, do you?"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 minions have a 5% lower chance to go away.",
+                        "4":  "Your creatures\u0027 minions have a 5% lower chance to go away.",
+                        "6":  "Your creatures\u0027 minions have a 5% lower chance to go away."
+                    },
+    "cards":  6,
+    "class":  "nature",
+    "creator":  null,
+    "creatures":  [
+                      880,
+                      881,
+                      882,
+                      883,
+                      884,
+                      885
+                  ],
+    "icon":  "images/race/Inquisitor.png",
+    "master":  {
+                   "costume":  351,
+                   "dialog":  "Rather than doing all the fighting themselves, Inquisitors prefer to summon minions to do their bidding. Do you think your creatures can stand up against an entire army of minions? We will soon find out!",
+                   "item":  1246,
+                   "name":  "Ridley",
+                   "trait":  1452
+               },
+    "name":  "Inquisitor",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  93,
+                  455,
+                  802
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

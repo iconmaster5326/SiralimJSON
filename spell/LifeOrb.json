@@ -1,51 +1,54 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Your dead creatures are resurrected with a massive amount of {STAT_health}. Your living creatures are healed for a massive amount of {STAT_health}.",
-  "god": null,
-  "id": 530,
-  "manuallyCastable": true,
-  "maxCharges": 2,
-  "name": "Life Orb",
-  "notes": [],
-  "obtainable": true,
-  "propertyCompatibility": [
-    0,
-    2,
-    3,
-    5,
-    6,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27
-  ],
-  "reserved": false,
-  "resurrects": true,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "tags": [
-    "RESURRECT",
-    "HEAL"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Your dead creatures are resurrected with a massive amount of {STAT_health}. Your living creatures are healed for a massive amount of {STAT_health}.",
+    "god":  null,
+    "id":  530,
+    "manuallyCastable":  true,
+    "maxCharges":  2,
+    "name":  "Life Orb",
+    "notes":  [
+
+              ],
+    "obtainable":  true,
+    "propertyCompatibility":  [
+                                  0,
+                                  2,
+                                  3,
+                                  5,
+                                  6,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17,
+                                  18,
+                                  19,
+                                  20,
+                                  21,
+                                  22,
+                                  23,
+                                  24,
+                                  25,
+                                  26,
+                                  27
+                              ],
+    "reserved":  false,
+    "resurrects":  true,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "tags":  [
+                 "RESURRECT",
+                 "HEAL"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

@@ -1,34 +1,43 @@
 {
-  "battleSprite": "images/creature/OrbsofCaliban/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 1062,
-  "item": null,
-  "lore": "L_LORE_ORBSOFCALIBAN",
-  "menagerieDialog": [
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
-    "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
-  ],
-  "minDepth": 1,
-  "name": "Orbs of Caliban",
-  "notes": [],
-  "overworldSprite": "creature/OrbsofCaliban/overworld.png",
-  "race": "Avatar",
-  "reserved": true,
-  "skins": [],
-  "sources": [],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 50,
-    "intelligence": 25,
-    "speed": 25
-  },
-  "trait": 1646
+    "battleSprite":  "images/creature/OrbsofCaliban/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  1062,
+    "item":  null,
+    "lore":  "L_LORE_ORBSOFCALIBAN",
+    "menagerieDialog":  [
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!",
+                            "Zack forgot to add dialog for me. Please tell him my name and personality so he can add some!"
+                        ],
+    "minDepth":  1,
+    "name":  "Orbs of Caliban",
+    "notes":  [
+
+              ],
+    "overworldSprite":  "creature/OrbsofCaliban/overworld.png",
+    "race":  "Avatar",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  50,
+                       "intelligence":  25,
+                       "speed":  25
+                   },
+    "trait":  1646,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

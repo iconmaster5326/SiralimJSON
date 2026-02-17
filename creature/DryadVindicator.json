@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DryadVindicator/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 89,
-  "item": 555,
-  "lore": "Faced with an increase in harmful human activities, the famous Nature Mage Calkins had an idea for the Dryads to overcome their limitations. With the help of other Nature Magi, she enchanted a sprout of each oak and gave it to the Dryads.\\n\\nThe Dryad Vindicator uses her wooden sword to punish any creature she finds cutting trees or damaging bushes. The wounds she inflicts cause her victims to undergo a slow but inexorable transformation into the plant they were harming.",
-  "menagerieDialog": [
-    "More and more forests are destroyed each year; your kind should be more careful.",
-    "I will show the world what it means to disrespect nature.",
-    "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
-    "I sometimes miss the forest. Can we return there for a visit one day?",
-    "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
-  ],
-  "minDepth": 1,
-  "name": "Dryad Vindicator",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DryadVindicator/overworld_e0.png",
-      "images/creature/DryadVindicator/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DryadVindicator/overworld_n0.png",
-      "images/creature/DryadVindicator/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DryadVindicator/overworld_s0.png",
-      "images/creature/DryadVindicator/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DryadVindicator/overworld_w0.png",
-      "images/creature/DryadVindicator/overworld_w1.png"
-    ]
-  },
-  "race": "Dryad",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "God Shop (Shallan)",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 21,
-    "health": 31,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 469
+    "battleSprite":  "images/creature/DryadVindicator/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  89,
+    "item":  555,
+    "lore":  "Faced with an increase in harmful human activities, the famous Nature Mage Calkins had an idea for the Dryads to overcome their limitations. With the help of other Nature Magi, she enchanted a sprout of each oak and gave it to the Dryads.\\n\\nThe Dryad Vindicator uses her wooden sword to punish any creature she finds cutting trees or damaging bushes. The wounds she inflicts cause her victims to undergo a slow but inexorable transformation into the plant they were harming.",
+    "menagerieDialog":  [
+                            "More and more forests are destroyed each year; your kind should be more careful.",
+                            "I will show the world what it means to disrespect nature.",
+                            "I wish you\u0027d build a garden in our kingdom so I can feel a bit more at home.",
+                            "I sometimes miss the forest. Can we return there for a visit one day?",
+                            "I believe this kingdom could use a few more trees and plants to liven things up a bit. What do you think?"
+                        ],
+    "minDepth":  1,
+    "name":  "Dryad Vindicator",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DryadVindicator/overworld_e0.png",
+                                         "images/creature/DryadVindicator/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DryadVindicator/overworld_n0.png",
+                                          "images/creature/DryadVindicator/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DryadVindicator/overworld_s0.png",
+                                          "images/creature/DryadVindicator/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DryadVindicator/overworld_w0.png",
+                                         "images/creature/DryadVindicator/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dryad",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "God Shop (Shallan)",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  21,
+                       "health":  31,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  469,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

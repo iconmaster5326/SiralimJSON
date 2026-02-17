@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFireworks:\nAfter this creature manually {ACTION_casts} a spell, it deals damage to enemies equal to 40% of its {STAT_speed}.",
-  "icon": "images/item/material/AscendantLantern.png",
-  "id": 1095,
-  "name": "Ascendant Lantern",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1028
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFireworks:\nAfter this creature manually {ACTION_casts} a spell, it deals damage to enemies equal to 40% of its {STAT_speed}.",
+    "icon":  "images/item/material/AscendantLantern.png",
+    "id":  1095,
+    "name":  "Ascendant Lantern",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1028,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

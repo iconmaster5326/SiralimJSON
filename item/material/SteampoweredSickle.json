@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPica:\nYour creatures have 7% more {STAT_attack} and {STAT_intelligence} for each resource-yielding object you\u0027ve collected in the current Realm, up to a maximum of 15. If you\u0027re not in a Realm, this trait acts as if you\u0027ve collected 10 objects. This trait does not stack.",
-  "icon": "images/item/material/SteampoweredSickle.png",
-  "id": 586,
-  "name": "Steampowered Sickle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 500
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPica:\nYour creatures have 7% more {STAT_attack} and {STAT_intelligence} for each resource-yielding object you\u0027ve collected in the current Realm, up to a maximum of 15. If you\u0027re not in a Realm, this trait acts as if you\u0027ve collected 10 objects. This trait does not stack.",
+    "icon":  "images/item/material/SteampoweredSickle.png",
+    "id":  586,
+    "name":  "Steampowered Sickle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  500,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

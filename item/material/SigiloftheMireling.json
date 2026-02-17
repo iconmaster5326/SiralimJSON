@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Mirelings:\nEnemies have 5% less stats (other than {STAT_health}) for each unique class among your creatures. If all 5 classes are present, your {RACE_Mireling} traits act as if there is 1 additional class. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheMireling.png",
-  "id": 1848,
-  "name": "Sigil of the Mireling",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2200
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Mirelings:\nEnemies have 5% less stats (other than {STAT_health}) for each unique class among your creatures. If all 5 classes are present, your {RACE_Mireling} traits act as if there is 1 additional class. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheMireling.png",
+    "id":  1848,
+    "name":  "Sigil of the Mireling",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2200,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

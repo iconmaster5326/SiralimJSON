@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/GulaSin/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 402,
-  "item": 262,
-  "lore": "Sins are the counterpart of Sanctuses, as well as their quintessential nemeses. When two of them meet they completely lose control, and a catastrophic battle ensues that devastates their surroundings due to their great power.\\n\\nThe Gula Sin likes to sneak into lavish banquets and leave one of its pieces of meat on a tray. If someone bites it, that person will not be able to stop eating, even if sated, until all the nearby food is gone.",
-  "menagerieDialog": [
-    "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
-    "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
-    "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
-    "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
-    "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
-  ],
-  "minDepth": 1,
-  "name": "Gula Sin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/GulaSin/overworld_e0.png",
-      "images/creature/GulaSin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/GulaSin/overworld_n0.png",
-      "images/creature/GulaSin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/GulaSin/overworld_s0.png",
-      "images/creature/GulaSin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/GulaSin/overworld_w0.png",
-      "images/creature/GulaSin/overworld_w1.png"
-    ]
-  },
-  "race": "Sin",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 20,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 38,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 172
+    "battleSprite":  "images/creature/GulaSin/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  402,
+    "item":  262,
+    "lore":  "Sins are the counterpart of Sanctuses, as well as their quintessential nemeses. When two of them meet they completely lose control, and a catastrophic battle ensues that devastates their surroundings due to their great power.\\n\\nThe Gula Sin likes to sneak into lavish banquets and leave one of its pieces of meat on a tray. If someone bites it, that person will not be able to stop eating, even if sated, until all the nearby food is gone.",
+    "menagerieDialog":  [
+                            "(You should keep a close eye on this creature. You never know what it\u0027s capable of doing.)",
+                            "(Although Sins are terrifying creatures to behold, you can\u0027t help but find the little trinkets they tend to hold in their claws to be a bit endearing.)",
+                            "(Unsurprisingly, nothing ever seems to go your way when this creature is nearby.)",
+                            "(Keeping this creature around is surely bad luck. Fortunately, it\u0027s powerful enough to offset any misfortune it might cause for you and your creatures.)",
+                            "(This creature looks like the final boss of just about every adventure you\u0027ve ever heard about.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Gula Sin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/GulaSin/overworld_e0.png",
+                                         "images/creature/GulaSin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/GulaSin/overworld_n0.png",
+                                          "images/creature/GulaSin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/GulaSin/overworld_s0.png",
+                                          "images/creature/GulaSin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/GulaSin/overworld_w0.png",
+                                         "images/creature/GulaSin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Sin",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  38,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  172,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

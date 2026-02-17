@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/MonstrousGargantuan/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 523,
-  "item": 592,
-  "lore": "Due to the violent tremors that occur during the mating season of the Gargantuans, the villagers near their territory wrap their fragile objects in blankets as a precaution.\\n\\nSome goblins make their towns in the back of Monstrous Gargantuans. They even build defensive towers and walls. When this creature enters battle, the goblins climb the battlements of their small fortress and drop heavy rocks on their enemies.",
-  "menagerieDialog": [
-    "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
-    "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
-    "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
-    "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
-    "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
-  ],
-  "minDepth": 1,
-  "name": "Monstrous Gargantuan",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MonstrousGargantuan/overworld_e0.png",
-      "images/creature/MonstrousGargantuan/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MonstrousGargantuan/overworld_n0.png",
-      "images/creature/MonstrousGargantuan/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MonstrousGargantuan/overworld_s0.png",
-      "images/creature/MonstrousGargantuan/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MonstrousGargantuan/overworld_w0.png",
-      "images/creature/MonstrousGargantuan/overworld_w1.png"
-    ]
-  },
-  "race": "Gargantuan",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 27,
-    "health": 42,
-    "intelligence": 12,
-    "speed": 7
-  },
-  "trait": 506
+    "battleSprite":  "images/creature/MonstrousGargantuan/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  523,
+    "item":  592,
+    "lore":  "Due to the violent tremors that occur during the mating season of the Gargantuans, the villagers near their territory wrap their fragile objects in blankets as a precaution.\\n\\nSome goblins make their towns in the back of Monstrous Gargantuans. They even build defensive towers and walls. When this creature enters battle, the goblins climb the battlements of their small fortress and drop heavy rocks on their enemies.",
+    "menagerieDialog":  [
+                            "IDIOT... FOOL... STUPID...\\n\\n(The Gargantuan continues to throw lazy, half-baked insults at you.)",
+                            "NEED TO STOMP SOMETHING, AND FAST. PATIENCE LOW.",
+                            "NEW HOBBY. WANT TO EAT YOUR SPELL GEMS NOW.",
+                            "ME ABOUT TO HAVE MAJOR TEMPER TANTRUM. NOT KNOW WHY.",
+                            "HUNGRY? FOOD FOR YOU.\\n\\n(It hands you a small pile of stones. Thanks?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Monstrous Gargantuan",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MonstrousGargantuan/overworld_e0.png",
+                                         "images/creature/MonstrousGargantuan/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MonstrousGargantuan/overworld_n0.png",
+                                          "images/creature/MonstrousGargantuan/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MonstrousGargantuan/overworld_s0.png",
+                                          "images/creature/MonstrousGargantuan/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MonstrousGargantuan/overworld_w0.png",
+                                         "images/creature/MonstrousGargantuan/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Gargantuan",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  27,
+                       "health":  42,
+                       "intelligence":  12,
+                       "speed":  7
+                   },
+    "trait":  506,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

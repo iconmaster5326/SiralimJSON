@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/ChristmasGenaros/battle.png",
-  "creator": null,
-  "creature": 1098,
-  "id": 601,
-  "name": "Christmas Genaros",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/ChristmasGenaros/overworld_e0.png",
-      "images/skin/ChristmasGenaros/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/ChristmasGenaros/overworld_n0.png",
-      "images/skin/ChristmasGenaros/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/ChristmasGenaros/overworld_s0.png",
-      "images/skin/ChristmasGenaros/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/ChristmasGenaros/overworld_w0.png",
-      "images/skin/ChristmasGenaros/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/ChristmasGenaros/battle.png",
+    "creator":  null,
+    "creature":  1098,
+    "id":  601,
+    "name":  "Christmas Genaros",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/ChristmasGenaros/overworld_e0.png",
+                                         "images/skin/ChristmasGenaros/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/ChristmasGenaros/overworld_n0.png",
+                                          "images/skin/ChristmasGenaros/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/ChristmasGenaros/overworld_s0.png",
+                                          "images/skin/ChristmasGenaros/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/ChristmasGenaros/overworld_w0.png",
+                                         "images/skin/ChristmasGenaros/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

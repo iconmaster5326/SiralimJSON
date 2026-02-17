@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRedemption:\nAfter this creature is killed, it heals your other creatures for an amount equal to 100% of its Maximum {STAT_health}.",
-  "icon": "images/item/material/CertificateofAbsolution.png",
-  "id": 1656,
-  "name": "Certificate of Absolution",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1859
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nRedemption:\nAfter this creature is killed, it heals your other creatures for an amount equal to 100% of its Maximum {STAT_health}.",
+    "icon":  "images/item/material/CertificateofAbsolution.png",
+    "id":  1656,
+    "name":  "Certificate of Absolution",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1859,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

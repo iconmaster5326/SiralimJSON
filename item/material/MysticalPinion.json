@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGroup Meditation:\nAt the start of battle, your creatures\u0027 Spell Gems gain 1 {STAT_charge} if you have at least 3 {RACE_Familiar}s fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/MysticalPinion.png",
-  "id": 502,
-  "name": "Mystical Pinion",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 416
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGroup Meditation:\nAt the start of battle, your creatures\u0027 Spell Gems gain 1 {STAT_charge} if you have at least 3 {RACE_Familiar}s fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/MysticalPinion.png",
+    "id":  502,
+    "name":  "Mystical Pinion",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  416,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

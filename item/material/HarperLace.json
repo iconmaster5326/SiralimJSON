@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGlissando:\nEnemies always have {CONDNAME_BUFF_AGILE}. The first time an enemy dodges each turn, each of your creatures {ACTION_attack} that enemy for 50% normal damage. This trait does not stack.",
-  "icon": "images/item/material/HarperLace.png",
-  "id": 1828,
-  "name": "Harper Lace",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2187
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGlissando:\nEnemies always have {CONDNAME_BUFF_AGILE}. The first time an enemy dodges each turn, each of your creatures {ACTION_attack} that enemy for 50% normal damage. This trait does not stack.",
+    "icon":  "images/item/material/HarperLace.png",
+    "id":  1828,
+    "name":  "Harper Lace",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2187,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

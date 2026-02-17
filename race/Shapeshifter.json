@@ -1,45 +1,48 @@
 {
-  "bossDialog": [
-    "(A strange creature keeps rapidly changing between several disgusting, terrifying and outright obscene forms in a clear effort to scare you away. Too bad you\u0027re made of sterner stuff.)",
-    "(The form of Everett appears before you and begins to speak - not fooled in the slightest, you order your creatures to attack. The Shapeshifter quickly reverts into a battle form!)",
-    "(Wow, there\u0027s a LOT of treasure here! However, your surprise quickly turns to dismay as a large portion of the treasure quickly changes shape and attacks you!)"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures deal 10% more damage to creatures that are weak against their class.",
-    "5": "Your creatures take 10% less damage from creatures that are strong against their class.",
-    "8": "Doubles the potency of these effects."
-  },
-  "cards": 8,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    661,
-    1009
-  ],
-  "icon": "images/race/Shapeshifter.png",
-  "master": {
-    "costume": 386,
-    "dialog": "For Shapeshifters, it\u0027s always the best day of the year: Opposite Day! I can tell by the blank look on your face that you have no idea what I\u0027m talking about, so let\u0027s get right into a battle so I can show you!",
-    "item": 1201,
-    "name": "Rensole",
-    "trait": 1489
-  },
-  "name": "Shapeshifter",
-  "notes": [],
-  "skins": [
-    173,
-    174,
-    175,
-    176,
-    177,
-    502,
-    734,
-    773
-  ]
+    "bossDialog":  [
+                       "(A strange creature keeps rapidly changing between several disgusting, terrifying and outright obscene forms in a clear effort to scare you away. Too bad you\u0027re made of sterner stuff.)",
+                       "(The form of Everett appears before you and begins to speak - not fooled in the slightest, you order your creatures to attack. The Shapeshifter quickly reverts into a battle form!)",
+                       "(Wow, there\u0027s a LOT of treasure here! However, your surprise quickly turns to dismay as a large portion of the treasure quickly changes shape and attacks you!)"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures deal 10% more damage to creatures that are weak against their class.",
+                        "5":  "Your creatures take 10% less damage from creatures that are strong against their class.",
+                        "8":  "Doubles the potency of these effects."
+                    },
+    "cards":  8,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      41,
+                      42,
+                      43,
+                      44,
+                      45,
+                      46,
+                      661,
+                      1009
+                  ],
+    "icon":  "images/race/Shapeshifter.png",
+    "master":  {
+                   "costume":  386,
+                   "dialog":  "For Shapeshifters, it\u0027s always the best day of the year: Opposite Day! I can tell by the blank look on your face that you have no idea what I\u0027m talking about, so let\u0027s get right into a battle so I can show you!",
+                   "item":  1201,
+                   "name":  "Rensole",
+                   "trait":  1489
+               },
+    "name":  "Shapeshifter",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  173,
+                  174,
+                  175,
+                  176,
+                  177,
+                  502,
+                  734,
+                  773
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

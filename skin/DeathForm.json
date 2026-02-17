@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/DeathForm/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 174,
-  "name": "Death Form",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/DeathForm/overworld_e0.png",
-      "images/skin/DeathForm/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/DeathForm/overworld_n0.png",
-      "images/skin/DeathForm/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/DeathForm/overworld_s0.png",
-      "images/skin/DeathForm/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/DeathForm/overworld_w0.png",
-      "images/skin/DeathForm/overworld_w1.png"
-    ]
-  },
-  "race": "Shapeshifter",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/DeathForm/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  174,
+    "name":  "Death Form",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/DeathForm/overworld_e0.png",
+                                         "images/skin/DeathForm/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/DeathForm/overworld_n0.png",
+                                          "images/skin/DeathForm/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/DeathForm/overworld_s0.png",
+                                          "images/skin/DeathForm/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/DeathForm/overworld_w0.png",
+                                         "images/skin/DeathForm/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Shapeshifter",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

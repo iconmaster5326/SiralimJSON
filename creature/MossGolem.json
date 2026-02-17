@@ -1,66 +1,71 @@
 {
-  "battleSprite": "images/creature/MossGolem/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 150,
-  "item": 413,
-  "lore": "Although a Moss Golem will never disobey an order from the Mage to whom it belongs, it prefers to live in the depths of a forest, where it can stay completely still and blend with its environment. If it hears the sound of wood yielding to the steel of an axe, it will open its eyes and start moving with the sole purpose of destroying the one who dared damage its home.",
-  "menagerieDialog": [
-    "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
-    "(It\u0027s... shadowboxing. Weird.)",
-    "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
-    "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
-    "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
-  ],
-  "minDepth": 1,
-  "name": "Moss Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MossGolem/overworld_e0.png",
-      "images/creature/MossGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MossGolem/overworld_n0.png",
-      "images/creature/MossGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MossGolem/overworld_s0.png",
-      "images/creature/MossGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MossGolem/overworld_w0.png",
-      "images/creature/MossGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    },
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 24,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    12
-  ],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 328
+    "battleSprite":  "images/creature/MossGolem/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  150,
+    "item":  413,
+    "lore":  "Although a Moss Golem will never disobey an order from the Mage to whom it belongs, it prefers to live in the depths of a forest, where it can stay completely still and blend with its environment. If it hears the sound of wood yielding to the steel of an axe, it will open its eyes and start moving with the sole purpose of destroying the one who dared damage its home.",
+    "menagerieDialog":  [
+                            "(It\u0027s so still that you\u0027re not even sure it\u0027s still alive.)",
+                            "(It\u0027s... shadowboxing. Weird.)",
+                            "(This creature has the best of intentions, but it always seems to be clumsily knocking things over.)",
+                            "(Perhaps someday, you\u0027ll be able to take the time to teach it how to talk.)",
+                            "(Its facial expressions are difficult to read. You can\u0027t help but think that it\u0027s judging you sometimes.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Moss Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MossGolem/overworld_e0.png",
+                                         "images/creature/MossGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MossGolem/overworld_n0.png",
+                                          "images/creature/MossGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MossGolem/overworld_s0.png",
+                                          "images/creature/MossGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MossGolem/overworld_w0.png",
+                                         "images/creature/MossGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  24,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            12
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  328,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

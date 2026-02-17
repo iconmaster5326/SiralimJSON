@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of the Grave:\nAfter this creatures dodges, enemies lose 20% of their highest stat. In addition, this creature has an independent 50% chance to dodge attacks. This trait does not stack.",
-  "icon": "images/item/material/DecayFigment.png",
-  "id": 1310,
-  "name": "Decay Figment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1558
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of the Grave:\nAfter this creature dodges, enemies lose 20% of their highest stat. In addition, this creature has an independent 50% chance to dodge attacks. This trait does not stack.",
+    "icon":  "images/item/material/DecayFigment.png",
+    "id":  1310,
+    "name":  "Decay Figment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1558,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

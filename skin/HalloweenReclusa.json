@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/HalloweenReclusa/battle.png",
-  "creator": null,
-  "creature": 1100,
-  "id": 612,
-  "name": "Halloween Reclusa",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/HalloweenReclusa/overworld_e0.png",
-      "images/skin/HalloweenReclusa/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/HalloweenReclusa/overworld_n0.png",
-      "images/skin/HalloweenReclusa/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/HalloweenReclusa/overworld_s0.png",
-      "images/skin/HalloweenReclusa/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/HalloweenReclusa/overworld_w0.png",
-      "images/skin/HalloweenReclusa/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/HalloweenReclusa/battle.png",
+    "creator":  null,
+    "creature":  1100,
+    "id":  612,
+    "name":  "Halloween Reclusa",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/HalloweenReclusa/overworld_e0.png",
+                                         "images/skin/HalloweenReclusa/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/HalloweenReclusa/overworld_n0.png",
+                                          "images/skin/HalloweenReclusa/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/HalloweenReclusa/overworld_s0.png",
+                                          "images/skin/HalloweenReclusa/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/HalloweenReclusa/overworld_w0.png",
+                                         "images/skin/HalloweenReclusa/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

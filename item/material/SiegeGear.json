@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBattle From Within:\nAt the start of this creature\u0027s turn, it deals damage to enemies equal to 25% of its missing {STAT_health}.",
-  "icon": "images/item/material/SiegeGear.png",
-  "id": 1059,
-  "name": "Siege Gear",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1078
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBattle From Within:\nAt the start of this creature\u0027s turn, it deals damage to enemies equal to 25% of its missing {STAT_health}.",
+    "icon":  "images/item/material/SiegeGear.png",
+    "id":  1059,
+    "name":  "Siege Gear",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1078,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGlaive of Prayer:\nAfter this creature {ACTION_attacks}, it deals damage to a random enemy equal to 35% of the attack\u0027s damage and has a 20% chance to resurrect a random ally with 40% {STAT_health}. This effect repeats once for each {RACE_Hunter} fighting on your side.",
-  "icon": "images/item/material/FaithGlaive.png",
-  "id": 522,
-  "name": "Faith Glaive",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 436
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGlaive of Prayer:\nAfter this creature {ACTION_attacks}, it deals damage to a random enemy equal to 35% of the attack\u0027s damage and has a 20% chance to resurrect a random ally with 40% {STAT_health}. This effect repeats once for each {RACE_Hunter} fighting on your side.",
+    "icon":  "images/item/material/FaithGlaive.png",
+    "id":  522,
+    "name":  "Faith Glaive",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  436,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

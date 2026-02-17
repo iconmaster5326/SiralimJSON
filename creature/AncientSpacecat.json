@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/AncientSpacecat/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1301,
-  "item": 1808,
-  "lore": "Spacecats have spent over a thousand years studying the behavior of humans and other creatures that inhabit this world.\\n\\nWhen a Spacecat reaches 80 years of age, its fur turns a mix of gray and black, resembling that of a Siamese cat. They are the voices of experience, leaders of their kind, and command great respect within their community. However, they don\u0027t make the final calls alone \u00E2\u20AC\u201D the most important decisions, especially the ones of great consequence, are made collectively by their society.",
-  "menagerieDialog": [
-    "(It\u0027s curled up in a floating ball, purring contentedly.)",
-    "Time to show these earthlings what a real predator looks like!",
-    "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
-    "My space suit is impenetrable! Your puny weapons are no match for me!",
-    "(It\u0027s zooming around in erratic patterns, defying gravity.)"
-  ],
-  "minDepth": 1,
-  "name": "Ancient Spacecat",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/AncientSpacecat/overworld_e0.png",
-      "images/creature/AncientSpacecat/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/AncientSpacecat/overworld_n0.png",
-      "images/creature/AncientSpacecat/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/AncientSpacecat/overworld_s0.png",
-      "images/creature/AncientSpacecat/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/AncientSpacecat/overworld_w0.png",
-      "images/creature/AncientSpacecat/overworld_w1.png"
-    ]
-  },
-  "race": "Spacecat",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 14,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 20,
-    "health": 35,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 2161
+    "battleSprite":  "images/creature/AncientSpacecat/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1301,
+    "item":  1808,
+    "lore":  "Spacecats have spent over a thousand years studying the behavior of humans and other creatures that inhabit this world.\\n\\nWhen a Spacecat reaches 80 years of age, its fur turns a mix of gray and black, resembling that of a Siamese cat. They are the voices of experience, leaders of their kind, and command great respect within their community. However, they don\u0027t make the final calls alone — the most important decisions, especially the ones of great consequence, are made collectively by their society.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up in a floating ball, purring contentedly.)",
+                            "Time to show these earthlings what a real predator looks like!",
+                            "I\u0027ve seen things you people wouldn\u0027t believe. Want to hear about them?",
+                            "My space suit is impenetrable! Your puny weapons are no match for me!",
+                            "(It\u0027s zooming around in erratic patterns, defying gravity.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Ancient Spacecat",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/AncientSpacecat/overworld_e0.png",
+                                         "images/creature/AncientSpacecat/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/AncientSpacecat/overworld_n0.png",
+                                          "images/creature/AncientSpacecat/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/AncientSpacecat/overworld_s0.png",
+                                          "images/creature/AncientSpacecat/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/AncientSpacecat/overworld_w0.png",
+                                         "images/creature/AncientSpacecat/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Spacecat",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  14,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  20,
+                       "health":  35,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  2161,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

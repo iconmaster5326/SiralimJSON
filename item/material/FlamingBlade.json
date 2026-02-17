@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDivision of Mortality:\nThis creature deals additional damage with attacks and spells equal to its Current {STAT_health} minus the target\u0027s Current {STAT_health}.",
-  "icon": "images/item/material/FlamingBlade.png",
-  "id": 978,
-  "name": "Flaming Blade",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1154
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nDivision of Mortality:\nThis creature deals additional damage with attacks and spells equal to its Current {STAT_health} minus the target\u0027s Current {STAT_health}.",
+    "icon":  "images/item/material/FlamingBlade.png",
+    "id":  978,
+    "name":  "Flaming Blade",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1154,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Romulette/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1293,
-  "item": 1795,
-  "lore": "The Egg-Front was never better protected than by the Romulette Order. From a young age, they\u0027re trained in the ancient art of the stone omelette\u00E2\u20AC\u201Da cooking style that lets them create a tough shield out of\u00E2\u20AC\u00A6 well, other eggs that didn\u0027t have the best of fates. Plus, they look pretty awesome in their helmets.",
-  "menagerieDialog": [
-    "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
-    "We may look fragile, but we\u0027ll crack some skulls!",
-    "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
-    "Our shells are tougher than they look. Bring it on!",
-    "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
-  ],
-  "minDepth": 1,
-  "name": "Romulette",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Romulette/overworld_e0.png",
-      "images/creature/Romulette/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Romulette/overworld_n0.png",
-      "images/creature/Romulette/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Romulette/overworld_s0.png",
-      "images/creature/Romulette/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Romulette/overworld_w0.png",
-      "images/creature/Romulette/overworld_w1.png"
-    ]
-  },
-  "race": "Eggxotic",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 10
-  },
-  "trait": 2148
+    "battleSprite":  "images/creature/Romulette/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1293,
+    "item":  1795,
+    "lore":  "The Egg-Front was never better protected than by the Romulette Order. From a young age, they\u0027re trained in the ancient art of the stone omelette—a cooking style that lets them create a tough shield out of… well, other eggs that didn\u0027t have the best of fates. Plus, they look pretty awesome in their helmets.",
+    "menagerieDialog":  [
+                            "(They\u0027re nestled together, occasionally emitting soft peeping sounds.)",
+                            "We may look fragile, but we\u0027ll crack some skulls!",
+                            "Don\u0027t let our appearance fool you. We\u0027ve got a few tricks up our... well, you know.",
+                            "Our shells are tougher than they look. Bring it on!",
+                            "(They\u0027re rolling around erratically, narrowly avoiding collisions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Romulette",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Romulette/overworld_e0.png",
+                                         "images/creature/Romulette/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Romulette/overworld_n0.png",
+                                          "images/creature/Romulette/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Romulette/overworld_s0.png",
+                                          "images/creature/Romulette/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Romulette/overworld_w0.png",
+                                         "images/creature/Romulette/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Eggxotic",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  10
+                   },
+    "trait":  2148,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

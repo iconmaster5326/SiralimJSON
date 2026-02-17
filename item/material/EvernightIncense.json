@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrom Light Comes Darkness:\nAfter your creatures are damaged by an enemy, they have a 50% chance to gain {CONDNAME_BUFF_INVISIBLE}. This trait does not stack.",
-  "icon": "images/item/material/EvernightIncense.png",
-  "id": 284,
-  "name": "Evernight Incense",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 200
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nFrom Light Comes Darkness:\nAfter your creatures are damaged by an enemy, they have a 50% chance to gain {CONDNAME_BUFF_INVISIBLE}. This trait does not stack.",
+    "icon":  "images/item/material/EvernightIncense.png",
+    "id":  284,
+    "name":  "Evernight Incense",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  200,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

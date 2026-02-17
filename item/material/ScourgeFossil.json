@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReclusive Glutton:\nAfter your creatures are resurrected, they {ACTION_cast} 5 random spells. This trait does not stack.",
-  "icon": "images/item/material/ScourgeFossil.png",
-  "id": 997,
-  "name": "Scourge Fossil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1137
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nReclusive Glutton:\nAfter your creatures are resurrected, they {ACTION_cast} 5 random spells. This trait does not stack.",
+    "icon":  "images/item/material/ScourgeFossil.png",
+    "id":  997,
+    "name":  "Scourge Fossil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1137,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

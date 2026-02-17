@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBarbearian:\nAfter all start-of-battle effects are activated, this creature {ACTION_provokes}. This creature has 35% more {STAT_defense}.",
-  "icon": "images/item/material/HoneyPot.png",
-  "id": 1655,
-  "name": "Honey Pot",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1858
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBarbearian:\nAfter all start-of-battle effects are activated, this creature {ACTION_provokes}. This creature has 35% more {STAT_defense}.",
+    "icon":  "images/item/material/HoneyPot.png",
+    "id":  1655,
+    "name":  "Honey Pot",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1858,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

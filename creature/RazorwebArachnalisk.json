@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/RazorwebArachnalisk/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1000,
-  "item": 1327,
-  "lore": "Some Arachnalisks are capable of producing a very hard web, as sharp as a knife or a sword. They are known as Razorweb Arachnalisks, and instead of attacking their enemies with their claws or fangs, they do so with their own special webs, although they cannot weave them in large quantities. These weapons can be thrown as if they were spears, as well as serving as a melee weapon.",
-  "menagerieDialog": [
-    "(These creatures are a real plague... but they can be useful in battle.)",
-    "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
-    "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
-    "(It hands you a little doll made out of web silk. Ugh.)",
-    "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
-  ],
-  "minDepth": 1,
-  "name": "Razorweb Arachnalisk",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RazorwebArachnalisk/overworld_e0.png",
-      "images/creature/RazorwebArachnalisk/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RazorwebArachnalisk/overworld_n0.png",
-      "images/creature/RazorwebArachnalisk/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RazorwebArachnalisk/overworld_s0.png",
-      "images/creature/RazorwebArachnalisk/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RazorwebArachnalisk/overworld_w0.png",
-      "images/creature/RazorwebArachnalisk/overworld_w1.png"
-    ]
-  },
-  "race": "Arachnalisk",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Nature Guild Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 26
-  },
-  "trait": 1573
+    "battleSprite":  "images/creature/RazorwebArachnalisk/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1000,
+    "item":  1327,
+    "lore":  "Some Arachnalisks are capable of producing a very hard web, as sharp as a knife or a sword. They are known as Razorweb Arachnalisks, and instead of attacking their enemies with their claws or fangs, they do so with their own special webs, although they cannot weave them in large quantities. These weapons can be thrown as if they were spears, as well as serving as a melee weapon.",
+    "menagerieDialog":  [
+                            "(These creatures are a real plague... but they can be useful in battle.)",
+                            "(It\u0027s surrounded by a bunch of massive, human-sized cocoons. But why are they moving?)",
+                            "(It\u0027s making a high-pitched screeching noise. You\u0027re not quite sure what that means, but it seems to be comfortable enough.)",
+                            "(It hands you a little doll made out of web silk. Ugh.)",
+                            "(It begins to raise up into the air as if it were floating, but upon closer inspection, its silken thread is just barely visible.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Razorweb Arachnalisk",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RazorwebArachnalisk/overworld_e0.png",
+                                         "images/creature/RazorwebArachnalisk/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RazorwebArachnalisk/overworld_n0.png",
+                                          "images/creature/RazorwebArachnalisk/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RazorwebArachnalisk/overworld_s0.png",
+                                          "images/creature/RazorwebArachnalisk/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RazorwebArachnalisk/overworld_w0.png",
+                                         "images/creature/RazorwebArachnalisk/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Arachnalisk",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Nature Guild Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  26
+                   },
+    "trait":  1573,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

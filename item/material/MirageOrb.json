@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConjuration:\nAfter this creature {ACTION_casts} a {CLASS_Sorcery} spell, your other creatures\u0027 {CLASS_Sorcery} Spell Gems gain 1 {STAT_charge}. This trait does not stack.",
-  "icon": "images/item/material/MirageOrb.png",
-  "id": 406,
-  "name": "Mirage Orb",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 321
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nConjuration:\nAfter this creature {ACTION_casts} a {CLASS_Sorcery} spell, your other creatures\u0027 {CLASS_Sorcery} Spell Gems gain 1 {STAT_charge}. This trait does not stack.",
+    "icon":  "images/item/material/MirageOrb.png",
+    "id":  406,
+    "name":  "Mirage Orb",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  321,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

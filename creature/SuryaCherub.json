@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/SuryaCherub/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1166,
-  "item": 1548,
-  "lore": "While most Cherubs have resided within the Azure Dream since ancient times, they have been known to occasionally vanish without explanation, never to return. In recent times however these disappearances have accelerated to the point that the sight of a Cherub within the Azure Dream is now an incredibly rare sight. Within the Church of Surathli and the Cult of Yseros, this is widely considered a very bad omen.\\n\\nWreathed in flames, the Surya Cherub radiates such intense heat that it is tremendously dangerous to approach. Many Magi have inadvertently met an unfortunate scorched end by the mere act of trying to summon and control one of these creatures, without the Cherub making a single hostile action at all or seemingly even being aware of what its presence is causing.",
-  "menagerieDialog": [
-    "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
-    "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
-    "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
-    "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
-    "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
-  ],
-  "minDepth": 1,
-  "name": "Surya Cherub",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SuryaCherub/overworld_e0.png",
-      "images/creature/SuryaCherub/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SuryaCherub/overworld_n0.png",
-      "images/creature/SuryaCherub/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SuryaCherub/overworld_s0.png",
-      "images/creature/SuryaCherub/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SuryaCherub/overworld_w0.png",
-      "images/creature/SuryaCherub/overworld_w1.png"
-    ]
-  },
-  "race": "Cherub",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 3,
-      "type": "realm"
-    },
-    {
-      "realm": 27,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 16,
-    "defense": 11,
-    "health": 41,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 1889
+    "battleSprite":  "images/creature/SuryaCherub/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1166,
+    "item":  1548,
+    "lore":  "While most Cherubs have resided within the Azure Dream since ancient times, they have been known to occasionally vanish without explanation, never to return. In recent times however these disappearances have accelerated to the point that the sight of a Cherub within the Azure Dream is now an incredibly rare sight. Within the Church of Surathli and the Cult of Yseros, this is widely considered a very bad omen.\\n\\nWreathed in flames, the Surya Cherub radiates such intense heat that it is tremendously dangerous to approach. Many Magi have inadvertently met an unfortunate scorched end by the mere act of trying to summon and control one of these creatures, without the Cherub making a single hostile action at all or seemingly even being aware of what its presence is causing.",
+    "menagerieDialog":  [
+                            "(This creature is so young that you can\u0027t help but feel like a criminal for making it fight for you.)",
+                            "(Upon your approach, this creature radiates a brilliant light that temporarily blinds your other creatures. It must like you.)",
+                            "(It\u0027s busy twirling around in circles, completely unaware of your presence.)",
+                            "(It\u0027s nearly asleep, making soft cooing noises as if it\u0027s calling to a mother it doesn\u0027t have.)",
+                            "(Looks can be deceiving. This creature prefers to strangle its opponents with its umbilical cord, which is quite possibly one of the most gruesome murder methods you\u0027ve ever witnessed.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Surya Cherub",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SuryaCherub/overworld_e0.png",
+                                         "images/creature/SuryaCherub/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SuryaCherub/overworld_n0.png",
+                                          "images/creature/SuryaCherub/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SuryaCherub/overworld_s0.png",
+                                          "images/creature/SuryaCherub/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SuryaCherub/overworld_w0.png",
+                                         "images/creature/SuryaCherub/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Cherub",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  3,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  27,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  16,
+                       "defense":  11,
+                       "health":  41,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  1889,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

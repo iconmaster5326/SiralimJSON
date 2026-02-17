@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "If an enemy dies while it is afflicted with {CONDNAME_DEBUFF_POISON}, all other enemies take damage equal to 50% of the potency of this debuff.",
-  "icon": "images/perk/BreathofDeath.png",
-  "id": 491,
-  "maxRanks": 1,
-  "name": "Breath of Death",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 31
+    "anointable":  true,
+    "description":  "If an enemy dies while it is afflicted with {CONDNAME_DEBUFF_POISON}, all other enemies take damage equal to 50% of the potency of this debuff.",
+    "icon":  "images/perk/BreathofDeath.png",
+    "id":  491,
+    "maxRanks":  1,
+    "name":  "Breath of Death",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  31,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

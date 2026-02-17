@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSkull Bash:\nAt the end of this creature\u0027s turn, it has a 50% chance to send a random enemy to the bottom of the {TIMELINE}.",
-  "icon": "images/item/material/NecksnapperSweat.png",
-  "id": 575,
-  "name": "Necksnapper Sweat",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 489
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSkull Bash:\nAt the end of this creature\u0027s turn, it has a 50% chance to send a random enemy to the bottom of the {TIMELINE}.",
+    "icon":  "images/item/material/NecksnapperSweat.png",
+    "id":  575,
+    "name":  "Necksnapper Sweat",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  489,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

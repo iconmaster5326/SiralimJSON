@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/WhiptailClutcher/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 680,
-  "item": 801,
-  "lore": "When Taylor had been ruling for ten years, he began to care less about carrying out his more than controversial activities in secret. In a display of arrogance and indifference, he ordered the construction of a huge underground complex on the outskirts of the city, which he called the Torture Chamber. He created the Whiptail Clutcher to monitor the complex, as well as to inflict pain. This creature digs its thick nails into the necks of its victims, then lashes them with its tail repeatedly.",
-  "menagerieDialog": [
-    "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
-    "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
-    "(It\u0027s impatiently tapping the floor with its fingertips.)",
-    "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
-    "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
-  ],
-  "minDepth": 1,
-  "name": "Whiptail Clutcher",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WhiptailClutcher/overworld_e0.png",
-      "images/creature/WhiptailClutcher/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WhiptailClutcher/overworld_n0.png",
-      "images/creature/WhiptailClutcher/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WhiptailClutcher/overworld_s0.png",
-      "images/creature/WhiptailClutcher/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WhiptailClutcher/overworld_w0.png",
-      "images/creature/WhiptailClutcher/overworld_w1.png"
-    ]
-  },
-  "race": "Clutcher",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 11,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 26
-  },
-  "trait": 828
+    "battleSprite":  "images/creature/WhiptailClutcher/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  680,
+    "item":  801,
+    "lore":  "When Taylor had been ruling for ten years, he began to care less about carrying out his more than controversial activities in secret. In a display of arrogance and indifference, he ordered the construction of a huge underground complex on the outskirts of the city, which he called the Torture Chamber. He created the Whiptail Clutcher to monitor the complex, as well as to inflict pain. This creature digs its thick nails into the necks of its victims, then lashes them with its tail repeatedly.",
+    "menagerieDialog":  [
+                            "(It\u0027s giving you a thumbs-up. It must enjoy killing other creatures.)",
+                            "(It\u0027s raising its middle finger and displaying it to you and all your creatures. While this may seem childish, you admit to yourself that you\u0027d do the same thing if your body was a giant hand.)",
+                            "(It\u0027s impatiently tapping the floor with its fingertips.)",
+                            "(It\u0027s gently stroking one of your other creatures with a single finger. Creepy.)",
+                            "(It skitters away, walking on its fingers to make a disconcerting clattering sound.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Whiptail Clutcher",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WhiptailClutcher/overworld_e0.png",
+                                         "images/creature/WhiptailClutcher/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WhiptailClutcher/overworld_n0.png",
+                                          "images/creature/WhiptailClutcher/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WhiptailClutcher/overworld_s0.png",
+                                          "images/creature/WhiptailClutcher/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WhiptailClutcher/overworld_w0.png",
+                                         "images/creature/WhiptailClutcher/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Clutcher",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  11,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  26
+                   },
+    "trait":  828,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

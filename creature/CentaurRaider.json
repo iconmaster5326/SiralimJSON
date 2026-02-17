@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/CentaurRaider/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 551,
-  "item": 797,
-  "lore": "Wernicke the Raider is the most powerful Centaur warrior. Two hundred years ago, when the Elves managed to find a way into his village, he tried to protect his people armed only with a thick branch, but he was killed by the arrows of his enemies. When everything seemed lost, his heart began to beat once again in his chest. He had become Gonfurian\u0027s Chosen. Overflowing with new life, and alone, he managed to contain the invaders until the other warriors came to his aid.",
-  "menagerieDialog": [
-    "Free me at once.",
-    "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
-    "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
-    "Let us leave here and conquer new lands together!",
-    "I am under a great deal of stress. A few battles should help me relax."
-  ],
-  "minDepth": 1,
-  "name": "Centaur Raider",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CentaurRaider/overworld_e0.png",
-      "images/creature/CentaurRaider/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CentaurRaider/overworld_n0.png",
-      "images/creature/CentaurRaider/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CentaurRaider/overworld_s0.png",
-      "images/creature/CentaurRaider/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CentaurRaider/overworld_w0.png",
-      "images/creature/CentaurRaider/overworld_w1.png"
-    ]
-  },
-  "race": "Centaur",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 1,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 824
+    "battleSprite":  "images/creature/CentaurRaider/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  551,
+    "item":  797,
+    "lore":  "Wernicke the Raider is the most powerful Centaur warrior. Two hundred years ago, when the Elves managed to find a way into his village, he tried to protect his people armed only with a thick branch, but he was killed by the arrows of his enemies. When everything seemed lost, his heart began to beat once again in his chest. He had become Gonfurian\u0027s Chosen. Overflowing with new life, and alone, he managed to contain the invaders until the other warriors came to his aid.",
+    "menagerieDialog":  [
+                            "Free me at once.",
+                            "Let\u0027s go on a raid! I want to see a village burn down before nightfall!",
+                            "We should adopt a more tactical strategy. Blindly rushing into battle is a sure way to lead to failure.",
+                            "Let us leave here and conquer new lands together!",
+                            "I am under a great deal of stress. A few battles should help me relax."
+                        ],
+    "minDepth":  1,
+    "name":  "Centaur Raider",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CentaurRaider/overworld_e0.png",
+                                         "images/creature/CentaurRaider/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CentaurRaider/overworld_n0.png",
+                                          "images/creature/CentaurRaider/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CentaurRaider/overworld_s0.png",
+                                          "images/creature/CentaurRaider/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CentaurRaider/overworld_w0.png",
+                                         "images/creature/CentaurRaider/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Centaur",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  1,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  824,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

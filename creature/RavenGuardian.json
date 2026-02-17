@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/RavenGuardian/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 656,
-  "item": 854,
-  "lore": "Crux the Eternal City was the cradle of the study of magic in the world. When the Watcher War came to an end, the Ravens made the decision to lock the Watcher Sentinel within its walls to make sure it did not cause any problems. Since then, there always was a Raven guarding its prison... until an old ruler of Siralim invaded the city and damaged the walls that contained the Sentinel, who managed to escape. The current Guardian\u0027s mission is to find it, alive, and return it to Crux.",
-  "menagerieDialog": [
-    "I\u0027d be more useful in a laboratory. Perhaps you should allow me to stay back home with Castor?",
-    "Careful research and preparation are the precursors to victory.",
-    "Make sure all your Spell Gems are fully charged before we leave. To be attacked with dull gems is to be caught with one\u0027s pants down around one\u0027s ankles.",
-    "Legends speak of a hidden relic that does not belong to any of the gods. I wonder if there\u0027s any substance to this rumor.",
-    "I can\u0027t help but feel a deep sense of foreboding. Perhaps I need to take some time away from this adventure."
-  ],
-  "minDepth": 1,
-  "name": "Raven Guardian",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/RavenGuardian/overworld_e0.png",
-      "images/creature/RavenGuardian/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/RavenGuardian/overworld_n0.png",
-      "images/creature/RavenGuardian/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/RavenGuardian/overworld_s0.png",
-      "images/creature/RavenGuardian/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/RavenGuardian/overworld_w0.png",
-      "images/creature/RavenGuardian/overworld_w1.png"
-    ]
-  },
-  "race": "Raven",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    },
-    {
-      "realm": 20,
-      "type": "realm"
-    },
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 11,
-    "defense": 16,
-    "health": 31,
-    "intelligence": 26,
-    "speed": 21
-  },
-  "trait": 881
+    "battleSprite":  "images/creature/RavenGuardian/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  656,
+    "item":  854,
+    "lore":  "Crux the Eternal City was the cradle of the study of magic in the world. When the Watcher War came to an end, the Ravens made the decision to lock the Watcher Sentinel within its walls to make sure it did not cause any problems. Since then, there always was a Raven guarding its prison... until an old ruler of Siralim invaded the city and damaged the walls that contained the Sentinel, who managed to escape. The current Guardian\u0027s mission is to find it, alive, and return it to Crux.",
+    "menagerieDialog":  [
+                            "I\u0027d be more useful in a laboratory. Perhaps you should allow me to stay back home with Castor?",
+                            "Careful research and preparation are the precursors to victory.",
+                            "Make sure all your Spell Gems are fully charged before we leave. To be attacked with dull gems is to be caught with one\u0027s pants down around one\u0027s ankles.",
+                            "Legends speak of a hidden relic that does not belong to any of the gods. I wonder if there\u0027s any substance to this rumor.",
+                            "I can\u0027t help but feel a deep sense of foreboding. Perhaps I need to take some time away from this adventure."
+                        ],
+    "minDepth":  1,
+    "name":  "Raven Guardian",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/RavenGuardian/overworld_e0.png",
+                                         "images/creature/RavenGuardian/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/RavenGuardian/overworld_n0.png",
+                                          "images/creature/RavenGuardian/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/RavenGuardian/overworld_s0.png",
+                                          "images/creature/RavenGuardian/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/RavenGuardian/overworld_w0.png",
+                                         "images/creature/RavenGuardian/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Raven",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  20,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  11,
+                       "defense":  16,
+                       "health":  31,
+                       "intelligence":  26,
+                       "speed":  21
+                   },
+    "trait":  881,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

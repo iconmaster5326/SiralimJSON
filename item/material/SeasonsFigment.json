@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of the Aspect:\nThis creature has an independent 12% chance to dodge attacks for each different type of {RACE_Aspect} fighting on your side. When it does, your {RACE_Aspect}s gain 20% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}.",
-  "icon": "images/item/material/SeasonsFigment.png",
-  "id": 518,
-  "name": "Seasons Figment",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 432
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCall of the Aspect:\nThis creature has an independent 12% chance to dodge attacks for each different type of {RACE_Aspect} fighting on your side. When it does, your {RACE_Aspect}s gain 20% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}.",
+    "icon":  "images/item/material/SeasonsFigment.png",
+    "id":  518,
+    "name":  "Seasons Figment",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  432,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

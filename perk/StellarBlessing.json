@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your \u003C1\u003E  creature(s) with the highest {STAT_intelligence} don\u0027t consume {STAT_charges} when they {ACTION_cast} spells.",
-  "icon": "images/perk/StellarBlessing.png",
-  "id": 265,
-  "maxRanks": 3,
-  "name": "Stellar Blessing",
-  "notes": [],
-  "pointsPerRank": 30,
-  "specialization": 18
+    "anointable":  true,
+    "description":  "Your \u003c1\u003e  creature(s) with the highest {STAT_intelligence} don\u0027t consume {STAT_charges} when they {ACTION_cast} spells.",
+    "icon":  "images/perk/StellarBlessing.png",
+    "id":  265,
+    "maxRanks":  3,
+    "name":  "Stellar Blessing",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  30,
+    "specialization":  18,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

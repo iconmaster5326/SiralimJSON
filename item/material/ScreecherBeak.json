@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImpunity:\nYour {RACE_Griffon}s take 5% less damage for each {RACE_Griffon} fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/ScreecherBeak.png",
-  "id": 178,
-  "name": "Screecher Beak",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 88
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nImpunity:\nYour {RACE_Griffon}s take 5% less damage for each {RACE_Griffon} fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/ScreecherBeak.png",
+    "id":  178,
+    "name":  "Screecher Beak",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  88,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nDodge Chance:\nCreature has an increased chance to dodge.\\n\\nYou need 3 of these materials to use them for Socketing.",
-  "icon": "images/item/material/SlipperyStone.png",
-  "id": 13,
-  "name": "Slippery Stone",
-  "notes": [],
-  "slot": "trick",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": null
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trick] Trick Slot with this item to gain this property:\\n\\nDodge Chance:\nCreature has an increased chance to dodge.\\n\\nYou need 3 of these materials to use them for Socketing.",
+    "icon":  "images/item/material/SlipperyStone.png",
+    "id":  13,
+    "name":  "Slippery Stone",
+    "notes":  [
+
+              ],
+    "slot":  "trick",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

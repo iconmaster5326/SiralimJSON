@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBest Kind of Weather:\nAt the start of battle, your creatures gain [icons,1976]Snowstorm. This spell deals 100% more damage.",
-  "icon": "images/item/material/BlizzardGift.png",
-  "id": 41,
-  "name": "Blizzard Gift",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1022
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nBest Kind of Weather:\nAt the start of battle, your creatures gain [icons,1976]Snowstorm. This spell deals 100% more damage.",
+    "icon":  "images/item/material/BlizzardGift.png",
+    "id":  41,
+    "name":  "Blizzard Gift",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1022,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

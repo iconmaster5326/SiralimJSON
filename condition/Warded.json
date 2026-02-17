@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_WARD} cannot lose stats.",
-  "icon": "images/condition/Warded.png",
-  "iconResisted": null,
-  "id": 3,
-  "material": 20,
-  "name": "Warded",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_WARD} cannot lose stats.",
+    "icon":  "images/condition/Warded.png",
+    "iconResisted":  null,
+    "id":  3,
+    "material":  20,
+    "name":  "Warded",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Grenale/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 741,
-  "item": 79,
-  "lore": "Because of their inexpressiveness, it may seem like Grenales do not understand what the people around them are saying; but in truth they are great listeners. They especially enjoy stories of battles and adventures, but when a Grenale hears something particularly unpleasant, it often gets upset and explodes, coating everyone around it in beer. Owners of these creatures usually apologize claiming that Grenales cannot control their explosions, but this is absolutely not true.",
-  "menagerieDialog": [
-    "(To no one\u0027s surprise, this creature reeks of alcohol.)",
-    "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
-    "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
-    "(Now here\u0027s a creature who knows how to party!)",
-    "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
-  ],
-  "minDepth": 1,
-  "name": "Grenale",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Grenale/overworld_e0.png",
-      "images/creature/Grenale/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Grenale/overworld_n0.png",
-      "images/creature/Grenale/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Grenale/overworld_s0.png",
-      "images/creature/Grenale/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Grenale/overworld_w0.png",
-      "images/creature/Grenale/overworld_w1.png"
-    ]
-  },
-  "race": "Alemental",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Gambling Dwarf Shop",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 18,
-    "health": 33,
-    "intelligence": 18,
-    "speed": 18
-  },
-  "trait": 994
+    "battleSprite":  "images/creature/Grenale/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  741,
+    "item":  79,
+    "lore":  "Because of their inexpressiveness, it may seem like Grenales do not understand what the people around them are saying; but in truth they are great listeners. They especially enjoy stories of battles and adventures, but when a Grenale hears something particularly unpleasant, it often gets upset and explodes, coating everyone around it in beer. Owners of these creatures usually apologize claiming that Grenales cannot control their explosions, but this is absolutely not true.",
+    "menagerieDialog":  [
+                            "(To no one\u0027s surprise, this creature reeks of alcohol.)",
+                            "(At the sight of you, it unleashes a series of violent hiccups. Gross though it may seem, they actually smell pretty good.)",
+                            "(Alemental trafficking is perhaps one of Rodia\u0027s darkest problems.)",
+                            "(Now here\u0027s a creature who knows how to party!)",
+                            "(It\u0027s urinating into empty mugs and passing them out to your other creatures. Everyone will be drunk in no time at all!)"
+                        ],
+    "minDepth":  1,
+    "name":  "Grenale",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Grenale/overworld_e0.png",
+                                         "images/creature/Grenale/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Grenale/overworld_n0.png",
+                                          "images/creature/Grenale/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Grenale/overworld_s0.png",
+                                          "images/creature/Grenale/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Grenale/overworld_w0.png",
+                                         "images/creature/Grenale/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Alemental",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Gambling Dwarf Shop",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  18,
+                       "health":  33,
+                       "intelligence":  18,
+                       "speed":  18
+                   },
+    "trait":  994,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

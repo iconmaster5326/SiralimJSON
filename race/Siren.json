@@ -1,40 +1,43 @@
 {
-  "bossDialog": [
-    "(The Siren points at you and shrieks at the top of its lungs at deafening volume! Summoned by the sound, its allies soon appear to defend the treasure from you!)",
-    "Despoiler! Filth! Vermin! Begone at once!",
-    "Once I\u0027ve slaughtered your pathetic pets, I\u0027m going to show you how many things I can do with a knife!"
-  ],
-  "cardBonuses": {
-    "2": "Enemies with {CONDNAME_DEBUFF_SLEEP} have a 25% chance to not wake up after they take damage from attacks.",
-    "4": "Enemies with {CONDNAME_DEBUFF_SLEEP} have a 25% chance to not wake up after they take damage from spells.",
-    "7": "Enemies\u0027 {CONDNAME_DEBUFF_SLEEP} debuff lasts forever."
-  },
-  "cards": 7,
-  "class": "life",
-  "creator": null,
-  "creatures": [
-    29,
-    30,
-    31,
-    32,
-    33,
-    34,
-    663
-  ],
-  "icon": "images/race/Siren.png",
-  "master": {
-    "costume": 388,
-    "dialog": "When you hear the name \u0022Siren\u0022, don\u0027t you think of some beautiful, mermaid-like creature that middle-aged weirdos would fawn over? Well, you won\u0027t find them like that in Rodia. Nope, no sir. Sirens are actually some of the ugliest little guys in the whole world. Here - see for yourself!",
-    "item": 1214,
-    "name": "Anders",
-    "trait": 1491
-  },
-  "name": "Siren",
-  "notes": [],
-  "skins": [
-    76,
-    181,
-    313,
-    774
-  ]
+    "bossDialog":  [
+                       "(The Siren points at you and shrieks at the top of its lungs at deafening volume! Summoned by the sound, its allies soon appear to defend the treasure from you!)",
+                       "Despoiler! Filth! Vermin! Begone at once!",
+                       "Once I\u0027ve slaughtered your pathetic pets, I\u0027m going to show you how many things I can do with a knife!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Enemies with {CONDNAME_DEBUFF_SLEEP} have a 25% chance to not wake up after they take damage from attacks.",
+                        "4":  "Enemies with {CONDNAME_DEBUFF_SLEEP} have a 25% chance to not wake up after they take damage from spells.",
+                        "7":  "Enemies\u0027 {CONDNAME_DEBUFF_SLEEP} debuff lasts forever."
+                    },
+    "cards":  7,
+    "class":  "life",
+    "creator":  null,
+    "creatures":  [
+                      29,
+                      30,
+                      31,
+                      32,
+                      33,
+                      34,
+                      663
+                  ],
+    "icon":  "images/race/Siren.png",
+    "master":  {
+                   "costume":  388,
+                   "dialog":  "When you hear the name \"Siren\", don\u0027t you think of some beautiful, mermaid-like creature that middle-aged weirdos would fawn over? Well, you won\u0027t find them like that in Rodia. Nope, no sir. Sirens are actually some of the ugliest little guys in the whole world. Here - see for yourself!",
+                   "item":  1214,
+                   "name":  "Anders",
+                   "trait":  1491
+               },
+    "name":  "Siren",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  76,
+                  181,
+                  313,
+                  774
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

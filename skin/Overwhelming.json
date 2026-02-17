@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Overwhelming/battle.png",
-  "creator": null,
-  "creature": 717,
-  "id": 460,
-  "name": "Overwhelming",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Overwhelming/overworld_e0.png",
-      "images/skin/Overwhelming/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Overwhelming/overworld_n0.png",
-      "images/skin/Overwhelming/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Overwhelming/overworld_s0.png",
-      "images/skin/Overwhelming/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Overwhelming/overworld_w0.png",
-      "images/skin/Overwhelming/overworld_w1.png"
-    ]
-  },
-  "race": null,
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Overwhelming/battle.png",
+    "creator":  null,
+    "creature":  717,
+    "id":  460,
+    "name":  "Overwhelming",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Overwhelming/overworld_e0.png",
+                                         "images/skin/Overwhelming/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Overwhelming/overworld_n0.png",
+                                          "images/skin/Overwhelming/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Overwhelming/overworld_s0.png",
+                                          "images/skin/Overwhelming/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Overwhelming/overworld_w0.png",
+                                         "images/skin/Overwhelming/overworld_w1.png"
+                                     ]
+                        },
+    "race":  null,
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

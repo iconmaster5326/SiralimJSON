@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/IcemaneYeti/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 466,
-  "item": 472,
-  "lore": "When an Icemane Yeti leaves the Frostbite Caverns, it leaves a characteristic trail of frost behind it that warns travelers of its presence. It is not excessively dangerous by itself, but it is better to avoid them when they travel with other kinds of Yetis, since its mere presence prolongs the effects of freezing, considerably reducing the chances of survival of anyone who faces them.",
-  "menagerieDialog": [
-    "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
-    "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
-    "(It brings its face close to you and nudges its nose against yours. Ugh.)",
-    "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
-    "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
-  ],
-  "minDepth": 1,
-  "name": "Icemane Yeti",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/IcemaneYeti/overworld_e0.png",
-      "images/creature/IcemaneYeti/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/IcemaneYeti/overworld_n0.png",
-      "images/creature/IcemaneYeti/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/IcemaneYeti/overworld_s0.png",
-      "images/creature/IcemaneYeti/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/IcemaneYeti/overworld_w0.png",
-      "images/creature/IcemaneYeti/overworld_w1.png"
-    ]
-  },
-  "race": "Yeti",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 0,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 21,
-    "health": 36,
-    "intelligence": 16,
-    "speed": 16
-  },
-  "trait": 386
+    "battleSprite":  "images/creature/IcemaneYeti/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  466,
+    "item":  472,
+    "lore":  "When an Icemane Yeti leaves the Frostbite Caverns, it leaves a characteristic trail of frost behind it that warns travelers of its presence. It is not excessively dangerous by itself, but it is better to avoid them when they travel with other kinds of Yetis, since its mere presence prolongs the effects of freezing, considerably reducing the chances of survival of anyone who faces them.",
+    "menagerieDialog":  [
+                            "(It yawns loudly before smacking its lips. Torun would hate this creature.)",
+                            "(Its fur is meant to help it endure harsh, cold climates. It must be overheating in the confines of this castle.)",
+                            "(It brings its face close to you and nudges its nose against yours. Ugh.)",
+                            "(You often wonder if there\u0027s a market for fresh Yeti fur.)",
+                            "(It\u0027s chewing on a large piece of fruit. Where did that even come from?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Icemane Yeti",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/IcemaneYeti/overworld_e0.png",
+                                         "images/creature/IcemaneYeti/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/IcemaneYeti/overworld_n0.png",
+                                          "images/creature/IcemaneYeti/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/IcemaneYeti/overworld_s0.png",
+                                          "images/creature/IcemaneYeti/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/IcemaneYeti/overworld_w0.png",
+                                         "images/creature/IcemaneYeti/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Yeti",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  0,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  21,
+                       "health":  36,
+                       "intelligence":  16,
+                       "speed":  16
+                   },
+    "trait":  386,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

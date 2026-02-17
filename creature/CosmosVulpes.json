@@ -1,62 +1,67 @@
 {
-  "battleSprite": "images/creature/CosmosVulpes/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 583,
-  "item": 680,
-  "lore": "Unlike other Vulpes, this creature has not lost its animal instincts and can still be seen stalking rabbits and small birds, although it does not need to feed on them anymore. Since most of Rodia\u0027s Vulpes have stopped hunting their old prey, many farmers in the region have asked the authorities to repopulate the area with this particular variety.",
-  "menagerieDialog": [
-    "(You would have loved to keep one of these creatures as a pet when you were a child.)",
-    "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
-    "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
-    "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
-    "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
-  ],
-  "minDepth": 1,
-  "name": "Cosmos Vulpes",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CosmosVulpes/overworld_e0.png",
-      "images/creature/CosmosVulpes/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CosmosVulpes/overworld_n0.png",
-      "images/creature/CosmosVulpes/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CosmosVulpes/overworld_s0.png",
-      "images/creature/CosmosVulpes/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CosmosVulpes/overworld_w0.png",
-      "images/creature/CosmosVulpes/overworld_w1.png"
-    ]
-  },
-  "race": "Vulpes",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 9,
-      "type": "realm"
-    },
-    {
-      "realm": 18,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    2
-  ],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 17,
-    "health": 30,
-    "intelligence": 22,
-    "speed": 22
-  },
-  "trait": 618
+    "battleSprite":  "images/creature/CosmosVulpes/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  583,
+    "item":  680,
+    "lore":  "Unlike other Vulpes, this creature has not lost its animal instincts and can still be seen stalking rabbits and small birds, although it does not need to feed on them anymore. Since most of Rodia\u0027s Vulpes have stopped hunting their old prey, many farmers in the region have asked the authorities to repopulate the area with this particular variety.",
+    "menagerieDialog":  [
+                            "(You would have loved to keep one of these creatures as a pet when you were a child.)",
+                            "(It\u0027s trying to provoke your other creatures into fighting it. It\u0027s all for play, though. You think.)",
+                            "(It seems to have a lot on its mind. Perhaps a few battles would allow it to relax a bit.)",
+                            "(With its head tilted, it gazes at you lovingly, causing your heart to melt like a pocket full of chocolates on a hot summer day.)",
+                            "(It\u0027s chewing at the fur between its paws. Doesn\u0027t that hurt?)"
+                        ],
+    "minDepth":  1,
+    "name":  "Cosmos Vulpes",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CosmosVulpes/overworld_e0.png",
+                                         "images/creature/CosmosVulpes/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CosmosVulpes/overworld_n0.png",
+                                          "images/creature/CosmosVulpes/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CosmosVulpes/overworld_s0.png",
+                                          "images/creature/CosmosVulpes/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CosmosVulpes/overworld_w0.png",
+                                         "images/creature/CosmosVulpes/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Vulpes",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  9,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  18,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            2
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  17,
+                       "health":  30,
+                       "intelligence":  22,
+                       "speed":  22
+                   },
+    "trait":  618,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

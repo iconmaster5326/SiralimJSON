@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCreeping Death:\nAfter this creature {ACTION_defends} or {ACTION_provokes}, enemies that have {CONDNAME_DEBUFF_POISON} take damage equal to 3 turns of this debuff.",
-  "icon": "images/item/material/LethalSmoke.png",
-  "id": 337,
-  "name": "Lethal Smoke",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 253
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCreeping Death:\nAfter this creature {ACTION_defends} or {ACTION_provokes}, enemies that have {CONDNAME_DEBUFF_POISON} take damage equal to 3 turns of this debuff.",
+    "icon":  "images/item/material/LethalSmoke.png",
+    "id":  337,
+    "name":  "Lethal Smoke",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  253,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

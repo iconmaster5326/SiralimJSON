@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures\u0027 [slot_trick] Trick Slots activate, they resurrect an ally with 50% {STAT_health}. If none of your creatures are dead, they heal an ally for 50% {STAT_health} instead.",
-  "icon": "images/perk/HelpingHand.png",
-  "id": 598,
-  "maxRanks": 1,
-  "name": "Helping Hand",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 39
+    "anointable":  true,
+    "description":  "After your creatures\u0027 [slot_trick] Trick Slots activate, they resurrect an ally with 50% {STAT_health}. If none of your creatures are dead, they heal an ally for 50% {STAT_health} instead.",
+    "icon":  "images/perk/HelpingHand.png",
+    "id":  598,
+    "maxRanks":  1,
+    "name":  "Helping Hand",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  39,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

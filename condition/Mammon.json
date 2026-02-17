@@ -1,11 +1,14 @@
 {
-  "description": "When {CONDNAME_MINION_MAMMON}\u0027s master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon.",
-  "icon": "images/condition/Mammon.png",
-  "iconResisted": null,
-  "id": 56,
-  "material": null,
-  "name": "Mammon",
-  "notes": [],
-  "reserved": true,
-  "type": "minion"
+    "description":  "When {CONDNAME_MINION_MAMMON}\u0027s master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon.",
+    "icon":  "images/condition/Mammon.png",
+    "iconResisted":  null,
+    "id":  56,
+    "material":  null,
+    "name":  "Mammon",
+    "notes":  [
+
+              ],
+    "reserved":  true,
+    "type":  "minion",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

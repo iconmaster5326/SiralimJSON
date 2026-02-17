@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures gain a buff and they already have at least 7 other buffs, they gain {CONDNAME_BUFF_IMMUNITY}.\\n\\n{CONDDESC_BUFF_IMMUNITY}",
-  "icon": "images/perk/SurvivaloftheFittest.png",
-  "id": 373,
-  "maxRanks": 1,
-  "name": "Survival of the Fittest",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 25
+    "anointable":  true,
+    "description":  "After your creatures gain a buff and they already have at least 7 other buffs, they gain {CONDNAME_BUFF_IMMUNITY}.\\n\\n{CONDDESC_BUFF_IMMUNITY}",
+    "icon":  "images/perk/SurvivaloftheFittest.png",
+    "id":  373,
+    "maxRanks":  1,
+    "name":  "Survival of the Fittest",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  25,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

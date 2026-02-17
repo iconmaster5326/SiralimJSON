@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPocket Tank:\nWhile this creature has at least 3 buffs, it intercepts enemies\u0027 attacks on its allies and takes 50% less damage. This trait does not stack.",
-  "icon": "images/item/material/DecoratedShell.png",
-  "id": 1523,
-  "name": "Decorated Shell",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1830
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nPocket Tank:\nWhile this creature has at least 3 buffs, it intercepts enemies\u0027 attacks on its allies and takes 50% less damage. This trait does not stack.",
+    "icon":  "images/item/material/DecoratedShell.png",
+    "id":  1523,
+    "name":  "Decorated Shell",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1830,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

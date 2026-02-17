@@ -1,60 +1,67 @@
 {
-  "battleSprite": "images/creature/WanderingAbomination/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 565,
-  "item": 693,
-  "lore": "Although Abominations seem to lead an extremely painful and unbearable existence, the truth is that they do not feel pain or sadness. These creatures live in a state of perpetual obtundation and calm, and they are rather given to slouching in the shade without doing anything.\\n\\nWandering Abominations especially prefer to ignore conflicts and devote themselves to contemplating the landscape in silence. Unfortunately, many criminal bands enslave them and force them to work.",
-  "menagerieDialog": [
-    "Uhhh? No talk. No chat.",
-    "(It shoos you away. Begone, pest!)",
-    "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
-    "Stop. Talking. STOP TALKING!",
-    "Leave. Me. Be. NO CHAT!"
-  ],
-  "minDepth": 1,
-  "name": "Wandering Abomination",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/WanderingAbomination/overworld_e0.png",
-      "images/creature/WanderingAbomination/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/WanderingAbomination/overworld_n0.png",
-      "images/creature/WanderingAbomination/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/WanderingAbomination/overworld_s0.png",
-      "images/creature/WanderingAbomination/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/WanderingAbomination/overworld_w0.png",
-      "images/creature/WanderingAbomination/overworld_w1.png"
-    ]
-  },
-  "race": "Abomination",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 4,
-      "type": "realm"
-    },
-    {
-      "realm": 17,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 17,
-    "health": 39,
-    "intelligence": 12,
-    "speed": 17
-  },
-  "trait": 808
+    "battleSprite":  "images/creature/WanderingAbomination/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  565,
+    "item":  693,
+    "lore":  "Although Abominations seem to lead an extremely painful and unbearable existence, the truth is that they do not feel pain or sadness. These creatures live in a state of perpetual obtundation and calm, and they are rather given to slouching in the shade without doing anything.\\n\\nWandering Abominations especially prefer to ignore conflicts and devote themselves to contemplating the landscape in silence. Unfortunately, many criminal bands enslave them and force them to work.",
+    "menagerieDialog":  [
+                            "Uhhh? No talk. No chat.",
+                            "(It shoos you away. Begone, pest!)",
+                            "(It turns away from you. Apparently, it\u0027s not in the mood to talk to you right now.)",
+                            "Stop. Talking. STOP TALKING!",
+                            "Leave. Me. Be. NO CHAT!"
+                        ],
+    "minDepth":  1,
+    "name":  "Wandering Abomination",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/WanderingAbomination/overworld_e0.png",
+                                         "images/creature/WanderingAbomination/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/WanderingAbomination/overworld_n0.png",
+                                          "images/creature/WanderingAbomination/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/WanderingAbomination/overworld_s0.png",
+                                          "images/creature/WanderingAbomination/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/WanderingAbomination/overworld_w0.png",
+                                         "images/creature/WanderingAbomination/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Abomination",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  4,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  17,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  17,
+                       "health":  39,
+                       "intelligence":  12,
+                       "speed":  17
+                   },
+    "trait":  808,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

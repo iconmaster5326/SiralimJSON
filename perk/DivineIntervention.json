@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "The first time your creatures would take fatal damage in battle, their {STAT_health} is instead set to 1.",
-  "icon": "images/perk/DivineIntervention.png",
-  "id": 137,
-  "maxRanks": 1,
-  "name": "Divine Intervention",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 10
+    "anointable":  true,
+    "description":  "The first time your creatures would take fatal damage in battle, their {STAT_health} is instead set to 1.",
+    "icon":  "images/perk/DivineIntervention.png",
+    "id":  137,
+    "maxRanks":  1,
+    "name":  "Divine Intervention",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  10,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

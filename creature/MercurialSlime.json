@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MercurialSlime/battle.png",
-  "class": "sorcery",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 175,
-  "item": 460,
-  "lore": "Slimes are not born evil, but they like to playfully cast spells at each other. They are not seen as a threat in most cities, and the authorities allow them to move around the streets freely as long as their numbers are not alarming. If they are, it usually means some kind of illegal magic activity is taking place, which puts law enforcement into action.\\n\\nThe Mercurial Slime likes to play with stray animals, and sometimes steals food from houses to feed them.",
-  "menagerieDialog": [
-    "(It has an extremely punchable expression on its face.)",
-    "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
-    "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
-    "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
-    "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
-  ],
-  "minDepth": 1,
-  "name": "Mercurial Slime",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MercurialSlime/overworld_e0.png",
-      "images/creature/MercurialSlime/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MercurialSlime/overworld_n0.png",
-      "images/creature/MercurialSlime/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MercurialSlime/overworld_s0.png",
-      "images/creature/MercurialSlime/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MercurialSlime/overworld_w0.png",
-      "images/creature/MercurialSlime/overworld_w1.png"
-    ]
-  },
-  "race": "Slime",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 5,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 18,
-    "defense": 23,
-    "health": 40,
-    "intelligence": 18,
-    "speed": 13
-  },
-  "trait": 374
+    "battleSprite":  "images/creature/MercurialSlime/battle.png",
+    "class":  "sorcery",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  175,
+    "item":  460,
+    "lore":  "Slimes are not born evil, but they like to playfully cast spells at each other. They are not seen as a threat in most cities, and the authorities allow them to move around the streets freely as long as their numbers are not alarming. If they are, it usually means some kind of illegal magic activity is taking place, which puts law enforcement into action.\\n\\nThe Mercurial Slime likes to play with stray animals, and sometimes steals food from houses to feed them.",
+    "menagerieDialog":  [
+                            "(It has an extremely punchable expression on its face.)",
+                            "(This creature has such a goofy face that even your normally-stoic personality is no match for the temptation to knock it flat on its slimy ass.)",
+                            "(It never. Stops. Laughing. Hyuh-huh-huh-huh. ENOUGH.)",
+                            "(For some reason, you find its undeterrable happiness to be quite obnoxious.)",
+                            "(It\u0027s nibbiling at random bits of dust and debris off the floor. You should really find it some decent food to eat.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Mercurial Slime",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MercurialSlime/overworld_e0.png",
+                                         "images/creature/MercurialSlime/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MercurialSlime/overworld_n0.png",
+                                          "images/creature/MercurialSlime/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MercurialSlime/overworld_s0.png",
+                                          "images/creature/MercurialSlime/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MercurialSlime/overworld_w0.png",
+                                         "images/creature/MercurialSlime/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Slime",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  5,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  18,
+                       "defense":  23,
+                       "health":  40,
+                       "intelligence":  18,
+                       "speed":  13
+                   },
+    "trait":  374,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

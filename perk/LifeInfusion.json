@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures manually {ACTION_cast} a {CLASS_Life} spell, you gain 1 [infusion_life]Life Infusion. After any of your creatures manually {ACTION_cast} a spell, they heal your creatures for 10% of their {STAT_health} for each [infusion_life]Life Infusion you have, and gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to the amount of {STAT_health} recovered.",
-  "icon": "images/perk/LifeInfusion.png",
-  "id": 342,
-  "maxRanks": 1,
-  "name": "Life Infusion",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 23
+    "anointable":  true,
+    "description":  "After your creatures manually {ACTION_cast} a {CLASS_Life} spell, you gain 1 [infusion_life]Life Infusion. After any of your creatures manually {ACTION_cast} a spell, they heal your creatures for 10% of their {STAT_health} for each [infusion_life]Life Infusion you have, and gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to the amount of {STAT_health} recovered.",
+    "icon":  "images/perk/LifeInfusion.png",
+    "id":  342,
+    "maxRanks":  1,
+    "name":  "Life Infusion",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  23,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

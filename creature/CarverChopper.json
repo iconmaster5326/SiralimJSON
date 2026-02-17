@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/CarverChopper/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 615,
-  "item": 783,
-  "lore": "The Carver Chopper is more a curse than a creature. It appears in the dreams of those responsible for the death of many Carvers. At first it will make sporadic appearances, observing its victim quietly from a distance, as if it were just a part of the landscape that doesn\u0027t quite fit. With time, however, it will begin to gradually approach its victim until it\u0027s close enough and the hunt begins. If it butchers you with its merciless cleaver inside the dream, you will never wake up.",
-  "menagerieDialog": [
-    "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
-    "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
-    "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
-    "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
-    "Come on, come on, come on! We\u0027ve killed very little today."
-  ],
-  "minDepth": 1,
-  "name": "Carver Chopper",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CarverChopper/overworld_e0.png",
-      "images/creature/CarverChopper/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CarverChopper/overworld_n0.png",
-      "images/creature/CarverChopper/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CarverChopper/overworld_s0.png",
-      "images/creature/CarverChopper/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CarverChopper/overworld_w0.png",
-      "images/creature/CarverChopper/overworld_w1.png"
-    ]
-  },
-  "race": "Carver",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 19,
-      "type": "realm"
-    },
-    {
-      "realm": 22,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 28,
-    "intelligence": 21,
-    "speed": 21
-  },
-  "trait": 817
+    "battleSprite":  "images/creature/CarverChopper/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  615,
+    "item":  783,
+    "lore":  "The Carver Chopper is more a curse than a creature. It appears in the dreams of those responsible for the death of many Carvers. At first it will make sporadic appearances, observing its victim quietly from a distance, as if it were just a part of the landscape that doesn\u0027t quite fit. With time, however, it will begin to gradually approach its victim until it\u0027s close enough and the hunt begins. If it butchers you with its merciless cleaver inside the dream, you will never wake up.",
+    "menagerieDialog":  [
+                            "I know there are prisoners in the castle dungeons. Let me have some fun with them, eh?",
+                            "The best way to kill an enemy is to do it nice and slowly. Take a few body parts at a time and bleed them out.",
+                            "...and so I cut his right leg off and beat him with it! Isn\u0027t that hilarious?",
+                            "If ever one of your people gets sick, come to me. I\u0027ll put them out of their misery. You can count on me!",
+                            "Come on, come on, come on! We\u0027ve killed very little today."
+                        ],
+    "minDepth":  1,
+    "name":  "Carver Chopper",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CarverChopper/overworld_e0.png",
+                                         "images/creature/CarverChopper/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CarverChopper/overworld_n0.png",
+                                          "images/creature/CarverChopper/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CarverChopper/overworld_s0.png",
+                                          "images/creature/CarverChopper/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CarverChopper/overworld_w0.png",
+                                         "images/creature/CarverChopper/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carver",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  22,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  28,
+                       "intelligence":  21,
+                       "speed":  21
+                   },
+    "trait":  817,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

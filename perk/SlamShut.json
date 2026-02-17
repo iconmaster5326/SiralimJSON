@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "The first time your {RACE_Guardian} or adjacent allies are killed, they are resurrected with 50% {STAT_health} and your {RACE_Guardian} {ACTION_casts} [icons,1976] Chrysalis on them.",
-  "icon": "images/perk/SlamShut.png",
-  "id": 636,
-  "maxRanks": 1,
-  "name": "Slam Shut",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 41
+    "anointable":  true,
+    "description":  "The first time your {RACE_Guardian} or adjacent allies are killed, they are resurrected with 50% {STAT_health} and your {RACE_Guardian} {ACTION_casts} [icons,1976] Chrysalis on them.",
+    "icon":  "images/perk/SlamShut.png",
+    "id":  636,
+    "maxRanks":  1,
+    "name":  "Slam Shut",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  41,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

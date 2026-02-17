@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNumerical Nightmare:\nThis creature has 75% more {STAT_attack} and {STAT_speed} while its level is odd, and 75% more {STAT_intelligence} and {STAT_defense} while its level is even.",
-  "icon": "images/item/material/BloodyBeads.png",
-  "id": 1442,
-  "name": "Bloody Beads",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1750
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nNumerical Nightmare:\nThis creature has 75% more {STAT_attack} and {STAT_speed} while its level is odd, and 75% more {STAT_intelligence} and {STAT_defense} while its level is even.",
+    "icon":  "images/item/material/BloodyBeads.png",
+    "id":  1442,
+    "name":  "Bloody Beads",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1750,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

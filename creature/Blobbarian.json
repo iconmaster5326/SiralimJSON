@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Blobbarian/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 910,
-  "item": 958,
-  "lore": "Concoctions are relatively simple creatures whose purpose is to eliminate any unauthorized lifeforms within the Caustic Reactor.\\n\\nWhen a Blobbarian enters combat, the whole battlefield trembles in its wake \u00E2\u20AC\u201D or it would if this creature were made of solid matter. Regardless, a Blobbarian never stops fighting, as if it were a reckless warrior who did not fear death. Of course, unlike such a warrior, this creature does not fall dead when split into two by a blade.",
-  "menagerieDialog": [
-    "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
-    "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
-    "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
-    "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
-    "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
-  ],
-  "minDepth": 1,
-  "name": "Blobbarian",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Blobbarian/overworld_e0.png",
-      "images/creature/Blobbarian/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Blobbarian/overworld_n0.png",
-      "images/creature/Blobbarian/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Blobbarian/overworld_s0.png",
-      "images/creature/Blobbarian/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Blobbarian/overworld_w0.png",
-      "images/creature/Blobbarian/overworld_w1.png"
-    ]
-  },
-  "race": "Concoction",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 19,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 19,
-    "defense": 22,
-    "health": 34,
-    "intelligence": 19,
-    "speed": 12
-  },
-  "trait": 1170
+    "battleSprite":  "images/creature/Blobbarian/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  910,
+    "item":  958,
+    "lore":  "Concoctions are relatively simple creatures whose purpose is to eliminate any unauthorized lifeforms within the Caustic Reactor.\\n\\nWhen a Blobbarian enters combat, the whole battlefield trembles in its wake — or it would if this creature were made of solid matter. Regardless, a Blobbarian never stops fighting, as if it were a reckless warrior who did not fear death. Of course, unlike such a warrior, this creature does not fall dead when split into two by a blade.",
+    "menagerieDialog":  [
+                            "(It transforms into a giant hand that is holding up its middle finger. Guess it wants you to leave it alone.)",
+                            "(The fact that such an amorphous creature is capable of wielding man-made weapons and armor is quite impressive.)",
+                            "(It transforms into a giant hand and gives you a high-five. On the side. Down low. Too slow.)",
+                            "(It transforms into... you! A much lumpier, unflattering version of you, anyway.)",
+                            "(This creature reminds you of the jelly candy your parents used to give you as a child in exchange for doing mundane chores.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Blobbarian",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Blobbarian/overworld_e0.png",
+                                         "images/creature/Blobbarian/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Blobbarian/overworld_n0.png",
+                                          "images/creature/Blobbarian/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Blobbarian/overworld_s0.png",
+                                          "images/creature/Blobbarian/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Blobbarian/overworld_w0.png",
+                                         "images/creature/Blobbarian/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Concoction",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  19,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  19,
+                       "defense":  22,
+                       "health":  34,
+                       "intelligence":  19,
+                       "speed":  12
+                   },
+    "trait":  1170,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

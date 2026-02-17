@@ -1,37 +1,40 @@
 {
-  "bossDialog": [
-    "(Feeling the hair on your arms stand on end, you approach the Spellmane as it issues a low, deep growl before pouncing! Your creatures intercept the attack!)",
-    "(Issuing a loud roaring shriek, the huge cat tethered to the treasure makes enough noise to attract the owners of the hoard! They use cats as guard dogs too now, you guess.)",
-    "Whoosh! Whoosh! Grrrrrrr!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 [temporary] Ethereal Spell Gems deal 10% more damage.",
-    "4": "Your creatures\u0027 [temporary] Ethereal Spell Gems grant 10% more healing.",
-    "6": "Your creatures\u0027 [temporary] Ethereal Spell Gems grant 10% more stats."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    1219,
-    1220,
-    1221,
-    1222,
-    1223,
-    1224
-  ],
-  "icon": "images/race/Spellmane.png",
-  "master": {
-    "costume": 687,
-    "dialog": "Spellmanes have the unique ability to draw power from the spells they cast, hiding themselves from harm while planning a devastating follow-up attack.\\n\\nDo you dare challenge my Spellmanes to battle? Very well. Let\u0027s fight!",
-    "item": 1507,
-    "name": "Vindeliar",
-    "trait": 1815
-  },
-  "name": "Spellmane",
-  "notes": [],
-  "skins": [
-    780,
-    781
-  ]
+    "bossDialog":  [
+                       "(Feeling the hair on your arms stand on end, you approach the Spellmane as it issues a low, deep growl before pouncing! Your creatures intercept the attack!)",
+                       "(Issuing a loud roaring shriek, the huge cat tethered to the treasure makes enough noise to attract the owners of the hoard! They use cats as guard dogs too now, you guess.)",
+                       "Whoosh! Whoosh! Grrrrrrr!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 [temporary] Ethereal Spell Gems deal 10% more damage.",
+                        "4":  "Your creatures\u0027 [temporary] Ethereal Spell Gems grant 10% more healing.",
+                        "6":  "Your creatures\u0027 [temporary] Ethereal Spell Gems grant 10% more stats."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      1219,
+                      1220,
+                      1221,
+                      1222,
+                      1223,
+                      1224
+                  ],
+    "icon":  "images/race/Spellmane.png",
+    "master":  {
+                   "costume":  687,
+                   "dialog":  "Spellmanes have the unique ability to draw power from the spells they cast, hiding themselves from harm while planning a devastating follow-up attack.\\n\\nDo you dare challenge my Spellmanes to battle? Very well. Let\u0027s fight!",
+                   "item":  1507,
+                   "name":  "Vindeliar",
+                   "trait":  1815
+               },
+    "name":  "Spellmane",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  780,
+                  781
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

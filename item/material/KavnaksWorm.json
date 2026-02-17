@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShared Consciousness:\nAfter an ally manually {ACTION_casts} a spell, this creature has a 50% chance to {ACTION_cast} that spell as well.",
-  "icon": "images/item/material/KavnaksWorm.png",
-  "id": 1661,
-  "name": "Kavnak\u0027s Worm",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1864
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nShared Consciousness:\nAfter an ally manually {ACTION_casts} a spell, this creature has a 50% chance to {ACTION_cast} that spell as well.",
+    "icon":  "images/item/material/KavnaksWorm.png",
+    "id":  1661,
+    "name":  "Kavnak\u0027s Worm",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1864,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

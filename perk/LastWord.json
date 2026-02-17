@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "After your creatures {ACTION_provoke}, they give your creatures \u003C3\u003E% of their stats and are killed.",
-  "icon": "images/perk/LastWord.png",
-  "id": 301,
-  "maxRanks": 10,
-  "name": "Last Word",
-  "notes": [],
-  "pointsPerRank": 10,
-  "specialization": 20
+    "anointable":  true,
+    "description":  "After your creatures {ACTION_provoke}, they give your creatures \u003c3\u003e% of their stats and are killed.",
+    "icon":  "images/perk/LastWord.png",
+    "id":  301,
+    "maxRanks":  10,
+    "name":  "Last Word",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  10,
+    "specialization":  20,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

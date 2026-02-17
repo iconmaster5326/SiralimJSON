@@ -1,29 +1,32 @@
 {
-  "creator": null,
-  "id": 237,
-  "name": "Panda Bear",
-  "notes": [],
-  "sources": [
-    {
-      "type": "everett"
-    }
-  ],
-  "sprite": {
-    "east": [
-      "images/costume/PandaBear/overworld_e0.png",
-      "images/costume/PandaBear/overworld_e1.png"
-    ],
-    "north": [
-      "images/costume/PandaBear/overworld_n0.png",
-      "images/costume/PandaBear/overworld_n1.png"
-    ],
-    "south": [
-      "images/costume/PandaBear/overworld_s0.png",
-      "images/costume/PandaBear/overworld_s1.png"
-    ],
-    "west": [
-      "images/costume/PandaBear/overworld_w0.png",
-      "images/costume/PandaBear/overworld_w1.png"
-    ]
-  }
+    "creator":  null,
+    "id":  237,
+    "name":  "Panda Bear",
+    "notes":  [
+
+              ],
+    "sources":  [
+                    {
+                        "type":  "everett"
+                    }
+                ],
+    "sprite":  {
+                   "east":  [
+                                "images/costume/PandaBear/overworld_e0.png",
+                                "images/costume/PandaBear/overworld_e1.png"
+                            ],
+                   "north":  [
+                                 "images/costume/PandaBear/overworld_n0.png",
+                                 "images/costume/PandaBear/overworld_n1.png"
+                             ],
+                   "south":  [
+                                 "images/costume/PandaBear/overworld_s0.png",
+                                 "images/costume/PandaBear/overworld_s1.png"
+                             ],
+                   "west":  [
+                                "images/costume/PandaBear/overworld_w0.png",
+                                "images/costume/PandaBear/overworld_w1.png"
+                            ]
+               },
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/costume.yaml"
 }

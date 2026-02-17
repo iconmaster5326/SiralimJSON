@@ -1,19 +1,22 @@
 {
-  "arcaneDustCost": 300,
-  "description": "Unlocks the Reliquary decoration, allowing you to partake in Prophecies. Prophecies are infinitely-repeatable quests that grant exclusive rewards. Also allows you to unlock and upgrade Relics of the Gods.",
-  "graniteCost": 3000,
-  "icon": "images/project/Reliquary.png",
-  "id": 13,
-  "items": {
-    "137": 1,
-    "138": 50
-  },
-  "monsterPartCost": 1500,
-  "name": "Reliquary",
-  "notes": [],
-  "repeatable": false,
-  "type": "construction",
-  "unlockedCreature": null,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  300,
+    "description":  "Unlocks the Reliquary decoration, allowing you to partake in Prophecies. Prophecies are infinitely-repeatable quests that grant exclusive rewards. Also allows you to unlock and upgrade Relics of the Gods.",
+    "graniteCost":  3000,
+    "icon":  "images/project/Reliquary.png",
+    "id":  13,
+    "items":  {
+                  "137":  1,
+                  "138":  50
+              },
+    "monsterPartCost":  1500,
+    "name":  "Reliquary",
+    "notes":  [
+
+              ],
+    "repeatable":  false,
+    "type":  "construction",
+    "unlockedCreature":  null,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

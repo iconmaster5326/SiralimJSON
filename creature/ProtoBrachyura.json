@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/ProtoBrachyura/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1250,
-  "item": 1440,
-  "lore": "This terrifying creature dwells in the seafloor of the east Rodian seas. Advances in the field of magic have long allowed it to walk on the surface without drowning or exploding into a thousand pieces due to the pressure differences between the two environments. It is very patient and can spend hours, even days, lurking in the darkness while waiting for a fish to run into one of its terrible pincers. However, this technique is useless on the surface, so it will wait and wait without any prey approaching it until it starves.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Proto-Brachyura",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/ProtoBrachyura/overworld_e0.png",
-      "images/creature/ProtoBrachyura/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/ProtoBrachyura/overworld_n0.png",
-      "images/creature/ProtoBrachyura/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/ProtoBrachyura/overworld_s0.png",
-      "images/creature/ProtoBrachyura/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/ProtoBrachyura/overworld_w0.png",
-      "images/creature/ProtoBrachyura/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 27,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 7
-  },
-  "trait": 1748
+    "battleSprite":  "images/creature/ProtoBrachyura/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1250,
+    "item":  1440,
+    "lore":  "This terrifying creature dwells in the seafloor of the east Rodian seas. Advances in the field of magic have long allowed it to walk on the surface without drowning or exploding into a thousand pieces due to the pressure differences between the two environments. It is very patient and can spend hours, even days, lurking in the darkness while waiting for a fish to run into one of its terrible pincers. However, this technique is useless on the surface, so it will wait and wait without any prey approaching it until it starves.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Proto-Brachyura",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/ProtoBrachyura/overworld_e0.png",
+                                         "images/creature/ProtoBrachyura/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/ProtoBrachyura/overworld_n0.png",
+                                          "images/creature/ProtoBrachyura/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/ProtoBrachyura/overworld_s0.png",
+                                          "images/creature/ProtoBrachyura/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/ProtoBrachyura/overworld_w0.png",
+                                         "images/creature/ProtoBrachyura/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  27,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  7
+                   },
+    "trait":  1748,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

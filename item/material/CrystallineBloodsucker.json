@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGem Leech:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} one of the target\u0027s Spell Gems.",
-  "icon": "images/item/material/CrystallineBloodsucker.png",
-  "id": 1420,
-  "name": "Crystalline Bloodsucker",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1727
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nGem Leech:\nAfter this creature {ACTION_attacks}, it {ACTION_casts} one of the target\u0027s Spell Gems.",
+    "icon":  "images/item/material/CrystallineBloodsucker.png",
+    "id":  1420,
+    "name":  "Crystalline Bloodsucker",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1727,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

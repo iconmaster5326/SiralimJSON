@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures deal 150% more damage to enemies that are {ACTION_defending} or {ACTION_provoking}.",
-  "icon": "images/perk/TitanicRage.png",
-  "id": 430,
-  "maxRanks": 1,
-  "name": "Titanic Rage",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 30
+    "anointable":  true,
+    "description":  "Your creatures deal 150% more damage to enemies that are {ACTION_defending} or {ACTION_provoking}.",
+    "icon":  "images/perk/TitanicRage.png",
+    "id":  430,
+    "maxRanks":  1,
+    "name":  "Titanic Rage",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  30,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

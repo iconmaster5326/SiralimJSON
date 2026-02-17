@@ -1,11 +1,14 @@
 {
-  "description": "Creatures with {CONDNAME_BUFF_SPLASH} deal 50% of their damage to enemies adjacent to the target they {ACTION_attack}.",
-  "icon": "images/condition/Splashing.png",
-  "iconResisted": null,
-  "id": 2,
-  "material": 28,
-  "name": "Splashing",
-  "notes": [],
-  "reserved": false,
-  "type": "buff"
+    "description":  "Creatures with {CONDNAME_BUFF_SPLASH} deal 50% of their damage to enemies adjacent to the target they {ACTION_attack}.",
+    "icon":  "images/condition/Splashing.png",
+    "iconResisted":  null,
+    "id":  2,
+    "material":  28,
+    "name":  "Splashing",
+    "notes":  [
+
+              ],
+    "reserved":  false,
+    "type":  "buff",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/condition.yaml"
 }

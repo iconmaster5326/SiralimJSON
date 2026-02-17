@@ -1,36 +1,39 @@
 {
-  "bossDialog": [
-    "(A strange feline creature in what appears to be some kind of space suit materializes in front of the treasure, defying gravity as it floats above the hoard with a predatory gleam in its eyes!)",
-    "(The Spacecat\u0027s helmet visor glows with unearthly light as it manipulates the very gravity around you, making your creatures stumble as they try to approach!)",
-    "I\u0027ve hunted prey across seventeen galaxies, human. You\u0027re barely worth sharpening my claws on!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures\u0027 Spell Gems that belong to other classes have 5% more potency.",
-    "4": "Your creatures\u0027 Spell Gems that belong to other classes have 5% more potency.",
-    "6": "Your creatures\u0027 Spell Gems that belong to other classes have 5% more potency."
-  },
-  "cards": 6,
-  "class": "sorcery",
-  "creator": null,
-  "creatures": [
-    1296,
-    1297,
-    1298,
-    1299,
-    1300,
-    1301
-  ],
-  "icon": "images/race/Spacecat.png",
-  "master": {
-    "costume": 808,
-    "dialog": "Spacecats have traversed the cosmos and mastered gravitational manipulation! Their alien technology allows them to float effortlessly while raining down attacks from above. My Spacecats have hunted prey across seventeen galaxies, bringing extraterrestrial hunting techniques to Rodia. Shall I tell you about the things they\u0027ve seen beyond our stars? Or would you prefer a demonstration?",
-    "item": 1859,
-    "name": "Felindra",
-    "trait": 2197
-  },
-  "name": "Spacecat",
-  "notes": [],
-  "skins": [
-    817
-  ]
+    "bossDialog":  [
+                       "(A strange feline creature in what appears to be some kind of space suit materializes in front of the treasure, defying gravity as it floats above the hoard with a predatory gleam in its eyes!)",
+                       "(The Spacecat\u0027s helmet visor glows with unearthly light as it manipulates the very gravity around you, making your creatures stumble as they try to approach!)",
+                       "I\u0027ve hunted prey across seventeen galaxies, human. You\u0027re barely worth sharpening my claws on!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures\u0027 Spell Gems that belong to other classes have 5% more potency.",
+                        "4":  "Your creatures\u0027 Spell Gems that belong to other classes have 5% more potency.",
+                        "6":  "Your creatures\u0027 Spell Gems that belong to other classes have 5% more potency."
+                    },
+    "cards":  6,
+    "class":  "sorcery",
+    "creator":  null,
+    "creatures":  [
+                      1296,
+                      1297,
+                      1298,
+                      1299,
+                      1300,
+                      1301
+                  ],
+    "icon":  "images/race/Spacecat.png",
+    "master":  {
+                   "costume":  808,
+                   "dialog":  "Spacecats have traversed the cosmos and mastered gravitational manipulation! Their alien technology allows them to float effortlessly while raining down attacks from above. My Spacecats have hunted prey across seventeen galaxies, bringing extraterrestrial hunting techniques to Rodia. Shall I tell you about the things they\u0027ve seen beyond our stars? Or would you prefer a demonstration?",
+                   "item":  1859,
+                   "name":  "Felindra",
+                   "trait":  2197
+               },
+    "name":  "Spacecat",
+    "notes":  [
+
+              ],
+    "skins":  [
+                  817
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "Your creatures have a 10% chance to {ACTION_attack} an additional time for each creature missing from your group. This effect can occur repeatedly until it fails.",
-  "icon": "images/perk/PackofOne.png",
-  "id": 152,
-  "maxRanks": 1,
-  "name": "Pack of One",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 15
+    "anointable":  true,
+    "description":  "Your creatures have a 10% chance to {ACTION_attack} an additional time for each creature missing from your group. This effect can occur repeatedly until it fails.",
+    "icon":  "images/perk/PackofOne.png",
+    "id":  152,
+    "maxRanks":  1,
+    "name":  "Pack of One",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  15,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

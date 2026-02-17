@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Celestine/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 104,
-  "name": "Celestine",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Celestine/overworld_e0.png",
-      "images/skin/Celestine/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Celestine/overworld_n0.png",
-      "images/skin/Celestine/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Celestine/overworld_s0.png",
-      "images/skin/Celestine/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Celestine/overworld_w0.png",
-      "images/skin/Celestine/overworld_w1.png"
-    ]
-  },
-  "race": "Djinn",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Celestine/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  104,
+    "name":  "Celestine",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Celestine/overworld_e0.png",
+                                         "images/skin/Celestine/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Celestine/overworld_n0.png",
+                                          "images/skin/Celestine/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Celestine/overworld_s0.png",
+                                          "images/skin/Celestine/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Celestine/overworld_w0.png",
+                                         "images/skin/Celestine/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Djinn",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

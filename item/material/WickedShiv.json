@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCold Blood:\nWhen this creature deals damage, it deals between 50% and 250% normal damage.",
-  "icon": "images/item/material/WickedShiv.png",
-  "id": 353,
-  "name": "Wicked Shiv",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 269
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nCold Blood:\nWhen this creature deals damage, it deals between 50% and 250% normal damage.",
+    "icon":  "images/item/material/WickedShiv.png",
+    "id":  353,
+    "name":  "Wicked Shiv",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  269,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

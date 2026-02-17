@@ -1,34 +1,39 @@
 {
-  "bossDialog": [
-    "(A small doll sits innocuously atop the treasure pile. As you approach, it twitches to life, pins and needles protruding from its cloth body as it fixes its button eyes on you!)",
-    "(The Effigy raises a tiny arm, and suddenly you feel a sharp pain in your chest. It seems to be controlling a voodoo doll of you! Your creatures rush to attack it before it can do more harm!)",
-    "Your pain... my pleasure... Come closer... Feel the prick of my needles and share your agony with me!"
-  ],
-  "cardBonuses": {
-    "2": "Your creatures take 3% less indirect damage.",
-    "4": "Your creatures take 3% less indirect damage.",
-    "6": "Your creatures take 3% less indirect damage."
-  },
-  "cards": 6,
-  "class": "death",
-  "creator": null,
-  "creatures": [
-    1276,
-    1277,
-    1278,
-    1279,
-    1280,
-    1281
-  ],
-  "icon": "images/race/Effigy.png",
-  "master": {
-    "costume": 803,
-    "dialog": "Effigies are masters of sympathetic magic - what happens to the doll happens to you! Every pin, every needle, every tiny stitch connects directly to your creatures\u0027 pain centers. My collection of voodoo dolls has grown quite impressive, but I always have room for more. Allow me to demonstrate the exquisite agony my Effigies can inflict!",
-    "item": 1854,
-    "name": "Gideon",
-    "trait": 2192
-  },
-  "name": "Effigy",
-  "notes": [],
-  "skins": []
+    "bossDialog":  [
+                       "(A small doll sits innocuously atop the treasure pile. As you approach, it twitches to life, pins and needles protruding from its cloth body as it fixes its button eyes on you!)",
+                       "(The Effigy raises a tiny arm, and suddenly you feel a sharp pain in your chest. It seems to be controlling a voodoo doll of you! Your creatures rush to attack it before it can do more harm!)",
+                       "Your pain... my pleasure... Come closer... Feel the prick of my needles and share your agony with me!"
+                   ],
+    "cardBonuses":  {
+                        "2":  "Your creatures take 3% less indirect damage.",
+                        "4":  "Your creatures take 3% less indirect damage.",
+                        "6":  "Your creatures take 3% less indirect damage."
+                    },
+    "cards":  6,
+    "class":  "death",
+    "creator":  null,
+    "creatures":  [
+                      1276,
+                      1277,
+                      1278,
+                      1279,
+                      1280,
+                      1281
+                  ],
+    "icon":  "images/race/Effigy.png",
+    "master":  {
+                   "costume":  803,
+                   "dialog":  "Effigies are masters of sympathetic magic - what happens to the doll happens to you! Every pin, every needle, every tiny stitch connects directly to your creatures\u0027 pain centers. My collection of voodoo dolls has grown quite impressive, but I always have room for more. Allow me to demonstrate the exquisite agony my Effigies can inflict!",
+                   "item":  1854,
+                   "name":  "Gideon",
+                   "trait":  2192
+               },
+    "name":  "Effigy",
+    "notes":  [
+
+              ],
+    "skins":  [
+
+              ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/race.yaml"
 }

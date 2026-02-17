@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Djinns:\nYour {RACE_Djinn}s\u0027 spells always deal critical damage and have 40% more potency. This trait does not stack.",
-  "icon": "images/item/material/SigiloftheDjinn.png",
-  "id": 1277,
-  "name": "Sigil of the Djinn",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1423
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nMaster of Djinns:\nYour {RACE_Djinn}s\u0027 spells always deal critical damage and have 40% more potency. This trait does not stack.",
+    "icon":  "images/item/material/SigiloftheDjinn.png",
+    "id":  1277,
+    "name":  "Sigil of the Djinn",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1423,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

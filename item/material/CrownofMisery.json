@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeart of Misery:\nAfter your creatures {ACTION_cast} a spell, they recover 15% {STAT_health}.",
-  "icon": "images/item/material/CrownofMisery.png",
-  "id": 659,
-  "name": "Crown of Misery",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 570
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHeart of Misery:\nAfter your creatures {ACTION_cast} a spell, they recover 15% {STAT_health}.",
+    "icon":  "images/item/material/CrownofMisery.png",
+    "id":  659,
+    "name":  "Crown of Misery",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  570,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

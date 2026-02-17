@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSong of Resolve:\nYour creatures\u0027 attacks deal 50% of their damage using {STAT_defense} instead of {STAT_attack}. This trait does not stack.",
-  "icon": "images/item/material/JongleurHarp.png",
-  "id": 708,
-  "name": "Jongleur Harp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 647
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSong of Resolve:\nYour creatures\u0027 attacks deal 50% of their damage using {STAT_defense} instead of {STAT_attack}. This trait does not stack.",
+    "icon":  "images/item/material/JongleurHarp.png",
+    "id":  708,
+    "name":  "Jongleur Harp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  647,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

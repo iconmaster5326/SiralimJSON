@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOutcast No Longer:\nAt the start of battle, the races of the last 3 creatures in your party are changed to that of the first creature in your party.",
-  "icon": "images/item/material/ClawingComb.png",
-  "id": 1051,
-  "name": "Clawing Comb",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1083
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nOutcast No Longer:\nAt the start of battle, the races of the last 3 creatures in your party are changed to that of the first creature in your party.",
+    "icon":  "images/item/material/ClawingComb.png",
+    "id":  1051,
+    "name":  "Clawing Comb",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1083,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

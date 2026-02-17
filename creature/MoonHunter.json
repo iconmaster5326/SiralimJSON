@@ -1,58 +1,63 @@
 {
-  "battleSprite": "images/creature/MoonHunter/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 303,
-  "item": 521,
-  "lore": "At night, Hunters light bonfires and dance around the flames for hours while their wolf companions play on the dirt, biting and pouncing on each other. The Moon Hunter, however, stands aside and meditates. The crescent-shaped edge of its staff shines brightly during the dance, as it is recharged with the positive energy that results from the Hunters strengthening their bonds. This makes the weapon much deadlier in battle.",
-  "menagerieDialog": [
-    "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
-    "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
-    "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
-    "(It\u0027s busy feeding bits of meat to its wolf.)",
-    "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
-  ],
-  "minDepth": 1,
-  "name": "Moon Hunter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MoonHunter/overworld_e0.png",
-      "images/creature/MoonHunter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MoonHunter/overworld_n0.png",
-      "images/creature/MoonHunter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MoonHunter/overworld_s0.png",
-      "images/creature/MoonHunter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MoonHunter/overworld_w0.png",
-      "images/creature/MoonHunter/overworld_w1.png"
-    ]
-  },
-  "race": "Hunter",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 7,
-      "type": "realm"
-    }
-  ],
-  "specializations": [
-    13
-  ],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 10,
-    "health": 25,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 435
+    "battleSprite":  "images/creature/MoonHunter/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  303,
+    "item":  521,
+    "lore":  "At night, Hunters light bonfires and dance around the flames for hours while their wolf companions play on the dirt, biting and pouncing on each other. The Moon Hunter, however, stands aside and meditates. The crescent-shaped edge of its staff shines brightly during the dance, as it is recharged with the positive energy that results from the Hunters strengthening their bonds. This makes the weapon much deadlier in battle.",
+    "menagerieDialog":  [
+                            "(The Hunter\u0027s wolf seems tired. Its rider is busy grooming it in preparation for the next battle.)",
+                            "(Both it and its cat are seething with anger. Perhaps it\u0027s time to leave here and allow them to drain their aggression on their enemies.)",
+                            "(It seems depressed. Perhaps it has come to the realization that life is meaningless.)",
+                            "(It\u0027s busy feeding bits of meat to its wolf.)",
+                            "(This creature and its wolf have an extremely close bond. Their love for one another is easy to see.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Moon Hunter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MoonHunter/overworld_e0.png",
+                                         "images/creature/MoonHunter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MoonHunter/overworld_n0.png",
+                                          "images/creature/MoonHunter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MoonHunter/overworld_s0.png",
+                                          "images/creature/MoonHunter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MoonHunter/overworld_w0.png",
+                                         "images/creature/MoonHunter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Hunter",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  7,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+                            13
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  10,
+                       "health":  25,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  435,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

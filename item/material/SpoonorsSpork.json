@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpoonor\u0027s Gift:\nAt the start of this creature\u0027s turn, it increases the potency of enemies\u0027 {CONDNAME_DEBUFF_BOMB} debuffs by 50%.",
-  "icon": "images/item/material/SpoonorsSpork.png",
-  "id": 1133,
-  "name": "Spoonor\u0027s Spork",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1278
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSpoonor\u0027s Gift:\nAt the start of this creature\u0027s turn, it increases the potency of enemies\u0027 {CONDNAME_DEBUFF_BOMB} debuffs by 50%.",
+    "icon":  "images/item/material/SpoonorsSpork.png",
+    "id":  1133,
+    "name":  "Spoonor\u0027s Spork",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1278,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

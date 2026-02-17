@@ -1,18 +1,21 @@
 {
-  "arcaneDustCost": 1000,
-  "description": "After completing this Project, you will gain enough Mana to summon Akara. In order to complete this Project, you must purchase an item from Ariamaki, God of Balance.",
-  "graniteCost": 10000,
-  "icon": "images/project/GodspawnAkara.png",
-  "id": 100,
-  "items": {
-    "161": 1
-  },
-  "monsterPartCost": 5000,
-  "name": "Godspawn: Akara",
-  "notes": [],
-  "repeatable": true,
-  "type": "special",
-  "unlockedCreature": 1105,
-  "unlockedRealm": null,
-  "unlockedSpecialization": null
+    "arcaneDustCost":  1000,
+    "description":  "After completing this Project, you will gain enough Mana to summon Akara. In order to complete this Project, you must purchase an item from Ariamaki, God of Balance.",
+    "graniteCost":  10000,
+    "icon":  "images/project/GodspawnAkara.png",
+    "id":  100,
+    "items":  {
+                  "161":  1
+              },
+    "monsterPartCost":  5000,
+    "name":  "Godspawn: Akara",
+    "notes":  [
+
+              ],
+    "repeatable":  true,
+    "type":  "special",
+    "unlockedCreature":  1105,
+    "unlockedRealm":  null,
+    "unlockedSpecialization":  null,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/project.yaml"
 }

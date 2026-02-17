@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/LucanianArmiger/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1286,
-  "item": 1800,
-  "lore": "Lucanians are creatures skilled in both physical and magical attacks.\\n\\nSeveral floating swords constantly orbit the Lucanian Armiger, and anyone who tries to strike it risks being slashed by one of them. Even when they sleep, these swords levitate around them, speeding up if anything approaches.",
-  "menagerieDialog": [
-    "(It\u0027s curled up, smoke gently rising from its nostrils as it rests.)",
-    "My draconic blood burns for battle! Let us hunt!",
-    "The ancient wisdom of dragons flows through my veins. What would you like to learn?",
-    "My scales are forged from the heart of mountains. None shall pass!",
-    "(It\u0027s flexing its wings restlessly, eager to take flight.)"
-  ],
-  "minDepth": 1,
-  "name": "Lucanian Armiger",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/LucanianArmiger/overworld_e0.png",
-      "images/creature/LucanianArmiger/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/LucanianArmiger/overworld_n0.png",
-      "images/creature/LucanianArmiger/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/LucanianArmiger/overworld_s0.png",
-      "images/creature/LucanianArmiger/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/LucanianArmiger/overworld_w0.png",
-      "images/creature/LucanianArmiger/overworld_w1.png"
-    ]
-  },
-  "race": "Lucanian",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 11,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 25,
-    "health": 35,
-    "intelligence": 25,
-    "speed": 10
-  },
-  "trait": 2153
+    "battleSprite":  "images/creature/LucanianArmiger/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1286,
+    "item":  1800,
+    "lore":  "Lucanians are creatures skilled in both physical and magical attacks.\\n\\nSeveral floating swords constantly orbit the Lucanian Armiger, and anyone who tries to strike it risks being slashed by one of them. Even when they sleep, these swords levitate around them, speeding up if anything approaches.",
+    "menagerieDialog":  [
+                            "(It\u0027s curled up, smoke gently rising from its nostrils as it rests.)",
+                            "My draconic blood burns for battle! Let us hunt!",
+                            "The ancient wisdom of dragons flows through my veins. What would you like to learn?",
+                            "My scales are forged from the heart of mountains. None shall pass!",
+                            "(It\u0027s flexing its wings restlessly, eager to take flight.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Lucanian Armiger",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/LucanianArmiger/overworld_e0.png",
+                                         "images/creature/LucanianArmiger/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/LucanianArmiger/overworld_n0.png",
+                                          "images/creature/LucanianArmiger/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/LucanianArmiger/overworld_s0.png",
+                                          "images/creature/LucanianArmiger/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/LucanianArmiger/overworld_w0.png",
+                                         "images/creature/LucanianArmiger/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Lucanian",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  11,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  25,
+                       "health":  35,
+                       "intelligence":  25,
+                       "speed":  10
+                   },
+    "trait":  2153,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

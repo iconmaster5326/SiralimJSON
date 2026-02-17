@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SchemingWisp/battle.png",
-  "class": "life",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 853,
-  "item": 1015,
-  "lore": "After a preliminary investigation of the Wisps, there are reasons to believe they are creatures born from the residual energy of all the curses cast since the creatures of this world began to use magic.\\n\\nOf all Wisps, the Scheming Wisp takes revenge in the most elaborate ways. A wealthy citizen of Undolim reported that, after having buried her sister, she found her body lying in the middle of the hall at night. The body\u0027s eyes suddenly flashed blue and it stood up, pulling a knife from its dress. Although the woman managed to defend against her sister\u0027s possessed body until some Gargoyles subdued it, the authorities in the capital found out days later that she had poisoned her sister so she could collect the entire inheritance.",
-  "menagerieDialog": [
-    "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
-    "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
-    "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
-    "(This creature constantly cycles between a cacophony of crying and laughter.)",
-    "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
-  ],
-  "minDepth": 1,
-  "name": "Scheming Wisp",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SchemingWisp/overworld_e0.png",
-      "images/creature/SchemingWisp/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SchemingWisp/overworld_n0.png",
-      "images/creature/SchemingWisp/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SchemingWisp/overworld_s0.png",
-      "images/creature/SchemingWisp/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SchemingWisp/overworld_w0.png",
-      "images/creature/SchemingWisp/overworld_w1.png"
-    ]
-  },
-  "race": "Wisp",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 8,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 15,
-    "defense": 18,
-    "health": 35,
-    "intelligence": 15,
-    "speed": 25
-  },
-  "trait": 1119
+    "battleSprite":  "images/creature/SchemingWisp/battle.png",
+    "class":  "life",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  853,
+    "item":  1015,
+    "lore":  "After a preliminary investigation of the Wisps, there are reasons to believe they are creatures born from the residual energy of all the curses cast since the creatures of this world began to use magic.\\n\\nOf all Wisps, the Scheming Wisp takes revenge in the most elaborate ways. A wealthy citizen of Undolim reported that, after having buried her sister, she found her body lying in the middle of the hall at night. The body\u0027s eyes suddenly flashed blue and it stood up, pulling a knife from its dress. Although the woman managed to defend against her sister\u0027s possessed body until some Gargoyles subdued it, the authorities in the capital found out days later that she had poisoned her sister so she could collect the entire inheritance.",
+    "menagerieDialog":  [
+                            "(It\u0027s oddly difficult for your eyes to adjust to the appearance of this creature. Just as you try to focus on its body, it blurs and slips away from your sight. Probably a trick of the light.)",
+                            "(You can\u0027t help but appreciate the fact that this creature plays so many tricks on Everett.)",
+                            "(Whenever it laughs, it sounds as if an entire audience of people is giggling all at once.)",
+                            "(This creature constantly cycles between a cacophony of crying and laughter.)",
+                            "(It\u0027s pulsing nervously. Perhaps one of your other creatures did something to upset it.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Scheming Wisp",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SchemingWisp/overworld_e0.png",
+                                         "images/creature/SchemingWisp/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SchemingWisp/overworld_n0.png",
+                                          "images/creature/SchemingWisp/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SchemingWisp/overworld_s0.png",
+                                          "images/creature/SchemingWisp/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SchemingWisp/overworld_w0.png",
+                                         "images/creature/SchemingWisp/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Wisp",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  15,
+                       "defense":  18,
+                       "health":  35,
+                       "intelligence":  15,
+                       "speed":  25
+                   },
+    "trait":  1119,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

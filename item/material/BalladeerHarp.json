@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSong of Alacrity:\nYour creatures\u0027 attacks deal 50% of their damage using {STAT_speed} instead of {STAT_attack}. This trait does not stack.",
-  "icon": "images/item/material/BalladeerHarp.png",
-  "id": 707,
-  "name": "Balladeer Harp",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 646
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nSong of Alacrity:\nYour creatures\u0027 attacks deal 50% of their damage using {STAT_speed} instead of {STAT_attack}. This trait does not stack.",
+    "icon":  "images/item/material/BalladeerHarp.png",
+    "id":  707,
+    "name":  "Balladeer Harp",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  646,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

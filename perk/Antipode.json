@@ -1,11 +1,14 @@
 {
-  "anointable": true,
-  "description": "When an enemy with {CONDNAME_DEBUFF_INVERTED} gains stats, they have a 50% chance to lose stats instead.",
-  "icon": "images/perk/Antipode.png",
-  "id": 392,
-  "maxRanks": 1,
-  "name": "Antipode",
-  "notes": [],
-  "pointsPerRank": 100,
-  "specialization": 26
+    "anointable":  true,
+    "description":  "When an enemy with {CONDNAME_DEBUFF_INVERTED} gains stats, they have a 50% chance to lose stats instead.",
+    "icon":  "images/perk/Antipode.png",
+    "id":  392,
+    "maxRanks":  1,
+    "name":  "Antipode",
+    "notes":  [
+
+              ],
+    "pointsPerRank":  100,
+    "specialization":  26,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/perk.yaml"
 }

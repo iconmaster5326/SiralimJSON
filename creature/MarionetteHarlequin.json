@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/MarionetteHarlequin/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1331,
-  "item": 1827,
-  "lore": "Traveling fairs often use several Marionettes in their acts, and Marionette Harlequins are the crowd favorite. They spin stories and effortlessly pull off dangerous acrobatics and juggling tricks that would take humans years to learn. In battle, they\u0027re tricky and loud, always ready to feint and counterattack.",
-  "menagerieDialog": [
-    "(It hangs limply, awaiting its next command.)",
-    "Pull my strings and watch me dance... a dance of death!",
-    "I may be controlled, but my mind is my own. Let me share my observations with you.",
-    "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
-    "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
-  ],
-  "minDepth": 1,
-  "name": "Marionette Harlequin",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/MarionetteHarlequin/overworld_e0.png",
-      "images/creature/MarionetteHarlequin/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/MarionetteHarlequin/overworld_n0.png",
-      "images/creature/MarionetteHarlequin/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/MarionetteHarlequin/overworld_s0.png",
-      "images/creature/MarionetteHarlequin/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/MarionetteHarlequin/overworld_w0.png",
-      "images/creature/MarionetteHarlequin/overworld_w1.png"
-    ]
-  },
-  "race": "Marionette",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 13,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 20
-  },
-  "trait": 2186
+    "battleSprite":  "images/creature/MarionetteHarlequin/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1331,
+    "item":  1827,
+    "lore":  "Traveling fairs often use several Marionettes in their acts, and Marionette Harlequins are the crowd favorite. They spin stories and effortlessly pull off dangerous acrobatics and juggling tricks that would take humans years to learn. In battle, they\u0027re tricky and loud, always ready to feint and counterattack.",
+    "menagerieDialog":  [
+                            "(It hangs limply, awaiting its next command.)",
+                            "Pull my strings and watch me dance... a dance of death!",
+                            "I may be controlled, but my mind is my own. Let me share my observations with you.",
+                            "You can\u0027t hurt what isn\u0027t truly alive. I am invincible!",
+                            "(It\u0027s jerking about wildly, its limbs flailing in all directions.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Marionette Harlequin",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/MarionetteHarlequin/overworld_e0.png",
+                                         "images/creature/MarionetteHarlequin/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/MarionetteHarlequin/overworld_n0.png",
+                                          "images/creature/MarionetteHarlequin/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/MarionetteHarlequin/overworld_s0.png",
+                                          "images/creature/MarionetteHarlequin/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/MarionetteHarlequin/overworld_w0.png",
+                                         "images/creature/MarionetteHarlequin/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Marionette",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  13,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  20
+                   },
+    "trait":  2186,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

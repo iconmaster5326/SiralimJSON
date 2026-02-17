@@ -1,64 +1,71 @@
 {
-  "battleSprite": "images/creature/CarnageTormenter/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 240,
-  "item": 194,
-  "lore": "When Erebyss created the Carnages, she put special emphasis on making them the perfect killing machines. They are agile and cunning, stealthy when they want to be, and can end a person\u0027s life in just a moment.\\n\\nCarnage Tormenters can smell fear, and they even take pleasure in the cries and screams of their enemies. The truth is that they feed on negative emotions, so they will prolong their prey\u0027s suffering as much as possible until they are sated.",
-  "menagerieDialog": [
-    "(Even while it\u0027s not moving, its mere presence is terrifying.)",
-    "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
-    "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
-    "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
-    "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
-  ],
-  "minDepth": 1,
-  "name": "Carnage Tormenter",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/CarnageTormenter/overworld_e0.png",
-      "images/creature/CarnageTormenter/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/CarnageTormenter/overworld_n0.png",
-      "images/creature/CarnageTormenter/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/CarnageTormenter/overworld_s0.png",
-      "images/creature/CarnageTormenter/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/CarnageTormenter/overworld_w0.png",
-      "images/creature/CarnageTormenter/overworld_w1.png"
-    ]
-  },
-  "race": "Carnage",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 2,
-      "type": "realm"
-    },
-    {
-      "realm": 8,
-      "type": "realm"
-    },
-    {
-      "realm": 29,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 25,
-    "defense": 11,
-    "health": 40,
-    "intelligence": 10,
-    "speed": 21
-  },
-  "trait": 104
+    "battleSprite":  "images/creature/CarnageTormenter/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  240,
+    "item":  194,
+    "lore":  "When Erebyss created the Carnages, she put special emphasis on making them the perfect killing machines. They are agile and cunning, stealthy when they want to be, and can end a person\u0027s life in just a moment.\\n\\nCarnage Tormenters can smell fear, and they even take pleasure in the cries and screams of their enemies. The truth is that they feed on negative emotions, so they will prolong their prey\u0027s suffering as much as possible until they are sated.",
+    "menagerieDialog":  [
+                            "(Even while it\u0027s not moving, its mere presence is terrifying.)",
+                            "(Let\u0027s face it - there\u0027s never a time when this creature will be happy.)",
+                            "(You can\u0027t help but notice that your other creatures are absolutely terrified of this one.)",
+                            "(This creature\u0027s appetite is insatiable. You can\u0027t remember the last time you didn\u0027t see it devouring a giant chunk of raw, bloody meat.)",
+                            "(It\u0027s sniffing at the air in search of prey. Hopefully, it doesn\u0027t find any in your castle.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Carnage Tormenter",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/CarnageTormenter/overworld_e0.png",
+                                         "images/creature/CarnageTormenter/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/CarnageTormenter/overworld_n0.png",
+                                          "images/creature/CarnageTormenter/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/CarnageTormenter/overworld_s0.png",
+                                          "images/creature/CarnageTormenter/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/CarnageTormenter/overworld_w0.png",
+                                         "images/creature/CarnageTormenter/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Carnage",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  2,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  8,
+                        "type":  "realm"
+                    },
+                    {
+                        "realm":  29,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  25,
+                       "defense":  11,
+                       "health":  40,
+                       "intelligence":  10,
+                       "speed":  21
+                   },
+    "trait":  104,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

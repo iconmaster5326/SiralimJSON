@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/Melon/battle.png",
-  "class": "nature",
-  "creator": null,
-  "givesMana": false,
-  "god": null,
-  "id": 788,
-  "item": 8,
-  "lore": "This variety of Dumpling has drastic effects on the central nervous system when eaten raw. One bite is enough to double a human\u0027s heart rate and leave them unable to sleep for three days, at which time the effects begin to subside. Due to its effects, it is now being studied in Rodia for its medical applications. On the other hand, if it is correctly cooked, the impact and duration of its effects can be reduced to the point of being harmless.",
-  "menagerieDialog": [
-    "(It yawns, making a cute, squeaking sound in the process.)",
-    "(How can something so cute exist in a world like this?)",
-    "(It\u0027s constantly trying to convince your other creatures to play with it.)",
-    "(It blushes and giggles every time you come near it.)",
-    "(It seems lonely. Perhaps you should buy it a cat to play with.)"
-  ],
-  "minDepth": 1,
-  "name": "Melon",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/Melon/overworld_e0.png",
-      "images/creature/Melon/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/Melon/overworld_n0.png",
-      "images/creature/Melon/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/Melon/overworld_s0.png",
-      "images/creature/Melon/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/Melon/overworld_w0.png",
-      "images/creature/Melon/overworld_w1.png"
-    ]
-  },
-  "race": "Dumpling",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "???",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 17,
-    "defense": 17,
-    "health": 42,
-    "intelligence": 17,
-    "speed": 17
-  },
-  "trait": 1034
+    "battleSprite":  "images/creature/Melon/battle.png",
+    "class":  "nature",
+    "creator":  null,
+    "givesMana":  false,
+    "god":  null,
+    "id":  788,
+    "item":  8,
+    "lore":  "This variety of Dumpling has drastic effects on the central nervous system when eaten raw. One bite is enough to double a human\u0027s heart rate and leave them unable to sleep for three days, at which time the effects begin to subside. Due to its effects, it is now being studied in Rodia for its medical applications. On the other hand, if it is correctly cooked, the impact and duration of its effects can be reduced to the point of being harmless.",
+    "menagerieDialog":  [
+                            "(It yawns, making a cute, squeaking sound in the process.)",
+                            "(How can something so cute exist in a world like this?)",
+                            "(It\u0027s constantly trying to convince your other creatures to play with it.)",
+                            "(It blushes and giggles every time you come near it.)",
+                            "(It seems lonely. Perhaps you should buy it a cat to play with.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Melon",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/Melon/overworld_e0.png",
+                                         "images/creature/Melon/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/Melon/overworld_n0.png",
+                                          "images/creature/Melon/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/Melon/overworld_s0.png",
+                                          "images/creature/Melon/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/Melon/overworld_w0.png",
+                                         "images/creature/Melon/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Dumpling",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "???",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  17,
+                       "defense":  17,
+                       "health":  42,
+                       "intelligence":  17,
+                       "speed":  17
+                   },
+    "trait":  1034,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

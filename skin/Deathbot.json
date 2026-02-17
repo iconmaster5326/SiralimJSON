@@ -1,33 +1,36 @@
 {
-  "battleSprite": "images/skin/Deathbot/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 301,
-  "name": "Deathbot",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/Deathbot/overworld_e0.png",
-      "images/skin/Deathbot/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/Deathbot/overworld_n0.png",
-      "images/skin/Deathbot/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/Deathbot/overworld_s0.png",
-      "images/skin/Deathbot/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/Deathbot/overworld_w0.png",
-      "images/skin/Deathbot/overworld_w1.png"
-    ]
-  },
-  "race": "Skeleton",
-  "reserved": false,
-  "sources": [
-    {
-      "type": "random"
-    }
-  ]
+    "battleSprite":  "images/skin/Deathbot/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  301,
+    "name":  "Deathbot",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/Deathbot/overworld_e0.png",
+                                         "images/skin/Deathbot/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/Deathbot/overworld_n0.png",
+                                          "images/skin/Deathbot/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/Deathbot/overworld_s0.png",
+                                          "images/skin/Deathbot/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/Deathbot/overworld_w0.png",
+                                         "images/skin/Deathbot/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Skeleton",
+    "reserved":  false,
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLimitless:\nWhen your creatures {ACTION_cast} a spell, they have a 50% chance to {ACTION_cast} it 1 additional time. This trait does not stack.",
-  "icon": "images/item/material/ThunderOil.png",
-  "id": 721,
-  "name": "Thunder Oil",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 660
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLimitless:\nWhen your creatures {ACTION_cast} a spell, they have a 50% chance to {ACTION_cast} it 1 additional time. This trait does not stack.",
+    "icon":  "images/item/material/ThunderOil.png",
+    "id":  721,
+    "name":  "Thunder Oil",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  660,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

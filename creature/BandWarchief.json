@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/BandWarchief/battle.png",
-  "class": "chaos",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1140,
-  "item": 1660,
-  "lore": "Orcs are an intelligent species that is fully integrated into Rodian society nowadays. However, some of them continue the way of life they once followed, looting for survival or to amass wealth. A Band Warchief is always at the head of these groups, wielding his axes with ease, able to take down the entire guard of a village singlehandedly if they are not prepared.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Band Warchief",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/BandWarchief/overworld_e0.png",
-      "images/creature/BandWarchief/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/BandWarchief/overworld_n0.png",
-      "images/creature/BandWarchief/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/BandWarchief/overworld_s0.png",
-      "images/creature/BandWarchief/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/BandWarchief/overworld_w0.png",
-      "images/creature/BandWarchief/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 21,
-    "defense": 16,
-    "health": 38,
-    "intelligence": 16,
-    "speed": 21
-  },
-  "trait": 1863
+    "battleSprite":  "images/creature/BandWarchief/battle.png",
+    "class":  "chaos",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1140,
+    "item":  1660,
+    "lore":  "Orcs are an intelligent species that is fully integrated into Rodian society nowadays. However, some of them continue the way of life they once followed, looting for survival or to amass wealth. A Band Warchief is always at the head of these groups, wielding his axes with ease, able to take down the entire guard of a village singlehandedly if they are not prepared.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Band Warchief",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/BandWarchief/overworld_e0.png",
+                                         "images/creature/BandWarchief/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/BandWarchief/overworld_n0.png",
+                                          "images/creature/BandWarchief/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/BandWarchief/overworld_s0.png",
+                                          "images/creature/BandWarchief/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/BandWarchief/overworld_w0.png",
+                                         "images/creature/BandWarchief/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  21,
+                       "defense":  16,
+                       "health":  38,
+                       "intelligence":  16,
+                       "speed":  21
+                   },
+    "trait":  1863,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

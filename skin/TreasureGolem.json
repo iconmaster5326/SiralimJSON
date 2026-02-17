@@ -1,29 +1,34 @@
 {
-  "battleSprite": "images/skin/TreasureGolem/battle.png",
-  "creator": null,
-  "creature": null,
-  "id": 185,
-  "name": "Treasure Golem",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/skin/TreasureGolem/overworld_e0.png",
-      "images/skin/TreasureGolem/overworld_e1.png"
-    ],
-    "north": [
-      "images/skin/TreasureGolem/overworld_n0.png",
-      "images/skin/TreasureGolem/overworld_n1.png"
-    ],
-    "south": [
-      "images/skin/TreasureGolem/overworld_s0.png",
-      "images/skin/TreasureGolem/overworld_s1.png"
-    ],
-    "west": [
-      "images/skin/TreasureGolem/overworld_w0.png",
-      "images/skin/TreasureGolem/overworld_w1.png"
-    ]
-  },
-  "race": "Golem",
-  "reserved": true,
-  "sources": []
+    "battleSprite":  "images/skin/TreasureGolem/battle.png",
+    "creator":  null,
+    "creature":  null,
+    "id":  185,
+    "name":  "Treasure Golem",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/skin/TreasureGolem/overworld_e0.png",
+                                         "images/skin/TreasureGolem/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/skin/TreasureGolem/overworld_n0.png",
+                                          "images/skin/TreasureGolem/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/skin/TreasureGolem/overworld_s0.png",
+                                          "images/skin/TreasureGolem/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/skin/TreasureGolem/overworld_w0.png",
+                                         "images/skin/TreasureGolem/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Golem",
+    "reserved":  true,
+    "sources":  [
+
+                ],
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

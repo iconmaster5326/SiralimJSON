@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/DancingEffigy/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1279,
-  "item": 1788,
-  "lore": "Centuries ago, in the forests of Andolin, a human society was known for its voodoo dolls. Things took a turn when the magic running through these cloth beings gave them intelligence, and they took matters into their own hands\u00E2\u20AC\u201Doften in violent ways.\\n\\nThe Dancing Effigies are the life of the party, always leading the celebrations and filling the nights before battles with energy. Agile and swift, their spinning movements and speed make them a real threat in combat.",
-  "menagerieDialog": [
-    "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
-    "Feel the pinprick of my needles! Your pain is my pleasure!",
-    "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
-    "Strike me all you want - your pain will be reflected back tenfold!",
-    "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
-  ],
-  "minDepth": 1,
-  "name": "Dancing Effigy",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/DancingEffigy/overworld_e0.png",
-      "images/creature/DancingEffigy/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/DancingEffigy/overworld_n0.png",
-      "images/creature/DancingEffigy/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/DancingEffigy/overworld_s0.png",
-      "images/creature/DancingEffigy/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/DancingEffigy/overworld_w0.png",
-      "images/creature/DancingEffigy/overworld_w1.png"
-    ]
-  },
-  "race": "Effigy",
-  "reserved": false,
-  "skins": [],
-  "sources": [
-    {
-      "realm": 26,
-      "type": "realm"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 20,
-    "defense": 15,
-    "health": 30,
-    "intelligence": 20,
-    "speed": 25
-  },
-  "trait": 2141
+    "battleSprite":  "images/creature/DancingEffigy/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1279,
+    "item":  1788,
+    "lore":  "Centuries ago, in the forests of Andolin, a human society was known for its voodoo dolls. Things took a turn when the magic running through these cloth beings gave them intelligence, and they took matters into their own hands—often in violent ways.\\n\\nThe Dancing Effigies are the life of the party, always leading the celebrations and filling the nights before battles with energy. Agile and swift, their spinning movements and speed make them a real threat in combat.",
+    "menagerieDialog":  [
+                            "(It sits perfectly still, threads and fabric intact, emitting a faint aura of protective magic.)",
+                            "Feel the pinprick of my needles! Your pain is my pleasure!",
+                            "The secrets of sympathetic magic are ancient and powerful. Care to learn what I know?",
+                            "Strike me all you want - your pain will be reflected back tenfold!",
+                            "(It\u0027s twitching and jerking in an unsettling rhythm, pins wobbling as it moves.)"
+                        ],
+    "minDepth":  1,
+    "name":  "Dancing Effigy",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/DancingEffigy/overworld_e0.png",
+                                         "images/creature/DancingEffigy/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/DancingEffigy/overworld_n0.png",
+                                          "images/creature/DancingEffigy/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/DancingEffigy/overworld_s0.png",
+                                          "images/creature/DancingEffigy/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/DancingEffigy/overworld_w0.png",
+                                         "images/creature/DancingEffigy/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Effigy",
+    "reserved":  false,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "realm":  26,
+                        "type":  "realm"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  20,
+                       "defense":  15,
+                       "health":  30,
+                       "intelligence":  20,
+                       "speed":  25
+                   },
+    "trait":  2141,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

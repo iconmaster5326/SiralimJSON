@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLust For Punishment:\nYour creatures deal 40% more damage for each debuff they have. This trait does not stack.",
-  "icon": "images/item/material/FavoredStake.png",
-  "id": 479,
-  "name": "Favored Stake",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 393
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nLust For Punishment:\nYour creatures deal 40% more damage for each debuff they have. This trait does not stack.",
+    "icon":  "images/item/material/FavoredStake.png",
+    "id":  479,
+    "name":  "Favored Stake",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  393,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

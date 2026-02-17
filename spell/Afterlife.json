@@ -1,33 +1,38 @@
 {
-  "arsenal": false,
-  "booze": false,
-  "class": "life",
-  "creator": null,
-  "description": "Your creatures\u0027 on-resurrect and on-death effects activate. This spell is an {SPELL_ultimate}.",
-  "god": 19,
-  "id": 429,
-  "manuallyCastable": true,
-  "maxCharges": 1,
-  "name": "Afterlife",
-  "notes": [],
-  "obtainable": false,
-  "propertyCompatibility": [
-    0,
-    3,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17
-  ],
-  "reserved": true,
-  "resurrects": false,
-  "sources": [],
-  "tags": [
-    "ULTIMATE"
-  ],
-  "targets": "allies"
+    "arsenal":  false,
+    "booze":  false,
+    "class":  "life",
+    "creator":  null,
+    "description":  "Your creatures\u0027 on-resurrect and on-death effects activate. This spell is an {SPELL_ultimate}.",
+    "god":  19,
+    "id":  429,
+    "manuallyCastable":  true,
+    "maxCharges":  1,
+    "name":  "Afterlife",
+    "notes":  [
+
+              ],
+    "obtainable":  false,
+    "propertyCompatibility":  [
+                                  0,
+                                  3,
+                                  10,
+                                  11,
+                                  12,
+                                  13,
+                                  14,
+                                  15,
+                                  16,
+                                  17
+                              ],
+    "reserved":  true,
+    "resurrects":  false,
+    "sources":  [
+
+                ],
+    "tags":  [
+                 "ULTIMATE"
+             ],
+    "targets":  "allies",
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/spell.yaml"
 }

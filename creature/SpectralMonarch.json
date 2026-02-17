@@ -1,56 +1,63 @@
 {
-  "battleSprite": "images/creature/SpectralMonarch/battle.png",
-  "class": "death",
-  "creator": null,
-  "givesMana": true,
-  "god": null,
-  "id": 1295,
-  "item": 1683,
-  "lore": "This creature possesses extraordinary strength and a fierce aggression that\u0027s hard to control. It feeds on the life force of its victims, and every time it kills one, it temporarily grows more powerful by stealing their innate abilities for several minutes. It was created in a secret laboratory by the Ugeda River, where a group of renegade sorcerers sought to bring forth a creature that would help them amass great fortune.",
-  "menagerieDialog": [
-    "I do not wish to speak to you right now. I would prefer to return to where I came from.",
-    "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
-    "I am bound to serve you, but know that it is not by choice.",
-    "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
-    "Give me freedom, or give me death!"
-  ],
-  "minDepth": 1,
-  "name": "Spectral Monarch",
-  "notes": [],
-  "overworldSprite": {
-    "east": [
-      "images/creature/SpectralMonarch/overworld_e0.png",
-      "images/creature/SpectralMonarch/overworld_e1.png"
-    ],
-    "north": [
-      "images/creature/SpectralMonarch/overworld_n0.png",
-      "images/creature/SpectralMonarch/overworld_n1.png"
-    ],
-    "south": [
-      "images/creature/SpectralMonarch/overworld_s0.png",
-      "images/creature/SpectralMonarch/overworld_s1.png"
-    ],
-    "west": [
-      "images/creature/SpectralMonarch/overworld_w0.png",
-      "images/creature/SpectralMonarch/overworld_w1.png"
-    ]
-  },
-  "race": "Exotic",
-  "reserved": true,
-  "skins": [],
-  "sources": [
-    {
-      "desc": "Otherworld Portals",
-      "type": "special"
-    }
-  ],
-  "specializations": [],
-  "statGrowth": {
-    "attack": 22,
-    "defense": 22,
-    "health": 35,
-    "intelligence": 22,
-    "speed": 19
-  },
-  "trait": 2025
+    "battleSprite":  "images/creature/SpectralMonarch/battle.png",
+    "class":  "death",
+    "creator":  null,
+    "givesMana":  true,
+    "god":  null,
+    "id":  1295,
+    "item":  1683,
+    "lore":  "This creature possesses extraordinary strength and a fierce aggression that\u0027s hard to control. It feeds on the life force of its victims, and every time it kills one, it temporarily grows more powerful by stealing their innate abilities for several minutes. It was created in a secret laboratory by the Ugeda River, where a group of renegade sorcerers sought to bring forth a creature that would help them amass great fortune.",
+    "menagerieDialog":  [
+                            "I do not wish to speak to you right now. I would prefer to return to where I came from.",
+                            "You would dare to rip me from my portal and summon me to this dying world? You have no shame.",
+                            "I am bound to serve you, but know that it is not by choice.",
+                            "I do not belong here in your filthy Menagerie. I deserve my own quarters in your castle!",
+                            "Give me freedom, or give me death!"
+                        ],
+    "minDepth":  1,
+    "name":  "Spectral Monarch",
+    "notes":  [
+
+              ],
+    "overworldSprite":  {
+                            "east":  [
+                                         "images/creature/SpectralMonarch/overworld_e0.png",
+                                         "images/creature/SpectralMonarch/overworld_e1.png"
+                                     ],
+                            "north":  [
+                                          "images/creature/SpectralMonarch/overworld_n0.png",
+                                          "images/creature/SpectralMonarch/overworld_n1.png"
+                                      ],
+                            "south":  [
+                                          "images/creature/SpectralMonarch/overworld_s0.png",
+                                          "images/creature/SpectralMonarch/overworld_s1.png"
+                                      ],
+                            "west":  [
+                                         "images/creature/SpectralMonarch/overworld_w0.png",
+                                         "images/creature/SpectralMonarch/overworld_w1.png"
+                                     ]
+                        },
+    "race":  "Exotic",
+    "reserved":  true,
+    "skins":  [
+
+              ],
+    "sources":  [
+                    {
+                        "desc":  "Otherworld Portals",
+                        "type":  "special"
+                    }
+                ],
+    "specializations":  [
+
+                        ],
+    "statGrowth":  {
+                       "attack":  22,
+                       "defense":  22,
+                       "health":  35,
+                       "intelligence":  22,
+                       "speed":  19
+                   },
+    "trait":  2025,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/creature.yaml"
 }

@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUndeath:\nAfter this creature dies, it has a 50% chance to resurrect with 100% {STAT_health}.",
-  "icon": "images/item/material/DreadRattle.png",
-  "id": 277,
-  "name": "Dread Rattle",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 187
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nUndeath:\nAfter this creature dies, it has a 50% chance to resurrect with 100% {STAT_health}.",
+    "icon":  "images/item/material/DreadRattle.png",
+    "id":  277,
+    "name":  "Dread Rattle",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  187,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

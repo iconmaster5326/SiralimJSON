@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHee Hay Ho Ha:\nYour creatures {ACTION_cast} 0.5 additional times for each {RACE_Imp} creature fighting on your side. This trait does not stack.",
-  "icon": "images/item/material/ImpingtonsLaserEye.png",
-  "id": 1142,
-  "name": "Impington\u0027s Laser Eye",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 1287
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nHee Hay Ho Ha:\nYour creatures {ACTION_cast} 0.5 additional times for each {RACE_Imp} creature fighting on your side. This trait does not stack.",
+    "icon":  "images/item/material/ImpingtonsLaserEye.png",
+    "id":  1142,
+    "name":  "Impington\u0027s Laser Eye",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  1287,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }

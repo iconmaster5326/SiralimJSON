@@ -1,17 +1,22 @@
 {
-  "condition": null,
-  "creator": null,
-  "description": "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe End of All Things:\nAt the end of this creature\u0027s turn, adjacent creatures activate their end-of-turn effects. This trait does not work on creatures that also have this trait. This trait does not stack.",
-  "icon": "images/item/material/BlackHoleSun.png",
-  "id": 1688,
-  "name": "Black Hole Sun",
-  "notes": [],
-  "slot": "trait",
-  "sources": [
-    {
-      "type": "random"
-    }
-  ],
-  "stats": [],
-  "trait": 2030
+    "condition":  null,
+    "creator":  null,
+    "description":  "Socket an Artifact\u0027s [slot_trait] Trait Slot with this item to gain this trait:\\n\\nThe End of All Things:\nAt the end of this creature\u0027s turn, adjacent creatures activate their end-of-turn effects. This trait does not work on creatures that also have this trait. This trait does not stack.",
+    "icon":  "images/item/material/BlackHoleSun.png",
+    "id":  1688,
+    "name":  "Black Hole Sun",
+    "notes":  [
+
+              ],
+    "slot":  "trait",
+    "sources":  [
+                    {
+                        "type":  "random"
+                    }
+                ],
+    "stats":  [
+
+              ],
+    "trait":  2030,
+    "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/materialItem.yaml"
 }
