@@ -12,55 +12,146 @@ namespace SiralimDumper
         public const string VERSION = "0.2.0";
         public const int SCHEMA_VERSION = 1;
 
+        public const int VK_F1 = 112;
+        public const int VK_F2 = 113;
+        public const int VK_F3 = 114;
+        public const int VK_F4 = 115;
+
+        public static bool DebugModeEnabled = false;
+
         public static AurieStatus InitializeMod(AurieManagedModule Module)
         {
-            Framework.Print("[SiralimDumper] Hello, SiralimDumper!");
+            Print("Hello, SiralimDumper! Press F1 to prevent dumping and enable debug mode.");
 
             Game.Events.OnFrame += OnFrame;
+            Game.Events.OnGameEvent += OnGameEvent;
 
             return AurieStatus.Success;
         }
 
         public static void UnloadMod(AurieManagedModule Module)
         {
-            Framework.Print("[SiralimDumper] Goodbye, SiralimDumper!");
+            Print("Goodbye, SiralimDumper!");
         }
+
+        public static void Print(string msg)
+        {
+            Framework.Print($"[SiralimDumper] {msg}");
+        }
+
+        public static int Frame = 0;
 
         public static void OnFrame(int FrameNumber, double DeltaTime)
         {
-            if (Game.Engine.GetGlobalObject().Members.ContainsKey("creature"))
+            Frame = FrameNumber;
+
+            if (Game.Engine.CallFunction("keyboard_check_released", VK_F1))
             {
-                Framework.Print($"[SiralimDumper] Found databases! Dumping...");
-
-                // set up text engine to preserve special values
-                Game.Engine.GetGlobalObject()["playername"] = "{PLAYERNAME}";
-                Game.Engine.GetGlobalObject()["castlename"] = "{CASTLENAME}";
-
-                // output JSON
-                Framework.Print($"[SiralimDumper] Loading existing image mappings...");
-                var mappings = ImageMappingsFromFile;
-
-                Framework.Print($"[SiralimDumper] Loading existing progress info...");
-                for (var step = CurrentStep; step < ProgressStep.DONE; step++)
+                DebugModeEnabled = !DebugModeEnabled;
+                if (DebugModeEnabled)
                 {
-                    DumpJSON(step, mappings);
+                    Print("Debug mode enabled.");
+                    Print("Press F2 to start/stop event logging.");
+                    Print("Press F3 to dump the global object.");
+                    Print("Press F4 to dump the room.");
+                }
+                else
+                {
+                    Print("Debug mode disabled. Dumping will now proceed.");
+                }
+            }
+
+            if (DebugModeEnabled)
+            {
+                if (Game.Engine.CallFunction("keyboard_check_released", VK_F2))
+                {
+                    EventLoggerEnabled = !EventLoggerEnabled;
+                    if (EventLoggerEnabled)
+                    {
+                        Print("Event logging started.");
+                        Logs.Clear();
+                    }
+                    else
+                    {
+                        Print("Event logging completed. Dumping logs...");
+                        File.WriteAllText(@"events.json", JsonSerializer.Serialize(Logs, GmlDataJsonDump.Options));
+                        Print("Done! Saved to `events.json`.");
+                    }
                 }
 
-                // exit
-                WriteProgress(ProgressStep.DONE);
-                Environment.Exit(0);
+                if (Game.Engine.CallFunction("keyboard_check_released", VK_F3))
+                {
+                    Print("Dumping globals...");
+                    File.WriteAllText(@"globals.json", JsonSerializer.Serialize(Game.Engine.GetGlobalObject().AsJSON(), GmlDataJsonDump.Options));
+                    Print("Done! Saved to `globals.json`.");
+                }
+
+                if (Game.Engine.CallFunction("keyboard_check_released", VK_F4))
+                {
+                    Print("Dumping room...");
+
+                    var globals = Game.Engine.GetGlobalObject();
+                    var room = Game.Engine.GetBuiltinVariable("room", globals, 0);
+                    double instanceCount = Game.Engine.GetBuiltinVariable("instance_count", globals, 0);
+
+                    File.WriteAllText(@"room.json", JsonSerializer.Serialize(new Dictionary<string, object>()
+                    {
+                        ["id"] = room.GetRoomID(),
+                        ["name"] = room.GetString().Split(" ").Last(),
+                        ["instances"] = Enumerable.Range(0, (int)instanceCount).Select(i => Game.Engine.GetBuiltinVariable("instance_id", globals, i).AsJSON()).ToList(),
+                        ["info"] = Game.Engine.CallFunction("room_get_info", room).AsJSON(),
+                    }, GmlDataJsonDump.Options));
+
+                    Print("Done! Saved to `room.json`.");
+                }
             }
             else
             {
-                // simulate the first E press that activates the loading of global databases
-                Game.Engine.CallFunction("keyboard_key_press", (int)'E');
-                Game.Engine.CallFunction("keyboard_key_release", (int)'E');
+                if (Game.Engine.GetGlobalObject().Members.ContainsKey("creature"))
+                {
+                    Print("Found databases! Dumping...");
+
+                    // set up text engine to preserve special values
+                    Game.Engine.GetGlobalObject()["playername"] = "{PLAYERNAME}";
+                    Game.Engine.GetGlobalObject()["castlename"] = "{CASTLENAME}";
+
+                    // output JSON
+                    Print("Loading existing image mappings...");
+                    var mappings = ImageMappingsFromFile;
+
+                    Print("Loading existing progress info...");
+                    for (var step = CurrentStep; step < ProgressStep.DONE; step++)
+                    {
+                        DumpJSON(step, mappings);
+                    }
+
+                    // exit
+                    WriteProgress(ProgressStep.DONE);
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    // simulate the first E press that activates the loading of global databases
+                    Game.Engine.CallFunction("keyboard_key_press", (int)'E');
+                    Game.Engine.CallFunction("keyboard_key_release", (int)'E');
+                }
+            }
+        }
+
+        public static bool EventLoggerEnabled = false;
+        public static List<object> Logs = new();
+
+        public static void OnGameEvent(CodeExecutionContext Context)
+        {
+            if (EventLoggerEnabled)
+            {
+                Logs.Add(Context.AsJSON());
             }
         }
 
         public static void CompareObjectMembers(IReadOnlyDictionary<string, string> d1, IReadOnlyDictionary<string, GameVariable> d2)
         {
-            Framework.Print($"[SiralimDumper] BEGIN DIFF");
+            Print($"BEGIN DIFF");
             var onlyInD1 = d1.Where(kv => !kv.Key.StartsWith("gml_") && !d2.ContainsKey(kv.Key)).ToDictionary();
             var onlyInD2 = d2.Where(kv => !kv.Key.StartsWith("gml_") && !d1.ContainsKey(kv.Key)).ToDictionary();
             var mutual = d1.Keys.Where(k => !k.StartsWith("gml_") && !onlyInD1.ContainsKey(k)).ToHashSet();
@@ -71,21 +162,21 @@ namespace SiralimDumper
                 string d2pp = d2[k].PrettyPrint();
                 if (!d1pp.Equals(d2pp))
                 {
-                    Framework.Print($"[SiralimDumper] {k}: was: {d1pp.EscapeNonWS().Truncate()} ; is: {d2pp.EscapeNonWS().Truncate()} ;");
+                    Print($"{k}: was: {d1pp.EscapeNonWS().Truncate()} ; is: {d2pp.EscapeNonWS().Truncate()} ;");
                 }
             }
 
             foreach (var k in onlyInD1.Keys)
             {
-                Framework.Print($"[SiralimDumper] {k}: removed");
+                Print($"{k}: removed");
             }
 
             foreach (var k in onlyInD2.Keys)
             {
-                Framework.Print($"[SiralimDumper] {k}: added: {d2[k].PrettyPrint().EscapeNonWS().Truncate()} ;");
+                Print($"{k}: added: {d2[k].PrettyPrint().EscapeNonWS().Truncate()} ;");
             }
 
-            Framework.Print($"[SiralimDumper] END DIFF");
+            Print($"END DIFF");
         }
 
         public enum ProgressStep
@@ -428,7 +519,7 @@ namespace SiralimDumper
 
         public static void DumpJSON(ProgressStep step, Dictionary<string, List<ImageInfo>> mappings)
         {
-            Framework.Print($"[SiralimDumper] Working on step '{Enum.GetName(step)}'...");
+            Print($"Working on step '{Enum.GetName(step)}'...");
 
             switch (step)
             {
@@ -448,7 +539,7 @@ namespace SiralimDumper
                         {
                             var v = category.GetEntity(k);
                             string filename = $@"{RootDirectory}\{category.IndividualFilePath(v)}";
-                            Framework.Print($"[SiralimDumper] writing individual {category.Path} '{v.Name}' to {filename}...");
+                            Print($"writing individual {category.Path} '{v.Name}' to {filename}...");
                             EnsureFileDirExists(filename);
                             File.WriteAllText(filename, JsonSerializer.Serialize(v.AsJSON, JSONSettings));
                             v.MapImages(mappings);
@@ -457,12 +548,12 @@ namespace SiralimDumper
                     break;
             }
 
-            Framework.Print($"[SiralimDumper] Saving image mappings...");
+            Print("Saving image mappings...");
             EnsureFileDirExists(ImageMappingFile);
             File.WriteAllText(ImageMappingFile, JsonSerializer.Serialize(mappings, ImageMappingOptions));
-            Framework.Print($"[SiralimDumper] Saving progress info...");
+            Print("Saving progress info...");
             WriteProgress(step);
-            Framework.Print($"[SiralimDumper] Done with step '{Enum.GetName(step)}'.");
+            Print($"Done with step '{Enum.GetName(step)}'.");
         }
     }
 }

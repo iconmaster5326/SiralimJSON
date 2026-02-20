@@ -264,6 +264,11 @@ namespace SiralimDumper
 
             return refName.Remove(0, refPrefix.Length).GetGMLAssetID();
         }
+        
+        public static int GetRoomID(this GameVariable v)
+        {
+            return v.GetAssetID("room");
+        }
 
         public static int GetSpriteID(this GameVariable v)
         {
