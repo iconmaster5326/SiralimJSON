@@ -16,13 +16,16 @@ namespace SiralimDumper
         public const int VK_F2 = 113;
         public const int VK_F3 = 114;
         public const int VK_F4 = 115;
+        public const int VK_F5 = 116;
 
         public static bool DebugModeEnabled = false;
+        public static AurieManagedModule Instance;
 
         public static AurieStatus InitializeMod(AurieManagedModule Module)
         {
             Print("Hello, SiralimDumper! Press F1 to prevent dumping and enable debug mode.");
 
+            Instance = Module;
             Game.Events.OnFrame += OnFrame;
             Game.Events.OnGameEvent += OnGameEvent;
 
@@ -41,6 +44,13 @@ namespace SiralimDumper
 
         public static int Frame = 0;
 
+        public static IEnumerable<string> AllScripts => Game.Engine.GetGlobalObject().Members.Where(kv =>
+            kv.Value.Type.Equals("method")
+            && !kv.Key.Contains("___struct___")
+            && !kv.Key.StartsWith("live_")
+            && !kv.Key.StartsWith("__scribble")
+        ).Select(kv => "gml_Script_" + kv.Key);
+
         public static void OnFrame(int FrameNumber, double DeltaTime)
         {
             Frame = FrameNumber;
@@ -54,6 +64,7 @@ namespace SiralimDumper
                     Print("Press F2 to start/stop event logging.");
                     Print("Press F3 to dump the global object.");
                     Print("Press F4 to dump the room.");
+                    Print("Press F5 to start/stop script logging.");
                 }
                 else
                 {
@@ -69,12 +80,12 @@ namespace SiralimDumper
                     if (EventLoggerEnabled)
                     {
                         Print("Event logging started.");
-                        Logs.Clear();
+                        EventLogs.Clear();
                     }
                     else
                     {
                         Print("Event logging completed. Dumping logs...");
-                        File.WriteAllText(@"events.json", JsonSerializer.Serialize(Logs, GmlDataJsonDump.Options));
+                        File.WriteAllText(@"events.json", JsonSerializer.Serialize(EventLogs, GmlDataJsonDump.Options));
                         Print("Done! Saved to `events.json`.");
                     }
                 }
@@ -103,6 +114,35 @@ namespace SiralimDumper
                     }, GmlDataJsonDump.Options));
 
                     Print("Done! Saved to `room.json`.");
+                }
+
+                if (Game.Engine.CallFunction("keyboard_check_released", VK_F5))
+                {
+                    ScriptLoggerEnabled = !ScriptLoggerEnabled;
+                    if (ScriptLoggerEnabled)
+                    {
+                        Print($"Starting script logging for {AllScripts.Count()} scripts...");
+                        ScriptLogs.Clear();
+                        foreach (var name in AllScripts)
+                        {
+                            try
+                            {
+                                Game.Events.AddPostScriptNotification(Instance, name, OnScriptCalled);
+                            }
+                            catch (InvalidOperationException)
+                            {
+                                Print($"ERROR: Could not hook into {name}!");
+                            }
+                        }
+                        Print("Script logging started.");
+                    }
+                    else
+                    {
+                        Print("Script logging completed. Dumping logs...");
+                        File.WriteAllText(@"scripts.json", JsonSerializer.Serialize(ScriptLogs, GmlDataJsonDump.Options));
+                        Game.Events.RemoveAllScriptHooksForMod(Instance);
+                        Print("Done! Saved to `scripts.json`.");
+                    }
                 }
             }
             else
@@ -139,14 +179,31 @@ namespace SiralimDumper
         }
 
         public static bool EventLoggerEnabled = false;
-        public static List<object> Logs = new();
+        public static List<object> EventLogs = new();
+
+        public static bool ScriptLoggerEnabled = false;
+        public static List<object> ScriptLogs = new();
 
         public static void OnGameEvent(CodeExecutionContext Context)
         {
             if (EventLoggerEnabled)
             {
-                Logs.Add(Context.AsJSON());
+                EventLogs.Add(Context.AsJSON());
             }
+        }
+
+        public static void OnScriptCalled(ScriptExecutionContext ctx)
+        {
+            ScriptLogs.Add(new Dictionary<string, object>()
+            {
+                ["name"] = ctx.Name,
+                ["frame"] = Frame,
+                ["executed"] = ctx.Executed,
+                ["args"] = ctx.Arguments.Select(var => var.AsJSON()).ToList(),
+                ["self"] = ctx.Self.AsJSON(),
+                ["other"] = ctx.Other.AsJSON(),
+                ["result"] = ctx.GetResult().AsJSON(),
+            });
         }
 
         public static void CompareObjectMembers(IReadOnlyDictionary<string, string> d1, IReadOnlyDictionary<string, GameVariable> d2)
