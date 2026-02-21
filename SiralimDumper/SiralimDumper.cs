@@ -85,7 +85,6 @@ namespace SiralimDumper
                     else
                     {
                         Print("Event logging completed. Dumping logs...");
-                        File.WriteAllText(@"events.json", JsonSerializer.Serialize(EventLogs, GmlDataJsonDump.Options));
                         Print("Done! Saved to `events.json`.");
                     }
                 }
@@ -109,7 +108,8 @@ namespace SiralimDumper
                     {
                         ["id"] = room.GetRoomID(),
                         ["name"] = room.GetString().Split(" ").Last(),
-                        ["instances"] = Enumerable.Range(0, (int)instanceCount).Select(i => Game.Engine.GetBuiltinVariable("instance_id", globals, i).AsJSON()).ToList(),
+                        ["activated"] = Enumerable.Range(0, (int)instanceCount).Select(i => Game.Engine.CallFunction("instance_id_get", i).AsJSON()).ToList(),
+                        ["deactivated"] = Game.Engine.GetRunningRoom().InactiveInstances.Select(gi => gi.AsJSON()).ToList(),
                         ["info"] = Game.Engine.CallFunction("room_get_info", room).AsJSON(),
                     }, GmlDataJsonDump.Options));
 
@@ -139,7 +139,6 @@ namespace SiralimDumper
                     else
                     {
                         Print("Script logging completed. Dumping logs...");
-                        File.WriteAllText(@"scripts.json", JsonSerializer.Serialize(ScriptLogs, GmlDataJsonDump.Options));
                         Game.Events.RemoveAllScriptHooksForMod(Instance);
                         Print("Done! Saved to `scripts.json`.");
                     }
@@ -189,6 +188,7 @@ namespace SiralimDumper
             if (EventLoggerEnabled)
             {
                 EventLogs.Add(Context.AsJSON());
+                File.WriteAllText(@"events.json", JsonSerializer.Serialize(EventLogs, GmlDataJsonDump.Options));
             }
         }
 
@@ -204,6 +204,7 @@ namespace SiralimDumper
                 ["other"] = ctx.Other.AsJSON(),
                 ["result"] = ctx.GetResult().AsJSON(),
             });
+            File.WriteAllText(@"scripts.json", JsonSerializer.Serialize(ScriptLogs, GmlDataJsonDump.Options));
         }
 
         public static void CompareObjectMembers(IReadOnlyDictionary<string, string> d1, IReadOnlyDictionary<string, GameVariable> d2)

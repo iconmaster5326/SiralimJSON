@@ -46,11 +46,16 @@ namespace SiralimDumper
                         case "instance":
                             try
                             {
-                                return GameInstance.FromInstanceID(int.Parse(refTypeParsed.Last())).AsJSON(seenIDs, recursions + 1);
+                                return GameInstance.FromInstanceID(int.Parse(refTypeParsed.Last())).AsJSON(seenIDs, recursions + 1, true);
                             }
                             catch (InvalidCastException)
                             {
-                                return Object("instance", new() { ["id"] = int.Parse(refTypeParsed.Last()), ["invalid"] = true });
+                                return Object("instance", new() {
+                                    ["id"] = int.Parse(refTypeParsed.Last()),
+                                    ["object_index"] = (Game.Engine.CallFunction("variable_instance_get", var, "object_index").GetStringOrNull() ?? "<unknown>").Split(" ").Last(),
+                                    ["invalid_ref"] = true,
+                                    ["members"] = Game.Engine.CallFunction("struct_get_names", var).GetArray().Select(name => new KeyValuePair<string, object>(name, Game.Engine.CallFunction("struct_get", var, name).AsJSON(seenIDs, recursions + 1))).ToDictionary(),
+                                });
                             }
                         case "ds_list":
                             {
@@ -122,7 +127,7 @@ namespace SiralimDumper
                     return Object(var.Type, new() { ["unknown"] = true });
             }
         }
-        public static object AsJSON(this GameInstance gi, HashSet<string>? seenIDs = null, int recursions = 0)
+        public static object AsJSON(this GameInstance gi, HashSet<string>? seenIDs = null, int recursions = 0, bool isRef = false)
         {
             if (seenIDs == null)
             {
@@ -142,7 +147,17 @@ namespace SiralimDumper
                 seenIDs.Add($"gi {gi.ID}");
             }
 
-            return Object("instance", new() { ["name"] = gi.Name, ["id"] = gi.ID, ["members"] = gi.Members.Select(kv => new KeyValuePair<string, object>(kv.Key, kv.Value.AsJSON(seenIDs, recursions + 1))).ToDictionary() });
+            var result = Object("instance", new()
+            {
+                ["id"] = gi.ID,
+                ["object_index"] = (Game.Engine.CallFunction("variable_instance_get", gi, "object_index").GetStringOrNull() ?? "<unknown>").Split(" ").Last(),
+            });
+            if (isRef)
+            {
+                result.Add("invalid_ref", false);
+            }
+            result.Add("members", gi.Members.Select(kv => new KeyValuePair<string, object>(kv.Key, kv.Value.AsJSON(seenIDs, recursions + 1))).ToDictionary());
+            return result;
         }
         public static object AsJSON(this GameObject go, HashSet<string>? seenIDs = null, int recursions = 0)
         {
@@ -169,7 +184,10 @@ namespace SiralimDumper
                 seenIDs.Add($"go {go.GetHashCode()}");
             }
 
-            return Object("object", new() { ["name"] = go.Name, ["members"] = go.Members.Select(kv => new KeyValuePair<string, object>(kv.Key, kv.Value.AsJSON(seenIDs, recursions + 1))).ToDictionary() });
+            return Object("object", new() {
+                ["name"] = go.Name,
+                ["members"] = go.Members.Select(kv => new KeyValuePair<string, object>(kv.Key, kv.Value.AsJSON(seenIDs, recursions + 1))).ToDictionary(),
+            });
         }
         public static object AsJSON(this CodeExecutionContext ctx, HashSet<string>? seenIDs = null, int recursions = 0)
         {
