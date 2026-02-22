@@ -338,6 +338,19 @@ namespace SiralimDumper
                     }
                 }
 
+                if (s.Equals("Gambling Dwarf Shop"))
+                {
+                    int? cost = Shop.TavernNotorietyCost(this);
+                    if (cost != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Gambling,
+                            Cost = cost,
+                        };
+                    }
+                }
+
                 Realm? realm = Realm.Database.Values.FirstOrDefault(r => r.Name.Equals(s));
                 if (realm != null)
                 {

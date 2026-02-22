@@ -251,19 +251,10 @@ namespace SiralimDumper
         {
             get
             {
-                foreach (var realm in Realm.Database.Values)
+                var shopSources = Shop.ShopSources(this);
+                if (shopSources.Length > 0)
                 {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        return new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        };
-                    }
+                    return shopSources[0];
                 }
                 return new() { Type = QuickType.SourceType.Random };
             }

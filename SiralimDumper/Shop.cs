@@ -40,16 +40,20 @@ namespace SiralimDumper
             return !(left == right);
         }
     }
-    public class ShopItemGOTGKey : ShopItemSpecial {
+    public class ShopItemGOTGKey : ShopItemSpecial
+    {
         public override QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.GotgKey;
     }
-    public class ShopItemSmallChest : ShopItemSpecial {
+    public class ShopItemSmallChest : ShopItemSpecial
+    {
         public override QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.SmallChest;
     }
-    public class ShopItemMediumChest : ShopItemSpecial {
+    public class ShopItemMediumChest : ShopItemSpecial
+    {
         public override QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.MediumChest;
     }
-    public class ShopItemLargeChest : ShopItemSpecial {
+    public class ShopItemLargeChest : ShopItemSpecial
+    {
         public override QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.LargeChest;
     }
     public class ShopEntry : IEquatable<ShopEntry?>
@@ -94,9 +98,10 @@ namespace SiralimDumper
                     {
                         Type = Item.ShopItemType,
                         Cost = Cost,
-                        Id = (int) ((ISiralimEntity)Item).Key,
+                        Id = (int)((ISiralimEntity)Item).Key,
                     };
-                } else
+                }
+                else
                 {
                     return new()
                     {
@@ -192,5 +197,57 @@ namespace SiralimDumper
                 });
             }
         }
+
+        private static Shop? _Tavern;
+        public static Shop Tavern
+        {
+            get
+            {
+                if (_Tavern == null)
+                {
+                    _Tavern = new Shop(Game.Engine.CallScript("gml_Script_scr_TavernShopSetup"));
+                }
+                return _Tavern;
+            }
+        }
+        private static Dictionary<IShopItem, int>? _TavernItemInfo;
+        public static int? TavernNotorietyCost(IShopItem item)
+        {
+            if (_TavernItemInfo == null)
+            {
+                _TavernItemInfo = new();
+                foreach (var entry in Tavern.Items)
+                {
+                    _TavernItemInfo[entry.Item] = entry.Cost;
+                }
+            }
+            return _TavernItemInfo.GetValueOrDefault(item);
+        }
+
+        public static QuickType.Source[] ShopSources(IShopItem item)
+        {
+            List<QuickType.Source> result = new();
+
+            foreach (var realm in Realm.Database.Values)
+            {
+                var godShopInfo = realm.GetGodShopInfo(item);
+                if (godShopInfo != null)
+                {
+                    result.Add(new()
+                    {
+                        Type = QuickType.SourceType.Godshop,
+                        Realm = realm.ID,
+                        Rank = godShopInfo.Level,
+                        Cost = godShopInfo.Cost,
+                    });
+                }
+            }
+
+            int? tavernCost = TavernNotorietyCost(item);
+            if (tavernCost != null) result.Add(new() { Type = QuickType.SourceType.Gambling, Cost = tavernCost, });
+
+            return result.ToArray();
+        }
     }
 }
+

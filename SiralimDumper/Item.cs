@@ -149,22 +149,7 @@ namespace SiralimDumper
             get
             {
                 List<QuickType.Source> result = new();
-
-                foreach (var realm in Realm.Database.Values)
-                {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        result.Add(new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        });
-                    }
-                }
-
+                result.Add(Shop.ShopSources(this));
                 result.Add(new() { Type = QuickType.SourceType.Random });
                 return result.ToArray();
             }
@@ -238,25 +223,14 @@ namespace SiralimDumper
         {
             get
             {
-                List<QuickType.Source> result = new();
-
-                foreach (var realm in Realm.Database.Values)
+                var shopSources = Shop.ShopSources(this);
+                if (shopSources.Length > 0)
                 {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        result.Add(new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        });
-                    }
+                    return shopSources;
                 }
 
-                result.Add(new() { Type = QuickType.SourceType.Random }); // TODO: some materials (god particles, etc) do not drop randomly!
-                return result.ToArray();
+                // TODO: some materials (god particles, etc) do not drop randomly!
+                return [new() { Type = QuickType.SourceType.Random }];
             }
         }
 

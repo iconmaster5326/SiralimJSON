@@ -106,8 +106,6 @@ The database will be under `exported`.
     * Ned (and at what ranks)
     * Arena shop (and at what ranks)
     * Guild shops (and at what ranks)
-    * Dwarf shop
-    * Everett
 * Nether Boss information
     * creature correspondance
     * skin correspondance

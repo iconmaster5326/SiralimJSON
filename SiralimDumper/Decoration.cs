@@ -134,19 +134,9 @@ namespace SiralimDumper
         {
             get
             {
-                foreach (var realm in Realm.Database.Values)
-                {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        return new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        };
-                    }
+                var shopSources = Shop.ShopSources(this);
+                if (shopSources.Length > 0) {
+                    return shopSources[0];
                 }
                 return new() { Type = QuickType.SourceType.Everett, Cost = 2000, };
             }
@@ -166,7 +156,7 @@ namespace SiralimDumper
             MaxCount = MaxCount,
             Name = Name,
             Notes = [],
-            Sources = Reserved ? [] : [Source],
+            Sources = Reserved ? Shop.ShopSources(this) : [Source],
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
             Visible = Visible,
             Width = Hitbox.Width(),
@@ -270,29 +260,6 @@ namespace SiralimDumper
 
         public string SpriteFilename => $@"{SiralimEntityInfo.WALLS.Path}\{Name.EscapeForFilename()}.png";
 
-        public QuickType.Source[] Sources
-        {
-            get
-            {
-                List<QuickType.Source> result = new();
-                foreach (var realm in Realm.Database.Values)
-                {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        result.Add(new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        });
-                    }
-                }
-                return result.ToArray();
-            }
-        }
-
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -303,7 +270,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = Sources,
+            Sources = Shop.ShopSources(this),
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -405,29 +372,6 @@ namespace SiralimDumper
 
         public string SpriteFilename => $@"{SiralimEntityInfo.FLOORS.Path}\{Name.EscapeForFilename()}.png";
 
-        public QuickType.Source[] Sources
-        {
-            get
-            {
-                List<QuickType.Source> result = new();
-                foreach (var realm in Realm.Database.Values)
-                {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        result.Add(new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        });
-                    }
-                }
-                return result.ToArray();
-            }
-        }
-
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -438,7 +382,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = Sources,
+            Sources = Shop.ShopSources(this),
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -544,19 +488,10 @@ namespace SiralimDumper
         {
             get
             {
-                foreach (var realm in Realm.Database.Values)
+                var shopSources = Shop.ShopSources(this);
+                if (shopSources.Length > 0)
                 {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        return new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        };
-                    }
+                    return shopSources[0];
                 }
                 return new() { Type = QuickType.SourceType.Everett, Cost = 10000, };
             }
@@ -664,19 +599,10 @@ namespace SiralimDumper
         {
             get
             {
-                foreach (var realm in Realm.Database.Values)
+                var shopSources = Shop.ShopSources(this);
+                if (shopSources.Length > 0)
                 {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        return new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        };
-                    }
+                    return shopSources[0];
                 }
                 return new() { Type = QuickType.SourceType.Everett, Cost = 10000, };
             }
@@ -796,19 +722,10 @@ namespace SiralimDumper
         {
             get
             {
-                foreach (var realm in Realm.Database.Values)
+                var shopSources = Shop.ShopSources(this);
+                if (shopSources.Length > 0)
                 {
-                    var godShopInfo = realm.GetGodShopInfo(this);
-                    if (godShopInfo != null)
-                    {
-                        return new()
-                        {
-                            Type = QuickType.SourceType.Godshop,
-                            Realm = realm.ID,
-                            Rank = godShopInfo.Level,
-                            Cost = godShopInfo.Cost,
-                        };
-                    }
+                    return shopSources[0];
                 }
                 return new() { Type = QuickType.SourceType.Everett, Cost = 10000, };
             }
