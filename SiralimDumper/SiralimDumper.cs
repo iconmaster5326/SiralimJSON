@@ -3,6 +3,7 @@ using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using YYTKInterop;
 
@@ -165,9 +166,13 @@ namespace SiralimDumper
                     ScriptLoggerEnabled = !ScriptLoggerEnabled;
                     if (ScriptLoggerEnabled)
                     {
-                        Print($"Starting script logging for {AllScripts.Count()} scripts...");
+                        string filter = Game.Engine.CallFunction("get_string", "What scripts do you want to log?", "*");
+                        string regex = $"^gml_Script_{filter.Replace("*", ".*")}$";
+                        var scripts = AllScripts.Where(name => Regex.IsMatch(name, regex)).ToList();
+
+                        Print($"Starting script logging for {scripts.Count()} scripts...");
                         ScriptLogs.Clear();
-                        foreach (var name in AllScripts)
+                        foreach (var name in scripts)
                         {
                             try
                             {
