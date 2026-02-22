@@ -117,10 +117,6 @@ The database will be under `exported`.
 * Specialization decoration unlocked when ascending
 * False God spell/decoration drops
 * Depth some Realms are auto-unlocked at
-* Condition information
-    * Default number of turns
-    * Max minion stacks
-    * Minion leave chance
 * Which projects are accessible through normal gameplay - create new sandbox save and see what projects are either completed or can be immediately completed
 
 ### Data that needs Manual Fixups

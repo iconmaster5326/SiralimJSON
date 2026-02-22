@@ -149,13 +149,22 @@ namespace SiralimDumper
                     var room = Game.Engine.GetBuiltinVariable("room", globals, 0);
                     double instanceCount = Game.Engine.GetBuiltinVariable("instance_count", globals, 0);
 
+                    int? id;
+                    try
+                    {
+                        id = room.GetRoomID();
+                    } catch (Exception)
+                    {
+                        id = null;
+                    }
+
                     File.WriteAllText(@"room.json", JsonSerializer.Serialize(new Dictionary<string, object>()
                     {
-                        ["id"] = room.GetRoomID(),
+                        ["id"] = ((object?)id) ?? "<unknown>",
                         ["name"] = room.GetString().Split(" ").Last(),
-                        ["activated"] = Enumerable.Range(0, (int)instanceCount).Select(i => Game.Engine.CallFunction("instance_id_get", i).AsJSON()).ToList(),
-                        ["deactivated"] = Game.Engine.GetRunningRoom().InactiveInstances.Select(gi => gi.AsJSON()).ToList(),
-                        ["info"] = Game.Engine.CallFunction("room_get_info", room).AsJSON(),
+                        ["activated"] = Enumerable.Range(0, (int)instanceCount).Select(i => Game.Engine.CallFunction("instance_id_get", i).AsJSON(recursions: 8)).ToList(),
+                        ["deactivated"] = Game.Engine.GetRunningRoom().InactiveInstances.Select(gi => gi.AsJSON(recursions: 8)).ToList(),
+                        ["info"] = Game.Engine.CallFunction("room_get_info", room).AsJSON(recursions: 8),
                     }, GmlDataJsonDump.Options));
 
                     Print("Done! Saved to `room.json`.");

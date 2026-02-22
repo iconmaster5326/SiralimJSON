@@ -48,6 +48,19 @@ properties:
       - type: "null"
       - type: integer
         minimum: 0
+  initialDuration:
+    description: By default, when this condition is inflicted, how many turns does it last? A value of 0 means it lasts forever by default. Only present for buffs and debuffs.
+    type: integer
+    minimum: 0
+  maxStacks:
+    description: How many stacks of this condition can you have? Only present for minions.
+    type: integer
+    minimum: 1
+  leaveChance:
+    description: What is the chance this condition loses a stack each turn? A percentage between 0 and 1. Only present for minions.
+    type: number
+    minimum: 0
+    maximum: 1
   notes:
     description: Any user-given notes for this condition.
     type: array

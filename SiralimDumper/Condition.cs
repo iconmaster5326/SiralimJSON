@@ -176,6 +176,48 @@ namespace SiralimDumper
             }
         }
 
+        private int? _InitialDuration = null;
+        public int InitialDuration
+        {
+            get
+            {
+                if (!_InitialDuration.HasValue)
+                {
+                    int value = Game.Engine.CallScript("gml_Script_scr_ConditionDefaultDuration", ID);
+                    _InitialDuration = value <= 0 ? 0 : value;
+                }
+                return _InitialDuration.Value;
+            }
+        }
+
+        private int? _MaxStacks = null;
+        public int MaxStacks
+        {
+            get
+            {
+                if (!_MaxStacks.HasValue)
+                {
+                    int value = Game.Engine.CallScript("gml_Script_scr_MinionMaxStacks", ID);
+                    _MaxStacks = value <= 0 ? 0 : value;
+                }
+                return _MaxStacks.Value;
+            }
+        }
+
+        private double? _LeaveChance = null;
+        public double LeaveChance
+        {
+            get
+            {
+                if (!_LeaveChance.HasValue)
+                {
+                    double value = Game.Engine.CallScript("gml_Script_scr_MinionLeaveChance", ID).GetDouble() / 100.0;
+                    _LeaveChance = Math.Clamp(value, 0, 1);
+                }
+                return _LeaveChance.Value;
+            }
+        }
+
         public string IconFilename => $@"{SiralimEntityInfo.CONDITIONS.Path}\{Name.EscapeForFilename()}.png";
         public string IconResistedFilename => $@"{SiralimEntityInfo.CONDITIONS.Path}\{Name.EscapeForFilename()}_resist.png";
 
@@ -194,6 +236,9 @@ namespace SiralimDumper
             Notes = [],
             Reserved = Reserved,
             Type = Enum.Parse<QuickType.ConditionType>(Enum.GetName(Kind), true),
+            InitialDuration = Kind == ConditionKind.MINION ? null : InitialDuration,
+            MaxStacks = Kind == ConditionKind.MINION ? MaxStacks : null,
+            LeaveChance = Kind == ConditionKind.MINION ? LeaveChance : null,
 #nullable enable
         };
         object ISiralimEntity.Key => ID;

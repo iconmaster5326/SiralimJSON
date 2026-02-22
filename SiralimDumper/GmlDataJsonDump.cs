@@ -29,6 +29,11 @@ namespace SiralimDumper
                 seenIDs = new HashSet<string>();
             }
 
+            if (recursions > MAX_RECUR)
+            {
+                return Object(var.Type, new() { ["recursionLimitReached"] = true });
+            }
+
             switch (var.Type.Split(" ")[0])
             {
                 case "ptr":
