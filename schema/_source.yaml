@@ -29,6 +29,8 @@ properties:
     type: integer
   desc:
     type: string
+  cost:
+    type: integer
 # end of Quicktype fixups.
 oneOf:
   - title: Source (Realm)
@@ -43,7 +45,7 @@ oneOf:
         minimum: 0
   - title: Source (God Shop)
     description: This entity comes from a god shop.
-    required: [type, realm, rank]
+    required: [type, realm, rank, cost]
     properties:
       type:
         const: godshop
@@ -55,9 +57,13 @@ oneOf:
         description: The minimum devotion rank this appears in.
         type: integer
         minimum: 1
+      cost:
+        description: The amount of emblems used to purchase this item.
+        type: integer
+        minimum: 1
   - title: Source (Guild Shop)
     description: This entity comes from a guild shop.
-    required: [type, class, rank]
+    required: [type, class, rank, cost]
     properties:
       type:
         const: guild
@@ -66,6 +72,10 @@ oneOf:
         description: The guild this comes from.
       rank:
         description: The minimum guild rank this appears in.
+        type: integer
+        minimum: 1
+      cost:
+        description: The amount of the guild's material used to purchase this item.
         type: integer
         minimum: 1
   - title: Source (Gate of the Gods)
@@ -80,7 +90,7 @@ oneOf:
         minimum: 0
   - title: Source (Nethermancer Ned)
     description: This entity comes from Nethermancer Ned, after killing a Nether Boss a number of times.
-    required: [type, boss, times]
+    required: [type, boss, times, cost]
     properties:
       type:
         const: ned
@@ -90,6 +100,10 @@ oneOf:
         minimum: 0
       times:
         description: The number of times this boss must be killed.
+        type: integer
+        minimum: 1
+      cost:
+        description: The amount of Brimstone used to purchase this item.
         type: integer
         minimum: 1
   - title: Source (False God)
@@ -104,12 +118,16 @@ oneOf:
         minimum: 0
   - title: Source (Arena)
     description: This entity comes from the Arena shop.
-    required: [type, rank]
+    required: [type, rank, cost]
     properties:
       type:
         const: arena
       rank:
         description: The minimum arena rank this appears in.
+        type: integer
+        minimum: 1
+      cost:
+        description: The amount of Glory used to purchase this item.
         type: integer
         minimum: 1
   - title: Source (Project)
@@ -160,36 +178,26 @@ oneOf:
     properties:
       type:
         const: random
-  - title: Source (Zantai)
-    description: This entity comes from Zantai fights.
-    required: [type]
-    properties:
-      type:
-        const: zantai
-  - title: Source (Otherworld)
-    description: This entity comes from Otherworld portals.
-    required: [type]
-    properties:
-      type:
-        const: otherworld
-  - title: Source (Netherworld)
-    description: This entity comes from Netherworld portals.
-    required: [type]
-    properties:
-      type:
-        const: netherworld
   - title: Source (Gambling Dwarves)
     description: This entity comes from the Gambling Dwarves shop.
-    required: [type]
+    required: [type, cost]
     properties:
       type:
         const: gambling
+      cost:
+        description: The amount of Notoriety used to purchase this item.
+        type: integer
+        minimum: 1
   - title: Source (Everett)
     description: This entity comes from Everett.
-    required: [type]
+    required: [type, cost]
     properties:
       type:
         const: everett
+      cost:
+        description: The amount of Glamor used to purchase this item.
+        type: integer
+        minimum: 1
   - title: Source (Special)
     description: This entity comes from some special source.
     required: [type, desc]

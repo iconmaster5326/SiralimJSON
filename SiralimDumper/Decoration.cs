@@ -113,7 +113,8 @@ namespace SiralimDumper
 
         public string SpriteFilename => $@"{SiralimEntityInfo.DECOR.Path}\{Name.EscapeForFilename()}.png";
 
-        public static readonly IReadOnlyDictionary<DecorationHitbox, QuickType.Collision> COLLIDE_MAP = new Dictionary<DecorationHitbox, QuickType.Collision>() {
+        public static readonly IReadOnlyDictionary<DecorationHitbox, QuickType.Collision> COLLIDE_MAP = new Dictionary<DecorationHitbox, QuickType.Collision>()
+        {
             [DecorationHitbox.FOUR_BY_THREE] = QuickType.Collision.Full,
             [DecorationHitbox.THREE_BY_THREE] = QuickType.Collision.Full,
             [DecorationHitbox.MENAGERIE] = QuickType.Collision.Menagerie,
@@ -128,6 +129,29 @@ namespace SiralimDumper
             [DecorationHitbox.TWO_BY_TWO] = QuickType.Collision.Full,
             [DecorationHitbox.TWO_WIDE_TOP_PASSABLE] = QuickType.Collision.FullTall,
         };
+
+        public QuickType.Source Source
+        {
+            get
+            {
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        };
+                    }
+                }
+                return new() { Type = QuickType.SourceType.Everett, Cost = 2000, };
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -142,7 +166,7 @@ namespace SiralimDumper
             MaxCount = MaxCount,
             Name = Name,
             Notes = [],
-            Sources = Reserved ? [] : [new() { Type = QuickType.SourceType.Everett }],
+            Sources = Reserved ? [] : [Source],
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
             Visible = Visible,
             Width = Hitbox.Width(),
@@ -245,6 +269,30 @@ namespace SiralimDumper
         public Tileset Tileset => TilesetID.GetGMLTileset();
 
         public string SpriteFilename => $@"{SiralimEntityInfo.WALLS.Path}\{Name.EscapeForFilename()}.png";
+
+        public QuickType.Source[] Sources
+        {
+            get
+            {
+                List<QuickType.Source> result = new();
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        result.Add(new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        });
+                    }
+                }
+                return result.ToArray();
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -255,7 +303,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
+            Sources = Sources,
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -356,6 +404,30 @@ namespace SiralimDumper
         public Tileset Tileset => TilesetID.GetGMLTileset();
 
         public string SpriteFilename => $@"{SiralimEntityInfo.FLOORS.Path}\{Name.EscapeForFilename()}.png";
+
+        public QuickType.Source[] Sources
+        {
+            get
+            {
+                List<QuickType.Source> result = new();
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        result.Add(new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        });
+                    }
+                }
+                return result.ToArray();
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -366,7 +438,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
+            Sources = Sources,
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -467,6 +539,29 @@ namespace SiralimDumper
         public Sprite Sprite => SpriteID.GetGMLSprite();
 
         public string SpriteFilename => $@"{SiralimEntityInfo.BGS.Path}\{Name.EscapeForFilename()}.png";
+
+        public QuickType.Source Source
+        {
+            get
+            {
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        };
+                    }
+                }
+                return new() { Type = QuickType.SourceType.Everett, Cost = 10000, };
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -477,7 +572,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
+            Sources = [Source],
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
 #nullable enable
         };
@@ -565,6 +660,28 @@ namespace SiralimDumper
             // no images to map!
         }
 
+        public QuickType.Source Source
+        {
+            get
+            {
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        };
+                    }
+                }
+                return new() { Type = QuickType.SourceType.Everett, Cost = 10000, };
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -575,7 +692,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Everett }],
+            Sources = [Source],
 #nullable enable
         };
         object ISiralimEntity.Key => ID;
@@ -675,6 +792,28 @@ namespace SiralimDumper
             // no images to map!
         }
 
+        public QuickType.Source Source
+        {
+            get
+            {
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        };
+                    }
+                }
+                return new() { Type = QuickType.SourceType.Everett, Cost = 10000, };
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -685,7 +824,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Everett }], // TODO
+            Sources = [Source],
 #nullable enable
         };
         object ISiralimEntity.Key => ID;

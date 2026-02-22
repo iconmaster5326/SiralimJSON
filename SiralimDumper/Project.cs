@@ -247,6 +247,28 @@ namespace SiralimDumper
 
         public string SpriteFilename => $@"{SiralimEntityInfo.PROJECT_ITEMS.Path}\{Name.EscapeForFilename()}.png";
 
+        public QuickType.Source Source
+        {
+            get
+            {
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        };
+                    }
+                }
+                return new() { Type = QuickType.SourceType.Random };
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -257,7 +279,7 @@ namespace SiralimDumper
             Name = Name,
             Icon = $@"images\{SpriteFilename}".Replace("\\", "/"),
             Projects = Project.Database.Values.Where(p => p.ProjectItemIDs.ContainsKey(ID)).Select(p => (long)p.ID).ToArray(),
-            Sources = [new() { Type = QuickType.SourceType.Random }], // TODO
+            Sources = [Source],
             Notes = [],
 #nullable enable
         };

@@ -1,4 +1,6 @@
-﻿using YYTKInterop;
+﻿using System.Linq;
+using System.Text.RegularExpressions;
+using YYTKInterop;
 using static SiralimDumper.SiralimDumper;
 
 namespace SiralimDumper
@@ -313,6 +315,27 @@ namespace SiralimDumper
                         Type = QuickType.SourceType.Gotg,
                         God = god.ID,
                     };
+                }
+
+                if (s.StartsWith("God Shop ("))
+                {
+                    string shopGodName = Regex.Match(s, "^God Shop \\((.*)\\)$").Groups[1].Value;
+                    God shopGod = God.Database.Values.First(g => g.Name.Equals(shopGodName));
+                    if (shopGod.RealmID != null)
+                    {
+                        var shopRealm = Realm.Database[shopGod.RealmID ?? -1];
+                        var godShopInfo = shopRealm.GetGodShopInfo(this);
+                        if (godShopInfo != null)
+                        {
+                            return new()
+                            {
+                                Type = QuickType.SourceType.Godshop,
+                                Realm = shopRealm.ID,
+                                Rank = godShopInfo.Level,
+                                Cost = godShopInfo.Cost,
+                            };
+                        }
+                    }
                 }
 
                 Realm? realm = Realm.Database.Values.FirstOrDefault(r => r.Name.Equals(s));

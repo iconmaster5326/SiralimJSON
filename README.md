@@ -103,7 +103,6 @@ The database will be under `exported`.
 ### Scrapable Data
 
 * Shop information - what can be bought, and for how much, at...
-    * God shops (and at what ranks)
     * Ned (and at what ranks)
     * Arena shop (and at what ranks)
     * Guild shops (and at what ranks)

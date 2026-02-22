@@ -148,6 +148,39 @@ namespace SiralimDumper
         }
         public Dictionary<int, HashSet<ShopEntry>> GodShop => _GodShop ??= _GenGodShop();
 
+        public class GodShopInfo
+        {
+            /// <summary>
+            /// At what minimum god level you need to be at to buy this.
+            /// </summary>
+            public int Level;
+            /// <summary>
+            /// How many emblems this costs to buy.
+            /// </summary>
+            public int Cost;
+        }
+
+        private Dictionary<IShopItem, GodShopInfo>? _AllGodShopInfo;
+        public GodShopInfo? GetGodShopInfo(IShopItem item)
+        {
+            if (_AllGodShopInfo == null)
+            {
+                _AllGodShopInfo = new();
+                foreach (var kv in GodShop)
+                {
+                    foreach (var entry in kv.Value)
+                    {
+                        _AllGodShopInfo[entry.Item] = new()
+                        {
+                            Cost = entry.Cost,
+                            Level = kv.Key,
+                        };
+                    }
+                }
+            }
+            return _AllGodShopInfo.GetValueOrDefault(item);
+        }
+
         public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
         {
             for (var i = 1; i <= 100; i++)

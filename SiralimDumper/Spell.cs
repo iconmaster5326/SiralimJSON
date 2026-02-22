@@ -190,6 +190,28 @@ namespace SiralimDumper
         /// </summary>
         public bool Lootable => _Lootable ?? (_Lootable = !Game.Engine.CallScript("gml_Script_inv_SpellReserved", ID)).Value;
 
+        public QuickType.Source Source
+        {
+            get
+            {
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        };
+                    }
+                }
+                return new() { Type = QuickType.SourceType.Random };
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -211,9 +233,7 @@ namespace SiralimDumper
             PropertyCompatibility = PropertyCompatibility.Select(p => (long)p.ID).Order().ToArray(),
             Reserved = Reserved,
             Resurrects = ResurrectionEffect,
-            Sources = Ultimate ? [] : [new() {
-                Type = QuickType.SourceType.Random, // TODO: handle other cases
-            }],
+            Sources = Ultimate ? [] : [Source],
             Tags = Tags,
             Targets = Enum.Parse<QuickType.Targets>(Enum.GetName<SpellTargetingType>(TargetingType), true),
 #nullable enable

@@ -75,7 +75,7 @@ namespace SiralimDumper
             Id = ID,
             Name = Name,
             Creator = null,
-            Sources = [new() { Type = QuickType.SourceType.Everett }],
+            Sources = [new() { Type = QuickType.SourceType.Everett, Cost = 5000, }],
             Sprite = $@"images\{SpriteFilename}".Replace("\\", "/"),
             Notes = [],
 #nullable enable

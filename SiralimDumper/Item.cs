@@ -144,6 +144,32 @@ namespace SiralimDumper
 
         public string IconFilename => $@"{SiralimEntityInfo.SPELLPROP_ITEMS.Path}\{Name.EscapeForFilename()}.png";
 
+        public QuickType.Source[] Sources
+        {
+            get
+            {
+                List<QuickType.Source> result = new();
+
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        result.Add(new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        });
+                    }
+                }
+
+                result.Add(new() { Type = QuickType.SourceType.Random });
+                return result.ToArray();
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -154,7 +180,7 @@ namespace SiralimDumper
             Icon = $@"images\{IconFilename}".Replace("\\", "/"),
             Id = ID,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Random }],
+            Sources = Sources,
             SpellProperties = PropertiesApplicable.Select(p => (long)p.ID).Order().ToArray(),
             Name = Name,
 #nullable enable
@@ -208,6 +234,32 @@ namespace SiralimDumper
         /// </summary>
         public string IconFilename => $@"{SiralimEntityInfo.MATERIALS.Path}\{Name.EscapeForFilename()}.png";
 
+        public QuickType.Source[] Sources
+        {
+            get
+            {
+                List<QuickType.Source> result = new();
+
+                foreach (var realm in Realm.Database.Values)
+                {
+                    var godShopInfo = realm.GetGodShopInfo(this);
+                    if (godShopInfo != null)
+                    {
+                        result.Add(new()
+                        {
+                            Type = QuickType.SourceType.Godshop,
+                            Realm = realm.ID,
+                            Rank = godShopInfo.Level,
+                            Cost = godShopInfo.Cost,
+                        });
+                    }
+                }
+
+                result.Add(new() { Type = QuickType.SourceType.Random }); // TODO: some materials (god particles, etc) do not drop randomly!
+                return result.ToArray();
+            }
+        }
+
         /// <summary>
         /// Convert this to an exportable entity.
         /// </summary>
@@ -218,7 +270,7 @@ namespace SiralimDumper
             Icon = $@"images\{IconFilename}".Replace("\\", "/"),
             Id = ID,
             Notes = [],
-            Sources = [new() { Type = QuickType.SourceType.Random }],
+            Sources = Sources,
             Creator = null,
             Slot = Enum.Parse<QuickType.Slot>(Enum.GetName(MaterialKind), true),
             Stats = MaterialKind == ArtifactSlot.STAT ? (this as ItemMaterialStat).Stats.Select(s => Enum.Parse<QuickType.Stat>(Enum.GetName(s), true)).ToArray() : [],
