@@ -2,6 +2,7 @@
 using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Xml.Linq;
 using YYTKInterop;
 
@@ -23,12 +24,45 @@ namespace SiralimDumper
 
         public static AurieStatus InitializeMod(AurieManagedModule Module)
         {
+            // Print info message
             Print("Hello, SiralimDumper! Press F1 to prevent dumping and enable debug mode.");
 
+            // Read settings file
+            if (File.Exists("settings.json"))
+            {
+                var settings = JsonSerializer.Deserialize<SiralimDumperSettings>(File.ReadAllText("settings.json"), new JsonSerializerOptions() { 
+                    IncludeFields =  true,
+                });
+                if (settings == null)
+                {
+                    Print("ERROR: `settings.json` is invalid!");
+                    return AurieStatus.ModuleInitializationFailed;
+                }
+
+                DebugModeEnabled = settings.DebugModeEnabled;
+                if (DebugModeEnabled)
+                {
+                    PrintDebugHotkeys();
+                }
+            }
+            else
+            {
+                File.WriteAllText("settings.json", JsonSerializer.Serialize(new SiralimDumperSettings(), new JsonSerializerOptions() {
+                    DefaultIgnoreCondition = JsonIgnoreCondition.Never,
+                    IncludeFields = true,
+                    IndentCharacter = ' ',
+                    IndentSize = 2,
+                    WriteIndented = true,
+                }));
+                Print("`settings.json` created. Edit it to modify settings for the next run.");
+            }
+
+            // Set up events
             Instance = Module;
             Game.Events.OnFrame += OnFrame;
             Game.Events.OnGameEvent += OnGameEvent;
 
+            // we have succeeded
             return AurieStatus.Success;
         }
 
@@ -42,6 +76,11 @@ namespace SiralimDumper
             Framework.Print($"[SiralimDumper] {msg}");
         }
 
+        public class SiralimDumperSettings
+        {
+            public bool DebugModeEnabled;
+        }
+
         public static int Frame = 0;
 
         public static IEnumerable<string> AllScripts => Game.Engine.GetGlobalObject().Members.Where(kv =>
@@ -50,6 +89,15 @@ namespace SiralimDumper
             && !kv.Key.StartsWith("live_")
             && !kv.Key.StartsWith("__scribble")
         ).Select(kv => "gml_Script_" + kv.Key);
+
+        public static void PrintDebugHotkeys()
+        {
+            Print("Debug mode enabled.");
+            Print("Press F2 to start/stop event logging.");
+            Print("Press F3 to dump the global object.");
+            Print("Press F4 to dump the room.");
+            Print("Press F5 to start/stop script logging.");
+        }
 
         public static void OnFrame(int FrameNumber, double DeltaTime)
         {
@@ -60,11 +108,7 @@ namespace SiralimDumper
                 DebugModeEnabled = !DebugModeEnabled;
                 if (DebugModeEnabled)
                 {
-                    Print("Debug mode enabled.");
-                    Print("Press F2 to start/stop event logging.");
-                    Print("Press F3 to dump the global object.");
-                    Print("Press F4 to dump the room.");
-                    Print("Press F5 to start/stop script logging.");
+                    PrintDebugHotkeys();
                 }
                 else
                 {
@@ -170,9 +214,8 @@ namespace SiralimDumper
                 }
                 else
                 {
-                    // simulate the first E press that activates the loading of global databases
-                    Game.Engine.CallFunction("keyboard_key_press", (int)'E');
-                    Game.Engine.CallFunction("keyboard_key_release", (int)'E');
+                    // Simulate getting onto the title screen, where databases are loaded
+                    Game.Engine.CallFunction("room_goto", "titlemain".GetGMLAssetID());
                 }
             }
         }

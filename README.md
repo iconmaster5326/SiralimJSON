@@ -97,3 +97,32 @@ The database will be under `exported`.
 ```bash
 ./prepareExports.ps1
 ```
+
+## TODO
+
+### Scrapable Data
+
+* Shop information - what can be bought, and for how much, at...
+    * God shops (and at what ranks)
+    * Ned (and at what ranks)
+    * Arena shop (and at what ranks)
+    * Guild shops (and at what ranks)
+    * Dwarf shop
+    * Everett
+* Nether Boss information
+    * creature correspondance
+    * skin correspondance
+    * refight dialogue
+* Spell property long descriptions (?)
+* Specialization decoration unlocked when ascending
+* False God spell/decoration drops
+* Depth some Realms are auto-unlocked at
+* Condition information
+    * Default number of turns
+    * Max minion stacks
+    * Minion leave chance
+* Which projects are accessible through normal gameplay - create new sandbox save and see what projects are either completed or can be immediately completed
+
+### Data that needs Manual Fixups
+
+* Creator information for all backer content
