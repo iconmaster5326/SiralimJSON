@@ -351,6 +351,20 @@ namespace SiralimDumper
                     }
                 }
 
+                if (s.Equals("Arena Shop"))
+                {
+                    var arenaInfo = Shop.ArenaItemInfo(this);
+                    if (arenaInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Arena,
+                            Cost = arenaInfo.Cost,
+                            Rank = arenaInfo.FameRank,
+                        };
+                    }
+                }
+
                 Realm? realm = Realm.Database.Values.FirstOrDefault(r => r.Name.Equals(s));
                 if (realm != null)
                 {

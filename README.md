@@ -104,7 +104,6 @@ The database will be under `exported`.
 
 * Shop information - what can be bought, and for how much, at...
     * Ned (and at what ranks)
-    * Arena shop (and at what ranks)
     * Guild shops (and at what ranks)
 * Nether Boss information
     * creature correspondance

@@ -157,6 +157,9 @@ namespace SiralimDumper
                             case 153:
                                 parsedItem = Creature.Database[param];
                                 break;
+                            case 156:
+                                parsedItem = Skin.Database[param];
+                                break;
                             case 157:
                                 parsedItem = new ShopItemSmallChest();
                                 break;
@@ -224,6 +227,49 @@ namespace SiralimDumper
             return _TavernItemInfo.GetValueOrDefault(item);
         }
 
+        public class ArenaInfo
+        {
+            /// <summary>
+            /// What arena fame rank you need to see this item.
+            /// </summary>
+            public int FameRank;
+            /// <summary>
+            /// How much glory this costs.
+            /// </summary>
+            public int Cost;
+        }
+
+        private static Dictionary<IShopItem, ArenaInfo>? _ArenaItemInfo;
+        public static ArenaInfo? ArenaItemInfo(IShopItem item)
+        {
+            if (_ArenaItemInfo == null)
+            {
+                HashSet<IShopItem> seen = new();
+                _ArenaItemInfo = new();
+
+                for (int rank = 0; rank <= 100; rank++)
+                {
+                    Game.Engine.GetGlobalObject().AddMember("fame", rank * 1000.0);
+                    using (var ts = new TempShop(Game.Engine.CallScript("gml_Script_scr_ArenaShopSetup")))
+                    {
+                        foreach (var entry in ts.Shop.Items)
+                        {
+                            if (!seen.Contains(entry.Item))
+                            {
+                                _ArenaItemInfo[entry.Item] = new() {
+                                    FameRank = rank,
+                                    Cost = entry.Cost,
+                                };
+                                seen.Add(entry.Item);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return _ArenaItemInfo.GetValueOrDefault(item);
+        }
+
         public static QuickType.Source[] ShopSources(IShopItem item)
         {
             List<QuickType.Source> result = new();
@@ -244,7 +290,10 @@ namespace SiralimDumper
             }
 
             int? tavernCost = TavernNotorietyCost(item);
-            if (tavernCost != null) result.Add(new() { Type = QuickType.SourceType.Gambling, Cost = tavernCost, });
+            if (tavernCost != null && tavernCost > 0) result.Add(new() { Type = QuickType.SourceType.Gambling, Cost = tavernCost, });
+
+            var arenaInfo = ArenaItemInfo(item);
+            if (arenaInfo != null) result.Add(new() { Type = QuickType.SourceType.Arena, Cost = arenaInfo.Cost, Rank = arenaInfo.FameRank, }); // TODO
 
             return result.ToArray();
         }
