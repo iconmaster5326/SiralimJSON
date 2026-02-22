@@ -150,6 +150,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Decoration;
     }
 
     public class DecorationDatabase : Database<int, Decoration>
@@ -259,6 +261,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Wall;
     }
 
     public class DecorationWallsDatabase : Database<int, DecorationWalls>
@@ -368,6 +372,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Floor;
     }
 
     public class DecorationFloorsDatabase : Database<int, DecorationFloors>
@@ -477,6 +483,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Background;
     }
 
     public class DecorationBackgroundDatabase : Database<int, DecorationBackground>
@@ -572,6 +580,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Weather;
     }
 
     public class DecorationWeatherDatabase : Database<int, DecorationWeather>
@@ -680,6 +690,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Music;
     }
 
     public class DecorationMusicDatabase : Database<int, DecorationMusic>

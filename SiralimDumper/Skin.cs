@@ -125,6 +125,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Skin;
     }
 
     public class SkinDatabase : Database<int, Skin>

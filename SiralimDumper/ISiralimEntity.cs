@@ -2,7 +2,7 @@
 
 namespace SiralimDumper
 {
-    public interface ISiralimEntity
+    public interface ISiralimEntity : IShopItem
     {
         /// <summary>
         /// Convert this entity to an object that is JSON serialzable.

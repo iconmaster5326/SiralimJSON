@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using YYTKInterop;
 using static SiralimDumper.SiralimDumper;
 
@@ -115,6 +116,38 @@ namespace SiralimDumper
 
         public string BlessingIconFilename(int rank) => $@"blessing\{BlessingIcon(rank).Name.EscapeForFilename()}.png";
 
+        // `god_levels` is an array consisting of 62 elements; 31 god IDs followed by thier level, in sequence
+        // `scr_GodShopSetup` takes a god ID and produces a shop instance
+
+        private Dictionary<int, HashSet<ShopEntry>>? _GodShop = null;
+        private Dictionary<int, HashSet<ShopEntry>> _GenGodShop()
+        {
+            Dictionary<int, HashSet<ShopEntry>> result = new();
+            HashSet<ShopEntry> seen = new();
+
+            for (int level = 0; level <= 100; level++)
+            {
+                using (var tgs = new TempGodShop(GodID, level))
+                {
+                    foreach (var entry in tgs.Shop.Items)
+                    {
+                        if (!seen.Contains(entry))
+                        {
+                            if (!result.ContainsKey(level))
+                            {
+                                result[level] = new();
+                            }
+                            result[level].Add(entry);
+                            seen.Add(entry);
+                        }
+                    }
+                }
+            }
+
+            return result;
+        }
+        public Dictionary<int, HashSet<ShopEntry>> GodShop => _GodShop ??= _GenGodShop();
+
         public void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings)
         {
             for (var i = 1; i <= 100; i++)
@@ -141,7 +174,11 @@ namespace SiralimDumper
                 Blessing = Blessing(rank),
                 Icon = $@"images\{BlessingIconFilename(rank)}".Replace("\\", "/"),
             }).ToArray(),
-            GodShop = [], // TODO
+            GodShop = GodShop.Select(kv =>
+                new KeyValuePair<string, QuickType.ShopItem[]>($"{kv.Key}", kv.Value.Select(item =>
+                    item.AsJSON
+                ).ToArray())
+            ).ToDictionary(),
             Id = ID,
             Name = Name,
             Notes = [],
@@ -151,6 +188,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => throw new NotImplementedException();
     }
 
     public class RealmDatabase : Database<int, Realm>
@@ -279,6 +318,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => ID.ToString();
+
+        public QuickType.ShopItemType ShopItemType => throw new NotImplementedException();
     }
 
     public class RealmPropertyDatabase : Database<int, RealmProperty>

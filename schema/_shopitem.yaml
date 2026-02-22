@@ -83,6 +83,16 @@ oneOf:
     properties:
       type:
         const: projectItem
+  - description: A personality tome being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: personalityTome
+  - description: A spell being sold.
+    required: [type, id, cost]
+    properties:
+      type:
+        const: spell
   - description: A Gate of the Gods key being sold.
     required: [type, cost]
     properties:

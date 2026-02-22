@@ -49,14 +49,27 @@ namespace SiralimDumper
                     switch (refTypeParsed[0])
                     {
                         case "instance":
+                            int id = int.Parse(refTypeParsed.Last());
+
+                            if (seenIDs.Contains($"gi {id}"))
+                            {
+                                return Object("instance", new()
+                                {
+                                    ["id"] = id,
+                                    ["seen"] = true,
+                                });
+                            }
+
                             try
                             {
-                                return GameInstance.FromInstanceID(int.Parse(refTypeParsed.Last())).AsJSON(seenIDs, recursions + 1, true);
+                                return GameInstance.FromInstanceID(id).AsJSON(seenIDs, recursions + 1, true);
                             }
                             catch (InvalidCastException)
                             {
-                                return Object("instance", new() {
-                                    ["id"] = int.Parse(refTypeParsed.Last()),
+                                seenIDs.Add($"gi {id}");
+                                return Object("instance", new()
+                                {
+                                    ["id"] = id,
                                     ["object_index"] = (Game.Engine.CallFunction("variable_instance_get", var, "object_index").GetStringOrNull() ?? "<unknown>").Split(" ").Last(),
                                     ["invalid_ref"] = true,
                                     ["members"] = Game.Engine.CallFunction("struct_get_names", var).GetArray().Select(name => new KeyValuePair<string, object>(name, Game.Engine.CallFunction("struct_get", var, name).AsJSON(seenIDs, recursions + 1))).ToDictionary(),
@@ -145,7 +158,11 @@ namespace SiralimDumper
             }
             else if (seenIDs.Contains($"gi {gi.ID}"))
             {
-                return Object("instance", new() { ["seen"] = true });
+                return Object("instance", new()
+                {
+                    ["id"] = gi.ID,
+                    ["seen"] = true,
+                });
             }
             else
             {
@@ -189,7 +206,8 @@ namespace SiralimDumper
                 seenIDs.Add($"go {go.GetHashCode()}");
             }
 
-            return Object("object", new() {
+            return Object("object", new()
+            {
                 ["name"] = go.Name,
                 ["members"] = go.Members.Select(kv => new KeyValuePair<string, object>(kv.Key, kv.Value.AsJSON(seenIDs, recursions + 1))).ToDictionary(),
             });

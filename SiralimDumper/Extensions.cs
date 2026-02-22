@@ -641,5 +641,15 @@ namespace SiralimDumper
                 list.Add(t);
             }
         }
+
+        public static GameVariable InstanceVar(this GameVariable instance, string var)
+        {
+            return Game.Engine.CallFunction("variable_instance_get", instance, var);
+        }
+
+        public static string InstanceObjectName(this GameVariable instance)
+        {
+            return instance.InstanceVar("object_index").GetString().Split(" ").Last();
+        }
     }
 }

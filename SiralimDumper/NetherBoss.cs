@@ -57,6 +57,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => throw new NotImplementedException();
     }
 
     public class NetherBossDatabase : Database<int, NetherBoss>

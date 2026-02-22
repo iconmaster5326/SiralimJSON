@@ -82,6 +82,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Accessory;
     }
 
     public class AccessoryDatabase : Database<int, Accessory>

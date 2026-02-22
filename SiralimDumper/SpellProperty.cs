@@ -123,6 +123,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => ID.ToString();
+
+        public QuickType.ShopItemType ShopItemType => throw new NotImplementedException();
     }
 
     public class SpellPropertyDatabase : Database<int, SpellProperty>

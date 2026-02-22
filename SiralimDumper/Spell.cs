@@ -220,6 +220,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Spell;
     }
 
     public class SpellDatabase : Database<int, Spell>

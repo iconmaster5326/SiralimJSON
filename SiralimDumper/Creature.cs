@@ -343,6 +343,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Creature;
     }
 
     public class CreatureDatabase : Database<int, Creature>

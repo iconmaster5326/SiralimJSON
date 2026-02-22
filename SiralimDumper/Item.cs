@@ -97,6 +97,8 @@ namespace SiralimDumper
         object ISiralimEntity.Key => ID;
         string ISiralimEntity.Name => Name;
 
+        public virtual QuickType.ShopItemType ShopItemType => throw new NotImplementedException();
+
         public abstract void MapImages(Dictionary<string, List<SiralimDumper.ImageInfo>> mappings);
     }
 
@@ -157,6 +159,8 @@ namespace SiralimDumper
             Name = Name,
 #nullable enable
         };
+
+        public override QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.SpellPropertyItem;
     }
 
     public class ItemSpellPropertyDatabase : Database<int, ItemSpellProperty>
@@ -228,6 +232,8 @@ namespace SiralimDumper
         {
             mappings.GetAndAppend(Icon.Name, new ImageInfo(IconIndex, IconFilename));
         }
+
+        public override QuickType.ShopItemType ShopItemType => QuickType.ShopItemType.Material;
     }
 
     public class ItemMaterialDatabase : Database<int, ItemMaterial>

@@ -325,6 +325,8 @@ namespace SiralimDumper
         };
         object ISiralimEntity.Key => Name;
         string ISiralimEntity.Name => Name;
+
+        public QuickType.ShopItemType ShopItemType => throw new NotImplementedException();
     }
 
     public class RaceDatabase : Database<string, Race>

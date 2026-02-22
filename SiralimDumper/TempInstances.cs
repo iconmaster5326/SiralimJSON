@@ -79,4 +79,48 @@ namespace SiralimDumper
             Game.Engine.CallScript("gml_Script_scr_SetBiome", OldBiome);
         }
     }
+
+    /// <summary>
+    /// Temporarily creates a shop to browse.
+    /// </summary>
+    internal class TempShop : IDisposable
+    {
+        private GameVariable Instance;
+        public Shop Shop;
+        public TempShop(GameVariable var)
+        {
+            Instance = var;
+            Shop = new(var);
+        }
+        public void Dispose()
+        {
+            Game.Engine.CallFunction("instance_destroy", Instance);
+        }
+    }
+
+    /// <summary>
+    /// Temporarily creates a shop to browse.
+    /// </summary>
+    internal class TempGodShop : IDisposable
+    {
+        private GameVariable Instance;
+        private GameVariable OldGodLevels;
+        public Shop Shop;
+        public TempGodShop(int godID, int level)
+        {
+            OldGodLevels = Game.Engine.GetGlobalObject().Members["god_levels"];
+            var newGodLevels = OldGodLevels.GetArray().Select(x => (int)x).ToList();
+            newGodLevels[2 + 2 * godID] = level;
+            Game.Engine.GetGlobalObject().AddMember("god_levels", new GameVariable(newGodLevels.Select(x => new GameVariable(x)).ToList()));
+
+            Instance = Game.Engine.CallScript("gml_Script_scr_GodShopSetup", godID);
+
+            Shop = new(Instance);
+        }
+        public void Dispose()
+        {
+            Game.Engine.GetGlobalObject().AddMember("god_levels", OldGodLevels);
+            Game.Engine.CallFunction("instance_destroy", Instance);
+        }
+    }
 }
