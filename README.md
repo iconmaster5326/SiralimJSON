@@ -104,14 +104,16 @@ The database will be under `exported`.
 
 * Shop information - what can be bought, and for how much, at...
     * Ned (and at what ranks)
-    * Guild shops (and at what ranks)
 * Nether Boss information
     * creature correspondance
     * skin correspondance
     * refight dialogue
 * Spell property long descriptions (?)
 * Specialization decoration unlocked when ascending
-* False God spell/decoration drops
+* False God information:
+    * spell (and decoration?) drops
+    * cost to go on bounty
+    * specs whose anointments can drop 
 * Depth some Realms are auto-unlocked at
 * Which projects are accessible through normal gameplay - create new sandbox save and see what projects are either completed or can be immediately completed
 

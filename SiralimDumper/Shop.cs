@@ -227,20 +227,20 @@ namespace SiralimDumper
             return _TavernItemInfo.GetValueOrDefault(item);
         }
 
-        public class ArenaInfo
+        public class ShopItemInfo
         {
             /// <summary>
-            /// What arena fame rank you need to see this item.
+            /// What rank you need to see this item.
             /// </summary>
-            public int FameRank;
+            public int Rank;
             /// <summary>
             /// How much glory this costs.
             /// </summary>
             public int Cost;
         }
 
-        private static Dictionary<IShopItem, ArenaInfo>? _ArenaItemInfo;
-        public static ArenaInfo? ArenaItemInfo(IShopItem item)
+        private static Dictionary<IShopItem, ShopItemInfo>? _ArenaItemInfo;
+        public static ShopItemInfo? ArenaItemInfo(IShopItem item)
         {
             if (_ArenaItemInfo == null)
             {
@@ -257,7 +257,7 @@ namespace SiralimDumper
                             if (!seen.Contains(entry.Item))
                             {
                                 _ArenaItemInfo[entry.Item] = new() {
-                                    FameRank = rank,
+                                    Rank = rank,
                                     Cost = entry.Cost,
                                 };
                                 seen.Add(entry.Item);
@@ -268,6 +268,36 @@ namespace SiralimDumper
             }
 
             return _ArenaItemInfo.GetValueOrDefault(item);
+        }
+
+        private static Dictionary<SiralimClass, Dictionary<IShopItem, ShopItemInfo>> _GuildShopInfo = new();
+        public static ShopItemInfo? GuildItemInfo(SiralimClass clazz, IShopItem item)
+        {
+            if (!_GuildShopInfo.ContainsKey(clazz)) {
+                _GuildShopInfo[clazz] = new();
+                HashSet<IShopItem> seen = new();
+
+                for (int rank = 0; rank <= 100; rank++)
+                {
+                    Game.Engine.GetGlobalObject().AddMember($"guildrep_{clazz.Name().ToLower()}", rank * 1000.0);
+                    using (var ts = new TempShop(Game.Engine.CallScript($"gml_Script_scr_{clazz.Name()}GuildShopSetup")))
+                    {
+                        foreach (var entry in ts.Shop.Items)
+                        {
+                            if (!seen.Contains(entry.Item))
+                            {
+                                _GuildShopInfo[clazz][entry.Item] = new()
+                                {
+                                    Rank = rank,
+                                    Cost = entry.Cost,
+                                };
+                                seen.Add(entry.Item);
+                            }
+                        }
+                    }
+                }
+            }
+            return _GuildShopInfo[clazz].GetValueOrDefault(item);
         }
 
         public static QuickType.Source[] ShopSources(IShopItem item)
@@ -293,7 +323,13 @@ namespace SiralimDumper
             if (tavernCost != null && tavernCost > 0) result.Add(new() { Type = QuickType.SourceType.Gambling, Cost = tavernCost, });
 
             var arenaInfo = ArenaItemInfo(item);
-            if (arenaInfo != null) result.Add(new() { Type = QuickType.SourceType.Arena, Cost = arenaInfo.Cost, Rank = arenaInfo.FameRank, }); // TODO
+            if (arenaInfo != null) result.Add(new() { Type = QuickType.SourceType.Arena, Cost = arenaInfo.Cost, Rank = arenaInfo.Rank, });
+
+            foreach (var clazz in Enum.GetValues<SiralimClass>())
+            {
+                var guildInfo = GuildItemInfo(clazz, item);
+                if (guildInfo != null) result.Add(new() { Type = QuickType.SourceType.Guild, Class = Enum.Parse<QuickType.Class>(clazz.Name()), Cost = guildInfo.Cost, Rank = guildInfo.Rank, });
+            }
 
             return result.ToArray();
         }

@@ -360,7 +360,23 @@ namespace SiralimDumper
                         {
                             Type = QuickType.SourceType.Arena,
                             Cost = arenaInfo.Cost,
-                            Rank = arenaInfo.FameRank,
+                            Rank = arenaInfo.Rank,
+                        };
+                    }
+                }
+
+                if (s.EndsWith("Guild Shop"))
+                {
+                    var clazz = EnumUtil.ClassFromString(Regex.Match(s, "^(.*) Guild Shop$").Groups[1].Value);
+                    var guildInfo = Shop.GuildItemInfo(clazz, this);
+                    if (guildInfo != null)
+                    {
+                        return new()
+                        {
+                            Type = QuickType.SourceType.Guild,
+                            Class = Enum.Parse<QuickType.Class>(clazz.Name()),
+                            Cost = guildInfo.Cost,
+                            Rank = guildInfo.Rank,
                         };
                     }
                 }
