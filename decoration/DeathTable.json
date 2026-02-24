@@ -10,7 +10,12 @@
 
               ],
     "sources":  [
-
+                    {
+                        "class":  "death",
+                        "cost":  15000,
+                        "rank":  5,
+                        "type":  "guild"
+                    }
                 ],
     "sprite":  "images/decoration/DeathTable.png",
     "visible":  true,

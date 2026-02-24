@@ -45,7 +45,10 @@
     "resurrects":  false,
     "sources":  [
                     {
-                        "type":  "random"
+                        "class":  "death",
+                        "cost":  30000,
+                        "rank":  14,
+                        "type":  "guild"
                     }
                 ],
     "tags":  [

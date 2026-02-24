@@ -28,7 +28,11 @@
     "race":  "Construct",
     "reserved":  true,
     "sources":  [
-
+                    {
+                        "cost":  50000,
+                        "rank":  55,
+                        "type":  "arena"
+                    }
                 ],
     "$schema":  "https://github.com/iconmaster5326/SiralimJSON/blob/main/schema/skin.yaml"
 }

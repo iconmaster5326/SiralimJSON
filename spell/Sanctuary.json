@@ -35,7 +35,10 @@
     "resurrects":  false,
     "sources":  [
                     {
-                        "type":  "random"
+                        "class":  "life",
+                        "cost":  30000,
+                        "rank":  8,
+                        "type":  "guild"
                     }
                 ],
     "tags":  [

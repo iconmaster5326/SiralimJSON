@@ -10,7 +10,15 @@
 
               ],
     "sources":  [
-
+                    {
+                        "cost":  3000,
+                        "type":  "gambling"
+                    },
+                    {
+                        "cost":  5000,
+                        "rank":  22,
+                        "type":  "arena"
+                    }
                 ],
     "sprite":  "images/decoration/ArcheryTarget.png",
     "visible":  true,

@@ -10,7 +10,12 @@
 
               ],
     "sources":  [
-
+                    {
+                        "class":  "life",
+                        "cost":  15000,
+                        "rank":  5,
+                        "type":  "guild"
+                    }
                 ],
     "sprite":  "images/decoration/LifeTable.png",
     "visible":  true,
