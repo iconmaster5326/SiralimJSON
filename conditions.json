@@ -4,6 +4,7 @@
         "icon":  "images/condition/Protected.png",
         "iconResisted":  null,
         "id":  0,
+        "initialDuration":  3,
         "material":  27,
         "name":  "Protected",
         "notes":  [
@@ -18,6 +19,7 @@
         "icon":  "images/condition/Savage.png",
         "iconResisted":  null,
         "id":  1,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Savage",
         "notes":  [
@@ -32,6 +34,7 @@
         "icon":  "images/condition/Splashing.png",
         "iconResisted":  null,
         "id":  2,
+        "initialDuration":  3,
         "material":  28,
         "name":  "Splashing",
         "notes":  [
@@ -46,6 +49,7 @@
         "icon":  "images/condition/Warded.png",
         "iconResisted":  null,
         "id":  3,
+        "initialDuration":  3,
         "material":  20,
         "name":  "Warded",
         "notes":  [
@@ -60,6 +64,7 @@
         "icon":  "images/condition/Agile.png",
         "iconResisted":  null,
         "id":  4,
+        "initialDuration":  3,
         "material":  25,
         "name":  "Agile",
         "notes":  [
@@ -74,6 +79,7 @@
         "icon":  "images/condition/Arcane.png",
         "iconResisted":  null,
         "id":  5,
+        "initialDuration":  0,
         "material":  30,
         "name":  "Arcane",
         "notes":  [
@@ -88,6 +94,7 @@
         "icon":  "images/condition/Barrier.png",
         "iconResisted":  null,
         "id":  6,
+        "initialDuration":  0,
         "material":  29,
         "name":  "Barrier",
         "notes":  [
@@ -102,6 +109,7 @@
         "icon":  "images/condition/Proficient.png",
         "iconResisted":  null,
         "id":  7,
+        "initialDuration":  3,
         "material":  33,
         "name":  "Proficient",
         "notes":  [
@@ -116,6 +124,7 @@
         "icon":  "images/condition/Defensive.png",
         "iconResisted":  null,
         "id":  8,
+        "initialDuration":  3,
         "material":  32,
         "name":  "Defensive",
         "notes":  [
@@ -130,6 +139,7 @@
         "icon":  "images/condition/Taunting.png",
         "iconResisted":  null,
         "id":  9,
+        "initialDuration":  3,
         "material":  26,
         "name":  "Taunting",
         "notes":  [
@@ -144,6 +154,7 @@
         "icon":  "images/condition/Leeching.png",
         "iconResisted":  null,
         "id":  10,
+        "initialDuration":  3,
         "material":  24,
         "name":  "Leeching",
         "notes":  [
@@ -158,6 +169,7 @@
         "icon":  "images/condition/Mending.png",
         "iconResisted":  null,
         "id":  11,
+        "initialDuration":  3,
         "material":  23,
         "name":  "Mending",
         "notes":  [
@@ -172,6 +184,7 @@
         "icon":  "images/condition/Invisible.png",
         "iconResisted":  null,
         "id":  12,
+        "initialDuration":  0,
         "material":  22,
         "name":  "Invisible",
         "notes":  [
@@ -186,6 +199,7 @@
         "icon":  "images/condition/Shelled.png",
         "iconResisted":  null,
         "id":  13,
+        "initialDuration":  0,
         "material":  21,
         "name":  "Shelled",
         "notes":  [
@@ -200,6 +214,7 @@
         "icon":  "images/condition/Berserk.png",
         "iconResisted":  null,
         "id":  14,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Berserk",
         "notes":  [
@@ -214,6 +229,7 @@
         "icon":  "images/condition/Repelling.png",
         "iconResisted":  null,
         "id":  15,
+        "initialDuration":  3,
         "material":  31,
         "name":  "Repelling",
         "notes":  [
@@ -228,6 +244,7 @@
         "icon":  "images/condition/Blighted.png",
         "iconResisted":  null,
         "id":  16,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Blighted",
         "notes":  [
@@ -242,6 +259,7 @@
         "icon":  "images/condition/Blind.png",
         "iconResisted":  null,
         "id":  17,
+        "initialDuration":  3,
         "material":  36,
         "name":  "Blind",
         "notes":  [
@@ -256,6 +274,7 @@
         "icon":  "images/condition/Burning.png",
         "iconResisted":  null,
         "id":  18,
+        "initialDuration":  3,
         "material":  37,
         "name":  "Burning",
         "notes":  [
@@ -270,6 +289,7 @@
         "icon":  "images/condition/Confused.png",
         "iconResisted":  null,
         "id":  19,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Confused",
         "notes":  [
@@ -284,6 +304,7 @@
         "icon":  "images/condition/Cursed.png",
         "iconResisted":  null,
         "id":  20,
+        "initialDuration":  3,
         "material":  34,
         "name":  "Cursed",
         "notes":  [
@@ -298,6 +319,7 @@
         "icon":  "images/condition/Frozen.png",
         "iconResisted":  "images/condition/Frozen_resist.png",
         "id":  21,
+        "initialDuration":  0,
         "material":  null,
         "name":  "Frozen",
         "notes":  [
@@ -312,6 +334,7 @@
         "icon":  "images/condition/Poisoned.png",
         "iconResisted":  null,
         "id":  22,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Poisoned",
         "notes":  [
@@ -326,6 +349,7 @@
         "icon":  "images/condition/Scorned.png",
         "iconResisted":  "images/condition/Scorned_resist.png",
         "id":  23,
+        "initialDuration":  1,
         "material":  null,
         "name":  "Scorned",
         "notes":  [
@@ -340,6 +364,7 @@
         "icon":  "images/condition/Silenced.png",
         "iconResisted":  "images/condition/Silenced_resist.png",
         "id":  24,
+        "initialDuration":  1,
         "material":  null,
         "name":  "Silenced",
         "notes":  [
@@ -354,6 +379,7 @@
         "icon":  "images/condition/Sleeping.png",
         "iconResisted":  "images/condition/Sleeping_resist.png",
         "id":  25,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Sleeping",
         "notes":  [
@@ -368,6 +394,7 @@
         "icon":  "images/condition/Snared.png",
         "iconResisted":  "images/condition/Snared_resist.png",
         "id":  26,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Snared",
         "notes":  [
@@ -382,6 +409,7 @@
         "icon":  "images/condition/Stone.png",
         "iconResisted":  "images/condition/Stone_resist.png",
         "id":  27,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Stone",
         "notes":  [
@@ -396,6 +424,7 @@
         "icon":  "images/condition/Vulnerable.png",
         "iconResisted":  null,
         "id":  28,
+        "initialDuration":  3,
         "material":  35,
         "name":  "Vulnerable",
         "notes":  [
@@ -410,6 +439,7 @@
         "icon":  "images/condition/Weak.png",
         "iconResisted":  null,
         "id":  29,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Weak",
         "notes":  [
@@ -424,6 +454,7 @@
         "icon":  "images/condition/Bomb.png",
         "iconResisted":  null,
         "id":  30,
+        "initialDuration":  0,
         "material":  null,
         "name":  "Bomb",
         "notes":  [
@@ -438,6 +469,7 @@
         "icon":  "images/condition/Disarmed.png",
         "iconResisted":  null,
         "id":  31,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Disarmed",
         "notes":  [
@@ -452,6 +484,7 @@
         "icon":  "images/condition/Feared.png",
         "iconResisted":  null,
         "id":  32,
+        "initialDuration":  3,
         "material":  51,
         "name":  "Feared",
         "notes":  [
@@ -466,6 +499,7 @@
         "icon":  "images/condition/Bleeding.png",
         "iconResisted":  "images/condition/Bleeding_resist.png",
         "id":  33,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Bleeding",
         "notes":  [
@@ -480,7 +514,9 @@
         "icon":  "images/condition/AnimatedWeapon.png",
         "iconResisted":  null,
         "id":  35,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Animated Weapon",
         "notes":  [
 
@@ -494,7 +530,9 @@
         "icon":  "images/condition/Conquest.png",
         "iconResisted":  null,
         "id":  36,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Conquest",
         "notes":  [
 
@@ -508,7 +546,9 @@
         "icon":  "images/condition/Death.png",
         "iconResisted":  null,
         "id":  37,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Death",
         "notes":  [
 
@@ -522,7 +562,9 @@
         "icon":  "images/condition/Famine.png",
         "iconResisted":  null,
         "id":  38,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Famine",
         "notes":  [
 
@@ -536,7 +578,9 @@
         "icon":  "images/condition/War.png",
         "iconResisted":  null,
         "id":  39,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "War",
         "notes":  [
 
@@ -550,7 +594,9 @@
         "icon":  "images/condition/GuardianofSurathli.png",
         "iconResisted":  null,
         "id":  40,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Guardian of Surathli",
         "notes":  [
 
@@ -564,7 +610,9 @@
         "icon":  "images/condition/Illusion.png",
         "iconResisted":  null,
         "id":  41,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Illusion",
         "notes":  [
 
@@ -578,7 +626,9 @@
         "icon":  "images/condition/InnerDemons.png",
         "iconResisted":  null,
         "id":  42,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Inner Demons",
         "notes":  [
 
@@ -592,7 +642,9 @@
         "icon":  "images/condition/TorunJunior.png",
         "iconResisted":  null,
         "id":  43,
+        "leaveChance":  0,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Torun Junior",
         "notes":  [
 
@@ -606,7 +658,9 @@
         "icon":  "images/condition/UnstableHorror.png",
         "iconResisted":  null,
         "id":  44,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Unstable Horror",
         "notes":  [
 
@@ -620,7 +674,9 @@
         "icon":  "images/condition/Spiderlings.png",
         "iconResisted":  null,
         "id":  45,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Spiderlings",
         "notes":  [
 
@@ -634,7 +690,9 @@
         "icon":  "images/condition/Writhelings.png",
         "iconResisted":  null,
         "id":  46,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  5,
         "name":  "Writhelings",
         "notes":  [
 
@@ -648,7 +706,9 @@
         "icon":  "images/condition/Zombies.png",
         "iconResisted":  null,
         "id":  47,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Zombies",
         "notes":  [
 
@@ -662,7 +722,9 @@
         "icon":  "images/condition/DireWolves.png",
         "iconResisted":  null,
         "id":  48,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  5,
         "name":  "Dire Wolves",
         "notes":  [
 
@@ -676,7 +738,9 @@
         "icon":  "images/condition/Doppelganger.png",
         "iconResisted":  null,
         "id":  49,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Doppelganger",
         "notes":  [
 
@@ -690,7 +754,9 @@
         "icon":  "images/condition/AnimatedGem.png",
         "iconResisted":  null,
         "id":  50,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Animated Gem",
         "notes":  [
 
@@ -704,6 +770,7 @@
         "icon":  "images/condition/Immune.png",
         "iconResisted":  null,
         "id":  51,
+        "initialDuration":  1,
         "material":  52,
         "name":  "Immune",
         "notes":  [
@@ -718,6 +785,7 @@
         "icon":  "images/condition/Rebirth.png",
         "iconResisted":  null,
         "id":  52,
+        "initialDuration":  3,
         "material":  null,
         "name":  "Rebirth",
         "notes":  [
@@ -732,6 +800,7 @@
         "icon":  "images/condition/Inverted.png",
         "iconResisted":  null,
         "id":  53,
+        "initialDuration":  0,
         "material":  null,
         "name":  "Inverted",
         "notes":  [
@@ -746,7 +815,9 @@
         "icon":  "images/condition/Amalgamation.png",
         "iconResisted":  null,
         "id":  54,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Amalgamation",
         "notes":  [
 
@@ -760,7 +831,9 @@
         "icon":  "images/condition/Microbots.png",
         "iconResisted":  null,
         "id":  55,
+        "leaveChance":  0.25,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Microbots",
         "notes":  [
 
@@ -774,7 +847,9 @@
         "icon":  "images/condition/Mammon.png",
         "iconResisted":  null,
         "id":  56,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Mammon",
         "notes":  [
 
@@ -788,7 +863,9 @@
         "icon":  "images/condition/Leviathan.png",
         "iconResisted":  null,
         "id":  57,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Leviathan",
         "notes":  [
 
@@ -802,7 +879,9 @@
         "icon":  "images/condition/Beelzebub.png",
         "iconResisted":  null,
         "id":  58,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Beelzebub",
         "notes":  [
 
@@ -816,7 +895,9 @@
         "icon":  "images/condition/Belphegor.png",
         "iconResisted":  null,
         "id":  59,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Belphegor",
         "notes":  [
 
@@ -830,7 +911,9 @@
         "icon":  "images/condition/Asmodeus.png",
         "iconResisted":  null,
         "id":  60,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Asmodeus",
         "notes":  [
 
@@ -844,7 +927,9 @@
         "icon":  "images/condition/Satanachia.png",
         "iconResisted":  null,
         "id":  61,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Satanachia",
         "notes":  [
 
@@ -858,7 +943,9 @@
         "icon":  "images/condition/Lucifer.png",
         "iconResisted":  null,
         "id":  62,
+        "leaveChance":  0.35,
         "material":  null,
+        "maxStacks":  1,
         "name":  "Lucifer",
         "notes":  [
 
@@ -872,7 +959,9 @@
         "icon":  "images/condition/BrimFiends.png",
         "iconResisted":  null,
         "id":  63,
+        "leaveChance":  0.05,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Brim Fiends",
         "notes":  [
 
@@ -886,7 +975,9 @@
         "icon":  "images/condition/FireImps.png",
         "iconResisted":  null,
         "id":  64,
+        "leaveChance":  0.05,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Fire Imps",
         "notes":  [
 
@@ -900,7 +991,9 @@
         "icon":  "images/condition/ChaosSatyrs.png",
         "iconResisted":  null,
         "id":  65,
+        "leaveChance":  0.05,
         "material":  null,
+        "maxStacks":  9,
         "name":  "Chaos Satyrs",
         "notes":  [
 
@@ -914,6 +1007,7 @@
         "icon":  "images/condition/Mania.png",
         "iconResisted":  null,
         "id":  66,
+        "initialDuration":  1,
         "material":  null,
         "name":  "Mania",
         "notes":  [
