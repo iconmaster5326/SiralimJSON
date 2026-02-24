@@ -11,7 +11,7 @@ namespace SiralimDumper
 {
     public static class SiralimDumper
     {
-        public const string VERSION = "0.2.0";
+        public const string VERSION = "0.3.0";
         public const int SCHEMA_VERSION = 1;
 
         public const int VK_F1 = 112;
